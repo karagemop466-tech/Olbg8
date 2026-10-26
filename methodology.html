@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pricing method — OLBG research desk</title>
+<meta name="description" content="OLBG sports research dashboard">
+<link rel="stylesheet" href="assets/style.css">
+</head><body><div class="layout"><aside class="sidebar"><a class="brand" href="index.html"><span class="mark">O</span><span><strong>OLBG Research Desk</strong><small>15-sport market monitor</small></span></a><div class="nav-label">Workspace</div><a class="navlink" href="index.html"><span class="ico">⌂</span>Executive summary</a><a class="navlink" href="markets.html"><span class="ico">▦</span>All market lines</a><a class="navlink active" href="methodology.html"><span class="ico">◈</span>Pricing method</a><a class="navlink" href="sources.html"><span class="ico">②</span>Sources</a><a class="navlink" href="review.html"><span class="ico">⚑</span>Flagged for review</a><div class="nav-label">Covered sports</div><a class="navlink" href="sports/golf.html"><span class="ico">⛳</span>Golf</a><a class="navlink" href="sports/volleyball.html"><span class="ico">🏐</span>Volleyball</a><a class="navlink" href="sports/rugby-union.html"><span class="ico">🏉</span>Rugby Union</a><a class="navlink" href="sports/cricket.html"><span class="ico">🏏</span>Cricket</a><a class="navlink" href="sports/snooker.html"><span class="ico">🎱</span>Snooker</a><a class="navlink" href="sports/darts.html"><span class="ico">🎯</span>Darts</a><a class="navlink" href="sports/baseball.html"><span class="ico">⚾</span>Baseball</a><a class="navlink" href="sports/gaelic-sports.html"><span class="ico">🏑</span>Gaelic Sports</a><a class="navlink" href="sports/greyhounds.html"><span class="ico">🐕</span>Greyhounds</a><a class="navlink" href="sports/tennis.html"><span class="ico">🎾</span>Tennis</a><a class="navlink" href="sports/motor-racing.html"><span class="ico">🏎️</span>Motor Racing</a><a class="navlink" href="sports/handball.html"><span class="ico">🤾</span>Handball</a><a class="navlink" href="sports/ice-hockey.html"><span class="ico">🏒</span>Ice Hockey</a><a class="navlink" href="sports/basketball.html"><span class="ico">🏀</span>Basketball</a><a class="navlink" href="sports/rugby-league.html"><span class="ico">🏉</span>Rugby League</a><div class="nav-label">Data</div><a class="navlink" href="data/picks.json"><span class="ico">↧</span>Picks (JSON)</a><a class="navlink" href="data/lines.json"><span class="ico">↧</span>Every line (JSON)</a></aside><main>
+<div class="topbar"><span class="eyebrow">Independent sports market research · OLBG snapshot</span>
+<span class="snapshot"><i class="dot"></i>Data captured 2026-10-26 20:41 UTC</span></div>
+
+<h1>Pricing method</h1>
+<p class="lede">One arithmetic pipeline creates every line on this site. It is deliberately simple, deterministic and reproducible from
+<code>scripts/pricing.py</code> — no black box, no discretionary tweaks per match.</p>
+
+<div class="card">
+<h3>1. Market probability (de-vig)</h3>
+<p>For each market we read every displayed decimal price. The raw implied probability of an outcome is <span class="mono">1 / decimal</span>.
+The overround is the sum of those values. Our market probability is <span class="mono">p_market = (1 / decimal) / overround</span>, so the
+bookmaker's margin is removed proportionally across the outcome set. Markets whose overround falls below 0.90 (an incomplete outcome set)
+are not priced at all.</p>
+
+<h3>2. Tipster consensus</h3>
+<p>OLBG publishes the number of win tips on each outcome. With <span class="mono">N</span> tips in the market and
+<span class="mono">t</span> on an outcome, we shrink the raw share toward the market probability:
+<span class="mono">p_tip = (t + 6·p_market) / (N + 6)</span>. Six pseudo-tips is enough to stop a one-tip market from moving a price
+materially, while still letting a 20-tip consensus register.</p>
+
+<h3>3. Our fair probability</h3>
+<p><span class="mono">p_fair = (1 − w)·p_market + w·p_tip</span> with <span class="mono">w = min(0.35, N / (N + 12))</span>.
+With no tips w is zero and the line is the pure de-vigged market. With 20 tips w reaches the 0.35 cap. This is why a pick can differ
+from the displayed price without ever ignoring it.</p>
+
+<h3>4. Our prices</h3>
+<p>Fair American price: for <span class="mono">p ≥ 0.5</span>, <span class="mono">−100p/(1−p)</span>; otherwise
+<span class="mono">+100(1−p)/p</span>. Our offered price is the fair decimal price reduced by a 3% margin. The offered price is what we
+would need to be paid; it is not a market quote.</p>
+
+<h3>5. Confidence tiers</h3>
+<p><strong>High</strong> = our probability ≥ 70% · <strong>Medium</strong> = 55–70% · <strong>Low</strong> = below 55%. The requested price
+band is −250 to +10,000 on the displayed price. Note the arithmetic consequence: −250 implies 71.4%, so a high-confidence pick inside the
+band can only exist between 70.0% and 71.4%. That is why the board carries one high-confidence pick and a large medium tier, rather than
+labelling 60% favourites as high confidence.</p>
+
+<h3>6. Selection rules</h3>
+<ul>
+<li>Only selections inside the −250 to +10,000 band are eligible.</li>
+<li>Match markets need a fair probability of at least 45%; outright markets (tournament, race, championship) at least 8%.</li>
+<li>One pick per event, except golf, darts and motor racing outrights where two selections per event are allowed.</li>
+<li>OLBG's "Gaelic Sports" category is published as a single sport (Gaelic football and hurling together).</li>
+<li>Ranking is by confidence tier, then fair probability, then value at the displayed price.</li>
+</ul>
+
+<h3>7. What we do not do</h3>
+<ul>
+<li>We do not invent a fixture, participant, injury, statistic or lineup. If a field is blank, it was not confirmed.</li>
+<li>We do not price a market with an incomplete outcome set.</li>
+<li>We do not treat a draw-heavy tipster consensus as a draw probability: any draw selection is capped at three percentage points from
+its market probability.</li>
+<li>We do not claim our offered price is available anywhere; the displayed OLBG price is the reference for value.</li>
+</ul>
+</div>
+
+<h2>Edge cases handled in the data</h2>
+<div class="tablewrap" style="max-height:none"><table>
+<thead><tr><th>Case</th><th>Handling</th></tr></thead><tbody>
+<tr><td>Market lists only some outcomes</td><td>Overround below 0.90 → market skipped, count reported on the review page.</td></tr>
+<tr><td>"Tie" is the most-tipped selection (handball, gaelic football)</td><td>Draw probability capped at ±3pp from the market probability.</td></tr>
+<tr><td>Event page carries no market payload (greyhounds)</td><td>The full field and prices are still read when embedded; where they are absent the pick is Low tier and marked unconfirmed.</td></tr>
+<tr><td>No tips on the market</td><td>w = 0, so the line equals the de-vigged market price.</td></tr>
+<tr><td>Team names abbreviated by OLBG ("NJ Devils")</td><td>Official facts are matched on the OLBG abbreviation and quoted in full in the pick evidence.</td></tr>
+</tbody></table></div>
+
+<footer>Research only · 18+ · No outcome is guaranteed. Every row links to the OLBG page it was read from;
+official-source facts are linked separately. Blank means not confirmed — never inferred.</footer>
+</main></div></body></html>

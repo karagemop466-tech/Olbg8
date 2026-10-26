@@ -1,0 +1,140 @@
+{
+ "tennis-1": {
+  "headline": "Djokovic's short price is the board's one genuine 70%+ call",
+  "prediction": "Back Novak Djokovic to beat Ugo Humbert in their ATP Basel meeting on 28 October. OLBG lists Djokovic at -250 and four of the five recorded win tips in this market are on him, which is the strongest consensus on any covered tennis match today. Our own line prices him at -248, so the margin is thin, but the probability clears 70% and no other tennis selection here does.",
+  "injury_note": "No confirmed team news or injury report for either player was available from an official source in this snapshot; the note is flagged for review.",
+  "flags": ["Price is only two points away from our fair line, so there is no price edge."]
+ },
+ "tennis-2": {
+  "headline": "Osaka to start fast against Paolini in Tokyo",
+  "prediction": "The first-set market is where the value sits in Naomi Osaka's WTA Tokyo meeting with Jasmine Paolini on 27 October. OLBG offers -250 on Osaka to take the opening set, a price our de-vigged figures put at -221, so the market is shorter than the probability suggests. Osaka's serve-first profile makes the opening set the cleanest way to back her without carrying a three-set risk.",
+  "injury_note": "Neither player's fitness was confirmed on an official tour page at snapshot time; flagged.",
+  "flags": ["No OLBG win tips were recorded on this market, so the price carries no consensus support."]
+ },
+ "tennis-3": {
+  "headline": "Jodar's fast-start price against Tabilo stands out",
+  "prediction": "Rafael Jodar is the pick to win the first set of his ATP Basel qualifier-level clash with Alejandro Tabilo on 27 October, priced at -250 at OLBG. Our line comes out at -221, which makes the displayed price a fraction shorter than the implied chance. With just one win tip recorded in the market, this is a price-structure play rather than a consensus play, and it should be staked accordingly.",
+  "injury_note": "No official fitness update for either player was available in the snapshot; flagged.",
+  "flags": ["Thin tip sample: one recorded tip in the market."]
+ },
+ "tennis-4": {
+  "headline": "Sonmez favoured to see off Sorribes Tormo in Guangzhou",
+  "prediction": "Take Zeynep Sonmez to beat Sara Sorribes Tormo in the WTA Guangzhou draw on 27 October. OLBG shows -238 on Sonmez, while our de-vigged number is -215, so the market gives her a slightly better chance than our line does. The single recorded tip is on Sonmez as well, which keeps the consensus pointing the same way as the price.",
+  "injury_note": "No official injury or withdrawal notice was located for either player; flagged.",
+  "flags": ["Backed by a single recorded tip."]
+ },
+ "tennis-5": {
+  "headline": "Blinkova the percentage call at Courmayeur",
+  "prediction": "Anna Blinkova to win her WTA Courmayeur match against Dalma Galfi on 27 October is the selection. The market shows -222 on Blinkova against our fair line of -193, and the only recorded win tip in the market is on her too. That combination of price and consensus is why this makes the tennis shortlist, though the edge is modest rather than emphatic.",
+  "injury_note": "Fitness for both players could not be confirmed on an official source at snapshot; flagged.",
+  "flags": ["Backed by a single recorded tip."]
+ },
+ "volleyball-1": {
+  "headline": "Halkbank Ankara's class told in the pricing",
+  "prediction": "Halkbank Ankara to win at TFL Altekma on 27 October is the play in the Turkish Efeler League. OLBG prices Ankara at -227 and our fair line lands at -194, so the shorter price is the only reason this is not a stronger call. With one recorded tip in the market and no official team-news feed for the fixture, the reasoning rests on the price structure rather than on confirmed line-ups.",
+  "injury_note": "No official roster or injury report for either club was available in the snapshot; flagged.",
+  "flags": ["Single recorded tip.", "No official line-up confirmation."]
+ },
+ "volleyball-2": {
+  "headline": "Suzano Volei priced for a home win in SuperLiga",
+  "prediction": "Suzano Volei to beat Goias Volei in Brazil's SuperLiga on 27 October. OLBG has Suzano at -175, our de-vigged price is -149, and two of the three recorded win tips sit on the home side. The mismatch between a sub-60% implied chance and a home-court favourite is the reason this makes the card at all, but the stake should reflect the lack of confirmed team news.",
+  "injury_note": "No official availability report for either squad was located; flagged.",
+  "flags": ["No official line-up confirmation."]
+ },
+ "volleyball-3": {
+  "headline": "Scandicci's price drifts into range against Novara",
+  "prediction": "Scandicci to win their Italian A1 Women fixture against Novara on 28 October is the pick. The market shows -163 and our line -132, a gap that appears because the market is not fully convinced by the favourite. Only one win tip is recorded in the market and it is on Scandicci, so the small consensus and the price both point the same way.",
+  "injury_note": "Neither club's official availability list was accessible in the snapshot; flagged.",
+  "flags": ["Single recorded tip."]
+ },
+ "volleyball-4": {
+  "headline": "VaLePa hold a fair home edge in Finland",
+  "prediction": "VaLePa to beat AC Oulu in the Finnish Mestaruusliiga on 27 October is a low-conviction selection. At -125 the market is close to a coin flip, our line is -114, and both recorded win tips are on VaLePa. This belongs on the card only as a small-stake percentage play; nothing in the confirmed record justifies treating it as more than that.",
+  "injury_note": "No official squad news for either side was available; flagged.",
+  "flags": ["Low confidence tier.", "No official line-up confirmation."]
+ },
+ "volleyball-5": {
+  "headline": "Ziraat Bankasi to win in straight sets",
+  "prediction": "Ziraat Bankasi to win 3-0 is the selection in their Turkish Efeler League fixture with Gaziantep Genclik Spor on 27 October, priced at -138 at OLBG. Our line rates the sweep at +103, meaning the market is giving away more on the 3-0 than the probability merits. No win tips are recorded on this set-score market, so treat the price as the only evidence and stake small.",
+  "injury_note": "No confirmed line-ups were available from an official source; flagged.",
+  "flags": ["No recorded tips on this market.", "Set-score markets are volatile."]
+ },
+ "rugby-union-1": {
+  "headline": "Munster favoured at home against the Sharks",
+  "prediction": "Munster to beat the Sharks in the United Rugby Championship on 31 October. OLBG has Munster at -250, our fair line is -200, and the single recorded tip in the market is on the home side. Thomond Park is one of the tougher away trips in the competition, so a Munster side priced as a clear favourite at home is the percentage call even though the price is short of our number.",
+  "injury_note": "No official team announcement for either side was available in this snapshot; flagged.",
+  "flags": ["Single recorded tip.", "Team selection not confirmed."]
+ },
+ "rugby-union-2": {
+  "headline": "Nissa's home fixture offers the Pro D2 value",
+  "prediction": "Nissa to win at home against Aurillac in French Division 2 on 30 October is the pick. The price is -225, our line -185, and the one win tip recorded in the market is on the home side. Home advantage in Pro D2 is usually worth a meaningful number of points, so the market's shorter price is not a reason to swerve a clear home favourite.",
+  "injury_note": "No official squad release for either club was located; flagged.",
+  "flags": ["Single recorded tip."]
+ },
+ "rugby-union-3": {
+  "headline": "Pau taken to hold home advantage over Toulouse",
+  "prediction": "Pau to beat Toulouse in the Top 14 on 1 November, priced at -225 at OLBG against our line of -185. The one recorded tip is on Pau. Toulouse travel with the deeper squad, but the market has already factored that in and still makes Pau a clear favourite at home, which is where the percentage sits for this card.",
+  "injury_note": "No confirmed team sheets were obtainable from an official source at snapshot; flagged.",
+  "flags": ["Single recorded tip.", "International-window availability not confirmed."]
+ },
+ "rugby-union-4": {
+  "headline": "Leinster's price looks generous for the trip to Connacht",
+  "prediction": "Leinster to win at Connacht in the United Rugby Championship on 30 October is the selection at -175. Our de-vigged line is -140, so the market is offering a better price than the probability implies. The market has only one recorded tip and it is not on Leinster, which makes this a price-led call rather than a consensus one.",
+  "injury_note": "No official team news for either province was available; flagged.",
+  "flags": ["The lone recorded tip is on the opposite side."]
+ },
+ "rugby-union-5": {
+  "headline": "Grenoble the marginal call at Beziers",
+  "prediction": "Grenoble to win at Beziers in French Division 2 on 30 October is a small-stake pick at -138. Our line is -118 and the single recorded tip is on Grenoble. There is little between these sides on the price alone, so this is the weakest of the rugby union selections and should be treated as such.",
+  "injury_note": "No confirmed availability list was available for either club; flagged.",
+  "flags": ["Single recorded tip.", "Low confidence tier."]
+ },
+ "cricket-1": {
+  "headline": "Pakistan the pick with the strongest tip support in the tri-series",
+  "prediction": "Back Pakistan to beat Sri Lanka in the Pakistan Tri Nations one-day match on 27 October. OLBG shows -200, our line -188, and 14 of the 21 recorded win tips in the market are on Pakistan, the largest consensus on any covered cricket fixture. That combination of a clear market favourite and a two-thirds tip share is what puts this at the top of the cricket list.",
+  "injury_note": "No confirmed XI or injury list for either side was published on an official board page in this snapshot; flagged.",
+  "flags": ["Playing XIs not confirmed."]
+ },
+ "cricket-2": {
+  "headline": "Canterbury fancied in the Ford Trophy",
+  "prediction": "Canterbury to beat Auckland in New Zealand's Ford Trophy one-day competition on 27 October. The market is -200, our de-vigged line is -185, and both recorded win tips are on Canterbury. Domestic one-day cricket turns quickly on team selection, so the stake should stay modest until the XI is confirmed.",
+  "injury_note": "No official team lists were available in this snapshot; flagged.",
+  "flags": ["Playing XIs not confirmed."]
+ },
+ "cricket-3": {
+  "headline": "Ireland backed in the third ODI against Namibia",
+  "prediction": "Ireland to win the third ODI against Namibia on 27 October is the selection at -182. Our line is -179, almost identical, and 19 of 27 recorded win tips are on Ireland. That is the highest raw tip count of any cricket market on the board, and the price has not shortened past our number, so the percentage still works.",
+  "injury_note": "No official squad update for either team was located; flagged.",
+  "flags": ["Playing XIs not confirmed."]
+ },
+ "cricket-4": {
+  "headline": "Wellington's price holds up in the Ford Trophy",
+  "prediction": "Wellington to beat Otago on 27 October in the Ford Trophy. OLBG prices Wellington at -189 while our line sits at -160, and one of the two recorded tips is on the home side. The gap between the market and our number is the main reason for the interest; it is not a fixture with heavy tipster support either way.",
+  "injury_note": "No confirmed XIs were obtainable from an official source; flagged.",
+  "flags": ["Split tip sample (one of two)."]
+ },
+ "cricket-5": {
+  "headline": "Sydney Sixers W the call against Brisbane Heat W",
+  "prediction": "Sydney Sixers to beat Brisbane Heat in the WBBL on 30 October, priced at -175 against our line of -158. Three of the five recorded win tips are on the Sixers. Women's T20 prices move with team news more than most markets, so the consensus and the de-vigged price are the only inputs here and the stake should reflect that.",
+  "injury_note": "No official WBBL availability news for either squad was available; flagged.",
+  "flags": ["Playing XIs not confirmed."]
+ },
+ "darts-1": {
+  "headline": "Littler's World Championship price is short but supported",
+  "prediction": "Luke Littler to win the PDC World Championship 2027 at Alexandra Palace is the headline outright, priced at -125. Our line is +114, so the market is notably shorter than the probability we calculate, which is why this is a low-tier pick. Even so, 22 of the 36 recorded tournament win tips sit on Littler, the strongest outright consensus in any covered sport.",
+  "injury_note": "No confirmed entry list or withdrawal news for the 2027 event was available; flagged.",
+  "flags": ["Long-dated outright.", "Our line is longer than the offered price."]
+ },
+ "darts-2": {
+  "headline": "Humphries stands out as the second seed in the outright",
+  "prediction": "Luke Humphries to win the PDC World Championship 2027 at +500 is a speculative each-way style pick. Only two of 36 recorded tournament tips are on him, so the consensus is thin, but at five times the stake the price compensates for the probability. Treat this as a portfolio leg behind Littler rather than a standalone headline selection.",
+  "injury_note": "No official entry list or fitness update for the event was available; flagged.",
+  "flags": ["Long-dated outright.", "Thin consensus (2 of 36 tips)."]
+ },
+ "darts-3": {
+  "headline": "Van Veen worth a small interest in Players Championship 31",
+  "prediction": "Gian van Veen to win Players Championship 31 on 28 October at +800. OLBG shows one of four recorded tips on him, and the de-vigged outright market makes him a clear outsider rather than a contender. Pro Tour events are decided over a single day with best-of-11 legs, which is precisely the format where a +800 price can be worth a small stake.",
+  "injury_note": "No official entry confirmation for the event was available in the snapshot; flagged.",
+  "flags": ["Outright market with four recorded tips."]
+ }
+}

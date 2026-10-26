@@ -1,0 +1,236 @@
+{
+ "baseball-1": {
+  "headline": "Rays on the run line is the strongest baseball number on the board",
+  "prediction": "Tampa Bay Rays +1.50 on the run line against the Milwaukee Brewers on 27 October is the pick. The official MLB standings feed puts Tampa Bay at 98-64 (.605) for the 2026 regular season, with a last-ten record of 5-5, while OLBG prices this run line at -250 and our fair line is -225. Nine of the twelve recorded win tips in the market are on the Rays.",
+  "injury_note": "No confirmed lineup or pitcher availability was published on an official source in this snapshot; flagged.",
+  "flags": ["Only one MLB match is listed on OLBG at snapshot, so baseball inventory is below the five-pick target."],
+  "official_facts": ["MLB standings: Tampa Bay Rays 98-64 (.605), last ten 5-5, current streak L1."],
+  "sources": ["https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason", "https://www.mlb.com/standings"]
+ },
+ "gaelic-sports-1": {
+  "headline": "Fr Caseys taken to win the Limerick county tie",
+  "prediction": "Fr Caseys to win the Limerick County Football fixture against Kildimo Pallaskenry on 1 November is the selection. OLBG shows -250, yet our de-vigged number is only -165 because the draw option absorbs a large share of the market. Five of the nine recorded win tips are on Fr Caseys, so the consensus agrees on the winner even though the price is far shorter than the probability.",
+  "injury_note": "No official club team-sheet or injury list was available for either side; flagged.",
+  "flags": ["Our fair line is much longer than the offered price (draw absorbs market share)."]
+ },
+ "gaelic-sports-2": {
+  "headline": "Eire Og Cor plus the handicap look the safer Cork route",
+  "prediction": "Eire Og Cor +0.50 on the handicap against Kanturk in the Cork County Football championship on 1 November is the pick at -120. All six recorded win tips in the market are on this side, and our line at -140 makes the offered price the better of the two numbers. The half-point start means a draw or a win pays out, which is why the handicap beats the outright result here.",
+  "injury_note": "No confirmed club team news was obtainable for either panel; flagged.",
+  "flags": ["Unanimous but small tip sample (six tips)."]
+ },
+ "gaelic-sports-3": {
+  "headline": "Kerry the early All-Ireland football favourite",
+  "prediction": "Kerry to win the 2027 All-Ireland Senior Football Championship at +225 is a long-range outright selection. Six of the eight recorded tournament tips are on Kerry, and the de-vigged market makes them clear favourites ahead of the rest of the field. Outrights settle next summer, so this is a portfolio position rather than a weekly bet.",
+  "injury_note": "Not applicable at this stage: no panel has been named for the 2027 championship.",
+  "flags": ["Long-dated outright (July 2027)."]
+ },
+ "gaelic-sports-4": {
+  "headline": "Limerick priced as the hurling front-runner for 2027",
+  "prediction": "Limerick to win the 2027 All-Ireland Senior Hurling Championship at +162 is the pick. Only five of the eighteen recorded tournament tips back them, so the consensus is thinner than the price implies, but the de-vigged market still has Limerick ahead of every other county. Treat it as a modest ante-post position with a long settlement date.",
+  "injury_note": "No panel or management confirmation is relevant yet for the 2027 season.",
+  "flags": ["Long-dated outright (July 2027).", "Only 5 of 18 recorded tips."]
+ },
+ "greyhounds-1": {
+  "headline": "The Other Kodi the clear Nottingham favourite",
+  "prediction": "The Other Kodi is the selection in the 9:46 at Nottingham, priced at -188 in a six-runner field. The full race market has Santas Tornado next at +250 and Fortanach John at +500, so the favourite takes a large share of the book. Our de-vigged figure is 51.6%, which is a fair reflection of a race with five realistic rivals rather than a one-dog contest.",
+  "injury_note": "No trial or veterinary news was available from an official source for this runner; flagged.",
+  "flags": ["Greyhound prices are single-race markets with no tipster consensus."]
+ },
+ "greyhounds-2": {
+  "headline": "Essex Rosie heads a competitive Yarmouth card",
+  "prediction": "Essex Rosie is the pick in the 8:47 at Yarmouth at -162, the shortest price on a five-runner card. My Jack Silver is next at +225 and Blackrose Cindy at +400, which leaves the favourite with a 48.8% de-vigged chance. That is a fair rather than generous number, so keep the stake small.",
+  "injury_note": "No official trial or fitness note for this runner was available; flagged.",
+  "flags": ["No tipster consensus in this market."]
+ },
+ "greyhounds-3": {
+  "headline": "Magical Wolf a marginal call at Yarmouth",
+  "prediction": "Magical Wolf is the selection in the 9:23 at Yarmouth at +188, a five-runner race where the market is tightly bunched. Saleen Dubh follows at +225 and Browns Bruce at +350, with the favourite holding a 31.5% de-vigged share. This is the weakest of the greyhound calls and should be staked as such.",
+  "injury_note": "No official fitness or trial news was available; flagged.",
+  "flags": ["Low confidence.", "Tight market with no clear favourite."]
+ },
+ "greyhounds-4": {
+  "headline": "Fabulous Suzy holds a narrow Towcester edge",
+  "prediction": "Fabulous Suzy is the pick in the 9:16 at Towcester at +200 in a six-runner field. Barnagrane Kid is next at +300 and Ballygogue Jet at +350, so no runner dominates the market and the favourite's de-vigged chance is only 26.2%. Small stakes only on a race this open.",
+  "injury_note": "No official trial or veterinary information was located; flagged.",
+  "flags": ["Low confidence.", "Open six-runner race."]
+ },
+ "greyhounds-5": {
+  "headline": "Trapstyle Wee the pick in an open Towcester sprint",
+  "prediction": "Trapstyle Wee is the selection in the 8:41 at Towcester at +250, with Bambis Miss at +275 and Trapstyle Hope at +350 behind in a six-runner field. The favourite's de-vigged chance is just 22.2%, which makes this a value-of-the-book call rather than a strong one.",
+  "injury_note": "No official fitness news for this runner was available in the snapshot; flagged.",
+  "flags": ["Low confidence.", "Very open market."]
+ },
+ "motor-racing-1": {
+  "headline": "Verstappen in the without-Antonelli title market",
+  "prediction": "Max Verstappen to win the 2026 Drivers' Championship without Kimi Antonelli is the pick at -200. The official classification has Verstappen fourth on 236 points with two wins, behind Antonelli's 365, Russell's 242 and Hamilton's 241, so this is a pace judgement rather than a points-table one. Four of the seven recorded tips are on Verstappen, and our line is -147.",
+  "injury_note": "No driver fitness or availability issue has been announced for the remaining rounds.",
+  "flags": ["Verstappen trails Russell and Hamilton on points, so the -200 is a judgement call."],
+  "official_facts": ["F1 2026 drivers' classification after round 18: Antonelli 365 pts (9 wins), Russell 242 (3), Hamilton 241 (1), Verstappen 236 (2)."],
+  "sources": ["https://api.jolpi.ca/ergast/f1/2026/driverstandings/", "https://www.formula1.com/en/results/2026/drivers"]
+ },
+ "motor-racing-2": {
+  "headline": "Verstappen backed for Mexico City",
+  "prediction": "Max Verstappen to win the Mexico City Grand Prix on 1 November at +138. Only one of the three recorded race-winner tips is on him, and our de-vigged price of +190 makes him a 34.5% chance in a field that also includes the championship leader Kimi Antonelli, who has nine wins in 2026. The price is the attraction here, not the tip support.",
+  "injury_note": "No driver availability concerns have been published for the Mexico round.",
+  "flags": ["Thin tip support (one of three)."],
+  "official_facts": ["Antonelli leads the 2026 drivers' classification on 365 points with nine wins from 18 rounds."],
+  "sources": ["https://www.formula1.com/en/results/2026/drivers", "https://api.jolpi.ca/ergast/f1/2026/driverstandings/"]
+ },
+ "motor-racing-3": {
+  "headline": "Championship leader Antonelli at +175 in Mexico",
+  "prediction": "Kimi Antonelli to win the Mexico City Grand Prix at +175 is the alternative angle for the same race. He leads the 2026 standings on 365 points with nine wins from 18 rounds, yet the race market makes him third or fourth in the betting at +175. One of the three recorded tips is on him and our line is +231.",
+  "injury_note": "No availability concerns for Antonelli have been announced.",
+  "flags": ["Same race as motor-racing-2; do not double up as independent bets."],
+  "official_facts": ["Antonelli: 365 points, 9 wins, classified first after round 18 of 2026."],
+  "sources": ["https://www.formula1.com/en/results/2026/drivers"]
+ },
+ "motor-racing-4": {
+  "headline": "Hamilton the each-way angle in the without-Antonelli market",
+  "prediction": "Lewis Hamilton to win the 2026 Drivers' Championship without Kimi Antonelli at +650 is a speculative leg. Hamilton sits third on 241 points with one win, behind team-mate Russell on 242, so the without-Antonelli market is effectively a straight fight between the two Mercedes drivers and Verstappen. Two of the seven recorded tips are on Hamilton.",
+  "injury_note": "No fitness or availability issue has been announced for Hamilton.",
+  "flags": ["Long shot at +650.", "Same market as motor-racing-1."],
+  "official_facts": ["Hamilton: 241 points, 1 win, third in the 2026 classification."],
+  "sources": ["https://www.formula1.com/en/results/2026/drivers"]
+ },
+ "handball-1": {
+  "headline": "Dinamo Bucuresti plus the half-goal handicap",
+  "prediction": "Dinamo Bucuresti +0.50 on the match handicap against Montpellier in the EHF Champions League on 29 October at -139. No win tips are recorded on this handicap market, so the case rests entirely on the price structure: our de-vigged line is -122, which leaves the offered -139 a touch short of fair. Stake modestly.",
+  "injury_note": "No official squad or injury report for either club was available in the snapshot; flagged.",
+  "flags": ["No recorded tips.", "Team news unconfirmed."]
+ },
+ "handball-2": {
+  "headline": "Barcelona's handicap line looks on the low side",
+  "prediction": "FC Barcelona -3.50 on the match handicap at Skanderborg Handbold on 29 October at -139 is the selection. Our de-vigged number is -122, so the market asks a little more than the probability justifies. There are no recorded tips on the handicap, and no official availability list for either squad, so the price is the only evidence.",
+  "injury_note": "Club team news could not be confirmed from an official source; flagged.",
+  "flags": ["No recorded tips."]
+ },
+ "handball-3": {
+  "headline": "Sporting CP the value side at GOG",
+  "prediction": "Sporting CP to win at GOG in the EHF Champions League on 29 October at -182. Our line is -119, well longer, and none of the four recorded tips are on Sporting, which makes this a pure price play. Three-way handball markets are the ones most affected by draw pricing, so keep the stake small.",
+  "injury_note": "No official team news for GOG or Sporting was available; flagged.",
+  "flags": ["Zero tipster support on the selection.", "Draw pricing distorts the money line."]
+ },
+ "handball-4": {
+  "headline": "Kriens Luzern hold a seven-and-a-half goal start",
+  "prediction": "HC Kriens Luzern +7.50 on the match handicap at SC Magdeburg on 28 October at -125. Both recorded tips in this handicap market are on Kriens, and our de-vigged line of -116 is close to the offered price. Magdeburg are the stronger side, which is exactly why the start is so large; the handicap is the only sensible way to back the underdog.",
+  "injury_note": "No confirmed squad lists were obtainable for either club; flagged.",
+  "flags": ["Small tip sample (two tips)."]
+ },
+ "handball-5": {
+  "headline": "Melsungen the call at Vardar in a draw-heavy market",
+  "prediction": "MT Melsungen to win at HC Vardar on 28 October is the money-line pick at -222. Our de-vigged line is only -113 because the draw is priced at +850 and carries real weight in a three-way handball market; one of the ten recorded tips is on Melsungen and four are on the tie. The gap between the market and our number is the reason this sits low on the card.",
+  "injury_note": "No official squad availability for either club was available in the snapshot; flagged.",
+  "flags": ["Large gap between offered price and our line.", "Four of ten tips are on the draw."]
+ },
+ "ice-hockey-1": {
+  "headline": "Devils with a goal-and-a-half start in Dallas",
+  "prediction": "New Jersey Devils +1.50 on the puck line at Dallas on 28 October at -227. The official NHL standings have Dallas at 7-3-1 for 15 points with a five-game winning streak, and New Jersey at 7-4-0 for 14 points on a three-game run of their own, so taking the extra goal with the visitor is the sensible way into a close matchup.",
+  "injury_note": "No official injury report for either club was available in this snapshot; flagged.",
+  "flags": ["No recorded tips on this market."],
+  "official_facts": ["NHL standings (26 Oct 2026): Dallas Stars 7-3-1, 15 pts, W5; New Jersey Devils 7-4-0, 14 pts, W3."],
+  "sources": ["https://api-web.nhle.com/v1/standings/now", "https://www.nhl.com/standings"]
+ },
+ "ice-hockey-2": {
+  "headline": "Islanders plus one and a half in Nashville",
+  "prediction": "New York Islanders +1.50 on the puck line at Nashville on 28 October at -227. Both clubs sit on 12 points in the official standings, with the Islanders at 5-4-2 and the Predators at 4-3-4, so this is a tight pairing where the extra goal matters. The single recorded tip in the market is on the Islanders.",
+  "injury_note": "No confirmed injury report for either team was obtainable; flagged.",
+  "flags": ["Single recorded tip."],
+  "official_facts": ["NHL standings: NY Islanders 5-4-2, 12 pts, L1; Nashville Predators 4-3-4, 12 pts, W1."],
+  "sources": ["https://api-web.nhle.com/v1/standings/now"]
+ },
+ "ice-hockey-3": {
+  "headline": "Jets get the start against the Panthers",
+  "prediction": "Winnipeg Jets +1.50 on the puck line against the Florida Panthers on 28 October at -227. Winnipeg are 4-4-3 for 11 points and have scored only 27 goals, while Florida are 6-4-2 for 14 points and have a minus-two goal difference, so the extra goal is worth taking even though the Jets are the weaker side on record.",
+  "injury_note": "No official injury or roster news for either club was available; flagged.",
+  "flags": ["No recorded tips on this market."],
+  "official_facts": ["NHL standings: Florida Panthers 6-4-2, 14 pts, GF 34 GA 36; Winnipeg Jets 4-4-3, 11 pts, GF 27 GA 31."],
+  "sources": ["https://api-web.nhle.com/v1/standings/now"]
+ },
+ "ice-hockey-4": {
+  "headline": "Adler Mannheim with a goal-and-a-half start in Cologne",
+  "prediction": "Adler Mannheim +1.50 on the puck line at Kolner Haie in the German Eishockey Liga on 27 October at -250. No tips are recorded on this market and no official league standings feed was available for the DEL in this snapshot, so the selection rests on the price: our line is -196, meaning the market asks for more than the implied chance.",
+  "injury_note": "No official DEL team news for either club was available; flagged.",
+  "flags": ["No official league data feed for the DEL.", "No recorded tips."]
+ },
+ "ice-hockey-5": {
+  "headline": "Oilers' home form makes them the money-line pick",
+  "prediction": "Edmonton Oilers to beat the Detroit Red Wings on 27 October at -170. Edmonton are 8-2-1 for 17 points with 49 goals scored and an 8-2-0 last ten in the official standings, while Detroit are 4-4-3 for 11 points and have lost their last game. Nine of the eleven recorded win tips are on Edmonton, and our line is -192.",
+  "injury_note": "No official injury report for either club was available in this snapshot; flagged.",
+  "flags": [],
+  "official_facts": ["NHL standings: Edmonton Oilers 8-2-1, 17 pts, GF 49, last ten 8-2-0, L1. Detroit Red Wings 4-4-3, 11 pts, GF 29 GA 34, L1."],
+  "sources": ["https://api-web.nhle.com/v1/standings/now", "https://www.nhl.com/standings"]
+ },
+ "basketball-1": {
+  "headline": "Olympiacos the Euroleague pick at Besiktas",
+  "prediction": "Olympiacos to win at Besiktas in the Euroleague on 28 October at -250. Only one of the three recorded tips is on Olympiacos, with two on Besiktas, so this is a price-led call: our de-vigged line of -199 says the market is shorter than the probability warrants. No official Euroleague availability feed was captured, so team news is unconfirmed.",
+  "injury_note": "No official Euroleague injury or roster feed was available in the snapshot; flagged.",
+  "flags": ["Tipster consensus opposes the pick.", "Team news unconfirmed."]
+ },
+ "basketball-2": {
+  "headline": "Nuggets backed at home against the Warriors",
+  "prediction": "Denver Nuggets to beat the Golden State Warriors on 27 October at -250. Four of the eight recorded win tips are on Denver, and our de-vigged line is -196, which is a meaningful gap from the offered price. No official NBA team-availability data could be captured for this snapshot, so the numbers rest on the market and the recorded consensus.",
+  "injury_note": "NBA injury reports were not accessible from an official source in this snapshot; flagged.",
+  "flags": ["Team news unconfirmed."]
+ },
+ "basketball-3": {
+  "headline": "Crvena Zvezda favoured at home in the Euroleague",
+  "prediction": "Crvena Zvezda to beat Maccabi Tel Aviv on 27 October at -227. Our line is -188 and one of the three recorded tips is on the home side, with two on Maccabi, so this is a modest price-based call rather than a consensus one. Euroleague back-to-backs and travel schedules are the main unquantified risk here.",
+  "injury_note": "No official Euroleague availability list was obtainable; flagged.",
+  "flags": ["Tipster consensus leans the other way."]
+ },
+ "basketball-4": {
+  "headline": "Pacers the pick in Milwaukee",
+  "prediction": "Indiana Pacers to win at Milwaukee on 27 October at -165. Nine of the twelve recorded win tips are on Indiana, the strongest basketball consensus on the board, and our de-vigged line is -184, so the offered price is better than the probability by a small margin. Treat the away venue as the main risk.",
+  "injury_note": "No official NBA injury report was available in this snapshot; flagged.",
+  "flags": ["Team news unconfirmed."]
+ },
+ "basketball-5": {
+  "headline": "Rockets hold home court against the Hawks",
+  "prediction": "Houston Rockets to beat the Atlanta Hawks on 27 October at -182. Six of the nine recorded win tips are on Houston and our line matches the offered price exactly at -182, so there is no price edge here, only a probability edge over the alternative outcome. That makes it a fair-odds selection rather than a value one.",
+  "injury_note": "NBA availability reports were not accessible from an official source; flagged.",
+  "flags": ["No price edge: our line equals the offered price."]
+ },
+ "rugby-league-1": {
+  "headline": "New South Wales the State of Origin call",
+  "prediction": "New South Wales to win the 2027 State of Origin series at -133 is the strongest rugby league selection on the board. Nine of the thirteen recorded tournament tips are on the Blues, and the de-vigged market confirms them as favourites ahead of Queensland. The series runs in May and June 2027, so this is an ante-post position.",
+  "injury_note": "No Origin squads have been named, so availability cannot be confirmed.",
+  "flags": ["Long-dated outright (May 2027)."]
+ },
+ "rugby-league-2": {
+  "headline": "Wigan the early Super League favourite",
+  "prediction": "Wigan Warriors to win the 2027 Super League Grand Final at +150. Only two of the four recorded tips are on Wigan, and our de-vigged line of +206 makes the price slightly better than the probability, which is why it makes the card. The final is scheduled for October 2027, so squad turnover is a real unknown.",
+  "injury_note": "Not applicable: no 2027 squads have been named.",
+  "flags": ["Long-dated outright (October 2027).", "Small tip sample."]
+ },
+ "rugby-league-3": {
+  "headline": "Roosters a speculative NRL outright",
+  "prediction": "Sydney Roosters to win the 2027 NRL Grand Final at +550. Just one of the three recorded tips is on the Roosters and our line is +618, so the case is thin: the price is long enough to justify only a small interest. Treat this as the speculative leg of the rugby league card.",
+  "injury_note": "Not applicable: no 2027 squads have been named.",
+  "flags": ["Long-dated outright (October 2027).", "One recorded tip."]
+ },
+ "golf-1": {
+  "headline": "Yamashita the Maybank outright alternative",
+  "prediction": "Miyu Yamashita to win the Maybank Championship at +450. OLBG's listing page shows Lottie Woad as the most-tipped runner in this outright market, so Yamashita is the alternative at a bigger price. Our de-vigged figure gives her 11.3% against the 18.2% implied by +450, which is the gap the price has to compensate for.",
+  "injury_note": "No official field or withdrawal list for the event was captured in this snapshot; flagged.",
+  "flags": ["Outright market with only two recorded tips.", "Field confirmation pending."]
+ },
+ "golf-2": {
+  "headline": "Cink the Simmons Bank favourite",
+  "prediction": "Stewart Cink to win the Simmons Bank Championship at +600. He is the most-tipped runner in OLBG's outright market for this event and the only one of the two recorded tips on him. Our de-vigged number prices him at 11.0%, so the price is the smallest part of the case; the consensus is what puts him on the card.",
+  "injury_note": "No official field or withdrawal list was available for the event; flagged.",
+  "flags": ["Outright with two recorded tips."]
+ },
+ "golf-3": {
+  "headline": "Alker an alternative in the same Simmons Bank field",
+  "prediction": "Steven Alker to win the Simmons Bank Championship at +550 is the second selection from the same outright market. No recorded tips sit on him, so the case is entirely price-based: our de-vigged figure of 9.9% sits below the 15.4% implied by +550, which is a wide enough gap to make the alternative unattractive on value grounds.",
+  "injury_note": "No official field list or withdrawal news was available; flagged.",
+  "flags": ["No recorded tips.", "Our line is longer than the offered price."]
+ },
+ "golf-4": {
+  "headline": "Yin the second Maybank angle",
+  "prediction": "Ruoning Yin to win the Maybank Championship at +550 is the second selection from that outright market. No recorded tips are on her, and our de-vigged figure of 9.5% sits well below the 15.4% the price implies, so this is a thinner case than Yamashita and should be staked smaller.",
+  "injury_note": "No official field or withdrawal confirmation was captured; flagged.",
+  "flags": ["No recorded tips.", "Our line is longer than the offered price."]
+ }
+}
