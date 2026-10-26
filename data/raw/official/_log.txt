@@ -16,4 +16,4 @@ data/raw/official/nba_scoreboard.json 403 445 https://cdn.nba.com/static/json/li
 data/raw/official/nhl_standings.json 200 58203 https://api-web.nhle.com/v1/standings/now
 data/raw/official/mlb_standings.json 200 80986 https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason
 data/raw/official/f1_races.json 200 14294 https://api.jolpi.ca/ergast/f1/2026/races/
-data/raw/official/atp_rankings.json 200 300261 https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3
+data/raw/official/atp_rankings.json 200 299497 https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3
