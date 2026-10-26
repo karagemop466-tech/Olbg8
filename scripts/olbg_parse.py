@@ -69,10 +69,10 @@ def parse_event_links(html, sport_slug, sport_id):
             clean = clean.split("/", 1)[1]          # drop host
         parts = [p for p in clean.split("/") if p]
         if len(parts) >= 5:
-            rec["competition_group"] = parts[1].replace("_", " ")
-            rec["competition"] = parts[2].replace("_", " ")
-            rec["fixture_slug"] = parts[3]
-            rec["fixture_name"] = (parts[3].replace("_vs_", " vs ")
+            rec["competition_group"] = parts[2].replace("_", " ")
+            rec["competition"] = parts[3].replace("_", " ")
+            rec["fixture_slug"] = parts[4]
+            rec["fixture_name"] = (parts[4].replace("_vs_", " vs ")
                                    .replace("_@_", " @ ").replace("_", " "))
             if " vs " not in (rec.get("name") or "") and " @ " not in (rec.get("name") or ""):
                 rec["name"] = rec["fixture_name"]
