@@ -4,7 +4,7 @@ D=json.loads(Path('data/research.json').read_text());E=D['events'];S=D['sports']
 h=lambda x:html.escape(str(x or ''))
 def link(url,label):return f'<a href="{h(url)}" target="_blank" rel="noopener noreferrer">{h(label)} ↗</a>' if url else ''
 def page(file,title,body):
- text=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Evidence-first OLBG sports research, event inventory and pricing readiness."><title>{h(title)} · OLBG Research Desk</title><link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script></head><body><header><a class="brand" href="index.html">OLBG <span>/ Research Desk</span></a><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="picks.html">Our picks</a><a href="events.html">Event inventory</a><a href="pricing.html">Pricing lab</a><a href="review.html">Flagged for Review</a></nav></header><main>{body}</main><footer>Independent research project · Not affiliated with OLBG · Snapshot: {D['as_of']} UTC · Not a live odds feed · <a href="data/research.json">Download data</a> · <a href="data/SOURCES.md">Source audit</a><br>No guaranteed outcomes. Follow local gambling laws and age restrictions. Never wager money you cannot afford to lose.</footer></body></html>'''
+ text=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Evidence-first OLBG sports research, event inventory and pricing readiness."><title>{h(title)} · OLBG Research Desk</title><link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script></head><body><header><a class="brand" href="index.html">OLBG <span>/ Research Desk</span></a><nav aria-label="Main navigation"><a href="../index.html">Main dashboard</a><a href="index.html">Overview</a><a href="picks.html">Our picks</a><a href="events.html">Event inventory</a><a href="pricing.html">Pricing lab</a><a href="review.html">Flagged for Review</a></nav></header><main>{body}</main><footer>Independent research project · Not affiliated with OLBG · Snapshot: {D['as_of']} UTC · Not a live odds feed · <a href="data/research.json">Download data</a> · <a href="data/SOURCES.md">Source audit</a><br>No guaranteed outcomes. Follow local gambling laws and age restrictions. Never wager money you cannot afford to lose.</footer></body></html>'''
  (out/file).write_text(text)
 def intro(k,t,desc):return f'<div class="eyebrow">{k}</div><h1>{t}</h1><p class="lead">{desc}</p>'
 def table(head,body):return '<div class="table-wrap"><table><thead><tr>'+''.join('<th scope="col">'+h(x)+'</th>' for x in head)+'</tr></thead><tbody>'+body+'</tbody></table></div>'
@@ -29,4 +29,8 @@ page('review.html','Flagged for Review',intro('Audit trail / non-blocking resear
 shutil.copytree('assets',out/'assets',dirs_exist_ok=True);shutil.copytree('data',out/'data',dirs_exist_ok=True)
 shutil.copy('data/SOURCES.md',out/'data'/'SOURCES.md')
 (out/'.nojekyll').touch()
+import sys
+if '--publish' in sys.argv:
+ for file in out.glob('*.html'):shutil.copy(file,Path(file.name))
+ Path('.nojekyll').touch()
 print(f'Built {len(list(out.glob("*.html")))} pages; {len(E)} research rows; zero invented selections.')

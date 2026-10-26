@@ -17,10 +17,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/build.py
+      - run: python scripts/build.py --publish
         working-directory: research-desk
       - run: python scripts/test_site.py
         working-directory: research-desk
+      - run: git diff --exit-code -- research-desk
       - uses: actions/upload-pages-artifact@v3
         with:
           path: research-desk/_site

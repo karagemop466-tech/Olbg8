@@ -4,7 +4,7 @@ Evidence-first static dashboard for the requested 15 sports. **Partial research 
 
 ## Site
 
-https://karagemop466-tech.github.io/Olbg8/
+https://karagemop466-tech.github.io/Olbg8/research-desk/
 
 - Executive summary and per-sport desks
 - Our picks: explicit empty state rather than invented recommendations
@@ -17,7 +17,8 @@ https://karagemop466-tech.github.io/Olbg8/
 Python 3.12, no dependencies:
 
 ```sh
-python scripts/build.py
+cd research-desk
+python scripts/build.py --publish
 python scripts/test_site.py
 python -m http.server 8000 --bind 0.0.0.0 --directory _site
 ```
@@ -26,7 +27,7 @@ python -m http.server 8000 --bind 0.0.0.0 --directory _site
 
 ## Automation
 
-The Pages workflow builds and tests on the session branch, PRs and main, deploying only main. The daily discovery workflow runs at 06:17 UTC on the default branch and retains an unverified JSON artifact for 14 days. It reads public event links without bypassing access controls; fetch failures are recorded, and empty extraction is not treated as no fixtures. It does not update the curated site, produce verified predictions or fit pricing systems. No user credentials or manual data entry are required for those automated jobs.
+The supplementary workflow builds and tests on the session branch, PRs and main. Existing legacy Pages deploys main/root, including the committed research-desk pages. Changing Pages configuration was denied (403), so no permission change is required. The daily discovery workflow runs at 06:17 UTC on the default branch and retains an unverified JSON artifact for 14 days. It reads public event links without bypassing access controls; fetch failures are recorded, and empty extraction is not treated as no fixtures. It does not update the curated site, produce verified predictions or fit pricing systems. No user credentials or manual data entry are required for those automated jobs.
 
 ## Outstanding work
 
