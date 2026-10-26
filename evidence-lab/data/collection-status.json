@@ -1,0 +1,7 @@
+{
+  "attempted_at": "2026-10-26T20:36:11.286627+00:00",
+  "coverage": "partial; first public category response only, no pagination guarantee",
+  "pages": [],
+  "status": "blocked",
+  "error": "Cannot establish robots permission: URLError: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>"
+}
