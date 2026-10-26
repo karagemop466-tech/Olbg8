@@ -46,3 +46,14 @@ The source registry in `data/sports.json` records official sources actually retr
 | Tests, PR merge and Pages publishing | Record actual outcome in COORDINATION.md |
 
 Flagged research items are non-blocking for publishing the dashboard; they must not be represented as a completed prediction service. No `verified=true` flags or invented confidence levels are used to fill gaps.
+
+## Concurrent root-data audit — main `4d52c4c`
+
+Another session's PR #4 was merged during this session. Its root `data/events.json` now contains **75 recommendation rows**, 44 with string `"False"` and 31 with string `"True"` in the `verified` field. The rows include `ourLine`, `ourPick`, `confidence` and `prediction`, but no probability, input dataset, pricing artifact, calibration result or per-claim source packet. `assets/app.js` displays the pick whenever `ourPick` exists, including the 44 explicitly marked unverified. A directory link or Boolean-like string does not substantiate the match-specific statistical and availability claims.
+
+Immutable review references:
+- https://github.com/karagemop466-tech/Olbg8/blob/4d52c4c/data/events.json
+- https://github.com/karagemop466-tech/Olbg8/blob/4d52c4c/assets/app.js
+- https://github.com/karagemop466-tech/Olbg8/pull/4
+
+These are **unsupported in the recorded dataset**, not asserted here to be false in every detail. This lab does not endorse or import them. Official reference checks in this lab, including WST's no-tournament-today text and F1's October 23–25 US weekend followed by Mexico October 30–November 1, demonstrate why independent date checks are necessary. Root-owner review is requested in COORDINATION.md, respecting the non-overlapping ownership rule. This issue is also public on the evidence lab's Flagged for Review page (R13).
