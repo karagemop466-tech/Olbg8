@@ -9,6 +9,7 @@ on:
     branches: [arena/**]
     paths:
       - "scripts/olbg_collect.py"
+      - "scripts/olbg_discover.py"
       - ".github/workflows/scrape.yml"
   workflow_dispatch:
 
@@ -30,7 +31,9 @@ jobs:
           python-version: "3.11"
       - run: pip install --quiet requests beautifulsoup4
       - name: Run collector
-        run: python scripts/olbg_collect.py
+        run: |
+          python scripts/olbg_collect.py
+          python scripts/olbg_discover.py
       - name: Commit collected data
         run: |
           git config user.name "olbg-collector"
