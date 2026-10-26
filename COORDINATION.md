@@ -154,9 +154,19 @@ Last updated: 2026-10-26 UTC
 
 - 7fbe3ee0: PR #9 first merge attempt was rejected because PR #8 advanced main and appended the shared board. Re-integrated origin/main, preserving both coordination additions; no source-scope overlaps with evidence-lab.
 
+## Publication result — expanded lab
+- **PR #9 merged successfully** at 2026-10-26T20:44:52Z: https://github.com/karagemop466-tech/Olbg8/pull/9, merge `3d78b4eaf884580c4801b05c27c85ae50bb87626`.
+- Required quality checks passed before merge. Legacy Pages build/deploy https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383563 succeeded (build, report-build-status, deploy). Live lab and Flagged for Review pages were independently retrieved successfully through the page tool at https://karagemop466-tech.github.io/Olbg8/evidence-lab/ and https://karagemop466-tech.github.io/Olbg8/evidence-lab/review/index.html. Confirmed 116 observations, 15 categories, zero lab recommendations and source-linked review flags.
+- Integration/PR/publication status: **done** for this lab, not for the full prediction service. Official-history ingestion, calibrated production prices, exhaustive markets and five original daily picks per sport remain **needs review** and disclosed on the live site.
+- Manual dispatch of the discovery workflow returned HTTP 403 (integration lacks workflow-dispatch permission). No credentials requested or stored. Added a path-scoped push trigger on the required session branch to exercise the same artifact-only collector without modifying main or bypassing access controls.
+- Main changed again via PR #8; R13 wording now explicitly refers to historical main `4d52c4c`, not an assertion that the later root UI still displays the same picks. Archived dataset support remains a review issue. No other owner's root files altered.
 ## Primary source-first release confirmation — `arena/40c30722-olbg8`
 
 - Final primary dashboard release completed on 2026-10-26. The primary site contains 116 in-scope OLBG rows, 15 requested sports, 17 research lines, four event-confirmed rows, four withheld prose briefs, and zero published picks.
 - PR [#8](https://github.com/karagemop466-tech/Olbg8/pull/8) merged to `main` as `14a98bd593a514849e3a22f2ae6618a46a2d2237`.
 - Site quality passed in GitHub Actions run [40398243521](https://github.com/karagemop466-tech/Olbg8/actions/runs/40398243521). The root Pages workflow [40398243470](https://github.com/karagemop466-tech/Olbg8/actions/runs/40398243470) built and deployed successfully.
 - GitHub Pages API reports `built` for the merge commit. Live URL: <https://karagemop466-tech.github.io/Olbg8/>. A cache-busted live fetch confirmed the 116-row source-first dashboard, 15 sport pages, zero published picks, and the four withheld briefs.
+
+- Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
+- Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
+- The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
