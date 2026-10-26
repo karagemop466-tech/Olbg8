@@ -1,34 +1,459 @@
 {
- "sport": {
-  "slug": "Gaelic_Football",
-  "sport_id": 25,
-  "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
-  "title": "Gaelic Football Betting Tips & Predictions - OLBG.com",
-  "event_count": 3
- },
+ "sport": "Gaelic_Football",
+ "sport_id": 25,
+ "listing_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+ "status": 200,
+ "events_listed": 3,
  "events": [
   {
-   "event_id": "3531",
-   "name": "Kanturk v Eire Og Cor",
-   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
-   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor",
-   "context": "Kanturk v Eire Og Cor 01 Nov 14:00"
+   "event_id": "3327",
+   "name": "All Ireland Football Championship 2027",
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+   "sport_slug": "Gaelic_Football",
+   "sport_id": 25,
+   "listing_when": "",
+   "listing_tips": "6/8",
+   "listing_pct": "75",
+   "competition_group": "betting-tips",
+   "competition": "Gaelic Football",
+   "fixture_slug": "All_Gaelic_Football",
+   "fixture_name": "All Gaelic Football",
+   "fetch_status": 200,
+   "official_start_utc": "2027-07-25T14:30:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Football",
+     "selections": [
+      {
+       "selection": "Kerry",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "6/8",
+       "pct": "75"
+      },
+      {
+       "selection": "Donegal",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "2/8",
+       "pct": "25"
+      },
+      {
+       "selection": "Mayo",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Armagh",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Dublin",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Tyrone",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Galway",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Derry",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Louth",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Meath",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Cork",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Monaghan",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Roscommon",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Westmeath",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Down",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Clare",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Kildare",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Laois",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Wicklow",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Cavan",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Antrim",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlow",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Fermanagh",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Offaly",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Sligo",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Wexford",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Leitrim",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Limerick",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "London",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Longford",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "New York",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Tipperary",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Waterford",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/8",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Football"
+   ],
+   "tip_total": 8,
+   "canonical": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327"
   },
   {
    "event_id": "3537",
    "name": "Fr Caseys v Kildimo Pallaskenry",
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
-   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry",
-   "context": "Fr Caseys v Kildimo Pallaskenry 01 Nov 15:30"
+   "sport_slug": "Gaelic_Football",
+   "sport_id": 25,
+   "listing_when": "01 Nov 15:30",
+   "listing_tips": "5/7",
+   "listing_pct": "71",
+   "competition_group": "betting-tips",
+   "competition": "Gaelic Football",
+   "fixture_slug": "All_Gaelic_Football",
+   "fixture_name": "All Gaelic Football",
+   "fetch_status": 200,
+   "official_start_utc": "2026-11-01T15:30:00.000Z",
+   "competitors": [
+    "Fr Caseys",
+    "Kildimo Pallaskenry"
+   ],
+   "markets": [
+    {
+     "market": "FT Result",
+     "selections": [
+      {
+       "selection": "Fr Caseys",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "5/9",
+       "pct": "56"
+      },
+      {
+       "selection": "Kildimo Pallaskenry",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Draw",
+       "decimal": 8.75,
+       "american": "775",
+       "fractional": "31/4",
+       "tips": "3/9",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Kildimo Pallaskenry +3.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "5/7",
+       "pct": "71"
+      },
+      {
+       "selection": "Fr Caseys -3.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "2/7",
+       "pct": "29"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "FT Result",
+    "Handicap"
+   ],
+   "tip_total": 9,
+   "canonical": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537"
   },
   {
-   "event_id": "3327",
-   "name": "All Ireland Football Championship 2027",
-   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
-   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027",
-   "context": "All Ireland Football Championship 2027 25 Jul 2027 15:30"
+   "event_id": "3531",
+   "name": "Kanturk v Eire Og Cor",
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+   "sport_slug": "Gaelic_Football",
+   "sport_id": 25,
+   "listing_when": "01 Nov 14:00",
+   "listing_tips": "6/6",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Gaelic Football",
+   "fixture_slug": "All_Gaelic_Football",
+   "fixture_name": "All Gaelic Football",
+   "fetch_status": 200,
+   "official_start_utc": "2026-11-01T14:00:00.000Z",
+   "competitors": [
+    "Kanturk",
+    "Eire Og Cor"
+   ],
+   "markets": [
+    {
+     "market": "FT Result",
+     "selections": [
+      {
+       "selection": "Kanturk",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "4/11",
+       "pct": "36"
+      },
+      {
+       "selection": "Eire Og Cor",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "2/11",
+       "pct": "18"
+      },
+      {
+       "selection": "Draw",
+       "decimal": 8.25,
+       "american": "725",
+       "fractional": "29/4",
+       "tips": "5/11",
+       "pct": "45"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Eire Og Cor +0.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "6/6",
+       "pct": "100"
+      },
+      {
+       "selection": "Kanturk -0.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/6",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "FT Result",
+    "Handicap"
+   ],
+   "tip_total": 11,
+   "canonical": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531"
   }
- ]
+ ],
+ "events_with_markets": 3
 }

@@ -1,20 +1,102 @@
 {
- "sport": {
-  "slug": "Baseball",
-  "sport_id": 12,
-  "url": "https://www.olbg.com/betting-tips/Baseball/12",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Baseball/12",
-  "title": "Free Baseball Tips, Picks & Predictions - OLBG.com",
-  "event_count": 1
- },
+ "sport": "Baseball",
+ "sport_id": 12,
+ "listing_url": "https://www.olbg.com/betting-tips/Baseball/12",
+ "status": 200,
+ "events_listed": 1,
  "events": [
   {
    "event_id": "160795",
    "name": "MIL Brewers @ TB Rays",
    "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795",
-   "competition_path": "betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays",
-   "context": "MIL Brewers @ TB Rays MLB Tomorrow 00:00"
+   "sport_slug": "Baseball",
+   "sport_id": 12,
+   "listing_when": "Tomorrow 00:00",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Baseball",
+   "fixture_slug": "MLB",
+   "fixture_name": "MLB",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:00:00.000Z",
+   "competitors": [
+    "MIL Brewers",
+    "TB Rays"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "TB Rays",
+       "decimal": 1.87,
+       "american": "-115",
+       "fractional": "20/23",
+       "tips": "21/27",
+       "pct": "78"
+      },
+      {
+       "selection": "MIL Brewers",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "6/27",
+       "pct": "22"
+      }
+     ]
+    },
+    {
+     "market": "Run Line",
+     "selections": [
+      {
+       "selection": "TB Rays +1.50",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "9/12",
+       "pct": "75"
+      },
+      {
+       "selection": "MIL Brewers -1.50",
+       "decimal": 2.9,
+       "american": "190",
+       "fractional": "19/10",
+       "tips": "3/12",
+       "pct": "25"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 7.50",
+       "decimal": 1.74,
+       "american": "-135",
+       "fractional": "747/1000",
+       "tips": "8/18",
+       "pct": "44"
+      },
+      {
+       "selection": "Over 7.50",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "10/18",
+       "pct": "56"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Run Line",
+    "Game Totals"
+   ],
+   "tip_total": 27,
+   "canonical": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795"
   }
- ]
+ ],
+ "events_with_markets": 1
 }

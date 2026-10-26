@@ -1,153 +1,1850 @@
 {
- "sport": {
-  "slug": "Basketball",
-  "sport_id": 4,
-  "url": "https://www.olbg.com/betting-tips/Basketball/4",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Basketball/4",
-  "title": "Basketball Betting Tips: NBA & EuroLeague Picks - OLBG.com",
-  "event_count": 20
- },
+ "sport": "Basketball",
+ "sport_id": 4,
+ "listing_url": "https://www.olbg.com/betting-tips/Basketball/4",
+ "status": 200,
+ "events_listed": 20,
  "events": [
   {
    "event_id": "536203",
    "name": "MIN Timberwolves @ CLE Cavaliers",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers/4?event_id=536203",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers",
-   "context": "MIN Timberwolves @ CLE Cavaliers NBA Today 23:00"
-  },
-  {
-   "event_id": "536204",
-   "name": "IND Pacers @ MIL Bucks",
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks",
-   "context": "IND Pacers @ MIL Bucks NBA Tomorrow 00:00"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:00",
+   "listing_tips": "9/17",
+   "listing_pct": "53",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:00:00.000Z",
+   "competitors": [
+    "MIN Timberwolves",
+    "CLE Cavaliers"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "CLE Cavaliers",
+       "decimal": 1.61,
+       "american": "-165",
+       "fractional": "20/33",
+       "tips": "9/17",
+       "pct": "53"
+      },
+      {
+       "selection": "MIN Timberwolves",
+       "decimal": 2.6,
+       "american": "160",
+       "fractional": "8/5",
+       "tips": "8/17",
+       "pct": "47"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "MIN Timberwolves +4.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "7/8",
+       "pct": "88"
+      },
+      {
+       "selection": "CLE Cavaliers -4.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "1/8",
+       "pct": "13"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 232.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Over 232.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 17,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers/4?event_id=536203"
   },
   {
    "event_id": "536206",
    "name": "MEM Grizzlies @ UTA Jazz",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz",
-   "context": "MEM Grizzlies @ UTA Jazz NBA Tomorrow 01:00"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 01:00",
+   "listing_tips": "9/13",
+   "listing_pct": "69",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T01:00:00.000Z",
+   "competitors": [
+    "MEM Grizzlies",
+    "UTA Jazz"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "UTA Jazz",
+       "decimal": 1.92,
+       "american": "-109",
+       "fractional": "100/109",
+       "tips": "4/13",
+       "pct": "31"
+      },
+      {
+       "selection": "MEM Grizzlies",
+       "decimal": 2.05,
+       "american": "105",
+       "fractional": "21/20",
+       "tips": "9/13",
+       "pct": "69"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "UTA Jazz +1.50",
+       "decimal": 1.88,
+       "american": "-114",
+       "fractional": "50/57",
+       "tips": "2/6",
+       "pct": "33"
+      },
+      {
+       "selection": "MEM Grizzlies -1.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "4/6",
+       "pct": "67"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 237.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Under 237.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 13,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206"
   },
   {
-   "event_id": "536173",
-   "name": "Corinthians vs Franca",
-   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca/4?event_id=536173",
-   "competition_path": "betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca",
-   "context": "Corinthians vs Franca Brazil NBB Today 23:00"
+   "event_id": "536204",
+   "name": "IND Pacers @ MIL Bucks",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 00:00",
+   "listing_tips": "9/12",
+   "listing_pct": "75",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:00:00.000Z",
+   "competitors": [
+    "IND Pacers",
+    "MIL Bucks"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "IND Pacers",
+       "decimal": 1.61,
+       "american": "-165",
+       "fractional": "20/33",
+       "tips": "9/12",
+       "pct": "75"
+      },
+      {
+       "selection": "MIL Bucks",
+       "decimal": 2.6,
+       "american": "160",
+       "fractional": "8/5",
+       "tips": "3/12",
+       "pct": "25"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "MIL Bucks +4.50",
+       "decimal": 1.89,
+       "american": "-112",
+       "fractional": "25/28",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "IND Pacers -4.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 238.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Under 238.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 12,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204"
   },
   {
    "event_id": "536199",
    "name": "WAS Wizards @ CHA Hornets",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/WAS_Wizards_@_CHA_Hornets/4?event_id=536199",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/WAS_Wizards_@_CHA_Hornets",
-   "context": "WAS Wizards @ CHA Hornets NBA Today 23:00"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:00",
+   "listing_tips": "7/10",
+   "listing_pct": "70",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:00:00.000Z",
+   "competitors": [
+    "WAS Wizards",
+    "CHA Hornets"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "CHA Hornets",
+       "decimal": 1.71,
+       "american": "-140",
+       "fractional": "5/7",
+       "tips": "7/10",
+       "pct": "70"
+      },
+      {
+       "selection": "WAS Wizards",
+       "decimal": 2.24,
+       "american": "124",
+       "fractional": "31/25",
+       "tips": "3/10",
+       "pct": "30"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "CHA Hornets -2.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "WAS Wizards +2.50",
+       "decimal": 1.92,
+       "american": "-108",
+       "fractional": "25/27",
+       "tips": "2/2",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 228.50",
+       "decimal": 1.88,
+       "american": "-114",
+       "fractional": "50/57",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Over 228.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 10,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/WAS_Wizards_@_CHA_Hornets/4?event_id=536199"
   },
   {
-   "event_id": "536200",
-   "name": "DAL Mavericks @ MIA Heat",
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat/4?event_id=536200",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat",
-   "context": "DAL Mavericks @ MIA Heat NBA Today 23:30"
-  },
-  {
-   "event_id": "536172",
-   "name": "Mogi das Cruzes vs Unifacisa",
-   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa/4?event_id=536172",
-   "competition_path": "betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa",
-   "context": "Mogi das Cruzes vs Unifacisa Brazil NBB Today 23:00"
+   "event_id": "536173",
+   "name": "Corinthians vs Franca",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca/4?event_id=536173",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:00",
+   "listing_tips": "7/9",
+   "listing_pct": "78",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:00:00.000Z",
+   "competitors": [
+    "Corinthians",
+    "Franca"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Franca",
+       "decimal": 1.36,
+       "american": "-275",
+       "fractional": "4/11",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "Corinthians",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "7/9",
+       "pct": "78"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Corinthians +7.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Franca -7.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 164.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 164.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "19/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 9,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca/4?event_id=536173"
   },
   {
    "event_id": "536201",
    "name": "ATL Hawks @ HOU Rockets",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4?event_id=536201",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets",
-   "context": "ATL Hawks @ HOU Rockets NBA Tomorrow 00:30"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 00:30",
+   "listing_tips": "6/9",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:30:00.000Z",
+   "competitors": [
+    "ATL Hawks",
+    "HOU Rockets"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "HOU Rockets",
+       "decimal": 1.55,
+       "american": "-182",
+       "fractional": "11/20",
+       "tips": "6/9",
+       "pct": "67"
+      },
+      {
+       "selection": "ATL Hawks",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "3/9",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "HOU Rockets -4.50",
+       "decimal": 1.89,
+       "american": "-112",
+       "fractional": "25/28",
+       "tips": "5/5",
+       "pct": "100"
+      },
+      {
+       "selection": "ATL Hawks +4.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "0/5",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 229.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Under 229.50",
+       "decimal": 1.92,
+       "american": "-109",
+       "fractional": "100/109",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 9,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4?event_id=536201"
+  },
+  {
+   "event_id": "536172",
+   "name": "Mogi das Cruzes vs Unifacisa",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa/4?event_id=536172",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:00",
+   "listing_tips": "6/8",
+   "listing_pct": "75",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:00:00.000Z",
+   "competitors": [
+    "Mogi das Cruzes",
+    "Unifacisa"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Mogi das Cruzes",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "2/8",
+       "pct": "25"
+      },
+      {
+       "selection": "Unifacisa",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "6/8",
+       "pct": "75"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Mogi das Cruzes -6.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Unifacisa +6.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "19/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 158.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 158.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 8,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa/4?event_id=536172"
   },
   {
    "event_id": "536205",
    "name": "PHX Suns @ OKC Thunder",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder",
-   "context": "PHX Suns @ OKC Thunder NBA Tomorrow 00:00"
-  },
-  {
-   "event_id": "534851",
-   "name": "CHI Bulls @ BOS Celtics",
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics/4?event_id=534851",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics",
-   "context": "CHI Bulls @ BOS Celtics NBA Today 23:30"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 00:00",
+   "listing_tips": "5/8",
+   "listing_pct": "63",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:00:00.000Z",
+   "competitors": [
+    "PHX Suns",
+    "OKC Thunder"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "OKC Thunder",
+       "decimal": 1.31,
+       "american": "-321",
+       "fractional": "5/16",
+       "tips": "5/8",
+       "pct": "63"
+      },
+      {
+       "selection": "PHX Suns",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "3/8",
+       "pct": "38"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "PHX Suns +8.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "OKC Thunder -8.50",
+       "decimal": 1.93,
+       "american": "-107",
+       "fractional": "100/107",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 221.50",
+       "decimal": 1.92,
+       "american": "-109",
+       "fractional": "100/109",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Over 221.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 8,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"
   },
   {
    "event_id": "536202",
    "name": "GS Warriors @ DEN Nuggets",
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4?event_id=536202",
-   "competition_path": "betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets",
-   "context": "GS Warriors @ DEN Nuggets NBA Tomorrow 02:00"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 02:00",
+   "listing_tips": "4/8",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T02:00:00.000Z",
+   "competitors": [
+    "GS Warriors",
+    "DEN Nuggets"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "DEN Nuggets",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "4/8",
+       "pct": "50"
+      },
+      {
+       "selection": "GS Warriors",
+       "decimal": 3.3,
+       "american": "230",
+       "fractional": "23/10",
+       "tips": "4/8",
+       "pct": "50"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "GS Warriors +7.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "DEN Nuggets -7.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "3/4",
+       "pct": "75"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 236.50",
+       "decimal": 1.9,
+       "american": "-111",
+       "fractional": "100/111",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Under 236.50",
+       "decimal": 1.92,
+       "american": "-109",
+       "fractional": "100/109",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 8,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4?event_id=536202"
+  },
+  {
+   "event_id": "534851",
+   "name": "CHI Bulls @ BOS Celtics",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics/4?event_id=534851",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:30",
+   "listing_tips": "4/7",
+   "listing_pct": "57",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:30:00.000Z",
+   "competitors": [
+    "CHI Bulls",
+    "BOS Celtics"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "BOS Celtics",
+       "decimal": 1.12,
+       "american": "-833",
+       "fractional": "1/8",
+       "tips": "3/7",
+       "pct": "43"
+      },
+      {
+       "selection": "CHI Bulls",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "4/7",
+       "pct": "57"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "CHI Bulls +14.50",
+       "decimal": 1.87,
+       "american": "-115",
+       "fractional": "20/23",
+       "tips": "3/4",
+       "pct": "75"
+      },
+      {
+       "selection": "BOS Celtics -14.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "1/4",
+       "pct": "25"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 232.50",
+       "decimal": 1.88,
+       "american": "-113",
+       "fractional": "100/113",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Under 232.50",
+       "decimal": 1.93,
+       "american": "-107",
+       "fractional": "100/107",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 7,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics/4?event_id=534851"
   },
   {
    "event_id": "536177",
    "name": "Panathinaikos vs Milano",
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano",
-   "context": "Panathinaikos vs Milano Euroleague Tomorrow 19:15"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 19:15",
+   "listing_tips": "4/7",
+   "listing_pct": "57",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:15:00.000Z",
+   "competitors": [
+    "Panathinaikos",
+    "Milano"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Panathinaikos",
+       "decimal": 1.1,
+       "american": "-1000",
+       "fractional": "1/10",
+       "tips": "4/7",
+       "pct": "57"
+      },
+      {
+       "selection": "Milano",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "3/7",
+       "pct": "43"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Milano +13.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Panathinaikos -13.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "114/125",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 164.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 164.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 7,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177"
   },
   {
    "event_id": "536176",
    "name": "BC Dubai vs Paris",
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris",
-   "context": "BC Dubai vs Paris Euroleague Tomorrow 16:00"
-  },
-  {
-   "event_id": "536178",
-   "name": "Baskonia vs Real Madrid",
-   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid",
-   "context": "Baskonia vs Real Madrid Euroleague Tomorrow 20:00"
-  },
-  {
-   "event_id": "536154",
-   "name": "Lanus vs Regatas",
-   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas/4?event_id=536154",
-   "competition_path": "betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas",
-   "context": "Lanus vs Regatas Argentina Liga Nacional Today 23:30"
-  },
-  {
-   "event_id": "536153",
-   "name": "ATL Dream @ GS Valkyries",
-   "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153",
-   "competition_path": "betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries",
-   "context": "ATL Dream @ GS Valkyries WNBA Tomorrow 00:00"
-  },
-  {
-   "event_id": "536175",
-   "name": "Crvena Zvezda vs Maccabi Tel Aviv",
-   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv",
-   "context": "Crvena Zvezda vs Maccabi Tel Aviv Euroleague Tomorrow 19:00"
-  },
-  {
-   "event_id": "536174",
-   "name": "Bayern Munich vs Barcelona",
-   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona",
-   "context": "Bayern Munich vs Barcelona Euroleague Tomorrow 19:00"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 16:00",
+   "listing_tips": "3/4",
+   "listing_pct": "75",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T16:00:00.000Z",
+   "competitors": [
+    "BC Dubai",
+    "Paris"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "BC Dubai",
+       "decimal": 1.2,
+       "american": "-500",
+       "fractional": "1/5",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Paris",
+       "decimal": 5.25,
+       "american": "425",
+       "fractional": "17/4",
+       "tips": "3/4",
+       "pct": "75"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Paris +10.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "BC Dubai -10.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 180.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 180.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 4,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176"
   },
   {
    "event_id": "536179",
    "name": "Valencia vs Fenerbahce",
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce",
-   "context": "Valencia vs Fenerbahce Euroleague Tomorrow 19:30"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 19:30",
+   "listing_tips": "2/4",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:30:00.000Z",
+   "competitors": [
+    "Valencia",
+    "Fenerbahce"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Fenerbahce",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/4",
+       "pct": "50"
+      },
+      {
+       "selection": "Valencia",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/4",
+       "pct": "50"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Valencia +1.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Fenerbahce -1.50",
+       "decimal": 2.05,
+       "american": "105",
+       "fractional": "21/20",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 176.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 176.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 4,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179"
+  },
+  {
+   "event_id": "536178",
+   "name": "Baskonia vs Real Madrid",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 20:00",
+   "listing_tips": "3/4",
+   "listing_pct": "75",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T20:00:00.000Z",
+   "competitors": [
+    "Baskonia",
+    "Real Madrid"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Real Madrid",
+       "decimal": 1.22,
+       "american": "-450",
+       "fractional": "2/9",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Baskonia",
+       "decimal": 4.6,
+       "american": "360",
+       "fractional": "18/5",
+       "tips": "3/4",
+       "pct": "75"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Baskonia +9.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Real Madrid -9.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 182.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 182.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 4,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178"
   },
   {
    "event_id": "536180",
    "name": "Besiktas vs Olympiacos",
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
-   "competition_path": "betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos",
-   "context": "Besiktas vs Olympiacos Euroleague 28 Oct 17:30"
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "28 Oct 17:30",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T17:30:00.000Z",
+   "competitors": [
+    "Besiktas",
+    "Olympiacos"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Olympiacos",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Besiktas",
+       "decimal": 3.1,
+       "american": "210",
+       "fractional": "21/10",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Besiktas +6.50",
+       "decimal": 1.82,
+       "american": "-122",
+       "fractional": "829/1000",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Olympiacos -6.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 175.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 175.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180"
+  },
+  {
+   "event_id": "536153",
+   "name": "ATL Dream @ GS Valkyries",
+   "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 00:00",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "WNBA",
+   "fixture_name": "WNBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:00:00.000Z",
+   "competitors": [
+    "ATL Dream",
+    "GS Valkyries"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "GS Valkyries",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "19/20",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "ATL Dream",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "ATL Dream +1.50",
+       "decimal": 1.87,
+       "american": "-115",
+       "fractional": "20/23",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "GS Valkyries -1.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 150.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 150.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "2/2",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153"
+  },
+  {
+   "event_id": "536175",
+   "name": "Crvena Zvezda vs Maccabi Tel Aviv",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 19:00",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:00:00.000Z",
+   "competitors": [
+    "Crvena Zvezda",
+    "Maccabi Tel Aviv"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Crvena Zvezda",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Maccabi Tel Aviv",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Crvena Zvezda -5.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Maccabi Tel Aviv +5.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 172.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 172.50",
+       "decimal": 1.98,
+       "american": "-102",
+       "fractional": "49/50",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175"
+  },
+  {
+   "event_id": "536154",
+   "name": "Lanus vs Regatas",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas/4?event_id=536154",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:30",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:30:00.000Z",
+   "competitors": [
+    "Lanus",
+    "Regatas"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Regatas",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Lanus",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/2",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Lanus +1.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Regatas -1.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 161.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 161.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas/4?event_id=536154"
+  },
+  {
+   "event_id": "536174",
+   "name": "Bayern Munich vs Barcelona",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Tomorrow 19:00",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "European",
+   "fixture_name": "European",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:00:00.000Z",
+   "competitors": [
+    "Bayern Munich",
+    "Barcelona"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Barcelona",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Bayern Munich",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/2",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "Bayern Munich +1.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Barcelona -1.50",
+       "decimal": 2.05,
+       "american": "105",
+       "fractional": "21/20",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 175.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Under 175.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174"
+  },
+  {
+   "event_id": "536200",
+   "name": "DAL Mavericks @ MIA Heat",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat/4?event_id=536200",
+   "sport_slug": "Basketball",
+   "sport_id": 4,
+   "listing_when": "Today 23:30",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Basketball",
+   "fixture_slug": "NBA",
+   "fixture_name": "NBA",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:30:00.000Z",
+   "competitors": [
+    "DAL Mavericks",
+    "MIA Heat"
+   ],
+   "markets": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "MIA Heat",
+       "decimal": 1.36,
+       "american": "-275",
+       "fractional": "4/11",
+       "tips": "3/7",
+       "pct": "43"
+      },
+      {
+       "selection": "DAL Mavericks",
+       "decimal": 3.4,
+       "american": "240",
+       "fractional": "12/5",
+       "tips": "4/7",
+       "pct": "57"
+      }
+     ]
+    },
+    {
+     "market": "Pointspread",
+     "selections": [
+      {
+       "selection": "MIA Heat -7.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "DAL Mavericks +7.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "19/20",
+       "tips": "7/7",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 241.50",
+       "decimal": 1.88,
+       "american": "-114",
+       "fractional": "50/57",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Over 241.50",
+       "decimal": 1.94,
+       "american": "-106",
+       "fractional": "50/53",
+       "tips": "3/4",
+       "pct": "75"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Money Line",
+    "Pointspread",
+    "Game Totals"
+   ],
+   "tip_total": 7,
+   "canonical": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat/4?event_id=536200"
   }
- ]
+ ],
+ "events_with_markets": 20
 }

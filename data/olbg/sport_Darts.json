@@ -1,27 +1,1996 @@
 {
- "sport": {
-  "slug": "Darts",
-  "sport_id": 15,
-  "url": "https://www.olbg.com/betting-tips/Darts/15",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Darts/15",
-  "title": "Darts Betting Tips \u2013 Free Darts Predictions Today - OLBG.com",
-  "event_count": 2
- },
+ "sport": "Darts",
+ "sport_id": 15,
+ "listing_url": "https://www.olbg.com/betting-tips/Darts/15",
+ "status": 200,
+ "events_listed": 2,
  "events": [
   {
    "event_id": "26023",
    "name": "PDC World Championship 2027",
    "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
-   "competition_path": "betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027",
-   "context": "PDC World Championship 2027 03 Jan 2027 17:00"
+   "sport_slug": "Darts",
+   "sport_id": 15,
+   "listing_when": "",
+   "listing_tips": "22/36",
+   "listing_pct": "61",
+   "competition_group": "betting-tips",
+   "competition": "Darts",
+   "fixture_slug": "All_Darts",
+   "fixture_name": "All Darts",
+   "fetch_status": 200,
+   "official_start_utc": "2027-01-03T17:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Tournament",
+     "selections": [
+      {
+       "selection": "Luke Littler",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "22/36",
+       "pct": "61"
+      },
+      {
+       "selection": "Luke Humphries",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "2/36",
+       "pct": "6"
+      },
+      {
+       "selection": "Gerwyn Price",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "2/36",
+       "pct": "6"
+      },
+      {
+       "selection": "Gian van Veen",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "3/36",
+       "pct": "8"
+      },
+      {
+       "selection": "Ross Smith",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "1/36",
+       "pct": "3"
+      },
+      {
+       "selection": "Wessel Nijman",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Michael van Gerwen",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "2/36",
+       "pct": "6"
+      },
+      {
+       "selection": "Gary Anderson",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "1/36",
+       "pct": "3"
+      },
+      {
+       "selection": "James Wade",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Jonny Clayton",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Josh Rock",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Nathan Aspinall",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Kevin Doets",
+       "decimal": 56.0,
+       "american": "5500",
+       "fractional": "55/1",
+       "tips": "1/36",
+       "pct": "3"
+      },
+      {
+       "selection": "Chris Dobey",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "1/36",
+       "pct": "3"
+      },
+      {
+       "selection": "Danny Noppert",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Rob Cross",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "1/36",
+       "pct": "3"
+      },
+      {
+       "selection": "Ryan Searle",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Beau Greaves",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Stephen Bunting",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Luke Woodhouse",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Dirk van Duijvenbode",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Jermaine Wattimena",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Krzysztof Ratajski",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Niels Zonneveld",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Cameron Menzies",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Damon Heta",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Daryl Gurney",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Justin Hood",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Martin Schindler",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Michael Smith",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Brody Klinge",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Charlie Manby",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Connor Scutt",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Cristo Reyes",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Dave Chisnall",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Henry Coates",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Joe Cullen",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Niko Springer",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ryan Joyce",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Andrew Gilding",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Bradley Brooks",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Callan Rydz",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Dimitri van den Bergh",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Clemens",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mike De Decker",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ricardo Pietreczko",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Scott Williams",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "William OConnor",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Peter Wright",
+       "decimal": 351.0,
+       "american": "35000",
+       "fractional": "350/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Sebastian Bialecki",
+       "decimal": 351.0,
+       "american": "35000",
+       "fractional": "350/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Andreas Harrysson",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Archie Self",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Cameron Crabtree",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Florian Hempel",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "James Hurrell",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Jeffrey De Graaf",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Jimmy van Schie",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Karel Sedlacek",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mensur Suljovic",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Raymond van Barneveld",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Richard Veenstra",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ricky Evans",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ritchie Edhouse",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Wesley Plaisier",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Alan Soutar",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Brendan Dolan",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Darren Beveridge",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Lukas Wenig",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Madars Razma",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Gawlas",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Hunt",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Lipscombe",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Andy Baetens",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Boris Krcmar",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Cor Dekker",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Darius Labanauskas",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "David Cameron",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Fallon Sherrock",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Haupai Puha",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Keane Barry",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Kim Huybrechts",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Leonard Gates",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Lok Yin Lee",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mal Cuming",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Man Lok Leung",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mario Vandenbogaerde",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Martin Lukeman",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Matt Campbell",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mickey Mansell",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Mitsuhiko Tatsunami",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Motomu Sakai",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Nick Kenny",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Nitin Kumar",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Oskar Lukasiak",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Owen Bates",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Paolo Nebrida",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Patrik Kovacs",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Rob Owen",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ryan Meikle",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Simon Whitlock",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Stefan Bellmont",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Stephen Burton",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Steve Lennon",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Tavis Dudeney",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ted Evetts",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Thibault Tricole",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Tom Bissell",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Stowe Buntz",
+       "decimal": 1501.0,
+       "american": "150000",
+       "fractional": "1500/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Ian White",
+       "decimal": 2001.0,
+       "american": "200000",
+       "fractional": "2000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Lisa Ashton",
+       "decimal": 2001.0,
+       "american": "200000",
+       "fractional": "2000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Paul Lim",
+       "decimal": 2001.0,
+       "american": "200000",
+       "fractional": "2000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Vicky Pruim",
+       "decimal": 2001.0,
+       "american": "200000",
+       "fractional": "2000/1",
+       "tips": "0/36",
+       "pct": "0"
+      },
+      {
+       "selection": "Gemma Hayter",
+       "decimal": 2501.0,
+       "american": "250000",
+       "fractional": "2500/1",
+       "tips": "0/36",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Tournament"
+   ],
+   "tip_total": 36,
+   "canonical": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023"
   },
   {
    "event_id": "32446",
    "name": "Players Championship 31",
    "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
-   "competition_path": "betting-tips/Darts/All_Darts/All_Events/Players_Championship_31",
-   "context": "Players Championship 31 28 Oct 12:00"
+   "sport_slug": "Darts",
+   "sport_id": 15,
+   "listing_when": "28 Oct 12:00",
+   "listing_tips": "1/4",
+   "listing_pct": "25",
+   "competition_group": "betting-tips",
+   "competition": "Darts",
+   "fixture_slug": "All_Darts",
+   "fixture_name": "All Darts",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T12:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Tournament",
+     "selections": [
+      {
+       "selection": "Gian van Veen",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Wessel Nijman",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Nathan Aspinall",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "James Wade",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Kevin Doets",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Chris Dobey",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Michael van Gerwen",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Cristo Reyes",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Danny Noppert",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Dirk van Duijvenbode",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jermaine Wattimena",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Krzysztof Ratajski",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Martin Schindler",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Karel Sedlacek",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Beau Greaves",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Cameron Menzies",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Damon Heta",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Niels Zonneveld",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Callan Rydz",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Niko Springer",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Sebastian Bialecki",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "William OConnor",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Connor Scutt",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Daryl Gurney",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Clemens",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Justin Hood",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Kim Huybrechts",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Scott Williams",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Andrew Gilding",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Dave Chisnall",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Henry Coates",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jeffrey de Graaf",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Joe Cullen",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Michael Smith",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Mike De Decker",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Ricardo Pietreczko",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tom Sykes",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Mensur Suljovic",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Bradley Brooks",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Brendan Dolan",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Cam Crabtree",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Charlie Manby",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "James Hurrell",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jimmy van Schie",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Keane Barry",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Maik Kuivenhoven",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Mickey Mansell",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Richard Veenstra",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tom Bissell",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Alan Soutar",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Christian Kist",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Darryl Pilgrim",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jeffrey de Zwaan",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Madars Razma",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Max Hopp",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Raymond van Barneveld",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Ricky Evans",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Ryan Meikle",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Shane McGuirk",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Gawlas",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Warner",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Daniel Klose",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Darius Labanauskas",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Dimitri van den Bergh",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Lukas Wenig",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Mario Vandenbogaerde",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Nick Kenny",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Peter Wright",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Ritchie Edhouse",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Rob Owen",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Scott Waites",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Stefan Bellmont",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Steve Lennon",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Thomas Lovely",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tommy Morris",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Wesley Plaisier",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Lipscombe",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Arno Merk",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Chris Landman",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "David Sharp",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Joe Hunt",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Mervyn King",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Owen Bates",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Sietse Lap",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Stephen Burton",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Stephen Rosney",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Thibault Tricole",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tommy Lishman",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Leek",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Alexander Merkx",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Andy Boulton",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Benjamin Pratnemer",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Dennie Olde Kalter",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Dominik Gruellich",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Ian White",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jim Long",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jurjen van der Velde",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Marvin van Velzen",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Niall Culleton",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Radek Szaganski",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Rhys Griffin",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tyler Thorpe",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Viktor Tingstrom",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Carl Sneyd",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Cor Dekker",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Kevin Burness",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Leon Weber",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Levy Frauenfelder",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Martijn Dragt",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Marvin Kraft",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Nathan Potter",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tavis Dudeney",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Tytus Kanik",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Adam Paxton",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Filip Bereza",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Gilbert van der Meijden",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Greg Ritchie",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "James Beeton",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Jeffrey Sparidaans",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Pride",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Matthias Ehlers",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Maximilian Czerwinski",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Oskar Lukasiak",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Patrik Williams",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Pero Ljubic",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Samuel Price",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Stef Kosters",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Stefaan Henderyck",
+       "decimal": 751.0,
+       "american": "75000",
+       "fractional": "750/1",
+       "tips": "0/4",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Tournament"
+   ],
+   "tip_total": 4,
+   "canonical": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446"
   }
- ]
+ ],
+ "events_with_markets": 2
 }

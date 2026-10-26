@@ -1,90 +1,1022 @@
 {
- "sport": {
-  "slug": "Ice_Hockey",
-  "sport_id": 13,
-  "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
-  "title": "Ice Hockey Betting Tips & Free NHL Predictions - OLBG.com",
-  "event_count": 11
- },
+ "sport": "Ice_Hockey",
+ "sport_id": 13,
+ "listing_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+ "status": 200,
+ "events_listed": 11,
  "events": [
   {
    "event_id": "200101",
    "name": "LA Kings @ NY Rangers",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers/13?event_id=200101",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers",
-   "context": "LA Kings @ NY Rangers NHL Today 23:07"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Today 23:07",
+   "listing_tips": "13/16",
+   "listing_pct": "81",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T23:07:00.000Z",
+   "competitors": [
+    "LA Kings",
+    "NY Rangers"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "LA Kings +1.50",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "1/6",
+       "pct": "17"
+      },
+      {
+       "selection": "NY Rangers -1.50",
+       "decimal": 2.87,
+       "american": "187",
+       "fractional": "15/8",
+       "tips": "5/6",
+       "pct": "83"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "NY Rangers",
+       "decimal": 1.77,
+       "american": "-130",
+       "fractional": "10/13",
+       "tips": "13/16",
+       "pct": "81"
+      },
+      {
+       "selection": "LA Kings",
+       "decimal": 2.15,
+       "american": "115",
+       "fractional": "23/20",
+       "tips": "3/16",
+       "pct": "19"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 5.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Under 5.50",
+       "decimal": 2.07,
+       "american": "107",
+       "fractional": "107/100",
+       "tips": "3/4",
+       "pct": "75"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 16,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers/13?event_id=200101"
   },
   {
    "event_id": "200103",
    "name": "TOR Maple Leafs @ CGY Flames",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames",
-   "context": "TOR Maple Leafs @ CGY Flames NHL Tomorrow 00:37"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 00:37",
+   "listing_tips": "10/15",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:37:00.000Z",
+   "competitors": [
+    "TOR Maple Leafs",
+    "CGY Flames"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "CGY Flames +1.50",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "1/7",
+       "pct": "14"
+      },
+      {
+       "selection": "TOR Maple Leafs -1.50",
+       "decimal": 2.7,
+       "american": "170",
+       "fractional": "17/10",
+       "tips": "6/7",
+       "pct": "86"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "TOR Maple Leafs",
+       "decimal": 1.74,
+       "american": "-135",
+       "fractional": "20/27",
+       "tips": "10/15",
+       "pct": "67"
+      },
+      {
+       "selection": "CGY Flames",
+       "decimal": 2.15,
+       "american": "115",
+       "fractional": "23/20",
+       "tips": "5/15",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 6.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 6.50",
+       "decimal": 2.05,
+       "american": "105",
+       "fractional": "21/20",
+       "tips": "3/3",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 15,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103"
   },
   {
    "event_id": "200102",
    "name": "DET Red Wings @ EDM Oilers",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers",
-   "context": "DET Red Wings @ EDM Oilers NHL Tomorrow 01:37"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 01:37",
+   "listing_tips": "9/11",
+   "listing_pct": "82",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T01:37:00.000Z",
+   "competitors": [
+    "DET Red Wings",
+    "EDM Oilers"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "DET Red Wings +1.50",
+       "decimal": 1.62,
+       "american": "-163",
+       "fractional": "8/13",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "EDM Oilers -1.50",
+       "decimal": 2.37,
+       "american": "137",
+       "fractional": "11/8",
+       "tips": "4/4",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "EDM Oilers",
+       "decimal": 1.59,
+       "american": "-170",
+       "fractional": "10/17",
+       "tips": "9/11",
+       "pct": "82"
+      },
+      {
+       "selection": "DET Red Wings",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "2/11",
+       "pct": "18"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 6.50",
+       "decimal": 1.95,
+       "american": "-105",
+       "fractional": "20/21",
+       "tips": "4/5",
+       "pct": "80"
+      },
+      {
+       "selection": "Under 6.50",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "1/5",
+       "pct": "20"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 11,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102"
   },
   {
    "event_id": "200081",
    "name": "Kalpa vs Sport",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
-   "competition_path": "betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport",
-   "context": "Kalpa vs Sport Finland SM Liiga Tomorrow 16:30"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 16:30",
+   "listing_tips": "3/3",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T16:30:00.000Z",
+   "competitors": [
+    "Kalpa",
+    "Sport"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "Sport +1.50",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "11/25",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Kalpa -1.50",
+       "decimal": 2.55,
+       "american": "155",
+       "fractional": "31/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Kalpa",
+       "decimal": 1.6,
+       "american": "-167",
+       "fractional": "3/5",
+       "tips": "3/3",
+       "pct": "100"
+      },
+      {
+       "selection": "Sport",
+       "decimal": 2.4,
+       "american": "140",
+       "fractional": "7/5",
+       "tips": "0/3",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 5.50",
+       "decimal": 1.62,
+       "american": "-161",
+       "fractional": "8/13",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 5.50",
+       "decimal": 2.35,
+       "american": "135",
+       "fractional": "27/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081"
   },
   {
    "event_id": "200082",
    "name": "IF Malmo Redhawks vs Linkoping HC",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
-   "competition_path": "betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC",
-   "context": "IF Malmo Redhawks vs Linkoping HC Swedish Hockey League Tomorrow 18:00"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 18:00",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T18:00:00.000Z",
+   "competitors": [
+    "IF Malmo Redhawks",
+    "Linkoping HC"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "Linkoping HC +1.50",
+       "decimal": 1.51,
+       "american": "-196",
+       "fractional": "51/100",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "IF Malmo Redhawks -1.50",
+       "decimal": 2.45,
+       "american": "145",
+       "fractional": "29/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "IF Malmo Redhawks",
+       "decimal": 1.56,
+       "american": "-180",
+       "fractional": "5/9",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Linkoping HC",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 5.50",
+       "decimal": 1.63,
+       "american": "-159",
+       "fractional": "63/100",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 5.50",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082"
   },
   {
    "event_id": "200083",
    "name": "Frolunda HC vs Rogle BK",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
-   "competition_path": "betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK",
-   "context": "Frolunda HC vs Rogle BK Swedish Hockey League Tomorrow 18:00"
-  },
-  {
-   "event_id": "200100",
-   "name": "Kolner Haie vs Adler Mannheim",
-   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
-   "competition_path": "betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim",
-   "context": "Kolner Haie vs Adler Mannheim Germany Eishockey Liga Tomorrow 18:30"
-  },
-  {
-   "event_id": "200104",
-   "name": "BOS Bruins @ CAR Hurricanes",
-   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes",
-   "context": "BOS Bruins @ CAR Hurricanes NHL 28 Oct 00:07"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 18:00",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T18:00:00.000Z",
+   "competitors": [
+    "Frolunda HC",
+    "Rogle BK"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "Rogle BK +1.50",
+       "decimal": 1.38,
+       "american": "-260",
+       "fractional": "5/13",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Frolunda HC -1.50",
+       "decimal": 3.1,
+       "american": "210",
+       "fractional": "21/10",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Frolunda HC",
+       "decimal": 1.74,
+       "american": "-135",
+       "fractional": "37/50",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Rogle BK",
+       "decimal": 2.15,
+       "american": "115",
+       "fractional": "23/20",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 5.50",
+       "decimal": 1.57,
+       "american": "-175",
+       "fractional": "4/7",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 5.50",
+       "decimal": 2.4,
+       "american": "140",
+       "fractional": "7/5",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083"
   },
   {
    "event_id": "200111",
    "name": "NJ Devils @ DAL Stars",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13?event_id=200111",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars",
-   "context": "NJ Devils @ DAL Stars NHL 28 Oct 00:07"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "28 Oct 00:07",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T00:07:00.000Z",
+   "competitors": [
+    "NJ Devils",
+    "DAL Stars"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "NJ Devils +1.50",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "DAL Stars -1.50",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "DAL Stars",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "NJ Devils",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 5.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "807/1000",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 5.50",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13?event_id=200111"
+  },
+  {
+   "event_id": "200100",
+   "name": "Kolner Haie vs Adler Mannheim",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "Tomorrow 18:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "Other",
+   "fixture_name": "Other",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T18:30:00.000Z",
+   "competitors": [
+    "Kolner Haie",
+    "Adler Mannheim"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "Adler Mannheim +1.50",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Kolner Haie -1.50",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "Kolner Haie",
+       "decimal": 1.71,
+       "american": "-140",
+       "fractional": "5/7",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Adler Mannheim",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 5.50",
+       "decimal": 1.71,
+       "american": "-140",
+       "fractional": "5/7",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 5.50",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100"
   },
   {
    "event_id": "200112",
    "name": "NY Islanders @ NSH Predators",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13?event_id=200112",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators",
-   "context": "NY Islanders @ NSH Predators NHL 28 Oct 00:07"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "28 Oct 00:07",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T00:07:00.000Z",
+   "competitors": [
+    "NY Islanders",
+    "NSH Predators"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "NY Islanders +1.50",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "NSH Predators -1.50",
+       "decimal": 2.9,
+       "american": "190",
+       "fractional": "19/10",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "NSH Predators",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "NY Islanders",
+       "decimal": 2.05,
+       "american": "105",
+       "fractional": "21/20",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 5.50",
+       "decimal": 1.82,
+       "american": "-122",
+       "fractional": "41/50",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 5.50",
+       "decimal": 1.97,
+       "american": "-103",
+       "fractional": "97/100",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13?event_id=200112"
+  },
+  {
+   "event_id": "200104",
+   "name": "BOS Bruins @ CAR Hurricanes",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "28 Oct 00:07",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T00:07:00.000Z",
+   "competitors": [
+    "BOS Bruins",
+    "CAR Hurricanes"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "BOS Bruins +1.50",
+       "decimal": 1.65,
+       "american": "-154",
+       "fractional": "13/20",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "CAR Hurricanes -1.50",
+       "decimal": 2.25,
+       "american": "125",
+       "fractional": "5/4",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "CAR Hurricanes",
+       "decimal": 1.55,
+       "american": "-182",
+       "fractional": "11/20",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "BOS Bruins",
+       "decimal": 2.56,
+       "american": "156",
+       "fractional": "39/25",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Under 6.50",
+       "decimal": 1.76,
+       "american": "-132",
+       "fractional": "19/25",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Over 6.50",
+       "decimal": 2.3,
+       "american": "130",
+       "fractional": "13/10",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104"
   },
   {
    "event_id": "200105",
    "name": "FLA Panthers @ WPG Jets",
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105",
-   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets",
-   "context": "FLA Panthers @ WPG Jets NHL 28 Oct 00:07"
+   "sport_slug": "Ice_Hockey",
+   "sport_id": 13,
+   "listing_when": "28 Oct 00:07",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Ice Hockey",
+   "fixture_slug": "NHL",
+   "fixture_name": "NHL",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T00:07:00.000Z",
+   "competitors": [
+    "FLA Panthers",
+    "WPG Jets"
+   ],
+   "markets": [
+    {
+     "market": "Puck Line",
+     "selections": [
+      {
+       "selection": "WPG Jets +1.50",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "FLA Panthers -1.50",
+       "decimal": 2.85,
+       "american": "185",
+       "fractional": "37/20",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "selection": "FLA Panthers",
+       "decimal": 1.75,
+       "american": "-133",
+       "fractional": "3/4",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "WPG Jets",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "selection": "Over 5.50",
+       "decimal": 1.73,
+       "american": "-137",
+       "fractional": "8/11",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Under 5.50",
+       "decimal": 2.11,
+       "american": "111",
+       "fractional": "111/100",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Puck Line",
+    "Money Line",
+    "Game Totals"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105"
   }
- ]
+ ],
+ "events_with_markets": 11
 }

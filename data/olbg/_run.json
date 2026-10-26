@@ -1,0 +1,126 @@
+{
+ "generated_utc": "2026-10-26T20:41:46+00:00",
+ "sport_summary": [
+  {
+   "sport": "Tennis",
+   "sport_id": 3,
+   "status": 200,
+   "events_listed": 20,
+   "events_with_markets": 20,
+   "note": ""
+  },
+  {
+   "sport": "Basketball",
+   "sport_id": 4,
+   "status": 200,
+   "events_listed": 20,
+   "events_with_markets": 20,
+   "note": ""
+  },
+  {
+   "sport": "Golf",
+   "sport_id": 5,
+   "status": 200,
+   "events_listed": 4,
+   "events_with_markets": 3,
+   "note": ""
+  },
+  {
+   "sport": "Cricket",
+   "sport_id": 7,
+   "status": 200,
+   "events_listed": 17,
+   "events_with_markets": 17,
+   "note": ""
+  },
+  {
+   "sport": "Snooker",
+   "sport_id": 8,
+   "status": 200,
+   "events_listed": 0,
+   "events_with_markets": 0,
+   "note": "OLBG displayed 'No tips found.' at collection time"
+  },
+  {
+   "sport": "Rugby_Union",
+   "sport_id": 9,
+   "status": 200,
+   "events_listed": 13,
+   "events_with_markets": 13,
+   "note": ""
+  },
+  {
+   "sport": "Rugby_League",
+   "sport_id": 10,
+   "status": 200,
+   "events_listed": 3,
+   "events_with_markets": 3,
+   "note": ""
+  },
+  {
+   "sport": "Baseball",
+   "sport_id": 12,
+   "status": 200,
+   "events_listed": 1,
+   "events_with_markets": 1,
+   "note": ""
+  },
+  {
+   "sport": "Ice_Hockey",
+   "sport_id": 13,
+   "status": 200,
+   "events_listed": 11,
+   "events_with_markets": 11,
+   "note": ""
+  },
+  {
+   "sport": "Motor_Racing",
+   "sport_id": 14,
+   "status": 200,
+   "events_listed": 2,
+   "events_with_markets": 2,
+   "note": ""
+  },
+  {
+   "sport": "Darts",
+   "sport_id": 15,
+   "status": 200,
+   "events_listed": 2,
+   "events_with_markets": 2,
+   "note": ""
+  },
+  {
+   "sport": "Handball",
+   "sport_id": 20,
+   "status": 200,
+   "events_listed": 17,
+   "events_with_markets": 17,
+   "note": ""
+  },
+  {
+   "sport": "Volleyball",
+   "sport_id": 21,
+   "status": 200,
+   "events_listed": 15,
+   "events_with_markets": 15,
+   "note": ""
+  },
+  {
+   "sport": "Gaelic_Football",
+   "sport_id": 25,
+   "status": 200,
+   "events_listed": 3,
+   "events_with_markets": 3,
+   "note": ""
+  },
+  {
+   "sport": "Greyhounds",
+   "sport_id": 28,
+   "status": 200,
+   "events_listed": 5,
+   "events_with_markets": 5,
+   "note": ""
+  }
+ ],
+ "errors": []
+}

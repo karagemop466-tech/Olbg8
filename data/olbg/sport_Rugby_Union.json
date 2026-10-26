@@ -1,104 +1,927 @@
 {
- "sport": {
-  "slug": "Rugby_Union",
-  "sport_id": 9,
-  "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
-  "title": "Free Rugby Union Betting Tips & Predictions Today - OLBG.com",
-  "event_count": 13
- },
+ "sport": "Rugby_Union",
+ "sport_id": 9,
+ "listing_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+ "status": 200,
+ "events_listed": 13,
  "events": [
   {
-   "event_id": "609604",
-   "name": "Colomiers v Agen",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen",
-   "context": "Colomiers v Agen 30 Oct 18:00"
+   "event_id": "609013",
+   "name": "Six Nations 2027",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "",
+   "listing_tips": "3/11",
+   "listing_pct": "27",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2027-03-14T20:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Tournament",
+     "selections": [
+      {
+       "selection": "France",
+       "decimal": 2.38,
+       "american": "138",
+       "fractional": "11/8",
+       "tips": "2/11",
+       "pct": "18"
+      },
+      {
+       "selection": "Ireland",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "3/11",
+       "pct": "27"
+      },
+      {
+       "selection": "England",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "2/11",
+       "pct": "18"
+      },
+      {
+       "selection": "Scotland",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "2/11",
+       "pct": "18"
+      },
+      {
+       "selection": "Italy",
+       "decimal": 91.0,
+       "american": "9000",
+       "fractional": "90/1",
+       "tips": "1/11",
+       "pct": "9"
+      },
+      {
+       "selection": "Wales",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "1/11",
+       "pct": "9"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Tournament"
+   ],
+   "tip_total": 11,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013"
   },
   {
    "event_id": "609598",
    "name": "Oyonnax v Soyaux Angouleme",
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme",
-   "context": "Oyonnax v Soyaux Angouleme 30 Oct 18:30"
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 18:30",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T18:30:00.000Z",
+   "competitors": [
+    "Oyonnax",
+    "Soyaux Angouleme"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Oyonnax",
+       "decimal": 1.04,
+       "american": "-2500",
+       "fractional": "1/25",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Soyaux Angouleme",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Soyaux Angouleme +20.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oyonnax -20.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598"
   },
   {
    "event_id": "609605",
    "name": "Dax v Provence",
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence",
-   "context": "Dax v Provence 29 Oct 20:00"
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "29 Oct 20:00",
+   "listing_tips": "1/2",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-29T20:00:00.000Z",
+   "competitors": [
+    "Dax",
+    "Provence"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Dax",
+       "decimal": 1.73,
+       "american": "-138",
+       "fractional": "8/11",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Provence",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Provence +1.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Dax -1.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605"
   },
   {
-   "event_id": "609599",
-   "name": "Beziers v Grenoble",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble",
-   "context": "Beziers v Grenoble 30 Oct 18:30"
-  },
-  {
-   "event_id": "609600",
-   "name": "Nissa v Aurillac",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac",
-   "context": "Nissa v Aurillac 30 Oct 18:30"
-  },
-  {
-   "event_id": "609590",
-   "name": "Glasgow Warriors v Lions",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions",
-   "context": "Glasgow Warriors v Lions 30 Oct 19:45"
-  },
-  {
-   "event_id": "609584",
-   "name": "Connacht v Leinster",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster",
-   "context": "Connacht v Leinster 30 Oct 19:45"
-  },
-  {
-   "event_id": "609602",
-   "name": "Biarritz v Valence Romans",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans",
-   "context": "Biarritz v Valence Romans 30 Oct 20:00"
-  },
-  {
-   "event_id": "609588",
-   "name": "Stormers v Ulster",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster",
-   "context": "Stormers v Ulster 31 Oct 12:45"
-  },
-  {
-   "event_id": "609586",
-   "name": "Munster v Sharks",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks",
-   "context": "Munster v Sharks 31 Oct 17:30"
-  },
-  {
-   "event_id": "609611",
-   "name": "Pau v Toulouse",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse",
-   "context": "Pau v Toulouse 01 Nov 20:05"
+   "event_id": "609604",
+   "name": "Colomiers v Agen",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 18:00",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T18:00:00.000Z",
+   "competitors": [
+    "Colomiers",
+    "Agen"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Colomiers",
+       "decimal": 1.17,
+       "american": "-602",
+       "fractional": "1/6",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Agen",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Agen +12.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Colomiers -12.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"
   },
   {
    "event_id": "609603",
    "name": "Montauban v Narbonne",
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne",
-   "context": "Montauban v Narbonne 30 Oct 18:30"
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 18:30",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T18:30:00.000Z",
+   "competitors": [
+    "Montauban",
+    "Narbonne"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Montauban",
+       "decimal": 1.01,
+       "american": "-6667",
+       "fractional": "1/66",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Narbonne",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Narbonne +24.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Montauban -24.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603"
   },
   {
-   "event_id": "609013",
-   "name": "Six Nations 2027",
-   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
-   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027",
-   "context": "Six Nations 2027 14 Mar 2027 20:00"
+   "event_id": "609611",
+   "name": "Pau v Toulouse",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "01 Nov 20:05",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-11-01T20:05:00.000Z",
+   "competitors": [
+    "Pau",
+    "Toulouse"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Pau",
+       "decimal": 1.44,
+       "american": "-225",
+       "fractional": "4/9",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Toulouse",
+       "decimal": 2.62,
+       "american": "162",
+       "fractional": "13/8",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Toulouse +5.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Pau -5.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611"
+  },
+  {
+   "event_id": "609599",
+   "name": "Beziers v Grenoble",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 18:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T18:30:00.000Z",
+   "competitors": [
+    "Beziers",
+    "Grenoble"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Grenoble",
+       "decimal": 1.73,
+       "american": "-138",
+       "fractional": "8/11",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Beziers",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Beziers +1.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Grenoble -1.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599"
+  },
+  {
+   "event_id": "609600",
+   "name": "Nissa v Aurillac",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 18:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T18:30:00.000Z",
+   "competitors": [
+    "Nissa",
+    "Aurillac"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Nissa",
+       "decimal": 1.44,
+       "american": "-225",
+       "fractional": "4/9",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Aurillac",
+       "decimal": 2.62,
+       "american": "162",
+       "fractional": "13/8",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Aurillac +5.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nissa -5.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600"
+  },
+  {
+   "event_id": "609584",
+   "name": "Connacht v Leinster",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 19:45",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T19:45:00.000Z",
+   "competitors": [
+    "Connacht",
+    "Leinster"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Leinster",
+       "decimal": 1.57,
+       "american": "-175",
+       "fractional": "4/7",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Connacht",
+       "decimal": 2.25,
+       "american": "125",
+       "fractional": "5/4",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Connacht +3.50",
+       "decimal": 1.9,
+       "american": "-111",
+       "fractional": "9/10",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Leinster -3.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584"
+  },
+  {
+   "event_id": "609590",
+   "name": "Glasgow Warriors v Lions",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 19:45",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T19:45:00.000Z",
+   "competitors": [
+    "Glasgow Warriors",
+    "Lions"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Glasgow Warriors",
+       "decimal": 1.12,
+       "american": "-800",
+       "fractional": "1/8",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Lions",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Lions +14.50",
+       "decimal": 1.85,
+       "american": "-118",
+       "fractional": "17/20",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Glasgow Warriors -14.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590"
+  },
+  {
+   "event_id": "609602",
+   "name": "Biarritz v Valence Romans",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "30 Oct 20:00",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T20:00:00.000Z",
+   "competitors": [
+    "Biarritz",
+    "Valence Romans"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Biarritz",
+       "decimal": 1.22,
+       "american": "-450",
+       "fractional": "2/9",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Valence Romans",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Valence Romans +10.50",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Biarritz -10.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602"
+  },
+  {
+   "event_id": "609588",
+   "name": "Stormers v Ulster",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "31 Oct 12:45",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-31T12:45:00.000Z",
+   "competitors": [
+    "Stormers",
+    "Ulster"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Stormers",
+       "decimal": 1.17,
+       "american": "-602",
+       "fractional": "1/6",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Ulster",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Ulster +12.50",
+       "decimal": 1.9,
+       "american": "-111",
+       "fractional": "9/10",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Stormers -12.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588"
+  },
+  {
+   "event_id": "609586",
+   "name": "Munster v Sharks",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
+   "sport_slug": "Rugby_Union",
+   "sport_id": 9,
+   "listing_when": "31 Oct 17:30",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Rugby Union",
+   "fixture_slug": "All_Rugby_Union",
+   "fixture_name": "All Rugby Union",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-31T17:30:00.000Z",
+   "competitors": [
+    "Munster",
+    "Sharks"
+   ],
+   "markets": [
+    {
+     "market": "To Win",
+     "selections": [
+      {
+       "selection": "Munster",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Sharks",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Handicap",
+     "selections": [
+      {
+       "selection": "Sharks +6.50",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Munster -6.50",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "To Win",
+    "Handicap"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586"
   }
- ]
+ ],
+ "events_with_markets": 13
 }

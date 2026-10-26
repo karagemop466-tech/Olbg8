@@ -1,34 +1,377 @@
 {
- "sport": {
-  "slug": "Rugby_League",
-  "sport_id": 10,
-  "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Rugby_League/10",
-  "title": "Free Rugby League Betting Tips and Predictions - OLBG.com",
-  "event_count": 3
- },
+ "sport": "Rugby_League",
+ "sport_id": 10,
+ "listing_url": "https://www.olbg.com/betting-tips/Rugby_League/10",
+ "status": 200,
+ "events_listed": 3,
  "events": [
   {
    "event_id": "2695857",
    "name": "State of Origin 2027",
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
-   "competition_path": "betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027",
-   "context": "State of Origin 2027 27 May 2027 11:00"
+   "sport_slug": "Rugby_League",
+   "sport_id": 10,
+   "listing_when": "",
+   "listing_tips": "9/13",
+   "listing_pct": "69",
+   "competition_group": "betting-tips",
+   "competition": "Rugby League",
+   "fixture_slug": "All_Rugby_League",
+   "fixture_name": "All Rugby League",
+   "fetch_status": 200,
+   "official_start_utc": "2027-05-27T10:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Tournament",
+     "selections": [
+      {
+       "selection": "New South Wales",
+       "decimal": 1.75,
+       "american": "-133",
+       "fractional": "3/4",
+       "tips": "9/13",
+       "pct": "69"
+      },
+      {
+       "selection": "Queensland",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "4/13",
+       "pct": "31"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Tournament"
+   ],
+   "tip_total": 13,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857"
   },
   {
    "event_id": "2801554",
    "name": "Super League 2027",
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
-   "competition_path": "betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027",
-   "context": "Super League 2027 02 Oct 2027 18:00"
+   "sport_slug": "Rugby_League",
+   "sport_id": 10,
+   "listing_when": "",
+   "listing_tips": "2/4",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Rugby League",
+   "fixture_slug": "All_Rugby_League",
+   "fixture_name": "All Rugby League",
+   "fetch_status": 200,
+   "official_start_utc": "2027-10-02T17:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Grand Final Winner",
+     "selections": [
+      {
+       "selection": "Wigan Warriors",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "2/4",
+       "pct": "50"
+      },
+      {
+       "selection": "Leeds Rhinos",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "Hull KR",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "1/4",
+       "pct": "25"
+      },
+      {
+       "selection": "St Helens",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Wakefield Trinity",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Warrington Wolves",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Leigh Leopards",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Hull FC",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Catalans Dragons",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "London Broncos",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Bradford Bulls",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Castleford Tigers",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Huddersfield Giants",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "Toulouse Olympique",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      },
+      {
+       "selection": "York Knights",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/4",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Grand Final Winner"
+   ],
+   "tip_total": 4,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554"
   },
   {
    "event_id": "2801600",
    "name": "NRL 2027",
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
-   "competition_path": "betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027",
-   "context": "NRL 2027 03 Oct 2027 09:30"
+   "sport_slug": "Rugby_League",
+   "sport_id": 10,
+   "listing_when": "",
+   "listing_tips": "1/3",
+   "listing_pct": "33",
+   "competition_group": "betting-tips",
+   "competition": "Rugby League",
+   "fixture_slug": "All_Rugby_League",
+   "fixture_name": "All Rugby League",
+   "fetch_status": 200,
+   "official_start_utc": "2027-10-03T08:30:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Grand Final Winner",
+     "selections": [
+      {
+       "selection": "Dolphins",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Sydney Roosters",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Penrith Panthers",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "New Zealand Warriors",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Melbourne Storm",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Newcastle Knights",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "South Sydney Rabbitohs",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Brisbane Broncos",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Canterbury Bulldogs",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Cronulla Sharks",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Canberra Raiders",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Manly Sea Eagles",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "North Queensland Cowboys",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "St George/Illawarra Dragons",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Parramatta Eels",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Gold Coast Titans",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Wests Tigers",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Perth Bears",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/3",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Grand Final Winner"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600"
   }
- ]
+ ],
+ "events_with_markets": 3
 }

@@ -1,132 +1,4001 @@
 {
- "sport": {
-  "slug": "Cricket",
-  "sport_id": 7,
-  "url": "https://www.olbg.com/betting-tips/Cricket/7",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Cricket/7",
-  "title": "Free Cricket Betting Tips & Predictions Today - OLBG.com",
-  "event_count": 17
- },
+ "sport": "Cricket",
+ "sport_id": 7,
+ "listing_url": "https://www.olbg.com/betting-tips/Cricket/7",
+ "status": 200,
+ "events_listed": 17,
  "events": [
-  {
-   "event_id": "188852",
-   "name": "New Zealand vs India 3rd T20 Match",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match",
-   "context": "New Zealand vs India 3rd T20 Match Tomorrow 07:00"
-  },
-  {
-   "event_id": "188854",
-   "name": "Namibia vs Ireland 3rd ODI",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI",
-   "context": "Namibia vs Ireland 3rd ODI Tomorrow 07:30"
-  },
   {
    "event_id": "188868",
    "name": "Pakistan vs Sri Lanka One Day Match",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match",
-   "context": "Pakistan vs Sri Lanka One Day Match Tomorrow 08:00"
-  },
-  {
-   "event_id": "188872",
-   "name": "Afghanistan vs Zimbabwe 1st T20 Match",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match",
-   "context": "Afghanistan vs Zimbabwe 1st T20 Match Tomorrow 14:30"
-  },
-  {
-   "event_id": "188864",
-   "name": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash",
-   "context": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash 29 Oct 08:10"
-  },
-  {
-   "event_id": "188865",
-   "name": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash",
-   "context": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash 30 Oct 08:10"
-  },
-  {
-   "event_id": "188835",
-   "name": "South Africa vs Australia",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia",
-   "context": "South Africa vs Australia 31 Oct 08:30"
-  },
-  {
-   "event_id": "188876",
-   "name": "Auckland vs Canterbury One Day Match",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match",
-   "context": "Auckland vs Canterbury One Day Match Tomorrow 21:30"
-  },
-  {
-   "event_id": "188877",
-   "name": "Central Districts vs Northern Districts One Day Match",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match",
-   "context": "Central Districts vs Northern Districts One Day Match Tomorrow 21:30"
-  },
-  {
-   "event_id": "188878",
-   "name": "Wellington vs Otago One Day Match",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match",
-   "context": "Wellington vs Otago One Day Match Tomorrow 21:30"
-  },
-  {
-   "event_id": "188863",
-   "name": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash",
-   "context": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash 29 Oct 04:40"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 08:00",
+   "listing_tips": "14/21",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T08:00:00.000Z",
+   "competitors": [
+    "Pakistan",
+    "Sri Lanka One Day Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Pakistan",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "14/21",
+       "pct": "67"
+      },
+      {
+       "selection": "Sri Lanka",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "7/21",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "MB Azam",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "4/9",
+       "pct": "44"
+      },
+      {
+       "selection": "P Nissanka",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "BKG Mendis",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "F Zaman",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Shaheen Afridi",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Shadab Khan",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Kamindu Mendis",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "K Mishara",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "A Ahmed",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "H Nawaz",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "H Rauf",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "N Shah",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "S Agha",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "S Farhan",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "A Minhas",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Eshan Malinga",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "MD Shanaka",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Pavan Rathnayake",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "S Moqim",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "F Ashraf",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Janith Liyanage",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "MM Theekshana",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Razaullah",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "WIA Fernando",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "DN Wellalage",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "D Madushanka",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "S Baig",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "SSD Arachchige",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Asitha Fernando",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "SM Colombage",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "M Ghazi Ghori",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "PVD Chameera",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/9",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "selection": "BKG Mendis (Sri Lanka)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "P Nissanka (Sri Lanka)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Pavan Rathnayake (Sri Lanka)",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "WIA Fernando (Sri Lanka)",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "K Mishara (Sri Lanka)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Kamindu Mendis (Sri Lanka)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "Janith Liyanage (Sri Lanka)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "MD Shanaka (Sri Lanka)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "SSD Arachchige (Sri Lanka)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "DN Wellalage (Sri Lanka)",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "SM Colombage (Sri Lanka)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "MM Theekshana (Sri Lanka)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "PVD Chameera (Sri Lanka)",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Asitha Fernando (Sri Lanka)",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "D Madushanka (Sri Lanka)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Eshan Malinga (Sri Lanka)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/9",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "selection": "MB Azam (Pakistan)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "2/7",
+       "pct": "29"
+      },
+      {
+       "selection": "F Zaman (Pakistan)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "1/7",
+       "pct": "14"
+      },
+      {
+       "selection": "S Farhan (Pakistan)",
+       "decimal": 4.75,
+       "american": "375",
+       "fractional": "15/4",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "S Agha (Pakistan)",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "3/7",
+       "pct": "43"
+      },
+      {
+       "selection": "S Baig (Pakistan)",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "1/7",
+       "pct": "14"
+      },
+      {
+       "selection": "H Nawaz (Pakistan)",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "M Ghazi Ghori (Pakistan)",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "A Minhas (Pakistan)",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "Shadab Khan (Pakistan)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "F Ashraf (Pakistan)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "N Shah (Pakistan)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "Shaheen Afridi (Pakistan)",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "Razaullah (Pakistan)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "A Ahmed (Pakistan)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "H Rauf (Pakistan)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "S Moqim (Pakistan)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/7",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Man Of The Match",
+    "Top Team2 Batsman",
+    "Top Team1 Batsman"
+   ],
+   "tip_total": 21,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"
   },
   {
    "event_id": "182606",
    "name": "World Cup 2027",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7?event_id=182606",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027",
-   "context": "World Cup 2027 21 Nov 2027 10:00"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "",
+   "listing_tips": "6/12",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2027-11-21T10:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Outright Winner",
+     "selections": [
+      {
+       "selection": "India",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "6/12",
+       "pct": "50"
+      },
+      {
+       "selection": "Australia",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/12",
+       "pct": "8"
+      },
+      {
+       "selection": "England",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "4/12",
+       "pct": "33"
+      },
+      {
+       "selection": "South Africa",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "New Zealand",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Pakistan",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "West Indies",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Sri Lanka",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Afghanistan",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Bangladesh",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Zimbabwe",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "USA",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Ireland",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "1/12",
+       "pct": "8"
+      },
+      {
+       "selection": "Namibia",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Netherlands",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "UAE",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Nepal",
+       "decimal": 1501.0,
+       "american": "150000",
+       "fractional": "1500/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Oman",
+       "decimal": 1501.0,
+       "american": "150000",
+       "fractional": "1500/1",
+       "tips": "0/12",
+       "pct": "0"
+      },
+      {
+       "selection": "Scotland",
+       "decimal": 1501.0,
+       "american": "150000",
+       "fractional": "1500/1",
+       "tips": "0/12",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Outright Winner"
+   ],
+   "tip_total": 12,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7?event_id=182606"
+  },
+  {
+   "event_id": "188872",
+   "name": "Afghanistan vs Zimbabwe 1st T20 Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 14:30",
+   "listing_tips": "8/9",
+   "listing_pct": "89",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T14:30:00.000Z",
+   "competitors": [
+    "Afghanistan",
+    "Zimbabwe 1st T20 Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Afghanistan",
+       "decimal": 1.27,
+       "american": "-370",
+       "fractional": "27/100",
+       "tips": "8/9",
+       "pct": "89"
+      },
+      {
+       "selection": "Zimbabwe",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "1/9",
+       "pct": "11"
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "Ibrahim Zadran",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "2/5",
+       "pct": "40"
+      },
+      {
+       "selection": "R Gurbaz",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "Rashid Khan",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "S Atal",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "Azmatullah Omarzai",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "BL Bennett",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "N Ahmad",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "F Farooqi",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "M Akram",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "M ur Rahman",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Shahidullah",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "B Evans",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "B Muzarabani",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Sikandar Raza",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "A Tarakhail",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Abdollah Ahmadzai",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "BJ Curran",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "F Ahmad",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "I Kaia",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "N ul Rahman",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "RP Burl",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "I Ahmad Ahmadzai",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "K Matigimu",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "N Nyamhuri",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "T Marumani",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "T Tsiga",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "V Masekesa",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "W Madhevere",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "WP Masakadza",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "selection": "BL Bennett (Zimbabwe)",
+       "decimal": 3.4,
+       "american": "240",
+       "fractional": "12/5",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "BJ Curran (Zimbabwe)",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "I Kaia (Zimbabwe)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Sikandar Raza (Zimbabwe)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "RP Burl (Zimbabwe)",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Tsiga (Zimbabwe)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "W Madhevere (Zimbabwe)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Marumani (Zimbabwe)",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "B Evans (Zimbabwe)",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "WP Masakadza (Zimbabwe)",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "V Masekesa (Zimbabwe)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "K Matigimu (Zimbabwe)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "B Muzarabani (Zimbabwe)",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N Nyamhuri (Zimbabwe)",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "selection": "Ibrahim Zadran (Afghanistan)",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "R Gurbaz (Afghanistan)",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "S Atal (Afghanistan)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "M Akram (Afghanistan)",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "N ul Rahman (Afghanistan)",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Azmatullah Omarzai (Afghanistan)",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "I Ahmad Ahmadzai (Afghanistan)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Shahidullah (Afghanistan)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Rashid Khan (Afghanistan)",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "M ur Rahman (Afghanistan)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "A Tarakhail (Afghanistan)",
+       "decimal": 81.0,
+       "american": "8000",
+       "fractional": "80/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Abdollah Ahmadzai (Afghanistan)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "F Farooqi (Afghanistan)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "N Ahmad (Afghanistan)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "F Ahmad (Afghanistan)",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/3",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Man Of The Match",
+    "Top Team2 Batsman",
+    "Top Team1 Batsman"
+   ],
+   "tip_total": 9,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872"
+  },
+  {
+   "event_id": "188864",
+   "name": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "29 Oct 08:10",
+   "listing_tips": "4/6",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-29T08:10:00.000Z",
+   "competitors": [
+    "Melbourne Stars W",
+    "Hobart Hurricanes W T20 Big Bash"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Hobart Hurricanes W",
+       "decimal": 1.73,
+       "american": "-137",
+       "fractional": "8/11",
+       "tips": "4/6",
+       "pct": "67"
+      },
+      {
+       "selection": "Melbourne Stars W",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "2/6",
+       "pct": "33"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match"
+   ],
+   "tip_total": 6,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864"
+  },
+  {
+   "event_id": "188865",
+   "name": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "30 Oct 08:10",
+   "listing_tips": "3/5",
+   "listing_pct": "60",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-30T08:10:00.000Z",
+   "competitors": [
+    "Brisbane Heat W",
+    "Sydney Sixers W T20 Big Bash"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Sydney Sixers W",
+       "decimal": 1.57,
+       "american": "-175",
+       "fractional": "4/7",
+       "tips": "3/5",
+       "pct": "60"
+      },
+      {
+       "selection": "Brisbane Heat W",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "2/5",
+       "pct": "40"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match"
+   ],
+   "tip_total": 5,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865"
+  },
+  {
+   "event_id": "188835",
+   "name": "South Africa vs Australia",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "31 Oct 08:30",
+   "listing_tips": "3/5",
+   "listing_pct": "60",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-31T08:30:00.000Z",
+   "competitors": [
+    "South Africa",
+    "Australia"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "South Africa",
+       "decimal": 2.04,
+       "american": "104",
+       "fractional": "26/25",
+       "tips": "2/7",
+       "pct": "29"
+      },
+      {
+       "selection": "Australia",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "2/7",
+       "pct": "29"
+      },
+      {
+       "selection": "Draw",
+       "decimal": 10.5,
+       "american": "950",
+       "fractional": "19/2",
+       "tips": "3/7",
+       "pct": "43"
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "AK Markram",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "3/5",
+       "pct": "60"
+      },
+      {
+       "selection": "SPD Smith",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "M Jansen",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "P Cummins",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "TM Head",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "JR Hazlewood",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "K Rabada",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "MA Starc",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "SM Boland",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "D Bedingham",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "A Carey",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "M Breetzke",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "M Labuschagne",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "MT Renshaw",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "NM Lyon",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "R Rickelton",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "SR Harmer",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "T Bavuma",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "K Maharaj",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "PWA Mulder",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "C Connolly",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "CD Green",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "BJ Webster",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "D Paterson",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "JP Inglis",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "K Verreynne",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Corbin Bosch",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "MG Neser",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "MJ Ackerman",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "MP Kuhnemann",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "G Coetzee",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/5",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Draw No Bet",
+     "selections": [
+      {
+       "selection": "South Africa",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Australia",
+       "decimal": 2.0,
+       "american": "100",
+       "fractional": "1/1",
+       "tips": "2/3",
+       "pct": "67"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Man Of The Match",
+    "Draw No Bet"
+   ],
+   "tip_total": 7,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835"
   },
   {
    "event_id": "187184",
    "name": "Big Bash Women 2026",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026",
-   "context": "Big Bash Women 2026 05 Dec 08:10"
-  },
-  {
-   "event_id": "188871",
-   "name": "Bangladesh vs West Indies",
-   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies",
-   "context": "Bangladesh vs West Indies 01 Nov 03:30"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "05 Dec 08:10",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-12-05T08:10:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Outright Winner",
+     "selections": [
+      {
+       "selection": "Hobart Hurricanes W",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Sydney Sixers W",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Perth Scorchers W",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Melbourne Stars W",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Sydney Thunder (W)",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Adelaide Strikers W",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Melbourne Renegades W",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Brisbane Heat W",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/3",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Outright Winner"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184"
   },
   {
    "event_id": "187503",
    "name": "T20 Big Bash 2026-27",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7?event_id=187503",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27",
-   "context": "T20 Big Bash 2026-27 12 Dec 08:15"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "12 Dec 08:15",
+   "listing_tips": "1/2",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-12-12T08:15:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Outright Winner",
+     "selections": [
+      {
+       "selection": "Perth Scorchers",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Hobart Hurricanes",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Sydney Sixers",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Melbourne Stars",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Adelaide Strikers",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Melbourne Renegades",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Brisbane Heat",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Sydney Thunder",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Outright Winner"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7?event_id=187503"
+  },
+  {
+   "event_id": "188863",
+   "name": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "29 Oct 04:40",
+   "listing_tips": "1/2",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-29T04:40:00.000Z",
+   "competitors": [
+    "Melbourne Renegades W",
+    "Sydney Thunder W T20 Big Bash"
+   ],
+   "markets": [
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "G Wareham",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "HK Matthews",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "P Litchfield",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "G Voll",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "S Molineux",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "DJS Dottin",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "HC Knight",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "HJ Darlington",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "LK Bell",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "C Webb",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N de Klerk",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "SL Bates",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Vlaeminck",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "A Wikman",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N Faltum",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Wilson",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "CL Tryon",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "L Finn",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "L Harris",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "S Reid",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "A Learoyd",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N Hancock",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Flintoff",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "H Gill",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "JL Barsby",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "M Illingworth",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "O Porter",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "SC Kennedy",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "selection": "P Litchfield (Sydney Thunder (W))",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "G Voll (Sydney Thunder (W))",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "HC Knight (Sydney Thunder (W))",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "T Wilson (Sydney Thunder (W))",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "L Harris (Sydney Thunder (W))",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "N de Klerk (Sydney Thunder (W))",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "A Learoyd (Sydney Thunder (W))",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "L Finn (Sydney Thunder (W))",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "HJ Darlington (Sydney Thunder (W))",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "JL Barsby (Sydney Thunder (W))",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N Hancock (Sydney Thunder (W))",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "H Gill (Sydney Thunder (W))",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "LK Bell (Sydney Thunder (W))",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "SL Bates (Sydney Thunder (W))",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "selection": "HK Matthews (Melbourne Renegades W)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "C Webb (Melbourne Renegades W)",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "DJS Dottin (Melbourne Renegades W)",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "A Wikman (Melbourne Renegades W)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "S Molineux (Melbourne Renegades W)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "S Reid (Melbourne Renegades W)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "G Wareham (Melbourne Renegades W)",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "T Flintoff (Melbourne Renegades W)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "CL Tryon (Melbourne Renegades W)",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "N Faltum (Melbourne Renegades W)",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "O Porter (Melbourne Renegades W)",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "T Vlaeminck (Melbourne Renegades W)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "M Illingworth (Melbourne Renegades W)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "SC Kennedy (Melbourne Renegades W)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Man Of The Match",
+    "Top Team2 Batsman",
+    "Top Team1 Batsman"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863"
+  },
+  {
+   "event_id": "188876",
+   "name": "Auckland vs Canterbury One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 21:30",
+   "listing_tips": "2/2",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T21:30:00.000Z",
+   "competitors": [
+    "Auckland",
+    "Canterbury One Day Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Canterbury",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Auckland",
+       "decimal": 2.62,
+       "american": "162",
+       "fractional": "13/8",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876"
+  },
+  {
+   "event_id": "188877",
+   "name": "Central Districts vs Northern Districts One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 21:30",
+   "listing_tips": "1/2",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T21:30:00.000Z",
+   "competitors": [
+    "Central Districts",
+    "Northern Districts One Day Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Northern Districts",
+       "decimal": 1.67,
+       "american": "-150",
+       "fractional": "4/6",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Central Districts",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877"
+  },
+  {
+   "event_id": "188878",
+   "name": "Wellington vs Otago One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 21:30",
+   "listing_tips": "1/2",
+   "listing_pct": "50",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T21:30:00.000Z",
+   "competitors": [
+    "Wellington",
+    "Otago One Day Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Wellington",
+       "decimal": 1.53,
+       "american": "-189",
+       "fractional": "8/15",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Otago",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878"
   },
   {
    "event_id": "187504",
    "name": "SA20 2026-27",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7?event_id=187504",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27",
-   "context": "SA20 2026-27 24 Jan 2027 16:30"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2027-01-24T16:30:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Outright Winner",
+     "selections": [
+      {
+       "selection": "MI Cape Town",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Sunrisers Eastern Cape",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Pretoria Capitals",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Durbans Super Giants",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Joburg Super Kings",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Paarl Royals",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Outright Winner"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7?event_id=187504"
+  },
+  {
+   "event_id": "188871",
+   "name": "Bangladesh vs West Indies",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "01 Nov 03:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-11-01T03:30:00.000Z",
+   "competitors": [
+    "Bangladesh",
+    "West Indies"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Bangladesh",
+       "decimal": 1.86,
+       "american": "-116",
+       "fractional": "869/1000",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "West Indies",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Draw",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "J Bishop",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Mehidy Hasan Miraz",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Hasan Mahmud",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "J Warrican",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "JP Greaves",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Taijul Islam",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "AA Jangoo",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "JNT Seales",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "KAJ Roach",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "M Haque",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Najmul Hossain Shanto",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Nayeem Hasan",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "RL Chase",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "SK Springer",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Taskin Ahmed",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "BA King",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "LK Das",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "S Joseph",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Shoriful Islam",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Tanzid Hasan Tamin",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Shadman Islam",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Ebadot Hossain",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "J Da Silva",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "JD Campbell",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "K Wickham",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "KAR Hodge",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "N Hasan",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "T Chanderpaul",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Towhid Hridoy",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "J Ali",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Draw No Bet",
+     "selections": [
+      {
+       "selection": "Bangladesh",
+       "decimal": 1.53,
+       "american": "-189",
+       "fractional": "531/1000",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "West Indies",
+       "decimal": 2.32,
+       "american": "132",
+       "fractional": "53/40",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Man Of The Match",
+    "Draw No Bet"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871"
   },
   {
    "event_id": "188350",
    "name": "T20 Blast 2027",
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7?event_id=188350",
-   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027",
-   "context": "T20 Blast 2027 18 Jul 2027 16:00"
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2027-07-18T15:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Outright Winner",
+     "selections": [
+      {
+       "selection": "Surrey",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Somerset",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Hampshire",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nottinghamshire",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lancashire",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Northants",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Warwickshire",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Yorkshire",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Sussex",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Essex",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gloucestershire",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Leicestershire",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Durham",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Kent",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Worcestershire",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Derbyshire",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Glamorgan",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Middlesex",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Outright Winner"
+   ],
+   "tip_total": 0,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7?event_id=188350"
+  },
+  {
+   "event_id": "188852",
+   "name": "New Zealand vs India 3rd T20 Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 07:00",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T07:00:00.000Z",
+   "competitors": [
+    "New Zealand",
+    "India 3rd T20 Match"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "India",
+       "decimal": 1.73,
+       "american": "-137",
+       "fractional": "8/11",
+       "tips": "27/40",
+       "pct": "68"
+      },
+      {
+       "selection": "New Zealand",
+       "decimal": 2.15,
+       "american": "115",
+       "fractional": "23/20",
+       "tips": "13/40",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "selection": "Abhishek Sharma",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "SV Samson",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "3/21",
+       "pct": "14"
+      },
+      {
+       "selection": "V Suryavanshi",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "FH Allen",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "IPKP Kishan",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/21",
+       "pct": "5"
+      },
+      {
+       "selection": "TL Seifert",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "MJ Santner",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "1/21",
+       "pct": "5"
+      },
+      {
+       "selection": "S Iyer",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "S Dube",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "T Varma",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "AR Patel",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "1/21",
+       "pct": "5"
+      },
+      {
+       "selection": "DJ Mitchell",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "GD Phillips",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "Kuldeep Yadav",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "N Dhir",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "V Chakravarthy",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "B Kumar",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "DP Conway",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "AF Milne",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "Arshdeep Singh",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "KA Jamieson",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "MG Bracewell",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "Mayank Yadav",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "JA Duffy",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "N Kumar Reddy",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "P Yadav",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "BJ Jacobs",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "NG Smith",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "Y Thakur",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "B Tickner",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "JA Clarkson",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "1/21",
+       "pct": "5"
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "selection": "Abhishek Sharma (India)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "3/18",
+       "pct": "17"
+      },
+      {
+       "selection": "IPKP Kishan (India)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "4/18",
+       "pct": "22"
+      },
+      {
+       "selection": "V Suryavanshi (India)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "1/18",
+       "pct": "6"
+      },
+      {
+       "selection": "SV Samson (India)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "2/18",
+       "pct": "11"
+      },
+      {
+       "selection": "S Iyer (India)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "4/18",
+       "pct": "22"
+      },
+      {
+       "selection": "T Varma (India)",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "3/18",
+       "pct": "17"
+      },
+      {
+       "selection": "S Dube (India)",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "AR Patel (India)",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "N Dhir (India)",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "N Kumar Reddy (India)",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "V Chakravarthy (India)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "1/18",
+       "pct": "6"
+      },
+      {
+       "selection": "B Kumar (India)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "Arshdeep Singh (India)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "Kuldeep Yadav (India)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "Mayank Yadav (India)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "P Yadav (India)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/18",
+       "pct": "0"
+      },
+      {
+       "selection": "Y Thakur (India)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/18",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "selection": "DP Conway (New Zealand)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "4/21",
+       "pct": "19"
+      },
+      {
+       "selection": "FH Allen (New Zealand)",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "3/21",
+       "pct": "14"
+      },
+      {
+       "selection": "GD Phillips (New Zealand)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "3/21",
+       "pct": "14"
+      },
+      {
+       "selection": "TL Seifert (New Zealand)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "6/21",
+       "pct": "29"
+      },
+      {
+       "selection": "DJ Mitchell (New Zealand)",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/21",
+       "pct": "5"
+      },
+      {
+       "selection": "BJ Jacobs (New Zealand)",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "JA Clarkson (New Zealand)",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "2/21",
+       "pct": "10"
+      },
+      {
+       "selection": "MJ Santner (New Zealand)",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "MG Bracewell (New Zealand)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "NG Smith (New Zealand)",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "KA Jamieson (New Zealand)",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "AF Milne (New Zealand)",
+       "decimal": 126.0,
+       "american": "12500",
+       "fractional": "125/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "JA Duffy (New Zealand)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/21",
+       "pct": "0"
+      },
+      {
+       "selection": "B Tickner (New Zealand)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/21",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Man Of The Match",
+    "Top Team2 Batsman",
+    "Top Team1 Batsman"
+   ],
+   "tip_total": 40,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"
+  },
+  {
+   "event_id": "188854",
+   "name": "Namibia vs Ireland 3rd ODI",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+   "sport_slug": "Cricket",
+   "sport_id": 7,
+   "listing_when": "Tomorrow 07:30",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Cricket",
+   "fixture_slug": "All_Cricket",
+   "fixture_name": "All Cricket",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T07:30:00.000Z",
+   "competitors": [
+    "Namibia",
+    "Ireland 3rd ODI"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Ireland",
+       "decimal": 1.55,
+       "american": "-182",
+       "fractional": "11/20",
+       "tips": "19/27",
+       "pct": "70"
+      },
+      {
+       "selection": "Namibia",
+       "decimal": 2.5,
+       "american": "150",
+       "fractional": "6/4",
+       "tips": "8/27",
+       "pct": "30"
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "selection": "PR Stirling (Ireland)",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "4/11",
+       "pct": "36"
+      },
+      {
+       "selection": "A Balbirnie (Ireland)",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "3/11",
+       "pct": "27"
+      },
+      {
+       "selection": "C Carmichael (Ireland)",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "2/11",
+       "pct": "18"
+      },
+      {
+       "selection": "H Tector (Ireland)",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "1/11",
+       "pct": "9"
+      },
+      {
+       "selection": "L Tucker (Ireland)",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "C Campher (Ireland)",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "B Calitz (Ireland)",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "G Dockrell (Ireland)",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "1/11",
+       "pct": "9"
+      },
+      {
+       "selection": "AR McBrine (Ireland)",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "J Neill (Ireland)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "M Adair (Ireland)",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "G Hoey (Ireland)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "M Humphreys (Ireland)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "J Moondra (Ireland)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "L McCarthy (Ireland)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/11",
+       "pct": "0"
+      },
+      {
+       "selection": "B McDonough (Ireland)",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/11",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "selection": "MG Erasmus (Namibia)",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "8/13",
+       "pct": "62"
+      },
+      {
+       "selection": "J Taanyanda (Namibia)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "JN Frylinck (Namibia)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "1/13",
+       "pct": "8"
+      },
+      {
+       "selection": "L Steenkamp (Namibia)",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "2/13",
+       "pct": "15"
+      },
+      {
+       "selection": "JN Loftie-Eaton (Namibia)",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "A Busing-Volschenk (Namibia)",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/13",
+       "pct": "8"
+      },
+      {
+       "selection": "MB Kruger (Namibia)",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/13",
+       "pct": "8"
+      },
+      {
+       "selection": "M van Lingen (Namibia)",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "JJ Smit (Namibia)",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "ZE Green (Namibia)",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "JC Balt (Namibia)",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "R Trumpleman (Namibia)",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "W Smith (Namibia)",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "BM Scholtz (Namibia)",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "Max Heingo (Namibia)",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/13",
+       "pct": "0"
+      },
+      {
+       "selection": "J Brassell (Namibia)",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/13",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Top Team2 Batsman",
+    "Top Team1 Batsman"
+   ],
+   "tip_total": 27,
+   "canonical": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
   }
- ]
+ ],
+ "events_with_markets": 17
 }

@@ -1,118 +1,1540 @@
 {
- "sport": {
-  "slug": "Volleyball",
-  "sport_id": 21,
-  "url": "https://www.olbg.com/betting-tips/Volleyball/21",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Volleyball/21",
-  "title": "Volleyball Betting Tips & Predictions for Today - OLBG.com",
-  "event_count": 15
- },
+ "sport": "Volleyball",
+ "sport_id": 21,
+ "listing_url": "https://www.olbg.com/betting-tips/Volleyball/21",
+ "status": 200,
+ "events_listed": 15,
  "events": [
-  {
-   "event_id": "37004",
-   "name": "Sancor Volei W vs SESI Volei Bauru W",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sancor_Volei_W_vs_SESI_Volei_Bauru_W/21?event_id=37004",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Sancor_Volei_W_vs_SESI_Volei_Bauru_W",
-   "context": "Sancor Volei W vs SESI Volei Bauru W Today 21:30"
-  },
   {
    "event_id": "37101",
    "name": "Montes Claros vs Sada Cruzeiro",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Montes_Claros_vs_Sada_Cruzeiro/21?event_id=37101",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Montes_Claros_vs_Sada_Cruzeiro",
-   "context": "Montes Claros vs Sada Cruzeiro Today 22:00"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Today 22:00",
+   "listing_tips": "10/18",
+   "listing_pct": "56",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T22:00:00.000Z",
+   "competitors": [
+    "Montes Claros",
+    "Sada Cruzeiro"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Sada Cruzeiro",
+       "decimal": 1.09,
+       "american": "-1111",
+       "fractional": "1/11",
+       "tips": "8/18",
+       "pct": "44"
+      },
+      {
+       "selection": "Montes Claros",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "10/18",
+       "pct": "56"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Sada Cruzeiro to win 3-0",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "Sada Cruzeiro to win 3-1",
+       "decimal": 3.3,
+       "american": "230",
+       "fractional": "23/10",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Sada Cruzeiro to win 3-2",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Montes Claros to win 3-2",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "Montes Claros to win 3-1",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "3/9",
+       "pct": "33"
+      },
+      {
+       "selection": "Montes Claros to win 3-0",
+       "decimal": 36.0,
+       "american": "3500",
+       "fractional": "35/1",
+       "tips": "2/9",
+       "pct": "22"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 18,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Montes_Claros_vs_Sada_Cruzeiro/21?event_id=37101"
   },
   {
    "event_id": "37102",
    "name": "Norde Volei vs Volei Renata",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Norde_Volei_vs_Volei_Renata/21?event_id=37102",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Norde_Volei_vs_Volei_Renata",
-   "context": "Norde Volei vs Volei Renata Tomorrow 00:00"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 00:00",
+   "listing_tips": "7/12",
+   "listing_pct": "58",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T00:00:00.000Z",
+   "competitors": [
+    "Norde Volei",
+    "Volei Renata"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Volei Renata",
+       "decimal": 1.06,
+       "american": "-1613",
+       "fractional": "1/16",
+       "tips": "5/12",
+       "pct": "42"
+      },
+      {
+       "selection": "Norde Volei",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "7/12",
+       "pct": "58"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Volei Renata to win 3-0",
+       "decimal": 1.62,
+       "american": "-163",
+       "fractional": "8/13",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Volei Renata to win 3-1",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "1/8",
+       "pct": "13"
+      },
+      {
+       "selection": "Volei Renata to win 3-2",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/8",
+       "pct": "0"
+      },
+      {
+       "selection": "Norde Volei to win 3-2",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "3/8",
+       "pct": "38"
+      },
+      {
+       "selection": "Norde Volei to win 3-1",
+       "decimal": 23.0,
+       "american": "2200",
+       "fractional": "22/1",
+       "tips": "2/8",
+       "pct": "25"
+      },
+      {
+       "selection": "Norde Volei to win 3-0",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "2/8",
+       "pct": "25"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 12,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Norde_Volei_vs_Volei_Renata/21?event_id=37102"
   },
   {
    "event_id": "37076",
    "name": "Conegliano W vs Vallefoglia W",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W",
-   "context": "Conegliano W vs Vallefoglia W 28 Oct 19:00"
-  },
-  {
-   "event_id": "37075",
-   "name": "Marignano W vs Bergamo W",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W",
-   "context": "Marignano W vs Bergamo W Tomorrow 19:00"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "28 Oct 19:00",
+   "listing_tips": "5/9",
+   "listing_pct": "56",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T19:00:00.000Z",
+   "competitors": [
+    "Conegliano W",
+    "Vallefoglia W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Conegliano W",
+       "decimal": 1.02,
+       "american": "-5000",
+       "fractional": "1/50",
+       "tips": "4/9",
+       "pct": "44"
+      },
+      {
+       "selection": "Vallefoglia W",
+       "decimal": 18.0,
+       "american": "1700",
+       "fractional": "17/1",
+       "tips": "5/9",
+       "pct": "56"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Conegliano W to win 3-0",
+       "decimal": 1.28,
+       "american": "-351",
+       "fractional": "2/7",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Conegliano W to win 3-1",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Conegliano W to win 3-2",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/5",
+       "pct": "0"
+      },
+      {
+       "selection": "Vallefoglia W to win 3-2",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "Vallefoglia W to win 3-1",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "1/5",
+       "pct": "20"
+      },
+      {
+       "selection": "Vallefoglia W to win 3-0",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "3/5",
+       "pct": "60"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 9,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"
   },
   {
    "event_id": "37081",
    "name": "Uni Opole W vs Palac Bydgoszcz W",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W",
-   "context": "Uni Opole W vs Palac Bydgoszcz W Tomorrow 19:30"
-  },
-  {
-   "event_id": "37121",
-   "name": "Ziraat Bankasi vs Gaziantep Genclik Spor",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor",
-   "context": "Ziraat Bankasi vs Gaziantep Genclik Spor Tomorrow 16:00"
-  },
-  {
-   "event_id": "37129",
-   "name": "VaLePa vs AC Oulu",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu",
-   "context": "VaLePa vs AC Oulu Tomorrow 16:30"
-  },
-  {
-   "event_id": "37103",
-   "name": "Suzano Volei vs Goias Volei",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei",
-   "context": "Suzano Volei vs Goias Volei Tomorrow 21:30"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 19:30",
+   "listing_tips": "4/6",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:30:00.000Z",
+   "competitors": [
+    "Uni Opole W",
+    "Palac Bydgoszcz W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Uni Opole W",
+       "decimal": 1.25,
+       "american": "-400",
+       "fractional": "1/4",
+       "tips": "4/6",
+       "pct": "67"
+      },
+      {
+       "selection": "Palac Bydgoszcz W",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "2/6",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Uni Opole W to win 3-0",
+       "decimal": 2.62,
+       "american": "162",
+       "fractional": "13/8",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Uni Opole W to win 3-1",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Uni Opole W to win 3-2",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Palac Bydgoszcz W to win 3-2",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Palac Bydgoszcz W to win 3-1",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Palac Bydgoszcz W to win 3-0",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "1/2",
+       "pct": "50"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 6,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081"
   },
   {
    "event_id": "37104",
    "name": "Praia Clube vs Sao Jose",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose",
-   "context": "Praia Clube vs Sao Jose 28 Oct 00:00"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "28 Oct 00:00",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T00:00:00.000Z",
+   "competitors": [
+    "Praia Clube",
+    "Sao Jose"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Praia Clube",
+       "decimal": 1.33,
+       "american": "-300",
+       "fractional": "1/3",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Sao Jose",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Praia Clube to win 3-0",
+       "decimal": 3.1,
+       "american": "210",
+       "fractional": "21/10",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Praia Clube to win 3-1",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Praia Clube to win 3-2",
+       "decimal": 4.75,
+       "american": "375",
+       "fractional": "15/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Sao Jose to win 3-2",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Sao Jose to win 3-1",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Sao Jose to win 3-0",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104"
   },
   {
    "event_id": "37082",
    "name": "Budowlani Lodz W vs Radomka Radom W",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W",
-   "context": "Budowlani Lodz W vs Radomka Radom W 28 Oct 16:30"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "28 Oct 16:30",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T16:30:00.000Z",
+   "competitors": [
+    "Budowlani Lodz W",
+    "Radomka Radom W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Budowlani Lodz W",
+       "decimal": 1.2,
+       "american": "-500",
+       "fractional": "1/5",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Radomka Radom W",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Budowlani Lodz W to win 3-0",
+       "decimal": 2.25,
+       "american": "125",
+       "fractional": "5/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Budowlani Lodz W to win 3-1",
+       "decimal": 3.4,
+       "american": "240",
+       "fractional": "12/5",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Budowlani Lodz W to win 3-2",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Radomka Radom W to win 3-2",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Radomka Radom W to win 3-1",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Radomka Radom W to win 3-0",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082"
   },
   {
    "event_id": "37083",
    "name": "Mielec W vs Rzeszow W",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W",
-   "context": "Mielec W vs Rzeszow W 28 Oct 18:00"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "28 Oct 18:00",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T18:00:00.000Z",
+   "competitors": [
+    "Mielec W",
+    "Rzeszow W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Rzeszow W",
+       "decimal": 1.18,
+       "american": "-549",
+       "fractional": "2/11",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Mielec W",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Rzeszow W to win 3-0",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Rzeszow W to win 3-1",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Rzeszow W to win 3-2",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Mielec W to win 3-2",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Mielec W to win 3-1",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Mielec W to win 3-0",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083"
   },
   {
-   "event_id": "37126",
-   "name": "TFL Altekma vs Halkbank Ankara",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara",
-   "context": "TFL Altekma vs Halkbank Ankara Tomorrow 12:00"
-  },
-  {
-   "event_id": "37131",
-   "name": "Volleys Borken W vs Vilsbiburg W",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W",
-   "context": "Volleys Borken W vs Vilsbiburg W Tomorrow 17:30"
+   "event_id": "37103",
+   "name": "Suzano Volei vs Goias Volei",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 21:30",
+   "listing_tips": "2/3",
+   "listing_pct": "67",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T21:30:00.000Z",
+   "competitors": [
+    "Suzano Volei",
+    "Goias Volei"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Suzano Volei",
+       "decimal": 1.57,
+       "american": "-175",
+       "fractional": "4/7",
+       "tips": "2/3",
+       "pct": "67"
+      },
+      {
+       "selection": "Goias Volei",
+       "decimal": 2.3,
+       "american": "130",
+       "fractional": "13/10",
+       "tips": "1/3",
+       "pct": "33"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Suzano Volei to win 3-0",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Suzano Volei to win 3-1",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Suzano Volei to win 3-2",
+       "decimal": 4.75,
+       "american": "375",
+       "fractional": "15/4",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Goias Volei to win 3-2",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Goias Volei to win 3-1",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Goias Volei to win 3-0",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103"
   },
   {
    "event_id": "37065",
    "name": "Scandicci W vs Novara W",
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Scandicci_W_vs_Novara_W/21?event_id=37065",
-   "competition_path": "betting-tips/Volleyball/All_Volleyball/All_Events/Scandicci_W_vs_Novara_W",
-   "context": "Scandicci W vs Novara W 28 Oct 19:30"
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "28 Oct 19:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-28T19:30:00.000Z",
+   "competitors": [
+    "Scandicci W",
+    "Novara W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Scandicci W",
+       "decimal": 1.62,
+       "american": "-163",
+       "fractional": "8/13",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Novara W",
+       "decimal": 2.2,
+       "american": "120",
+       "fractional": "6/5",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Scandicci W to win 3-0",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Scandicci W to win 3-1",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Scandicci W to win 3-2",
+       "decimal": 4.75,
+       "american": "375",
+       "fractional": "15/4",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Novara W to win 3-2",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Novara W to win 3-1",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Novara W to win 3-0",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Scandicci_W_vs_Novara_W/21?event_id=37065"
+  },
+  {
+   "event_id": "37126",
+   "name": "TFL Altekma vs Halkbank Ankara",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 12:00",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T12:00:00.000Z",
+   "competitors": [
+    "TFL Altekma",
+    "Halkbank Ankara"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Halkbank Ankara",
+       "decimal": 1.44,
+       "american": "-227",
+       "fractional": "4/9",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "TFL Altekma",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Halkbank Ankara to win 3-0",
+       "decimal": 3.4,
+       "american": "240",
+       "fractional": "12/5",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Halkbank Ankara to win 3-1",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Halkbank Ankara to win 3-2",
+       "decimal": 4.75,
+       "american": "375",
+       "fractional": "15/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "TFL Altekma to win 3-2",
+       "decimal": 6.5,
+       "american": "550",
+       "fractional": "11/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "TFL Altekma to win 3-1",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "TFL Altekma to win 3-0",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126"
+  },
+  {
+   "event_id": "37131",
+   "name": "Volleys Borken W vs Vilsbiburg W",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 17:30",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T17:30:00.000Z",
+   "competitors": [
+    "Volleys Borken W",
+    "Vilsbiburg W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Vilsbiburg W",
+       "decimal": 1.36,
+       "american": "-278",
+       "fractional": "4/11",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Volleys Borken W",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Vilsbiburg W to win 3-0",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Vilsbiburg W to win 3-1",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Vilsbiburg W to win 3-2",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Volleys Borken W to win 3-2",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Volleys Borken W to win 3-1",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Volleys Borken W to win 3-0",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131"
+  },
+  {
+   "event_id": "37004",
+   "name": "Sancor Volei W vs SESI Volei Bauru W",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sancor_Volei_W_vs_SESI_Volei_Bauru_W/21?event_id=37004",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Today 21:30",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T21:30:00.000Z",
+   "competitors": [
+    "Sancor Volei W",
+    "SESI Volei Bauru W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "SESI Volei Bauru W",
+       "decimal": 1.25,
+       "american": "-400",
+       "fractional": "1/4",
+       "tips": "10/16",
+       "pct": "63"
+      },
+      {
+       "selection": "Sancor Volei W",
+       "decimal": 4.33,
+       "american": "333",
+       "fractional": "10/3",
+       "tips": "6/16",
+       "pct": "38"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "SESI Volei Bauru W to win 3-0",
+       "decimal": 2.38,
+       "american": "138",
+       "fractional": "11/8",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "SESI Volei Bauru W to win 3-1",
+       "decimal": 3.4,
+       "american": "240",
+       "fractional": "12/5",
+       "tips": "4/9",
+       "pct": "44"
+      },
+      {
+       "selection": "SESI Volei Bauru W to win 3-2",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/9",
+       "pct": "0"
+      },
+      {
+       "selection": "Sancor Volei W to win 3-2",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "2/9",
+       "pct": "22"
+      },
+      {
+       "selection": "Sancor Volei W to win 3-1",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "1/9",
+       "pct": "11"
+      },
+      {
+       "selection": "Sancor Volei W to win 3-0",
+       "decimal": 16.0,
+       "american": "1500",
+       "fractional": "15/1",
+       "tips": "1/9",
+       "pct": "11"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 16,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sancor_Volei_W_vs_SESI_Volei_Bauru_W/21?event_id=37004"
+  },
+  {
+   "event_id": "37121",
+   "name": "Ziraat Bankasi vs Gaziantep Genclik Spor",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 16:00",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T16:00:00.000Z",
+   "competitors": [
+    "Ziraat Bankasi",
+    "Gaziantep Genclik Spor"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Ziraat Bankasi",
+       "decimal": 1.08,
+       "american": "-1250",
+       "fractional": "1/12",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "Gaziantep Genclik Spor",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Ziraat Bankasi to win 3-0",
+       "decimal": 1.73,
+       "american": "-138",
+       "fractional": "8/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Ziraat Bankasi to win 3-1",
+       "decimal": 3.2,
+       "american": "220",
+       "fractional": "11/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Ziraat Bankasi to win 3-2",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gaziantep Genclik Spor to win 3-2",
+       "decimal": 15.0,
+       "american": "1400",
+       "fractional": "14/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gaziantep Genclik Spor to win 3-1",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gaziantep Genclik Spor to win 3-0",
+       "decimal": 29.0,
+       "american": "2800",
+       "fractional": "28/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121"
+  },
+  {
+   "event_id": "37129",
+   "name": "VaLePa vs AC Oulu",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 16:30",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T16:30:00.000Z",
+   "competitors": [
+    "VaLePa",
+    "AC Oulu"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "VaLePa",
+       "decimal": 1.8,
+       "american": "-125",
+       "fractional": "4/5",
+       "tips": "2/2",
+       "pct": "100"
+      },
+      {
+       "selection": "AC Oulu",
+       "decimal": 1.91,
+       "american": "-110",
+       "fractional": "10/11",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "VaLePa to win 3-0",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "AC Oulu to win 3-1",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "VaLePa to win 3-1",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "VaLePa to win 3-2",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "AC Oulu to win 3-0",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "AC Oulu to win 3-2",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 2,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129"
+  },
+  {
+   "event_id": "37075",
+   "name": "Marignano W vs Bergamo W",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+   "sport_slug": "Volleyball",
+   "sport_id": 21,
+   "listing_when": "Tomorrow 19:00",
+   "listing_tips": "",
+   "listing_pct": "",
+   "competition_group": "betting-tips",
+   "competition": "Volleyball",
+   "fixture_slug": "All_Volleyball",
+   "fixture_name": "All Volleyball",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-27T19:00:00.000Z",
+   "competitors": [
+    "Marignano W",
+    "Bergamo W"
+   ],
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Bergamo W",
+       "decimal": 1.36,
+       "american": "-275",
+       "fractional": "4/11",
+       "tips": "4/5",
+       "pct": "80"
+      },
+      {
+       "selection": "Marignano W",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "1/5",
+       "pct": "20"
+      }
+     ]
+    },
+    {
+     "market": "Set Score",
+     "selections": [
+      {
+       "selection": "Bergamo W to win 3-0",
+       "decimal": 3.1,
+       "american": "210",
+       "fractional": "21/10",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Bergamo W to win 3-1",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Bergamo W to win 3-2",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Marignano W to win 3-2",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "1/2",
+       "pct": "50"
+      },
+      {
+       "selection": "Marignano W to win 3-1",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/2",
+       "pct": "0"
+      },
+      {
+       "selection": "Marignano W to win 3-0",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/2",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Match",
+    "Set Score"
+   ],
+   "tip_total": 5,
+   "canonical": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075"
   }
- ]
+ ],
+ "events_with_markets": 15
 }

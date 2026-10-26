@@ -1,62 +1,379 @@
 {
- "sport": {
-  "slug": "Greyhounds",
-  "sport_id": 28,
-  "url": "https://www.olbg.com/betting-tips/Greyhounds/28",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
-  "title": "Greyhound Racing Tips & Free Predictions Today - OLBG.com",
-  "event_count": 7
- },
+ "sport": "Greyhounds",
+ "sport_id": 28,
+ "listing_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+ "status": 200,
+ "events_listed": 5,
  "events": [
-  {
-   "event_id": "690274",
-   "name": "8:36 Nottingham",
-   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:36_Nottingham/28?event_id=690274",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:36_Nottingham",
-   "context": "8:36 Nottingham Today 20:36"
-  },
-  {
-   "event_id": "690275",
-   "name": "8:34 Harlow",
-   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:34_Harlow/28?event_id=690275",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:34_Harlow",
-   "context": "8:34 Harlow Today 20:34"
-  },
   {
    "event_id": "690276",
    "name": "8:41 Towcester",
    "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:41_Towcester/28?event_id=690276",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:41_Towcester",
-   "context": "8:41 Towcester Today 20:41"
+   "sport_slug": "Greyhounds",
+   "sport_id": 28,
+   "listing_when": "Today 20:41",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Greyhounds",
+   "fixture_slug": "All_Greyhounds",
+   "fixture_name": "All Greyhounds",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T20:41:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Daily Races",
+     "selections": [
+      {
+       "selection": "Trapstyle Wee",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Bambis Miss",
+       "decimal": 3.75,
+       "american": "275",
+       "fractional": "11/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Trapstyle Hope",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Great Time",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Hitthelids Bono",
+       "decimal": 5.5,
+       "american": "450",
+       "fractional": "9/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Freyas Lula",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Daily Races"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:41_Towcester/28?event_id=690276"
   },
   {
    "event_id": "690277",
    "name": "8:47 Yarmouth",
    "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:47_Yarmouth/28?event_id=690277",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:47_Yarmouth",
-   "context": "8:47 Yarmouth Today 20:47"
+   "sport_slug": "Greyhounds",
+   "sport_id": 28,
+   "listing_when": "Today 20:47",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Greyhounds",
+   "fixture_slug": "All_Greyhounds",
+   "fixture_name": "All Greyhounds",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T20:47:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Daily Races",
+     "selections": [
+      {
+       "selection": "Essex Rosie",
+       "decimal": 1.62,
+       "american": "-162",
+       "fractional": "8/13",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "My Jack Silver",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Blackrose Cindy",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Savana Buzz",
+       "decimal": 16.0,
+       "american": "1500",
+       "fractional": "15/1",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Savana Mist",
+       "decimal": 16.0,
+       "american": "1500",
+       "fractional": "15/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Daily Races"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:47_Yarmouth/28?event_id=690277"
   },
   {
    "event_id": "690284",
    "name": "9:16 Towcester",
    "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:16_Towcester/28?event_id=690284",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:16_Towcester",
-   "context": "9:16 Towcester Today 21:16"
+   "sport_slug": "Greyhounds",
+   "sport_id": 28,
+   "listing_when": "Today 21:16",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Greyhounds",
+   "fixture_slug": "All_Greyhounds",
+   "fixture_name": "All Greyhounds",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T21:16:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Daily Races",
+     "selections": [
+      {
+       "selection": "Fabulous Suzy",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Barnagrane Kid",
+       "decimal": 4.0,
+       "american": "300",
+       "fractional": "3/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Ballygogue Jet",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Trapstyle Bunny",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Ballycleary Java",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Swift Wally",
+       "decimal": 7.0,
+       "american": "600",
+       "fractional": "6/1",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Daily Races"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:16_Towcester/28?event_id=690284"
   },
   {
    "event_id": "690285",
    "name": "9:23 Yarmouth",
    "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:23_Yarmouth/28?event_id=690285",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:23_Yarmouth",
-   "context": "9:23 Yarmouth Today 21:23"
+   "sport_slug": "Greyhounds",
+   "sport_id": 28,
+   "listing_when": "Today 21:23",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Greyhounds",
+   "fixture_slug": "All_Greyhounds",
+   "fixture_name": "All Greyhounds",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T21:23:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Daily Races",
+     "selections": [
+      {
+       "selection": "Magical Wolf",
+       "decimal": 2.88,
+       "american": "188",
+       "fractional": "15/8",
+       "tips": "1/1",
+       "pct": "100"
+      },
+      {
+       "selection": "Saleen Dubh",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Browns Bruce",
+       "decimal": 4.5,
+       "american": "350",
+       "fractional": "7/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Melbury Loki",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Followdelite",
+       "decimal": 8.5,
+       "american": "750",
+       "fractional": "15/2",
+       "tips": "0/1",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Daily Races"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:23_Yarmouth/28?event_id=690285"
   },
   {
    "event_id": "690288",
    "name": "9:46 Nottingham",
    "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:46_Nottingham/28?event_id=690288",
-   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:46_Nottingham",
-   "context": "9:46 Nottingham Today 21:46"
+   "sport_slug": "Greyhounds",
+   "sport_id": 28,
+   "listing_when": "Today 21:46",
+   "listing_tips": "1/1",
+   "listing_pct": "100",
+   "competition_group": "betting-tips",
+   "competition": "Greyhounds",
+   "fixture_slug": "All_Greyhounds",
+   "fixture_name": "All Greyhounds",
+   "fetch_status": 200,
+   "official_start_utc": "2026-10-26T21:46:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Daily Races",
+     "selections": [
+      {
+       "selection": "The Other Kodi",
+       "decimal": 1.53,
+       "american": "-188",
+       "fractional": "8/15",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Santas Tornado",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Fortanach John",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Basaljett",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Dixie Again",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/1",
+       "pct": "0"
+      },
+      {
+       "selection": "Salacres Lanark",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "1/1",
+       "pct": "100"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Daily Races"
+   ],
+   "tip_total": 1,
+   "canonical": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:46_Nottingham/28?event_id=690288"
   }
- ]
+ ],
+ "events_with_markets": 5
 }

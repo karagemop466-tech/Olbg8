@@ -1,27 +1,1020 @@
 {
- "sport": {
-  "slug": "Motor_Racing",
-  "sport_id": 14,
-  "url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
-  "title": "Free F1 Betting Tips & Motor Racing Predictions - OLBG.com",
-  "event_count": 2
- },
+ "sport": "Motor_Racing",
+ "sport_id": 14,
+ "listing_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+ "status": 200,
+ "events_listed": 2,
  "events": [
   {
    "event_id": "912",
    "name": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
-   "competition_path": "betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli",
-   "context": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli 06 Dec 13:00"
+   "sport_slug": "Motor_Racing",
+   "sport_id": 14,
+   "listing_when": "06 Dec 13:00",
+   "listing_tips": "4/7",
+   "listing_pct": "57",
+   "competition_group": "betting-tips",
+   "competition": "Motor Racing",
+   "fixture_slug": "All_Motor_Racing",
+   "fixture_name": "All Motor Racing",
+   "fetch_status": 200,
+   "official_start_utc": "2026-12-06T13:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Tournament",
+     "selections": [
+      {
+       "selection": "Max Verstappen",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "4/7",
+       "pct": "57"
+      },
+      {
+       "selection": "George Russell",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "1/7",
+       "pct": "14"
+      },
+      {
+       "selection": "Charles Leclerc",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Hamilton",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "2/7",
+       "pct": "29"
+      },
+      {
+       "selection": "Lando Norris",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/7",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri",
+       "decimal": 1001.0,
+       "american": "100000",
+       "fractional": "1000/1",
+       "tips": "0/7",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Tournament"
+   ],
+   "tip_total": 7,
+   "canonical": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912"
   },
   {
    "event_id": "914",
    "name": "Mexico City Grand Prix",
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "competition_path": "betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix",
-   "context": "Mexico City Grand Prix 01 Nov 20:00"
+   "sport_slug": "Motor_Racing",
+   "sport_id": 14,
+   "listing_when": "01 Nov 20:00",
+   "listing_tips": "1/3",
+   "listing_pct": "33",
+   "competition_group": "betting-tips",
+   "competition": "Motor Racing",
+   "fixture_slug": "All_Motor_Racing",
+   "fixture_name": "All Motor Racing",
+   "fetch_status": 200,
+   "official_start_utc": "2026-11-01T20:00:00.000Z",
+   "competitors": [],
+   "markets": [
+    {
+     "market": "Win Race",
+     "selections": [
+      {
+       "selection": "Max Verstappen",
+       "decimal": 2.38,
+       "american": "138",
+       "fractional": "11/8",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Kimi Antonelli",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Charles Leclerc",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "1/3",
+       "pct": "33"
+      },
+      {
+       "selection": "Lewis Hamilton",
+       "decimal": 9.5,
+       "american": "850",
+       "fractional": "17/2",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "George Russell",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Lando Norris",
+       "decimal": 19.0,
+       "american": "1800",
+       "fractional": "18/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Isack Hadjar",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Arvid Lindblad",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Liam Lawson",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Pierre Gasly",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Alex Albon",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlos Sainz",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Esteban Ocon",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Fernando Alonso",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Franco Colapinto",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Bortoleto",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Lance Stroll",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Nico Hulkenberg",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Oliver Bearman",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Sergio Perez",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      },
+      {
+       "selection": "Valtteri Bottas",
+       "decimal": 501.0,
+       "american": "50000",
+       "fractional": "500/1",
+       "tips": "0/3",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Fastest Lap",
+     "selections": [
+      {
+       "selection": "Max Verstappen",
+       "decimal": 3.2,
+       "american": "220",
+       "fractional": "11/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Kimi Antonelli",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Charles Leclerc",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Hamilton",
+       "decimal": 7.5,
+       "american": "650",
+       "fractional": "13/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "George Russell",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Isack Hadjar",
+       "decimal": 12.0,
+       "american": "1100",
+       "fractional": "11/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lando Norris",
+       "decimal": 13.0,
+       "american": "1200",
+       "fractional": "12/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Liam Lawson",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Pierre Gasly",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Arvid Lindblad",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Franco Colapinto",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Bortoleto",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nico Hulkenberg",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Esteban Ocon",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Fernando Alonso",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oliver Bearman",
+       "decimal": 151.0,
+       "american": "15000",
+       "fractional": "150/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Alex Albon",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlos Sainz",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lance Stroll",
+       "decimal": 201.0,
+       "american": "20000",
+       "fractional": "200/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Sergio Perez",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Valtteri Bottas",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Podium Finish",
+     "selections": [
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": 1.28,
+       "american": "-351",
+       "fractional": "2/7",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": 2.1,
+       "american": "110",
+       "fractional": "11/10",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": 2.62,
+       "american": "162",
+       "fractional": "13/8",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": 3.25,
+       "american": "225",
+       "fractional": "9/4",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": 101.0,
+       "american": "10000",
+       "fractional": "100/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": 301.0,
+       "american": "30000",
+       "fractional": "300/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": 451.0,
+       "american": "45000",
+       "fractional": "450/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Top 6 Finish",
+     "selections": [
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": 1.08,
+       "american": "-1205",
+       "fractional": "1/12",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": 1.08,
+       "american": "-1205",
+       "fractional": "1/12",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": 1.14,
+       "american": "-704",
+       "fractional": "1/7",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": 1.17,
+       "american": "-602",
+       "fractional": "1/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": 1.2,
+       "american": "-500",
+       "fractional": "1/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": 1.4,
+       "american": "-250",
+       "fractional": "2/5",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": 1.67,
+       "american": "-150",
+       "fractional": "4/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": 1.83,
+       "american": "-120",
+       "fractional": "5/6",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": 8.0,
+       "american": "700",
+       "fractional": "7/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": 9.0,
+       "american": "800",
+       "fractional": "8/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": 17.0,
+       "american": "1600",
+       "fractional": "16/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": 21.0,
+       "american": "2000",
+       "fractional": "20/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": 26.0,
+       "american": "2500",
+       "fractional": "25/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": 34.0,
+       "american": "3300",
+       "fractional": "33/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": 41.0,
+       "american": "4000",
+       "fractional": "40/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": 51.0,
+       "american": "5000",
+       "fractional": "50/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": 251.0,
+       "american": "25000",
+       "fractional": "250/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    },
+    {
+     "market": "Points Finish",
+     "selections": [
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": 1.06,
+       "american": "-1613",
+       "fractional": "1/16",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": 1.06,
+       "american": "-1613",
+       "fractional": "1/16",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": 1.07,
+       "american": "-1408",
+       "fractional": "1/14",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": 1.07,
+       "american": "-1408",
+       "fractional": "1/14",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": 1.08,
+       "american": "-1205",
+       "fractional": "1/12",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": 1.1,
+       "american": "-1000",
+       "fractional": "1/10",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": 1.12,
+       "american": "-800",
+       "fractional": "1/8",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": 1.14,
+       "american": "-704",
+       "fractional": "1/7",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": 1.5,
+       "american": "-200",
+       "fractional": "1/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": 1.73,
+       "american": "-138",
+       "fractional": "8/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": 1.73,
+       "american": "-138",
+       "fractional": "8/11",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": 2.75,
+       "american": "175",
+       "fractional": "7/4",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": 3.0,
+       "american": "200",
+       "fractional": "2/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": 3.5,
+       "american": "250",
+       "fractional": "5/2",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": 5.0,
+       "american": "400",
+       "fractional": "4/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": 6.0,
+       "american": "500",
+       "fractional": "5/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": 10.0,
+       "american": "900",
+       "fractional": "9/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": 11.0,
+       "american": "1000",
+       "fractional": "10/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": 67.0,
+       "american": "6600",
+       "fractional": "66/1",
+       "tips": "0/0",
+       "pct": "0"
+      }
+     ]
+    }
+   ],
+   "market_headings": [
+    "Win Race",
+    "Fastest Lap",
+    "Podium Finish",
+    "Top 6 Finish",
+    "Points Finish"
+   ],
+   "tip_total": 3,
+   "canonical": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914"
   }
- ]
+ ],
+ "events_with_markets": 2
 }

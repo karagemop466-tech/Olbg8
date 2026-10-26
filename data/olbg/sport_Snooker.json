@@ -1,12 +1,10 @@
 {
- "sport": {
-  "slug": "Snooker",
-  "sport_id": 8,
-  "url": "https://www.olbg.com/betting-tips/Snooker/8",
-  "status": 200,
-  "final_url": "https://www.olbg.com/betting-tips/Snooker/8",
-  "title": "Snooker Betting Tips & Predictions Today - OLBG.com",
-  "event_count": 0
- },
- "events": []
+ "sport": "Snooker",
+ "sport_id": 8,
+ "listing_url": "https://www.olbg.com/betting-tips/Snooker/8",
+ "status": 200,
+ "listing_note": "OLBG displayed 'No tips found.' at collection time",
+ "events_listed": 0,
+ "events": [],
+ "events_with_markets": 0
 }
