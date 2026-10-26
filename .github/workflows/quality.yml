@@ -1,0 +1,21 @@
+name: Site quality
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild generated pages
+        run: python scripts/build.py
+      - name: Validate data and local links
+        run: python scripts/check.py
+      - name: Confirm generated files are committed
+        run: git diff --exit-code

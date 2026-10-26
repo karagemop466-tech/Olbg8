@@ -1,0 +1,122 @@
+[
+ {
+  "slug": "golf",
+  "name": "Golf",
+  "icon": "⛳",
+  "olbg": "https://www.olbg.com/betting-tips/Golf/5",
+  "markets": "Outright, each-way, first-round leader, matchups",
+  "pricing": "Start with field-strength adjusted strokes-gained projections by surface/course fit; simulate round scores with weather and tee-time effects; normalize outright probabilities to 100% and derive matchup prices from paired simulations."
+ },
+ {
+  "slug": "volleyball",
+  "name": "Volleyball",
+  "icon": "🏐",
+  "olbg": "https://www.olbg.com/betting-tips/Volleyball/21",
+  "markets": "Match winner, set handicap, total points, correct score",
+  "pricing": "Estimate side-out and break-point rates by rotation from opponent-adjusted recent sets; simulate best-of-five scoring with venue and confirmed lineup adjustments."
+ },
+ {
+  "slug": "rugby-union",
+  "name": "Rugby Union",
+  "icon": "🏉",
+  "olbg": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+  "markets": "Match winner, handicap, total points",
+  "pricing": "Use opponent-adjusted expected tries and penalty points, home advantage, rest and confirmed XV strength; fit correlated scoring distributions for moneyline, spread and total."
+ },
+ {
+  "slug": "cricket",
+  "name": "Cricket",
+  "icon": "🏏",
+  "olbg": "https://www.olbg.com/betting-tips/Cricket/7",
+  "markets": "Match winner, innings total, player performance, outright",
+  "pricing": "Project runs and wickets by format from venue, toss, weather and confirmed XI; simulate innings ball-by-ball with batter/bowler matchup rates and chase-state effects."
+ },
+ {
+  "slug": "snooker",
+  "name": "Snooker",
+  "icon": "🎱",
+  "olbg": "https://www.olbg.com/betting-tips/Snooker/8",
+  "markets": "Match winner, frame handicap, correct score, outright",
+  "pricing": "Convert opponent-adjusted frame win rates from scoring, break-building and safety indicators; apply a best-of-N binomial structure with deciding-frame sensitivity."
+ },
+ {
+  "slug": "darts",
+  "name": "Darts",
+  "icon": "🎯",
+  "olbg": "https://www.olbg.com/betting-tips/Darts/15",
+  "markets": "Match winner, handicap, total legs/sets, outright",
+  "pricing": "Estimate leg hold and break probabilities from three-dart average, first-nine average, doubles and throw order; simulate the exact event format."
+ },
+ {
+  "slug": "baseball",
+  "name": "Baseball",
+  "icon": "⚾",
+  "olbg": "https://www.olbg.com/betting-tips/Baseball/12",
+  "markets": "Moneyline, run line, game total",
+  "pricing": "Build run distributions from confirmed starters, bullpen availability, batting quality, park and weather; use correlated team Poisson/negative-binomial simulations."
+ },
+ {
+  "slug": "gaelic-sports",
+  "name": "Gaelic Sports",
+  "icon": "🥅",
+  "olbg": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+  "markets": "Gaelic Football and Hurling: match winner, handicap, total points",
+  "pricing": "Rate goal and point production separately using opponent-adjusted form, venue and confirmed teams; simulate scoring under competition-specific rules."
+ },
+ {
+  "slug": "greyhounds",
+  "name": "Greyhounds",
+  "icon": "🐕",
+  "olbg": "https://www.olbg.com/betting-tips/Greyhounds/28",
+  "markets": "Race winner, place, forecast",
+  "pricing": "Project sectional and finishing times from graded runs, trap, track/distance, going and crowding risk; simulate each runner jointly and normalize win probabilities across the field."
+ },
+ {
+  "slug": "tennis",
+  "name": "Tennis",
+  "icon": "🎾",
+  "olbg": "https://www.olbg.com/betting-tips/Tennis/3",
+  "markets": "Match winner, set/game handicap, total games, correct score",
+  "pricing": "Estimate surface-adjusted serve and return point probabilities with recency and fitness; simulate points, games and sets under the tournament format."
+ },
+ {
+  "slug": "motor-racing",
+  "name": "Motor Racing",
+  "icon": "🏎️",
+  "olbg": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+  "markets": "Race winner, podium, matchup, qualifying",
+  "pricing": "Combine practice/qualifying pace, degradation, grid position, reliability, strategy and weather; run lap-level simulations with safety-car and retirement states."
+ },
+ {
+  "slug": "handball",
+  "name": "Handball",
+  "icon": "🤾",
+  "olbg": "https://www.olbg.com/betting-tips/Handball/20",
+  "markets": "Moneyline, handicap, total goals",
+  "pricing": "Estimate pace and attack/defence efficiency from opponent-adjusted possessions, goalkeeper rates, venue and lineups; simulate correlated goal totals."
+ },
+ {
+  "slug": "ice-hockey",
+  "name": "Ice Hockey",
+  "icon": "🏒",
+  "olbg": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+  "markets": "Moneyline, puck line, game total",
+  "pricing": "Use expected goals, shot quality, special teams, rest and confirmed goaltenders; simulate regulation and overtime separately."
+ },
+ {
+  "slug": "basketball",
+  "name": "Basketball",
+  "icon": "🏀",
+  "olbg": "https://www.olbg.com/betting-tips/Basketball/4",
+  "markets": "Moneyline, point spread, game total",
+  "pricing": "Project possessions and lineup-adjusted offensive/defensive efficiency with rest and travel; simulate correlated scores and convert margins to moneyline/spread/total probabilities."
+ },
+ {
+  "slug": "rugby-league",
+  "name": "Rugby League",
+  "icon": "🏉",
+  "olbg": "https://www.olbg.com/betting-tips/Rugby_League/10",
+  "markets": "Match winner, handicap, total points",
+  "pricing": "Estimate set efficiency, field position, tries and goal-kicking from opponent-adjusted form, venue and confirmed squads; simulate correlated scores."
+ }
+]
