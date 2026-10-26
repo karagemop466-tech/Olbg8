@@ -1,0 +1,20 @@
+{
+  "snapshotDate": "2026-10-26",
+  "snapshotSource": "https://www.olbg.com/betting-tips",
+  "snapshotScope": "Visible OLBG landing-page items only; this is a non-exhaustive snapshot, not a full event feed.",
+  "events": [
+    {"sport":"cricket","name":"New Zealand vs India 3rd T20 Match","olbgTime":"Tomorrow 07:00","olbgUrl":"https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"},
+    {"sport":"cricket","name":"Namibia vs Ireland 3rd ODI","olbgTime":"Tomorrow 07:30","olbgUrl":"https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"},
+    {"sport":"cricket","name":"Pakistan vs Sri Lanka One Day Match","olbgTime":"Tomorrow 08:00","olbgUrl":"https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"},
+    {"sport":"volleyball","name":"Montes Claros vs Sada Cruzeiro","olbgTime":"Today 22:00","olbgUrl":"https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Montes_Claros_vs_Sada_Cruzeiro/21?event_id=37101"},
+    {"sport":"volleyball","name":"Sancor Volei W vs SESI Volei Bauru W","olbgTime":"Today 21:30","olbgUrl":"https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sancor_Volei_W_vs_SESI_Volei_Bauru_W/21?event_id=37004"},
+    {"sport":"baseball","name":"MIL Brewers @ TB Rays","olbgTime":"Tomorrow 00:00","olbgUrl":"https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795"},
+    {"sport":"basketball","name":"MIN Timberwolves @ CLE Cavaliers","olbgTime":"Today 23:00","olbgUrl":"https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers/4?event_id=536203"},
+    {"sport":"basketball","name":"IND Pacers @ MIL Bucks","olbgTime":"Tomorrow 00:00","olbgUrl":"https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204"},
+    {"sport":"basketball","name":"MEM Grizzlies @ UTA Jazz","olbgTime":"Tomorrow 01:00","olbgUrl":"https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206"},
+    {"sport":"ice-hockey","name":"LA Kings @ NY Rangers","olbgTime":"Today 23:07","olbgUrl":"https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers/13?event_id=200101"},
+    {"sport":"ice-hockey","name":"TOR Maple Leafs @ CGY Flames","olbgTime":"Tomorrow 00:37","olbgUrl":"https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103"},
+    {"sport":"ice-hockey","name":"DET Red Wings @ EDM Oilers","olbgTime":"Tomorrow 01:37","olbgUrl":"https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102"}
+  ],
+  "warning": "OLBG's relative Today/Tomorrow labels and event names are transcribed only as listing sightings. Exact local dates, time zones, official fixture status, participants/rosters, prices, market availability, current form, match statistics, injuries, and any selection have not been independently confirmed. All such fields are intentionally blank; these sightings are not picks."
+}
