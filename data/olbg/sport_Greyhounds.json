@@ -1,0 +1,62 @@
+{
+ "sport": {
+  "slug": "Greyhounds",
+  "sport_id": 28,
+  "url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+  "title": "Greyhound Racing Tips & Free Predictions Today - OLBG.com",
+  "event_count": 7
+ },
+ "events": [
+  {
+   "event_id": "690274",
+   "name": "8:36 Nottingham",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:36_Nottingham/28?event_id=690274",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:36_Nottingham",
+   "context": "8:36 Nottingham Today 20:36"
+  },
+  {
+   "event_id": "690275",
+   "name": "8:34 Harlow",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:34_Harlow/28?event_id=690275",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:34_Harlow",
+   "context": "8:34 Harlow Today 20:34"
+  },
+  {
+   "event_id": "690276",
+   "name": "8:41 Towcester",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:41_Towcester/28?event_id=690276",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:41_Towcester",
+   "context": "8:41 Towcester Today 20:41"
+  },
+  {
+   "event_id": "690277",
+   "name": "8:47 Yarmouth",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/8:47_Yarmouth/28?event_id=690277",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/8:47_Yarmouth",
+   "context": "8:47 Yarmouth Today 20:47"
+  },
+  {
+   "event_id": "690284",
+   "name": "9:16 Towcester",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:16_Towcester/28?event_id=690284",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:16_Towcester",
+   "context": "9:16 Towcester Today 21:16"
+  },
+  {
+   "event_id": "690285",
+   "name": "9:23 Yarmouth",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:23_Yarmouth/28?event_id=690285",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:23_Yarmouth",
+   "context": "9:23 Yarmouth Today 21:23"
+  },
+  {
+   "event_id": "690288",
+   "name": "9:46 Nottingham",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/9:46_Nottingham/28?event_id=690288",
+   "competition_path": "betting-tips/Greyhounds/All_Greyhounds/All_Events/9:46_Nottingham",
+   "context": "9:46 Nottingham Today 21:46"
+  }
+ ]
+}

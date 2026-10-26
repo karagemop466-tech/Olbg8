@@ -1,0 +1,41 @@
+{
+ "sport": {
+  "slug": "Golf",
+  "sport_id": 5,
+  "url": "https://www.olbg.com/betting-tips/Golf/5",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Golf/5",
+  "title": "Golf Betting Tips & Free Predictions This Week - OLBG.com",
+  "event_count": 4
+ },
+ "events": [
+  {
+   "event_id": "101913",
+   "name": "Maybank Championship",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "competition_path": "betting-tips/Golf/All_Golf/All_Events/Maybank_Championship",
+   "context": "Maybank Championship 01 Nov 11:45"
+  },
+  {
+   "event_id": "101915",
+   "name": "Mexico Open",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+   "competition_path": "betting-tips/Golf/All_Golf/All_Events/Mexico_Open",
+   "context": "Mexico Open 01 Nov 22:45"
+  },
+  {
+   "event_id": "101914",
+   "name": "Simmons Bank Championship",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+   "competition_path": "betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship",
+   "context": "Simmons Bank Championship 01 Nov 22:45"
+  },
+  {
+   "event_id": "101904",
+   "name": "Butterfield Bermuda Championship at Port Royal Golf Course (22nd to 25th October)",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Bermuda_Championship/5?event_id=101904",
+   "competition_path": "betting-tips/Golf/All_Golf/All_Events/Bermuda_Championship",
+   "context": "Golf Betting Tips: Course History and Previous Course Form As in most sports betting, there are many factors to weigh up before placing a golf bet, and a player's previous course history is one of them. This section looks at it in more detail. The phrase 'horses for courses' applies in golf too: some golfers play well on particular courses regardless of their current form. Combine course history with current form whe"
+  }
+ ]
+}

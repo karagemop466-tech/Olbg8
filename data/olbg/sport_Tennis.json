@@ -1,0 +1,153 @@
+{
+ "sport": {
+  "slug": "Tennis",
+  "sport_id": 3,
+  "url": "https://www.olbg.com/betting-tips/Tennis/3",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Tennis/3",
+  "title": "Tennis Betting Tips & Free Predictions Today - OLBG.com",
+  "event_count": 20
+ },
+ "events": [
+  {
+   "event_id": "902381",
+   "name": "Aliaksandra Sasnovich vs Nikola Bartunkova",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Aliaksandra_Sasnovich_vs_Nikola_Bartunkova/3?event_id=902381",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Aliaksandra_Sasnovich_vs_Nikola_Bartunkova",
+   "context": "Aliaksandra Sasnovich vs Nikola Bartunkova Tomorrow 05:00"
+  },
+  {
+   "event_id": "902172",
+   "name": "Leylah Fernandez vs Himeno Sakatsume",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume",
+   "context": "Leylah Fernandez vs Himeno Sakatsume Tomorrow 06:00"
+  },
+  {
+   "event_id": "902189",
+   "name": "Lilli Tagger vs Venus Williams",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams",
+   "context": "Lilli Tagger vs Venus Williams Tomorrow 07:30"
+  },
+  {
+   "event_id": "902232",
+   "name": "Stan Wawrinka vs Jiri Lehecka",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka",
+   "context": "Stan Wawrinka vs Jiri Lehecka Tomorrow 18:30"
+  },
+  {
+   "event_id": "902233",
+   "name": "Novak Djokovic vs Ugo Humbert",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert",
+   "context": "Novak Djokovic vs Ugo Humbert 28 Oct 10:00"
+  },
+  {
+   "event_id": "902238",
+   "name": "Alejandro Tabilo vs Rafael Jodar",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar",
+   "context": "Alejandro Tabilo vs Rafael Jodar Tomorrow 13:00"
+  },
+  {
+   "event_id": "902326",
+   "name": "Nauhany Vitoria Leme Da Silva vs Despina Papamichail",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nauhany_Vitoria_Leme_Da_Silva_vs_Despina_Papamichail/3?event_id=902326",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Nauhany_Vitoria_Leme_Da_Silva_vs_Despina_Papamichail",
+   "context": "Nauhany Vitoria Leme Da Silva vs Despina Papamichail Today 21:00"
+  },
+  {
+   "event_id": "902176",
+   "name": "Ann Li vs Ekaterina Alexandrova",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova/3?event_id=902176",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova",
+   "context": "Ann Li vs Ekaterina Alexandrova Tomorrow 02:00"
+  },
+  {
+   "event_id": "902240",
+   "name": "Alex Michelsen vs Botic Van De Zandschulp",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp",
+   "context": "Alex Michelsen vs Botic Van De Zandschulp Tomorrow 14:00"
+  },
+  {
+   "event_id": "902305",
+   "name": "Yulia Putintseva vs Maria Sakkari",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari/3?event_id=902305",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari",
+   "context": "Yulia Putintseva vs Maria Sakkari Tomorrow 03:00"
+  },
+  {
+   "event_id": "902180",
+   "name": "Simona Waltert vs Jil Teichmann",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Simona_Waltert_vs_Jil_Teichmann/3?event_id=902180",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Simona_Waltert_vs_Jil_Teichmann",
+   "context": "Simona Waltert vs Jil Teichmann Tomorrow 03:00"
+  },
+  {
+   "event_id": "902179",
+   "name": "Kaitlin Quevedo vs Sofia Kenin",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Kaitlin_Quevedo_vs_Sofia_Kenin/3?event_id=902179",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Kaitlin_Quevedo_vs_Sofia_Kenin",
+   "context": "Kaitlin Quevedo vs Sofia Kenin Tomorrow 03:00"
+  },
+  {
+   "event_id": "902301",
+   "name": "Anastasia Zakharova vs Magda Linette",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anastasia_Zakharova_vs_Magda_Linette/3?event_id=902301",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Anastasia_Zakharova_vs_Magda_Linette",
+   "context": "Anastasia Zakharova vs Magda Linette Tomorrow 03:00"
+  },
+  {
+   "event_id": "902181",
+   "name": "Sara Sorribes Tormo vs Zeynep Sonmez",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Sara_Sorribes_Tormo_vs_Zeynep_Sonmez/3?event_id=902181",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Sara_Sorribes_Tormo_vs_Zeynep_Sonmez",
+   "context": "Sara Sorribes Tormo vs Zeynep Sonmez Tomorrow 04:30"
+  },
+  {
+   "event_id": "902302",
+   "name": "Dayana Yastremska vs Katie Volynets",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Dayana_Yastremska_vs_Katie_Volynets/3?event_id=902302",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Dayana_Yastremska_vs_Katie_Volynets",
+   "context": "Dayana Yastremska vs Katie Volynets Tomorrow 04:30"
+  },
+  {
+   "event_id": "902187",
+   "name": "Polina Kudermetova vs Janice Tjen",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3?event_id=902187",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen",
+   "context": "Polina Kudermetova vs Janice Tjen Tomorrow 06:00"
+  },
+  {
+   "event_id": "902177",
+   "name": "Naomi Osaka vs Jasmine Paolini",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini",
+   "context": "Naomi Osaka vs Jasmine Paolini Tomorrow 08:00"
+  },
+  {
+   "event_id": "902368",
+   "name": "Anna Blinkova vs Dalma Galfi",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anna_Blinkova_vs_Dalma_Galfi/3?event_id=902368",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Anna_Blinkova_vs_Dalma_Galfi",
+   "context": "Anna Blinkova vs Dalma Galfi Tomorrow 09:00"
+  },
+  {
+   "event_id": "902378",
+   "name": "Marina Bassols Ribera vs Victoria Jimenez Kasintseva",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Marina_Bassols_Ribera_vs_Victoria_Jimenez_Kasintseva/3?event_id=902378",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Marina_Bassols_Ribera_vs_Victoria_Jimenez_Kasintseva",
+   "context": "Marina Bassols Ribera vs Victoria Jimenez Kasintseva Tomorrow 09:00"
+  },
+  {
+   "event_id": "902322",
+   "name": "Hubert Hurkacz vs Zizou Bergs",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
+   "competition_path": "betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs",
+   "context": "Hubert Hurkacz vs Zizou Bergs Tomorrow 11:00"
+  }
+ ]
+}

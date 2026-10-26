@@ -1,0 +1,132 @@
+{
+ "sport": {
+  "slug": "Handball",
+  "sport_id": 20,
+  "url": "https://www.olbg.com/betting-tips/Handball/20",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Handball/20",
+  "title": "Today's Free Handball Betting Tips & Predictions - OLBG.com",
+  "event_count": 17
+ },
+ "events": [
+  {
+   "event_id": "12136",
+   "name": "SC Magdeburg vs HC Kriens Luzern",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern",
+   "context": "SC Magdeburg vs HC Kriens Luzern 28 Oct 19:45"
+  },
+  {
+   "event_id": "12132",
+   "name": "KS Kielce vs Kolstad",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad",
+   "context": "KS Kielce vs Kolstad 28 Oct 19:45"
+  },
+  {
+   "event_id": "12128",
+   "name": "Fuchse Berlin vs RK Partizan",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan",
+   "context": "Fuchse Berlin vs RK Partizan 29 Oct 17:45"
+  },
+  {
+   "event_id": "12130",
+   "name": "HC Vardar vs MT Melsungen",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen",
+   "context": "HC Vardar vs MT Melsungen 28 Oct 17:45"
+  },
+  {
+   "event_id": "12138",
+   "name": "Wisla Plock vs Nantes",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes",
+   "context": "Wisla Plock vs Nantes 28 Oct 17:45"
+  },
+  {
+   "event_id": "12127",
+   "name": "FC Porto vs Veszprem",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem",
+   "context": "FC Porto vs Veszprem 28 Oct 17:45"
+  },
+  {
+   "event_id": "12135",
+   "name": "RK Celje vs RK Zagreb",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb",
+   "context": "RK Celje vs RK Zagreb 28 Oct 19:45"
+  },
+  {
+   "event_id": "12134",
+   "name": "PSG Handball vs Aalborg Handbold",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold",
+   "context": "PSG Handball vs Aalborg Handbold 28 Oct 19:45"
+  },
+  {
+   "event_id": "12129",
+   "name": "GOG vs Sporting CP",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP",
+   "context": "GOG vs Sporting CP 29 Oct 17:45"
+  },
+  {
+   "event_id": "12133",
+   "name": "Montpellier vs Dinamo Bucuresti",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti",
+   "context": "Montpellier vs Dinamo Bucuresti 29 Oct 19:45"
+  },
+  {
+   "event_id": "12131",
+   "name": "IFK Kristianstad vs Pick Szeged",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged",
+   "context": "IFK Kristianstad vs Pick Szeged 29 Oct 17:45"
+  },
+  {
+   "event_id": "12180",
+   "name": "SG Flensburg Handewitt vs HBW Balingen Weilstetten",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten",
+   "context": "SG Flensburg Handewitt vs HBW Balingen Weilstetten 29 Oct 18:00"
+  },
+  {
+   "event_id": "12137",
+   "name": "Skanderborg Handbold vs FC Barcelona",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona",
+   "context": "Skanderborg Handbold vs FC Barcelona 29 Oct 19:45"
+  },
+  {
+   "event_id": "12169",
+   "name": "ThSV Eisenach vs Fuchse Berlin",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/ThSV_Eisenach_vs_Fuchse_Berlin/20?event_id=12169",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/ThSV_Eisenach_vs_Fuchse_Berlin",
+   "context": "ThSV Eisenach vs Fuchse Berlin 01 Nov 15:30"
+  },
+  {
+   "event_id": "12185",
+   "name": "BM Granollers vs FC Barcelona",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/BM_Granollers_vs_FC_Barcelona/20?event_id=12185",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/BM_Granollers_vs_FC_Barcelona",
+   "context": "BM Granollers vs FC Barcelona 01 Nov 17:00"
+  },
+  {
+   "event_id": "12163",
+   "name": "Team Tvis Holstebro vs TMS Ringsted",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Team_Tvis_Holstebro_vs_TMS_Ringsted/20?event_id=12163",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Team_Tvis_Holstebro_vs_TMS_Ringsted",
+   "context": "Team Tvis Holstebro vs TMS Ringsted 01 Nov 17:00"
+  },
+  {
+   "event_id": "12158",
+   "name": "Fredericia HK vs Mors Thy Handbold",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fredericia_HK_vs_Mors_Thy_Handbold/20?event_id=12158",
+   "competition_path": "betting-tips/Handball/All_Handball/All_Events/Fredericia_HK_vs_Mors_Thy_Handbold",
+   "context": "Fredericia HK vs Mors Thy Handbold 01 Nov 19:00"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "sport": {
+  "slug": "Gaelic_Football",
+  "sport_id": 25,
+  "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+  "title": "Gaelic Football Betting Tips & Predictions - OLBG.com",
+  "event_count": 3
+ },
+ "events": [
+  {
+   "event_id": "3531",
+   "name": "Kanturk v Eire Og Cor",
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor",
+   "context": "Kanturk v Eire Og Cor 01 Nov 14:00"
+  },
+  {
+   "event_id": "3537",
+   "name": "Fr Caseys v Kildimo Pallaskenry",
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
+   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry",
+   "context": "Fr Caseys v Kildimo Pallaskenry 01 Nov 15:30"
+  },
+  {
+   "event_id": "3327",
+   "name": "All Ireland Football Championship 2027",
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+   "competition_path": "betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027",
+   "context": "All Ireland Football Championship 2027 25 Jul 2027 15:30"
+  }
+ ]
+}

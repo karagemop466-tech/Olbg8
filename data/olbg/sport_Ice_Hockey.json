@@ -1,0 +1,90 @@
+{
+ "sport": {
+  "slug": "Ice_Hockey",
+  "sport_id": 13,
+  "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+  "title": "Ice Hockey Betting Tips & Free NHL Predictions - OLBG.com",
+  "event_count": 11
+ },
+ "events": [
+  {
+   "event_id": "200101",
+   "name": "LA Kings @ NY Rangers",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers/13?event_id=200101",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/LA_Kings_@_NY_Rangers",
+   "context": "LA Kings @ NY Rangers NHL Today 23:07"
+  },
+  {
+   "event_id": "200103",
+   "name": "TOR Maple Leafs @ CGY Flames",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames",
+   "context": "TOR Maple Leafs @ CGY Flames NHL Tomorrow 00:37"
+  },
+  {
+   "event_id": "200102",
+   "name": "DET Red Wings @ EDM Oilers",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers",
+   "context": "DET Red Wings @ EDM Oilers NHL Tomorrow 01:37"
+  },
+  {
+   "event_id": "200081",
+   "name": "Kalpa vs Sport",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
+   "competition_path": "betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport",
+   "context": "Kalpa vs Sport Finland SM Liiga Tomorrow 16:30"
+  },
+  {
+   "event_id": "200082",
+   "name": "IF Malmo Redhawks vs Linkoping HC",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
+   "competition_path": "betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC",
+   "context": "IF Malmo Redhawks vs Linkoping HC Swedish Hockey League Tomorrow 18:00"
+  },
+  {
+   "event_id": "200083",
+   "name": "Frolunda HC vs Rogle BK",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
+   "competition_path": "betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK",
+   "context": "Frolunda HC vs Rogle BK Swedish Hockey League Tomorrow 18:00"
+  },
+  {
+   "event_id": "200100",
+   "name": "Kolner Haie vs Adler Mannheim",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
+   "competition_path": "betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim",
+   "context": "Kolner Haie vs Adler Mannheim Germany Eishockey Liga Tomorrow 18:30"
+  },
+  {
+   "event_id": "200104",
+   "name": "BOS Bruins @ CAR Hurricanes",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes",
+   "context": "BOS Bruins @ CAR Hurricanes NHL 28 Oct 00:07"
+  },
+  {
+   "event_id": "200111",
+   "name": "NJ Devils @ DAL Stars",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13?event_id=200111",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars",
+   "context": "NJ Devils @ DAL Stars NHL 28 Oct 00:07"
+  },
+  {
+   "event_id": "200112",
+   "name": "NY Islanders @ NSH Predators",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13?event_id=200112",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators",
+   "context": "NY Islanders @ NSH Predators NHL 28 Oct 00:07"
+  },
+  {
+   "event_id": "200105",
+   "name": "FLA Panthers @ WPG Jets",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105",
+   "competition_path": "betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets",
+   "context": "FLA Panthers @ WPG Jets NHL 28 Oct 00:07"
+  }
+ ]
+}

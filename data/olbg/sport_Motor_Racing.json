@@ -1,0 +1,27 @@
+{
+ "sport": {
+  "slug": "Motor_Racing",
+  "sport_id": 14,
+  "url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+  "title": "Free F1 Betting Tips & Motor Racing Predictions - OLBG.com",
+  "event_count": 2
+ },
+ "events": [
+  {
+   "event_id": "912",
+   "name": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
+   "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
+   "competition_path": "betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli",
+   "context": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli 06 Dec 13:00"
+  },
+  {
+   "event_id": "914",
+   "name": "Mexico City Grand Prix",
+   "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+   "competition_path": "betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix",
+   "context": "Mexico City Grand Prix 01 Nov 20:00"
+  }
+ ]
+}

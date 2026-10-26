@@ -1,0 +1,132 @@
+{
+ "sport": {
+  "slug": "Cricket",
+  "sport_id": 7,
+  "url": "https://www.olbg.com/betting-tips/Cricket/7",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Cricket/7",
+  "title": "Free Cricket Betting Tips & Predictions Today - OLBG.com",
+  "event_count": 17
+ },
+ "events": [
+  {
+   "event_id": "188852",
+   "name": "New Zealand vs India 3rd T20 Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match",
+   "context": "New Zealand vs India 3rd T20 Match Tomorrow 07:00"
+  },
+  {
+   "event_id": "188854",
+   "name": "Namibia vs Ireland 3rd ODI",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI",
+   "context": "Namibia vs Ireland 3rd ODI Tomorrow 07:30"
+  },
+  {
+   "event_id": "188868",
+   "name": "Pakistan vs Sri Lanka One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match",
+   "context": "Pakistan vs Sri Lanka One Day Match Tomorrow 08:00"
+  },
+  {
+   "event_id": "188872",
+   "name": "Afghanistan vs Zimbabwe 1st T20 Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match",
+   "context": "Afghanistan vs Zimbabwe 1st T20 Match Tomorrow 14:30"
+  },
+  {
+   "event_id": "188864",
+   "name": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash",
+   "context": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash 29 Oct 08:10"
+  },
+  {
+   "event_id": "188865",
+   "name": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash",
+   "context": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash 30 Oct 08:10"
+  },
+  {
+   "event_id": "188835",
+   "name": "South Africa vs Australia",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia",
+   "context": "South Africa vs Australia 31 Oct 08:30"
+  },
+  {
+   "event_id": "188876",
+   "name": "Auckland vs Canterbury One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match",
+   "context": "Auckland vs Canterbury One Day Match Tomorrow 21:30"
+  },
+  {
+   "event_id": "188877",
+   "name": "Central Districts vs Northern Districts One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match",
+   "context": "Central Districts vs Northern Districts One Day Match Tomorrow 21:30"
+  },
+  {
+   "event_id": "188878",
+   "name": "Wellington vs Otago One Day Match",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match",
+   "context": "Wellington vs Otago One Day Match Tomorrow 21:30"
+  },
+  {
+   "event_id": "188863",
+   "name": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash",
+   "context": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash 29 Oct 04:40"
+  },
+  {
+   "event_id": "182606",
+   "name": "World Cup 2027",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7?event_id=182606",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027",
+   "context": "World Cup 2027 21 Nov 2027 10:00"
+  },
+  {
+   "event_id": "187184",
+   "name": "Big Bash Women 2026",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026",
+   "context": "Big Bash Women 2026 05 Dec 08:10"
+  },
+  {
+   "event_id": "188871",
+   "name": "Bangladesh vs West Indies",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies",
+   "context": "Bangladesh vs West Indies 01 Nov 03:30"
+  },
+  {
+   "event_id": "187503",
+   "name": "T20 Big Bash 2026-27",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7?event_id=187503",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27",
+   "context": "T20 Big Bash 2026-27 12 Dec 08:15"
+  },
+  {
+   "event_id": "187504",
+   "name": "SA20 2026-27",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7?event_id=187504",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27",
+   "context": "SA20 2026-27 24 Jan 2027 16:30"
+  },
+  {
+   "event_id": "188350",
+   "name": "T20 Blast 2027",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7?event_id=188350",
+   "competition_path": "betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027",
+   "context": "T20 Blast 2027 18 Jul 2027 16:00"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "sport": {
+  "slug": "Darts",
+  "sport_id": 15,
+  "url": "https://www.olbg.com/betting-tips/Darts/15",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Darts/15",
+  "title": "Darts Betting Tips \u2013 Free Darts Predictions Today - OLBG.com",
+  "event_count": 2
+ },
+ "events": [
+  {
+   "event_id": "26023",
+   "name": "PDC World Championship 2027",
+   "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+   "competition_path": "betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027",
+   "context": "PDC World Championship 2027 03 Jan 2027 17:00"
+  },
+  {
+   "event_id": "32446",
+   "name": "Players Championship 31",
+   "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+   "competition_path": "betting-tips/Darts/All_Darts/All_Events/Players_Championship_31",
+   "context": "Players Championship 31 28 Oct 12:00"
+  }
+ ]
+}

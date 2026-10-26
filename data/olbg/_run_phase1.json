@@ -1,0 +1,162 @@
+{
+ "generated_utc": "2026-10-26T20:33:18+00:00",
+ "sports": [
+  {
+   "slug": "Tennis",
+   "sport_id": 3,
+   "url": "https://www.olbg.com/betting-tips/Tennis/3",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Tennis/3",
+   "title": "Tennis Betting Tips & Free Predictions Today - OLBG.com",
+   "event_count": 20
+  },
+  {
+   "slug": "Basketball",
+   "sport_id": 4,
+   "url": "https://www.olbg.com/betting-tips/Basketball/4",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Basketball/4",
+   "title": "Basketball Betting Tips: NBA & EuroLeague Picks - OLBG.com",
+   "event_count": 20
+  },
+  {
+   "slug": "Golf",
+   "sport_id": 5,
+   "url": "https://www.olbg.com/betting-tips/Golf/5",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Golf/5",
+   "title": "Golf Betting Tips & Free Predictions This Week - OLBG.com",
+   "event_count": 4
+  },
+  {
+   "slug": "Cricket",
+   "sport_id": 7,
+   "url": "https://www.olbg.com/betting-tips/Cricket/7",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Cricket/7",
+   "title": "Free Cricket Betting Tips & Predictions Today - OLBG.com",
+   "event_count": 17
+  },
+  {
+   "slug": "Snooker",
+   "sport_id": 8,
+   "url": "https://www.olbg.com/betting-tips/Snooker/8",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Snooker/8",
+   "title": "Snooker Betting Tips & Predictions Today - OLBG.com",
+   "event_count": 0
+  },
+  {
+   "slug": "Rugby_Union",
+   "sport_id": 9,
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "title": "Free Rugby Union Betting Tips & Predictions Today - OLBG.com",
+   "event_count": 13
+  },
+  {
+   "slug": "Rugby_League",
+   "sport_id": 10,
+   "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Rugby_League/10",
+   "title": "Free Rugby League Betting Tips and Predictions - OLBG.com",
+   "event_count": 3
+  },
+  {
+   "slug": "Baseball",
+   "sport_id": 12,
+   "url": "https://www.olbg.com/betting-tips/Baseball/12",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Baseball/12",
+   "title": "Free Baseball Tips, Picks & Predictions - OLBG.com",
+   "event_count": 1
+  },
+  {
+   "slug": "Ice_Hockey",
+   "sport_id": 13,
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "title": "Ice Hockey Betting Tips & Free NHL Predictions - OLBG.com",
+   "event_count": 11
+  },
+  {
+   "slug": "Motor_Racing",
+   "sport_id": 14,
+   "url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+   "title": "Free F1 Betting Tips & Motor Racing Predictions - OLBG.com",
+   "event_count": 2
+  },
+  {
+   "slug": "Darts",
+   "sport_id": 15,
+   "url": "https://www.olbg.com/betting-tips/Darts/15",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Darts/15",
+   "title": "Darts Betting Tips \u2013 Free Darts Predictions Today - OLBG.com",
+   "event_count": 2
+  },
+  {
+   "slug": "Handball",
+   "sport_id": 20,
+   "url": "https://www.olbg.com/betting-tips/Handball/20",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Handball/20",
+   "title": "Today's Free Handball Betting Tips & Predictions - OLBG.com",
+   "event_count": 17
+  },
+  {
+   "slug": "Volleyball",
+   "sport_id": 21,
+   "url": "https://www.olbg.com/betting-tips/Volleyball/21",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Volleyball/21",
+   "title": "Volleyball Betting Tips & Predictions for Today - OLBG.com",
+   "event_count": 15
+  },
+  {
+   "slug": "Gaelic_Football",
+   "sport_id": 25,
+   "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+   "title": "Gaelic Football Betting Tips & Predictions - OLBG.com",
+   "event_count": 3
+  },
+  {
+   "slug": "Greyhounds",
+   "sport_id": 28,
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+   "status": 200,
+   "final_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+   "title": "Greyhound Racing Tips & Free Predictions Today - OLBG.com",
+   "event_count": 7
+  }
+ ],
+ "probes": {
+  "Gaelic_Sports": {
+   "status": 404,
+   "final_url": "https://www.olbg.com/betting-tips/Gaelic_Sports"
+  },
+  "Gaelic_Games": {
+   "status": 404,
+   "final_url": "https://www.olbg.com/betting-tips/Gaelic_Games"
+  },
+  "Gaelic_Football": {
+   "status": 404,
+   "final_url": "https://www.olbg.com/betting-tips/Gaelic_Football"
+  },
+  "Hurling": {
+   "status": 404,
+   "final_url": "https://www.olbg.com/betting-tips/Hurling"
+  },
+  "Camogie": {
+   "status": 404,
+   "final_url": "https://www.olbg.com/betting-tips/Camogie"
+  }
+ }
+}

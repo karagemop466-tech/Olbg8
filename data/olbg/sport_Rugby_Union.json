@@ -1,0 +1,104 @@
+{
+ "sport": {
+  "slug": "Rugby_Union",
+  "sport_id": 9,
+  "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+  "title": "Free Rugby Union Betting Tips & Predictions Today - OLBG.com",
+  "event_count": 13
+ },
+ "events": [
+  {
+   "event_id": "609604",
+   "name": "Colomiers v Agen",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen",
+   "context": "Colomiers v Agen 30 Oct 18:00"
+  },
+  {
+   "event_id": "609598",
+   "name": "Oyonnax v Soyaux Angouleme",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme",
+   "context": "Oyonnax v Soyaux Angouleme 30 Oct 18:30"
+  },
+  {
+   "event_id": "609605",
+   "name": "Dax v Provence",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence",
+   "context": "Dax v Provence 29 Oct 20:00"
+  },
+  {
+   "event_id": "609599",
+   "name": "Beziers v Grenoble",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble",
+   "context": "Beziers v Grenoble 30 Oct 18:30"
+  },
+  {
+   "event_id": "609600",
+   "name": "Nissa v Aurillac",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac",
+   "context": "Nissa v Aurillac 30 Oct 18:30"
+  },
+  {
+   "event_id": "609590",
+   "name": "Glasgow Warriors v Lions",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions",
+   "context": "Glasgow Warriors v Lions 30 Oct 19:45"
+  },
+  {
+   "event_id": "609584",
+   "name": "Connacht v Leinster",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster",
+   "context": "Connacht v Leinster 30 Oct 19:45"
+  },
+  {
+   "event_id": "609602",
+   "name": "Biarritz v Valence Romans",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans",
+   "context": "Biarritz v Valence Romans 30 Oct 20:00"
+  },
+  {
+   "event_id": "609588",
+   "name": "Stormers v Ulster",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster",
+   "context": "Stormers v Ulster 31 Oct 12:45"
+  },
+  {
+   "event_id": "609586",
+   "name": "Munster v Sharks",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks",
+   "context": "Munster v Sharks 31 Oct 17:30"
+  },
+  {
+   "event_id": "609611",
+   "name": "Pau v Toulouse",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse",
+   "context": "Pau v Toulouse 01 Nov 20:05"
+  },
+  {
+   "event_id": "609603",
+   "name": "Montauban v Narbonne",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne",
+   "context": "Montauban v Narbonne 30 Oct 18:30"
+  },
+  {
+   "event_id": "609013",
+   "name": "Six Nations 2027",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
+   "competition_path": "betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027",
+   "context": "Six Nations 2027 14 Mar 2027 20:00"
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "sport": {
+  "slug": "Basketball",
+  "sport_id": 4,
+  "url": "https://www.olbg.com/betting-tips/Basketball/4",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Basketball/4",
+  "title": "Basketball Betting Tips: NBA & EuroLeague Picks - OLBG.com",
+  "event_count": 20
+ },
+ "events": [
+  {
+   "event_id": "536203",
+   "name": "MIN Timberwolves @ CLE Cavaliers",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers/4?event_id=536203",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/MIN_Timberwolves_@_CLE_Cavaliers",
+   "context": "MIN Timberwolves @ CLE Cavaliers NBA Today 23:00"
+  },
+  {
+   "event_id": "536204",
+   "name": "IND Pacers @ MIL Bucks",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks",
+   "context": "IND Pacers @ MIL Bucks NBA Tomorrow 00:00"
+  },
+  {
+   "event_id": "536206",
+   "name": "MEM Grizzlies @ UTA Jazz",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz",
+   "context": "MEM Grizzlies @ UTA Jazz NBA Tomorrow 01:00"
+  },
+  {
+   "event_id": "536173",
+   "name": "Corinthians vs Franca",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca/4?event_id=536173",
+   "competition_path": "betting-tips/Basketball/Other/Brazil_NBB/Corinthians_vs_Franca",
+   "context": "Corinthians vs Franca Brazil NBB Today 23:00"
+  },
+  {
+   "event_id": "536199",
+   "name": "WAS Wizards @ CHA Hornets",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/WAS_Wizards_@_CHA_Hornets/4?event_id=536199",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/WAS_Wizards_@_CHA_Hornets",
+   "context": "WAS Wizards @ CHA Hornets NBA Today 23:00"
+  },
+  {
+   "event_id": "536200",
+   "name": "DAL Mavericks @ MIA Heat",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat/4?event_id=536200",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/DAL_Mavericks_@_MIA_Heat",
+   "context": "DAL Mavericks @ MIA Heat NBA Today 23:30"
+  },
+  {
+   "event_id": "536172",
+   "name": "Mogi das Cruzes vs Unifacisa",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa/4?event_id=536172",
+   "competition_path": "betting-tips/Basketball/Other/Brazil_NBB/Mogi_das_Cruzes_vs_Unifacisa",
+   "context": "Mogi das Cruzes vs Unifacisa Brazil NBB Today 23:00"
+  },
+  {
+   "event_id": "536201",
+   "name": "ATL Hawks @ HOU Rockets",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4?event_id=536201",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets",
+   "context": "ATL Hawks @ HOU Rockets NBA Tomorrow 00:30"
+  },
+  {
+   "event_id": "536205",
+   "name": "PHX Suns @ OKC Thunder",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder",
+   "context": "PHX Suns @ OKC Thunder NBA Tomorrow 00:00"
+  },
+  {
+   "event_id": "534851",
+   "name": "CHI Bulls @ BOS Celtics",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics/4?event_id=534851",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/CHI_Bulls_@_BOS_Celtics",
+   "context": "CHI Bulls @ BOS Celtics NBA Today 23:30"
+  },
+  {
+   "event_id": "536202",
+   "name": "GS Warriors @ DEN Nuggets",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4?event_id=536202",
+   "competition_path": "betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets",
+   "context": "GS Warriors @ DEN Nuggets NBA Tomorrow 02:00"
+  },
+  {
+   "event_id": "536177",
+   "name": "Panathinaikos vs Milano",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano",
+   "context": "Panathinaikos vs Milano Euroleague Tomorrow 19:15"
+  },
+  {
+   "event_id": "536176",
+   "name": "BC Dubai vs Paris",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris",
+   "context": "BC Dubai vs Paris Euroleague Tomorrow 16:00"
+  },
+  {
+   "event_id": "536178",
+   "name": "Baskonia vs Real Madrid",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid",
+   "context": "Baskonia vs Real Madrid Euroleague Tomorrow 20:00"
+  },
+  {
+   "event_id": "536154",
+   "name": "Lanus vs Regatas",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas/4?event_id=536154",
+   "competition_path": "betting-tips/Basketball/Other/Argentina_Liga_Nacional/Lanus_vs_Regatas",
+   "context": "Lanus vs Regatas Argentina Liga Nacional Today 23:30"
+  },
+  {
+   "event_id": "536153",
+   "name": "ATL Dream @ GS Valkyries",
+   "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153",
+   "competition_path": "betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries",
+   "context": "ATL Dream @ GS Valkyries WNBA Tomorrow 00:00"
+  },
+  {
+   "event_id": "536175",
+   "name": "Crvena Zvezda vs Maccabi Tel Aviv",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv",
+   "context": "Crvena Zvezda vs Maccabi Tel Aviv Euroleague Tomorrow 19:00"
+  },
+  {
+   "event_id": "536174",
+   "name": "Bayern Munich vs Barcelona",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona",
+   "context": "Bayern Munich vs Barcelona Euroleague Tomorrow 19:00"
+  },
+  {
+   "event_id": "536179",
+   "name": "Valencia vs Fenerbahce",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce",
+   "context": "Valencia vs Fenerbahce Euroleague Tomorrow 19:30"
+  },
+  {
+   "event_id": "536180",
+   "name": "Besiktas vs Olympiacos",
+   "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
+   "competition_path": "betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos",
+   "context": "Besiktas vs Olympiacos Euroleague 28 Oct 17:30"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sport": {
+  "slug": "Baseball",
+  "sport_id": 12,
+  "url": "https://www.olbg.com/betting-tips/Baseball/12",
+  "status": 200,
+  "final_url": "https://www.olbg.com/betting-tips/Baseball/12",
+  "title": "Free Baseball Tips, Picks & Predictions - OLBG.com",
+  "event_count": 1
+ },
+ "events": [
+  {
+   "event_id": "160795",
+   "name": "MIL Brewers @ TB Rays",
+   "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795",
+   "competition_path": "betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays",
+   "context": "MIL Brewers @ TB Rays MLB Tomorrow 00:00"
+  }
+ ]
+}
