@@ -1,0 +1,219 @@
+{
+ "name": "motor_formula1_results",
+ "url": "https://www.formula1.com/en/results",
+ "sport": "motor_racing",
+ "status": 200,
+ "bytes": 477759,
+ "tables": [
+  {
+   "class": [
+    "Table-module_table__cKsW2"
+   ],
+   "rows": [
+    [
+     "Grand Prix",
+     "Date",
+     "Winner",
+     "Team",
+     "Laps",
+     "Time"
+    ],
+    [
+     "Flag of Australia Australia",
+     "08 Mar",
+     "George Russell RUS",
+     "Mercedes",
+     "58",
+     "1:23:06.801"
+    ],
+    [
+     "Flag of People\u2019s Republic of China China",
+     "15 Mar",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "56",
+     "1:33:15.607"
+    ],
+    [
+     "Flag of Japan Japan",
+     "29 Mar",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "53",
+     "1:28:03.403"
+    ],
+    [
+     "Flag of United States of America Miami",
+     "03 May",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "57",
+     "1:33:19.273"
+    ],
+    [
+     "Flag of Canada Canada",
+     "24 May",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "68",
+     "1:28:15.758"
+    ],
+    [
+     "Flag of Monaco Monaco",
+     "07 Jun",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "78",
+     "2:23:31.243"
+    ],
+    [
+     "Flag of Spain Barcelona-Catalunya",
+     "14 Jun",
+     "Lewis Hamilton HAM",
+     "Ferrari",
+     "66",
+     "1:32:28.105"
+    ],
+    [
+     "Flag of Austria Austria",
+     "28 Jun",
+     "George Russell RUS",
+     "Mercedes",
+     "71",
+     "1:26:37.979"
+    ],
+    [
+     "Flag of Great Britain Great Britain",
+     "05 Jul",
+     "Charles Leclerc LEC",
+     "Ferrari",
+     "52",
+     "1:27:11.335"
+    ],
+    [
+     "Flag of Belgium Belgium",
+     "19 Jul",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "44",
+     "1:24:42.479"
+    ],
+    [
+     "Flag of Hungary Hungary",
+     "26 Jul",
+     "Lando Norris NOR",
+     "McLaren",
+     "70",
+     "1:39:56.180"
+    ],
+    [
+     "Flag of Netherlands Netherlands",
+     "23 Aug",
+     "Lando Norris NOR",
+     "McLaren",
+     "72",
+     "2:04:44.859"
+    ],
+    [
+     "Flag of Italy Italy",
+     "06 Sep",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "53",
+     "1:51:15.281"
+    ],
+    [
+     "Flag of Spain Spain",
+     "13 Sep",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "57",
+     "1:34:23.754"
+    ],
+    [
+     "Flag of Azerbaijan Azerbaijan",
+     "26 Sep",
+     "George Russell RUS",
+     "Mercedes",
+     "51",
+     "1:38:02.143"
+    ],
+    [
+     "Flag of Bahrain Bahrain",
+     "04 Oct",
+     "Max Verstappen VER",
+     "Red Bull Racing",
+     "55",
+     "1:47:14.808"
+    ],
+    [
+     "Flag of Singapore Singapore",
+     "11 Oct",
+     "Max Verstappen VER",
+     "Red Bull Racing",
+     "62",
+     "1:42:00.785"
+    ],
+    [
+     "Flag of United States of America United States",
+     "25 Oct",
+     "Kimi Antonelli ANT",
+     "Mercedes",
+     "56",
+     "1:35:16.650"
+    ]
+   ]
+  }
+ ],
+ "headings": [
+  "2026 RACE RESULTS",
+  "OUR PARTNERS",
+  "Download the Official F1 App"
+ ],
+ "items": [
+  "Flag of Australia Australia",
+  "Flag of People\u2019s Republic of China China",
+  "Flag of Japan Japan",
+  "Flag of United States of America Miami",
+  "Flag of Canada Canada",
+  "Flag of Monaco Monaco",
+  "Flag of Spain Barcelona-Catalunya",
+  "Flag of Austria Austria",
+  "Flag of Great Britain Great Britain",
+  "Flag of Belgium Belgium",
+  "Flag of Hungary Hungary",
+  "Flag of Netherlands Netherlands",
+  "Flag of Italy Italy",
+  "Flag of Spain Spain",
+  "Flag of Azerbaijan Azerbaijan",
+  "Flag of Bahrain Bahrain",
+  "Flag of Singapore Singapore",
+  "Flag of United States of America United States",
+  "Flag of Mexico Mexico",
+  "Flag of Brazil Brazil",
+  "Flag of United States of America Las Vegas",
+  "Flag of Qatar Qatar",
+  "Flag of United Arab Emirates Abu Dhabi",
+  "Schedule Chevron Right",
+  "Results Chevron Right",
+  "Standings Chevron Right",
+  "Drivers Chevron Right",
+  "Teams Chevron Right",
+  "F1 Unlocked Chevron Right",
+  "SHARE YOUR FEEDBACK Internal link",
+  "Privacy policy",
+  "Cookies Policy",
+  "Legal Notices",
+  "Code of Conduct",
+  "Modern Slavery Statement",
+  "Gender Pay Report",
+  "F1 Betting Disclaimer",
+  "Accessibility Statement",
+  "Cookie Preferences",
+  "Become an Affiliate",
+  "F1\u00ae Corporate Site",
+  "F1\u00ae Fan Voice",
+  "Beyond The Grid - the F1\u00ae podcast"
+ ],
+ "text_head": "2026 RACE RESULTS Skip to content Race Series Authentics (opens in a new tab) Store (opens in a new tab) Tickets (opens in a new tab) Hospitality (opens in a new tab) Experiences (opens in a new tab) Arcade (opens in a new tab) F1 TV (opens in a new tab) Sign In Subscribe F1 Schedule Results Standings Drivers Teams F1 Unlocked Open menu FIA 2026 2026 Active 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 1996 1995 1994 1993 1992 1991 1990 1989 1988 1987 1986 1985 1984 1983 1982 1981 1980 1979 1978 1977 1976 1975 1974 1973 1972 1971 1970 1969 1968 1967 1966 1965 1964 1963 1962 1961 1960 1959 1958 1957 1956 1955 1954 1953 1952 1951 1950 Races Races Active Drivers Teams Awards Races Drivers Teams Awards All All Active Flag of Australia Australia Flag of People\u2019s Republic of China China Flag of Japan Japan Flag of United States of America Miami Flag of Canada Canada Flag of Monaco Monaco Flag of Spain Barcelona-Catalunya Flag of Austria Austria Flag of Great Britain Great Britain Flag of Belgium Belgium Flag of Hungary Hungary Flag of Netherlands Netherlands Flag of Italy Italy Flag of Spain Spain Flag of Azerbaijan Azerbaijan Flag of Bahrain Bahrain Flag of Singapore Singapore Flag of United States of America United States Flag of Mexico Mexico Flag of Brazil Brazil Flag of United States of America Las Vegas Flag of Qatar Qatar Flag of United Arab Emirates Abu Dhabi 2026 RACE RESULTS Grand Prix Date Winner Team Laps Time Flag of Australia Australia 08 Mar George Russell RUS Mercedes 58 1:23:06.801 Flag of People\u2019s Republic of China China 15 Mar Kimi Antonelli ANT Mercedes 56 1:33:15.607 Flag of Japan Japan 29 Mar Kimi Antonelli ANT Mercedes 53 1:28:03.403 Flag of United States of America Miami 03 May Kimi Antonelli ANT Mercedes 57 1:33:19.273 Flag of Canada Canada 24 May Kimi Antonelli ANT Mercedes 68 1:28:15.758 Flag of Monaco Monaco 07 Jun Kimi Antonelli ANT Mercedes 78 2:23:31.243 Flag of Spain Barcelona-Catalunya 14 Jun Lewis Hamilton HAM Ferrari 66 1:32:28.105 Flag of Austria Austria 28 Jun George Russell RUS Mercedes 71 1:26:37.979 Flag of Great Britain Great Britain 05 Jul Charles Leclerc LEC Ferrari 52 1:27:11.335 Flag of Belgium Belgium 19 Jul Kimi Antonelli ANT Mercedes 44 1:24:42.479 Flag of Hungary Hungary 26 Jul Lando Norris NOR McLaren 70 1:39:56.180 Flag of Netherlands Netherlands 23 Aug Lando Norris NOR McLaren 72 2:04:44.859 Flag of Italy Italy 06"
+}

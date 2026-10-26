@@ -1,0 +1,48 @@
+{
+ "name": "golf_owgr",
+ "url": "https://www.owgr.com/ranking",
+ "sport": "golf",
+ "status": 200,
+ "bytes": 166106,
+ "tables": [
+  {
+   "class": [
+    "table-fixed",
+    "baseTable_table__lihxH"
+   ],
+   "rows": [
+    [
+     "RANKING",
+     "LAST WEEK",
+     "END 2025",
+     "CTRY",
+     "NAME",
+     "AVERAGE POINTS",
+     "TOTAL POINTS",
+     "EVENTS PLAYED (DIVISOR)",
+     "POINTS LOST (2026)",
+     "POINTS WON (2026)",
+     "EVENTS PLAYED (ACTUAL)"
+    ],
+    [
+     "-",
+     "",
+     "",
+     "",
+     "",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-"
+    ]
+   ]
+  }
+ ],
+ "headings": [],
+ "next_data_bytes": 88999,
+ "next_data_head": "{\"props\":{\"siteSetupData\":{\"isEmpty\":false,\"siteName\":{\"isEmpty\":false,\"value\":\"Official World Golf Ranking\"},\"siteDomain\":{\"isEmpty\":false,\"value\":\"owgr.com\"},\"replacementPicture\":{\"isEmpty\":false,\"key\":\"299628\",\"alt\":\"No Player Image\",\"name\":\"noPicturePlayer.jpg\",\"size\":7361,\"type\":\"image/jpeg\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/e1e48dfd-23bb-4675-998d-0b76ecd67076/noPicturePlayer.jpg\",\"height\":500,\"width\":333},\"system\":{\"isEmpty\":false,\"codename\":\"owgr_site_setup\",\"collection\":\"default\",\"id\":\"6aa39324-c833-4c77-b6e9-63f6ffc8b4ff\",\"language\":\"default\",\"lastModified\":\"Tue Jan 13 2026 16:10:30 GMT+0000 (Coordinated Universal Time)\",\"name\":\"OWGR Site Setup\",\"sitemapLocations\":[],\"type\":\"site_setup\"},\"socialShareImage\":{\"isEmpty\":false,\"key\":\"299629\",\"alt\":null,\"name\":\"socialShare.png\",\"size\":90706,\"type\":\"image/png\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/40a73408-3727-4088-aad0-1d44e9874be7/socialShare.png\",\"height\":200,\"width\":300},\"showVideo\":[],\"header\":{\"headerLogoImageReversed\":{\"isEmpty\":false,\"key\":\"299630\",\"alt\":null,\"name\":\"OWGR-Primary-CMYK-rev.png\",\"size\":84703,\"type\":\"image/png\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/9e1c569a-7ba8-4526-a63e-46606202ac01/OWGR-Primary-CMYK-rev.png\",\"height\":373,\"width\":1367},\"headerLogoImage\":{\"isEmpty\":false,\"key\":\"299631\",\"alt\":null,\"name\":\"OWGR-Primary-CMYK.png\",\"size\":86351,\"type\":\"image/png\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/b8d2e2f5-bcec-4111-b469-4eb37305e69e/OWGR-Primary-CMYK.png\",\"height\":373,\"width\":1367}},\"otherWorldRankings\":[{\"text\":{\"isEmpty\":false,\"value\":\"WAGR\"},\"link\":{\"isEmpty\":false,\"value\":\"https://www.wagr.com/\"},\"image\":{\"isEmpty\":false,\"key\":\"299632\",\"alt\":null,\"name\":\"WAGR-light.png\",\"size\":46525,\"type\":\"image/png\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/c197144b-670e-4f8d-b329-0194ea9d74ad/WAGR-light.png\",\"height\":204,\"width\":472},\"system\":{\"isEmpty\":false,\"codename\":\"wagr_header_link\",\"collection\":\"default\",\"id\":\"b03ea7e9-11f8-47f5-95bb-b07aec1f4cad\",\"language\":\"default\",\"lastModified\":\"Fri Mar 28 2025 07:40:49 GMT+0000 (Coordinated Universal Time)\",\"name\":\"WAGR header link\",\"sitemapLocations\":[],\"type\":\"other_world_ranking\"}},{\"text\":{\"isEmpty\":false,\"value\":\"Rolex WWGR\"},\"link\":{\"isEmpty\":false,\"value\":\"https://www.rolexrankings.com/rankings\"},\"image\":{\"isEmpty\":false,\"key\":\"299633\",\"alt\":null,\"name\":\"Rolex WWGR.svg\",\"size\":16499,\"type\":\"image/svg+xml\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/00be6aeb-6ab1-00f0-f77a-4c8f38e69314/4277fe0f-e44d-4834-a334-a2f1a5b8adef/Rolex%20WWGR.svg\",\"height\":null,\"width\":null},\"system\":{\"isEmpty\":false,\"codename\":\"rolex_w_header_link\",\"collection\":\"default\",\"id\":\"fdf3f250-c9eb-4b8f-995c-0f8e270563be\",\"language\":\"default\",\"lastModified\":\"Mon Apr 07 2025 12:34:44 GMT+0000 (Coordinated Un",
+ "items": [],
+ "text_head": "Official World Golf Ranking - Ranking CURRENT RANKING EVENTS NEWS INFORMATION & ARCHIVE ABOUT US WORLD RANKING COMPARE PLAYERS Compare ranking performance for up to four players over various periods, from a single season to their whole careers. Compare performance Filters Open Download ranking RANKING LAST WEEK END 2025 CTRY NAME AVERAGE POINTS TOTAL POINTS EVENTS PLAYED (DIVISOR) POINTS LOST (2026) POINTS WON (2026) EVENTS PLAYED (ACTUAL) - - - - - - - PAST RANKINGS View the historical Ranking archives VIEW PAST RANKINGS SHARING WIDGET Share your OWGR personalized widget on your website. CREATE CUSTOMIZED WIDGET ELIGIBLE TOURS BACK TO TOP FOUNDER MEMBERS Terms & Conditions Privacy Policy Player Privacy Policy Cookie Policy CONTACT US Contact Form \u00a91986 - 2026 OFFICIAL WORLD GOLF RANKING\u00ae All Rights Reserved. Official World Golf Ranking, European Tour Building, Wentworth Drive, Virginia Water, Surrey, GU254LX, England. Registered in England: Company number 04996725"
+}

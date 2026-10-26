@@ -1,0 +1,488 @@
+{
+ "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba",
+ "fetched_utc": "2026-10-26T20:42:13+00:00",
+ "teams": [
+  {
+   "team": "New York Knicks",
+   "abbrev": "NY",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "101.7",
+   "points_against": "108.0",
+   "diff": "-6.3",
+   "streak": "L3",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Milwaukee Bucks",
+   "abbrev": "MIL",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "119.0",
+   "points_against": "129.0",
+   "diff": "-10.0",
+   "streak": "L3",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Brooklyn Nets",
+   "abbrev": "BKN",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "111.0",
+   "points_against": "123.7",
+   "diff": "-12.7",
+   "streak": "L3",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Miami Heat",
+   "abbrev": "MIA",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "109.0",
+   "points_against": "124.7",
+   "diff": "-15.7",
+   "streak": "L3",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Orlando Magic",
+   "abbrev": "ORL",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "109.7",
+   "points_against": "116.3",
+   "diff": "-6.6",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Chicago Bulls",
+   "abbrev": "CHI",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "114.7",
+   "points_against": "128.0",
+   "diff": "-13.3",
+   "streak": "L1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Boston Celtics",
+   "abbrev": "BOS",
+   "wins": "1",
+   "losses": "1",
+   "win_pct": ".500",
+   "points_for": "110.0",
+   "points_against": "112.0",
+   "diff": "-2.0",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Cleveland Cavaliers",
+   "abbrev": "CLE",
+   "wins": "1",
+   "losses": "1",
+   "win_pct": ".500",
+   "points_for": "115.5",
+   "points_against": "117.5",
+   "diff": "-2.0",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Atlanta Hawks",
+   "abbrev": "ATL",
+   "wins": "2",
+   "losses": "1",
+   "win_pct": ".667",
+   "points_for": "124.7",
+   "points_against": "109.0",
+   "diff": "+15.7",
+   "streak": "L1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Toronto Raptors",
+   "abbrev": "TOR",
+   "wins": "2",
+   "losses": "1",
+   "win_pct": ".667",
+   "points_for": "113.7",
+   "points_against": "103.7",
+   "diff": "+10.0",
+   "streak": "L1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Indiana Pacers",
+   "abbrev": "IND",
+   "wins": "2",
+   "losses": "1",
+   "win_pct": ".667",
+   "points_for": "121.3",
+   "points_against": "116.7",
+   "diff": "+4.6",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Charlotte Hornets",
+   "abbrev": "CHA",
+   "wins": "2",
+   "losses": "1",
+   "win_pct": ".667",
+   "points_for": "102.0",
+   "points_against": "113.7",
+   "diff": "-11.7",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Washington Wizards",
+   "abbrev": "WSH",
+   "wins": "2",
+   "losses": "1",
+   "win_pct": ".667",
+   "points_for": "118.0",
+   "points_against": "116.0",
+   "diff": "+2.0",
+   "streak": "W1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Philadelphia 76ers",
+   "abbrev": "PHI",
+   "wins": "3",
+   "losses": "1",
+   "win_pct": ".750",
+   "points_for": "110.0",
+   "points_against": "107.0",
+   "diff": "+3.0",
+   "streak": "L1",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Detroit Pistons",
+   "abbrev": "DET",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "118.3",
+   "points_against": "105.7",
+   "diff": "+12.6",
+   "streak": "W3",
+   "group": "Eastern Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "New Orleans Pelicans",
+   "abbrev": "NO",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "124.7",
+   "points_against": "128.0",
+   "diff": "-3.3",
+   "streak": "L3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Golden State Warriors",
+   "abbrev": "GS",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "111.7",
+   "points_against": "123.0",
+   "diff": "-11.3",
+   "streak": "L3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Sacramento Kings",
+   "abbrev": "SAC",
+   "wins": "0",
+   "losses": "3",
+   "win_pct": ".000",
+   "points_for": "109.3",
+   "points_against": "124.0",
+   "diff": "-14.7",
+   "streak": "L3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "San Antonio Spurs",
+   "abbrev": "SA",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "112.0",
+   "points_against": "112.0",
+   "diff": "0.0",
+   "streak": "W1",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "LA Clippers",
+   "abbrev": "LAC",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "113.0",
+   "points_against": "109.7",
+   "diff": "+3.3",
+   "streak": "L2",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Utah Jazz",
+   "abbrev": "UTAH",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "115.3",
+   "points_against": "124.7",
+   "diff": "-9.4",
+   "streak": "L1",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Dallas Mavericks",
+   "abbrev": "DAL",
+   "wins": "1",
+   "losses": "2",
+   "win_pct": ".333",
+   "points_for": "112.3",
+   "points_against": "118.3",
+   "diff": "-6.0",
+   "streak": "L1",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Denver Nuggets",
+   "abbrev": "DEN",
+   "wins": "1",
+   "losses": "1",
+   "win_pct": ".500",
+   "points_for": "112.5",
+   "points_against": "115.5",
+   "diff": "-3.0",
+   "streak": "W1",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Phoenix Suns",
+   "abbrev": "PHX",
+   "wins": "1",
+   "losses": "1",
+   "win_pct": ".500",
+   "points_for": "107.0",
+   "points_against": "123.0",
+   "diff": "-16.0",
+   "streak": "W1",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Portland Trail Blazers",
+   "abbrev": "POR",
+   "wins": "2",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "126.0",
+   "points_against": "101.5",
+   "diff": "+24.5",
+   "streak": "W2",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "abbrev": "MIN",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "121.0",
+   "points_against": "97.7",
+   "diff": "+23.3",
+   "streak": "W3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "abbrev": "OKC",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "106.7",
+   "points_against": "96.3",
+   "diff": "+10.4",
+   "streak": "W3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Los Angeles Lakers",
+   "abbrev": "LAL",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "128.0",
+   "points_against": "115.0",
+   "diff": "+13.0",
+   "streak": "W3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Memphis Grizzlies",
+   "abbrev": "MEM",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "119.0",
+   "points_against": "107.7",
+   "diff": "+11.3",
+   "streak": "W3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  },
+  {
+   "team": "Houston Rockets",
+   "abbrev": "HOU",
+   "wins": "3",
+   "losses": "0",
+   "win_pct": "1.000",
+   "points_for": "121.0",
+   "points_against": "111.3",
+   "diff": "+9.7",
+   "streak": "W3",
+   "group": "Western Conference",
+   "source_url": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027"
+  }
+ ],
+ "games": [
+  {
+   "espn_id": "401909868",
+   "date": "2026-10-26T23:00Z",
+   "name": "Washington Wizards at Charlotte Hornets",
+   "status": "Scheduled",
+   "home_record": [
+    "2-1"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909869",
+   "date": "2026-10-26T23:00Z",
+   "name": "Minnesota Timberwolves at Cleveland Cavaliers",
+   "status": "Scheduled",
+   "home_record": [
+    "1-1"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909870",
+   "date": "2026-10-26T23:30Z",
+   "name": "Chicago Bulls at Boston Celtics",
+   "status": "Scheduled",
+   "home_record": [
+    "1-1"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909871",
+   "date": "2026-10-26T23:30Z",
+   "name": "Dallas Mavericks at Miami Heat",
+   "status": "Scheduled",
+   "home_record": [
+    "0-3"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909872",
+   "date": "2026-10-27T00:00Z",
+   "name": "Indiana Pacers at Milwaukee Bucks",
+   "status": "Scheduled",
+   "home_record": [
+    "0-3"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909873",
+   "date": "2026-10-27T00:00Z",
+   "name": "Phoenix Suns at Oklahoma City Thunder",
+   "status": "Scheduled",
+   "home_record": [
+    "3-0"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909874",
+   "date": "2026-10-27T00:30Z",
+   "name": "Atlanta Hawks at Houston Rockets",
+   "status": "Scheduled",
+   "home_record": [
+    "3-0"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909875",
+   "date": "2026-10-27T01:00Z",
+   "name": "Memphis Grizzlies at Utah Jazz",
+   "status": "Scheduled",
+   "home_record": [
+    "1-2"
+   ],
+   "awayself": null
+  },
+  {
+   "espn_id": "401909876",
+   "date": "2026-10-27T02:00Z",
+   "name": "Golden State Warriors at Denver Nuggets",
+   "status": "Scheduled",
+   "home_record": [
+    "1-1"
+   ],
+   "awayself": null
+  }
+ ]
+}

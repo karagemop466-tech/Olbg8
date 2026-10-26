@@ -1,0 +1,1035 @@
+{
+ "name": "tennis_atp_rankings",
+ "url": "https://www.atptour.com/en/rankings/singles",
+ "sport": "tennis",
+ "status": 200,
+ "bytes": 601965,
+ "tables": [
+  {
+   "class": [
+    "mobile-table",
+    "mega-table",
+    "non-live"
+   ],
+   "rows": [
+    [
+     "Hidden header",
+     "Rank",
+     "Player",
+     "Official Points",
+     "Next Best"
+    ],
+    [
+     "1",
+     "J. Sinner",
+     "10,450",
+     "-"
+    ],
+    [
+     "2",
+     "A. Zverev",
+     "9,750",
+     "-"
+    ],
+    [
+     "3",
+     "C. Alcaraz",
+     "5,610",
+     "-"
+    ],
+    [
+     "4",
+     "B. Shelton",
+     "4,680",
+     "10"
+    ],
+    [
+     "5",
+     "D. Medvedev",
+     "3,860",
+     "10"
+    ],
+    [
+     "6",
+     "F. Cobolli",
+     "3,690",
+     "-"
+    ],
+    [
+     "7",
+     "F. Auger-Aliassime",
+     "3,515",
+     "10"
+    ],
+    [
+     "8",
+     "2 A. Fils",
+     "3,425",
+     "-"
+    ],
+    [
+     "9",
+     "F. Tiafoe",
+     "3,380",
+     "-"
+    ],
+    [
+     "10",
+     "-2 A. de Minaur",
+     "3,280",
+     "10"
+    ],
+    [
+     "11",
+     "R. Jodar",
+     "3,234",
+     "-"
+    ],
+    [
+     "12",
+     "N. Djokovic",
+     "3,090",
+     "-"
+    ],
+    [
+     "13",
+     "1 T. Fritz",
+     "2,995",
+     "-"
+    ],
+    [
+     "14",
+     "1 T. Paul",
+     "2,675",
+     "-"
+    ],
+    [
+     "15",
+     "-2 A. Davidovich Fokina",
+     "2,600",
+     "10"
+    ],
+    [
+     "16",
+     "J. Mensik",
+     "2,495",
+     "-"
+    ],
+    [
+     "17",
+     "B. Nakashima",
+     "2,375",
+     "-"
+    ],
+    [
+     "18",
+     "L. Tien",
+     "2,345",
+     "-"
+    ],
+    [
+     "19",
+     "2 F. Cerundolo",
+     "2,310",
+     "50"
+    ],
+    [
+     "20",
+     "-1 A. Bublik",
+     "2,285",
+     "10"
+    ],
+    [
+     "21",
+     "-1 J. Lehecka",
+     "2,275",
+     "-"
+    ],
+    [
+     "22",
+     "A. Rublev",
+     "2,175",
+     "10"
+    ],
+    [
+     "23",
+     "L. Darderi",
+     "2,160",
+     "50"
+    ],
+    [
+     "24",
+     "1 K. Khachanov",
+     "2,030",
+     "10"
+    ],
+    [
+     "25",
+     "-1 C. Ruud",
+     "1,995",
+     "-"
+    ],
+    [
+     "26",
+     "L. Musetti",
+     "1,920",
+     "-"
+    ],
+    [
+     "27",
+     "A. Blockx",
+     "1,790",
+     "-"
+    ],
+    [
+     "28",
+     "2 H. Hurkacz",
+     "1,585",
+     "-"
+    ],
+    [
+     "29",
+     "T. Etcheverry",
+     "1,565",
+     "25"
+    ],
+    [
+     "30",
+     "1 A. Tabilo",
+     "1,565",
+     "-"
+    ],
+    [
+     "31",
+     "1 V. Vacherot",
+     "1,480",
+     "-"
+    ],
+    [
+     "32",
+     "1 I. Buse",
+     "1,445",
+     "-"
+    ],
+    [
+     "33",
+     "6 S. Tsitsipas",
+     "1,430",
+     "-"
+    ],
+    [
+     "34",
+     "3 A. Michelsen",
+     "1,410",
+     "-"
+    ],
+    [
+     "35",
+     "-1 A. Fery",
+     "1,406",
+     "-"
+    ],
+    [
+     "36",
+     "M. Arnaldi",
+     "1,311",
+     "-"
+    ],
+    [
+     "37",
+     "1 B. van de Zandschulp",
+     "1,295",
+     "-"
+    ],
+    [
+     "38",
+     "-3 U. Humbert",
+     "1,270",
+     "-"
+    ],
+    [
+     "39",
+     "2 Z. Bergs",
+     "1,260",
+     "16"
+    ],
+    [
+     "40",
+     "-12 J. Fonseca",
+     "1,250",
+     "-"
+    ],
+    [
+     "41",
+     "-1 C. Norrie",
+     "1,195",
+     "10"
+    ],
+    [
+     "42",
+     "D. Merida",
+     "1,195",
+     "-"
+    ],
+    [
+     "43",
+     "2 M. Navone",
+     "1,164",
+     "10"
+    ],
+    [
+     "44",
+     "A. Gea",
+     "1,160",
+     "-"
+    ],
+    [
+     "45",
+     "1 Q. Halys",
+     "1,127",
+     "-"
+    ],
+    [
+     "46",
+     "2 L. Van Assche",
+     "1,105",
+     "-"
+    ],
+    [
+     "47",
+     "11 J. Struff",
+     "1,084",
+     "-"
+    ],
+    [
+     "48",
+     "-5 M. Berrettini",
+     "1,083",
+     "-"
+    ],
+    [
+     "49",
+     "S. Baez",
+     "1,044",
+     "-"
+    ],
+    [
+     "50",
+     "10 T. Griekspoor",
+     "1,035",
+     "-"
+    ],
+    [
+     "51",
+     "-1 T. Tirante",
+     "1,024",
+     "7"
+    ],
+    [
+     "52",
+     "-5 D. Shapovalov",
+     "1,015",
+     "10"
+    ],
+    [
+     "53",
+     "-1 N. Borges",
+     "1,000",
+     "-"
+    ],
+    [
+     "54",
+     "-1 J. Cerundolo",
+     "1,000",
+     "-"
+    ],
+    [
+     "55",
+     "R. Collignon",
+     "993",
+     "10"
+    ],
+    [
+     "56",
+     "-2 A. Vallejo",
+     "947",
+     "-"
+    ],
+    [
+     "57",
+     "-1 J. Faria",
+     "941",
+     "-"
+    ],
+    [
+     "58",
+     "-1 M. Kecmanovic",
+     "930",
+     "13"
+    ]
+   ]
+  },
+  {
+   "class": [
+    "mega-table",
+    "desktop-table",
+    "non-live"
+   ],
+   "rows": [
+    [
+     "Hidden header",
+     "Rank",
+     "Player",
+     "Age",
+     "Official Points",
+     "+/-",
+     "Tourn Played",
+     "Dropping",
+     "Next Best"
+    ],
+    [
+     "1",
+     "Jannik Sinner",
+     "25",
+     "10,450",
+     "-500",
+     "16",
+     "1,000",
+     "-"
+    ],
+    [
+     "2",
+     "Alexander Zverev",
+     "29",
+     "9,750",
+     "-320",
+     "19",
+     "400",
+     "-"
+    ],
+    [
+     "3",
+     "Carlos Alcaraz",
+     "23",
+     "5,610",
+     "-",
+     "17",
+     "10",
+     "-"
+    ],
+    [
+     "4",
+     "Ben Shelton",
+     "24",
+     "4,680",
+     "-40",
+     "21",
+     "200",
+     "10"
+    ],
+    [
+     "5",
+     "Daniil Medvedev",
+     "30",
+     "3,860",
+     "+200",
+     "23",
+     "200",
+     "10"
+    ],
+    [
+     "6",
+     "Flavio Cobolli",
+     "24",
+     "3,690",
+     "+50",
+     "25",
+     "50",
+     "-"
+    ],
+    [
+     "7",
+     "Felix Auger-Aliassime",
+     "26",
+     "3,515",
+     "-75",
+     "21",
+     "650",
+     "10"
+    ],
+    [
+     "8",
+     "2 Arthur Fils",
+     "22",
+     "3,425",
+     "+100",
+     "19",
+     "-",
+     "-"
+    ],
+    [
+     "9",
+     "Frances Tiafoe",
+     "28",
+     "3,380",
+     "-",
+     "22",
+     "-",
+     "-"
+    ],
+    [
+     "10",
+     "-2 Alex de Minaur",
+     "27",
+     "3,280",
+     "-150",
+     "23",
+     "200",
+     "10"
+    ],
+    [
+     "11",
+     "Rafael Jodar",
+     "20",
+     "3,234",
+     "-",
+     "20",
+     "75",
+     "-"
+    ],
+    [
+     "12",
+     "Novak Djokovic",
+     "39",
+     "3,090",
+     "-",
+     "15",
+     "-",
+     "-"
+    ],
+    [
+     "13",
+     "1 Taylor Fritz",
+     "28",
+     "2,995",
+     "+115",
+     "22",
+     "100",
+     "-"
+    ],
+    [
+     "14",
+     "1 Tommy Paul",
+     "29",
+     "2,675",
+     "+100",
+     "22",
+     "-",
+     "-"
+    ],
+    [
+     "15",
+     "-2 Alejandro Davidovich Fokina",
+     "27",
+     "2,600",
+     "-280",
+     "23",
+     "100",
+     "10"
+    ],
+    [
+     "16",
+     "Jakub Mensik",
+     "21",
+     "2,495",
+     "-5",
+     "20",
+     "-",
+     "-"
+    ],
+    [
+     "17",
+     "Brandon Nakashima",
+     "25",
+     "2,375",
+     "-",
+     "23",
+     "-",
+     "-"
+    ],
+    [
+     "18",
+     "Learner Tien",
+     "20",
+     "2,345",
+     "-",
+     "21",
+     "50",
+     "-"
+    ],
+    [
+     "19",
+     "2 Francisco Cerundolo",
+     "28",
+     "2,310",
+     "+90",
+     "23",
+     "100",
+     "50"
+    ],
+    [
+     "20",
+     "-1 Alexander Bublik",
+     "29",
+     "2,285",
+     "+10",
+     "25",
+     "400",
+     "10"
+    ],
+    [
+     "21",
+     "-1 Jiri Lehecka",
+     "24",
+     "2,275",
+     "+40",
+     "21",
+     "-",
+     "-"
+    ],
+    [
+     "22",
+     "Andrey Rublev",
+     "29",
+     "2,175",
+     "-",
+     "23",
+     "100",
+     "10"
+    ],
+    [
+     "23",
+     "Luciano Darderi",
+     "24",
+     "2,160",
+     "-",
+     "28",
+     "10",
+     "50"
+    ],
+    [
+     "24",
+     "1 Karen Khachanov",
+     "30",
+     "2,030",
+     "+40",
+     "23",
+     "100",
+     "10"
+    ],
+    [
+     "25",
+     "-1 Casper Ruud",
+     "27",
+     "1,995",
+     "-100",
+     "20",
+     "10",
+     "-"
+    ],
+    [
+     "26",
+     "Lorenzo Musetti",
+     "24",
+     "1,920",
+     "+50",
+     "19",
+     "10",
+     "-"
+    ],
+    [
+     "27",
+     "Alexander Blockx",
+     "21",
+     "1,790",
+     "-",
+     "21",
+     "125",
+     "-"
+    ],
+    [
+     "28",
+     "2 Hubert Hurkacz",
+     "29",
+     "1,585",
+     "+10",
+     "23",
+     "-",
+     "-"
+    ],
+    [
+     "29",
+     "Tomas Martin Etcheverry",
+     "27",
+     "1,565",
+     "-25",
+     "29",
+     "40",
+     "25"
+    ],
+    [
+     "30",
+     "1 Alejandro Tabilo",
+     "29",
+     "1,565",
+     "-",
+     "30",
+     "-",
+     "-"
+    ],
+    [
+     "31",
+     "1 Valentin Vacherot",
+     "27",
+     "1,480",
+     "-",
+     "22",
+     "200",
+     "-"
+    ],
+    [
+     "32",
+     "1 Ignacio Buse",
+     "22",
+     "1,445",
+     "-",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "33",
+     "6 Stefanos Tsitsipas",
+     "28",
+     "1,430",
+     "+100",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "34",
+     "3 Alex Michelsen",
+     "22",
+     "1,410",
+     "+40",
+     "25",
+     "-",
+     "-"
+    ],
+    [
+     "35",
+     "-1 Arthur Fery",
+     "24",
+     "1,406",
+     "-15",
+     "20",
+     "-",
+     "-"
+    ],
+    [
+     "36",
+     "Matteo Arnaldi",
+     "25",
+     "1,311",
+     "-75",
+     "19",
+     "-",
+     "-"
+    ],
+    [
+     "37",
+     "1 Botic van de Zandschulp",
+     "31",
+     "1,295",
+     "-38",
+     "27",
+     "-",
+     "-"
+    ],
+    [
+     "38",
+     "-3 Ugo Humbert",
+     "28",
+     "1,270",
+     "-150",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "39",
+     "2 Zizou Bergs",
+     "27",
+     "1,260",
+     "+40",
+     "27",
+     "50",
+     "16"
+    ],
+    [
+     "40",
+     "-12 Joao Fonseca",
+     "20",
+     "1,250",
+     "-500",
+     "17",
+     "50",
+     "-"
+    ],
+    [
+     "41",
+     "-1 Cameron Norrie",
+     "31",
+     "1,195",
+     "-40",
+     "24",
+     "100",
+     "10"
+    ],
+    [
+     "42",
+     "Daniel Merida",
+     "22",
+     "1,195",
+     "-",
+     "24",
+     "-",
+     "-"
+    ],
+    [
+     "43",
+     "2 Mariano Navone",
+     "25",
+     "1,164",
+     "+13",
+     "30",
+     "75",
+     "10"
+    ],
+    [
+     "44",
+     "Arthur Gea",
+     "21",
+     "1,160",
+     "-",
+     "20",
+     "14",
+     "-"
+    ],
+    [
+     "45",
+     "1 Quentin Halys",
+     "29",
+     "1,127",
+     "-",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "46",
+     "2 Luca Van Assche",
+     "22",
+     "1,105",
+     "+40",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "47",
+     "11 Jan-Lennard Struff",
+     "36",
+     "1,084",
+     "+155",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "48",
+     "-5 Matteo Berrettini",
+     "30",
+     "1,083",
+     "-90",
+     "21",
+     "-",
+     "-"
+    ],
+    [
+     "49",
+     "Sebastian Baez",
+     "25",
+     "1,044",
+     "-",
+     "31",
+     "-",
+     "-"
+    ],
+    [
+     "50",
+     "10 Tallon Griekspoor",
+     "30",
+     "1,035",
+     "+150",
+     "27",
+     "10",
+     "-"
+    ],
+    [
+     "51",
+     "-1 Thiago Agustin Tirante",
+     "25",
+     "1,024",
+     "-8",
+     "23",
+     "8",
+     "7"
+    ],
+    [
+     "52",
+     "-5 Denis Shapovalov",
+     "27",
+     "1,015",
+     "-90",
+     "22",
+     "10",
+     "10"
+    ],
+    [
+     "53",
+     "-1 Nuno Borges",
+     "29",
+     "1,000",
+     "-",
+     "28",
+     "-",
+     "-"
+    ],
+    [
+     "54",
+     "-1 Juan Manuel Cerundolo",
+     "24",
+     "1,000",
+     "-",
+     "30",
+     "-",
+     "-"
+    ],
+    [
+     "55",
+     "Raphael Collignon",
+     "24",
+     "993",
+     "+15",
+     "24",
+     "35",
+     "10"
+    ],
+    [
+     "56",
+     "-2 Adolfo Daniel Vallejo",
+     "22",
+     "947",
+     "-50",
+     "26",
+     "-",
+     "-"
+    ],
+    [
+     "57",
+     "-1 Jaime Faria",
+     "23",
+     "941",
+     "-",
+     "27",
+     "-",
+     "-"
+    ],
+    [
+     "58",
+     "-1 Miomir Kecmanovic",
+     "27",
+     "930",
+     "-",
+     "31",
+     "50",
+     "13"
+    ]
+   ]
+  }
+ ],
+ "headings": [
+  "ATP Tour",
+  "Unlock the Full Hub Experience",
+  "Header 2",
+  "Header 3",
+  "{{tournament.SponsorTitle}}",
+  "",
+  "",
+  "",
+  "{{playerData.PlayerFirstName}} {{playerData.PlayerLastName}}",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "DOWNLOAD OFFICIAL ATP WTA LIVE APP",
+  "Partners",
+  "",
+  ""
+ ],
+ "items": [
+  "{{ navigation.more.Label }} navigation links",
+  "F. Auger-Aliassime",
+  "A. Davidovich Fokina",
+  "T. Etcheverry",
+  "B. van de Zandschulp",
+  "L. Van Assche",
+  "M. Berrettini",
+  "T. Griekspoor",
+  "D. Shapovalov",
+  "M. Kecmanovic",
+  "A. Rinderknech",
+  "F. Diaz Acosta",
+  "P. Carreno Busta",
+  "C. Ugo Carabelli",
+  "R. Burruchaga",
+  "H. Medjedovic",
+  "M. Trungelliti",
+  "N. Basilashvili",
+  "Jannik Sinner",
+  "Alexander Zverev",
+  "Carlos Alcaraz",
+  "Daniil Medvedev",
+  "Flavio Cobolli",
+  "Felix Auger-Aliassime",
+  "Frances Tiafoe",
+  "Alex de Minaur",
+  "Novak Djokovic",
+  "Alejandro Davidovich Fokina",
+  "Brandon Nakashima",
+  "Francisco Cerundolo",
+  "Alexander Bublik",
+  "Andrey Rublev",
+  "Luciano Darderi",
+  "Karen Khachanov",
+  "Lorenzo Musetti",
+  "Alexander Blockx",
+  "Hubert Hurkacz",
+  "Tomas Martin Etcheverry"
+ ],
+ "text_head": "ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis | ATP Tour | Tennis ATP Tour DIGITAL INNOVATION PARTNER Sign out Log In {{ navigation.more.Label }} navigation links Experiences Experiences Shop Unlock the Full Hub Experience Sign in with your ATP Unlocked account for exclusive content, games and highlights. Sign in with ATP Unlocked Not now Close Search Search Search Header 2 Header 3 TOURNAMENT RESULTS {{tournament.SponsorTitle}} {{tournament.City}} | {{tournament.FormattedDate}} Profile Latest PLAYER RESULTS {{playerProfile.FirstName}} {{playerProfile.LastName}} Profile Latest Singles Doubles Race To Turin Doubles Race Next Gen Race No 1s Live Live Refresh All Rankings Top 100 101-200 201-300 301-400 401-500 501-600 601-700 701-800 801-900 901-1000 1001-1100 1101-1200 1201-1300 1301-1400 1401-1500 1500+ Rank Range All Countries Afghanistan Albania Algeria American Samoa Andorra Angola Antigua Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia-Herzegovina Botswana Brazil British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Islands Cayman Islands Central African Republic Chad Chile China Chinese Taipei Colombia Comoros Congo, Dem. Rep. (Zaire) Cook Islands Costa Rica Croatia Cuba Curacao Cyprus Czechia Democratic Rep. of Yemen Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Fiji Finland France Gabon Gambia Georgia Germany Ghana Great Britain Greece Grenada Guadeloupe Guam Guatemala Guinea Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Ivory Coast Jamaica Japan Jordan Kazakhstan Kenya Kiribati Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar Namibia Nepal Netherlands New Caledonia New Zealand Nicaragua Nigeria Niger Northern Mariana Islands North Korea Norway Oman Pacific Oceania Pakistan Palau Panama Papua New Guinea Paraguay People's Republic of Congo Peru Philippines Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Saint Kitts & Nevis Saint Lucia San Marino Saudi Arabia Scotland Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia"
+}

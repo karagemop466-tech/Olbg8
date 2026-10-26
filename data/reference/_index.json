@@ -1,0 +1,135 @@
+{
+ "fetched_utc": "2026-10-26T20:42:10+00:00",
+ "structured": [
+  {
+   "adapter": "nhl",
+   "ok": true
+  },
+  {
+   "adapter": "mlb",
+   "ok": true
+  },
+  {
+   "adapter": "nba",
+   "ok": true
+  },
+  {
+   "adapter": "f1",
+   "ok": true
+  }
+ ],
+ "pages": [
+  {
+   "name": "tennis_atp_rankings",
+   "status": 200,
+   "tables": 2,
+   "items": 38,
+   "error": ""
+  },
+  {
+   "name": "tennis_wta_rankings",
+   "status": 200,
+   "tables": 1,
+   "items": 63,
+   "error": ""
+  },
+  {
+   "name": "cricket_icc_odi_rankings",
+   "status": 200,
+   "tables": 0,
+   "items": 40,
+   "error": ""
+  },
+  {
+   "name": "cricket_icc_t20_rankings",
+   "status": 200,
+   "tables": 0,
+   "items": 40,
+   "error": ""
+  },
+  {
+   "name": "golf_owgr",
+   "status": 200,
+   "tables": 1,
+   "items": 0,
+   "error": ""
+  },
+  {
+   "name": "gaelic_fixtures",
+   "status": 200,
+   "tables": 0,
+   "items": 155,
+   "error": ""
+  },
+  {
+   "name": "greyhounds_gbgb",
+   "status": 200,
+   "tables": 0,
+   "items": 9,
+   "error": ""
+  },
+  {
+   "name": "darts_pdc",
+   "status": 200,
+   "tables": 0,
+   "items": 0,
+   "error": ""
+  },
+  {
+   "name": "snooker_wst",
+   "status": 200,
+   "tables": 0,
+   "items": 24,
+   "error": ""
+  },
+  {
+   "name": "snooker_org",
+   "status": 200,
+   "tables": 0,
+   "items": 57,
+   "error": ""
+  },
+  {
+   "name": "rugby_union_premiership",
+   "status": 200,
+   "tables": 0,
+   "items": 7,
+   "error": ""
+  },
+  {
+   "name": "rugby_union_urc",
+   "status": 200,
+   "tables": 1,
+   "items": 51,
+   "error": ""
+  },
+  {
+   "name": "rugby_league_rfl",
+   "status": 200,
+   "tables": 0,
+   "items": 107,
+   "error": ""
+  },
+  {
+   "name": "handball_ihf",
+   "status": 200,
+   "tables": 0,
+   "items": 45,
+   "error": ""
+  },
+  {
+   "name": "volleyball_world",
+   "status": 200,
+   "tables": 0,
+   "items": 25,
+   "error": ""
+  },
+  {
+   "name": "motor_formula1_results",
+   "status": 200,
+   "tables": 1,
+   "items": 43,
+   "error": ""
+  }
+ ]
+}
