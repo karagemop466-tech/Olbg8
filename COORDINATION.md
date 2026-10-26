@@ -153,3 +153,10 @@ Last updated: 2026-10-26 UTC
 - 2026-10-26: Opened PR [#8](https://github.com/karagemop466-tech/Olbg8/pull/8) from `arena/40c30722-olbg8`; merge and Pages deployment status will be recorded here after release.
 
 - 7fbe3ee0: PR #9 first merge attempt was rejected because PR #8 advanced main and appended the shared board. Re-integrated origin/main, preserving both coordination additions; no source-scope overlaps with evidence-lab.
+
+## Primary source-first release confirmation — `arena/40c30722-olbg8`
+
+- Final primary dashboard release completed on 2026-10-26. The primary site contains 116 in-scope OLBG rows, 15 requested sports, 17 research lines, four event-confirmed rows, four withheld prose briefs, and zero published picks.
+- PR [#8](https://github.com/karagemop466-tech/Olbg8/pull/8) merged to `main` as `14a98bd593a514849e3a22f2ae6618a46a2d2237`.
+- Site quality passed in GitHub Actions run [40398243521](https://github.com/karagemop466-tech/Olbg8/actions/runs/40398243521). The root Pages workflow [40398243470](https://github.com/karagemop466-tech/Olbg8/actions/runs/40398243470) built and deployed successfully.
+- GitHub Pages API reports `built` for the merge commit. Live URL: <https://karagemop466-tech.github.io/Olbg8/>. A cache-busted live fetch confirmed the 116-row source-first dashboard, 15 sport pages, zero published picks, and the four withheld briefs.
