@@ -1,0 +1,13 @@
+name: probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: probe network
+        run: |
+          curl -s -o /dev/null -w "olbg:%{http_code}\n" https://www.olbg.com/betting-tips/Tennis/3
+          curl -s -o /dev/null -w "nhl:%{http_code}\n" https://api-web.nhle.com/v1/schedule/2026-10-26
+          echo done
