@@ -1,7 +1,9 @@
 name: fetch-raw-sources
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - ".ci/trigger"
   schedule:
     - cron: "17 6 * * *"
 
@@ -18,55 +20,56 @@ jobs:
         run: |
           set -u
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          declare -A PAGES=(
-            [tennis]="https://www.olbg.com/betting-tips/Tennis/3"
-            [basketball]="https://www.olbg.com/betting-tips/Basketball/4"
-            [golf]="https://www.olbg.com/betting-tips/Golf/5"
-            [cricket]="https://www.olbg.com/betting-tips/Cricket/7"
-            [snooker]="https://www.olbg.com/betting-tips/Snooker/8"
-            [rugby-union]="https://www.olbg.com/betting-tips/Rugby_Union/9"
-            [rugby-league]="https://www.olbg.com/betting-tips/Rugby_League/10"
-            [baseball]="https://www.olbg.com/betting-tips/Baseball/12"
-            [ice-hockey]="https://www.olbg.com/betting-tips/Ice_Hockey/13"
-            [motor-racing]="https://www.olbg.com/betting-tips/Motor_Racing/14"
-            [darts]="https://www.olbg.com/betting-tips/Darts/15"
-            [handball]="https://www.olbg.com/betting-tips/Handball/20"
-            [volleyball]="https://www.olbg.com/betting-tips/Volleyball/21"
-            [gaelic-football]="https://www.olbg.com/betting-tips/Gaelic_Football/25"
-            [hurling]="https://www.olbg.com/betting-tips/Hurling/26"
-            [greyhounds]="https://www.olbg.com/betting-tips/Greyhounds/28"
-          )
-          mkdir -p data/raw
-          for slug in "${!PAGES[@]}"; do
-            url="${PAGES[$slug]}"
+          mkdir -p data/raw/official
+          : > data/raw/_fetch_log.txt
+          fetch_olbg() {
+            slug="$1"; url="$2"
             code=$(curl -sS -L --compressed -m 45 -A "$UA" \
               -H "Accept: text/html,application/xhtml+xml" \
               -H "Accept-Language: en-GB,en;q=0.9" \
-              -o "data/raw/$slug.html" -w "%{http_code}" "$url" || echo 000)
-            echo "$slug $code $(wc -c < data/raw/$slug.html 2>/dev/null || echo 0) $url" >> data/raw/_fetch_log.txt
-          done
+              -o "data/raw/$slug.html" -w "%{http_code}" "$url" 2>/dev/null || echo 000)
+            echo "$slug $code $(wc -c < "data/raw/$slug.html" 2>/dev/null || echo 0) $url" >> data/raw/_fetch_log.txt
+          }
+          fetch_olbg tennis "https://www.olbg.com/betting-tips/Tennis/3"
+          fetch_olbg basketball "https://www.olbg.com/betting-tips/Basketball/4"
+          fetch_olbg golf "https://www.olbg.com/betting-tips/Golf/5"
+          fetch_olbg cricket "https://www.olbg.com/betting-tips/Cricket/7"
+          fetch_olbg snooker "https://www.olbg.com/betting-tips/Snooker/8"
+          fetch_olbg rugby-union "https://www.olbg.com/betting-tips/Rugby_Union/9"
+          fetch_olbg rugby-league "https://www.olbg.com/betting-tips/Rugby_League/10"
+          fetch_olbg baseball "https://www.olbg.com/betting-tips/Baseball/12"
+          fetch_olbg ice-hockey "https://www.olbg.com/betting-tips/Ice_Hockey/13"
+          fetch_olbg motor-racing "https://www.olbg.com/betting-tips/Motor_Racing/14"
+          fetch_olbg darts "https://www.olbg.com/betting-tips/Darts/15"
+          fetch_olbg handball "https://www.olbg.com/betting-tips/Handball/20"
+          fetch_olbg volleyball "https://www.olbg.com/betting-tips/Volleyball/21"
+          fetch_olbg gaelic-football "https://www.olbg.com/betting-tips/Gaelic_Football/25"
+          fetch_olbg hurling "https://www.olbg.com/betting-tips/Hurling/26"
+          fetch_olbg greyhounds "https://www.olbg.com/betting-tips/Greyhounds/28"
           cat data/raw/_fetch_log.txt
 
       - name: Fetch official sports feeds
         run: |
           set -u
           UA="Mozilla/5.0 (compatible; olbg8-research/1.0)"
-          mkdir -p data/raw/official
-          fetch() { curl -sS -L --compressed -m 45 -A "$UA" -o "$1" -w "%{http_code}" "$2" || echo 000; }
-          for d in 2026-10-26 2026-10-27 2026-10-28 2026-10-29 2026-10-30; do
-            echo "nhl $d $(fetch data/raw/official/nhl_$d.json https://api-web.nhle.com/v1/schedule/$d)"
-            echo "mlb $d $(fetch data/raw/official/mlb_$d.json "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=$d&hydrate=probablePitcher,team,linescore")"
+          : > data/raw/official/_log.txt
+          f() { code=$(curl -sS -L --compressed -m 45 -A "$UA" -o "$1" -w "%{http_code}" "$2" 2>/dev/null || echo 000); echo "$1 $code $(wc -c < "$1" 2>/dev/null || echo 0) $2" >> data/raw/official/_log.txt; }
+          for d in 2026-10-26 2026-10-27 2026-10-28 2026-10-29 2026-10-30 2026-10-31 2026-11-01; do
+            f "data/raw/official/nhl_$d.json" "https://api-web.nhle.com/v1/schedule/$d"
+            f "data/raw/official/mlb_${d}.json" "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=${d}&hydrate=probablePitcher,team"
           done
-          echo "nba $(fetch data/raw/official/nba_scoreboard.json https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json)"
-          echo "nba_sched $(fetch data/raw/official/nba_schedule.json https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json)"
-          echo "f1 $(fetch data/raw/official/f1.json https://api.jolpi.ca/ergast/f1/2026/races/)"
-          echo "nhl_standings $(fetch data/raw/official/nhl_standings.json https://api-web.nhle.com/v1/standings/now)"
-          echo "mlb_standings $(fetch data/raw/official/mlb_standings.json "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason")"
+          f data/raw/official/nba_scoreboard.json "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+          f data/raw/official/nhl_standings.json "https://api-web.nhle.com/v1/standings/now"
+          f data/raw/official/mlb_standings.json "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason"
+          f data/raw/official/f1_races.json "https://api.jolpi.ca/ergast/f1/2026/races/"
+          cat data/raw/official/_log.txt
 
       - name: Commit raw snapshots
+        if: always()
         run: |
           git config user.name "arena-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw scripts .github || true
+          rm -rf data/raw/.gitkeep
+          git add -f data/raw data/ci-status.json || true
           git diff --cached --quiet || git commit -m "data: raw source snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push || echo "push skipped"
+          for i in 1 2 3; do git push && break || sleep 5; done
