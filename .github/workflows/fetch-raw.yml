@@ -65,6 +65,56 @@ jobs:
           f data/raw/official/atp_rankings.json "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3"
           cat data/raw/official/_log.txt
 
+      - name: Fetch OLBG all-events pages (every listed match, incl. untipped)
+        run: |
+          set -u
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          mkdir -p data/raw/all-events
+          : > data/raw/all-events/_log.txt
+          ae() { slug="$1"; url="$2"; code=$(curl -sS -L --compressed -m 45 -A "$UA" -H "Accept: text/html" -o "data/raw/all-events/$slug.html" -w "%{http_code}" "$url" 2>/dev/null || echo 000); echo "$slug $code $(wc -c < data/raw/all-events/$slug.html 2>/dev/null || echo 0) $url" >> data/raw/all-events/_log.txt; }
+          ae tennis "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3"
+          ae basketball "https://www.olbg.com/betting-tips/Basketball/All_Basketball/All_Events/4"
+          ae golf "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5"
+          ae cricket "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/7"
+          ae snooker "https://www.olbg.com/betting-tips/Snooker/All_Snooker/All_Events/8"
+          ae rugby-union "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9"
+          ae rugby-league "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10"
+          ae baseball "https://www.olbg.com/betting-tips/Baseball/All_Baseball/All_Events/12"
+          ae ice-hockey "https://www.olbg.com/betting-tips/Ice_Hockey/All_Ice_Hockey/All_Events/13"
+          ae motor-racing "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/14"
+          ae darts "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/15"
+          ae handball "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/20"
+          ae volleyball "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21"
+          ae gaelic-football "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/25"
+          ae hurling "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/26"
+          ae greyhounds "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28"
+          cat data/raw/all-events/_log.txt
+
+      - name: Probe official governing-body sources
+        run: |
+          set -u
+          UA="Mozilla/5.0 (compatible; olbg8-research/1.0)"
+          mkdir -p data/raw/probe
+          : > data/raw/probe/_log.txt
+          p() { code=$(curl -sS -L --compressed -m 40 -A "$UA" -o "data/raw/probe/$1" -w "%{http_code}" "$2" 2>/dev/null || echo 000); echo "$1 $code $(wc -c < "data/raw/probe/$1" 2>/dev/null || echo 0) $2" >> data/raw/probe/_log.txt; }
+          p nba_sched.json "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json"
+          p f1_drivers.html "https://www.formula1.com/en/results/2026/drivers"
+          p jolpi_standings.json "https://api.jolpi.ca/ergast/f1/2026/driverstandings/"
+          p pdc.html "https://www.pdc.tv/"
+          p wst.html "https://wst.tv/"
+          p gaa_fixtures.html "https://www.gaa.ie/fixtures-results/"
+          p icc.html "https://www.icc-cricket.com/"
+          p atp.html "https://www.atptour.com/en/scores/current/all"
+          p ehf.html "https://ehfcl.eurohandball.com/en/matches/"
+          p volleyballworld.html "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/schedule/"
+          p gbgb.html "https://www.gbgb.org.uk/results-and-form/"
+          p worldrugby.html "https://www.world.rugby/rankings"
+          p premiership.html "https://www.premiershiprugby.com/fixtures"
+          p pga.html "https://www.pgatour.com/leaderboard"
+          p urc.html "https://www.unitedrugby.com/fixtures"
+          p snooker_wst.html "https://www.wst.tv/matches/"
+          cat data/raw/probe/_log.txt
+
       - name: Commit raw snapshots
         if: always()
         run: |
