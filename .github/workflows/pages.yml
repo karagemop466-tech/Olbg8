@@ -1,4 +1,4 @@
-name: Validate and deploy research dashboard
+name: Validate supplementary research desk
 on:
   push:
     branches: [main, arena/352da32b-olbg8]
@@ -18,21 +18,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/build.py
+        working-directory: research-desk
       - run: python scripts/test_site.py
+        working-directory: research-desk
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
-  deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          path: research-desk/_site

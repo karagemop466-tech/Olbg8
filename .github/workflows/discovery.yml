@@ -15,8 +15,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/discover.py
+        working-directory: research-desk
       - uses: actions/upload-artifact@v4
         with:
           name: unverified-discovery
-          path: discovery-report.json
+          path: research-desk/discovery-report.json
           retention-days: 14
