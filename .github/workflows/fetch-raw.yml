@@ -90,6 +90,35 @@ jobs:
           ae greyhounds "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28"
           cat data/raw/all-events/_log.txt
 
+      - name: Fetch every listed OLBG event page (all markets + outcomes)
+        run: |
+          set -u
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          mkdir -p data/raw/events
+          : > data/raw/events/_log.txt
+          python3 - <<'PY' > /tmp/urls.txt
+          import json
+          rows = json.load(open('data/fixtures.json'))
+          seen=set()
+          for r in rows:
+              k=(r['sport'], r['event_id'])
+              if k in seen: continue
+              seen.add(k)
+              print(f"{r['sport']}|{r['event_id']}|{r['olbg_url']}")
+          PY
+          while IFS='|' read -r sport eid url; do
+            out="data/raw/events/${sport}_${eid}.html"
+            code=$(curl -sS -L --compressed -m 40 -A "$UA" -o "$out" -w "%{http_code}" "$url" 2>/dev/null || echo 000)
+            echo "$sport $eid $code $(wc -c < "$out" 2>/dev/null || echo 0) $url" >> data/raw/events/_log.txt
+          done < /tmp/urls.txt
+          tail -5 data/raw/events/_log.txt
+
+      - name: Parse markets and outcomes
+        run: |
+          if [ -f scripts/parse_events.py ]; then
+            python3 scripts/parse_events.py || echo "parser failed"
+          fi
+
       - name: Probe official governing-body sources
         run: |
           set -u
