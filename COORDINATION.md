@@ -140,3 +140,6 @@ Several sports and leagues (e.g. Gaelic Sports, Volleyball, Handball, Greyhound 
 | Integration / PR / legacy Pages confirmation | in progress | 7fbe3ee0 | COORDINATION.md, own evidence workflows |
 
 - PR https://github.com/karagemop466-tech/Olbg8/pull/9 opened from the platform-fixed branch. Root and research-desk files preserved. Before merge: 31 tests and local 21-page link checks pass; browser checks passed desktop/mobile. Waiting only for automated quality results, not manual approval.
+- GitHub Pages successfully deployed for PR #4: https://github.com/karagemop466-tech/Olbg8/actions/runs/40397819651
+
+- 7fbe3ee0 integration refresh: concurrent publication-note append caused a coordination-only conflict; retained both additions without discarding any owned files.
