@@ -1,0 +1,27 @@
+name: Validate supplementary research desk
+on:
+  push:
+    branches: [main, arena/352da32b-olbg8]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/build.py --publish
+        working-directory: research-desk
+      - run: python scripts/test_site.py
+        working-directory: research-desk
+      - run: git diff --exit-code -- research-desk
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: research-desk/_site
