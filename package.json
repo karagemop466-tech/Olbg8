@@ -1,0 +1,10 @@
+{
+  "name": "olbg8-research-desk",
+  "private": true,
+  "scripts": {
+    "build": "python3 -m scripts.build",
+    "test": "python3 -m unittest discover -s tests -v",
+    "collect": "python3 -m scripts.collect",
+    "check": "python3 -m scripts.check"
+  }
+}

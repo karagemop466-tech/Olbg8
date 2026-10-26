@@ -1,0 +1,309 @@
+[
+  {
+    "name": "Golf",
+    "slug": "golf",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Golf/5"
+    ],
+    "official_url": "https://www.pgatour.com/stats",
+    "source_scope": "PGA Tour exposes strokes gained, scoring and player statistics. LPGA schedule separately confirms Maybank, October 29–November 1. No complete event field or golfer-specific fit collected.",
+    "pricing_method": "Simulate round scores and full-field finishing order, with course and tour adjustments; apply cut, playoff and dead-heat terms.",
+    "required_inputs": "Confirmed full field; round-level strokes gained; course fit; withdrawal feed; scoring variance.",
+    "markets": [
+      "Win Tournament",
+      "First Round Leader",
+      "Top regional finisher",
+      "Each way"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Volleyball",
+    "slug": "volleyball",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Volleyball/21"
+    ],
+    "official_url": "https://en.volleyballworld.com/",
+    "source_scope": "Volleyball World exposes a global schedule and completed set scores. The OLBG club fixtures below were not matched to official competition records.",
+    "pricing_method": "Estimate rotation/serve-adjusted set probabilities, then recurse over best-of-five score states. A separate point process is needed for points totals.",
+    "required_inputs": "Official set and point results, lineups, home court, match format.",
+    "markets": [
+      "Win Match",
+      "Set handicap",
+      "Total sets",
+      "Total points"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Rugby Union",
+    "slug": "rugby-union",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Rugby_Union/9"
+    ],
+    "official_url": "https://www.world.rugby/rankings",
+    "source_scope": "Rankings page provides international rugby navigation, laws and a fixtures directory; this does not substantiate the club fixtures listed by OLBG.",
+    "pricing_method": "Fit opponent-adjusted scoring components (tries, conversions and kicks); simulate regulation margin, draw and total.",
+    "required_inputs": "Competition-specific results and squads; scoring components; venue; law version; weather.",
+    "markets": [
+      "To Win",
+      "Handicap",
+      "Match total",
+      "Win Tournament"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Cricket",
+    "slug": "cricket",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Cricket/7"
+    ],
+    "official_url": "https://www.icc-cricket.com/fixtures-results",
+    "source_scope": "ICC lists New Zealand–India, Namibia–Ireland, Pakistan–Sri Lanka and Afghanistan–Zimbabwe as upcoming. Times are labelled Your time; absolute timestamps were not established.",
+    "pricing_method": "Use a format-specific ball/innings process with wicket and scoring hazards; simulate toss, chase and rain scenarios. Tests need explicit draw probability.",
+    "required_inputs": "Ball-by-ball results, confirmed XI, venue, format, toss, weather and DLS rules.",
+    "markets": [
+      "Win Match",
+      "Innings runs",
+      "Top team batsman",
+      "Man of the match",
+      "Outright Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Snooker",
+    "slug": "snooker",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Snooker/8"
+    ],
+    "official_url": "https://www.wst.tv/matches/",
+    "source_scope": "WST retrieved text says There is no tournament taking place today. OLBG retrieved text says No tips found. Neither establishes all future market availability.",
+    "pricing_method": "Estimate opponent-adjusted frame probability and recurse to the race-to target; derive exact frame score and handicap.",
+    "required_inputs": "Official frame results, match length, draw, current season form and withdrawal notices.",
+    "markets": [
+      "Win Match",
+      "Handicap Betting",
+      "Frame Betting",
+      "Win Tournament"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Darts",
+    "slug": "darts",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Darts/15"
+    ],
+    "official_url": "https://www.pdc.tv/calendar/",
+    "source_scope": "PDC calendar retrieval was dominated by consent text and month navigation. No draw or fixture data was available in the inspected extract.",
+    "pricing_method": "Estimate throw-dependent leg probabilities; recurse over legs, sets and deciding-leg rules. Simulate a confirmed bracket for outrights.",
+    "required_inputs": "Official leg scores, averages, checkout data, first throw, format and draw.",
+    "markets": [
+      "Win Match",
+      "Leg handicap",
+      "Total legs",
+      "Win Tournament"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Baseball",
+    "slug": "baseball",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Baseball/12"
+    ],
+    "official_url": "https://www.mlb.com/schedule/2026-10-27",
+    "source_scope": "MLB lists MIL at TB on October 27, 8:00 PM ET. The OLBG extract says Tomorrow 00:00 without a timezone. Gameday extract did not expose pitchers or lineups.",
+    "pricing_method": "Fit pitcher-, bullpen-, park- and lineup-adjusted run distributions; include extra innings under the actual competition rules.",
+    "required_inputs": "Official probable pitchers, lineups, innings and run results, park factors, weather and settlement rules.",
+    "markets": [
+      "Money Line",
+      "Run Line",
+      "Game Totals",
+      "Ante-post"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Gaelic Sports",
+    "slug": "gaelic-sports",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+      "https://www.olbg.com/betting-tips/Hurling/26"
+    ],
+    "official_url": "https://www.gaa.ie/fixtures-results",
+    "source_scope": "GAA October extract shows the completed Ireland–Scotland shinty-hurling international. It does not substantiate the OLBG club fixtures or 2027 outright dates.",
+    "pricing_method": "Fit football and hurling separately. Simulate goals and points using the applicable rule era; derive draw, score margin and combined points.",
+    "required_inputs": "County/club official results, teams, goals/points components, applicable rule version, venue.",
+    "markets": [
+      "Full-Time Result",
+      "3-Way Handicap",
+      "Total Points",
+      "Outright Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Greyhounds",
+    "slug": "greyhounds",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Greyhounds/28"
+    ],
+    "official_url": "https://www.gbgb.org.uk/racing/",
+    "source_scope": "GBGB racing page exposes search controls and a results link, but no runner-level race rows in the retrieved text. OLBG includes an explicitly Expired race.",
+    "pricing_method": "Simulate correlated finishing times using track/distance-adjusted sectionals and trap effects; withdraw non-runners before normalization.",
+    "required_inputs": "Official racecard, complete traps, reserves, going, sectionals, grade and non-runners.",
+    "markets": [
+      "Daily Races",
+      "Place",
+      "Forecast",
+      "Tricast"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Tennis",
+    "slug": "tennis",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Tennis/3"
+    ],
+    "official_url": "https://www.atptour.com/en/scores/current",
+    "source_scope": "ATP scores extract contains completed and live matches, not official confirmation of the upcoming OLBG selections below. WTA coverage remains a separate adapter gap.",
+    "pricing_method": "Estimate serve/return point probabilities by surface; recurse through games, tie-breaks and sets under event-specific rules.",
+    "required_inputs": "ATP/WTA/ITF official draws, surface, serve/return results, match format, retirements and withdrawals.",
+    "markets": [
+      "Win Match",
+      "1st Set Winner",
+      "Set Betting",
+      "Total Games",
+      "Games Won",
+      "Tournament Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Motor Racing",
+    "slug": "motor-racing",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Motor_Racing/14"
+    ],
+    "official_url": "https://www.formula1.com/en/racing/2026/mexico",
+    "source_scope": "F1 confirms the Mexico weekend October 30–November 1 and a 71-lap, 4.304 km circuit. Start-time timezone is not unambiguously preserved in the extract.",
+    "pricing_method": "Simulate full-field qualifying/race pace, reliability, grid penalties and safety-car scenarios; price finish positions from the same joint ordering.",
+    "required_inputs": "Official entry list, practice/qualifying pace, penalties, reliability and weather.",
+    "markets": [
+      "Win Race",
+      "Fastest Qualifier",
+      "Podium Finish",
+      "Top 6 Finish",
+      "Points Finish",
+      "Fastest Lap",
+      "Win Tournament"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Handball",
+    "slug": "handball",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Handball/20"
+    ],
+    "official_url": "https://ehfcl.eurohandball.com/men/2026-27/",
+    "source_scope": "EHF lists the October 28–29 Champions League fixtures, including Magdeburg–Kriens, Kielce–Kolstad, Berlin–Partizan, Vardar–Melsungen and Plock–Nantes. No scoring fit or injury reports collected.",
+    "pricing_method": "Estimate possession count and attack/goalkeeper-adjusted scoring; simulate joint regulation scores with explicit draws and optional extra-time stage.",
+    "required_inputs": "Official goals/possessions, goalkeeper saves, lineups, venue and competition settlement rules.",
+    "markets": [
+      "Money Line",
+      "Handicap",
+      "Match total",
+      "Outright Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Ice Hockey",
+    "slug": "ice-hockey",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Ice_Hockey/13"
+    ],
+    "official_url": "https://www.nhl.com/schedule/2026-10-26",
+    "source_scope": "NHL confirms Kings–Rangers at 7:00 PM EDT, Leafs–Flames at 8:30 PM EDT and Wings–Oilers at 9:30 PM EDT, with six moneyline quotes. OLBG displays times seven minutes later.",
+    "pricing_method": "Fit goalie-, special-teams- and shot-quality-adjusted goal rates; separate regulation draw from overtime/shootout winner.",
+    "required_inputs": "Official shots, goals, goalie confirmation, rosters, special teams and settlement rules.",
+    "markets": [
+      "Money Line",
+      "Puck Line",
+      "Game Totals",
+      "Regulation result"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Basketball",
+    "slug": "basketball",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Basketball/4"
+    ],
+    "official_url": "https://www.nba.com/games?date=2026-10-26",
+    "source_scope": "NBA calendar indicates nine games on October 26, but the game list returns Sorry, something went wrong. Individual OLBG fixtures remain unconfirmed here.",
+    "pricing_method": "Estimate possessions and opponent-adjusted efficiency; simulate correlated scores, margin and total with an overtime process.",
+    "required_inputs": "Official play-by-play, pace, efficiency, rest, rotations, injury report and overtime terms.",
+    "markets": [
+      "Money Line",
+      "Pointspread",
+      "Game Totals",
+      "Outright Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  },
+  {
+    "name": "Rugby League",
+    "slug": "rugby-league",
+    "olbg_urls": [
+      "https://www.olbg.com/betting-tips/Rugby_League/10"
+    ],
+    "official_url": "https://www.nrl.com/draw/",
+    "source_scope": "NRL draw redirects to the 2026 World Cup round three and lists upcoming internationals. OLBG retrieved page lists only three 2027 outrights; international match coverage is unresolved.",
+    "pricing_method": "Estimate try and kick scoring rates with lineup/home adjustments; simulate regulation and competition-specific golden-point rules.",
+    "required_inputs": "Official results, squads, tries/kicks, rest, venue and draw/extra-time rules.",
+    "markets": [
+      "Win Match",
+      "Handicap",
+      "Match total",
+      "Grand Final Winner"
+    ],
+    "pricing_status": "Research only — not fitted or calibrated",
+    "checked_on": "2026-10-26",
+    "coverage": "Partial public-page observations; not an exhaustive inventory"
+  }
+]

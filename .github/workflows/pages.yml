@@ -1,0 +1,57 @@
+name: Research dashboard • checks & Pages
+on:
+  push:
+    branches: [main, arena/7fbe3ee0-olbg8]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Attempt public discovery (scheduled/main only)
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: python -m scripts.collect
+      - name: Validate math, source rows, editorial gates and Pages links
+        run: python -m unittest discover -s tests -v
+      - name: Build static dashboard
+        run: python -m scripts.build && python -m scripts.check
+      - name: Retain audit and source collection artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-audit
+          path: |
+            data/collection-status.json
+            data/collection/
+            data/audit.json
+          retention-days: 7
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
