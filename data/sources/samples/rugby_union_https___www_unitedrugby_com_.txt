@@ -1,0 +1,360 @@
+URL: https://www.unitedrugby.com/
+CTYPE: text/html; charset=UTF-8
+
+
+<!-- page display -->
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+    <title>Official website of the United Rugby Championship | United Rugby Championship</title>
+    <meta name="description" content="Follow all the URC coverage with match centre, club news and updates, videos, team and player stats, league tables and more.">
+    <meta property="og:title" content="Official website of the United Rugby Championship | United Rugby Championship">
+    <meta property="og:description" content="Follow all the URC coverage with match centre, club news and updates, videos, team and player stats, league tables and more.">
+    <meta property="og:url" content="https://www.unitedrugby.com/">
+    <meta property="og:type" content="website">
+            <meta property="og:image" content="https://www.unitedrugby.com/wp-content/uploads/2025/06/c3a11af1-6eb9-436f-914b-41e62f42daac-25.png">
+        <link rel="canonical" href="https://www.unitedrugby.com/">
+            <meta name='robots' content='max-image-preview:large' />
+<script>window.wpApiSettings=window.wpApiSettings||{};window.wpApiSettings.root=window.wpApiSettings.root||"https://www.unitedrugby.com/wp-json";window.wpApiSettings.nonce=window.wpApiSettings.nonce||"26f6f701b6";</script><script>
+        function OptanonWrapper() {
+            if (typeof window.__spConsentOnOptanonWrapper === 'function') {
+                window.__spConsentOnOptanonWrapper();
+            }
+            document.dispatchEvent(new CustomEvent('SPOptanonWrapperCalled'));
+        }
+    </script><link rel='dns-prefetch' href='//cdn-ukwest.onetrust.com' />
+<link rel='dns-prefetch' href='//sdk.mvp.fan' />
+    <script>
+        (function () {
+            if (window.__SP_CONSENT_GATE__) return;
+            window.__SP_CONSENT_GATE__ = true;
+
+            const consentCategoryMap = Object.assign({
+                analytics: ['C0002'],
+                advertising: ['C0004'],
+                // GTM may carry both analytics and ad tags; allow when either C0002 or C0004 is active.
+                gtm: ['C0002', 'C0004']
+            }, window.__SP_CONSENT_CATEGORY_MAP__ || {});
+
+            const blockedHostRules = [
+                { matcher: 'googletagmanager.com', categories: ['gtm'] },
+                { matcher: 'googletagservices.com', categories: ['advertising'] },
+                { matcher: 'doubleclick.net', categories: ['advertising'] },
+                { matcher: 'googlesyndication.com', categories: ['advertising'] },
+                { matcher: 'google-analytics.com', categories: ['analytics'] },
+                { matcher: 'analytics.google.com', categories: ['analytics'] },
+                { matcher: 'imasdk.googleapis.com', categories: ['advertising'] },
+                { matcher: 'partnerpixels', categories: ['advertising'] },
+                { matcher: 'sdk.mvp.fan', categories: ['advertising'] }
+            ];
+
+            const queuedNodes = [];
+            const gtmContainerId = (window.__SP_GTM_CONTAINER_ID__ || 'GTM-PM6PK4FK').toString().trim();
+            /** GTM must not run until OneTrust invokes OptanonWrapper (initial load or consent change). */
+            let spOptanonWrapperHasRun = false;
+
+            function debugLog(action, payload) {
+                if (!window.__SP_CONSENT_DEBUG__) return;
+                try {
+                    console.log('[SP Consent Gate]', action, payload || {});
+                } catch (e) {}
+            }
+
+            function getConsentGroups() {
+                const raw = (window.OnetrustActiveGroups || '').toString();
+                return raw.split(',').map(function (g) { return g.trim(); }).filter(Boolean);
+            }
+
+            function hasConsentForCategoryKey(categoryKey, activeGroups) {
+                const mappedGroups = consentCategoryMap[categoryKey] || [];
+                if (!mappedGroups.length) return false;
+                return mappedGroups.some(function (groupId) {
+                    return activeGroups.indexOf(groupId) !== -1;
+                });
+            }
+
+            function hasConsentForCategories(categoryKeys) {
+                const activeGroups = getConsentGroups();
+                if (!activeGroups.length) return false;
+                return categoryKeys.every(function (categoryKey) {
+                    return hasConsentForCategoryKey(categoryKey, activeGroups);
+                });
+            }
+
+            function hasConsentForAnyCategory(categoryKeys) {
+                const activeGroups = getConsentGroups();
+                if (!activeGroups.length) return false;
+                return categoryKeys.some(function (categoryKey) {
+                    return hasConsentForCategoryKey(categoryKey, activeGroups);
+                });
+            }
+
+            function normalizeUrl(value) {
+                if (!value || typeof value !== 'string') return '';
+                try {
+                    return new URL(value, window.location.origin).href;
+                } catch (e) {
+                    return value;
+                }
+            }
+
+            function getBlockedRule(url) {
+                const normalized = normalizeUrl(url).toLowerCase();
+                if (!normalized) return null;
+                return blockedHostRules.find(function (rule) {
+                    return normalized.indexOf(rule.matcher) !== -1;
+                });
+            }
+
+            function rememberNode(node, src, categories) {
+                queuedNodes.push({
+                    tag: node.tagName,
+                    src: src,
+                    categories: categories || [],
+                    type: node.type || '',
+                    async: !!node.async,
+                    defer: !!node.defer,
+                    crossOrigin: node.crossOrigin || '',
+                    referrerPolicy: node.referrerPolicy || ''
+                });
+            }
+
+            function replayQueuedNodes() {
+                if (!queuedNodes.length) return;
+                const stillBlocked = [];
+                while (queuedNodes.length) {
+                    const item = queuedNodes.shift();
+                    if (!hasConsentForCategories(item.categories)) {
+                        stillBlocked.push(item);
+                        continue;
+                    }
+
+                    const el = document.createElement(item.tag);
+                    if (item.tag === 'SCRIPT' && item.type) el.type = item.type;
+                    if (item.tag === 'SCRIPT') {
+                        el.async = item.async;
+                        el.defer = item.defer;
+                    }
+                    if (item.crossOrigin) el.crossOrigin = item.crossOrigin;
+                    if (item.referrerPolicy) el.referrerPolicy = item.referrerPolicy;
+                    el.src = item.src;
+                    (document.head || document.documentElement).appendChild(el);
+                    debugLog('replayed', { tag: item.tag, src: item.src, categories: item.categories });
+                }
+
+                if (stillBlocked.length) {
+                    stillBlocked.forEach(function (item) { queuedNodes.push(item); });
+                }
+            }
+
+            function activateConsentIframes() {
+                const iframes = document.querySelectorAll('iframe[data-sp-consent-src][data-sp-consent-category]');
+                if (!iframes.length) return;
+
+                iframes.forEach(function (iframe) {
+                    const category = (iframe.getAttribute('data-sp-consent-category') || '').trim();
+                    if (!category) return;
+                    if (!hasConsentForCategories([category])) return;
+
+                    const realSrc = iframe.getAttribute('data-sp-consent-src');
+                    if (!realSrc) return;
+                    if (iframe.getAttribute('src') === realSrc) return;
+
+                    iframe.setAttribute('src', realSrc);
+                    debugLog('iframe-activated', { src: realSrc, category: category });
+                });
+            }
+
+            function activateConsentScripts() {
+                const scripts = document.querySelectorAll('script[data-sp-consent-src][data-sp-consent-category]');
+                if (!scripts.length) return;
+
+                scripts.forEach(function (scriptEl) {
+                    const category = (scriptEl.getAttribute('data-sp-consent-category') || '').trim();
+                    if (!category) return;
+                    if (!hasConsentForCategories([category])) return;
+
+                    const realSrc = scriptEl.getAttribute('data-sp-consent-src');
+                    if (!realSrc) return;
+                    if (scriptEl.dataset.spConsentLoaded === '1') return;
+
+                    const s = document.createElement('script');
+                    s.src = realSrc;
+                    s.async = true;
+                    (document.head || document.documentElement).appendChild(s);
+                    scriptEl.dataset.spConsentLoaded = '1';
+                    debugLog('script-activated', { src: realSrc, category: category });
+                });
+            }
+
+            function loadGtmIfConsented() {
+                if (!gtmContainerId) return;
+                if (!spOptanonWrapperHasRun) return;
+                if (!hasConsentForCategories(['gtm'])) return;
+                if (window.__SP_GTM_LOADED__) return;
+                if (document.querySelector('script[src*="googletagmanager.com/gtm.js?id=' + gtmContainerId + '"]')) {
+                    window.__SP_GTM_LOADED__ = true;
+                    return;
+                }
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+
+                const gtmScript = document.createElement('script');
+                gtmScript.async = true;
+                gtmScript.src = 'https://www.googletagmanager.com/gtm.js?id=' + encodeURIComponent(gtmContainerId);
+                const head = document.head || document.documentElement;
+                // Bypass patched appendChild so gtm.js is not re-queued under legacy dual-category rules.
+                appendChildNative.call(head, gtmScript);
+                window.__SP_GTM_LOADED__ = true;
+                debugLog('gtm-loaded', { containerId: gtmContainerId, activeGroups: getConsentGroups() });
+            }
+
+            function shouldBlockNode(node) {
+                if (!node || !node.tagName) return false;
+                const tag = node.tagName.toUpperCase();
+                if (tag !== 'SCRIPT' && tag !== 'IFRAME' && tag !== 'IMG') return false;
+                const src = node.src || node.getAttribute && node.getAttribute('src') || '';
+                const rule = getBlockedRule(src);
+                if (!rule) return false;
+                return !hasConsentForCategories(rule.categories);
+            }
+
+            const appendChildNative = Element.prototype.appendChild;
+            const insertBeforeNative = Element.prototype.insertBefore;
+
+            Element.prototype.appendChild = function (node) {
+                if (shouldBlockNode(node)) {
+                    const src = node.src || node.getAttribute('src') || '';
+                    const rule = getBlockedRule(src);
+                    const categories = rule ? rule.categories : [];
+                    rememberNode(node, src, categories);
+                    debugLog('blocked', { method: 'appendChild', tag: node.tagName, src: src, categories: categories });
+                    return node;
+                }
+                return appendChildNative.call(this, node);
+            };
+
+            Element.prototype.insertBefore = function (newNode, referenceNode) {
+                if (shouldBlockNode(newNode)) {
+                    const src = newNode.src || newNode.getAttribute('src') || '';
+                    const rule = getBlockedRule(src);
+                    const categories = rule ? rule.categories : [];
+                    rememberNode(newNode, src, categories);
+                    debugLog('blocked', { method: 'insertBefore', tag: newNode.tagName, src: src, categories: categories });
+                    return newNode;
+                }
+                return insertBeforeNative.call(this, newNode, referenceNode);
+            };
+
+            document.addEventListener('OneTrustGroupsUpdated', function () {
+                debugLog('consent-updated', { activeGroups: getConsentGroups() });
+                replayQueuedNodes();
+                activateConsentIframes();
+                activateConsentScripts();
+                loadGtmIfConsented();
+            });
+
+            window.addEventListener('load', function () {
+                debugLog('page-load', { activeGroups: getConsentGroups() });
+                replayQueuedNodes();
+                activateConsentIframes();
+                activateConsentScripts();
+                // Do not load GTM here: OneTrust must run OptanonWrapper / fire OneTrustGroupsUpdated first
+                // so consent reflects banner interaction and saved preferences.
+            });
+
+            document.addEventListener('SPOptanonWrapperCalled', function () {
+                debugLog('optanon-wrapper-called', { activeGroups: getConsentGroups() });
+                replayQueuedNodes();
+                activateConsentIframes();
+                activateConsentScripts();
+                loadGtmIfConsented();
+            });
+
+            window.__spConsentOnOptanonWrapper = function () {
+                spOptanonWrapperHasRun = true;
+                replayQueuedNodes();
+                activateConsentIframes();
+                activateConsentScripts();
+                loadGtmIfConsented();
+            };
+
+            debugLog('initialized', { categoryMap: consentCategoryMap });
+        })();
+    </script>
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.unitedrugby.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.unitedrugby.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.unitedrugby.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.unitedrugby.com%2F&#038;format=xml" />
+<!-- No poll ID found -->
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel="stylesheet"href="https://www.unitedrugby.com/wp-content/themes/sp-starter-theme/public/loyalty-b12877f3.css" media="screen">
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.unitedrugby.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<link rel="stylesheet"href="https://www.unitedrugby.com/wp-content/themes/sp-starter-theme/public/app-eef98476.css?ver=6.9.10" media="screen">
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" charset="UTF-8" data-domain-script="df6c17dc-2525-47db-a584-277beb1da79f-test"></script><script id="auth-js-extra">
+var urcAuth0 = {"domain":"identity.unitedrugby.com","clientId":"nyWW0S3Rot4AVIsZZzXM8841XNyy74Ey","audience":"https://api.urc.anything-loyalty.3halves-labs.com","homeUrl":"https://www.unitedrugby.com/","callbackUrl":"https://www.unitedrugby.com/auth/callback","loginUrl":"https://www.unitedrugby.com/auth/login","logoutUrl":"https://www.unitedrugby.com/auth/logout","cacheLocation":"memory","useRefreshTokens":""};
+//# sourceURL=auth-js-extra
+</script>
+<script type="module" src="https://www.unitedrugby.com/wp-content/themes/sp-starter-theme/public/auth-6a15baf1.js"></script><script data-sp-consent-src="https://sdk.mvp.fan/web-sdk/0.3.13/index.js" data-sp-consent-category="advertising"></script><link rel="canonical" href="https://www.unitedrugby.com/" />
+<link rel='shortlink' href='https://www.unitedrugby.com/' />
+
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4ML4ED32YE"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4ML4ED32YE');
+</script>
+
+<meta name="apple-itunes-app" content="app-id=1436694463"><link rel="icon" href="https://www.unitedrugby.com/wp-content/uploads/2025/09/cropped-site-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.unitedrugby.com/wp-content/uploads/2025/09/cropped-site-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.unitedrugby.com/wp-content/uploads/2025/09/cropped-site-icon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.unitedrugby.com/wp-content/uploads/2025/09/cropped-site-icon-1-270x270.png" />
+		<style id="wp-custom-css">
+			/* .page-id-39292{
+    background-color: rgb(20, 40, 55);
+    background-image: linear-gradient(rgba(20, 40, 55, 0.6), rgba(20, 40, 55, 0.6)), url(https://www.unitedrugby.com/wp-content/uploads/2026/05/playoff-brackets-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+	background-attachment: fixed;} */
+
+.page-id-39292 {
+    position: relative;
+    background-color: rgb(20, 40, 55);
+    overflow-x: hidden;
+}
+
+.page-id-39292::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    background-image:
+        linear-gradient(
+            rgba(20, 40, 55, 0.6),
+            rgba(20, 40, 55, 0.6)
+        ),
+        url('https://www.unitedrugby.com/wp-content/uploads/2026/05/playoff-brackets-background.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}		</style>
+		<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--inherit: inherit;--wp--preset--color--current: currentcolor;--wp--preset--color--transparent: transparent;--wp--preset--color--slate-50: #f8fafc;--wp--preset--color--slate-100: #f1f5f9;--wp--preset--color--slate-200: #e2e8f0;--wp--preset--color--slate-300: #cbd5e1;--wp--preset--color--slate-400: #94a3b8;--wp--preset--color--slate-500: #64748b;--wp--preset--color--slate-600: #475569;--wp--preset--color--slate-700: #334155;--wp--preset--color--slate-800: #1e293b;--wp--preset--color--slate-900: #0f172a;--wp--preset--color--slate-950: #020617;--wp--preset--color--gray-50: #f9fafb;--wp--preset--color--gray-100: #f3f4f6;--wp--preset--color--gray-200: #e5e7eb;--wp--preset--color--gra

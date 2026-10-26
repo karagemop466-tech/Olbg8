@@ -1,0 +1,120 @@
+URL: https://www.gbgb.org.uk/results
+CTYPE: text/html; charset=UTF-8
+
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <title>
+                    Results | Greyhound Board of Great Britain
+            </title>
+
+        <meta content="320" name="MobileOptimized">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <meta content="#00695C" name="msapplication-TileColor">
+    <meta content="#00695C" name="theme-color">
+    <meta name="description" content="GBGB">
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140657442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140657442-1',{ 'anonymize_ip': true });
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '484530894320615');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=484530894320615&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
+    <link rel="pingback" href="https://www.gbgb.org.uk/xmlrpc.php"/>
+
+    
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/gbgb-prod-assets/wp-content/uploads/2019/06/12075127/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-1-1.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Results | Greyhound Board of Great Britain" />
+<meta property="og:url" content="https://www.gbgb.org.uk/racing/results/" />
+<meta property="og:site_name" content="Greyhound Board of Great Britain" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Results | Greyhound Board of Great Britain" />
+<meta name="twitter:image" content="https://s3-eu-west-1.amazonaws.com/gbgb-prod-assets/wp-content/uploads/2019/06/12075127/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-1-1.png" />
+<link rel="canonical" href="https://www.gbgb.org.uk/racing/results/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.gbgb.org.uk/","name":"Greyhound Board of Great Britain"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.gbgb.org.uk/racing/","name":"Racing"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.gbgb.org.uk/racing/results/","name":"Results"}}]}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 9.53ms meta | 0.14ms boot -->
+
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Greyhound Board of Great Britain &raquo; Feed" href="https://www.gbgb.org.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Greyhound Board of Great Britain &raquo; Comments Feed" href="https://www.gbgb.org.uk/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.gbgb.org.uk/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.gbgb.org.uk/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css'  href='https://www.gbgb.org.uk/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='https://www.gbgb.org.uk/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css' type='text/css' media='all' />
+<link rel='stylesheet' id='base-camp-styles-css'  href='https://www.gbgb.org.uk/wp-content/themes/base-camp/static/css/app.eb50b8b4436aad272778.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gbgb-adobe-fonts-css'  href='https://use.typekit.net/trj3ncr.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gbgb-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A300%2C400%2C600' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.gbgb.org.uk/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.gbgb.org.uk/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"1","button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/www.gbgb.org.uk\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.gbgb.org.uk/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js' id='cookie-law-info-js'></script>
+<link rel="https://api.w.org/" href="https://www.gbgb.org.uk/wp-json/" /><link rel="alternate" type="application/json" href="https://www.gbgb.org.uk/wp-json/wp/v2/pages/315" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.gbgb.org.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.gbgb.org.uk/wp-includes/wlwmanifest.xml" /> 
+<link rel="alternate" type="application/json+oembed" href="https://www.gbgb.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gbgb.org.uk%2Fracing%2Fresults%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.gbgb.org.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gbgb.org.uk%2Fracing%2Fresults%2F&#038;format=xml" />
+			<script type="text/javascript">
+				var cli_flush_cache = true;
+			</script>
+<link rel="icon" href="https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/06/12074543/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/06/12074543/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/06/12074543/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-180x180.png" />
+<meta name="msapplication-TileImage" content="https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/06/12074543/cropped-9f3336dc-08c8-4897-ae3e-05d4a6764d7b-270x270.png" />
+
+
+        <script>
+        window.__GBGB_GLOBAL__ = {
+            "loggedIn": false,
+            "myDogs": [],
+            "googleMapsApiKey": "AIzaSyAIZbBrF69hUBJsQRwwDsVIz9wwHMUDVmQ",
+            "googleMapsApiIsLoading": false,
+            "mobileMenu": {"https:\/\/www.gbgb.org.uk\/about\/":{"link":"https:\/\/www.gbgb.org.uk\/about\/","title":"About","shortTitle":"About","hasChildren":true,"current":false},"https:\/\/www.gbgb.org.uk\/racing\/":{"link":"https:\/\/www.gbgb.org.uk\/racing\/","title":"Racing","shortTitle":"Racing","hasChildren":true,"current":true},"https:\/\/www.gbgb.org.uk\/welfare-care\/":{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/","title":"Welfare & Care","shortTitle":"Welfare","hasChildren":true,"current":false},"https:\/\/www.gbgb.org.uk\/rules-regulation\/":{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/","title":"Rules & Regulation","shortTitle":"Rules","hasChildren":true,"current":false},"https:\/\/www.gbgb.org.uk\/become-an-owner\/":{"link":"https:\/\/www.gbgb.org.uk\/become-an-owner\/","title":"Ownership","shortTitle":"Ownership","hasChildren":true,"current":false},"https:\/\/www.gbgb.org.uk\/grs-payments\/":{"link":"https:\/\/www.gbgb.org.uk\/grs-payments\/","title":"Payments","shortTitle":"Payments","hasChildren":false,"current":false}},
+            "mobileMenuSubsections": {"https:\/\/www.gbgb.org.uk\/about\/":[{"link":"https:\/\/www.gbgb.org.uk\/about\/","title":"About home","shortTitle":"About","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-home%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/about-us\/","title":"About Us","shortTitle":"About","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181337\/icn-about%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/latest-news\/","title":"Latest News","shortTitle":"Latest","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181041\/icn-news%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/100-years-on-track\/","title":"100 Years on Track","shortTitle":"100","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2026\/01\/20133007\/Designer1-e1768915863196.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/publications\/","title":"Publications","shortTitle":"Publications","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181221\/icn-publications%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/the-greyhound-commitment\/","title":"Greyhound Commitment","shortTitle":"Greyhound","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181313\/icn-commitment%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/careers\/","title":"Careers","shortTitle":"Careers","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181319\/icn-careers%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/about\/contact\/","title":"Contact Us","shortTitle":"Contact","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181309\/icn-contact%402x.png","current":false}],"https:\/\/www.gbgb.org.uk\/racing\/":[{"link":"https:\/\/www.gbgb.org.uk\/racing\/","title":"Racing home","shortTitle":"Racing","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-home%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/results\/","title":"Results","shortTitle":"Results","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181123\/icn-results%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/open-races\/","title":"Open Races","shortTitle":"Open","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181237\/icn-list%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/race-courses\/","title":"Racecourses","shortTitle":"Racecourses","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181438\/icn-track%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/get-involved\/","title":"Get Involved","shortTitle":"Get","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181825\/3%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/racing-legends\/","title":"Racing Legends","shortTitle":"Racing","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181135\/icn-trophy%402x.png","current":true},{"link":"https:\/\/www.gbgb.org.uk\/racing\/our-people\/","title":"Our People","shortTitle":"Our","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181303\/icn-fan%402x.png","current":true}],"https:\/\/www.gbgb.org.uk\/welfare-care\/":[{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/","title":"Welfare & Care home","shortTitle":"Welfare","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-home%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/agoodlifeforeverygreyhound\/","title":"A Good Life for Every Greyhound","shortTitle":"A","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181039\/icn-care%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/investing-in-welfare\/","title":"Investing in Welfare","shortTitle":"Investing","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181035\/icn-welfare%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/greyhoundretirement\/","title":"Greyhound Retirement","shortTitle":"Greyhound","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181040\/rehoming%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/research\/","title":"Research & Education","shortTitle":"Research","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181036\/icn-research%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/welfare-care\/injury-and-retirement-data\/","title":"Injury & Retirement Data","shortTitle":"Injury","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181037\/icn-plaster%402x.png","current":false}],"https:\/\/www.gbgb.org.uk\/rules-regulation\/":[{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/","title":"Rules & Regulation home","shortTitle":"Rules","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-home%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/rules-of-racing\/","title":"Rules of Racing","shortTitle":"Rules","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181035\/icn-rules%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/matings-and-litter-service\/","title":"Matings and Litter Service","shortTitle":"Matings","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2026\/06\/24110840\/admin-ajax-e1782299336146.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/licensing\/","title":"Licensing","shortTitle":"Licensing","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-license%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/integrity-compliance\/","title":"Integrity & Compliance","shortTitle":"Integrity","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181039\/icn-balance%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/rules-regulation\/policies-procedures\/","title":"Policies & Procedures","shortTitle":"Policies","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181036\/icn-policies%402x.png","current":false}],"https:\/\/www.gbgb.org.uk\/become-an-owner\/":[{"link":"https:\/\/www.gbgb.org.uk\/become-an-owner\/","title":"Ownership home","shortTitle":"Ownership","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/05\/02181038\/icn-home%402x.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/become-an-owner\/","title":"Become an Owner","shortTitle":"Become","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2023\/02\/24135302\/tinywow_icn_owner_5479472-1.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/resources\/","title":"Resources","shortTitle":"Resources","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2023\/02\/24135302\/tinywow_icn_resource_5479491.png","current":false},{"link":"https:\/\/www.gbgb.org.uk\/faqs\/","title":"FAQs","shortTitle":"FAQs","image":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2023\/02\/24135301\/tinywow_icn_faqs_5479452.png","current":false}]},
+            "resultsApiUrl": "https://api.gbgb.org.uk/api/",
+            "trapBadges": {"trapBadge1":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075658\/icn-1%402x.png","trapBadge2":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075659\/icn-2%402x.png","trapBadge3":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075659\/icn-3%402x.png","trapBadge4":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075700\/icn-4%402x.png","trapBadge5":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075700\/icn-5%402x.png","trapBadge6":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075701\/icn-6%402x.png","trapBadge7":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075701\/icn-7%403x.png","trapBadge8":"https:\/\/gbgb-prod-assets.s3.eu-west-1.amazonaws.com\/wp-content\/uploads\/2019\/03\/20075658\/icn-8%402x.png"},
+            "trackNamesFilters": [{"replace":"Hove","with":"Brighton & Hove"},{"replace":"Monmore","with":"Monmore Green"}],
+            "mobileMenuCurrentSubsection": "https:\/\/www.gbgb.org.uk\/racing\/",
+            "ajaxUrl": "https://www.gbgb.org.uk/wp-admin/admin-ajax.php",
+            "publicPath": "https://www.gbgb.org.uk/wp-content/themes/base-camp

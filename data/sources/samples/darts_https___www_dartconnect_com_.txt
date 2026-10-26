@@ -1,0 +1,147 @@
+URL: https://www.dartconnect.com/
+CTYPE: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang="en-US" class="html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky html_header_shrinking_disabled html_header_topbar_active html_mobile_menu_tablet html_header_searchicon_disabled html_content_align_center html_header_unstick_top_disabled html_header_stretch html_minimal_header html_minimal_header_shadow html_elegant-blog html_modern-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_206 av-cookies-consent-show-message-bar av-cookies-cookie-consent-enabled av-cookies-can-opt-out av-cookies-user-silent-accept avia-cookie-check-browser-settings av-no-preview html_text_menu_active ">
+<head>
+<script src="https://cdn.usefathom.com/script.js" data-site="PTXJKMJH" defer></script>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5RV476');</script>
+<!-- End Google Tag Manager -->
+<meta name="google-adsense-account" content="ca-pub-1440413832071294">
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.min.js" ></script>
+<script type="application/javascript" src="https://www.dartconnect.com/wp-content/themes/enfold-child/js/dart-counter.js"></script>
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+<title>DartConnect &#8211; Perfect Your Game!</title>
+<meta name='robots' content='max-image-preview:large' />
+
+				<script type='text/javascript'>
+
+				function avia_cookie_check_sessionStorage()
+				{
+					//	FF throws error when all cookies blocked !!
+					var sessionBlocked = false;
+					try
+					{
+						var test = sessionStorage.getItem( 'aviaCookieRefused' ) != null;
+					}
+					catch(e)
+					{
+						sessionBlocked = true;
+					}
+					
+					var aviaCookieRefused = ! sessionBlocked ? sessionStorage.getItem( 'aviaCookieRefused' ) : null;
+					
+					var html = document.getElementsByTagName('html')[0];
+
+					/**
+					 * Set a class to avoid calls to sessionStorage
+					 */
+					if( sessionBlocked || aviaCookieRefused )
+					{
+						if( html.className.indexOf('av-cookies-session-refused') < 0 )
+						{
+							html.className += ' av-cookies-session-refused';
+						}
+					}
+					
+					if( sessionBlocked || aviaCookieRefused || document.cookie.match(/aviaCookieConsent/) )
+					{
+						if( html.className.indexOf('av-cookies-user-silent-accept') >= 0 )
+						{
+							 html.className = html.className.replace(/\bav-cookies-user-silent-accept\b/g, '');
+						}
+					}
+				}
+
+				avia_cookie_check_sessionStorage();
+
+			</script>
+			<link rel='dns-prefetch' href='//fonts.bunny.net' />
+<link rel="alternate" type="application/rss+xml" title="DartConnect &raquo; Feed" href="https://www.dartconnect.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DartConnect &raquo; Comments Feed" href="https://www.dartconnect.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.dartconnect.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dartconnect.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.dartconnect.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dartconnect.com%2F&#038;format=xml" />
+<style type="text/css" media="all">
+.wpautoterms-footer{background-color:#ffffff;text-align:center;}
+.wpautoterms-footer a{color:#000000;font-family:Arial, sans-serif;font-size:14px;}
+.wpautoterms-footer .separator{color:#cccccc;font-family:Arial, sans-serif;font-size:14px;}</style>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='sgr-css' href='https://www.dartconnect.com/wp-content/plugins/simple-google-recaptcha/sgr.css?ver=1750867519' media='all' />
+<link rel='stylesheet' id='avia-grid-css' href='https://www.dartconnect.com/wp-content/themes/enfold/css/grid.css?ver=4.8.6.5' media='all' />
+<link rel='stylesheet' id='avia-base-css' href='https://www.dartconnect.com/wp-content/themes/enfold/css/base.css?ver=4.8.6.5' media='all' />
+<link rel='stylesheet' id='avia-layout-css' href='https://www.dartconnect.com/wp-content/themes/enfold/css/layout.css?ver=4.8.6.5' media='all' />
+<link rel='stylesheet' id='avia-module-audioplayer-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/audio-player/audio-player.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-blog-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-postslider-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-button-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-buttonrow-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttonrow/buttonrow.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-button-fullwidth-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons_fullwidth/buttons_fullwidth.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-catalogue-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/catalogue/catalogue.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-comments-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-contact-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contact/contact.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-contentpartner-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contentslider/contentslider.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-countdown-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/countdown/countdown.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-hor-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery_horizontal/gallery_horizontal.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-maps-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/google_maps/google_maps.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-gridrow-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-heading-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-rotator-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-hr-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-icon-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-iconbox-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-icongrid-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icongrid/icongrid.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-iconlist-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconlist/iconlist.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-image-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-hotspot-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-magazine-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/magazine/magazine.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-masonry-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-siteloader-css' href='https://www.dartconnect.com/wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-menu-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-notification-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/notification/notification.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-numbers-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-portfolio-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/portfolio/portfolio.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-post-metadata-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/post_metadata/post_metadata.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-progress-bar-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/progressbar/progressbar.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-promobox-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/promobox/promobox.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-sc-search-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/search/search.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-accordion-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-feature-image-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_feature_image/slideshow_feature_image.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullsize-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullsize/slideshow_fullsize.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullscreen-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-ls-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_layerslider/slideshow_layerslider.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-social-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-tabsection-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tab_section/tab_section.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-table-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-tabs-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-team-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-testimonials-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-timeline-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/timeline/timeline.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-toggles-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='avia-module-video-css' href='https://www.dartconnect.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.dartconnect.com/wp-includes/css/dashicons.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='menu-icon-font-awesome-css' href='https://www.dartconnect.com/wp-content/plugins/menu-icons/css/fontawesome/css/all.min.css?ver=5.15.4' media='all' />
+<link rel='stylesheet' id='menu-icons-extra-css' href='https://www.dartconnect.com/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.13.23' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc

@@ -1,0 +1,558 @@
+URL: https://www.rugby-league.com/
+CTYPE: text/html; charset=UTF-8
+
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+
+	<script id="Cookiebot" src=https://consent.cookiebot.com/uc.js data-cbid="b9f16f6b-bb3e-48db-8a27-2843e20040ef" data-blockingmode="auto" type="text/javascript"></script>
+
+	<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Home of Rugby League</title>
+<meta name="keywords" content="" />
+<meta name="description" content="The Rugby Football League is the governing body for rugby league in England and operates all tiers of the game from the elite level to grass roots." />
+
+<script>window.page_loading_colour = '';</script>
+		<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "The Rugby Football League Ltd",
+    "alternateName": "RFL",
+    "legalName": "The Rugby Football League Ltd",
+    "description": "The Rugby Football League is the governing body for rugby league in England. Originally founded in 1895 as the Northern Rugby Football Union. Today the Rugby Football League is located in Manchester and operates all tiers of rugby league from the elite level to grass roots.",
+    "logo": "https://www.rugby-league.com/themes/rugbyleague/img/rfl_badge.svg",
+    "url": "https://www.rugby-league.com",
+    "sameAs": [
+        "https://www.facebook.com/rugbyfootballleague",
+        "https://twitter.com/TheRFL",
+        "https://www.linkedin.com/company/rugby-football-league",
+        "http://www.youtube.com/ukrugbyleague",
+        "https://www.tiktok.com/@rugbyfootballleague"
+    ],
+    "email": "enquiries@rfl.co.uk",
+    "foundingDate": "1999-09-21",
+    "iso6523Code": "0060:525339065",
+    "vatID": "GB698652664",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Manchester",
+        "addressRegion": "Greater Manchester",
+        "postalCode": "M11 3FF",
+        "streetAddress": "Gate 13, Rowsley Street, Etihad Campus",
+        "addressCountry": "GB"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "enquiries@rfl.co.uk"
+    }}
+
+</script>
+	<link rel="icon" type="image/x-icon" href="/themes/rugbyleague/img/favicon.gif">
+	<link rel="stylesheet" href="/themes/rugbyleague/css/googlefonts.css">
+	<link rel="stylesheet" href="/themes/rugbyleague/css/bootstrap.4.3.1.custom.css">
+	<link rel="stylesheet" href="/themes/rugbyleague/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="/frontend/_css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="/frontend/_css/frontend.css">
+	<link rel="stylesheet" href="/frontend/_css/addons.css">
+	<link rel="stylesheet" href="/themes/rugbyleague/css/rfl.css?v=2.8">
+	<!-- <link rel="stylesheet" href="/themes/rugbyleague/css/ourleague.css?v=1.2"> -->
+
+
+
+	<script src="/themes/rugbyleague/js/modernizr.js"></script> <!-- Modernizr -->
+
+	
+	<!-- GTM Fluid 6/11/2020 -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-NF6JZD2');
+	</script>
+	<!-- End GTM -->
+
+	<script>
+		/*
+	Document ready function to allow the use of jquery in Twig templates.
+	*/
+		function docReady(fn) {
+			// see if DOM is already available
+			if (document.readyState === "complete" || document.readyState === "interactive") {
+				// call on next available tick
+				setTimeout(fn, 1);
+			} else {
+				document.addEventListener("DOMContentLoaded", fn);
+			}
+		}
+	</script>
+
+	<!-- Meta Pixel Code (Added by Fluid on request Seven League 2nd March 2023) -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '766420291519962');
+			fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=766420291519962&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
+
+
+
+	<title>Rugby League</title>
+</head>
+
+<body class="nav-is-fixed ">
+
+	<!-- <div id="preloader-wrapper">
+		<div class="spinner-layer loader"></div>
+	</div> -->
+
+
+	<!-- GTM Fluid 6/11/2020 (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF6JZD2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End GTM (noscript) -->
+
+
+
+	<header class="cd-main-header">
+		<a class="cd-logo" title="Home" href="/"><img src="/themes/rugbyleague/img/rfl_badge_white.svg" alt="Logo"></a>
+		<h3 class="logo-title d-none d-sm-inline-block"><a title="Home" href="/">Rugby-League.com</a></h3>
+
+		<ul class="cd-header-buttons">
+			<!-- <li class="toplinks rlwc"><a style="padding-top:0px !important" target="_blank" title="Rugby League World Cup" href="https://www.rlwc2021.com"><img width="140" src="/themes/rugbyleague/img/logo-rlwc2021.svg" /></i></a></li> -->
+			<li class="toplinks matches"><a href="/match-centre">
+					<!-- <i class="fal fa-whistle d-block"></i> --><img class="mx-auto" style="width:16px" src="/themes/rugbyleague/_img/ball-icon.svg"><span>Matches</span>
+				</a></li>
+			<li class="toplinks tickets"><a href="/tickets"><i class="fal fa-ticket d-block"></i><span>Tickets</span></a></li>
+			<li class="toplinks search-link"><a class="search-href"><i class="fal fa-search d-block"></i><span>Search</span></a></li>
+
+			<li class="ourleague">
+				<a class="nav-link" href="?intsso" id="userDropdownMenuLink" >
+
+											<i class="fal fa-user-circle profile-icon off"></i>
+					
+					<!-- <img class="d-none d-md-inline-block ol-logo" src="/themes/rugbyleague/img/our_league_logo_white.svg" /> -->
+					<img class="d-none d-md-inline-block ol-logo" src="/themes/rugbyleague/img/rl1-icon-neg.svg" />
+				</a>
+				<div class="dropdown-menu d-none">
+	
+						<!-- <a class="dropdown-item text-dark disabled">Dashboard</a> -->
+
+					<a class="dropdown-item text-dark" target="_blank" href="https://auth.rugby-league.com"><i class="fal fa-th-large mr-2"></i>Dashboard</a>
+					<a class="dropdown-item text-dark" target="_blank" href="https://fantasy.superleague.co.uk"><i class="fal fa-star mr-2"></i>Fantasy SL</a>
+					<a class="dropdown-item text-dark" target="_blank" href="https://predictor.rugby-league.com"><i class="fal fa-check-circle mr-2"></i>Predictor</a>
+					<a class="dropdown-item text-dark" target="_blank" href="https://auth.rugby-league.com/user/profile"><i class="fal fa-cog mr-2"></i>Settings</a>
+					<a class="dropdown-item text-dark" href="/get-involved/coach/coaching-courses-overview/my-coaching-courses"><i class="fal fa-chalkboard-teacher mr-2"></i>Courses</a>
+					<a class="dropdown-item text-dark" href="?logout"><i class="fal fa-sign-out-alt mr-2"></i>Log Out</a>
+				</div>
+			<li class="menu"><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+		</ul> <!-- cd-header-buttons -->
+	</header>
+
+	<main class="cd-main-content">
+		<!-- Page Content -->
+		<div id="" class="container-fluid pt-0 pt-md-0 pt-lg-0 pb-0 pb-md-0 pb-lg-0 mt-0 mt-md-0 mt-lg-0 mb-0 mb-md-0 mb-lg-0 padx-0 ign-row-content-dark ign-background-stardard" style="background-color:#fff;background-size:100%;background-blend-mode:normal"><div class="row loadInPosition">
+<div  class="container-fluid   ign-content pt-0 pt-md-0 pt-lg-0 pb-0 pb-md-0 pb-lg-0 mt-0 mt-md-0 mt-lg-0 mb-0 mb-md-0 mb-lg-0" style="background-color:"><div class="row ign-content-row">
+
+<div data-template="" class="  home-feature ">
+
+
+ <div class="row">
+
+		<div class="col-12">
+
+
+			<div class="cover"></div>
+			<img class="feature-image lozad" src="https://d39rs7grvg2c8a.cloudfront.net/images/223682.jpg"  data-error="https://d39rs7grvg2c8a.cloudfront.net/images/no-image.jpg" />
+
+			<div class="panel">
+				<div class="hold">
+					<p><a href="/news?tag=England RL" class="tag">England RL</a></p>
+					<a class="article d-block" href="https://www.rugby-league.com/article/65268/england-men-storm-to-victory-against-france">
+						<h1 class="pt-2 pb-2 pb-lg-3 pb-xl-5">England Men storm to victory against France</h1>
+						<p>Read the Match Report as England beat France in their Rugby League World Cup fixture... <i class="fal fa-long-arrow-right"></i></p>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="matches match-centre  ">
+
+<div class="row match-center-svg">
+	<div class="bg">
+		<?xml
+version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="3000" height="400" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1800 400" style="enable-background:new 0 0 1800 400;" xml:space="preserve">
+	<style type="text/css">
+		.st1 {
+			fill: #00243f;
+			/*fill:#ff0;*/
+		}
+
+		.grad {
+			fill: url('#SVGID_1_');
+			animation-delay: 1s;
+			animation-duration: 0.5s;
+			animation-name: rect;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			height: 600px
+		}
+		.poly {
+			left: 0;
+			position: absolute;
+			animation-delay: 1s;
+			animation-duration: 0.4s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		.poly1 {
+			animation-name: poly1;
+		}
+		.poly2 {
+			animation-name: poly2;
+		}
+		.poly3 {
+			animation-name: poly3;
+		}
+		.poly4 {
+			animation-name: poly4;
+		}
+		.poly5 {
+			animation-name: poly5;
+		}
+		.poly6 {
+			animation-name: poly6;
+		}
+		@keyframes rect {
+			from {
+				height: 0;
+			}
+			to {
+				height: 200px;
+			}
+		}
+		@keyframes poly1 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(100px, 0);
+			}
+		}
+		@keyframes poly2 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(250px, 0);
+			}
+		}
+		@keyframes poly3 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(400px, 0);
+			}
+		}
+		@keyframes poly4 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(550px, 0);
+			}
+		}
+		@keyframes poly5 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(700px, 0);
+			}
+		}
+		@keyframes poly6 {
+			from {
+				transform: translate(0, 0);
+			}
+			to {
+				transform: translate(850px, 0);
+			}
+		}
+	</style>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="899.9051" y1="400" x2="899.9051" y2="203.0901">
+		<stop offset="5.078125e-04" style="stop-color:#1C5894;stop-opacity:0"/>
+		<stop offset="1" style="stop-color:#1C5894"/>
+	</linearGradient>
+		<polygon class="grad" points="0,0 109,400 783,150 686,150"/>
+	<g style="position:absolute;left:500px">
+		<polygon class="st1 poly poly1" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+		<polygon class="st1 poly poly2" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+		<polygon class="st1 poly poly3" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+		<polygon class="st1 poly poly4" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+		<polygon class="st1 poly poly5" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+		<polygon class="st1 poly poly6" points="-11.3,400 -107.9,400 -783.1,-150.9 -686.5,-150.9"/>
+				</g>
+</svg>
+
+	</div>
+</div>
+
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-holder livescores-type-">
+
+
+
+
+
+
+							<h2>LIVE TODAY...</h2>
+
+																																																	
+
+
+
+
+							
+			 			</div>
+			 		</div>
+			 	</div>
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="" class="container-fluid pt-2 pt-md-3 pt-lg-5 pb-2 pb-md-3 pb-lg-5 mt-0 mt-md-0 mt-lg-0 mb-0 mb-md-0 mb-lg-0 ign-row-content-dark ign-background-stardard" style="background-size:100%;background-blend-mode:normal"><div class="row loadInPosition">
+<div  class="container   ign-content pt-0 pt-md-0 pt-lg-0 pb-0 pb-md-0 pb-lg-0 mt-0 mt-md-0 mt-lg-0 mb-0 mb-md-0 mb-lg-0" style="background-color:"><div class="row ign-content-row">
+
+<div class="container-fluid news-grid-quad-lead " data-params='{"news-qty":"13","news-tags":"","news-groups":"","pluginPath":"\/var\/www\/rugbyleague_live\/public_html\/ignite\/local\/plugins\/news\/","news-template":"grid-quad-lead.twig","display-image":"yes","display-title":"yes","display-teaser":"yes","news-type":["article","youtube","stream"],"text-align":"text-center"}'>
+	<div class="row">
+
+		<div class="col-12 big-section-header pb-4 pt-4">
+			<div class="row align-items-center">
+				<div class="col" style="max-width:180px"><h2 class="d-inline-block">LATEST</h2></div>
+				<div class="col text-right text-md-left"><a href="/news">more news <i class="fal fa-long-arrow-right"></i></a></div>
+			</div>
+		</div>
+
+		
+
+			
+												
+																							
+				<div class="col-12 news-holder my-1 my-md-2 first-article">
+					<a ign-news-data-id="65271" data-media-type="youtube" data-media-value="https://youtu.be/0Td60fhIr_Y?si=OBcmEWoNDBNlt8X1" class="ign-media-link" href="/article/65271/highlights-|-england-men-v-france-|-2026-rugby-league-world-cup-|-game-2">
+						
+						<div class="wrap">
+						<div class="row no-gutters lead align-items-center py-0 py-md-0">
+
+							<div class="col-4 col-md-6 left-col">
+								<div class="img-hold">
+																			<img class="img-fluid main-img" src="https://d39rs7grvg2c8a.cloudfront.net/images/223690.jpg"  data-error="https://d39rs7grvg2c8a.cloudfront.net/images/no-image.jpg" alt="Highlights | England Men v France | 2026 Rugby League World Cup | Game 2">
+																	</div>
+							</div>
+
+							<div class="col-8 col-md-6 right-col">
+								<div class="text-hold pl-3 pr-1 py-0 p-md-4 p-xl-5">
+
+											
+
+																					<p class="date p-0 d-none d-md-inline-block">25 Oct 2026</p>
+										
+																					<h2 class="py-1 py-md-2 py-lg-3 py-xl-4 mb-0 mb-md-3">Highlights | England Men v France | 2026 Rugby League World Cup | Game 2</h2>
+											
+
+																					<p class="teaser d-none d-lg-block"></p>
+											
+
+																					<p class="d-none d-md-block read-article mt-1 mt-md-0 mt-lg-0 mt-xl-2">watch now <i class="fal fa-long-arrow-right"></i></p>
+										
+								</div>
+							</div>
+
+							<div class="col-12 d-none d-md-flex article-footer">
+								<div class="p-0 p-md-3 p-lg-3 p-xl-4 hold">
+										
+									
+								</div>
+							</div>
+
+						</div>
+						</div>
+
+					</a>
+					
+					<p style="bottom:19px;right:22px;z-index:10;display:block;position:absolute" class="news-grid-primary-tag text-center float-right d-none d-lg-inline-block">
+	<a href="/video?tag=England RL">
+		England RL
+	</a>
+</p>
+					
+				</div>
+
+			
+												
+				
+				<div class="col-12 col-md-4 news-holder my-1 my-md-2 ">
+					<a ign-news-data-id="65272" data-media-type="youtube" data-media-value="https://youtu.be/P82EGSVLmYE?si=Rno7xSdgBUuJu9Q2" class="ign-media-link" href="/article/65272/highlights-|-england-women-v-australia-jillaroos-|-2026-rugby-league-world-cup-|-game-2">
+						
+						<div class="wrap">
+						<div class="row no-gutters lead align-items-center py-0 py-md-0">
+
+							<div class="col-4 col-md-12 left-col">
+								<div class="img-hold">
+																			<img class="img-fluid main-img" src="https://d39rs7grvg2c8a.cloudfront.net/images/223688.jpg"  data-error="https://d39rs7grvg2c8a.cloudfront.net/images/no-image.jpg" alt="Highlights | England Women v Australia Jillaroos | 2026 Rugby League World Cup | Game 2">
+																	</div>
+							</div>
+
+							<div class="col-8 col-md-12 right-col">
+								<div class="text-hold pl-3 pr-1 py-0 p-md-3 p-lg-3 p-xl-4">
+
+											
+
+																					<p class="date p-0 d-none d-md-inline-block">25 Oct 2026</p>
+										
+																					<h2 class="py-1 py-md-2 py-lg-3 py-xl-4 mb-0 mb-md-3">Highlights | England Women v Australia Jillaroos | 2026 Rugby League World Cup | Game 2</h2>
+											
+
+																					<p class="teaser d-none d-lg-block"></p>
+											
+
+										
+								</div>
+							</div>
+
+							<div class="col-12 d-none d-md-flex article-footer">
+								<div class="p-0 p-md-3 p-lg-3 p-xl-4 hold">
+																			<p class="read-article d-inline-block">watch now <i class="fal fa-long-arrow-right"></i></p>
+										
+									
+								</div>
+							</div>
+
+						</div>
+						</div>
+
+					</a>
+					
+					<p style="bottom:19px;right:22px;z-index:10;display:block;position:absolute" class="news-grid-primary-tag text-center float-right d-none d-lg-inline-block">
+	<a href="/video?tag=England Women">
+		England Women
+	</a>
+</p>
+					
+				</div>
+
+			
+												
+				
+				<div class="col-12 col-md-4 news-holder my-1 my-md-2 ">
+					<a ign-news-data-id="65274" data-media-type="article" data-media-value="" class="ign-media-link" href="/article/65274/standout-stats-from-england-men-v-france">
+						
+						<div class="wrap">
+						<div class="row no-gutters lead align-items-center py-0 py-md-0">
+
+							<div class="col-4 col-md-12 left-col">
+								<div class="img-hold">
+																			<img class="img-fluid main-img" src="https://d39rs7grvg2c8a.cloudfront.net/images/223698.jpg"  data-error="https://d39rs7grvg2c8a.cloudfront.net/images/no-image.jpg" alt="Standout stats from England Men v France">
+																	</div>
+							</div>
+
+							<div class="col-8 col-md-12 right-col">
+								<div class="text-hold pl-3 pr-1 py-0 p-md-3 p-lg-3 p-xl-4">
+
+											
+
+																					<p class="date p-0 d-none d-md-inline-block">25 Oct 2026</p>
+										
+																					<h2 class="py-1 py-md-2 py-lg-3 py-xl-4 mb-0 mb-md-3">Standout stats from England Men v France</h2>
+											
+
+																					<p class="teaser d-none d-lg-block"></p>
+											
+
+										
+								</div>
+							</div>
+
+							<div class="col-12 d-none d-md-flex article-footer">
+								<div class="p-0 p-md-3 p-lg-3 p-xl-4 hold">
+																			<p class="read-article d-inline-block">read more <i class="fal fa-long-arrow-right"></i></p>
+										
+									
+								</div>
+							</div>
+
+						</div>
+						</div>
+
+					</a>
+					
+					<p style="bottom:19px;right:22px;z-index:10;display:block;position:absolute" class="news-grid-primary-tag text-center float-right d-none d-lg-inline-block">
+	<a href="/news?tag=England RL">
+		England RL
+	</a>
+</p>
+					
+				</div>
+
+			
+												
+				
+				<div class="col-12 col-md-4 news-holder my-1 my-md-2 ">
+					<a ign-news-data-id="65275" data-media-type="youtube" data-media-value="https://youtu.be/ryxmcQ-q1n0?si=evb_an94N_xdaF0i" class="ign-media-link" href="/article/65275/east-leeds-win-promotion-following-national-leagues-division-one-grand-final-victory">
+						
+						<div class="wrap">
+						<div class="row no-gutters lead align-items-center py-0 py-md-0">
+
+							<div class="col-4 col-md-12 left-col">
+								<div class="img-hold">
+																			<img class="img-fluid main-img" src="https://d39rs7grvg2c8a.cloudfront.net/images/223700.png"  data-error="https://d39rs7grvg2c8a.cloudfront.net/images/no-image.jpg" alt="East Leeds win promotion following National Leagues Division One Grand Final victory">
+																	</div>
+							</div>
+
+							<div class="col-8 col-md-12 right-col">
+								<div class="text-hold pl-3 pr-1 py-0 p-md-3 p-lg-3 p-xl-4">
+
+											
+
+																					<p class="date p-0 d-none d-md-inline-block">25 Oct 2026</p>
+										
+																					<h2 class="py-1 py-md-2 py-lg-3 py-xl-4 mb-0 mb-md-3">East Leeds win promotion following National Leagues Division One Grand Final victory</h2>
+											
+
+																					<p class="teaser

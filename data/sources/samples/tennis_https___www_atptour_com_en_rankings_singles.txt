@@ -1,0 +1,391 @@
+URL: https://www.atptour.com/en/rankings/singles
+CTYPE: text/html; charset=utf-8
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <script>
+    window.atp_settings = {};
+    window.atp_settings.pre_roll_ad_unit = "video-ad-atp";
+</script>
+
+
+
+    <!-- GTM Head Tag -->
+    
+
+<!-- Google Tag Manager -->
+<script nonce="d55737f6-455f-44d7-878a-bb9d11e85a09">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.nonce='d55737f6-455f-44d7-878a-bb9d11e85a09'; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KP6F8L8');
+</script>
+<!-- End Google Tag Manager -->
+
+    
+
+    
+
+    
+<!-- disable auto format for telephone numbers -->
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=1.25">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+
+<meta property="fb:app_id" content="" />
+<meta property="fb:pages" content="">
+
+<meta name="google" content="notranslate" />
+<meta name="medium" content="website" />
+
+    <title>ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis | ATP Tour | Tennis</title>
+    <meta name="description" content="Official PIF ATP Rankings (Singles) showing a list of top players in men&#39;s tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, Jannik Sinner, Carlos Alcaraz and more." />
+    <meta name="title" content="ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis | ATP Tour | Tennis" />
+    <meta name="keywords" content="" />
+    <meta name="thumbnail" content="" />
+    <meta property="pageTransitionTitle" content="ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis" />
+    <!-- facebook -->
+    <meta property='og:locale' content="en" />
+    <meta property='og:type' content="" />
+    <meta property='og:title' content="ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis | ATP Tour | Tennis" />
+    <meta property='og:description' content="Official PIF ATP Rankings (Singles) showing a list of top players in men&#39;s tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, Jannik Sinner, Carlos Alcaraz and more." />
+    <meta property='og:image' content="" />
+    <meta property='og:url' content="http://www.atptour.com/en/rankings/singles" />
+    <meta property='og:site_name' content="ATP Tour" />
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="ATP Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis | ATP Tour | Tennis" />
+    <meta name="twitter:creator" content="@atptour" />
+    <meta name="twitter:description" content="Official PIF ATP Rankings (Singles) showing a list of top players in men&#39;s tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, Jannik Sinner, Carlos Alcaraz and more." />
+    <meta name="twitter:image" content="" />
+
+
+<link rel='alternate' hreflang='en' href="https://www.atptour.com/en/rankings/singles" />
+<link rel='alternate' hreflang='es' href="https://www.atptour.com/es/rankings/singles" />
+
+
+    <meta name="apple-itunes-app" content="app-id=1480255719">
+
+
+
+
+
+    <link rel="preload" href="/assets/atptour/fonts/creatodisplay-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/atptour/fonts/creatodisplay-medium-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/atptour/fonts/creatodisplay-extrabold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/atptour/fonts/creatodisplay-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/atptour/fonts/creatodisplay-black-webfont.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link nonce="d55737f6-455f-44d7-878a-bb9d11e85a09" rel="stylesheet" href="/assets/atptour/css/atptour.css?bust=639282528240000000">
+    <!-- Google Ad Manager Header -->
+    <script nonce="d55737f6-455f-44d7-878a-bb9d11e85a09" defer>
+    window.googletag = window.googletag || { cmd: [] };
+
+    window.__adConsentGranted = false;
+    window.__gptReady = false;
+    window.__gptQueue = window.__gptQueue || [];
+
+    googletag["slots"] = [];
+
+    function initGPT() {
+		const gptSrc = window.__adConsentGranted
+        ? "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        : "https://pagead2.googlesyndication.com/tag/js/gpt.js";
+      
+        const gptScript = document.createElement("script");
+        gptScript.async = true;
+        gptScript.src = gptSrc;
+        gptScript.nonce = "d55737f6-455f-44d7-878a-bb9d11e85a09";
+        document.head.appendChild(gptScript);
+
+        googletag.cmd.push(function () {
+            googletag.pubads().setForceSafeFrame(true);
+
+
+            if (!window.__adConsentGranted) {
+               googletag.pubads().setPrivacySettings({
+				nonPersonalizedAds: true,    
+				restrictDataProcessing: true,
+				limitedAds: true             
+			  });
+            }
+
+            
+
+
+
+    
+        googletag.slots['div-gpt-ad-Header'] = googletag.defineSlot('/21840952109/Header', [728,90], 'div-gpt-ad-Header')
+        .defineSizeMapping(googletag.sizeMapping().addSize([728, 0],  [728,90]).addSize([0, 0], [320,50] ).build())
+        .setCollapseEmptyDiv(true)
+        .setTargeting('Position', ['ATP Header'])
+        .addService(googletag.pubads());
+    
+    
+        googletag.slots['div-gpt-ad-Body-Slot-3'] = googletag.defineSlot('/21840952109/Body-Slot-3', [728,90], 'div-gpt-ad-Body-Slot-3')
+        .defineSizeMapping(googletag.sizeMapping().addSize([728, 0],  [728,90]).addSize([0, 0], [320,50] ).build())
+        .setCollapseEmptyDiv(true)
+        .setTargeting('Position', ['ATP Body Slot 3'])
+        .addService(googletag.pubads());
+    
+    
+        googletag.slots['div-gpt-ad-Body-Slot-2'] = googletag.defineSlot('/21840952109/Body-Slot-2', [728,90], 'div-gpt-ad-Body-Slot-2')
+        .defineSizeMapping(googletag.sizeMapping().addSize([728, 0],  [728,90]).addSize([0, 0], [320,50] ).build())
+        .setCollapseEmptyDiv(true)
+        .setTargeting('Position', ['ATP Body Slot 2'])
+        .addService(googletag.pubads());
+    
+    
+        googletag.slots['div-gpt-ad-Footer'] = googletag.defineSlot('/21840952109/Footer', [728,90], 'div-gpt-ad-Footer')
+        .defineSizeMapping(googletag.sizeMapping().addSize([728, 0],  [728,90]).addSize([0, 0], [320,50] ).build())
+        .setCollapseEmptyDiv(true)
+        .setTargeting('Position', ['ATP Footer'])
+        .addService(googletag.pubads());
+    
+
+
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+
+            googletag.pubads().
+                setTargeting('Language', ['English']).
+                setTargeting('Site', ['ATP Tour']).
+                setTargeting('Device', ['Desktop']).
+                setTargeting('Site-Section', ['ATP Rankings']);
+
+            googletag.enableServices();
+            window.__gptReady = true;
+            window.__gptQueue.forEach(function (fn) { fn(); });
+            window.__gptQueue = [];
+        });
+    }
+
+    function evaluateConsent() {
+        window.__adConsentGranted =
+            window.OnetrustActiveGroups &&
+            OnetrustActiveGroups.includes("C0004");
+
+        window.__adConsentReady = true;
+        initGPT();
+    }
+
+    window.addEventListener("OneTrustGroupsUpdated", function () {
+        if(!window.__gptReady)
+		{
+            evaluateConsent();
+		}
+    });
+
+
+</script>
+<script nonce="d55737f6-455f-44d7-878a-bb9d11e85a09">
+    window.renderAdSlot = function (slotId) {
+        function run() {
+            googletag.display(slotId);
+        }
+
+        if (window.__gptReady) {
+            run();
+            return;
+        }
+
+        window.__gptQueue.push(run);
+    };
+</script>
+
+
+    <!-- Bloomreach JS -->
+    
+
+
+<style>
+    .xnpe_async_hide {
+        opacity: 0 !important
+    }
+</style>
+
+<script type="text/javascript">
+    (function (w, d) {
+        var ids = { user_agent: navigator.userAgent };
+        try {
+            var params = new URLSearchParams(w.location.search);
+            var getCookie = function (name) {
+                var m = d.cookie.match(new RegExp('(?:^| )' + name + '=([^;]+)'));
+                if (!m) return null;
+                try { return decodeURIComponent(m[1]); } catch (e) { return m[1]; }
+            };
+
+            var fbclid = params.get('fbclid');
+            var fbc = getCookie('_fbc') || (fbclid ? 'fb.1.' + Date.now() + '.' + fbclid : null);
+            var fbp = getCookie('_fbp');
+            var ttp = getCookie('_ttp');
+            var ttclid = params.get('ttclid');
+            var gclid = params.get('gclid');
+
+            if (fbc) ids.fbclid = fbc;
+            if (fbp) ids.fbp = fbp;
+            if (ttp) ids.ttp = ttp;
+            if (ttclid) ids.ttclid = ttclid;
+            if (gclid) ids.gclid = gclid;
+        } catch (e) { }
+        w.__adIds = ids;
+    })(window, document);
+</script>
+<script type="text/javascript">
+    console.log("Bloomreach JS Init")
+    window.__atpBloomreachPageVisit = {
+        enabled: true,
+        endpoint: "/-/www/bloomreach/page-visit"
+    };
+    window.__atpPageContext = Object.assign({}, window.__atpPageContext || {}, {"page_type":"Rankings","subpage_section":"main","page_title":"Singles"});
+
+    !function (e, n, t, i, r, o) { function s(e) { if ("number" != typeof e) return e; var n = new Date; return new Date(n.getTime() + 1e3 * e) } var a = 4e3, c = "xnpe_async_hide"; function p(e) { return e.reduce((function (e, n) { return e[n] = function () { e._.push([n.toString(), arguments]) }, e }), { _: [] }) } function m(e, n, t) { var i = t.createElement(n); i.src = e; var r = t.getElementsByTagName(n)[0]; return r.parentNode.insertBefore(i, r), i } function u(e) { return "[object Date]" === Object.prototype.toString.call(e) } o.target = o.target || "https://api.exponea.com", o.file_path = o.file_path || o.target + "/js/exponea.min.js", r[n] = p(["anonymize", "initialize", "identify", "getSegments", "update", "track", "trackLink", "trackEnhancedEcommerce", "getHtml", "showHtml", "showBanner", "showWebLayer", "ping", "getAbTest", "loadDependency", "getRecommendation", "reloadWebLayers", "_preInitialize", "_initializeConfig"]), r[n].notifications = p(["isAvailable", "isSubscribed", "subscribe", "unsubscribe"]), r[n].segments = p(["subscribe"]), r[n]["snippetVersion"] = "v2.7.0", function (e, n, t) { e[n]["_" + t] = {}, e[n]["_" + t].nowFn = Date.now, e[n]["_" + t].snippetStartTime = e[n]["_" + t].nowFn() }(r, n, "performance"), function (e, n, t, i, r, o) { e[r] = { sdk: e[i], sdkObjectName: i, skipExperiments: !!t.new_experiments, sign: t.token + "/" + (o.exec(n.cookie) || ["", "new"])[1], path: t.target } }(r, e, o, n, i, RegExp("__exponea_etc__" + "=([\\w-]+)")), function (e, n, t) { m(e.file_path, n, t) }(o, t, e), function (e, n, t, i, r, o, p) { if (e.new_experiments) { !0 === e.new_experiments && (e.new_experiments = {}); var l, f = e.new_experiments.hide_class || c, _ = e.new_experiments.timeout || a, g = encodeURIComponent(o.location.href.split("#")[0]); e.cookies && e.cookies.expires && ("number" == typeof e.cookies.expires || u(e.cookies.expires) ? l = s(e.cookies.expires) : e.cookies.expires.tracking && ("number" == typeof e.cookies.expires.tracking || u(e.cookies.expires.tracking)) && (l = s(e.cookies.expires.tracking))), l && l < new Date && (l = void 0); var d = e.target + "/webxp/" + n + "/" + o[t].sign + "/modifications.min.js?http-referer=" + g + "&timeout=" + _ + "ms" + (l ? "&cookie-expires=" + Math.floor(l.getTime() / 1e3) : ""); "sync" === e.new_experiments.mode && o.localStorage.getItem("__exponea__sync_modifications__") ? function (e, n, t, i, r) { t[r][n] = "<" + n + ' src="' + e + '"></' + n + ">", i.writeln(t[r][n]), i.writeln("<" + n + ">!" + r + ".init && document.writeln(" + r + "." + n + '.replace("/' + n + '/", "/' + n + '-async/").replace("><", " async><"))</' + n + ">") }(d, n, o, p, t) : function (e, n, t, i, r, o, s, a) { o.documentElement.classList.add(e); var c = m(t, i, o); function p() { r[a].init || m(t.replace("/" + i + "/", "/" + i + "-async/"), i, o) } function u() { o.documentElement.classList.remove(e) } c.onload = p, c.onerror = p, r.setTimeout(u, n), r[s]._revealPage = u }(f, _, d, n, o, p, r, t) } }(o, t, i, 0, n, r, e), function (e, n, t) { var i; e[n]._initializeConfig(t), (null === (i = t.experimental) || void 0 === i ? void 0 : i.non_personalized_weblayers) && e[n]._preInitialize(t), e[n].start = function (i) { i && Object.keys(i).forEach((function (e) { return t[e] = i[e] })), e[n].initialize(t) } }(r, n, o) }(document, "exponea", "script", "webxpClient", window, {
+        target: "https://api.uk.exponea.com",
+        token: "bfbfcfc0-ba2c-11ee-a3f9-c6fa5202914d",
+        experimental: {
+            non_personalized_weblayers: true
+        },
+        // replace with current customer ID or leave commented out for an anonymous customer
+        // customer: window.currentUserId,
+        track: {
+            visits: false,
+            google_analytics: false,
+        },
+    });
+
+    function OptanonWrapper() {
+        if (exponea && OnetrustActiveGroups.includes("C0003")) {
+            console.log("Starting Bloomreach");
+            // Ad click IDs are advertising data: only sent with Targeting (C0004) consent.
+            // start() merges the passed keys into the snippet config before initializing.
+            var adConsent = OnetrustActiveGroups.includes("C0004");
+            exponea.start(adConsent ? { ping: { properties: window.__adIds } } : undefined);
+            if (adConsent) {
+                exponea.update(window.__adIds);
+            }
+        }
+    }
+
+</script>
+
+    <script async="" type="text/javascript" src="https://embeds.acswapp.com/accessibility/app.js" nonce="d55737f6-455f-44d7-878a-bb9d11e85a09"></script>
+    <link rel="icon" href="/assets/atpwt/images/global/favicon.ico">
+</head>
+<body class="" style="">
+    
+    <!-- GTM Body Tag -->
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP6F8L8"
+            height="0" width="0" class="gtm-hide"></iframe>
+</noscript>
+<style nonce="d55737f6-455f-44d7-878a-bb9d11e85a09">
+    .gtm-hide {
+        display: none;
+        visibility: hidden;
+    }
+</style>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!--start header section -->
+    
+<div class="atp_header" id="atpTourHeaderApp">
+    <h1>ATP Tour</h1>
+    <div class="atp_header-secondary">
+        <div class="wrapper">
+            <div class="section">
+                <div class="partner" data-sponsor-brand="infosys">
+                    <a href="" target="" class="logo-link">
+                        <img src="/-/media/sites/atp-tour/header/infosys_logo.png" class="logo-image" alt=""/>
+                            <span class="logo-content">DIGITAL INNOVATION PARTNER</span>
+                    </a>
+                </div>
+            </div>
+            <div v-if="!isBelowTinyLandscape" class="section tourn" v-cloak>
+                <ul class="tournaments">
+                    <template v-for="(item, index) in globalNavJSON" :key="index">
+                        <li :class="[item.IsActive ? 'active' : '', item.IsSeparator ? 'separator' : '', item.CssClass]">
+                            <a :href="item.Link.Url" :target="item.Link.Target" @mouseenter="updateHoverState($event.currentTarget)" @mouseleave="updateGlobalLogoState()">
+                                <img class="neutral" :src="item.Image.Url" :alt="item.Image.AltText" :title="item.Image.AltText" />
+                                <img class="light" :src="item.ImageLight.Url" :alt="item.ImageLight.AltText" :title="item.ImageLight.AltText" />
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="atp_header-logged-in" data-atp-sso-logout>
+                    <button class="atp_header-logged-in-scp1">Sign out</button>
+                </div>
+                <div class="atp_header-logged-out" data-atp-sso-trigger>
+                    <button class="atp_header-logged-out-scp1" type="button">Log In</button>
+                </div>
+                <div class="navigation" v-if="!isMobile" v-cloak>
+                    <navigation
+                        :navigation="navigation.secondary"
+                        :page="currentPage"
+                        :head="currentHead"></navigation>
+                </div>
+                <template v-if="!isMobile">
+                    
+
+    <div class="language">
+        <div class="current">
+            <a href="#" @click.prevent="handleLanguages" :class="languagesExpanded ? 'active' : ''">EN</a>
+        </div>
+        <div class="dropdown" :class="dropdownExpanded">
+            <ul>
+                    <li>
+                            <a href="/en" class="active">EN</a>
+                    </li>
+                    <li>
+                            <a href="/es">ES</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                </template>
+            </div>
+        </div>
+        <div v-if="isBelowTinyLandscape" class="global-nav" v-cloak>
+            <div class="section tourn">
+                <ul class="tournaments">
+                    <template v-for="(item, index) in globalNavJSON" :key="index">
+                        <li :class="[item.IsActive ? 'active' : '', item.IsSeparator ? 'separator' : '', item.CssClass]">
+                            <a :href="item.Link.Url" :target="item.Link.Target" @mouseenter="updateHoverState($event.currentTarget)" @mouseleave="updateGlobalLogoState()">
+                                <img class="neutral" :src="item.Image.Url" :alt="item.Image.AltText" :title="item.Image.AltText" />
+                                <img class="light" :src="item.ImageLight.Url" :alt="item.ImageLight.AltText" :title="item.ImageLight.AltText" />
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="atp_header-primary">
+        <div class="wrapper">
+            <div class="section">
+                <div v-if="isMobile" class="menu" @click="handleNavigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="site-logo" class="logo">
+                    <a href="/en"><img src="/-/media/sites/atp-tour/header/atp-add-all-logo_1.png" class="logo-image" alt="ATPTour"></a>
+                </div>
+                <div v-if="!isMobile" class="navigation" v-cloak>
+                    <ul>
+                        <template v-for="(item, index) in navigation.primary" :key="index">
+                            <li class="navigation-item nav-link__element" :data-navigation-name="item.NavigationTrackName" :class="[item.Id === currentHead ? 'active' : '', item.SubNavigationItems ? 'expandables' : '']">
+                                <a v-if="item.SubNavigationItems" :h

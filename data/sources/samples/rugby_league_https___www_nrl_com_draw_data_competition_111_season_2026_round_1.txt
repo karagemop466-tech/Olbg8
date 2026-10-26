@@ -1,0 +1,4 @@
+URL: https://www.nrl.com/draw/data?competition=111&season=2026&round=1
+CTYPE: text/html;charset=UTF-8
+
+<html><head><title>Submit This Form</title><meta http-equiv="X-UA-Compatible" content="IE=edge"></head><body onload="javascript:document.forms[0].submit()"><form method="post" action="https://www.nrl.com/account/signin-nrl"><input type="hidden" name="error" value="login_required"/><input type="hidden" name="error_description" value="Login required"/><input type="hidden" name="state" value="OpenIdConnect.AuthenticationProperties=tvtVWImWhKnUBuWJsIqGcaWFu68EtmP_PqTxCFaVlO4b_551Y5KAxX-t1Ulx7RJMrqVErX_3biFgDo0X4UQKkfQ6refTOcsGkKespDcXpL_BXw2B5FxJT8Wt7nUn0PPRmnKDvMLQg8a05ZkC0kvFjFpSBEQq9YmHCQhaD-8tBAcj0pYcw2RwdQeTOd-mAclvizKRFbyntjlVGDHsHLn5FynT0GNnPaID5WJ0n1ou3X5D-Cg1OnEGbaoA_yilmPNhKi_KzH4WQ706Gg3oU0oZJPvO0Vb8tHb-LKBv4-ibp9ssxz2D11aoutPz4Iu4xMNP7PLsT4O79_2f-cVJGh39hbK-itlQ4sahs3CbmmMyRe-jx3e-Qyj7VcQXNIVOGdjRqgGDH7TvHI8SlgORaWfecw"/></form></body></html>

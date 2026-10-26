@@ -1,0 +1,372 @@
+URL: https://www.itftennis.com/en/rankings/
+CTYPE: text/html; charset=utf-8
+
+
+
+<!doctype html>
+<html class="js-priorityNav" lang="en">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZPTKN7');</script>
+<!-- End Google Tag Manager -->
+    <script>
+        window.googlefc = window.googlefc || {};
+        googlefc.controlledMessagingFunction = (message) => {
+            console.log('Funding Choices message triggered, suppressing it');
+            message.proceed(false);
+        };
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+
+    <!-- CDF: No CSS dependencies were declared //-->
+
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1025417051169198'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=1025417051169198&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+    
+
+    
+<title>Rankings | ITF</title>
+<meta name="keywords" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:description" name="description" content="" />
+<meta property="og:url" content="https://www.itftennis.com/en/rankings/" />
+<meta property="og:title" content="Rankings | ITF" />
+<meta property="og:image" content="https://www.itftennis.com/assets/images/site-logo.jpg" />
+    <script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23328656850/itf/primary_below_nav', [[728, 90], [320, 100], [970, 250], [320, 50], [970, 90]], 'div-gpt-ad-1768303440211-0').addService(googletag.pubads());
+  });
+</script>
+    
+    <script>
+    window.googletag = window.googletag || { cmd: [] };
+    window.__itf_gpt_enabled = window.__itf_gpt_enabled || false;
+
+    googletag.cmd.push(function () {
+        if (window.__itf_gpt_enabled) return;
+
+        var tour = window.ITF_PAGE && window.ITF_PAGE.tour;
+        var pageType = window.ITF_PAGE && window.ITF_PAGE.page_type;
+        var tournamentId = window.ITF_PAGE && window.ITF_PAGE.tournament_id;
+        var tournamentLocation = window.ITF_PAGE && window.ITF_PAGE.tournament_location;
+        var tournamentCountry = window.ITF_PAGE && window.ITF_PAGE.tournament_country;
+
+        if (tour) googletag.pubads().setTargeting('tour', tour);
+        if (pageType) googletag.pubads().setTargeting('page_type', pageType);
+        if (tournamentId) googletag.pubads().setTargeting('tournament_id', tournamentId);
+        if (tournamentLocation) googletag.pubads().setTargeting('location', tournamentLocation);
+        if (tournamentCountry) googletag.pubads().setTargeting('country', tournamentCountry);
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+
+        window.__itf_gpt_enabled = true;
+    });
+</script>
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon.png">
+</head>
+
+<body class="brand--world-tennis">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe https://www.googletagmanager.com/ns.html?id=GTM-WZPTKN7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <script type="text/javascript" src="https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion"></script>
+
+    <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+
+    <script async src="https://www.instagram.com/embed.js"></script>
+    <style>
+    #form-newsletter .lp-form-field {
+        margin-bottom: 15px;
+    }
+    #form-newsletter .lp-form-fieldInput {
+        padding: 5px 15px 5px 0;
+    }
+    #form-newsletter .lp-form-fieldInput.lookup-behavior {
+        padding-left: 5px;
+    }
+    #form-newsletter .lp-required {
+        color: #fff !important;
+        margin-left: 5px;
+    }
+    #form-newsletter a {
+        color: #fff;
+        font-weight: 900;
+        text-decoration: none;
+    }
+    #form-newsletter #lookup-popup-ul-0 {
+        background-color: #363634;
+    }
+    #form-newsletter .ui-menu-item {
+        color: #fff;
+    }
+    #form-newsletter #ms_captcha_holder input[type=text] {
+        padding: 5px !important;
+    }
+    #form-newsletter button[type=submit] {
+        height: 50px;
+        padding: 0 25px;
+        background-color: transparent;
+        color: #fff;
+        border-color: #fff;
+        margin: 0 auto;
+        display: block;
+    }
+    #form-newsletter .onFormSubmittedFeedback {
+        height: auto !important;
+        background-color: transparent;
+    }
+    #form-newsletter .onFormSubmittedFeedbackMessage {
+        color: #fff;
+        font-weight: 900;
+    }
+    #form-newsletter button.onFormSubmittedFeedbackButtonSuccess {
+        display: none;
+    }
+    #form-newsletter form *[data-layout="true"] {
+        max-width: none !important;
+    }
+</style>
+<section id="sign-up-form" class='hide'>
+    <div class="newsletter-form">
+        <div class="newsletter-form__container">
+            <h2>Sign Up</h2>
+            <p class="newsletter-form__description">
+                Register to receive unrivalled access to the world of tennis
+            </p>
+            <div class="newsletter-form__icons">
+                <ul>
+                    <li class="newsletter-form__icon--news"></li>
+                    <li class="newsletter-form__icon--features"></li>
+                    <li class="newsletter-form__icon--round-up"></li>
+                    <li class="newsletter-form__icon--highlights"></li>
+                    <li class="newsletter-form__icon--ticketing"></li>
+                    <li class="newsletter-form__icon--prizes"></li>
+                </ul>
+            </div>
+            <div id="form-newsletter">
+                <div
+        data-form-id='221840a7-9abb-ee11-9078-6045bd127be4'
+        data-form-api-url='https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms'
+        data-cached-form-url='https://assets-gbr.mkt.dynamics.com/477bd92d-53fe-4790-9df3-11fb131dba0f/digitalassets/forms/221840a7-9abb-ee11-9078-6045bd127be4' ></div>
+        <script src = 'https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/gbr/FormLoader/FormLoader.bundle.js' ></script>
+            </div>
+            <p id="sign-up-success-message" class="sign-up-success-message" style="display:none"></p>
+        </div>
+    </div>
+</section>
+
+
+    <header id="site-header" class="site-header">
+        
+        <div class="pre-nav">
+            <nav role="navigation" class="container">
+                <div class="pre-nav__account">
+    <div id="my-account">
+        <script>
+            ReactDOMOld.render(
+                ReactOld.createElement(MyAccount, { isVisible : false }
+
+                ), document.getElementById('my-account'));
+        </script>
+    </div>
+</div>
+<div class="pre-nav--rhs">
+        <div>
+        <div id="lang-dd"></div>
+        <script>
+            var currentLanguage = "en";
+            var options =  [{"name":"English","url":"/en/"},{"name":"español","url":"/es/noticias-en-español/noticias/"},{"name":"français","url":"/fr/nouvelles-et-médias/nouvelles/"}]
+
+            ReactDOMOld.render(
+                    ReactOld.createElement(GenericDropdown, {
+                    options: options,
+                    placeholder: currentLanguage,
+                    classes: "generic-dropdown--simple",
+                    name: "lang"
+                }), document.getElementById("lang-dd")
+            )
+        </script>
+    </div>
+
+    <div class="social">
+            <a class="social-icon social-icon--facebook" href="https://www.facebook.com/WorldTennisOfficial/" title="Follow ITF Tennis on Facebook" target="_blank"
+               onclick="dataLayer.push({'event': 'socialShareClick'});"></a>
+            <a class="social-icon social-icon--twitter" href="https://x.com/worldtennis" title="Follow ITF Tennis on Twitter" target="_blank"
+               onclick="dataLayer.push({'event': 'socialShareClick'});"></a>
+            <a class="social-icon social-icon--instagram" href="https://www.instagram.com/worldtennisofficial/" title="Follow ITF Tennis on Instagram" target="_blank"
+               onclick="dataLayer.push({'event': 'socialShareClick'});"></a>
+            <a class="social-icon social-icon--youtube" href="https://www.youtube.com/channel/UCsyvlpbK0BTEc3jec6nhPyQ" title="Follow ITF Tennis on YouTube" target="_blank"
+               onclick="dataLayer.push({'event': 'socialShareClick'});"></a>
+    </div>
+    <a id="sign-up-link">Sign up</a>
+    <a id="ipin-link" target="_blank" href="/en/about-us/organisation/about-tour-zone/tour-zone/">
+        <span class="ipin-link__animation-container">
+            <span>IPIN</span>
+            <span class="unlock-symbol"></span>
+        </span>
+    </a>
+    <div id="global-search">
+        <script>
+            ReactDOMOld.render(
+                ReactOld.createElement(GlobalSearch, {}
+
+                ), document.getElementById('global-search'));
+        </script>
+    </div>
+        <a class="main-nav__link--shop mobile" href="https://global.tennis-point.com/?utm_medium=federation&amp;utm_source=ITF&amp;utm_campaign=shopbutton&amp;utm_content=shopbutton&amp;utm_term=TP_ROW" target="_blank">
+            Shop
+        </a>
+    <a class="main-nav__link--account mobile tennisid_nav" href="#">My Account</a>
+</div>
+            </nav>
+        </div>
+        <div class="main-nav">
+    <nav role="navigation" class="container">
+        <div class="site-logo__wrapper">
+            <a class="site-logo" href="/en/" title="Home"></a>
+            <div class="mobile-controls">
+                <a title="Toggle Navigation Menu" class="navigation-toggle" href="#"></a>
+                    <div>
+        <div id="lang-dd"></div>
+        <script>
+            var currentLanguage = "en";
+            var options =  [{"name":"English","url":"/en/"},{"name":"español","url":"/es/noticias-en-español/noticias/"},{"name":"français","url":"/fr/nouvelles-et-médias/nouvelles/"}]
+
+            ReactDOMOld.render(
+                    ReactOld.createElement(GenericDropdown, {
+                    options: options,
+                    placeholder: currentLanguage,
+                    classes: "generic-dropdown--simple",
+                    name: "lang"
+                }), document.getElementById("lang-dd")
+            )
+        </script>
+    </div>
+
+                <a class="sign-up__link--mobile" id="sign-up-link-mobile">Sign up</a>
+                <div id="global-mobile-search">
+                    <script>
+                        ReactDOMOld.render(
+                            ReactOld.createElement(GlobalSearch, {}
+
+                            ), document.getElementById('global-mobile-search'));
+                    </script>
+                </div>
+                    <a class="main-nav__link--shop mobile" href="https://global.tennis-point.com/?utm_medium=federation&amp;utm_source=ITF&amp;utm_campaign=shopbutton&amp;utm_content=shopbutton&amp;utm_term=TP_ROW" target="_blank">
+                        Shop
+                    </a>
+                <a class="main-nav__link--account mobile tennisid_nav" href="#">My Account</a>
+            </div>
+        </div>
+        <ul class="main-nav__links main-nav__links--closed">
+                <li>
+                        <a class="main-nav__link " href="#">Tours</a>
+
+                        <div class="sub-nav">
+                            <nav role="navigation" class="container  sub-nav__links">
+                                    <div class="">
+                                            <p>Tours</p>
+                                        <ul>
+                                                <li><a href="/en/tours/womens-world-tennis-tour/" target="_self">Women&#39;s World Tennis Tour</a></li>
+                                                <li><a href="/en/tours/mens-world-tennis-tour/" target="_self">Men&#39;s World Tennis Tour</a></li>
+                                                <li><a href="/en/tours/world-tennis-tour-juniors/" target="_self">World Tennis Tour Juniors</a></li>
+                                                <li><a href="/en/tours/world-tennis-masters-tour/" target="_self">World Tennis Masters Tour</a></li>
+                                                <li><a href="/en/tours/uniqlo-wheelchair-tennis-tour/" target="_self">UNIQLO Wheelchair Tennis Tour</a></li>
+                                                <li><a href="/en/tours/beach-tennis-tour/" target="_self">Beach Tennis World Tour</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                            <p>World Cup of Tennis</p>
+                                        <ul>
+                                                <li><a href="https://www.daviscup.com/en" target="_blank">Davis Cup</a></li>
+                                                <li><a href="https://www.billiejeankingcup.com/en" target="_blank">Billie Jean King Cup</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                            <p>Competitions</p>
+                                        <ul>
+                                                <li><a href="/en/tours/junior-team-competitions/" target="_self">Junior Team Competitions</a></li>
+                                                <li><a href="https://www.itftennis.com/en/tournament/2026-world-tennis-tour-junior-finals/chn/2026/j-jm-chn-2026-001/media-and-resources/" target="_self">World Tennis Tour Junior Finals</a></li>
+                                                <li><a href="https://www.itftennis.com/en/tournament/bnp-paribas-world-team-cup/usa/2026/wc-wwtc-usa-01a-2026/player-entries/" target="_self">Wheelchair World Team Cup</a></li>
+                                                <li><a href="https://www.itftennis.com/en/tournament/nec-uniqlo-wheelchair-finals/esp/2026/wc-itfms-esp-2026-001/media-and-resources/" target="_self">Wheelchair Singles and Doubles Finals</a></li>
+                                                <li><a href="https://www.itftennis.com/en/events/masters-tour-world-championships/home/" target="_self">Masters World Championships</a></li>
+                                                <li><a href="https://www.itftennis.com/en/tours/tie-break-tens/" target="_self">Tie Break Tens</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                            <p>LA 2028</p>
+                                        <ul>
+                                                <li><a href="https://www.itftennis.com/en/events/olympics-la-2028/home/" target="_self">Olympic Tennis Event</a></li>
+                                                <li><a href="https://www.itftennis.com/en/events/paralympics-la-2028/home/" target="_self">Paralympic Wheelchair Tennis Event</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                            <p>More</p>
+                                        <ul>
+                                                <li><a href="https://www.itftennis.com/en/itf-tours/grand-slam-tournaments/" target="_self">Grand Slam tournaments</a></li>
+                                                <li><a href="/en/wheelchair-tennis-hall-of-champions/" target="_self">Wheelchair Tennis Hall of Champions</a></li>
+                                                <li><a href="https://www.itftennis.com/en/about-us/2026-world-tennis-photograph-of-the-year/" target="_self">2026 World Tennis Photograph of the Year</a></li>
+                                        </ul>
+                                    </div>
+                                                            </nav>
+                        </div>
+                </li>
+                <li>
+                        <a class="main-nav__link " href="#">Tournaments</a>
+
+                        <div class="sub-nav">
+                            <nav role="navigation" class="container  sub-nav__links">
+                                    <div class="">
+                                            <p>World Tennis Tour Calendars</p>
+                                        <ul>
+                                                <li><a href="/en/tournament-calendar/womens-world-tennis-tour-calendar/" target="_self">Women&#39;s Calendar</a></li>
+                                                <li><a href="/en/tournament-calendar/mens-world-tennis-tour-calendar/" target="_self">Men&#39;s Calendar</a></li>
+                                                <li><a href="/en/tournament-calendar/world-tennis-tour-juniors-calendar/" target="_self">Juniors Calendar</a></li>
+                                                <li><a href="/en/tournament-calendar/world-tennis-masters-tour-calendar/" target="_self">Masters Tour Calendar</a></li>
+                                                <li><a href="/en/tournament-calendar/uniqlo-wheelchair-tennis-calendar/" target="_self">Wheelchair Tennis Calendar</a></li>
+                                                <li><a href="/en/tournament-calendar/beach-tennis-tour-calendar/" target="_self">Beach Tennis Calendar</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                            <p>World Cup of Tennis Calendars</p>
+                                        <ul>
+                                                <li><a href="https://www.billiejeankingcup.com/en/draws-results/2026" target="_blank">Billie Jean King Cup Calendar</a></li>
+                                                <li><a href="https://www.daviscup.com/en/draws-results/2026" target="_blank">Davis Cup Calendar</a></li>
+                                        </ul>
+                                    </div>
+       

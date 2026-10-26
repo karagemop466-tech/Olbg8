@@ -1,0 +1,388 @@
+[
+ {
+  "url": "https://www.atptour.com/en/rankings/singles",
+  "sport": "tennis",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 601969,
+  "snippet": "<!doctype html> <html class=\"no-js\" lang=\"en\" dir=\"ltr\"> <head> <script> window.atp_settings = {}; window.atp_settings.pre_roll_ad_unit = \"video-ad-atp\"; </script> <!-- GTM Head Tag --> <!-- Google Tag Manager --> <script nonce=\"d55737f6-455f-44d7-878a-bb9d11e85a09\"> (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.nonce='d55737f6-455f-44d7-878a-bb9d11e85a09'; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-KP6F8L"
+ },
+ {
+  "url": "https://www.wtatennis.com/rankings/singles",
+  "sport": "tennis",
+  "status": 200,
+  "ctype": "text/html;charset=utf-8",
+  "bytes": 1178016,
+  "snippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"> <meta property=\"fb:pages\" content=\"182910818810893\" /> <meta property=\"fb:pages\" content=\"26081741101\" /> <meta name=\"twitter:card\" content=\"summary\" /> <link rel=\"icon\" type=\"image/svg+xml\" href=\"/resources/v7.53.16/favicon.svg\" /> <link rel=\"icon\" type=\"image/png\" href=\"/resources/v7.53.16/favicon-96x96.png\" sizes=\"96x96\" /> <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/resources/v7.53.16/favicon.ico\" sizes=\"32x32\" /> <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/re"
+ },
+ {
+  "url": "https://www.itftennis.com/en/rankings/",
+  "sport": "tennis",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 53090,
+  "snippet": "<!doctype html> <html class=\"js-priorityNav\" lang=\"en\"> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WZPTKN7');</script> <!-- End Google Tag Manager --> <script> window.googlefc = window.googlefc || {}; googlefc.controlledMessagingFunction = (message) => { console.log('Funding Choices message triggered, suppressing it'); message.proceed(false); }; </script> <script asy"
+ },
+ {
+  "url": "https://hs-consumer-api.espncricinfo.com/v1/pages/matches/current?lang=en",
+  "sport": "cricket",
+  "status": 403,
+  "ctype": "text/html",
+  "bytes": 431,
+  "snippet": "<HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;hs&#45;consumer&#45;api&#46;espncricinfo&#46;com&#47;v1&#47;pages&#47;matches&#47;current&#63;\" on this server.<P> Reference&#32;&#35;18&#46;46dfda17&#46;1793047059&#46;55fe56 <P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;46dfda17&#46;1793047059&#46;55fe56</P> </BODY> </HTML>"
+ },
+ {
+  "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
+  "sport": "cricket",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 458771,
+  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cfebd638e4c0d914.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/9b509979d6cddf21.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/99b15d861e6423dd.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/508d0201e922b3e1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/3e81e9666"
+ },
+ {
+  "url": "https://www.espncricinfo.com/series",
+  "sport": "cricket",
+  "status": 403,
+  "ctype": "text/html",
+  "bytes": 376,
+  "snippet": "<HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;espncricinfo&#46;com&#47;series\" on this server.<P> Reference&#32;&#35;18&#46;46dfda17&#46;1793047061&#46;56158d <P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;46dfda17&#46;1793047061&#46;56158d</P> </BODY> </HTML>"
+ },
+ {
+  "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+  "sport": "basketball",
+  "status": 403,
+  "ctype": "text/html",
+  "bytes": 443,
+  "snippet": "<HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;cdn&#46;nba&#46;com&#47;static&#47;json&#47;liveData&#47;scoreboard&#47;todaysScoreboard&#95;00&#46;json\" on this server.<P> Reference&#32;&#35;18&#46;d6643017&#46;1793047063&#46;a2d85d6 <P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;d6643017&#46;1793047063&#46;a2d85d6</P> </BODY> </HTML>"
+ },
+ {
+  "url": "https://stats.nba.com/stats/leaguestandingsv3?LeagueID=00&Season=2025-26&SeasonType=Regular%20Season",
+  "sport": "basketball",
+  "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=25)"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+  "sport": "basketball",
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "bytes": 179110,
+  "snippet": "{\"leagues\":[{\"id\":\"46\",\"uid\":\"s:40~l:46\",\"name\":\"National Basketball Association\",\"abbreviation\":\"NBA\",\"slug\":\"nba\",\"season\":{\"year\":2027,\"startDate\":\"2026-09-30T07:00Z\",\"endDate\":\"2027-06-26T06:59Z\",\"displayName\":\"2026-27\",\"type\":{\"id\":\"2\",\"type\":2,\"name\":\"Regular Season\",\"abbreviation\":\"reg\"}},\"logos\":[{\"href\":\"https://a.espncdn.com/i/teamlogos/leagues/500/nba.png\",\"width\":500,\"height\":500,\"alt\":\"\",\"rel\":[\"full\",\"default\"],\"lastUpdated\":\"2018-06-05T12:07Z\"},{\"href\":\"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true\",\"width\":500,\"height\":500,\"alt\":\"\",\"rel\":[\"full\",\"dark\"],\"lastUpdated\":\"2026-10-25T18:50Z\"}],\"calendarType\":\"day\",\"calendar"
+ },
+ {
+  "url": "https://api-web.nhle.com/v1/schedule/now",
+  "sport": "ice_hockey",
+  "status": 200,
+  "ctype": "application/json",
+  "bytes": 92954,
+  "snippet": "{\"nextStartDate\":\"2026-11-02\",\"previousStartDate\":\"2026-10-19\",\"gameWeek\":[{\"date\":\"2026-10-26\",\"dayAbbrev\":\"MON\",\"numberOfGames\":3,\"datePromo\":[],\"games\":[{\"id\":2026020185,\"season\":20262027,\"gameType\":2,\"venue\":{\"default\":\"Madison Square Garden\"},\"neutralSite\":false,\"startTimeUTC\":\"2026-10-26T23:00:00Z\",\"easternUTCOffset\":\"-04:00\",\"venueUTCOffset\":\"-04:00\",\"venueTimezone\":\"America/New_York\",\"gameState\":\"FUT\",\"gameScheduleState\":\"OK\",\"tvBroadcasts\":[{\"id\":651,\"market\":\"A\",\"countryCode\":\"US\",\"network\":\"ABTV \",\"sequenceNumber\":1},{\"id\":324,\"market\":\"N\",\"countryCode\":\"US\",\"network\":\"NHLN\",\"sequenceNumber\":35},{\"id\":281,\"market\":\"N\",\"countryCode\":\"CA\",\"network\":\"TVAS\",\"sequenceNumber\":120},{\"id\""
+ },
+ {
+  "url": "https://api-web.nhle.com/v1/standings/now",
+  "sport": "ice_hockey",
+  "status": 200,
+  "ctype": "application/json",
+  "bytes": 58203,
+  "snippet": "{\"wildCardIndicator\":true,\"standingsDateTimeUtc\":\"2026-10-26T20:38:00Z\",\"standings\":[{\"conferenceAbbrev\":\"E\",\"conferenceHomeSequence\":15,\"conferenceL10Sequence\":1,\"conferenceName\":\"Eastern\",\"conferenceRoadSequence\":1,\"conferenceSequence\":1,\"date\":\"2026-10-26\",\"divisionAbbrev\":\"M\",\"divisionHomeSequence\":8,\"divisionL10Sequence\":1,\"divisionName\":\"Metropolitan\",\"divisionRoadSequence\":1,\"divisionSequence\":1,\"gameTypeId\":2,\"gamesPlayed\":13,\"goalDifferential\":18,\"goalDifferentialPctg\":1.384615,\"goalAgainst\":33,\"goalFor\":51,\"goalsForPctg\":3.923077,\"homeGamesPlayed\":4,\"homeGoalDifferential\":3,\"homeGoalsAgainst\":10,\"homeGoalsFor\":13,\"homeLosses\":1,\"homeOtLosses\":1,\"homePoints\":5,\"homeRegulationPlusOtW"
+ },
+ {
+  "url": "https://api-web.nhle.com/v1/club-schedule-season/TOR/now",
+  "sport": "ice_hockey",
+  "status": 200,
+  "ctype": "application/json",
+  "bytes": 188506,
+  "snippet": "{\"previousSeason\":20252026,\"currentSeason\":20262027,\"clubTimezone\":\"America/Toronto\",\"clubUTCOffset\":\"-04:00\",\"games\":[{\"id\":2026010006,\"season\":20262027,\"gameType\":1,\"gameDate\":\"2026-09-19\",\"venue\":{\"default\":\"Scotiabank Arena\"},\"neutralSite\":false,\"startTimeUTC\":\"2026-09-19T23:00:00Z\",\"easternUTCOffset\":\"-04:00\",\"venueUTCOffset\":\"-04:00\",\"venueTimezone\":\"America/Toronto\",\"gameState\":\"FINAL\",\"gameScheduleState\":\"OK\",\"tvBroadcasts\":[{\"id\":293,\"market\":\"H\",\"countryCode\":\"CA\",\"network\":\"TSN4\",\"sequenceNumber\":137},{\"id\":131,\"market\":\"A\",\"countryCode\":\"CA\",\"network\":\"TSN2\",\"sequenceNumber\":112},{\"id\":242,\"market\":\"A\",\"countryCode\":\"CA\",\"network\":\"RDSI\",\"sequenceNumber\":147}],\"awayTeam\":{\"id\":8,"
+ },
+ {
+  "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1",
+  "sport": "baseball",
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "bytes": 1660,
+  "snippet": "{\"copyright\":\"Copyright 2026 MLB Advanced Media, L.P. Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt\",\"totalItems\":1,\"totalEvents\":0,\"totalGames\":1,\"totalGamesInProgress\":0,\"dates\":[{\"date\":\"2026-10-26\",\"totalItems\":1,\"totalEvents\":0,\"totalGames\":1,\"totalGamesInProgress\":0,\"games\":[{\"gamePk\":849804,\"gameGuid\":\"e203009b-9225-488d-a599-d9601cc42d85\",\"link\":\"/api/v1.1/game/849804/feed/live\",\"gameType\":\"W\",\"season\":\"2026\",\"gameDate\":\"2026-10-27T00:00:00Z\",\"officialDate\":\"2026-10-26\",\"status\":{\"abstractGameState\":\"Preview\",\"codedGameState\":\"P\",\"detailedState\":\"Pre-Game\",\"statusCode\":\"P\",\"startTimeTBD\":false,\"abstractGame"
+ },
+ {
+  "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026",
+  "sport": "baseball",
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "bytes": 80986,
+  "snippet": "{\"copyright\":\"Copyright 2026 MLB Advanced Media, L.P. Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt\",\"records\":[{\"standingsType\":\"regularSeason\",\"league\":{\"id\":103,\"link\":\"/api/v1/league/103\"},\"division\":{\"id\":201,\"link\":\"/api/v1/divisions/201\"},\"sport\":{\"id\":1,\"link\":\"/api/v1/sports/1\"},\"roundRobin\":{\"status\":\"false\"},\"lastUpdated\":\"2026-10-23T20:52:56.942Z\",\"teamRecords\":[{\"team\":{\"id\":139,\"name\":\"Rays\",\"link\":\"/api/v1/teams/139\"},\"season\":\"2026\",\"streak\":{\"streakCode\":\"L1\",\"streakType\":\"losses\",\"streakNumber\":1},\"clinchIndicator\":\"z\",\"divisionRank\":\"1\",\"leagueRank\":\"1\",\"sportRank\":\"3\",\"gamesPlayed\":162,\"gamesBac"
+ },
+ {
+  "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1",
+  "sport": "baseball",
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "bytes": 23219,
+  "snippet": "{\"copyright\":\"Copyright 2026 MLB Advanced Media, L.P. Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt\",\"teams\":[{\"springLeague\":{\"id\":114,\"name\":\"Cactus League\",\"link\":\"/api/v1/league/114\",\"abbreviation\":\"CL\"},\"allStarStatus\":\"N\",\"id\":133,\"name\":\"Athletics\",\"link\":\"/api/v1/teams/133\",\"season\":2026,\"venue\":{\"id\":2529,\"name\":\"Sutter Health Park\",\"link\":\"/api/v1/venues/2529\"},\"springVenue\":{\"id\":2507,\"link\":\"/api/v1/venues/2507\"},\"teamCode\":\"ath\",\"fileCode\":\"ath\",\"abbreviation\":\"ATH\",\"teamName\":\"Athletics\",\"locationName\":\"Sacramento\",\"firstYearOfPlay\":\"1901\",\"league\":{\"id\":103,\"name\":\"American League\",\"link\":\"/api/v1/le"
+ },
+ {
+  "url": "https://www.nrl.com/draw/data?competition=111&season=2026&round=1",
+  "sport": "rugby_league",
+  "status": 200,
+  "ctype": "text/html;charset=UTF-8",
+  "bytes": 862,
+  "snippet": "<html><head><title>Submit This Form</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"></head><body onload=\"javascript:document.forms[0].submit()\"><form method=\"post\" action=\"https://www.nrl.com/account/signin-nrl\"><input type=\"hidden\" name=\"error\" value=\"login_required\"/><input type=\"hidden\" name=\"error_description\" value=\"Login required\"/><input type=\"hidden\" name=\"state\" value=\"OpenIdConnect.AuthenticationProperties=tvtVWImWhKnUBuWJsIqGcaWFu68EtmP_PqTxCFaVlO4b_551Y5KAxX-t1Ulx7RJMrqVErX_3biFgDo0X4UQKkfQ6refTOcsGkKespDcXpL_BXw2B5FxJT8Wt7nUn0PPRmnKDvMLQg8a05ZkC0kvFjFpSBEQq9YmHCQhaD-8tBAcj0pYcw2RwdQeTOd-mAclvizKRFbyntjlVGDHsHLn5FynT0GNnPaID5WJ0n1ou3X5D-Cg1OnEGbaoA_yilmPNhKi_KzH4WQ706"
+ },
+ {
+  "url": "https://www.rugby-league.com/",
+  "sport": "rugby_league",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 90001,
+  "snippet": "<!doctype html> <html lang=\"en\" class=\"no-js\"> <head> <script id=\"Cookiebot\" src=https://consent.cookiebot.com/uc.js data-cbid=\"b9f16f6b-bb3e-48db-8a27-2843e20040ef\" data-blockingmode=\"auto\" type=\"text/javascript\"></script> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The Home of Rugby League</title> <meta name=\"keywords\" content=\"\" /> <meta name=\"description\" content=\"The Rugby Football League is the governing body for rugby league in England and operates all tiers of the game from the elite level to grass roots.\" /> <script>window.page_loading_colour = '';</script> <script type=\"application/ld+json\"> { \"@context\": \"https://schema.org\", "
+ },
+ {
+  "url": "https://www.superleague.co.uk/fixtures",
+  "sport": "rugby_league",
+  "status": 500,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 1646,
+  "snippet": "<!DOCTYPE html><!-- \"' --></textarea></script></style></pre></xmp></a></audio></button></canvas></datalist></details></dialog></iframe></listing></meter></noembed></noframes></noscript></optgroup></option></progress></rp></select></table></template></title></video> <meta charset=\"utf-8\"> <meta name=viewport content=\"width=device-width, initial-scale=1\"> <meta name=robots content=noindex> <meta name=generator content=\"Tracy\"> <title>Server Error</title> <style> #tracy-error { all: initial; position: absolute; top: 0; left: 0; right: 0; height: 70vh; min-height: 400px; display: flex; align-items: center; justify-content: center; z-index: 1000; font: 16px/1.4 sans-serif; color: #333 } #tracy-er"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/rugby-league/scoreboard",
+  "sport": "rugby_league",
+  "status": 404,
+  "ctype": "",
+  "bytes": 12,
+  "snippet": "{\"code\":404}"
+ },
+ {
+  "url": "https://www.premiershiprugby.com/fixtures/",
+  "sport": "rugby_union",
+  "status": 200,
+  "ctype": "text/html;charset=utf-8",
+  "bytes": 314867,
+  "snippet": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"preconnect\" href=\"https://chat.satis.fi\"> <script src=\"https://forms.incrowdsports.com/js/index.js\"></script> <script src=\"https://polls.incrowdsports.com/js/index.js\"></script> <script src=\"https://chat.satis.fi/popup/embedder?popupId=17709\" id=\"satisfiScript\"></script> <script src=\"https://cdn-ukwest.onetrust.com/consent/01a0aedf-0989-7f19-83f4-bcd806def622/OtAutoBlock.js\"></script> <script src=\"https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js\" data-domain-script=\"01a0aedf-0989-7f19-83f4-bcd806def622\"></script> <style>@font-face{font-display:swap;fon"
+ },
+ {
+  "url": "https://www.unitedrugby.com/",
+  "sport": "rugby_union",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 600930,
+  "snippet": "<!-- page display --> <!doctype html> <html lang=\"en-US\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Official website of the United Rugby Championship | United Rugby Championship</title> <meta name=\"description\" content=\"Follow all the URC coverage with match centre, club news and updates, videos, team and player stats, league tables and more.\"> <meta property=\"og:title\" content=\"Official website of the United Rugby Championship | United Rugby Championship\"> <meta property=\"og:description\" content=\"Follow all the URC coverage with match centre, club news and updates, videos, team and player stats, league tables and more.\"> <meta "
+ },
+ {
+  "url": "https://www.sixnationsrugby.com/",
+  "sport": "rugby_union",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 371430,
+  "snippet": "<!DOCTYPE html><html lang=\"en\" translate=\"no\" class=\"mainLayout_mainLayout__RWRrn\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/06f4d6625443549c-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/164bd4d402a2e15a-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/4b4d3bd8d8ed3697-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/583c29e22a3ae3a3-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/6"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/scoreboard",
+  "sport": "rugby_union",
+  "status": 404,
+  "ctype": "",
+  "bytes": 12,
+  "snippet": "{\"code\":404}"
+ },
+ {
+  "url": "https://www.ihf.info/competitions",
+  "sport": "handball",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 199273,
+  "snippet": "<!DOCTYPE html> <html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# \"> <head> <!-- Global site tag (gtag.js) - Google Analytics --> <script> let ga_id = \"G-L2DC7J793W\"; let ga_script = document.createElement('script'); ga_script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id='+ga_id); document.head.appendChild(ga_script); let gtag_script = docu"
+ },
+ {
+  "url": "https://ehfcl.eurohandball.com/en/matches/",
+  "sport": "handball",
+  "status": 404,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 40379,
+  "snippet": "<!DOCTYPE html> <html class=\"no-outline\" lang=\"en\"> <head> <title>Error404</title> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <!-- disabling format detection --> <meta name=\"format-detection\" content=\"telephone=no\"> <meta name=\"format-detection\" content=\"date=no\"> <meta name=\"format-detection\" content=\"address=no\"> <meta name=\"format-detection\" content=\"email=no\"> <!-- ./disabling format detection --> <meta property=\"fb:pages\" content=\"391734994208331\" /> <meta name=\"description\" content=\"\"> <meta property=\"og:type\" content=\"website\" /> <meta property=\"og:title\" content=\"Error404\" /> <meta property=\"og:url\" content=\"https:/"
+ },
+ {
+  "url": "https://www.eurohandball.com/",
+  "sport": "handball",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 163544,
+  "snippet": "<!DOCTYPE html> <html class=\"no-outline\" lang=\"en\"> <head> <title>European Handball Federation - Home of Handball | EHF</title> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <!-- disabling format detection --> <meta name=\"format-detection\" content=\"telephone=no\"> <meta name=\"format-detection\" content=\"date=no\"> <meta name=\"format-detection\" content=\"address=no\"> <meta name=\"format-detection\" content=\"email=no\"> <!-- ./disabling format detection --> <meta property=\"fb:pages\" content=\"391734994208331\" /> <meta name=\"description\" content=\"Competitions &#x2713; Teams &#x2713; Tickets &#x2713; News and more &#x27A4; EHF: Home of Ha"
+ },
+ {
+  "url": "https://en.volleyballworld.com/volleyball/competitions/",
+  "sport": "volleyball",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 151728,
+  "snippet": "<!DOCTYPE html><html lang=en><head><meta charset=utf-8 /><meta name=viewport content=\"width=device-width, initial-scale=1.0\"/><link rel=\"shortcut icon\" href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon.ico /><link rel=icon href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon-16.png sizes=16x16 /><link rel=icon href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon-32.png sizes=32x32 /><link rel=icon href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon-64.png sizes=64x64 /><link rel=icon href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon"
+ },
+ {
+  "url": "https://www.fivb.com/",
+  "sport": "volleyball",
+  "status": 202,
+  "ctype": "text/html",
+  "bytes": 169,
+  "snippet": "<html><head><link rel=\"icon\" href=\"data:;\"><meta http-equiv=\"refresh\" content=\"0;/.well-known/sgcaptcha/?r=%2F&y=ipr:57.151.123.246:1793047117.054\"></meta></head></html>"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/volleyball/scoreboard",
+  "sport": "volleyball",
+  "status": 404,
+  "ctype": "",
+  "bytes": 12,
+  "snippet": "{\"code\":404}"
+ },
+ {
+  "url": "https://www.owgr.com/ranking",
+  "sport": "golf",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 166110,
+  "snippet": "<!DOCTYPE html><html data-theme=\"dark\" style=\"color-scheme:dark\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"/><title data-next-head=\"\">Official World Golf Ranking - Ranking</title><meta name=\"robots\" content=\"index,follow\" data-next-head=\"\"/><meta name=\"description\" content=\"ELIGIBLE TOURS. OFFICIAL WORLD GOLF RANKING FOUNDERS. STAY IN TOUCH. \u00a9 2022 - OFFICIAL WORLD GOLF RANKING.\" data-next-head=\"\"/><meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\"/><meta property=\"og:tit"
+ },
+ {
+  "url": "https://www.pgatour.com/",
+  "sport": "golf",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 2011064,
+  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta content=\"width=device-width, height=device-height, initial-scale=1, maximum-scale=1\" name=\"viewport\" data-next-head=\"\"/><script async=\"\" id=\"gigya-lib\" src=\"https://cdns.us1.gigya.com/js/gigya.js?apikey=3_IscKmAoYcuwP8zpTnatC3hXBUm8rPuI-Hg_cZJ-jL-M7LgqCkxmwe-ps1Qy7PoWd\" type=\"text/javascript\">{sessionExpiration: -2}</script><title data-next-head=\"\">PGATOUR.COM - Official Home of Golf and the FedExCup - PGA TOUR</title><meta content=\"#20487C\" name=\"theme-color\" data-next-head=\"\"/><meta content=\"PGATOUR.COM - Official Home of Golf and the FedExCup - PGA TOUR\" name=\"title\" property=\"og:title\" data-next-head=\"\"/>"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard",
+  "sport": "golf",
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "bytes": 623656,
+  "snippet": "{\"leagues\":[{\"id\":\"1106\",\"uid\":\"s:1100~l:1106\",\"name\":\"PGA Tour\",\"abbreviation\":\"PGA\",\"slug\":\"pga\",\"season\":{\"year\":2026,\"startDate\":\"2026-01-08T05:00Z\",\"endDate\":\"2026-12-13T05:00Z\",\"displayName\":\"2026\",\"type\":{\"id\":\"2\",\"type\":2,\"name\":\"Regular Season\",\"abbreviation\":\"reg\"}},\"logos\":[{\"href\":\"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/pgatour.png\",\"width\":500,\"height\":500,\"alt\":\"\",\"rel\":[\"full\",\"default\"],\"lastUpdated\":\"2026-10-25T19:24Z\"},{\"href\":\"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/pgatour.png\",\"width\":500,\"height\":500,\"alt\":\"\",\"rel\":[\"full\",\"dark\"],\"lastUpdated\":\"2026-10-26T11:15Z\"}],\"calendarType\":\"list\",\"calendarIsWhitelist\":true,\"calen"
+ },
+ {
+  "url": "https://www.europeantour.com/dpworld-tour/schedule/",
+  "sport": "golf",
+  "status": 403,
+  "ctype": "text/html",
+  "bytes": 408,
+  "snippet": "<HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;europeantour&#46;com&#47;dpworld&#45;tour&#47;schedule&#47;\" on this server.<P> Reference&#32;&#35;18&#46;df5ec817&#46;1793047122&#46;91370c53 <P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;df5ec817&#46;1793047122&#46;91370c53</P> </BODY> </HTML>"
+ },
+ {
+  "url": "https://www.pdc.tv/",
+  "sport": "darts",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 1241747,
+  "snippet": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\"> <script src></script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer',\"GTM-WML8L85\");</script> <script> window.fwSettings={ 'widget_id':undefined }; !function(){if(\"function\"!=typeof window.FreshworksWidget){var n=function(){n.q"
+ },
+ {
+  "url": "https://www.pdc.tv/tournaments",
+  "sport": "darts",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 1241747,
+  "snippet": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\"> <script src></script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer',\"GTM-WML8L85\");</script> <script> window.fwSettings={ 'widget_id':undefined }; !function(){if(\"function\"!=typeof window.FreshworksWidget){var n=function(){n.q"
+ },
+ {
+  "url": "https://www.dartconnect.com/",
+  "sport": "darts",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 132403,
+  "snippet": "<!DOCTYPE html> <html lang=\"en-US\" class=\"html_stretched responsive av-preloader-disabled av-default-lightbox html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky html_header_shrinking_disabled html_header_topbar_active html_mobile_menu_tablet html_header_searchicon_disabled html_content_align_center html_header_unstick_top_disabled html_header_stretch html_minimal_header html_minimal_header_shadow html_elegant-blog html_modern-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_206 av-cookies-consent-show-message-bar av-cookies-cookie-consent-enabled av-"
+ },
+ {
+  "url": "http://api.snooker.org/?t=5&s=2026",
+  "sport": "snooker",
+  "status": 401,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 5041,
+  "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <title>IIS 10.0 Detailed Error - 401.5 - Unauthorized</title> <style type=\"text/css\"> <!-- body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} .config_source code{font-size:.8em;color:#000000;} pre{margin:0;font-size:1.4em;word-wrap:break-word;} ul,ol{margin:10px 0 10px 5px;} ul.first,ol.first{margin-top:5px;} fieldset{padding:0 15px 10px 15px;word-break:break-all;} .summary-container fieldset{padding-bottom:5px;margin-top:4px;} legend.no-expand-"
+ },
+ {
+  "url": "https://api.snooker.org/?t=5&s=2026",
+  "sport": "snooker",
+  "status": 403,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 4785,
+  "snippet": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <title>IIS 10.0 Detailed Error - 403.502 - Forbidden</title> <style type=\"text/css\"> <!-- body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} .config_source code{font-size:.8em;color:#000000;} pre{margin:0;font-size:1.4em;word-wrap:break-word;} ul,ol{margin:10px 0 10px 5px;} ul.first,ol.first{margin-top:5px;} fieldset{padding:0 15px 10px 15px;word-break:break-all;} .summary-container fieldset{padding-bottom:5px;margin-top:4px;} legend.no-expand-a"
+ },
+ {
+  "url": "https://wst.tv/",
+  "sport": "snooker",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 181180,
+  "snippet": "<!doctype html> <html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\"> <head> <title>Home of World Snooker - World Snooker Tour</title><meta data-n-head=\"ssr\" name=\"referrer\" content=\"strict-origin-when-cross-origin\"><meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-n-head=\"ssr\" data-hid=\"description\" name=\"description\" content=\"The Official Website of World Snooker\"><meta data-n-head=\"ssr\" data-hid=\"author\" name=\"author\" content=\"World Snooker Tour\"><meta data-n-head=\"ssr\" data-hid=\"apple-mobile-web-app-title\" name=\"apple-mobile-web-app-title\" content=\"Home of World Snooke"
+ },
+ {
+  "url": "https://www.snooker.org/",
+  "sport": "snooker",
+  "status": 200,
+  "ctype": "text/html",
+  "bytes": 51061,
+  "snippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/> <meta property=\"og:title\" content=\"Snooker.org\" /> <meta property=\"og:image\" content=\"/img/snookerorg.png\" /> <meta property=\"og:description\" content=\"The place to go for the latest snooker results and rankings\" /> <title>Snooker.org</title> <meta name=\"description\" content=\"The place to go for the latest snooker results and rankings\" /> <meta name=\"keywords\" content=\"snooker\" /> <meta name=\"Publisher\" content=\"snooker.org\" /> <meta name=\"Author\" content=\"Hermund \u00c3 rdalen\" /> <meta name=\"google-site-verification\" "
+ },
+ {
+  "url": "https://api.jolpi.ca/ergast/f1/2026/races.json",
+  "sport": "motor_racing",
+  "status": 200,
+  "ctype": "application/json",
+  "bytes": 14298,
+  "snippet": "{\"MRData\":{\"xmlns\":\"\",\"series\":\"f1\",\"url\":\"https://api.jolpi.ca/ergast/f1/2026/races.json\",\"limit\":\"30\",\"offset\":\"0\",\"total\":\"23\",\"RaceTable\":{\"season\":\"2026\",\"Races\":[{\"season\":\"2026\",\"round\":\"1\",\"url\":\"https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix\",\"raceName\":\"Australian Grand Prix\",\"Circuit\":{\"circuitId\":\"albert_park\",\"url\":\"https://en.wikipedia.org/wiki/Albert_Park_Circuit\",\"circuitName\":\"Albert Park Grand Prix Circuit\",\"Location\":{\"lat\":\"-37.8497\",\"long\":\"144.968\",\"locality\":\"Melbourne\",\"country\":\"Australia\"}},\"date\":\"2026-03-08\",\"time\":\"04:00:00Z\",\"FirstPractice\":{\"date\":\"2026-03-06\",\"time\":\"01:30:00Z\"},\"SecondPractice\":{\"date\":\"2026-03-06\",\"time\":\"05:00:00Z\"},\"ThirdPractice"
+ },
+ {
+  "url": "https://www.formula1.com/en/results",
+  "sport": "motor_racing",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 477826,
+  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/mercedes/georus01/2026mercedesgeorus01right.webp\"/><link rel=\"preload\" as=\"image\" href=\"https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/v1740000001/common/f1/2026/mercedes/2026mercedeslogowhite.webp\"/><link rel=\"preload\" as=\"image\" href=\"https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/c"
+ },
+ {
+  "url": "https://www.motogp.com/",
+  "sport": "motor_racing",
+  "status": 200,
+  "ctype": "text/html;charset=utf-8",
+  "bytes": 412545,
+  "snippet": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"twitter:title\" content=\"MotoGP\u2122 World Championship | Calendar | Results | Live Streaming\"/> <meta name=\"twitter:creator:id\" content=\"14082692\"/> <meta name=\"twitter:card\" content=\"summary_large_image\"/> <meta name=\"twitter:url\" content=\"www.motogp.com/\"/> <meta name=\"twitter:image\" content=\"https://resources.motogp.pulselive.com/photo-resources/2026/06/25/7b355c7b-6a19-42be-ac53-e3cbb01f470c/MotoGP.jfif?width=1024&height=512\"/> <meta name=\"twitter:image:height\" content=\"512\"/> <meta prope"
+ },
+ {
+  "url": "https://www.gaa.ie/fixtures-results/",
+  "sport": "gaelic",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 1314534,
+  "snippet": "<!DOCTYPE html><html lang=\"en\" class=\"font-foco\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/b890550200953777.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1c45fb95e52719e1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/7b6d4bb14714a50d.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/6b7cf012afe6b2fd.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/718a5c76ca0f1f55.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1ade570838a9237d.css\" data-prec"
+ },
+ {
+  "url": "https://www.gaa.ie/hurling/",
+  "sport": "gaelic",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 265526,
+  "snippet": "<!DOCTYPE html><html lang=\"en\" class=\"font-foco\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/b890550200953777.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1c45fb95e52719e1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/7b6d4bb14714a50d.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/6b7cf012afe6b2fd.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/718a5c76ca0f1f55.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1ade570838a9237d.css\" data-prec"
+ },
+ {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/gaelic-games/scoreboard",
+  "sport": "gaelic",
+  "status": 404,
+  "ctype": "",
+  "bytes": 12,
+  "snippet": "{\"code\":404}"
+ },
+ {
+  "url": "https://www.gbgb.org.uk/results",
+  "sport": "greyhounds",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 81995,
+  "snippet": "<!doctype html> <!--[if lt IE 7]><html class=\"no-js ie ie6 lt-ie9 lt-ie8 lt-ie7\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]><html class=\"no-js ie ie7 lt-ie9 lt-ie8\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]><html class=\"no-js ie ie8 lt-ie9\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--><html class=\"no-js\" lang=\"en-US\"> <!--<![endif]--> <head> <meta charset=\"utf-8\"> <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"> <title> Results | Greyhound Board of Great Britain </title> <meta content=\"320\" name=\"MobileOptimized\"> <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/> <link href=\"https://fonts.googleapis.com/css?family=Playfair+Display:400,700\" rel=\"stylesheet\"> <meta co"
+ },
+ {
+  "url": "https://www.gbgb.org.uk/",
+  "sport": "greyhounds",
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "bytes": 96287,
+  "snippet": "<!doctype html> <!--[if lt IE 7]><html class=\"no-js ie ie6 lt-ie9 lt-ie8 lt-ie7\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]><html class=\"no-js ie ie7 lt-ie9 lt-ie8\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]><html class=\"no-js ie ie8 lt-ie9\" lang=\"en-US\"> <![endif]--> <!--[if gt IE 8]><!--><html class=\"no-js\" lang=\"en-US\"> <!--<![endif]--> <head> <meta charset=\"utf-8\"> <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"> <title> Greyhound Board of Great Britain | GBGB </title> <meta content=\"320\" name=\"MobileOptimized\"> <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/> <link href=\"https://fonts.googleapis.com/css?family=Playfair+Display:400,700\" rel=\"stylesheet\"> <meta conte"
+ },
+ {
+  "url": "https://www.britishgreyhoundracing.co.uk/",
+  "sport": "greyhounds",
+  "error": "HTTPSConnectionPool(host='www.britishgreyhoundracing.co.uk', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='w"
+ }
+]
