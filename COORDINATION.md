@@ -153,3 +153,10 @@ Last updated: 2026-10-26 UTC
 - 2026-10-26: Opened PR [#8](https://github.com/karagemop466-tech/Olbg8/pull/8) from `arena/40c30722-olbg8`; merge and Pages deployment status will be recorded here after release.
 
 - 7fbe3ee0: PR #9 first merge attempt was rejected because PR #8 advanced main and appended the shared board. Re-integrated origin/main, preserving both coordination additions; no source-scope overlaps with evidence-lab.
+
+## Publication result — expanded lab
+- **PR #9 merged successfully** at 2026-10-26T20:44:52Z: https://github.com/karagemop466-tech/Olbg8/pull/9, merge `3d78b4eaf884580c4801b05c27c85ae50bb87626`.
+- Required quality checks passed before merge. Legacy Pages build/deploy https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383563 succeeded (build, report-build-status, deploy). Live lab and Flagged for Review pages were independently retrieved successfully through the page tool at https://karagemop466-tech.github.io/Olbg8/evidence-lab/ and https://karagemop466-tech.github.io/Olbg8/evidence-lab/review/index.html. Confirmed 116 observations, 15 categories, zero lab recommendations and source-linked review flags.
+- Integration/PR/publication status: **done** for this lab, not for the full prediction service. Official-history ingestion, calibrated production prices, exhaustive markets and five original daily picks per sport remain **needs review** and disclosed on the live site.
+- Manual dispatch of the discovery workflow returned HTTP 403 (integration lacks workflow-dispatch permission). No credentials requested or stored. Added a path-scoped push trigger on the required session branch to exercise the same artifact-only collector without modifying main or bypassing access controls.
+- Main changed again via PR #8; R13 wording now explicitly refers to historical main `4d52c4c`, not an assertion that the later root UI still displays the same picks. Archived dataset support remains a review issue. No other owner's root files altered.

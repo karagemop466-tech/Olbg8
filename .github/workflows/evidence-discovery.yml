@@ -1,5 +1,8 @@
 name: Expanded public discovery artifact
 on:
+  push:
+    branches: [arena/7fbe3ee0-olbg8]
+    paths: ['.github/workflows/evidence-discovery.yml']
   schedule:
     - cron: '17 5 * * *'
   workflow_dispatch:
