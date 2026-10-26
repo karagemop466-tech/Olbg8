@@ -62,14 +62,16 @@ jobs:
           f data/raw/official/nhl_standings.json "https://api-web.nhle.com/v1/standings/now"
           f data/raw/official/mlb_standings.json "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason"
           f data/raw/official/f1_races.json "https://api.jolpi.ca/ergast/f1/2026/races/"
+          f data/raw/official/atp_rankings.json "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3"
           cat data/raw/official/_log.txt
 
       - name: Commit raw snapshots
         if: always()
         run: |
+          set -x
           git config user.name "arena-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          rm -rf data/raw/.gitkeep
-          git add -f data/raw data/ci-status.json || true
+          git add -f data/raw || true
+          git status --porcelain | head -30
           git diff --cached --quiet || git commit -m "data: raw source snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git push && break || sleep 5; done
+          git push origin HEAD:${GITHUB_REF_NAME}
