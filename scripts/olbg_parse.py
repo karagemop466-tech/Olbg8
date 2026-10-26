@@ -27,8 +27,6 @@ def parse_event_links(html, sport_slug, sport_id):
         eid = re.search(r"event_id=(\d+)", href).group(1)
         url = href if href.startswith("http") else BASE + href
         name = _txt(a)
-        if not name or len(name) < 3:
-            continue
         # context: nearest ancestor that also contains a date/time string
         ctx = ""
         node = a
@@ -51,6 +49,7 @@ def parse_event_links(html, sport_slug, sport_id):
         rec = {
             "event_id": eid,
             "name": name,
+            "anchor_text": name,
             "url": url,
             "sport_slug": sport_slug,
             "sport_id": sport_id,
@@ -64,13 +63,19 @@ def parse_event_links(html, sport_slug, sport_id):
     # competition path + fixture name from the canonical URL
     # /betting-tips/<Sport>/<Group>/<Comp>/<EventSlug>/<sport_id>
     for rec in events.values():
-        parts = [p for p in rec["url"].split("?")[0].split("/") if p]
-        if len(parts) >= 6:
-            rec["competition_group"] = parts[2].replace("_", " ")
-            rec["competition"] = parts[3].replace("_", " ")
-            rec["fixture_slug"] = parts[4]
-            rec["fixture_name"] = (parts[4].replace("_vs_", " vs ")
+        clean = rec["url"].split("?")[0]
+        clean = clean.split("://", 1)[-1]
+        if "/" in clean:
+            clean = clean.split("/", 1)[1]          # drop host
+        parts = [p for p in clean.split("/") if p]
+        if len(parts) >= 5:
+            rec["competition_group"] = parts[1].replace("_", " ")
+            rec["competition"] = parts[2].replace("_", " ")
+            rec["fixture_slug"] = parts[3]
+            rec["fixture_name"] = (parts[3].replace("_vs_", " vs ")
                                    .replace("_@_", " @ ").replace("_", " "))
+            if " vs " not in (rec.get("name") or "") and " @ " not in (rec.get("name") or ""):
+                rec["name"] = rec["fixture_name"]
         else:
             rec["competition_group"] = rec["competition"] = ""
     return list(events.values())
