@@ -1,0 +1,233 @@
+### Win Tips
+tle
+                max-md:absolute max-md:inset-0
+                md:relative md:aspect-square md:rounded-full
+                lg:w-[7.5rem]
+                md:m-auto md:w-[11.25rem]
+            "></div><!--]--> <!--[-1--><!--]--> <!--[-1--><!--]--><!----><!----></div> <!--[0--><div class=" lg:w-3/4 false "><table class="table compact white text-md"><thead><tr><th class="!text-center"><i class="i-ui-stats text-xs"></i></th><th>Selection</th><th>Win Tips</th><th>%</th></tr></thead><tbody><!--[--><tr><td style="color: rgba(41, 169, 226, 1)" class="text-center scale-150">•</td><td>OKC Thunder</td><td><!--[0--><b>5</b> / 8<!--]--></td><td><!--[0-->63%<!--]--></td></tr><tr><td style="color: rgba(241, 144, 0, 1)" class="text-center scale-150">•</td><td>PHX Suns</td><td><!--[0--><b>3</b> / 8<!--]--></td><td><!--[0-->37%<!--]--></td></tr><!--]--></tbody></table></div><!--]--></div><!--]--><!----></div>
+
+### Win Tips
+[-1--><!--]--> <!--[-1--><!--]--> <!--[0--><!--[0--><div class="stars !inline-block w-fit max-md:text-xs md:!hidden"><div class="filled" style="width: 0%"></div></div><!--]--><!----> <!--[-1--><!--]--><!--]--> <!--[-1--><!--]--></div> <div class="rw win !flex !flex-col max-md:text-xs max-md:mt-0.5 max-md:!gap-0.5 md:gap-1 md:translate-y-px  "><b class="max-md:border-t max-md:border-dashed border-c-border max-md:mt-2 max-md:pt-2 md:text-xs">5 / 7 Win Tips</b> <!--[0--><!--[0--><div style="--confidence: 71%" class="flex items-center text-xs gap-1 max-w-[9.375rem]  svelte-11y396f"><!--[0--><span class="  svelte-11y396f">71%</span><!--]--> <span class="bar rounded relative bg-stats-grey w-full h-2 svelte-11y396f"><!--[0--><!--[--><span class="absolute bg-olbg-orange h-2 rounded w-[var(--confidence)] svelte-11y396f"></span><!--]--><!--]--></span></div><!--]--><!--]--> <!--[-1--><!--]--><!----> <!--[0
+
+### Win Tips
+[-1--><!--]--> <!--[-1--><!--]--> <!--[0--><!--[0--><div class="stars !inline-block w-fit max-md:text-xs md:!hidden"><div class="filled" style="width: 0%"></div></div><!--]--><!----> <!--[-1--><!--]--><!--]--> <!--[-1--><!--]--></div> <div class="rw win !flex !flex-col max-md:text-xs max-md:mt-0.5 max-md:!gap-0.5 md:gap-1 md:translate-y-px  "><b class="max-md:border-t max-md:border-dashed border-c-border max-md:mt-2 max-md:pt-2 md:text-xs">3 / 7 Win Tips</b> <!--[0--><!--[0--><div style="--confidence: 43%" class="flex items-center text-xs gap-1 max-w-[9.375rem]  svelte-11y396f"><!--[0--><span class="  svelte-11y396f">43%</span><!--]--> <span class="bar rounded relative bg-stats-grey w-full h-2 svelte-11y396f"><!--[0--><!--[--><span class="absolute bg-olbg-orange h-2 rounded w-[var(--confidence)] svelte-11y396f"></span><!--]--><!--]--></span></div><!--]--><!--]--> <!--[-1--><!--]--><!----> <!--[0
+
+### event_id
+scalable=no" />
+
+		<!--12qhfyh--><meta name="olbg-cookie-policy-version" content="59"/> <script defer="" src="/sk-assets/js/bookie-ppc-tracking.js"></script> <!--[-1--><!--]--> <!--[0--><meta name="description" content="PHX Suns @ OKC Thunder Tips - Find best bets on the PHX Suns @ OKC Thunder market from expert tipsters."/><!--]--> <!--[0--><link rel="canonical" href="https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"/><!--]--> <!--[-1--><!--]--> <link rel="preconnect" href="https://olbg-shared.scdn1.secure.raxcdn.com" crossorigin="anonymous"/> <!--[-1--><!--]--> <meta property="og:url" content="https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"/> <meta property="og:image" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="o
+
+### event_id
+Suns @ OKC Thunder market from expert tipsters."/><!--]--> <!--[0--><link rel="canonical" href="https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"/><!--]--> <!--[-1--><!--]--> <link rel="preconnect" href="https://olbg-shared.scdn1.secure.raxcdn.com" crossorigin="anonymous"/> <!--[-1--><!--]--> <meta property="og:url" content="https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"/> <meta property="og:image" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="og:image:url" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="og:image:width" content="1200"/> <meta property="og:image:height" content="630"/> <meta property="og:type" content="website"/> 
+
+### event_id
+}
+
+    }
+
+    asyncLoadJs('https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js', '.trustpilot-widget', 1000);
+    </script><!----><!----><!--zakfjb--><!--[0--><!----><script type='application/ld+json'>{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "PHX Suns @ OKC Thunder",
+  "startDate": "2026-10-27T00:00:00.000Z",
+  "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
+  "sport": "Basketball",
+  "competitor": [
+    {
+      "@type": "SportsTeam",
+      "name": "PHX Suns"
+    },
+    {
+      "@type": "SportsTeam",
+      "name": "OKC Thunder"
+    }
+  ]
+}</script><!----><!--]--> <!--[-1--><!--]--><!----><title>PHX Suns @ OKC Thunder Tips - OLBG.com</title>
+		<style>@keyframes svelte-afbxsn-fadeUpMobile{0%{opacity:0;transform:translateY(.5rem)}to{opacity:1;transform:translateY(0)}}@keyframes svelte-afbxsn-f
+
+### odds
+.5rem;line-height:1.5;text-align:center}figure.svelte-io2nr5{position:relative;display:flex;justify-content:center;align-items:center}.i-ui-alert.svelte-io2nr5{color:var(--c-red);font-size:1.8rem}
+
+.l-evs .grd{position:relative}@media not all and (min-width: 768px){.l-evs .rw.sprt{position:absolute;top:.375rem;left:.375rem}.l-evs .rw.slct,.l-evs .rw.win{display:flex;flex-direction:column;gap:0px;padding-left:2.25rem;padding-right:38vw}.l-evs .rw.odds{position:absolute;top:.5rem;right:.5rem;width:30vw}.l-evs .is-tipster-page .sprt{top:.5rem}}@media screen and (min-width: 768px){.l-evs .grd{display:grid;grid-template-columns:.5fr 2fr .7fr .7fr .7fr 2fr 1.5fr;grid-column-gap:0px;grid-row-gap:0px}.l-evs .rw{min-width:0px;padding:.75rem .625rem;padding-left:0}.l-evs .rw.sprt{padding-left:0!important;padding-right:0!important;text-align:center}.l-evs .rw.sprt{grid-area:1 / 1 / 2 / 2}.l-evs .rw.slc
+
+### odds
+width: 768px){.l-evs .grd{display:grid;grid-template-columns:.5fr 2fr .7fr .7fr .7fr 2fr 1.5fr;grid-column-gap:0px;grid-row-gap:0px}.l-evs .rw{min-width:0px;padding:.75rem .625rem;padding-left:0}.l-evs .rw.sprt{padding-left:0!important;padding-right:0!important;text-align:center}.l-evs .rw.sprt{grid-area:1 / 1 / 2 / 2}.l-evs .rw.slct{grid-area:1 / 2 / 2 / 3}.l-evs .rw.win{grid-area:1 / 3 / 2 / 6}.l-evs .rw.rtng{grid-area:1 / 6 / 2 / 7}.l-evs .rw.odds{grid-area:1 / 7 / 2 / 8}.l-evs.sp-2 .grd{grid-template-columns:.4fr 1.4fr .8fr .8fr .8fr .9fr 1fr}.l-evs.sp-2 .rw.win{grid-area:1 / 3 / 2 / 4}.l-evs.sp-2 .rw.ew{grid-area:1 / 4 / 2 / 5}.l-evs.sp-2 .rw.nap{grid-area:1 / 5 / 2 / 6}}@media screen and (min-width: 1024px){.l-evs .grd{grid-template-columns:.4fr 2.5fr .7fr .7fr .7fr 1.8fr 1.5fr}.l-evs.sp-2{grid-template-columns:.25fr 1.5fr .7fr .7fr .7fr 1fr 1fr}}.cmt.svelte-1ezs5hv a:where(.svelte-1ez
+
+### odds
+dfdfd;font-weight:700;font-size:.75rem;padding:.22rem .28rem;margin-left:.35rem;vertical-align:middle}.offer-history .color-expired{color:#8e99b1}.offer-history .color-expired p,.offer-history .color-expired small{color:#8e99b1;margin:.35rem 0 0;line-height:1.5;font-size:.875rem}.offer-history .date-expired{vertical-align:top;text-align:center;color:#537189;padding-top:2px!important}.offer-history .btn{margin-top:.75rem}.main-content.decimal .ui-odds:after,.oddsf-decimal .ui-odds:after{content:attr(data-decimal)}.main-content.fractional .ui-odds:after,.oddsf-fractional .ui-odds:after{content:attr(data-fractional)}.main-content.american .ui-odds:after,.oddsf-american .ui-odds:after{content:attr(data-american)}.bookie-sort-btn{background:transparent;color:#6b8a9a}.bookie-sort-btn:hover{background:#f4f8fa}.bookie-sort-active,.bookie-sort-active:hover{background:#fff;color:#276687}.bookie-list-g
+
+### application/ld+json
+pt');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = path;
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+            jsInjected.push(path);
+        }
+
+    }
+
+    asyncLoadJs('https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js', '.trustpilot-widget', 1000);
+    </script><!----><!----><!--zakfjb--><!--[0--><!----><script type='application/ld+json'>{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "PHX Suns @ OKC Thunder",
+  "startDate": "2026-10-27T00:00:00.000Z",
+  "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
+  "sport": "Basketball",
+  "competitor": [
+    {
+      "@type": "SportsTeam",
+      "name": "PHX Suns"
+    },
+    {
+      "@type": "SportsTeam",
+      "name": "OKC Thunder"
+    }
+  ]
+}</script><!----
+
+### application/ld+json
+0:29.490Z",_cacheKey:"svelte-olbg-sum-536205",_flushedByIp:"10.182.96.9"},availableAds:new Map([["tips-header",void 0],["site-takeover",void 0]]),tkbSettings:{take_over_banners:"3",take_over_banners_position_fixed:"1",start:"2023-09-11 13:38:19",end:"2026-10-31 08:37:03",_cachedAt:"2026-10-26T20:40:06.636Z",_cacheKey:"takeover-banners-settings"},zones:[{slug:"in-events",location_id:"L1"}],mainContentClasses:void 0,eventSchema:"\u003Cscript type='application/ld+json'>{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SportsEvent\",\n  \"name\": \"PHX Suns @ OKC Thunder\",\n  \"startDate\": \"2026-10-27T00:00:00.000Z\",\n  \"url\": \"https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205\",\n  \"sport\": \"Basketball\",\n  \"competitor\": [\n    {\n      \"@type\": \"SportsTeam\",\n      \"name\": \"PHX Suns\"\n    },\n    {\n      \"@type\": \"SportsTeam\",\n  
+
+### Value Rating
+ontainer"><!--[--><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!----><b>Experts</b> are OLBG tipsters with high strike rates, current month or 6 month profitability for a particular sport.<!----></span></p><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!----><b>Value Rating</b> is based on comparing the odds of a selection to the theoretical probability of winning based on the percentage of tips for it.<!----></span></p><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!---->Profits calculated to a 10 point stake.<!----></span></p><!--]--><!----></div></section><!--]--> <!--[-1--><!--]--></div><!--]--><!--]--><!--]--><!----></
+
+### Add to Betslip
+]--><!----></div> <div class="grow-0 flex flex-col md:min-w-[6.25rem] gap-1.5"><span class="ui-odds  
+                    text-lg font-bold text-olbg-green
+                    md:text-center md:pt-0
+                    max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+                 " data-decimal="1.31" data-american="-321" data-fractional="5/16"></span><!----> <button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full min-w-20 m-0 false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!----></div></div> <!--[0--><hr class="border-c-border"/> <div class="p-2"><!--[0--><div class="flex flex-col gap-2.5 lg:flex-row lg:item
+
+### Add to Betslip
+]--><!----></div> <div class="grow-0 flex flex-col md:min-w-[6.25rem] gap-1.5"><span class="ui-odds  
+                    text-lg font-bold text-olbg-green
+                    md:text-center md:pt-0
+                    max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+                 " data-decimal="1.31" data-american="-321" data-fractional="5/16"></span><!----> <button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full min-w-20 m-0 false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!----></div></div> <!--[0--><hr class="mt-2 border-c-border"/> <div class="flex relative cmt flex-col false lg:flex-row  svelte-1ezs5hv">
+
+### Add to Betslip
+v> <div class="rw odds text-center flex max-md:flex-col max-md:gap-2 md:items-center md:!py-3  md:flex-col md:gap-0  "><span class="ui-odds  
+        false
+        text-lg font-bold
+        md:text-center md:pt-0
+        max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+     " data-decimal="1.31" data-american="-321" data-fractional="5/16"></span><!----> <!--[-1--><button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full m-0 md:max-w-[8.75rem] false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!--]--></div><!----></div> <!--[0--><div class="shadow-inner p-2 bg-olbg-blue-light-1 md:border-x border-b border-c-border-2 fa
+
+### classes
+false x262
+flex x184
+items-center x124
+text-sm x98
+justify-center x69
+relative x62
+py-2 x53
+font-bold x53
+m-0 x53
+text-center x51
+block x50
+gap-2 x49
+!p-0 x48
+!px-1 x48
+inline-flex x47
+flex-col x41
+rw x40
+px-4 x40
+i-ui-dropdown-arrow x37
+absolute x36
+p-2 x36
+w-full x35
+!flex x35
+text-lg x35
+mr-1 x34
+text-[9px] x34
+level-2-mi x33
+level-2-ml x33
+gap-1 x33
+text-md x33
+min-w-0 x32
+text-[#8E99B1] x31
+svelte-a8kxe2 x29
+flex-1 x29
+nav-item x29
+!items-center x29
+!gap-1.5 x29
+max-mobile:!text-[0.6875rem] x29
+svelte-itzemt x29
+order-first x29
+border-c-border x28
+md:text-md x26
+border-b x25
+order-last x25
+max-md:gap-2 x24
+text-stats-text x24
+svelte-11y396f x24
+gap-1.5 x23
+rounded x22
+hover:underline x22
+rounded-full x21
+md:px-5 x21
+max-md:hidden x20
+md:text-[0.8125rem] x20
+md:!leading-tight x20
+flex-none x19
+styl-btn x18
+max-md:items-start x18
+text-xs x17
+items-baseline x17
+svelte-1wg9igz x17
+md:gap-1 x16
+text-olbg-white x16
+border-c-border-2 x16
+max-md:border-t x16
+mx-2 x15
+mt-2 x15
+inline-block x15
+text-left x15
+border x14
+hover:text-olbg-link-hover x14
+z-10 x14
+stars x14
+!inline-block x14
+w-fit x14
+max-md:text-xs x14
+filled x14
+ui-odds x14
+py-1.5 x14
+duration-150 x14
+### script None None len=6148
+
+    // Listen for messages from the Flourish embeds to resize the iframes
+    window.addEventListener("message", function (event) {
+        try {
+            let message = JSON.parse(event.data);
+            if (message.sender == "Flourish" && message.context == "iframe.resize") {
+                let iframe = document.querySelector('iframe[src="' + message.src + '"]');
+                if(iframe) {
+                    iframe.style.height = message.height + "px";
+                }
+            }
+        } catch (e) {
+            return;
+        }
+    });
+
+    // GA4: listen for newsletter_form_submit from embed iframe and send direct gtag event
+    window.addEventListener("message", function (e) {
+        if (e.data && e.data.event === "newsletter_form_submit") {
+            console.log('newsletter_form_submit', e.data);
+            try {
+                if (typeof window !== 'undefined' && window.gtag) {
+                    window.gtag('event', 'newsletter_form_submit', {
+                        newsletter_list_id: e.data.newsletter_list_id,
+                        newsletter_list_name: e.data.newsletter_list_name,
+                        subscribe_form_type: e.data.subscribe_form_t
+### script None None len=34079
+
+				{
+					__sveltekit_1k21gpq = {
+						base: new URL("../../../../..", location).pathname.slice(0, -1),
+						env: {"PUBLIC_META_PIXEL_ID":"355585861595209","PUBLIC_META_TRACKING_ENABLED":"true","PUBLIC_APP_ENV":"production","PUBLIC_OLBG_FEED_URL":"https://www.olbg.com/feed","PUBLIC_OLBG_FEED_IFRAME_URL":"/feed/home-snippet","PUBLIC_OLBG_FEED_API_URL":"https://olbgliveapi.olbg.com","PUBLIC_SITE_URL":"https://www.olbg.com","PUBLIC_BASE_ASSETS_URL":"https://www.olbg.com","PUBLIC_API_URL":"https://www.olbg.com/api/svelte","PUBLIC_PRODUCTION_SITE_URL":"https://www.olbg.com","PUBLIC_LIVE_SITE_URL":"https://www.olbg.com","PUBLIC_BETTING_API_BASE_URL":"https://betting.olbg.info","PUBLIC_IMAGES_URL":"https://olbgimages.co.uk","PUBLIC_CDN_URL":"https://olbg-shared.scdn1.secure.raxcdn.com","PUBLIC_SEARCH_API_BASE_URL":"https://search.olbg.info/v5/","PUBLIC_TIPS_API_BASE_URL":"https://tipsb.olbg.info/","PUBLIC_AI_API_URL":"https://ai.olbg.com","PUBLIC_AI_BOT_DISABLED":"false","PUBLIC_AUTO_SUGGEST_DOMAIN":"suggest.olbg.com/ws","PUBLIC_TURNSTILE_SITE_KEY":"0x4AAAAAABDtRuHIginR-S0U","PUBLIC_RECAPTCHA_SITE_KEY":"6LcqhQsUAAAAACSiTKqjqblYwj-9GF1KQ2nkeW8M","PUBLIC_SK_UPLOADS_URL":"/sk-public","PU

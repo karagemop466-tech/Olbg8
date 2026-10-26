@@ -1,0 +1,32 @@
+{
+ "tennis_sport": {
+  "url": "https://www.olbg.com/betting-tips/Tennis/3",
+  "status": 200,
+  "bytes": 421772
+ },
+ "tennis_event": {
+  "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Aliaksandra_Sasnovich_vs_Nikola_Bartunkova/3?event_id=902381",
+  "status": 200,
+  "bytes": 270911
+ },
+ "snooker_sport": {
+  "url": "https://www.olbg.com/betting-tips/Snooker/8",
+  "status": 200,
+  "bytes": 266596
+ },
+ "nba_event": {
+  "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
+  "status": 200,
+  "bytes": 267474
+ },
+ "tennis_hub": {
+  "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events",
+  "status": 404,
+  "bytes": 14544
+ },
+ "golf_event": {
+  "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+  "status": 200,
+  "bytes": 561086
+ }
+}

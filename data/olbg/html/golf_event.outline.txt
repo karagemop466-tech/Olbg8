@@ -1,0 +1,216 @@
+### Win Tips
+btle
+                max-md:absolute max-md:inset-0
+                md:relative md:aspect-square md:rounded-full
+                lg:w-[7.5rem]
+                md:w-[7.5rem]
+            "></div><!--]--> <!--[-1--><!--]--> <!--[-1--><!--]--><!----><!----></div> <!--[0--><div class=" lg:w-3/4 md:w-auto flex-1 "><table class="table compact white text-md"><thead><tr><th class="!text-center"><i class="i-ui-stats text-xs"></i></th><th>Selection</th><th>Win Tips</th><th>%</th></tr></thead><tbody><!--[--><tr><td style="color: rgba(41, 169, 226, 1)" class="text-center scale-150">•</td><td>Wyndham Clark</td><td><!--[0--><b>1</b> / 2<!--]--></td><td><!--[0-->50%<!--]--></td></tr><tr><td style="color: rgba(241, 144, 0, 1)" class="text-center scale-150">•</td><td>Max Homa</td><td><!--[0--><b>1</b> / 2<!--]--></td><td><!--[0-->50%<!--]--></td></tr><tr><td style="color: rgba(51, 153, 51, 1)" class="text-center 
+
+### Win Tips
+[-1--><!--]--> <!--[-1--><!--]--> <!--[0--><!--[0--><div class="stars !inline-block w-fit max-md:text-xs md:!hidden"><div class="filled" style="width: 0%"></div></div><!--]--><!----> <!--[-1--><!--]--><!--]--> <!--[-1--><!--]--></div> <div class="rw win !flex !flex-col max-md:text-xs max-md:mt-0.5 max-md:!gap-0.5 md:gap-1 md:translate-y-px  "><b class="max-md:border-t max-md:border-dashed border-c-border max-md:mt-2 max-md:pt-2 md:text-xs">1 / 2 Win Tips</b> <!--[0--><!--[0--><div style="--confidence: 50%" class="flex items-center text-xs gap-1 max-w-[9.375rem]  svelte-11y396f"><!--[0--><span class="  svelte-11y396f">50%</span><!--]--> <span class="bar rounded relative bg-stats-grey w-full h-2 svelte-11y396f"><!--[0--><!--[--><span class="absolute bg-olbg-orange h-2 rounded w-[var(--confidence)] svelte-11y396f"></span><!--]--><!--]--></span></div><!--]--><!--]--> <!--[-1--><!--]--><!----> <!--[-
+
+### Win Tips
+[-1--><!--]--> <!--[-1--><!--]--> <!--[0--><!--[0--><div class="stars !inline-block w-fit max-md:text-xs md:!hidden"><div class="filled" style="width: 0%"></div></div><!--]--><!----> <!--[-1--><!--]--><!--]--> <!--[-1--><!--]--></div> <div class="rw win !flex !flex-col max-md:text-xs max-md:mt-0.5 max-md:!gap-0.5 md:gap-1 md:translate-y-px  "><b class="max-md:border-t max-md:border-dashed border-c-border max-md:mt-2 max-md:pt-2 md:text-xs">0 / 2 Win Tips</b> <!--[0--><!--[0--><div style="--confidence: 0%" class="flex items-center text-xs gap-1 max-w-[9.375rem]  svelte-11y396f"><!--[0--><span class="  svelte-11y396f">0%</span><!--]--> <span class="bar rounded relative bg-stats-grey w-full h-2 svelte-11y396f"><!--[0--><!--[--><span class="absolute bg-olbg-orange h-2 rounded w-[var(--confidence)] svelte-11y396f"></span><!--]--><!--]--></span></div><!--]--><!--]--> <!--[-1--><!--]--><!----> <!--[-1-
+
+### event_id
+=1, shrink-to-fit=no, user-scalable=no" />
+
+		<!--12qhfyh--><meta name="olbg-cookie-policy-version" content="59"/> <script defer="" src="/sk-assets/js/bookie-ppc-tracking.js"></script> <!--[-1--><!--]--> <!--[0--><meta name="description" content="Mexico Open Tips - Find best bets on the Mexico Open market from expert tipsters."/><!--]--> <!--[0--><link rel="canonical" href="https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"/><!--]--> <!--[-1--><!--]--> <link rel="preconnect" href="https://olbg-shared.scdn1.secure.raxcdn.com" crossorigin="anonymous"/> <!--[-1--><!--]--> <meta property="og:url" content="https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"/> <meta property="og:image" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="og:ima
+
+### event_id
+best bets on the Mexico Open market from expert tipsters."/><!--]--> <!--[0--><link rel="canonical" href="https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"/><!--]--> <!--[-1--><!--]--> <link rel="preconnect" href="https://olbg-shared.scdn1.secure.raxcdn.com" crossorigin="anonymous"/> <!--[-1--><!--]--> <meta property="og:url" content="https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"/> <meta property="og:image" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="og:image:url" content="https://olbg-shared.scdn1.secure.raxcdn.com/assets/images/olbg-brand/olbg-social-media-black-2-1200x630.png"/> <meta property="og:image:width" content="1200"/> <meta property="og:image:height" content="630"/> <meta property="og:type" content="website"/> 
+
+### event_id
+(path);
+        }
+
+    }
+
+    asyncLoadJs('https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js', '.trustpilot-widget', 1000);
+    </script><!----><!----><!--zakfjb--><!--[0--><!----><script type='application/ld+json'>{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "Mexico Open",
+  "startDate": "2026-11-01T22:45:00.000Z",
+  "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+  "sport": "Golf"
+}</script><!----><!--]--> <!--[-1--><!--]--><!----><title>Mexico Open Tips - OLBG.com</title>
+		<style>@keyframes svelte-afbxsn-fadeUpMobile{0%{opacity:0;transform:translateY(.5rem)}to{opacity:1;transform:translateY(0)}}@keyframes svelte-afbxsn-fadeDownMobile{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(.5rem)}}@keyframes svelte-afbxsn-fadeUp{0%{opacity:0;transform:translate(-50%,.5rem)}to{opa
+
+### odds
+.5rem;line-height:1.5;text-align:center}figure.svelte-io2nr5{position:relative;display:flex;justify-content:center;align-items:center}.i-ui-alert.svelte-io2nr5{color:var(--c-red);font-size:1.8rem}
+
+.l-evs .grd{position:relative}@media not all and (min-width: 768px){.l-evs .rw.sprt{position:absolute;top:.375rem;left:.375rem}.l-evs .rw.slct,.l-evs .rw.win{display:flex;flex-direction:column;gap:0px;padding-left:2.25rem;padding-right:38vw}.l-evs .rw.odds{position:absolute;top:.5rem;right:.5rem;width:30vw}.l-evs .is-tipster-page .sprt{top:.5rem}}@media screen and (min-width: 768px){.l-evs .grd{display:grid;grid-template-columns:.5fr 2fr .7fr .7fr .7fr 2fr 1.5fr;grid-column-gap:0px;grid-row-gap:0px}.l-evs .rw{min-width:0px;padding:.75rem .625rem;padding-left:0}.l-evs .rw.sprt{padding-left:0!important;padding-right:0!important;text-align:center}.l-evs .rw.sprt{grid-area:1 / 1 / 2 / 2}.l-evs .rw.slc
+
+### odds
+width: 768px){.l-evs .grd{display:grid;grid-template-columns:.5fr 2fr .7fr .7fr .7fr 2fr 1.5fr;grid-column-gap:0px;grid-row-gap:0px}.l-evs .rw{min-width:0px;padding:.75rem .625rem;padding-left:0}.l-evs .rw.sprt{padding-left:0!important;padding-right:0!important;text-align:center}.l-evs .rw.sprt{grid-area:1 / 1 / 2 / 2}.l-evs .rw.slct{grid-area:1 / 2 / 2 / 3}.l-evs .rw.win{grid-area:1 / 3 / 2 / 6}.l-evs .rw.rtng{grid-area:1 / 6 / 2 / 7}.l-evs .rw.odds{grid-area:1 / 7 / 2 / 8}.l-evs.sp-2 .grd{grid-template-columns:.4fr 1.4fr .8fr .8fr .8fr .9fr 1fr}.l-evs.sp-2 .rw.win{grid-area:1 / 3 / 2 / 4}.l-evs.sp-2 .rw.ew{grid-area:1 / 4 / 2 / 5}.l-evs.sp-2 .rw.nap{grid-area:1 / 5 / 2 / 6}}@media screen and (min-width: 1024px){.l-evs .grd{grid-template-columns:.4fr 2.5fr .7fr .7fr .7fr 1.8fr 1.5fr}.l-evs.sp-2{grid-template-columns:.25fr 1.5fr .7fr .7fr .7fr 1fr 1fr}}.cmt.svelte-1ezs5hv a:where(.svelte-1ez
+
+### odds
+dfdfd;font-weight:700;font-size:.75rem;padding:.22rem .28rem;margin-left:.35rem;vertical-align:middle}.offer-history .color-expired{color:#8e99b1}.offer-history .color-expired p,.offer-history .color-expired small{color:#8e99b1;margin:.35rem 0 0;line-height:1.5;font-size:.875rem}.offer-history .date-expired{vertical-align:top;text-align:center;color:#537189;padding-top:2px!important}.offer-history .btn{margin-top:.75rem}.main-content.decimal .ui-odds:after,.oddsf-decimal .ui-odds:after{content:attr(data-decimal)}.main-content.fractional .ui-odds:after,.oddsf-fractional .ui-odds:after{content:attr(data-fractional)}.main-content.american .ui-odds:after,.oddsf-american .ui-odds:after{content:attr(data-american)}.bookie-sort-btn{background:transparent;color:#6b8a9a}.bookie-sort-btn:hover{background:#f4f8fa}.bookie-sort-active,.bookie-sort-active:hover{background:#fff;color:#276687}.bookie-list-g
+
+### application/ld+json
+pt');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = path;
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+            jsInjected.push(path);
+        }
+
+    }
+
+    asyncLoadJs('https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js', '.trustpilot-widget', 1000);
+    </script><!----><!----><!--zakfjb--><!--[0--><!----><script type='application/ld+json'>{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "Mexico Open",
+  "startDate": "2026-11-01T22:45:00.000Z",
+  "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+  "sport": "Golf"
+}</script><!----><!--]--> <!--[-1--><!--]--><!----><title>Mexico Open Tips - OLBG.com</title>
+		<style>@keyframes svelte-afbxsn-fadeUpMobile{0%{opacity:0;transform:translateY(.5rem)}to{opacity:1;tr
+
+### application/ld+json
+gueName:"All_Events",eventName:"Mexico_Open",eventId:101915},summary:null,availableAds:new Map([["tips-header",void 0],["site-takeover",void 0]]),tkbSettings:{take_over_banners:"3",take_over_banners_position_fixed:"1",start:"2023-09-11 13:38:19",end:"2026-10-31 08:37:03",_cachedAt:"2026-10-26T20:40:06.636Z",_cacheKey:"takeover-banners-settings"},zones:[{slug:"in-events",location_id:"L1"}],mainContentClasses:void 0,eventSchema:"\u003Cscript type='application/ld+json'>{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SportsEvent\",\n  \"name\": \"Mexico Open\",\n  \"startDate\": \"2026-11-01T22:45:00.000Z\",\n  \"url\": \"https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915\",\n  \"sport\": \"Golf\"\n}\u003C/script>",pageSchema:void 0,meta:{metaTitle:"Mexico Open Tips - OLBG.com",metaDescription:"Mexico Open Tips - Find best bets on the Mexico Open market from exp
+
+### Value Rating
+ontainer"><!--[--><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!----><b>Experts</b> are OLBG tipsters with high strike rates, current month or 6 month profitability for a particular sport.<!----></span></p><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!----><b>Value Rating</b> is based on comparing the odds of a selection to the theoretical probability of winning based on the percentage of tips for it.<!----></span></p><p class="!my-3 th-info p-2 rounded flex gap-2 items-baseline text-pretty md:pr-5 "><i class="i-ui-info text-lg translate-y-px"></i> <span><!---->Profits calculated to a 10 point stake.<!----></span></p><!--]--><!----></div></section><!--]--> <!--[-1--><!--]--></div><!--]--><!--]--><!--]--><!----></
+
+### Add to Betslip
+--><!----></div> <div class="grow-0 flex flex-col md:min-w-[6.25rem] gap-1.5"><span class="ui-odds  
+                    text-lg font-bold text-olbg-green
+                    md:text-center md:pt-0
+                    max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+                 " data-decimal="11.00" data-american="1000" data-fractional="10/1"></span><!----> <button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full min-w-20 m-0 false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!----></div></div> <!--[0--><hr class="border-c-border"/> <div class="p-2"><!--[0--><div class="flex flex-col gap-2.5 lg:flex-row lg:item
+
+### Add to Betslip
+> <div class="rw odds text-center flex max-md:flex-col max-md:gap-2 md:items-center md:!py-3  md:flex-col md:gap-0  "><span class="ui-odds  
+        false
+        text-lg font-bold
+        md:text-center md:pt-0
+        max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+     " data-decimal="11.00" data-american="1000" data-fractional="10/1"></span><!----> <!--[-1--><button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full m-0 md:max-w-[8.75rem] false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!--]--></div><!----></div> <!--[-1--><!--]--> <!--[-1--><!--]--><div id="7318347" class="block w-full text-left grd max-md:min-
+
+### Add to Betslip
+> <div class="rw odds text-center flex max-md:flex-col max-md:gap-2 md:items-center md:!py-3  md:flex-col md:gap-0  "><span class="ui-odds  
+        false
+        text-lg font-bold
+        md:text-center md:pt-0
+        max-md:rounded max-md:border max-md:bg-olbg-white max-md:flex max-md:items-center max-md:justify-center max-md:py-0.5
+     " data-decimal="19.00" data-american="1800" data-fractional="18/1"></span><!----> <!--[-1--><button title="Add to Betslip" class=" styl-btn cta py-1.5 transition-opacity duration-150 btslp-btn md:w-full m-0 md:max-w-[8.75rem] false false  "><!--[-1--><span class="flex items-baseline justify-center gap-1 text-sm -translate-y-px"><!--[0--><span>Add <!--[-1--><!--]--></span><!--]--> <i class="i-ui-add text-[10px]"></i></span><!--]--></button><!--]--></div><!----></div> <!--[-1--><!--]--> <!--[-1--><!--]--><div id="7318437" class="block w-full text-left grd max-md:min-
+
+### classes
+rw x606
+false x565
+flex x562
+svelte-11y396f x480
+items-center x318
+m-0 x254
+w-full x253
+gap-1 x250
+rounded x246
+stars x241
+!inline-block x241
+w-fit x241
+max-md:text-xs x241
+filled x241
+h-2 x240
+text-sm x179
+block x160
+justify-center x157
+text-center x150
+font-bold x150
+relative x149
+!flex x149
+border-b x136
+absolute x134
+text-lg x132
+gap-1.5 x131
+md:gap-1 x129
+border-c-border x128
+max-md:hidden x128
+duration-150 x127
+text-left x127
+styl-btn x126
+inline-block x126
+items-baseline x126
+max-md:gap-2 x126
+md:items-center x125
+text-xs x125
+text-[10px] x124
+border-c-border-2 x124
+max-md:border-t x124
+md:pt-0 x123
+ui-odds x123
+py-1.5 x123
+i-ui-add x122
+i-sp-5 x122
+grd x122
+slct x122
+odds x122
+md:border-x x122
+last:!border-b x122
+last:border-c-border-2 x122
+md:last:rounded-b x122
+bg-olbg-orange x122
+md:flex-col x122
+max-md:border-dashed x121
+sp-icn x121
+align-middle x121
+!w-[62px] x121
+!h-[62px] x121
+scale-[40%] x121
+-m-5 x121
+-mr-4 x121
+md:scale-[45%] x121
+max-md:flex-col x121
+md:text-center x121
+max-md:rounded x121
+max-md:border x121
+max-md:bg-olbg-white x121
+max-md:flex x121
+max-md:items-center x121
+max-md:justify-center x121
+max-md:py-0.5 x121
+cta x121
+transition-opacity x121
+btslp-btn x121
+md:w-full x121
+-translate-y-px x121
+win x121
+rtng x121
+max-md:min-h-[5.625rem] x120
+### script None None len=6148
+
+    // Listen for messages from the Flourish embeds to resize the iframes
+    window.addEventListener("message", function (event) {
+        try {
+            let message = JSON.parse(event.data);
+            if (message.sender == "Flourish" && message.context == "iframe.resize") {
+                let iframe = document.querySelector('iframe[src="' + message.src + '"]');
+                if(iframe) {
+                    iframe.style.height = message.height + "px";
+                }
+            }
+        } catch (e) {
+            return;
+        }
+    });
+
+    // GA4: listen for newsletter_form_submit from embed iframe and send direct gtag event
+    window.addEventListener("message", function (e) {
+        if (e.data && e.data.event === "newsletter_form_submit") {
+            console.log('newsletter_form_submit', e.data);
+            try {
+                if (typeof window !== 'undefined' && window.gtag) {
+                    window.gtag('event', 'newsletter_form_submit', {
+                        newsletter_list_id: e.data.newsletter_list_id,
+                        newsletter_list_name: e.data.newsletter_list_name,
+                        subscribe_form_type: e.data.subscribe_form_t
+### script None None len=73380
+
+				{
+					__sveltekit_1k21gpq = {
+						base: new URL("../../../../..", location).pathname.slice(0, -1),
+						env: {"PUBLIC_META_PIXEL_ID":"355585861595209","PUBLIC_META_TRACKING_ENABLED":"true","PUBLIC_APP_ENV":"production","PUBLIC_OLBG_FEED_URL":"https://www.olbg.com/feed","PUBLIC_OLBG_FEED_IFRAME_URL":"/feed/home-snippet","PUBLIC_OLBG_FEED_API_URL":"https://olbgliveapi.olbg.com","PUBLIC_SITE_URL":"https://www.olbg.com","PUBLIC_BASE_ASSETS_URL":"https://www.olbg.com","PUBLIC_API_URL":"https://www.olbg.com/api/svelte","PUBLIC_PRODUCTION_SITE_URL":"https://www.olbg.com","PUBLIC_LIVE_SITE_URL":"https://www.olbg.com","PUBLIC_BETTING_API_BASE_URL":"https://betting.olbg.info","PUBLIC_IMAGES_URL":"https://olbgimages.co.uk","PUBLIC_CDN_URL":"https://olbg-shared.scdn1.secure.raxcdn.com","PUBLIC_SEARCH_API_BASE_URL":"https://search.olbg.info/v5/","PUBLIC_TIPS_API_BASE_URL":"https://tipsb.olbg.info/","PUBLIC_AI_API_URL":"https://ai.olbg.com","PUBLIC_AI_BOT_DISABLED":"false","PUBLIC_AUTO_SUGGEST_DOMAIN":"suggest.olbg.com/ws","PUBLIC_TURNSTILE_SITE_KEY":"0x4AAAAAABDtRuHIginR-S0U","PUBLIC_RECAPTCHA_SITE_KEY":"6LcqhQsUAAAAACSiTKqjqblYwj-9GF1KQ2nkeW8M","PUBLIC_SK_UPLOADS_URL":"/sk-public","PU
