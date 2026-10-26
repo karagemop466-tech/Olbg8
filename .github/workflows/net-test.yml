@@ -1,0 +1,13 @@
+name: net-test
+on:
+  push:
+    branches: [arena/**]
+  workflow_dispatch:
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - name: probe
+        run: |
+          echo "egress test"
+          curl -s -o /dev/null -w "olbg:%{http_code}\n" --max-time 20 https://www.olbg.com/betting-tips/Golf/5 || true
