@@ -1,22 +1,25 @@
-# Coordination Board
+# COORDINATION.md — shared task board
 
-Updated: 2026-10-26 UTC
+Last updated: 2026-10-26 UTC
 
-> Arena requires this session to remain on `arena/53f44a7c-olbg8`; the user-requested `session-<id>/<task>` branch convention cannot override the fixed Arena branch.
+## Task board
 
-| Task | Status | Owner | File scope | Started |
-|---|---|---|---|---|
-| Repository audit, data/source policy, static dashboard, tests, GitHub Pages workflow, integration and publication | done | `53f44a7c` | Entire repository (no other claims found) | 2026-10-26 UTC |
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Raw-source fetch workflow and sport-ID probe | done | `arena-f68c2262` | `.github/workflows/fetch-raw.yml`, `.gitignore` |
+| Audited static dashboard, source ledger, pricing playbook, tests, integration and publication | done | `53f44a7c` | `README.md`, `index.html`, `review.html`, `methodology.html`, `sports/*.html`, `assets/*`, `data/events.json`, `data/sports.json`, `scripts/build.py`, `scripts/check.py`, `.github/workflows/quality.yml` |
+| Verified facts and written predictions | needs review | unassigned | Future `content/predictions/*`; blocked until official facts and current odds are confirmed |
 
-## Coordination log
+## Session log
 
-- 2026-10-26 — Session `53f44a7c` found only `README.md` at the initial commit and no existing coordination board, claims, application, or data. Claimed the empty repository scope.
-- 2026-10-26 — Source-access constraint noted: this environment permits outbound access only to GitHub and package registries. OLBG and official league/event websites cannot be fetched directly. No fixture, price, injury, statistic, or prediction will be represented as verified unless its official source can actually be checked.
+- 2026-10-26 — Session `53f44a7c` started from commit `797e50d`, where only `README.md` existed, created a coordination claim, and pushed it immediately on the Arena-fixed branch `arena/53f44a7c-olbg8`.
+- 2026-10-26 — Session `arena-f68c2262` independently started from the same empty state and later merged PR #1 to `main`. Its probe established IDs: Tennis 3, Basketball 4, Golf 5, Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13, Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Hurling 26, Greyhounds 28. OLBG has no standalone “Gaelic Sports” category; coverage requires Gaelic Football plus Hurling.
+- 2026-10-26 — During final integration, PR #3 detected the simultaneous-session conflict in this file. Session `53f44a7c` merged `origin/main`, preserved the raw-fetch workflow and ID findings from PR #1, corrected its category links, and replaced the conflict markers with this combined record. No other session's files were discarded.
 
 ## Completion record
 
-- 2026-10-26 — Built an 18-page static dashboard: executive summary, 15 sport pages, pricing playbook, and Flagged for Review. Files: `index.html`, `review.html`, `methodology.html`, `sports/*.html`, `assets/*`, `data/*`, `scripts/*`, `.github/workflows/quality.yml`, and `README.md`.
+- Built an 18-page static dashboard: executive summary, 15 sport pages, pricing playbook, and Flagged for Review.
 - Sources checked: OLBG category and event pages linked in `data/sports.json` and `data/events.json`. These checks establish only what OLBG displayed at snapshot time; OLBG is not an official sports governing source.
 - Verification performed: all 22 captured rows retain a direct OLBG event URL; required fields, source domain, all 15 categories, 18 generated pages, and local links pass `python scripts/check.py`. A clean rebuild is enforced in GitHub Actions.
 - Irregularities: official event/lineup/injury/stat sources and current offered odds were not available for complete line-by-line confirmation. No original odds, confidence labels, or written predictions were fabricated. All rows are clearly flagged, and missing values remain blank. Several sports had fewer than five discoverable listings; Snooker showed no tips at capture time. OLBG-relative time labels and unusual handball tie selections also require review.
-- Publication: GitHub Pages is configured on `main` at <https://karagemop466-tech.github.io/Olbg8/>. Pull request and deployment result will be reported in the final session response after merge.
+- Publication: PR <https://github.com/karagemop466-tech/Olbg8/pull/3> targets `main`. GitHub Pages is configured at <https://karagemop466-tech.github.io/Olbg8/>. Merge and deployment status are reported in the final session response.
