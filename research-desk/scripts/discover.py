@@ -24,7 +24,7 @@ class EventLinks(HTMLParser):
 
 def run():
  d=json.loads(Path('data/research.json').read_text());results=[]
- sources=[(s['name'],s['url']) for s in d['sports']]+[('Gaelic Sports / Hurling','https://www.olbg.com/betting-tips/Hurling/26')]
+ sources=[(s['name'],s['url']) for s in d['sports']]
  for sport,url in sources:
   row=dict(sport=sport,source=url,retrieved_at=datetime.now(timezone.utc).isoformat(),complete=False,events=[],error=None)
   try:

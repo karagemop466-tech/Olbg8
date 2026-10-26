@@ -4,7 +4,7 @@ Retrieval method: Arena page retrieval tool, except the explicitly failed curl p
 
 ## OLBG first-party evidence
 
-All 16 sport category pages in `research.json` (Gaelic Sports includes a separate Hurling category) were retrieved and their first text chunk inspected. The main [tips page](https://www.olbg.com/betting-tips) was read across all three chunks to discover category IDs. Tennis and basketball incorrectly guessed IDs redirected to canonical IDs 3 and 4; stored URLs use those canonical paths.
+All 15 requested sport category pages in `research.json` (Gaelic Sports is represented by the captured Gaelic Football category) were retrieved and their first text chunk inspected. The main [tips page](https://www.olbg.com/betting-tips) was read across all three chunks to discover category IDs. Tennis and basketball incorrectly guessed IDs redirected to canonical IDs 3 and 4; stored URLs use those canonical paths.
 
 The recorded event names, IDs, display strings and markets are selected transcriptions of those excerpts; this is **not a full event list**. No tipster comment is used as an official sports statistic or copied into an original prediction. Selections, confidence, prices and predictions are null in every row. Blank Gaelic Football market names reflect missing labels in the extract.
 
@@ -16,7 +16,6 @@ The recorded event names, IDs, display strings and markets are selected transcri
 - [Darts](https://www.olbg.com/betting-tips/Darts/15)
 - [Baseball](https://www.olbg.com/betting-tips/Baseball/12)
 - [Gaelic Football](https://www.olbg.com/betting-tips/Gaelic_Football/25)
-- [Hurling](https://www.olbg.com/betting-tips/Hurling/26)
 - [Greyhounds](https://www.olbg.com/betting-tips/Greyhounds/28): explicit Expired label on Towcester 8:24; times differ from race labels.
 - [Tennis](https://www.olbg.com/betting-tips/Tennis/3)
 - [Motor Racing](https://www.olbg.com/betting-tips/Motor_Racing/14)

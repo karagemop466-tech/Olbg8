@@ -85,7 +85,7 @@
       "id": 25,
       "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
       "checked": "2026-10-26",
-      "method": "Separate football and hurling goal/point distributions; competition-specific scoring and draw rules.",
+      "method": "Gaelic Football scoring and competition-specific draw rules; Hurling is explicitly excluded from this site.",
       "markets": "Winner, handicap, total points, outright",
       "pricing_status": "Specification only \u2014 not fitted or calibrated",
       "coverage": "Partial page extraction; pagination not exhausted"
@@ -897,29 +897,6 @@
       "display_time": "25 Jul 2027 10:30",
       "market": "",
       "source": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
-      "observed_on": "2026-10-26",
-      "start_utc": null,
-      "official_source": null,
-      "official_fact": null,
-      "selection": null,
-      "confidence": null,
-      "american_odds": null,
-      "fair_decimal": null,
-      "prediction": null,
-      "status": "Unverified \u2014 research only",
-      "flags": [
-        "No executable price captured",
-        "No sourced current form, statistics or availability assessment",
-        "Absolute start and eligibility not confirmed"
-      ]
-    },
-    {
-      "sport": "Gaelic Sports",
-      "event_id": "675",
-      "event": "All Ireland Hurling Championship 2027",
-      "display_time": "18 Jul 2027 10:30",
-      "market": "Win Hurling",
-      "source": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
       "observed_on": "2026-10-26",
       "start_utc": null,
       "official_source": null,
