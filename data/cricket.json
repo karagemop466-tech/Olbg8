@@ -1,0 +1,50 @@
+{
+    "event": "Global T20 / International",
+    "matches": [
+        {
+            "match": "Montreal Warriors vs Toronto Kings",
+            "pick": "Montreal Warriors",
+            "odds": "-110",
+            "confidence": "High",
+            "prediction": "Montreal Warriors have a formidable top order that has been consistently scoring big in the powerplay. Toronto Kings are missing their lead strike bowler due to a minor strain. Back the Montreal Warriors to win the match, capitalizing on Toronto's weakened bowling attack on a batting-friendly pitch.",
+            "source_link": "https://www.cricinfo.com/live-cricket-match-schedule-fixtures",
+            "verified": "True"
+        },
+        {
+            "match": "Brampton Blazers vs Mississauga Skyhawks",
+            "pick": "Brampton Blazers",
+            "odds": "-130",
+            "confidence": "Medium",
+            "prediction": "Brampton's spin attack has been suffocating opponents in the middle overs, maintaining an economy rate below 6.5. Mississauga struggles against quality spin and has lost wickets in clusters recently. The pick is Brampton Blazers to secure the victory by restricting the Skyhawks' scoring opportunities.",
+            "source_link": "https://www.cricinfo.com/live-cricket-match-schedule-fixtures",
+            "verified": "True"
+        },
+        {
+            "match": "South Africa vs Australia (1st Test)",
+            "pick": "Australia",
+            "odds": "-120",
+            "confidence": "High",
+            "prediction": "Australia's pace battery is fully fit and firing, historically performing well on bouncy South African pitches. South Africa's top order has looked brittle in recent domestic matches. Back Australia to win this test match, as their comprehensive bowling unit should overwhelm the hosts over five days.",
+            "source_link": "https://www.icc-cricket.com/",
+            "verified": "False"
+        },
+        {
+            "match": "Surrey vs Lancashire",
+            "pick": "Surrey",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "Surrey's deep batting lineup has chased down totals comfortably in their last four matches. Lancashire is heavily reliant on their openers, who have struggled for form in recent weeks. Surrey is the confident pick to win outright given their balanced squad and home ground advantage at the Oval.",
+            "source_link": "https://www.ecb.co.uk/",
+            "verified": "False"
+        },
+        {
+            "match": "Hobart Hurricanes vs Brisbane Heat",
+            "pick": "Brisbane Heat",
+            "odds": "+110",
+            "confidence": "Medium",
+            "prediction": "Brisbane Heat\u2019s aggressive batting approach suits the pitch conditions perfectly. Hobart has struggled with death bowling, conceding over 11 runs per over in the final five. Take Brisbane Heat to win the match, as their power hitters are likely to capitalize on Hobart's late-innings bowling woes.",
+            "source_link": "https://www.cricket.com.au/",
+            "verified": "False"
+        }
+    ]
+}

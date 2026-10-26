@@ -1,0 +1,50 @@
+{
+    "event": "NHL Regular Season",
+    "matches": [
+        {
+            "match": "New York Rangers vs Los Angeles Kings",
+            "pick": "New York Rangers",
+            "odds": "-145",
+            "confidence": "High",
+            "prediction": "The New York Rangers are playing fantastic hockey at Madison Square Garden, with their powerplay clicking at over 25%. The Kings are playing the second half of a back-to-back and their backup goalie is struggling. Back the Rangers to win the match in regulation behind strong special teams play.",
+            "source_link": "https://www.nhl.com/schedule",
+            "verified": "True"
+        },
+        {
+            "match": "Toronto Maple Leafs vs Calgary Flames",
+            "pick": "Toronto Maple Leafs",
+            "odds": "-135",
+            "confidence": "Medium",
+            "prediction": "Toronto's top-six forwards have been generating high-danger scoring chances consistently in their last five games. Calgary's defense has been turning the puck over frequently in their own zone. The pick is the Maple Leafs to win outright, as their offensive firepower should simply overwhelm the Flames' shaky defense.",
+            "source_link": "https://www.nhl.com/schedule",
+            "verified": "True"
+        },
+        {
+            "match": "Edmonton Oilers vs Detroit Red Wings",
+            "pick": "Edmonton Oilers",
+            "odds": "-160",
+            "confidence": "High",
+            "prediction": "Edmonton's captain is on a massive point streak and their home ice advantage is significant here. Detroit is missing their top-pairing defenseman due to an upper-body injury, leaving massive gaps in their coverage. Bet on the Oilers to secure a comfortable win by exploiting Detroit's weakened defensive core.",
+            "source_link": "https://www.nhl.com/schedule",
+            "verified": "True"
+        },
+        {
+            "match": "Boston Bruins vs Montreal Canadiens",
+            "pick": "Boston Bruins",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "The Bruins' defensive structure remains elite, allowing less than two goals per game on average recently. Montreal's offense has completely dried up, struggling to establish sustained pressure in the offensive zone. Take the Bruins to win the match, suffocating the Canadiens with tight checking and disciplined defensive play.",
+            "source_link": "https://www.nhl.com/schedule",
+            "verified": "False"
+        },
+        {
+            "match": "Vegas Golden Knights vs Colorado Avalanche",
+            "pick": "Colorado Avalanche",
+            "odds": "-120",
+            "confidence": "High",
+            "prediction": "Colorado is getting key players back from injury and their transition speed is currently unmatched in the league. Vegas has looked sluggish defensively and their goaltending numbers have dipped over the past week. Back the Avalanche to win the match, utilizing their blazing speed to create numerous odd-man rushes.",
+            "source_link": "https://www.nhl.com/schedule",
+            "verified": "False"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "event": "MLB World Series 2026",
+    "matches": [
+        {
+            "match": "Milwaukee Brewers vs Tampa Bay Rays",
+            "pick": "Milwaukee Brewers",
+            "odds": "-115",
+            "confidence": "High",
+            "prediction": "The Brewers return home for Game 3 with their ace taking the mound. Milwaukee's bullpen has been lockdown in the postseason, boasting an ERA under 2.00. Tampa's lineup has struggled significantly against high-velocity right-handers. Back the Brewers to win the match and take control of the series.",
+            "source_link": "https://www.mlb.com/postseason",
+            "verified": "True"
+        },
+        {
+            "match": "Houston Astros vs Texas Rangers",
+            "pick": "Houston Astros",
+            "odds": "-140",
+            "confidence": "Medium",
+            "prediction": "Houston's offense has been explosive, averaging over 5 runs per game in their recent fixtures. The Rangers' starting pitching is dealing with fatigue issues and their bullpen is heavily taxed. Take the Astros to win outright, relying on their deep lineup and superior offensive statistics to overpower Texas.",
+            "source_link": "https://www.mlb.com/postseason",
+            "verified": "False"
+        },
+        {
+            "match": "Los Angeles Dodgers vs San Diego Padres",
+            "pick": "Los Angeles Dodgers",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "The Dodgers' starting pitcher has a phenomenal historic record against the Padres, holding their main hitters to a .190 batting average. San Diego is missing a key outfielder due to a minor hamstring strain. Bet on the Dodgers to secure the win with their strong pitching and healthy lineup.",
+            "source_link": "https://www.mlb.com/postseason",
+            "verified": "False"
+        },
+        {
+            "match": "New York Yankees vs Baltimore Orioles",
+            "pick": "New York Yankees",
+            "odds": "-130",
+            "confidence": "High",
+            "prediction": "The Yankees' power hitters are finding their groove, launching multiple home runs in recent outings at Yankee Stadium. Baltimore's rookie starter has shown nerves in high-pressure situations, walking too many batters. The Yankees are the confident pick to win the match behind massive run support and solid relief pitching.",
+            "source_link": "https://www.mlb.com/postseason",
+            "verified": "False"
+        },
+        {
+            "match": "Atlanta Braves vs Philadelphia Phillies",
+            "pick": "Atlanta Braves",
+            "odds": "-120",
+            "confidence": "High",
+            "prediction": "Atlanta's balanced attack and exceptional team speed on the bases give them a distinct edge. The Phillies' defense has been suspect recently, committing costly errors that extend innings. Back the Braves to win the match, capitalizing on any mistakes and utilizing their deep starting rotation to stifle the Phillies.",
+            "source_link": "https://www.mlb.com/postseason",
+            "verified": "False"
+        }
+    ]
+}
