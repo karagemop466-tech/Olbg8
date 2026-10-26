@@ -1,0 +1,50 @@
+{
+    "event": "EHF Champions League",
+    "matches": [
+        {
+            "match": "THW Kiel vs FC Barcelona",
+            "pick": "FC Barcelona",
+            "odds": "-140",
+            "confidence": "High",
+            "prediction": "FC Barcelona's attacking efficiency has been frightening, converting over 70% of their offensive possessions recently. THW Kiel is dealing with injuries to two key backcourt players, significantly limiting their rotation options. Back Barcelona to win this high-profile match with their superior depth and relentless fast-break scoring.",
+            "source_link": "https://ehfcl.eurohandball.com/men/2026-27/",
+            "verified": "False"
+        },
+        {
+            "match": "Paris Saint-Germain vs Telekom Veszprem",
+            "pick": "Paris Saint-Germain",
+            "odds": "-120",
+            "confidence": "Medium",
+            "prediction": "PSG is formidable at home and their goalkeeper is currently boasting a save percentage well above the league average. Veszprem has struggled slightly with their pivot play, leading to stagnant offensive sets. The pick is PSG to secure the victory, leaning heavily on their strong defensive wall and quick counter-attacks.",
+            "source_link": "https://ehfcl.eurohandball.com/men/2026-27/",
+            "verified": "False"
+        },
+        {
+            "match": "SC Magdeburg vs Vive Kielce",
+            "pick": "SC Magdeburg",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "SC Magdeburg's fluid one-on-one attacking style has been slicing through defenses effectively all season. Kielce's defense has looked slow laterally, repeatedly getting caught out by quick ball movement. Take Magdeburg to win the match comfortably, as their offensive system is currently operating flawlessly.",
+            "source_link": "https://ehfcl.eurohandball.com/men/2026-27/",
+            "verified": "False"
+        },
+        {
+            "match": "Aalborg H\u00e5ndbold vs GOG",
+            "pick": "Aalborg H\u00e5ndbold",
+            "odds": "-130",
+            "confidence": "High",
+            "prediction": "In this intense Danish rivalry, Aalborg has the clear edge in experience and recent head-to-head records. GOG has a young squad that has been prone to making unforced technical errors under pressure. Bet on Aalborg to win the match, utilizing their seasoned veterans to control the tempo effectively.",
+            "source_link": "https://ehfcl.eurohandball.com/men/2026-27/",
+            "verified": "False"
+        },
+        {
+            "match": "Flensburg-Handewitt vs F\u00fcchse Berlin",
+            "pick": "F\u00fcchse Berlin",
+            "odds": "+110",
+            "confidence": "Medium",
+            "prediction": "F\u00fcchse Berlin's right back is in the form of his life, scoring from 9 meters with incredible consistency. Flensburg has struggled defensively against left-handed shooters recently. The value pick is F\u00fcchse Berlin to win outright, exploiting Flensburg's defensive mismatches to pull off a crucial away victory.",
+            "source_link": "https://ehfcl.eurohandball.com/men/2026-27/",
+            "verified": "False"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "event": "Italian SuperLega",
+    "matches": [
+        {
+            "match": "Trentino Volley vs Sir Safety Perugia",
+            "pick": "Sir Safety Perugia",
+            "odds": "-130",
+            "confidence": "High",
+            "prediction": "Perugia has dominated their last five outings, maintaining a highly impressive attack efficiency. Trentino is dealing with a minor injury to their starting setter which could disrupt their offensive flow. Bet on Perugia to secure the win in what might be a tight, but ultimately successful, match.",
+            "source_link": "https://www.legavolley.it/",
+            "verified": "False"
+        },
+        {
+            "match": "Lube Civitanova vs Modena Volley",
+            "pick": "Lube Civitanova",
+            "odds": "-200",
+            "confidence": "High",
+            "prediction": "Lube Civitanova has an outstanding home record this season, winning 90% of matches in their arena. Modena has struggled with their service reception lately, dropping crucial sets. Back Lube Civitanova to win comfortably, as their middle blockers are in excellent form with high block point averages.",
+            "source_link": "https://www.legavolley.it/",
+            "verified": "False"
+        },
+        {
+            "match": "Allianz Milano vs Gas Sales Piacenza",
+            "pick": "Allianz Milano",
+            "odds": "+120",
+            "confidence": "Medium",
+            "prediction": "Milano is coming off a massive upset victory and their confidence is incredibly high. Piacenza's primary attacker has looked fatigued in recent matches, leading to numerous unforced errors. The value here lies with Milano to pull off another victory given their impressive recent defensive stats.",
+            "source_link": "https://www.legavolley.it/",
+            "verified": "False"
+        },
+        {
+            "match": "Vero Volley Monza vs Top Volley Cisterna",
+            "pick": "Vero Volley Monza",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "Monza's serving pressure has been unmatched in the league, averaging over 8 aces per match. Cisterna struggles significantly against strong float serves, which will be their downfall here. Take Monza to win the match straightforwardly based on their superior serving and current solid form.",
+            "source_link": "https://www.legavolley.it/",
+            "verified": "False"
+        },
+        {
+            "match": "Pallavolo Padova vs Verona Volley",
+            "pick": "Verona Volley",
+            "odds": "-110",
+            "confidence": "High",
+            "prediction": "Verona has established a solid rhythm, winning their last three games comprehensively. Padova's defense has been extremely leaky, allowing an uncharacteristically high opponent hitting percentage. The pick is Verona to win outright, relying on their strong outside hitting and more organized defensive system.",
+            "source_link": "https://www.legavolley.it/",
+            "verified": "False"
+        }
+    ]
+}

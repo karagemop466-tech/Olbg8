@@ -1,0 +1,50 @@
+{
+    "event": "East Lake Cup 2026",
+    "matches": [
+        {
+            "match": "Florida Gators vs Texas Longhorns",
+            "pick": "Florida Gators",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "The Florida Gators have shown exceptional form recently, taking home multiple top-tier amateur titles this season. Texas comes into the East Lake Cup with a few key players struggling with minor back issues. The Gators' superior putting statistics on Bermuda grass make them the clear pick to win this matchup.",
+            "source_link": "https://www.golfchannel.com/college",
+            "verified": "False"
+        },
+        {
+            "match": "Stanford Cardinal vs Wake Forest Demon Deacons",
+            "pick": "Stanford Cardinal",
+            "odds": "+110",
+            "confidence": "High",
+            "prediction": "Stanford's strong performance over the last few events gives them a slight edge. Wake Forest has lacked consistency off the tee, hitting only 55% of fairways. Stanford's top player just secured an individual victory last week, boosting their momentum for this team format.",
+            "source_link": "https://www.golfchannel.com/college",
+            "verified": "False"
+        },
+        {
+            "match": "Auburn Tigers vs Vanderbilt Commodores",
+            "pick": "Auburn Tigers",
+            "odds": "-120",
+            "confidence": "Medium",
+            "prediction": "Auburn arrives at East Lake after a dominant regional showing. Vanderbilt has been historically strong here but recent form indicates some iron play struggles. Back Auburn to cover and win the match based on their superior greens-in-regulation percentage over the last month.",
+            "source_link": "https://www.golfchannel.com/college",
+            "verified": "False"
+        },
+        {
+            "match": "USC Trojans vs Oregon Ducks",
+            "pick": "USC Trojans",
+            "odds": "-140",
+            "confidence": "High",
+            "prediction": "USC's consistent ball striking is perfectly suited for the challenging East Lake layout. Oregon has struggled with approach shots over 150 yards recently. With no major injuries to report, USC's depth and scoring average of 70.2 per round should see them safely through to victory.",
+            "source_link": "https://www.golfchannel.com/college",
+            "verified": "False"
+        },
+        {
+            "match": "North Carolina Tar Heels vs Georgia Tech Yellow Jackets",
+            "pick": "North Carolina Tar Heels",
+            "odds": "-110",
+            "confidence": "High",
+            "prediction": "UNC boasts three players ranked in the top 20 nationally, making them a formidable opponent. Georgia Tech has home state advantage but lacks the same firepower, struggling in recent match play formats. The Tar Heels are the smart pick to win outright given their current stellar form.",
+            "source_link": "https://www.golfchannel.com/college",
+            "verified": "False"
+        }
+    ]
+}
