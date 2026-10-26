@@ -1,6 +1,6 @@
 # OLBG Research Desk
 
-Evidence-first static dashboard for the requested 15 sports. **Partial research delivery, not a completed betting service:** 75 observed event rows, 20 pages, zero publishable selections and zero operational sport-specific pricing engines. Unknown values remain null/blank. No claims of comprehensive, real-time or daily verified coverage.
+Evidence-first static dashboard for the requested 15 sports. **Partial research delivery, not a completed betting service:** 74 observed event rows, 20 pages, zero publishable selections and zero operational sport-specific pricing engines. Unknown values remain null/blank. No claims of comprehensive, real-time or daily verified coverage.
 
 ## Site
 
