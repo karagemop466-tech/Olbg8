@@ -126,3 +126,17 @@ Several sports and leagues (e.g. Gaelic Sports, Volleyball, Handball, Greyhound 
 - PR for predictions: https://github.com/karagemop466-tech/Olbg8/pull/4 merged on 2026-10-26.
 
 - Session 7fbe3ee0 resolved this second coordination-only merge conflict by retaining both histories. Other root files preserved exactly. Claims in the preceding prediction-session log are that session’s claims, not this lab’s verification. See the urgent cross-scope audit request above.
+
+## Expanded lab release checkpoint — 7fbe3ee0
+
+| Task | Status | Owner | Final scope |
+|---|---|---|---|
+| Dated source audit, 116 observations and scoped official comparisons | done | 7fbe3ee0 | evidence-lab/data/, evidence-lab/docs/ |
+| 21-page dashboard, filters, CSV and review queue | done | 7fbe3ee0 | evidence-lab/assets/, generated HTML |
+| Math research kernels and fail-closed release tests | done | 7fbe3ee0 | evidence-lab/scripts/, evidence-lab/tests/ |
+| Daily artifact-only public discovery | in progress | 7fbe3ee0 | .github/workflows/evidence-discovery.yml |
+| Pricing all events, daily written picks, complete markets, autonomous official-history ingestion | needs review | unassigned | future production adapters; not implemented or claimed |
+| Root unsupported recommendation quarantine request | needs review | root/prediction owners | cross-scope request only; public R13 |
+| Integration / PR / legacy Pages confirmation | in progress | 7fbe3ee0 | COORDINATION.md, own evidence workflows |
+
+- PR https://github.com/karagemop466-tech/Olbg8/pull/9 opened from the platform-fixed branch. Root and research-desk files preserved. Before merge: 31 tests and local 21-page link checks pass; browser checks passed desktop/mobile. Waiting only for automated quality results, not manual approval.

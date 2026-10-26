@@ -27,7 +27,7 @@ jobs:
       - name: Rebuild published lab and validate
         run: python -m scripts.build --publish && python -m scripts.check
       - name: Ensure checked-in site matches source
-        run: git diff --exit-code -- evidence-lab
+        run: git diff --exit-code -- .
       - name: Retain audit
         uses: actions/upload-artifact@v4
         with:
