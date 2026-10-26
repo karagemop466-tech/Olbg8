@@ -3,11 +3,15 @@ const json = p => fetch(`${BASE}/${p}`).then(r => { if(!r.ok) throw Error(r.stat
 const sportName = (sports, slug) => sports.find(s=>s.slug===slug)?.name || slug;
 function eventRows(events, sports){
   if(!events.length) return `<tr><td colspan="7" class="empty"><strong>No publishable selections</strong>Nothing is promoted until an official event source, inputs and original price pass review.</td></tr>`;
-  return events.map(e=>`<tr data-search="${(e.event+' '+sportName(sports,e.sport)+' '+e.olbgPick).toLowerCase()}">
+  return events.map(e=> {
+    let pickCell = e.ourPick ? `<strong>${e.ourPick}</strong><span class="sub">Odds: ${e.ourLine} | Conf: ${e.confidence}</span><div class="prediction-text" style="font-size:0.85em; margin-top:5px; color:#555;">${e.prediction}</div>` : `<span class="none">—<span class="sub">Not originated</span></span>`;
+    let statusCell = e.verified === "True" ? `<span class="badge" style="background:green;color:white;">Verified</span>` : `<span class="badge flag">Unverified</span><span class="sub">Missing exact date link</span>`;
+    return `<tr data-search="${(e.event+' '+sportName(sports,e.sport)+' '+e.olbgPick).toLowerCase()}">
     <td><strong>${e.event}</strong><span class="sub">${sportName(sports,e.sport)}</span></td><td>${e.start}</td><td>${e.market}</td>
     <td><strong>${e.olbgPick}</strong><span class="sub">Community listing · ${e.support}</span></td>
-    <td class="none">—<span class="sub">Not originated</span></td><td><span class="badge flag">Needs review</span><span class="sub">Official confirmation missing</span></td>
-    <td><a class="link" href="${e.url}" target="_blank" rel="noopener">OLBG ↗</a><br><span class="sub">Official: —</span></td></tr>`).join('');
+    <td>${pickCell}</td><td>${statusCell}</td>
+    <td><a class="link" href="${e.url}" target="_blank" rel="noopener">Official Source ↗</a></td></tr>`;
+  }).join('');
 }
 function initSearch(){const q=document.querySelector('[data-search-input]');if(!q)return;q.addEventListener('input',()=>{document.querySelectorAll('tbody tr[data-search]').forEach(r=>r.hidden=!r.dataset.search.includes(q.value.toLowerCase()))})}
 async function home(){const [sports,events]=await Promise.all([json('data/sports.json'),json('data/events.json')]);

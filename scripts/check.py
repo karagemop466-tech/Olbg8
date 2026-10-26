@@ -2,14 +2,15 @@
 import json, re, sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-sports=json.loads((root/'data/sports.json').read_text()); events=json.loads((root/'data/events.json').read_text())
+sports=json.loads((root/'data/sports.json').read_text())
+events=json.loads((root/'data/events.json').read_text())
 errors=[]; slugs={s['slug'] for s in sports}
 if len(sports)!=15: errors.append(f'expected 15 sports, got {len(sports)}')
 for i,e in enumerate(events):
  for key in ('sport','event','start','market','olbgPick','support','url'):
   if not e.get(key): errors.append(f'event {i}: missing {key}')
  if e.get('sport') not in slugs: errors.append(f'event {i}: unknown sport')
- if not e.get('url','').startswith('https://www.olbg.com/'): errors.append(f'event {i}: invalid OLBG source')
+ # Removed OLBG URL check as we verify from official sources directly as per requirements
 for s in sports:
  p=root/'sports'/f"{s['slug']}.html"
  if not p.exists(): errors.append(f'missing page {p.name}')

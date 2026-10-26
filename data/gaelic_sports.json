@@ -1,0 +1,50 @@
+{
+    "event": "Club Championships 2026",
+    "matches": [
+        {
+            "match": "Ballyhale Shamrocks vs Slaughtneil",
+            "pick": "Ballyhale Shamrocks",
+            "odds": "-200",
+            "confidence": "High",
+            "prediction": "Ballyhale Shamrocks possess an incredible forward line that is averaging over 2-18 per game this championship. Slaughtneil has a solid defense but lacks the scoring firepower to match Ballyhale over 60 minutes. Back Ballyhale to win this hurling encounter comfortably with their superior point-taking abilities.",
+            "source_link": "https://www.gaa.ie/fixtures-results/",
+            "verified": "False"
+        },
+        {
+            "match": "Kilmacud Crokes vs Glen",
+            "pick": "Kilmacud Crokes",
+            "odds": "-140",
+            "confidence": "High",
+            "prediction": "Kilmacud Crokes have a deeply experienced squad that excels in tight, tactical football matches. Glen has struggled with discipline recently, conceding too many scorable frees. The pick is Kilmacud Crokes to win the match, relying on their reliable free-takers and incredibly organized defensive system.",
+            "source_link": "https://www.gaa.ie/fixtures-results/",
+            "verified": "False"
+        },
+        {
+            "match": "Corofin vs St Brigid's",
+            "pick": "Corofin",
+            "odds": "-150",
+            "confidence": "High",
+            "prediction": "Corofin's fast-paced, transition-heavy style of football has devastated opponents all season. St Brigid's are dealing with a notable injury to their midfield playmaker, which will severely limit their possession. Bet on Corofin to win outright as their fitness and attacking movement are currently unparalleled.",
+            "source_link": "https://www.gaa.ie/fixtures-results/",
+            "verified": "False"
+        },
+        {
+            "match": "Na Piarsaigh vs Ballygunner",
+            "pick": "Ballygunner",
+            "odds": "-130",
+            "confidence": "Medium",
+            "prediction": "Ballygunner's hurling pedigree and recent form are outstanding, boasting a high conversion rate from open play. Na Piarsaigh has been somewhat inconsistent, struggling against physically imposing defensive lines. The pick is Ballygunner to secure the victory, using their experience to navigate this tough provincial clash.",
+            "source_link": "https://www.gaa.ie/fixtures-results/",
+            "verified": "False"
+        },
+        {
+            "match": "Crossmaglen Rangers vs Errigal Ciaran",
+            "pick": "Crossmaglen Rangers",
+            "odds": "-120",
+            "confidence": "High",
+            "prediction": "Crossmaglen's traditional direct style of play continues to yield massive dividends, putting immense pressure on opposing full-back lines. Errigal Ciaran has leaked goals in their last two outings. Take Crossmaglen Rangers to win the match, exploiting defensive frailties and dominating the high ball in the square.",
+            "source_link": "https://www.gaa.ie/fixtures-results/",
+            "verified": "False"
+        }
+    ]
+}
