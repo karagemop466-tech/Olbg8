@@ -1,0 +1,35 @@
+name: Expanded evidence lab checks
+on:
+  push:
+    branches: [main, arena/7fbe3ee0-olbg8]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: evidence-lab-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: evidence-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate math, source rows and local links
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild published lab and validate
+        run: python -m scripts.build --publish && python -m scripts.check
+      - name: Ensure checked-in site matches source
+        run: git diff --exit-code -- evidence-lab
+      - name: Retain audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: expanded-evidence-audit
+          path: evidence-lab/data/audit.json

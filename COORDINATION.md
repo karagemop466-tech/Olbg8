@@ -22,3 +22,9 @@ Session: `7fbe3ee0` · Branch: `arena/7fbe3ee0-olbg8` (platform-required; no alt
 - Production pricing, calibration, complete official-history ingestion, event matching and prediction writing remain **needs review**, not done. No published picks and no fabricated lines. All gaps are on the site's Flagged for Review / Pricing pages.
 - New public collector is fail-closed on robots.txt and access challenges. Sandbox attempt blocked at TLS; best-effort hosted discovery will be exercised after integration. It is not a daily prediction pipeline.
 - Ownership scopes remain unchanged; integration by this session only. Repository branch is fixed by the platform, superseding requested session branch names.
+
+## Concurrent-publication handoff
+- Remote main advanced during this session with root dashboard owner `53f44a7c` and supplementary `arena-352da32b`. Read their combined task board on origin/main before integration. Preserve all their files byte-for-byte.
+- This session relocates its distinct 116-entry inventory, field-scoped official corroboration, pricing kernels, tests, source audit and UI to **`evidence-lab/` only**, with uniquely named `.github/workflows/evidence-lab.yml` and `evidence-discovery.yml`. Root README, existing workflows and tooling are not owned by this session anymore.
+- Request to root integration owner: optionally link `evidence-lab/index.html` from the root navigation after reviewing this supplementary scope; no root UI edits made by this session.
+- Preserve current legacy main/root Pages configuration (another session recorded API update HTTP 403). Generated lab pages will be checked into evidence-lab/ and served under the existing site. Scheduled public discovery remains an artifact-only workflow; it does not commit to main or claim to refresh the public snapshot.

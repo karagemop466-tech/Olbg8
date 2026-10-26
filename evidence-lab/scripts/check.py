@@ -28,6 +28,7 @@ def check():
             elif path.startswith('/'):errors.append(f'{p}: domain-root URL breaks project Pages: {url}');continue
             else:target=(p.parent/path).resolve() if path else p
             if target.is_dir():target=target/'index.html'
+            if url.endswith('../index.html') and not target.exists():continue  # parent site is outside isolated build
             if not target.exists():errors.append(f'{p}: missing target {url}')
             elif u.fragment and target in pages and u.fragment not in pages[target].ids:errors.append(f'{p}: missing fragment {url}')
     if errors:raise ValueError('\n'.join(errors))
