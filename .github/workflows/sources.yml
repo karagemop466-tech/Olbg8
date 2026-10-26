@@ -1,0 +1,39 @@
+name: sources-probe
+
+# Probes candidate official data sources for the 15 covered sports from a runner
+# with open egress, and commits the results for adapter design.
+on:
+  push:
+    branches: [arena/**]
+    paths:
+      - "scripts/source_probe.py"
+      - ".github/workflows/sources.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sources-probe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --quiet requests
+      - run: python scripts/source_probe.py
+      - name: Commit probe results
+        run: |
+          git config user.name "olbg-collector"
+          git config user.email "collector@users.noreply.github.com"
+          git add -A data/sources
+          if git diff --cached --quiet; then echo "no changes"; else
+            git commit -m "data: source probe $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          fi
