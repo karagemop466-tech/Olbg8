@@ -1,178 +1,129 @@
 #!/usr/bin/env python3
-"""
-OLBG collector (phase 1: taxonomy + upcoming events).
+"""OLBG collector v2 — full listing + event-page markets for the 15 covered sports.
 
-Runs on GitHub Actions (the agent sandbox cannot reach olbg.com).
-Writes machine-readable output to data/olbg/ and commits it back to the branch.
-
-Usage:
-  python scripts/olbg_collect.py            # phase 1: sport pages + samples
-  python scripts/olbg_collect.py --events   # phase 2: fetch queued event pages
+Runs on GitHub Actions (the agent sandbox cannot reach olbg.com) and commits
+raw, unmodified parse output to data/olbg/.
 """
 import json
 import os
 import re
 import sys
 import time
+import traceback
 from datetime import datetime, timezone
 
 import requests
-from bs4 import BeautifulSoup
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from olbg_parse import parse_event_links, parse_event_page  # noqa: E402
 
 BASE = "https://www.olbg.com"
 OUT = "data/olbg"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/124.0 Safari/537.36")
 
-# Sport slug -> OLBG sport id (ids confirmed from sitemap-betting-tips.xml)
 SPORTS = [
-    ("Tennis", 3),
-    ("Basketball", 4),
-    ("Golf", 5),
-    ("Cricket", 7),
-    ("Snooker", 8),
-    ("Rugby_Union", 9),
-    ("Rugby_League", 10),
-    ("Baseball", 12),
-    ("Ice_Hockey", 13),
-    ("Motor_Racing", 14),
-    ("Darts", 15),
-    ("Handball", 20),
-    ("Volleyball", 21),
-    ("Gaelic_Football", 25),   # OLBG's Gaelic node
-    ("Greyhounds", 28),
+    ("Tennis", 3), ("Basketball", 4), ("Golf", 5), ("Cricket", 7), ("Snooker", 8),
+    ("Rugby_Union", 9), ("Rugby_League", 10), ("Baseball", 12), ("Ice_Hockey", 13),
+    ("Motor_Racing", 14), ("Darts", 15), ("Handball", 20), ("Volleyball", 21),
+    ("Gaelic_Football", 25), ("Greyhounds", 28),
 ]
 
-# Slugs probed to prove/disprove the "Gaelic Sports" mapping
-PROBE_SLUGS = ["Gaelic_Sports", "Gaelic_Games", "Gaelic_Football", "Hurling", "Camogie"]
+MAX_EVENT_PAGES = int(os.environ.get("MAX_EVENT_PAGES", "30"))
 
-SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": UA, "Accept-Language": "en-GB,en;q=0.9"})
+S = requests.Session()
+S.headers.update({"User-Agent": UA, "Accept-Language": "en-GB,en;q=0.9"})
 
 
 def get(url, tries=3):
     last = None
     for i in range(tries):
         try:
-            r = SESSION.get(url, timeout=30)
-            return r
+            return S.get(url, timeout=30)
         except Exception as exc:  # noqa: BLE001
             last = exc
-            time.sleep(2 + 2 * i)
-    raise RuntimeError(f"GET failed {url}: {last}")
+            time.sleep(1.5 * (i + 1))
+    raise RuntimeError(str(last)[:200])
 
 
-def text_of(node, limit=600):
-    t = node.get_text(" ", strip=True)
-    t = re.sub(r"\s+", " ", t)
-    return t[:limit]
+def sort_key(ev):
+    """Earliest fixtures with the most tipster interest first."""
+    tips = 0
+    if ev.get("listing_tips"):
+        try:
+            tips = int(ev["listing_tips"].split("/")[1])
+        except Exception:  # noqa: BLE001
+            tips = 0
+    return (-tips, ev.get("listing_when", "z"))
 
 
-def visible_text(html, limit=7000):
-    soup = BeautifulSoup(html, "html.parser")
-    for tag in soup(["script", "style", "noscript", "svg", "iframe"]):
-        tag.decompose()
-    txt = soup.get_text("\n", strip=True)
-    lines, seen = [], None
-    for ln in txt.split("\n"):
-        ln = re.sub(r"\s+", " ", ln).strip()
-        if not ln or ln == seen:
-            continue
-        seen = ln
-        lines.append(ln)
-    return "\n".join(lines)[:limit]
-
-
-def parse_events(html, sport_slug):
-    """Extract event links (href carrying event_id) with their local context."""
-    soup = BeautifulSoup(html, "html.parser")
-    events, seen = [], set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if "event_id=" not in href:
-            continue
-        m = re.search(r"event_id=(\d+)", href)
-        if not m:
-            continue
-        eid = m.group(1)
-        if eid in seen:
-            continue
-        url = href if href.startswith("http") else BASE + ("" if href.startswith("/") else "/") + href
-        name = text_of(a, 160)
-        ctx = ""
-        node = a
-        for _ in range(4):
-            node = node.parent
-            if node is None:
-                break
-            ctx = text_of(node, 420)
-            if len(ctx) > len(name) + 10:
-                break
-        parts = [p for p in url.split("/") if p]
-        # competition path = between sport slug and event name
-        events.append({
-            "event_id": eid,
-            "name": name,
-            "url": url,
-            "competition_path": "/".join(parts[2:-1]) if len(parts) > 4 else "",
-            "context": ctx,
-        })
-        seen.add(eid)
-    return events
-
-
-def run_phase1():
+def main():
     os.makedirs(OUT, exist_ok=True)
-    os.makedirs(f"{OUT}/samples", exist_ok=True)
     run = {"generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-           "sports": [], "probes": {}}
+           "sport_summary": [], "errors": []}
 
     for slug, sid in SPORTS:
-        url = f"{BASE}/betting-tips/{slug}/{sid}"
-        rec = {"slug": slug, "sport_id": sid, "url": url}
+        listing_url = f"{BASE}/betting-tips/{slug}/{sid}"
+        sport_rec = {"sport": slug, "sport_id": sid, "listing_url": listing_url}
         try:
-            r = get(url)
-            rec.update({"status": r.status_code, "final_url": r.url})
-            soup = BeautifulSoup(r.text, "html.parser")
-            rec["title"] = text_of(soup.title, 200) if soup.title else ""
-            events = parse_events(r.text, slug)
-            rec["event_count"] = len(events)
-            with open(f"{OUT}/sport_{slug}.json", "w") as fh:
-                json.dump({"sport": rec, "events": events}, fh, indent=1)
-            with open(f"{OUT}/samples/{slug}.txt", "w") as fh:
-                fh.write(f"URL: {r.url}\nSTATUS: {r.status_code}\nTITLE: {rec['title']}\n\n")
-                fh.write(visible_text(r.text))
-            # sample a couple of event pages per sport so the parser can be designed
-            for i, ev in enumerate(events[:2]):
+            r = get(listing_url)
+            sport_rec["status"] = r.status_code
+            if "No tips found" in r.text:
+                sport_rec["listing_note"] = "OLBG displayed 'No tips found.' at collection time"
+            events = parse_event_links(r.text, slug, sid)
+            sport_rec["events_listed"] = len(events)
+            events.sort(key=sort_key)
+            detailed = []
+            for ev in events[:MAX_EVENT_PAGES]:
                 try:
                     er = get(ev["url"])
-                    with open(f"{OUT}/samples/{slug}_event{i}.txt", "w") as fh:
-                        fh.write(f"URL: {er.url}\nSTATUS: {er.status_code}\nEVENT: {ev['name']}\n\n")
-                        fh.write(visible_text(er.text, 9000))
-                    time.sleep(1)
+                    if er.status_code != 200:
+                        ev["fetch_status"] = er.status_code
+                        detailed.append(ev)
+                        continue
+                    parsed = parse_event_page(er.text)
+                    ev2 = dict(ev)
+                    ev2.update({
+                        "fetch_status": 200,
+                        "official_start_utc": parsed["start_utc"],
+                        "name": parsed["name"] or ev.get("fixture_name", ""),
+                        "competitors": parsed["competitors"],
+                        "markets": parsed["markets"],
+                        "market_headings": [h["market"] for h in parsed["market_headings"]],
+                        "tip_total": parsed["tip_total"],
+                        "canonical": parsed["canonical"],
+                    })
+                    detailed.append(ev2)
                 except Exception as exc:  # noqa: BLE001
-                    rec.setdefault("event_sample_errors", []).append(str(exc)[:200])
+                    ev["fetch_error"] = str(exc)[:160]
+                    detailed.append(ev)
+                time.sleep(0.4)
+            # events beyond the page cap keep their listing record (market data absent)
+            for ev in events[MAX_EVENT_PAGES:]:
+                ev["fetch_status"] = "not_fetched_page_cap"
+                detailed.append(ev)
+            sport_rec["events"] = detailed
+            sport_rec["events_with_markets"] = sum(1 for e in detailed if e.get("markets"))
+            with open(f"{OUT}/sport_{slug}.json", "w") as fh:
+                json.dump(sport_rec, fh, indent=1)
+            run["sport_summary"].append({
+                "sport": slug, "sport_id": sid, "status": r.status_code,
+                "events_listed": len(events),
+                "events_with_markets": sport_rec["events_with_markets"],
+                "note": sport_rec.get("listing_note", ""),
+            })
         except Exception as exc:  # noqa: BLE001
-            rec["error"] = str(exc)[:300]
-        run["sports"].append(rec)
-        time.sleep(1.5)
-
-    for slug in PROBE_SLUGS:
-        try:
-            r = SESSION.get(f"{BASE}/betting-tips/{slug}", timeout=25)
-            run["probes"][slug] = {"status": r.status_code, "final_url": r.url}
-        except Exception as exc:  # noqa: BLE001
-            run["probes"][slug] = {"error": str(exc)[:150]}
+            run["errors"].append({"sport": slug, "error": str(exc)[:300],
+                                  "trace": traceback.format_exc()[-800:]})
+            run["sport_summary"].append({"sport": slug, "sport_id": sid,
+                                         "error": str(exc)[:200]})
+        print(slug, run["sport_summary"][-1], flush=True)
         time.sleep(1)
 
-    with open(f"{OUT}/_run_phase1.json", "w") as fh:
+    with open(f"{OUT}/_run.json", "w") as fh:
         json.dump(run, fh, indent=1)
-    print(json.dumps({"sports": [(s["slug"], s.get("status"), s.get("event_count")) for s in run["sports"]],
-                      "probes": run["probes"]}, indent=1))
+    print(json.dumps(run["sport_summary"], indent=1))
 
 
 if __name__ == "__main__":
-    if "--events" in sys.argv:
-        print("phase 2 not implemented yet")
-    else:
-        run_phase1()
+    main()
