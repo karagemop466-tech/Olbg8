@@ -1,0 +1,31 @@
+name: Site quality
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse OLBG snapshots
+        run: python scripts/parse_olbg.py
+      - name: Parse every event market
+        run: python scripts/parse_events.py
+      - name: Extract official-source facts
+        run: python scripts/extract_official.py
+      - name: Price every outcome
+        run: python scripts/pricing.py
+      - name: Select published picks
+        run: python scripts/select_picks.py
+      - name: Rebuild the site
+        run: python scripts/build_site.py
+      - name: Verify links, picks and data
+        run: python scripts/check_site.py
+      - name: Confirm generated files are committed
+        run: git diff --exit-code -- index.html markets.html methodology.html sources.html review.html sports data

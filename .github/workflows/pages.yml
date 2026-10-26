@@ -1,0 +1,24 @@
+name: Validate supplementary research desk
+# GitHub Pages for this repository is published from the main branch root (legacy
+# build). This workflow only validates the supplementary research-desk/ site so it
+# cannot take over the Pages deployment from the primary dashboard.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/build.py --publish
+        working-directory: research-desk
+      - run: python scripts/test_site.py
+        working-directory: research-desk
+      - run: git diff --exit-code -- research-desk
