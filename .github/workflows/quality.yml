@@ -16,22 +16,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild legacy audit dashboard
-        run: python3 scripts/build_dashboard.py
+
+      # --- primary 2026-10-27 desk (session 3822f8fb) -------------------------------
       - name: Rebuild desk dataset from committed capture
         run: python3 scripts/desk_data.py
       - name: Rebuild desk pages
         run: python3 scripts/render_desk.py
-      - name: Validate legacy data and local links
-        run: python3 scripts/test_site.py
-      - name: Validate desk dataset, source links, predictions and pages
+      - name: Gate the primary desk (rows, sources, prose, links, determinism)
         run: python3 scripts/verify_desk.py
-      - name: Check JavaScript syntax
+
+      # --- retained line-desk payload from concurrent sessions -----------------------
+      - name: Rebuild retained line-desk payload
+        run: python3 scripts/build_dashboard.py
+      - name: Gate retained line-desk payload and its links
+        run: python3 scripts/test_line_desk.py
+
+      - name: Check Python and JavaScript syntax
         run: |
+          python3 -m py_compile scripts/*.py
           node --check assets/app.js
           node --check assets/desk.js
-      - name: Confirm generated files are committed
+      - name: Confirm generated primary-site files are committed
         run: |
-          git diff --exit-code -- data/dashboard.json data/sources.json \
-            data/desk-20261027.json index.html picks.html lines.html matches.html \
-            sources.html methodology.html flagged.html sports assets/desk.css assets/desk.js
+          git diff --exit-code -- data/desk-20261027.json \
+            data/dashboard.json data/sources.json \
+            index.html picks.html lines.html matches.html sources.html \
+            methodology.html flagged.html pricing.html sports \
+            assets/desk.css assets/desk.js

@@ -1,4 +1,4 @@
-name: Deploy OLBG research desk
+name: Deploy OLBG desk
 
 on:
   push:
@@ -26,8 +26,8 @@ jobs:
           python-version: "3.12"
       - name: Validate primary site
         run: |
-          python3 scripts/test_site.py
           python3 scripts/verify_desk.py
+          python3 scripts/test_line_desk.py
           python3 -m py_compile scripts/*.py
           node --check assets/app.js
           node --check assets/desk.js

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="How OLBG tip volume becomes an originated betting line, and how confidence is assigned.">
+<title>Pricing method · OLBG research desk</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
+  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="on" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="" href="methodology.html">Method</a><a class="" href="flagged.html">Flagged for review</a></nav>
+  <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
+</header>
+<div class="wrap">
+<section class="pagemast"><h1>How we originate a line when nobody gives us one</h1>
+<p class="lede">OLBG does not print a bookmaker price in the markup a reader can see. What it prints, for every selection, is how many
+tipsters picked it and how many tips the whole market carries — and OLBG's own definition of its Value Rating says it treats that share
+as “the theoretical probability of winning”. We use the same quantity as our input, price it ourselves, and publish the arithmetic.</p></section>
+<section class="stepgrid">
+<div class="stepcard"><b>1 · Read the market</b><p>For each event, every market OLBG exposes: win match or money line, handicap or
+spread, totals, and the player markets such as man of the match and top batsman.</p></div>
+<div class="stepcard"><b>2 · Count, don't guess</b><p>Take the printed “x / y” — tips on this selection over tips on the market. No
+bookmaker number is copied and no number is interpolated.</p></div>
+<div class="stepcard"><b>3 · Fix the outcome count</b><p>k = 2 for a head-to-head, 3 where a draw is priced (OLBG's handball money line),
+and the declared field size for an outright — 78 at the Maybank, 128 at the World Darts Championship. No published field size means no
+price above a floor, and a flag.</p></div>
+<div class="stepcard"><b>4 · Shrink toward the base rate</b><p>p = (n + 8/k) ÷ (T + 8). A Dirichlet
+update with a uniform prior, so one lonely tip on a 78-player field cannot read as 50%, and 1 of 1 on a match cannot read as certain.</p></div>
+<div class="stepcard"><b>5 · Price it</b><p>Fair decimal = 1/p, converted to American. Our offered line takes a 4% margin,
+and the no-margin figure is printed next to it so anyone can reverse the step.</p></div>
+<div class="stepcard"><b>6 · Apply the band</b><p>Lines shorter than -250 are rejected from the picks surface and flagged. That removes
+exactly the “sure thing” favourites the brief ruled out; a +10,000 ceiling stops a one-tip market becoming a lottery ticket.</p></div>
+</section>
+<section>
+<h2>Confidence bands, as actually applied</h2>
+<table class="grid"><thead><tr><th>Band</th><th>Requirement, in full</th></tr></thead><tbody>
+<tr><td><span class="band hi">High</span></td><td>Official governing-body, league-API or club source opened and matched to the fixture, <b>and</b> priced
+chance ≥ 60%, <b>and</b> at least 4 tips in that market, <b>and</b> inside the band. Outrights cannot reach High at all.</td></tr>
+<tr><td><span class="band med">Medium</span></td><td>Either a corroborated fixture at ≥ 52%, or an uncorroborated fixture at ≥ 60% carrying 8+ tips.</td></tr>
+<tr><td><span class="band lo">Low</span></td><td>Everything else — including anything priced from fewer than three tips, which is capped here whatever else it has.</td></tr>
+</tbody></table>
+<p class="fine">Applied today: official crosswalk AND p>=0.6 AND market tips>=4 AND in window → 1 rows.
+46 rows carry fewer than three tips and are capped to Low on
+purpose; that is the honest answer to a request for high-confidence picks on markets that are mostly empty.</p>
+</section>
+<section>
+<h2>Market coverage per sport</h2>
+<table class="grid"><thead><tr><th>Sport</th><th>Markets found on OLBG today</th><th>Selections priced</th><th>Markets left unpriced</th></tr></thead><tbody>
+<tr><td>Golf</td><td>Win Tournament</td>
+<td class="num">3</td>
+<td>none</td></tr><tr><td>Volleyball</td><td>Win Match</td>
+<td class="num">14</td>
+<td>none</td></tr><tr><td>Rugby Union</td><td>Handicap, To Win, Win Tournament</td>
+<td class="num">13</td>
+<td>none</td></tr><tr><td>Cricket</td><td>Man Of The Match, Top Team1 Batsman, Win Match</td>
+<td class="num">25</td>
+<td>none</td></tr><tr><td>Snooker</td><td>—</td>
+<td class="num">0</td>
+<td>none</td></tr><tr><td>Darts</td><td>Win Tournament</td>
+<td class="num">2</td>
+<td>none</td></tr><tr><td>Baseball</td><td>Game Totals, Money Line, Run Line</td>
+<td class="num">6</td>
+<td>Game Totals</td></tr><tr><td>Gaelic Sports</td><td>Handicap, Win Hurling, Win Tournament</td>
+<td class="num">4</td>
+<td>none</td></tr><tr><td>Greyhounds</td><td>—</td>
+<td class="num">0</td>
+<td>none</td></tr><tr><td>Tennis</td><td>Win Match</td>
+<td class="num">13</td>
+<td>none</td></tr><tr><td>Motor Racing</td><td>Podium Finish, Win Tournament</td>
+<td class="num">2</td>
+<td>none</td></tr><tr><td>Handball</td><td>Match Handicap, Money Line, Points Total</td>
+<td class="num">21</td>
+<td>Points Total</td></tr><tr><td>Ice Hockey</td><td>Game Totals, Money Line, Puck Line</td>
+<td class="num">20</td>
+<td>none</td></tr><tr><td>Basketball</td><td>Money Line, Pointspread</td>
+<td class="num">14</td>
+<td>Money Line</td></tr><tr><td>Rugby League</td><td>Grand Final Winner, Win Tournament</td>
+<td class="num">3</td>
+<td>none</td></tr>
+</tbody></table>
+</section></div>
+<footer class="foot">
+  <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
+  an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="../board/index.html">board/</a>, a collector's live capture at <a href="../current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="../evidence-lab/index.html">evidence-lab/</a> and <a href="../research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
+</footer>
+</body></html>

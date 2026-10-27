@@ -1,0 +1,2305 @@
+{
+ "captured_utc": "2026-10-27T06:14:53Z",
+ "sports": {
+  "golf": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Golf/All_Golf/All_Events/5",
+     "status": 200,
+     "bytes": 13863,
+     "rows": 3
+    }
+   ],
+   "events": 3,
+   "rows": 4,
+   "seeds": [
+    {
+     "path": "/betting-tips/Golf/5",
+     "status": 200,
+     "bytes": 60476,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Golf/All_Golf/All_Events/5",
+     "status": 200,
+     "bytes": 13863,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "101914",
+     "status": 200,
+     "bytes": 42043,
+     "rows": 1,
+     "markets": [
+      "Win Tournament"
+     ]
+    },
+    {
+     "event_id": "101915",
+     "status": 200,
+     "bytes": 88545,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    },
+    {
+     "event_id": "101913",
+     "status": 200,
+     "bytes": 55698,
+     "rows": 1,
+     "markets": [
+      "Win Tournament"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "volleyball": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Volleyball/All_Volleyball/All_Events/21",
+     "status": 200,
+     "bytes": 28568,
+     "rows": 22
+    }
+   ],
+   "events": 22,
+   "rows": 29,
+   "seeds": [
+    {
+     "path": "/betting-tips/Volleyball/21",
+     "status": 200,
+     "bytes": 57089,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Volleyball/All_Volleyball/All_Events/21",
+     "status": 200,
+     "bytes": 28568,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "37065",
+     "status": 200,
+     "bytes": 16564,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37137",
+     "status": 200,
+     "bytes": 24297,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37083",
+     "status": 200,
+     "bytes": 16604,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37082",
+     "status": 200,
+     "bytes": 16869,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37104",
+     "status": 200,
+     "bytes": 16599,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37076",
+     "status": 200,
+     "bytes": 22688,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37136",
+     "status": 200,
+     "bytes": 16677,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37135",
+     "status": 200,
+     "bytes": 24077,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37132",
+     "status": 200,
+     "bytes": 16875,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37134",
+     "status": 200,
+     "bytes": 16795,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37127",
+     "status": 200,
+     "bytes": 16752,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37123",
+     "status": 200,
+     "bytes": 16814,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37131",
+     "status": 200,
+     "bytes": 16770,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37125",
+     "status": 200,
+     "bytes": 16630,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37122",
+     "status": 200,
+     "bytes": 16717,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37103",
+     "status": 200,
+     "bytes": 23770,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37129",
+     "status": 200,
+     "bytes": 28009,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37124",
+     "status": 200,
+     "bytes": 26134,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37081",
+     "status": 200,
+     "bytes": 24204,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37121",
+     "status": 200,
+     "bytes": 33722,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37126",
+     "status": 200,
+     "bytes": 28738,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "37075",
+     "status": 200,
+     "bytes": 23778,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "rugby-union": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9",
+     "status": 200,
+     "bytes": 21453,
+     "rows": 13
+    }
+   ],
+   "events": 13,
+   "rows": 20,
+   "seeds": [
+    {
+     "path": "/betting-tips/Rugby_Union/9",
+     "status": 200,
+     "bytes": 55528,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9",
+     "status": 200,
+     "bytes": 21453,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "609013",
+     "status": 200,
+     "bytes": 42540,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    },
+    {
+     "event_id": "609611",
+     "status": 200,
+     "bytes": 21226,
+     "rows": 2,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609586",
+     "status": 200,
+     "bytes": 14345,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609588",
+     "status": 200,
+     "bytes": 14393,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609602",
+     "status": 200,
+     "bytes": 14502,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609590",
+     "status": 200,
+     "bytes": 14523,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609584",
+     "status": 200,
+     "bytes": 14429,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609600",
+     "status": 200,
+     "bytes": 14364,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609599",
+     "status": 200,
+     "bytes": 14398,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609598",
+     "status": 200,
+     "bytes": 20114,
+     "rows": 2,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609603",
+     "status": 200,
+     "bytes": 22183,
+     "rows": 2,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609604",
+     "status": 200,
+     "bytes": 14361,
+     "rows": 1,
+     "markets": [
+      "To Win"
+     ]
+    },
+    {
+     "event_id": "609605",
+     "status": 200,
+     "bytes": 23008,
+     "rows": 2,
+     "markets": [
+      "To Win"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "cricket": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Cricket/All_Cricket/All_Events/7",
+     "status": 200,
+     "bytes": 25401,
+     "rows": 18
+    }
+   ],
+   "events": 18,
+   "rows": 23,
+   "seeds": [
+    {
+     "path": "/betting-tips/Cricket/7",
+     "status": 200,
+     "bytes": 65330,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Cricket/All_Cricket/All_Events/7",
+     "status": 200,
+     "bytes": 25401,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "182606",
+     "status": 200,
+     "bytes": 34061,
+     "rows": 1,
+     "markets": [
+      "Outright Winner"
+     ]
+    },
+    {
+     "event_id": "188350",
+     "status": 200,
+     "bytes": 19811,
+     "rows": 0,
+     "markets": []
+    },
+    {
+     "event_id": "187504",
+     "status": 200,
+     "bytes": 15082,
+     "rows": 1,
+     "markets": [
+      "Outright Winner"
+     ]
+    },
+    {
+     "event_id": "187503",
+     "status": 200,
+     "bytes": 16270,
+     "rows": 1,
+     "markets": [
+      "Outright Winner"
+     ]
+    },
+    {
+     "event_id": "187184",
+     "status": 200,
+     "bytes": 16181,
+     "rows": 1,
+     "markets": [
+      "Outright Winner"
+     ]
+    },
+    {
+     "event_id": "188871",
+     "status": 200,
+     "bytes": 38224,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188835",
+     "status": 200,
+     "bytes": 42338,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188863",
+     "status": 200,
+     "bytes": 42081,
+     "rows": 1,
+     "markets": [
+      "Man Of The Match"
+     ]
+    },
+    {
+     "event_id": "188865",
+     "status": 200,
+     "bytes": 13637,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188864",
+     "status": 200,
+     "bytes": 17306,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188874",
+     "status": 200,
+     "bytes": 13244,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188878",
+     "status": 200,
+     "bytes": 22119,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188877",
+     "status": 200,
+     "bytes": 22432,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188876",
+     "status": 200,
+     "bytes": 24718,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188872",
+     "status": 200,
+     "bytes": 100813,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188854",
+     "status": 200,
+     "bytes": 94743,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188868",
+     "status": 200,
+     "bytes": 148909,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "188852",
+     "status": 200,
+     "bytes": 180114,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "snooker": {
+   "competitions": [],
+   "events": 0,
+   "rows": 0,
+   "seeds": [
+    {
+     "path": "/betting-tips/Snooker/8",
+     "status": 200,
+     "bytes": 53076,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Snooker/All_Snooker/All_Events/8",
+     "status": 200,
+     "bytes": 9274,
+     "error": ""
+    }
+   ],
+   "competition_count": 0
+  },
+  "darts": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Darts/All_Darts/All_Events/15",
+     "status": 200,
+     "bytes": 13126,
+     "rows": 2
+    }
+   ],
+   "events": 2,
+   "rows": 3,
+   "seeds": [
+    {
+     "path": "/betting-tips/Darts/15",
+     "status": 200,
+     "bytes": 64926,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Darts/All_Darts/All_Events/15",
+     "status": 200,
+     "bytes": 13126,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "26023",
+     "status": 200,
+     "bytes": 122694,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    },
+    {
+     "event_id": "32446",
+     "status": 200,
+     "bytes": 104927,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "baseball": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Baseball/MLB/MLB/12",
+     "status": 200,
+     "bytes": 54022,
+     "rows": 1
+    }
+   ],
+   "events": 2,
+   "rows": 2,
+   "seeds": [
+    {
+     "path": "/betting-tips/Baseball/12",
+     "status": 200,
+     "bytes": 49413,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Baseball/All_Baseball/All_Events/12",
+     "status": 200,
+     "bytes": 12418,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "160795",
+     "status": 200,
+     "bytes": 92298,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "160799",
+     "status": 200,
+     "bytes": 15320,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "gaelic-football": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/25",
+     "status": 200,
+     "bytes": 14297,
+     "rows": 3
+    }
+   ],
+   "events": 3,
+   "rows": 7,
+   "seeds": [
+    {
+     "path": "/betting-tips/Gaelic_Football/25",
+     "status": 200,
+     "bytes": 46535,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/25",
+     "status": 200,
+     "bytes": 14297,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "3327",
+     "status": 200,
+     "bytes": 44210,
+     "rows": 2,
+     "markets": [
+      "Win Football"
+     ]
+    },
+    {
+     "event_id": "3537",
+     "status": 200,
+     "bytes": 29896,
+     "rows": 2,
+     "markets": [
+      "FT Result"
+     ]
+    },
+    {
+     "event_id": "3531",
+     "status": 200,
+     "bytes": 30362,
+     "rows": 2,
+     "markets": [
+      "FT Result",
+      "Handicap"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "hurling": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Hurling/All_Hurling/All_Events/26",
+     "status": 200,
+     "bytes": 12408,
+     "rows": 1
+    }
+   ],
+   "events": 1,
+   "rows": 2,
+   "seeds": [
+    {
+     "path": "/betting-tips/Hurling/26",
+     "status": 200,
+     "bytes": 40986,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Hurling/All_Hurling/All_Events/26",
+     "status": 200,
+     "bytes": 12408,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "675",
+     "status": 200,
+     "bytes": 30213,
+     "rows": 2,
+     "markets": [
+      "Win Hurling"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "greyhounds": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
+     "status": 200,
+     "bytes": 14579,
+     "rows": 4
+    }
+   ],
+   "events": 4,
+   "rows": 4,
+   "seeds": [
+    {
+     "path": "/betting-tips/Greyhounds/28",
+     "status": 200,
+     "bytes": 68503,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
+     "status": 200,
+     "bytes": 14579,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "690295",
+     "status": 200,
+     "bytes": 12615,
+     "rows": 0,
+     "markets": []
+    },
+    {
+     "event_id": "690294",
+     "status": 200,
+     "bytes": 13120,
+     "rows": 0,
+     "markets": []
+    },
+    {
+     "event_id": "690290",
+     "status": 200,
+     "bytes": 13113,
+     "rows": 0,
+     "markets": []
+    },
+    {
+     "event_id": "690289",
+     "status": 200,
+     "bytes": 12616,
+     "rows": 0,
+     "markets": []
+    }
+   ],
+   "competition_count": 1
+  },
+  "tennis": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Tennis/All_Tennis/All_Events/3",
+     "status": 200,
+     "bytes": 40519,
+     "rows": 38
+    }
+   ],
+   "events": 50,
+   "rows": 62,
+   "seeds": [
+    {
+     "path": "/betting-tips/Tennis/3",
+     "status": 200,
+     "bytes": 96973,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Tennis/All_Tennis/All_Events/3",
+     "status": 200,
+     "bytes": 40519,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "902182",
+     "status": 200,
+     "bytes": 25604,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902187",
+     "status": 200,
+     "bytes": 25888,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902302",
+     "status": 200,
+     "bytes": 25877,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902174",
+     "status": 200,
+     "bytes": 27659,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902180",
+     "status": 200,
+     "bytes": 27935,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902176",
+     "status": 200,
+     "bytes": 25782,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902181",
+     "status": 200,
+     "bytes": 27962,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902301",
+     "status": 200,
+     "bytes": 30411,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902179",
+     "status": 200,
+     "bytes": 41143,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902309",
+     "status": 200,
+     "bytes": 33020,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902172",
+     "status": 200,
+     "bytes": 58733,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902305",
+     "status": 200,
+     "bytes": 38655,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902205",
+     "status": 200,
+     "bytes": 27984,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902369",
+     "status": 200,
+     "bytes": 18921,
+     "rows": 1,
+     "markets": [
+      "1st Set Winner"
+     ]
+    },
+    {
+     "event_id": "902314",
+     "status": 200,
+     "bytes": 26381,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902344",
+     "status": 200,
+     "bytes": 26291,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902380",
+     "status": 200,
+     "bytes": 26197,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902233",
+     "status": 200,
+     "bytes": 35293,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902353",
+     "status": 200,
+     "bytes": 14405,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902351",
+     "status": 200,
+     "bytes": 26494,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902335",
+     "status": 200,
+     "bytes": 27994,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902206",
+     "status": 200,
+     "bytes": 28114,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902348",
+     "status": 200,
+     "bytes": 26114,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902330",
+     "status": 200,
+     "bytes": 14438,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902342",
+     "status": 200,
+     "bytes": 19025,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902203",
+     "status": 200,
+     "bytes": 19057,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902368",
+     "status": 200,
+     "bytes": 26134,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902365",
+     "status": 200,
+     "bytes": 25985,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902355",
+     "status": 200,
+     "bytes": 14565,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902361",
+     "status": 200,
+     "bytes": 26167,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902347",
+     "status": 200,
+     "bytes": 19110,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902370",
+     "status": 200,
+     "bytes": 18895,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902323",
+     "status": 200,
+     "bytes": 14388,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902320",
+     "status": 200,
+     "bytes": 18986,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902234",
+     "status": 200,
+     "bytes": 26535,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902378",
+     "status": 200,
+     "bytes": 26541,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902183",
+     "status": 200,
+     "bytes": 26324,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902374",
+     "status": 200,
+     "bytes": 19023,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902213",
+     "status": 200,
+     "bytes": 18981,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902240",
+     "status": 200,
+     "bytes": 29511,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902372",
+     "status": 200,
+     "bytes": 28193,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902310",
+     "status": 200,
+     "bytes": 18990,
+     "rows": 1,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902210",
+     "status": 200,
+     "bytes": 29759,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902252",
+     "status": 200,
+     "bytes": 29719,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    },
+    {
+     "event_id": "902409",
+     "status": 200,
+     "bytes": 25924,
+     "rows": 2,
+     "markets": [
+      "Win Match"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "motor-racing": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/14",
+     "status": 200,
+     "bytes": 12570,
+     "rows": 1
+    }
+   ],
+   "events": 2,
+   "rows": 3,
+   "seeds": [
+    {
+     "path": "/betting-tips/Motor_Racing/14",
+     "status": 200,
+     "bytes": 63910,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/14",
+     "status": 200,
+     "bytes": 12570,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "912",
+     "status": 200,
+     "bytes": 27140,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    },
+    {
+     "event_id": "914",
+     "status": 200,
+     "bytes": 95943,
+     "rows": 1,
+     "markets": [
+      "Win Race"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "handball": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Handball/All_Handball/All_Events/20",
+     "status": 200,
+     "bytes": 25656,
+     "rows": 19
+    }
+   ],
+   "events": 19,
+   "rows": 23,
+   "seeds": [
+    {
+     "path": "/betting-tips/Handball/20",
+     "status": 200,
+     "bytes": 56512,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Handball/All_Handball/All_Events/20",
+     "status": 200,
+     "bytes": 25656,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "12158",
+     "status": 200,
+     "bytes": 14020,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12163",
+     "status": 200,
+     "bytes": 14065,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12185",
+     "status": 200,
+     "bytes": 13957,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12169",
+     "status": 200,
+     "bytes": 13973,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12137",
+     "status": 200,
+     "bytes": 16385,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12180",
+     "status": 200,
+     "bytes": 14314,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12131",
+     "status": 200,
+     "bytes": 16206,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12133",
+     "status": 200,
+     "bytes": 16221,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12129",
+     "status": 200,
+     "bytes": 16015,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12128",
+     "status": 200,
+     "bytes": 18633,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12127",
+     "status": 200,
+     "bytes": 16043,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12135",
+     "status": 200,
+     "bytes": 16080,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12134",
+     "status": 200,
+     "bytes": 16280,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12132",
+     "status": 200,
+     "bytes": 16047,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12138",
+     "status": 200,
+     "bytes": 16065,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12130",
+     "status": 200,
+     "bytes": 21806,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12136",
+     "status": 200,
+     "bytes": 16274,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12197",
+     "status": 200,
+     "bytes": 22295,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "12196",
+     "status": 200,
+     "bytes": 22319,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    }
+   ],
+   "competition_count": 1
+  },
+  "ice-hockey": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Ice_Hockey/NHL/NHL/13",
+     "status": 200,
+     "bytes": 15436,
+     "rows": 5
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/13",
+     "status": 200,
+     "bytes": 35494,
+     "rows": 7
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Austria_EHL/13",
+     "status": 200,
+     "bytes": 31043,
+     "rows": 1
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/13",
+     "status": 200,
+     "bytes": 31037,
+     "rows": 1
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/13",
+     "status": 200,
+     "bytes": 31145,
+     "rows": 1
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/13",
+     "status": 200,
+     "bytes": 31967,
+     "rows": 2
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/13",
+     "status": 200,
+     "bytes": 30531,
+     "rows": 1
+    }
+   ],
+   "events": 20,
+   "rows": 45,
+   "seeds": [
+    {
+     "path": "/betting-tips/Ice_Hockey/13",
+     "status": 200,
+     "bytes": 67199,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Ice_Hockey/All_Ice_Hockey/All_Events/13",
+     "status": 200,
+     "bytes": 25776,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "200103",
+     "status": 200,
+     "bytes": 64039,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200102",
+     "status": 200,
+     "bytes": 56210,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200112",
+     "status": 200,
+     "bytes": 16725,
+     "rows": 1,
+     "markets": [
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200105",
+     "status": 200,
+     "bytes": 25587,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "200111",
+     "status": 200,
+     "bytes": 25562,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "200104",
+     "status": 200,
+     "bytes": 27259,
+     "rows": 2,
+     "markets": [
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200122",
+     "status": 200,
+     "bytes": 23114,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200117",
+     "status": 200,
+     "bytes": 25856,
+     "rows": 2,
+     "markets": [
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200115",
+     "status": 200,
+     "bytes": 26558,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200119",
+     "status": 200,
+     "bytes": 23243,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200123",
+     "status": 200,
+     "bytes": 26305,
+     "rows": 2,
+     "markets": [
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200118",
+     "status": 200,
+     "bytes": 23238,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200116",
+     "status": 200,
+     "bytes": 17584,
+     "rows": 1,
+     "markets": [
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200146",
+     "status": 200,
+     "bytes": 21511,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200098",
+     "status": 200,
+     "bytes": 22037,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200108",
+     "status": 200,
+     "bytes": 27157,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200100",
+     "status": 200,
+     "bytes": 27480,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200083",
+     "status": 200,
+     "bytes": 26466,
+     "rows": 2,
+     "markets": [
+      "Money Line",
+      "Puck Line"
+     ]
+    },
+    {
+     "event_id": "200082",
+     "status": 200,
+     "bytes": 27610,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "200081",
+     "status": 200,
+     "bytes": 26844,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    }
+   ],
+   "competition_count": 7
+  },
+  "basketball": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Basketball/WNBA/WNBA/4",
+     "status": 200,
+     "bytes": 17864,
+     "rows": 0
+    },
+    {
+     "path": "/betting-tips/Basketball/NBA/NBA/4",
+     "status": 200,
+     "bytes": 32048,
+     "rows": 5
+    },
+    {
+     "path": "/betting-tips/Basketball/European/Euro_Cup/4",
+     "status": 200,
+     "bytes": 32685,
+     "rows": 11
+    },
+    {
+     "path": "/betting-tips/Basketball/European/Euroleague/4",
+     "status": 200,
+     "bytes": 31044,
+     "rows": 10
+    },
+    {
+     "path": "/betting-tips/Basketball/Other/Argentina_Liga_Nacional/4",
+     "status": 200,
+     "bytes": 12607,
+     "rows": 1
+    },
+    {
+     "path": "/betting-tips/Basketball/Other/Brazil_NBB/4",
+     "status": 200,
+     "bytes": 14078,
+     "rows": 3
+    },
+    {
+     "path": "/betting-tips/Basketball/European/Basketball_Champions_League/4",
+     "status": 200,
+     "bytes": 26575,
+     "rows": 2
+    },
+    {
+     "path": "/betting-tips/Basketball/Other/Korea_KBL/4",
+     "status": 200,
+     "bytes": 24964,
+     "rows": 1
+    }
+   ],
+   "events": 39,
+   "rows": 48,
+   "seeds": [
+    {
+     "path": "/betting-tips/Basketball/4",
+     "status": 200,
+     "bytes": 95509,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Basketball/All_Basketball/All_Events/4",
+     "status": 200,
+     "bytes": 36671,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "536153",
+     "status": 200,
+     "bytes": 31798,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536205",
+     "status": 200,
+     "bytes": 44574,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536201",
+     "status": 200,
+     "bytes": 58485,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536206",
+     "status": 200,
+     "bytes": 65277,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536202",
+     "status": 200,
+     "bytes": 64278,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536204",
+     "status": 200,
+     "bytes": 65227,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536254",
+     "status": 200,
+     "bytes": 15107,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536231",
+     "status": 200,
+     "bytes": 18996,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536230",
+     "status": 200,
+     "bytes": 19160,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536227",
+     "status": 200,
+     "bytes": 19122,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536228",
+     "status": 200,
+     "bytes": 19140,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536182",
+     "status": 200,
+     "bytes": 18928,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536225",
+     "status": 200,
+     "bytes": 19069,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536224",
+     "status": 200,
+     "bytes": 19023,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536255",
+     "status": 200,
+     "bytes": 15219,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536251",
+     "status": 200,
+     "bytes": 15137,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536252",
+     "status": 200,
+     "bytes": 15093,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536207",
+     "status": 200,
+     "bytes": 15279,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536183",
+     "status": 200,
+     "bytes": 24834,
+     "rows": 2,
+     "markets": [
+      "Game Totals",
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536181",
+     "status": 200,
+     "bytes": 18985,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536180",
+     "status": 200,
+     "bytes": 18722,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536222",
+     "status": 200,
+     "bytes": 19119,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536253",
+     "status": 200,
+     "bytes": 15097,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536211",
+     "status": 200,
+     "bytes": 15460,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536209",
+     "status": 200,
+     "bytes": 15536,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536210",
+     "status": 200,
+     "bytes": 15282,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536219",
+     "status": 200,
+     "bytes": 19267,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536215",
+     "status": 200,
+     "bytes": 19161,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536232",
+     "status": 200,
+     "bytes": 16185,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536235",
+     "status": 200,
+     "bytes": 19942,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536175",
+     "status": 200,
+     "bytes": 18914,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536217",
+     "status": 200,
+     "bytes": 35961,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536178",
+     "status": 200,
+     "bytes": 28071,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536174",
+     "status": 200,
+     "bytes": 31069,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536218",
+     "status": 200,
+     "bytes": 19177,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536179",
+     "status": 200,
+     "bytes": 32006,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536176",
+     "status": 200,
+     "bytes": 29824,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536214",
+     "status": 200,
+     "bytes": 24190,
+     "rows": 2,
+     "markets": [
+      "Money Line"
+     ]
+    },
+    {
+     "event_id": "536177",
+     "status": 200,
+     "bytes": 22500,
+     "rows": 1,
+     "markets": [
+      "Money Line"
+     ]
+    }
+   ],
+   "competition_count": 8
+  },
+  "rugby-league": {
+   "competitions": [
+    {
+     "path": "/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
+     "status": 200,
+     "bytes": 14011,
+     "rows": 3
+    }
+   ],
+   "events": 3,
+   "rows": 4,
+   "seeds": [
+    {
+     "path": "/betting-tips/Rugby_League/10",
+     "status": 200,
+     "bytes": 44579,
+     "error": ""
+    },
+    {
+     "path": "/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
+     "status": 200,
+     "bytes": 14011,
+     "error": ""
+    }
+   ],
+   "event_pages": [
+    {
+     "event_id": "2801600",
+     "status": 200,
+     "bytes": 32082,
+     "rows": 2,
+     "markets": [
+      "Grand Final Winner"
+     ]
+    },
+    {
+     "event_id": "2801554",
+     "status": 200,
+     "bytes": 39753,
+     "rows": 2,
+     "markets": [
+      "Grand Final Winner"
+     ]
+    },
+    {
+     "event_id": "2695857",
+     "status": 200,
+     "bytes": 34320,
+     "rows": 2,
+     "markets": [
+      "Win Tournament"
+     ]
+    }
+   ],
+   "competition_count": 1
+  }
+ }
+}

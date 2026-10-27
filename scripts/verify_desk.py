@@ -143,7 +143,9 @@ for rel in pages:
 html_files = sorted(list(ROOT.glob("*.html")) + list((ROOT / "sports").glob("*.html")))
 href_re = re.compile(r'href="([^"]+)"')
 row_re = re.compile(r"<tr\b[^>]*>.*?</tr>", re.S | re.I)
-exempt_row_files = {"methodology.html"}  # its market-frequency table is a methodology summary, not data
+# Methodology tables and the retained legacy pricing explainer are explanatory,
+# not fixture/price rows; every primary data row still requires an official link.
+exempt_row_files = {"methodology.html", "pricing.html"}
 
 for path in html_files:
     text = path.read_text(encoding="utf-8")

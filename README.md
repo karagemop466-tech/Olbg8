@@ -69,7 +69,9 @@ The site is plain HTML; JavaScript only adds table filtering. No runtime data fe
 - `scripts/collect_20261027.py`, `.github/workflows/collect-20261027.yml` — hosted bulk collector.
 - `scripts/desk_data.py`, `scripts/render_desk.py`, `scripts/verify_desk.py` — deterministic build and verification.
 - `data/dashboard.json`, `data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`, `data/sources.json` — legacy 2026-10-26 audit artifacts, retained unchanged.
-- `research-desk/`, `evidence-lab/` — supplementary audit artifacts from earlier sessions, linked from the footer but not part of primary navigation.
+- `previous-desk/` — static archive of the 05:26 UTC dashboard that concurrent sessions had merged to `main` before this integration; its data files and build scripts remain committed under `data/`, `scripts/` and `pipeline/`.
+- `research-desk/`, `evidence-lab/`, `board/`, `current/` — supplementary audit artifacts from earlier sessions, linked from the footer or archived desk but not part of primary navigation. Their CI gates (`scripts/test_line_desk.py`) are retained in the quality workflow; root-page generators from those pipelines no longer overwrite the integrated primary site (see `refresh.yml`).
+- `pricing.html` — retained legacy pricing explainer with a banner pointing at the current [methodology](methodology.html) and [lines](lines.html).
 - `COORDINATION.md` — shared task claims, source checks, irregularities, and PR / merge / deployment record.
 
 This is independent research, not OLBG advice and not a guarantee. Check the linked official source and the live market before relying on any information. Only bet where lawful and only what you can afford to lose.

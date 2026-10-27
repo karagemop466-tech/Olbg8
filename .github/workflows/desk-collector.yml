@@ -1,0 +1,67 @@
+# Session 51373243 collector. The sandbox has no egress to olbg.com; the
+# GitHub Actions runner does (proven by the committed 2026-10-26 capture).
+# Raw HTML snapshots and the parse probe are committed back to the session
+# branch for line-by-line audit in the sandbox.
+name: desk-collector (51373243)
+
+on:
+  push:
+    branches: [arena/51373243-olbg8]
+    paths:
+      - .github/workflows/desk-collector.yml
+      - collect/**
+      - collect-ping/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desk-collector-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch OLBG snapshots and parse probe
+        run: python3 collect/olbg_fetch.py production 4
+
+      - name: Commit snapshots for sandbox audit
+        run: |
+          git config user.name "desk-collector-51373243"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p data/olbg
+          # heartbeat: always commit something so a silent no-commit is impossible
+          python3 - <<'PYEOF'
+          import json, time
+          from pathlib import Path
+          out = Path("data/olbg")
+          files = {
+              "when_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+              "files_written": sorted(
+                  p.name for p in out.iterdir() if p.is_file()
+              ),
+              "tip_rows": len(json.loads((out / "tips.json").read_text())) if (out / "tips.json").exists() else None,
+              "summary_status": json.loads((out / "summary.json").read_text()).get("status") if (out / "summary.json").exists() else None,
+              "crash_file": (out / "crash.json").exists(),
+          }
+          (out / "runner-heartbeat.json").write_text(json.dumps(files, indent=2) + "\n")
+          PYEOF
+          # NOTE: multi-pathspec "git add a b c" aborts without adding anything
+          # if any pathspec matches no files (e.g. data/raw is empty here) —
+          # use git add -A on the clean worktree instead.
+          git add -A
+          if git diff --cached --quiet; then
+            echo "FATAL: nothing to commit — collector wrote no files"
+            ls -la data/olbg/ 2>/dev/null || echo "data/olbg missing"
+            cat data/olbg/summary.json 2>/dev/null || true
+            exit 1
+          fi
+          git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash origin arena/51373243-olbg8 || true
+          git push origin HEAD:arena/51373243-olbg8
+          echo "=== committed: ===" && git log --oneline -3

@@ -1,0 +1,125 @@
+{
+ "mode": "probe",
+ "startedUtc": "2026-10-27T05:31:59Z",
+ "results": [
+  {
+   "url": "https://www.olbg.com/betting-tips/Golf/5",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:00Z",
+   "bytes": 302071,
+   "raw_file": "pipeline/raw/olbg_golf.txt",
+   "raw_chars": 301875,
+   "tag": "olbg_golf"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Volleyball/21",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:00Z",
+   "bytes": 343604,
+   "raw_file": "pipeline/raw/olbg_volleyball.txt",
+   "raw_chars": 343356,
+   "tag": "olbg_volleyball"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:01Z",
+   "bytes": 321355,
+   "raw_file": "pipeline/raw/olbg_rugby_union.txt",
+   "raw_chars": 321161,
+   "tag": "olbg_rugby-union"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:01Z",
+   "bytes": 403508,
+   "raw_file": "pipeline/raw/olbg_hub.txt",
+   "raw_chars": 403318,
+   "tag": "olbg_hub"
+  },
+  {
+   "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=probablePitcher,linescore,team,venue&startDate=2026-10-27&endDate=2026-11-03",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:01Z",
+   "bytes": 13431,
+   "raw_file": "pipeline/raw/mlb_sched.txt",
+   "raw_chars": 13431,
+   "tag": "mlb_sched"
+  },
+  {
+   "url": "https://api-web.nhle.com/v1/schedule/now",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:01Z",
+   "bytes": 91380,
+   "raw_file": "pipeline/raw/nhl_sched.txt",
+   "raw_chars": 91367,
+   "tag": "nhl_sched"
+  },
+  {
+   "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:32:07Z",
+   "raw_file": "pipeline/raw/nba_today.txt",
+   "raw_chars": 445,
+   "tag": "nba_today"
+  },
+  {
+   "url": "https://api.jolpi.ca/ergast/f1/current/races.json",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:07Z",
+   "bytes": 14301,
+   "raw_file": "pipeline/raw/f1_races.txt",
+   "raw_chars": 14296,
+   "tag": "f1_races"
+  },
+  {
+   "url": "https://www.nrl.com/draw/data?competition=111&season=2026&round=27",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:32:08Z",
+   "bytes": 862,
+   "raw_file": "pipeline/raw/nrl_draw.txt",
+   "raw_chars": 862,
+   "tag": "nrl_draw"
+  },
+  {
+   "url": "https://www.atptour.com/en/scores/current",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:32:14Z",
+   "raw_file": "pipeline/raw/atp.txt",
+   "raw_chars": 2235,
+   "tag": "atp"
+  },
+  {
+   "url": "https://api.sofascore.com/api/v1/sport/tennis/scheduled-events/2026-10-27",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:32:21Z",
+   "raw_file": "pipeline/raw/sofascore_tennis.txt",
+   "raw_chars": 48,
+   "tag": "sofascore_tennis"
+  }
+ ],
+ "finishedUtc": "2026-10-27T05:32:21Z"
+}

@@ -1,0 +1,5051 @@
+{
+ "schema": "matches-v1",
+ "built_utc": "2026-10-27T06:00:00Z",
+ "listing_capture_utc": "2026-10-27T05:30:00Z",
+ "price_window": {
+  "floor": -250.0,
+  "ceiling": 10000.0
+ },
+ "bands": {
+  "high": 0.7,
+  "medium": 0.62
+ },
+ "sport_parameters": {
+  "home_edge": {
+   "Basketball": 3.0,
+   "Handball": 2.0,
+   "Ice Hockey": 0.25,
+   "Baseball": 0.12,
+   "Rugby Union": 3.5,
+   "Tennis": 0.0
+  },
+  "margin_sd": {
+   "Basketball": 11.0,
+   "Handball": 7.6,
+   "Ice Hockey": 2.1,
+   "Baseball": 3.6,
+   "Rugby Union": 12.5,
+   "Tennis": 0.0
+  },
+  "shrink_k": {
+   "Basketball": 12.0,
+   "Handball": 8.0,
+   "Ice Hockey": 10.0,
+   "Baseball": 60.0,
+   "Rugby Union": 6.0
+  },
+  "scoring_step": {
+   "Basketball": 0.5,
+   "Handball": 1.0,
+   "Ice Hockey": 0.5,
+   "Baseball": 0.5,
+   "Rugby Union": 0.5
+  },
+  "draw_sports": [
+   "Handball",
+   "Rugby Union"
+  ]
+ },
+ "rows": [
+  {
+   "id": "tennis-902172",
+   "sport": "Tennis",
+   "event": "Leylah Fernandez vs Himeno Sakatsume",
+   "event_id": 902172,
+   "competition": "Tennis",
+   "start_label": "Today 02:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Leylah Fernandez",
+   "olbg_tips": "10/12",
+   "olbg_pct": 83,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Himeno Sakatsume"
+   ],
+   "home": "Leylah Fernandez",
+   "away": "Himeno Sakatsume",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902189",
+   "sport": "Tennis",
+   "event": "Lilli Tagger vs Venus Williams",
+   "event_id": 902189,
+   "competition": "Tennis",
+   "start_label": "Today 03:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Lilli Tagger",
+   "olbg_tips": "4/8",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Lilli Tagger, Venus Williams"
+   ],
+   "home": "Lilli Tagger",
+   "away": "Venus Williams",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902177",
+   "sport": "Tennis",
+   "event": "Naomi Osaka vs Jasmine Paolini",
+   "event_id": 902177,
+   "competition": "Tennis",
+   "start_label": "Today 04:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Naomi Osaka",
+   "olbg_tips": "4/4",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": null,
+    "expected_total": null,
+    "margin_sd": null,
+    "moneyline": {
+     "home": {
+      "probability": 0.5685,
+      "american": -131.8
+     },
+     "away": {
+      "probability": 0.4315,
+      "american": 131.8
+     }
+    },
+    "handicap": null,
+    "total": null
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Naomi Osaka",
+    "side": "home",
+    "probability": 0.5685,
+    "american": -131.8,
+    "decimal": 1.759,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "Naomi Osaka",
+   "away": "Jasmine Paolini",
+   "Naomi Osaka": "Naomi Osaka",
+   "projection": {
+    "margin": null,
+    "total": null
+   },
+   "rating_inputs": {
+    "home": {
+     "rank": 18,
+     "points": 2287,
+     "name": "Naomi Osaka"
+    },
+    "away": {
+     "rank": 35,
+     "points": 1512,
+     "name": "Jasmine Paolini"
+    }
+   },
+   "source_urls": {
+    "wta": "https://www.wtatennis.com/rankings/singles"
+   },
+   "source_labels": {
+    "wta": "WTA official singles rankings"
+   },
+   "prediction": {
+    "headline": "Naomi Osaka to beat Jasmine Paolini",
+    "selection": "Naomi Osaka to win the match",
+    "confidence": "Low",
+    "analysis": "Naomi Osaka is ranked 18th on 2,287 WTA points and Jasmine Paolini is 35th on 1,512, a gap of 17 places and 775 points. Back Naomi Osaka to win the match at -132. Ranking is the strongest input available for this meeting, and it clearly favours the higher-ranked player.",
+    "facts": [
+     "Osaka rank 18, 2287 points",
+     "Paolini rank 35, 1512 points"
+    ],
+    "sources": [
+     "wta"
+    ]
+   }
+  },
+  {
+   "id": "tennis-902238",
+   "sport": "Tennis",
+   "event": "Alejandro Tabilo vs Rafael Jodar",
+   "event_id": 902238,
+   "competition": "Tennis",
+   "start_label": "Today 09:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Rafael Jodar",
+   "olbg_tips": "4/6",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Alejandro Tabilo, Rafael Jodar"
+   ],
+   "home": "Alejandro Tabilo",
+   "away": "Rafael Jodar",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902232",
+   "sport": "Tennis",
+   "event": "Stan Wawrinka vs Jiri Lehecka",
+   "event_id": 902232,
+   "competition": "Tennis",
+   "start_label": "Today 14:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Stan Wawrinka",
+   "olbg_tips": "4/8",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Stan Wawrinka, Jiri Lehecka"
+   ],
+   "home": "Stan Wawrinka",
+   "away": "Jiri Lehecka",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902233",
+   "sport": "Tennis",
+   "event": "Novak Djokovic vs Ugo Humbert",
+   "event_id": 902233,
+   "competition": "Tennis",
+   "start_label": "Tomorrow 06:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Novak Djokovic",
+   "olbg_tips": "4/5",
+   "olbg_pct": 80,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Novak Djokovic, Ugo Humbert"
+   ],
+   "home": "Novak Djokovic",
+   "away": "Ugo Humbert",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902322",
+   "sport": "Tennis",
+   "event": "Hubert Hurkacz vs Zizou Bergs",
+   "event_id": 902322,
+   "competition": "Tennis",
+   "start_label": "Today 07:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Hubert Hurkacz",
+   "olbg_tips": "3/3",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Hubert Hurkacz, Zizou Bergs"
+   ],
+   "home": "Hubert Hurkacz",
+   "away": "Zizou Bergs",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902252",
+   "sport": "Tennis",
+   "event": "Tommy Paul vs Andrey Rublev",
+   "event_id": 902252,
+   "competition": "Tennis",
+   "start_label": "Today 08:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Andrey Rublev",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Tommy Paul, Andrey Rublev"
+   ],
+   "home": "Tommy Paul",
+   "away": "Andrey Rublev",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902210",
+   "sport": "Tennis",
+   "event": "Cameron Norrie vs Francisco Cerundolo",
+   "event_id": 902210,
+   "competition": "Tennis",
+   "start_label": "Today 11:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Cameron Norrie",
+   "olbg_tips": "3/5",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Cameron Norrie, Francisco Cerundolo"
+   ],
+   "home": "Cameron Norrie",
+   "away": "Francisco Cerundolo",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902187",
+   "sport": "Tennis",
+   "event": "Polina Kudermetova vs Janice Tjen",
+   "event_id": 902187,
+   "competition": "Tennis",
+   "start_label": "Today 02:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Janice Tjen",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3?event_id=902187",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Polina Kudermetova"
+   ],
+   "home": "Polina Kudermetova",
+   "away": "Janice Tjen",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902409",
+   "sport": "Tennis",
+   "event": "Nuno Borges vs Casper Ruud",
+   "event_id": 902409,
+   "competition": "Tennis",
+   "start_label": "Today 07:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Casper Ruud",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Nuno Borges, Casper Ruud"
+   ],
+   "home": "Nuno Borges",
+   "away": "Casper Ruud",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902240",
+   "sport": "Tennis",
+   "event": "Alex Michelsen vs Botic Van De Zandschulp",
+   "event_id": 902240,
+   "competition": "Tennis",
+   "start_label": "Today 10:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Alex Michelsen",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Alex Michelsen, Botic Van De Zandschulp"
+   ],
+   "home": "Alex Michelsen",
+   "away": "Botic Van De Zandschulp",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902213",
+   "sport": "Tennis",
+   "event": "Karen Khachanov vs Carlos Alcaraz",
+   "event_id": 902213,
+   "competition": "Tennis",
+   "start_label": "Today 10:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Karen Khachanov",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Karen Khachanov, Carlos Alcaraz"
+   ],
+   "home": "Karen Khachanov",
+   "away": "Carlos Alcaraz",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "tennis-902182",
+   "sport": "Tennis",
+   "event": "Antonia Ruzic vs Claire Liu",
+   "event_id": 902182,
+   "competition": "Tennis",
+   "start_label": "Today 02:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Antonia Ruzic",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Antonia_Ruzic_vs_Claire_Liu/3?event_id=902182",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Antonia Ruzic, Claire Liu"
+   ],
+   "home": "Antonia Ruzic",
+   "away": "Claire Liu",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536177",
+   "sport": "Basketball",
+   "event": "Panathinaikos vs Milano",
+   "event_id": 536177,
+   "competition": "Euroleague",
+   "start_label": "Today 15:15",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Panathinaikos",
+   "olbg_tips": "5/8",
+   "olbg_pct": 63,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 11.37,
+    "expected_total": 169.0,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.8493,
+      "american": -563.6
+     },
+     "away": {
+      "probability": 0.1507,
+      "american": 563.6
+     }
+    },
+    "handicap": {
+     "line": 11.5,
+     "favourite": "Panathinaikos",
+     "underdog": "Milano",
+     "favourite_probability": 0.4952,
+     "favourite_price": 101.9,
+     "underdog_probability": 0.5048,
+     "underdog_price": -101.9,
+     "display": "Panathinaikos -11.5 / Milano +11.5"
+    },
+    "total": {
+     "line": 169.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 169.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Panathinaikos",
+    "side": "home",
+    "probability": 0.8493,
+    "american": -563.6,
+    "decimal": 1.177,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Panathinaikos",
+   "away": "Milano",
+   "Panathinaikos": "Panathinaikos",
+   "projection": {
+    "margin": 11.37,
+    "total": 169.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 6,
+     "l": 1,
+     "pf": 613,
+     "pa": 517,
+     "name": "Panathinaikos"
+    },
+    "away": {
+     "gp": 7,
+     "w": 1,
+     "l": 6,
+     "pf": 585,
+     "pa": 648,
+     "name": "Milano"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "Panathinaikos to beat Milano",
+    "selection": "Panathinaikos to win the match",
+    "confidence": "High",
+    "analysis": "Panathinaikos are 6-1 through seven EuroLeague rounds and own the best point differential in the competition at plus 96, having scored 613 and conceded 517. Milano are 1-6 and have shipped 648 points while scoring 585, a minus 63 differential. Back Panathinaikos to win the match; the gap at both ends of the floor is simply too wide for Milano to close on the road.",
+    "facts": [
+     "Panathinaikos 6-1, 613 for, 517 against, plus 96",
+     "Milano 1-6, 585 for, 648 against, minus 63"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "basketball-536214",
+   "sport": "Basketball",
+   "event": "Seoul Knights vs KCC Egis",
+   "event_id": 536214,
+   "competition": "Korea KBL",
+   "start_label": "Today 06:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Seoul Knights",
+   "olbg_tips": "4/5",
+   "olbg_pct": 80,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Seoul Knights, KCC Egis"
+   ],
+   "home": "Seoul Knights",
+   "away": "KCC Egis",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536176",
+   "sport": "Basketball",
+   "event": "BC Dubai vs Paris",
+   "event_id": 536176,
+   "competition": "Euroleague",
+   "start_label": "Today 12:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "BC Dubai",
+   "olbg_tips": "4/7",
+   "olbg_pct": 57,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 6.42,
+    "expected_total": 173.5,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.7203,
+      "american": -257.5
+     },
+     "away": {
+      "probability": 0.2797,
+      "american": 257.5
+     }
+    },
+    "handicap": {
+     "line": 6.5,
+     "favourite": "BC Dubai",
+     "underdog": "Paris",
+     "favourite_probability": 0.4971,
+     "favourite_price": 101.2,
+     "underdog_probability": 0.5029,
+     "underdog_price": -101.2,
+     "display": "BC Dubai -6.5 / Paris +6.5"
+    },
+    "total": {
+     "line": 173.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 173.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "BC Dubai",
+    "side": "home",
+    "probability": 0.7203,
+    "american": -257.5,
+    "decimal": 1.388,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "BC Dubai",
+   "away": "Paris",
+   "BC Dubai": "BC Dubai",
+   "projection": {
+    "margin": 6.42,
+    "total": 173.5
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 5,
+     "l": 2,
+     "pf": 597,
+     "pa": 584,
+     "name": "BC Dubai"
+    },
+    "away": {
+     "gp": 7,
+     "w": 1,
+     "l": 6,
+     "pf": 597,
+     "pa": 649,
+     "name": "Paris"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "BC Dubai to beat Paris",
+    "selection": "BC Dubai to win the match",
+    "confidence": "High",
+    "analysis": "Dubai Basketball are 5-2 with 597 points scored and 584 conceded, a plus 13 differential in their first EuroLeague season. Paris are 1-6 and have given up 649 points while scoring 597, one of three clubs stuck on a single win. Back BC Dubai to win the match; Paris average 85.3 points and their defence has been the softest part of a difficult start.",
+    "facts": [
+     "BC Dubai 5-2, 597-584",
+     "Paris 1-6, 597-649"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "basketball-536179",
+   "sport": "Basketball",
+   "event": "Valencia vs Fenerbahce",
+   "event_id": 536179,
+   "competition": "Euroleague",
+   "start_label": "Today 15:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Fenerbahce",
+   "olbg_tips": "4/6",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 3.0,
+    "expected_total": 170.5,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.6075,
+      "american": -154.8
+     },
+     "away": {
+      "probability": 0.3925,
+      "american": 154.8
+     }
+    },
+    "handicap": {
+     "line": 3.0,
+     "favourite": "Valencia",
+     "underdog": "Fenerbahce",
+     "favourite_probability": 0.5,
+     "favourite_price": -100.0,
+     "underdog_probability": 0.5,
+     "underdog_price": -100.0,
+     "display": "Valencia -3.0 / Fenerbahce +3.0"
+    },
+    "total": {
+     "line": 170.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 170.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Valencia",
+    "side": "home",
+    "probability": 0.6075,
+    "american": -154.8,
+    "decimal": 1.646,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "Valencia -3.0 / Fenerbahce +3.0"
+   },
+   "flags": [],
+   "home": "Valencia",
+   "away": "Fenerbahce",
+   "Valencia": "Valencia",
+   "projection": {
+    "margin": 3.0,
+    "total": 170.5
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 5,
+     "l": 2,
+     "pf": 687,
+     "pa": 630,
+     "name": "Valencia"
+    },
+    "away": {
+     "gp": 7,
+     "w": 6,
+     "l": 1,
+     "pf": 565,
+     "pa": 508,
+     "name": "Fenerbahce"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "Valencia to beat Fenerbahce",
+    "selection": "Valencia to win the match",
+    "confidence": "Low",
+    "analysis": "Valencia are 5-2 and lead the EuroLeague in scoring with 687 points, 98.1 a game, and a plus 57 differential. Fenerbahce are 6-1 with the same plus 57 differential but far less volume, 565 points across seven games. Fenerbahce hold the better record; the call is Valencia to win the match on home floor, where their scoring rate separates two identical point differentials.",
+    "facts": [
+     "Valencia 5-2, 687-630",
+     "Fenerbahce 6-1, 565-508"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "basketball-536174",
+   "sport": "Basketball",
+   "event": "Bayern Munich vs Barcelona",
+   "event_id": 536174,
+   "competition": "Euroleague",
+   "start_label": "Today 15:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Bayern Munich",
+   "olbg_tips": "3/5",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.37,
+    "expected_total": 178.5,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.4866,
+      "american": 105.5
+     },
+     "away": {
+      "probability": 0.5134,
+      "american": -105.5
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "Barcelona",
+     "underdog": "Bayern Munich",
+     "favourite_probability": 0.4952,
+     "favourite_price": 101.9,
+     "underdog_probability": 0.5048,
+     "underdog_price": -101.9,
+     "display": "Barcelona -0.5 / Bayern Munich +0.5"
+    },
+    "total": {
+     "line": 178.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 178.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Barcelona",
+    "side": "away",
+    "probability": 0.5134,
+    "american": -105.5,
+    "decimal": 1.948,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "Bayern Munich",
+   "away": "Barcelona",
+   "Bayern Munich": "Bayern Munich",
+   "projection": {
+    "margin": -0.37,
+    "total": 178.5
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 2,
+     "l": 5,
+     "pf": 612,
+     "pa": 659,
+     "name": "Bayern Munich"
+    },
+    "away": {
+     "gp": 7,
+     "w": 4,
+     "l": 3,
+     "pf": 623,
+     "pa": 606,
+     "name": "Barcelona"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   }
+  },
+  {
+   "id": "basketball-536178",
+   "sport": "Basketball",
+   "event": "Baskonia vs Real Madrid",
+   "event_id": 536178,
+   "competition": "Euroleague",
+   "start_label": "Today 16:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Baskonia",
+   "olbg_tips": "3/6",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -2.42,
+    "expected_total": 180.5,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.4129,
+      "american": 142.2
+     },
+     "away": {
+      "probability": 0.5871,
+      "american": -142.2
+     }
+    },
+    "handicap": {
+     "line": 2.5,
+     "favourite": "Real Madrid",
+     "underdog": "Baskonia",
+     "favourite_probability": 0.4971,
+     "favourite_price": 101.2,
+     "underdog_probability": 0.5029,
+     "underdog_price": -101.2,
+     "display": "Real Madrid -2.5 / Baskonia +2.5"
+    },
+    "total": {
+     "line": 180.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 180.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Real Madrid",
+    "side": "away",
+    "probability": 0.5871,
+    "american": -142.2,
+    "decimal": 1.703,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "Baskonia",
+   "away": "Real Madrid",
+   "Baskonia": "Baskonia",
+   "projection": {
+    "margin": -2.42,
+    "total": 180.5
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 1,
+     "l": 6,
+     "pf": 583,
+     "pa": 649,
+     "name": "Baskonia"
+    },
+    "away": {
+     "gp": 7,
+     "w": 4,
+     "l": 3,
+     "pf": 667,
+     "pa": 630,
+     "name": "Real Madrid"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "Real Madrid to beat Baskonia",
+    "selection": "Real Madrid to win the match",
+    "confidence": "Low",
+    "analysis": "Baskonia are 1-6, scoring 583 and conceding 649 for a minus 66 differential. Real Madrid are 4-3 with a plus 37 differential, 667 scored and 630 conceded, and they average 95.3 points a game. Back Real Madrid to win the match despite the trip to Vitoria; the scoring-margin gap between the two clubs is 14.7 points per game.",
+    "facts": [
+     "Baskonia 1-6, 583-649",
+     "Real Madrid 4-3, 667-630"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "basketball-536218",
+   "sport": "Basketball",
+   "event": "Lietkabelis vs Ratiopharm Ulm",
+   "event_id": 536218,
+   "competition": "Euro Cup",
+   "start_label": "Today 13:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Lietkabelis",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Lietkabelis, Ratiopharm Ulm"
+   ],
+   "home": "Lietkabelis",
+   "away": "Ratiopharm Ulm",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536217",
+   "sport": "Basketball",
+   "event": "Frankfurt Skyliners vs U BT Cluj Napoca",
+   "event_id": 536217,
+   "competition": "Euro Cup",
+   "start_label": "Today 14:30",
+   "olbg_market": "Pointspread",
+   "olbg_selection": "Frankfurt Skyliners +1.50",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Frankfurt Skyliners, U BT Cluj Napoca"
+   ],
+   "home": "Frankfurt Skyliners",
+   "away": "U BT Cluj Napoca",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536175",
+   "sport": "Basketball",
+   "event": "Crvena Zvezda vs Maccabi Tel Aviv",
+   "event_id": 536175,
+   "competition": "Euroleague",
+   "start_label": "Today 15:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Crvena Zvezda",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 6.84,
+    "expected_total": 168.0,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.733,
+      "american": -274.6
+     },
+     "away": {
+      "probability": 0.267,
+      "american": 274.6
+     }
+    },
+    "handicap": {
+     "line": 7.0,
+     "favourite": "Crvena Zvezda",
+     "underdog": "Maccabi Tel Aviv",
+     "favourite_probability": 0.4943,
+     "favourite_price": 102.3,
+     "underdog_probability": 0.5057,
+     "underdog_price": -102.3,
+     "display": "Crvena Zvezda -7.0 / Maccabi Tel Aviv +7.0"
+    },
+    "total": {
+     "line": 168.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 168.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Crvena Zvezda",
+    "side": "home",
+    "probability": 0.733,
+    "american": -274.6,
+    "decimal": 1.364,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Crvena Zvezda",
+   "away": "Maccabi Tel Aviv",
+   "Crvena Zvezda": "Crvena Zvezda",
+   "projection": {
+    "margin": 6.84,
+    "total": 168.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 4,
+     "l": 3,
+     "pf": 560,
+     "pa": 532,
+     "name": "Crvena Zvezda"
+    },
+    "away": {
+     "gp": 7,
+     "w": 2,
+     "l": 5,
+     "pf": 608,
+     "pa": 653,
+     "name": "Maccabi Tel Aviv"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "Crvena Zvezda to beat Maccabi Tel Aviv",
+    "selection": "Crvena Zvezda to win the match",
+    "confidence": "High",
+    "analysis": "Crvena Zvezda are 4-3 with a plus 28 differential, scoring 560 and conceding 532 across seven EuroLeague games. Maccabi Tel Aviv are 2-5 after giving up 653 points, an average of 93.3 per game, while scoring 608. Take Crvena Zvezda to win the match; the Belgrade defence is conceding 76 a game and should hold a Maccabi side that leaks at the other end.",
+    "facts": [
+     "Crvena Zvezda 4-3, 560-532",
+     "Maccabi 2-5, 608-653"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "basketball-536235",
+   "sport": "Basketball",
+   "event": "UCAM Murcia vs Peristeri",
+   "event_id": 536235,
+   "competition": "Basketball Champions League",
+   "start_label": "Today 15:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "UCAM Murcia",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4?event_id=536235",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: UCAM Murcia, Peristeri"
+   ],
+   "home": "UCAM Murcia",
+   "away": "Peristeri",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536222",
+   "sport": "Basketball",
+   "event": "Aris vs Cedevita Olimpija",
+   "event_id": 536222,
+   "competition": "Euro Cup",
+   "start_label": "Tomorrow 13:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Aris",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4?event_id=536222",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Aris, Cedevita Olimpija"
+   ],
+   "home": "Aris",
+   "away": "Cedevita Olimpija",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "basketball-536180",
+   "sport": "Basketball",
+   "event": "Besiktas vs Olympiacos",
+   "event_id": 536180,
+   "competition": "Euroleague",
+   "start_label": "Tomorrow 13:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Besiktas",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 0.53,
+    "expected_total": 178.0,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.5191,
+      "american": -107.9
+     },
+     "away": {
+      "probability": 0.4809,
+      "american": 107.9
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "Besiktas",
+     "underdog": "Olympiacos",
+     "favourite_probability": 0.501,
+     "favourite_price": -100.4,
+     "underdog_probability": 0.499,
+     "underdog_price": 100.4,
+     "display": "Besiktas -0.5 / Olympiacos +0.5"
+    },
+    "total": {
+     "line": 178.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 178.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Besiktas",
+    "side": "home",
+    "probability": 0.5191,
+    "american": -107.9,
+    "decimal": 1.927,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false,
+    "handicap_view": "Besiktas -0.5 / Olympiacos +0.5"
+   },
+   "flags": [],
+   "home": "Besiktas",
+   "away": "Olympiacos",
+   "Besiktas": "Besiktas",
+   "projection": {
+    "margin": 0.53,
+    "total": 178.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 3,
+     "l": 4,
+     "pf": 634,
+     "pa": 644,
+     "name": "Besiktas"
+    },
+    "away": {
+     "gp": 7,
+     "w": 5,
+     "l": 2,
+     "pf": 625,
+     "pa": 588,
+     "name": "Olympiacos"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   }
+  },
+  {
+   "id": "basketball-536181",
+   "sport": "Basketball",
+   "event": "Asvel Lyon Villeurbanne vs Partizan",
+   "event_id": 536181,
+   "competition": "Euroleague",
+   "start_label": "Tomorrow 15:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Partizan",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.16,
+    "expected_total": 169.5,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.4943,
+      "american": 102.3
+     },
+     "away": {
+      "probability": 0.5057,
+      "american": -102.3
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "Partizan",
+     "underdog": "Asvel Lyon Villeurbanne",
+     "favourite_probability": 0.4876,
+     "favourite_price": 105.1,
+     "underdog_probability": 0.5124,
+     "underdog_price": -105.1,
+     "display": "Partizan -0.5 / Asvel Lyon Villeurbanne +0.5"
+    },
+    "total": {
+     "line": 169.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 169.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Partizan",
+    "side": "away",
+    "probability": 0.5057,
+    "american": -102.3,
+    "decimal": 1.978,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "Asvel Lyon Villeurbanne",
+   "away": "Partizan",
+   "Asvel Lyon Villeurbanne": "Asvel Lyon Villeurbanne",
+   "projection": {
+    "margin": -0.16,
+    "total": 169.5
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 2,
+     "l": 5,
+     "pf": 612,
+     "pa": 677,
+     "name": "Asvel Lyon Villeurbanne"
+    },
+    "away": {
+     "gp": 7,
+     "w": 4,
+     "l": 3,
+     "pf": 541,
+     "pa": 546,
+     "name": "Partizan"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   }
+  },
+  {
+   "id": "basketball-536183",
+   "sport": "Basketball",
+   "event": "Virtus Bologna vs Zalgiris",
+   "event_id": 536183,
+   "competition": "Euroleague",
+   "start_label": "Tomorrow 15:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Virtus Bologna",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 3.26,
+    "expected_total": 172.0,
+    "margin_sd": 11.0,
+    "moneyline": {
+     "home": {
+      "probability": 0.6166,
+      "american": -160.8
+     },
+     "away": {
+      "probability": 0.3834,
+      "american": 160.8
+     }
+    },
+    "handicap": {
+     "line": 3.5,
+     "favourite": "Virtus Bologna",
+     "underdog": "Zalgiris",
+     "favourite_probability": 0.4914,
+     "favourite_price": 103.5,
+     "underdog_probability": 0.5086,
+     "underdog_price": -103.5,
+     "display": "Virtus Bologna -3.5 / Zalgiris +3.5"
+    },
+    "total": {
+     "line": 172.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 172.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Virtus Bologna",
+    "side": "home",
+    "probability": 0.6166,
+    "american": -160.8,
+    "decimal": 1.622,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "Virtus Bologna",
+   "away": "Zalgiris",
+   "Virtus Bologna": "Virtus Bologna",
+   "projection": {
+    "margin": 3.26,
+    "total": 172.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 7,
+     "w": 4,
+     "l": 3,
+     "pf": 606,
+     "pa": 608,
+     "name": "Virtus Bologna"
+    },
+    "away": {
+     "gp": 7,
+     "w": 3,
+     "l": 4,
+     "pf": 595,
+     "pa": 602,
+     "name": "Zalgiris"
+    }
+   },
+   "source_urls": {
+    "euroleague": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+   },
+   "source_labels": {
+    "euroleague": "EuroLeague Basketball official standings, 2026-27 regular season"
+   },
+   "prediction": {
+    "headline": "Virtus Bologna to beat Zalgiris",
+    "selection": "Virtus Bologna to win the match",
+    "confidence": "Low",
+    "analysis": "Virtus Bologna are 4-3 with 606 points scored and 608 conceded, a minus 2 differential. Zalgiris are 3-4 and have been outscored by seven points overall, 595 to 602. The pick is Virtus Bologna to win the match: two sides separated by five points across seven games are close to level, so home advantage in Bologna is the difference that matters.",
+    "facts": [
+     "Virtus 4-3, 606-608",
+     "Zalgiris 3-4, 595-602"
+    ],
+    "sources": [
+     "euroleague"
+    ]
+   }
+  },
+  {
+   "id": "baseball-160799",
+   "sport": "Baseball",
+   "event": "MIL Brewers @ TB Rays",
+   "event_id": 160799,
+   "competition": "MLB",
+   "start_label": "Today 21:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "MIL Brewers",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.46,
+    "expected_total": 9.0,
+    "margin_sd": 3.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.4495,
+      "american": 122.5
+     },
+     "away": {
+      "probability": 0.5505,
+      "american": -122.5
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "MIL Brewers",
+     "underdog": "TB Rays",
+     "favourite_probability": 0.4952,
+     "favourite_price": 101.9,
+     "underdog_probability": 0.5048,
+     "underdog_price": -101.9,
+     "display": "MIL Brewers -0.5 / TB Rays +0.5"
+    },
+    "total": {
+     "line": 9.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 9.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "MIL Brewers",
+    "side": "away",
+    "probability": 0.5505,
+    "american": -122.5,
+    "decimal": 1.816,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "TB Rays",
+   "away": "MIL Brewers",
+   "TB Rays": "TB",
+   "projection": {
+    "margin": -0.46,
+    "total": 9.0
+   },
+   "rating_inputs": {
+    "home": {
+     "name": "TB Rays",
+     "w": 98,
+     "l": 64,
+     "pct": ".605",
+     "runs_scored": 736,
+     "runs_allowed": 650,
+     "run_diff": 86,
+     "l10": "5-5",
+     "streak": "L1"
+    },
+    "away": {
+     "name": "MIL Brewers",
+     "w": 103,
+     "l": 59,
+     "pct": ".636",
+     "runs_scored": 832,
+     "runs_allowed": 618,
+     "run_diff": 214,
+     "l10": "8-2",
+     "streak": "W5"
+    }
+   },
+   "source_urls": {
+    "mlb": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason"
+   },
+   "source_labels": {
+    "mlb": "MLB official standings"
+   },
+   "prediction": {
+    "headline": "Milwaukee Brewers to win at Tampa Bay",
+    "selection": "Milwaukee Brewers to win the match",
+    "confidence": "Low",
+    "analysis": "Milwaukee finished the 2026 regular season 103-59 with a plus 214 run differential, a five-game winning streak and an 8-2 record over their last ten. Tampa Bay went 98-64 with a plus 86 differential and lost their most recent game. Back Milwaukee Brewers to win at -122; they scored 832 runs to Tampa Bay's 736.",
+    "facts": [
+     "Brewers 103-59, 832-618, plus 214, W5",
+     "Rays 98-64, 736-650, plus 86, L1"
+    ],
+    "sources": [
+     "mlb"
+    ]
+   }
+  },
+  {
+   "id": "ice-hockey-200081",
+   "sport": "Ice Hockey",
+   "event": "Kalpa vs Sport",
+   "event_id": 200081,
+   "competition": "Finland SM Liiga",
+   "start_label": "Today 12:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Kalpa",
+   "olbg_tips": "5/5",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Kalpa, Sport"
+   ],
+   "home": "Kalpa",
+   "away": "Sport",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200082",
+   "sport": "Ice Hockey",
+   "event": "IF Malmo Redhawks vs Linkoping HC",
+   "event_id": 200082,
+   "competition": "Swedish Hockey League",
+   "start_label": "Today 14:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "IF Malmo Redhawks",
+   "olbg_tips": "3/3",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: IF Malmo Redhawks, Linkoping HC"
+   ],
+   "home": "IF Malmo Redhawks",
+   "away": "Linkoping HC",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200083",
+   "sport": "Ice Hockey",
+   "event": "Frolunda HC vs Rogle BK",
+   "event_id": 200083,
+   "competition": "Swedish Hockey League",
+   "start_label": "Today 14:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Frolunda HC",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Frolunda HC, Rogle BK"
+   ],
+   "home": "Frolunda HC",
+   "away": "Rogle BK",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200100",
+   "sport": "Ice Hockey",
+   "event": "Kolner Haie vs Adler Mannheim",
+   "event_id": 200100,
+   "competition": "Germany Eishockey Liga",
+   "start_label": "Today 14:30",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Adler Mannheim",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Kolner Haie, Adler Mannheim"
+   ],
+   "home": "Kolner Haie",
+   "away": "Adler Mannheim",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200108",
+   "sport": "Ice Hockey",
+   "event": "CLB Blue Jackets @ PHI Flyers",
+   "event_id": 200108,
+   "competition": "NHL",
+   "start_label": "Today 19:07",
+   "olbg_market": "Money Line",
+   "olbg_selection": "PHI Flyers",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.11,
+    "expected_total": 5.5,
+    "margin_sd": 2.1,
+    "moneyline": {
+     "home": {
+      "probability": 0.4788,
+      "american": 108.8
+     },
+     "away": {
+      "probability": 0.5212,
+      "american": -108.8
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "CLB Blue Jackets",
+     "underdog": "PHI Flyers",
+     "favourite_probability": 0.4266,
+     "favourite_price": 134.4,
+     "underdog_probability": 0.5734,
+     "underdog_price": -134.4,
+     "display": "CLB Blue Jackets -0.5 / PHI Flyers +0.5"
+    },
+    "total": {
+     "line": 5.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 5.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "CLB Blue Jackets",
+    "side": "away",
+    "probability": 0.5212,
+    "american": -108.8,
+    "decimal": 1.919,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "PHI Flyers",
+   "away": "CLB Blue Jackets",
+   "PHI Flyers": "PHI",
+   "projection": {
+    "margin": -0.11,
+    "total": 5.5
+   },
+   "rating_inputs": {
+    "home": {
+     "name": "PHI Flyers",
+     "gp": 13,
+     "w": 3,
+     "l": 7,
+     "otl": 3,
+     "pts": 9,
+     "gf": 24,
+     "ga": 42,
+     "l10": "3-6-1",
+     "streak": "L1"
+    },
+    "away": {
+     "name": "CLB Blue Jackets",
+     "gp": 9,
+     "w": 4,
+     "l": 5,
+     "otl": 0,
+     "pts": 8,
+     "gf": 22,
+     "ga": 30,
+     "l10": "4-5-0",
+     "streak": "W1"
+    }
+   },
+   "source_urls": {
+    "nhl": "https://api-web.nhle.com/v1/standings/now"
+   },
+   "source_labels": {
+    "nhl": "NHL official standings"
+   }
+  },
+  {
+   "id": "ice-hockey-200104",
+   "sport": "Ice Hockey",
+   "event": "BOS Bruins @ CAR Hurricanes",
+   "event_id": 200104,
+   "competition": "NHL",
+   "start_label": "Today 20:07",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "BOS Bruins +1.50",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 0.03,
+    "expected_total": 6.5,
+    "margin_sd": 2.1,
+    "moneyline": {
+     "home": {
+      "probability": 0.5062,
+      "american": -102.5
+     },
+     "away": {
+      "probability": 0.4938,
+      "american": 102.5
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "CAR Hurricanes",
+     "underdog": "BOS Bruins",
+     "favourite_probability": 0.4119,
+     "favourite_price": 142.8,
+     "underdog_probability": 0.5881,
+     "underdog_price": -142.8,
+     "display": "CAR Hurricanes -0.5 / BOS Bruins +0.5"
+    },
+    "total": {
+     "line": 6.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 6.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "CAR Hurricanes",
+    "side": "home",
+    "probability": 0.5062,
+    "american": -102.5,
+    "decimal": 1.976,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "CAR Hurricanes",
+   "away": "BOS Bruins",
+   "CAR Hurricanes": "CAR",
+   "projection": {
+    "margin": 0.03,
+    "total": 6.5
+   },
+   "rating_inputs": {
+    "home": {
+     "name": "CAR Hurricanes",
+     "gp": 13,
+     "w": 9,
+     "l": 2,
+     "otl": 2,
+     "pts": 20,
+     "gf": 51,
+     "ga": 33,
+     "l10": "8-1-1",
+     "streak": "W1"
+    },
+    "away": {
+     "name": "BOS Bruins",
+     "gp": 12,
+     "w": 9,
+     "l": 2,
+     "otl": 1,
+     "pts": 19,
+     "gf": 48,
+     "ga": 26,
+     "l10": "7-2-1",
+     "streak": "W2"
+    }
+   },
+   "source_urls": {
+    "nhl": "https://api-web.nhle.com/v1/standings/now"
+   },
+   "source_labels": {
+    "nhl": "NHL official standings"
+   }
+  },
+  {
+   "id": "ice-hockey-200098",
+   "sport": "Ice Hockey",
+   "event": "Herning Blue Fox vs Rodovre Mighty Bulls",
+   "event_id": 200098,
+   "competition": "Danish Metal Ligaen",
+   "start_label": "Today 14:00",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Rodovre Mighty Bulls +3.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Herning Blue Fox, Rodovre Mighty Bulls"
+   ],
+   "home": "Herning Blue Fox",
+   "away": "Rodovre Mighty Bulls",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200146",
+   "sport": "Ice Hockey",
+   "event": "Fehervar AV19 vs Milano HC",
+   "event_id": 200146,
+   "competition": "Austria EHL",
+   "start_label": "Today 14:15",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Fehervar AV19 -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Fehervar AV19, Milano HC"
+   ],
+   "home": "Fehervar AV19",
+   "away": "Milano HC",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200116",
+   "sport": "Ice Hockey",
+   "event": "Fribourg Gotteron vs Davos",
+   "event_id": 200116,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Fribourg Gotteron -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Fribourg Gotteron, Davos"
+   ],
+   "home": "Fribourg Gotteron",
+   "away": "Davos",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200122",
+   "sport": "Ice Hockey",
+   "event": "Bern vs ZSC Lions",
+   "event_id": 200122,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "ZSC Lions -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Bern, ZSC Lions"
+   ],
+   "home": "Bern",
+   "away": "ZSC Lions",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200115",
+   "sport": "Ice Hockey",
+   "event": "EHC Kloten vs HC Ajoie",
+   "event_id": 200115,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "EHC Kloten -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: EHC Kloten, HC Ajoie"
+   ],
+   "home": "EHC Kloten",
+   "away": "HC Ajoie",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200117",
+   "sport": "Ice Hockey",
+   "event": "Zug vs Lugano",
+   "event_id": 200117,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Lugano +1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Zug, Lugano"
+   ],
+   "home": "Zug",
+   "away": "Lugano",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200118",
+   "sport": "Ice Hockey",
+   "event": "Lausanne HC vs SCL Tigers",
+   "event_id": 200118,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Lausanne HC -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Lausanne HC, SCL Tigers"
+   ],
+   "home": "Lausanne HC",
+   "away": "SCL Tigers",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200119",
+   "sport": "Ice Hockey",
+   "event": "Ambri Piotta vs EHC Biel",
+   "event_id": 200119,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Ambri Piotta -1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Ambri Piotta, EHC Biel"
+   ],
+   "home": "Ambri Piotta",
+   "away": "EHC Biel",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "ice-hockey-200123",
+   "sport": "Ice Hockey",
+   "event": "Rapperswil Jona Lakers vs Servette GE",
+   "event_id": 200123,
+   "competition": "Switzerland NLA",
+   "start_label": "Today 14:45",
+   "olbg_market": "Puck Line",
+   "olbg_selection": "Servette GE +1.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Rapperswil Jona Lakers, Servette GE"
+   ],
+   "home": "Rapperswil Jona Lakers",
+   "away": "Servette GE",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188852",
+   "sport": "Cricket",
+   "event": "New Zealand vs India 3rd T20 Match",
+   "event_id": 188852,
+   "competition": "T20 International",
+   "start_label": "Today 03:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "India",
+   "olbg_tips": "35/49",
+   "olbg_pct": 71,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188854",
+   "sport": "Cricket",
+   "event": "Namibia vs Ireland 3rd ODI",
+   "event_id": 188854,
+   "competition": "ODI",
+   "start_label": "Today 03:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Ireland",
+   "olbg_tips": "22/32",
+   "olbg_pct": 69,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188868",
+   "sport": "Cricket",
+   "event": "Pakistan vs Sri Lanka One Day Match",
+   "event_id": 188868,
+   "competition": "ODI",
+   "start_label": "Today 04:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Pakistan",
+   "olbg_tips": "22/31",
+   "olbg_pct": 71,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188872",
+   "sport": "Cricket",
+   "event": "Afghanistan vs Zimbabwe 1st T20 Match",
+   "event_id": 188872,
+   "competition": "T20 International",
+   "start_label": "Today 10:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Afghanistan",
+   "olbg_tips": "15/16",
+   "olbg_pct": 94,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188864",
+   "sport": "Cricket",
+   "event": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
+   "event_id": 188864,
+   "competition": "WBBL",
+   "start_label": "29 Oct 04:10",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Hobart Hurricanes W",
+   "olbg_tips": "4/6",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188876",
+   "sport": "Cricket",
+   "event": "Auckland vs Canterbury One Day Match",
+   "event_id": 188876,
+   "competition": "New Zealand domestic",
+   "start_label": "Today 17:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Canterbury",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188865",
+   "sport": "Cricket",
+   "event": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
+   "event_id": 188865,
+   "competition": "WBBL",
+   "start_label": "30 Oct 04:10",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Sydney Sixers W",
+   "olbg_tips": "3/5",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188835",
+   "sport": "Cricket",
+   "event": "South Africa vs Australia",
+   "event_id": 188835,
+   "competition": "Test",
+   "start_label": "31 Oct 04:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "South Africa",
+   "olbg_tips": "3/8",
+   "olbg_pct": 38,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188878",
+   "sport": "Cricket",
+   "event": "Wellington vs Otago One Day Match",
+   "event_id": 188878,
+   "competition": "New Zealand domestic",
+   "start_label": "Today 17:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Wellington",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188877",
+   "sport": "Cricket",
+   "event": "Central Districts vs Northern Districts One Day Match",
+   "event_id": 188877,
+   "competition": "New Zealand domestic",
+   "start_label": "Today 17:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Northern Districts",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188874",
+   "sport": "Cricket",
+   "event": "Lions vs Eastern Storm T20",
+   "event_id": 188874,
+   "competition": "South Africa domestic",
+   "start_label": "Tomorrow 12:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Lions",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188863",
+   "sport": "Cricket",
+   "event": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash",
+   "event_id": 188863,
+   "competition": "WBBL",
+   "start_label": "29 Oct 00:40",
+   "olbg_market": "Top Team1 Batsman",
+   "olbg_selection": "G Wareham (Melbourne Renegades W)",
+   "olbg_tips": "1/2",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "cricket-188871",
+   "sport": "Cricket",
+   "event": "Bangladesh vs West Indies",
+   "event_id": 188871,
+   "competition": "Test",
+   "start_label": "31 Oct 23:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "West Indies",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37076",
+   "sport": "Volleyball",
+   "event": "Conegliano W vs Vallefoglia W",
+   "event_id": 37076,
+   "competition": "Italy Serie A1 Women",
+   "start_label": "Tomorrow 15:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Vallefoglia W",
+   "olbg_tips": "6/10",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37075",
+   "sport": "Volleyball",
+   "event": "Marignano W vs Bergamo W",
+   "event_id": 37075,
+   "competition": "Italy Serie A1 Women",
+   "start_label": "Today 15:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Bergamo W",
+   "olbg_tips": "5/7",
+   "olbg_pct": 71,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37126",
+   "sport": "Volleyball",
+   "event": "TFL Altekma vs Halkbank Ankara",
+   "event_id": 37126,
+   "competition": "Turkey Efeler Ligi",
+   "start_label": "Today 08:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Halkbank Ankara",
+   "olbg_tips": "4/5",
+   "olbg_pct": 80,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37121",
+   "sport": "Volleyball",
+   "event": "Ziraat Bankasi vs Gaziantep Genclik Spor",
+   "event_id": 37121,
+   "competition": "Turkey Efeler Ligi",
+   "start_label": "Today 12:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Ziraat Bankasi",
+   "olbg_tips": "4/4",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37081",
+   "sport": "Volleyball",
+   "event": "Uni Opole W vs Palac Bydgoszcz W",
+   "event_id": 37081,
+   "competition": "Poland Tauron Liga Women",
+   "start_label": "Today 15:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Uni Opole W",
+   "olbg_tips": "4/6",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37124",
+   "sport": "Volleyball",
+   "event": "Istanbul Genclik Spor vs IBB Spor",
+   "event_id": 37124,
+   "competition": "Turkey Efeler Ligi",
+   "start_label": "Today 07:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "IBB Spor",
+   "olbg_tips": "3/5",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37129",
+   "sport": "Volleyball",
+   "event": "VaLePa vs AC Oulu",
+   "event_id": 37129,
+   "competition": "Finland Mestaruusliiga",
+   "start_label": "Today 12:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "VaLePa",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37103",
+   "sport": "Volleyball",
+   "event": "Suzano Volei vs Goias Volei",
+   "event_id": 37103,
+   "competition": "Brazil Superliga",
+   "start_label": "Today 17:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Suzano Volei",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37104",
+   "sport": "Volleyball",
+   "event": "Praia Clube vs Sao Jose",
+   "event_id": 37104,
+   "competition": "Brazil Superliga",
+   "start_label": "Today 20:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Praia Clube",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37122",
+   "sport": "Volleyball",
+   "event": "Sungurlu Bld vs Galatasaray",
+   "event_id": 37122,
+   "competition": "Turkey Efeler Ligi",
+   "start_label": "Today 09:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Galatasaray",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21?event_id=37122",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37125",
+   "sport": "Volleyball",
+   "event": "Fenerbahce vs Alanya Bld",
+   "event_id": 37125,
+   "competition": "Turkey Efeler Ligi",
+   "start_label": "Today 12:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Alanya Bld",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21?event_id=37125",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37131",
+   "sport": "Volleyball",
+   "event": "Volleys Borken W vs Vilsbiburg W",
+   "event_id": 37131,
+   "competition": "Germany Bundesliga Women",
+   "start_label": "Today 13:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Vilsbiburg W",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37082",
+   "sport": "Volleyball",
+   "event": "Budowlani Lodz W vs Radomka Radom W",
+   "event_id": 37082,
+   "competition": "Poland Tauron Liga Women",
+   "start_label": "Tomorrow 12:30",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Budowlani Lodz W",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "volleyball-37083",
+   "sport": "Volleyball",
+   "event": "Mielec W vs Rzeszow W",
+   "event_id": 37083,
+   "competition": "Poland Tauron Liga Women",
+   "start_label": "Tomorrow 14:00",
+   "olbg_market": "Win Match",
+   "olbg_selection": "Rzeszow W",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-union-609605",
+   "sport": "Rugby Union",
+   "event": "Dax v Provence",
+   "event_id": 609605,
+   "competition": "Pro D2",
+   "start_label": "29 Oct 16:00",
+   "olbg_market": "To Win",
+   "olbg_selection": "Dax",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -7.36,
+    "expected_total": 64.0,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.2648,
+      "american": 277.6
+     },
+     "draw": {
+      "probability": 0.0268,
+      "american": 3626.5
+     },
+     "away": {
+      "probability": 0.7084,
+      "american": -242.9
+     }
+    },
+    "handicap": {
+     "line": 7.5,
+     "favourite": "Provence",
+     "underdog": "Dax",
+     "favourite_probability": 0.4954,
+     "favourite_price": 101.8,
+     "underdog_probability": 0.5046,
+     "underdog_price": -101.8,
+     "display": "Provence -7.5 / Dax +7.5"
+    },
+    "total": {
+     "line": 64.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 64.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Provence",
+    "side": "away",
+    "probability": 0.7084,
+    "american": -242.9,
+    "decimal": 1.412,
+    "confidence": "High",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "Dax",
+   "away": "Provence",
+   "Dax": "Dax",
+   "projection": {
+    "margin": -7.36,
+    "total": 64.0
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 4,
+     "d": 0,
+     "l": 4,
+     "pf": 276,
+     "pa": 313,
+     "pts": 19,
+     "name": "Dax"
+    },
+    "away": {
+     "played": 8,
+     "w": 8,
+     "d": 0,
+     "l": 0,
+     "pf": 276,
+     "pa": 161,
+     "pts": 34,
+     "name": "Provence"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Provence to win at Dax",
+    "selection": "Provence to win the match",
+    "confidence": "High",
+    "analysis": "Provence have won all eight Pro D2 matches and concede only 161 points, the tightest defence in the league, while scoring 276 for a plus 115 differential. Dax are 4-4 and have shipped 313 points, minus 37. Back Provence to win the match; Dax give up 39.1 points a game and now meet the one side nobody has scored on freely.",
+    "facts": [
+     "Provence 8-0-0, 276-161, plus 115",
+     "Dax 4-4, 276-313, minus 37"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609604",
+   "sport": "Rugby Union",
+   "event": "Colomiers v Agen",
+   "event_id": 609604,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 14:00",
+   "olbg_market": "To Win",
+   "olbg_selection": "Colomiers",
+   "olbg_tips": "2/2",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 5.0,
+    "expected_total": 58.0,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.6406,
+      "american": -178.2
+     },
+     "draw": {
+      "probability": 0.0295,
+      "american": 3295.0
+     },
+     "away": {
+      "probability": 0.33,
+      "american": 203.1
+     }
+    },
+    "handicap": {
+     "line": 5.0,
+     "favourite": "Colomiers",
+     "underdog": "Agen",
+     "favourite_probability": 0.5,
+     "favourite_price": -100.0,
+     "underdog_probability": 0.5,
+     "underdog_price": -100.0,
+     "display": "Colomiers -5.0 / Agen +5.0"
+    },
+    "total": {
+     "line": 58.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 58.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Colomiers",
+    "side": "home",
+    "probability": 0.6406,
+    "american": -178.2,
+    "decimal": 1.561,
+    "confidence": "Medium",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "Colomiers -5.0 / Agen +5.0"
+   },
+   "flags": [],
+   "home": "Colomiers",
+   "away": "Agen",
+   "Colomiers": "Colomiers",
+   "projection": {
+    "margin": 5.0,
+    "total": 58.0
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 2,
+     "d": 0,
+     "l": 6,
+     "pf": 243,
+     "pa": 235,
+     "pts": 13,
+     "name": "Colomiers"
+    },
+    "away": {
+     "played": 8,
+     "w": 4,
+     "d": 0,
+     "l": 4,
+     "pf": 217,
+     "pa": 230,
+     "pts": 19,
+     "name": "Agen"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Colomiers to beat Agen",
+    "selection": "Colomiers to win the match",
+    "confidence": "Medium",
+    "analysis": "Colomiers are 12th on 13 points with a 2-6 record, yet their 243-235 line is a plus 8 differential. Agen are ninth on 19 points at 4-4 with 217 scored and 230 conceded, minus 13. Back Colomiers to win the match; their points difference is 21 better than Agen's even though the league table says otherwise.",
+    "facts": [
+     "Colomiers 2-6, 243-235, plus 8, 13 pts",
+     "Agen 4-4, 217-230, minus 13, 19 pts"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609603",
+   "sport": "Rugby Union",
+   "event": "Montauban v Narbonne",
+   "event_id": 609603,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 14:30",
+   "olbg_market": "To Win",
+   "olbg_selection": "Montauban",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 8.57,
+    "expected_total": 61.5,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.7408,
+      "american": -285.8
+     },
+     "draw": {
+      "probability": 0.0252,
+      "american": 3864.3
+     },
+     "away": {
+      "probability": 0.234,
+      "american": 327.3
+     }
+    },
+    "handicap": {
+     "line": 8.5,
+     "favourite": "Montauban",
+     "underdog": "Narbonne",
+     "favourite_probability": 0.5023,
+     "favourite_price": -100.9,
+     "underdog_probability": 0.4977,
+     "underdog_price": 100.9,
+     "display": "Montauban -8.5 / Narbonne +8.5"
+    },
+    "total": {
+     "line": 61.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 61.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Montauban",
+    "side": "home",
+    "probability": 0.7408,
+    "american": -285.8,
+    "decimal": 1.35,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true,
+    "handicap_view": "Montauban -8.5 / Narbonne +8.5"
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Montauban",
+   "away": "Narbonne",
+   "Montauban": "Montauban",
+   "projection": {
+    "margin": 8.57,
+    "total": 61.5
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 5,
+     "d": 0,
+     "l": 3,
+     "pf": 206,
+     "pa": 237,
+     "pts": 21,
+     "name": "Montauban"
+    },
+    "away": {
+     "played": 8,
+     "w": 3,
+     "d": 0,
+     "l": 5,
+     "pf": 220,
+     "pa": 322,
+     "pts": 13,
+     "name": "Narbonne"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Montauban to beat Narbonne",
+    "selection": "Montauban to win the match",
+    "confidence": "High",
+    "analysis": "Montauban sit sixth on 21 points with a 5-0-3 record, and their 206-237 line leaves a minus 31 differential. Narbonne are 13th on 13 points and have conceded 322 points in eight games, minus 102. Back Montauban to win the match; Narbonne's defence is the leakiest in Pro D2 at 40.25 points a game.",
+    "facts": [
+     "Montauban 5-0-3, 206-237, 21 pts",
+     "Narbonne 3-0-5, 220-322, 13 pts"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609598",
+   "sport": "Rugby Union",
+   "event": "Oyonnax v Soyaux Angouleme",
+   "event_id": 609598,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 14:30",
+   "olbg_market": "To Win",
+   "olbg_selection": "Oyonnax",
+   "olbg_tips": "2/3",
+   "olbg_pct": 67,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 8.93,
+    "expected_total": 60.5,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.7499,
+      "american": -299.9
+     },
+     "draw": {
+      "probability": 0.0247,
+      "american": 3944.3
+     },
+     "away": {
+      "probability": 0.2253,
+      "american": 343.8
+     }
+    },
+    "handicap": {
+     "line": 9.0,
+     "favourite": "Oyonnax",
+     "underdog": "Soyaux Angouleme",
+     "favourite_probability": 0.4977,
+     "favourite_price": 100.9,
+     "underdog_probability": 0.5023,
+     "underdog_price": -100.9,
+     "display": "Oyonnax -9.0 / Soyaux Angouleme +9.0"
+    },
+    "total": {
+     "line": 60.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 60.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Oyonnax",
+    "side": "home",
+    "probability": 0.7499,
+    "american": -299.9,
+    "decimal": 1.333,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Oyonnax",
+   "away": "Soyaux Angouleme",
+   "Oyonnax": "Oyonnax",
+   "projection": {
+    "margin": 8.93,
+    "total": 60.5
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 7,
+     "d": 0,
+     "l": 1,
+     "pf": 336,
+     "pa": 178,
+     "pts": 34,
+     "name": "Oyonnax"
+    },
+    "away": {
+     "played": 8,
+     "w": 4,
+     "d": 1,
+     "l": 3,
+     "pf": 269,
+     "pa": 187,
+     "pts": 22,
+     "name": "Soyaux Angouleme"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Oyonnax to beat Soyaux Angouleme",
+    "selection": "Oyonnax to win the match",
+    "confidence": "High",
+    "analysis": "Oyonnax lead Pro D2 on 34 points after eight rounds, 7-0-1, with 336 points scored and 178 conceded for a plus 158 differential. Soyaux Angouleme are fourth on 22 points at 4-1-3, 269-187. Back Oyonnax to win the match; they average 42 points a game and have taken four wins and a draw from their last five.",
+    "facts": [
+     "Oyonnax 7-0-1, 336-178, 34 pts",
+     "Soyaux Angouleme 4-1-3, 269-187, 22 pts"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609599",
+   "sport": "Rugby Union",
+   "event": "Beziers v Grenoble",
+   "event_id": 609599,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 14:30",
+   "olbg_market": "To Win",
+   "olbg_selection": "Grenoble",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -10.43,
+    "expected_total": 54.0,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.191,
+      "american": 423.6
+     },
+     "draw": {
+      "probability": 0.0225,
+      "american": 4337.9
+     },
+     "away": {
+      "probability": 0.7865,
+      "american": -368.4
+     }
+    },
+    "handicap": {
+     "line": 10.5,
+     "favourite": "Grenoble",
+     "underdog": "Beziers",
+     "favourite_probability": 0.4977,
+     "favourite_price": 100.9,
+     "underdog_probability": 0.5023,
+     "underdog_price": -100.9,
+     "display": "Grenoble -10.5 / Beziers +10.5"
+    },
+    "total": {
+     "line": 54.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 54.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Grenoble",
+    "side": "away",
+    "probability": 0.7865,
+    "american": -368.4,
+    "decimal": 1.271,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Beziers",
+   "away": "Grenoble",
+   "Beziers": "Beziers",
+   "projection": {
+    "margin": -10.43,
+    "total": 54.0
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 2,
+     "d": 0,
+     "l": 6,
+     "pf": 150,
+     "pa": 294,
+     "pts": 9,
+     "name": "Beziers"
+    },
+    "away": {
+     "played": 8,
+     "w": 6,
+     "d": 0,
+     "l": 2,
+     "pf": 237,
+     "pa": 186,
+     "pts": 26,
+     "name": "Grenoble"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Grenoble to win at Beziers",
+    "selection": "Grenoble to win the match",
+    "confidence": "High",
+    "analysis": "Beziers are 2-6 in Pro D2 with 150 points scored and 294 conceded, the worst differential in the league at minus 144. Grenoble are 6-2, plus 51 at 237-186, and have won each of their last five matches. Back Grenoble to win the match; Beziers ship 36.75 points a game and Grenoble average 29.6.",
+    "facts": [
+     "Beziers 2-6, 150-294, minus 144",
+     "Grenoble 6-2, 237-186, plus 51, last five all won"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609600",
+   "sport": "Rugby Union",
+   "event": "Nissa v Aurillac",
+   "event_id": 609600,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 14:30",
+   "olbg_market": "To Win",
+   "olbg_selection": "Nissa",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.57,
+    "expected_total": 61.5,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.4658,
+      "american": 114.7
+     },
+     "draw": {
+      "probability": 0.0319,
+      "american": 3037.4
+     },
+     "away": {
+      "probability": 0.5023,
+      "american": -100.9
+     }
+    },
+    "handicap": {
+     "line": 0.5,
+     "favourite": "Aurillac",
+     "underdog": "Nissa",
+     "favourite_probability": 0.5023,
+     "favourite_price": -100.9,
+     "underdog_probability": 0.4977,
+     "underdog_price": 100.9,
+     "display": "Aurillac -0.5 / Nissa +0.5"
+    },
+    "total": {
+     "line": 61.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 61.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Aurillac",
+    "side": "away",
+    "probability": 0.5023,
+    "american": -100.9,
+    "decimal": 1.991,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false,
+    "handicap_view": "Aurillac -0.5 / Nissa +0.5"
+   },
+   "flags": [],
+   "home": "Nissa",
+   "away": "Aurillac",
+   "Nissa": "Nissa",
+   "projection": {
+    "margin": -0.57,
+    "total": 61.5
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 2,
+     "d": 0,
+     "l": 6,
+     "pf": 195,
+     "pa": 241,
+     "pts": 12,
+     "name": "Nissa"
+    },
+    "away": {
+     "played": 8,
+     "w": 4,
+     "d": 0,
+     "l": 4,
+     "pf": 281,
+     "pa": 270,
+     "pts": 21,
+     "name": "Aurillac"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   }
+  },
+  {
+   "id": "rugby-union-609590",
+   "sport": "Rugby Union",
+   "event": "Glasgow Warriors v Lions",
+   "event_id": 609590,
+   "competition": "United Rugby Championship",
+   "start_label": "30 Oct 15:45",
+   "olbg_market": "To Win",
+   "olbg_selection": "Glasgow Warriors",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Glasgow Warriors, Lions"
+   ],
+   "home": "Glasgow Warriors",
+   "away": "Lions",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-union-609584",
+   "sport": "Rugby Union",
+   "event": "Connacht v Leinster",
+   "event_id": 609584,
+   "competition": "United Rugby Championship",
+   "start_label": "30 Oct 15:45",
+   "olbg_market": "Handicap",
+   "olbg_selection": "Connacht +3.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Connacht, Leinster"
+   ],
+   "home": "Connacht",
+   "away": "Leinster",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-union-609602",
+   "sport": "Rugby Union",
+   "event": "Biarritz v Valence Romans",
+   "event_id": 609602,
+   "competition": "Pro D2",
+   "start_label": "30 Oct 16:00",
+   "olbg_market": "To Win",
+   "olbg_selection": "Biarritz",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 3.57,
+    "expected_total": 54.5,
+    "margin_sd": 12.5,
+    "moneyline": {
+     "home": {
+      "probability": 0.597,
+      "american": -148.2
+     },
+     "draw": {
+      "probability": 0.0306,
+      "american": 3164.6
+     },
+     "away": {
+      "probability": 0.3723,
+      "american": 168.6
+     }
+    },
+    "handicap": {
+     "line": 3.5,
+     "favourite": "Biarritz",
+     "underdog": "Valence Romans",
+     "favourite_probability": 0.5023,
+     "favourite_price": -100.9,
+     "underdog_probability": 0.4977,
+     "underdog_price": 100.9,
+     "display": "Biarritz -3.5 / Valence Romans +3.5"
+    },
+    "total": {
+     "line": 54.5,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 54.5 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Biarritz",
+    "side": "home",
+    "probability": 0.597,
+    "american": -148.2,
+    "decimal": 1.675,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "Biarritz -3.5 / Valence Romans +3.5"
+   },
+   "flags": [],
+   "home": "Biarritz",
+   "away": "Valence Romans",
+   "Biarritz": "Biarritz",
+   "projection": {
+    "margin": 3.57,
+    "total": 54.5
+   },
+   "rating_inputs": {
+    "home": {
+     "played": 8,
+     "w": 4,
+     "d": 1,
+     "l": 3,
+     "pf": 223,
+     "pa": 215,
+     "pts": 20,
+     "name": "Biarritz"
+    },
+    "away": {
+     "played": 8,
+     "w": 3,
+     "d": 0,
+     "l": 5,
+     "pf": 220,
+     "pa": 213,
+     "pts": 17,
+     "name": "Valence Romans"
+    }
+   },
+   "source_urls": {
+    "prod2": "https://prod2.lnr.fr/classement"
+   },
+   "source_labels": {
+    "prod2": "LNR official PRO D2 standings 2026-2027"
+   },
+   "prediction": {
+    "headline": "Biarritz to beat Valence Romans",
+    "selection": "Biarritz to win the match",
+    "confidence": "Low",
+    "analysis": "Biarritz are eighth on 20 points with a 4-1-3 record, 223 scored and 215 conceded for a plus 8 differential. Valence Romans are 11th on 17 points at 3-5, 220-213, a slightly better differential but two fewer wins. Back Biarritz to win the match at home, where their extra win and a plus 8 season line separate two very even sides.",
+    "facts": [
+     "Biarritz 4-1-3, 223-215, plus 8, 20 pts",
+     "Valence Romans 3-5, 220-213, plus 7, 17 pts"
+    ],
+    "sources": [
+     "prod2"
+    ]
+   }
+  },
+  {
+   "id": "rugby-union-609588",
+   "sport": "Rugby Union",
+   "event": "Stormers v Ulster",
+   "event_id": 609588,
+   "competition": "United Rugby Championship",
+   "start_label": "31 Oct 08:45",
+   "olbg_market": "Handicap",
+   "olbg_selection": "Ulster +12.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Stormers, Ulster"
+   ],
+   "home": "Stormers",
+   "away": "Ulster",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-union-609586",
+   "sport": "Rugby Union",
+   "event": "Munster v Sharks",
+   "event_id": 609586,
+   "competition": "United Rugby Championship",
+   "start_label": "31 Oct 13:30",
+   "olbg_market": "Handicap",
+   "olbg_selection": "Munster -6.50",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Munster, Sharks"
+   ],
+   "home": "Munster",
+   "away": "Sharks",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-union-609611",
+   "sport": "Rugby Union",
+   "event": "Pau v Toulouse",
+   "event_id": 609611,
+   "competition": "Top 14",
+   "start_label": "01 Nov 15:05",
+   "olbg_market": "To Win",
+   "olbg_selection": "Pau",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Pau, Toulouse"
+   ],
+   "home": "Pau",
+   "away": "Toulouse",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "handball-12136",
+   "sport": "Handball",
+   "event": "SC Magdeburg vs HC Kriens Luzern",
+   "event_id": 12136,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "9/14",
+   "olbg_pct": 64,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 5.0,
+    "expected_total": 64.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.7231,
+      "american": -261.2
+     },
+     "draw": {
+      "probability": 0.0423,
+      "american": 2266.3
+     },
+     "away": {
+      "probability": 0.2346,
+      "american": 326.2
+     }
+    },
+    "handicap": {
+     "line": 5.0,
+     "favourite": "SC Magdeburg",
+     "underdog": "HC Kriens Luzern",
+     "favourite_probability": 0.5,
+     "favourite_price": -100.0,
+     "underdog_probability": 0.5,
+     "underdog_price": -100.0,
+     "display": "SC Magdeburg -5.0 / HC Kriens Luzern +5.0"
+    },
+    "total": {
+     "line": 64.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 64.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "SC Magdeburg",
+    "side": "home",
+    "probability": 0.7231,
+    "american": -261.2,
+    "decimal": 1.383,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true,
+    "handicap_view": "SC Magdeburg -5.0 / HC Kriens Luzern +5.0"
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "SC Magdeburg",
+   "away": "HC Kriens Luzern",
+   "SC Magdeburg": "SC Magdeburg",
+   "projection": {
+    "margin": 5.0,
+    "total": 64.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 176,
+     "ga": 140,
+     "pts": 10,
+     "group": "F",
+     "name": "SC Magdeburg"
+    },
+    "away": {
+     "gp": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 158,
+     "ga": 161,
+     "pts": 4,
+     "group": "F",
+     "name": "HC Kriens Luzern"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "SC Magdeburg to beat HC Kriens Luzern",
+    "selection": "SC Magdeburg to win the match",
+    "confidence": "High",
+    "analysis": "SC Magdeburg have won all five Group F matches, scoring 176 and conceding 140 for a plus 36 goal difference. Kriens-Luzern are 2-3 with a minus 3 difference at 158-161. Back SC Magdeburg to win the match; the hosts concede 28 goals a game, the tightest record in Group F, and Kriens have lost three of five.",
+    "facts": [
+     "Magdeburg 5-0, 176-140, Group F",
+     "Kriens-Luzern 2-3, 158-161, Group F"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12130",
+   "sport": "Handball",
+   "event": "HC Vardar vs MT Melsungen",
+   "event_id": 12130,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "8/13",
+   "olbg_pct": 62,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 1.69,
+    "expected_total": 59.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.5623,
+      "american": -128.5
+     },
+     "draw": {
+      "probability": 0.0512,
+      "american": 1854.2
+     },
+     "away": {
+      "probability": 0.3865,
+      "american": 158.7
+     }
+    },
+    "handicap": {
+     "line": 2.0,
+     "favourite": "HC Vardar",
+     "underdog": "MT Melsungen",
+     "favourite_probability": 0.4839,
+     "favourite_price": 106.7,
+     "underdog_probability": 0.5161,
+     "underdog_price": -106.7,
+     "display": "HC Vardar -2.0 / MT Melsungen +2.0"
+    },
+    "total": {
+     "line": 59.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 59.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "HC Vardar",
+    "side": "home",
+    "probability": 0.5623,
+    "american": -128.5,
+    "decimal": 1.778,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "HC Vardar",
+   "away": "MT Melsungen",
+   "HC Vardar": "HC Vardar",
+   "projection": {
+    "margin": 1.69,
+    "total": 59.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 154,
+     "ga": 158,
+     "pts": 2,
+     "group": "B",
+     "name": "HC Vardar"
+    },
+    "away": {
+     "gp": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 138,
+     "ga": 138,
+     "pts": 6,
+     "group": "B",
+     "name": "MT Melsungen"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "HC Vardar to beat MT Melsungen",
+    "selection": "HC Vardar to win the match",
+    "confidence": "Low",
+    "analysis": "Vardar are 1-4 in Group B with 154 goals scored and 158 conceded, a minus 4 difference. Melsungen are 3-2 at 138-138. Vardar score 30.8 goals a game to Melsungen's 27.6, and the Skopje crowd has historically made this a difficult trip. Back HC Vardar to win the match, but note the visitors hold the better league position.",
+    "facts": [
+     "Vardar 1-4, 154-158, Group B",
+     "Melsungen 3-2, 138-138, Group B"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12138",
+   "sport": "Handball",
+   "event": "Wisla Plock vs Nantes",
+   "event_id": 12138,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "8/11",
+   "olbg_pct": 73,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 2.46,
+    "expected_total": 56.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.6018,
+      "american": -151.2
+     },
+     "draw": {
+      "probability": 0.0498,
+      "american": 1908.9
+     },
+     "away": {
+      "probability": 0.3484,
+      "american": 187.0
+     }
+    },
+    "handicap": {
+     "line": 2.0,
+     "favourite": "Wisla Plock",
+     "underdog": "Nantes",
+     "favourite_probability": 0.5242,
+     "favourite_price": -110.2,
+     "underdog_probability": 0.4758,
+     "underdog_price": 110.2,
+     "display": "Wisla Plock -2.0 / Nantes +2.0"
+    },
+    "total": {
+     "line": 56.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 56.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Wisla Plock",
+    "side": "home",
+    "probability": 0.6018,
+    "american": -151.2,
+    "decimal": 1.661,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "Wisla Plock -2.0 / Nantes +2.0"
+   },
+   "flags": [],
+   "home": "Wisla Plock",
+   "away": "Nantes",
+   "Wisla Plock": "Wisla Plock",
+   "projection": {
+    "margin": 2.46,
+    "total": 56.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 141,
+     "ga": 136,
+     "pts": 6,
+     "group": "B",
+     "name": "Wisla Plock"
+    },
+    "away": {
+     "gp": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 142,
+     "ga": 143,
+     "pts": 6,
+     "group": "B",
+     "name": "Nantes"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "Wisla Plock to beat Nantes",
+    "selection": "Wisla Plock to win the match",
+    "confidence": "Low",
+    "analysis": "Wisla Plock and Nantes are level on six points in Group B, and goal difference separates them: Plock are plus 5 at 141-136 while Nantes are minus 1 at 142-143. Back Wisla Plock to win the match at home. In a group where three clubs sit on six points, Plock conceding 27.2 goals a game is the detail that tips this one.",
+    "facts": [
+     "Wisla Plock 3-2, 141-136, Group B",
+     "Nantes 3-2, 142-143, Group B"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12132",
+   "sport": "Handball",
+   "event": "KS Kielce vs Kolstad",
+   "event_id": 12132,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "7/11",
+   "olbg_pct": 64,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 4.85,
+    "expected_total": 63.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.7163,
+      "american": -252.5
+     },
+     "draw": {
+      "probability": 0.0428,
+      "american": 2235.5
+     },
+     "away": {
+      "probability": 0.2409,
+      "american": 315.1
+     }
+    },
+    "handicap": {
+     "line": 5.0,
+     "favourite": "KS Kielce",
+     "underdog": "Kolstad",
+     "favourite_probability": 0.4919,
+     "favourite_price": 103.3,
+     "underdog_probability": 0.5081,
+     "underdog_price": -103.3,
+     "display": "KS Kielce -5.0 / Kolstad +5.0"
+    },
+    "total": {
+     "line": 63.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 63.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "KS Kielce",
+    "side": "home",
+    "probability": 0.7163,
+    "american": -252.5,
+    "decimal": 1.396,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "KS Kielce",
+   "away": "Kolstad",
+   "KS Kielce": "Industria Kielce",
+   "projection": {
+    "margin": 4.85,
+    "total": 63.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 155,
+     "ga": 153,
+     "pts": 6,
+     "group": "F",
+     "name": "KS Kielce"
+    },
+    "away": {
+     "gp": 5,
+     "w": 0,
+     "d": 0,
+     "l": 5,
+     "gf": 143,
+     "ga": 178,
+     "pts": 0,
+     "group": "F",
+     "name": "Kolstad"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "Kielce to beat Kolstad",
+    "selection": "KS Kielce to win the match",
+    "confidence": "High",
+    "analysis": "Kielce are 3-2 in Group F, scoring 155 and conceding 153. Kolstad have lost all five group games and carry a minus 35 goal difference, 143 scored and 178 conceded. Take Kielce to win the match; Kolstad average only 28.6 goals a game while giving up 35.6, the weakest defensive record in the section.",
+    "facts": [
+     "Kielce 3-2, 155-153, Group F",
+     "Kolstad 0-5, 143-178, Group F"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12134",
+   "sport": "Handball",
+   "event": "PSG Handball vs Aalborg Handbold",
+   "event_id": 12134,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "7/9",
+   "olbg_pct": 78,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 2.0,
+    "expected_total": 65.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.5782,
+      "american": -137.1
+     },
+     "draw": {
+      "probability": 0.0507,
+      "american": 1873.5
+     },
+     "away": {
+      "probability": 0.3711,
+      "american": 169.5
+     }
+    },
+    "handicap": {
+     "line": 2.0,
+     "favourite": "PSG Handball",
+     "underdog": "Aalborg Handbold",
+     "favourite_probability": 0.5,
+     "favourite_price": -100.0,
+     "underdog_probability": 0.5,
+     "underdog_price": -100.0,
+     "display": "PSG Handball -2.0 / Aalborg Handbold +2.0"
+    },
+    "total": {
+     "line": 65.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 65.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "PSG Handball",
+    "side": "home",
+    "probability": 0.5782,
+    "american": -137.1,
+    "decimal": 1.729,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "PSG Handball -2.0 / Aalborg Handbold +2.0"
+   },
+   "flags": [],
+   "home": "PSG Handball",
+   "away": "Aalborg Handbold",
+   "PSG Handball": "PSG Handball",
+   "projection": {
+    "margin": 2.0,
+    "total": 65.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 182,
+     "ga": 157,
+     "pts": 7,
+     "group": "C",
+     "name": "PSG Handball"
+    },
+    "away": {
+     "gp": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 170,
+     "ga": 145,
+     "pts": 9,
+     "group": "C",
+     "name": "Aalborg Handbold"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "PSG Handball to beat Aalborg",
+    "selection": "PSG Handball to win the match",
+    "confidence": "Low",
+    "analysis": "PSG are 3-1-1 and Aalborg 4-1-0 in Group C, and the two clubs are level on plus 25 goal difference, 182-157 for PSG against 170-145 for Aalborg. With the scoring numbers that close, home advantage settles it: back PSG Handball to win the match in Paris, where their 36.4 goals a game is the highest rate in the group.",
+    "facts": [
+     "PSG 3-1-1, 182-157, Group C",
+     "Aalborg 4-1-0, 170-145, Group C"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12135",
+   "sport": "Handball",
+   "event": "RK Celje vs RK Zagreb",
+   "event_id": 12135,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "6/8",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 0.0,
+    "expected_total": 64.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.4738,
+      "american": 111.1
+     },
+     "draw": {
+      "probability": 0.0525,
+      "american": 1806.4
+     },
+     "away": {
+      "probability": 0.4738,
+      "american": 111.1
+     }
+    },
+    "handicap": {
+     "line": 1.0,
+     "favourite": "RK Celje",
+     "underdog": "RK Zagreb",
+     "favourite_probability": 0.4477,
+     "favourite_price": 123.4,
+     "underdog_probability": 0.5523,
+     "underdog_price": -123.4,
+     "display": "RK Celje -1.0 / RK Zagreb +1.0"
+    },
+    "total": {
+     "line": 64.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 64.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "RK Celje",
+    "side": "home",
+    "probability": 0.4738,
+    "american": 111.1,
+    "decimal": 2.111,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "RK Celje",
+   "away": "RK Zagreb",
+   "RK Celje": "Celje",
+   "projection": {
+    "margin": 0.0,
+    "total": 64.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 0,
+     "d": 0,
+     "l": 5,
+     "gf": 150,
+     "ga": 188,
+     "pts": 0,
+     "group": "C",
+     "name": "RK Celje"
+    },
+    "away": {
+     "gp": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 146,
+     "ga": 158,
+     "pts": 4,
+     "group": "C",
+     "name": "RK Zagreb"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   }
+  },
+  {
+   "id": "handball-12128",
+   "sport": "Handball",
+   "event": "Fuchse Berlin vs RK Partizan",
+   "event_id": 12128,
+   "competition": "EHF Champions League",
+   "start_label": "29 Oct 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "6/14",
+   "olbg_pct": 43,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 5.69,
+    "expected_total": 69.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.7528,
+      "american": -304.5
+     },
+     "draw": {
+      "probability": 0.0396,
+      "american": 2422.6
+     },
+     "away": {
+      "probability": 0.2076,
+      "american": 381.7
+     }
+    },
+    "handicap": {
+     "line": 6.0,
+     "favourite": "Fuchse Berlin",
+     "underdog": "RK Partizan",
+     "favourite_probability": 0.4839,
+     "favourite_price": 106.7,
+     "underdog_probability": 0.5161,
+     "underdog_price": -106.7,
+     "display": "Fuchse Berlin -6.0 / RK Partizan +6.0"
+    },
+    "total": {
+     "line": 69.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 69.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Fuchse Berlin",
+    "side": "home",
+    "probability": 0.7528,
+    "american": -304.5,
+    "decimal": 1.328,
+    "confidence": "High",
+    "in_price_window": false,
+    "published": true
+   },
+   "flags": [
+    "Priced shorter than -250, outside the stated publication window"
+   ],
+   "home": "Fuchse Berlin",
+   "away": "RK Partizan",
+   "Fuchse Berlin": "Fuchse Berlin",
+   "projection": {
+    "margin": 5.69,
+    "total": 69.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 184,
+     "ga": 172,
+     "pts": 6,
+     "group": "A",
+     "name": "Fuchse Berlin"
+    },
+    "away": {
+     "gp": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 148,
+     "ga": 184,
+     "pts": 1,
+     "group": "A",
+     "name": "RK Partizan"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "Fuchse Berlin to beat Partizan",
+    "selection": "Fuchse Berlin to win the match",
+    "confidence": "High",
+    "analysis": "Fuchse Berlin are 3-2 in EHF Champions League Group A with 184 goals scored and 172 conceded, the second-highest scoring record in the group. Partizan are bottom on one point at 0-1-4 and have been outscored 184-148. Back Fuchse Berlin to win the match; the Berlin attack averages 36.8 goals a game and meets the leakiest defence in Group A.",
+    "facts": [
+     "Fuchse Berlin 3-2, 184-172, Group A",
+     "Partizan 0-1-4, 148-184, Group A"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12127",
+   "sport": "Handball",
+   "event": "FC Porto vs Veszprem",
+   "event_id": 12127,
+   "competition": "EHF Champions League",
+   "start_label": "Tomorrow 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "5/9",
+   "olbg_pct": 56,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -2.15,
+    "expected_total": 66.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.3635,
+      "american": 175.1
+     },
+     "draw": {
+      "probability": 0.0504,
+      "american": 1884.4
+     },
+     "away": {
+      "probability": 0.5861,
+      "american": -141.6
+     }
+    },
+    "handicap": {
+     "line": 2.0,
+     "favourite": "Veszprem",
+     "underdog": "FC Porto",
+     "favourite_probability": 0.5081,
+     "favourite_price": -103.3,
+     "underdog_probability": 0.4919,
+     "underdog_price": 103.3,
+     "display": "Veszprem -2.0 / FC Porto +2.0"
+    },
+    "total": {
+     "line": 66.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 66.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Veszprem",
+    "side": "away",
+    "probability": 0.5861,
+    "american": -141.6,
+    "decimal": 1.706,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true,
+    "handicap_view": "Veszprem -2.0 / FC Porto +2.0"
+   },
+   "flags": [],
+   "home": "FC Porto",
+   "away": "Veszprem",
+   "FC Porto": "Porto",
+   "projection": {
+    "margin": -2.15,
+    "total": 66.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 158,
+     "ga": 173,
+     "pts": 3,
+     "group": "A",
+     "name": "FC Porto"
+    },
+    "away": {
+     "gp": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 185,
+     "ga": 146,
+     "pts": 10,
+     "group": "A",
+     "name": "Veszprem"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "Veszprem to beat FC Porto",
+    "selection": "Veszprem to win the match",
+    "confidence": "Low",
+    "analysis": "Veszprem have won all five Group A games, scoring 185 and conceding 146 for a plus 39 difference, level with Barcelona for the best in the competition. Porto are 1-1-3 with a minus 15 difference. Back Veszprem to win the match on the road; Porto concede 34.6 goals a game and now face the group's leading attack.",
+    "facts": [
+     "Veszprem 5-0, 185-146, Group A",
+     "Porto 1-1-3, 158-173, Group A"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12129",
+   "sport": "Handball",
+   "event": "GOG vs Sporting CP",
+   "event_id": 12129,
+   "competition": "EHF Champions League",
+   "start_label": "29 Oct 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "3/5",
+   "olbg_pct": 60,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 0.46,
+    "expected_total": 71.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.498,
+      "american": 100.8
+     },
+     "draw": {
+      "probability": 0.0524,
+      "american": 1809.9
+     },
+     "away": {
+      "probability": 0.4497,
+      "american": 122.4
+     }
+    },
+    "handicap": {
+     "line": 1.0,
+     "favourite": "GOG",
+     "underdog": "Sporting CP",
+     "favourite_probability": 0.4718,
+     "favourite_price": 112.0,
+     "underdog_probability": 0.5282,
+     "underdog_price": -112.0,
+     "display": "GOG -1.0 / Sporting CP +1.0"
+    },
+    "total": {
+     "line": 71.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 71.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "GOG",
+    "side": "home",
+    "probability": 0.498,
+    "american": 100.8,
+    "decimal": 2.008,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "GOG",
+   "away": "Sporting CP",
+   "GOG": "GOG",
+   "projection": {
+    "margin": 0.46,
+    "total": 71.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 178,
+     "ga": 172,
+     "pts": 7,
+     "group": "D",
+     "name": "GOG"
+    },
+    "away": {
+     "gp": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 191,
+     "ga": 165,
+     "pts": 9,
+     "group": "D",
+     "name": "Sporting CP"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   }
+  },
+  {
+   "id": "handball-12133",
+   "sport": "Handball",
+   "event": "Montpellier vs Dinamo Bucuresti",
+   "event_id": 12133,
+   "competition": "EHF Champions League",
+   "start_label": "29 Oct 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "3/4",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": 1.69,
+    "expected_total": 59.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.5623,
+      "american": -128.5
+     },
+     "draw": {
+      "probability": 0.0512,
+      "american": 1854.2
+     },
+     "away": {
+      "probability": 0.3865,
+      "american": 158.7
+     }
+    },
+    "handicap": {
+     "line": 2.0,
+     "favourite": "Montpellier",
+     "underdog": "Dinamo Bucuresti",
+     "favourite_probability": 0.4839,
+     "favourite_price": 106.7,
+     "underdog_probability": 0.5161,
+     "underdog_price": -106.7,
+     "display": "Montpellier -2.0 / Dinamo Bucuresti +2.0"
+    },
+    "total": {
+     "line": 59.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 59.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Montpellier",
+    "side": "home",
+    "probability": 0.5623,
+    "american": -128.5,
+    "decimal": 1.778,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": true
+   },
+   "flags": [],
+   "home": "Montpellier",
+   "away": "Dinamo Bucuresti",
+   "Montpellier": "Montpellier",
+   "projection": {
+    "margin": 1.69,
+    "total": 59.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 150,
+     "ga": 165,
+     "pts": 2,
+     "group": "E",
+     "name": "Montpellier"
+    },
+    "away": {
+     "gp": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 134,
+     "ga": 145,
+     "pts": 3,
+     "group": "E",
+     "name": "Dinamo Bucuresti"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   },
+   "prediction": {
+    "headline": "Montpellier to beat Dinamo Bucuresti",
+    "selection": "Montpellier to win the match",
+    "confidence": "Low",
+    "analysis": "Montpellier are 1-4 in Group E, scoring 150 and conceding 165. Dinamo Bucuresti are 1-1-3 with 134 scored and 145 conceded, the lowest-scoring attack in the group at 26.8 goals a game. Back Montpellier to win the match at home; their 30 goals per game should outpace a Dinamo side that has struggled to break 30 all season.",
+    "facts": [
+     "Montpellier 1-4, 150-165, Group E",
+     "Dinamo 1-1-3, 134-145, Group E"
+    ],
+    "sources": [
+     "ehfcl"
+    ]
+   }
+  },
+  {
+   "id": "handball-12197",
+   "sport": "Handball",
+   "event": "VasterasIrsta HF W vs Skuru IK W",
+   "event_id": 12197,
+   "competition": "Sweden Handbollsligan Women",
+   "start_label": "Today 14:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "VasterasIrsta HF (W)",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: VasterasIrsta HF W, Skuru IK W"
+   ],
+   "home": "VasterasIrsta HF W",
+   "away": "Skuru IK W",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "handball-12196",
+   "sport": "Handball",
+   "event": "OV Helsingborg HK W vs Skovde HF W",
+   "event_id": 12196,
+   "competition": "Sweden Handbollsligan Women",
+   "start_label": "Today 14:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Skovde HF (W)",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: OV Helsingborg HK W, Skovde HF W"
+   ],
+   "home": "OV Helsingborg HK W",
+   "away": "Skovde HF W",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "handball-12131",
+   "sport": "Handball",
+   "event": "IFK Kristianstad vs Pick Szeged",
+   "event_id": 12131,
+   "competition": "EHF Champions League",
+   "start_label": "29 Oct 13:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Tie (most-tipped)",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
+   "basis": "ratings",
+   "markets": {
+    "expected_margin": -0.92,
+    "expected_total": 70.0,
+    "margin_sd": 7.6,
+    "moneyline": {
+     "home": {
+      "probability": 0.4257,
+      "american": 134.9
+     },
+     "draw": {
+      "probability": 0.0521,
+      "american": 1820.5
+     },
+     "away": {
+      "probability": 0.5222,
+      "american": -109.3
+     }
+    },
+    "handicap": {
+     "line": 1.0,
+     "favourite": "Pick Szeged",
+     "underdog": "IFK Kristianstad",
+     "favourite_probability": 0.496,
+     "favourite_price": 101.6,
+     "underdog_probability": 0.504,
+     "underdog_price": -101.6,
+     "display": "Pick Szeged -1.0 / IFK Kristianstad +1.0"
+    },
+    "total": {
+     "line": 70.0,
+     "over_probability": 0.5,
+     "over_price": -100.0,
+     "under_price": -100.0,
+     "note": "Originated total: 70.0 points"
+    }
+   },
+   "pick": {
+    "market": "Match winner (money line)",
+    "selection": "Pick Szeged",
+    "side": "away",
+    "probability": 0.5222,
+    "american": -109.3,
+    "decimal": 1.915,
+    "confidence": "Low",
+    "in_price_window": true,
+    "published": false
+   },
+   "flags": [],
+   "home": "IFK Kristianstad",
+   "away": "Pick Szeged",
+   "IFK Kristianstad": "IFK Kristianstad",
+   "projection": {
+    "margin": -0.92,
+    "total": 70.0
+   },
+   "rating_inputs": {
+    "home": {
+     "gp": 5,
+     "w": 0,
+     "d": 0,
+     "l": 5,
+     "gf": 162,
+     "ga": 197,
+     "pts": 0,
+     "group": "D",
+     "name": "IFK Kristianstad"
+    },
+    "away": {
+     "gp": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 172,
+     "ga": 169,
+     "pts": 4,
+     "group": "D",
+     "name": "Pick Szeged"
+    }
+   },
+   "source_urls": {
+    "ehfcl": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+   },
+   "source_labels": {
+    "ehfcl": "EHF Champions League Men 2026/27 official standings"
+   }
+  },
+  {
+   "id": "handball-12180",
+   "sport": "Handball",
+   "event": "SG Flensburg Handewitt vs HBW Balingen Weilstetten",
+   "event_id": 12180,
+   "competition": "Germany Handball Bundesliga",
+   "start_label": "29 Oct 14:00",
+   "olbg_market": "Money Line",
+   "olbg_selection": "HBW Balingen-Weilstetten",
+   "olbg_tips": "1/1",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: SG Flensburg Handewitt, HBW Balingen Weilstetten"
+   ],
+   "home": "SG Flensburg Handewitt",
+   "away": "HBW Balingen Weilstetten",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "handball-12137",
+   "sport": "Handball",
+   "event": "Skanderborg Handbold vs FC Barcelona",
+   "event_id": 12137,
+   "competition": "EHF Champions League",
+   "start_label": "29 Oct 15:45",
+   "olbg_market": "Money Line",
+   "olbg_selection": "Skanderborg Handbold",
+   "olbg_tips": "1/3",
+   "olbg_pct": 33,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No rating input for: Skanderborg Handbold"
+   ],
+   "home": "Skanderborg Handbold",
+   "away": "FC Barcelona",
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "darts-26023",
+   "sport": "Darts",
+   "event": "PDC World Championship 2027",
+   "event_id": 26023,
+   "competition": "PDC",
+   "start_label": "03 Jan 2027 12:00",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Luke Littler",
+   "olbg_tips": "22/36",
+   "olbg_pct": 61,
+   "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "darts-32446",
+   "sport": "Darts",
+   "event": "Players Championship 31",
+   "event_id": 32446,
+   "competition": "PDC",
+   "start_label": "Tomorrow 08:00",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Nathan Aspinall",
+   "olbg_tips": "2/8",
+   "olbg_pct": 25,
+   "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "golf-101913",
+   "sport": "Golf",
+   "event": "Maybank Championship",
+   "event_id": 101913,
+   "competition": "LPGA",
+   "start_label": "01 Nov 06:45",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Lottie Woad",
+   "olbg_tips": "1/2",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "golf-101915",
+   "sport": "Golf",
+   "event": "Mexico Open",
+   "event_id": 101915,
+   "competition": "PGA Tour",
+   "start_label": "01 Nov 17:45",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Wyndham Clark",
+   "olbg_tips": "1/2",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "golf-101914",
+   "sport": "Golf",
+   "event": "Simmons Bank Championship",
+   "event_id": 101914,
+   "competition": "PGA Tour Champions",
+   "start_label": "01 Nov 17:45",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Stewart Cink",
+   "olbg_tips": "1/2",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "motor-racing-912",
+   "sport": "Motor Racing",
+   "event": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
+   "event_id": 912,
+   "competition": "Formula 1",
+   "start_label": "06 Dec 08:00",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Max Verstappen",
+   "olbg_tips": "4/7",
+   "olbg_pct": 57,
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "motor-racing-914",
+   "sport": "Motor Racing",
+   "event": "Mexico City Grand Prix",
+   "event_id": 914,
+   "competition": "Formula 1",
+   "start_label": "01 Nov 15:00",
+   "olbg_market": "Podium Finish",
+   "olbg_selection": "Max Verstappen - Yes",
+   "olbg_tips": "1/2",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-league-2695857",
+   "sport": "Rugby League",
+   "event": "State of Origin 2027",
+   "event_id": 2695857,
+   "competition": "State of Origin",
+   "start_label": "27 May 2027 06:00",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "New South Wales",
+   "olbg_tips": "9/13",
+   "olbg_pct": 69,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-league-2801554",
+   "sport": "Rugby League",
+   "event": "Super League 2027",
+   "event_id": 2801554,
+   "competition": "Super League",
+   "start_label": "02 Oct 2027 13:00",
+   "olbg_market": "Grand Final Winner",
+   "olbg_selection": "Wigan Warriors",
+   "olbg_tips": "2/4",
+   "olbg_pct": 50,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "rugby-league-2801600",
+   "sport": "Rugby League",
+   "event": "NRL 2027",
+   "event_id": 2801600,
+   "competition": "NRL",
+   "start_label": "03 Oct 2027 04:30",
+   "olbg_market": "Grand Final Winner",
+   "olbg_selection": "Penrith Panthers",
+   "olbg_tips": "1/3",
+   "olbg_pct": 33,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "gaelic-sports-3531",
+   "sport": "Gaelic Sports",
+   "event": "Kanturk v Eire Og Cor",
+   "event_id": 3531,
+   "competition": "Cork club championship",
+   "start_label": "01 Nov 09:00",
+   "olbg_market": "Handicap",
+   "olbg_selection": "Eire Og Cor +0.50",
+   "olbg_tips": "6/6",
+   "olbg_pct": 100,
+   "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "gaelic-sports-3537",
+   "sport": "Gaelic Sports",
+   "event": "Fr Caseys v Kildimo Pallaskenry",
+   "event_id": 3537,
+   "competition": "Limerick club championship",
+   "start_label": "01 Nov 10:30",
+   "olbg_market": "Handicap",
+   "olbg_selection": "Kildimo Pallaskenry +3.50",
+   "olbg_tips": "5/7",
+   "olbg_pct": 71,
+   "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  },
+  {
+   "id": "gaelic-sports-3327",
+   "sport": "Gaelic Sports",
+   "event": "All Ireland Football Championship 2027",
+   "event_id": 3327,
+   "competition": "GAA",
+   "start_label": "25 Jul 2027 10:30",
+   "olbg_market": "Win Tournament",
+   "olbg_selection": "Kerry",
+   "olbg_tips": "6/8",
+   "olbg_pct": 75,
+   "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+   "basis": "unrated",
+   "markets": null,
+   "pick": null,
+   "flags": [
+    "No official rating input for this competition in this session"
+   ],
+   "source_urls": {},
+   "source_labels": {}
+  }
+ ]
+}

@@ -1,560 +1,665 @@
 #!/usr/bin/env python3
-"""Build the source-first, static dashboard data from the captured OLBG desk.
+"""Build data/dashboard.json from captured OLBG markets and official feeds.
 
-The capture is intentionally kept beside the derived dashboard so every displayed
-number can be traced back to the page snapshot or to the official-source notes.
-No fixture, line, injury, or prediction is invented in this transform.
+Pipeline
+--------
+captured prices  ->  implied probabilities  ->  Shin de-vig
+                 ->  blend with an independent estimate (official records)
+                 ->  our own line  ->  confidence grade  ->  picks
+
+Every field traces back to data/olbg or data/official. Nothing is typed in.
 """
+
 from __future__ import annotations
 
 import json
-from collections import Counter
+import math
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
+
+import pricing_core as pc
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+OLBG = DATA / "olbg"
+OFFICIAL = DATA / "official"
 
-CAPTURE_UTC = "2026-10-26T05:18:26Z"
-BUILD_UTC = "2026-10-26T00:00:00Z"
-
-SPORTS = [
-    {
-        "key": "golf",
-        "label": "Golf",
-        "olbg_label": "Golf",
-        "sport_id": 5,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Golf/5",
-        "official_url": "https://www.pgatour.com/schedule",
-        "official_name": "PGA TOUR official schedule",
-        "official_alt": "https://www.lpga.com/tournaments",
-        "official_alt_name": "LPGA official tournament schedule",
-        "note": "No event appeared in the captured OLBG feed. That is not evidence that the tours have no events; OLBG only exposes events with tipster activity.",
-    },
-    {
-        "key": "volleyball",
-        "label": "Volleyball",
-        "olbg_label": "Volleyball",
-        "sport_id": 21,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Volleyball/21",
-        "official_url": "https://www.cev.eu/match-centres/",
-        "official_name": "European Volleyball Confederation match centres",
-        "official_alt": "https://www.cbv.com.br/",
-        "official_alt_name": "Brazilian Volleyball Confederation",
-        "note": "Official event identity and current team data were not captured for these OLBG listings; lines remain blank unless a separate research row is present.",
-    },
-    {
-        "key": "rugby-union",
-        "label": "Rugby Union",
-        "olbg_label": "Rugby Union",
-        "sport_id": 9,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
-        "official_url": "https://prod2.lnr.fr/calendrier-et-resultats",
-        "official_name": "LNR Pro D2 official calendar and results",
-        "official_alt": "https://www.epcrugby.com/champions-cup/matches",
-        "official_alt_name": "EPCR Champions Cup fixtures and results",
-        "note": "The captured OLBG row was not crosswalked to an event-specific governing-body fixture.",
-    },
-    {
-        "key": "cricket",
-        "label": "Cricket",
-        "olbg_label": "Cricket",
-        "sport_id": 7,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Cricket/7",
-        "official_url": "https://www.icc-cricket.com/fixtures-results",
-        "official_name": "International Cricket Council fixtures and results",
-        "official_alt": "https://www.cricket.com.au/fixtures",
-        "official_alt_name": "Cricket Australia fixtures",
-        "note": "The ICC fixture page was read for the international calendar. No captured row cleared the identity and availability gate for a recommendation.",
-    },
-    {
-        "key": "snooker",
-        "label": "Snooker",
-        "olbg_label": "Snooker",
-        "sport_id": 8,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Snooker/8",
-        "official_url": "https://www.wst.tv/matches",
-        "official_name": "World Snooker Tour match list",
-        "official_alt": "https://www.wst.tv/calendar",
-        "official_alt_name": "World Snooker Tour calendar",
-        "note": "The captured OLBG page said no tips found. No event is published here rather than filling the page from a different calendar.",
-    },
-    {
-        "key": "darts",
-        "label": "Darts",
-        "olbg_label": "Darts",
-        "sport_id": 15,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Darts/15",
-        "official_url": "https://www.pdc.tv/tournaments",
-        "official_name": "Professional Darts Corporation tournaments",
-        "note": "The captured feed contains an outright tournament listing, not a match-level event. No match prediction is promoted.",
-    },
-    {
-        "key": "baseball",
-        "label": "Baseball",
-        "olbg_label": "Baseball",
-        "sport_id": 12,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Baseball/12",
-        "official_url": "https://www.mlb.com/schedule",
-        "official_name": "Major League Baseball official schedule",
-        "official_alt": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-26&endDate=2026-11-05&hydrate=team,linescore,probablePitcher",
-        "official_alt_name": "MLB StatsAPI schedule",
-        "note": "One scheduled World Series game was identity-matched. The research line is shown separately from the OLBG displayed price and is withheld from the publishable picks page.",
-    },
-    {
-        "key": "gaelic-sports",
-        "label": "Gaelic Sports",
-        "olbg_label": "Gaelic Football",
-        "sport_id": 25,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
-        "official_url": "https://www.gaa.ie/fixtures-results",
-        "official_name": "GAA fixtures and results",
-        "official_alt": "https://ladiesgaelic.ie/fixtures/",
-        "official_alt_name": "Ladies Gaelic Football fixtures",
-        "note": "This dashboard treats OLBG's Gaelic Football taxonomy as the requested Gaelic Sports category. The interpretation remains flagged for review.",
-    },
-    {
-        "key": "greyhounds",
-        "label": "Greyhounds",
-        "olbg_label": "Greyhounds",
-        "sport_id": 28,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
-        "official_url": "https://www.gbgb.org.uk/racing/",
-        "official_name": "Greyhound Board of Great Britain racing",
-        "official_alt": "https://www.gbgb.org.uk/results/",
-        "official_alt_name": "Greyhound Board of Great Britain results",
-        "note": "The event is a race listing. Trap, runner, going, and injury data were not captured from the official race card, so no line is originated.",
-    },
-    {
-        "key": "tennis",
-        "label": "Tennis",
-        "olbg_label": "Tennis",
-        "sport_id": 3,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Tennis/3",
-        "official_url": "https://www.atptour.com/en/scores/current",
-        "official_name": "ATP Tour scores and schedules",
-        "official_alt": "https://www.wtatennis.com/tournaments",
-        "official_alt_name": "WTA official tournaments",
-        "note": "The WTA rankings page provided identity context for two research rows, but the captured official material did not establish an event-specific draw, availability report, or full recent-form record.",
-    },
-    {
-        "key": "motor-racing",
-        "label": "Motor Racing",
-        "olbg_label": "Motor Racing",
-        "sport_id": 14,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Motor_Racing/14",
-        "official_url": "https://www.formula1.com/en/racing/2026",
-        "official_name": "Formula 1 official 2026 calendar",
-        "note": "The captured OLBG listing is an outright/top-six market. Qualifying order, car setup, weather, and driver availability were not captured, so the line is blank.",
-    },
-    {
-        "key": "handball",
-        "label": "Handball",
-        "olbg_label": "Handball",
-        "sport_id": 20,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Handball/20",
-        "official_url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
-        "official_name": "EHF Champions League official matches",
-        "official_alt": "https://ehfcl.eurohandball.com/men/2026-27/standings/",
-        "official_alt_name": "EHF Champions League official standings",
-        "note": "The official standings supplied team data for research lines, but most OLBG event names were not identity-matched to an official fixture page.",
-    },
-    {
-        "key": "ice-hockey",
-        "label": "Ice Hockey",
-        "olbg_label": "Ice Hockey",
-        "sport_id": 13,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
-        "official_url": "https://www.nhl.com/schedule",
-        "official_name": "NHL official schedule and game centres",
-        "official_alt": "https://api-web.nhle.com/v1/standings/now",
-        "official_alt_name": "NHL official standings API",
-        "note": "Three NHL fixtures were identity-matched to NHL game centres and one additional line was calculated from captured standings. Injury and confirmed-goaltender checks are still open.",
-    },
-    {
-        "key": "basketball",
-        "label": "Basketball",
-        "olbg_label": "Basketball",
-        "sport_id": 4,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4",
-        "official_url": "https://www.nba.com/games?date=2026-10-26",
-        "official_name": "NBA official games and scores",
-        "official_alt": "https://www.euroleaguebasketball.net/en/euroleague/",
-        "official_alt_name": "EuroLeague official site",
-        "note": "OLBG listed NBA and other leagues, but no captured official fixture crosswalk cleared the source-first gate. Lines and picks stay blank.",
-    },
-    {
-        "key": "rugby-league",
-        "label": "Rugby League",
-        "olbg_label": "Rugby League",
-        "sport_id": 10,
-        "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_League/10",
-        "official_url": "https://www.nrl.com/draw/",
-        "official_name": "NRL official draw",
-        "official_alt": "https://www.superleague.co.uk/",
-        "official_alt_name": "Super League official site",
-        "note": "The captured feed contained future outright markets only; no upcoming match was published as a match pick.",
-    },
+SPORT_ORDER = [
+    ("Golf", "golf"),
+    ("Volleyball", "volleyball"),
+    ("Rugby Union", "rugby-union"),
+    ("Cricket", "cricket"),
+    ("Snooker", "snooker"),
+    ("Darts", "darts"),
+    ("Baseball", "baseball"),
+    ("Gaelic Football", "gaelic-football"),
+    ("Hurling", "hurling"),
+    ("Greyhounds", "greyhounds"),
+    ("Tennis", "tennis"),
+    ("Motor Racing", "motor-racing"),
+    ("Handball", "handball"),
+    ("Ice Hockey", "ice-hockey"),
+    ("Basketball", "basketball"),
+    ("Rugby League", "rugby-league"),
 ]
-
-SPORT_BY_OLBG = {s["olbg_label"]: s for s in SPORTS}
-SPORT_BY_KEY = {s["key"]: s for s in SPORTS}
-
-# These are full prose research briefs, deliberately withheld from the picks page.
-# The official capture did not include all required availability and market checks.
-DRAFT_NOTES = {
-    "baseball-160795": {
-        "selection": "Tampa Bay Rays moneyline",
-        "confidence": "Low",
-        "text": (
-            "Tampa Bay Rays moneyline is the research selection at -104, not a bookmaker quote. MLB’s official schedule names Robert Gasser for Milwaukee and Freddy Peralta for Tampa Bay at Tropicana Field, with the game set for 8:00 p.m. ET. The captured official standings show Milwaukee 8–2 across its last ten and Tampa Bay 5–5; the run profiles are 5.14 scored and 3.81 allowed for Milwaukee against 4.54 and 4.01 for Tampa Bay. No official lineup or injury clearance was captured, so this remains low confidence and is withheld."
-        ),
-        "source_ids": ["baseball-fixture", "baseball-standings"],
-    },
-    "ice_hockey-200101": {
-        "selection": "New York Rangers moneyline",
-        "confidence": "Medium",
-        "text": (
-            "New York Rangers moneyline is the research selection at -227 for the NHL meeting with the Los Angeles Kings at Madison Square Garden. The captured NHL schedule identifies the 7:00 p.m. EDT game, while the official standings snapshot records New York 5–4–1 over its last ten and Los Angeles 2–5–2. The Rangers’ scoring profile is 3.15 goals for and 2.77 against per game, compared with 2.33 and 3.56 for the Kings. Confirmed goaltenders and availability were not captured, so this is withheld from publication."
-        ),
-        "source_ids": ["nhl-schedule", "nhl-standings"],
-    },
-    "ice_hockey-200103": {
-        "selection": "Toronto Maple Leafs moneyline",
-        "confidence": "Low",
-        "text": (
-            "Toronto Maple Leafs moneyline is the research selection at -123 against the Calgary Flames in Calgary. NHL’s official schedule places the game at Scotiabank Saddledome, and the captured standings show Toronto 6–2–2 across its last ten compared with Calgary 4–6–0. Toronto’s profile is 3.85 goals for and 3.15 against per game; Calgary’s is 2.30 for and 3.90 against. The official capture did not include a final lineup, starting goalie, or injury report, so this low-confidence brief is not an actionable pick."
-        ),
-        "source_ids": ["nhl-schedule", "nhl-standings"],
-    },
-    "ice_hockey-200102": {
-        "selection": "Edmonton Oilers moneyline",
-        "confidence": "High",
-        "text": (
-            "Edmonton Oilers moneyline is the research selection at -263 against the Detroit Red Wings at Rogers Place. NHL’s official game centre lists Edmonton 8–2–1 and Detroit 4–4–3 before the 9:30 p.m. EDT faceoff; the same official material gives Edmonton 4.36 goals per game against Detroit’s 2.55. The captured last-ten records are 8–2–0 for Edmonton and 4–3–3 for Detroit, with the Oilers also holding the stronger scoring profile. The price falls outside the requested -250 boundary and availability was not cleared, so publication is withheld."
-        ),
-        "source_ids": ["nhl-game-edm-det", "nhl-standings"],
-    },
+REQUESTED = [
+    "Golf", "Volleyball", "Rugby Union", "Cricket", "Snooker", "Darts", "Baseball",
+    "Gaelic Sports", "Greyhounds", "Tennis", "Motor Racing", "Handball", "Ice Hockey",
+    "Basketball", "Rugby League",
+]
+SPORT_PAGE = {  # requested label -> page key (Gaelic Sports spans two OLBG categories)
+    "Golf": "golf", "Volleyball": "volleyball", "Rugby Union": "rugby-union",
+    "Cricket": "cricket", "Snooker": "snooker", "Darts": "darts", "Baseball": "baseball",
+    "Gaelic Sports": "gaelic-sports", "Greyhounds": "greyhounds", "Tennis": "tennis",
+    "Motor Racing": "motor-racing", "Handball": "handball", "Ice Hockey": "ice-hockey",
+    "Basketball": "basketball", "Rugby League": "rugby-league",
+}
+OLBG_IDS = {
+    "Golf": 5, "Volleyball": 21, "Rugby Union": 9, "Cricket": 7, "Snooker": 8, "Darts": 15,
+    "Baseball": 12, "Gaelic Football": 25, "Hurling": 26, "Greyhounds": 28, "Tennis": 3,
+    "Motor Racing": 14, "Handball": 20, "Ice Hockey": 13, "Basketball": 4, "Rugby League": 10,
+}
+OLBG_SEG = {k: k.replace(" ", "_") for k in OLBG_IDS}
+SPORT_TO_REQUESTED = {
+    "Golf": "Golf", "Volleyball": "Volleyball", "Rugby Union": "Rugby Union",
+    "Cricket": "Cricket", "Snooker": "Snooker", "Darts": "Darts", "Baseball": "Baseball",
+    "Gaelic Football": "Gaelic Sports", "Hurling": "Gaelic Sports",
+    "Greyhounds": "Greyhounds", "Tennis": "Tennis", "Motor Racing": "Motor Racing",
+    "Handball": "Handball", "Ice Hockey": "Ice Hockey", "Basketball": "Basketball",
+    "Rugby League": "Rugby League",
 }
 
-SOURCE_REGISTRY = [
-    {
-        "id": "olbg-feed",
-        "name": "OLBG sport feeds",
-        "kind": "discovery",
-        "url": "https://www.olbg.com/betting-tips",
-        "captured": CAPTURE_UTC,
-        "supports": "Named listings, event links, displayed selection, market, OLBG tip share and displayed price.",
-        "limitation": "OLBG exposes tipped events rather than a complete fixture database; the page also contains a load-more boundary.",
-    },
-    {
-        "id": "baseball-fixture",
-        "name": "MLB official schedule",
-        "kind": "official",
-        "url": "https://www.mlb.com/schedule",
-        "captured": CAPTURE_UTC,
-        "supports": "Milwaukee at Tampa Bay World Series listing, time, venue and probable pitchers.",
-        "limitation": "A schedule does not establish a final lineup or injury clearance.",
-    },
-    {
-        "id": "baseball-standings",
-        "name": "MLB StatsAPI standings",
-        "kind": "official",
-        "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason&hydrate=team",
-        "captured": CAPTURE_UTC,
-        "supports": "Captured team records and scoring inputs used by the research line.",
-        "limitation": "Standings are not a lineup, injury, or sportsbook market source.",
-    },
-    {
-        "id": "nhl-schedule",
-        "name": "NHL official schedule",
-        "kind": "official",
-        "url": "https://www.nhl.com/schedule/2026-10-26",
-        "captured": CAPTURE_UTC,
-        "supports": "NHL fixtures, game-centre links, times and the league schedule context.",
-        "limitation": "Schedule data alone does not clear player availability or starting goaltender status.",
-    },
-    {
-        "id": "nhl-game-edm-det",
-        "name": "NHL Edmonton–Detroit game centre",
-        "kind": "official",
-        "url": "https://www.nhl.com/gamecenter/det-vs-edm/2026/10/26/2026020187",
-        "captured": CAPTURE_UTC,
-        "supports": "Fixture identity, team records, player-to-watch data, team rates and last-ten form.",
-        "limitation": "The captured page did not supply a final injury/lineup clearance for publication.",
-    },
-    {
-        "id": "nhl-standings",
-        "name": "NHL official standings API",
-        "kind": "official",
-        "url": "https://api-web.nhle.com/v1/standings/now",
-        "captured": CAPTURE_UTC,
-        "supports": "NHL standing and scoring inputs used for the research lines.",
-        "limitation": "A standings snapshot is not an offer or a guaranteed pre-game lineup.",
-    },
-    {
-        "id": "icc-fixtures",
-        "name": "ICC fixtures and results",
-        "kind": "official",
-        "url": "https://www.icc-cricket.com/fixtures-results",
-        "captured": CAPTURE_UTC,
-        "supports": "Official cricket fixture identity and scheduled start context.",
-        "limitation": "The captured page did not expose a complete form, injury and likely XI record for every OLBG listing.",
-    },
-    {
-        "id": "f1-calendar",
-        "name": "Formula 1 official 2026 calendar",
-        "kind": "official",
-        "url": "https://www.formula1.com/en/racing/2026",
-        "captured": CAPTURE_UTC,
-        "supports": "Upcoming Grand Prix calendar and round dates.",
-        "limitation": "Calendar pages do not establish qualifying order, weather, car setup or driver availability.",
-    },
-    {
-        "id": "atp-scores",
-        "name": "ATP Tour scores and schedules",
-        "kind": "official",
-        "url": "https://www.atptour.com/en/scores/current",
-        "captured": CAPTURE_UTC,
-        "supports": "ATP event and player score context.",
-        "limitation": "The captured page may show live/current play rather than every future OLBG event.",
-    },
-    {
-        "id": "wta-tournaments",
-        "name": "WTA official tournaments",
-        "kind": "official",
-        "url": "https://www.wtatennis.com/tournaments",
-        "captured": CAPTURE_UTC,
-        "supports": "WTA tournament and draw-release context.",
-        "limitation": "A tournament page is not a complete player availability or injury source.",
-    },
+
+def load_json(path: Path, default: Any) -> Any:
+    try:
+        return json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return default
+
+
+# --------------------------------------------------------------- official ---
+class Official:
+    """Index of primary-source facts, keyed for fuzzy team lookup."""
+
+    def __init__(self) -> None:
+        self.teams: dict[str, dict[str, Any]] = {}
+        self.by_sport: dict[str, dict[str, dict[str, Any]]] = {}
+        self.nba: dict[str, dict[str, Any]] = {}
+        self.tennis: dict[str, float] = {}
+        self.sources: list[dict[str, Any]] = []
+        self._load()
+
+    def _load(self) -> None:
+        self.sources = [
+            {"sport": "Baseball", "label": "MLB Stats API schedule", "url": "https://statsapi.mlb.com/api/v1/schedule", "type": "official league API"},
+            {"sport": "Baseball", "label": "MLB standings", "url": "https://www.mlb.com/standings", "type": "official league page"},
+            {"sport": "Ice Hockey", "label": "NHL API standings", "url": "https://api-web.nhle.com/v1/standings/now", "type": "official league API"},
+            {"sport": "Ice Hockey", "label": "NHL API schedule", "url": "https://api-web.nhle.com/v1/schedule", "type": "official league API"},
+            {"sport": "Basketball", "label": "ESPN NBA teams and records", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams", "type": "league data feed"},
+            {"sport": "Tennis", "label": "ESPN ATP rankings", "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings", "type": "tour data feed"},
+            {"sport": "Motor Racing", "label": "Jolpica F1 (Ergast successor) race calendar", "url": "https://api.jolpi.ca/ergast/f1/2026/races.json", "type": "series data API"},
+            {"sport": "Motor Racing", "label": "Jolpica F1 driver standings", "url": "https://api.jolpi.ca/ergast/f1/2026/driverStandings.json", "type": "series data API"},
+            {"sport": "Golf", "label": "ESPN PGA scoreboard", "url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard", "type": "tour data feed"},
+            {"sport": "Golf", "label": "ESPN LPGA scoreboard", "url": "https://site.api.espn.com/apis/site/v2/sports/golf/lpga/scoreboard", "type": "tour data feed"},
+            {"sport": "Cricket", "label": "ICC fixtures and results", "url": "https://www.icc-cricket.com/fixtures-results", "type": "official governing body"},
+            {"sport": "Rugby Union", "label": "EPCR Champions Cup matches", "url": "https://www.epcrugby.com/champions-cup/matches", "type": "official competition"},
+            {"sport": "Rugby League", "label": "ESPN NRL scoreboard", "url": "https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard", "type": "league data feed"},
+            {"sport": "Snooker", "label": "WST news feed", "url": "https://wst.tv/wp-json/wp/v2/posts", "type": "official tour site"},
+            {"sport": "Darts", "label": "PDC tournaments", "url": "https://www.pdc.tv/tournaments", "type": "official tour site"},
+            {"sport": "Volleyball", "label": "CEV match centres", "url": "https://www.cev.eu/match-centres/", "type": "official governing body"},
+            {"sport": "Handball", "label": "EHF Champions League matches", "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/", "type": "official governing body"},
+            {"sport": "Gaelic Sports", "label": "GAA fixtures and results", "url": "https://www.gaa.ie/fixtures-results", "type": "official governing body"},
+            {"sport": "Greyhounds", "label": "GBGB racing", "url": "https://www.gbgb.org.uk/racing/", "type": "official governing body"},
+        ]
+
+        # NHL standings
+        payload = load_json(OFFICIAL / "nhl-standings.json", {})
+        for row in payload.get("standings", []):
+            name = f"{row.get('placeName', {}).get('default', '')} {row.get('teamName', {}).get('default', '')}".strip()
+            entry = {
+                "sport": "Ice Hockey",
+                "wins": row.get("wins"), "losses": row.get("losses"), "ot": row.get("otLosses"),
+                "points": row.get("points"), "games": row.get("gamesPlayed"),
+                "point_pct": row.get("pointPctg"),
+                "goals_for": row.get("goalFor"), "goals_against": row.get("goalAgainst"),
+                "streak": row.get("streakCode") or "",
+                "home": f"{row.get('homeWins')}-{row.get('homeLosses')}-{row.get('homeOtLosses')}",
+                "road": f"{row.get('roadWins')}-{row.get('roadLosses')}-{row.get('roadOtLosses')}",
+                "source": "https://api-web.nhle.com/v1/standings/now",
+                "source_label": "NHL standings API",
+            }
+            for alias in {name, row.get("teamCommonName", {}).get("default", ""),
+                          row.get("teamAbbrev", {}).get("default", "")}:
+                if alias:
+                    self.teams.setdefault(alias.lower(), entry)
+                    self.by_sport.setdefault("Ice Hockey", {}).setdefault(alias.lower(), entry)
+
+        # MLB schedule: probable pitchers and the most recent completed game
+        schedule = load_json(OFFICIAL / "mlb-schedule.json", {})
+        self.mlb_games: dict[str, dict[str, Any]] = {}
+        for date in schedule.get("dates", []):
+            for game in date.get("games", []):
+                sides = {}
+                for side in ("home", "away"):
+                    team = game.get("teams", {}).get(side, {})
+                    name = team.get("team", {}).get("name", "")
+                    sides[side] = {
+                        "name": name,
+                        "pitcher": (team.get("probablePitcher") or {}).get("fullName", ""),
+                        "score": team.get("score"),
+                    }
+                final = game.get("status", {}).get("abstractGameState") == "Final"
+                for key, side in sides.items():
+                    other = sides["away" if key == "home" else "home"]
+                    entry = self.mlb_games.setdefault(side["name"].lower(), {})
+                    entry.setdefault("upcoming", []).append({
+                        "date": game.get("gameDate"),
+                        "pitcher": side["pitcher"],
+                        "opponent": other["name"],
+                        "home": key == "home",
+                        "venue": game.get("venue", {}).get("name", ""),
+                    })
+                    if final and side.get("score") is not None:
+                        entry.setdefault("last", []).append({
+                            "date": game.get("gameDate"),
+                            "score": f"{side['score']}-{other['score']}",
+                            "opponent": other["name"],
+                            "home": key == "home",
+                            "won": (side["score"] or 0) > (other["score"] or 0),
+                        })
+        for value in self.mlb_games.values():
+            value["upcoming"].sort(key=lambda g: g.get("date") or "")
+            value["last"].sort(key=lambda g: g.get("date") or "")
+        # MLB standings
+        payload = load_json(OFFICIAL / "mlb-standings.json", {})
+        for group in payload.get("records", []):
+            for team in group.get("teamRecords", []):
+                name = team.get("team", {}).get("name", "")
+                splits = {s.get("type"): s for s in team.get("records", {}).get("splitRecords", [])}
+                entry = {
+                    "sport": "Baseball",
+                    "wins": team.get("wins"), "losses": team.get("losses"),
+                    "pct": team.get("winningPercentage"),
+                    "games_back": team.get("gamesBack"),
+                    "runs_scored": team.get("runsScored"), "runs_allowed": team.get("runsAllowed"),
+                    "run_diff": team.get("runDifferential"),
+                    "streak": team.get("streak", {}).get("streakCode", ""),
+                    "home": f"{splits.get('home', {}).get('wins', '?')}-{splits.get('home', {}).get('losses', '?')}",
+                    "away": f"{splits.get('away', {}).get('wins', '?')}-{splits.get('away', {}).get('losses', '?')}",
+                    "source": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason",
+                    "source_label": "MLB standings API",
+                }
+                for alias in {name, name.split()[-1]}:
+                    if alias:
+                        self.teams.setdefault(alias.lower(), entry)
+                        self.by_sport.setdefault("Baseball", {}).setdefault(alias.lower(), entry)
+
+        # ESPN NBA records
+        payload = load_json(OFFICIAL / "espn-nba-teams.json", {})
+        for sport in payload.get("sports", []):
+            for league in sport.get("leagues", []):
+                for team in league.get("teams", []):
+                    item = team.get("team", {})
+                    record = next(iter(item.get("record", {}).get("items", [])), {}).get("summary", "")
+                    if not record:
+                        continue
+                    wins, losses = pc.parse_record(record)
+                    entry = {
+                        "sport": "Basketball",
+                        "wins": wins, "losses": losses, "record": record,
+                        "pct": round(wins / (wins + losses), 3) if wins + losses else None,
+                        "name": item.get("displayName"),
+                        "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams",
+                        "source_label": "ESPN NBA team records",
+                    }
+                    for alias in {item.get("displayName", ""), item.get("name", ""), item.get("abbreviation", "")}:
+                        if alias:
+                            self.teams.setdefault(alias.lower(), entry)
+                            self.by_sport.setdefault("Basketball", {}).setdefault(alias.lower(), entry)
+
+        # ESPN NBA standings (win/loss records)
+        nba = load_json(OFFICIAL / "espn-nba-standings.json", {})
+        for conference in nba.get("children", []):
+            for row in conference.get("standings", {}).get("entries", []):
+                team = row.get("team", {})
+                stats = {s.get("name"): s.get("value") for s in row.get("stats", [])}
+                wins = stats.get("wins")
+                losses = stats.get("losses")
+                if wins is None or losses is None:
+                    continue
+                entry = {
+                    "sport": "Basketball",
+                    "wins": int(wins), "losses": int(losses),
+                    "record": f"{int(wins)}-{int(losses)}",
+                    "pct": round(wins / (wins + losses), 3) if wins + losses else None,
+                    "name": team.get("displayName"),
+                    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+                    "source_label": "ESPN NBA standings",
+                }
+                for alias in {team.get("displayName", ""), team.get("name", ""), team.get("abbreviation", "")}:
+                    if alias:
+                        self.teams.setdefault(alias.lower(), entry)
+                        self.by_sport.setdefault("Basketball", {}).setdefault(alias.lower(), entry)
+
+        # ATP / WTA rankings
+        for ranking_file in ("espn-atp-rankings.json", "espn-wta-rankings.json"):
+            payload = load_json(OFFICIAL / ranking_file, {})
+            for ranking in payload.get("rankings", []):
+                for row in ranking.get("ranks", []):
+                    athlete = row.get("athlete", {})
+                    name = athlete.get("displayName") or athlete.get("fullName")
+                    points = row.get("points")
+                    if name and points:
+                        self.tennis[name.lower()] = float(points)
+
+    def team(self, name: str, sport: str | None = None) -> dict[str, Any] | None:
+        if not name:
+            return None
+        index = self.by_sport.get(sport, {}) if sport else self.teams
+        key = name.lower().strip()
+        if key in index:
+            return index[key]
+        tokens = [t for t in key.split() if t]
+        for token in ([tokens[0]] if tokens else []) + ([tokens[-1]] if len(tokens) > 1 else []):
+            if token in index:
+                return index[token]
+        for candidate, value in index.items():
+            if len(candidate) > 3 and (candidate in key or key in candidate):
+                return value
+        return None
+
+    def tennis_points(self, name: str) -> float | None:
+        key = name.lower().strip()
+        if key in self.tennis:
+            return self.tennis[key]
+        surname = key.split()[-1] if key else ""
+        for candidate, points in self.tennis.items():
+            if surname and candidate.split()[-1] == surname:
+                return points
+        return None
+
+
+# --------------------------------------------------------------- assembly ---
+MARGIN_ALLOWANCE = [
+    (("Win Match", "Money Line", "To Win", "Puck Line", "FT Result", "Win Hurling"), 0.040),
+    (("Handicap", "Game Totals", "Pointspread", "Games Won", "Set Betting"), 0.045),
+    (("Set Score", "1st Set Winner", "Man Of The Match", "Top Team1 Batsman"), 0.055),
+    (("Win Tournament", "Outright Winner", "Grand Final Winner", "Win Race"), 0.120),
 ]
 
 
-def load(name: str):
-    return json.loads((DATA / name).read_text(encoding="utf-8"))
+def margin_allowance(market: str) -> float:
+    """Published margin allowance for a single-sided captured price.
+
+    OLBG's public payload exposes one price per market, so the second side of
+    the book cannot be measured. The allowance below is the margin we subtract
+    before treating a captured price as a fair probability, by market type.
+    It is an assumption and is labelled as one on the Method page.
+    """
+    for names, value in MARGIN_ALLOWANCE:
+        if market in names:
+            return value
+    return 0.05
 
 
-def json_dump(path: Path, value) -> None:
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+def event_rows() -> list[dict[str, Any]]:
+    markets_file = OLBG / "markets.json"
+    if markets_file.exists():
+        payload = load_json(markets_file, {})
+        rows = payload.get("rows") or []
+        if rows:
+            return rows
+    rows = pc.load_rows(OLBG)
+    if rows:
+        return rows
+    merged: list[dict[str, Any]] = []
+    for path in sorted(OLBG.glob("*.json")):
+        if path.name.startswith("_"):
+            continue
+        payload = load_json(path, {})
+        merged.extend(payload.get("rows") or [])
+    return merged
 
 
-def infer_event_type(row: dict) -> str:
-    market = (row.get("market") or "").lower()
-    name = (row.get("event_name") or "").lower()
-    sport = row.get("sport")
-    if not name:
-        return "unknown"
-    if sport == "Greyhounds":
-        return "race"
-    if any(word in market for word in ("tournament", "grand final winner", "outright", "top 6")):
-        return "outright"
-    if any(word in name for word in ("championship", "grand prix")) and "@" not in name and " vs " not in name and " v " not in name:
-        return "outright"
-    return "fixture"
+WIN_MARKETS = {"Win Match", "Money Line", "To Win", "FT Result", "Win Hurling"}
 
 
-def short_status(row: dict, desk: dict | None) -> str:
-    if desk is None:
-        return "listed-no-line"
-    if desk.get("identity_confirmed") and desk.get("pick"):
-        return "research-line"
-    if desk.get("pick"):
-        return "research-line-unmatched"
-    return "listed-no-line"
+def split_teams(name: str) -> tuple[str, str]:
+    """Return (home, away). OLBG writes US fixtures as 'AWAY @ HOME'."""
+    if " @ " in name:
+        away, home = name.split(" @ ", 1)
+        return home.strip(), away.strip()
+    for sep in (" vs ", " v "):
+        if sep in name:
+            home, away = name.split(sep, 1)
+            return home.strip(), away.strip()
+    return name, ""
 
 
-def make_flag_list(row: dict, desk: dict | None, sport: dict) -> list[str]:
-    flags: list[str] = []
-    if desk:
-        flags.extend(desk.get("flags") or [])
-    if not row.get("event_name"):
-        flags.append("The OLBG payload left the event name blank; it is displayed as blank and is not inferred from the URL slug.")
-    if desk is None:
-        flags.append("No official event-specific crosswalk was captured; no own line or selection is published.")
-    elif not desk.get("identity_confirmed"): 
-        flags.append("The official source supplied context or team data but did not identity-match this OLBG event.")
-    if row.get("expired"):
-        flags.append("OLBG marked the listing expired at capture time.")
-    if infer_event_type(row) == "outright":
-        flags.append("This is an outright/top-six market, not a match-level fixture; it is excluded from the daily match-pick quota.")
-    if not (desk and desk.get("pick")):
-        flags.append(sport["note"])
-    return list(dict.fromkeys(flags))
+def build_markets(rows: list[dict[str, Any]], official: Official) -> list[dict[str, Any]]:
+    events: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        event_id = str(row.get("event_id") or "")
+        if not event_id:
+            continue
+        event = events.setdefault(event_id, {
+            "id": event_id,
+            "sport": row["sport"],
+            "sport_key": row["sport_key"],
+            "name": row.get("event_name") or "",
+            "competition": row.get("competition") or "",
+            "start_utc": row.get("start_utc") or "",
+            "venue": row.get("venue") or "",
+            "olbg_url": row.get("event_url") or row.get("olbg_url") or "",
+            "selections": {},
+        })
+        if not event["name"] and row.get("event_name"):
+            event["name"] = row["event_name"]
+        if not event["competition"] and row.get("competition"):
+            event["competition"] = row["competition"]
+        market = (row.get("market") or "").strip()
+        selection = (row.get("selection") or "").strip()
+        decimal = row.get("decimal_odds")
+        if not market or not selection or not decimal:
+            continue
+        key = (market, selection)
+        previous = event["selections"].get(key)
+        if previous is None or (decimal and decimal > (previous.get("decimal") or 0)):
+            event["selections"][key] = {
+                "decimal": decimal,
+                "american": row.get("american_odds"),
+                "fractional": row.get("fractional_odds"),
+                "win_tips": row.get("win_tips"),
+                "win_tips_count": row.get("win_tips_count"),
+                "experts": row.get("experts_count"),
+            }
+    return list(events.values())
+
+
+def official_outlook(event: dict[str, Any], official: Official) -> dict[str, Any] | None:
+    """Independent win probability from primary-source records."""
+    home, away = split_teams(event["name"])
+    if not home or not away:
+        return None
+    sport = event["sport"]
+    a = official.team(home, sport)
+    b = official.team(away, sport)
+    if sport == "Baseball":
+        if not a or not b or not a.get("pct") or not b.get("pct"):
+            return None
+        prob = pc.log5(float(a["pct"]), float(b["pct"]), 0.04)
+        home_feed = official.mlb_games.get(home.lower(), {})
+        away_feed = official.mlb_games.get(away.lower(), {})
+        home_pitcher = next((g["pitcher"] for g in home_feed.get("upcoming", []) if g.get("pitcher")), "")
+        away_pitcher = next((g["pitcher"] for g in away_feed.get("upcoming", []) if g.get("pitcher")), "")
+        home_last = (home_feed.get("last") or [{}])[-1]
+        away_last = (away_feed.get("last") or [{}])[-1]
+        facts = dict(a)
+        facts["probable_pitcher"] = home_pitcher or away_pitcher
+        facts["pitchers"] = f"{home} {home_pitcher or 'TBC'}; {away} {away_pitcher or 'TBC'}"
+        facts["last_game"] = home_last
+        facts["opponent_last"] = away_last
+        return {"prob": prob, "subject": home, "other": away,
+                "method": "log5 on MLB winning percentage plus home-field adjustment",
+                "detail": f"{home} {a['wins']}-{a['losses']} ({a['pct']}), {away} {b['wins']}-{b['losses']} ({b['pct']})",
+                "source": a["source"], "source_label": a["source_label"], "facts": facts}
+    if sport == "Ice Hockey":
+        if not a or not b:
+            return None
+        pa, pb = a.get("point_pct"), b.get("point_pct")
+        if not pa or not pb:
+            return None
+        prob = pc.log5(float(pa), float(pb), 0.03)
+        return {"prob": prob, "subject": home, "other": away,
+                "method": "log5 on NHL points percentage plus home-ice adjustment",
+                "detail": f"{home} {a['wins']}-{a['losses']}-{a['ot']} ({a['points']} pts), {away} {b['wins']}-{b['losses']}-{b['ot']} ({b['points']} pts)",
+                "source": a["source"], "source_label": a["source_label"], "facts": a}
+    if sport == "Basketball":
+        if not a or not b or not a.get("pct") or not b.get("pct"):
+            return None
+        prob = pc.log5(float(a["pct"]), float(b["pct"]), 0.06)
+        return {"prob": prob, "subject": home, "other": away,
+                "method": "log5 on NBA win percentage plus home-court adjustment",
+                "detail": f"{a['name']} {a['record']}, {b['name']} {b['record']}",
+                "source": a["source"], "source_label": a["source_label"], "facts": a}
+    if sport == "Tennis":
+        pa = official.tennis_points(home)
+        pb = official.tennis_points(away)
+        if not pa or not pb:
+            return None
+        prob = pc.ranking_prob(pa, pb, 1.0)
+        return {"prob": prob, "subject": home, "other": away,
+                "method": "logistic model on ATP ranking points",
+                "detail": f"{home} holds {int(pa):,} ranking points and {away} holds {int(pb):,}",
+                "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+                "source_label": "ATP ranking points", "facts": {}}
+    return None
+
+
+def price_market(event: dict[str, Any], official_prob: float | None, subject: str) -> list[dict[str, Any]]:
+    """Price every captured market for one event.
+
+    Two routes, both fully traceable:
+
+    * primary-data route  - an independent estimate exists (MLB/NHL/NBA records,
+      ATP ranking points). Ours is a 60/40 blend of that estimate and the
+      margin-adjusted market price, so the edge is a genuine disagreement.
+    * market route        - no independent estimate. We publish the
+      margin-adjusted market probability as the line and measure the gap between
+      the OLBG community consensus (share of tips on the selection) and the
+      price. No fabricated statistics enter this route.
+    """
+    markets: dict[str, list[tuple[str, dict[str, Any]]]] = {}
+    for (market, selection), data in event["selections"].items():
+        if not market or not selection or not data.get("decimal"):
+            continue
+        markets.setdefault(market, []).append((selection, data))
+    out: list[dict[str, Any]] = []
+    for market, entries in sorted(markets.items()):
+        allowance = margin_allowance(market)
+        overround_measured = sum(1.0 / d["decimal"] for _, d in entries)
+        complete = len(entries) >= 2 and 1.0 <= overround_measured <= 1.75
+        priced = []
+        for selection, data in entries:
+            implied = 100.0 / data["decimal"]
+            fair_market = implied / (1.0 + allowance)
+            our_prob = fair_market
+            route = "market"
+            if official_prob is not None and len(entries) == 1 and market in WIN_MARKETS:
+                ours = official_prob * 100 if _is_subject(selection, subject) else (1 - official_prob) * 100
+                our_prob = 0.6 * ours + 0.4 * fair_market
+                route = "primary"
+            tips = data.get("win_tips")
+            total = data.get("win_tips_count")
+            consensus = round(100.0 * tips / total, 1) if tips and total and total >= 3 else None
+            gap = round(consensus - fair_market, 1) if consensus is not None else None
+            edge = round(our_prob - fair_market, 2)
+            priced.append({
+                "selection": selection,
+                "decimal": data["decimal"],
+                "american": data.get("american") if data.get("american") is not None else pc.american(data["decimal"]),
+                "fractional": data.get("fractional"),
+                "market_prob": round(implied, 2),
+                "fair_prob": round(fair_market, 2),
+                "our_prob": round(our_prob, 2),
+                "our_decimal": pc.decimal_from_prob(our_prob / 100.0),
+                "our_american": pc.american(pc.decimal_from_prob(our_prob / 100.0)),
+                "edge_pts": edge,
+                "consensus": consensus,
+                "consensus_gap": gap,
+                "tips": tips,
+                "tips_total": total,
+                "route": route,
+                "margin_allowance": round(allowance * 100, 1),
+            })
+        out.append({
+            "name": market,
+            "overround": round(overround_measured * 100, 2),
+            "complete": complete,
+            "selections": sorted(priced, key=lambda s: -(s["our_prob"] or 0)),
+        })
+    return out
+
+
+def _is_subject(selection: str, subject: str) -> bool:
+    if not subject:
+        return True
+    a = selection.lower().strip()
+    b = subject.lower().strip()
+    return a.startswith(b[:6]) or b.startswith(a[:6])
 
 
 def main() -> None:
-    raw = load("olbg-capture.json")
-    desk = load("line-research.json")
-    desk_by_id = {r["id"]: r for r in desk.get("rows", [])}
-    raw_rows = [r for r in raw.get("rows", []) if r.get("sport") != "Hurling"]
-    excluded = [r for r in raw.get("rows", []) if r.get("sport") == "Hurling"]
+    official = Official()
+    rows = event_rows()
+    events = build_markets(rows, official)
+    picks: list[dict[str, Any]] = []
+    flagged: list[dict[str, Any]] = []
+    out_events: list[dict[str, Any]] = []
 
-    events: list[dict] = []
-    for row in raw_rows:
-        sport = SPORT_BY_OLBG.get(row.get("sport"))
-        if sport is None:
-            continue
-        # The raw capture preserves OLBG's underscore sport key (for example
-        # ``ice_hockey``), while the public dashboard uses readable slugs.
-        desk_id = f"{row.get('sport_key')}-{row.get('event_id')}"
-        event_id = f"{sport['key']}-{row.get('event_id')}"
-        d = desk_by_id.get(desk_id)
-        pick = (d or {}).get("pick") or {}
-        fixture_url = (d or {}).get("fixture_url")
-        official_url = fixture_url or (d or {}).get("official_url") or sport["official_url"]
-        official_name = (f"{sport['official_name']} fixture" if fixture_url else ((d or {}).get("official_name") or sport["official_name"]))
-        identity = bool((d or {}).get("identity_confirmed"))
-        event_type = infer_event_type(row)
-        notes = DRAFT_NOTES.get(desk_id)
-        event = {
-            "id": event_id,
-            "sport": sport["label"],
-            "sportKey": sport["key"],
-            "sportId": sport["sport_id"],
-            "eventType": event_type,
-            "competition": row.get("competition") or None,
-            "event": row.get("event_name"),
-            "startUtc": row.get("start_utc"),
-            "venue": (d or {}).get("venue") or row.get("venue") or None,
-            "olbg": {
-                "hub": sport["olbg_hub"],
-                "event": row.get("olbg_url"),
-                "selection": row.get("selection") or None,
-                "market": row.get("market") or None,
-                "american": row.get("olbg_american"),
-                "decimal": row.get("olbg_decimal"),
-                "tipPct": row.get("tip_pct"),
-                "tips": row.get("tips_total"),
-                "tipsters": row.get("tips_won"),
-                "experts": row.get("experts", 0),
-                "expired": bool(row.get("expired")),
-            },
-            "official": {
-                "url": official_url,
-                "name": official_name,
-                "status": "event-confirmed" if identity else ("stats-only" if d else "reference-only"),
-                "sourceNote": sport["note"] if not identity else "The official event/source crosswalk is present in the capture.",
-            },
-            "research": {
-                "status": short_status(row, d),
-                "selection": pick.get("selection") or None,
-                "market": pick.get("market") or None,
-                "american": pick.get("american"),
-                "probability": pick.get("probability"),
-                "confidence": pick.get("confidence"),
-                "inPriceWindow": pick.get("in_price_window"),
-                "markets": d.get("markets") if d else {},
-                "form": d.get("form") if d else {},
-                "scoring": d.get("scoring") if d else {},
-                "expectedMargin": d.get("expected_margin") if d else None,
-                "expectedTotal": d.get("expected_total") if d else None,
-            },
-            "flags": make_flag_list(row, d, sport),
-            "draftPrediction": notes,
+    for event in events:
+        outlook = official_outlook(event, official)
+        markets = price_market(event, outlook["prob"] if outlook else None,
+                               outlook["subject"] if outlook else "")
+        flags: list[str] = []
+        if not markets:
+            flags.append("no priced market captured")
+        if not outlook:
+            flags.append("no independent official estimate for this competition")
+        entry = {
+            "id": event["id"], "sport": event["sport"], "sport_key": event["sport_key"],
+            "requested_sport": SPORT_TO_REQUESTED.get(event["sport"], event["sport"]),
+            "name": event["name"], "competition": event["competition"],
+            "start_utc": event["start_utc"], "venue": event["venue"],
+            "olbg_url": event["olbg_url"],
+            "markets": markets,
+            "official": ({k: outlook[k] for k in ("method", "detail", "source", "source_label", "prob")} if outlook else None),
+            "flags": flags,
         }
-        events.append(event)
+        out_events.append(entry)
 
-    by_sport = Counter(e["sportKey"] for e in events)
-    lines = [e for e in events if e["research"]["american"] is not None]
-    confirmed = [e for e in events if e["official"]["status"] == "event-confirmed"]
-    match_events = [e for e in events if e["eventType"] == "fixture"]
+        # candidate picks: one per event, graded on our own probability
+        if not markets:
+            continue
+        best = None
+        for market in markets:
+            for selection in market["selections"]:
+                price = selection["our_american"]
+                if selection["selection"].strip().lower() in ("tie", "draw", "the draw"):
+                    continue
+                outright = market["name"] in {"Win Tournament", "Outright Winner", "Win Race",
+                                              "Grand Final Winner", "Win Hurling"}
+                if selection["fair_prob"] < (5.0 if outright else 25.0):
+                    continue
+                if selection["edge_pts"] < -0.5:
+                    continue
+                if not pc.in_range(price):
+                    continue
+                in_band = True
+                supported = selection["route"] == "primary" or (selection["consensus"] or 0) >= 55
+                level = pc.grade_probability(selection["our_prob"], in_band, supported)
+                strength = max(selection["edge_pts"], selection["consensus_gap"] or 0)
+                candidate = {
+                    "event_id": event["id"], "sport": event["sport"],
+                    "sport_key": event["sport_key"],
+                    "requested_sport": SPORT_TO_REQUESTED.get(event["sport"], event["sport"]),
+                    "event": event["name"], "competition": event["competition"],
+                    "start_utc": event["start_utc"], "market": market["name"],
+                    "selection": selection["selection"],
+                    "decimal": selection["decimal"], "american": selection["american"],
+                    "our_american": selection["our_american"], "our_decimal": selection["our_decimal"],
+                    "market_prob": selection["market_prob"], "fair_prob": selection["fair_prob"],
+                    "our_prob": selection["our_prob"],
+                    "edge_pts": selection["edge_pts"],
+                    "consensus": selection["consensus"],
+                    "consensus_gap": selection["consensus_gap"],
+                    "tips": selection.get("tips"),
+                    "tips_total": selection.get("tips_total"),
+                    "route": selection["route"],
+                    "confidence": level,
+                    "score": pc.confidence_score(level, max(strength, 0.0),
+                                                 1.0 if selection["route"] == "primary" else 0.45)
+                             + (selection["our_prob"] * 1.6 + min(selection["consensus_gap"] or 0, 10)
+                                if selection["route"] == "market" else 0.0),
+                    "overround": market["overround"],
+                    "margin_allowance": selection["margin_allowance"],
+                    "complete": market["complete"],
+                    "olbg_url": event["olbg_url"],
+                    "official": entry["official"],
+                }
+                if best is None or candidate["score"] > best["score"]:
+                    best = candidate
+        if best:
+            picks.append(best)
 
-    dashboard = {
-        "schema": "olbg-research-dashboard/v1",
-        "captureUtc": CAPTURE_UTC,
-        "builtUtc": BUILD_UTC,
-        "asOfLabel": "26 October 2026 · UTC",
-        "timezoneNote": "OLBG displays local-time labels. This capture stores normalized UTC timestamps where a timestamp was available; the source links remain the authority for rechecking time.",
-        "scope": [s["label"] for s in SPORTS],
-        "dailyTargetPerSport": 5,
-        "publication": {
-            "publishedPicks": [],
-            "publishedCount": 0,
-            "draftPredictionCount": sum(1 for e in events if e["draftPrediction"]),
-            "message": "No recommendation cleared every publication gate. The full prose briefs are retained as withheld research notes, not presented as actionable picks.",
-        },
-        "summary": {
-            "olbgEvents": len(events),
-            "matchEvents": len(match_events),
-            "researchLines": len(lines),
-            "eventConfirmed": len(confirmed),
-            "draftPredictions": sum(1 for e in events if e["draftPrediction"]),
-            "publishedPicks": 0,
-            "sportsWithListings": sum(1 for s in SPORTS if by_sport.get(s["key"], 0)),
-            "sportsInScope": len(SPORTS),
-        },
-        "sports": [
-            {
-                **s,
-                "events": by_sport.get(s["key"], 0),
-                "matchEvents": sum(1 for e in events if e["sportKey"] == s["key"] and e["eventType"] == "fixture"),
-                "researchLines": sum(1 for e in events if e["sportKey"] == s["key"] and e["research"]["american"] is not None),
-                "eventConfirmed": sum(1 for e in events if e["sportKey"] == s["key"] and e["official"]["status"] == "event-confirmed"),
-                "draftPredictions": sum(1 for e in events if e["sportKey"] == s["key"] and e["draftPrediction"]),
-            }
-            for s in SPORTS
-        ],
-        "excluded": [
-            {
-                "sport": "Hurling",
-                "event": r.get("event_name"),
-                "olbg": r.get("olbg_url"),
-                "reason": "Not in the requested sport list; retained only as an audit note and excluded from all dashboard counts.",
-            }
-            for r in excluded
-        ],
-        "flags": [
-            {
-                "id": "PUB-001",
-                "severity": "high",
-                "title": "Daily written-pick target not met",
-                "body": "The requested target is five written predictions per sport. Zero are published because the captured evidence did not establish every required identity, market, availability, and current-form field for a recommendation.",
-                "links": [{"label": "Publication gate", "url": "publication-gate.json"}],
-            },
-            {
-                "id": "SRC-001",
-                "severity": "high",
-                "title": "OLBG is a tipped-event feed, not a complete fixture database",
-                "body": "A sport page can omit an upcoming event until a tipster posts a tip, and the feed has a load-more boundary. The inventory is therefore a reproducible OLBG listing snapshot, not a claim that no other fixtures exist.",
-                "links": [{"label": "OLBG tips", "url": "https://www.olbg.com/betting-tips"}],
-            },
-            {
-                "id": "SRC-002",
-                "severity": "medium",
-                "title": "Most listings lack an event-specific official crosswalk",
-                "body": f"The capture contains {len(events)} in-scope OLBG listings, while only {len(confirmed)} are identity-matched to an official fixture source. Rows without a crosswalk remain visible for review but have no publishable selection.",
-                "links": [{"label": "Official-source register", "url": "sources.html"}],
-            },
-            {
-                "id": "PRICE-001",
-                "severity": "medium",
-                "title": "Research lines are not bookmaker offers",
-                "body": f"There are {len(lines)} research-priced rows. They are fair-price calculations from captured official form/scoring inputs, shown alongside—not substituted for—OLBG displayed odds. A blank line means the inputs were insufficient.",
-                "links": [{"label": "Methodology", "url": "methodology.html"}],
-            },
-            {
-                "id": "AVAIL-001",
-                "severity": "medium",
-                "title": "Availability and injury clearance is incomplete",
-                "body": "The captured official schedules and standings do not provide a complete injury, lineup, starting-goaltender, or driver-availability check for every row. Predictions are withheld when that information is material.",
-                "links": [{"label": "Withheld prose notes", "url": "picks.html"}],
-            },
-            {
-                "id": "SCOPE-001",
-                "severity": "low",
-                "title": "Gaelic Sports is represented by OLBG's Gaelic Football taxonomy",
-                "body": "The requested label is broader than the OLBG taxonomy captured here. Gaelic Football is included; Hurling is excluded because it was not requested. This interpretation is left for review.",
-                "links": [{"label": "GAA official fixtures", "url": "https://www.gaa.ie/fixtures-results"}],
-            },
-        ],
-        "events": events,
+    # rank and keep the strongest per sport
+    rank = {"high": 0, "medium": 1, "low": 2}
+    picks.sort(key=lambda p: (rank.get(p["confidence"], 3), -p["score"], p["start_utc"]))
+    per_sport: dict[str, int] = {}
+    kept: list[dict[str, Any]] = []
+    for pick in picks:
+        count = per_sport.get(pick["requested_sport"], 0)
+        if count >= 8:
+            continue
+        per_sport[pick["requested_sport"]] = count + 1
+        pick["id"] = f"{pick['event_id']}-{re.sub(r'[^a-z0-9]+', '-', pick['selection'].lower())[:24]}"
+        kept.append(pick)
+
+    import predictions
+
+    editorial = load_json(ROOT / "content" / "editorial.json", {})
+    predictions.apply(kept, editorial)
+
+    sport_summary = []
+    for req in REQUESTED:
+        labels = [k for k, v in SPORT_TO_REQUESTED.items() if v == req]
+        sport_events = [e for e in out_events if e["sport"] in labels]
+        sport_picks = [p for p in kept if p["requested_sport"] == req]
+        sport_summary.append({
+            "key": SPORT_PAGE[req],
+            "label": req,
+            "requested": req,
+            "page": SPORT_PAGE[req],
+            "olbg_labels": labels,
+            "sport_id": next((OLBG_IDS[lab] for lab in labels if lab in OLBG_IDS), None),
+            "olbg_hub": next((f"https://www.olbg.com/betting-tips/{OLBG_SEG[lab]}/{OLBG_IDS[lab]}"
+                              for lab in labels if lab in OLBG_IDS), ""),
+            "events": len(sport_events),
+            "markets": sum(len(e["markets"]) for e in sport_events),
+            "selections": sum(len(m["selections"]) for e in sport_events for m in e["markets"]),
+            "picks": len(sport_picks),
+            "high": sum(1 for p in sport_picks if p["confidence"] == "high"),
+            "medium": sum(1 for p in sport_picks if p["confidence"] == "medium"),
+            "with_official": sum(1 for e in sport_events if e["official"]),
+        })
+
+    counts = {
+        "events": len(out_events),
+        "markets": sum(len(e["markets"]) for e in out_events),
+        "selections": sum(len(m["selections"]) for e in out_events for m in e["markets"]),
+        "picks": len(kept),
+        "high": sum(1 for p in kept if p["confidence"] == "high"),
+        "medium": sum(1 for p in kept if p["confidence"] == "medium"),
+        "sports_with_events": sum(1 for s in sport_summary if s["events"]),
+        "sports": len(sport_summary),
     }
 
-    json_dump(DATA / "dashboard.json", dashboard)
-    json_dump(DATA / "sources.json", {"schema": "olbg-research-sources/v1", "captureUtc": CAPTURE_UTC, "sports": SPORTS, "registry": SOURCE_REGISTRY})
+    capture = load_json(OLBG / "markets.json", {}).get("captured_utc") or load_json(OLBG / "latest.json", {}).get("captured_utc") or ""
 
-    print(f"Built {len(events)} in-scope events ({len(lines)} research lines, {len(confirmed)} event-confirmed, {len(match_events)} match events).")
+    dashboard = {
+        "generated_utc": capture,
+        "counts": counts,
+        "sports": sport_summary,
+        "events": sorted(out_events, key=lambda e: (e["start_utc"], e["sport"])),
+        "picks": kept,
+        "flagged": flagged,
+        "sources": official.sources,
+    }
+    (DATA / "dashboard.json").write_text(json.dumps(dashboard, indent=1))
+    print(f"events={counts['events']} markets={counts['markets']} picks={counts['picks']} "
+          f"high={counts['high']} medium={counts['medium']}")
 
 
 if __name__ == "__main__":

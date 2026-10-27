@@ -111,7 +111,7 @@ def page(title: str, body: str, key: str, base: str = "", description: str = "")
 <footer class="footer"><div class="wrap">
 <p><strong>OLBG desk</strong> · snapshot {esc(DATA['capture_utc'])} · {S['events']} captured events · {S['picks']} written picks.</p>
 <p>Independent research, not OLBG advice and not a bookmaker offer. Blank fields are deliberate. Check the linked official source and the live market before relying on anything here. Only bet where lawful and only what you can afford to lose.</p>
-<p><a href="{base}data/desk-20261027.json">Download the full dataset (JSON)</a> · <a href="{base}research-desk/index.html">Previous audit desk</a> · <a href="{base}evidence-lab/index.html">Evidence lab</a></p>
+<p><a href="{base}data/desk-20261027.json">Download the full dataset (JSON)</a> · <a href="{base}previous-desk/index.html">Previous 05:26 UTC desk (archive)</a> · <a href="{base}research-desk/index.html">Earlier audit desk</a> · <a href="{base}evidence-lab/index.html">Evidence lab</a></p>
 </div></footer>
 <script src="{base}assets/desk.js" defer></script>
 </body></html>'''
