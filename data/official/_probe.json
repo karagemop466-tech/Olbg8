@@ -1,5 +1,5 @@
 {
- "probed_utc": "2026-10-27T05:32:39Z",
+ "probed_utc": "2026-10-27T05:50:35Z",
  "entries": [
   {
    "sport": "Baseball",
@@ -72,7 +72,7 @@
    "counts": {
     "standings": 32
    },
-   "excerpt": "{\"wildCardIndicator\": true, \"standingsDateTimeUtc\": \"2026-10-27T05:32:30Z\", \"standings\": [{\"conferenceAbbrev\": \"E\", \"conferenceHomeSequence\": 15, \"conferenceL10Sequence\": 1, \"conferenceName\": \"Eastern\", \"conferenceRoadSequence\": 1, \"conferenceSequence\": 1, \"date\": \"2026-10-26\", \"divisionAbbrev\": \"M\", \"divisionHomeSequence\": 8, \"divisionL10Sequence\": 1, \"divisionName\": \"Metropolitan\", \"divisionRoadSequence\": 1, \"divisionSequence\": 1, \"gameTypeId\": 2, \"gamesPlayed\": 13, \"goalDifferential\": 18, \"goalDifferentialPctg\": 1.384615, \"goalAgainst\": 33, \"goalFor\": 51, \"goalsForPctg\": 3.923077, \"homeGame"
+   "excerpt": "{\"wildCardIndicator\": true, \"standingsDateTimeUtc\": \"2026-10-27T05:50:30Z\", \"standings\": [{\"conferenceAbbrev\": \"E\", \"conferenceHomeSequence\": 15, \"conferenceL10Sequence\": 1, \"conferenceName\": \"Eastern\", \"conferenceRoadSequence\": 1, \"conferenceSequence\": 1, \"date\": \"2026-10-26\", \"divisionAbbrev\": \"M\", \"divisionHomeSequence\": 8, \"divisionL10Sequence\": 1, \"divisionName\": \"Metropolitan\", \"divisionRoadSequence\": 1, \"divisionSequence\": 1, \"gameTypeId\": 2, \"gamesPlayed\": 13, \"goalDifferential\": 18, \"goalDifferentialPctg\": 1.384615, \"goalAgainst\": 33, \"goalFor\": 51, \"goalsForPctg\": 3.923077, \"homeGame"
   },
   {
    "sport": "Ice Hockey",
@@ -362,7 +362,7 @@
     "events": 1,
     "provider": 4
    },
-   "excerpt": "{\"leagues\": [{\"id\": \"1106\", \"uid\": \"s:1100~l:1106\", \"name\": \"PGA Tour\", \"abbreviation\": \"PGA\", \"slug\": \"pga\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-08T05:00Z\", \"endDate\": \"2026-12-13T05:00Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/pgatour.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-25T19:24Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/pgatour.png\", \"w"
+   "excerpt": "{\"leagues\": [{\"id\": \"1106\", \"uid\": \"s:1100~l:1106\", \"name\": \"PGA Tour\", \"abbreviation\": \"PGA\", \"slug\": \"pga\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-08T05:00Z\", \"endDate\": \"2026-12-13T05:00Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/pgatour.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T20:07Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/pgatour.png\", \"w"
   },
   {
    "sport": "Golf",
@@ -386,7 +386,7 @@
     "events": 1,
     "provider": 4
    },
-   "excerpt": "{\"leagues\": [{\"id\": \"1107\", \"uid\": \"s:1100~l:1107\", \"name\": \"Ladies Pro Golf Association\", \"abbreviation\": \"LPGA\", \"slug\": \"lpga\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-29T05:00Z\", \"endDate\": \"2026-11-22T05:00Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/lpga.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-25T23:47Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dar"
+   "excerpt": "{\"leagues\": [{\"id\": \"1107\", \"uid\": \"s:1100~l:1107\", \"name\": \"Ladies Pro Golf Association\", \"abbreviation\": \"LPGA\", \"slug\": \"lpga\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-29T05:00Z\", \"endDate\": \"2026-11-22T05:00Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/lpga.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T08:09Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dar"
   },
   {
    "sport": "Golf",
@@ -418,14 +418,14 @@
     "events": 2,
     "provider": 4
    },
-   "excerpt": "{\"leagues\": [{\"id\": \"851\", \"uid\": \"s:850~l:851\", \"name\": \"ATP\", \"abbreviation\": \"ATP\", \"midsizeName\": \"ATP\", \"slug\": \"atp\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-01T08:00Z\", \"endDate\": \"2027-01-01T07:59Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T09:01Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/"
+   "excerpt": "{\"leagues\": [{\"id\": \"851\", \"uid\": \"s:850~l:851\", \"name\": \"ATP\", \"abbreviation\": \"ATP\", \"midsizeName\": \"ATP\", \"slug\": \"atp\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-01T08:00Z\", \"endDate\": \"2027-01-01T07:59Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T10:27Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/"
   },
   {
    "sport": "Tennis",
    "name": "espn-wta-scoreboard",
    "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard",
    "status": 200,
-   "bytes": 473484,
+   "bytes": 473931,
    "content_type": "application/json;charset=UTF-8",
    "format": "json",
    "top_keys": [
@@ -442,7 +442,7 @@
     "events": 5,
     "provider": 4
    },
-   "excerpt": "{\"leagues\": [{\"id\": \"900\", \"uid\": \"s:850~l:900\", \"name\": \"WTA\", \"abbreviation\": \"WTA\", \"midsizeName\": \"WTA\", \"slug\": \"wta\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-01T08:00Z\", \"endDate\": \"2027-01-01T07:59Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T09:01Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/"
+   "excerpt": "{\"leagues\": [{\"id\": \"900\", \"uid\": \"s:850~l:900\", \"name\": \"WTA\", \"abbreviation\": \"WTA\", \"midsizeName\": \"WTA\", \"slug\": \"wta\", \"season\": {\"year\": 2026, \"startDate\": \"2026-01-01T08:00Z\", \"endDate\": \"2027-01-01T07:59Z\", \"displayName\": \"2026\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T10:27Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/"
   },
   {
    "sport": "Tennis",
@@ -464,7 +464,7 @@
     "rankings": 1,
     "availableRankings": 1
    },
-   "excerpt": "{\"sports\": [{\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/tennis?lang=en&region=us\", \"id\": \"850\", \"guid\": \"aa07e63d-cf6e-3705-9c8d-8d5208e6af14\", \"uid\": \"s:850\", \"name\": \"Tennis\", \"displayName\": \"Tennis\", \"slug\": \"tennis\", \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T09:01Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"dark\""
+   "excerpt": "{\"sports\": [{\"$ref\": \"http://sports.core.api.espn.pvt/v2/sports/tennis?lang=en&region=us\", \"id\": \"850\", \"guid\": \"aa07e63d-cf6e-3705-9c8d-8d5208e6af14\", \"uid\": \"s:850\", \"name\": \"Tennis\", \"displayName\": \"Tennis\", \"slug\": \"tennis\", \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T10:27Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"dark\""
   },
   {
    "sport": "Rugby Union",
@@ -503,7 +503,7 @@
    "name": "espn-rugby-164205",
    "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/164205/scoreboard",
    "status": 200,
-   "bytes": 6398,
+   "bytes": 6397,
    "content_type": "application/json;charset=UTF-8",
    "format": "json",
    "top_keys": [
@@ -520,7 +520,7 @@
     "events": 2,
     "provider": 4
    },
-   "excerpt": "{\"leagues\": [{\"id\": \"8337\", \"uid\": \"s:300~l:8337\", \"name\": \"Rugby World Cup\", \"abbreviation\": \"Rugby World Cup\", \"midsizeName\": \"164205\", \"slug\": \"164205\", \"season\": {\"year\": 2027, \"startDate\": \"2027-09-08T04:00Z\", \"endDate\": \"2027-10-29T03:59Z\", \"displayName\": \"2027\", \"type\": {\"id\": \"1\", \"type\": 1, \"name\": \"2027 Rugby World Cup\", \"abbreviation\": \"2027 Rugby World Cup\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-rugby.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T14:22Z\"}], \"isClubCompet"
+   "excerpt": "{\"leagues\": [{\"id\": \"8337\", \"uid\": \"s:300~l:8337\", \"name\": \"Rugby World Cup\", \"abbreviation\": \"Rugby World Cup\", \"midsizeName\": \"164205\", \"slug\": \"164205\", \"season\": {\"year\": 2027, \"startDate\": \"2027-09-08T04:00Z\", \"endDate\": \"2027-10-29T03:59Z\", \"displayName\": \"2027\", \"type\": {\"id\": \"1\", \"type\": 1, \"name\": \"2027 Rugby World Cup\", \"abbreviation\": \"2027 Rugby World Cup\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-rugby.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2026-10-26T21:19Z\"}], \"isClubCompet"
   },
   {
    "sport": "Rugby League",
@@ -583,7 +583,7 @@
    "name": "icc-fixtures",
    "url": "https://www.icc-cricket.com/fixtures-results",
    "status": 200,
-   "bytes": 371601,
+   "bytes": 371556,
    "content_type": "text/html; charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cfebd638e4c0d914.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next"
@@ -594,7 +594,7 @@
    "url": "https://api.snooker.org/?t=5&s=2026",
    "status": 0,
    "bytes": 0,
-   "content_type": "TimeoutError: The read operation timed out"
+   "content_type": "HTTP 401"
   },
   {
    "sport": "Snooker",
@@ -610,7 +610,7 @@
    "url": "https://api.snooker.org/?t=2&s=2026",
    "status": 0,
    "bytes": 0,
-   "content_type": "HTTP 401"
+   "content_type": "HTTP 403"
   },
   {
    "sport": "Darts",
@@ -655,7 +655,7 @@
    "name": "gaa-fixtures",
    "url": "https://www.gaa.ie/fixtures-results",
    "status": 200,
-   "bytes": 1314577,
+   "bytes": 1314491,
    "content_type": "text/html; charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html lang=\"en\" class=\"font-foco\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/b890550200953777.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1c45fb95e52719e1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/7b6d4bb147"
@@ -669,6 +669,247 @@
    "content_type": "text/html; charset=UTF-8",
    "format": "html",
    "excerpt": "<!doctype html>\n\n<!--[if lt IE 7]><html class=\"no-js ie ie6 lt-ie9 lt-ie8 lt-ie7\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]><html class=\"no-js ie ie7 lt-ie9 lt-ie8\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]><html class=\"no-js ie ie8 lt-ie9\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--><html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n\n<head>\n    <meta charset=\"utf-8\">\n\n        <meta content=\"IE"
+  },
+  {
+   "sport": "Basketball",
+   "name": "espn-nba-scoreboard",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+   "status": 200,
+   "bytes": 214852,
+   "content_type": "application/json;charset=UTF-8",
+   "format": "json",
+   "top_keys": [
+    "leagues",
+    "season",
+    "day",
+    "events",
+    "provider"
+   ],
+   "counts": {
+    "leagues": 1,
+    "season": 2,
+    "day": 1,
+    "events": 9,
+    "provider": 4
+   },
+   "excerpt": "{\"leagues\": [{\"id\": \"46\", \"uid\": \"s:40~l:46\", \"name\": \"National Basketball Association\", \"abbreviation\": \"NBA\", \"slug\": \"nba\", \"season\": {\"year\": 2027, \"startDate\": \"2026-09-30T07:00Z\", \"endDate\": \"2027-06-26T06:59Z\", \"displayName\": \"2026-27\", \"type\": {\"id\": \"2\", \"type\": 2, \"name\": \"Regular Season\", \"abbreviation\": \"reg\"}}, \"logos\": [{\"href\": \"https://a.espncdn.com/i/teamlogos/leagues/500/nba.png\", \"width\": 500, \"height\": 500, \"alt\": \"\", \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"2018-06-05T12:07Z\"}, {\"href\": \"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h="
+  },
+  {
+   "sport": "Basketball",
+   "name": "espn-nba-teams",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams",
+   "status": 200,
+   "bytes": 134851,
+   "content_type": "application/json",
+   "format": "json",
+   "top_keys": [
+    "sports"
+   ],
+   "counts": {
+    "sports": 1
+   },
+   "excerpt": "{\"sports\": [{\"id\": \"40\", \"leagues\": [{\"abbreviation\": \"NBA\", \"id\": \"46\", \"name\": \"National Basketball Association\", \"season\": {\"displayName\": \"2026-27\", \"year\": 2027}, \"shortName\": \"NBA\", \"slug\": \"nba\", \"teams\": [{\"team\": {\"abbreviation\": \"ATL\", \"alternateColor\": \"fdb927\", \"color\": \"c8102e\", \"displayName\": \"Atlanta Hawks\", \"id\": \"1\", \"isActive\": true, \"isAllStar\": false, \"links\": [{\"href\": \"https://www.espn.com/nba/team/_/name/atl/atlanta-hawks\", \"isExternal\": false, \"isHidden\": false, \"isPremium\": false, \"language\": \"en-US\", \"rel\": [\"clubhouse\", \"desktop\", \"team\"], \"shortText\": \"Clubhouse\", \""
+  },
+  {
+   "sport": "Basketball",
+   "name": "nba-schedule-v2",
+   "url": "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 403"
+  },
+  {
+   "sport": "Basketball",
+   "name": "espn-euroleague-scoreboard",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/eur/scoreboard",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 400"
+  },
+  {
+   "sport": "Cricket",
+   "name": "espn-cricket-generic",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/cricket/scoreboard",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Cricket",
+   "name": "espn-cricket-8039",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/cricket/8039/scoreboard",
+   "status": 200,
+   "bytes": 10007,
+   "content_type": "application/json;charset=UTF-8",
+   "format": "json",
+   "top_keys": [
+    "leagues",
+    "teams",
+    "standings",
+    "events",
+    "provider"
+   ],
+   "counts": {
+    "leagues": 1,
+    "teams": 12,
+    "standings": 2,
+    "events": 1,
+    "provider": 4
+   },
+   "excerpt": "{\"leagues\": [{\"id\": \"8039\", \"uid\": \"s:200~l:8039\", \"name\": \"World Cup\", \"abbreviation\": \"World Cup\", \"slug\": \"8039\", \"logos\": [{\"href\": \"https://a.espncdn.com/i/leaguelogos/cricket/500/8039.png\", \"width\": 500, \"height\": 500, \"rel\": [\"full\", \"default\"], \"lastUpdated\": \"\"}], \"classId\": [2], \"mappings\": {\"contentlink\": \"8039\", \"cricinfo\": 1545817}, \"season\": {}, \"links\": [{\"language\": \"en\", \"rel\": [\"serieshome\", \"desktop\"], \"href\": \"https://www.espn.in/cricket/series/_/id/8039/season/2027/8039\", \"text\": \"Series Home\", \"shortText\": \"Series Home\", \"isExternal\": false, \"isPremium\": false}, {\"languag"
+  },
+  {
+   "sport": "Cricket",
+   "name": "espn-cricket-web",
+   "url": "https://site.web.api.espn.com/apis/site/v2/sports/cricket/scoreboard?region=gb&lang=en",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Cricket",
+   "name": "icc-home",
+   "url": "https://www.icc-cricket.com/",
+   "status": 200,
+   "bytes": 1544037,
+   "content_type": "text/html; charset=utf-8",
+   "format": "html",
+   "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cfebd638e4c0d914.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next"
+  },
+  {
+   "sport": "Snooker",
+   "name": "snooker-matches-http",
+   "url": "http://api.snooker.org/?t=5&s=2026",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 403"
+  },
+  {
+   "sport": "Snooker",
+   "name": "wst-wp-posts",
+   "url": "https://wst.tv/wp-json/wp/v2/posts?per_page=10",
+   "status": 200,
+   "bytes": 6169,
+   "content_type": "text/html",
+   "format": "html",
+   "excerpt": "<!doctype html>\n<html lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%221%22:%22en%22%7D%7D\">\n  <head>\n    <title>Home of World Snooker - World Snooker Tour</title><meta data-n-head=\"1\" name=\"referrer\" content=\"strict-origin-when-cross-origin\"><meta data-n-head=\"1\" charset=\"utf-8\"><meta data-n-head=\"1\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-n-head=\"1\" data-hid=\"descriptio"
+  },
+  {
+   "sport": "Snooker",
+   "name": "wst-matches",
+   "url": "https://wst.tv/matches/",
+   "status": 200,
+   "bytes": 181116,
+   "content_type": "text/html",
+   "format": "html",
+   "excerpt": "<!doctype html>\n<html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\">\n  <head>\n    <title>Matches - World Snooker Tour</title><meta data-n-head=\"ssr\" name=\"referrer\" content=\"strict-origin-when-cross-origin\"><meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-n-head=\"ssr\" data-hid"
+  },
+  {
+   "sport": "Darts",
+   "name": "pdc-wp-posts",
+   "url": "https://www.pdc.tv/wp-json/wp/v2/posts?per_page=10",
+   "status": 200,
+   "bytes": 1241747,
+   "content_type": "text/html",
+   "format": "html",
+   "excerpt": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\">\n<script src></script>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j"
+  },
+  {
+   "sport": "Gaelic Football",
+   "name": "gaa-wp-posts",
+   "url": "https://www.gaa.ie/wp-json/wp/v2/posts?per_page=10",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Hurling",
+   "name": "gaa-wp-hurling",
+   "url": "https://www.gaa.ie/wp-json/wp/v2/posts?per_page=10&search=hurling",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Greyhounds",
+   "name": "gbgb-wp-posts",
+   "url": "https://www.gbgb.org.uk/wp-json/wp/v2/posts?per_page=10",
+   "status": 200,
+   "bytes": 134897,
+   "content_type": "application/json; charset=UTF-8",
+   "format": "json-list",
+   "length": 10,
+   "excerpt": "[{\"id\": 48936, \"date\": \"2026-10-23T12:39:56\", \"date_gmt\": \"2026-10-23T12:39:56\", \"guid\": {\"rendered\": \"https://www.gbgb.org.uk/?p=48936\"}, \"modified\": \"2026-10-23T12:42:56\", \"modified_gmt\": \"2026-10-23T12:42:56\", \"slug\": \"sunderland-and-newcastle-to-join-gbgb-seeding-pilot-scheme\", \"status\": \"publish\", \"type\": \"post\", \"link\": \"https://www.gbgb.org.uk/sunderland-and-newcastle-to-join-gbgb-seeding-pilot-scheme/\", \"title\": {\"rendered\": \"Sunderland and Newcastle to join GBGB seeding pilot scheme\"}, \"content\": {\"rendered\": \"<p>The Greyhound Board of Great Britain (GBGB) has confirmed that Sunderlan"
+  },
+  {
+   "sport": "Rugby Union",
+   "name": "espn-rugby-270-v2",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/270/scoreboard?limit=50",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 400"
+  },
+  {
+   "sport": "Rugby Union",
+   "name": "espn-rugby-289-v2",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/289/scoreboard?limit=50",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 400"
+  },
+  {
+   "sport": "Rugby Union",
+   "name": "epcr-matches",
+   "url": "https://www.epcrugby.com/champions-cup/matches",
+   "status": 200,
+   "bytes": 348682,
+   "content_type": "text/html;charset=utf-8",
+   "format": "html",
+   "excerpt": "<!DOCTYPE html><html  lang=\"en\"><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<script type=\"importmap\">{\"imports\":{\"#entry\":\"/_nuxt/DyCSv0i6.js\"}}</script>\n<title>Fixtures &amp; Results | Investec Champions Cup</title>\n<style>@font-face{font-display:swap;font-family:Champion;font-style:normal;font-weight:350;src:url(https://media-cdn.incrowdsport"
+  },
+  {
+   "sport": "Volleyball",
+   "name": "cev-wp-posts",
+   "url": "https://www.cev.eu/wp-json/wp/v2/posts?per_page=10",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Volleyball",
+   "name": "volleyballworld",
+   "url": "https://en.volleyballworld.com/volleyball/competitions/",
+   "status": 200,
+   "bytes": 151728,
+   "content_type": "text/html",
+   "format": "html",
+   "excerpt": "<!DOCTYPE html><html lang=en><head><meta charset=utf-8 /><meta name=viewport content=\"width=device-width, initial-scale=1.0\"/><link rel=\"shortcut icon\" href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon.ico /><link rel=icon href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon-16.png sizes=16x16 /><link rel=icon href=https://images.vol"
+  },
+  {
+   "sport": "Handball",
+   "name": "ehf-wp-posts",
+   "url": "https://www.eurohandball.com/wp-json/wp/v2/posts?per_page=10",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 404"
+  },
+  {
+   "sport": "Motor Racing",
+   "name": "f1-official-calendar",
+   "url": "https://www.formula1.com/en/racing/2026",
+   "status": 200,
+   "bytes": 621386,
+   "content_type": "text/html; charset=utf-8",
+   "format": "html",
+   "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://media.formula1.com/image/upload/c_lfill,w_720/q_auto/v1740000001/fom-website/static-assets/2026/races/card/united-states.webp\"/><link rel=\"preload\" as=\"image\" href=\"https://media.formula1.com/image/upload/c_lfill,w_172/q_auto/"
+  },
+  {
+   "sport": "Tennis",
+   "name": "atp-scores",
+   "url": "https://www.atptour.com/en/scores/current",
+   "status": 0,
+   "bytes": 0,
+   "content_type": "HTTP 403"
   },
   {
    "sport": "Tennis",
