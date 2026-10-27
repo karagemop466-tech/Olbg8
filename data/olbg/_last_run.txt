@@ -1,2 +1,35 @@
 exit=0
-captured 205 market rows across 16 categories
+golf 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+golf 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+volleyball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+volleyball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+rugby-union 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+rugby-union 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+cricket 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+cricket 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+snooker 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+snooker 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+darts 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+darts 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+baseball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+baseball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+gaelic-football 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+gaelic-football 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+hurling 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+hurling 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+greyhounds 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+greyhounds 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+tennis 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+tennis 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+motor-racing 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+motor-racing 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+handball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+handball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+ice-hockey 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+ice-hockey 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+basketball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+basketball 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+rugby-league 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+rugby-league 1-100 status=0 bytes=0 host=www.olbg.com err=HTTP 404
+tips: 0 rows
+detail captured
