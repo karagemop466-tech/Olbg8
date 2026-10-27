@@ -17,18 +17,18 @@
      "selections": [
       {
        "selection": "MIL Brewers",
-       "decimal": "1.77",
-       "american": "-130",
-       "fractional": "10/13",
+       "decimal": "1.74",
+       "american": "-135",
+       "fractional": "20/27",
        "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
        "comments": ""
       },
       {
        "selection": "TB Rays",
-       "decimal": "2.25",
-       "american": "125",
-       "fractional": "5/4",
+       "decimal": "2.15",
+       "american": "115",
+       "fractional": "23/20",
        "tip_record": "0 / 2 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -49,9 +49,9 @@
       },
       {
        "selection": "MIL Brewers -1.50",
-       "decimal": "2.31",
-       "american": "131",
-       "fractional": "131/100",
+       "decimal": "2.33",
+       "american": "133",
+       "fractional": "133/100",
        "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
        "comments": ""
@@ -63,9 +63,9 @@
      "selections": [
       {
        "selection": "Under 7.50",
-       "decimal": "1.73",
-       "american": "-137",
-       "fractional": "8/11",
+       "decimal": "1.70",
+       "american": "-143",
+       "fractional": "7/10",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -159,9 +159,9 @@
       },
       {
        "selection": "Under 175.50",
-       "decimal": "1.98",
-       "american": "-102",
-       "fractional": "49/50",
+       "decimal": "2.00",
+       "american": "100",
+       "fractional": "1/1",
        "tip_record": "1 / 2 Win Tips",
        "consensus": "50",
        "comments": "4,"
@@ -281,8 +281,8 @@
        "decimal": "1.20",
        "american": "-500",
        "fractional": "1/5",
-       "tip_record": "4 / 7 Win Tips",
-       "consensus": "57",
+       "tip_record": "4 / 8 Win Tips",
+       "consensus": "50",
        "comments": ""
       },
       {
@@ -290,8 +290,8 @@
        "decimal": "5.25",
        "american": "425",
        "fractional": "17/4",
-       "tip_record": "3 / 7 Win Tips",
-       "consensus": "43",
+       "tip_record": "4 / 8 Win Tips",
+       "consensus": "50",
        "comments": ""
       }
      ]
@@ -327,7 +327,7 @@
        "decimal": "1.91",
        "american": "-110",
        "fractional": "10/11",
-       "tip_record": "1 / 1 Win Tips",
+       "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
        "comments": ""
       },
@@ -368,8 +368,8 @@
        "decimal": "1.10",
        "american": "-1000",
        "fractional": "1/10",
-       "tip_record": "5 / 8 Win Tips",
-       "consensus": "63",
+       "tip_record": "5 / 9 Win Tips",
+       "consensus": "56",
        "comments": ""
       },
       {
@@ -377,8 +377,8 @@
        "decimal": "7.50",
        "american": "650",
        "fractional": "13/2",
-       "tip_record": "3 / 8 Win Tips",
-       "consensus": "38",
+       "tip_record": "4 / 9 Win Tips",
+       "consensus": "44",
        "comments": ""
       }
      ]
@@ -423,7 +423,7 @@
        "decimal": "1.98",
        "american": "-102",
        "fractional": "49/50",
-       "tip_record": "0 / 0 Win Tips",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "0",
        "comments": "4,"
       }
@@ -453,7 +453,7 @@
       {
        "selection": "Real Madrid",
        "decimal": "1.22",
-       "american": "-455",
+       "american": "-450",
        "fractional": "2/9",
        "tip_record": "3 / 6 Win Tips",
        "consensus": "50",
@@ -626,9 +626,9 @@
      "selections": [
       {
        "selection": "Olympiacos",
-       "decimal": "1.36",
-       "american": "-278",
-       "fractional": "4/11",
+       "decimal": "1.40",
+       "american": "-250",
+       "fractional": "2/5",
        "tip_record": "1 / 3 Win Tips",
        "consensus": "33",
        "comments": ""
@@ -649,18 +649,18 @@
      "selections": [
       {
        "selection": "Besiktas +6.50",
-       "decimal": "1.83",
-       "american": "-120",
-       "fractional": "5/6",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
       },
       {
        "selection": "Olympiacos -6.50",
-       "decimal": "1.83",
-       "american": "-120",
-       "fractional": "5/6",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -672,9 +672,9 @@
      "selections": [
       {
        "selection": "Over 175.50",
-       "decimal": "1.88",
-       "american": "-114",
-       "fractional": "22/25",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -1019,21 +1019,21 @@
      "market": "Game Totals",
      "selections": [
       {
-       "selection": "Over 173.50",
-       "decimal": "1.87",
-       "american": "-115",
-       "fractional": "20/23",
-       "tip_record": "0 / 1 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
        "selection": "Under 173.50",
        "decimal": "1.87",
        "american": "-115",
        "fractional": "20/23",
        "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
+       "comments": ""
+      },
+      {
+       "selection": "Over 173.50",
+       "decimal": "2.00",
+       "american": "100",
+       "fractional": "1/1",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
        "comments": "4,"
       }
      ]
@@ -1322,18 +1322,18 @@
      "selections": [
       {
        "selection": "Roma Basketball",
-       "decimal": "1.18",
-       "american": "-556",
-       "fractional": "2/11",
+       "decimal": "1.20",
+       "american": "-500",
+       "fractional": "1/5",
        "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
        "comments": ""
       },
       {
        "selection": "Bosna Sarajevo",
-       "decimal": "4.40",
-       "american": "340",
-       "fractional": "17/5",
+       "decimal": "4.50",
+       "american": "350",
+       "fractional": "7/2",
        "tip_record": "0 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -1344,7 +1344,7 @@
      "market": "Pointspread",
      "selections": [
       {
-       "selection": "Bosna Sarajevo +9.50",
+       "selection": "Roma Basketball -9.50",
        "decimal": "1.85",
        "american": "-118",
        "fractional": "17/20",
@@ -1353,7 +1353,7 @@
        "comments": ""
       },
       {
-       "selection": "Roma Basketball -9.50",
+       "selection": "Bosna Sarajevo +9.50",
        "decimal": "1.95",
        "american": "-105",
        "fractional": "20/21",
@@ -1677,9 +1677,9 @@
       },
       {
        "selection": "DET Pistons",
-       "decimal": "2.50",
-       "american": "150",
-       "fractional": "6/4",
+       "decimal": "2.45",
+       "american": "145",
+       "fractional": "29/20",
        "tip_record": "0 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -1756,17 +1756,17 @@
        "decimal": "1.17",
        "american": "-599",
        "fractional": "1/6",
-       "tip_record": "1 / 1 Win Tips",
-       "consensus": "100",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
        "comments": ""
       },
       {
        "selection": "BKN Nets",
-       "decimal": "6.00",
-       "american": "500",
-       "fractional": "5/1",
-       "tip_record": "0 / 1 Win Tips",
-       "consensus": "0",
+       "decimal": "5.50",
+       "american": "450",
+       "fractional": "9/2",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
        "comments": ""
       }
      ]
@@ -1798,16 +1798,16 @@
      "market": "Game Totals",
      "selections": [
       {
-       "selection": "Over 221.50",
-       "decimal": "1.94",
-       "american": "-106",
-       "fractional": "50/53",
+       "selection": "Under 221.50",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
       },
       {
-       "selection": "Under 221.50",
+       "selection": "Over 221.50",
        "decimal": "1.95",
        "american": "-105",
        "fractional": "20/21",
@@ -2032,9 +2032,9 @@
      "selections": [
       {
        "selection": "Sydney Sixers W",
-       "decimal": "4.25",
-       "american": "325",
-       "fractional": "13/4",
+       "decimal": "4.30",
+       "american": "330",
+       "fractional": "33/10",
        "tip_record": "2 / 3 Win Tips",
        "consensus": "67",
        "comments": ""
@@ -2077,18 +2077,18 @@
       },
       {
        "selection": "Adelaide Strikers W",
-       "decimal": "9.00",
-       "american": "800",
-       "fractional": "8/1",
+       "decimal": "10.00",
+       "american": "900",
+       "fractional": "9/1",
        "tip_record": "1 / 3 Win Tips",
        "consensus": "33",
        "comments": ""
       },
       {
        "selection": "Melbourne Renegades W",
-       "decimal": "9.00",
-       "american": "800",
-       "fractional": "8/1",
+       "decimal": "10.00",
+       "american": "900",
+       "fractional": "9/1",
        "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -2839,17 +2839,17 @@
        "decimal": "1.80",
        "american": "-125",
        "fractional": "4/5",
-       "tip_record": "35 / 50 Win Tips",
-       "consensus": "70",
-       "comments": "19"
+       "tip_record": "37 / 52 Win Tips",
+       "consensus": "71",
+       "comments": "18"
       },
       {
        "selection": "New Zealand",
        "decimal": "2.10",
        "american": "110",
        "fractional": "11/10",
-       "tip_record": "15 / 50 Win Tips",
-       "consensus": "30",
+       "tip_record": "15 / 52 Win Tips",
+       "consensus": "29",
        "comments": "4"
       }
      ]
@@ -2862,8 +2862,8 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "4 / 25 Win Tips",
-       "consensus": "16",
+       "tip_record": "5 / 26 Win Tips",
+       "consensus": "19",
        "comments": "2"
       },
       {
@@ -2871,8 +2871,8 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "4 / 25 Win Tips",
-       "consensus": "16",
+       "tip_record": "4 / 26 Win Tips",
+       "consensus": "15",
        "comments": ""
       },
       {
@@ -2880,7 +2880,7 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -2889,7 +2889,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -2898,7 +2898,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 25 Win Tips",
+       "tip_record": "1 / 26 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -2907,7 +2907,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -2916,7 +2916,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "1 / 25 Win Tips",
+       "tip_record": "1 / 26 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -2925,7 +2925,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -2934,7 +2934,7 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "1 / 25 Win Tips",
+       "tip_record": "1 / 26 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -2943,7 +2943,7 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -2952,7 +2952,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "1 / 25 Win Tips",
+       "tip_record": "1 / 26 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -2961,7 +2961,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -2970,8 +2970,8 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 25 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 26 Win Tips",
+       "consensus": "4",
        "comments": ""
       },
       {
@@ -2979,7 +2979,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -2988,7 +2988,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -2997,7 +2997,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3006,7 +3006,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3015,7 +3015,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -3024,7 +3024,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3033,7 +3033,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3042,7 +3042,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3051,7 +3051,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3060,7 +3060,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3069,7 +3069,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3078,7 +3078,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3087,7 +3087,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3096,7 +3096,7 @@
        "decimal": "23.00",
        "american": "2200",
        "fractional": "22/1",
-       "tip_record": "2 / 25 Win Tips",
+       "tip_record": "2 / 26 Win Tips",
        "consensus": "8",
        "comments": ""
       },
@@ -3105,7 +3105,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3114,7 +3114,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3123,7 +3123,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 25 Win Tips",
+       "tip_record": "0 / 26 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3132,7 +3132,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "1 / 25 Win Tips",
+       "tip_record": "1 / 26 Win Tips",
        "consensus": "4",
        "comments": ""
       }
@@ -3146,8 +3146,8 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "6 / 24 Win Tips",
-       "consensus": "25",
+       "tip_record": "6 / 25 Win Tips",
+       "consensus": "24",
        "comments": "2"
       },
       {
@@ -3155,8 +3155,8 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "4 / 24 Win Tips",
-       "consensus": "17",
+       "tip_record": "4 / 25 Win Tips",
+       "consensus": "16",
        "comments": ""
       },
       {
@@ -3164,7 +3164,7 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "1 / 24 Win Tips",
+       "tip_record": "1 / 25 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -3173,8 +3173,8 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "2 / 24 Win Tips",
-       "consensus": "8",
+       "tip_record": "3 / 25 Win Tips",
+       "consensus": "12",
        "comments": ""
       },
       {
@@ -3182,8 +3182,8 @@
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "4 / 24 Win Tips",
-       "consensus": "17",
+       "tip_record": "4 / 25 Win Tips",
+       "consensus": "16",
        "comments": "2"
       },
       {
@@ -3191,8 +3191,8 @@
        "decimal": "8.50",
        "american": "750",
        "fractional": "15/2",
-       "tip_record": "4 / 24 Win Tips",
-       "consensus": "17",
+       "tip_record": "4 / 25 Win Tips",
+       "consensus": "16",
        "comments": ""
       },
       {
@@ -3200,7 +3200,7 @@
        "decimal": "9.50",
        "american": "850",
        "fractional": "17/2",
-       "tip_record": "1 / 24 Win Tips",
+       "tip_record": "1 / 25 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -3209,7 +3209,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3218,7 +3218,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3227,7 +3227,7 @@
        "decimal": "23.00",
        "american": "2200",
        "fractional": "22/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3236,7 +3236,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "1 / 24 Win Tips",
+       "tip_record": "1 / 25 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -3245,7 +3245,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3254,7 +3254,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3263,7 +3263,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "1 / 24 Win Tips",
+       "tip_record": "1 / 25 Win Tips",
        "consensus": "4",
        "comments": ""
       },
@@ -3272,7 +3272,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3281,7 +3281,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3290,7 +3290,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 24 Win Tips",
+       "tip_record": "0 / 25 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -3304,7 +3304,7 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "4 / 26 Win Tips",
+       "tip_record": "4 / 27 Win Tips",
        "consensus": "15",
        "comments": ""
       },
@@ -3313,7 +3313,7 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "4 / 26 Win Tips",
+       "tip_record": "4 / 27 Win Tips",
        "consensus": "15",
        "comments": ""
       },
@@ -3322,8 +3322,8 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "6 / 26 Win Tips",
-       "consensus": "23",
+       "tip_record": "6 / 27 Win Tips",
+       "consensus": "22",
        "comments": "6"
       },
       {
@@ -3331,8 +3331,8 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "6 / 26 Win Tips",
-       "consensus": "23",
+       "tip_record": "6 / 27 Win Tips",
+       "consensus": "22",
        "comments": ""
       },
       {
@@ -3340,8 +3340,8 @@
        "decimal": "5.00",
        "american": "400",
        "fractional": "4/1",
-       "tip_record": "1 / 26 Win Tips",
-       "consensus": "4",
+       "tip_record": "2 / 27 Win Tips",
+       "consensus": "7",
        "comments": ""
       },
       {
@@ -3349,8 +3349,8 @@
        "decimal": "7.50",
        "american": "650",
        "fractional": "13/2",
-       "tip_record": "2 / 26 Win Tips",
-       "consensus": "8",
+       "tip_record": "2 / 27 Win Tips",
+       "consensus": "7",
        "comments": ""
       },
       {
@@ -3358,8 +3358,8 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "3 / 26 Win Tips",
-       "consensus": "12",
+       "tip_record": "3 / 27 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -3367,7 +3367,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3376,7 +3376,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3385,7 +3385,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3394,7 +3394,7 @@
        "decimal": "101.00",
        "american": "10000",
        "fractional": "100/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3403,7 +3403,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3412,7 +3412,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3421,7 +3421,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 26 Win Tips",
+       "tip_record": "0 / 27 Win Tips",
        "consensus": "0",
        "comments": "7,"
       }
@@ -3454,7 +3454,7 @@
        "fractional": "11/20",
        "tip_record": "22 / 32 Win Tips",
        "consensus": "69",
-       "comments": "7"
+       "comments": "6"
       },
       {
        "selection": "Namibia",
@@ -3475,17 +3475,17 @@
        "decimal": "4.50",
        "american": "350",
        "fractional": "7/2",
-       "tip_record": "7 / 17 Win Tips",
-       "consensus": "41",
-       "comments": "5"
+       "tip_record": "8 / 19 Win Tips",
+       "consensus": "42",
+       "comments": "6"
       },
       {
        "selection": "A Balbirnie (Ireland)",
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "3 / 17 Win Tips",
-       "consensus": "18",
+       "tip_record": "4 / 19 Win Tips",
+       "consensus": "21",
        "comments": ""
       },
       {
@@ -3493,8 +3493,8 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "2 / 17 Win Tips",
-       "consensus": "12",
+       "tip_record": "2 / 19 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -3502,8 +3502,8 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "2 / 17 Win Tips",
-       "consensus": "12",
+       "tip_record": "2 / 19 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -3511,7 +3511,7 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3520,7 +3520,7 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3529,8 +3529,8 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 17 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 19 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3538,8 +3538,8 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "1 / 17 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 19 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3547,7 +3547,7 @@
        "decimal": "12.00",
        "american": "1100",
        "fractional": "11/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3556,7 +3556,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3565,7 +3565,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3574,7 +3574,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3583,7 +3583,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3592,8 +3592,8 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "1 / 17 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 19 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3601,7 +3601,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3610,7 +3610,7 @@
        "decimal": "101.00",
        "american": "10000",
        "fractional": "100/1",
-       "tip_record": "0 / 17 Win Tips",
+       "tip_record": "0 / 19 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -3624,16 +3624,16 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "10 / 18 Win Tips",
-       "consensus": "56",
-       "comments": "5"
+       "tip_record": "11 / 20 Win Tips",
+       "consensus": "55",
+       "comments": "6"
       },
       {
        "selection": "J Taanyanda (Namibia)",
        "decimal": "6.00",
        "american": "500",
        "fractional": "5/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3642,8 +3642,8 @@
        "decimal": "6.00",
        "american": "500",
        "fractional": "5/1",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3651,8 +3651,8 @@
        "decimal": "6.00",
        "american": "500",
        "fractional": "5/1",
-       "tip_record": "2 / 18 Win Tips",
-       "consensus": "11",
+       "tip_record": "2 / 20 Win Tips",
+       "consensus": "10",
        "comments": ""
       },
       {
@@ -3660,7 +3660,7 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3669,8 +3669,8 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3678,8 +3678,8 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3687,8 +3687,8 @@
        "decimal": "8.50",
        "american": "750",
        "fractional": "15/2",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3696,8 +3696,8 @@
        "decimal": "9.50",
        "american": "850",
        "fractional": "17/2",
-       "tip_record": "0 / 18 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3705,7 +3705,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3714,8 +3714,8 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3723,7 +3723,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3732,7 +3732,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3741,8 +3741,8 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "1 / 18 Win Tips",
-       "consensus": "6",
+       "tip_record": "1 / 20 Win Tips",
+       "consensus": "5",
        "comments": ""
       },
       {
@@ -3750,7 +3750,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -3759,7 +3759,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 18 Win Tips",
+       "tip_record": "0 / 20 Win Tips",
        "consensus": "0",
        "comments": "7,"
       }
@@ -4406,8 +4406,8 @@
        "decimal": "1.50",
        "american": "-200",
        "fractional": "1/2",
-       "tip_record": "22 / 32 Win Tips",
-       "consensus": "69",
+       "tip_record": "24 / 34 Win Tips",
+       "consensus": "71",
        "comments": "16"
       },
       {
@@ -4415,8 +4415,8 @@
        "decimal": "2.65",
        "american": "165",
        "fractional": "33/20",
-       "tip_record": "10 / 32 Win Tips",
-       "consensus": "31",
+       "tip_record": "10 / 34 Win Tips",
+       "consensus": "29",
        "comments": ""
       }
      ]
@@ -4429,8 +4429,8 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "6 / 14 Win Tips",
-       "consensus": "43",
+       "tip_record": "6 / 15 Win Tips",
+       "consensus": "40",
        "comments": "2"
       },
       {
@@ -4438,8 +4438,8 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "1 / 14 Win Tips",
-       "consensus": "7",
+       "tip_record": "2 / 15 Win Tips",
+       "consensus": "13",
        "comments": ""
       },
       {
@@ -4447,7 +4447,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4456,7 +4456,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4465,7 +4465,7 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4474,7 +4474,7 @@
        "decimal": "9.50",
        "american": "850",
        "fractional": "17/2",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4483,7 +4483,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4492,7 +4492,7 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4501,7 +4501,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4510,8 +4510,8 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 14 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 15 Win Tips",
+       "consensus": "7",
        "comments": ""
       },
       {
@@ -4519,7 +4519,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4528,7 +4528,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4537,7 +4537,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4546,7 +4546,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4555,7 +4555,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4564,7 +4564,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4573,7 +4573,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4582,7 +4582,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4591,7 +4591,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4600,7 +4600,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4609,7 +4609,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4618,7 +4618,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4627,7 +4627,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4636,7 +4636,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4645,7 +4645,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4654,7 +4654,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4663,7 +4663,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4672,7 +4672,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4681,7 +4681,7 @@
        "decimal": "23.00",
        "american": "2200",
        "fractional": "22/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4690,7 +4690,7 @@
        "decimal": "23.00",
        "american": "2200",
        "fractional": "22/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4699,7 +4699,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4708,7 +4708,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -4722,16 +4722,16 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "3 / 14 Win Tips",
-       "consensus": "21",
-       "comments": ""
+       "tip_record": "4 / 15 Win Tips",
+       "consensus": "27",
+       "comments": "2"
       },
       {
        "selection": "P Nissanka (Sri Lanka)",
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4740,8 +4740,8 @@
        "decimal": "5.00",
        "american": "400",
        "fractional": "4/1",
-       "tip_record": "1 / 14 Win Tips",
-       "consensus": "7",
+       "tip_record": "2 / 15 Win Tips",
+       "consensus": "13",
        "comments": ""
       },
       {
@@ -4749,8 +4749,8 @@
        "decimal": "5.00",
        "american": "400",
        "fractional": "4/1",
-       "tip_record": "2 / 14 Win Tips",
-       "consensus": "14",
+       "tip_record": "2 / 15 Win Tips",
+       "consensus": "13",
        "comments": ""
       },
       {
@@ -4758,7 +4758,7 @@
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4767,8 +4767,8 @@
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "3 / 14 Win Tips",
-       "consensus": "21",
+       "tip_record": "3 / 15 Win Tips",
+       "consensus": "20",
        "comments": ""
       },
       {
@@ -4776,7 +4776,7 @@
        "decimal": "6.00",
        "american": "500",
        "fractional": "5/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4785,7 +4785,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "1 / 14 Win Tips",
+       "tip_record": "1 / 15 Win Tips",
        "consensus": "7",
        "comments": ""
       },
@@ -4794,8 +4794,8 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "2 / 14 Win Tips",
-       "consensus": "14",
+       "tip_record": "2 / 15 Win Tips",
+       "consensus": "13",
        "comments": ""
       },
       {
@@ -4803,7 +4803,7 @@
        "decimal": "29.00",
        "american": "2800",
        "fractional": "28/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4812,7 +4812,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4821,7 +4821,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4830,7 +4830,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4839,7 +4839,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4848,7 +4848,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4857,7 +4857,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 14 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -4871,8 +4871,8 @@
        "decimal": "4.00",
        "american": "300",
        "fractional": "3/1",
-       "tip_record": "7 / 13 Win Tips",
-       "consensus": "54",
+       "tip_record": "7 / 15 Win Tips",
+       "consensus": "47",
        "comments": "4"
       },
       {
@@ -4880,8 +4880,8 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "1 / 13 Win Tips",
-       "consensus": "8",
+       "tip_record": "1 / 15 Win Tips",
+       "consensus": "7",
        "comments": ""
       },
       {
@@ -4889,7 +4889,7 @@
        "decimal": "4.75",
        "american": "375",
        "fractional": "15/4",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4898,17 +4898,17 @@
        "decimal": "6.50",
        "american": "550",
        "fractional": "11/2",
-       "tip_record": "3 / 13 Win Tips",
-       "consensus": "23",
-       "comments": ""
+       "tip_record": "4 / 15 Win Tips",
+       "consensus": "27",
+       "comments": "2"
       },
       {
        "selection": "S Baig (Pakistan)",
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "1 / 13 Win Tips",
-       "consensus": "8",
+       "tip_record": "2 / 15 Win Tips",
+       "consensus": "13",
        "comments": ""
       },
       {
@@ -4916,7 +4916,7 @@
        "decimal": "8.50",
        "american": "750",
        "fractional": "15/2",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4925,7 +4925,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4934,8 +4934,8 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "1 / 13 Win Tips",
-       "consensus": "8",
+       "tip_record": "1 / 15 Win Tips",
+       "consensus": "7",
        "comments": ""
       },
       {
@@ -4943,7 +4943,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4952,7 +4952,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4961,7 +4961,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4970,7 +4970,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4979,7 +4979,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4988,7 +4988,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -4997,7 +4997,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5006,7 +5006,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 13 Win Tips",
+       "tip_record": "0 / 15 Win Tips",
        "consensus": "0",
        "comments": "7,"
       }
@@ -5034,9 +5034,9 @@
      "selections": [
       {
        "selection": "Bangladesh",
-       "decimal": "1.86",
-       "american": "-116",
-       "fractional": "869/1000",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "0 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -5384,8 +5384,8 @@
        "decimal": "1.25",
        "american": "-400",
        "fractional": "51/200",
-       "tip_record": "15 / 17 Win Tips",
-       "consensus": "88",
+       "tip_record": "16 / 18 Win Tips",
+       "consensus": "89",
        "comments": "11"
       },
       {
@@ -5393,8 +5393,8 @@
        "decimal": "3.75",
        "american": "275",
        "fractional": "11/4",
-       "tip_record": "2 / 17 Win Tips",
-       "consensus": "12",
+       "tip_record": "2 / 18 Win Tips",
+       "consensus": "11",
        "comments": ""
       }
      ]
@@ -5407,8 +5407,8 @@
        "decimal": "7.00",
        "american": "600",
        "fractional": "6/1",
-       "tip_record": "2 / 6 Win Tips",
-       "consensus": "33",
+       "tip_record": "3 / 7 Win Tips",
+       "consensus": "43",
        "comments": "2"
       },
       {
@@ -5416,8 +5416,8 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "1 / 6 Win Tips",
-       "consensus": "17",
+       "tip_record": "1 / 7 Win Tips",
+       "consensus": "14",
        "comments": ""
       },
       {
@@ -5425,8 +5425,8 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 6 Win Tips",
-       "consensus": "17",
+       "tip_record": "1 / 7 Win Tips",
+       "consensus": "14",
        "comments": ""
       },
       {
@@ -5434,8 +5434,8 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 6 Win Tips",
-       "consensus": "17",
+       "tip_record": "1 / 7 Win Tips",
+       "consensus": "14",
        "comments": ""
       },
       {
@@ -5443,7 +5443,7 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5452,8 +5452,8 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 6 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 7 Win Tips",
+       "consensus": "14",
        "comments": ""
       },
       {
@@ -5461,7 +5461,7 @@
        "decimal": "13.00",
        "american": "1200",
        "fractional": "12/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5470,7 +5470,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5479,7 +5479,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5488,7 +5488,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5497,7 +5497,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5506,7 +5506,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5515,7 +5515,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5524,7 +5524,7 @@
        "decimal": "17.00",
        "american": "1600",
        "fractional": "16/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5533,7 +5533,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5542,7 +5542,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5551,7 +5551,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5560,7 +5560,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5569,8 +5569,8 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "1 / 6 Win Tips",
-       "consensus": "17",
+       "tip_record": "1 / 7 Win Tips",
+       "consensus": "14",
        "comments": ""
       },
       {
@@ -5578,7 +5578,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5587,7 +5587,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5596,7 +5596,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5605,7 +5605,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5614,7 +5614,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5623,7 +5623,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5632,7 +5632,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5641,7 +5641,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5650,7 +5650,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5659,7 +5659,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 6 Win Tips",
+       "tip_record": "0 / 7 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -5673,7 +5673,7 @@
        "decimal": "3.40",
        "american": "240",
        "fractional": "12/5",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5682,7 +5682,7 @@
        "decimal": "4.50",
        "american": "350",
        "fractional": "7/2",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5691,8 +5691,8 @@
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "1 / 3 Win Tips",
-       "consensus": "33",
+       "tip_record": "1 / 4 Win Tips",
+       "consensus": "25",
        "comments": ""
       },
       {
@@ -5700,8 +5700,8 @@
        "decimal": "6.00",
        "american": "500",
        "fractional": "5/1",
-       "tip_record": "2 / 3 Win Tips",
-       "consensus": "67",
+       "tip_record": "2 / 4 Win Tips",
+       "consensus": "50",
        "comments": "2"
       },
       {
@@ -5709,8 +5709,8 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "0 / 3 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 4 Win Tips",
+       "consensus": "25",
        "comments": ""
       },
       {
@@ -5718,7 +5718,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5727,7 +5727,7 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5736,7 +5736,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5745,7 +5745,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5754,7 +5754,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5763,7 +5763,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5772,7 +5772,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5781,7 +5781,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5790,7 +5790,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 3 Win Tips",
+       "tip_record": "0 / 4 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -5804,8 +5804,8 @@
        "decimal": "3.25",
        "american": "225",
        "fractional": "9/4",
-       "tip_record": "2 / 4 Win Tips",
-       "consensus": "50",
+       "tip_record": "2 / 5 Win Tips",
+       "consensus": "40",
        "comments": "2"
       },
       {
@@ -5813,8 +5813,8 @@
        "decimal": "3.50",
        "american": "250",
        "fractional": "5/2",
-       "tip_record": "2 / 4 Win Tips",
-       "consensus": "50",
+       "tip_record": "2 / 5 Win Tips",
+       "consensus": "40",
        "comments": ""
       },
       {
@@ -5822,8 +5822,8 @@
        "decimal": "4.33",
        "american": "333",
        "fractional": "10/3",
-       "tip_record": "0 / 4 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 5 Win Tips",
+       "consensus": "20",
        "comments": ""
       },
       {
@@ -5831,7 +5831,7 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5840,7 +5840,7 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5849,7 +5849,7 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5858,7 +5858,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5867,7 +5867,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5876,7 +5876,7 @@
        "decimal": "23.00",
        "american": "2200",
        "fractional": "22/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5885,7 +5885,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5894,7 +5894,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5903,7 +5903,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5912,7 +5912,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5921,7 +5921,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -5930,7 +5930,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": "7,"
       }
@@ -6039,7 +6039,7 @@
       {
        "selection": "Northern Districts",
        "decimal": "1.67",
-       "american": "-149",
+       "american": "-150",
        "fractional": "4/6",
        "tip_record": "2 / 3 Win Tips",
        "consensus": "67",
@@ -7160,8 +7160,8 @@
        "decimal": "9.00",
        "american": "800",
        "fractional": "8/1",
-       "tip_record": "1 / 8 Win Tips",
-       "consensus": "13",
+       "tip_record": "1 / 9 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -7169,8 +7169,8 @@
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "2 / 8 Win Tips",
-       "consensus": "25",
+       "tip_record": "2 / 9 Win Tips",
+       "consensus": "22",
        "comments": "3"
       },
       {
@@ -7178,8 +7178,8 @@
        "decimal": "15.00",
        "american": "1400",
        "fractional": "14/1",
-       "tip_record": "2 / 8 Win Tips",
-       "consensus": "25",
+       "tip_record": "2 / 9 Win Tips",
+       "consensus": "22",
        "comments": ""
       },
       {
@@ -7187,7 +7187,7 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7196,8 +7196,8 @@
        "decimal": "19.00",
        "american": "1800",
        "fractional": "18/1",
-       "tip_record": "2 / 8 Win Tips",
-       "consensus": "25",
+       "tip_record": "2 / 9 Win Tips",
+       "consensus": "22",
        "comments": ""
       },
       {
@@ -7205,7 +7205,7 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7214,8 +7214,8 @@
        "decimal": "21.00",
        "american": "2000",
        "fractional": "20/1",
-       "tip_record": "0 / 8 Win Tips",
-       "consensus": "0",
+       "tip_record": "1 / 9 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -7223,7 +7223,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7232,7 +7232,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7241,7 +7241,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7250,7 +7250,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7259,7 +7259,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7268,7 +7268,7 @@
        "decimal": "26.00",
        "american": "2500",
        "fractional": "25/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7277,7 +7277,7 @@
        "decimal": "29.00",
        "american": "2800",
        "fractional": "28/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7286,7 +7286,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7295,7 +7295,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7304,7 +7304,7 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7313,7 +7313,7 @@
        "decimal": "41.00",
        "american": "4000",
        "fractional": "40/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7322,7 +7322,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7331,7 +7331,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7340,7 +7340,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7349,7 +7349,7 @@
        "decimal": "51.00",
        "american": "5000",
        "fractional": "50/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7358,7 +7358,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7367,7 +7367,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7376,7 +7376,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7385,7 +7385,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7394,7 +7394,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7403,7 +7403,7 @@
        "decimal": "67.00",
        "american": "6600",
        "fractional": "66/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7412,7 +7412,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7421,7 +7421,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7430,7 +7430,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7439,7 +7439,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7448,7 +7448,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7457,7 +7457,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7466,7 +7466,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7475,7 +7475,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7484,7 +7484,7 @@
        "decimal": "81.00",
        "american": "8000",
        "fractional": "80/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7493,7 +7493,7 @@
        "decimal": "101.00",
        "american": "10000",
        "fractional": "100/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7502,7 +7502,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7511,7 +7511,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7520,7 +7520,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7529,8 +7529,8 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "1 / 8 Win Tips",
-       "consensus": "13",
+       "tip_record": "1 / 9 Win Tips",
+       "consensus": "11",
        "comments": ""
       },
       {
@@ -7538,7 +7538,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7547,7 +7547,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7556,7 +7556,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7565,7 +7565,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7574,7 +7574,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7583,7 +7583,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7592,7 +7592,7 @@
        "decimal": "126.00",
        "american": "12500",
        "fractional": "125/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7601,7 +7601,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7610,7 +7610,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7619,7 +7619,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7628,7 +7628,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7637,7 +7637,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7646,7 +7646,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7655,7 +7655,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7664,7 +7664,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7673,7 +7673,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7682,7 +7682,7 @@
        "decimal": "151.00",
        "american": "15000",
        "fractional": "150/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7691,7 +7691,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7700,7 +7700,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7709,7 +7709,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7718,7 +7718,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7727,7 +7727,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7736,7 +7736,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7745,7 +7745,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7754,7 +7754,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7763,7 +7763,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7772,7 +7772,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7781,7 +7781,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7790,7 +7790,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7799,7 +7799,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7808,7 +7808,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7817,7 +7817,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7826,7 +7826,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7835,7 +7835,7 @@
        "decimal": "201.00",
        "american": "20000",
        "fractional": "200/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7844,7 +7844,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7853,7 +7853,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7862,7 +7862,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7871,7 +7871,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7880,7 +7880,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7889,7 +7889,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7898,7 +7898,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7907,7 +7907,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7916,7 +7916,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7925,7 +7925,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7934,7 +7934,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7943,7 +7943,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7952,7 +7952,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7961,7 +7961,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7970,7 +7970,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7979,7 +7979,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7988,7 +7988,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -7997,7 +7997,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8006,7 +8006,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8015,7 +8015,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8024,7 +8024,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8033,7 +8033,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8042,7 +8042,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8051,7 +8051,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8060,7 +8060,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8069,7 +8069,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8078,7 +8078,7 @@
        "decimal": "301.00",
        "american": "30000",
        "fractional": "300/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8087,7 +8087,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8096,7 +8096,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8105,7 +8105,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8114,7 +8114,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8123,7 +8123,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8132,7 +8132,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8141,7 +8141,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8150,7 +8150,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8159,7 +8159,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8168,7 +8168,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8177,7 +8177,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8186,7 +8186,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8195,7 +8195,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8204,7 +8204,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8213,7 +8213,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8222,7 +8222,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8231,7 +8231,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8240,7 +8240,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8249,7 +8249,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8258,7 +8258,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8267,7 +8267,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8276,7 +8276,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8285,7 +8285,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8294,7 +8294,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -8303,7 +8303,7 @@
        "decimal": "751.00",
        "american": "75000",
        "fractional": "750/1",
-       "tip_record": "0 / 8 Win Tips",
+       "tip_record": "0 / 9 Win Tips",
        "consensus": "0",
        "comments": "15,"
       }
@@ -12480,8 +12480,8 @@
        "decimal": "1.22",
        "american": "-455",
        "fractional": "11/50",
-       "tip_record": "2 / 4 Win Tips",
-       "consensus": "50",
+       "tip_record": "2 / 5 Win Tips",
+       "consensus": "40",
        "comments": ""
       },
       {
@@ -12489,7 +12489,7 @@
        "decimal": "5.50",
        "american": "450",
        "fractional": "9/2",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -12498,8 +12498,8 @@
        "decimal": "10.00",
        "american": "900",
        "fractional": "9/1",
-       "tip_record": "3 / 4 Win Tips",
-       "consensus": "75",
+       "tip_record": "3 / 5 Win Tips",
+       "consensus": "60",
        "comments": ""
       }
      ]
@@ -12575,8 +12575,8 @@
        "decimal": "1.50",
        "american": "-200",
        "fractional": "1/2",
-       "tip_record": "2 / 4 Win Tips",
-       "consensus": "50",
+       "tip_record": "2 / 5 Win Tips",
+       "consensus": "40",
        "comments": ""
       },
       {
@@ -12584,7 +12584,7 @@
        "decimal": "3.20",
        "american": "220",
        "fractional": "11/5",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -12593,8 +12593,8 @@
        "decimal": "8.00",
        "american": "700",
        "fractional": "7/1",
-       "tip_record": "3 / 4 Win Tips",
-       "consensus": "75",
+       "tip_record": "3 / 5 Win Tips",
+       "consensus": "60",
        "comments": ""
       }
      ]
@@ -13040,8 +13040,8 @@
       {
        "selection": "Kolner Haie",
        "decimal": "1.71",
-       "american": "-141",
-       "fractional": "71/100",
+       "american": "-140",
+       "fractional": "5/7",
        "tip_record": "0 / 2 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -14294,73 +14294,74 @@
    "breadcrumb": [
     "Best Tips",
     "Motor Racing",
-    "All Motor Racing"
+    "All Motor Racing",
+    "Mexico City Grand Prix"
    ],
-   "start_utc": "2026-10-31T21:00:00.000Z",
+   "start_utc": "2026-11-01T20:00:00.000Z",
    "markets": [
     {
-     "market": "Fastest Qualifier",
+     "market": "Win Race",
      "selections": [
       {
        "selection": "Max Verstappen",
-       "decimal": "2.50",
-       "american": "150",
-       "fractional": "6/4",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
+       "decimal": "2.38",
+       "american": "138",
+       "fractional": "11/8",
+       "tip_record": "1 / 3 Win Tips",
+       "consensus": "33",
        "comments": ""
       },
       {
        "selection": "Kimi Antonelli",
-       "decimal": "3.25",
-       "american": "225",
-       "fractional": "9/4",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
+       "decimal": "2.75",
+       "american": "175",
+       "fractional": "7/4",
+       "tip_record": "1 / 3 Win Tips",
+       "consensus": "33",
        "comments": ""
       },
       {
        "selection": "Charles Leclerc",
-       "decimal": "6.00",
-       "american": "500",
-       "fractional": "5/1",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
+       "decimal": "9.00",
+       "american": "800",
+       "fractional": "8/1",
+       "tip_record": "1 / 3 Win Tips",
+       "consensus": "33",
        "comments": ""
       },
       {
        "selection": "Lewis Hamilton",
-       "decimal": "7.50",
-       "american": "650",
-       "fractional": "13/2",
-       "tip_record": "0 / 2 Win Tips",
+       "decimal": "9.50",
+       "american": "850",
+       "fractional": "17/2",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
       {
        "selection": "George Russell",
-       "decimal": "12.00",
-       "american": "1100",
-       "fractional": "11/1",
-       "tip_record": "0 / 2 Win Tips",
+       "decimal": "17.00",
+       "american": "1600",
+       "fractional": "16/1",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
       {
        "selection": "Lando Norris",
-       "decimal": "15.00",
-       "american": "1400",
-       "fractional": "14/1",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
+       "decimal": "19.00",
+       "american": "1800",
+       "fractional": "18/1",
+       "tip_record": "0 / 3 Win Tips",
+       "consensus": "0",
        "comments": ""
       },
       {
        "selection": "Isack Hadjar",
-       "decimal": "23.00",
-       "american": "2200",
-       "fractional": "22/1",
-       "tip_record": "0 / 2 Win Tips",
+       "decimal": "26.00",
+       "american": "2500",
+       "fractional": "25/1",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14369,8 +14370,17 @@
        "decimal": "34.00",
        "american": "3300",
        "fractional": "33/1",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
+       "tip_record": "0 / 3 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arvid Lindblad",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 3 Win Tips",
+       "consensus": "0",
        "comments": ""
       },
       {
@@ -14378,7 +14388,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14387,7 +14397,7 @@
        "decimal": "251.00",
        "american": "25000",
        "fractional": "250/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14396,16 +14406,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Arvid Lindblad",
-       "decimal": "501.00",
-       "american": "50000",
-       "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14414,7 +14415,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14423,7 +14424,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14432,7 +14433,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14441,7 +14442,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14450,7 +14451,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14459,7 +14460,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14468,7 +14469,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14477,7 +14478,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14486,7 +14487,7 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -14495,7 +14496,819 @@
        "decimal": "501.00",
        "american": "50000",
        "fractional": "500/1",
+       "tip_record": "0 / 3 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Fastest Lap",
+     "selections": [
+      {
+       "selection": "Max Verstappen",
+       "decimal": "3.20",
+       "american": "220",
+       "fractional": "11/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Kimi Antonelli",
+       "decimal": "3.50",
+       "american": "250",
+       "fractional": "5/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Charles Leclerc",
+       "decimal": "7.50",
+       "american": "650",
+       "fractional": "13/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lewis Hamilton",
+       "decimal": "7.50",
+       "american": "650",
+       "fractional": "13/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "George Russell",
+       "decimal": "9.00",
+       "american": "800",
+       "fractional": "8/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Isack Hadjar",
+       "decimal": "12.00",
+       "american": "1100",
+       "fractional": "11/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lando Norris",
+       "decimal": "13.00",
+       "american": "1200",
+       "fractional": "12/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oscar Piastri",
+       "decimal": "17.00",
+       "american": "1600",
+       "fractional": "16/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Liam Lawson",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Pierre Gasly",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arvid Lindblad",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Franco Colapinto",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Gabriel Bortoleto",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Nico Hulkenberg",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Esteban Ocon",
+       "decimal": "151.00",
+       "american": "15000",
+       "fractional": "150/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Fernando Alonso",
+       "decimal": "151.00",
+       "american": "15000",
+       "fractional": "150/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oliver Bearman",
+       "decimal": "151.00",
+       "american": "15000",
+       "fractional": "150/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Alex Albon",
+       "decimal": "201.00",
+       "american": "20000",
+       "fractional": "200/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Carlos Sainz",
+       "decimal": "201.00",
+       "american": "20000",
+       "fractional": "200/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lance Stroll",
+       "decimal": "201.00",
+       "american": "20000",
+       "fractional": "200/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Sergio Perez",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Valtteri Bottas",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Podium Finish",
+     "selections": [
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": "1.28",
+       "american": "-351",
+       "fractional": "2/7",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
+       "comments": ""
+      },
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": "1.50",
+       "american": "-200",
+       "fractional": "1/2",
        "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": "2.10",
+       "american": "110",
+       "fractional": "11/10",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
+       "comments": ""
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": "2.62",
+       "american": "162",
+       "fractional": "13/8",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": "3.00",
+       "american": "200",
+       "fractional": "2/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": "3.25",
+       "american": "225",
+       "fractional": "9/4",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": "3.50",
+       "american": "250",
+       "fractional": "5/2",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": "6.00",
+       "american": "500",
+       "fractional": "5/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": "101.00",
+       "american": "10000",
+       "fractional": "100/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": "301.00",
+       "american": "30000",
+       "fractional": "300/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": "301.00",
+       "american": "30000",
+       "fractional": "300/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": "451.00",
+       "american": "45000",
+       "fractional": "450/1",
+       "tip_record": "0 / 2 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Top 6 Finish",
+     "selections": [
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": "1.08",
+       "american": "-1205",
+       "fractional": "1/12",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": "1.08",
+       "american": "-1205",
+       "fractional": "1/12",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": "1.14",
+       "american": "-704",
+       "fractional": "1/7",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": "1.17",
+       "american": "-602",
+       "fractional": "1/6",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": "1.20",
+       "american": "-500",
+       "fractional": "1/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": "1.40",
+       "american": "-250",
+       "fractional": "2/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": "1.67",
+       "american": "-150",
+       "fractional": "4/6",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": "1.83",
+       "american": "-120",
+       "fractional": "5/6",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": "6.00",
+       "american": "500",
+       "fractional": "5/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": "8.00",
+       "american": "700",
+       "fractional": "7/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": "9.00",
+       "american": "800",
+       "fractional": "8/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": "17.00",
+       "american": "1600",
+       "fractional": "16/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": "21.00",
+       "american": "2000",
+       "fractional": "20/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": "21.00",
+       "american": "2000",
+       "fractional": "20/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": "26.00",
+       "american": "2500",
+       "fractional": "25/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": "26.00",
+       "american": "2500",
+       "fractional": "25/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": "34.00",
+       "american": "3300",
+       "fractional": "33/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": "41.00",
+       "american": "4000",
+       "fractional": "40/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": "51.00",
+       "american": "5000",
+       "fractional": "50/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": "251.00",
+       "american": "25000",
+       "fractional": "250/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Points Finish",
+     "selections": [
+      {
+       "selection": "Kimi Antonelli - Yes",
+       "decimal": "1.06",
+       "american": "-1613",
+       "fractional": "1/16",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Max Verstappen - Yes",
+       "decimal": "1.06",
+       "american": "-1613",
+       "fractional": "1/16",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Charles Leclerc - Yes",
+       "decimal": "1.07",
+       "american": "-1408",
+       "fractional": "1/14",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lewis Hamilton - Yes",
+       "decimal": "1.07",
+       "american": "-1408",
+       "fractional": "1/14",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "George Russell - Yes",
+       "decimal": "1.08",
+       "american": "-1205",
+       "fractional": "1/12",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lando Norris - Yes",
+       "decimal": "1.10",
+       "american": "-1000",
+       "fractional": "1/10",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Isack Hadjar - Yes",
+       "decimal": "1.12",
+       "american": "-800",
+       "fractional": "1/8",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oscar Piastri - Yes",
+       "decimal": "1.14",
+       "american": "-704",
+       "fractional": "1/7",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Liam Lawson - Yes",
+       "decimal": "1.50",
+       "american": "-200",
+       "fractional": "1/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arvid Lindblad - Yes",
+       "decimal": "1.73",
+       "american": "-138",
+       "fractional": "8/11",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Pierre Gasly - Yes",
+       "decimal": "1.73",
+       "american": "-138",
+       "fractional": "8/11",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Franco Colapinto - Yes",
+       "decimal": "2.75",
+       "american": "175",
+       "fractional": "7/4",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Gabriel Bortoleto - Yes",
+       "decimal": "3.00",
+       "american": "200",
+       "fractional": "2/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Nico Hulkenberg - Yes",
+       "decimal": "3.50",
+       "american": "250",
+       "fractional": "5/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Oliver Bearman - Yes",
+       "decimal": "5.00",
+       "american": "400",
+       "fractional": "4/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Esteban Ocon - Yes",
+       "decimal": "6.00",
+       "american": "500",
+       "fractional": "5/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Fernando Alonso - Yes",
+       "decimal": "6.00",
+       "american": "500",
+       "fractional": "5/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Lance Stroll - Yes",
+       "decimal": "10.00",
+       "american": "900",
+       "fractional": "9/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Alex Albon - Yes",
+       "decimal": "11.00",
+       "american": "1000",
+       "fractional": "10/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Carlos Sainz - Yes",
+       "decimal": "11.00",
+       "american": "1000",
+       "fractional": "10/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Sergio Perez - Yes",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Valtteri Bottas - Yes",
+       "decimal": "67.00",
+       "american": "6600",
+       "fractional": "66/1",
+       "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": "14,"
       }
@@ -15232,9 +16045,9 @@
      "selections": [
       {
        "selection": "Oyonnax",
-       "decimal": "1.06",
-       "american": "-1667",
-       "fractional": "1/16",
+       "decimal": "1.04",
+       "american": "-2500",
+       "fractional": "1/25",
        "tip_record": "2 / 3 Win Tips",
        "consensus": "67",
        "comments": ""
@@ -15359,8 +16172,8 @@
       {
        "selection": "Nissa",
        "decimal": "1.44",
-       "american": "-227",
-       "fractional": "11/25",
+       "american": "-225",
+       "fractional": "4/9",
        "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
        "comments": ""
@@ -15422,7 +16235,7 @@
       {
        "selection": "Biarritz",
        "decimal": "1.22",
-       "american": "-455",
+       "american": "-450",
        "fractional": "2/9",
        "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
@@ -15548,7 +16361,7 @@
       {
        "selection": "Colomiers",
        "decimal": "1.17",
-       "american": "-588",
+       "american": "-602",
        "fractional": "1/6",
        "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
@@ -15570,9 +16383,9 @@
      "selections": [
       {
        "selection": "Agen +12.50",
-       "decimal": "1.83",
-       "american": "-120",
-       "fractional": "5/6",
+       "decimal": "1.80",
+       "american": "-125",
+       "fractional": "4/5",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -15610,9 +16423,9 @@
      "selections": [
       {
        "selection": "Dax",
-       "decimal": "1.80",
-       "american": "-125",
-       "fractional": "4/5",
+       "decimal": "1.73",
+       "american": "-138",
+       "fractional": "8/11",
        "tip_record": "2 / 3 Win Tips",
        "consensus": "67",
        "comments": ""
@@ -15642,9 +16455,9 @@
       },
       {
        "selection": "Dax -1.50",
-       "decimal": "1.92",
-       "american": "-109",
-       "fractional": "23/25",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
        "tip_record": "1 / 2 Win Tips",
        "consensus": "50",
        "comments": "9,"
@@ -15720,156 +16533,6 @@
    "raw_file": "olbgev_rugby_union_609611.txt.gz"
   },
   {
-   "event": "Leylah Fernandez vs Himeno Sakatsume",
-   "title": "Leylah Fernandez vs Himeno Sakatsume Tips - OLBG.com",
-   "competition": "",
-   "breadcrumb": [
-    "Best Tips",
-    "Tennis",
-    "All Tennis",
-    "Leylah Fernandez vs Himeno Sakatsume"
-   ],
-   "start_utc": "2026-10-27T06:00:00.000Z",
-   "markets": [
-    {
-     "market": "Win Match",
-     "selections": [
-      {
-       "selection": "Leylah Fernandez",
-       "decimal": "1.20",
-       "american": "-500",
-       "fractional": "1/5",
-       "tip_record": "10 / 12 Win Tips",
-       "consensus": "83",
-       "comments": "5"
-      },
-      {
-       "selection": "Himeno Sakatsume",
-       "decimal": "4.50",
-       "american": "350",
-       "fractional": "7/2",
-       "tip_record": "2 / 12 Win Tips",
-       "consensus": "17",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Set Betting",
-     "selections": [
-      {
-       "selection": "Leylah Fernandez to win 2 - 0",
-       "decimal": "1.57",
-       "american": "-175",
-       "fractional": "4/7",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
-       "comments": ""
-      },
-      {
-       "selection": "Leylah Fernandez to win 2 - 1",
-       "decimal": "4.40",
-       "american": "340",
-       "fractional": "17/5",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Himeno Sakatsume to win 2 - 1",
-       "decimal": "8.50",
-       "american": "750",
-       "fractional": "15/2",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Himeno Sakatsume to win 2 - 0",
-       "decimal": "10.00",
-       "american": "900",
-       "fractional": "9/1",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "1st Set Winner",
-     "selections": [
-      {
-       "selection": "Leylah Fernandez",
-       "decimal": "1.29",
-       "american": "-345",
-       "fractional": "2/7",
-       "tip_record": "2 / 3 Win Tips",
-       "consensus": "67",
-       "comments": ""
-      },
-      {
-       "selection": "Himeno Sakatsume",
-       "decimal": "4.00",
-       "american": "300",
-       "fractional": "3/1",
-       "tip_record": "1 / 3 Win Tips",
-       "consensus": "33",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Games Won",
-     "selections": [
-      {
-       "selection": "Himeno Sakatsume +5.50",
-       "decimal": "1.90",
-       "american": "-111",
-       "fractional": "9/10",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
-       "comments": ""
-      },
-      {
-       "selection": "Leylah Fernandez -5.50",
-       "decimal": "1.91",
-       "american": "-110",
-       "fractional": "10/11",
-       "tip_record": "1 / 2 Win Tips",
-       "consensus": "50",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Total Games",
-     "selections": [
-      {
-       "selection": "Under 19.50",
-       "decimal": "1.82",
-       "american": "-122",
-       "fractional": "41/50",
-       "tip_record": "2 / 2 Win Tips",
-       "consensus": "100",
-       "comments": "2"
-      },
-      {
-       "selection": "Over 19.50",
-       "decimal": "1.95",
-       "american": "-105",
-       "fractional": "19/20",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
-       "comments": "3,"
-      }
-     ]
-    }
-   ],
-   "sport_key": "tennis",
-   "event_id": "902172",
-   "raw_file": "olbgev_tennis_902172.txt.gz"
-  },
-  {
    "event": "Naomi Osaka vs Jasmine Paolini",
    "title": "Naomi Osaka vs Jasmine Paolini Tips - OLBG.com",
    "competition": "",
@@ -15889,16 +16552,16 @@
        "decimal": "1.33",
        "american": "-303",
        "fractional": "1/3",
-       "tip_record": "4 / 4 Win Tips",
+       "tip_record": "6 / 6 Win Tips",
        "consensus": "100",
-       "comments": "2"
+       "comments": "4"
       },
       {
        "selection": "Jasmine Paolini",
        "decimal": "3.60",
        "american": "260",
        "fractional": "13/5",
-       "tip_record": "0 / 4 Win Tips",
+       "tip_record": "0 / 5 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -15953,7 +16616,7 @@
        "decimal": "1.40",
        "american": "-250",
        "fractional": "2/5",
-       "tip_record": "0 / 0 Win Tips",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -16020,156 +16683,6 @@
    "raw_file": "olbgev_tennis_902177.txt.gz"
   },
   {
-   "event": "Antonia Ruzic vs Claire Liu",
-   "title": "Antonia Ruzic vs Claire Liu Tips - OLBG.com",
-   "competition": "",
-   "breadcrumb": [
-    "Best Tips",
-    "Tennis",
-    "All Tennis",
-    "Antonia Ruzic vs Claire Liu"
-   ],
-   "start_utc": "2026-10-27T06:00:00.000Z",
-   "markets": [
-    {
-     "market": "Win Match",
-     "selections": [
-      {
-       "selection": "Claire Liu",
-       "decimal": "1.80",
-       "american": "-125",
-       "fractional": "4/5",
-       "tip_record": "0 / 1 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Antonia Ruzic",
-       "decimal": "2.10",
-       "american": "110",
-       "fractional": "11/10",
-       "tip_record": "1 / 1 Win Tips",
-       "consensus": "100",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Set Betting",
-     "selections": [
-      {
-       "selection": "Claire Liu to win 2 - 0",
-       "decimal": "3.00",
-       "american": "200",
-       "fractional": "2/1",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Antonia Ruzic to win 2 - 0",
-       "decimal": "3.50",
-       "american": "250",
-       "fractional": "5/2",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Claire Liu to win 2 - 1",
-       "decimal": "4.40",
-       "american": "340",
-       "fractional": "17/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Antonia Ruzic to win 2 - 1",
-       "decimal": "4.80",
-       "american": "380",
-       "fractional": "19/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "1st Set Winner",
-     "selections": [
-      {
-       "selection": "Claire Liu",
-       "decimal": "1.80",
-       "american": "-125",
-       "fractional": "4/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Antonia Ruzic",
-       "decimal": "2.00",
-       "american": "100",
-       "fractional": "1/1",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Games Won",
-     "selections": [
-      {
-       "selection": "Claire Liu -0.50",
-       "decimal": "1.80",
-       "american": "-125",
-       "fractional": "4/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Antonia Ruzic +0.50",
-       "decimal": "1.95",
-       "american": "-105",
-       "fractional": "19/20",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Total Games",
-     "selections": [
-      {
-       "selection": "Under 22.50",
-       "decimal": "1.80",
-       "american": "-125",
-       "fractional": "4/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Over 22.50",
-       "decimal": "2.00",
-       "american": "100",
-       "fractional": "1/1",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": "3,"
-      }
-     ]
-    }
-   ],
-   "sport_key": "tennis",
-   "event_id": "902182",
-   "raw_file": "olbgev_tennis_902182.txt.gz"
-  },
-  {
    "event": "Xinran Sun vs Mananchaya Sawangkaew",
    "title": "Xinran Sun vs Mananchaya Sawangkaew Tips - OLBG.com",
    "competition": "",
@@ -16209,9 +16722,9 @@
      "selections": [
       {
        "selection": "Mananchaya Sawangkaew to win 2 - 0",
-       "decimal": "2.75",
-       "american": "175",
-       "fractional": "7/4",
+       "decimal": "2.88",
+       "american": "188",
+       "fractional": "15/8",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -16227,9 +16740,9 @@
       },
       {
        "selection": "Mananchaya Sawangkaew to win 2 - 1",
-       "decimal": "4.50",
-       "american": "350",
-       "fractional": "7/2",
+       "decimal": "4.33",
+       "american": "333",
+       "fractional": "10/3",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -16282,9 +16795,9 @@
       },
       {
        "selection": "Xinran Sun +1.50",
-       "decimal": "1.90",
-       "american": "-111",
-       "fractional": "9/10",
+       "decimal": "1.85",
+       "american": "-118",
+       "fractional": "17/20",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -16320,156 +16833,6 @@
    "raw_file": "olbgev_tennis_902183.txt.gz"
   },
   {
-   "event": "Polina Kudermetova vs Janice Tjen",
-   "title": "Polina Kudermetova vs Janice Tjen Tips - OLBG.com",
-   "competition": "",
-   "breadcrumb": [
-    "Best Tips",
-    "Tennis",
-    "All Tennis",
-    "Polina Kudermetova vs Janice Tjen"
-   ],
-   "start_utc": "2026-10-27T06:00:00.000Z",
-   "markets": [
-    {
-     "market": "Win Match",
-     "selections": [
-      {
-       "selection": "Janice Tjen",
-       "decimal": "1.62",
-       "american": "-161",
-       "fractional": "8/13",
-       "tip_record": "2 / 2 Win Tips",
-       "consensus": "100",
-       "comments": ""
-      },
-      {
-       "selection": "Polina Kudermetova",
-       "decimal": "2.40",
-       "american": "140",
-       "fractional": "7/5",
-       "tip_record": "0 / 2 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Set Betting",
-     "selections": [
-      {
-       "selection": "Janice Tjen to win 2 - 0",
-       "decimal": "2.45",
-       "american": "145",
-       "fractional": "29/20",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Polina Kudermetova to win 2 - 0",
-       "decimal": "4.00",
-       "american": "300",
-       "fractional": "3/1",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Janice Tjen to win 2 - 1",
-       "decimal": "4.20",
-       "american": "320",
-       "fractional": "16/5",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Polina Kudermetova to win 2 - 1",
-       "decimal": "5.25",
-       "american": "425",
-       "fractional": "17/4",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "1st Set Winner",
-     "selections": [
-      {
-       "selection": "Janice Tjen",
-       "decimal": "1.62",
-       "american": "-161",
-       "fractional": "8/13",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Polina Kudermetova",
-       "decimal": "2.30",
-       "american": "130",
-       "fractional": "13/10",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Games Won",
-     "selections": [
-      {
-       "selection": "Janice Tjen -2.50",
-       "decimal": "1.85",
-       "american": "-118",
-       "fractional": "17/20",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Polina Kudermetova +2.50",
-       "decimal": "1.91",
-       "american": "-110",
-       "fractional": "10/11",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      }
-     ]
-    },
-    {
-     "market": "Total Games",
-     "selections": [
-      {
-       "selection": "Over 21.50",
-       "decimal": "1.83",
-       "american": "-120",
-       "fractional": "5/6",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": ""
-      },
-      {
-       "selection": "Under 21.50",
-       "decimal": "1.95",
-       "american": "-105",
-       "fractional": "19/20",
-       "tip_record": "0 / 0 Win Tips",
-       "consensus": "0",
-       "comments": "3,"
-      }
-     ]
-    }
-   ],
-   "sport_key": "tennis",
-   "event_id": "902187",
-   "raw_file": "olbgev_tennis_902187.txt.gz"
-  },
-  {
    "event": "Lilli Tagger vs Venus Williams",
    "title": "Lilli Tagger vs Venus Williams Tips - OLBG.com",
    "competition": "",
@@ -16489,17 +16852,17 @@
        "decimal": "1.05",
        "american": "-2000",
        "fractional": "1/20",
-       "tip_record": "4 / 8 Win Tips",
-       "consensus": "50",
-       "comments": ""
+       "tip_record": "6 / 10 Win Tips",
+       "consensus": "60",
+       "comments": "2"
       },
       {
        "selection": "Venus Williams",
        "decimal": "11.00",
        "american": "1000",
        "fractional": "10/1",
-       "tip_record": "4 / 8 Win Tips",
-       "consensus": "50",
+       "tip_record": "4 / 10 Win Tips",
+       "consensus": "40",
        "comments": ""
       }
      ]
@@ -16724,7 +17087,7 @@
       {
        "selection": "Francisco Cerundolo -2.50",
        "decimal": "1.73",
-       "american": "-137",
+       "american": "-138",
        "fractional": "8/11",
        "tip_record": "1 / 2 Win Tips",
        "consensus": "50",
@@ -16787,7 +17150,7 @@
       {
        "selection": "Carlos Alcaraz",
        "decimal": "1.22",
-       "american": "-450",
+       "american": "-455",
        "fractional": "2/9",
        "tip_record": "0 / 2 Win Tips",
        "consensus": "0",
@@ -16886,6 +17249,29 @@
        "american": "120",
        "fractional": "6/5",
        "tip_record": "2 / 2 Win Tips",
+       "consensus": "100",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Total Games",
+     "selections": [
+      {
+       "selection": "Under 22.50",
+       "decimal": "1.73",
+       "american": "-138",
+       "fractional": "8/11",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Over 22.50",
+       "decimal": "2.10",
+       "american": "110",
+       "fractional": "11/10",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "100",
        "comments": "3,"
       }
@@ -17451,7 +17837,7 @@
       {
        "selection": "Rafael Jodar -3.50",
        "decimal": "1.73",
-       "american": "-137",
+       "american": "-138",
        "fractional": "8/11",
        "tip_record": "0 / 1 Win Tips",
        "consensus": "0",
@@ -17815,8 +18201,8 @@
        "selection": "Tereza Valentova",
        "decimal": "1.44",
        "american": "-227",
-       "fractional": "11/25",
-       "tip_record": "1 / 1 Win Tips",
+       "fractional": "4/9",
+       "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
        "comments": ""
       },
@@ -17825,7 +18211,7 @@
        "decimal": "2.80",
        "american": "180",
        "fractional": "9/5",
-       "tip_record": "0 / 1 Win Tips",
+       "tip_record": "0 / 2 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -17947,6 +18333,156 @@
    "raw_file": "olbgev_tennis_902310.txt.gz"
   },
   {
+   "event": "Adrian Mannarino vs Ignacio Buse",
+   "title": "Adrian Mannarino vs Ignacio Buse Tips - OLBG.com",
+   "competition": "",
+   "breadcrumb": [
+    "Best Tips",
+    "Tennis",
+    "All Tennis",
+    "Adrian Mannarino vs Ignacio Buse"
+   ],
+   "start_utc": "2026-10-27T14:00:00.000Z",
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Adrian Mannarino",
+       "decimal": "1.57",
+       "american": "-175",
+       "fractional": "4/7",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
+       "comments": ""
+      },
+      {
+       "selection": "Ignacio Buse",
+       "decimal": "2.60",
+       "american": "160",
+       "fractional": "8/5",
+       "tip_record": "1 / 2 Win Tips",
+       "consensus": "50",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Set Betting",
+     "selections": [
+      {
+       "selection": "Adrian Mannarino to win 2 - 0",
+       "decimal": "2.50",
+       "american": "150",
+       "fractional": "6/4",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Adrian Mannarino to win 2 - 1",
+       "decimal": "4.00",
+       "american": "300",
+       "fractional": "3/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Ignacio Buse to win 2 - 0",
+       "decimal": "4.33",
+       "american": "333",
+       "fractional": "10/3",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Ignacio Buse to win 2 - 1",
+       "decimal": "5.25",
+       "american": "425",
+       "fractional": "17/4",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "1st Set Winner",
+     "selections": [
+      {
+       "selection": "Adrian Mannarino",
+       "decimal": "1.62",
+       "american": "-163",
+       "fractional": "8/13",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Ignacio Buse",
+       "decimal": "2.30",
+       "american": "130",
+       "fractional": "13/10",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Games Won",
+     "selections": [
+      {
+       "selection": "Adrian Mannarino -2.50",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Ignacio Buse +2.50",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Total Games",
+     "selections": [
+      {
+       "selection": "Under 23.50",
+       "decimal": "1.67",
+       "american": "-149",
+       "fractional": "4/6",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Over 23.50",
+       "decimal": "2.20",
+       "american": "120",
+       "fractional": "6/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": "3,"
+      }
+     ]
+    }
+   ],
+   "sport_key": "tennis",
+   "event_id": "902320",
+   "raw_file": "olbgev_tennis_902320.txt.gz"
+  },
+  {
    "event": "Hubert Hurkacz vs Zizou Bergs",
    "title": "Hubert Hurkacz vs Zizou Bergs Tips - OLBG.com",
    "competition": "",
@@ -17966,9 +18502,9 @@
        "decimal": "1.57",
        "american": "-175",
        "fractional": "4/7",
-       "tip_record": "3 / 3 Win Tips",
+       "tip_record": "4 / 4 Win Tips",
        "consensus": "100",
-       "comments": ""
+       "comments": "2"
       },
       {
        "selection": "Zizou Bergs",
@@ -17986,18 +18522,18 @@
      "selections": [
       {
        "selection": "Hubert Hurkacz to win 2 - 0",
-       "decimal": "2.50",
-       "american": "150",
-       "fractional": "6/4",
+       "decimal": "2.40",
+       "american": "140",
+       "fractional": "7/5",
        "tip_record": "0 / 2 Win Tips",
        "consensus": "0",
        "comments": ""
       },
       {
        "selection": "Hubert Hurkacz to win 2 - 1",
-       "decimal": "3.90",
-       "american": "290",
-       "fractional": "29/10",
+       "decimal": "4.00",
+       "american": "300",
+       "fractional": "3/1",
        "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
        "comments": ""
@@ -18076,7 +18612,7 @@
        "decimal": "1.83",
        "american": "-120",
        "fractional": "5/6",
-       "tip_record": "0 / 0 Win Tips",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -18095,6 +18631,306 @@
    "sport_key": "tennis",
    "event_id": "902322",
    "raw_file": "olbgev_tennis_902322.txt.gz"
+  },
+  {
+   "event": "Giovanni Mpetshi Perricard vs Arthur Fils",
+   "title": "Giovanni Mpetshi Perricard vs Arthur Fils Tips - OLBG.com",
+   "competition": "",
+   "breadcrumb": [
+    "Best Tips",
+    "Tennis",
+    "All Tennis",
+    "Giovanni Mpetshi Perricard vs Arthur Fils"
+   ],
+   "start_utc": "2026-10-27T14:30:00.000Z",
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Arthur Fils",
+       "decimal": "1.25",
+       "american": "-400",
+       "fractional": "1/4",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Giovanni Mpetshi Perricard",
+       "decimal": "4.00",
+       "american": "300",
+       "fractional": "3/1",
+       "tip_record": "1 / 1 Win Tips",
+       "consensus": "100",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Set Betting",
+     "selections": [
+      {
+       "selection": "Arthur Fils to win 2 - 0",
+       "decimal": "1.80",
+       "american": "-125",
+       "fractional": "4/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Arthur Fils to win 2 - 1",
+       "decimal": "3.90",
+       "american": "290",
+       "fractional": "29/10",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Giovanni Mpetshi Perricard to win 2 - 1",
+       "decimal": "7.50",
+       "american": "650",
+       "fractional": "13/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Giovanni Mpetshi Perricard to win 2 - 0",
+       "decimal": "8.00",
+       "american": "700",
+       "fractional": "7/1",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "1st Set Winner",
+     "selections": [
+      {
+       "selection": "Arthur Fils",
+       "decimal": "1.36",
+       "american": "-275",
+       "fractional": "4/11",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Giovanni Mpetshi Perricard",
+       "decimal": "3.20",
+       "american": "220",
+       "fractional": "11/5",
+       "tip_record": "1 / 1 Win Tips",
+       "consensus": "100",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Games Won",
+     "selections": [
+      {
+       "selection": "Giovanni Mpetshi Perricard +3.50",
+       "decimal": "1.73",
+       "american": "-138",
+       "fractional": "8/11",
+       "tip_record": "1 / 1 Win Tips",
+       "consensus": "100",
+       "comments": ""
+      },
+      {
+       "selection": "Arthur Fils -3.50",
+       "decimal": "2.20",
+       "american": "120",
+       "fractional": "6/5",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Total Games",
+     "selections": [
+      {
+       "selection": "Under 23.50",
+       "decimal": "1.80",
+       "american": "-125",
+       "fractional": "4/5",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Over 23.50",
+       "decimal": "1.98",
+       "american": "-102",
+       "fractional": "49/50",
+       "tip_record": "1 / 1 Win Tips",
+       "consensus": "100",
+       "comments": "3,"
+      }
+     ]
+    }
+   ],
+   "sport_key": "tennis",
+   "event_id": "902347",
+   "raw_file": "olbgev_tennis_902347.txt.gz"
+  },
+  {
+   "event": "Mia Ristic vs Martyna Kubka",
+   "title": "Mia Ristic vs Martyna Kubka Tips - OLBG.com",
+   "competition": "",
+   "breadcrumb": [
+    "Best Tips",
+    "Tennis",
+    "All Tennis",
+    "Mia Ristic vs Martyna Kubka"
+   ],
+   "start_utc": "2026-10-27T14:30:00.000Z",
+   "markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "selection": "Martyna Kubka",
+       "decimal": "1.50",
+       "american": "-200",
+       "fractional": "1/2",
+       "tip_record": "1 / 1 Win Tips",
+       "consensus": "100",
+       "comments": ""
+      },
+      {
+       "selection": "Mia Ristic",
+       "decimal": "2.75",
+       "american": "175",
+       "fractional": "7/4",
+       "tip_record": "0 / 1 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Set Betting",
+     "selections": [
+      {
+       "selection": "Martyna Kubka to win 2 - 0",
+       "decimal": "2.20",
+       "american": "120",
+       "fractional": "6/5",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Mia Ristic to win 2 - 0",
+       "decimal": "4.25",
+       "american": "325",
+       "fractional": "13/4",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Martyna Kubka to win 2 - 1",
+       "decimal": "4.50",
+       "american": "350",
+       "fractional": "7/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Mia Ristic to win 2 - 1",
+       "decimal": "5.50",
+       "american": "450",
+       "fractional": "9/2",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "1st Set Winner",
+     "selections": [
+      {
+       "selection": "Martyna Kubka",
+       "decimal": "1.57",
+       "american": "-175",
+       "fractional": "4/7",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Mia Ristic",
+       "decimal": "2.45",
+       "american": "145",
+       "fractional": "29/20",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Games Won",
+     "selections": [
+      {
+       "selection": "Mia Ristic +3.50",
+       "decimal": "1.90",
+       "american": "-111",
+       "fractional": "9/10",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Martyna Kubka -3.50",
+       "decimal": "1.95",
+       "american": "-105",
+       "fractional": "19/20",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      }
+     ]
+    },
+    {
+     "market": "Total Games",
+     "selections": [
+      {
+       "selection": "Under 21.50",
+       "decimal": "1.85",
+       "american": "-118",
+       "fractional": "17/20",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": ""
+      },
+      {
+       "selection": "Over 21.50",
+       "decimal": "1.91",
+       "american": "-110",
+       "fractional": "10/11",
+       "tip_record": "0 / 0 Win Tips",
+       "consensus": "0",
+       "comments": "3,"
+      }
+     ]
+    }
+   ],
+   "sport_key": "tennis",
+   "event_id": "902370",
+   "raw_file": "olbgev_tennis_902370.txt.gz"
   },
   {
    "event": "Lucrezia Stefanini vs Isabella Maria Serban",
@@ -18116,7 +18952,7 @@
        "decimal": "1.11",
        "american": "-909",
        "fractional": "1/9",
-       "tip_record": "1 / 1 Win Tips",
+       "tip_record": "2 / 2 Win Tips",
        "consensus": "100",
        "comments": ""
       },
@@ -18139,7 +18975,7 @@
        "decimal": "1.40",
        "american": "-250",
        "fractional": "2/5",
-       "tip_record": "0 / 0 Win Tips",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "0",
        "comments": ""
       },
@@ -18235,7 +19071,7 @@
        "decimal": "2.10",
        "american": "110",
        "fractional": "11/10",
-       "tip_record": "0 / 0 Win Tips",
+       "tip_record": "1 / 1 Win Tips",
        "consensus": "0",
        "comments": "3,"
       }
@@ -18286,9 +19122,9 @@
      "selections": [
       {
        "selection": "Noma Noha Akugue to win 2 - 0",
-       "decimal": "1.40",
-       "american": "-250",
-       "fractional": "2/5",
+       "decimal": "1.44",
+       "american": "-227",
+       "fractional": "4/9",
        "tip_record": "0 / 0 Win Tips",
        "consensus": "0",
        "comments": ""
@@ -18566,7 +19402,7 @@
        "decimal": "1.44",
        "american": "-227",
        "fractional": "4/9",
-       "tip_record": "2 / 2 Win Tips",
+       "tip_record": "3 / 3 Win Tips",
        "consensus": "100",
        "comments": ""
       },
@@ -18575,7 +19411,7 @@
        "decimal": "2.75",
        "american": "175",
        "fractional": "7/4",
-       "tip_record": "0 / 2 Win Tips",
+       "tip_record": "0 / 3 Win Tips",
        "consensus": "0",
        "comments": ""
       }
@@ -18912,7 +19748,7 @@
       {
        "selection": "Uni Opole W",
        "decimal": "1.29",
-       "american": "-345",
+       "american": "-350",
        "fractional": "2/7",
        "tip_record": "4 / 6 Win Tips",
        "consensus": "67",
@@ -19706,15 +20542,15 @@
        "decimal": "1.85",
        "american": "-118",
        "fractional": "17/20",
-       "tip_record": "2 / 5 Win Tips",
-       "consensus": "40",
+       "tip_record": "3 / 5 Win Tips",
+       "consensus": "60",
        "comments": ""
       },
       {
        "selection": "IBB Spor",
        "decimal": "1.95",
        "american": "-105",
-       "fractional": "19/20",
+       "fractional": "20/21",
        "tip_record": "3 / 5 Win Tips",
        "consensus": "60",
        "comments": "2"
@@ -20199,7 +21035,7 @@
       {
        "selection": "Vilsbiburg W",
        "decimal": "1.36",
-       "american": "-275",
+       "american": "-278",
        "fractional": "4/11",
        "tip_record": "2 / 3 Win Tips",
        "consensus": "67",
@@ -20595,7 +21431,7 @@
       {
        "selection": "SWD Duren",
        "decimal": "1.22",
-       "american": "-455",
+       "american": "-450",
        "fractional": "2/9",
        "tip_record": "0 / 1 Win Tips",
        "consensus": "0",
