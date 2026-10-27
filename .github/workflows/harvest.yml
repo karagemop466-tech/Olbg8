@@ -41,7 +41,7 @@ jobs:
           set -x
           git config user.name "olbg-harvest-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A pipeline/raw pipeline/out pipeline/facts
+          git add -A pipeline
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "harvest: live OLBG + official source capture [skip quality]"
           git pull --rebase=merges origin arena/c2f58873-olbg8 || true
