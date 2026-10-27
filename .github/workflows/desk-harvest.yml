@@ -1,0 +1,51 @@
+name: Desk harvest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c2f58873-olbg8]
+    paths:
+      - pipeline/espn_collect.py
+      - pipeline/probe4.py
+      - .github/workflows/desk-harvest.yml
+  schedule:
+    - cron: '25 5 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desk-harvest
+  cancel-in-progress: true
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect
+        run: |
+          python3 pipeline/espn_collect.py > /tmp/espn.log 2>&1 || true
+          tail -40 /tmp/espn.log
+          python3 pipeline/probe4.py > /tmp/p4.log 2>&1 || true
+          cat /tmp/p4.log
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name  'arena-agent'
+          git config user.email '297053741+arena-agent@users.noreply.github.com'
+          git add -A pipeline/out/espn_raw.json pipeline/out/espn_injuries.json pipeline/out/probe4.json 2>/dev/null || true
+          git diff --cached --quiet && { echo "nothing staged"; exit 0; }
+          git commit -q -m "harvest: ESPN scoreboards, injury lists and API discovery"
+          for i in 1 2 3; do
+            git push origin "HEAD:${{ github.ref_name }}" && exit 0
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            sleep 3
+          done
+          echo "::error::push failed"; exit 1
