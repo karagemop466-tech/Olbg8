@@ -33,7 +33,14 @@ jobs:
           python-version: "3.12"
 
       - name: Harvest OLBG hydration feeds
-        run: python3 scripts/collect_olbg.py --event-pages 3
+        run: |
+          mkdir -p data/olbg
+          set +e
+          python3 scripts/collect_olbg.py --event-pages 3 > /tmp/harvest.log 2>&1
+          code=$?
+          printf 'exit=%s\n' "$code" > data/olbg/_last_run.txt
+          tail -c 6000 /tmp/harvest.log >> data/olbg/_last_run.txt
+          cat /tmp/harvest.log
 
       - name: Show harvest summary
         run: |

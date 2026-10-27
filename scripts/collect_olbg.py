@@ -281,11 +281,9 @@ def main() -> None:
     args = parser.parse_args()
 
     captured = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
     raw_dir = Path(args.raw) if args.raw else None
-    if raw_dir:
-        OUT_DIR = raw_dir / "out"
-        OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = (raw_dir / "out") if raw_dir else OUT_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     probe: dict[str, Any] = {"captured_utc": captured, "sports": {}, "events": {}}
     all_rows: list[dict[str, Any]] = []
@@ -310,7 +308,6 @@ def main() -> None:
             else:
                 status, body, error = fetch(data_url(page_path))
                 time.sleep(0.7)
-                (raw_dir / f"{key}__{name}.json").write_bytes(body) if raw_dir else None
             entry = {"status": status, "bytes": len(body), "error": error}
             if status == 200 and body:
                 try:
@@ -341,7 +338,7 @@ def main() -> None:
         probe["sports"][key] = sport_probe
 
         if deduped:
-            (OUT_DIR / f"{key}.json").write_text(
+            (out_dir / f"{key}.json").write_text(
                 json.dumps({"sport": label, "sport_id": sport_id, "captured_utc": captured, "rows": deduped}, indent=1)
             )
 
@@ -371,8 +368,8 @@ def main() -> None:
         "sports": {label: sid for label, _, sid in SPORTS},
         "rows": all_rows,
     }
-    (OUT_DIR / "latest.json").write_text(json.dumps(payload, indent=1))
-    (OUT_DIR / "_probe.json").write_text(json.dumps(probe, indent=1))
+    (out_dir / "latest.json").write_text(json.dumps(payload, indent=1))
+    (out_dir / "_probe.json").write_text(json.dumps(probe, indent=1))
     print(f"captured {len(all_rows)} market rows across {len(SPORTS)} categories")
 
 
