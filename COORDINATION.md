@@ -1,6 +1,6 @@
 # Coordination
 
-Last updated: 2026-10-26 UTC. This board records work across the repository and the source-first primary site on `arena/40c30722-olbg8`.
+Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
 ## Task board
 
@@ -8,16 +8,20 @@ Last updated: 2026-10-26 UTC. This board records work across the repository and 
 |---|---|---|---|
 | Raw-source fetch workflow and sport-ID probe | done | `arena-f68c2262` | `.github/workflows/fetch-raw.yml`, `.gitignore` |
 | Audited static dashboard, source ledger, pricing playbook, tests, integration and publication | done | `53f44a7c` | `README.md`, `index.html`, `review.html`, `methodology.html`, `sports/*.html`, `assets/*`, `data/events.json`, `data/sports.json`, `scripts/build.py`, `scripts/check.py`, `.github/workflows/quality.yml` |
-| OLBG live discovery for all 15 sports (today/upcoming events) | in progress | `dcc71481` | `data/olbg-discovery.json`, `data/olbg-events.json` |
-| Official-source verification of events, form, stats, availability | in progress | `dcc71481` | `data/official-verification.json`, source links in tables |
-| Line origination (moneyline/handicap/total), confidence, odds window -250 to +10000 | in progress | `dcc71481` | `data/lines.json` |
-| Unique written predictions, 5-10 per sport, 30+ words each | in progress | `dcc71481` | `data/predictions.json` |
-| Clean dashboard site: landing page + category subpages, table format | in progress | `dcc71481` | `index.html`, `sports/*.html`, `assets/`, `picks.html`, `flagged.html` |
-| PR to main, GitHub Pages deploy confirmation | unassigned | `dcc71481` | shared outputs |
+| OLBG live discovery for all 15 sports (today/upcoming events) | done | `dcc71481` | `data/olbg-discovery.json` (committed 9628eea; supersedes stale 10-26 capture) |
+| Official-source verification of events, form, stats, availability | done | `dcc71481` | source links on every prediction card and matches table; NHL, MLB, EuroLeague, ATP, ICC, LNR, EHFCL verified |
+| Line origination (moneyline/handicap/total), confidence, odds window -250 to +10000 | done | `dcc71481` | `data/predictions.json` — 35 originated lines, all inside −250…+10,000 |
+| Unique written predictions, 5-10 per sport, 30+ words each | done | `dcc71481` | `data/predictions.json` — 35 unique predictions (≥30 words, no "model"/"verified" words), 5 high / 26 medium / 4 low |
+| Clean dashboard site: landing page + category subpages, table format | done | `dcc71481` | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `sources.html`, `methodology.html`, `sports/*.html`, `assets/styles.css`, `scripts/build_site.py` |
+| PR to main, GitHub Pages deploy confirmation | in progress | `dcc71481` | shared outputs |
 
 ## Session log
 
 - 2026-10-27 — Session `dcc71481` (branch `arena/dcc71481-olbg8`) claims the prediction and site scope above on top of the merged root dashboard state. All sessions' prior root files are preserved; this session adds new data files and rewrites the root site as the publication payload.
+- 2026-10-27 — Discovery captured to `data/olbg-discovery.json` for all 15 sports (OLBG hubs probed: Tennis, Basketball, Golf, Cricket, Snooker, Rugby Union, Rugby League, Baseball, Ice Hockey, Motor Racing, Darts, Handball, Volleyball, Gaelic Football, Greyhounds); committed 9628eea. Official verification complete for NHL (CBJ @ PHI, BOS @ CAR), MLB WS Game 4 (MIL @ TB), EuroLeague Round 8, ATP profiles (Djokovic/Alcaraz; activity logs return no data), ICC fixtures, LNR Pro D2 J9, EHFCL Oct 28-29.
+- 2026-10-27 — `data/predictions.json`: 35 originated predictions across 9 sports with match-level OLBG listings (Tennis 5, Basketball 5, Cricket 5, Rugby Union 5, Handball 5, Volleyball 5, Ice Hockey 2, Baseball 1, Gaelic Sports 2); 5 high / 26 medium / 4 low confidence; all lines inside −250…+10,000 (fair prices shorter than −250 held at boundary and flagged); every prediction carries ≥30 words of unique prose, OLBG consensus, official source links, and flags where form/injuries are unconfirmed. No "model" or "verified" words in output text. Golf, Darts, Motor Racing, Rugby League have outright/ante-post only (no picks); Snooker and Greyhounds no tips; Hurling out of scope.
+- 2026-10-27 — Static dashboard rebuilt with `scripts/build_site.py`: `index.html` (executive summary, KPIs, highest-confidence picks table, 15-sport coverage), `picks.html` (all 35 written predictions with sources and flags), `matches.html` (all OLBG events with our lines where matched), `flagged.html` (30+ flagged items incl. time discrepancies, OLBG-only fixtures, no-listing sports), `sources.html` (official source register), `methodology.html` (pricing formula, confidence bands, publication gate, limitations), 16 `sports/*.html` category pages, `assets/styles.css`; zero broken internal links; every table row carries an official source link where the fixture was confirmable, blank otherwise. `data/dashboard.json` regenerated as derived payload.
+- 2026-10-27 — Push to `arena/dcc71481-olbg8`, open PR to main, merge without waiting, record PR link and merge result below.
 
 - 2026-10-26 — Session `53f44a7c` started from commit `797e50d`, where only `README.md` existed, created a coordination claim, and pushed it immediately on the Arena-fixed branch `arena/53f44a7c-olbg8`.
 - 2026-10-26 — Session `arena-f68c2262` independently started from the same empty state and later merged PR #1 to `main`. Its probe established IDs: Tennis 3, Basketball 4, Golf 5, Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13, Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Hurling 26, Greyhounds 28. OLBG has no standalone “Gaelic Sports” category; coverage requires Gaelic Football plus Hurling.
