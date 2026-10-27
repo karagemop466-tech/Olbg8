@@ -112,6 +112,16 @@ check(len(formulaic) <= 5, f"{len(formulaic)} notes open on the tip-count formul
 for pid, n in notes.items():
     words = re.findall(r"[A-Za-z0-9'.-]+", n)
     check(len(shingles(n)) >= len(words) - 9, f"{pid}: repeats itself inside one note")
+    # sentence hygiene: the prose is hand-written, so these catch splices and lost terminators
+    check(n.rstrip()[-1] in ".!?", f"{pid}: note does not end on a sentence mark")
+    check(re.search(r"[a-z]\.[A-Za-z]", n) is None, f"{pid}: missing space after a full stop")
+    check("  " not in n, f"{pid}: double space in prose")
+    for si, sent in enumerate(re.split(r"(?<=[.!?]) +", n)):
+        w = len(sent.split())
+        check(w <= 45, f"{pid}: sentence {si + 1} runs to {w} words; split it")
+        check(w >= 5, f"{pid}: sentence {si + 1} is only {w} words ({sent!r})")
+        check(sent[0].isupper() or sent[0].isdigit(),
+              f"{pid}: sentence {si + 1} starts lower-case ({sent[:40]!r}) — a lost full stop")
 
 # 4. coverage ledger ---------------------------------------------------------------------------
 per = Counter(p["sport"] for p in PICKS["picks"])

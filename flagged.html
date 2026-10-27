@@ -45,8 +45,11 @@ retained and still gated by <code>scripts/check_site.py</code>. Their rows are <
 prices the same events differently (Colomiers at -161 against our -150, Naomi Osaka at -132 against our -200), and two prices for one
 selection on one page is the confusion the brief asked us to remove.
 <em>Decision needed:</em> retire the parallel payload, or reconcile the two engines into one and publish the union.</li>
-<li><strong>Stale prior capture.</strong> <code>data/dashboard.json</code> and its siblings are stamped 2026-10-26 and were superseded by today's capture,
-but were left in the tree because other sessions own them. <em>Decision needed:</em> whether a later integration pass retires them.</li>
+<li><strong>The legacy builder no longer matches its own payload.</strong> <code>scripts/build_dashboard.py</code> emits a
+<code>v1</code> document from the 2026-10-26 capture, while <code>data/dashboard.json</code> as committed on <code>main</code> is a
+<code>v2</code> summary. Running the old builder therefore overwrites 7,000 lines of the published payload; this branch restores the
+committed file and leaves it alone rather than "fixing" someone else's artefact with a stale one. <em>Decision needed:</em> its owner
+should either re-point the builder at today's capture or retire both together.</li>
 </ol></section>
 <section><h2>Rows with no official crosswalk (102)</h2>
 <p class="fine">These rows are published with their OLBG link and no more; the blank official column is the finding.</p>

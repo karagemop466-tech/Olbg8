@@ -442,3 +442,14 @@ daily capture to prove the pipeline repeats.
 - Requested the active #18 owner to retain Hurling and audit the other desk's future-dated capture/generation timestamps: [PR #18 comment](https://github.com/karagemop466-tech/Olbg8/pull/18#issuecomment-6434846013).
 - Opened additive integration PR [#20](https://github.com/karagemop466-tech/Olbg8/pull/20). Main then advanced through #18 (`99bf72e`): kept all of that session's release record and this session's audit/request text when resolving the coordination-only rebase conflict. #18 restores the 24-pick desk and repairs its CI; it does not incorporate Hurling in that desk. The additive dashboard includes Hurling without replacing other owners' files.
 
+
+**Post-merge prose and factual pass (same session).** Reviewing my own 53 notes after the opener rewrite found four defects worth
+recording, because each one is the kind of thing a reader would catch first: two notes opened on the same "N of M tips" formula in 27
+places (re-led so the tip count sits inside the sentence, no opener now repeats more than twice, and no two notes share a nine-word run);
+a splice bug from that rewrite dropped 27 sentence-final periods; the cricket man-of-the-match note named "Sarfaraz Khan's rival Samson"
+when the OLBG market's co-leader is `SV Samson` on four tips; and the World Series Game 4 note assembled two conflicting pitcher reports
+into one clause that read as a team statement. All four are fixed at source in `scripts/build_picks.py`, and `scripts/test_site.py` now
+gates sentence hygiene (terminator present, no missing space after a full stop, every sentence 5-45 words, no lower-case sentence start),
+so the class of error is closed rather than the instances. The legacy `scripts/build_dashboard.py` also overwrites `data/dashboard.json`
+with a `v1` document while `main` carries the `v2` summary, so this branch restores that file and leaves it to its owner; the new
+`quality.yml` does not invoke the legacy builder.
