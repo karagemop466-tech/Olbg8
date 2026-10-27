@@ -1,0 +1,1324 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>National - HoganStand</title>
+
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0b284a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="HoganStand">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="HoganStand RSS Feed" href="/rss/" />
+    
+    
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+        <link rel="stylesheet" href="/lib/font-awesome/css/v4-shims.min.css" />
+    
+
+    <link rel="stylesheet" href="/css/hoganpub8.css?v=9npTDU096SXxJJSBR_BxUwTg30LYDlsuQqTSIhmFi9s" type="text/css" />
+    <link rel="stylesheet" href="/css/bootstrap5-compat.css?v=bNWRYCbm-ukOm4psMD11Mr6IZP7jxGGBn8Q0K_UhIyw" type="text/css" />
+    
+
+
+    <script async src="https://cdn.fuseplatform.net/publift/tags/2/4126/fuse.js"></script>
+
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+            googletag.pubads().addEventListener('slotRenderEnded', function (e) {
+                var el = document.getElementById(e.slot.getSlotElementId());
+                var wrapper = el && el.closest('.hs-ad');
+                if (!wrapper) { return; }
+                wrapper.setAttribute('data-ad-state', e.isEmpty ? 'empty' : 'filled');
+            });
+        });
+    </script>
+
+    <script>
+            (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-18153025-1', 'auto');
+            ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body class="hs-publift-layout" data-county="national" style="margin: 0; overflow: visible !important; min-width: 340px;">
+
+    
+<nav class="navbar navbar-expand-md navbar-dark navbar-inverse" aria-label="Primary navigation">
+    <div class="container-fluid">
+        <a class="navbar-brand d-md-none" href="/">
+            <img src="/styles/images/bannersmall.gif" alt="HoganStand" width="275" height="50" />
+
+        </a>
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#primary-navigation"
+                aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="primary-navigation">
+            <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="games-menu" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+                        <ul class="dropdown-menu" aria-labelledby="games-menu">
+                            <li><a class="dropdown-item" href="/Football/">Football</a></li>
+                            <li><a class="dropdown-item" href="/Hurling/">Hurling</a></li>
+                            <li><a class="dropdown-item" href="/Camogie/">Camogie</a></li>
+                            <li><a class="dropdown-item" href="/Ladies/">Ladies Football</a></li>
+                            <li><a class="dropdown-item" href="/Handball/">Handball</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/Forum/">Forum</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Counties/">Counties</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="fixtures-results-menu" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">Fix/Res</a>
+                        <ul class="dropdown-menu" aria-labelledby="fixtures-results-menu">
+                            <li><a class="dropdown-item" href="/Fixtures/">Fixtures</a></li>
+                            <li><a class="dropdown-item" href="/Results">Results</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/LeagueTables/">Tables</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="window.forceInstallPWA(); return false;"
+                           id="pwa-menu-install-btn" title="Install HoganStand App">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <span class="hs-hide-sm-only">Install App</span>
+                        </a>
+                    </li>
+            </ul>
+                <div class="hs-forum-account ms-md-auto d-flex justify-content-end">
+                    <a href="/Forum/" class="btn btn-sm hs-btn-default"><i class="fa fa-user" aria-hidden="true"></i> Forum login</a>
+                </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div id="header" class="d-none d-md-block">
+                <div id="headerlogo"><a href="/" class="HomePageLink" aria-label="HoganStand home"></a></div>
+        <div id="headerbannertext">
+            <div id="ctl00_pnlSearch">
+                <div id="socialicons" class="">
+                    <a href="https://www.facebook.com/GAAhoganstand"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hoganstandgaa"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.x.com/hoganstandgaa"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="/rss/" title="RSS"><i class="fa fa-rss"></i></a>
+                    <button id="pwa-install-header-btn" onclick="window.installPWA()" title="Install App" style="display:none; background:none; border:none; color:#fff; margin-left:10px; cursor:pointer;"><i class="fa fa-download"></i></button>
+
+                    <form class="hs-navbar-search" role="search" method="get" action="https://google.com/cse">
+                        <input type="hidden" name="cx" value="007153729876085373183:clt4i7oo3eq" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input type="text" name="q" style="color:#000;" />
+                        <button type="submit" class="btn hs-btn-default">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="secondmenu" class="navbar navbar-default d-none d-xl-block" role="navigation"></div>
+
+    <!-- Desktop-only sidebars placed outside main container -->
+    <div class="hs-side-ad hs-side-ad--left" style="top: 140px">
+        <!-- GAM 71161633/HOGANS_hoganstand/sidebar_LHS -->
+        <div class="hs-ad hs-ad--mrec">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="sidebar_LHS"></div>
+</div>
+
+    </div>
+
+    <div class="hs-side-ad hs-side-ad--right" style="top: 140px">
+        <!-- GAM 71161633/HOGANS_hoganstand/sidebar_RHS -->
+        <div class="hs-ad hs-ad--mrec">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="sidebar_RHS"></div>
+</div>
+
+    </div>
+
+<div class="container body-content">
+
+    <div class="topbanner topbannerhome center-me">
+        <!-- GAM 71161633/HOGANS_hoganstand/header -->
+        <div class="hs-ad hs-ad--banner">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="header"></div>
+</div>
+
+    </div>
+
+        
+
+<div class="row">
+    <div class="col-12 col-lg-8">
+
+        <div class="row">
+            <div class="MainTopHeadlineStory">
+                <a href='/Article/Index/342250'>
+                    <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/e66b5961-cb64-47db-8ff5-93e105012d41.jpg"
+                         alt="Salthill-Knocknacarra boss Hanley hails &quot;monumental&quot; Galway SFC triumph" width="1280" height="720" decoding="async">
+                    <div class="caption">
+                        <h1>Salthill-Knocknacarra boss Hanley hails &quot;monumental&quot; Galway SFC triumph</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342249'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/9a00fc1e-ecaf-49b7-a7ca-3aa75beb55d7.jpg"
+                                 alt="McKenna signs new two-year deal with Brisbane Lions" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>McKenna signs new two-year deal with Brisbane Lions</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342248'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/84ab8f3c-43c1-4ffd-babf-5bd9e7000344.jpg"
+                                 alt="&quot;The pressure had built&quot; - Martin savours emotional Nemo triumph" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>&quot;The pressure had built&quot; - Martin savours emotional Nemo triumph</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 hs-incontent-ad" style="margin-bottom: 5px;display: flex !important; justify-content: center;">
+                <!-- GAM 71161633/HOGANS_hoganstand/primis_video_placeholder -->
+                <div class="hs-ad hs-ad--video">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="primis_video_placeholder"></div>
+</div>
+
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342244'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/65e9000a-aa71-456e-9eca-b1e5263dba8f.jpg"
+                                 alt="Mayo legend Boyle adds county title and promotion to historic All-Ireland year" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>Mayo legend Boyle adds county title and promotion to historic All-Ireland year</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342243'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/caea0270-701a-430a-95c1-0842a4c59f84.jpg"
+                                 alt="Lynch hails new generation after Magherafelt reclaim Derry crown" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>Lynch hails new generation after Magherafelt reclaim Derry crown</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342242'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/77ba531d-2ffc-43c0-825b-2ebec6609a63.jpg"
+                                 alt="&quot;These can be the best days of your life&quot; - Brosnan" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>&quot;These can be the best days of your life&quot; - Brosnan</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342241'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/e8aa3279-4145-43d6-91d9-f33d9b2ed133.jpg"
+                                 alt="Ladies club championship round-up: Kilmacud, Gaultier and Moneyglass advance" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>Ladies club championship round-up: Kilmacud, Gaultier and Moneyglass advance</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342220'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/bf0ce73d-63ad-4f63-af86-8601d6a61f8f.jpg"
+                                 alt="Sunday&#x27;s senior club championship final results" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>Sunday&#x27;s senior club championship final results</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 column maincol">
+                <div class="MainHeadlineStory">
+                    <a href='/Article/Index/342238'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/5b2791c2-0111-415a-9701-f693d340ead8.jpg"
+                                 alt="Magherafelt deny Newbridge three-in-a-row to reclaim Derry SFC title" width="640" height="360" loading="lazy" decoding="async">
+                        <div class="caption">
+                            <h2>Magherafelt deny Newbridge three-in-a-row to reclaim Derry SFC title</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+                <!-- GAM 71161633/HOGANS_hoganstand/incontent_1_homepage -->
+                <div class="col-12 hs-incontent-ad" style="margin-bottom: 5px;">
+                    <div class="hs-ad hs-ad--incontent">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="incontent_1_homepage"></div>
+</div>
+
+                </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342236'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/b9b9ab08-e345-464f-98f8-3c0a2ef6fca7.jpg"
+                                 alt="Castlebar Mitchels end nine-year wait for Mayo SFC glory" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Castlebar Mitchels end nine-year wait for Mayo SFC glory</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342235'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/2d37d07e-fe60-4688-b76c-52ef6174be11.jpg"
+                                 alt="Watch:&#xA0;Culhane goal at the death sees Salthill-Knocknacarra snatch Galway SFC title" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Watch:&#xA0;Culhane goal at the death sees Salthill-Knocknacarra snatch Galway SFC title</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342240'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/87299be5-0b8f-4d3e-95e3-40d5dbc83e9c.jpg"
+                                 alt="Brothers Pearse claim London SHC title with last-gasp winner" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Brothers Pearse claim London SHC title with last-gasp winner</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342237'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/e48a1b6c-b94b-4883-b3ca-732a0ee2e01b.jpg"
+                                 alt="Nemo Rangers dethrone St Finbarr&#x27;s for 24th Cork SFC crown" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Nemo Rangers dethrone St Finbarr&#x27;s for 24th Cork SFC crown</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342234'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/5d7fe786-2c1a-4d76-b982-30580e870e55.jpg"
+                                 alt="Ballinamore&#x27;s three-goal blitz settles Leitrim SFC final replay" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Ballinamore&#x27;s three-goal blitz settles Leitrim SFC final replay</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342233'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/6eece224-800c-40df-b196-86e7bd9cf5cc.jpg"
+                                 alt="Shelmaliers hold off Rathnure fightback to secure Wexford SHC triumph" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Shelmaliers hold off Rathnure fightback to secure Wexford SHC triumph</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342232'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/a4fe342d-06da-4a28-bb16-7a7d28b652e6.jpg"
+                                 alt="Naas produce second-half goods against Maynooth to extend Kildare SHC dominance" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Naas produce second-half goods against Maynooth to extend Kildare SHC dominance</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342231'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/727aa0f8-39ca-4f78-b454-f072482191e8.jpg"
+                                 alt="Three goals propel Kilmallock past Na Piarsaigh to Limerick SHC glory" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Three goals propel Kilmallock past Na Piarsaigh to Limerick SHC glory</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342230'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/3625d05e-dc71-4311-953d-9de2dbf85e24.jpg"
+                                 alt="Sizzling start helps Erne Gaels complete Fermanagh SFC three-in-a-row" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Sizzling start helps Erne Gaels complete Fermanagh SFC three-in-a-row</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342229'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/1105816b-3291-4ec7-86ad-45902a41e0d1.jpg"
+                                 alt="Rathgormack make it four-in-a-row in Waterford" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Rathgormack make it four-in-a-row in Waterford</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <!-- GAM 71161633/HOGANS_hoganstand/incontent_2_homepage -->
+                <div class="col-12 hs-incontent-ad" style="margin-bottom: 5px;">
+                    <div class="hs-ad hs-ad--incontent">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="incontent_2_homepage"></div>
+</div>
+
+                </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342228'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/0e7c1b4e-2c73-4ffc-8aec-0aa17920c9ed.jpg"
+                                 alt="Dr Crokes come from behind against Kenmare to claim 15th Kerry SFC title" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Dr Crokes come from behind against Kenmare to claim 15th Kerry SFC title</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342227'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/8e65adb8-bbf6-4bb1-8381-51998e5ab345.jpg"
+                                 alt="Rampant Ballyhale crush Tullaroan to retain Kilkenny SHC crown" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Rampant Ballyhale crush Tullaroan to retain Kilkenny SHC crown</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342226'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/b2fdd89e-7649-4bf1-8aca-7073ae52f828.jpg"
+                                 alt="Michie&#x27;s late penalty seals Scotland victory in Shinty-Hurling International" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Michie&#x27;s late penalty seals Scotland victory in Shinty-Hurling International</p>
+                            <time datetime="2026-10-25">25 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342225'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/1e062390-e46d-4dcc-b308-09d4f7498054.jpg"
+                                 alt="Crokes cruise past Cuala to eighth Dublin SHC title" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Crokes cruise past Cuala to eighth Dublin SHC title</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342224'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/6ad125c9-8bec-44ff-96f2-9ab57ed395af.jpg"
+                                 alt="Nolan nets four as Ireland prove too strong for Scotland in Camogie-Shinty showdown" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Nolan nets four as Ireland prove too strong for Scotland in Camogie-Shinty showdown</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342223'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/8c47d640-8397-4d73-9481-efbe04162639.jpg"
+                                 alt="Watch: Downey&#x27;s heroics secure 24th Louth SFC title for Newtown Blues" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Watch: Downey&#x27;s heroics secure 24th Louth SFC title for Newtown Blues</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342222'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/9cb4513c-aa9f-4d1c-8dce-08a316ac7b1f.jpg"
+                                 alt="Fulham Irish survive St Kiernans&#x27; rally to clinch fifth London SFC crown" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Fulham Irish survive St Kiernans&#x27; rally to clinch fifth London SFC crown</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342221'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/d787fabb-1932-4f58-836d-94bb26882a89.jpg"
+                                 alt="Longford name Andy McEntee as new football manager" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Longford name Andy McEntee as new football manager</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <!-- GAM 71161633/HOGANS_hoganstand/incontent_3_homepage -->
+                <div class="col-12 hs-incontent-ad" style="margin-bottom: 5px;">
+                    <div class="hs-ad hs-ad--incontent">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="incontent_3_homepage"></div>
+</div>
+
+                </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342219'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/a4f27188-867e-4049-9655-df517391a5da.jpg"
+                                 alt="&quot;This is the pinnacle&quot; - Morgan savours Edendork&#x27;s historic triumph" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>&quot;This is the pinnacle&quot; - Morgan savours Edendork&#x27;s historic triumph</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342218'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/fb7a544b-6327-453d-83e1-f9f884d85192.jpg"
+                                 alt="Spillane warns GAA as Roarty&#x27;s AFL move raises alarm bells" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Spillane warns GAA as Roarty&#x27;s AFL move raises alarm bells</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342217'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/8e5d555b-1f69-4907-91bc-0d9cd7b54910.jpg"
+                                 alt="Galway and Leitrim SFC finals switched to Sunday amid severe weather warning" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Galway and Leitrim SFC finals switched to Sunday amid severe weather warning</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342216'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/cc0c07e5-d985-4b79-81bd-14ddbefd9cf9.jpg"
+                                 alt="Watch: Morgan magic seals historic Tyrone SFC title for Edendork" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Watch: Morgan magic seals historic Tyrone SFC title for Edendork</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342205'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/b07b7c3a-2db5-4a15-b0eb-45ebbd673d21.jpg"
+                                 alt="&quot;When you get the taste of winning, you want to keep going&quot;" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>&quot;When you get the taste of winning, you want to keep going&quot;</p>
+                            <time datetime="2026-10-24">24 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342208'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/ebdf5556-451f-4b15-83d6-00558fc03dc8.jpg"
+                                 alt="GAA on TV: Dublin, Kilkenny and Limerick hurling finals live this weekend" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>GAA on TV: Dublin, Kilkenny and Limerick hurling finals live this weekend</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342207'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/ace29fd0-c935-43ca-bc62-1ac9dfada0d2.jpg"
+                                 alt="Tyrone SFC final replay takes centre stage this evening" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Tyrone SFC final replay takes centre stage this evening</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342206'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/cc23f8ba-046e-4f6b-ba8f-0f1f30660c26.jpg"
+                                 alt="Cork unveil new jersey for 2027 season" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Cork unveil new jersey for 2027 season</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <!-- GAM 71161633/HOGANS_hoganstand/incontent_4_homepage -->
+                <div class="col-12 hs-incontent-ad d-none d-lg-block" style="margin-bottom: 5px;">
+                    <div class="hs-ad hs-ad--incontent">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="incontent_4_homepage"></div>
+</div>
+
+                </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342204'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/8de42f3b-c021-4e49-bd28-dd3f68157bac.jpg"
+                                 alt="St Eunan&#x27;s set sights on Ulster after Donegal SFC glory" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>St Eunan&#x27;s set sights on Ulster after Donegal SFC glory</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342203'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/00487a90-2292-4a0c-8e96-20bc46d2c872.jpg"
+                                 alt="Kilkenny great Brennan takes on new Westmeath role" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Kilkenny great Brennan takes on new Westmeath role</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342202'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/2f9701dc-5aca-4694-87f9-65ed779ad9f0.jpg"
+                                 alt="Antrim SHC final postponed following weather warning" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Antrim SHC final postponed following weather warning</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342200'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/c1273e32-c3a6-4248-8f00-df90e7c2b576.jpg"
+                                 alt="&#x27;It&#x27;s a huge honour&#x27;: Manley ready to lead Ireland into battle with Scotland" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>&#x27;It&#x27;s a huge honour&#x27;: Manley ready to lead Ireland into battle with Scotland</p>
+                            <time datetime="2026-10-23">23 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342199'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/15887198-3e7f-4c8f-b5b4-4f4e70aef6f5.jpg"
+                                 alt="GPA survey shows strong support for existing football rules" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>GPA survey shows strong support for existing football rules</p>
+                            <time datetime="2026-10-22">22 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="MainPageCompactStory">
+                    <a href='/Article/Index/342198'>
+                            <img class="hs-story-image" src="https://files.hoganstand.com/common/newgallery/6ea1aa13-d012-4a52-ac27-5b41ce0aeb2e.jpg"
+                                 alt="Fossa appoint new manager ahead of Munster campaign" width="120" height="68" loading="lazy" decoding="async">
+                        <div class="hs-compact-story__content">
+                            <p>Fossa appoint new manager ahead of Munster campaign</p>
+                            <time datetime="2026-10-22">22 Oct</time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="col-12 col-lg-4">
+
+        <form action="/Home/RedirectToCounty" method="post">
+<h3 style="border-bottom: 1px solid black;">Go To Your County</h3>
+    <select class="form-control" id="County" name="County" onchange="this.form.submit();" required>
+        <option value="">Select County</option>
+        <option value="Antrim">Antrim</option>
+        <option value="Armagh">Armagh</option>
+        <option value="Carlow">Carlow</option>
+        <option value="Cavan">Cavan</option>
+        <option value="Clare">Clare</option>
+        <option value="Cork">Cork</option>
+        <option value="Derry">Derry</option>
+        <option value="Donegal">Donegal</option>
+        <option value="Down">Down</option>
+        <option value="Dublin">Dublin</option>
+        <option value="Fermanagh">Fermanagh</option>
+        <option value="Galway">Galway</option>
+        <option value="Kerry">Kerry</option>
+        <option value="Kildare">Kildare</option>
+        <option value="Kilkenny">Kilkenny</option>
+        <option value="Laois">Laois</option>
+        <option value="Leitrim">Leitrim</option>
+        <option value="Limerick">Limerick</option>
+        <option value="Longford">Longford</option>
+        <option value="Louth">Louth</option>
+        <option value="Mayo">Mayo</option>
+        <option value="Meath">Meath</option>
+        <option value="Monaghan">Monaghan</option>
+        <option value="Offaly">Offaly</option>
+        <option value="Roscommon">Roscommon</option>
+        <option value="Sligo">Sligo</option>
+        <option value="Tipperary">Tipperary</option>
+        <option value="Tyrone">Tyrone</option>
+        <option value="Waterford">Waterford</option>
+        <option value="Westmeath">Westmeath</option>
+        <option value="Wexford">Wexford</option>
+        <option value="Wicklow">Wicklow</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+    </select>
+
+</form>
+              
+        
+
+    <section class="hs-module">
+        <h2 class="hs-module__title">Feature Articles</h2>
+        <div class="hs-module__body">
+            <article class="hs-module-story">
+                <a href='/County/National/Article/Index/342235'>
+                        <img src="https://files.hoganstand.com/common/newgallery/2d37d07e-fe60-4688-b76c-52ef6174be11.jpg" alt="Watch:&#xA0;Culhane goal at the death sees Salthill-Knocknacarra snatch Galway SFC title"
+                             width="120" height="68" loading="lazy" decoding="async">
+                    <h3>Watch:&#xA0;Culhane goal at the death sees Salthill-Knocknacarra snatch Galway SFC title</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <a href='/County/National/Article/Index/342220'>
+                        <img src="https://files.hoganstand.com/common/newgallery/bf0ce73d-63ad-4f63-af86-8601d6a61f8f.jpg" alt="Sunday&#x27;s senior club championship final results"
+                             width="120" height="68" loading="lazy" decoding="async">
+                    <h3>Sunday&#x27;s senior club championship final results</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <a href='/County/National/Article/Index/342223'>
+                        <img src="https://files.hoganstand.com/common/newgallery/8c47d640-8397-4d73-9481-efbe04162639.jpg" alt="Watch: Downey&#x27;s heroics secure 24th Louth SFC title for Newtown Blues"
+                             width="120" height="68" loading="lazy" decoding="async">
+                    <h3>Watch: Downey&#x27;s heroics secure 24th Louth SFC title for Newtown Blues</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <a href='/County/National/Article/Index/342221'>
+                        <img src="https://files.hoganstand.com/common/newgallery/d787fabb-1932-4f58-836d-94bb26882a89.jpg" alt="Longford name Andy McEntee as new football manager"
+                             width="120" height="68" loading="lazy" decoding="async">
+                    <h3>Longford name Andy McEntee as new football manager</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <a href='/County/National/Article/Index/342216'>
+                        <img src="https://files.hoganstand.com/common/newgallery/cc0c07e5-d985-4b79-81bd-14ddbefd9cf9.jpg" alt="Watch: Morgan magic seals historic Tyrone SFC title for Edendork"
+                             width="120" height="68" loading="lazy" decoding="async">
+                    <h3>Watch: Morgan magic seals historic Tyrone SFC title for Edendork</h3>
+                </a>
+            </article>
+        </div>
+    </section>
+
+
+
+
+        <div data-fuse="sidebar_2_homepage"></div>
+
+
+
+    <section class="hs-module hs-module--ranked">
+        <h2 class="hs-module__title">Most Read Stories</h2>
+        <div class="hs-module__body">
+            <article class="hs-module-story">
+                <span class="hs-module-story__rank">1</span>
+                <a href='/County/National/Article/Index/342241'>
+                    <h3>Ladies club championship round-up: Kilmacud, Gaultier and Moneyglass advance</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <span class="hs-module-story__rank">2</span>
+                <a href='/County/National/Article/Index/342244'>
+                    <h3>Mayo legend Boyle adds county title and promotion to historic All-Ireland year</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <span class="hs-module-story__rank">3</span>
+                <a href='/County/National/Article/Index/342243'>
+                    <h3>Lynch hails new generation after Magherafelt reclaim Derry crown</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <span class="hs-module-story__rank">4</span>
+                <a href='/County/National/Article/Index/342249'>
+                    <h3>McKenna signs new two-year deal with Brisbane Lions</h3>
+                </a>
+            </article>
+            <article class="hs-module-story">
+                <span class="hs-module-story__rank">5</span>
+                <a href='/County/National/Article/Index/342242'>
+                    <h3>&quot;These can be the best days of your life&quot; - Brosnan</h3>
+                </a>
+            </article>
+        </div>
+    </section>
+
+        <div class="d-none d-md-block hs-incontent-ad">
+        <!-- GAM 71161633/HOGANS_hoganstand/sidebar_1_homepage -->
+        <div class="hs-ad hs-ad--mrec">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="sidebar_1_homepage"></div>
+</div>
+
+        </div>
+
+        
+
+    <section id="ForumSection" class="hs-module">
+        <h2 class="hs-module__title"><a href="/Forum">Latest Forum Posts</a></h2>
+        <ul class="hs-module__body">
+            <li class="hs-forum-post">
+                <a class="hs-forum-post__title" href='/Forum/Details/111146?county=National&Latest=1#Latest'>Leitrim GAA thread</a>
+                <div class="hs-forum-post__meta">
+                    <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 10241</span>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T21:46:09"><i class="fa fa-clock-o" aria-hidden="true"></i> 7h ago</time>
+                </div>
+            </li>
+            <li class="hs-forum-post">
+                <a class="hs-forum-post__title" href='/Forum/Details/113928?county=National&Latest=1#Latest'>Looking Towards Football 2027</a>
+                <div class="hs-forum-post__meta">
+                    <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 71</span>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T21:33:27"><i class="fa fa-clock-o" aria-hidden="true"></i> 8h ago</time>
+                </div>
+            </li>
+            <li class="hs-forum-post">
+                <a class="hs-forum-post__title" href='/Forum/Details/85420?county=National&Latest=1#Latest'>International Rules</a>
+                <div class="hs-forum-post__meta">
+                    <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 695</span>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T20:48:00"><i class="fa fa-clock-o" aria-hidden="true"></i> 8h ago</time>
+                </div>
+            </li>
+            <li class="hs-forum-post">
+                <a class="hs-forum-post__title" href='/Forum/Details/113609?county=National&Latest=1#Latest'>Wexford Club Hurling 2026</a>
+                <div class="hs-forum-post__meta">
+                    <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 786</span>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T20:42:22"><i class="fa fa-clock-o" aria-hidden="true"></i> 9h ago</time>
+                </div>
+            </li>
+            <li class="hs-forum-post">
+                <a class="hs-forum-post__title" href='/Forum/Details/114035?county=National&Latest=1#Latest'>Ulster Club Championship</a>
+                <div class="hs-forum-post__meta">
+                    <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 3</span>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T20:41:52"><i class="fa fa-clock-o" aria-hidden="true"></i> 9h ago</time>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+
+        <!-- 
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link@footballNavClass" id="results-football-tab" href="#Football" role="tab"
+                   data-bs-toggle="tab" aria-controls="Football" aria-selected="false">Football</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link@hurlingNavClass" id="results-hurling-tab" href="#Hurling" role="tab"
+                   data-bs-toggle="tab" aria-controls="Hurling" aria-selected="true">Hurling</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+
+            <div class="tab-pane fade@footballPaneClass" id="Football" role="tabpanel" aria-labelledby="results-football-tab">
+                <div id="ResultsCompactSection">
+                    <h2 class='SectionHeader'>Football Diary</h2>
+                    <p><b>NO LONGER IN USE</b></p>
+
+                </div>
+            </div>
+            <div class="tab-pane fade@hurlingPaneClass" id="Hurling" role="tabpanel" aria-labelledby="results-hurling-tab">
+                <div id="ResultsCompactSection">
+                    <h2 class='SectionHeader'>Hurling Diary</h2>
+                    <p><b>NO LONGER IN USE</b></p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link@footballNavClass" id="league-football-tab" href="#LeagueFootball" role="tab"
+                   data-bs-toggle="tab" aria-controls="LeagueFootball" aria-selected="false">Football</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link@hurlingNavClass" id="league-hurling-tab" href="#LeagueHurling" role="tab"
+                   data-bs-toggle="tab" aria-controls="LeagueHurling" aria-selected="true">Hurling</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+
+            <div class="tab-pane fade@footballPaneClass" id="LeagueFootball" role="tabpanel" aria-labelledby="league-football-tab">
+                <div id="LeagueTablesSection">
+                    <h3 class='SectionHeader'>Football Tables</h3><br />
+                    <table align="center" border="0" cellpadding="2" cellspacing="0" style="table-responsive">
+	<tbody>
+		<tr>
+			<th>Allianz FL1 2026</th>
+			<th>P</th>
+			<th>W</th>
+			<th>D</th>
+			<th>L</th>
+			<th>Dif</th>
+			<th>Pts</th>
+		</tr>
+		<tr>
+			<td>Donegal <strong>(F)</strong></td>
+			<td>7</td>
+			<td>5</td>
+			<td>1</td>
+			<td>1</td>
+			<td>17</td>
+			<td>11</td>
+		</tr>
+		<tr>
+			<td>Kerry <strong>(F)</strong></td>
+			<td>7</td>
+			<td>4</td>
+			<td>2</td>
+			<td>1</td>
+			<td>33</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>Mayo</td>
+			<td>7</td>
+			<td>5</td>
+			<td>0</td>
+			<td>2</td>
+			<td>26</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>Roscommon</td>
+			<td>7</td>
+			<td>4</td>
+			<td>0</td>
+			<td>3</td>
+			<td>-17</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>Galway</td>
+			<td>7</td>
+			<td>3</td>
+			<td>2</td>
+			<td>2</td>
+			<td>7</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>Armagh</td>
+			<td>7</td>
+			<td>2</td>
+			<td>1</td>
+			<td>4</td>
+			<td>5</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>Dublin <strong>(R)</strong></td>
+			<td>7</td>
+			<td>2</td>
+			<td>0</td>
+			<td>5</td>
+			<td>&nbsp;-4</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Monaghan <strong>(R)</strong></td>
+			<td>7</td>
+			<td>0</td>
+			<td>0</td>
+			<td>7</td>
+			<td>-67</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td colspan="7">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+                    <center><a href='/LeagueTables/'>Click here for all tables</a></center>
+                </div>
+            </div>
+            <div class="tab-pane fade@hurlingPaneClass" id="LeagueHurling" role="tabpanel" aria-labelledby="league-hurling-tab">
+                <div id="LeagueTablesSection">
+                    <h3 class='SectionHeader'>Hurling Tables</h3><br />
+                    <table align="center" border="0" cellpadding="2" cellspacing="0" style="table-responsive">
+	<tbody>
+		<tr>
+			<th>Leinster SHC 2026</th>
+			<th>P</th>
+			<th>W</th>
+			<th>D</th>
+			<th>L</th>
+			<th>Dif</th>
+			<th>Pts</th>
+		</tr>
+		<tr>
+			<td>Dublin</td>
+			<td>5</td>
+			<td>4</td>
+			<td>1</td>
+			<td>0</td>
+			<td>27</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<td>Galway</td>
+			<td>5</td>
+			<td>4</td>
+			<td>0</td>
+			<td>1</td>
+			<td>39</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>Offaly&nbsp;</td>
+			<td>5</td>
+			<td>2</td>
+			<td>2</td>
+			<td>1</td>
+			<td>12</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>Kilkenny</td>
+			<td>5</td>
+			<td>2</td>
+			<td>1</td>
+			<td>2</td>
+			<td>18</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>Wexford</td>
+			<td>5</td>
+			<td>1</td>
+			<td>0</td>
+			<td>4</td>
+			<td>-28</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Kildare</td>
+			<td>5</td>
+			<td>0</td>
+			<td>0</td>
+			<td>4</td>
+			<td>-68</td>
+			<td>0</td>
+		</tr>
+	</tbody>
+</table>
+                    <center><a href='/LeagueTables/'>Click here for all tables</a></center>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
+        
+
+    <section id="PollSection" class="hs-module">
+        <h2 class="hs-module__title">HoganStand Poll</h2>
+        <div class="hs-module__body">
+            <p class="hs-poll-question">Who would you pick as Ladies Footballer of the Year?</p>
+            <form action="/Poll/Vote" method="post">
+                <div class="form-check"><input class="form-check-input" id="poll-option-1" type="radio" name="VoteOption" value="Value1"><label class="form-check-label" for="poll-option-1">Aimee Mackin (Armagh)</label></div>
+                <div class="form-check"><input class="form-check-input" id="poll-option-2" type="radio" name="VoteOption" value="Value2"><label class="form-check-label" for="poll-option-2">Olivia Divilly (Galway)</label></div>
+
+                    <div class="form-check"><input class="form-check-input" id="poll-option-3" type="radio" name="VoteOption" value="Value3"><label class="form-check-label" for="poll-option-3">S&#xED;ofra O&#x27;Shea (Kerry)</label></div>
+
+                <input name='votebutton' id='votebutton' type='submit' class='btn hs-btn-default w-100' value='Vote' />
+            </form>
+        </div>
+    </section>
+
+
+        <div class="d-none d-md-block">
+        <!-- GAM 71161633/HOGANS_hoganstand/sidebar_2_homepage -->
+        <div class="hs-ad hs-ad--mrec">
+    <span class="hs-ad__label">Advertisement</span>
+    <div data-fuse="sidebar_2_homepage"></div>
+</div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+        <footer class="footer">
+            <div class="footer__grid">
+                <div>
+                    <a class="footer__brand" href="/">
+                        <img src="/styles/images/bannersmall.gif" alt="HoganStand" width="275" height="50" />
+
+                    </a>
+                </div>
+                <nav aria-label="Footer sections">
+                    <h2>Sections</h2>
+                    <a href="/Football/">Football</a>
+                    <a href="/Hurling/">Hurling</a>
+                    <a href="/Forum/">Forum</a>
+                    <a href="/Fixtures/">Fixtures</a>
+                </nav>
+                <nav aria-label="Footer information">
+                    <h2>Information</h2>
+                    <a href="/Counties/">Counties</a>
+                    <a href="/Home/Privacy/">Privacy Policy</a>
+                    <a href="/Contact" title="Contact">Contact Us</a>
+                    <a href="/rss/">RSS Feed</a>
+                </nav>
+                <div class="footer__social">
+                    <h2>Follow HoganStand</h2>
+                    <a href="https://www.facebook.com/GAAhoganstand" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                    <a href="https://www.instagram.com/hoganstandgaa" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    <a href="https://www.x.com/hoganstandgaa" title="X / Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>X / Twitter</span></a>
+                </div>
+            </div>
+            <p class="footer__legal">© DG Press</p>
+        </footer>
+</div>
+
+    
+    
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/hogan.js?v=GcW0IoxMeOz_UK32leHUZAQQUILYGeUNlIdGj-4dsus"></script>
+        <script src="/js/pwa-install-prompt.js?v=7V7byPCalgPuRfOvxG_9UEUfDZodnseD8L12rJ2vHJs"></script>
+    
+
+    
+
+
+    <script>
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', async () => {
+                try {
+                    const registration = await navigator.serviceWorker.register('/sw.js', {
+                        scope: '/'
+                    });
+
+                    console.log('[PWA] Service Worker registered successfully:', registration.scope);
+
+                    // Check for service worker updates
+                    registration.addEventListener('updatefound', () => {
+                        const newWorker = registration.installing;
+                        if (newWorker) {
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    newWorker.postMessage({ type: 'SKIP_WAITING' });
+                                }
+                            });
+                        }
+                    });
+
+                } catch (error) {
+                    console.log('[PWA] Service Worker registration failed:', error);
+                }
+            });
+        } else {
+            console.log('[PWA] Service Worker not supported');
+        }
+
+        // Legacy install function for backward compatibility
+        window.installPWA = function() {
+            if (window.pwaInstallPrompt && typeof window.pwaInstallPrompt.showManualInstallPrompt === 'function') {
+                window.pwaInstallPrompt.showManualInstallPrompt();
+            } else {
+                console.log('[PWA] Install prompt not yet available');
+            }
+        };
+
+        // Force install function - bypasses all dismissal settings
+        window.forceInstallPWA = function() {
+            const tryPrompt = () => {
+                if (!window.pwaInstallPrompt) {
+                    return false;
+                }
+
+                if (typeof window.pwaInstallPrompt.forceShowInstallPrompt === 'function') {
+                    window.pwaInstallPrompt.forceShowInstallPrompt();
+                    return true;
+                }
+
+                if (typeof window.pwaInstallPrompt.showManualInstallPrompt === 'function') {
+                    window.pwaInstallPrompt.showManualInstallPrompt();
+                    return true;
+                }
+
+                return false;
+            };
+
+            if (tryPrompt()) {
+                return;
+            }
+
+            console.log('[PWA] Install prompt not yet available, retrying...');
+
+            let retryCount = 0;
+            const maxRetries = 10;
+            const retryInterval = setInterval(() => {
+                retryCount++;
+
+                if (tryPrompt()) {
+                    clearInterval(retryInterval);
+                    return;
+                }
+
+                if (retryCount >= maxRetries) {
+                    clearInterval(retryInterval);
+                    console.error('[PWA] Install prompt failed to load after retries');
+                    alert('PWA install feature is currently loading. Please try again in a moment.');
+                }
+            }, 200);
+        };
+
+        // Show header install button when install prompt is available
+        window.addEventListener('beforeinstallprompt', () => {
+            const headerBtn = document.getElementById('pwa-install-header-btn');
+            if (headerBtn && window.pwaInstallPrompt && !window.pwaInstallPrompt.isInstalled) {
+                headerBtn.style.display = 'inline-block';
+            }
+        });
+
+        // Hide header button when app is installed
+        window.addEventListener('appinstalled', () => {
+            const headerBtn = document.getElementById('pwa-install-header-btn');
+            if (headerBtn) {
+                headerBtn.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
