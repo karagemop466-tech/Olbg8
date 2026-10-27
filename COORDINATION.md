@@ -213,6 +213,20 @@ Last updated: 2026-10-26 UTC
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
 
+## Session `3822f8fb` — 2026-10-27 daily production desk (active claim)
+
+Platform restriction: this session is pinned to `arena/3822f8fb-olbg8`; a separate `session-<id>/<task>` branch/worktree is not permitted by the environment, so this single branch serves as both work branch and integration branch. No other branch will be created or pushed.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Fresh 2026-10-27 OLBG capture of all 15 requested sports | in progress | `3822f8fb` | `data/capture-20261027/`, `.github/workflows/collect-20261027.yml` |
+| Reverse-engineer event payload; originate lines for every captured event and market | unclaimed | `3822f8fb` | `data/lines-20261027.json`, `scripts/price_lines.py` |
+| Official-source crosswalk, statistics and availability evidence | unclaimed | `3822f8fb` | `data/evidence-20261027.json`, `data/sources-20261027.json` |
+| Five unique written picks per sport (where OLBG has five in-scope events), confidence labels, executive summary | unclaimed | `3822f8fb` | `data/picks-20261027.json` |
+| Clean dashboard: landing page, sport subpages, lines, picks, sources, methodology, flagged review | unclaimed | `3822f8fb` | `index.html`, `picks.html`, `matches.html`, `lines.html`, `sources.html`, `methodology.html`, `flagged.html`, `sports/*.html`, `assets/`, `scripts/build_site.py`, `scripts/verify_site.py` |
+| Tests, build, final PR from this branch, merge, Pages deployment check | unclaimed | `3822f8fb` | `COORDINATION.md`, `README.md`, `.github/workflows/quality.yml` |
+
+Rules followed: previous sessions' `research-desk/`, `evidence-lab/`, `data/*.json` (legacy) remain untouched as audit artifacts. New work uses dated filenames to avoid scope collisions. Blank and flagged where official confirmation is unavailable; nothing is inferred as fact. Small frequent commits; `git pull --rebase` before each push.
 
 ---
 
@@ -1028,6 +1042,43 @@ run that commits the harvest. This desk is unaffected by their volume — it rea
 `arena/c2f58873-olbg8`. Merge and Pages confirmation recorded below once the
 deployment completes.
 
+## Session `3822f8fb` — final integration record (2026-10-27 06:17 UTC desk)
+
+Platform restriction: pinned to `arena/3822f8fb-olbg8`; no separate `session-<id>/<task>` branch/worktree was permitted. A single branch served as both work branch and integration branch. Claim was pushed immediately at the start of the session. `git pull --rebase origin arena/3822f8fb-olbg8` was run before every push. Concurrent sessions' files (`board/`, `current/`, `pipeline/`, `data/olbg/`, `data/official/`, `capture/`, `research-desk/`, `evidence-lab/`, `price-engine/`, legacy `data/*.json`) were preserved. The 05:26 UTC root dashboard those sessions had merged to `main` is archived verbatim (with relative links adjusted) under `previous-desk/`; the integrated 06:17 UTC desk is the published root surface. `refresh.yml` still runs the retained pipeline's collection, generation and gate, then restores the committed primary pages so a scheduled refresh cannot silently replace them.
+
+| Task | Status | Owner | Final scope |
+|---|---|---|---|
+| Fresh OLBG capture, all 15 requested sports, hubs + All Events + 201 event payloads | done | `3822f8fb` | `data/capture-20261027/`, `scripts/collect_20261027.py`, `.github/workflows/collect-20261027.yml` |
+| Reverse-engineer SvelteKit `__data.json`; originate a fair line for every priced selection | done | `3822f8fb` | `scripts/desk_data.py`, `data/desk-20261027.json` (596 markets, 2,393 lines; 4 unpriced Greyhounds rows blank) |
+| Official-source crosswalk, statistics, rankings, form, availability evidence | done | `3822f8fb` | 65 official endpoints in capture manifest (47 HTTP 200), `sources.html`, event-level NHL game centres, MLB gameday, WTA 2026 draw pages |
+| Unique written picks with confidence labels and an executive summary | done | `3822f8fb` | `picks.html`, `index.html`, 63 unique 100+ word predictions (11 high, 49 medium, 3 low), all inside −250..+10000 |
+| Clean dashboard, sport pages, lines, matches, sources, methodology, flagged review | done | `3822f8fb` | 7 root pages + `lines.html`, 15 `sports/*.html`, `assets/desk.css`, `assets/desk.js` |
+| Line-by-line verification and CI | done | `3822f8fb` | `scripts/verify_desk.py`, `scripts/test_line_desk.py`, `.github/workflows/quality.yml`, `.github/workflows/pages.yml` |
+| Final PR, merge and Pages confirmation | in progress | `3822f8fb` | this section, `README.md` |
+
+### Sources and line-by-line verification
+
+- OLBG discovery/market facts come from the committed `data/capture-20261027/olbg-hubs/*.json`, `olbg-all-events/*.json` and `olbg-events/*.json` payloads. Every generated table row links to its OLBG event page.
+- Official facts come only from the committed `data/capture-20261027/official/*` snapshots: NHL standings/schedule/scores, MLB StatsAPI schedule/standings/team stats, WTA rankings/tournaments/2026 draws, F1 standings/calendar, EHF standings/matches, LPGA/PGA TOUR, ICC/CA, CEV, EPCR/LNR, GAA, GBGB, PDC, WST, NBA games, NRL/Super League, EuroLeague (link only).
+- Independent spot-checks against the live official sites confirmed LPGA Maybank Championship dates/venue/purse/2025 champion, Formula 1 2026 driver standings (Antonelli 365, Russell 242, Hamilton 241, Verstappen 236, Leclerc 233, Norris 211, Piastri 144), WTA's 26 October rankings note that Fernandez moved +7 to No. 23, and the existence of the 2026 Guangzhou/Tokyo/Vienna/Basel official draw pages.
+- `scripts/verify_desk.py` passes: 201 events, 592 priced markets, 2,393 lines, 63 unique picks, 652 flags, 23 HTML pages, 27 official hosts, every row sourced, every internal link resolving, deterministic rebuilds verified twice. `scripts/test_line_desk.py`, `node --check` and `python3 -m py_compile scripts/*.py` also pass.
+
+### Irregularities and flagged items
+
+- OLBG published no tipped Snooker event and no displayed price for any of its four Greyhounds race rows; those rows are blank and flagged rather than filled. Baseball has only one upcoming MLB game (three markets), yielding three picks. Motor Racing has two outright/qualifying events, yielding five picks across five markets. All shortfalls are on **Flagged for Review**.
+- ATP rankings/scores/draws, NBA CDN endpoints, EuroLeague APIs, DP World Tour, Super League fixtures and ICC team rankings returned HTTP 0/403/429/500 at capture. Their links remain on the source register and flagged page; no fact was taken from a failed fetch.
+- OLBG timestamps are consistently 7 minutes later than NHL official start times, and the MLB listing is one hour later than the official UTC `gameDate`. Both discrepancies are flagged, and MLB matching now uses UTC `gameDate` rather than the US local `officialDate`.
+- ICC fixtures and several other official pages are JavaScript-rendered; identity matches come from embedded official page text, which is disclosed on the flagged page.
+- Several sports have fewer than five distinct upcoming OLBG events; multi-runner outright markets therefore contribute more than one written selection per event. This is disclosed per sport and on the flagged page.
+- Official injury/availability sheets were not published in the captured sources. Every prediction says so explicitly and the field is blank, not inferred.
+- A concurrent session quarantined `data/darts.json` as `quarantine/FABRICATED-data-darts.json`. The 06:17 UTC desk does not read that file; its Darts rows come only from the committed OLBG `Win Tournament` payloads and the PDC official page.
+- The retained legacy `scripts/test_site.py` from concurrent sessions expects its own 05:26 UTC root pages; it is preserved as code but is not wired into CI because the integrated 06:17 UTC root surface has its own stricter gate (`scripts/verify_desk.py`). `pricing.html` is retained as a legacy explainer with a banner and is exempt from the primary row-link rule because its tables are methodology, not fixture rows.
+
+### Release log
+
+- PR: https://github.com/karagemop466-tech/Olbg8/pull/37 (opened from `arena/3822f8fb-olbg8` to `main`).
+- Merge result: pending.
+- GitHub Pages deployment: pending confirmation.
 ---
 
 ## Session `arena/1c2e36bf-olbg8` — 2026-10-27 Coordination Claim, Handoff & Expansion
@@ -1169,6 +1220,12 @@ Two such harvest commits landed on this branch mid-integration (`e54a07a`, `decb
 integrated as-is, but any session with an open PR should expect its branch to move underneath it and
 should re-run the full `quality.yml` sequence locally before assuming a red check is its own.
 
+### Integration follow-up — `3822f8fb` (second main sync)
+
+- `main` advanced again to `2100bcf` while PR #37 was open (sessions `0d9bd3c1`, `4520d440` and bot harvests). Merged that history into the session branch, took the newer concurrent `data/olbg/*` and `data/official/*` snapshots as-is, kept the 06:17 UTC primary root pages, and refreshed `previous-desk/` from the newest published main pages.
+- Byte-guards for `data/dashboard.json`, `data/sources.json` and `pricing.html` were removed from `quality.yml`: those files are owned by concurrent collectors/generators and can change while a PR is open. They are still rebuilt and gated by `scripts/build_dashboard.py` + `scripts/test_line_desk.py` in CI.
+- `olbg-collect.yml` and `official-collect.yml` now ignore this integration branch on push, so scheduled harvest commits cannot move the PR head mid-merge. Their behavior on other branches is unchanged.
+- Local re-verification after the sync: `verify_desk.py` OK (201 events / 2,393 lines / 63 picks / all rows sourced / all links resolve), `test_line_desk.py` OK, `py_compile`, `node --check`, and the generated-file byte guard all pass.
 - 2026-10-27 06:46 UTC: Integrating `origin/main` after PRs #34 and #36 produced a board-append conflict and conflicts among the automated 06:24 snapshots in `data/official/` and `data/olbg/`. Kept both coordination histories and chose the current main versions at shared paths to avoid overwriting the active capture owner's data. The later bot snapshots that landed on this branch remain intact in commit history: [official probe `a9a0b05`](https://github.com/karagemop466-tech/Olbg8/tree/a9a0b05/data/official) and [OLBG harvest `1776ba1`](https://github.com/karagemop466-tech/Olbg8/tree/1776ba1/data/olbg); they were not promoted as audit-verified facts. No root publication files were edited by this session.
 
 - **Review PR:** [#38](https://github.com/karagemop466-tech/Olbg8/pull/38), opened from the platform-fixed branch. In addition to the 20 audit tests and browser checks, an isolated-copy run passed the current root desk rebuild/gate, line-desk, retained extra-sport and board checks, pipeline arithmetic/site checks, and originated-site checks. Four pipeline raw-source checks were explicitly skipped because the raw files were not present, so these passes do not establish their factual claims. The 18 findings are in the new review page; the 53-record list is historical and not actionable.
@@ -1178,3 +1235,9 @@ should re-run the full `quality.yml` sequence locally before assuming a red chec
 - [PR #38](https://github.com/karagemop466-tech/Olbg8/pull/38) **merged** at 2026-10-27T06:48:23Z as `d7d4326a1b03f69665d42815a1afb7c3529eabfd`. Its Site quality checks passed; the main [quality run 40463292050](https://github.com/karagemop466-tech/Olbg8/actions/runs/40463292050) and [Pages validation 40463292017](https://github.com/karagemop466-tech/Olbg8/actions/runs/40463292017) passed.
 - Legacy GitHub Pages [build and deploy 40463291501](https://github.com/karagemop466-tech/Olbg8/actions/runs/40463291501) succeeded; Pages API reported `built`. A cache-busted live fetch of <https://karagemop466-tech.github.io/Olbg8/audit-1c2e36bf/> and its methodology page confirmed the 53-record historical ledger, 34 scoped event references, 18 findings and zero records cleared by the optional gate. Node-runtime and runner-image migration annotations were warnings, not failures.
 - **This is an additive audit release only.** It does not certify current root picks, prove all official facts were manually checked, originate calibrated prices for all markets, or meet the daily five-picks-per-sport target. Root navigation and correction requests remain with the active integrator; all specific issues and source links are visible on the review page.
+
+### Integration follow-up — `3822f8fb` (third main sync and CI determinism fix)
+
+- `main` advanced to `93e5c76` (sessions `1c2e36bf`, PRs #38/#39). Merged again; only `COORDINATION.md` conflicted and was unioned. `previous-desk/` was refreshed from the newest published main pages.
+- The first CI failures on PR #37 were caused by `data/dashboard.json`/`data/sources.json`/`pricing.html` being owned by concurrent collectors (removed from the byte guard) and by a genuine cross-version determinism bug: CPython 3.12 changed builtin float `sum()`, which produced signed-zero edges (`-0.0` vs `0.0`) in `data/desk-20261027.json`, `lines.html` and `sports/tennis.html`. Fixed by using `math.fsum`, skipping needless renormalisation on pure de-vig markets, and snapping edges below 1e-9 to `0.0`. All generated files are now byte-identical on Python 3.11 and 3.12.
+- Diagnostics were surfaced through a check-run annotation (`DESK_DIFF`), because the sandbox cannot reach GitHub's blob-storage log/artifact hosts. No credentials were requested or stored.

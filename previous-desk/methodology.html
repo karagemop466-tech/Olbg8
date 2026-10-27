@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Structure of OLBG listings, market inventory and the time-label finding.">
+<title>Method and market inventory · OLBG research desk</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
+  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="on" href="methodology.html">Method</a><a class="" href="flagged.html">Flagged for review</a><a class="" href="originated/index.html">Deep analysis</a></nav>
+  <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
+</header>
+<div class="wrap">
+<section class="pagemast"><h1>Reverse-engineering the OLBG tips pages</h1>
+<p class="lede">How the site is put together, what the numbers on OLBG actually mean, and which markets exist per sport.</p></section>
+<section>
+<h2>The structure of an OLBG listing</h2>
+<ol class="readout">
+<li><b>Category page</b> — <code>olbg.com/betting-tips/&lt;Sport&gt;/&lt;id&gt;</code>. One card per event, ordered by the number of tips on
+the most popular selection. It prints the event name, a relative time label, the selection, the market, “x/y Win Tips”, the confidence
+percentage, and counts of experts and comments.</li>
+<li><b>Event page</b> — reached from the card. It shows “Most Popular Tip” as a complete table of every selection in the market with its
+own “x / y” and percentage, then repeats each market below with the same figures plus one tipster comment and that tipster's annual
+profit, strike rate, 30-day and 7-day numbers.</li>
+<li><b>What the percentage is.</b> It is the share of tips on that outcome out of the tips on that market, not a win rate and not an
+implied probability from a bookmaker. OLBG says so in its own Value Rating definition, and the totals confirm it: on New Zealand v India
+the two sides are 35 and 15 of 50, which sums to the denominator.</li>
+<li><b>What is missing.</b> The betslip price comparison is rendered after a click, so no bookmaker price exists in the readable markup.
+Every number in the “our line” column on this site therefore came from this desk, not from a book.</li>
+</ol>
+</section>
+<section><h2>Markets found today, by name</h2><p class="fine">Anything outside this list was not exposed by OLBG for the events captured.</p>
+<ul class="mklist"><li>Game Totals</li><li>Grand Final Winner</li><li>Handicap</li><li>Man Of The Match</li><li>Match Handicap</li><li>Money Line</li><li>Podium Finish</li><li>Points Total</li><li>Pointspread</li><li>Puck Line</li><li>Run Line</li><li>To Win</li><li>Top Team1 Batsman</li><li>Win Hurling</li><li>Win Match</li><li>Win Tournament</li></ul></section>
+<section><h2>Time labels</h2><p>OLBG prints “Today 21:00” style labels with no zone. Four fixtures checked against official start times all
+land on UTC−4 — Columbus at Philadelphia printed 19:07 against an official 23:00Z start, Boston at Carolina 20:07 against 00:00Z,
+Kielce 15:45 against a 19:45Z kick-off, and Wellington 03:00 against a 07:00Z start. Tampa Bay and the Mexican Grand Prix each sit an
+hour further out than that rule predicts, so the raw label is kept on every row, the official UTC time is quoted in words where it was
+found, and nothing on this site claims a kick-off time from OLBG's label alone.</p></section>
+<section><h2>What this site will not do</h2><ul class="nc">
+<li>Publish a price for a market that had no tips. Two totals markets today (the World Series Game 5 line at 7.5 and the Kielce points
+total at 63.5) carry zero volume; both are left unpriced rather than filled from a prior.</li>
+<li>Turn an outright into a confidence bet. Four sports' OLBG coverage is outrights only, and a share of a handful of tips across a
+128-player field is a popularity index, not a price.</li>
+<li>Treat an OLBG paragraph as a fact. Tipster comments are quoted as opinions attributed to OLBG's crowd, never restated as scouting.</li>
+<li>Claim five picks a sport when the evidence covers three. Every shortfall is named on the overview ledger.</li>
+</ul></section></div>
+<footer class="foot">
+  <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
+  an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="../board/index.html">board/</a>, a collector's live capture at <a href="../current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="../evidence-lab/index.html">evidence-lab/</a> and <a href="../research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
+</footer>
+</body></html>

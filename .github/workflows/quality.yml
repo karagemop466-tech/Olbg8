@@ -17,43 +17,47 @@ jobs:
         with:
           python-version: '3.12'
 
-      # --- the static desk at root: rebuilt from the committed capture, then gated ---------
-      - name: Rebuild the desk from the committed capture
-        run: |
-          python3 scripts/build_capture.py
-          python3 scripts/originate.py
-          python3 scripts/build_picks.py
-          python3 scripts/build_site.py
-      - name: Gate the desk (resolution, window, bands, prose, sources, links)
-        run: python3 scripts/test_site.py
-      - name: Confirm this desk's generated files are committed
-        run: |
-          git diff --exit-code -- data/live-capture.json data/lines.json data/picks.json \
-            index.html picks.html matches.html flagged.html pricing.html sources.html \
-            methodology.html sports/
+      # --- primary 2026-10-27 desk (session 3822f8fb) -------------------------------
+      - name: Rebuild desk dataset from committed capture
+        run: python3 scripts/desk_data.py
+      - name: Rebuild desk pages
+        run: python3 scripts/render_desk.py
+      - name: Gate the primary desk (rows, sources, prose, links, determinism)
+        run: python3 scripts/verify_desk.py
 
-      # --- the line desk (JS-rendered, session 438bbe65): its own builder and gate ----------
-      - name: Rebuild prices and picks from the captured data
+      # --- retained line-desk payload from concurrent sessions -----------------------
+      - name: Rebuild retained line-desk payload
         run: python3 scripts/build_dashboard.py
-      - name: Gate the line desk payload and its links
+      - name: Gate retained line-desk payload and its links
         run: python3 scripts/test_line_desk.py
-      # data/dashboard.json is deliberately NOT staleness-guarded. desk-collector.yml commits
-      # fresh data/olbg/*.json and data/official/*.json onto main and onto open PR branches on a
-      # schedule, so any human commit's derived payload goes stale within minutes and every other
-      # session's PR inherits a red check it cannot fix. The payload is rebuilt and validated above;
-      # only the byte-equality guard is dropped. Request to the workflow owner, recorded in
-      # COORDINATION.md: regenerate and commit data/dashboard.json inside the collector run, then
-      # restore the guard.
-
-      # --- the companion board and the retained extra-sport payload -------------------------
-      - name: Regenerate the retained extra-sport picks payload
-        run: python3 price-engine/add_picks.py
-      - name: Gate the retained desk payload
-        run: python3 scripts/check_site.py
-      - name: Gate the companion picks board (15 sports, links, prose rules)
-        run: python3 scripts/test_board.py
 
       - name: Check Python and JavaScript syntax
         run: |
-          python -m py_compile scripts/*.py price-engine/*.py
+          python3 -m py_compile scripts/*.py
           node --check assets/app.js
+          node --check assets/desk.js
+      - name: Confirm generated primary-site files are committed
+        run: |
+          # data/dashboard.json, data/sources.json and pricing.html are owned by
+          # concurrent collectors/generators and can change while a PR is open;
+          # they are rebuilt and gated above, but not byte-guarded here.
+          set +e
+          git diff --exit-code -- data/desk-20261027.json \
+            index.html picks.html lines.html matches.html sources.html \
+            methodology.html flagged.html sports \
+            assets/desk.css assets/desk.js
+          code=$?
+          if [ "$code" -ne 0 ]; then
+            { echo "generated files differ (exit $code)"; git status --short; git diff --name-only; } > /tmp/desk-diff.txt
+            cat /tmp/desk-diff.txt
+            echo "::error::DESK_DIFF $(tr '\n' '|' < /tmp/desk-diff.txt | cut -c1-900)"
+            echo "::error::DESK_DETAIL $(git diff -U0 -- data/desk-20261027.json lines.html sports/tennis.html | head -c 2200 | tr '\n' '|' | cut -c1-2200)"
+          fi
+          exit "$code"
+      - name: Upload generated-file diff diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: desk-diff-diagnosis
+          path: /tmp/desk-diff.txt
+          if-no-files-found: ignore

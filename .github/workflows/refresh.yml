@@ -37,12 +37,16 @@ jobs:
       - name: Originate lines and write predictions
         working-directory: pipeline
         run: python3 build.py
-      - name: Generate site
-        run: python3 pipeline/site.py
-      - name: Verify every published row
-        working-directory: pipeline
-        run: python3 check.py
-      - name: Commit refreshed desk
+      # The retained pipeline still regenerates and checks its own desk, but the
+      # integrated 06:17 UTC site at the repository root is the published surface.
+      # Restore the committed primary pages immediately after the legacy gate so a
+      # scheduled refresh cannot silently replace the verified dashboard.
+      - name: Generate and gate retained desk, then restore primary pages
+        run: |
+          python3 pipeline/site.py
+          (cd pipeline && python3 check.py)
+          git checkout HEAD -- index.html picks.html matches.html sources.html methodology.html flagged.html sports/
+      - name: Commit refreshed desk data
         run: |
           git config user.name "olbg-research-bot"
           git config user.email "actions@users.noreply.github.com"
