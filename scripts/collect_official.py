@@ -100,6 +100,41 @@ def probe_registry() -> list[dict[str, str]]:
     add("Gaelic Football", "gaa-fixtures", "https://www.gaa.ie/fixtures-results", "html")
     add("Greyhounds", "gbgb-racing", "https://www.gbgb.org.uk/racing/", "html")
 
+
+    # ---- round 2: fill the sports where the first pass failed ----
+    add("Basketball", "espn-nba-scoreboard", "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard")
+    add("Basketball", "espn-nba-teams", "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams")
+    add("Basketball", "nba-schedule-v2", "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json")
+    add("Basketball", "espn-euroleague-scoreboard", "https://site.api.espn.com/apis/site/v2/sports/basketball/eur/scoreboard")
+
+    add("Cricket", "espn-cricket-generic", "https://site.api.espn.com/apis/site/v2/sports/cricket/scoreboard")
+    add("Cricket", "espn-cricket-8039", "https://site.api.espn.com/apis/site/v2/sports/cricket/8039/scoreboard")
+    add("Cricket", "espn-cricket-web", "https://site.web.api.espn.com/apis/site/v2/sports/cricket/scoreboard?region=gb&lang=en")
+    add("Cricket", "icc-home", "https://www.icc-cricket.com/", "html")
+
+    add("Snooker", "snooker-matches-http", "http://api.snooker.org/?t=5&s=2026")
+    add("Snooker", "wst-wp-posts", "https://wst.tv/wp-json/wp/v2/posts?per_page=10")
+    add("Snooker", "wst-matches", "https://wst.tv/matches/", "html")
+
+    add("Darts", "pdc-wp-posts", "https://www.pdc.tv/wp-json/wp/v2/posts?per_page=10")
+
+    add("Gaelic Football", "gaa-wp-posts", "https://www.gaa.ie/wp-json/wp/v2/posts?per_page=10")
+    add("Hurling", "gaa-wp-hurling", "https://www.gaa.ie/wp-json/wp/v2/posts?per_page=10&search=hurling")
+
+    add("Greyhounds", "gbgb-wp-posts", "https://www.gbgb.org.uk/wp-json/wp/v2/posts?per_page=10")
+
+    add("Rugby Union", "espn-rugby-270-v2", "https://site.api.espn.com/apis/site/v2/sports/rugby/270/scoreboard?limit=50")
+    add("Rugby Union", "espn-rugby-289-v2", "https://site.api.espn.com/apis/site/v2/sports/rugby/289/scoreboard?limit=50")
+    add("Rugby Union", "epcr-matches", "https://www.epcrugby.com/champions-cup/matches", "html")
+
+    add("Volleyball", "cev-wp-posts", "https://www.cev.eu/wp-json/wp/v2/posts?per_page=10")
+    add("Volleyball", "volleyballworld", "https://en.volleyballworld.com/volleyball/competitions/", "html")
+
+    add("Handball", "ehf-wp-posts", "https://www.eurohandball.com/wp-json/wp/v2/posts?per_page=10")
+
+    add("Motor Racing", "f1-official-calendar", "https://www.formula1.com/en/racing/2026", "html")
+    add("Tennis", "atp-scores", "https://www.atptour.com/en/scores/current", "html")
+
     # Generic cross-sport ratings that publish licence-free data
     add("Tennis", "espn-atp-athletes", "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/athletes")
     return entries
