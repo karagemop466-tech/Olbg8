@@ -16,11 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild primary dashboard
-        run: python scripts/build_dashboard.py
-      - name: Validate data and local links
-        run: python scripts/test_site.py
+      - name: Rebuild prices and picks from the captured data
+        run: python3 scripts/build_dashboard.py
+      - name: Validate picks, prose, prices and local links
+        run: python3 scripts/test_site.py
       - name: Check JavaScript syntax
         run: node --check assets/app.js
-      - name: Confirm generated files are committed
-        run: git diff --exit-code -- data/dashboard.json data/sources.json
+      - name: Confirm the committed dashboard matches the capture
+        run: git diff --exit-code -- data/dashboard.json

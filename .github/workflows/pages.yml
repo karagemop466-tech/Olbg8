@@ -24,8 +24,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate primary site
+      - name: Rebuild and validate the site
         run: |
+          python3 scripts/build_dashboard.py
           python3 scripts/test_site.py
           python3 -m py_compile scripts/*.py
           node --check assets/app.js
