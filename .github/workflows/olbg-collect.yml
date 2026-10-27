@@ -62,5 +62,8 @@ jobs:
             exit 0
           fi
           git commit -m "data: OLBG harvest $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash origin "${{ github.ref_name }}" || true
-          git push origin "HEAD:${{ github.ref_name }}"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            if git push origin "HEAD:${{ github.ref_name }}"; then echo pushed; break; fi
+            sleep 10
+          done
