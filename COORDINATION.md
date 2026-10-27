@@ -1,5 +1,17 @@
 # Coordination
 
+## Session `arena/6bb9f412-olbg8` — 2026-10-27
+
+Branch is fixed by the platform; no alternate session branch/worktree will be created. This session takes over the prior primary integration's stale in-progress release claim: its last recorded commit was on 2026-10-26, more than 60 minutes ago, and its release was already reported complete. PR #12 remains open under the previous owner and its `research-desk/` scope will not be edited or merged by this session. Preserve all other sessions' history and artifacts.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Audit current OLBG/official-source access, pricing and refresh; implement a current-source discovery and evidence pipeline | in progress | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml` |
+| Final integration of current findings, review flags, tests and release | in progress | `arena/6bb9f412-olbg8` | `COORDINATION.md`, `README.md`, `assets/app.js`, `scripts/test_site.py` (shared outputs edited at final integration only) |
+
+No match, odds, statistics, availability or prediction will be represented as established without a corresponding source check. The requested full pricing and daily predictions remain open until actually supported. Gaelic Sports scope requires review: the primary snapshot excludes hurling while another earlier audit treated hurling as included.
+
+
 Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
 ## Task board
