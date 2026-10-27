@@ -16,11 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild prices and picks from the captured data
-        run: python3 scripts/build_dashboard.py
-      - name: Validate picks, prose, prices and local links
-        run: python3 scripts/test_site.py
+      - name: Unit tests
+        run: python3 -m unittest discover -s pipeline/tests -v
+      - name: Regenerate the site from the committed payload
+        run: python3 pipeline/site.py
+      - name: Line-by-line payload and link checks
+        run: python3 pipeline/check.py
       - name: Check JavaScript syntax
         run: node --check assets/app.js
-      - name: Confirm the committed dashboard matches the capture
-        run: git diff --exit-code -- data/dashboard.json
