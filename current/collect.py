@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -55,7 +56,7 @@ def odds_from(attrs: dict) -> dict | None:
     try:
         decimal = float(attrs.get("data-decimal", ""))
         american = int(attrs.get("data-american", ""))
-        if decimal <= 1 or abs(american) < 100 or abs(american) > 1_000_000:
+        if not math.isfinite(decimal) or decimal <= 1 or abs(american) < 100 or abs(american) > 1_000_000:
             return None
         implied_decimal = 1 + (american / 100 if american > 0 else 100 / -american)
         if abs(decimal - implied_decimal) > max(.04, decimal * .02):
