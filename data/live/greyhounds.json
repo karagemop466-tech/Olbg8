@@ -1,0 +1,286 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "greyhounds",
+ "sport_label": "Greyhounds",
+ "sport_id": 28,
+ "hub_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "event_count": 0,
+ "events": [],
+ "olbg_page_states": "No tips found.",
+ "official_source_cited_by_olbg": "https://www.gbgb.org.uk/ (Greyhound Board of Great Britain - the licensing body OLBG itself names)",
+ "pricing_inputs_available_on_olbg_page": {
+  "summary": "Although OLBG lists no live greyhound races at capture, its hub page carries the reference data a greyhound price actually needs.",
+  "tracks_and_distances_gbgb_licensed": [
+   {
+    "track": "Central Park",
+    "sprint": "265m",
+    "standard": "450m",
+    "standard_second": "480m & 500m",
+    "staying": "642m & 708m"
+   },
+   {
+    "track": "Doncaster",
+    "sprint": "275m",
+    "standard": "450m",
+    "standard_second": "483m",
+    "staying": "661m"
+   },
+   {
+    "track": "Dunstall Park",
+    "sprint": "270m",
+    "standard": "480m",
+    "staying": "660m & 715m"
+   },
+   {
+    "track": "Harlow",
+    "sprint": "238m",
+    "standard": "415m",
+    "standard_second": "592m",
+    "staying": "769m"
+   },
+   {
+    "track": "Hove",
+    "sprint": "285m",
+    "standard": "500m",
+    "standard_second": "515m",
+    "staying": "695m & 740m",
+    "marathon": "955m"
+   },
+   {
+    "track": "Kinsley",
+    "sprint": "268m",
+    "standard": "462m",
+    "staying": "650m"
+   },
+   {
+    "track": "Monmore",
+    "sprint": "264m",
+    "standard": "480m",
+    "staying": "630m & 684m"
+   },
+   {
+    "track": "Newcastle",
+    "sprint": "290m",
+    "standard": "480m",
+    "staying": "640m"
+   },
+   {
+    "track": "Nottingham",
+    "sprint": "255m & 305m",
+    "standard": "480m",
+    "standard_second": "500m",
+    "staying": "680m & 730m"
+   },
+   {
+    "track": "Pelaw Grange",
+    "standard": "435m",
+    "standard_second": "590m"
+   },
+   {
+    "track": "Romford",
+    "sprint": "225m",
+    "standard": "400m",
+    "standard_second": "575m",
+    "staying": "750m"
+   },
+   {
+    "track": "Sheffield",
+    "sprint": "280m",
+    "standard": "480m",
+    "standard_second": "500m",
+    "staying": "660m & 720m"
+   },
+   {
+    "track": "Sunderland",
+    "sprint": "261m",
+    "standard": "450m",
+    "staying": "640m"
+   },
+   {
+    "track": "Towcester",
+    "sprint": "270m",
+    "standard": "500m",
+    "staying": "712m",
+    "marathon": "942m"
+   },
+   {
+    "track": "Valley",
+    "sprint": "260m",
+    "standard": "460m"
+   },
+   {
+    "track": "Yarmouth",
+    "sprint": "277m",
+    "standard": "462m",
+    "staying": "659m"
+   }
+  ],
+  "grading": "Letter = distance category, number = class with 1 highest (A1 stronger than A5). Prefixes: A standard-distance graded, D sprint, S stayers, E marathon, P puppy, OR open race (dogs selected on merit rather than grade).",
+  "field_structure": "Maximum six runners, one per trap. A withdrawn dog may be replaced by a reserve, marked 'R'. Trap jackets: 1 Red, 2 Blue, 3 White, 4 Black, 5 Orange, 6 Black and white stripes.",
+  "trap_and_favourite_stats": "OLBG states the hub page also carries track-by-track trap and favourite statistics. That section is the empirical basis for greyhound pricing: trap draw is the dominant structural edge at most UK tracks.",
+  "derby_winners_last_ten": [
+   {
+    "year": 2026,
+    "venue": "Towcester",
+    "winner": "Lennies Eddie",
+    "trap": 3,
+    "trainer": "Paul Hennessy (Ireland)",
+    "sp": "10/1",
+    "time": "28.20"
+   },
+   {
+    "year": 2025,
+    "venue": "Towcester",
+    "winner": "Droopys Plunge",
+    "trap": 1,
+    "trainer": "Patrick Janssens (Towcester)",
+    "sp": "10/1",
+    "time": "28.76"
+   },
+   {
+    "year": 2024,
+    "venue": "Towcester",
+    "winner": "De Lahdedah",
+    "trap": 4,
+    "trainer": "Liam Dowling (Ireland)",
+    "sp": "5/1",
+    "time": "28.58",
+    "note": "equalled track record"
+   },
+   {
+    "year": 2023,
+    "venue": "Towcester",
+    "winner": "Gaytime Nemo",
+    "trap": 2,
+    "trainer": "Graham Holland (Ireland)",
+    "sp": "9/1",
+    "time": "28.89"
+   },
+   {
+    "year": 2022,
+    "venue": "Towcester",
+    "winner": "Romeo Magico",
+    "trap": 4,
+    "trainer": "Graham Holland (Ireland)",
+    "sp": "5/2",
+    "time": "28.95"
+   },
+   {
+    "year": 2021,
+    "venue": "Towcester",
+    "winner": "Thorn Falcon",
+    "trap": 6,
+    "trainer": "Patrick Janssens (Towcester)",
+    "sp": "7/2",
+    "time": "29.06"
+   },
+   {
+    "year": 2020,
+    "venue": "Nottingham",
+    "winner": "Deerjet Sydney",
+    "trap": 2,
+    "trainer": "Pat Buckley (Ireland)",
+    "sp": "11/4",
+    "time": "29.38"
+   },
+   {
+    "year": 2019,
+    "venue": "Nottingham",
+    "winner": "Priceless Blake",
+    "trap": 3,
+    "trainer": "Paul Hennessy (Ireland)",
+    "sp": "6/1",
+    "time": "29.32"
+   },
+   {
+    "year": 2018,
+    "venue": "Towcester",
+    "winner": "Dorotas Wildcat",
+    "trap": 3,
+    "trainer": "Kevin Hutton (Towcester)",
+    "sp": "2/1",
+    "time": "28.85"
+   },
+   {
+    "year": 2017,
+    "venue": "Towcester",
+    "winner": "Astute Missile",
+    "trap": 4,
+    "trainer": "Seamus Cahill (Hove)",
+    "sp": "28/1",
+    "time": "28.92"
+   }
+  ],
+  "derby_distance_note": "English Greyhound Derby run over 500m, heats through May, final early June. Hosted at Wimbledon 1985-2016, then Towcester apart from 2019 and 2020 at Nottingham.",
+  "oaks_winners_recent": [
+   {
+    "year": 2025,
+    "venue": "Dunstall Park (480m)",
+    "winner": "Butlers Lane",
+    "trap": 5,
+    "trainer": "Barry Denby (Nottingham)",
+    "sp": "7/2",
+    "time": "27.95"
+   },
+   {
+    "year": 2024,
+    "venue": "Perry Barr (480m)",
+    "winner": "Druids Say Go",
+    "trap": 2,
+    "trainer": "Patrick Janssens (Towcester)",
+    "sp": "4/11",
+    "time": "27.82"
+   },
+   {
+    "year": 2023,
+    "venue": "Perry Barr (480m)",
+    "winner": "No Rush",
+    "trap": 6,
+    "trainer": "Carol Weatherall (Monmore)",
+    "sp": "15/8",
+    "time": "28.18"
+   },
+   {
+    "year": 2022,
+    "venue": "Perry Barr (480m)",
+    "winner": "Slick Sakina",
+    "trap": 5,
+    "trainer": "Patrick Janssens (Towcester)",
+    "sp": "11/8",
+    "time": "27.85",
+    "note": "track record"
+   },
+   {
+    "year": 2021,
+    "venue": "Perry Barr (480m)",
+    "winner": "Billys Diva",
+    "trap": 1,
+    "trainer": "Marie Kennedy (Ireland)",
+    "sp": "2/1",
+    "time": "28.88"
+   },
+   {
+    "year": 2020,
+    "venue": "Swindon (476m)",
+    "winner": "Ballymac Trend",
+    "trap": 3,
+    "trainer": "Angie Kibble (Swindon)",
+    "sp": "25/1",
+    "time": "28.41"
+   },
+   {
+    "year": 2019,
+    "venue": "Swindon (476m)",
+    "winner": "Bull Run Byte",
+    "trap": 1,
+    "trainer": "Kevin Hutton (Monmore)",
+    "sp": "7/4",
+    "time": "28.29"
+   }
+  ],
+  "oaks_note": "Oaks is the classic for bitches, run over 480m; moved to Dunstall Park in 2025 and run in the autumn."
+ },
+ "notes": "ZERO live greyhound races on OLBG at capture ('No tips found'). Greyhound cards run daily from late morning to late evening, so this is a capture-window gap rather than an absence of the sport. No race can be priced without a racecard; nothing is fabricated. The reference data above is retained because it is what a greyhound price would be built from once a card is present. FLAGGED."
+}

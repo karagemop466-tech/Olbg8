@@ -20,7 +20,8 @@ e = html.escape
 NAV = [("index", "Overview", "index.html"), ("picks", "Picks", "picks.html"),
        ("matches", "Line board", "matches.html"), ("pricing", "Pricing", "pricing.html"),
        ("sources", "Sources", "sources.html"), ("methodology", "Method", "methodology.html"),
-       ("flagged", "Flagged for review", "flagged.html")]
+       ("flagged", "Flagged for review", "flagged.html"),
+       ("deep", "Deep analysis", "originated/index.html")]
 
 SPORT_KEYS = [(k, v["label"]) for k, v in CAP["sports"].items()]
 

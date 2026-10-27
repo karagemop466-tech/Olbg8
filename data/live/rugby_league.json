@@ -1,0 +1,55 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "rugby_league",
+ "sport_label": "Rugby League",
+ "sport_id": 10,
+ "hub_url": "https://www.olbg.com/betting-tips/Rugby_League/10",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "event_count": 3,
+ "events": [
+  {
+   "event_id": 2695857,
+   "event_name": "State of Origin 2027",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+   "time_label": "27 May 2027 06:00",
+   "top_selection": "New South Wales",
+   "top_market": "Win Tournament",
+   "tips_win": 9,
+   "tips_total": 13,
+   "tip_pct": 69,
+   "comments": 3,
+   "experts": null,
+   "notes": "OUTRIGHT"
+  },
+  {
+   "event_id": 2801554,
+   "event_name": "Super League 2027",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+   "time_label": "02 Oct 2027 13:00",
+   "top_selection": "Wigan Warriors",
+   "top_market": "Grand Final Winner",
+   "tips_win": 2,
+   "tips_total": 4,
+   "tip_pct": 50,
+   "comments": 2,
+   "experts": null,
+   "notes": "OUTRIGHT"
+  },
+  {
+   "event_id": 2801600,
+   "event_name": "NRL 2027",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+   "time_label": "03 Oct 2027 04:30",
+   "top_selection": "Penrith Panthers",
+   "top_market": "Grand Final Winner",
+   "tips_win": 1,
+   "tips_total": 3,
+   "tip_pct": 33,
+   "comments": 1,
+   "experts": null,
+   "notes": "OUTRIGHT"
+  }
+ ],
+ "notes": "CRITICAL FINDING: Rugby League hub lists ZERO upcoming club matches at capture. Only three ante-post outrights for 2027 exist (State of Origin, Super League, NRL). This is consistent with the northern-hemisphere/Southern-hemisphere off-season between the 2026 Grand Finals and the 2027 season openers. Five-to-ten match picks cannot be produced for this sport without fabricating fixtures. FLAGGED, not hidden."
+}

@@ -13,6 +13,6 @@ tennis: rows=60 events=50 competitions=1
 motor-racing: rows=3 events=2 competitions=1
 handball: rows=23 events=19 competitions=1
 ice-hockey: rows=48 events=20 competitions=7
-basketball: rows=51 events=39 competitions=8
+basketball: rows=48 events=39 competitions=8
 rugby-league: rows=4 events=3 competitions=1
-expand: 289 rows
+expand: 286 rows
