@@ -1,7 +1,7 @@
 {
  "sport": "Golf",
  "sport_id": 5,
- "captured_utc": "2026-10-27T06:11:51Z",
+ "captured_utc": "2026-10-27T06:21:00Z",
  "rows": [
   {
    "sport": "Golf",
@@ -15,6 +15,29 @@
    "decimal_odds": 11.0,
    "american_odds": 1000,
    "fractional_odds": "10/1",
+   "start_utc": "2026-11-01T11:45:00Z",
+   "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
+   "venue": "",
+   "origin": "hub",
+   "win_tips": 1,
+   "win_tips_count": 2,
+   "experts_count": 0,
+   "confidence": 50,
+   "comments_count": 0
+  },
+  {
+   "sport": "Golf",
+   "sport_key": "golf",
+   "sport_id": 5,
+   "event_id": "101913",
+   "event_name": "Maybank Championship",
+   "competition": "",
+   "market": "Win Tournament",
+   "selection": "Lottie Woad",
+   "decimal_odds": 29.0,
+   "american_odds": 2800,
+   "fractional_odds": "28/1",
    "start_utc": "2026-11-01T11:45:00Z",
    "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
    "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
