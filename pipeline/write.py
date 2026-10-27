@@ -254,10 +254,10 @@ def clause_missing_official(p, key) -> str:
     if hashlib.sha256(("scope" + key).encode()).digest()[1] % 3 == 0:
         return ""
     return _pick([
-        "No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price.",
-        "This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here.",
-        "The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point.",
-        "Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board.",
+        "No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price.",
+        "This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here.",
+        "Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point.",
+        "The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board.",
     ], key, "noofficial")
 
 

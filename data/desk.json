@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-10-27T06:00:26Z",
+ "built_utc": "2026-10-27T06:02:15Z",
  "sport_count": 15,
  "summary": {
   "sports": 15,
@@ -264,8 +264,8 @@
    "event_pick_index": 0,
    "id": "golf-01",
    "headline": "Miyu Yamashita - Win Tournament at +450",
-   "prediction": "Maybank Championship is the event, listed for 1 November 2026 at 11:45 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. Against a field of 78, the leader is still only a minority chance. At +450, Miyu Yamashita has to land 14.2% of the time to break even on the stake. The quote is 3.9 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing Miyu Yamashita at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 106,
+   "prediction": "Maybank Championship is the event, listed for 1 November 2026 at 11:45 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Against a field of 78, the leader is still only a minority chance. At +450, Miyu Yamashita has to land 14.2% of the time to break even on the stake. The quote is 3.9 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing Miyu Yamashita at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 105,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -307,8 +307,8 @@
    "event_pick_index": 0,
    "id": "golf-02",
    "headline": "Steven Alker - Win Tournament at +550",
-   "prediction": "Simmons Bank Championship is the event, listed for 1 November 2026 at 22:45 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. With 51 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. Measured against the fair number the price is 3.4 points short, so the return depends on the outcome rather than a pricing edge. The raw +550 on Steven Alker implies 15.4%; stripping the book margin pushes the same line to 12.0%. The bet is Steven Alker at +550 to take the win. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 120,
+   "prediction": "Simmons Bank Championship is the event, listed for 1 November 2026 at 22:45 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. With 51 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. Measured against the fair number the price is 3.4 points short, so the return depends on the outcome rather than a pricing edge. The raw +550 on Steven Alker implies 15.4%; stripping the book margin pushes the same line to 12.0%. The bet is Steven Alker at +550 to take the win. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 118,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -436,7 +436,7 @@
    "event_pick_index": 2,
    "id": "golf-05",
    "headline": "Zach Johnson - Win Tournament at +650",
-   "prediction": "Simmons Bank Championship is the event, listed for 1 November 2026 at 22:45 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. With 51 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. Measured against the fair number the price is 3.1 points short, so the return depends on the outcome rather than a pricing edge. The price on Zach Johnson is +650, which the margin-free reading moves to about 10.2%. Backing Zach Johnson at +650 is the play. This is the thinnest of the three bands, so stake accordingly.",
+   "prediction": "Simmons Bank Championship is the event, listed for 1 November 2026 at 22:45 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. With 51 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. Measured against the fair number the price is 3.1 points short, so the return depends on the outcome rather than a pricing edge. The price on Zach Johnson is +650, which the margin-free reading moves to about 10.2%. Backing Zach Johnson at +650 is the play. This is the thinnest of the three bands, so stake accordingly.",
    "words": 115,
    "flags": [
     "no official fixture crosswalk"
@@ -479,8 +479,8 @@
    "event_pick_index": 2,
    "id": "golf-06",
    "headline": "Haeran Ryu - Win Tournament at +750",
-   "prediction": "Maybank Championship is the event, listed for 1 November 2026 at 11:45 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. Against a field of 78, the leader is still only a minority chance. The price on Haeran Ryu is +750, which the margin-free reading moves to about 8.7%. The quote is 3.1 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Haeran Ryu at +750 to take the win. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 107,
+   "prediction": "Maybank Championship is the event, listed for 1 November 2026 at 11:45 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Against a field of 78, the leader is still only a minority chance. The price on Haeran Ryu is +750, which the margin-free reading moves to about 8.7%. The quote is 3.1 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Haeran Ryu at +750 to take the win. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 106,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -527,7 +527,7 @@
    "event_pick_index": 0,
    "id": "volleyball-07",
    "headline": "Vilsbiburg W - Win Match at -275",
-   "prediction": "The fixture between Volleys Borken W and Vilsbiburg W is set for 27 October 2026 at 17:30 UTC, listed under an OLBG-listed fixture. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. The tip record on the selection is 2 / 3 Win Tips, and the consensus bar sits at 67%. The price on Vilsbiburg W is -275, which the margin-free reading moves to about 70.8%. The quote is 2.7 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Vilsbiburg W to win 3-0 +200, Vilsbiburg W to win 3-1 +275 for this fixture. Backing Vilsbiburg W at -275 is the play. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
+   "prediction": "The fixture between Volleys Borken W and Vilsbiburg W is set for 27 October 2026 at 17:30 UTC, listed under an OLBG-listed fixture. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. The tip record on the selection is 2 / 3 Win Tips, and the consensus bar sits at 67%. The price on Vilsbiburg W is -275, which the margin-free reading moves to about 70.8%. The quote is 2.7 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Vilsbiburg W to win 3-0 +200, Vilsbiburg W to win 3-1 +275 for this fixture. Backing Vilsbiburg W at -275 is the play. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
    "words": 148,
    "flags": [
     "no official fixture crosswalk"
@@ -623,8 +623,8 @@
    "event_pick_index": 0,
    "id": "volleyball-09",
    "headline": "Halkbank Ankara - Win Match at -250",
-   "prediction": "An olbg-listed fixture action on 27 October 2026 at 12:00 UTC pairs TFL Altekma with Halkbank Ankara. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The tip record on the selection is 4 / 5 Win Tips, and the consensus bar sits at 80%. The raw -250 on Halkbank Ankara implies 71.4%; stripping the book margin pushes the same line to 68.9%. The quote is 2.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Halkbank Ankara to win 3-0 +240, Halkbank Ankara to win 3-1 +275 for this fixture. The bet is Halkbank Ankara at -250 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 146,
+   "prediction": "An olbg-listed fixture action on 27 October 2026 at 12:00 UTC pairs TFL Altekma with Halkbank Ankara. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The tip record on the selection is 4 / 5 Win Tips, and the consensus bar sits at 80%. The raw -250 on Halkbank Ankara implies 71.4%; stripping the book margin pushes the same line to 68.9%. The quote is 2.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Halkbank Ankara to win 3-0 +240, Halkbank Ankara to win 3-1 +275 for this fixture. The bet is Halkbank Ankara at -250 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 142,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -719,8 +719,8 @@
    "event_pick_index": 0,
    "id": "volleyball-11",
    "headline": "VaLePa - Win Match at -125",
-   "prediction": "An olbg-listed fixture action on 27 October 2026 at 16:30 UTC pairs VaLePa with AC Oulu. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. The tip record on the selection is 3 / 4 Win Tips, and the consensus bar sits at 75%. At -125, VaLePa has to land 51.7% of the time to break even on the stake. Measured against the fair number the price is 3.9 points short, so the return depends on the outcome rather than a pricing edge. The same board prices set score at VaLePa to win 3-0 +350, AC Oulu to win 3-1 +400. Backing VaLePa at -125 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 132,
+   "prediction": "An olbg-listed fixture action on 27 October 2026 at 16:30 UTC pairs VaLePa with AC Oulu. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The tip record on the selection is 3 / 4 Win Tips, and the consensus bar sits at 75%. At -125, VaLePa has to land 51.7% of the time to break even on the stake. Measured against the fair number the price is 3.9 points short, so the return depends on the outcome rather than a pricing edge. The same board prices set score at VaLePa to win 3-0 +350, AC Oulu to win 3-1 +400. Backing VaLePa at -125 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 130,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -767,7 +767,7 @@
    "event_pick_index": 0,
    "id": "rugby-union-12",
    "headline": "Munster - To Win at -227",
-   "prediction": "Munster v Sharks is the event, listed for 31 October 2026 at 17:30 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. Against the fair number the price sits 2.4 points short, so the pick is about the outcome rather than a pricing bargain. The same board prices handicap at Sharks +6.50 -125, Munster -6.50 -110. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -227 on Munster implies 69.4%; stripping the book margin pushes the same line to 67.0%. Backing Munster at -227 is the play. At this price a losing run is survivable, but the margin for error is thin.",
+   "prediction": "Munster v Sharks is the event, listed for 31 October 2026 at 17:30 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against the fair number the price sits 2.4 points short, so the pick is about the outcome rather than a pricing bargain. The same board prices handicap at Sharks +6.50 -125, Munster -6.50 -110. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -227 on Munster implies 69.4%; stripping the book margin pushes the same line to 67.0%. Backing Munster at -227 is the play. At this price a losing run is survivable, but the margin for error is thin.",
    "words": 125,
    "flags": [
     "no official fixture crosswalk"
@@ -815,8 +815,8 @@
    "event_pick_index": 0,
    "id": "rugby-union-13",
    "headline": "Nissa - To Win at -227",
-   "prediction": "Nissa v Aurillac is the event, listed for 30 October 2026 at 18:30 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. OLBG also lists handicap at Aurillac +5.50 -118, Nissa -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Nissa is -227, which the margin-free reading moves to about 66.3%. Against the fair number the price sits 3.2 points short, so the pick is about the outcome rather than a pricing bargain. Backing Nissa at -227 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 132,
+   "prediction": "Nissa v Aurillac is the event, listed for 30 October 2026 at 18:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. OLBG also lists handicap at Aurillac +5.50 -118, Nissa -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Nissa is -227, which the margin-free reading moves to about 66.3%. Against the fair number the price sits 3.2 points short, so the pick is about the outcome rather than a pricing bargain. Backing Nissa at -227 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 130,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -863,7 +863,7 @@
    "event_pick_index": 0,
    "id": "rugby-union-14",
    "headline": "Pau - To Win at -208",
-   "prediction": "Pau v Toulouse is the event, listed for 1 November 2026 at 20:05 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. At -208, Pau has to land 65.1% of the time to break even on the stake. Against the fair number the price sits 2.4 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists handicap at Toulouse +5.50 -118, Pau -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. Backing Pau at -208 is the play. At this price a losing run is survivable, but the margin for error is thin.",
+   "prediction": "Pau v Toulouse is the event, listed for 1 November 2026 at 20:05 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. At -208, Pau has to land 65.1% of the time to break even on the stake. Against the fair number the price sits 2.4 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists handicap at Toulouse +5.50 -118, Pau -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. Backing Pau at -208 is the play. At this price a losing run is survivable, but the margin for error is thin.",
    "words": 130,
    "flags": [
     "no official fixture crosswalk"
@@ -911,8 +911,8 @@
    "event_pick_index": 0,
    "id": "rugby-union-15",
    "headline": "Leinster - To Win at -175",
-   "prediction": "Connacht v Leinster is the event, listed for 30 October 2026 at 19:45 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. At -175, Leinster has to land 60.0% of the time to break even on the stake. Against the fair number the price sits 3.7 points short, so the pick is about the outcome rather than a pricing bargain. Alongside the match price, handicap is available at Connacht +3.50 -111, Leinster -3.50 -110. The bet is Leinster at -175 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 119,
+   "prediction": "Connacht v Leinster is the event, listed for 30 October 2026 at 19:45 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. At -175, Leinster has to land 60.0% of the time to break even on the stake. Against the fair number the price sits 3.7 points short, so the pick is about the outcome rather than a pricing bargain. Alongside the match price, handicap is available at Connacht +3.50 -111, Leinster -3.50 -110. The bet is Leinster at -175 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 117,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -959,8 +959,8 @@
    "event_pick_index": 0,
    "id": "rugby-union-16",
    "headline": "Grenoble - To Win at -138",
-   "prediction": "Beziers v Grenoble is the event, listed for 30 October 2026 at 18:30 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Measured against the fair number the price is 3.7 points short, so the return depends on the outcome rather than a pricing edge. Alongside the match price, handicap is available at Beziers +1.50 -125, Grenoble -1.50 -110. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. At -138, Grenoble has to land 54.1% of the time to break even on the stake. The bet is Grenoble at -138 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 135,
+   "prediction": "Beziers v Grenoble is the event, listed for 30 October 2026 at 18:30 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Measured against the fair number the price is 3.7 points short, so the return depends on the outcome rather than a pricing edge. Alongside the match price, handicap is available at Beziers +1.50 -125, Grenoble -1.50 -110. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. At -138, Grenoble has to land 54.1% of the time to break even on the stake. The bet is Grenoble at -138 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 131,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1007,8 +1007,8 @@
    "event_pick_index": 0,
    "id": "rugby-union-17",
    "headline": "Dax - To Win at -125",
-   "prediction": "Dax v Provence is the event, listed for 29 October 2026 at 20:00 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. The same board prices handicap at Provence +1.50 -125, Dax -1.50 -109. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Dax is -125, which the margin-free reading moves to about 52.9%. Measured against the fair number the price is 2.7 points short, so the return depends on the outcome rather than a pricing edge. The bet is Dax at -125 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 126,
+   "prediction": "Dax v Provence is the event, listed for 29 October 2026 at 20:00 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The same board prices handicap at Provence +1.50 -125, Dax -1.50 -109. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Dax is -125, which the margin-free reading moves to about 52.9%. Measured against the fair number the price is 2.7 points short, so the return depends on the outcome rather than a pricing edge. The bet is Dax at -125 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 124,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1106,8 +1106,8 @@
    "event_pick_index": 0,
    "id": "cricket-19",
    "headline": "Pakistan - Win Match at -200",
-   "prediction": "The fixture between Pakistan and Sri Lanka One Day Match is set for 27 October 2026 at 08:00 UTC, listed under an OLBG-listed fixture. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. The tip record on the selection is 22 / 32 Win Tips, and the consensus bar sits at 69%. The raw -200 on Pakistan implies 66.7%; stripping the book margin pushes the same line to 64.8%. Against the fair number the price sits 1.9 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists man of the match at MB Azam +550, P Nissanka +700 for this fixture. The bet is Pakistan at -200 to take the win. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 142,
+   "prediction": "The fixture between Pakistan and Sri Lanka One Day Match is set for 27 October 2026 at 08:00 UTC, listed under an OLBG-listed fixture. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The tip record on the selection is 22 / 32 Win Tips, and the consensus bar sits at 69%. The raw -200 on Pakistan implies 66.7%; stripping the book margin pushes the same line to 64.8%. Against the fair number the price sits 1.9 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists man of the match at MB Azam +550, P Nissanka +700 for this fixture. The bet is Pakistan at -200 to take the win. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 141,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1149,8 +1149,8 @@
    "event_pick_index": 0,
    "id": "cricket-20",
    "headline": "Wellington - Win Match at -189",
-   "prediction": "Wellington host Otago One Day Match on 27 October 2026 at 21:30 UTC in an OLBG-listed fixture. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. The raw -189 on Wellington implies 65.4%; stripping the book margin pushes the same line to 63.0%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. OLBG shows 2 / 4 Win Tips on this line with a 50% consensus reading. The bet is Wellington at -189 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 115,
+   "prediction": "Wellington host Otago One Day Match on 27 October 2026 at 21:30 UTC in an OLBG-listed fixture. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The raw -189 on Wellington implies 65.4%; stripping the book margin pushes the same line to 63.0%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. OLBG shows 2 / 4 Win Tips on this line with a 50% consensus reading. The bet is Wellington at -189 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 114,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1244,8 +1244,8 @@
    "event_pick_index": 0,
    "id": "cricket-22",
    "headline": "Sydney Sixers W - Win Match at -175",
-   "prediction": "Brisbane Heat W host Sydney Sixers W T20 Big Bash on 30 October 2026 at 08:10 UTC in an OLBG-listed fixture. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The tip record on the selection is 3 / 5 Win Tips, and the consensus bar sits at 60%. At -175, Sydney Sixers W has to land 62.1% of the time to break even on the stake. The quote is 1.6 points tighter than the margin-free number, so this is a confidence play rather than a value play. The bet is Sydney Sixers W at -175 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 130,
+   "prediction": "Brisbane Heat W host Sydney Sixers W T20 Big Bash on 30 October 2026 at 08:10 UTC in an OLBG-listed fixture. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The tip record on the selection is 3 / 5 Win Tips, and the consensus bar sits at 60%. At -175, Sydney Sixers W has to land 62.1% of the time to break even on the stake. The quote is 1.6 points tighter than the margin-free number, so this is a confidence play rather than a value play. The bet is Sydney Sixers W at -175 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 126,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1330,8 +1330,8 @@
    "event_pick_index": 0,
    "id": "cricket-24",
    "headline": "Northern Districts - Win Match at -149",
-   "prediction": "Central Districts host Northern Districts One Day Match on 27 October 2026 at 21:30 UTC in an OLBG-listed fixture. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Northern Districts is -149, which the margin-free reading moves to about 57.9%. Measured against the fair number the price is 2.0 points short, so the return depends on the outcome rather than a pricing edge. Backing Northern Districts at -149 is the play. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 123,
+   "prediction": "Central Districts host Northern Districts One Day Match on 27 October 2026 at 21:30 UTC in an OLBG-listed fixture. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Northern Districts is -149, which the margin-free reading moves to about 57.9%. Measured against the fair number the price is 2.0 points short, so the return depends on the outcome rather than a pricing edge. Backing Northern Districts at -149 is the play. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 119,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1373,8 +1373,8 @@
    "event_pick_index": 0,
    "id": "darts-25",
    "headline": "Luke Littler - Win Tournament at -125",
-   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Against a field of 113, the leader is still only a minority chance. Measured against the fair number the price is 4.5 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 22 / 36 Win Tips on this line with a 61% consensus reading. At -125, Luke Littler has to land 51.1% of the time to break even on the stake. Backing Luke Littler at -125 is the play. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 126,
+   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against a field of 113, the leader is still only a minority chance. Measured against the fair number the price is 4.5 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 22 / 36 Win Tips on this line with a 61% consensus reading. At -125, Luke Littler has to land 51.1% of the time to break even on the stake. Backing Luke Littler at -125 is the play. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 122,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1416,8 +1416,8 @@
    "event_pick_index": 1,
    "id": "darts-26",
    "headline": "Luke Humphries - Win Tournament at +500",
-   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. With 113 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. The raw +500 on Luke Humphries implies 16.7%; stripping the book margin pushes the same line to 12.9%. The quote is 3.8 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 2 / 36 Win Tips on this line with a 6% consensus reading. The bet is Luke Humphries at +500 to take the win. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 135,
+   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. With 113 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. The raw +500 on Luke Humphries implies 16.7%; stripping the book margin pushes the same line to 12.9%. The quote is 3.8 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 2 / 36 Win Tips on this line with a 6% consensus reading. The bet is Luke Humphries at +500 to take the win. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 131,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1459,7 +1459,7 @@
    "event_pick_index": 0,
    "id": "darts-27",
    "headline": "Gian van Veen - Win Tournament at +800",
-   "prediction": "Players Championship 31 is the event, listed for 28 October 2026 at 12:00 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. The market is a 128-runner field, which is why the numbers are long even for the leaders. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. At +800, Gian van Veen has to land 8.7% of the time to break even on the stake. The bet is Gian van Veen at +800 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "prediction": "Players Championship 31 is the event, listed for 28 October 2026 at 12:00 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. The market is a 128-runner field, which is why the numbers are long even for the leaders. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. At +800, Gian van Veen has to land 8.7% of the time to break even on the stake. The bet is Gian van Veen at +800 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
    "words": 141,
    "flags": [
     "no official fixture crosswalk"
@@ -1545,8 +1545,8 @@
    "event_pick_index": 2,
    "id": "darts-29",
    "headline": "Gerwyn Price - Win Tournament at +1200",
-   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. With 113 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. At +1200, Gerwyn Price has to land 5.3% of the time to break even on the stake. The quote is 2.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 2 / 36 Win Tips on this line with a 6% consensus reading. The bet is Gerwyn Price at +1200 to take the win. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 129,
+   "prediction": "PDC World Championship 2027 is the event, listed for 3 January 2027 at 17:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. With 113 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. At +1200, Gerwyn Price has to land 5.3% of the time to break even on the stake. The quote is 2.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 2 / 36 Win Tips on this line with a 6% consensus reading. The bet is Gerwyn Price at +1200 to take the win. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 128,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1588,8 +1588,8 @@
    "event_pick_index": 2,
    "id": "darts-30",
    "headline": "Nathan Aspinall - Win Tournament at +1400",
-   "prediction": "Players Championship 31 is the event, listed for 28 October 2026 at 12:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Against a field of 128, the leader is still only a minority chance. The tip record on the selection is 2 / 8 Win Tips, and the consensus bar sits at 25%. At +1400, Nathan Aspinall has to land 4.9% of the time to break even on the stake. Measured against the fair number the price is 1.7 points short, so the return depends on the outcome rather than a pricing edge. Backing Nathan Aspinall at +1400 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 132,
+   "prediction": "Players Championship 31 is the event, listed for 28 October 2026 at 12:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against a field of 128, the leader is still only a minority chance. The tip record on the selection is 2 / 8 Win Tips, and the consensus bar sits at 25%. At +1400, Nathan Aspinall has to land 4.9% of the time to break even on the stake. Measured against the fair number the price is 1.7 points short, so the return depends on the outcome rather than a pricing edge. Backing Nathan Aspinall at +1400 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 128,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -1984,8 +1984,8 @@
    "event_pick_index": 0,
    "id": "gaelic-sports-34",
    "headline": "Kildimo Pallaskenry +3.50 - Handicap at -125",
-   "prediction": "Fr Caseys v Kildimo Pallaskenry is the event, listed for 1 November 2026 at 15:30 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. Measured against the fair number the price is 3.9 points short, so the return depends on the outcome rather than a pricing edge. OLBG also lists ft result at Fr Caseys -250, Kildimo Pallaskenry +250 for this fixture. OLBG shows 5 / 7 Win Tips on this line with a 71% consensus reading. At -125, Kildimo Pallaskenry +3.50 has to land 51.7% of the time to break even on the stake. The selection is Kildimo Pallaskenry +3.50 at -125. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 125,
+   "prediction": "Fr Caseys v Kildimo Pallaskenry is the event, listed for 1 November 2026 at 15:30 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Measured against the fair number the price is 3.9 points short, so the return depends on the outcome rather than a pricing edge. OLBG also lists ft result at Fr Caseys -250, Kildimo Pallaskenry +250 for this fixture. OLBG shows 5 / 7 Win Tips on this line with a 71% consensus reading. At -125, Kildimo Pallaskenry +3.50 has to land 51.7% of the time to break even on the stake. The selection is Kildimo Pallaskenry +3.50 at -125. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 124,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2080,7 +2080,7 @@
    "event_pick_index": 1,
    "id": "gaelic-sports-36",
    "headline": "Kanturk -0.50 - Handicap at -120",
-   "prediction": "Kanturk v Eire Og Cor is the event, listed for 1 November 2026 at 14:00 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. The price on Kanturk -0.50 is -120, which the margin-free reading moves to about 50.0%. Measured against the fair number the price is 4.6 points short, so the return depends on the outcome rather than a pricing edge. Alongside the match price, ft result is available at Kanturk -120, Eire Og Cor +120. The selection is Kanturk -0.50 at -120. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "prediction": "Kanturk v Eire Og Cor is the event, listed for 1 November 2026 at 14:00 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. The price on Kanturk -0.50 is -120, which the margin-free reading moves to about 50.0%. Measured against the fair number the price is 4.6 points short, so the return depends on the outcome rather than a pricing edge. Alongside the match price, ft result is available at Kanturk -120, Eire Og Cor +120. The selection is Kanturk -0.50 at -120. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
    "words": 116,
    "flags": [
     "no official fixture crosswalk"
@@ -2184,7 +2184,7 @@
    "event_pick_index": 0,
    "id": "tennis-38",
    "headline": "Novak Djokovic - Win Match at -250",
-   "prediction": "Novak Djokovic host Ugo Humbert on 28 October 2026 at 10:00 UTC in an OLBG-listed fixture. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. Alongside the match price, set betting is available at Novak Djokovic to win 2 - 0 +110, Novak Djokovic to win 2 - 1 +290. The tip record on the selection is 4 / 5 Win Tips, and the consensus bar sits at 80%. At -250, Novak Djokovic has to land 70.5% of the time to break even on the stake. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Backing Novak Djokovic at -250 is the play. The short price is the risk: one bad night erases several wins.",
+   "prediction": "Novak Djokovic host Ugo Humbert on 28 October 2026 at 10:00 UTC in an OLBG-listed fixture. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Alongside the match price, set betting is available at Novak Djokovic to win 2 - 0 +110, Novak Djokovic to win 2 - 1 +290. The tip record on the selection is 4 / 5 Win Tips, and the consensus bar sits at 80%. At -250, Novak Djokovic has to land 70.5% of the time to break even on the stake. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Backing Novak Djokovic at -250 is the play. The short price is the risk: one bad night erases several wins.",
    "words": 141,
    "flags": [
     "no official fixture crosswalk"
@@ -2240,8 +2240,8 @@
    "event_pick_index": 0,
    "id": "tennis-39",
    "headline": "Rafael Jodar - 1st Set Winner at -250",
-   "prediction": "The fixture between Alejandro Tabilo and Rafael Jodar is set for 27 October 2026 at 13:00 UTC, listed under an OLBG-listed fixture. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. At -250, Rafael Jodar has to land 70.4% of the time to break even on the stake. The quote is 1.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. The same board prices win match at Rafael Jodar -333, Alejandro Tabilo +320. The bet is Rafael Jodar at -250 to take the win. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
-   "words": 122,
+   "prediction": "The fixture between Alejandro Tabilo and Rafael Jodar is set for 27 October 2026 at 13:00 UTC, listed under an OLBG-listed fixture. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. At -250, Rafael Jodar has to land 70.4% of the time to break even on the stake. The quote is 1.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. The same board prices win match at Rafael Jodar -333, Alejandro Tabilo +320. The bet is Rafael Jodar at -250 to take the win. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
+   "words": 121,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2352,8 +2352,8 @@
    "event_pick_index": 0,
    "id": "tennis-41",
    "headline": "Naomi Osaka - 1st Set Winner at -250",
-   "prediction": "Jasmine Paolini travel to Naomi Osaka for an OLBG-listed fixture on 27 October 2026 at 08:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. OLBG also lists win match at Naomi Osaka -303, Jasmine Paolini +260 for this fixture. The raw -250 on Naomi Osaka implies 71.4%; stripping the book margin pushes the same line to 69.9%. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. The bet is Naomi Osaka at -250 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 131,
+   "prediction": "Jasmine Paolini travel to Naomi Osaka for an OLBG-listed fixture on 27 October 2026 at 08:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. OLBG also lists win match at Naomi Osaka -303, Jasmine Paolini +260 for this fixture. The raw -250 on Naomi Osaka implies 71.4%; stripping the book margin pushes the same line to 69.9%. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. The bet is Naomi Osaka at -250 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 127,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2408,8 +2408,8 @@
    "event_pick_index": 0,
    "id": "tennis-42",
    "headline": "Noma Noha Akugue to win 2 - 0 - Set Betting at -250",
-   "prediction": "Noma Noha Akugue travel to Danka Kovinic for an OLBG-listed fixture on 27 October 2026 at 10:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The price on Noma Noha Akugue to win 2 - 0 is -250, which the margin-free reading moves to about 68.4%. The quote is 3.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. The same board prices win match at Noma Noha Akugue -833, Danka Kovinic +540. The bet is Noma Noha Akugue to win 2 - 0 at -250 to take the win. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 128,
+   "prediction": "Noma Noha Akugue travel to Danka Kovinic for an OLBG-listed fixture on 27 October 2026 at 10:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The price on Noma Noha Akugue to win 2 - 0 is -250, which the margin-free reading moves to about 68.4%. The quote is 3.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. The same board prices win match at Noma Noha Akugue -833, Danka Kovinic +540. The bet is Noma Noha Akugue to win 2 - 0 at -250 to take the win. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 124,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2464,8 +2464,8 @@
    "event_pick_index": 0,
    "id": "tennis-43",
    "headline": "Tereza Valentova - Win Match at -227",
-   "prediction": "An olbg-listed fixture action on 27 October 2026 at 06:30 UTC pairs Tereza Valentova with Mia Pohankova. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The price on Tereza Valentova is -227, which the margin-free reading moves to about 67.3%. The quote is 2.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. Alongside the match price, set betting is available at Tereza Valentova to win 2 - 0 +110, Tereza Valentova to win 2 - 1 +333. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. Backing Tereza Valentova at -227 is the play. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 138,
+   "prediction": "An olbg-listed fixture action on 27 October 2026 at 06:30 UTC pairs Tereza Valentova with Mia Pohankova. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The price on Tereza Valentova is -227, which the margin-free reading moves to about 67.3%. The quote is 2.1 points tighter than the margin-free number, so this is a confidence play rather than a value play. Alongside the match price, set betting is available at Tereza Valentova to win 2 - 0 +110, Tereza Valentova to win 2 - 1 +333. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. Backing Tereza Valentova at -227 is the play. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 134,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2563,8 +2563,8 @@
    "event_pick_index": 0,
    "id": "motor-racing-45",
    "headline": "Max Verstappen - Win Tournament at -200",
-   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The quote is 2.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. The tip record on the selection is 4 / 7 Win Tips, and the consensus bar sits at 57%. The raw -200 on Max Verstappen implies 66.7%; stripping the book margin pushes the same line to 63.9%. The bet is Max Verstappen at -200 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 127,
+   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The quote is 2.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. The tip record on the selection is 4 / 7 Win Tips, and the consensus bar sits at 57%. The raw -200 on Max Verstappen implies 66.7%; stripping the book margin pushes the same line to 63.9%. The bet is Max Verstappen at -200 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 123,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2606,8 +2606,8 @@
    "event_pick_index": 0,
    "id": "motor-racing-46",
    "headline": "Max Verstappen - Fastest Qualifier at +150",
-   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The board lists 22 runners in this session market. The raw +150 on Max Verstappen implies 40.0%; stripping the book margin pushes the same line to 35.0%. The quote is 5.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Max Verstappen at +150 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 115,
+   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The board lists 22 runners in this session market. The raw +150 on Max Verstappen implies 40.0%; stripping the book margin pushes the same line to 35.0%. The quote is 5.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Max Verstappen at +150 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 111,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2735,8 +2735,8 @@
    "event_pick_index": 2,
    "id": "motor-racing-49",
    "headline": "Charles Leclerc - Fastest Qualifier at +500",
-   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The board lists 22 runners in this session market. At +500, Charles Leclerc has to land 12.9% of the time to break even on the stake. Measured against the fair number the price is 3.8 points short, so the return depends on the outcome rather than a pricing edge. Backing Charles Leclerc at +500 is the play. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 108,
+   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The board lists 22 runners in this session market. At +500, Charles Leclerc has to land 12.9% of the time to break even on the stake. Measured against the fair number the price is 3.8 points short, so the return depends on the outcome rather than a pricing edge. Backing Charles Leclerc at +500 is the play. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 104,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2821,8 +2821,8 @@
    "event_pick_index": 3,
    "id": "motor-racing-51",
    "headline": "Lewis Hamilton - Fastest Qualifier at +650",
-   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. The board lists 22 runners in this session market. The raw +650 on Lewis Hamilton implies 13.3%; stripping the book margin pushes the same line to 10.0%. The quote is 3.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing Lewis Hamilton at +650 is the play. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 107,
+   "prediction": "Mexico City Grand Prix is the event, listed for 31 October 2026 at 21:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The board lists 22 runners in this session market. The raw +650 on Lewis Hamilton implies 13.3%; stripping the book margin pushes the same line to 10.0%. The quote is 3.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing Lewis Hamilton at +650 is the play. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 106,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2881,8 +2881,8 @@
    "event_pick_index": 0,
    "id": "handball-52",
    "headline": "MT Melsungen - Money Line at -222",
-   "prediction": "An olbg-listed fixture action on 28 October 2026 at 17:45 UTC pairs HC Vardar with MT Melsungen. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. Against the fair number the price sits 1.8 points short, so the pick is about the outcome rather than a pricing bargain. The board's match handicap sits at -2.50 with the points total at 62.50, a frame in the region of 32-30. Alongside the match price, match handicap is available at HC Vardar +2.50 -114, MT Melsungen -2.50 -114. OLBG shows 1 / 13 Win Tips on this line with a 8% consensus reading. At -222, MT Melsungen has to land 67.1% of the time to break even on the stake. The selection is MT Melsungen at -222. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 148,
+   "prediction": "An olbg-listed fixture action on 28 October 2026 at 17:45 UTC pairs HC Vardar with MT Melsungen. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Against the fair number the price sits 1.8 points short, so the pick is about the outcome rather than a pricing bargain. The board's match handicap sits at -2.50 with the points total at 62.50, a frame in the region of 32-30. Alongside the match price, match handicap is available at HC Vardar +2.50 -114, MT Melsungen -2.50 -114. OLBG shows 1 / 13 Win Tips on this line with a 8% consensus reading. At -222, MT Melsungen has to land 67.1% of the time to break even on the stake. The selection is MT Melsungen at -222. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 147,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2941,8 +2941,8 @@
    "event_pick_index": 0,
    "id": "handball-53",
    "headline": "VasterasIrsta HF (W) - Money Line at -200",
-   "prediction": "Skuru IK W travel to VasterasIrsta HF W for an OLBG-listed fixture on 27 October 2026 at 18:00 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. The same board prices match handicap at Skuru IK W +2.50 -133, VasterasIrsta HF W -2.50 -105. OLBG shows 2 / 4 Win Tips on this line with a 50% consensus reading. The price on VasterasIrsta HF (W) is -200, which the margin-free reading moves to about 63.4%. The quote is 3.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the match handicap at -2.50 and the points total at 51.50 describe something like a 27-24 game. The selection is VasterasIrsta HF (W) at -200. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 149,
+   "prediction": "Skuru IK W travel to VasterasIrsta HF W for an OLBG-listed fixture on 27 October 2026 at 18:00 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The same board prices match handicap at Skuru IK W +2.50 -133, VasterasIrsta HF W -2.50 -105. OLBG shows 2 / 4 Win Tips on this line with a 50% consensus reading. The price on VasterasIrsta HF (W) is -200, which the margin-free reading moves to about 63.4%. The quote is 3.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the match handicap at -2.50 and the points total at 51.50 describe something like a 27-24 game. The selection is VasterasIrsta HF (W) at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 147,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3001,8 +3001,8 @@
    "event_pick_index": 0,
    "id": "handball-54",
    "headline": "Sporting CP - Money Line at -182",
-   "prediction": "GOG host Sporting CP on 29 October 2026 at 17:45 UTC in an OLBG-listed fixture. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The same board prices match handicap at GOG +2.50 -128, Sporting CP -2.50 +100. The price on Sporting CP is -182, which the margin-free reading moves to about 62.3%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the match handicap at -2.50 and the points total at 66.50 describe something like a 34-32 game. The selection is Sporting CP at -182. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 132,
+   "prediction": "GOG host Sporting CP on 29 October 2026 at 17:45 UTC in an OLBG-listed fixture. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The same board prices match handicap at GOG +2.50 -128, Sporting CP -2.50 +100. The price on Sporting CP is -182, which the margin-free reading moves to about 62.3%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the match handicap at -2.50 and the points total at 66.50 describe something like a 34-32 game. The selection is Sporting CP at -182. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 128,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3121,8 +3121,8 @@
    "event_pick_index": 0,
    "id": "handball-56",
    "headline": "RK Zagreb - Money Line at -139",
-   "prediction": "An olbg-listed fixture action on 28 October 2026 at 19:45 UTC pairs RK Celje with RK Zagreb. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. Put the two lines together and the implied scoreline lands near 32-30, from a 62.50 total and a -1.50 handicap. OLBG also lists match handicap at RK Celje +1.50 -125, RK Zagreb -1.50 -105 for this fixture. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. The price on RK Zagreb is -139, which the margin-free reading moves to about 55.7%. The selection is RK Zagreb at -139. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 157,
+   "prediction": "An olbg-listed fixture action on 28 October 2026 at 19:45 UTC pairs RK Celje with RK Zagreb. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. Put the two lines together and the implied scoreline lands near 32-30, from a 62.50 total and a -1.50 handicap. OLBG also lists match handicap at RK Celje +1.50 -125, RK Zagreb -1.50 -105 for this fixture. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. The price on RK Zagreb is -139, which the margin-free reading moves to about 55.7%. The selection is RK Zagreb at -139. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 153,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3181,7 +3181,7 @@
    "event_pick_index": 0,
    "id": "ice-hockey-57",
    "headline": "Fribourg Gotteron - Money Line at -208",
-   "prediction": "Switzerland NLA action on 27 October 2026 at 18:45 UTC pairs Fribourg Gotteron with Davos. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. At -208, Fribourg Gotteron has to land 65.9% of the time to break even on the stake. Against the fair number the price sits 1.7 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 4-2, from a 5.50 total and a -1.50 handicap. OLBG also lists puck line at Davos +1.50 -172, Fribourg Gotteron -1.50 +125 for this fixture. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fribourg Gotteron at -208. At this price a losing run is survivable, but the margin for error is thin.",
+   "prediction": "Switzerland NLA action on 27 October 2026 at 18:45 UTC pairs Fribourg Gotteron with Davos. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. At -208, Fribourg Gotteron has to land 65.9% of the time to break even on the stake. Against the fair number the price sits 1.7 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 4-2, from a 5.50 total and a -1.50 handicap. OLBG also lists puck line at Davos +1.50 -172, Fribourg Gotteron -1.50 +125 for this fixture. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fribourg Gotteron at -208. At this price a losing run is survivable, but the margin for error is thin.",
    "words": 150,
    "flags": [
     "no official fixture crosswalk"
@@ -3359,7 +3359,7 @@
    "event_pick_index": 0,
    "id": "ice-hockey-60",
    "headline": "Fehervar AV19 - Money Line at -200",
-   "prediction": "The fixture between Fehervar AV19 and Milano HC is set for 27 October 2026 at 18:15 UTC, listed under Austria EHL. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. The price on Fehervar AV19 is -200, which the margin-free reading moves to about 64.5%. Against the fair number the price sits 2.2 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at Milano HC +1.50 -172, Fehervar AV19 -1.50 +140. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fehervar AV19 at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "prediction": "The fixture between Fehervar AV19 and Milano HC is set for 27 October 2026 at 18:15 UTC, listed under Austria EHL. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. The price on Fehervar AV19 is -200, which the margin-free reading moves to about 64.5%. Against the fair number the price sits 2.2 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at Milano HC +1.50 -172, Fehervar AV19 -1.50 +140. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fehervar AV19 at -200. At this price a losing run is survivable, but the margin for error is thin.",
    "words": 152,
    "flags": [
     "no official fixture crosswalk"
@@ -3419,8 +3419,8 @@
    "event_pick_index": 0,
    "id": "ice-hockey-61",
    "headline": "Zug - Money Line at -200",
-   "prediction": "Lugano travel to Zug for Switzerland NLA on 27 October 2026 at 18:45 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at Lugano +1.50 -167, Zug -1.50 +130. The raw -200 on Zug implies 66.7%; stripping the book margin pushes the same line to 64.5%. The quote is 2.2 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Zug at -200. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 133,
+   "prediction": "Lugano travel to Zug for Switzerland NLA on 27 October 2026 at 18:45 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at Lugano +1.50 -167, Zug -1.50 +130. The raw -200 on Zug implies 66.7%; stripping the book margin pushes the same line to 64.5%. The quote is 2.2 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Zug at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 129,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3479,8 +3479,8 @@
    "event_pick_index": 0,
    "id": "ice-hockey-62",
    "headline": "IF Malmo Redhawks - Money Line at -180",
-   "prediction": "Linkoping HC travel to IF Malmo Redhawks for Swedish Hockey League on 27 October 2026 at 18:00 UTC. This competition sits outside the official feeds the desk could reach, so the board itself supplies the numbers here. The same board prices puck line at Linkoping HC +1.50 -196, IF Malmo Redhawks -1.50 +145. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. The price on IF Malmo Redhawks is -180, which the margin-free reading moves to about 62.3%. The quote is 1.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The selection is IF Malmo Redhawks at -180. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 147,
+   "prediction": "Linkoping HC travel to IF Malmo Redhawks for Swedish Hockey League on 27 October 2026 at 18:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The same board prices puck line at Linkoping HC +1.50 -196, IF Malmo Redhawks -1.50 +145. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. The price on IF Malmo Redhawks is -180, which the margin-free reading moves to about 62.3%. The quote is 1.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The selection is IF Malmo Redhawks at -180. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 146,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3599,8 +3599,8 @@
    "event_pick_index": 0,
    "id": "basketball-64",
    "headline": "Olympiacos - Money Line at -278",
-   "prediction": "Olympiacos travel to Besiktas for Euroleague on 28 October 2026 at 17:30 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. At -278, Olympiacos has to land 71.3% of the time to break even on the stake. The quote is 2.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's pointspread sits at -6.50 with the game totals at 175.50, a frame in the region of 91-84. Alongside the match price, pointspread is available at Besiktas +6.50 -120, Olympiacos -6.50 -120. The tip record on the selection is 1 / 3 Win Tips, and the consensus bar sits at 33%. The selection is Olympiacos at -278. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
-   "words": 145,
+   "prediction": "Olympiacos travel to Besiktas for Euroleague on 28 October 2026 at 17:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. At -278, Olympiacos has to land 71.3% of the time to break even on the stake. The quote is 2.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's pointspread sits at -6.50 with the game totals at 175.50, a frame in the region of 91-84. Alongside the match price, pointspread is available at Besiktas +6.50 -120, Olympiacos -6.50 -120. The tip record on the selection is 1 / 3 Win Tips, and the consensus bar sits at 33%. The selection is Olympiacos at -278. Nothing is wrong with the read, but at that price there is no cushion for a flat performance.",
+   "words": 143,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3839,8 +3839,8 @@
    "event_pick_index": 0,
    "id": "basketball-68",
    "headline": "Lietkabelis - Money Line at -161",
-   "prediction": "Euro Cup action on 27 October 2026 at 17:00 UTC pairs Lietkabelis with Ratiopharm Ulm. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Put the two lines together and the implied scoreline lands near 87-84, from a 170.50 total and a -3.50 handicap. OLBG also lists pointspread at Lietkabelis -3.50 -110, Ratiopharm Ulm +3.50 -110 for this fixture. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. At -161, Lietkabelis has to land 60.2% of the time to break even on the stake. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Lietkabelis at -161. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 146,
+   "prediction": "Euro Cup action on 27 October 2026 at 17:00 UTC pairs Lietkabelis with Ratiopharm Ulm. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Put the two lines together and the implied scoreline lands near 87-84, from a 170.50 total and a -3.50 handicap. OLBG also lists pointspread at Lietkabelis -3.50 -110, Ratiopharm Ulm +3.50 -110 for this fixture. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. At -161, Lietkabelis has to land 60.2% of the time to break even on the stake. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Lietkabelis at -161. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 142,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4131,7 +4131,7 @@
    "event_pick_index": 1,
    "id": "rugby-league-74",
    "headline": "Leeds Rhinos - Grand Final Winner at +350",
-   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. No official competition feed for this league was reachable at capture, so the live OLBG board is the working evidence behind the price. Against a field of 15, the leader is still only a minority chance. The tip record on the selection is 1 / 4 Win Tips, and the consensus bar sits at 25%. At +350, Leeds Rhinos has to land 17.8% of the time to break even on the stake. The quote is 4.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Leeds Rhinos at +350 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against a field of 15, the leader is still only a minority chance. The tip record on the selection is 1 / 4 Win Tips, and the consensus bar sits at 25%. At +350, Leeds Rhinos has to land 17.8% of the time to break even on the stake. The quote is 4.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Leeds Rhinos at +350 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
    "words": 137,
    "flags": [
     "no official fixture crosswalk"
@@ -4174,8 +4174,8 @@
    "event_pick_index": 2,
    "id": "rugby-league-75",
    "headline": "Hull KR - Grand Final Winner at +450",
-   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. Fixture data for this competition was not published in a form the desk could read, so every figure below comes from the OLBG board. Against a field of 15, the leader is still only a minority chance. The raw +450 on Hull KR implies 18.2%; stripping the book margin pushes the same line to 14.2%. The quote is 4.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 4 Win Tips on this line with a 25% consensus reading. Backing Hull KR at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 127,
+   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against a field of 15, the leader is still only a minority chance. The raw +450 on Hull KR implies 18.2%; stripping the book margin pushes the same line to 14.2%. The quote is 4.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 4 Win Tips on this line with a 25% consensus reading. Backing Hull KR at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 123,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4217,8 +4217,8 @@
    "event_pick_index": 0,
    "id": "rugby-league-76",
    "headline": "Sydney Roosters - Grand Final Winner at +550",
-   "prediction": "NRL 2027 is the event, listed for 3 October 2027 at 08:30 UTC. The governing body publishes no machine-readable data for this competition, which leaves the OLBG market as the reference point. The market is a 18-runner field, which is why the numbers are long even for the leaders. The price on Sydney Roosters is +550, which the margin-free reading moves to about 13.1%. The quote is 2.3 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 3 Win Tips on this line with a 33% consensus reading. Backing Sydney Roosters at +550 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 122,
+   "prediction": "NRL 2027 is the event, listed for 3 October 2027 at 08:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The market is a 18-runner field, which is why the numbers are long even for the leaders. The price on Sydney Roosters is +550, which the margin-free reading moves to about 13.1%. The quote is 2.3 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 3 Win Tips on this line with a 33% consensus reading. Backing Sydney Roosters at +550 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 120,
    "flags": [
     "no official fixture crosswalk"
    ]
