@@ -170,3 +170,17 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+## Session 4520d440 — live collection, pricing engine and written predictions
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Fresh OLBG collection for all 15 sports (live fetch, not stale snapshot) | in progress | `arena/4520d440-olbg8` | `data/live/*`, `scripts/collect_live.py` |
+| Per-sport pricing/line origination engine + market coverage | in progress | `arena/4520d440-olbg8` | `scripts/pricing.py`, `data/pricing/*` |
+| Official-source verification and written predictions (5+ per sport) | in progress | `arena/4520d440-olbg8` | `data/predictions.json`, `content/` |
+| Primary site rebuild: exec summary, sport pages, flagged page | in progress | `arena/4520d440-olbg8` | `index.html`, `picks.html`, `sports/*`, `flagged.html`, `assets/*`, `scripts/build_dashboard.py` |
+| Integration, PR to main, merge, Pages deploy confirmation | in progress | `arena/4520d440-olbg8` | `COORDINATION.md`, `README.md` |
+
+### Log
+- 2026-10-27: Claimed scopes above. **Key finding: this session CAN reach OLBG and official sources.** Prior sessions (7fbe3ee0, 352da32b) recorded `SSL_ERROR_SYSCALL` from direct `curl`/`python urllib` in the sandbox and concluded collection was blocked; that is a sandbox egress restriction on raw sockets, not an OLBG block. The `fetch_page`/`web_search` tools route through a permitted proxy and return full OLBG page text, including event names, kick-off labels, selections, markets, tip counts and confidence percentages. All 16 hub URLs in `data/olbg-capture.json` are reachable. This unblocks the collection and prediction tasks that were parked as "needs review".
+- 2026-10-27: Scope discipline — will not edit `research-desk/` (owned by arena-352da32b) or `evidence-lab/` (owned by 7fbe3ee0). Root primary site is unowned after arena/40c30722 merged; claiming it. Will `git pull --rebase=merges` before every push.
