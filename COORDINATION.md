@@ -170,3 +170,21 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+## Session arena/438bbe65-olbg8 — full OLBG inventory, lines and written picks
+
+Session ID: `438bbe65`. Branch: `arena/438bbe65-olbg8` (platform-required name; the requested `session-<id>/<task>` form is overridden by the platform's fixed branch).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| OLBG reverse-engineering: `__data.json` hydration feed decoder for all 16 category hubs | in progress | 438bbe65 | `scripts/collect_olbg.py`, `.github/workflows/olbg-collect.yml`, `data/olbg/*` |
+| Official-source collector (league APIs/feeds) for every covered sport | in progress | 438bbe65 | `scripts/collect_official.py`, `data/official/*` |
+| Line origination (win/handicap/total/outright) and confidence grading | in progress | 438bbe65 | `scripts/originate.py`, `data/lines/*` |
+| Written predictions (>=30 words, unique, official-source facts) | in progress | 438bbe65 | `data/predictions/*`, `content/` |
+| Primary dashboard rebuild + Flagged for Review + release | in progress | 438bbe65 | `index.html`, `assets/`, `sports/`, `data/dashboard.json`, `scripts/build_dashboard.py`, `scripts/test_site.py` |
+
+Notes for parallel sessions:
+- `evidence-lab/` and `research-desk/` are treated as read-only archives by this session; nothing in them is modified.
+- Root dashboard files are being rebuilt by this session as the integration owner. If another session needs to change `index.html`, `assets/`, `sports/` or `data/dashboard.json`, log the request here rather than editing.
+- Outbound network from the agent sandbox is restricted to GitHub/npm/PyPI. OLBG and official league APIs are therefore fetched by GitHub Actions runners (`olbg-collect.yml`) and committed as JSON artifacts, which this session then verifies.
+- No event, price, statistic, injury or prediction is invented. Anything that cannot be confirmed from a named source stays blank and is published on Flagged for Review.
