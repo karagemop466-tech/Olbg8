@@ -188,3 +188,30 @@ Branch: `arena/c2f58873-olbg8` (platform-fixed). Started 2026-10-27 UTC from `ma
 | Integration, PR, Pages | in progress | `c2f58873` | shared outputs + release record |
 
 Claimed 2026-10-27. No other session has an active claim on these paths. Files owned by earlier sessions (`research-desk/`, `evidence-lab/`, existing `data/*.json` from `arena/40c30722-olbg8`) will not be modified except the shared dashboard rebuild, which this session performs as the sole active session.
+
+---
+
+## Session `c2f58873` — completion record (2026-10-27)
+
+Branch `arena/c2f58873-olbg8`. Status of every task claimed above: **done**, except where explicitly listed under irregularities.
+
+### What was built
+- `pipeline/collect.py` — live capture executed on GitHub Actions runners (the editing sandbox can only reach allowlisted hosts, so collection runs in CI). Captures 15 OLBG sport feeds, every competition page linked from them, the full market board of 142 event pages, and 60+ official source URLs. Latest run: 278 of 293 requests returned 2xx.
+- `pipeline/parse_olbg.py`, `pipeline/parse_events.py`, `pipeline/extract_official.py` — structured extraction. Feed index: 164 listing rows across all 15 sports. Event boards: 142 events, 388 markets, 1,826 priced selections.
+- `pipeline/pricing.py` — power-method de-vig, fair prices, confidence bands, home/form tilt capped at 3.5 points, handicap/total cover maths. 16 unit tests.
+- `pipeline/write.py` + `pipeline/build.py` — line origination, pick selection, and prose assembled only from captured fields. Published payload: `data/desk.json` with 76 picks across 13 sports (5 high, 30 medium, 41 low confidence).
+- `pipeline/site.py` — 21 static pages (overview, picks, matches, sources, method, flagged + 15 sport pages).
+- `pipeline/check.py` — fail-closed audit: every pick's price is re-compared with the captured board, every prose is ≥30 words and free of the words *model* / *verified*, no two picks share a sentence set, every official claim is checked against the raw official payload, every OLBG URL is checked against the capture manifest, and every local link is resolved.
+
+### Sources verified by hand this session (independent of the pipeline)
+- MLB StatsAPI standings, fetched 2026-10-27: Rays 98-64, 736 runs scored, 650 allowed, run differential +86 — matches the published Milwaukee Brewers @ Tampa Bay Rays write-up. <https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason>
+- OLBG Besiktas vs Olympiacos event page, fetched 2026-10-27: markets Money Line, Pointspread (Besiktas +6.50 / Olympiacos -6.50), Game Totals 175.50; tip record Olympiacos 1/3 (33%), Besiktas 2/3 (67%) — matches the captured board and the published implied-scoreline sentence. <https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4>
+
+### Irregularities flagged for review
+1. **Snooker and Greyhounds produced zero picks.** Both OLBG category pages returned the literal message "No tips found." at capture, and neither carried a single event link. Nothing was invented to fill the gap. Evidence: `pipeline/raw/olbg_snooker.txt.gz`, `pipeline/raw/olbg_greyhounds.txt.gz`, manifest entries for `https://www.olbg.com/betting-tips/Snooker/8` and `.../Greyhounds/28`.
+2. **Baseball published 3 picks and Gaelic Sports 4**, below the five-pick target, because OLBG listed a single MLB fixture and three Gaelic events with markets that survived the price window.
+3. **71 of 76 picks are market-anchored** (de-margined OLBG board) with no official fixture crosswalk, because no machine-readable official feed was reachable for those competitions. This is labelled on every affected row and listed on the Flagged page.
+4. **Official sources that returned nothing**: NBA CDN (403), stats.nba.com (no response), atptour.com (403), europeantour.com (403), CEV competitions (404), EHF match pages (404), EPCR/United Rugby fixture paths (404), superleague.co.uk (500), nascar.com (403), NRL draw endpoint (login wall), GBGB race-card path (404). These are recorded with their URLs on the Flagged page.
+5. **`data/darts.json` from an earlier session contained predictions with no source verification** (a single generic `https://www.pdc.tv/` link and unsupported claims). It was deleted in this session rather than carried into the new payload. The same applies to the older derived artefacts `data/dashboard.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`, `data/olbg-capture.json` and `data/sources.json`, plus `scripts/build_dashboard.py` and `scripts/test_site.py`, which are superseded by `pipeline/`. Historical `research-desk/` and `evidence-lab/` trees are kept as archives and are no longer linked from the primary navigation.
+6. **Gaelic Sports scope**: only the OLBG Gaelic Football category is read; Hurling is out of scope as before.
+7. **Golf, darts, motor racing, rugby league and cricket picks are largely outright/futures markets.** The confidence bands are honest about this — most land in the low band because a 78-runner tournament market cannot produce a 70% chance.

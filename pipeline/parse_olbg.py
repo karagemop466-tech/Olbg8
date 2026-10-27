@@ -16,6 +16,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import rawio
+
 ROOT = Path(__file__).resolve().parent
 RAW = ROOT / "raw"
 OUT = ROOT / "out"
@@ -36,12 +38,20 @@ def one(pattern: str, block: str, group: int = 1, flags: int = 0) -> str:
     return clean(m.group(group)) if m else ""
 
 
+def url_sport(url: str) -> str:
+    m = re.search(r"/betting-tips/([^/]+)/", url or "")
+    return re.sub(r"[^a-z]", "", m.group(1).lower()) if m else ""
+
+
 def parse_feed(text: str, sport: dict) -> list[dict]:
+    expected = re.sub(r"[^a-z]", "", sport.get("olbg_label", sport["label"]).lower())
     rows = []
     for block in ROW_SPLIT.split(text)[1:]:
         url = one(r'itemprop="url" href="([^"]+)"', block)
         name = one(r'itemprop="name">(.*?)</h5>', block, flags=re.S)
         if not url or not name:
+            continue
+        if url_sport(url) != expected:
             continue
         start = one(r'itemprop="startDate" datetime="([^"]+)"', block)
         selection = one(r"<h4[^>]*>(.*?)</h4>", block, flags=re.S)
@@ -78,14 +88,15 @@ def main() -> int:
     all_rows = []
     status = []
     for sp in SPORTS:
-        prefix = "olbg_" + sp["key"].replace("-", "_")
-        files = [p for p in sorted(RAW.glob("olbg_*.txt")) if p.name.startswith(prefix)]
+        key_u = sp["key"].replace("-", "_")
+        files = [p for p in rawio.glob("olbg_") + rawio.glob("olbgcomp_")
+                 if p.name.startswith("olbg_" + key_u) or p.name.startswith("olbgcomp_" + key_u + "_")]
         if not files:
             status.append({"sport": sp["label"], "files": [], "rows": 0, "note": "no capture"})
             continue
         rows = []
         for p in files:
-            rows.extend(parse_feed(p.read_text(encoding="utf-8", errors="replace"), sp))
+            rows.extend(parse_feed(rawio.read_text(p), sp))
         dedup = {}
         for r in rows:
             dedup[(r["olbg_event_url"], r["selection"], r["market"])] = r

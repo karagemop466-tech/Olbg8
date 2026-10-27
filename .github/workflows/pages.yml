@@ -1,4 +1,4 @@
-name: Deploy OLBG research desk
+name: Validate site before Pages
 
 on:
   push:
@@ -7,42 +7,25 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Validate primary site
+          python-version: '3.12'
+      - name: Rebuild and verify
+        working-directory: pipeline
         run: |
-          python3 scripts/test_site.py
-          python3 -m py_compile scripts/*.py
-          node --check assets/app.js
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload static site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          python3 parse_olbg.py
+          python3 parse_events.py
+          python3 extract_official.py
+          python3 build.py
+      - name: Regenerate site and check links
+        run: |
+          python3 pipeline/site.py
+          python3 pipeline/check.py
+      - name: Report
+        run: echo "GitHub Pages publishes the repository root from main; this job gates the build."

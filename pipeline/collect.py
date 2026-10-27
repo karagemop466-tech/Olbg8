@@ -27,6 +27,8 @@ import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 
+import rawio
+
 ROOT = Path(__file__).resolve().parent
 RAW = ROOT / "raw"
 OUT = ROOT / "out"
@@ -111,8 +113,9 @@ def slug(url: str) -> str:
 
 def save(tag: str, res: dict) -> dict:
     body = res.pop("body", "")
-    p = RAW / f"{tag}.txt"
-    p.write_text(body, encoding="utf-8")
+    p = RAW / f"{tag}.txt.gz"
+    with gzip.open(p, "wb", compresslevel=6) as fh:
+        fh.write(body.encode("utf-8"))
     res["raw_file"] = str(p.relative_to(ROOT.parent))
     res["raw_chars"] = len(body)
     return res
@@ -290,16 +293,20 @@ def main() -> int:
         ]:
             run(tag, url)
     else:
+        # keep the repository bounded: event and competition captures are refetched every run
+        for pattern in ("olbgev_*", "olbgcomp_*", "official_*", "olbg_*"):
+            for stale in RAW.glob(pattern):
+                stale.unlink()
         # 1. OLBG sport feeds
         for sp in SPORTS:
             run("olbg_" + sp["key"], sp["hub"])
             time.sleep(1)
         # 1b. OLBG competition hubs linked from each sport page
         for sp in SPORTS:
-            p = RAW / ("olbg_" + sp["key"].replace("-", "_") + ".txt")
-            if not p.exists():
+            p = rawio.find("olbg_" + sp["key"].replace("-", "_"))
+            if not p:
                 continue
-            body = p.read_text(encoding="utf-8", errors="replace")
+            body = rawio.read_text(p)
             comps = []
             for m in re.finditer(r'href="(/betting-tips/[^"?#]+)"', body):
                 path = m.group(1)
@@ -318,10 +325,10 @@ def main() -> int:
         seen = set()
         for sp in SPORTS:
             urls = []
-            for p in sorted(RAW.glob("olbg_*.txt")):
+            for p in rawio.glob("olbg_"):
                 if not p.name.startswith("olbg_" + sp["key"].replace("-", "_")):
                     continue
-                for m in re.finditer(r'(https://www\.olbg\.com/betting-tips/[^"\s]+event_id=\d+)', p.read_text(encoding="utf-8", errors="replace")):
+                for m in re.finditer(r'(https://www\.olbg\.com/betting-tips/[^"\s]+event_id=\d+)', rawio.read_text(p)):
                     u = m.group(1)
                     if u not in seen:
                         seen.add(u)
@@ -338,6 +345,22 @@ def main() -> int:
                 run(f"official_{key}_{i}", u.format(**fmt))
                 time.sleep(0.4)
 
+    import hashlib
+    manifest = []
+    for r in report["results"]:
+        raw_path = ROOT.parent / r["raw_file"]
+        digest = ""
+        if raw_path.exists():
+            digest = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        manifest.append({
+            "tag": r["tag"], "url": r["url"], "status": r["status"], "ok": r["ok"],
+            "fetched_utc": r["fetched_utc"], "raw_file": r["raw_file"],
+            "raw_sha256": digest, "raw_chars": r.get("raw_chars", 0), "error": r.get("error", ""),
+        })
+    (OUT / "manifest.json").write_text(json.dumps({
+        "captured_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "mode": args.mode, "entries": manifest,
+    }, indent=1), encoding="utf-8")
     report["finishedUtc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     (OUT / f"{args.mode}.json").write_text(json.dumps(report, indent=1), encoding="utf-8")
     ok = sum(1 for r in report["results"] if r["ok"])
