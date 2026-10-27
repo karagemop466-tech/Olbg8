@@ -1,0 +1,46 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "darts",
+ "sport_label": "Darts",
+ "sport_id": 15,
+ "hub_url": "https://www.olbg.com/betting-tips/Darts/15",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "event_count": 2,
+ "events": [
+  {
+   "event_id": 32446,
+   "event_name": "Players Championship 31",
+   "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+   "time_label": "Tomorrow 08:00",
+   "top_selection": "Kevin Doets",
+   "top_market": "Win Tournament",
+   "tips_win": 2,
+   "tips_total": 8,
+   "tip_pct": 25,
+   "comments": null,
+   "experts": null,
+   "notes": "PDC Players Championship floor event. Outright tournament market; OLBG lists no individual match tips for it."
+  },
+  {
+   "event_id": 26023,
+   "event_name": "PDC World Championship 2027",
+   "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+   "time_label": "03 Jan 2027 12:00",
+   "top_selection": "Luke Littler",
+   "top_market": "Win Tournament",
+   "tips_win": 22,
+   "tips_total": 36,
+   "tip_pct": 61,
+   "comments": 7,
+   "experts": null,
+   "notes": "ANTE-POST outright for an event starting 03 Jan 2027. Largest tip sample seen in any sport at capture (36 tips), so the crowd anchor is comparatively meaningful here."
+  }
+ ],
+ "olbg_documented_markets": [
+  "Tournament Winner (incl. Each Way)",
+  "Match markets (Win Match, handicap, most 180s etc. per OLBG darts guide)"
+ ],
+ "official_source_cited_by_olbg": "https://www.pdc.tv/",
+ "notes": "Only TWO darts listings on OLBG at capture, and neither is an individual match: one is a floor-event outright (Players Championship 31) and one is a January 2027 ante-post. The 5-10 match-pick target is unreachable for darts from this capture. OLBG itself points to pdc.tv as the official schedule source. FLAGGED."
+}

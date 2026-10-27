@@ -22,5 +22,12 @@ jobs:
         run: |
           python3 pipeline/site.py
           python3 pipeline/check.py
+      - name: Validate the originated deep-analysis section
+        run: |
+          python3 scripts/test_line_engine.py
+          python3 scripts/build_originated.py
+          python3 scripts/render_originated.py
+          python3 scripts/test_originated.py
+          git diff --exit-code -- data/originated_lines.json originated
       - name: Report
         run: echo "GitHub Pages publishes the repository root from main; this job gates the build."

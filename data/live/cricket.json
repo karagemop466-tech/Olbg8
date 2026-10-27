@@ -1,0 +1,308 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "cricket",
+ "sport_label": "Cricket",
+ "sport_id": 7,
+ "hub_url": "https://www.olbg.com/betting-tips/Cricket/7",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy (bash egress to olbg.com is SSL-blocked in sandbox)",
+ "event_count": 13,
+ "events": [
+  {
+   "event_id": 188852,
+   "event_name": "New Zealand vs India 3rd T20 Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+   "time_label": "Today 03:00",
+   "top_selection": "India",
+   "top_market": "Win Match",
+   "tips_win": 35,
+   "tips_total": 49,
+   "tip_pct": 71,
+   "comments": 18,
+   "experts": 2,
+   "extra_markets": [
+    {
+     "market": "Win Match",
+     "selections": [
+      {
+       "name": "India",
+       "tips_win": 35,
+       "tips_total": 50,
+       "tip_pct": 70
+      },
+      {
+       "name": "New Zealand",
+       "tips_win": 15,
+       "tips_total": 50,
+       "tip_pct": 30
+      }
+     ]
+    },
+    {
+     "market": "Man Of The Match",
+     "selections": [
+      {
+       "name": "Abhishek Sharma",
+       "tips_win": 4,
+       "tips_total": 25,
+       "tip_pct": 16
+      },
+      {
+       "name": "SV Samson",
+       "tips_win": 4,
+       "tips_total": 25,
+       "tip_pct": 16
+      },
+      {
+       "name": "FH Allen",
+       "tips_win": 2,
+       "tips_total": 25,
+       "tip_pct": 8
+      },
+      {
+       "name": "S Iyer",
+       "tips_win": 2,
+       "tips_total": 25,
+       "tip_pct": 8
+      },
+      {
+       "name": "T Varma",
+       "tips_win": 2,
+       "tips_total": 25,
+       "tip_pct": 8
+      },
+      {
+       "name": "TL Seifert",
+       "tips_win": 2,
+       "tips_total": 25,
+       "tip_pct": 8
+      },
+      {
+       "name": "BJ Jacobs",
+       "tips_win": 2,
+       "tips_total": 25,
+       "tip_pct": 8
+      }
+     ]
+    },
+    {
+     "market": "Top Team2 Batsman",
+     "selections": [
+      {
+       "name": "Abhishek Sharma (India)",
+       "tips_win": 6,
+       "tips_total": 24,
+       "tip_pct": 25
+      },
+      {
+       "name": "IPKP Kishan (India)",
+       "tips_win": 4,
+       "tips_total": 24,
+       "tip_pct": 17
+      },
+      {
+       "name": "S Iyer (India)",
+       "tips_win": 4,
+       "tips_total": 24,
+       "tip_pct": 17
+      },
+      {
+       "name": "T Varma (India)",
+       "tips_win": 4,
+       "tips_total": 24,
+       "tip_pct": 17
+      },
+      {
+       "name": "SV Samson (India)",
+       "tips_win": 2,
+       "tips_total": 24,
+       "tip_pct": 8
+      }
+     ]
+    },
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "name": "DP Conway (New Zealand)",
+       "tips_win": 4,
+       "tips_total": 26,
+       "tip_pct": 15
+      }
+     ]
+    }
+   ],
+   "notes": "Venue referenced by tipsters as Wellington. Hub showed 35/49 at capture, event page showed 35/50 - live tip count moved between the two fetches. FLAGGED."
+  },
+  {
+   "event_id": 188854,
+   "event_name": "Namibia vs Ireland 3rd ODI",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+   "time_label": "Today 03:30",
+   "top_selection": "Ireland",
+   "top_market": "Win Match",
+   "tips_win": 22,
+   "tips_total": 32,
+   "tip_pct": 69,
+   "comments": 6,
+   "experts": 1,
+   "extra_markets": [
+    {
+     "market": "Top Team1 Batsman",
+     "selections": [
+      {
+       "name": "MG Erasmus (Namibia)",
+       "tips_win": 8,
+       "tips_total": 13,
+       "tip_pct": 62
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "event_id": 188868,
+   "event_name": "Pakistan vs Sri Lanka One Day Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+   "time_label": "Today 04:00",
+   "top_selection": "Pakistan",
+   "top_market": "Win Match",
+   "tips_win": 22,
+   "tips_total": 31,
+   "tip_pct": 71,
+   "comments": 15,
+   "experts": 1
+  },
+  {
+   "event_id": 188872,
+   "event_name": "Afghanistan vs Zimbabwe 1st T20 Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+   "time_label": "Today 10:30",
+   "top_selection": "Afghanistan",
+   "top_market": "Win Match",
+   "tips_win": 15,
+   "tips_total": 16,
+   "tip_pct": 94,
+   "comments": 11,
+   "experts": 1
+  },
+  {
+   "event_id": 188876,
+   "event_name": "Auckland vs Canterbury One Day Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
+   "time_label": "Today 17:30",
+   "top_selection": "Canterbury",
+   "top_market": "Win Match",
+   "tips_win": 3,
+   "tips_total": 4,
+   "tip_pct": 75,
+   "comments": 2,
+   "experts": null
+  },
+  {
+   "event_id": 188878,
+   "event_name": "Wellington vs Otago One Day Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "time_label": "Today 17:30",
+   "top_selection": "Wellington",
+   "top_market": "Win Match",
+   "tips_win": 2,
+   "tips_total": 4,
+   "tip_pct": 50,
+   "comments": 1,
+   "experts": null
+  },
+  {
+   "event_id": 188877,
+   "event_name": "Central Districts vs Northern Districts One Day Match",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
+   "time_label": "Today 17:30",
+   "top_selection": "Northern Districts",
+   "top_market": "Win Match",
+   "tips_win": 2,
+   "tips_total": 3,
+   "tip_pct": 67,
+   "comments": 1,
+   "experts": null
+  },
+  {
+   "event_id": 188874,
+   "event_name": "Lions vs Eastern Storm T20",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874",
+   "time_label": "Tomorrow 12:00",
+   "top_selection": "Lions",
+   "top_market": "Win Match",
+   "tips_win": 1,
+   "tips_total": 1,
+   "tip_pct": 100,
+   "comments": null,
+   "experts": null
+  },
+  {
+   "event_id": 188864,
+   "event_name": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
+   "time_label": "29 Oct 04:10",
+   "top_selection": "Hobart Hurricanes W",
+   "top_market": "Win Match",
+   "tips_win": 4,
+   "tips_total": 6,
+   "tip_pct": 67,
+   "comments": null,
+   "experts": null
+  },
+  {
+   "event_id": 188863,
+   "event_name": "Melbourne Renegades W vs Sydney Thunder W T20 Big Bash",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
+   "time_label": "29 Oct 00:40",
+   "top_selection": "G Wareham (Melbourne Renegades W)",
+   "top_market": "Top Team1 Batsman",
+   "tips_win": 1,
+   "tips_total": 2,
+   "tip_pct": 50,
+   "comments": null,
+   "experts": null,
+   "notes": "Only a player market has tips; no Win Match tips recorded."
+  },
+  {
+   "event_id": 188865,
+   "event_name": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
+   "time_label": "30 Oct 04:10",
+   "top_selection": "Sydney Sixers W",
+   "top_market": "Win Match",
+   "tips_win": 3,
+   "tips_total": 5,
+   "tip_pct": 60,
+   "comments": null,
+   "experts": null
+  },
+  {
+   "event_id": 188835,
+   "event_name": "South Africa vs Australia",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+   "time_label": "31 Oct 04:30",
+   "top_selection": "South Africa",
+   "top_market": "Win Match",
+   "tips_win": 3,
+   "tips_total": 8,
+   "tip_pct": 38,
+   "comments": 1,
+   "experts": 1
+  },
+  {
+   "event_id": 188871,
+   "event_name": "Bangladesh vs West Indies",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+   "time_label": "31 Oct 23:30",
+   "top_selection": "West Indies",
+   "top_market": "Win Match",
+   "tips_win": 1,
+   "tips_total": 1,
+   "tip_pct": 100,
+   "comments": 1,
+   "experts": null
+  }
+ ]
+}

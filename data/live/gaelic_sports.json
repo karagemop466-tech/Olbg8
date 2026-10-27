@@ -1,0 +1,74 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "gaelic_sports",
+ "sport_label": "Gaelic Sports",
+ "sport_id": "25 + 26",
+ "hub_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+ "hub_url_hurling": "https://www.olbg.com/betting-tips/Hurling/26",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "web_search of the OLBG Gaelic Football (25) and Hurling (26) hubs and All Events pages",
+ "event_count": 2,
+ "events": [
+  {
+   "event_id": null,
+   "event_name": "All Ireland Hurling Championship 2027",
+   "olbg_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/26",
+   "time_label": "18 Jul 2027 15:30",
+   "top_selection": "Galway",
+   "top_market": "Win Hurling",
+   "tips_win": 7,
+   "tips_total": 18,
+   "tip_pct": 39,
+   "category": "Hurling",
+   "notes": "ANTE-POST outright for July 2027. The only live Hurling listing on OLBG's All Events page at capture."
+  },
+  {
+   "event_id": null,
+   "event_name": "Ballyhale Shamrocks v Tullaroan",
+   "olbg_url": "https://www.olbg.com/betting-tips/Hurling/26",
+   "time_label": "25 Oct 13:45",
+   "top_selection": "Tullaroan +3.50",
+   "top_market": "Handicap",
+   "tips_win": 8,
+   "tips_total": 11,
+   "tip_pct": 73,
+   "category": "Hurling",
+   "olbg_stated_line": "+3.50 Tullaroan",
+   "notes": "EXPIRED at capture: the fixture date 25 Oct 2026 precedes the 2026-10-27 capture date, and the source snippet was dated 20 Oct 2026. Recorded for completeness of the Hurling market picture, NOT priceable as an upcoming match. FLAGGED."
+  }
+ ],
+ "scope_interpretation": {
+  "decision": "'Gaelic Sports' is covered as Gaelic Football (sport_id 25) PLUS Hurling (sport_id 26).",
+  "evidence": "OLBG's own Gaelic Football hub states: 'Gaelic Football and Hurling matches have been on the OLBG tipster sports since February 2019. Both sports combine to make the monthly Gaelic Sports tipster competitions on OLBG.' It also links out with 'If you are looking for free Hurling tips, head over to our Hurling Tips page.'",
+  "source_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+  "conflict_with_prior_work": "Session arena/40c30722-olbg8 recorded that its Gaelic Sports page 'uses the captured Gaelic Football category and excludes Hurling, which was explicitly out of scope.' OLBG's own page contradicts that: the two codes jointly constitute OLBG's Gaelic Sports competition. FLAGGED for review as a scope irregularity in prior work."
+ },
+ "olbg_documented_markets": {
+  "gaelic_football": [
+   "Full-Time Result (home win / away win / draw)",
+   "Total Points (over/under)",
+   "3-Way Handicap (points start, draw retained as a separate outcome)"
+  ],
+  "hurling": [
+   "Match Winner (three-way in provincial round-robins where a draw is possible; knockout ties settled on the day)",
+   "Handicap / Points Start",
+   "Total Points (Over/Under)",
+   "Outright Winner (Liam MacCarthy Cup; Mick Mackey and Bob O'Keeffe Cups)",
+   "Top Scorer & First Goalscorer"
+  ]
+ },
+ "rule_change_critical_for_pricing": {
+  "summary": "Gaelic football scoring changed on 1 January 2026: a kick from outside the 40-metre arc now counts TWO points.",
+  "detail": "OLBG reports the Football Review Committee (chaired by Jim Gavin) trialled the package through 2025, that the GAA Special Congress passed all 62 recommended rule changes, and that they took permanent effect on 1 January 2026. Other changes: the 3v3 rule (three outfield players from each team in each half at all times), all kick-outs must travel beyond the 20-metre line, a solo-and-go on awarded frees, and a new advanced mark inside the 20m line. Under the 2025 trial a score from outside the arc counted only one point if an opponent touched the ball; that condition was removed for 2026.",
+  "scoreline_convention": "A goal is still three points but the 'points' tally now blends one- and two-point scores, so a scoreline is shown as e.g. 4-18 (30) and the bracketed figure is the true total. The old shorthand no longer decomposes.",
+  "pricing_consequence": "Match totals are structurally higher from 2026 than in earlier seasons. OLBG advises relying on 2025-onwards data rather than older seasons when assessing Total Points and handicap markets. Any Gaelic total priced from pre-2026 scoring data would be systematically too low, so pre-2026 totals are NOT used as a calibration input here.",
+  "source_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25"
+ },
+ "hurling_result_of_record": {
+  "statement": "OLBG's Hurling hub FAQ states: 'Limerick won the 2026 All-Ireland Senior Hurling Championship, beating Galway 1-29 to 1-18 in the final at Croke Park on 19 July 2026. It was Limerick's 13th title and their first since 2023.'",
+  "source_url": "https://www.olbg.com/betting-tips/Hurling/26",
+  "verification_status": "UNVERIFIED against the GAA. OLBG is not the governing body; the official source is gaa.ie. Left as an OLBG-reported claim and flagged rather than adopted as fact.",
+  "related_format_change": "OLBG also states that from 2026 the hurling preliminary quarter-finals were scrapped, so Joe McDonagh Cup finalists no longer feed into the All-Ireland series at that stage."
+ },
+ "notes": "NO upcoming Gaelic Football match listings were surfaced on OLBG at capture. The inter-county football season runs spring (Allianz National Football League) to summer (Sam Maguire Cup), so late October sits between the county season and the club championship. One live Hurling outright plus one expired club fixture is the whole Gaelic picture. Five match picks cannot be produced. FLAGGED."
+}

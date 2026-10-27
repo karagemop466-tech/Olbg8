@@ -1,0 +1,110 @@
+{
+ "schema": "official-evidence/v1",
+ "sport": "Cricket",
+ "event": "New Zealand vs India, 3rd T20I, India tour of New Zealand 2026/27",
+ "olbg_event_id": 188852,
+ "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+ "identity_confirmed": true,
+ "facts": {
+  "date": "Tuesday 27 October 2026",
+  "kickoff_ist": "12:30 PM IST",
+  "kickoff_local": "8:00pm local (Wellington)",
+  "venue": "Hnry Stadium, Wellington (also referred to as Sky Stadium / Wellington Regional Stadium)",
+  "match_number": "T20I no. 4221",
+  "series": "India tour of New Zealand 2026/27, five-match T20I series",
+  "series_state": "India lead 2-0",
+  "result_1st_t20i": "22 Oct 2026, Christchurch (Hagley Oval): New Zealand 225/4, India 230/6 (19.4 ov) - India won by 4 wickets with 2 balls remaining",
+  "result_2nd_t20i": "24 Oct 2026, Christchurch: New Zealand 180/5, India 181/6 (19.5 ov) - India won by 4 wickets with 1 ball remaining. India had slipped to 70/5.",
+  "india_captain": "Shreyas Iyer",
+  "india_vice_captain": "Tilak Varma",
+  "nz_captain": "Mitchell Santner",
+  "nz_coach": "Rob Walter",
+  "india_squad_named_for_3rd_t20i": "Shreyas Iyer (c), Tilak Varma (vc), Abhishek Sharma, Arshdeep Singh, Shivam Dube, Ishan Kishan (wk), Kuldeep Yadav, Bhuvneshwar Kumar",
+  "india_absent": "Jasprit Bumrah and Hardik Pandya are both missing from the series",
+  "nz_absent": "Matt Henry ruled out of the remainder of the series; Lockie Ferguson unavailable for the Wellington match",
+  "series_batting_nz": "Glenn Phillips 152 runs (82* and 70 in the first two matches); Bevon Jacobs 89 (31 off 16, then 58 off 46)",
+  "series_batting_ind": "Sanju Samson 81 runs; Naman Dhir 73 (42 off 15 in the first match, 31 in the second); Tilak Varma 51* off 26 in the second; Nitish Kumar Reddy 26* off 13",
+  "series_bowling": "Mitchell Santner 6 wickets (2/39 and 4/21), the series' most successful bowler; Arshdeep Singh 3 wickets for India (2/33 in the second T20I)",
+  "venue_averages": "Average first-innings T20I total at this Wellington ground 164; average second-innings total 140",
+  "venue_record": "Highest T20I total at the ground is 219 for 6, made by New Zealand against India. India have never won a T20I at this venue inside the regulation 20 overs.",
+  "form_context": "India have won nine of their last ten matches against New Zealand, and won their 200th T20I in their 300th appearance in the second match. New Zealand were World Cup runners-up.",
+  "conditions": "Wellington wind has been persistent for days ahead of the match; New Zealand's fielding was cited as a concern after four dropped catches and missed run-outs in the second T20I",
+  "nz_coach_quote": "Rob Walter: 'I felt we've played pretty well in probably 80% of each game. We just haven't been able to put the finishing touches on it each time, which is disappointing.'"
+ },
+ "sources": [
+  {
+   "name": "ESPNcricinfo - India tour of New Zealand 2026/27 schedule and results",
+   "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/match-schedule-fixtures-and-results",
+   "used_for": "series state, both match results, fixture date"
+  },
+  {
+   "name": "ESPNcricinfo - 3rd T20I scorecard and match details",
+   "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/full-scorecard",
+   "used_for": "venue, T20I number 4221, India squad names and roles"
+  },
+  {
+   "name": "ESPNcricinfo - 3rd T20I match preview",
+   "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview",
+   "used_for": "Bumrah and Hardik absent, nine of last ten against NZ, Rob Walter quote, World Cup runners-up"
+  },
+  {
+   "name": "ESPNcricinfo - 2nd T20I result",
+   "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-t20i-1539433/live-cricket-score",
+   "used_for": "2nd T20I scores, toss, series result"
+  },
+  {
+   "name": "Sporting News - Wellington weather and pitch",
+   "url": "https://www.sportingnews.com/in/cricket/news/wellington-weather-forecast-new-zealand-india-rain-temperature-nz-ind-3rd-t20i/7c8f2445172dc50d5ea35a86",
+   "used_for": "Henry/Ferguson unavailable, venue T20I record 219/6, India never won here in regulation 20 overs"
+  },
+  {
+   "name": "India Today - 3rd T20I preview",
+   "url": "https://www.indiatoday.in/sports/cricket/story/ind-vs-nz-3rd-t20i-wellington-preview-head-to-head-weather-vaibhav-sooryavanshi-3025581-2026-10-27",
+   "used_for": "Matt Henry ruled out of series, Lockie Ferguson unavailable, Iyer 42 and Dhir 42 in the opener"
+  },
+  {
+   "name": "Cricketworld - venue averages and series stats",
+   "url": "https://www.cricketworld.com/match-predictions-india-tour-of-new-zealand-2026-3rd-t20i-match-new-zealand-vs-india-october-27th/114022.htm",
+   "used_for": "164 / 140 venue innings averages, Phillips 152, Samson 81, Arshdeep 3, Santner 6"
+  },
+  {
+   "name": "Crictracker - 2nd T20I match report",
+   "url": "https://www.crictracker.com/cricket-previews/nz-vs-ind-2026-3rd-t20i-match-preview/",
+   "used_for": "Dhir 31, Varma 51* off 26, Kumar Reddy 26* off 13, 70/5 collapse"
+  }
+ ],
+ "conflicts_flagged": [
+  {
+   "item": "T20I head-to-head between India and New Zealand",
+   "a": "India Today: overall 33 matches, India 21, New Zealand 11, tie 1; in New Zealand 14, India 9, NZ 4, tie 1; in Wellington 3, India 1, NZ 2.",
+   "b": "Crictracker: 33 matches played, New Zealand 17, India 13, no result 3.",
+   "resolution": "Both sum to 33 but attribute the wins oppositely. Not resolvable from these two secondary sources, so NO head-to-head figure is asserted anywhere in this project. Requires ICC or ESPNcricinfo records.",
+   "status": "unverified"
+  },
+  {
+   "item": "Venue name",
+   "detail": "The ground is given as 'Hnry Stadium, Wellington' by ESPNcricinfo and as 'Sky Stadium / Wellington Regional Stadium' by others. One outlet additionally described it as 'Hnry Stadium (Basin Reserve)', which conflates two different Wellington grounds.",
+   "resolution": "Recorded as Hnry Stadium per ESPNcricinfo's scorecard, with the alias noted. The Basin Reserve equivalence is rejected as an error in that outlet.",
+   "status": "resolved with note"
+  },
+  {
+   "item": "Risk of conflation with a different 3rd T20I",
+   "detail": "Search results also surface a 'New Zealand in India, 5 T20I Series, 2026' 3rd T20I played 25 January 2026, which India won by 8 wickets (NZ 153/9, India 155/2 in 10.0 overs). That is a different series in a different country four months earlier.",
+   "resolution": "Excluded. All figures used here are tied to the 2026/27 India tour of New Zealand and T20I no. 4221 on 27 October 2026.",
+   "status": "resolved"
+  }
+ ],
+ "olbg_tipster_accuracy_audit": {
+  "severity": "high",
+  "finding": "OLBG's 'Best Tipster's Tip' on this event page is factually wrong about the players involved.",
+  "tipster_claim": "The tip states India's top order is 'Rohit Sharma, Virat Kohli, and Hardik Pandya', that 'India's pace attack (Hardik Pandya, Jasprit Bumrah) has consistently taken wickets', and that 'New Zealand's key bowlers (Mitchell McClenaghan, Tim Southee) have yet to find a rhythm'. It also describes India as defending a title.",
+  "why_it_is_wrong": [
+   "Rohit Sharma, Virat Kohli, Hardik Pandya, Jasprit Bumrah, Tim Southee and Mitchell McClenaghan do not appear anywhere in OLBG's own Man Of The Match selection list for this event, which enumerates both squads.",
+   "ESPNcricinfo's preview states India are 'still missing Bumrah and Hardik' for this series, so the tip's claim that they have been taking wickets in it is false.",
+   "The named India squad for this match is Shreyas Iyer (c), Tilak Varma (vc), Abhishek Sharma, Arshdeep Singh, Shivam Dube, Ishan Kishan, Kuldeep Yadav and Bhuvneshwar Kumar.",
+   "New Zealand's bowlers in this series are led by Mitchell Santner (6 wickets); the tip's McClenaghan and Southee are not in the side."
+  ],
+  "consequence": "This is the single most prominent piece of prose on the OLBG event page, attributed to a tipster shown as 'Profitable Cricket tips for 9 days in a row' with an annual strike rate of 64%. It is a concrete demonstration that OLBG tipster prose cannot be reused as prediction copy, and is the reason every prediction in this project is written independently from primary sources.",
+  "status": "needs review"
+ }
+}

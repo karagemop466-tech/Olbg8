@@ -1,0 +1,68 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "baseball",
+ "sport_label": "Baseball",
+ "sport_id": 12,
+ "hub_url": "https://www.olbg.com/betting-tips/Baseball/12",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "olbg_documented_markets": [
+  "Money Line",
+  "Run Line",
+  "Game Totals",
+  "Ante-post"
+ ],
+ "olbg_market_doc_url": "https://www.olbg.com/betting-tips/Baseball/12",
+ "event_count": 1,
+ "events": [
+  {
+   "event_id": 160799,
+   "event_name": "MIL Brewers @ TB Rays",
+   "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+   "time_label": "Today 21:00",
+   "league": "MLB",
+   "top_selection": "MIL Brewers",
+   "top_market": "Money Line",
+   "tips_win": 2,
+   "tips_total": 2,
+   "tip_pct": 100,
+   "comments": null,
+   "experts": null,
+   "markets_observed": [
+    {
+     "market": "Money Line",
+     "selections": [
+      {
+       "name": "MIL Brewers",
+       "tips_win": 2,
+       "tips_total": 2,
+       "tip_pct": 100
+      }
+     ]
+    },
+    {
+     "market": "Game Totals",
+     "selections": [
+      {
+       "name": "Over 7.50",
+       "line": 7.5,
+       "source": "OLBG hub/betting-tips listing label"
+      }
+     ]
+    },
+    {
+     "market": "Run Line",
+     "selections": [
+      {
+       "name": "TB Rays +1.50",
+       "line": 1.5,
+       "source": "OLBG selection label encodes the run line"
+      }
+     ]
+    }
+   ],
+   "notes": "Only ONE baseball listing on the hub at capture. OLBG hub page states it covers exactly three per-game markets: Money Line, Run Line, Game Totals (plus ante-post). Lines 7.50 and +1.50 were observed in OLBG selection labels on the all-sports betting-tips listing for this event."
+  }
+ ],
+ "notes": "Baseball is in the MLB postseason at capture; the hub lists a single active game. Five distinct match picks are not producible from one fixture without fabrication. FLAGGED."
+}

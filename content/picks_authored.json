@@ -1,0 +1,621 @@
+{
+ "schema": "authored-picks/v1",
+ "caption_window": "Tuesday 27 October 2026 and the fixtures immediately following it",
+ "rules": {
+  "word_floor": 30,
+  "banned_words": [
+   "model",
+   "verified"
+  ],
+  "confidence_source": "line_engine.pick_confidence - evidence tier, probability and a count of independent sourced strands. A pick is never called high because its price is short.",
+  "band": "-250 to +10000 American. Anything outside it is published but excluded from the high-confidence list."
+ },
+ "picks": [
+  {
+   "pick_id": "nhl-bos-car-bruins-puck-line",
+   "sport": "Ice Hockey",
+   "event_name": "Boston Bruins @ Carolina Hurricanes",
+   "olbg_event_id": 200104,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "kickoff": "Tuesday 27 October 2026, 8:00 PM ET, Lenovo Center",
+   "market": "Puck Line",
+   "selection": "Boston Bruins +1.5",
+   "our_probability": 0.707,
+   "market_price_american": -148,
+   "market_price_source": "Bruins +1.5 at -148; also -144 FanDuel and -155 BetMGM. Hurricanes -1.5 at +124 to +140. Moneyline Bruins +160 / Hurricanes -192 at DraftKings, read 26 October 2026 15:34 UTC.",
+   "crowd_dependent": false,
+   "evidence_tier": "partial",
+   "olbg_crowd": {
+    "selection": "BOS Bruins +1.50",
+    "tips_win": 2,
+    "tips_total": 2,
+    "tip_pct": 100
+   },
+   "corroboration": [
+    "Full-season 2025-26 counts: the Hurricanes won by two goals or more in 29 of 82 games and the Bruins lost by two or more in 19 of 82. Averaged, Carolina -1.5 lands 29.3% of the time against the 42.8% the market prices - a 13.5-point gap in favour of Bruins +1.5.",
+    "The Bruins have covered the puck line in 17 of their last 20 away games, for +15.10 units and 43% return on investment.",
+    "Both teams are top of their divisions on near-identical records - Boston 9-2-1-0 first in the Atlantic, Carolina 9-2-1-1 first in the Metropolitan - so this is not a mismatch that a one-and-a-half goal handicap can safely absorb.",
+    "Public money is the other way: 63% of consensus picks are on Carolina, 22 to 13, which is the classic shape of a price held longer than the numbers support."
+   ],
+   "counter_arguments": [
+    "Carolina are at home, where their games averaged 7.0 goals last season against 6.53 for Boston on the road, and high-scoring games punish a team giving up a goal start.",
+    "The moneyline has not moved since opening, so the market is confident rather than drifting."
+   ],
+   "prediction": "Boston travel to the Lenovo Center sitting first in the Atlantic on 9-2-1-0, essentially level with a Carolina side that leads the Metropolitan on 9-2-1-1, and that parity is the whole argument for taking the Bruins with a goal and a half in hand. The Hurricanes won by two or more in only 29 of their 82 games last season while Boston lost by two or more in 19 of theirs, which puts Carolina -1.5 nearer 29% than the 42.8% the board is charging. Add that Boston have covered this exact line in 17 of their last 20 road games and the price looks generous to the visitor. Take Boston Bruins +1.5.",
+   "sources": [
+    {
+     "name": "ScoresAndStats - Bruins v Hurricanes, prices read 26 Oct 2026 15:34 UTC",
+     "url": "https://www.scoresandstats.com/predictions/hockey/nhl/boston-bruins-vs-carolina-hurricanes-odds-picks/2026-10-27/"
+    },
+    {
+     "name": "Covers - Bruins v Hurricanes consensus picks and Boston trends",
+     "url": "https://www.covers.com/sport/hockey/nhl/matchup/382467/picks"
+    },
+    {
+     "name": "ESPN NHL schedule and lines",
+     "url": "https://www.espn.com/nhl/schedule"
+    },
+    {
+     "name": "The RX - Bruins v Hurricanes odds",
+     "url": "https://www.therx.com/nhl/bruins-vs-hurricanes-prediction-october-27-2026-nhl-picks/53866/"
+    },
+    {
+     "name": "OLBG Ice Hockey tips",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13"
+    }
+   ]
+  },
+  {
+   "pick_id": "nba-sac-sa-kings-spread",
+   "sport": "Basketball",
+   "event_name": "Sacramento Kings @ San Antonio Spurs",
+   "olbg_event_id": null,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/4",
+   "kickoff": "Tuesday 27 October 2026, 8:00 PM ET, Frost Bank Center, San Antonio, TX. Televised on DAZN.",
+   "market": "Pointspread",
+   "selection": "Sacramento Kings +17.5",
+   "our_probability": 0.591,
+   "market_price_american": 102,
+   "market_price_source": "Kings +17.5 at +102 (Novig). The number is quoted variously at Spurs -16.5, -17.5 and -18.5 by different outlets; no total had been posted at the time of that quote.",
+   "crowd_dependent": false,
+   "evidence_tier": "partial",
+   "olbg_crowd": null,
+   "olbg_note": "OLBG's basketball hub carried no NBA listings at all for this card, so there is no crowd tip share to anchor against. Priced from market and projection data instead.",
+   "corroboration": [
+    "Independent projection rates the Kings +17.5 a 59.1% proposition against the price, a 9.6-point edge - the largest of any play on this card.",
+    "This is a 1-2 team laying between 16.5 and 18.5 points to a 0-3 team. Spreads that wide are usually reserved for genuine class gaps, and neither side has shown one in three games.",
+    "Sacramento's box score from the 123-112 loss at Memphis shows 94 field-goal attempts at 46.8%, 10 of 33 from beyond the arc and 14 of 22 from the line. A side generating that much volume keeps games within range even when it loses them.",
+    "San Antonio are themselves missing Tobias Harris (calf) and Jayden Quaintance, so the depth gap the number implies is narrower than it looks."
+   ],
+   "counter_arguments": [
+    "Sacramento's injury list is long: Keegan Murray (ankle), Ben Simmons (out for the season after surgery on a torn right Achilles on 21 October), Dylan Cardwell (calf) and Maxime Raynaud (knee), the last two expected to miss at least the first five or six games.",
+    "Four outlets quote four different spreads for the same game, so the true number may already be worse than +17.5."
+   ],
+   "prediction": "San Antonio host Sacramento at the Frost Bank Center laying anything from 16.5 to 18.5 points, a number that treats a 1-2 Spurs side as vastly superior to a 0-3 Kings side, and three games of the season simply have not established that. Sacramento went down 123-112 at Memphis while firing 94 shots at 46.8% and getting to the line 22 times, which is the profile of a team that stays inside the margin even on a bad night. San Antonio are without Tobias Harris through a calf problem and have not looked like a runaway side themselves. Take Sacramento Kings +17.5.",
+   "sources": [
+    {
+     "name": "Dimers - NBA best bets, 27 Oct 2026",
+     "url": "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac"
+    },
+    {
+     "name": "DocSports - Kings v Spurs preview and pick",
+     "url": "https://www.docsports.com/free-picks/nba/2026/sacramento-kings-vs-san-antonio-spurs-prediction-10-27-2026-preview-and-pick.html"
+    },
+    {
+     "name": "ESPN NBA injury status 2026-27",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "name": "OddsShark NBA computer picks",
+     "url": "https://www.oddsshark.com/nba/computer-picks"
+    }
+   ]
+  },
+  {
+   "pick_id": "cricket-pak-sl-pakistan-win",
+   "sport": "Cricket",
+   "event_name": "Pakistan vs Sri Lanka, 5th Match, Pakistan ODI Tri-Series 2026/27",
+   "olbg_event_id": 188868,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/7",
+   "kickoff": "Tuesday 27 October 2026, 1:00 PM PKT (8:00 AM GMT), day/night, Gaddafi Stadium, Lahore",
+   "market": "Win Match",
+   "selection": "Pakistan",
+   "our_probability": 0.667,
+   "market_price_american": null,
+   "market_price_source": "No numeric win-market price was sourced for this selection. OLBG publishes tip counts and percentages but no odds on its win markets, and no book price was independently obtained, so the market column is deliberately left empty rather than filled with our own number. The price shown is the line WE originate.",
+   "evidence_tier": "official",
+   "olbg_crowd": {
+    "selection": "Pakistan",
+    "tips_win": 22,
+    "tips_total": 31,
+    "tip_pct": 71
+   },
+   "corroboration": [
+    "Pakistan have won all three of their tri-series matches and have already qualified for the 31 October final: 37 runs against Sri Lanka on 18 October, 87 runs against England on 20 October and one wicket against England on 25 October.",
+    "Sri Lanka are without opening batter Pathum Nissanka, ruled out of the whole tri-series with a hamstring injury and replaced by the uncapped Lahiru Udara, and without spinner Wanindu Hasaranga, whose place went to Sahan Arachchige.",
+    "The sides meet for the 162nd time in ODIs. Of the previous 161, Pakistan have won 97 and Sri Lanka 59, with one tie and four no-results.",
+    "Captain Shaheen Shah Afridi has seven wickets from the three matches, including three in the first meeting against this opposition.",
+    "Pakistan won that first meeting by 37 runs at Rawalpindi with Salman Ali Agha making 107 off 90 balls."
+   ],
+   "counter_arguments": [
+    "Pakistan have already qualified for the final, so they may rest players. Their probable XI does bring in Maaz Sadaqat, and Sahibzada Farhan has replaced the released Saim Ayub.",
+    "Sri Lanka are not in poor form: they beat England by two wickets on 22 October after Pavan Rathnayake's 130 off 106, Avishka Fernando's 97 off 83, Dasun Shanaka's 97 off 50 and Janith Liyanage's unbeaten 61 off 27 chased down a total in the 430 range.",
+    "Pakistan's top order has been fragile - Babar Azam, Fakhar Zaman and Saim Ayub all fell early in the run chase on 25 October before Shadab Khan's 113 off 96 rescued the match from 154 for 9."
+   ],
+   "prediction": "Pakistan come into this fifth tri-series match at the Gaddafi Stadium unbeaten in three and already through to Saturday's final, having beaten Sri Lanka by 37 runs at Rawalpindi on the back of Salman Ali Agha's 107 from 90 balls. The visitors are shorn of opening batter Pathum Nissanka, out of the series with a hamstring problem, and of Wanindu Hasaranga, which thins an order that already leans heavily on Pavan Rathnayake. Captain Shaheen Shah Afridi has seven wickets from three games on these familiar Lahore conditions, and Pakistan hold 97 wins to 59 across 161 previous one-day meetings. Back Pakistan to win the match.",
+   "sources": [
+    {
+     "name": "ESPNcricinfo - Pakistan v Sri Lanka 5th Match preview, probable XIs and team news",
+     "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-5th-match-1550717/match-preview"
+    },
+    {
+     "name": "ESPNcricinfo - Pakistan ODI Tri-Series 2026/27 schedule and results",
+     "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706"
+    },
+    {
+     "name": "ESPNcricinfo - Pakistan fixtures and results",
+     "url": "https://www.cricinfo.com/team/pakistan-7/match-schedule-fixtures-and-results"
+    },
+    {
+     "name": "Wikipedia - 2026-27 Pakistan ODI Tri-Series, squads and 5th ODI details",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Pakistan_ODI_Tri-Series"
+    },
+    {
+     "name": "ESPNcricinfo - Sri Lanka, Nissanka ruled out with a hamstring injury",
+     "url": "https://www.espn.com/cricket/team/_/id/8/sri-lanka"
+    },
+    {
+     "name": "Cricketworld - Pakistan v Sri Lanka preview, head-to-head and squad lists",
+     "url": "https://www.cricketworld.com/match-predictions-pakistan-odi-tri-series-2026-5th-match-pakistan-vs-sri-lanka-october-27th/114027.htm"
+    },
+    {
+     "name": "OLBG Cricket tips",
+     "url": "https://www.olbg.com/betting-tips/Cricket/7"
+    }
+   ]
+  },
+  {
+   "pick_id": "tennis-djokovic-humbert-basel",
+   "sport": "Tennis",
+   "event_name": "Novak Djokovic vs Ugo Humbert, Swiss Indoors Basel, Round 1",
+   "olbg_event_id": 902233,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/3",
+   "kickoff": "Wednesday 28 October 2026 (OLBG lists it as 'Tomorrow 06:00'); tournament runs 26 October to 1 November, indoor hard",
+   "market": "Win Match",
+   "selection": "Novak Djokovic",
+   "our_probability": 0.707,
+   "market_price_american": null,
+   "market_price_source": "No numeric win-market price was sourced for this selection. OLBG publishes tip counts and percentages but no odds on its win markets, and no book price was independently obtained, so the market column is deliberately left empty rather than filled with our own number. The price shown is the line WE originate.",
+   "evidence_tier": "official",
+   "olbg_crowd": {
+    "selection": "Novak Djokovic",
+    "tips_win": 4,
+    "tips_total": 5,
+    "tip_pct": 80
+   },
+   "corroboration": [
+    "Official ATP standings put Djokovic 11th on 3,090 points and Humbert 38th on around 1,270, and Djokovic is seeded fourth in Basel.",
+    "Djokovic won the China Open in Beijing this month for the 102nd ATP Tour title of his career, beating Alexander Zverev 4-6, 6-4, 6-4 in the quarter-final and Daniil Medvedev 7-5, 5-3 in the semi-final before Alex de Minaur retired against him in the final.",
+    "He drops no ranking points this week, having played none of Vienna, Basel or Paris in 2025, so an ATP Finals place is directly at stake and the motivation is not theoretical.",
+    "He has won 84 career Grand Slam appearances in 2026, passing the joint record of 81 held by Roger Federer and Feliciano Lopez."
+   ],
+   "counter_arguments": [
+    "Humbert is a genuine indoor threat: four of his seven career titles have come on indoor courts and he beat Carlos Alcaraz in the 2024 Shanghai Masters final.",
+    "Djokovic is 39, was beaten in the first round of the 2026 US Open and lost in the third round at Roland Garros to Joao Fonseca, so an opening-round upset is well within this season's pattern.",
+    "This is his first Basel appearance since winning the title in 2009."
+   ],
+   "prediction": "Novak Djokovic returns to Basel for the first time since lifting the trophy there in 2009, seeded fourth and carrying the 102nd tour title of his career after a Beijing run that took in Alexander Zverev and Daniil Medvedev before Alex de Minaur retired in the final. He drops no points this week, so an ATP Finals place is genuinely on the line rather than assumed. Ugo Humbert is the right kind of dangerous opponent on this surface, with four of his seven titles won indoors, but the gap in the official standings - 11th against 38th - and Djokovic's current match sharpness should tell over three sets. Back Djokovic to win.",
+   "sources": [
+    {
+     "name": "ATP Tour live rankings",
+     "url": "https://www.atptour.com/en/rankings/singles/live"
+    },
+    {
+     "name": "Novak Djokovic official site - current tournament, Swiss Indoors Basel, Round 1",
+     "url": "https://novakdjokovic.com/en/"
+    },
+    {
+     "name": "Hindustan Times - Basel and Vienna draws",
+     "url": "https://www.hindustantimes.com/sports/tennis/alcaraz-faces-tough-vienna-draw-djokovic-s-atp-finals-hopes-hang-in-balance-in-basel-101792898879468.html"
+    },
+    {
+     "name": "Wikipedia - 2026 Novak Djokovic tennis season",
+     "url": "https://en.wikipedia.org/wiki/2026_Novak_Djokovic_tennis_season"
+    },
+    {
+     "name": "ESPN - Novak Djokovic 2026 tournament results",
+     "url": "https://www.espn.com/tennis/player/results/_/id/296/novak-djokovic"
+    },
+    {
+     "name": "OLBG Tennis tips",
+     "url": "https://www.olbg.com/betting-tips/Tennis/3"
+    }
+   ]
+  },
+  {
+   "pick_id": "cricket-nz-ind-india-win",
+   "sport": "Cricket",
+   "event_name": "New Zealand vs India, 3rd T20I, India tour of New Zealand 2026/27",
+   "olbg_event_id": 188852,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+   "kickoff": "Tuesday 27 October 2026, 8:00 PM local (12:30 PM IST), Hnry Stadium, Wellington. T20I no. 4221.",
+   "market": "Win Match",
+   "selection": "India",
+   "our_probability": 0.684,
+   "market_price_american": null,
+   "market_price_source": "No numeric win-market price was sourced for this selection. OLBG publishes tip counts and percentages but no odds on its win markets, and no book price was independently obtained, so the market column is deliberately left empty rather than filled with our own number. The price shown is the line WE originate.",
+   "evidence_tier": "official",
+   "olbg_crowd": {
+    "selection": "India",
+    "tips_win": 35,
+    "tips_total": 49,
+    "tip_pct": 71
+   },
+   "corroboration": [
+    "India lead the five-match series 2-0, chasing 226 on 22 October and 181 on 24 October at Christchurch and winning both by four wickets.",
+    "India have won nine of their last ten matches against New Zealand, and took their 200th T20I victory in their 300th appearance in the second match.",
+    "New Zealand are without two frontline pacers: Matt Henry is ruled out of the remainder of the series and Lockie Ferguson is unavailable for this match.",
+    "New Zealand's fielding cost them in the second T20I, with four dropped catches and missed run-outs in one evening.",
+    "India's lower order has decided both games: Tilak Varma 51 not out from 26 balls, Naman Dhir 42 from 15 and then 31, and Nitish Kumar Reddy 26 not out from 13 turned a 70 for 5 collapse into a win with one ball left."
+   ],
+   "counter_arguments": [
+    "India have never won a T20I at this Wellington ground inside the regulation 20 overs, and the highest T20I total posted there is 219 for 6 - made by New Zealand against India.",
+    "Average first-innings totals at the venue run 164 with 140 in the second innings, so the side batting first has a real advantage and the toss matters more than usual.",
+    "India are themselves without Jasprit Bumrah and Hardik Pandya for the whole series.",
+    "Glenn Phillips has 152 runs for New Zealand and captain Mitchell Santner six wickets, so the hosts have form in the right places. New Zealand's coach Rob Walter says they have played well in 'probably 80% of each game'.",
+    "Persistent Wellington wind is forecast."
+   ],
+   "prediction": "India arrive in Wellington two wins up in a five-match series, both chases at Christchurch sealed with four wickets in hand, and they have taken nine of their last ten against New Zealand along the way. The hosts lose two frontline pacers for this one, Matt Henry ruled out of the series and Lockie Ferguson unavailable, which puts more of the load on Mitchell Santner despite his six wickets. India's tail has been decisive - Tilak Varma's unbeaten 51 from 26 balls and Naman Dhir's 42 and 31 rescued a chase that had slid to 70 for 5. The Wellington ground has a habit of favouring New Zealand and India have never won a T20I there inside 20 overs, so the toss carries weight, but back India to win the match.",
+   "sources": [
+    {
+     "name": "ESPNcricinfo - 3rd T20I scorecard, venue and T20I number",
+     "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/full-scorecard"
+    },
+    {
+     "name": "ESPNcricinfo - 3rd T20I match preview",
+     "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview"
+    },
+    {
+     "name": "ESPNcricinfo - series schedule and results",
+     "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/match-schedule-fixtures-and-results"
+    },
+    {
+     "name": "Sporting News - Wellington weather, Henry and Ferguson unavailable, venue record",
+     "url": "https://www.sportingnews.com/in/cricket/news/wellington-weather-forecast-new-zealand-india-rain-temperature-nz-ind-3rd-t20i/7c8f2445172dc50d5ea35a86"
+    },
+    {
+     "name": "India Today - 3rd T20I preview and team news",
+     "url": "https://www.indiatoday.in/sports/cricket/story/ind-vs-nz-3rd-t20i-wellington-preview-head-to-head-weather-vaibhav-sooryavanshi-3025581-2026-10-27"
+    },
+    {
+     "name": "Cricketworld - venue innings averages and series statistics",
+     "url": "https://www.cricketworld.com/match-predictions-india-tour-of-new-zealand-2026-3rd-t20i-match-new-zealand-vs-india-october-27th/114022.htm"
+    },
+    {
+     "name": "OLBG Cricket tips and this event's tipster page",
+     "url": "https://www.olbg.com/betting-tips/Cricket/7"
+    }
+   ]
+  },
+  {
+   "pick_id": "nba-por-lal-lakers-moneyline",
+   "sport": "Basketball",
+   "event_name": "Portland Trail Blazers @ Los Angeles Lakers",
+   "olbg_event_id": null,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/4",
+   "kickoff": "Tuesday 27 October 2026, 11:00 PM ET",
+   "market": "Money Line",
+   "selection": "Los Angeles Lakers",
+   "our_probability": 0.646,
+   "market_price_american": -160,
+   "market_price_source": "Lakers -160 to -120 depending on book; Trail Blazers +133. Spread Lakers -3.5 to -4, opening at -4. Total 235.5.",
+   "crowd_dependent": false,
+   "evidence_tier": "partial",
+   "olbg_crowd": null,
+   "olbg_note": "No OLBG tip share exists for this card.",
+   "corroboration": [
+    "Independent projection rates the Lakers moneyline a 64.6% proposition at 57 cents, a 7.5-point edge, and scores the game Lakers 119, Trail Blazers 116.",
+    "The Lakers are 3-0. Portland are 2-0 straight up but only 1-1 against the spread.",
+    "Portland are without Shaedon Sharpe, who is expected to miss about six months after tearing a meniscus and is not due back until 2 March, with Scoot Henderson (ankle), Branden Carlson (concussion protocol) and Chris Youngblood (ankle) all also in doubt.",
+    "Los Angeles won 77.6% of the games last season in which they were the moneyline favourite, going 38-11, and 80% at prices of -160 or shorter, finishing 28-7."
+   ],
+   "counter_arguments": [
+    "The projection also makes Trail Blazers +3.5 the covering side, so the same numbers expect a close game rather than a comfortable one.",
+    "Lakers role players Cameron Carr (oblique) and Adou Thiero (knee) are both questionable."
+   ],
+   "prediction": "The Lakers are three wins from three and host a Portland side that, while 2-0 straight up, has covered only once and arrives badly short. Shaedon Sharpe is out until March after tearing a meniscus, and Scoot Henderson, Branden Carlson and Chris Youngblood are all listed as doubts, which leaves the rotation thin against a team that has not lost yet. Los Angeles won 38 of 49 games last season as a moneyline favourite and 28 of 34 at prices of -160 or shorter, so this is a spot the franchise has handled well. The projection of 119-116 says it will be close, but back the Lakers to win the game.",
+   "sources": [
+    {
+     "name": "Sports SD - Trail Blazers v Lakers prediction, odds, stats and injury report",
+     "url": "https://sportssd.iheart.com/content/2026-10-27-trail-blazers-vs-lakers-predictions-odds-stats-oct-27/"
+    },
+    {
+     "name": "Dimers - NBA best bets, 27 Oct 2026",
+     "url": "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac"
+    },
+    {
+     "name": "ESPN NBA injury status 2026-27",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "name": "OddsShark NBA computer picks",
+     "url": "https://www.oddsshark.com/nba/computer-picks"
+    }
+   ]
+  },
+  {
+   "pick_id": "tennis-alcaraz-khachanov-vienna",
+   "sport": "Tennis",
+   "event_name": "Karen Khachanov vs Carlos Alcaraz, Erste Bank Open Vienna, Round of 32",
+   "olbg_event_id": 902213,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/3",
+   "kickoff": "Tuesday 27 October 2026 (OLBG lists 'Today 10:00'), indoor hard court",
+   "market": "Win Match",
+   "selection": "Carlos Alcaraz",
+   "our_probability": 0.683,
+   "market_price_american": null,
+   "market_price_source": "No numeric win-market price was sourced for this selection. OLBG publishes tip counts and percentages but no odds on its win markets, and no book price was independently obtained, so the market column is deliberately left empty rather than filled with our own number. The price shown is the line WE originate.",
+   "evidence_tier": "official",
+   "olbg_crowd": {
+    "selection": "Karen Khachanov",
+    "tips_win": 2,
+    "tips_total": 2,
+    "tip_pct": 100
+   },
+   "crowd_contradiction": "OLBG's most-tipped selection for this match is Karen Khachanov, on two tips out of two. Our originated line makes Carlos Alcaraz a 68% favourite. This is the single largest crowd-versus-evidence divergence in the whole capture and is published on the Flagged page.",
+   "corroboration": [
+    "Official ATP standings have Alcaraz third on 5,610 points against Khachanov 24th on 2,030.",
+    "Alcaraz has beaten Khachanov in all six of their previous meetings.",
+    "Alcaraz has three titles in 2026 - the Australian Open, where he beat Novak Djokovic in the final, the Qatar Open at Doha and the Japan Open at Tokyo - and has already qualified for the ATP Finals.",
+    "Khachanov is 30 and has won seven tour titles across a career in which he has never beaten this opponent."
+   ],
+   "counter_arguments": [
+    "Alcaraz is returning to Vienna for the first time since 2021 and has had a wrist problem this season that cost him the French Open entirely and kept him out for several months.",
+    "Khachanov's 2026 US Open result is recorded inconsistently across sources - one lists him as the champion, two others as a semi-finalist - so his current form cannot be stated with confidence. That unresolved question is precisely why the prior here is held below what a 6-0 head-to-head alone would justify.",
+    "Only two OLBG tips exist on this match, which is far too thin a sample to treat as evidence for either side."
+   ],
+   "prediction": "Carlos Alcaraz opens his Vienna campaign against Karen Khachanov on the indoor hard courts, returning to this tournament for the first time since 2021 with three titles already banked in 2026 - the Australian Open, Doha and Tokyo. The official rankings separate them by 21 places and more than 3,500 points, and Alcaraz has won all six previous meetings between them without dropping a match. Khachanov is a seven-time tour champion and a real indoor player, and Alcaraz's wrist has troubled him this year, so this is not a walkover. Even so, the OLBG crowd backing Khachanov on two tips is nowhere near enough to shift the case. Back Alcaraz to win.",
+   "sources": [
+    {
+     "name": "L'Equipe - ATP rankings dated 26 October 2026",
+     "url": "https://www.lequipe.fr/Tennis/atp/epreuve-simple-messieurs/page-classement-individuel/general"
+    },
+    {
+     "name": "ATP Tour live rankings",
+     "url": "https://www.atptour.com/en/rankings/singles/live"
+    },
+    {
+     "name": "TennisWorldUSA - Alcaraz to open in Vienna on 27 October against Khachanov",
+     "url": "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/170852/carlos-alcaraz-chooses-two-familiar-rivals-for-vienna-open-preparations/"
+    },
+    {
+     "name": "Hindustan Times - Alcaraz has beaten Khachanov in all six previous meetings",
+     "url": "https://www.hindustantimes.com/sports/tennis/alcaraz-faces-tough-vienna-draw-djokovic-s-atp-finals-hopes-hang-in-balance-in-basel-101792898879468.html"
+    },
+    {
+     "name": "Wikipedia - 2026 Carlos Alcaraz tennis season",
+     "url": "https://en.wikipedia.org/wiki/2026_Carlos_Alcaraz_tennis_season"
+    },
+    {
+     "name": "OLBG Tennis tips",
+     "url": "https://www.olbg.com/betting-tips/Tennis/3"
+    }
+   ]
+  },
+  {
+   "pick_id": "rugby-union-stormers-ulster",
+   "sport": "Rugby Union",
+   "event_name": "Stormers v Ulster, United Rugby Championship Round 5",
+   "olbg_event_id": 609588,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "kickoff": "Saturday 31 October 2026, 12:45 IRE and UK time, DHL Stadium, Cape Town",
+   "market": "Win Match",
+   "selection": "Stormers",
+   "our_probability": 0.686,
+   "market_price_american": null,
+   "market_price_source": "No numeric win-market price was sourced for this selection. OLBG publishes tip counts and percentages but no odds on its win markets, and no book price was independently obtained, so the market column is deliberately left empty rather than filled with our own number. The price shown is the line WE originate.",
+   "evidence_tier": "partial",
+   "olbg_crowd": {
+    "selection": "Ulster +12.50",
+    "tips_win": 1,
+    "tips_total": 1,
+    "tip_pct": 100
+   },
+   "olbg_stated_handicap": 12.5,
+   "corroboration": [
+    "After four rounds the Stormers sit fourth on 16 points with three wins from four and a points difference of +39, having scored 133 and conceded 94.",
+    "Ulster are twelfth on nine points, still winless at nought wins, two draws and two losses, with a points difference of -13.",
+    "In Round 4 the Stormers beat the Scarlets 52-40 in Cape Town, while Ulster lost 34-26 at the Bulls in Pretoria despite a fightback from 21-0 down.",
+    "Ulster are travelling to Cape Town, where the Stormers play at a 55,000-capacity ground."
+   ],
+   "counter_arguments": [
+    "Ulster's two draws show they can hold sides, and they scored 26 in Pretoria against a Bulls team that led 21-0, with Chay Mullins taking two tries.",
+    "Jack Murphy is second in the competition's scoring chart on 32 points, so Ulster have a functioning attack.",
+    "OLBG's single tip is on Ulster +12.5, and one tip is not a sample. Our fair handicap for this match is Stormers -11.5, so the +12.5 quoted is close to fair rather than obviously wrong.",
+    "The Stormers needed a late double from replacement fly-half Yaqeen Ahmed in the 72nd and 79th minutes to put the Scarlets away after surrendering a 33-14 half-time lead, so their wins have not been comfortable."
+   ],
+   "prediction": "The Stormers host Ulster at the DHL Stadium on Saturday sitting fourth in the United Rugby Championship on 16 points, three wins from four and a points difference of +39, while Ulster are twelfth on nine and still searching for a first victory after two draws and two defeats. Round 4 illustrated the gap: Cape Town saw the Stormers beat the Scarlets 52-40, and Pretoria saw Ulster lose 34-26 to the Bulls even after climbing back from 21-0 down. Ulster do have Jack Murphy second in the scoring charts on 32 points, and the Stormers needed two late Yaqeen Ahmed tries to finish off the Scarlets, so this will not be a procession. Back the Stormers to win.",
+   "sources": [
+    {
+     "name": "Wikipedia - 2026-27 United Rugby Championship, league standings after Round 4",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
+    },
+    {
+     "name": "United Rugby Championship official site",
+     "url": "https://www.unitedrugby.com/"
+    },
+    {
+     "name": "URC TV - Round 5 fixtures and kick-offs",
+     "url": "https://urc.tv/"
+    },
+    {
+     "name": "RugbyPass - Bulls 34-26 Ulster and Stormers 52-40 Scarlets reports",
+     "url": "https://www.rugbypass.com/news/united-rugby-championship-reports-13/"
+    },
+    {
+     "name": "BBC Sport - United Rugby Championship scores and fixtures",
+     "url": "https://www.bbc.com/sport/rugby-union/pro-tournament/scores-fixtures/2026-10?filter=fixtures"
+    },
+    {
+     "name": "OLBG Rugby Union tips",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/9"
+    }
+   ]
+  },
+  {
+   "pick_id": "nba-bkn-bos-nets-spread",
+   "sport": "Basketball",
+   "event_name": "Brooklyn Nets @ Boston Celtics",
+   "olbg_event_id": null,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/4",
+   "kickoff": "Tuesday 27 October 2026, 7:30 PM ET",
+   "market": "Pointspread",
+   "selection": "Brooklyn Nets +11.5",
+   "our_probability": 0.552,
+   "market_price_american": 104,
+   "market_price_source": "Nets +11.5 at 49 cents (Novig). Celtics moneyline -426. The preliminary line had Boston a 14-point home favourite.",
+   "crowd_dependent": false,
+   "evidence_tier": "partial",
+   "olbg_crowd": null,
+   "olbg_note": "No OLBG tip share exists for this card.",
+   "corroboration": [
+    "Independent projection rates the Nets +11.5 a 55.2% proposition, a 6.7-point edge.",
+    "Boston are on the second night of a home back-to-back, having played the Bulls on Monday as 14.5-point favourites.",
+    "The number has already come in from Boston -14 to -11.5, and one analyst expects it to compress further toward 12 or 13 by tip-off.",
+    "Julius Randle is averaging 22.0 points, 7.0 rebounds and 6.3 assists for Brooklyn, so the Nets have a scoring outlet even at 0-3."
+   ],
+   "counter_arguments": [
+    "Brooklyn are 0-3 and 0-1 away, and Boston are 2-1 with a 2-0 home record. Celtics moneyline at -426 shows how lopsided the straight-up expectation is.",
+    "Taking points against a side that covered -14.5 the previous night is a real risk if Boston treat this as a routine win."
+   ],
+   "prediction": "Boston come off the second night of a home back-to-back as 14-point-then-11.5-point favourites over a Brooklyn side that has lost all three of its opening games, and that schedule spot is where the value sits. The number has already drifted in from -14, and Julius Randle is averaging 22.0 points, 7.0 rebounds and 6.3 assists, which gives the Nets a way to keep the margin respectable even when they lose. Boston at -426 on the moneyline tells you who wins this, but the spread is asking a different question and eleven and a half points is a lot to concede on no rest. Take Brooklyn Nets +11.5.",
+   "sources": [
+    {
+     "name": "Dimers - NBA best bets, 27 Oct 2026",
+     "url": "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac"
+    },
+    {
+     "name": "ESPN NBA scoreboard, 27 October 2026, players to watch",
+     "url": "https://www.espn.com/nba/scoreboard/_/date/20261027"
+    },
+    {
+     "name": "Sports Gambling Podcast - Tuesday Oct 27 preview",
+     "url": "https://www.sportsgamblingpodcast.com/2026-10-26/nba-picks-preview-predictions-for-tuesday-oct-27th/"
+    },
+    {
+     "name": "Tony's Picks - Brian Bitler top ten free picks, 27 Oct 2026",
+     "url": "https://www.tonyspicks.com/2026-10-26/brian-bitler-top-10-free-picks-10-27-26/"
+    },
+    {
+     "name": "OddsShark NBA computer picks",
+     "url": "https://www.oddsshark.com/nba/computer-picks"
+    }
+   ]
+  },
+  {
+   "pick_id": "rugby-union-connacht-leinster-value",
+   "sport": "Rugby Union",
+   "event_name": "Connacht v Leinster, United Rugby Championship Round 5",
+   "olbg_event_id": 609584,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "kickoff": "Friday 30 October 2026, 19:45 IRE and UK time, Dexcom Stadium, Galway. Live on TG4 and Premier Sports.",
+   "market": "Handicap",
+   "selection": "Connacht +3.5",
+   "our_probability": null,
+   "our_probability_note": "Our originated line makes Leinster a 54% winner, which is a fair handicap of Leinster -1.5. The +3.5 OLBG quotes is therefore two points better than our fair number, and the value sits with Connacht rather than with the straight-up winner.",
+   "market_price_american": null,
+   "market_price_source": "OLBG quotes 'Connacht +3.50' inside its selection label. No numeric price is published by OLBG and no book price was independently sourced for this handicap.",
+   "evidence_tier": "partial",
+   "olbg_crowd": {
+    "selection": "Connacht +3.50",
+    "tips_win": 1,
+    "tips_total": 1,
+    "tip_pct": 100
+   },
+   "olbg_stated_handicap": 3.5,
+   "corroboration": [
+    "Leinster are sixth on 13 points with a points difference of +23; Connacht are eighth on 10 points with -7. Both are two wins and two losses.",
+    "Connacht are at home in Galway, where they host Leinster for the second interprovincial fixture in a fortnight.",
+    "Leinster beat Munster 24-18 at the Aviva Stadium on 24 October but only after coming from 13-0 down, with three second-half tries while Munster's Nankivell was in the sin bin.",
+    "Connacht's recruitment from Leinster is directly relevant: Ciaran Frawley, Will Connors and Jerry Cahir all moved west, and Frawley is tenth in the competition's scoring chart on 22 points."
+   ],
+   "counter_arguments": [
+    "Leinster are the reigning champions, having beaten the Bulls 36-7 in the final to take a tenth title.",
+    "Leinster beat Connacht 52-17 at the Dexcom Stadium in January 2026, so the ground offers no protection in itself.",
+    "Both provinces lose players to Ireland camp around this window, which makes team news the deciding factor and it has not been published for this round.",
+    "One OLBG tip is not a sample."
+   ],
+   "prediction": "Connacht host Leinster in Galway on Friday evening in the second interprovincial clash of the fortnight, and while Leinster remain the reigning champions after beating the Bulls 36-7 in the final, their 24-18 win over Munster needed a second-half surge from 13-0 down with Nankivell in the sin bin. Both provinces are level on two wins from four, and Connacht have strengthened directly at their opponents' expense, with Ciaran Frawley, Will Connors and Jerry Cahir all arriving from Leinster and Frawley now tenth in the scoring charts. Leinster won 52-17 here in January, so a straight-up upset is a big ask, but three and a half points is more generous than the form suggests. Take Connacht +3.5.",
+   "sources": [
+    {
+     "name": "Wikipedia - 2026-27 United Rugby Championship standings and leading scorers",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
+    },
+    {
+     "name": "BBC Sport - Leinster 24-18 Munster match report",
+     "url": "https://bbc.co.uk/sport/rugby-union/articles/cjy56g5g6qw2o"
+    },
+    {
+     "name": "BBC Sport - how the Irish provinces are shaping up, Connacht transfers",
+     "url": "https://www.bbc.com/sport/rugby-union/articles/cqvgyje132v6o"
+    },
+    {
+     "name": "PlanetRugby - Round 5 venue, kick-off and referee appointments",
+     "url": "https://www.planetrugby.com/news/urc-round-one-predictions-teams-kick-off-times-how-to-watch-and-referee-appointments"
+    },
+    {
+     "name": "URC TV - Connacht v Leinster, 30 Oct 2026",
+     "url": "https://urc.tv/"
+    },
+    {
+     "name": "OLBG Rugby Union tips",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/9"
+    }
+   ]
+  },
+  {
+   "pick_id": "nhl-wpg-fla-jets-moneyline",
+   "sport": "Ice Hockey",
+   "event_name": "Florida Panthers @ Winnipeg Jets",
+   "olbg_event_id": null,
+   "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "kickoff": "Tuesday 27 October 2026, 8:00 PM ET",
+   "market": "Money Line",
+   "selection": "Winnipeg Jets",
+   "our_probability": 0.524,
+   "market_price_american": 110,
+   "market_price_source": "Jets +110. Panthers -1.5 quoted +180 to +190 across books; over 5.5 at -135 to -145, or over 6.0 at -105 to -118.",
+   "crowd_dependent": false,
+   "evidence_tier": "partial",
+   "olbg_crowd": null,
+   "olbg_note": "Not present in the OLBG Ice Hockey capture, so there is no crowd tip share to anchor against.",
+   "corroboration": [
+    "An independent projection rates Winnipeg a 52.4% home winner against the 45.7% the price implies, and calls the Jets at +110 the bet.",
+    "Winnipeg are 4-3 overall with a 2-2 home record, and plus money on a home side that is close to .500 is the shape of a live price."
+   ],
+   "counter_arguments": [
+    "Only two sourced strands support this, and one of them is the projection itself, so the case is materially thinner than the picks above it.",
+    "Florida's puck line is quoted at +180 to +190, which implies the market already expects a close game and prices the Panthers as the better side."
+   ],
+   "prediction": "Winnipeg host Florida on Tuesday evening at plus money, and a home side listed at +110 while sitting four wins from seven is the kind of price worth a look. The independent number rates the Jets a 52.4% winner against the 45.7% the board implies, which is a real if modest gap, and the Panthers' puck line being quoted as far out as +190 tells you the market expects this to be tight rather than a blowout. Winnipeg are 2-2 at home so far, which is unimpressive but not a reason to fade them at this price. Take Winnipeg Jets on the moneyline, at a smaller stake than the plays above it.",
+   "sources": [
+    {
+     "name": "ScoresAndStats - NHL predictions for every regular-season game",
+     "url": "https://www.scoresandstats.com/predictions/hockey/nhl/"
+    },
+    {
+     "name": "OddsShark - NHL odds, spreads and lines",
+     "url": "https://www.oddsshark.com/nhl/odds"
+    },
+    {
+     "name": "ESPN NHL odds board",
+     "url": "https://www.espn.com/nhl/odds"
+    },
+    {
+     "name": "OLBG Ice Hockey tips",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13"
+    }
+   ]
+  }
+ ]
+}

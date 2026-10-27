@@ -1,0 +1,204 @@
+{
+ "schema": "official-evidence/v1",
+ "sport": "Ice Hockey",
+ "league": "NHL",
+ "date": "2026-10-27",
+ "note": "Tuesday 27 October 2026 NHL slate with market lines, team records and independent projections. These are the games OLBG listed live today (CLB Blue Jackets @ PHI Flyers 'Today 19:07' and BOS Bruins @ CAR Hurricanes 'Today 20:07' both appear in the OLBG capture), so they are genuinely upcoming.",
+ "games": [
+  {
+   "matchup": "Columbus Blue Jackets @ Philadelphia Flyers",
+   "time_et": "7:00 PM",
+   "tv": "ESPN+",
+   "olbg_event_id": 200108,
+   "olbg_most_tipped": {
+    "selection": "PHI Flyers",
+    "market": "Money Line",
+    "tips_win": 2,
+    "tips_total": 3,
+    "pct": 67
+   },
+   "market": {
+    "moneyline_columbus": "-115 (ESPN schedule)",
+    "total": "5.5",
+    "puck_line": "Columbus -1.5 priced +200 to +230 across eight books; over 5.5 -118 to -125",
+    "exchange_prices": {
+     "kalshi": {
+      "clb": "53% at 1.89",
+      "phi": "51% at 1.96"
+     },
+     "polymarket": {
+      "clb": "52% at 1.92",
+      "phi": "49% at 2.04"
+     },
+     "underdog": {
+      "clb": "55% at 1.82",
+      "phi": "53% at 1.90"
+     }
+    }
+   },
+   "sources": [
+    "https://www.espn.com/nhl/schedule",
+    "https://www.oddsshark.com/nhl/odds",
+    "https://www.covers.com/sport/hockey/nhl/odds"
+   ]
+  },
+  {
+   "matchup": "Boston Bruins @ Carolina Hurricanes",
+   "time_et": "8:00 PM",
+   "tv": "ESPN",
+   "venue": "Lenovo Center",
+   "olbg_event_id": 200104,
+   "records": {
+    "boston": "9-2-1-0, 1st in the Atlantic",
+    "carolina": "9-2-1-1, 1st in the Metropolitan"
+   },
+   "olbg_most_tipped": {
+    "selection": "BOS Bruins +1.50",
+    "market": "Puck Line",
+    "tips_win": 2,
+    "tips_total": 2,
+    "pct": 100
+   },
+   "market": {
+    "moneyline": "Bruins +160 / Hurricanes -192 (DraftKings via ESPN, read 26 Oct 2026 15:34 UTC; opened at the same prices so the market has not moved)",
+    "moneyline_devigged": "Carolina 63.1%, Boston 36.9%",
+    "total": "6.5, over -102 / under -118",
+    "puck_line": "Hurricanes -1.5 at +124, Bruins +1.5 at -148, which de-vigges to 42.8% and 57.2%",
+    "other_books_puck_line": "Bruins +1.5 at -144 (FanDuel), -155 (BetMGM); Hurricanes -1.5 at +140 (BetRivers), +125 (BetMGM)"
+   },
+   "verified_split_stats": [
+    "Carolina's games went over 6.5 goals in 44 of 82 last season; Boston's in 42 of 82.",
+    "Carolina's home games averaged 7.0 goals last season; Boston's road games averaged 6.53.",
+    "The Hurricanes won by two goals or more in 29 of 82 games last season; the Bruins lost by two or more in 19 of 82.",
+    "Averaged, Carolina -1.5 lands 29.3% of the time against the 42.8% the market prices - a 13.5-point gap in favour of Bruins +1.5.",
+    "The Bruins have covered the puck line in 17 of their last 20 away games (+15.10 units, 43% ROI).",
+    "The Bruins have hit the moneyline in 13 of their last 20 games (+7.65 units, 33% ROI).",
+    "The Bruins have hit the over in only 8 of their last 25 games (-10.05 units, -36% ROI).",
+    "63% of public consensus picks are on Carolina (22 picks to 13)."
+   ],
+   "sources": [
+    "https://www.scoresandstats.com/predictions/hockey/nhl/boston-bruins-vs-carolina-hurricanes-odds-picks/2026-10-27/",
+    "https://www.covers.com/sport/hockey/nhl/matchup/382467/picks",
+    "https://www.therx.com/nhl/bruins-vs-hurricanes-prediction-october-27-2026-nhl-picks/53866/",
+    "https://www.espn.com/nhl/schedule"
+   ]
+  },
+  {
+   "matchup": "Los Angeles Kings @ Chicago Blackhawks",
+   "time_et": "8:00 PM",
+   "tv": "ESPN+",
+   "venue": "United Center, Chicago",
+   "records": {
+    "la_kings": "2-5-2 (0-3 away)",
+    "chicago": "3-8"
+   },
+   "market": {
+    "moneyline": "Kings -123 / Blackhawks +101 (also quoted Kings -122)",
+    "total": "6 (also quoted 5.5)",
+    "line_movement": "Kings have been listed as a moneyline favourite only two other times this season and went 1-1 in those games. Chicago have won three of the 11 games they have played as an underdog this season (27.3%)."
+   },
+   "sources": [
+    "https://www.bleachernation.com/picks/2026-10-26/kings-vs-blackhawks-how-to-watch-odds-picks-predictions/",
+    "https://www.espn.com/nhl/schedule"
+   ]
+  },
+  {
+   "matchup": "Florida Panthers @ Winnipeg Jets",
+   "time_et": "8:00 PM",
+   "records": {
+    "winnipeg": "4-3 (2-2 home)"
+   },
+   "market": {
+    "puck_line": "Panthers -1.5 at +180 to +190 across books",
+    "total": "over 5.5 -135 to -145, or over 6.0 -105 to -118 depending on book"
+   },
+   "independent_projection": "ScoresAndStats rates Winnipeg a 52.4% home winner against the 45.7% the price implies, and calls the Jets at +110.",
+   "sources": [
+    "https://www.oddsshark.com/nhl/odds",
+    "https://www.scoresandstats.com/predictions/hockey/nhl/"
+   ]
+  },
+  {
+   "matchup": "New York Islanders @ Nashville Predators",
+   "time_et": "8:00 PM",
+   "market": {
+    "total": "over 5.5 -120 to -125 (FanDuel over 6.0 -102)",
+    "puck_line": "-1.5 at +190 to +220"
+   },
+   "sources": [
+    "https://www.oddsshark.com/nhl/odds"
+   ]
+  },
+  {
+   "matchup": "Ottawa Senators @ Vegas Golden Knights",
+   "time_et": "10:00 PM",
+   "market": {
+    "senators": {
+     "puck_line": "+1.5 (-210)",
+     "moneyline": "+127",
+     "total": "Over 6.5 (+104)"
+    },
+    "golden_knights": {
+     "puck_line": "-1.5 (+170)",
+     "moneyline": "-144",
+     "total": "Under 6.5 (-120)"
+    },
+    "context": "Vegas are on a three-game losing skid and return to home ice."
+   },
+   "sources": [
+    "https://www.therx.com/nhl/senators-vs-golden-knights-prediction-october-27-2026-nhl-picks/53863/",
+    "https://www.pickswise.com/nhl/picks/"
+   ]
+  },
+  {
+   "matchup": "Buffalo Sabres @ San Jose Sharks",
+   "records": {
+    "buffalo": "4-4-3, 11 points, 7th in the Eastern Conference wild-card race",
+    "san_jose": "6-5-1, 13 points, holding the West's second wild-card spot"
+   },
+   "market": {
+    "sabres": {
+     "puck_line": "-1.5 (+190)",
+     "moneyline": "-130",
+     "total": "Over 6.5 (-120)"
+    },
+    "sharks": {
+     "puck_line": "+1.5 (-230)",
+     "moneyline": "+110",
+     "total": "Under 6.5 (EV)"
+    },
+    "odds_provider": "BookMaker"
+   },
+   "sources": [
+    "https://www.therx.com/nhl/sabres-vs-sharks-prediction-october-27-2026-nhl-picks/53859/"
+   ]
+  },
+  {
+   "matchup": "Montreal Canadiens @ St. Louis Blues",
+   "market": {
+    "status": "A complete independently verifiable sportsbook opener and current Tuesday line were NOT available at the time of writing.",
+    "guidance": "St. Louis moneyline is the preferred market at -130 or better, with overtime and shootout included."
+   },
+   "sources": [
+    "https://winnersandwhiners.com/free-picks/nhl/montreal-canadiens-vs-st-louis-blues-picks-prediction-odds-and-line-movement-for-tuesday-october-27-2026"
+   ]
+  },
+  {
+   "matchup": "Vancouver Canucks @ Anaheim Ducks",
+   "records": {
+    "vancouver": "2-9 (1-4 home)",
+    "minnesota_wild_for_context": "7-3 (4-0 away)"
+   },
+   "market": {
+    "moneyline": "Ducks -212",
+    "total": "Over 6.5",
+    "puck_line": "Ducks -1.5"
+   },
+   "independent_projection": "Computer projection Ducks 4, Canucks 3, predicting 6.9 goals on average.",
+   "sources": [
+    "https://sportssd.iheart.com/content/2026-10-26-canucks-vs-ducks-prediction-picks-oct-27/"
+   ]
+  }
+ ],
+ "records_note": "Team records quoted are as published by the sources on 26-27 October 2026 and are win-loss-OT loss triples. They are transcribed, not computed."
+}

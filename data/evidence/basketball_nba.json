@@ -1,0 +1,223 @@
+{
+ "schema": "official-evidence/v1",
+ "sport": "Basketball",
+ "league": "NBA",
+ "date": "2026-10-27",
+ "critical_finding": {
+  "severity": "high",
+  "finding": "The nine NBA games OLBG listed at capture are the MONDAY 26 OCTOBER slate, not Tuesday 27 October. Confirmed by ESPN's own odds board, which stamps Miami/Indiana/Milwaukee, Phoenix/Oklahoma City, Atlanta/Houston and Golden State/Denver with UTC start times of 2026-10-27T00:00Z to T02:00Z - i.e. Monday evening in the United States.",
+  "why_it_matters": "Presenting those nine games as upcoming on Tuesday 27 October would publish predictions for matches that have already tipped off or finished. They are recorded here as a closed market reference only.",
+  "today_slate": "The genuine Tuesday 27 October NBA card is four games: Brooklyn Nets @ Boston Celtics (7:30 PM ET), Sacramento Kings @ San Antonio Spurs (8:00 PM ET), Detroit Pistons @ New York Knicks (8:00 PM ET) and Portland Trail Blazers @ Los Angeles Lakers (11:00 PM ET). OLBG's basketball hub at live capture time showed NO NBA listings at all - it was entirely EuroLeague, EuroCup, Basketball Champions League and Korean KBL. So OLBG has no crowd tip data for today's NBA card.",
+  "consequence": "For basketball, predictions are written from market and independent-projection sources for the four Tuesday games, and OLBG tip data is used only for the European competitions where OLBG does list today's matches. This gap is published on the Flagged page."
+ },
+ "monday_26_october_lines_from_espn": [
+  {
+   "matchup": "Washington Wizards @ Charlotte Hornets",
+   "line": "Wizards +2.5 (-115) | Hornets -2.5 (-105)",
+   "moneyline": "Wizards +114 | Hornets -135",
+   "total": "227.5 (-105 O, -115 U)",
+   "bpi": "Hornets by 1.2, straight up 54%, 230.6 total",
+   "olbg_most_tipped": "CHA Hornets Money Line 7/10 = 70%"
+  },
+  {
+   "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+   "line": "Timberwolves +5.5 (-112) | Cavaliers -5.5 (-108)",
+   "moneyline": "Timberwolves +170 | Cavaliers -205",
+   "total": "232.5 (-105 O, -115 U)",
+   "bpi": "Timberwolves by 1.8, straight up 56%, 231.0 total",
+   "olbg_most_tipped": "CLE Cavaliers Money Line 10/17 = 59%",
+   "flag": "BPI projects the Timberwolves to win outright by 1.8 at 56%, while the market prices Cleveland -5.5 and -205 (67% implied). A divergence of that size on a Monday night regular-season game is either a genuine and enormous analytics-versus-market split or a labelling error. Recorded, not adopted."
+  },
+  {
+   "matchup": "Chicago Bulls @ Boston Celtics",
+   "line": "Bulls +14.5 (-115) | Celtics -14.5 (-105)",
+   "moneyline": "Bulls +525 | Celtics -750",
+   "total": "231.5 (-112 O, -108 U)",
+   "bpi": "Celtics by 13.5, straight up 84%, 231.5 total",
+   "olbg_most_tipped": "CHI Bulls Money Line 4/7 = 57% on the OLBG subpage; the OLBG hub shows CHI Bulls +14.50 Pointspread 3/3 = 100%",
+   "flag": "OLBG's most-tipped moneyline selection is the Bulls at +525, a 16% implied chance, against BPI's 84% for Boston. Extreme crowd contrarianism on a 14.5-point spread."
+  },
+  {
+   "matchup": "Dallas Mavericks @ Miami Heat",
+   "line": "Mavericks +7.5 (-105) | Heat -7.5 (-115)",
+   "moneyline": "Mavericks +230 | Heat -285",
+   "total": "241.5 (-105 O, -115 U)",
+   "bpi": "Heat by 6.7, straight up 70%, 233.8 total",
+   "olbg_most_tipped": "DAL Mavericks +7.50 Pointspread 7/7 = 100%",
+   "flag": "The OLBG hub recorded this as 'DAL Mavericks +8.50' and the NBA subpage as '+7.50'. The market line is +7.5. Also, covers.com priced the spread Mavericks +8.5 / Heat -8.5 with the total at 237.5, against ESPN's +7.5 and 241.5 - two different books or two different times of day.",
+   "context": "Dallas' frontcourt injuries are a concern against Antetokounmpo and Bam Adebayo - note Antetokounmpo plays for Milwaukee, not Miami, so that covers.com sentence is itself unreliable. Kyrie Irving sat out Saturday for injury management, is no longer on the report and was expected to play."
+  },
+  {
+   "matchup": "Indiana Pacers @ Milwaukee Bucks",
+   "line": "Pacers -4.5 (-108) | Bucks +4.5 (-112)",
+   "moneyline": "Pacers -180 | Bucks +150",
+   "total": "238.5 (-110, -110 U)",
+   "bpi": "Pacers by 4.6, straight up 64%, 235.7 total",
+   "olbg_most_tipped": "IND Pacers Money Line 9/12 = 75%",
+   "note": "Crowd and market agree here. Pacers on the second night of a back-to-back; Tyrese Haliburton returning from the Achilles injury that cost him all of last season, workload worth monitoring."
+  },
+  {
+   "matchup": "Phoenix Suns @ Oklahoma City Thunder",
+   "line": "Suns +10.5 (-110) | Thunder -10.5 (-110)",
+   "moneyline": "Suns +320 | Thunder -410",
+   "total": "220.5 (-112 O, -108 U)",
+   "bpi": "Thunder by 11.4, straight up 81%, 216.7 total",
+   "olbg_most_tipped": "OKC Thunder Money Line 5/8 = 63%",
+   "injuries": "Thunder: Jalen Williams OUT; Cason Wallace, Jaylin Williams, Nikola Topic and Thomas Sorber all game-time decisions."
+  },
+  {
+   "matchup": "Atlanta Hawks @ Houston Rockets",
+   "line": "Hawks +4.5 (-105) | Rockets -4.5 (-115)",
+   "moneyline": "Hawks +160 to +170 | Rockets -192 to -205",
+   "total": "229.5 (-112 O, -108 U)",
+   "olbg_most_tipped": "HOU Rockets Money Line 6/9 = 67%; the hub shows HOU Rockets -4.50 Pointspread 4/4 = 100%",
+   "records": "Hawks 2-1, Rockets 3-0"
+  },
+  {
+   "matchup": "Memphis Grizzlies @ Utah Jazz",
+   "olbg_most_tipped": "MEM Grizzlies Money Line 9/13 = 69%",
+   "market": "Grizzlies +104 at -105 (bet365, via covers)",
+   "covers_pick": "Jazz, at 51% assuming both starting lineups play",
+   "outcome_note": "Lauri Markkanen (wrist) and Jaren Jackson Jr (knee) both exited early in the first half against the Grizzlies on Monday night and were ruled out for the remainder. So this game is already decided and its result is a known injury story, not an upcoming fixture."
+  },
+  {
+   "matchup": "Golden State Warriors @ Denver Nuggets",
+   "olbg_most_tipped": "GS Warriors Money Line 4/8 = 50%; the hub shows DEN Nuggets -7.50 Pointspread 3/4 = 75%",
+   "records": "Warriors 0-3, Nuggets 1-1",
+   "injuries": "Warriors: Kristaps Porzingis OUT (illness; reported to be dealing with postural orthostatic tachycardia syndrome, POTS); Moses Moody OUT (knee, ruptured left patellar tendon in March, progressing toward a December-January return); Jimmy Butler III OUT (knee, torn right ACL, could return between January and February). Stephen Curry, Draymond Green and Brandin Podziemski all sat out against Phoenix and were expected back. Denver's Cameron Johnson doubtful with an ankle.",
+   "third_party_line": "Denver -7.5 described as a cautious one-unit selection; the bet needs an eight-point win."
+  }
+ ],
+ "tuesday_27_october_slate": [
+  {
+   "matchup": "Brooklyn Nets @ Boston Celtics",
+   "time_et": "7:30 PM",
+   "records": {
+    "nets": "0-3 (0-1 away)",
+    "celtics": "2-1 (2-0 home)"
+   },
+   "market": {
+    "moneyline": "Celtics -426",
+    "spread": "Boston -11.5 (-114); the preliminary line had Boston a 14-point home favourite and one analyst expects it to compress to 12 or 13 by tip",
+    "alternative": "Nets +11.5 at 49 cents (Novig), rated a 6.7% edge at 55.2% probability"
+   },
+   "players_to_watch": "J. Randle (22.0 PPG, 7.0 RPG, 6.3 APG) for Brooklyn; J. Tatum for Boston",
+   "context": "Boston on the second night of a home back-to-back.",
+   "sources": [
+    "https://www.oddsshark.com/nba/computer-picks",
+    "https://www.sportsgamblingpodcast.com/2026-10-26/nba-picks-preview-predictions-for-tuesday-oct-27th/",
+    "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac",
+    "https://www.espn.com/nba/scoreboard/_/date/20261027"
+   ]
+  },
+  {
+   "matchup": "Sacramento Kings @ San Antonio Spurs",
+   "time_et": "8:00 PM",
+   "venue": "Frost Bank Center, San Antonio, TX",
+   "tv": "DAZN",
+   "records": {
+    "kings": "0-3",
+    "spurs": "1-2 per DocSports"
+   },
+   "market": {
+    "moneyline": "Spurs -733",
+    "spread": "quoted variously at Spurs -16.5, -17.5, -18.5 and Kings +16.5 / +17 / +17.5",
+    "best_available": "Kings +17.5 at +102 (Novig), rated a 9.6% edge at 59.1% probability",
+    "total": "No total posted at the time of the Novig quote"
+   },
+   "kings_recent": "Lost to the Grizzlies 123-112, shooting 46.8% from the field (44 of 94), 10 of 33 from three and 14 of 22 from the line (63.6%).",
+   "kings_injuries": "Keegan Murray OUT (ankle); Ben Simmons OUT (underwent surgery 21 Oct to repair a torn right Achilles tendon); Dylan Cardwell OUT (calf, expected to miss at least the first five or six games); Maxime Raynaud OUT (knee, same timeline).",
+   "spurs_injuries": "Tobias Harris OUT (calf); Jayden Quaintance OUT (not yet cleared for basketball activities, estimated return 3 Dec).",
+   "flag": "The spread is quoted at four different numbers by four sources for the same game - Spurs -16.5, -17.5, -18.5 and Kings +16.5/+17/+17.5. Recorded as a range, never as a single number.",
+   "sources": [
+    "https://www.oddsshark.com/nba/computer-picks",
+    "https://www.docsports.com/free-picks/nba/2026/sacramento-kings-vs-san-antonio-spurs-prediction-10-27-2026-preview-and-pick.html",
+    "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac",
+    "https://www.espn.com/nba/injuries"
+   ]
+  },
+  {
+   "matchup": "Detroit Pistons @ New York Knicks",
+   "time_et": "8:00 PM",
+   "records": {
+    "pistons": "3-0",
+    "knicks": "0-3"
+   },
+   "market": {
+    "moneyline": "Knicks -156",
+    "spread": "Knicks -3.5 to -4.5"
+   },
+   "injuries": {
+    "detroit": "Jalen Duren OUT (strained right hamstring, to be re-evaluated in two weeks, estimated return 9 Nov); Ausar Thompson OUT (ankle); Isaiah Joe day-to-day (hip) and a game-time decision",
+    "new_york": "Jose Alvarado OUT (ankle) and will definitely miss the contest"
+   },
+   "context": "A 3-0 team visiting an 0-3 team, with the home side still favoured - the Knicks' injury situation and desperation at home is what one analyst calls a classic flag-in-the-ground spot.",
+   "flag": "One source states 'Kevin Durant out for Detroit'. Kevin Durant does not play for Detroit. That source is treated as unreliable and nothing is taken from it beyond this note.",
+   "sources": [
+    "https://www.oddsshark.com/nba/computer-picks",
+    "https://www.espn.com/nba/injuries",
+    "https://www.postingandtoasting.com/knicks-game-previews/90515/game-preview-knicks-vs-pistons-october-27-2026",
+    "https://www.tonyspicks.com/2026-10-26/above-the-rim-nba-best-bets-ron-crawford-10-27-26/"
+   ]
+  },
+  {
+   "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
+   "time_et": "11:00 PM",
+   "records": {
+    "lakers": "3-0",
+    "trail_blazers": "2-0 straight up with a 1-1 ATS mark"
+   },
+   "market": {
+    "moneyline": "Lakers -160 to -120; Trail Blazers +133",
+    "spread": "Lakers -3.5 to -4, opening at Lakers -4 and expected to climb",
+    "total": "235.5"
+   },
+   "independent_projection": "Computer projection Lakers 119, Trail Blazers 116 - a 235-point game against the posted 235.5. Moneyline pick Lakers (-160), total pick Under 235.5, spread pick Trail Blazers (+3.5). Dimers rates Lakers ML a 7.5% edge at 64.6%.",
+   "injuries": {
+    "lakers": "Cameron Carr questionable (oblique); Adou Thiero questionable (knee)",
+    "trail_blazers": "Shaedon Sharpe OUT (torn meniscus, expected to miss six months, estimated return 2 Mar); Scoot Henderson questionable (ankle); Branden Carlson questionable (concussion protocol); Chris Youngblood day-to-day (ankle)"
+   },
+   "lakers_trends": "The Lakers won 77.6% of the games last season in which they were the moneyline favourite (38-11), and went 28-7 (80%) as a favourite priced -160 or shorter.",
+   "sources": [
+    "https://sportssd.iheart.com/content/2026-10-27-trail-blazers-vs-lakers-predictions-odds-stats-oct-27/",
+    "https://www.oddsshark.com/nba/computer-picks",
+    "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac",
+    "https://www.espn.com/nba/injuries"
+   ]
+  }
+ ],
+ "monday_records_from_espn_odds_board": {
+  "Miami Heat": "0-3",
+  "Indiana Pacers": "2-1",
+  "Milwaukee Bucks": "0-3",
+  "Phoenix Suns": "1-1",
+  "Oklahoma City Thunder": "3-0",
+  "Atlanta Hawks": "2-1",
+  "Houston Rockets": "3-0",
+  "Golden State Warriors": "0-3",
+  "Denver Nuggets": "1-1"
+ },
+ "covers_com_monday_moneyline_picks": {
+  "Cavaliers": "63%",
+  "Wizards": "43%",
+  "Celtics": "87%",
+  "Heat": "72%",
+  "Suns": "26%",
+  "Bucks": "39%",
+  "Rockets": "65%",
+  "Jazz": "51%",
+  "Nuggets": "71%"
+ },
+ "sources": [
+  "https://www.espn.com/fantasy/basketball/story/_/id/50288219/fantasy-basketball-tips-nba-betting-picks-today",
+  "https://www.espn.com/nba/odds",
+  "https://www.espn.com/nba/scoreboard/_/date/20261027",
+  "https://www.espn.com/nba/injuries",
+  "https://www.covers.com/nba/moneyline-predictions-picks-monday-oct-26-2026",
+  "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac",
+  "https://www.oddsshark.com/nba/computer-picks",
+  "https://www.tonyspicks.com/2026-10-26/brian-bitler-top-10-free-picks-10-27-26/",
+  "https://sportssd.iheart.com/content/2026-10-27-trail-blazers-vs-lakers-predictions-odds-stats-oct-27/",
+  "https://www.docsports.com/free-picks/nba/2026/sacramento-kings-vs-san-antonio-spurs-prediction-10-27-2026-preview-and-pick.html"
+ ]
+}

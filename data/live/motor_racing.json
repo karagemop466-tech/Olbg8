@@ -1,0 +1,135 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "motor_racing",
+ "sport_label": "Motor Racing",
+ "sport_id": 14,
+ "hub_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page and web_search of the OLBG motor racing hub (sport_id 14)",
+ "event_count": 3,
+ "events": [
+  {
+   "event_id": null,
+   "event_name": "Mexico City Grand Prix",
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14",
+   "time_label": "01 Nov 20:00",
+   "top_selection": "Max Verstappen",
+   "top_market": "Win Race",
+   "tips_win": 1,
+   "tips_total": 3,
+   "tip_pct": 33,
+   "comments": null,
+   "experts": null,
+   "notes": "event_id not exposed on the hub listing; the All Events page links the race without an id in the captured text. FLAGGED: event_id unconfirmed."
+  },
+  {
+   "event_id": null,
+   "event_name": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14",
+   "time_label": "06 Dec 13:00",
+   "top_selection": "Max Verstappen",
+   "top_market": "Win Tournament",
+   "tips_win": 4,
+   "tips_total": 7,
+   "tip_pct": 57,
+   "comments": 1,
+   "experts": null,
+   "notes": "ANTE-POST 'Without' market (named favourite removed). OLBG documents 'Without' versions of Win Tournament."
+  },
+  {
+   "event_id": null,
+   "event_name": "Formula 1 Drivers Championship 2026",
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026/14",
+   "time_label": "06 Dec 13:00",
+   "top_selection": "Max Verstappen",
+   "top_market": "Win Tournament",
+   "tips_win": 9,
+   "tips_total": 31,
+   "tip_pct": 29,
+   "comments": 4,
+   "experts": null,
+   "notes": "ANTE-POST. Seen on the Motor Racing All Events page rather than the sport hub."
+  }
+ ],
+ "olbg_documented_markets": [
+  "Fastest Qualifier (pole, each-way)",
+  "Win Race (race or sprint winner, each-way)",
+  "Podium Finish",
+  "Top 6 Finish",
+  "Points Finish",
+  "Fastest Lap",
+  "Win Tournament (ante-post, incl. 'Without' versions)"
+ ],
+ "olbg_market_doc_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+ "olbg_published_f1_starting_position_stats": {
+  "source_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+  "sample": "Grands Prix 2021-2025, per OLBG. Starting position is the grid slot after any penalties.",
+  "by_grid_position": [
+   {
+    "position": "P1",
+    "starters": 113,
+    "wins": 62,
+    "win_rate_pct": 54.9,
+    "podium_pct": 80,
+    "top6_pct": 89,
+    "points_pct": 90
+   },
+   {
+    "position": "P2",
+    "starters": 113,
+    "wins": 24,
+    "win_rate_pct": 21.2,
+    "podium_pct": 76,
+    "top6_pct": 86,
+    "points_pct": 91
+   },
+   {
+    "position": "P3",
+    "starters": 114,
+    "wins": 12,
+    "win_rate_pct": 10.5,
+    "podium_pct": 49,
+    "top6_pct": 77,
+    "points_pct": 89
+   },
+   {
+    "position": "P4 to P6",
+    "starters": 342,
+    "wins": 9,
+    "win_rate_pct": 2.6,
+    "podium_pct": 22,
+    "top6_pct": 66,
+    "points_pct": 84
+   },
+   {
+    "position": "P7 to P10",
+    "starters": 451,
+    "wins": 5,
+    "win_rate_pct": 1.1,
+    "podium_pct": 4,
+    "top6_pct": 23,
+    "points_pct": 64
+   },
+   {
+    "position": "P11 or lower",
+    "starters": 1051,
+    "wins": 2,
+    "win_rate_pct": 0.2,
+    "podium_pct": 2,
+    "top6_pct": 6,
+    "points_pct": 23
+   }
+  ],
+  "stated_summary": "OLBG states the driver starting from P1 won 55% of races (62 of 113) and that 75% of winners started from the front row. In sprints, P1 won 58% (14 of 24).",
+  "use": "This is the single most important input to F1 win pricing: grid position dominates. Our F1 prices are conditional on qualifying, so a race cannot be priced before the grid is set.",
+  "arithmetic_check": "62/113 = 54.87%, which rounds to OLBG's stated 54.9%. (62+24)/113+113 = 86/226 = 38.1% of all starts from the front row produced a win; OLBG's '75% of winners started from the front row' is 86/114 = 75.4% of the 114 total wins. Both check out."
+ },
+ "irregularity": {
+  "severity": "medium",
+  "summary": "OLBG publishes conflicting 2026 F1 calendars on its own pages.",
+  "detail": "The Motor Racing hub calendar lists 16 rounds beginning Australian GP 8 March and contains no Bahrain or Saudi Arabian round. A separate OLBG page states 'The Saudi Arabian Grand Prix was removed from the 2026 calendar, and the Bahrain Grand Prix is staged at Sepang in Malaysia.' But the OLBG British Grand Prix event page still shows an April Bahrain Grand Prix (12th) and Saudi Arabian Grand Prix (19th).",
+  "action_taken": "Neither OLBG calendar is treated as authoritative. The official F1 calendar must be confirmed at formula1.com before any race is priced or written up.",
+  "status": "needs review"
+ },
+ "notes": "Only 2 listings on the sport hub (1 race + 1 ante-post), plus a third ante-post on the All Events page. Motorsport is a field sport: no head-to-head matches. A single Grand Prix cannot yield five match picks. FLAGGED."
+}

@@ -1,0 +1,148 @@
+{
+ "schema": "official-evidence/v1",
+ "sport": "Tennis",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "tournament_identification": {
+  "finding": "The OLBG tennis listings captured for 27 October 2026 span FOUR concurrent tournaments, not one: ATP Vienna (Erste Bank Open, ATP 500), ATP Basel (Swiss Indoors, ATP 500), WTA Tokyo and WTA Guangzhou. The Rolex Paris Masters does not begin until 31 October 2026, so none of these matches are Paris.",
+  "confirmed_pairings": [
+   {
+    "match": "Karen Khachanov vs Carlos Alcaraz",
+    "tournament": "ATP Vienna (Erste Bank Open)",
+    "round": "Round of 32 / first round",
+    "date": "Tuesday 27 October 2026",
+    "surface": "Indoor hard",
+    "sources": [
+     "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/170852/carlos-alcaraz-chooses-two-familiar-rivals-for-vienna-open-preparations/",
+     "https://www.hindustantimes.com/sports/tennis/alcaraz-faces-tough-vienna-draw-djokovic-s-atp-finals-hopes-hang-in-balance-in-basel-101792898879468.html",
+     "https://robinhood.com/us/en/prediction-markets/tennis/events/karen-khachanov-vs-carlos-alcaraz-game-spread-oct-27-2026/"
+    ]
+   },
+   {
+    "match": "Novak Djokovic vs Ugo Humbert",
+    "tournament": "ATP Basel (Swiss Indoors, 26 Oct - 1 Nov 2026)",
+    "round": "Round 1",
+    "date": "Tuesday 27 October 2026",
+    "surface": "Indoor hard",
+    "djokovic_seeding": 4,
+    "sources": [
+     "https://novakdjokovic.com/en/ (official player site, 'Current Tournament Swiss Indoors Basel 26.10.-01.11.2026, Round 1: Novak Djokovic (4) v Ugo Humbert')",
+     "https://www.hindustantimes.com/sports/tennis/alcaraz-faces-tough-vienna-draw-djokovic-s-atp-finals-hopes-hang-in-balance-in-basel-101792898879468.html",
+     "https://www.timesnownews.com/sports/tennis/carlos-alcaraz-handed-tough-draw-in-vienna-novak-djokovic-chases-atp-finals-spot-in-basel-article-156401348"
+    ]
+   }
+  ],
+  "unassigned_listings": "The remaining OLBG tennis listings (Paul v Rublev, Wawrinka v Lehecka, Norrie v Cerundolo, Borges v Ruud, Tabilo v Jodar, Hurkacz v Bergs, Michelsen v Van De Zandschulp, and the women's matches) belong to one of the four events above, but the specific tournament for each was NOT confirmed from an official draw and is left blank rather than guessed.",
+  "status": "partially verified"
+ },
+ "atp_rankings_official": {
+  "source": "https://www.atptour.com/en/rankings/singles/live (ATP live rankings) and https://www.lequipe.fr/Tennis/atp/epreuve-simple-messieurs/page-classement-individuel/general (rankings dated 26 Oct)",
+  "as_of": "26 October 2026",
+  "players": {
+   "Carlos Alcaraz": {
+    "official_rank": 3,
+    "points_lequipe": 5610,
+    "points_atp_live": 5600
+   },
+   "Novak Djokovic": {
+    "official_rank_lequipe": 12,
+    "official_rank_atp_live": 11,
+    "points": 3090
+   },
+   "Karen Khachanov": {
+    "official_rank_lequipe": 24,
+    "points_lequipe": 2030,
+    "points_atp_live": 1940
+   },
+   "Ugo Humbert": {
+    "official_rank": 38,
+    "points_lequipe": 1270,
+    "points_atp_live": 1295
+   },
+   "Jannik Sinner": {
+    "official_rank": 1,
+    "points": 10950
+   },
+   "Alexander Zverev": {
+    "official_rank": 2,
+    "points": 10070
+   },
+   "Ben Shelton": {
+    "official_rank": 4,
+    "points": 4720
+   },
+   "Daniil Medvedev": {
+    "official_rank": 5,
+    "points": 3775
+   },
+   "Flavio Cobolli": {
+    "official_rank": 6,
+    "points": 3720
+   }
+  },
+  "note": "L'Equipe's 26 October list and the ATP live rankings differ slightly because live rankings net off points being defended that week. Both are recorded; neither is smoothed."
+ },
+ "verified_player_facts": {
+  "Carlos Alcaraz": [
+   "Current ranking No. 3 (as of 19 October 2026); career-high No. 1 (12 September 2022); career record 313-70 with 27 career titles.",
+   "2026 titles: Australian Open (defeated Novak Djokovic 2-6, 6-2, 6-3, 7-5), Qatar Open at Doha (defeated Arthur Fils 6-2, 6-1) and Japan Open at Tokyo (defeated Jiri Lehecka 7-6(7-4), ...).",
+   "Has beaten Karen Khachanov in all six of their previous meetings.",
+   "Returning to Vienna for the first time since 2021.",
+   "Already qualified for the ATP Finals.",
+   "Withdrew before the 2026 French Open with a wrist injury, his first absence from a major since the 2023 Australian Open; the wrist problem kept him out for several months.",
+   "Lost to Ben Shelton in a fifth-set tiebreak in the 2026 US Open quarterfinals.",
+   "Has never gone beyond the quarter-finals at the Paris Masters."
+  ],
+  "Novak Djokovic": [
+   "Aged 39; 24-time Grand Slam champion; ranked 11th-12th with 3,090 points.",
+   "Won the China Open in Beijing in October 2026, defeating Alex de Minaur 7-6(7-3), 0-1 retired in the final. It was the 102nd ATP Tour title of his career.",
+   "On the way to that title he beat Alexander Zverev 4-6, 6-4, 6-4 in the quarterfinals and Daniil Medvedev 7-5, 5-3 in the semifinals, and beat Nuno Borges 6-3, 7-6(7-2) in the first round.",
+   "Runner-up at the 2026 Australian Open, losing to Carlos Alcaraz 6-2, 6-2, 3-6, 5-7 [recorded as 2-6, 6-2, 6-3, 7-5 from Alcaraz's side].",
+   "Lost in the third round of the 2026 French Open to Joao Fonseca.",
+   "Was eliminated in the first round of the 2026 US Open, only the third opening-round major loss of his career.",
+   "Returns to Basel for the first time since winning the title there in 2009; seeded 4.",
+   "Is chasing an ATP Finals berth and drops zero points this week, having played none of Vienna, Basel or Paris in 2025.",
+   "Set a record 84 Grand Slam appearances in 2026, surpassing Federer and Feliciano Lopez's joint mark of 81."
+  ],
+  "Ugo Humbert": [
+   "French left-hander, ranked 38th with roughly 1,270-1,295 points.",
+   "Four of his seven career titles have come on indoor courts.",
+   "Beat Carlos Alcaraz in the 2024 Shanghai Masters final.",
+   "Was the 2024 Paris Masters runner-up and eliminated Alcaraz in the round of 16 at the 2025 Paris Masters."
+  ],
+  "Karen Khachanov": [
+   "Ranked 24th with roughly 1,940-2,030 points; a seven-time tour titlist.",
+   "Has lost all six previous meetings with Carlos Alcaraz.",
+   "Won the Almaty Open in October 2025."
+  ],
+  "Stan Wawrinka": [
+   "Entered the 2026 US Open as a wildcard."
+  ]
+ },
+ "conflicts_flagged": [
+  {
+   "item": "Karen Khachanov's 2026 US Open result",
+   "a": "Wikipedia's 2026 US Open men's singles article lists Karen Khachanov as champion, defeating Frances Tiafoe [11] in the final.",
+   "b": "Hindustan Times (25 Oct 2026) says Khachanov 'reached the US Open semifinals last month'; TennisWorldUSA says he 'reached the semifinals of the US Open in the past'.",
+   "resolution": "Directly contradictory. Khachanov's US Open result is NOT asserted anywhere in this project. Requires atptour.com or usopen.org confirmation.",
+   "status": "unverified"
+  },
+  {
+   "item": "Djokovic's exact ATP ranking on 27 October 2026",
+   "a": "L'Equipe rankings dated 26 October list him 12th.",
+   "b": "The ATP live rankings list him 11th; Times Now describes him as 'currently ranked 11th'.",
+   "resolution": "Both recorded. The difference is the live-versus-published ranking convention. Not material to the price.",
+   "status": "resolved with note"
+  },
+  {
+   "item": "Alcaraz's 2026 Australian Open final score",
+   "detail": "Recorded as 2-6, 6-2, 6-3, 7-5 from Alcaraz's side and 6-2, 2-6, 3-6, 5-7 from Djokovic's side. These are the same match read from opposite perspectives and are consistent.",
+   "status": "resolved"
+  },
+  {
+   "item": "Tournament attribution for most OLBG tennis listings",
+   "detail": "Only the Alcaraz-Khachanov (Vienna) and Djokovic-Humbert (Basel) pairings are confirmed to a named tournament from official or player-official sources. The other twelve OLBG listings are not attributed.",
+   "resolution": "Left blank. No prediction is written for a listing whose tournament has not been confirmed, because the surface and round context cannot be stated honestly.",
+   "status": "unverified"
+  }
+ ]
+}

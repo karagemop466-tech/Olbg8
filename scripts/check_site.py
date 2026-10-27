@@ -115,8 +115,13 @@ def main() -> int:
         ok(bool(doc.get("summary")), f"{key}: pricing summary is empty")
 
     # internal link integrity across every generated page
-    pages = [ROOT / n for n in ("index.html", "picks.html", "matches.html", "pricing.html",
+    # pricing.html was deliberately retired and archived under desk-v1/ by the
+    # desk rebuild, so it is no longer a required page at the root. Requiring it
+    # here made this audit fail on a tree that was otherwise correct.
+    pages = [ROOT / n for n in ("index.html", "picks.html", "matches.html",
                                 "sources.html", "flagged.html", "methodology.html")]
+    pages += sorted((ROOT / "originated").glob("*.html"))
+    pages += sorted((ROOT / "originated" / "sports").glob("*.html"))
     pages += sorted((ROOT / "sports").glob("*.html"))
     anchors: dict[Path, set] = {}
     for page in pages:
@@ -138,6 +143,12 @@ def main() -> int:
                 if frag not in dest_anchors:
                     errors.append(f"{page.relative_to(ROOT)}: missing anchor #{frag} in {dest.relative_to(ROOT)}")
 
+    # The desk at root is a static, server-rendered site: scripts/build_site.py
+    # writes the executive summary straight into index.html, so assert on the
+    # page the reader actually receives. (This check briefly targeted a
+    # client-side renderer during a rebuild that has since been reverted; the
+    # assertion has to follow whichever form the committed pages are in, or it
+    # fails on a tree that is otherwise correct.)
     ok((ROOT / "index.html").read_text(encoding="utf-8").count("Executive summary") >= 1,
        "landing page has no executive summary")
 
