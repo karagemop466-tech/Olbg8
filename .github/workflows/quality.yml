@@ -51,6 +51,7 @@ jobs:
             { echo "generated files differ (exit $code)"; git status --short; git diff --name-only; } > /tmp/desk-diff.txt
             cat /tmp/desk-diff.txt
             echo "::error::DESK_DIFF $(tr '\n' '|' < /tmp/desk-diff.txt | cut -c1-900)"
+            echo "::error::DESK_DETAIL $(git diff -U0 -- data/desk-20261027.json lines.html sports/tennis.html | head -c 2200 | tr '\n' '|' | cut -c1-2200)"
           fi
           exit "$code"
       - name: Upload generated-file diff diagnosis
