@@ -33,6 +33,7 @@ jobs:
         run: |
           mode="$MODE"
           if [ -z "$mode" ]; then mode="$(cat pipeline/mode.txt)"; fi
+          mkdir -p pipeline/out pipeline/raw
           echo "mode=$mode"
           python3 pipeline/collect.py --mode "$mode" 2>&1 | tee pipeline/out/run.log
       - name: Commit harvested data
