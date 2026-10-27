@@ -1,0 +1,72 @@
+exit=0
+probed 70 official endpoints, 42 answered 200
+ 200    32565B Baseball         mlb-schedule
+ 200   102372B Baseball         mlb-standings
+ 200    23219B Baseball         mlb-teams
+ 200    58202B Ice Hockey       nhl-standings
+ 200    93829B Ice Hockey       nhl-schedule-2026-10-24
+ 200    91706B Ice Hockey       nhl-schedule-2026-10-27
+ 200    92487B Ice Hockey       nhl-schedule-2026-10-28
+ 200    92629B Ice Hockey       nhl-schedule-2026-10-29
+ 200    92841B Ice Hockey       nhl-schedule-2026-10-30
+ 200    92842B Ice Hockey       nhl-schedule-2026-10-31
+ 200    96531B Ice Hockey       nhl-schedule-2026-11-01
+ 200    97872B Ice Hockey       nhl-schedule-2026-11-02
+   0        0B Basketball       nba-scoreboard
+   0        0B Basketball       nba-schedule
+ 200    14299B Motor Racing     f1-races
+ 200    10117B Motor Racing     f1-driver-standings
+ 200     2505B Motor Racing     f1-constructor-standings
+ 200    58455B Motor Racing     f1-results
+ 200   623656B Golf             espn-pga-scoreboard
+ 200   147766B Golf             espn-lpga-scoreboard
+   0        0B Golf             espn-pga-leaderboard
+ 200   242339B Tennis           espn-atp-scoreboard
+ 200   475360B Tennis           espn-wta-scoreboard
+ 200   387380B Tennis           espn-atp-rankings
+   0        0B Rugby Union      espn-rugby-289
+   0        0B Rugby Union      espn-rugby-270
+   0        0B Rugby Union      espn-rugby-244
+   0        0B Rugby Union      espn-rugby-272
+ 200     6397B Rugby Union      espn-rugby-164205
+ 200    51553B Rugby League     espn-rugby-league-3
+   0        0B Rugby League     espn-rugby-league-111
+   0        0B Cricket          cricinfo-current
+   0        0B Cricket          cricinfo-news
+   0        0B Cricket          espn-cricket-scoreboard
+ 200   371557B Cricket          icc-fixtures
+   0        0B Snooker          snooker-matches
+   0        0B Snooker          snooker-ranking
+   0        0B Snooker          snooker-events
+ 200  1241747B Darts            pdc-tournaments
+   0        0B Darts            espn-darts
+ 200   494133B Volleyball       cev-match-centres
+ 200    94588B Handball         ehf-matches
+ 200  1314534B Gaelic Football  gaa-fixtures
+ 200    97430B Greyhounds       gbgb-racing
+ 200   164290B Basketball       espn-nba-standings
+ 200   384924B Tennis           espn-wta-rankings
+ 200   214852B Basketball       espn-nba-scoreboard
+ 200   134851B Basketball       espn-nba-teams
+   0        0B Basketball       nba-schedule-v2
+   0        0B Basketball       espn-euroleague-scoreboard
+   0        0B Cricket          espn-cricket-generic
+ 200    10007B Cricket          espn-cricket-8039
+   0        0B Cricket          espn-cricket-web
+ 200  1559402B Cricket          icc-home
+   0        0B Snooker          snooker-matches-http
+ 200     6169B Snooker          wst-wp-posts
+ 200   181116B Snooker          wst-matches
+ 200  1241747B Darts            pdc-wp-posts
+   0        0B Gaelic Football  gaa-wp-posts
+   0        0B Hurling          gaa-wp-hurling
+ 200   134897B Greyhounds       gbgb-wp-posts
+   0        0B Rugby Union      espn-rugby-270-v2
+   0        0B Rugby Union      espn-rugby-289-v2
+ 200   360254B Rugby Union      epcr-matches
+   0        0B Volleyball       cev-wp-posts
+ 200   151728B Volleyball       volleyballworld
+   0        0B Handball         ehf-wp-posts
+ 200   621386B Motor Racing     f1-official-calendar
+   0        0B Tennis           atp-scores
+   0        0B Tennis           espn-atp-athletes
