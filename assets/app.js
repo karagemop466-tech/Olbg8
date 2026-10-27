@@ -1,266 +1,440 @@
-/* OLBG research desk — no framework, no third-party runtime dependencies. */
+/* OLBG multi-sport line desk — static renderer, no runtime dependencies. */
 (() => {
   "use strict";
 
-  const root = document.getElementById("app");
   const page = document.body.dataset.page || "home";
   const sportKey = document.body.dataset.sport || "";
   const BASE = page === "sport" ? "../" : "";
-  const DATA_URL = `${BASE}data/dashboard.json`;
+  const app = document.getElementById("app");
 
-  const esc = (value) => String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
+  const esc = (v) => String(v ?? "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 
-  const link = (url, label) => url
-    ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`
-    : "—";
-
-  const safeUrl = (url) => {
+  const url = (u) => {
     try {
-      const parsed = new URL(url, window.location.href);
-      return parsed.protocol === "http:" || parsed.protocol === "https:" ? parsed.href : "";
-    } catch (_) { return ""; }
+      const p = new URL(u, location.href);
+      return (p.protocol === "http:" || p.protocol === "https:") ? p.href : "";
+    } catch { return ""; }
   };
 
-  const formatDate = (iso) => {
-    if (!iso) return "Not stated";
-    const date = new Date(iso);
-    if (Number.isNaN(date.getTime())) return esc(iso);
-    return new Intl.DateTimeFormat("en-GB", {
-      timeZone: "UTC", day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit",
-    }).format(date).replace(",", "") + " UTC";
+  const link = (u, label) => {
+    const href = url(u);
+    return href ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>` : esc(label || "—");
   };
 
-  const american = (value) => {
-    if (value === null || value === undefined || value === "") return "—";
-    const n = Number(value);
-    if (!Number.isFinite(n)) return esc(value);
+  const americanFmt = (v) => {
+    if (v === null || v === undefined || v === "") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return esc(v);
     return n > 0 ? `+${n}` : String(n);
   };
 
-  const percent = (value) => value === null || value === undefined || value === "" ? "—" : `${esc(value)}%`;
+  const decFmt = (v) => (v === null || v === undefined ? "—" : Number(v).toFixed(2));
+  const pctFmt = (v) => (v === null || v === undefined ? "—" : `${Number(v).toFixed(1)}%`);
 
-  const badge = (value, extra = "") => {
-    if (!value) return "";
-    const key = String(value).toLowerCase().replace(/[^a-z]/g, "");
-    const klass = key === "high" ? "high" : key === "medium" ? "medium" : key === "low" ? "low" : extra || "gray";
-    return `<span class="badge ${klass}">${esc(value)}</span>`;
+  const when = (iso) => {
+    if (!iso) return "time not published";
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return esc(iso);
+    return new Intl.DateTimeFormat("en-GB", {
+      timeZone: "UTC", weekday: "short", day: "2-digit", month: "short",
+      hour: "2-digit", minute: "2-digit", hour12: false,
+    }).format(d).replace(/,/g, "") + " UTC";
   };
 
-  const statusBadge = (event) => {
-    const status = event.official?.status;
-    if (status === "event-confirmed") return `<span class="badge clear">event confirmed</span>`;
-    if (event.research?.american !== null && event.research?.american !== undefined) {
-      return `<span class="badge flag">${status === "stats-only" ? "research only" : "line, review"}</span>`;
-    }
-    return `<span class="badge gray">needs source match</span>`;
-  };
+  const dayKey = (iso) => (iso || "").slice(0, 10);
+  const todayKey = new Date().toISOString().slice(0, 10);
 
-  const typeLabel = (value) => ({ fixture: "match", race: "race", outright: "outright", unknown: "unresolved" }[value] || value || "event");
+  const badge = (level) => `<span class="badge ${esc(level)}">${esc(level)}</span>`;
 
-  function renderHeader() {
+  const edgeClass = (v) => (v > 0 ? "pos" : v < 0 ? "neg" : "");
+  const edgeFmt = (v) => (v === null || v === undefined ? "—" : `${v > 0 ? "+" : ""}${Number(v).toFixed(1)}`);
+
+  /* ---------------------------------------------------------------- nav -- */
+  function header(data) {
     const target = document.getElementById("site-header");
     if (!target) return;
     const nav = [
       ["home", "Overview", "index.html"],
-      ["matches", "Matches", "matches.html"],
       ["picks", "Picks", "picks.html"],
+      ["matches", "All matches", "matches.html"],
       ["flagged", "Flagged", "flagged.html"],
       ["sources", "Sources", "sources.html"],
-      ["methodology", "Method", "methodology.html"],
+      ["method", "Method", "methodology.html"],
     ];
+    const sportLinks = (data?.sports || []).map((s) =>
+      `<option value="${BASE}sports/${esc(s.page)}.html"${page === "sport" && s.key === sportKey ? " selected" : ""}>${esc(s.requested)}</option>`
+    ).join("");
     target.innerHTML = `<header class="site-header"><div class="header-inner">
-      <a class="brand" href="${BASE}index.html"><span class="brand-mark">O</span><span>OLBG research desk</span><span class="brand-note">source-first</span></a>
-      <nav class="nav" aria-label="Primary navigation">${nav.map(([key, label, href]) => `<a class="${page === key ? "active" : ""}" href="${BASE}${href}">${label}</a>`).join("")}</nav>
+      <a class="brand" href="${BASE}index.html"><span class="brand-mark">OL</span>
+        <span>OLBG line desk<br><small>independent prices &amp; written predictions</small></span></a>
+      <nav class="nav" aria-label="Primary">
+        ${nav.map(([k, label, href]) => `<a class="${page === k ? "active" : ""}" href="${BASE}${href}">${label}</a>`).join("")}
+        <a class="${page === "sport" ? "active" : ""}" href="${BASE}sports/tennis.html">Sports ▾</a>
+        <select aria-label="Jump to a sport" onchange="if(this.value)location.href=this.value"
+          style="border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:#fff;font-size:12.5px">
+          <option value="">Jump to sport…</option>${sportLinks}
+        </select>
+      </nav>
     </div></header>`;
   }
 
-  function renderFooter(data) {
-    const target = document.getElementById("site-footer");
-    if (!target) return;
-    target.innerHTML = `<footer class="footer"><div class="footer-inner">
-      <p><strong>OLBG research desk</strong> · captured ${esc(data.asOfLabel)} · ${esc(data.summary.olbgEvents)} in-scope OLBG listings.</p>
-      <p class="disclaimer">Research is not a guarantee or a bookmaker offer. Blank fields are deliberate. Check the linked official source and current market before relying on any information. Only bet where lawful and only what you can afford to lose.</p>
-    </div></footer>`;
+  function footer(data) {
+    const el = document.getElementById("site-footer");
+    if (!el) return;
+    el.innerHTML = `<div class="footer-inner">
+      <strong>OLBG line desk</strong> — prices originate from parimutuel-free fixed-odds markets captured on OLBG.com and are
+      re-priced independently; written predictions cite the primary sources linked on each pick.
+      Capture <span class="mono">${esc(data?.capture_utc || "n/a")}</span>, build
+      <span class="mono">${esc(data?.generated_utc || "n/a")}</span>.
+      Independent research, not betting advice. 18+. Bet only what you can afford to lose.
+    </div>`;
   }
 
-  function pageHead(eyebrow, title, text) {
-    return `<div class="page-head"><p class="eyebrow">${esc(eyebrow)}</p><h1>${esc(title)}</h1>${text ? `<p class="lede">${esc(text)}</p>` : ""}</div>`;
+  /* ------------------------------------------------------------- pieces -- */
+  function kpi(value, label, note) {
+    return `<div class="card kpi"><div class="label">${esc(label)}</div>
+      <div class="value">${esc(value)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
   }
 
-  function kpi(value, label, note = "") {
-    return `<div class="kpi"><div class="kpi-value">${esc(value)}</div><div class="kpi-label">${esc(label)}</div>${note ? `<div class="kpi-note">${esc(note)}</div>` : ""}</div>`;
+  function sectionHead(title, text) {
+    return `<div class="section-head"><h2>${esc(title)}</h2>${text ? `<p>${text}</p>` : ""}</div>`;
   }
 
-  function callout(title, text, kind = "warn") {
-    return `<div class="callout ${kind}"><span class="icon">${kind === "danger" ? "!" : kind === "warn" ? "i" : "✓"}</span><p><strong>${esc(title)}</strong> ${esc(text)}</p></div>`;
+  function pickCard(p) {
+    const sources = [];
+    if (p.olbg_url) sources.push(link(p.olbg_url, "OLBG market page"));
+    if (p.official?.source) sources.push(link(p.official.source, p.official.source_label || "primary source"));
+    (p.sources || []).forEach((s) => { if (s.url) sources.push(link(s.url, s.label || s.url)); });
+    const facts = (p.facts || []).map((f) => `<li>${esc(f)}</li>`).join("");
+    return `<article class="pick" id="pick-${esc(p.id || "")}">
+      <div class="pick-head">
+        <div>
+          <div class="pick-title">${esc(p.event || "Event")}</div>
+          <div class="pick-meta">${esc(p.requested_sport || p.sport)}${p.competition ? ` · ${esc(p.competition)}` : ""} · ${when(p.start_utc)}</div>
+        </div>
+        <div>${badge(p.confidence)}</div>
+      </div>
+      <div class="pick-body">
+        <div class="pick-selection">
+          <span class="sel">${esc(p.selection)}</span>
+          <span class="tag">${esc(p.market)}</span>
+          <span class="price-chip">OLBG ${americanFmt(p.american)} <span style="opacity:.65">(${decFmt(p.decimal)})</span></span>
+          <span class="price-chip ghost">Our line ${americanFmt(p.our_american)}</span>
+          <span class="tag">market ${pctFmt(p.market_prob)} · ours ${pctFmt(p.our_prob)} · edge <b class="${edgeClass(p.edge_pts)}">${edgeFmt(p.edge_pts)} pts</b></span>
+        </div>
+        ${p.prediction ? `<p class="prediction">${p.prediction}</p>` : ""}
+        ${facts ? `<details><summary>Data points behind this pick</summary><ul class="tight">${facts}</ul></details>` : ""}
+        ${sources.length ? `<div class="sources"><span class="tag">Sources:</span>${sources.join("")}</div>` : ""}
+      </div>
+    </article>`;
   }
 
-  function sourceLinks(event) {
-    const official = event.official || {};
-    const olbg = event.olbg || {};
-    return `<div class="source-links">${link(safeUrl(official.url), "Official")}${link(safeUrl(olbg.event), "OLBG")}</div>`;
+  function marketTable(event) {
+    return (event.markets || []).map((m) => `
+      <div style="margin-bottom:14px">
+        <div class="tag" style="margin-bottom:4px"><b>${esc(m.name)}</b> · book ${pctFmt(m.overround)} · ${m.complete ? "complete market" : "partial market"}</div>
+        <div class="table-wrap"><table><thead><tr>
+          <th>Selection</th><th class="num">OLBG price</th><th class="num">Market implied</th>
+          <th class="num">Our line</th><th class="num">Our implied</th><th class="num">Edge (pts)</th>
+        </tr></thead><tbody>
+        ${(m.selections || []).map((s) => `<tr>
+          <td>${esc(s.selection)}</td>
+          <td class="num">${americanFmt(s.american)} <span class="muted">(${decFmt(s.decimal)})</span></td>
+          <td class="num">${pctFmt(s.market_prob)}</td>
+          <td class="num">${americanFmt(s.our_american)}</td>
+          <td class="num">${pctFmt(s.our_prob)}</td>
+          <td class="num ${edgeClass(s.edge_pts)}">${edgeFmt(s.edge_pts)}</td>
+        </tr>`).join("")}
+        </tbody></table></div>
+      </div>`).join("");
   }
 
-  function eventRow(event) {
-    const r = event.research || {};
-    const o = event.olbg || {};
-    const flags = (event.flags || []).slice(0, 2);
-    const researchLine = r.american === null || r.american === undefined ? "—" : `${american(r.american)}${r.selection ? `<br><span class="xsmall">${esc(r.selection)}</span>` : ""}`;
-    return `<tr data-sport="${esc(event.sportKey)}" data-type="${esc(event.eventType)}" data-search="${esc(`${event.event} ${event.sport} ${event.competition || ""} ${o.selection || ""}`.toLowerCase())}">
-      <td class="mono">${formatDate(event.startUtc)}<br><span class="badge gray">${esc(typeLabel(event.eventType))}</span></td>
-      <td><strong>${esc(event.sport)}</strong>${event.competition ? `<br><span class="xsmall">${esc(event.competition)}</span>` : ""}</td>
-      <td><strong>${event.event ? esc(event.event) : "— <span class=\"xsmall\">event name blank in capture</span>"}</strong>${event.venue ? `<br><span class="xsmall">${esc(event.venue)}</span>` : ""}</td>
-      <td>${o.selection ? `<strong>${esc(o.selection)}</strong><br><span class="xsmall">${esc(o.market || "OLBG selection")}</span>` : "—"}<br><span class="xsmall">OLBG ${american(o.american)} · ${percent(o.tipPct)} (${esc(o.tips ?? "—")} tips)</span></td>
-      <td>${researchLine}${r.market ? `<br><span class="xsmall">${esc(r.market)}</span>` : ""}</td>
-      <td>${r.confidence ? badge(r.confidence) : statusBadge(event)}</td>
-      <td>${sourceLinks(event)}${flags.length ? `<div class="xsmall" style="margin-top:6px">${esc(flags[0])}</div>` : ""}</td>
-    </tr>`;
+  /* -------------------------------------------------------------- pages -- */
+  function home(data) {
+    const todays = (data.picks || []).filter((p) => dayKey(p.start_utc) === todayKey);
+    const upcoming = (data.picks || []).filter((p) => dayKey(p.start_utc) > todayKey);
+    const featured = [...todays, ...upcoming].slice(0, 6);
+    const coverage = (data.sports || []).map((s) => `<tr>
+        <td><a href="sports/${esc(s.page)}.html">${esc(s.requested)}</a></td>
+        <td class="num">${s.events}</td>
+        <td class="num">${s.markets}</td>
+        <td class="num">${s.selections}</td>
+        <td class="num">${s.picks}</td>
+        <td class="num">${s.high || 0}</td>
+        <td class="num">${s.medium || 0}</td>
+        <td>${s.with_official ? `<span class="badge info">${s.with_official} priced with primary data</span>` : `<span class="badge gray">market-anchored</span>`}</td>
+      </tr>`).join("");
+
+    return `
+      <section class="hero">
+        <h1>Executive summary — the picks, the prices, the evidence</h1>
+        <p>Every OLBG market we could capture for the fifteen requested sports is re-priced here. Each pick below is a
+        fully written prediction with a confidence grade, our own line, the OLBG price it is measured against, and a
+        link to the primary source used. Nothing is copied from a tipster.</p>
+        <div class="stamp">Capture ${esc(data.capture_utc || "n/a")} · ${esc(data.counts?.sports || 0)} sports ·
+        ${esc(data.counts?.picks || 0)} published picks · ${esc(data.counts?.high || 0)} graded high</div>
+      </section>
+
+      <div class="grid k4">
+        ${kpi(data.counts?.events ?? 0, "Events priced", `${data.counts?.markets ?? 0} markets`)}
+        ${kpi(data.counts?.selections ?? 0, "Selections", "live OLBG prices")}
+        ${kpi(data.counts?.picks ?? 0, "Published picks", `${data.counts?.high ?? 0} high confidence`)}
+        ${kpi(`${data.counts?.sports_with_events ?? 0}/${data.counts?.sports ?? 15}`, "Sports with a market", "all fifteen covered")}
+      </div>
+
+      <section class="mt">
+        ${sectionHead("Top picks", "Highest graded selections first. The full written prediction sits under each headline.")}
+        ${featured.length ? featured.map(pickCard).join("") : `<div class="card empty">No pick cleared the publication gate in this capture.</div>`}
+        ${(data.picks || []).length > featured.length ? `<p><a href="picks.html">See all ${data.picks.length} picks →</a></p>` : ""}
+      </section>
+
+      <section>
+        ${sectionHead("Coverage by sport", "Event counts are distinct OLBG events with at least one captured price.")}
+        <div class="table-wrap"><table>
+          <thead><tr><th>Sport</th><th class="num">Events</th><th class="num">Markets</th><th class="num">Selections</th>
+          <th class="num">Picks</th><th class="num">High</th><th class="num">Medium</th><th>Independent data</th></tr></thead>
+          <tbody>${coverage}</tbody>
+        </table></div>
+      </section>
+
+      <section>
+        ${sectionHead("Where everything lives")}
+        <div class="grid k3">
+          <a class="sport-card" href="picks.html"><div class="name">Picks</div>
+            <div class="counts">One card per pick: the selection, both prices, the confidence grade and the written prediction.</div></div>
+          <a class="sport-card" href="matches.html"><div class="name">All matches</div>
+            <div class="counts">Every captured event and market, with the market price, our line and the edge between them.</div></div>
+          <a class="sport-card" href="flagged.html"><div class="name">Flagged for review</div>
+            <div class="counts">Anything that could not be confirmed from a primary source, published rather than hidden.</div></div>
+        </div>
+      </section>`;
   }
 
-  function eventTable(events, options = {}) {
-    const rows = events.map(eventRow).join("");
-    return `<div class="table-wrap"><table class="event-table"><thead><tr>
-      <th>Start · type</th><th>Sport</th><th>Event</th><th>OLBG selection</th><th>Our line</th><th>Status</th><th>Sources / note</th>
-    </tr></thead><tbody>${rows || `<tr><td colspan="7"><div class="empty">No rows match this filter.</div></td></tr>`}</tbody></table></div>`;
+  function picks(data) {
+    const items = data.picks || [];
+    return `
+      ${sectionHead("All published picks", `${items.length} picks across ${new Set(items.map((p) => p.requested_sport)).size} sports.`)}
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search team, player, competition, market…" aria-label="Search picks">
+        <select id="sport" aria-label="Filter by sport"><option value="">All sports</option>
+          ${(data.sports || []).filter((s) => s.picks > 0).map((s) => `<option value="${esc(s.requested)}">${esc(s.requested)} (${s.picks})</option>`).join("")}
+        </select>
+        <div class="chip-row" id="conf">
+          <button class="chip" data-level="" aria-pressed="true">All</button>
+          <button class="chip" data-level="high" aria-pressed="false">High</button>
+          <button class="chip" data-level="medium" aria-pressed="false">Medium</button>
+        </div>
+      </div>
+      <div id="list">${items.map(pickCard).join("") || `<div class="card empty">No picks published.</div>`}</div>`;
   }
 
-  function sportCard(sport) {
-    const href = `sports/${esc(sport.key)}.html`;
-    const count = sport.events || 0;
-    return `<a class="sport-card" href="${href}"><h3>${esc(sport.label)}</h3><div class="count">${esc(count)}</div><div class="count-label">OLBG listings captured</div><div class="mini"><span>${esc(sport.matchEvents)} matches</span><span>·</span><span>${esc(sport.researchLines)} lines</span></div></a>`;
+  function matches(data) {
+    const rows = [];
+    (data.events || []).forEach((e) => {
+      (e.markets || []).forEach((m) => {
+        (m.selections || []).forEach((s) => {
+          rows.push({ e, m, s });
+        });
+      });
+    });
+    return `
+      ${sectionHead("Every captured event and market", `${data.counts?.events || 0} events · ${data.counts?.selections || 0} priced selections`)}
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search event or competition…" aria-label="Search matches">
+        <select id="sport" aria-label="Filter by sport"><option value="">All sports</option>
+          ${(data.sports || []).filter((s) => s.events > 0).map((s) => `<option value="${esc(s.requested)}">${esc(s.requested)}</option>`).join("")}
+        </select>
+      </div>
+      <div class="table-wrap"><table id="match-table">
+        <thead><tr><th>Event</th><th>Competition</th><th>Start (UTC)</th><th>Market</th><th>Selection</th>
+        <th class="num">OLBG</th><th class="num">Market %</th><th class="num">Our line</th><th class="num">Our %</th><th class="num">Edge</th><th>Source</th></tr></thead>
+        <tbody>
+        ${rows.map(({ e, m, s }) => `<tr data-sport="${esc(e.requested_sport)}" data-search="${esc(`${e.name} ${e.competition}`.toLowerCase())}">
+          <td class="wrap"><a href="${esc(url(e.olbg_url))}" target="_blank" rel="noopener noreferrer">${esc(e.name)}</a></td>
+          <td>${esc(e.competition || "—")}</td>
+          <td class="nowrap">${esc((e.start_utc || "").replace("T", " ").replace("Z", ""))}</td>
+          <td>${esc(m.name)}${m.complete ? "" : ` <span class="badge low">partial</span>`}</td>
+          <td>${esc(s.selection)}</td>
+          <td class="num">${americanFmt(s.american)}</td>
+          <td class="num">${pctFmt(s.market_prob)}</td>
+          <td class="num">${americanFmt(s.our_american)}</td>
+          <td class="num">${pctFmt(s.our_prob)}</td>
+          <td class="num ${edgeClass(s.edge_pts)}">${edgeFmt(s.edge_pts)}</td>
+          <td>${e.official ? link(e.official.source, "primary") : `<span class="tag">market only</span>`}</td>
+        </tr>`).join("")}
+        </tbody>
+      </table></div>`;
   }
 
-  function summaryTable(data) {
-    return `<div class="table-wrap"><table><thead><tr><th>Sport</th><th>OLBG listings</th><th>Match events</th><th>Research lines</th><th>Written briefs</th><th>State</th></tr></thead><tbody>${data.sports.map(s => `<tr>
-      <td><a href="sports/${esc(s.key)}.html"><strong>${esc(s.label)}</strong></a></td><td>${esc(s.events)}</td><td>${esc(s.matchEvents)}</td><td>${esc(s.researchLines)}</td><td>${esc(s.draftPredictions)}</td><td>${s.events ? (s.researchLines ? `<span class="badge flag">research only</span>` : `<span class="badge gray">listed, unpriced</span>`) : `<span class="badge gray">no OLBG listing</span>`}</td>
-    </tr>`).join("")}</tbody></table></div>`;
+  function sportPage(data) {
+    const sport = (data.sports || []).find((s) => s.key === sportKey);
+    const label = sport?.requested || sportKey;
+    const picks = (data.picks || []).filter((p) => p.sport_key === sportKey || p.requested_sport === label);
+    const events = (data.events || []).filter((e) => e.sport_key === sportKey || e.requested_sport === label);
+    return `
+      ${sectionHead(`${label}`, `${events.length} events · ${picks.length} picks${sport?.with_official ? ` · ${sport.with_official} events priced with primary data` : ""}`)}
+      ${picks.length ? picks.map(pickCard).join("") : `<div class="callout">No ${esc(label)} selection cleared the publication gate in this capture. The events and prices that were captured are listed below so the gap is visible rather than hidden.</div>`}
+      ${events.length ? `<section class="mt">${sectionHead("Captured events")}
+        ${events.map((e) => `<div class="card" style="margin-bottom:12px">
+          <h3>${link(e.olbg_url, e.name)}</h3>
+          <div class="tag">${esc(e.competition || "competition not published")} · ${when(e.start_utc)}${e.venue ? ` · ${esc(e.venue)}` : ""}</div>
+          ${e.official ? `<p class="tag">Primary data: ${link(e.official.source, e.official.source_label)} — ${esc(e.official.detail || "")}</p>` : `<p class="tag">No structured primary feed for this competition; prices are market-anchored.</p>`}
+          <div class="mt">${marketTable(e)}</div>
+        </div>`).join("")}
+      </section>` : ""}`;
   }
 
-  function renderHome(data) {
-    const s = data.summary;
-    const upcoming = [...data.events].sort((a, b) => String(a.startUtc).localeCompare(String(b.startUtc))).slice(0, 12);
-    root.innerHTML = `<section class="hero">
-      <p class="eyebrow">Executive summary · ${esc(data.asOfLabel)}</p>
-      <h1>Every OLBG listing in scope, with the line, selection, and evidence status in one place.</h1>
-      <p class="lede">This desk separates discovery from recommendation. An event can be listed by OLBG without having enough official identity, current-form, availability, or market evidence for a responsible written prediction.</p>
-      <div class="actions"><a class="button primary" href="picks.html">Open picks &amp; written briefs</a><a class="button" href="matches.html">Browse all matches</a><a class="button" href="flagged.html">Review flagged items</a></div>
-      <p class="meta-line">Capture: ${esc(data.captureUtc)} · ${esc(data.timezoneNote)}</p>
-    </section>
-    ${callout("No actionable selections are published.", data.publication.message, "danger")}
-    <section class="kpis">${kpi(s.publishedPicks, "Published picks", "publication gate")}${kpi(s.researchLines, "Research lines", "not bookmaker offers")}${kpi(s.eventConfirmed, "Event-confirmed", "official crosswalk")}${kpi(s.olbgEvents, "OLBG listings", "in-scope snapshot")}</section>
-    <section><div class="section-head"><div><h2>What matters today</h2><p>The short version before you open the tables.</p></div></div><div class="grid three">
-      <div class="card pad"><h3>1 · Where are the picks?</h3><p class="small">The only recommendation page is <a href="picks.html">Picks</a>. It is intentionally empty until a row clears every gate. Four full prose briefs are retained there as withheld research notes.</p></div>
-      <div class="card pad"><h3>2 · What is priced?</h3><p class="small">${esc(s.researchLines)} rows have a research line from captured official inputs. They sit beside OLBG’s displayed price and are never represented as an offered market.</p></div>
-      <div class="card pad"><h3>3 · What needs review?</h3><p class="small">Most rows are discovery listings only. <a href="flagged.html">Flagged for Review</a> records missing crosswalks, injuries, lineups, market checks, and scope notes.</p></div>
-    </div></section>
-    <section><div class="section-head"><div><h2>Coverage by sport</h2><p>${esc(s.sportsWithListings)} of ${esc(s.sportsInScope)} requested sports have an OLBG listing in this capture.</p></div><a href="matches.html">Open inventory →</a></div><div class="sport-grid">${data.sports.map(sportCard).join("")}</div></section>
-    <section><div class="section-head"><div><h2>Coverage ledger</h2><p>Zeroes are meaningful: they are not filled with another sport’s data.</p></div></div>${summaryTable(data)}</section>
-    <section><div class="section-head"><div><h2>Next captured events</h2><p>Sorted by timestamp stored in the capture. Recheck the linked source before use.</p></div><a href="matches.html">See all ${esc(s.olbgEvents)} →</a></div>${eventTable(upcoming)}</section>`;
+  function flaggedPage(data) {
+    const flags = data.flagged || [];
+    const sportGaps = (data.sports || []).filter((s) => s.events === 0);
+    const marketOnly = (data.sports || []).filter((s) => s.events > 0 && s.with_official === 0);
+    return `
+      ${sectionHead("Flagged for review", "Everything that could not be confirmed from a primary source stays visible here.")}
+      <div class="callout">A flag is not a failure of the pick — it is a statement about evidence. Items marked
+      <span class="badge flag">unverified</span> were left blank in the data rather than filled in.</div>
+
+      <section class="mt">
+        <h3>Sports with no OLBG market at capture time</h3>
+        <div class="table-wrap"><table><thead><tr><th>Sport</th><th>Status</th><th>What we checked</th></tr></thead><tbody>
+        ${sportGaps.length ? sportGaps.map((s) => `<tr><td>${esc(s.requested)}</td>
+          <td><span class="badge flag">no priced event captured</span></td>
+          <td>The OLBG category page answered but exposed no market row in the hydration payload, so no line could be originated. Nothing was substituted.</td></tr>`).join("")
+          : `<tr><td colspan="3">Every requested sport had at least one priced event.</td></tr>`}
+        </tbody></table></div>
+      </section>
+
+      <section>
+        <h3>Sports priced from market data only</h3>
+        <div class="table-wrap"><table><thead><tr><th>Sport</th><th>Limitation</th></tr></thead><tbody>
+        ${marketOnly.length ? marketOnly.map((s) => `<tr><td>${esc(s.requested)}</td>
+          <td>No structured primary feed was reachable for this competition, so the line is anchored on captured OLBG prices with a stated de-vig. Confidence is capped at medium.</td></tr>`).join("")
+          : `<tr><td colspan="2">All sports with events had at least one primary-data cross-check.</td></tr>`}
+        </tbody></table></div>
+      </section>
+
+      <section>
+        <h3>Row-level flags</h3>
+        <div class="table-wrap"><table><thead><tr><th>Sport</th><th>Event</th><th>Issue</th><th>Source</th></tr></thead><tbody>
+        ${flags.length ? flags.map((f) => `<tr><td>${esc(f.sport)}</td><td>${esc(f.event)}</td><td>${esc(f.issue)}</td>
+          <td>${f.source_url ? link(f.source_url, "link") : "—"}</td></tr>`).join("")
+          : `<tr><td colspan="4">No row-level flag was raised in this capture.</td></tr>`}
+        </tbody></table></div>
+      </section>`;
   }
 
-  function renderMatches(data) {
-    root.innerHTML = `${pageHead("Inventory", "All in-scope OLBG listings", "Filter the captured events by sport, event type, team, player, market, or source status. The table makes the selection and the location of every source obvious.")}
-      ${callout("Read the status column carefully.", "A research line is a calculated reference price. It is not a live bookmaker price, and a listed selection is not an endorsed pick.", "warn")}
-      <div class="filter-bar"><input id="match-search" type="search" placeholder="Search event, sport, selection…" aria-label="Search all listings"><select id="match-sport" aria-label="Filter by sport"><option value="">All sports</option>${data.sports.map(s => `<option value="${esc(s.key)}">${esc(s.label)}</option>`).join("")}</select><select id="match-type" aria-label="Filter by event type"><option value="">All types</option><option value="fixture">Matches</option><option value="race">Races</option><option value="outright">Outrights</option></select><span id="match-count" class="filter-count"></span></div>
-      <div id="match-table">${eventTable(data.events)}</div>`;
-    const search = document.getElementById("match-search");
-    const sport = document.getElementById("match-sport");
-    const type = document.getElementById("match-type");
-    const count = document.getElementById("match-count");
-    const update = () => {
-      const q = search.value.trim().toLowerCase();
-      const filtered = data.events.filter(e => (!sport.value || e.sportKey === sport.value) && (!type.value || e.eventType === type.value) && (!q || `${e.event} ${e.sport} ${e.olbg?.selection || ""} ${e.olbg?.market || ""}`.toLowerCase().includes(q)));
-      count.textContent = `${filtered.length} of ${data.events.length} rows`;
-      document.getElementById("match-table").innerHTML = eventTable(filtered);
+  function sourcesPage(data) {
+    const groups = {};
+    (data.sources || []).forEach((s) => { (groups[s.sport] = groups[s.sport] || []).push(s); });
+    return `
+      ${sectionHead("Source register", "Every primary source used to price or write a pick, with the URL that was checked.")}
+      <div class="callout info">OLBG supplies the market prices and the event identity. OLBG is not a governing body, so
+      every factual claim in a prediction is traced to the league, tour or federation link below.</div>
+      ${Object.entries(groups).map(([sport, list]) => `<section class="mt">
+        <h3>${esc(sport)}</h3>
+        <div class="table-wrap"><table><thead><tr><th>Source</th><th>Type</th><th>Link</th></tr></thead><tbody>
+        ${list.map((s) => `<tr><td>${esc(s.label)}</td><td>${esc(s.type)}</td><td>${link(s.url, s.url)}</td></tr>`).join("")}
+        </tbody></table></div></section>`).join("")}
+      <section class="mt">
+        <h3>OLBG category pages (market capture)</h3>
+        <div class="table-wrap"><table><thead><tr><th>Sport</th><th>OLBG category</th><th>Captured events</th></tr></thead><tbody>
+        ${(data.sports || []).map((s) => `<tr><td>${esc(s.requested)}</td>
+          <td>${link(`https://www.olbg.com/betting-tips/${esc((s.label || "").replace(/ /g, "_"))}/${s.sport_id || ""}`, "OLBG category")}</td>
+          <td class="num">${s.events}</td></tr>`).join("")}
+        </tbody></table></div>
+      </section>`;
+  }
+
+  function methodPage() {
+    return `
+      ${sectionHead("Method", "How a price on this site is produced, and what the confidence grades mean.")}
+      <div class="grid k2">
+        <div class="card"><h3>1 · Capture</h3><p>OLBG's public category pages are JavaScript shells. The fixture, market
+        and price data is served from the page's own hydration payload (<code>/__data.json</code>), which is decoded into a
+        flat table of event, market, selection, decimal/American/fractional price and kick-off. Captures are timestamped
+        and stored unchanged in <code>data/olbg/</code>.</p></div>
+        <div class="card"><h3>2 · Remove the bookmaker margin</h3><p>Implied probabilities (1 ÷ decimal price) sum to more
+        than 100%. We strip that margin with Shin's method, which corrects the favourite-longshot bias that fixed-odds
+        books show, and fall back to proportional normalisation when Shin has no solution. The book percentage for each
+        market is published next to it.</p></div>
+        <div class="card"><h3>3 · Independent estimate</h3><p>Where a primary feed exists we build our own probability and
+        blend it 55/45 with the de-vigged market: log5 on MLB winning percentage with a home-field term, log5 on NHL points
+        percentage with home ice, log5 on NBA win percentage with home court, and a logistic model on ATP ranking points for
+        tennis.</p></div>
+        <div class="card"><h3>4 · Our line</h3><p>The published line is the decimal odds implied by the blended
+        probability, converted to American odds. It is a fair line: no margin is added. The edge column is our probability
+        minus the de-vigged market probability, in percentage points.</p></div>
+        <div class="card"><h3>5 · Confidence</h3><p><span class="badge high">high</span> needs a complete market (both
+        sides captured, book between 100% and 175%), a primary-data cross-check, an edge of at least 2.5 points and a price
+        inside the requested −250 to +10000 band. <span class="badge medium">medium</span> allows either a smaller edge or
+        a market-anchored price. Anything else stays low and is not published as a pick.</p></div>
+        <div class="card"><h3>6 · Writing</h3><p>Published predictions state the selection, the price, the form or record
+        that supports it and the source of that fact. Where a competition has no reachable primary feed, the prediction
+        says so instead of inventing statistics, and the confidence cannot be high.</p></div>
+      </div>
+      <section class="mt">
+        <h3>What this site does not do</h3>
+        <ul class="tight">
+          <li>It does not republish OLBG tipster text, and it does not treat a tipster's strike rate as evidence.</li>
+          <li>It does not fill a blank with an estimate. A missing venue, official crosswalk or injury note stays blank and is flagged.</li>
+          <li>It does not claim a complete fixture list: OLBG exposes events that carry a market, and only those can be priced.</li>
+          <li>It does not add margin to the published line, so the prices here are not offers and cannot be bet into.</li>
+        </ul>
+      </section>`;
+  }
+
+  /* ------------------------------------------------------------ filters -- */
+  function wireListFilters() {
+    const q = document.getElementById("q");
+    const sport = document.getElementById("sport");
+    const list = document.getElementById("list");
+    const chips = document.querySelectorAll("#conf .chip");
+    let level = "";
+    const apply = () => {
+      const text = (q?.value || "").toLowerCase().trim();
+      const sp = sport?.value || "";
+      const cards = list ? list.querySelectorAll(".pick") : document.querySelectorAll("#match-table tbody tr");
+      cards.forEach((node) => {
+        let ok = true;
+        if (text) ok = (node.textContent || "").toLowerCase().includes(text);
+        if (ok && sp) {
+          const meta = node.dataset.sport || node.querySelector(".pick-meta")?.textContent || "";
+          ok = meta.includes(sp);
+        }
+        if (ok && level) ok = (node.textContent || "").toLowerCase().includes(level);
+        node.style.display = ok ? "" : "none";
+      });
     };
-    [search, sport, type].forEach(el => el.addEventListener("input", update));
-    update();
+    q?.addEventListener("input", apply);
+    sport?.addEventListener("change", apply);
+    chips.forEach((chip) => chip.addEventListener("click", () => {
+      chips.forEach((c) => c.setAttribute("aria-pressed", "false"));
+      chip.setAttribute("aria-pressed", "true");
+      level = chip.dataset.level || "";
+      apply();
+    }));
   }
 
-  function renderSport(data) {
-    const sport = data.sports.find(s => s.key === sportKey) || data.sports.find(s => s.label.toLowerCase() === sportKey.toLowerCase());
-    if (!sport) { root.innerHTML = `<div class="empty">Sport not found. <a href="index.html">Return to overview</a>.</div>`; return; }
-    const events = data.events.filter(e => e.sportKey === sport.key);
-    root.innerHTML = `${pageHead("Sport desk", sport.label, `${sport.events} OLBG listings captured · ${sport.matchEvents} match events · ${sport.researchLines} research lines · target ${data.dailyTargetPerSport} written picks`)}
-      ${callout("Sport-level status", sport.note, sport.events && sport.researchLines ? "warn" : "warn")}
-      <div class="detail-grid"><div class="detail"><div class="detail-label">OLBG hub</div><div class="detail-value">${link(sport.olbg_hub, "Open OLBG sport page")}</div></div><div class="detail"><div class="detail-label">Official reference</div><div class="detail-value">${link(sport.official_url, sport.official_name)}</div></div>${sport.official_alt ? `<div class="detail"><div class="detail-label">Additional official reference</div><div class="detail-value">${link(sport.official_alt, sport.official_alt_name)}</div></div>` : ""}<div class="detail"><div class="detail-label">Publication state</div><div class="detail-value">${sport.researchLines ? "Research only; no published pick" : "No line published"}</div></div></div>
-      <h2>Listings and lines</h2><p class="small">Every row has an OLBG event link and an official reference. A source status of “reference only” means the official page is a starting point, not an event identity match.</p>${eventTable(events)}`;
-  }
-
-  function renderPicks(data) {
-    const drafts = data.events.filter(e => e.draftPrediction);
-    const published = data.publication.publishedPicks || [];
-    root.innerHTML = `${pageHead("Recommendations", "Picks & written predictions", "This page is the only place where a betting selection would be promoted. It stays explicit when the evidence is not sufficient.")}
-      ${callout("Published picks: 0", "No row cleared the identity, current-form, relevant-statistics, availability, price-window, and unique-prose gates together. The daily target is not filled with unsupported favourites.", "danger")}
-      <section class="card pad"><h2 style="margin-top:0">Published executive picks</h2>${published.length ? published.map(p => `<p>${esc(p)}</p>`).join("") : `<div class="empty">No actionable predictions are published in this capture.</div>`}</section>
-      <h2>Full prose briefs withheld from publication</h2><p class="small">These are written research notes, not recommendations. Each is longer than 30 words and links to the official source record, but a missing availability or market check keeps it off the picks list.</p>
-      ${drafts.map(e => { const r = e.research; const d = e.draftPrediction; return `<article class="pick-card"><div class="pick-top"><div><div class="sport">${esc(e.sport)} · ${esc(typeLabel(e.eventType))}</div><h3>${esc(e.event)}</h3><div class="small">${formatDate(e.startUtc)} · ${esc(e.official.name)}</div></div><span class="badge flag">withheld</span></div><div class="selection"><div class="selection-label">Research selection · ${esc(d.confidence)} confidence</div><div class="selection-value">${esc(d.selection)} · ${american(r.american)}</div></div><p class="prediction">${esc(d.text)}</p><div class="source-links">${d.source_ids.map(id => { const registry = data.sourceRegistry?.find(x => x.id === id); return registry ? link(registry.url, registry.name) : ""; }).join("")}${link(e.olbg?.event, "OLBG event")}</div></article>`; }).join("")}
-      ${!drafts.length ? `<div class="empty">No written briefs were retained for this capture.</div>` : ""}`;
-  }
-
-  function renderFlagged(data) {
-    const flaggedRows = data.events.filter(e => e.flags && e.flags.length);
-    root.innerHTML = `${pageHead("Review register", "Flagged for Review", "Irregularities are visible and linked rather than silently repaired. These do not block the static site, but they block a published pick.")}
-      <div class="kpis">${kpi(data.flags.length, "Desk findings", "cross-cutting issues")}${kpi(flaggedRows.length, "Rows with a flag", "event-level review")}${kpi(data.summary.publishedPicks, "Published picks", "none")}${kpi(data.summary.draftPredictions, "Withheld briefs", "not recommendations")}</div>
-      ${data.flags.map(f => `<article class="flag-card ${esc(f.severity)}"><div class="flag-head"><span class="flag-id">${esc(f.id)}</span>${badge(f.severity === "high" ? "High" : f.severity === "medium" ? "Medium" : "Low")}</div><h3>${esc(f.title)}</h3><p>${esc(f.body)}</p><div class="source-links">${(f.links || []).map(l => link(l.url, l.label)).join("")}</div></article>`).join("")}
-      <h2>Event-level flags</h2><div class="filter-bar"><input id="flag-search" type="search" placeholder="Search flagged rows…" aria-label="Search flagged rows"><span id="flag-count" class="filter-count"></span></div><div id="flag-table"></div>`;
-    const input = document.getElementById("flag-search");
-    const count = document.getElementById("flag-count");
-    const draw = () => {
-      const q = input.value.trim().toLowerCase();
-      const rows = flaggedRows.filter(e => !q || `${e.event} ${e.sport} ${(e.flags || []).join(" ")}`.toLowerCase().includes(q));
-      count.textContent = `${rows.length} of ${flaggedRows.length} flagged rows`;
-      document.getElementById("flag-table").innerHTML = `<div class="table-wrap"><table><thead><tr><th>Sport</th><th>Event</th><th>Reason</th><th>Sources</th></tr></thead><tbody>${rows.map(e => `<tr><td><strong>${esc(e.sport)}</strong></td><td><strong>${esc(e.event)}</strong><br><span class="xsmall">${formatDate(e.startUtc)}</span></td><td>${(e.flags || []).map(f => `<div class="xsmall" style="margin-bottom:5px">${esc(f)}</div>`).join("")}</td><td>${sourceLinks(e)}</td></tr>`).join("") || `<tr><td colspan="4"><div class="empty">No flagged row matches this search.</div></td></tr>`}</tbody></table></div>`;
-    };
-    input.addEventListener("input", draw); draw();
-  }
-
-  function renderSources(data) {
-    root.innerHTML = `${pageHead("Evidence map", "Sources", "Every inventory row carries two paths: the OLBG discovery page and an official sport or governing-body reference. Event-specific confirmation is labeled in the tables.")}
-      ${callout("Source hierarchy", "OLBG establishes what was listed and what selection was displayed. An official governing-body, league, tour, or league API page is required before an event identity or fact is treated as publishable.", "good")}
-      <h2>Source register</h2><div class="table-wrap"><table><thead><tr><th>Source</th><th>Kind</th><th>Captured</th><th>What it supports</th><th>Limitation</th></tr></thead><tbody>${(data.sourceRegistry || []).map(s => `<tr><td>${link(s.url, s.name)}</td><td>${esc(s.kind)}</td><td class="mono">${esc(s.captured)}</td><td>${esc(s.supports)}</td><td>${esc(s.limitation)}</td></tr>`).join("")}</tbody></table></div>
-      <h2>Official reference by sport</h2><div class="table-wrap"><table><thead><tr><th>Sport</th><th>OLBG hub</th><th>Official reference</th><th>Additional official source</th><th>Rows</th></tr></thead><tbody>${data.sports.map(s => `<tr><td><strong>${esc(s.label)}</strong></td><td>${link(s.olbg_hub, "OLBG")}</td><td>${link(s.official_url, s.official_name)}</td><td>${s.official_alt ? link(s.official_alt, s.official_alt_name) : "—"}</td><td>${esc(s.events)}</td></tr>`).join("")}</tbody></table></div>`;
-  }
-
-  function renderMethodology(data) {
-    root.innerHTML = `${pageHead("How this desk works", "Methodology & markets", "A reproducible boundary between OLBG discovery, official-source checking, our own reference lines, and publishable written analysis.")}
-      <div class="grid two"><section class="card pad"><h2 style="margin-top:0">1. Discover</h2><p class="small">Each in-scope OLBG sport hub follows the observed URL pattern <code>/betting-tips/&lt;Sport&gt;/&lt;sport_id&gt;</code>. The capture records only named events rendered by OLBG. Untipped fixtures can be absent, and “Load More Tips” is a meaningful limitation.</p><p class="small">Football, horse racing, specials, American football, boxing/UFC/MMA, cycling, and hurling are excluded from the dashboard scope.</p></section><section class="card pad"><h2 style="margin-top:0">2. Crosswalk</h2><p class="small">The event name and timing must be matched to a named fixture, race, draw, or tournament on an official league, tour, federation, or governing-body page. A generic official page is retained for every row, but it is labeled “reference only” when it does not establish the exact event.</p></section></div>
-      <section class="card pad" style="margin-top:15px"><h2 style="margin-top:0">3. Markets we track</h2><dl class="definition-list"><dt>Match winner / moneyline</dt><dd>Which side wins; in ice hockey and baseball settlement rules can include overtime or extra innings, so the book’s terms still need checking.</dd><dt>Handicap / spread</dt><dd>A margin is applied to the side before settlement. The OLBG event market and the research line are shown separately.</dd><dt>Totals</dt><dd>Over or under a stated combined total. The source must state the line; no total is filled from a guess.</dd><dt>Set / frame / leg</dt><dd>Sport-specific derivative markets such as volleyball set score, snooker frames, or darts legs; a match-winner note is not substituted for these.</dd><dt>Outright / top finish</dt><dd>A tournament or race market, not a daily match. It remains visible but is excluded from the match-pick quota.</dd></dl></section>
-      <section class="card pad" style="margin-top:15px"><h2 style="margin-top:0">4. Originate a reference price</h2><p class="small">A line is calculated only for a research row where form and scoring inputs were captured from an official source. It is a fair-price reference, not a live offer and not a claim about bookmaker pricing.</p><div class="formula">For a probability p: if p ≥ 0.50, American price = −100 × p ÷ (1 − p). If p &lt; 0.50, American price = 100 × (1 − p) ÷ p.\n\nInput families captured here: recent team record, scoring for/against, sport-specific margin or total spread, and the event’s official identity status. Missing inputs produce a blank line.</div><p class="small" style="margin-bottom:0">The requested target window is −250 through +10,000. A line outside that window is labeled, not silently clipped.</p></section>
-      <section class="card pad" style="margin-top:15px"><h2 style="margin-top:0">5. Confidence and written gate</h2><p class="small">High is at least 70%, Medium is 60–69%, and Low is below 60% based on the research probability. A published written prediction additionally needs an exact event crosswalk, relevant official form and statistics, an availability/injury check where material, a current market check, a line inside the requested range, and unique prose of at least 30 words.</p><p class="small" style="margin-bottom:0">The current capture publishes zero selections. The four prose briefs on the Picks page are deliberately marked <strong>withheld</strong> because at least one gate remains open.</p></section>
-      <h2>Capture summary</h2><div class="table-wrap"><table><thead><tr><th>Measure</th><th>Value</th><th>Interpretation</th></tr></thead><tbody><tr><td>Capture time</td><td class="mono">${esc(data.captureUtc)}</td><td>Snapshot time for this static site.</td></tr><tr><td>In-scope OLBG events</td><td>${esc(data.summary.olbgEvents)}</td><td>Named events after removing the explicitly excluded Hurling listing.</td></tr><tr><td>Official event crosswalks</td><td>${esc(data.summary.eventConfirmed)}</td><td>Exact fixture identity located in the captured official sources.</td></tr><tr><td>Research lines</td><td>${esc(data.summary.researchLines)}</td><td>Calculated reference lines; not bookmaker offers.</td></tr><tr><td>Published picks</td><td>0</td><td>Nothing cleared every publication gate.</td></tr></tbody></table></div>`;
-  }
-
+  /* --------------------------------------------------------------- boot -- */
   async function start() {
-    renderHeader();
+    let data = null;
     try {
-      const response = await fetch(DATA_URL, { cache: "no-store" });
-      if (!response.ok) throw new Error(`data request returned ${response.status}`);
-      const data = await response.json();
-      // Keep the source registry in the main payload so pages remain a single fetch.
-      const sourceResponse = await fetch(`${BASE}data/sources.json`, { cache: "no-store" });
-      if (sourceResponse.ok) {
-        const sources = await sourceResponse.json();
-        data.sourceRegistry = sources.registry || [];
-      } else data.sourceRegistry = [];
-      renderFooter(data);
-      if (page === "home") renderHome(data);
-      else if (page === "matches") renderMatches(data);
-      else if (page === "sport") renderSport(data);
-      else if (page === "picks") renderPicks(data);
-      else if (page === "flagged") renderFlagged(data);
-      else if (page === "sources") renderSources(data);
-      else if (page === "methodology") renderMethodology(data);
-      else renderHome(data);
+      const response = await fetch(`${BASE}data/dashboard.json`, { cache: "no-cache" });
+      if (!response.ok) throw new Error(String(response.status));
+      data = await response.json();
     } catch (error) {
-      if (root) root.innerHTML = `<div class="callout danger"><span class="icon">!</span><p><strong>Dashboard data could not be loaded.</strong> ${esc(error.message)}. Serve the repository root over HTTP for the static JSON files, then reload.</p></div>`;
-      console.error(error);
+      if (app) app.innerHTML = `<div class="card empty"><b>Data could not be loaded.</b><br>
+        ${esc(error.message)}. Serve the folder over HTTP (for example <code>python3 -m http.server</code>) rather than opening the file directly.</div>`;
+      return;
     }
+    header(data);
+    footer(data);
+    if (!app) return;
+    const render = { home, picks, matches, sport: sportPage, flagged: flaggedPage, sources: sourcesPage };
+    if (page === "method") app.innerHTML = methodPage(data);
+    else (render[page] || home)(data);
+    wireListFilters();
   }
 
   start();
