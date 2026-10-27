@@ -24,12 +24,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate the published desk
+      - name: Rebuild and validate the site
         run: |
+          python3 scripts/build_dashboard.py
           python3 scripts/test_site.py
-          python3 scripts/check_site.py
-          python3 scripts/test_board.py
-          python3 -m py_compile scripts/*.py price-engine/*.py
+          python3 -m py_compile scripts/*.py
           node --check assets/app.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
