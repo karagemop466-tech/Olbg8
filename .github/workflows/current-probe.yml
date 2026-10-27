@@ -25,7 +25,7 @@ jobs:
           import base64, pathlib, zlib
           p = pathlib.Path('current/live-test.json')
           b = base64.b64encode(zlib.compress(p.read_bytes(), 9)).decode('ascii')
-          parts = [b[i:i+6000] for i in range(0, len(b), 6000)]
+          parts = [b[i:i+3500] for i in range(0, len(b), 3500)]
           for i, part in enumerate(parts):
               print(f'::notice file=current/collect.py,line=1::SNAPSHOT:{i+1:02}/{len(parts):02}:{part}')
           PY
