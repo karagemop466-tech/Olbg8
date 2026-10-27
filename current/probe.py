@@ -7,7 +7,10 @@ from urllib.parse import parse_qs, urljoin, urlsplit
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 
-AGENT = 'Olbg8Research/1.0 (+https://github.com/karagemop466-tech/Olbg8)'
+# Deliberately short product token: avoid accidentally matching the separate
+# robots product token `es` in the word `Research`. This identifies our bot,
+# not a different client, and we still obey that token's robots rules.
+AGENT = 'Olbg8Bot/1.0'
 
 
 def get(url, maximum=2_000_000):
