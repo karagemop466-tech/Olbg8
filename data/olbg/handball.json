@@ -1,8 +1,31 @@
 {
  "sport": "Handball",
  "sport_id": 20,
- "captured_utc": "2026-10-27T06:14:53Z",
+ "captured_utc": "2026-10-27T06:38:42Z",
  "rows": [
+  {
+   "sport": "Handball",
+   "sport_key": "handball",
+   "sport_id": 20,
+   "event_id": "12196",
+   "event_name": "OV Helsingborg HK W vs Skovde HF W",
+   "competition": "",
+   "market": "Match Handicap",
+   "selection": "OV Helsingborg HK W +4.50",
+   "decimal_odds": 1.85,
+   "american_odds": -118,
+   "fractional_odds": "17/20",
+   "start_utc": "2026-10-27T18:00:00Z",
+   "event_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
+   "league_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/20",
+   "venue": "",
+   "origin": "hub",
+   "win_tips": 3,
+   "win_tips_count": 3,
+   "experts_count": 1,
+   "confidence": 100,
+   "comments_count": 2
+  },
   {
    "sport": "Handball",
    "sport_key": "handball",
@@ -21,9 +44,9 @@
    "venue": "",
    "origin": "event",
    "win_tips": 2,
-   "win_tips_count": 5,
+   "win_tips_count": 6,
    "experts_count": 0,
-   "confidence": 40,
+   "confidence": 33,
    "comments_count": 1
   },
   {
@@ -44,9 +67,9 @@
    "venue": "",
    "origin": "hub",
    "win_tips": 3,
-   "win_tips_count": 5,
+   "win_tips_count": 6,
    "experts_count": 0,
-   "confidence": 60,
+   "confidence": 50,
    "comments_count": 0
   },
   {
