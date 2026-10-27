@@ -170,3 +170,52 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+## Session `arena/65c1e02b-olbg8` — live re-capture, price board and written predictions
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG re-capture for all 15 sports | done | `65c1e02b` | `data/olbg-listings.json` |
+| Official rating capture and line-origination engine | done | `65c1e02b` | `data/ratings.json`, `scripts/originate.py`, `data/matches.json` |
+| Written predictions with per-fact sources | done | `65c1e02b` | `data/predictions.json` |
+| Primary site rebuild, navigation, tests, CI, publication | done | `65c1e02b` | `index.html`, `picks.html`, `matches.html`, `pricing.html`, `methodology.html`, `sources.html`, `flagged.html`, `sports/*`, `assets/*`, `scripts/build_site.py`, `scripts/test_site.py`, `.github/workflows/quality.yml`, `README.md` |
+
+**Claim note.** No session held a live claim when this work started; the previous board showed the
+prediction task as `needs review` and unassigned. This session claimed the primary site scope above and
+did not touch `research-desk/*` or `evidence-lab/*`.
+
+### Sources used (all read this session)
+
+- OLBG category pages for ids 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 20, 21, 25, 28 — 111 listings, captured 2026-10-27 05:30 UTC.
+- `https://www.euroleaguebasketball.net/en/euroleague/standings/` — EuroLeague, 7 rounds, read 2026-10-27.
+- `https://prod2.lnr.fr/classement` — PRO D2, after J8, read 2026-10-27.
+- `https://api-web.nhle.com/v1/standings/now` — NHL, capture 2026-10-26 05:19 UTC (re-read 2026-10-27 for CAR and BOS, identical totals).
+- `https://statsapi.mlb.com/api/v1/standings?...season=2026` — MLB, capture 2026-10-26 05:18 UTC.
+- `https://ehfcl.eurohandball.com/men/2026-27/standings/` — EHF Champions League, capture 2026-10-26 05:19 UTC.
+- `https://www.wtatennis.com/rankings/singles` — WTA top 50, capture 2026-10-26 05:19 UTC.
+- `https://www.icc-cricket.com/rankings/team-rankings/mens/odi` and `/t20i` — rankings table did not render; fixtures confirmed, no rating input obtained.
+
+### Verification performed
+
+`python3 scripts/test_site.py` passes: 22 pages, 111 board rows, 13 sports with a market, 22 written
+predictions, 0 broken local links. It also enforces: every board row carries an OLBG event URL; every
+priced row carries an official source URL, rating inputs and markets; confidence bands and the -250 /
++10000 window flags are recomputed from the numbers; every prediction is 30+ words, names its selection,
+states the bet, avoids the words "model" and "verified", and cites only source keys that exist.
+`python3 -m py_compile scripts/*.py` and `node --check assets/app.js` pass; a clean rebuild produces no diff.
+
+### Outcome
+
+111 listings captured, 31 priced, 22 written predictions (10 High, 1 Medium, 11 Low). Coverage meets the
+five-per-sport target for basketball (6), handball (8) and rugby union (6). No prediction, price,
+statistic or injury note was invented; every blank carries a stated reason on `flagged.html`.
+
+### Irregularities logged
+
+1. Snooker (8) and Greyhounds (28) displayed "No tips found" — zero markets at capture.
+2. Handball showed the most-tipped selection as literally "Tie" on 11 of 15 rows; treated as an OLBG display fault, not as a draw prediction.
+3. The Swiss league sub-page contradicts the main ice hockey page on the most-tipped market for two fixtures (Ambri Piotta v Biel, Kloten v Ajoie).
+4. OLBG's "Today"/"Tomorrow" labels carry no date or timezone and were left unconverted.
+5. OLBG lists South Africa v Australia and Bangladesh v West Indies without a format; ICC shows both as Tests.
+6. ATP rankings and the ICC ranking table could not be read, so men's tennis and all cricket remain unpriced.
+7. The Swiss National League table returned a 404 at `nationalleague.ch/ranking`, so six Swiss fixtures are unpriced.

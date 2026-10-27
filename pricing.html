@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we price &middot; OLBG multi-sport desk</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div>
+      <div class="brand">OLBG <span>multi-sport desk</span></div>
+      <div class="tagline">Fifteen sports, one price board, written predictions only where the inputs are sourced</div>
+    </div>
+  </div>
+  <div class="wrap"><nav class="site"><a href="index.html">Executive summary</a><a href="picks.html">Written predictions</a><a href="matches.html">Full price board</a><a href="pricing.html" class="active">How we price</a><a href="methodology.html">Method</a><a href="sources.html">Sources</a><a href="flagged.html">Flagged for review</a></nav></div>
+</header>
+<main><div class="wrap">
+
+<h1>How we price every match</h1>
+<p class="lede">We do not copy a bookmaker. We build a number from official results and then convert that number into a
+price. The method is the same for every sport; only the parameters change.</p>
+
+<h2>1. Rating input</h2>
+<p>For each competitor we take the official season record: matches played, and points or goals or runs for and against.
+Nothing else. Where a competition has a table, the table is the input. Where it does not, we do not price the match.</p>
+
+<h2>2. Shrink the sample</h2>
+<p>A seven-game point differential is noisy, so every rating is pulled toward the league average before use:</p>
+<p><code>rating = (points_for - points_against) / games_played &times; games_played / (games_played + K)</code></p>
+<p>With K around 8 to 12 for a short European season and 60 for a 162-game baseball season, a club that has played a handful
+of matches cannot produce an extreme number.</p>
+
+<h2>3. Turn the ratings into a projected margin</h2>
+<p><code>projected margin = home rating - away rating + home edge</code>, where the home edge is the sport-specific bump in
+the table below. The projected margin is also our handicap number, rounded to the sport's scoring step.</p>
+
+<h2>4. Turn the margin into a probability</h2>
+<p>We treat the actual margin as normally distributed around the projection with the sport's own standard deviation. That
+gives the chance of the favourite covering any line, and for handball and rugby union it also gives the chance of a draw,
+so those two sports are priced as three-way markets.</p>
+
+<h2>5. Convert to a price</h2>
+<p><code>price = -100 &times; p / (1 - p)</code> when p is at least 50%, otherwise <code>100 &times; (1 - p) / p</code>.
+These are fair prices with no margin. A bookmaker's price is shorter; that gap is where a bet becomes interesting.</p>
+
+<h2>Parameters in use</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Sport</th><th class="num">Home edge</th><th class="num">Margin SD</th><th class="num">Shrink K</th>
+<th class="num">Scoring step</th></tr></thead>
+<tbody><tr><td>Basketball</td><td class="num">3.00</td><td class="num">11.0</td><td class="num">12</td><td class="num">0.5</td></tr><tr><td>Handball</td><td class="num">2.00</td><td class="num">7.6</td><td class="num">8</td><td class="num">1.0</td></tr><tr><td>Ice Hockey</td><td class="num">0.25</td><td class="num">2.1</td><td class="num">10</td><td class="num">0.5</td></tr><tr><td>Baseball</td><td class="num">0.12</td><td class="num">3.6</td><td class="num">60</td><td class="num">0.5</td></tr><tr><td>Rugby Union</td><td class="num">3.50</td><td class="num">12.5</td><td class="num">6</td><td class="num">0.5</td></tr></tbody></table></div>
+<p class="chip">Tennis is priced separately: a Bradley-Terry comparison of ranking points, scaled by 1.5 in log space, with no
+home edge because the first-named player is not the host.</p>
+
+<h2>Worked example: Dax v Provence</h2>
+<p>Provence have played 8 matches with 276 points scored and 161 conceded, so their raw differential is plus 14.4. Shrunk
+with K = 6 it becomes plus 8.2. Dax are minus 4.6 raw, minus 2.6 shrunk. Adding the 3.5 home edge for Dax gives a projected
+margin of minus 7.4 in Provence's favour, which we round to a 7.5-point handicap. The chance of Provence winning outright
+comes out at 70.8%, which converts to -243. That is the one High-confidence pick of the day that also sits inside the
+-250 to +10000 window.</p>
+
+<h2>Markets we publish for every priced match</h2>
+<ul class="tight">
+<li><strong>Match winner</strong> &mdash; the price on each side, plus the draw where the sport allows one.</li>
+<li><strong>Handicap</strong> &mdash; the projected margin, quoted as a line, with a price on each side.</li>
+<li><strong>Total</strong> &mdash; the combined score the two records imply, rounded to the sport's step.</li>
+</ul>
+<p class="lede">Markets we do not price: player props, correct score, and anything that needs team news. No injury,
+suspension or lineup information was read for this edition, so no market depends on it.</p>
+
+</div></main>
+<footer class="site"><div class="wrap">
+Independent research, not OLBG advice and not a guarantee. Prices shown are our own fair prices, not bookmaker prices.
+18+. Only stake what you can afford to lose. Data capture: <strong>2026-10-27 05:30 UTC</strong>.
+</div></footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

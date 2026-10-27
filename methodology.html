@@ -1,16 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="OLBG source-first multi-sport research desk, lines, picks, and flagged findings.">
-  <title>Methodology and markets · OLBG research desk</title>
-  <link rel="stylesheet" href="assets/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method &middot; OLBG multi-sport desk</title>
+<link rel="stylesheet" href="assets/styles.css">
 </head>
-<body data-page="methodology">
-  <div id="site-header"></div>
-  <main id="app" aria-live="polite"><div class="empty">Loading source-first desk…</div></main>
-  <div id="site-footer"></div>
-  <script src="assets/app.js" defer></script>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div>
+      <div class="brand">OLBG <span>multi-sport desk</span></div>
+      <div class="tagline">Fifteen sports, one price board, written predictions only where the inputs are sourced</div>
+    </div>
+  </div>
+  <div class="wrap"><nav class="site"><a href="index.html">Executive summary</a><a href="picks.html">Written predictions</a><a href="matches.html">Full price board</a><a href="pricing.html">How we price</a><a href="methodology.html" class="active">Method</a><a href="sources.html">Sources</a><a href="flagged.html">Flagged for review</a></nav></div>
+</header>
+<main><div class="wrap">
+
+<h1>Method and verification</h1>
+<p class="lede">The rules this desk follows, in the order they are applied.</p>
+
+<h2>Capture</h2>
+<p>The fifteen OLBG category pages were read directly on 2026-10-27 from <code>olbg.com/betting-tips/&lt;Sport&gt;/&lt;id&gt;</code>.
+Every listing keeps its own event URL so a reader can reopen the market and confirm the match, the most-tipped selection and
+the tip counts. Two categories, Snooker and Greyhounds, displayed <em>No tips found</em> and are reported as empty rather
+than padded.</p>
+
+<h2>Pricing gate</h2>
+<p>A match is priced only when both competitors appear in an official table we actually read. If one side is missing, the
+price stays blank. If the whole competition lacks a table, the whole competition stays blank. This is why nine sports carry
+no prediction today.</p>
+
+<h2>Publication gate</h2>
+<p>A pick is published only when the chance of the selection winning is at least 55%. Below that the number is a coin flip
+and publishing it would be noise. Every published pick is between 55% and 85%.</p>
+
+<h2>Confidence bands</h2>
+<ul class="tight">
+<li><span class="badge high">High</span> 70% or better.</li>
+<li><span class="badge medium">Medium</span> 62% to 69.9%.</li>
+<li><span class="badge low">Low</span> below 62%.</li>
+</ul>
+
+<h2>The price window</h2>
+<p>The brief asks for picks between -250 and +10000. On fair prices, a selection with a 70% chance is -233, so a
+High-confidence pick is almost always shorter than -250. We therefore label the window status on every pick instead of
+hiding the conflict: 13 of 22 published picks are inside the window, and 10 High-confidence
+picks are outside it and marked <span class="badge out">Outside window</span>.</p>
+
+<h2>What a written prediction must contain</h2>
+<p>A named selection, the competition, at least thirty words of reasoning, and figures that can be traced to the source on
+the same card. No prediction mentions an injury, a suspension or a lineup, because none of those were read from an official
+source for this edition.</p>
+
+<h2>What we will not do</h2>
+<ul class="tight">
+<li>Fill a blank with an estimate and present it as a fact.</li>
+<li>Quote a statistic from memory or from a preview article rather than the governing body.</li>
+<li>Publish a pick because a sport needs a quota.</li>
+</ul>
+
+</div></main>
+<footer class="site"><div class="wrap">
+Independent research, not OLBG advice and not a guarantee. Prices shown are our own fair prices, not bookmaker prices.
+18+. Only stake what you can afford to lose. Data capture: <strong>2026-10-27 05:30 UTC</strong>.
+</div></footer>
+<script src="assets/app.js" defer></script>
 </body>
 </html>
