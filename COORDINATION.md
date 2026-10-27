@@ -7,7 +7,7 @@ Branch is fixed by the platform; no alternate session branch/worktree will be cr
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Audit current OLBG/official-source access, pricing and refresh; implement a current-source discovery and evidence pipeline | in progress | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml` |
-| Final integration of current findings, review flags, tests and release | in progress | `arena/6bb9f412-olbg8` | `COORDINATION.md`, `README.md`, `index.html`, `snapshot.html`, `assets/app.js`, `scripts/test_site.py`, `scripts/build_dashboard.py`, `data/dashboard.json`, `data/sources.json`, `.github/workflows/pages.yml` (shared outputs edited at final integration only) |
+| Additive integration, validation and Pages refresh for current findings | in progress | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml`, `COORDINATION.md`; preserve active root-owner files, log cross-scope requests |
 
 No match, odds, statistics, availability or prediction will be represented as established without a corresponding source check. The requested full pricing and daily predictions remain open until actually supported. The old primary snapshot erroneously excluded Hurling; the GAA treats both Hurling and Gaelic football as Gaelic Games. Hosted OLBG pages are accessible and expose timestamped American/decimal odds in public HTML attributes; the earlier captcha flag was a false positive from a generic script token. A one-hour OLBG/MLB start-time discrepancy requires review.
 
