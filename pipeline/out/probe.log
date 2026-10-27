@@ -1,6 +1,6 @@
  200    20969 espn_mlb             https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20261027&limit=50
- 200   226857 espn_nhl             https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261027&limit=50
- 200    81883 espn_nba             https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027&limit=50
+ 200   226893 espn_nhl             https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261027&limit=50
+ 200    81898 espn_nba             https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027&limit=50
  200     3590 espn_wnba            https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20261027
  200     5868 espn_cricket         https://site.api.espn.com/apis/site/v2/sports/cricket/8039/scoreboard?dates=20261027
  200       64 espn_cricket_all     https://sports.core.api.espn.com/v2/sports/cricket/leagues?limit=100
@@ -11,7 +11,7 @@
  200     6335 espn_f1              https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261027
  200    11010 espn_f1_racelog      https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261101
  200   242339 espn_tennis_atp      https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard
- 200   475870 espn_tennis_wta      https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard
+ 200   475763 espn_tennis_wta      https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard
  400        0 espn_volleyball      https://site.api.espn.com/apis/site/v2/sports/volleyball/volleyball/scoreboard?dates=20261027
  400        0 espn_handball        https://site.api.espn.com/apis/site/v2/sports/handball/.../scoreboard
  404        0 espn_leagues         https://site.api.espn.com/apis/site/v2/sports
@@ -55,12 +55,12 @@
  200  1241747 pdc_om               https://www.pdc.tv/order-of-merit
  200   181180 wst                  https://www.wst.tv/
  200   181116 wst_matches          https://www.wst.tv/matches
- 200    96287 gbgb                 https://www.gbgb.org.uk/
+ 200    96275 gbgb                 https://www.gbgb.org.uk/
  200    81995 gbgb_results         https://www.gbgb.org.uk/results
- 200  1314491 gaa                  https://www.gaa.ie/fixtures-results/
+ 200  1314146 gaa                  https://www.gaa.ie/fixtures-results/
  404        0 gaa_api              https://www.gaa.ie/api/
- 200   536385 pga_sched            https://www.pgatour.com/schedule
- 200   978939 pga_leaderboard      https://www.pgatour.com/leaderboard
+ 200   536387 pga_sched            https://www.pgatour.com/schedule
+ 200   978922 pga_leaderboard      https://www.pgatour.com/leaderboard
  403        0 dpwt                 https://www.europeantour.com/dpworld-tour/schedule/
  200   549122 lpga                 https://www.lpga.com/tournaments
  200   621386 f1_site              https://www.formula1.com/en/racing/2026
@@ -69,6 +69,6 @@
  429        0 euroleague           https://www.euroleaguebasketball.net/euroleague/games/
    0        0 bbl_de               https://www.basketball-bundesliga.de/spielplan/
  200  2476036 acb                  https://www.acb.com/calendario
- 200   185131 sportinglife_grey    https://www.sportinglife.com/greyhounds
- 200   314927 olbg_grey            https://www.olbg.com/betting-tips/Greyhounds/28
+ 200   185135 sportinglife_grey    https://www.sportinglife.com/greyhounds
+ 200   314925 olbg_grey            https://www.olbg.com/betting-tips/Greyhounds/28
 reachable: 55/73
