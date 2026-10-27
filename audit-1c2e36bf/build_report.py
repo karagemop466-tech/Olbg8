@@ -153,7 +153,7 @@ def render():
 <section class="methodbox"><h2>Why the gate withheld this snapshot</h2><div class="reason-grid"><p><strong>__NOQUOTE__ / __ROWS__</strong><br>no time-stamped offer was attached to the inspected record</p><p><strong>__NOCAL__ / __ROWS__</strong><br>no out-of-sample calibration was recorded in the inspected record</p><p><strong>__MISSING__ / __ROWS__</strong><br>do not yet have an event-specific official crosswalk in this review</p></div><p>These counts describe the data available to this audit, not proof that sources do not exist. The optional gate checks metadata and arithmetic but cannot determine whether source excerpts are true; a pass is not an endorsement. <a href="method.html">Read methodology and limitations →</a></p></section>
 </main><footer><div>Independent research · Snapshot __BASE_SHORT__ · 18+ · No wager is guaranteed.</div><div><a href="../index.html">Back to main desk</a> · <a href="../current/review.html">Current-source review</a></div></footer></body></html>'''
     replacements = {
-        "__CAPTURE__": safe(date_label(snapshot["olbg_capture_utc"])), "__REVIEW__": safe(date_label(catalog["reviewed_utc"])), 
+        "__CAPTURE__": safe(date_label(snapshot["olbg_capture_utc"])), "__REVIEW__": safe(date_label(catalog["reviewed_utc"])),
         "__ROWS__": str(len(rows)), "__EVENTS__": str(events), "__MATCHED__": str(matched),
         "__PASS__": str(len(rows) - held), "__HELD__": str(held), "__FINDINGS__": str(fcount),
         "__BASE__": safe(base), "__BASE_SHORT__": safe(base[:7]), "__HIST__": hist, "__ORIGIN__": origin,
