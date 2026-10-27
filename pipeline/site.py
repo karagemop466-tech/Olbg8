@@ -56,8 +56,7 @@ def conf_badge(c: str) -> str:
 def nav(active: str, sports: list[dict]) -> str:
     links = [("index.html", "Overview", "home"), ("picks.html", "Picks", "picks"),
              ("matches.html", "Matches", "matches"), ("sources.html", "Sources", "sources"),
-             ("methodology.html", "Method", "method"), ("flagged.html", "Flagged for Review", "flagged"),
-             ("originated/index.html", "Deep analysis", "deep")]
+             ("methodology.html", "Method", "method"), ("flagged.html", "Flagged for Review", "flagged")]
     items = "".join(
         '<a href="%s"%s>%s</a>' % (href, ' class="active"' if key == active else "", e(label))
         for href, label, key in links)
