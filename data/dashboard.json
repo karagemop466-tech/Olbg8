@@ -4,9 +4,9 @@
   "events": 190,
   "markets": 223,
   "selections": 257,
-  "picks": 58,
-  "high": 4,
-  "medium": 26,
+  "picks": 63,
+  "high": 3,
+  "medium": 25,
   "sports_with_events": 13,
   "sports": 15
  },
@@ -24,7 +24,7 @@
    "events": 3,
    "markets": 3,
    "selections": 4,
-   "picks": 0,
+   "picks": 3,
    "high": 0,
    "medium": 0,
    "with_official": 0
@@ -114,7 +114,7 @@
    "events": 2,
    "markets": 2,
    "selections": 4,
-   "picks": 1,
+   "picks": 2,
    "high": 0,
    "medium": 0,
    "with_official": 0
@@ -189,8 +189,8 @@
    "selections": 61,
    "picks": 8,
    "high": 1,
-   "medium": 6,
-   "with_official": 16
+   "medium": 5,
+   "with_official": 28
   },
   {
    "key": "motor-racing",
@@ -260,9 +260,9 @@
    "markets": 38,
    "selections": 43,
    "picks": 8,
-   "high": 1,
+   "high": 0,
    "medium": 5,
-   "with_official": 0
+   "with_official": 8
   },
   {
    "key": "rugby-league",
@@ -277,7 +277,7 @@
    "events": 3,
    "markets": 3,
    "selections": 4,
-   "picks": 2,
+   "picks": 3,
    "high": 0,
    "medium": 0,
    "with_official": 0
@@ -385,10 +385,14 @@
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Golden State Warriors 1-3, Atlanta Hawks 2-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
+   "flags": []
   },
   {
    "id": "536204",
@@ -413,24 +417,28 @@
        "fractional": "100/153",
        "market_prob": 60.61,
        "fair_prob": 58.28,
-       "our_prob": 58.28,
-       "our_decimal": 1.72,
-       "our_american": -139,
-       "edge_pts": 0.0,
+       "our_prob": 64.71,
+       "our_decimal": 1.55,
+       "our_american": -182,
+       "edge_pts": 6.43,
        "consensus": 77.8,
        "consensus_gap": 19.5,
        "tips": 14,
        "tips_total": 18,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Milwaukee Bucks 1-3, Indiana Pacers 2-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
+   "flags": []
   },
   {
    "id": "536205",
@@ -455,24 +463,28 @@
        "fractional": "7/20",
        "market_prob": 74.07,
        "fair_prob": 71.23,
-       "our_prob": 71.23,
-       "our_decimal": 1.4,
-       "our_american": -250,
-       "edge_pts": 0.0,
+       "our_prob": 87.29,
+       "our_decimal": 1.15,
+       "our_american": -667,
+       "edge_pts": 16.06,
        "consensus": 60.0,
        "consensus_gap": -11.2,
        "tips": 6,
        "tips_total": 10,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Oklahoma City Thunder 4-0, Phoenix Suns 1-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.98
+   },
+   "flags": []
   },
   {
    "id": "536201",
@@ -497,24 +509,28 @@
        "fractional": "3/5",
        "market_prob": 62.5,
        "fair_prob": 60.1,
-       "our_prob": 60.1,
-       "our_decimal": 1.66,
-       "our_american": -152,
-       "edge_pts": 0.0,
+       "our_prob": 82.84,
+       "our_decimal": 1.21,
+       "our_american": -476,
+       "edge_pts": 22.74,
        "consensus": 69.2,
        "consensus_gap": 9.1,
        "tips": 9,
        "tips_total": 13,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Houston Rockets 4-0, Atlanta Hawks 2-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.98
+   },
+   "flags": []
   },
   {
    "id": "200103",
@@ -610,24 +626,28 @@
        "fractional": "19/20",
        "market_prob": 51.28,
        "fair_prob": 49.31,
-       "our_prob": 49.31,
-       "our_decimal": 2.03,
-       "our_american": 103,
-       "edge_pts": 0.0,
+       "our_prob": 75.92,
+       "our_decimal": 1.32,
+       "our_american": -312,
+       "edge_pts": 26.61,
        "consensus": 68.4,
        "consensus_gap": 19.1,
        "tips": 13,
        "tips_total": 19,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Utah Jazz 1-3, Memphis Grizzlies 4-0",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.06335570469798658
+   },
+   "flags": []
   },
   {
    "id": "902309",
@@ -652,24 +672,28 @@
        "fractional": "2/5",
        "market_prob": 71.43,
        "fair_prob": 68.68,
-       "our_prob": 68.68,
-       "our_decimal": 1.46,
-       "our_american": -217,
-       "edge_pts": 0.0,
+       "our_prob": 72.66,
+       "our_decimal": 1.38,
+       "our_american": -263,
+       "edge_pts": 3.98,
        "consensus": 60.0,
        "consensus_gap": -8.7,
        "tips": 3,
        "tips_total": 5,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Maya Joint holds 782 ranking points and Sorana Cirstea holds 2,386",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.24684343434343436
+   },
+   "flags": []
   },
   {
    "id": "200102",
@@ -765,24 +789,28 @@
        "fractional": "2/5",
        "market_prob": 71.43,
        "fair_prob": 68.68,
-       "our_prob": 68.68,
-       "our_decimal": 1.46,
-       "our_american": -217,
-       "edge_pts": 0.0,
+       "our_prob": 67.05,
+       "our_decimal": 1.49,
+       "our_american": -204,
+       "edge_pts": -1.63,
        "consensus": 73.7,
        "consensus_gap": 5.0,
        "tips": 14,
        "tips_total": 19,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Denver Nuggets 1-2, Golden State Warriors 1-3",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.6596398559423771
+   },
+   "flags": []
   },
   {
    "id": "902176",
@@ -807,24 +835,28 @@
        "fractional": "4/5",
        "market_prob": 55.56,
        "fair_prob": 53.42,
-       "our_prob": 53.42,
-       "our_decimal": 1.87,
-       "our_american": -115,
-       "edge_pts": 0.0,
+       "our_prob": 50.54,
+       "our_decimal": 1.98,
+       "our_american": -102,
+       "edge_pts": -2.88,
        "consensus": 66.7,
        "consensus_gap": 13.3,
        "tips": 2,
        "tips_total": 3,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Ann Li holds 1,681 ranking points and Ekaterina Alexandrova holds 1,591",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.5137530562347188
+   },
+   "flags": []
   },
   {
    "id": "902301",
@@ -849,24 +881,28 @@
        "fractional": "1/1",
        "market_prob": 50.0,
        "fair_prob": 48.08,
-       "our_prob": 48.08,
-       "our_decimal": 2.08,
-       "our_american": 108,
-       "edge_pts": 0.0,
+       "our_prob": 44.99,
+       "our_decimal": 2.22,
+       "our_american": 122,
+       "edge_pts": -3.09,
        "consensus": 75.0,
        "consensus_gap": 26.9,
        "tips": 3,
        "tips_total": 4,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Anastasia Zakharova holds 704 ranking points and Magda Linette holds 936",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.4292682926829268
+   },
+   "flags": []
   },
   {
    "id": "902179",
@@ -993,24 +1029,28 @@
        "fractional": "8/13",
        "market_prob": 61.73,
        "fair_prob": 59.35,
-       "our_prob": 59.35,
-       "our_decimal": 1.68,
-       "our_american": -147,
-       "edge_pts": 0.0,
+       "our_prob": 61.81,
+       "our_decimal": 1.62,
+       "our_american": -161,
+       "edge_pts": 2.46,
        "consensus": 100.0,
        "consensus_gap": 40.6,
        "tips": 10,
        "tips_total": 10,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Yulia Putintseva holds 969 ranking points and Maria Sakkari holds 1,682",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.36552244436061865
+   },
+   "flags": []
   },
   {
    "id": "902174",
@@ -1035,24 +1075,28 @@
        "fractional": "1/1",
        "market_prob": 50.0,
        "fair_prob": 48.08,
-       "our_prob": 48.08,
-       "our_decimal": 2.08,
-       "our_american": 108,
-       "edge_pts": 0.0,
+       "our_prob": 52.09,
+       "our_decimal": 1.92,
+       "our_american": -109,
+       "edge_pts": 4.02,
        "consensus": 66.7,
        "consensus_gap": 18.6,
        "tips": 2,
        "tips_total": 3,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Diane Parry holds 1,549 ranking points and Cristina Bucsa holds 1,279",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.5477369165487977
+   },
+   "flags": []
   },
   {
    "id": "902302",
@@ -1077,24 +1121,28 @@
        "fractional": "4/5",
        "market_prob": 55.56,
        "fair_prob": 53.42,
-       "our_prob": 53.42,
+       "our_prob": 53.62,
        "our_decimal": 1.87,
        "our_american": -115,
-       "edge_pts": 0.0,
+       "edge_pts": 0.2,
        "consensus": null,
        "consensus_gap": null,
        "tips": 2,
        "tips_total": 2,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Dayana Yastremska holds 752 ranking points and Katie Volynets holds 874",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.46248462484624847
+   },
+   "flags": []
   },
   {
    "id": "902181",
@@ -1161,24 +1209,28 @@
        "fractional": "11/10",
        "market_prob": 47.62,
        "fair_prob": 45.79,
-       "our_prob": 45.79,
-       "our_decimal": 2.18,
-       "our_american": 118,
-       "edge_pts": 0.0,
+       "our_prob": 51.62,
+       "our_decimal": 1.94,
+       "our_american": -106,
+       "edge_pts": 5.83,
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 1,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Antonia Ruzic holds 862 ranking points and Claire Liu holds 691",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.5550547327752737
+   },
+   "flags": []
   },
   {
    "id": "902172",
@@ -1203,24 +1255,28 @@
        "fractional": "1/5",
        "market_prob": 83.33,
        "fair_prob": 80.13,
-       "our_prob": 80.13,
-       "our_decimal": 1.25,
-       "our_american": -400,
-       "edge_pts": 0.0,
+       "our_prob": 76.93,
+       "our_decimal": 1.3,
+       "our_american": -333,
+       "edge_pts": -3.2,
        "consensus": 83.3,
        "consensus_gap": 3.2,
        "tips": 10,
        "tips_total": 12,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Leylah Fernandez holds 1,974 ranking points and Himeno Sakatsume holds 665",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.7480106100795756
+   },
+   "flags": []
   },
   {
    "id": "902187",
@@ -1245,24 +1301,28 @@
        "fractional": "8/13",
        "market_prob": 61.73,
        "fair_prob": 59.35,
-       "our_prob": 59.35,
-       "our_decimal": 1.68,
-       "our_american": -147,
-       "edge_pts": 0.0,
+       "our_prob": 58.51,
+       "our_decimal": 1.71,
+       "our_american": -141,
+       "edge_pts": -0.85,
        "consensus": null,
        "consensus_gap": null,
        "tips": 2,
        "tips_total": 2,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Polina Kudermetova holds 813 ranking points and Janice Tjen holds 1,120",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.4205897568546301
+   },
+   "flags": []
   },
   {
    "id": "902310",
@@ -1287,24 +1347,28 @@
        "fractional": "11/25",
        "market_prob": 69.44,
        "fair_prob": 66.77,
-       "our_prob": 66.77,
-       "our_decimal": 1.5,
-       "our_american": -200,
-       "edge_pts": 0.0,
+       "our_prob": 64.42,
+       "our_decimal": 1.55,
+       "our_american": -182,
+       "edge_pts": -2.35,
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 1,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Tereza Valentova holds 853 ranking points and Mia Pohankova holds 504",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.6285924834193073
+   },
+   "flags": []
   },
   {
    "id": "188852",
@@ -1497,24 +1561,28 @@
        "fractional": "1/3",
        "market_prob": 75.19,
        "fair_prob": 72.3,
-       "our_prob": 72.3,
-       "our_decimal": 1.38,
-       "our_american": -263,
-       "edge_pts": 0.0,
+       "our_prob": 65.04,
+       "our_decimal": 1.54,
+       "our_american": -185,
+       "edge_pts": -7.26,
        "consensus": 100.0,
        "consensus_gap": 27.7,
        "tips": 4,
        "tips_total": 4,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Naomi Osaka holds 2,287 ranking points and Jasmine Paolini holds 1,512",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.60200052645433
+   },
+   "flags": []
   },
   {
    "id": "536214",
@@ -1681,7 +1749,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Hubert Hurkacz 1,585 ranking points, Zizou Bergs 1,260",
+    "detail": "Hubert Hurkacz holds 1,585 ranking points and Zizou Bergs holds 1,260",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.5571177504393673
@@ -1727,7 +1795,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Nuno Borges 1,000 ranking points, Casper Ruud 1,995",
+    "detail": "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.333889816360601
@@ -2019,7 +2087,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Tommy Paul 2,675 ranking points, Andrey Rublev 2,175",
+    "detail": "Tommy Paul holds 2,675 ranking points and Andrey Rublev holds 2,175",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.5515463917525774
@@ -2065,7 +2133,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Alejandro Tabilo 1,565 ranking points, Rafael Jodar 3,234",
+    "detail": "Alejandro Tabilo holds 1,565 ranking points and Rafael Jodar holds 3,234",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.32610960616795165
@@ -2220,7 +2288,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Adrian Mannarino 783 ranking points, Ignacio Buse 1,445",
+    "detail": "Adrian Mannarino holds 783 ranking points and Ignacio Buse holds 1,445",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.35143626570915615
@@ -2266,7 +2334,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Alex Michelsen 1,410 ranking points, Botic Van De Zandschulp 1,295",
+    "detail": "Alex Michelsen holds 1,410 ranking points and Botic Van De Zandschulp holds 1,295",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.5212569316081331
@@ -2337,7 +2405,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Karen Khachanov 2,030 ranking points, Carlos Alcaraz 5,610",
+    "detail": "Karen Khachanov holds 2,030 ranking points and Carlos Alcaraz holds 5,610",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.2657068062827225
@@ -2450,7 +2518,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Giovanni Mpetshi Perricard 385 ranking points, Arthur Fils 3,425",
+    "detail": "Giovanni Mpetshi Perricard holds 385 ranking points and Arthur Fils holds 3,425",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.10104986876640419
@@ -2598,7 +2666,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Cameron Norrie 1,195 ranking points, Francisco Cerundolo 2,310",
+    "detail": "Cameron Norrie holds 1,195 ranking points and Francisco Cerundolo holds 2,310",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.3409415121255349
@@ -3115,7 +3183,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Alexander Zverev 9,750 ranking points, Martin Landaluce 822",
+    "detail": "Alexander Zverev holds 9,750 ranking points and Martin Landaluce holds 822",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.9222474460839953
@@ -3464,7 +3532,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Ben Shelton 4,680 ranking points, Aleksandar Kovacevic 703",
+    "detail": "Ben Shelton holds 4,680 ranking points and Aleksandar Kovacevic holds 703",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.8694036782463311
@@ -5017,7 +5085,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Flavio Cobolli 3,690 ranking points, Grigor Dimitrov 472",
+    "detail": "Flavio Cobolli holds 3,690 ranking points and Grigor Dimitrov holds 472",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.8865929841422393
@@ -6275,24 +6343,28 @@
        "fractional": "29/20",
        "market_prob": 40.82,
        "fair_prob": 39.25,
-       "our_prob": 39.25,
-       "our_decimal": 2.55,
-       "our_american": 155,
-       "edge_pts": 0.0,
+       "our_prob": 41.79,
+       "our_decimal": 2.39,
+       "our_american": 139,
+       "edge_pts": 2.54,
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 1,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Alycia Parks holds 985 ranking points and Kimberly Birrell holds 1,280",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.434878587196468
+   },
+   "flags": []
   },
   {
    "id": "536255",
@@ -6317,24 +6389,28 @@
        "fractional": "3/4",
        "market_prob": 57.14,
        "fair_prob": 54.95,
-       "our_prob": 54.95,
-       "our_decimal": 1.82,
-       "our_american": -122,
-       "edge_pts": 0.0,
+       "our_prob": 55.58,
+       "our_decimal": 1.8,
+       "our_american": -125,
+       "edge_pts": 0.63,
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 1,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Los Angeles Lakers 3-0, Portland Trail Blazers 2-0",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.56
+   },
+   "flags": []
   },
   {
    "id": "902314",
@@ -6375,7 +6451,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Jurij Rodionov 411 ranking points, Nikoloz Basilashvili 631",
+    "detail": "Jurij Rodionov holds 411 ranking points and Nikoloz Basilashvili holds 631",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.3944337811900192
@@ -6463,7 +6539,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Novak Djokovic 3,090 ranking points, Ugo Humbert 1,270",
+    "detail": "Novak Djokovic holds 3,090 ranking points and Ugo Humbert holds 1,270",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.7087155963302751
@@ -6509,7 +6585,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Yannick Hanfmann 923 ranking points, Jan Lennard Struff 1,084",
+    "detail": "Yannick Hanfmann holds 923 ranking points and Jan Lennard Struff holds 1,084",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.45989038365719975
@@ -6633,7 +6709,7 @@
    ],
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Lorenzo Musetti 1,920 ranking points, Frances Tiafoe 3,380",
+    "detail": "Lorenzo Musetti holds 1,920 ranking points and Frances Tiafoe holds 3,380",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.36226415094339626
@@ -7732,24 +7808,28 @@
        "fractional": "4/5",
        "market_prob": 55.56,
        "fair_prob": 53.42,
-       "our_prob": 53.42,
-       "our_decimal": 1.87,
-       "our_american": -115,
-       "edge_pts": 0.0,
+       "our_prob": 62.77,
+       "our_decimal": 1.59,
+       "our_american": -169,
+       "edge_pts": 9.35,
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 1,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
     }
    ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Indiana Pacers 2-2, Philadelphia 76ers 3-1",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
+   "flags": []
   },
   {
    "id": "188863",
@@ -9880,44 +9960,6 @@
    ]
   },
   {
-   "event_id": "536205",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "PHX Suns @ OKC Thunder",
-   "competition": "NBA",
-   "start_utc": "2026-10-27T00:00:00Z",
-   "market": "Money Line",
-   "selection": "OKC Thunder",
-   "decimal": 1.35,
-   "american": -286,
-   "our_american": -250,
-   "our_decimal": 1.4,
-   "market_prob": 74.07,
-   "fair_prob": 71.23,
-   "our_prob": 71.23,
-   "edge_pts": 0.0,
-   "consensus": 60.0,
-   "consensus_gap": -11.2,
-   "tips": 6,
-   "tips_total": 10,
-   "route": "market",
-   "confidence": "high",
-   "score": 168.168,
-   "overround": 74.07,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
-   "official": null,
-   "id": "536205-okc-thunder",
-   "prediction": "OKC Thunder is the selection in the Money Line at -286. NBA supplies the competition and the event starts 2026-10-27 00:00 UTC. OKC Thunder face PHX Suns. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -286 implies 74.07%, which becomes 71.23% after the allowance. Our line is -250. The community split is 60.0% on this selection, which is 6 of 10 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -286 on OKC Thunder in the Money Line",
-    "margin-adjusted market probability 71.23% against our 71.23%",
-    "community consensus 60.0% (6 of 10 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "902233",
    "sport": "Tennis",
    "sport_key": "tennis",
@@ -9948,15 +9990,15 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Novak Djokovic 3,090 ranking points, Ugo Humbert 1,270",
+    "detail": "Novak Djokovic holds 3,090 ranking points and Ugo Humbert holds 1,270",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.7087155963302751
    },
    "id": "902233-novak-djokovic",
-   "prediction": "Novak Djokovic at -250 is the pick from this Win Match. Novak Djokovic 3,090 ranking points, Ugo Humbert 1,270, which is the tour's published ranking measure for both players. Ugo Humbert provide the opposition. The captured price of -250 implies 71.43% before margin and 68.68% after the 4.0% allowance; we make it 70.0%, so the fair line is -233. 80.0% of the recorded OLBG tips are on this selection (4 of 5). No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
+   "prediction": "Novak Djokovic at -250 is the pick from this Win Match. Novak Djokovic holds 3,090 ranking points and Ugo Humbert holds 1,270, the tour's own published ranking measure. Standing in the way is Ugo Humbert. The captured price of -250 implies 71.43% before margin and 68.68% after the 4.0% allowance; we make it 70.0%, so the fair line is -233. 80.0% of the recorded OLBG tips are on this selection (4 of 5). No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
    "facts": [
-    "Novak Djokovic 3,090 ranking points, Ugo Humbert 1,270",
+    "Novak Djokovic holds 3,090 ranking points and Ugo Humbert holds 1,270",
     "OLBG price -250 on Novak Djokovic in the Win Match",
     "margin-adjusted market probability 68.68% against our 70.0%",
     "community consensus 80.0% (4 of 5 OLBG tips)"
@@ -10191,120 +10233,6 @@
    ]
   },
   {
-   "event_id": "536202",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "GS Warriors @ DEN Nuggets",
-   "competition": "NBA",
-   "start_utc": "2026-10-27T02:00:00Z",
-   "market": "Money Line",
-   "selection": "DEN Nuggets",
-   "decimal": 1.4,
-   "american": -250,
-   "our_american": -217,
-   "our_decimal": 1.46,
-   "market_prob": 71.43,
-   "fair_prob": 68.68,
-   "our_prob": 68.68,
-   "edge_pts": 0.0,
-   "consensus": 73.7,
-   "consensus_gap": 5.0,
-   "tips": 14,
-   "tips_total": 19,
-   "route": "market",
-   "confidence": "medium",
-   "score": 173.288,
-   "overround": 71.43,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4?event_id=536202",
-   "official": null,
-   "id": "536202-den-nuggets",
-   "prediction": "DEN Nuggets at -250 is the call in the Money Line. NBA supplies the competition and the event starts 2026-10-27 02:00 UTC. GS Warriors are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -250 implies 71.43%, which becomes 68.68% after the allowance. Our line is -217. Of the 19 tips OLBG lists for the market, 14 (73.7%) sit on this side. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -250 on DEN Nuggets in the Money Line",
-    "margin-adjusted market probability 68.68% against our 68.68%",
-    "community consensus 73.7% (14 of 19 OLBG tips)"
-   ]
-  },
-  {
-   "event_id": "536201",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "ATL Hawks @ HOU Rockets",
-   "competition": "NBA",
-   "start_utc": "2026-10-27T00:30:00Z",
-   "market": "Money Line",
-   "selection": "HOU Rockets",
-   "decimal": 1.6,
-   "american": -167,
-   "our_american": -152,
-   "our_decimal": 1.66,
-   "market_prob": 62.5,
-   "fair_prob": 60.1,
-   "our_prob": 60.1,
-   "edge_pts": 0.0,
-   "consensus": 69.2,
-   "consensus_gap": 9.1,
-   "tips": 9,
-   "tips_total": 13,
-   "route": "market",
-   "confidence": "medium",
-   "score": 172.66000000000003,
-   "overround": 62.5,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4?event_id=536201",
-   "official": null,
-   "id": "536201-hou-rockets",
-   "prediction": "Back HOU Rockets at -167 for the Money Line. NBA supplies the competition and the event starts 2026-10-27 00:30 UTC. ATL Hawks are the opposition. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 62.5% implied falls to 60.1%, and our line is -152. The community split is 69.2% on this selection, which is 9 of 13 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -167 on HOU Rockets in the Money Line",
-    "margin-adjusted market probability 60.1% against our 60.1%",
-    "community consensus 69.2% (9 of 13 OLBG tips)"
-   ]
-  },
-  {
-   "event_id": "902305",
-   "sport": "Tennis",
-   "sport_key": "tennis",
-   "requested_sport": "Tennis",
-   "event": "Yulia Putintseva vs Maria Sakkari",
-   "competition": "",
-   "start_utc": "2026-10-27T03:00:00Z",
-   "market": "Win Match",
-   "selection": "Maria Sakkari",
-   "decimal": 1.62,
-   "american": -161,
-   "our_american": -147,
-   "our_decimal": 1.68,
-   "market_prob": 61.73,
-   "fair_prob": 59.35,
-   "our_prob": 59.35,
-   "edge_pts": 0.0,
-   "consensus": 100.0,
-   "consensus_gap": 40.6,
-   "tips": 10,
-   "tips_total": 10,
-   "route": "market",
-   "confidence": "medium",
-   "score": 172.36,
-   "overround": 61.73,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari/3?event_id=902305",
-   "official": null,
-   "id": "902305-maria-sakkari",
-   "prediction": "Maria Sakkari is the selection in the Win Match at -161. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 03:00 UTC. Maria Sakkari face Yulia Putintseva. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 61.73% implied falls to 59.35%, and our line is -147. Of the 10 tips OLBG lists for the market, 10 (100.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -161 on Maria Sakkari in the Win Match",
-    "margin-adjusted market probability 59.35% against our 59.35%",
-    "community consensus 100.0% (10 of 10 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "536218",
    "sport": "Basketball",
    "sport_key": "basketball",
@@ -10340,44 +10268,6 @@
     "OLBG price -161 on Lietkabelis in the Money Line",
     "margin-adjusted market probability 59.35% against our 59.35%",
     "community consensus 100.0% (3 of 3 OLBG tips)"
-   ]
-  },
-  {
-   "event_id": "536204",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "IND Pacers @ MIL Bucks",
-   "competition": "NBA",
-   "start_utc": "2026-10-27T00:00:00Z",
-   "market": "Money Line",
-   "selection": "IND Pacers",
-   "decimal": 1.65,
-   "american": -153,
-   "our_american": -139,
-   "our_decimal": 1.72,
-   "market_prob": 60.61,
-   "fair_prob": 58.28,
-   "our_prob": 58.28,
-   "edge_pts": 0.0,
-   "consensus": 77.8,
-   "consensus_gap": 19.5,
-   "tips": 14,
-   "tips_total": 18,
-   "route": "market",
-   "confidence": "medium",
-   "score": 170.64800000000002,
-   "overround": 60.61,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
-   "official": null,
-   "id": "536204-ind-pacers",
-   "prediction": "IND Pacers at -153 is the call in the Money Line. NBA supplies the competition and the event starts 2026-10-27 00:00 UTC. IND Pacers face MIL Bucks. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -153 implies 60.61%, which becomes 58.28% after the allowance. Our line is -139. Of the 18 tips OLBG lists for the market, 14 (77.8%) sit on this side. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -153 on IND Pacers in the Money Line",
-    "margin-adjusted market probability 58.28% against our 58.28%",
-    "community consensus 77.8% (14 of 18 OLBG tips)"
    ]
   },
   {
@@ -10685,44 +10575,6 @@
    ]
   },
   {
-   "event_id": "902309",
-   "sport": "Tennis",
-   "sport_key": "tennis",
-   "requested_sport": "Tennis",
-   "event": "Maya Joint vs Sorana Cirstea",
-   "competition": "",
-   "start_utc": "2026-10-27T01:30:00Z",
-   "market": "Win Match",
-   "selection": "Sorana Cirstea",
-   "decimal": 1.4,
-   "american": -250,
-   "our_american": -217,
-   "our_decimal": 1.46,
-   "market_prob": 71.43,
-   "fair_prob": 68.68,
-   "our_prob": 68.68,
-   "edge_pts": 0.0,
-   "consensus": 60.0,
-   "consensus_gap": -8.7,
-   "tips": 3,
-   "tips_total": 5,
-   "route": "market",
-   "confidence": "medium",
-   "score": 144.58800000000002,
-   "overround": 71.43,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Maya_Joint_vs_Sorana_Cirstea/3?event_id=902309",
-   "official": null,
-   "id": "902309-sorana-cirstea",
-   "prediction": "Back Sorana Cirstea at -250 for the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 01:30 UTC. Sorana Cirstea face Maya Joint. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 71.43% implied falls to 68.68%, and our line is -217. The community split is 60.0% on this selection, which is 3 of 5 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -250 on Sorana Cirstea in the Win Match",
-    "margin-adjusted market probability 68.68% against our 68.68%",
-    "community consensus 60.0% (3 of 5 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "3537",
    "sport": "Gaelic Football",
    "sport_key": "gaelic-football",
@@ -10837,6 +10689,96 @@
    ]
   },
   {
+   "event_id": "536204",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "IND Pacers @ MIL Bucks",
+   "competition": "NBA",
+   "start_utc": "2026-10-27T00:00:00Z",
+   "market": "Money Line",
+   "selection": "IND Pacers",
+   "decimal": 1.65,
+   "american": -153,
+   "our_american": -182,
+   "our_decimal": 1.55,
+   "market_prob": 60.61,
+   "fair_prob": 58.28,
+   "our_prob": 64.71,
+   "edge_pts": 6.43,
+   "consensus": 77.8,
+   "consensus_gap": 19.5,
+   "tips": 14,
+   "tips_total": 18,
+   "route": "primary",
+   "confidence": "medium",
+   "score": 74.0,
+   "overround": 60.61,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Milwaukee Bucks 1-3, Indiana Pacers 2-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
+   "id": "536204-ind-pacers",
+   "prediction": "IND Pacers is the side to back in the Money Line at -153. Milwaukee Bucks 1-3, Indiana Pacers 2-2. The other side of the fixture is MIL Bucks. OLBG shows -153, which after a 4.0% margin allowance implies 58.28%; our own number is 64.71% and the fair line is -182, a gap of 6.43 points. 77.8% of the recorded OLBG tips are on this selection (14 of 18). The league feed we read carries no injury designation for this game, and none is claimed here. That is a season-long read of the two sides rather than a reaction to one scoreline.",
+   "facts": [
+    "Milwaukee Bucks 1-3, Indiana Pacers 2-2",
+    "OLBG price -153 on IND Pacers in the Money Line",
+    "margin-adjusted market probability 58.28% against our 64.71%",
+    "community consensus 77.8% (14 of 18 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "902305",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "event": "Yulia Putintseva vs Maria Sakkari",
+   "competition": "",
+   "start_utc": "2026-10-27T03:00:00Z",
+   "market": "Win Match",
+   "selection": "Maria Sakkari",
+   "decimal": 1.62,
+   "american": -161,
+   "our_american": -161,
+   "our_decimal": 1.62,
+   "market_prob": 61.73,
+   "fair_prob": 59.35,
+   "our_prob": 61.81,
+   "edge_pts": 2.46,
+   "consensus": 100.0,
+   "consensus_gap": 40.6,
+   "tips": 10,
+   "tips_total": 10,
+   "route": "primary",
+   "confidence": "medium",
+   "score": 74.0,
+   "overround": 61.73,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari/3?event_id=902305",
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Yulia Putintseva holds 969 ranking points and Maria Sakkari holds 1,682",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.36552244436061865
+   },
+   "id": "902305-maria-sakkari",
+   "prediction": "The play here is Maria Sakkari in the Win Match, priced at -161. Yulia Putintseva holds 969 ranking points and Maria Sakkari holds 1,682, the tour's own published ranking measure. The opposition is Yulia Putintseva. OLBG shows -161, which after a 4.0% margin allowance implies 59.35%; our own number is 61.81% and the fair line is -161, a gap of 2.46 points. 100.0% of the recorded OLBG tips are on this selection (10 of 10). No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. The case rests on the ranking gap and the price rather than on one recent result.",
+   "facts": [
+    "Yulia Putintseva holds 969 ranking points and Maria Sakkari holds 1,682",
+    "OLBG price -161 on Maria Sakkari in the Win Match",
+    "margin-adjusted market probability 59.35% against our 61.81%",
+    "community consensus 100.0% (10 of 10 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "902205",
    "sport": "Tennis",
    "sport_key": "tennis",
@@ -10867,17 +10809,61 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lorenzo_Musetti_vs_Frances_Tiafoe/3?event_id=902205",
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Lorenzo Musetti 1,920 ranking points, Frances Tiafoe 3,380",
+    "detail": "Lorenzo Musetti holds 1,920 ranking points and Frances Tiafoe holds 3,380",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.36226415094339626
    },
    "id": "902205-frances-tiafoe",
-   "prediction": "Take Frances Tiafoe at -105 in the Win Match. Lorenzo Musetti 1,920 ranking points, Frances Tiafoe 3,380, which is the tour's published ranking measure for both players. The opposition is Lorenzo Musetti. OLBG shows -105, which after a 4.0% margin allowance implies 49.31%; our own number is 57.99% and the fair line is -139, a gap of 8.68 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the ranking gap and the price rather than on one recent result.",
+   "prediction": "Take Frances Tiafoe at -105 in the Win Match. Lorenzo Musetti holds 1,920 ranking points and Frances Tiafoe holds 3,380, the tour's own published ranking measure. The opposition is Lorenzo Musetti. OLBG shows -105, which after a 4.0% margin allowance implies 49.31%; our own number is 57.99% and the fair line is -139, a gap of 8.68 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the ranking gap and the price rather than on one recent result.",
    "facts": [
-    "Lorenzo Musetti 1,920 ranking points, Frances Tiafoe 3,380",
+    "Lorenzo Musetti holds 1,920 ranking points and Frances Tiafoe holds 3,380",
     "OLBG price -105 on Frances Tiafoe in the Win Match",
     "margin-adjusted market probability 49.31% against our 57.99%"
+   ]
+  },
+  {
+   "event_id": "536254",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "PHI 76ers @ IND Pacers",
+   "competition": "NBA",
+   "start_utc": "2026-10-28T23:00:00Z",
+   "market": "Money Line",
+   "selection": "PHI 76ers",
+   "decimal": 1.8,
+   "american": -125,
+   "our_american": -169,
+   "our_decimal": 1.59,
+   "market_prob": 55.56,
+   "fair_prob": 53.42,
+   "our_prob": 62.77,
+   "edge_pts": 9.35,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 1,
+   "route": "primary",
+   "confidence": "medium",
+   "score": 74.0,
+   "overround": 55.56,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHI_76ers_@_IND_Pacers/4?event_id=536254",
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Indiana Pacers 2-2, Philadelphia 76ers 3-1",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
+   "id": "536254-phi-76ers",
+   "prediction": "The play here is PHI 76ers in the Money Line, priced at -125. Indiana Pacers 2-2, Philadelphia 76ers 3-1. Standing in the way is IND Pacers. OLBG shows -125, which after a 4.0% margin allowance implies 53.42%; our own number is 62.77% and the fair line is -169, a gap of 9.35 points. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. The case rests on the season record, the split and the price rather than on a single result.",
+   "facts": [
+    "Indiana Pacers 2-2, Philadelphia 76ers 3-1",
+    "OLBG price -125 on PHI 76ers in the Money Line",
+    "margin-adjusted market probability 53.42% against our 62.77%"
    ]
   },
   {
@@ -10911,17 +10897,61 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jurij_Rodionov_vs_Nikoloz_Basilashvili/3?event_id=902314",
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Jurij Rodionov 411 ranking points, Nikoloz Basilashvili 631",
+    "detail": "Jurij Rodionov holds 411 ranking points and Nikoloz Basilashvili holds 631",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.3944337811900192
    },
    "id": "902314-nikoloz-basilashvili",
-   "prediction": "Nikoloz Basilashvili is the side to back in the Win Match at -138. Jurij Rodionov 411 ranking points, Nikoloz Basilashvili 631, which is the tour's published ranking measure for both players. Jurij Rodionov provide the opposition. OLBG shows -138, which after a 4.0% margin allowance implies 55.58%; our own number is 58.57% and the fair line is -141, a gap of 2.99 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the ranking gap and the price rather than on one recent result.",
+   "prediction": "Nikoloz Basilashvili is the side to back in the Win Match at -138. Jurij Rodionov holds 411 ranking points and Nikoloz Basilashvili holds 631, the tour's own published ranking measure. Standing in the way is Jurij Rodionov. OLBG shows -138, which after a 4.0% margin allowance implies 55.58%; our own number is 58.57% and the fair line is -141, a gap of 2.99 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the ranking gap and the price rather than on one recent result.",
    "facts": [
-    "Jurij Rodionov 411 ranking points, Nikoloz Basilashvili 631",
+    "Jurij Rodionov holds 411 ranking points and Nikoloz Basilashvili holds 631",
     "OLBG price -138 on Nikoloz Basilashvili in the Win Match",
     "margin-adjusted market probability 55.58% against our 58.57%"
+   ]
+  },
+  {
+   "event_id": "536255",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "POR Trail Blazers @ LA Lakers",
+   "competition": "NBA",
+   "start_utc": "2026-10-28T03:10:00Z",
+   "market": "Money Line",
+   "selection": "LA Lakers",
+   "decimal": 1.75,
+   "american": -133,
+   "our_american": -125,
+   "our_decimal": 1.8,
+   "market_prob": 57.14,
+   "fair_prob": 54.95,
+   "our_prob": 55.58,
+   "edge_pts": 0.63,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 1,
+   "route": "primary",
+   "confidence": "medium",
+   "score": 51.89,
+   "overround": 57.14,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/POR_Trail_Blazers_@_LA_Lakers/4?event_id=536255",
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Los Angeles Lakers 3-0, Portland Trail Blazers 2-0",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.56
+   },
+   "id": "536255-la-lakers",
+   "prediction": "Take LA Lakers at -133 in the Money Line. Los Angeles Lakers 3-0, Portland Trail Blazers 2-0. The opposition is POR Trail Blazers. The captured price of -133 implies 57.14% before margin and 54.95% after the 4.0% allowance; we make it 55.58%, so the fair line is -125. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. That is a season-long read of the two sides rather than a reaction to one scoreline.",
+   "facts": [
+    "Los Angeles Lakers 3-0, Portland Trail Blazers 2-0",
+    "OLBG price -133 on LA Lakers in the Money Line",
+    "margin-adjusted market probability 54.95% against our 55.58%"
    ]
   },
   {
@@ -10955,55 +10985,17 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
    "official": {
     "method": "logistic model on ATP ranking points",
-    "detail": "Nuno Borges 1,000 ranking points, Casper Ruud 1,995",
+    "detail": "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.333889816360601
    },
    "id": "902409-casper-ruud",
-   "prediction": "The play here is Casper Ruud in the Win Match, priced at -227. Nuno Borges 1,000 ranking points, Casper Ruud 1,995, which is the tour's published ranking measure for both players. Standing in the way is Nuno Borges. The captured price of -227 implies 69.44% before margin and 66.77% after the 4.0% allowance; we make it 66.68%, so the fair line is -200. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
+   "prediction": "The play here is Casper Ruud in the Win Match, priced at -227. Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995, the tour's own published ranking measure. The other side of the fixture is Nuno Borges. The captured price of -227 implies 69.44% before margin and 66.77% after the 4.0% allowance; we make it 66.68%, so the fair line is -200. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
    "facts": [
-    "Nuno Borges 1,000 ranking points, Casper Ruud 1,995",
+    "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
     "OLBG price -227 on Casper Ruud in the Win Match",
     "margin-adjusted market probability 66.77% against our 66.68%"
-   ]
-  },
-  {
-   "event_id": "902176",
-   "sport": "Tennis",
-   "sport_key": "tennis",
-   "requested_sport": "Tennis",
-   "event": "Ann Li vs Ekaterina Alexandrova",
-   "competition": "",
-   "start_utc": "2026-10-27T02:00:00Z",
-   "market": "Win Match",
-   "selection": "Ekaterina Alexandrova",
-   "decimal": 1.8,
-   "american": -125,
-   "our_american": -115,
-   "our_decimal": 1.87,
-   "market_prob": 55.56,
-   "fair_prob": 53.42,
-   "our_prob": 53.42,
-   "edge_pts": 0.0,
-   "consensus": 66.7,
-   "consensus_gap": 13.3,
-   "tips": 2,
-   "tips_total": 3,
-   "route": "market",
-   "confidence": "low",
-   "score": 142.872,
-   "overround": 55.56,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova/3?event_id=902176",
-   "official": null,
-   "id": "902176-ekaterina-alexandrova",
-   "prediction": "Back Ekaterina Alexandrova at -125 for the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 02:00 UTC. Ann Li are the opposition. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 55.56% implied falls to 53.42%, and our line is -115. Of the 3 tips OLBG lists for the market, 2 (66.7%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -125 on Ekaterina Alexandrova in the Win Match",
-    "margin-adjusted market probability 53.42% against our 53.42%",
-    "community consensus 66.7% (2 of 3 OLBG tips)"
    ]
   },
   {
@@ -11159,6 +11151,44 @@
    ]
   },
   {
+   "event_id": "902179",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "event": "Kaitlin Quevedo vs Sofia Kenin",
+   "competition": "",
+   "start_utc": "2026-10-27T03:00:00Z",
+   "market": "Win Match",
+   "selection": "Kaitlin Quevedo",
+   "decimal": 1.91,
+   "american": -110,
+   "our_american": -101,
+   "our_decimal": 1.99,
+   "market_prob": 52.36,
+   "fair_prob": 50.34,
+   "our_prob": 50.34,
+   "edge_pts": 0.0,
+   "consensus": 60.0,
+   "consensus_gap": 9.7,
+   "tips": 3,
+   "tips_total": 5,
+   "route": "market",
+   "confidence": "low",
+   "score": 137.644,
+   "overround": 52.36,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Kaitlin_Quevedo_vs_Sofia_Kenin/3?event_id=902179",
+   "official": null,
+   "id": "902179-kaitlin-quevedo",
+   "prediction": "Back Kaitlin Quevedo at -110 for the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 03:00 UTC. Kaitlin Quevedo face Sofia Kenin. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -110 implies 52.36%, which becomes 50.34% after the allowance. Our line is -101. The community split is 60.0% on this selection, which is 3 of 5 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price -110 on Kaitlin Quevedo in the Win Match",
+    "margin-adjusted market probability 50.34% against our 50.34%",
+    "community consensus 60.0% (3 of 5 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "26023",
    "sport": "Darts",
    "sport_key": "darts",
@@ -11231,44 +11261,6 @@
    "facts": [
     "OLBG price -278 on PGE Skra Belchatow in the Win Match",
     "margin-adjusted market probability 70.7% against our 70.7%"
-   ]
-  },
-  {
-   "event_id": "536206",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "MEM Grizzlies @ UTA Jazz",
-   "competition": "NBA",
-   "start_utc": "2026-10-27T01:00:00Z",
-   "market": "Money Line",
-   "selection": "MEM Grizzlies",
-   "decimal": 1.95,
-   "american": -105,
-   "our_american": 103,
-   "our_decimal": 2.03,
-   "market_prob": 51.28,
-   "fair_prob": 49.31,
-   "our_prob": 49.31,
-   "edge_pts": 0.0,
-   "consensus": 68.4,
-   "consensus_gap": 19.1,
-   "tips": 13,
-   "tips_total": 19,
-   "route": "market",
-   "confidence": "low",
-   "score": 136.29600000000002,
-   "overround": 51.28,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206",
-   "official": null,
-   "id": "536206-mem-grizzlies",
-   "prediction": "The pick is MEM Grizzlies in the Money Line, quoted at -105. NBA supplies the competition and the event starts 2026-10-27 01:00 UTC. MEM Grizzlies face UTA Jazz. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -105 implies 51.28%, which becomes 49.31% after the allowance. Our line is +103. Of the 19 tips OLBG lists for the market, 13 (68.4%) sit on this side. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -105 on MEM Grizzlies in the Money Line",
-    "margin-adjusted market probability 49.31% against our 49.31%",
-    "community consensus 68.4% (13 of 19 OLBG tips)"
    ]
   },
   {
@@ -11346,7 +11338,7 @@
     "prob": 0.42823068274745457
    },
    "id": "200108-phi-flyers",
-   "prediction": "PHI Flyers is the side to back in the Puck Line at -270. PHI Flyers 3-7-3 (9 pts), CLB Blue Jackets 4-5-0 (8 pts). CLB Blue Jackets provide the opposition. OLBG shows -270, which after a 4.0% margin allowance implies 70.19%; our own number is 70.19% and the fair line is -238, a gap of 0.0 points. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. The case rests on the season record, the split and the price rather than on a single result.",
+   "prediction": "PHI Flyers is the side to back in the Puck Line at -270. PHI Flyers 3-7-3 (9 pts), CLB Blue Jackets 4-5-0 (8 pts). Standing in the way is CLB Blue Jackets. OLBG shows -270, which after a 4.0% margin allowance implies 70.19%; our own number is 70.19% and the fair line is -238, a gap of 0.0 points. No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. The case rests on the season record, the split and the price rather than on a single result.",
    "facts": [
     "PHI Flyers 3-7-3 (9 pts), CLB Blue Jackets 4-5-0 (8 pts)",
     "OLBG price -270 on PHI Flyers in the Puck Line",
@@ -11390,7 +11382,7 @@
     "prob": 0.53
    },
    "id": "200112-ny-islanders",
-   "prediction": "NY Islanders at -270 is the pick from this Puck Line. NSH Predators 4-3-4 (12 pts), NY Islanders 5-4-2 (12 pts). Standing in the way is NSH Predators. OLBG shows -270, which after a 4.0% margin allowance implies 70.19%; our own number is 70.19% and the fair line is -238, a gap of 0.0 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the season record, the split and the price rather than on a single result.",
+   "prediction": "NY Islanders at -270 is the pick from this Puck Line. NSH Predators 4-3-4 (12 pts), NY Islanders 5-4-2 (12 pts). The other side of the fixture is NSH Predators. OLBG shows -270, which after a 4.0% margin allowance implies 70.19%; our own number is 70.19% and the fair line is -238, a gap of 0.0 points. The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the season record, the split and the price rather than on a single result.",
    "facts": [
     "NSH Predators 4-3-4 (12 pts), NY Islanders 5-4-2 (12 pts)",
     "OLBG price -270 on NY Islanders in the Puck Line",
@@ -11426,13 +11418,58 @@
    "margin_allowance": 4.0,
    "complete": true,
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153",
-   "official": null,
+   "official": {
+    "method": "log5 on NBA win percentage plus home-court adjustment",
+    "detail": "Golden State Warriors 1-3, Atlanta Hawks 2-2",
+    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+    "source_label": "ESPN NBA standings",
+    "prob": 0.31
+   },
    "id": "536153-gs-valkyries",
-   "prediction": "Back GS Valkyries at +100 for the Money Line. WNBA supplies the competition and the event starts 2026-10-27 00:00 UTC. GS Valkyries face ATL Dream. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 50.0% implied falls to 48.08%, and our line is +108. The community split is 66.7% on this selection, which is 4 of 6 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "prediction": "Take GS Valkyries at +100 in the Money Line. Golden State Warriors 1-3, Atlanta Hawks 2-2. Standing in the way is ATL Dream. OLBG shows +100, which after a 4.0% margin allowance implies 48.08%; our own number is 48.08% and the fair line is +108, a gap of 0.0 points. 66.7% of the recorded OLBG tips are on this selection (4 of 6). The league feed we read carries no injury designation for this game, and none is claimed here. That is a season-long read of the two sides rather than a reaction to one scoreline.",
    "facts": [
+    "Golden State Warriors 1-3, Atlanta Hawks 2-2",
     "OLBG price +100 on GS Valkyries in the Money Line",
     "margin-adjusted market probability 48.08% against our 48.08%",
     "community consensus 66.7% (4 of 6 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "536174",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "Bayern Munich vs Barcelona",
+   "competition": "Euroleague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Money Line",
+   "selection": "Bayern Munich",
+   "decimal": 2.0,
+   "american": 100,
+   "our_american": 108,
+   "our_decimal": 2.08,
+   "market_prob": 50.0,
+   "fair_prob": 48.08,
+   "our_prob": 48.08,
+   "edge_pts": 0.0,
+   "consensus": 60.0,
+   "consensus_gap": 11.9,
+   "tips": 3,
+   "tips_total": 5,
+   "route": "market",
+   "confidence": "low",
+   "score": 134.328,
+   "overround": 100.0,
+   "margin_allowance": 4.0,
+   "complete": true,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+   "official": null,
+   "id": "536174-bayern-munich",
+   "prediction": "Bayern Munich at +100 is the call in the Money Line. Euroleague supplies the competition and the event starts 2026-10-27 19:00 UTC. Barcelona are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: +100 implies 50.0%, which becomes 48.08% after the allowance. Our line is +108. Of the 5 tips OLBG lists for the market, 3 (60.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +100 on Bayern Munich in the Money Line",
+    "margin-adjusted market probability 48.08% against our 48.08%",
+    "community consensus 60.0% (3 of 5 OLBG tips)"
    ]
   },
   {
@@ -11470,6 +11507,43 @@
    "facts": [
     "OLBG price -256 on Adler Mannheim in the Puck Line",
     "margin-adjusted market probability 69.18% against our 69.18%"
+   ]
+  },
+  {
+   "event_id": "536227",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "Le Mans vs Hapoel Jerusalem",
+   "competition": "Euro Cup",
+   "start_utc": "2026-10-28T19:00:00Z",
+   "market": "Money Line",
+   "selection": "Hapoel Jerusalem",
+   "decimal": 1.4,
+   "american": -250,
+   "our_american": -217,
+   "our_decimal": 1.46,
+   "market_prob": 71.43,
+   "fair_prob": 68.68,
+   "our_prob": 68.68,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 1,
+   "route": "market",
+   "confidence": "low",
+   "score": 133.288,
+   "overround": 71.43,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Le_Mans_vs_Hapoel_Jerusalem/4?event_id=536227",
+   "official": null,
+   "id": "536227-hapoel-jerusalem",
+   "prediction": "Back Hapoel Jerusalem at -250 for the Money Line. Euro Cup supplies the competition and the event starts 2026-10-28 19:00 UTC. Hapoel Jerusalem face Le Mans. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 71.43% implied falls to 68.68%, and our line is -217. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price -250 on Hapoel Jerusalem in the Money Line",
+    "margin-adjusted market probability 68.68% against our 68.68%"
    ]
   },
   {
@@ -11544,6 +11618,43 @@
    "facts": [
     "OLBG price -227 on Munster in the To Win",
     "margin-adjusted market probability 66.77% against our 66.77%"
+   ]
+  },
+  {
+   "event_id": "902368",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "event": "Anna Blinkova vs Dalma Galfi",
+   "competition": "",
+   "start_utc": "2026-10-27T16:00:00Z",
+   "market": "Win Match",
+   "selection": "Anna Blinkova",
+   "decimal": 1.45,
+   "american": -222,
+   "our_american": -196,
+   "our_decimal": 1.51,
+   "market_prob": 68.97,
+   "fair_prob": 66.31,
+   "our_prob": 66.31,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 1,
+   "route": "market",
+   "confidence": "low",
+   "score": 129.496,
+   "overround": 68.97,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anna_Blinkova_vs_Dalma_Galfi/3?event_id=902368",
+   "official": null,
+   "id": "902368-anna-blinkova",
+   "prediction": "Back Anna Blinkova at -222 for the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 16:00 UTC. Dalma Galfi are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -222 implies 68.97%, which becomes 66.31% after the allowance. Our line is -196. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price -222 on Anna Blinkova in the Win Match",
+    "margin-adjusted market probability 66.31% against our 66.31%"
    ]
   },
   {
@@ -11885,6 +11996,82 @@
    ]
   },
   {
+   "event_id": "675",
+   "sport": "Hurling",
+   "sport_key": "hurling",
+   "requested_sport": "Gaelic Sports",
+   "event": "All Ireland Hurling Championship 2027",
+   "competition": "All Ireland Hurling Championship 2027",
+   "start_utc": "2027-07-18T14:30:00Z",
+   "market": "Win Hurling",
+   "selection": "Galway",
+   "decimal": 5.5,
+   "american": 450,
+   "our_american": 472,
+   "our_decimal": 5.72,
+   "market_prob": 18.18,
+   "fair_prob": 17.48,
+   "our_prob": 17.48,
+   "edge_pts": 0.0,
+   "consensus": 38.9,
+   "consensus_gap": 21.4,
+   "tips": 7,
+   "tips_total": 18,
+   "route": "market",
+   "confidence": "low",
+   "score": 85.368,
+   "overround": 56.35,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+   "official": null,
+   "id": "675-galway",
+   "prediction": "Back Galway at +450 for the Win Hurling. All Ireland Hurling Championship 2027 supplies the competition and the event starts 2027-07-18 14:30 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 18.18% implied falls to 17.48%, and our line is +472. The community split is 38.9% on this selection, which is 7 of 18 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +450 on Galway in the Win Hurling",
+    "margin-adjusted market probability 17.48% against our 17.48%",
+    "community consensus 38.9% (7 of 18 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "2801600",
+   "sport": "Rugby League",
+   "sport_key": "rugby-league",
+   "requested_sport": "Rugby League",
+   "event": "NRL 2027",
+   "competition": "NRL 2027",
+   "start_utc": "2027-10-03T08:30:00Z",
+   "market": "Grand Final Winner",
+   "selection": "Sydney Roosters",
+   "decimal": 6.5,
+   "american": 550,
+   "our_american": 628,
+   "our_decimal": 7.28,
+   "market_prob": 15.38,
+   "fair_prob": 13.74,
+   "our_prob": 13.74,
+   "edge_pts": 0.0,
+   "consensus": 33.3,
+   "consensus_gap": 19.6,
+   "tips": 1,
+   "tips_total": 3,
+   "route": "market",
+   "confidence": "low",
+   "score": 79.384,
+   "overround": 29.67,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+   "official": null,
+   "id": "2801600-sydney-roosters",
+   "prediction": "Back Sydney Roosters at +550 for the Grand Final Winner. NRL 2027 supplies the competition and the event starts 2027-10-03 08:30 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 12.0% allowance rather than measured: 15.38% implied falls to 13.74%, and our line is +628. The community split is 33.3% on this selection, which is 1 of 3 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +550 on Sydney Roosters in the Grand Final Winner",
+    "margin-adjusted market probability 13.74% against our 13.74%",
+    "community consensus 33.3% (1 of 3 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "914",
    "sport": "Motor Racing",
    "sport_key": "motor-racing",
@@ -11923,44 +12110,6 @@
    ]
   },
   {
-   "event_id": "675",
-   "sport": "Hurling",
-   "sport_key": "hurling",
-   "requested_sport": "Gaelic Sports",
-   "event": "All Ireland Hurling Championship 2027",
-   "competition": "All Ireland Hurling Championship 2027",
-   "start_utc": "2027-07-18T14:30:00Z",
-   "market": "Win Hurling",
-   "selection": "Limerick",
-   "decimal": 2.62,
-   "american": 162,
-   "our_american": 172,
-   "our_decimal": 2.72,
-   "market_prob": 38.17,
-   "fair_prob": 36.7,
-   "our_prob": 36.7,
-   "edge_pts": 0.0,
-   "consensus": 27.8,
-   "consensus_gap": -8.9,
-   "tips": 5,
-   "tips_total": 18,
-   "route": "market",
-   "confidence": "low",
-   "score": 73.22,
-   "overround": 56.35,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
-   "official": null,
-   "id": "675-limerick",
-   "prediction": "Back Limerick at +162 for the Win Hurling. All Ireland Hurling Championship 2027 supplies the competition and the event starts 2027-07-18 14:30 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 38.17% implied falls to 36.7%, and our line is +172. The community split is 27.8% on this selection, which is 5 of 18 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price +162 on Limerick in the Win Hurling",
-    "margin-adjusted market probability 36.7% against our 36.7%",
-    "community consensus 27.8% (5 of 18 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "609013",
    "sport": "Rugby Union",
    "sport_key": "rugby-union",
@@ -11969,33 +12118,71 @@
    "competition": "Six Nations 2027",
    "start_utc": "2027-03-14T20:00:00Z",
    "market": "Win Tournament",
-   "selection": "France",
-   "decimal": 2.38,
-   "american": 138,
-   "our_american": 167,
-   "our_decimal": 2.67,
-   "market_prob": 42.02,
-   "fair_prob": 37.52,
-   "our_prob": 37.52,
+   "selection": "Ireland",
+   "decimal": 3.75,
+   "american": 275,
+   "our_american": 320,
+   "our_decimal": 4.2,
+   "market_prob": 26.67,
+   "fair_prob": 23.81,
+   "our_prob": 23.81,
    "edge_pts": 0.0,
-   "consensus": 18.2,
-   "consensus_gap": -19.3,
-   "tips": 2,
+   "consensus": 27.3,
+   "consensus_gap": 3.5,
+   "tips": 3,
    "tips_total": 11,
    "route": "market",
    "confidence": "low",
-   "score": 64.132,
+   "score": 75.496,
    "overround": 68.68,
    "margin_allowance": 12.0,
    "complete": false,
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
    "official": null,
-   "id": "609013-france",
-   "prediction": "France at +138 is the call in the Win Tournament. Six Nations 2027 supplies the competition and the event starts 2027-03-14 20:00 UTC. Only one price per market is exposed publicly, so the margin is handled with a 12.0% allowance: +138 implies 42.02%, which becomes 37.52% after the allowance. Our line is +167. The community split is 18.2% on this selection, which is 2 of 11 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "id": "609013-ireland",
+   "prediction": "Ireland at +275 is the call in the Win Tournament. Six Nations 2027 supplies the competition and the event starts 2027-03-14 20:00 UTC. Only one price per market is exposed publicly, so the margin is handled with a 12.0% allowance: +275 implies 26.67%, which becomes 23.81% after the allowance. Our line is +320. The community split is 27.3% on this selection, which is 3 of 11 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
-    "OLBG price +138 on France in the Win Tournament",
-    "margin-adjusted market probability 37.52% against our 37.52%",
-    "community consensus 18.2% (2 of 11 OLBG tips)"
+    "OLBG price +275 on Ireland in the Win Tournament",
+    "margin-adjusted market probability 23.81% against our 23.81%",
+    "community consensus 27.3% (3 of 11 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "32446",
+   "sport": "Darts",
+   "sport_key": "darts",
+   "requested_sport": "Darts",
+   "event": "Players Championship 31",
+   "competition": "Players Championship 31",
+   "start_utc": "2026-10-28T12:00:00Z",
+   "market": "Win Tournament",
+   "selection": "Wessel Nijman",
+   "decimal": 11.0,
+   "american": 1000,
+   "our_american": 1132,
+   "our_decimal": 12.32,
+   "market_prob": 9.09,
+   "fair_prob": 8.12,
+   "our_prob": 8.12,
+   "edge_pts": 0.0,
+   "consensus": 25.0,
+   "consensus_gap": 16.9,
+   "tips": 2,
+   "tips_total": 8,
+   "route": "market",
+   "confidence": "low",
+   "score": 70.392,
+   "overround": 21.02,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+   "official": null,
+   "id": "32446-wessel-nijman",
+   "prediction": "The pick is Wessel Nijman in the Win Tournament, quoted at +1000. Players Championship 31 supplies the competition and the event starts 2026-10-28 12:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 12.0% allowance rather than measured: 9.09% implied falls to 8.12%, and our line is +1132. The community split is 25.0% on this selection, which is 2 of 8 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +1000 on Wessel Nijman in the Win Tournament",
+    "margin-adjusted market probability 8.12% against our 8.12%",
+    "community consensus 25.0% (2 of 8 OLBG tips)"
    ]
   },
   {
@@ -12035,12 +12222,123 @@
     "prob": 0.5071220091634142
    },
    "id": "160795-tb-rays",
-   "prediction": "The play here is TB Rays in the Money Line, priced at -115. TB Rays 98-64 (.605), MIL Brewers 103-59 (.636). Standing in the way is MIL Brewers. The captured price of -115 implies 53.48% before margin and 51.42% after the 4.0% allowance; we make it 50.99%, so the fair line is -104. 80.6% of the recorded OLBG tips are on this selection (29 of 36). The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the season record, the split and the price rather than on a single result.",
+   "prediction": "The play here is TB Rays in the Money Line, priced at -115. TB Rays 98-64 (.605), MIL Brewers 103-59 (.636). The other side of the fixture is MIL Brewers. The captured price of -115 implies 53.48% before margin and 51.42% after the 4.0% allowance; we make it 50.99%, so the fair line is -104. 80.6% of the recorded OLBG tips are on this selection (29 of 36). The league feed we read carries no injury designation for this game, and none is claimed here. The case rests on the season record, the split and the price rather than on a single result.",
    "facts": [
     "TB Rays 98-64 (.605), MIL Brewers 103-59 (.636)",
     "OLBG price -115 on TB Rays in the Money Line",
     "margin-adjusted market probability 51.42% against our 50.99%",
     "community consensus 80.6% (29 of 36 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "101914",
+   "sport": "Golf",
+   "sport_key": "golf",
+   "requested_sport": "Golf",
+   "event": "Simmons Bank Championship",
+   "competition": "",
+   "start_utc": "2026-11-01T22:45:00Z",
+   "market": "Win Tournament",
+   "selection": "Stewart Cink",
+   "decimal": 7.0,
+   "american": 600,
+   "our_american": 684,
+   "our_decimal": 7.84,
+   "market_prob": 14.29,
+   "fair_prob": 12.76,
+   "our_prob": 12.76,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 2,
+   "route": "market",
+   "confidence": "low",
+   "score": 43.816,
+   "overround": 14.29,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+   "official": null,
+   "id": "101914-stewart-cink",
+   "prediction": "Stewart Cink at +600 is the call in the Win Tournament. OLBG does not publish a competition name on this market page and the event starts 2026-11-01 22:45 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 12.0% allowance rather than measured: 14.29% implied falls to 12.76%, and our line is +684. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price +600 on Stewart Cink in the Win Tournament",
+    "margin-adjusted market probability 12.76% against our 12.76%"
+   ]
+  },
+  {
+   "event_id": "101913",
+   "sport": "Golf",
+   "sport_key": "golf",
+   "requested_sport": "Golf",
+   "event": "Maybank Championship",
+   "competition": "",
+   "start_utc": "2026-11-01T11:45:00Z",
+   "market": "Win Tournament",
+   "selection": "Hye Jin Choi",
+   "decimal": 11.0,
+   "american": 1000,
+   "our_american": 1132,
+   "our_decimal": 12.32,
+   "market_prob": 9.09,
+   "fair_prob": 8.12,
+   "our_prob": 8.12,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 2,
+   "route": "market",
+   "confidence": "low",
+   "score": 36.391999999999996,
+   "overround": 9.09,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "official": null,
+   "id": "101913-hye-jin-choi",
+   "prediction": "The pick is Hye Jin Choi in the Win Tournament, quoted at +1000. OLBG does not publish a competition name on this market page and the event starts 2026-11-01 11:45 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 12.0% allowance rather than measured: 9.09% implied falls to 8.12%, and our line is +1132. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +1000 on Hye Jin Choi in the Win Tournament",
+    "margin-adjusted market probability 8.12% against our 8.12%"
+   ]
+  },
+  {
+   "event_id": "101915",
+   "sport": "Golf",
+   "sport_key": "golf",
+   "requested_sport": "Golf",
+   "event": "Mexico Open",
+   "competition": "Mexico Open",
+   "start_utc": "2026-11-01T22:45:00Z",
+   "market": "Win Tournament",
+   "selection": "Wyndham Clark",
+   "decimal": 11.0,
+   "american": 1000,
+   "our_american": 1132,
+   "our_decimal": 12.32,
+   "market_prob": 9.09,
+   "fair_prob": 8.12,
+   "our_prob": 8.12,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 2,
+   "route": "market",
+   "confidence": "low",
+   "score": 36.391999999999996,
+   "overround": 12.54,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+   "official": null,
+   "id": "101915-wyndham-clark",
+   "prediction": "The pick is Wyndham Clark in the Win Tournament, quoted at +1000. Mexico Open supplies the competition and the event starts 2026-11-01 22:45 UTC. Only one price per market is exposed publicly, so the margin is handled with a 12.0% allowance: +1000 implies 9.09%, which becomes 8.12% after the allowance. Our line is +1132. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +1000 on Wyndham Clark in the Win Tournament",
+    "margin-adjusted market probability 8.12% against our 8.12%"
    ]
   }
  ],

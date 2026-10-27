@@ -188,3 +188,73 @@ Notes for parallel sessions:
 - Root dashboard files are being rebuilt by this session as the integration owner. If another session needs to change `index.html`, `assets/`, `sports/` or `data/dashboard.json`, log the request here rather than editing.
 - Outbound network from the agent sandbox is restricted to GitHub/npm/PyPI. OLBG and official league APIs are therefore fetched by GitHub Actions runners (`olbg-collect.yml`) and committed as JSON artifacts, which this session then verifies.
 - No event, price, statistic, injury or prediction is invented. Anything that cannot be confirmed from a named source stays blank and is published on Flagged for Review.
+
+## Session 438bbe65 — final integration, line origination and publication
+
+Status: **done** (see release log at the end of this section).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| OLBG reverse-engineering and inventory capture | done | 438bbe65 | `scripts/collect_olbg.py`, `.github/workflows/olbg-collect.yml`, `data/olbg/` |
+| Primary-source probe and capture | done | 438bbe65 | `scripts/collect_official.py`, `.github/workflows/official-collect.yml`, `data/official/` |
+| Line origination, grading and picks | done | 438bbe65 | `scripts/pricing_core.py`, `scripts/build_dashboard.py`, `data/dashboard.json` |
+| Written predictions | done | 438bbe65 | `scripts/predictions.py`, `content/editorial.json` |
+| Site rebuild, validation and release | done | 438bbe65 | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `sources.html`, `methodology.html`, `sports/`, `assets/`, `scripts/test_site.py`, `.github/workflows/quality.yml`, `.github/workflows/pages.yml` |
+| Snooker and Greyhounds market capture | needs review | unassigned | no market row exposed by OLBG at capture; see Flagged for review |
+
+### How OLBG actually serves the data (finding)
+
+`https://www.olbg.com/betting-tips/<Sport>/<id>` is a JS shell. The fixture, market,
+selection and price rows come from the route's SvelteKit hydration payload at
+`<route>/__data.json`, a flattened `devalue` array where integers index the same
+array. `scripts/collect_olbg.py` implements the decoder.
+
+Two further facts that shape everything downstream:
+
+1. `top_tips` endpoints exist (`tipsb.olbg.info`, `paginate=1-100`, `api_key`
+   visible in OLBG's own public payload) but **were unreachable from the GitHub
+   runner**: every attempt returned HTTP 404/connection failure, so they are not
+   used. The hydration route is used instead and is documented in the collector.
+2. OLBG's public payload exposes **one price per market**, not both sides. This
+   is why the desk publishes a stated margin allowance per market type instead of
+   a measured overround, and why it says so on the Method page and on every
+   market-route prediction.
+
+### Sources used
+
+* OLBG category and event pages — market identity and prices (capture timestamp
+  in `data/olbg/markets.json`).
+* MLB Stats API schedule and standings — probable pitchers, records, run
+  differential, home/away splits.
+* NHL API standings and schedule — points, record, streak, home/road splits.
+* ESPN NBA standings, ATP rankings and WTA rankings — records and ranking points.
+* ESPN golf and rugby feeds; Jolpica F1 calendar and standings; ICC fixtures;
+  EPCR; PDC; CEV; EHF; GAA; GBGB — registered and linked on the Sources page.
+  Where these answered only as HTML they are linked but not parsed into numbers.
+
+### Verification performed
+
+* `python3 scripts/test_site.py` passes: 21 pages, 190 events, 223 markets,
+  257 priced selections, 63 picks, 15 requested sports, every pick ≥30 words,
+  no blank values and no prohibited wording, every local link resolves.
+* `python3 scripts/build_dashboard.py` is deterministic: a rebuild on a clean
+  checkout reproduces `data/dashboard.json` byte for byte (enforced in CI).
+* Every page was rendered headlessly against the real payload (stub DOM) — all
+  21 routes produce HTML with no undefined/NaN/object tokens. This caught a real
+  defect: the renderer computed pages but never assigned them, which would have
+  shown a blank site.
+* Every published pick carries an OLBG market URL; every primary-route pick also
+  carries the primary source URL. Both are checked by the test.
+
+### Irregularities and open items (published on Flagged for review)
+
+* Snooker and Greyhounds exposed no market row in the public OLBG payload at
+  capture time. No fixture, line or pick was invented for them.
+* One price per market (see above): the margin allowance is an assumption, and it
+  is stated per market type rather than hidden.
+* No public injury feed exists for most competitions. Injuries are only claimed
+  where the league feed provides them (MLB probable pitchers); otherwise the
+  prediction says no injury note is carried.
+* Gaelic Sports is covered through the two OLBG categories Gaelic Football and
+  Hurling, which are aggregated into one requested sport.
+* Earlier sessions' artefacts (`evidence-lab/`, `research-desk/`) are untouched.

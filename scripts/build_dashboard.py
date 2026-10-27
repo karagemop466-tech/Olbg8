@@ -85,6 +85,7 @@ class Official:
 
     def __init__(self) -> None:
         self.teams: dict[str, dict[str, Any]] = {}
+        self.by_sport: dict[str, dict[str, dict[str, Any]]] = {}
         self.nba: dict[str, dict[str, Any]] = {}
         self.tennis: dict[str, float] = {}
         self.sources: list[dict[str, Any]] = []
@@ -133,6 +134,7 @@ class Official:
                           row.get("teamAbbrev", {}).get("default", "")}:
                 if alias:
                     self.teams.setdefault(alias.lower(), entry)
+                    self.by_sport.setdefault("Ice Hockey", {}).setdefault(alias.lower(), entry)
 
         # MLB schedule: probable pitchers and the most recent completed game
         schedule = load_json(OFFICIAL / "mlb-schedule.json", {})
@@ -192,6 +194,7 @@ class Official:
                 for alias in {name, name.split()[-1]}:
                     if alias:
                         self.teams.setdefault(alias.lower(), entry)
+                        self.by_sport.setdefault("Baseball", {}).setdefault(alias.lower(), entry)
 
         # ESPN NBA records
         payload = load_json(OFFICIAL / "espn-nba-teams.json", {})
@@ -214,28 +217,55 @@ class Official:
                     for alias in {item.get("displayName", ""), item.get("name", ""), item.get("abbreviation", "")}:
                         if alias:
                             self.teams.setdefault(alias.lower(), entry)
+                            self.by_sport.setdefault("Basketball", {}).setdefault(alias.lower(), entry)
 
-        # ATP rankings
-        payload = load_json(OFFICIAL / "espn-atp-rankings.json", {})
-        for ranking in payload.get("rankings", []):
-            for row in ranking.get("ranks", []):
-                athlete = row.get("athlete", {})
-                name = athlete.get("displayName") or athlete.get("fullName")
-                points = row.get("points")
-                if name and points:
-                    self.tennis[name.lower()] = float(points)
+        # ESPN NBA standings (win/loss records)
+        nba = load_json(OFFICIAL / "espn-nba-standings.json", {})
+        for conference in nba.get("children", []):
+            for row in conference.get("standings", {}).get("entries", []):
+                team = row.get("team", {})
+                stats = {s.get("name"): s.get("value") for s in row.get("stats", [])}
+                wins = stats.get("wins")
+                losses = stats.get("losses")
+                if wins is None or losses is None:
+                    continue
+                entry = {
+                    "sport": "Basketball",
+                    "wins": int(wins), "losses": int(losses),
+                    "record": f"{int(wins)}-{int(losses)}",
+                    "pct": round(wins / (wins + losses), 3) if wins + losses else None,
+                    "name": team.get("displayName"),
+                    "source": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings",
+                    "source_label": "ESPN NBA standings",
+                }
+                for alias in {team.get("displayName", ""), team.get("name", ""), team.get("abbreviation", "")}:
+                    if alias:
+                        self.teams.setdefault(alias.lower(), entry)
+                        self.by_sport.setdefault("Basketball", {}).setdefault(alias.lower(), entry)
 
-    def team(self, name: str) -> dict[str, Any] | None:
+        # ATP / WTA rankings
+        for ranking_file in ("espn-atp-rankings.json", "espn-wta-rankings.json"):
+            payload = load_json(OFFICIAL / ranking_file, {})
+            for ranking in payload.get("rankings", []):
+                for row in ranking.get("ranks", []):
+                    athlete = row.get("athlete", {})
+                    name = athlete.get("displayName") or athlete.get("fullName")
+                    points = row.get("points")
+                    if name and points:
+                        self.tennis[name.lower()] = float(points)
+
+    def team(self, name: str, sport: str | None = None) -> dict[str, Any] | None:
         if not name:
             return None
+        index = self.by_sport.get(sport, {}) if sport else self.teams
         key = name.lower().strip()
-        if key in self.teams:
-            return self.teams[key]
+        if key in index:
+            return index[key]
         tokens = [t for t in key.split() if t]
         for token in ([tokens[0]] if tokens else []) + ([tokens[-1]] if len(tokens) > 1 else []):
-            if token in self.teams:
-                return self.teams[token]
-        for candidate, value in self.teams.items():
+            if token in index:
+                return index[token]
+        for candidate, value in index.items():
             if len(candidate) > 3 and (candidate in key or key in candidate):
                 return value
         return None
@@ -354,8 +384,8 @@ def official_outlook(event: dict[str, Any], official: Official) -> dict[str, Any
     if not home or not away:
         return None
     sport = event["sport"]
-    a = official.team(home)
-    b = official.team(away)
+    a = official.team(home, sport)
+    b = official.team(away, sport)
     if sport == "Baseball":
         if not a or not b or not a.get("pct") or not b.get("pct"):
             return None
@@ -402,7 +432,7 @@ def official_outlook(event: dict[str, Any], official: Official) -> dict[str, Any
         prob = pc.ranking_prob(pa, pb, 1.0)
         return {"prob": prob, "subject": home, "other": away,
                 "method": "logistic model on ATP ranking points",
-                "detail": f"{home} {int(pa):,} ranking points, {away} {int(pb):,}",
+                "detail": f"{home} holds {int(pa):,} ranking points and {away} holds {int(pb):,}",
                 "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
                 "source_label": "ATP ranking points", "facts": {}}
     return None
@@ -519,7 +549,9 @@ def main() -> None:
                 price = selection["our_american"]
                 if selection["selection"].strip().lower() in ("tie", "draw", "the draw"):
                     continue
-                if selection["fair_prob"] < 25.0:
+                outright = market["name"] in {"Win Tournament", "Outright Winner", "Win Race",
+                                              "Grand Final Winner", "Win Hurling"}
+                if selection["fair_prob"] < (5.0 if outright else 25.0):
                     continue
                 if selection["edge_pts"] < -0.5:
                     continue

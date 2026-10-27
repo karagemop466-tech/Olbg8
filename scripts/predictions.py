@@ -172,14 +172,14 @@ def build(pick: dict[str, Any]) -> dict[str, Any]:
         detail_line = official.get("detail") or ""
         if detail_line and not record_sentence(record, subject, event_id):
             if "ranking points" in detail_line:
-                body.append(f"{detail_line}, which is the tour's published ranking measure for both players.")
+                body.append(f"{detail_line}, the tour's own published ranking measure.")
             else:
                 body.append(f"{detail_line}.")
         if opponent:
             body.append(one([
                 f"The opposition is {opponent}.",
-                f"{opponent} provide the opposition.",
                 f"Standing in the way is {opponent}.",
+                f"The other side of the fixture is {opponent}.",
             ], event_id, "opp"))
         body.extend([streak_sentence(record, event_id), split_sentence(record, event_id), scoring_sentence(record, event_id)])
         if record.get("pitchers"):

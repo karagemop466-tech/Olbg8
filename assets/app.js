@@ -432,8 +432,7 @@
     footer(data);
     if (!app) return;
     const render = { home, picks, matches, sport: sportPage, flagged: flaggedPage, sources: sourcesPage };
-    if (page === "method") app.innerHTML = methodPage(data);
-    else (render[page] || home)(data);
+    app.innerHTML = page === "method" ? methodPage(data) : (render[page] || home)(data);
     wireListFilters();
   }
 
