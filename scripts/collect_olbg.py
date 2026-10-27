@@ -267,7 +267,7 @@ def normalise(row: dict[str, Any], sport: dict[str, Any]) -> dict[str, Any]:
 
 
 # ------------------------------------------------------------------ modes ---
-def collect_tips(state: dict[str, Any], max_pages: int) -> None:
+def collect_tips(state: dict[str, Any], max_pages: int, use_api: bool = True) -> None:
     probe = state["probe"]
     all_rows: list[dict[str, Any]] = []
     for label, segment, sport_id in SPORTS:
@@ -292,7 +292,7 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
 
         rows: list[dict[str, Any]] = []
         working: str | None = None
-        for index in range(max_pages):
+        for index in range(max_pages if use_api else 0):
             start = index * PAGE + 1
             end = start + PAGE - 1
             candidates = [working] if working else list(templates) + [
@@ -363,6 +363,19 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
         entry["rows"] = len(deduped)
         entry["events"] = len({r["event_id"] for r in deduped})
         probe["sports"][key] = entry
+        if not deduped:
+            previous = OUT_DIR / f"{key}.json"
+            if previous.exists():
+                try:
+                    prior = json.loads(previous.read_text())
+                    if prior.get("rows"):
+                        entry["retained_previous"] = len(prior["rows"])
+                        deduped = prior["rows"]
+                        all_rows.extend(deduped)
+                        entry["rows"] = len(deduped)
+                        entry["events"] = len({r["event_id"] for r in deduped})
+                except Exception:  # noqa: BLE001
+                    pass
         if deduped:
             (OUT_DIR / f"{key}.json").write_text(
                 json.dumps({"sport": label, "sport_id": sport_id, "captured_utc": state["captured"], "rows": deduped}, indent=1)
@@ -464,7 +477,7 @@ def dump_raw(state: dict[str, Any]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", default="tips", choices=["tips", "detail", "raw", "all"])
+    parser.add_argument("--mode", default="inventory", choices=["inventory", "tips", "detail", "raw", "all"])
     parser.add_argument("--max-pages", type=int, default=12)
     parser.add_argument("--detail-events", type=int, default=30)
     args = parser.parse_args()
@@ -472,8 +485,8 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     state: dict[str, Any] = {"captured": now_iso(), "probe": {"captured_utc": now_iso(), "sports": {}}}
 
-    if args.mode in ("tips", "all"):
-        collect_tips(state, args.max_pages)
+    if args.mode in ("inventory", "tips", "all"):
+        collect_tips(state, args.max_pages, use_api=args.mode in ("tips", "all"))
         (OUT_DIR / "_probe.json").write_text(json.dumps(state["probe"], indent=1))
         print(f"tips: {len(state['rows'])} rows")
     if args.mode in ("detail", "all"):
