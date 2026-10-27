@@ -1,0 +1,411 @@
+{
+ "mode": "probe2",
+ "startedUtc": "2026-10-27T05:33:53Z",
+ "results": [
+  {
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:33:54Z",
+   "bytes": 260478,
+   "raw_file": "pipeline/raw/olbg_ev_tennis.txt",
+   "raw_chars": 260256,
+   "tag": "olbg_ev_tennis"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:33:54Z",
+   "bytes": 437297,
+   "raw_file": "pipeline/raw/olbg_ev_golf.txt",
+   "raw_chars": 437073,
+   "tag": "olbg_ev_golf"
+  },
+  {
+   "url": "https://www.atptour.com/en/rankings/singles",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:34:00Z",
+   "raw_file": "pipeline/raw/atp_rankings.txt",
+   "raw_chars": 2231,
+   "tag": "atp_rankings"
+  },
+  {
+   "url": "https://www.wtatennis.com/scores",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:01Z",
+   "bytes": 213612,
+   "raw_file": "pipeline/raw/wta_scores.txt",
+   "raw_chars": 213612,
+   "tag": "wta_scores"
+  },
+  {
+   "url": "https://www.itftennis.com/en/tournament-calendar/",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:34:15Z",
+   "raw_file": "pipeline/raw/itf.txt",
+   "raw_chars": 8579,
+   "tag": "itf"
+  },
+  {
+   "url": "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=27",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:16Z",
+   "bytes": 409120,
+   "raw_file": "pipeline/raw/tennisexplorer.txt",
+   "raw_chars": 409108,
+   "tag": "tennisexplorer"
+  },
+  {
+   "url": "https://www.icc-cricket.com/fixtures-results",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:16Z",
+   "bytes": 371601,
+   "raw_file": "pipeline/raw/icc_fixtures.txt",
+   "raw_chars": 371481,
+   "tag": "icc_fixtures"
+  },
+  {
+   "url": "https://www.icc-cricket.com/",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:17Z",
+   "bytes": 1543095,
+   "raw_file": "pipeline/raw/icc_home.txt",
+   "raw_chars": 1542814,
+   "tag": "icc_home"
+  },
+  {
+   "url": "https://www.cricbuzz.com/cricket-match/live-scores",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:17Z",
+   "bytes": 439027,
+   "raw_file": "pipeline/raw/cricbuzz.txt",
+   "raw_chars": 438835,
+   "tag": "cricbuzz"
+  },
+  {
+   "url": "https://www.pdc.tv/",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:18Z",
+   "bytes": 1241747,
+   "raw_file": "pipeline/raw/pdc_home.txt",
+   "raw_chars": 1241736,
+   "tag": "pdc_home"
+  },
+  {
+   "url": "https://www.pdc.tv/tournaments",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:18Z",
+   "bytes": 1241747,
+   "raw_file": "pipeline/raw/pdc_tournaments.txt",
+   "raw_chars": 1241736,
+   "tag": "pdc_tournaments"
+  },
+  {
+   "url": "https://www.wst.tv/",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:18Z",
+   "bytes": 181180,
+   "raw_file": "pipeline/raw/wst_home.txt",
+   "raw_chars": 181175,
+   "tag": "wst_home"
+  },
+  {
+   "url": "https://www.wst.tv/matches",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:19Z",
+   "bytes": 181116,
+   "raw_file": "pipeline/raw/wst_matches.txt",
+   "raw_chars": 181111,
+   "tag": "wst_matches"
+  },
+  {
+   "url": "https://www.pgatour.com/schedule",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:19Z",
+   "bytes": 536393,
+   "raw_file": "pipeline/raw/pgatour_sched.txt",
+   "raw_chars": 536386,
+   "tag": "pgatour_sched"
+  },
+  {
+   "url": "https://www.lpga.com/tournaments",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:19Z",
+   "bytes": 508772,
+   "raw_file": "pipeline/raw/lpga.txt",
+   "raw_chars": 508767,
+   "tag": "lpga"
+  },
+  {
+   "url": "https://www.europeantour.com/dpworld-tour/schedule/",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:34:25Z",
+   "raw_file": "pipeline/raw/dpwt.txt",
+   "raw_chars": 406,
+   "tag": "dpwt"
+  },
+  {
+   "url": "https://www.cev.eu/competitions/",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:34:33Z",
+   "raw_file": "pipeline/raw/cev.txt",
+   "raw_chars": 449,
+   "tag": "cev"
+  },
+  {
+   "url": "https://en.volleyballworld.com/volleyball/competitions/",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:34:34Z",
+   "bytes": 151728,
+   "raw_file": "pipeline/raw/volleyballworld.txt",
+   "raw_chars": 151684,
+   "tag": "volleyballworld"
+  },
+  {
+   "url": "https://ehfcl.eurohandball.com/en/matches/",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:34:43Z",
+   "raw_file": "pipeline/raw/ehf.txt",
+   "raw_chars": 40379,
+   "tag": "ehf"
+  },
+  {
+   "url": "https://www.eurohandball.com/en/matches/",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:34:51Z",
+   "raw_file": "pipeline/raw/ehf2.txt",
+   "raw_chars": 13329,
+   "tag": "ehf2"
+  },
+  {
+   "url": "https://www.epcrugby.com/fixtures",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:35:00Z",
+   "raw_file": "pipeline/raw/epcr.txt",
+   "raw_chars": 47019,
+   "tag": "epcr"
+  },
+  {
+   "url": "https://www.unitedrugby.com/fixtures",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:35:10Z",
+   "raw_file": "pipeline/raw/unitedrugby.txt",
+   "raw_chars": 22444,
+   "tag": "unitedrugby"
+  },
+  {
+   "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:11Z",
+   "bytes": 166948,
+   "raw_file": "pipeline/raw/lnr.txt",
+   "raw_chars": 166894,
+   "tag": "lnr"
+  },
+  {
+   "url": "https://top14.lnr.fr/calendrier-et-resultats",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:12Z",
+   "bytes": 161017,
+   "raw_file": "pipeline/raw/top14.txt",
+   "raw_chars": 160916,
+   "tag": "top14"
+  },
+  {
+   "url": "https://www.nrl.com/ladder/data?competition=111&season=2026",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:13Z",
+   "bytes": 862,
+   "raw_file": "pipeline/raw/nrl_ladder.txt",
+   "raw_chars": 862,
+   "tag": "nrl_ladder"
+  },
+  {
+   "url": "https://www.superleague.co.uk/fixtures",
+   "status": 500,
+   "ok": false,
+   "error": "HTTP 500",
+   "fetched_utc": "2026-10-27T05:35:20Z",
+   "raw_file": "pipeline/raw/superleague.txt",
+   "raw_chars": 1646,
+   "tag": "superleague"
+  },
+  {
+   "url": "https://www.gaa.ie/fixtures-results/",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:21Z",
+   "bytes": 1314577,
+   "raw_file": "pipeline/raw/gaa.txt",
+   "raw_chars": 1314184,
+   "tag": "gaa"
+  },
+  {
+   "url": "https://www.gbgb.org.uk/race-card/",
+   "status": 404,
+   "ok": false,
+   "error": "HTTP 404",
+   "fetched_utc": "2026-10-27T05:35:32Z",
+   "raw_file": "pipeline/raw/gbgb.txt",
+   "raw_chars": 78726,
+   "tag": "gbgb"
+  },
+  {
+   "url": "https://www.gbgb.org.uk/results",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:33Z",
+   "bytes": 81995,
+   "raw_file": "pipeline/raw/gbgb_results.txt",
+   "raw_chars": 81988,
+   "tag": "gbgb_results"
+  },
+  {
+   "url": "https://www.formula1.com/en/racing/2026",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:33Z",
+   "bytes": 621386,
+   "raw_file": "pipeline/raw/f1_official.txt",
+   "raw_chars": 621339,
+   "tag": "f1_official"
+  },
+  {
+   "url": "https://api.jolpi.ca/ergast/f1/current/driverStandings.json",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:34Z",
+   "bytes": 10119,
+   "raw_file": "pipeline/raw/f1_standings.txt",
+   "raw_chars": 10117,
+   "tag": "f1_standings"
+  },
+  {
+   "url": "https://www.motogp.com/en/calendar",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:35:34Z",
+   "bytes": 301395,
+   "raw_file": "pipeline/raw/motogp.txt",
+   "raw_chars": 301156,
+   "tag": "motogp"
+  },
+  {
+   "url": "https://www.nascar.com/schedule/",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:35:40Z",
+   "raw_file": "pipeline/raw/nascar.txt",
+   "raw_chars": 1916,
+   "tag": "nascar"
+  },
+  {
+   "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+   "status": 403,
+   "ok": false,
+   "error": "HTTP 403",
+   "fetched_utc": "2026-10-27T05:35:47Z",
+   "raw_file": "pipeline/raw/nba_cdn_hdr.txt",
+   "raw_chars": 445,
+   "tag": "nba_cdn_hdr"
+  },
+  {
+   "url": "https://www.euroleaguebasketball.net/euroleague/games/",
+   "status": 429,
+   "ok": false,
+   "error": "HTTP 429",
+   "fetched_utc": "2026-10-27T05:35:53Z",
+   "raw_file": "pipeline/raw/euroleague.txt",
+   "raw_chars": 31432,
+   "tag": "euroleague"
+  },
+  {
+   "url": "https://stats.nba.com/stats/scoreboardv3?GameDate=2026-10-27&LeagueID=00",
+   "status": 0,
+   "ok": false,
+   "error": "TimeoutError: The read operation timed out",
+   "fetched_utc": "2026-10-27T05:37:29Z",
+   "raw_file": "pipeline/raw/nba_stats.txt",
+   "raw_chars": 0,
+   "tag": "nba_stats"
+  },
+  {
+   "url": "https://api-web.nhle.com/v1/standings/now",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:37:30Z",
+   "bytes": 58202,
+   "raw_file": "pipeline/raw/nhl_clubs.txt",
+   "raw_chars": 58197,
+   "tag": "nhl_clubs"
+  },
+  {
+   "url": "https://www.shl.se/schedule",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T05:37:30Z",
+   "bytes": 183959,
+   "raw_file": "pipeline/raw/shl.txt",
+   "raw_chars": 183707,
+   "tag": "shl"
+  }
+ ],
+ "finishedUtc": "2026-10-27T05:37:30Z"
+}

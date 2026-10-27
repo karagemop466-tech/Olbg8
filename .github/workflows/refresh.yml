@@ -1,0 +1,60 @@
+name: Refresh research desk
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Capture OLBG boards and official sources
+        working-directory: pipeline
+        run: |
+          mkdir -p out raw
+          python3 collect.py --mode harvest 2>&1 | tee out/run.log
+      - name: Parse captures
+        working-directory: pipeline
+        run: |
+          python3 parse_olbg.py
+          python3 parse_events.py
+          python3 extract_official.py
+      - name: Originate lines and write predictions
+        working-directory: pipeline
+        run: python3 build.py
+      - name: Generate site
+        run: python3 pipeline/site.py
+      - name: Verify every published row
+        working-directory: pipeline
+        run: python3 check.py
+      - name: Commit refreshed desk
+        run: |
+          git config user.name "olbg-research-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "refresh: OLBG capture, originated lines and written picks [skip ci]"
+          git pull --rebase=merges origin main
+          git push origin HEAD:main
+      - name: Upload raw capture
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: olbg-raw-capture
+          path: pipeline/raw/
+          retention-days: 7

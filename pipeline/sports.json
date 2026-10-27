@@ -1,0 +1,139 @@
+{
+ "sports": [
+  {
+   "key": "golf",
+   "label": "Golf",
+   "olbg_label": "Golf",
+   "sport_id": 5,
+   "hub": "https://www.olbg.com/betting-tips/Golf/5",
+   "official_url": "https://www.pgatour.com/schedule",
+   "official_name": "PGA TOUR official schedule"
+  },
+  {
+   "key": "volleyball",
+   "label": "Volleyball",
+   "olbg_label": "Volleyball",
+   "sport_id": 21,
+   "hub": "https://www.olbg.com/betting-tips/Volleyball/21",
+   "official_url": "https://www.cev.eu/match-centres/",
+   "official_name": "European Volleyball Confederation match centres"
+  },
+  {
+   "key": "rugby-union",
+   "label": "Rugby Union",
+   "olbg_label": "Rugby Union",
+   "sport_id": 9,
+   "hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "official_url": "https://prod2.lnr.fr/calendrier-et-resultats",
+   "official_name": "LNR Pro D2 official calendar and results"
+  },
+  {
+   "key": "cricket",
+   "label": "Cricket",
+   "olbg_label": "Cricket",
+   "sport_id": 7,
+   "hub": "https://www.olbg.com/betting-tips/Cricket/7",
+   "official_url": "https://www.icc-cricket.com/fixtures-results",
+   "official_name": "International Cricket Council fixtures and results"
+  },
+  {
+   "key": "snooker",
+   "label": "Snooker",
+   "olbg_label": "Snooker",
+   "sport_id": 8,
+   "hub": "https://www.olbg.com/betting-tips/Snooker/8",
+   "official_url": "https://www.wst.tv/matches",
+   "official_name": "World Snooker Tour match list"
+  },
+  {
+   "key": "darts",
+   "label": "Darts",
+   "olbg_label": "Darts",
+   "sport_id": 15,
+   "hub": "https://www.olbg.com/betting-tips/Darts/15",
+   "official_url": "https://www.pdc.tv/tournaments",
+   "official_name": "Professional Darts Corporation tournaments"
+  },
+  {
+   "key": "baseball",
+   "label": "Baseball",
+   "olbg_label": "Baseball",
+   "sport_id": 12,
+   "hub": "https://www.olbg.com/betting-tips/Baseball/12",
+   "official_url": "https://www.mlb.com/schedule",
+   "official_name": "Major League Baseball official schedule"
+  },
+  {
+   "key": "gaelic-sports",
+   "label": "Gaelic Sports",
+   "olbg_label": "Gaelic Football",
+   "sport_id": 25,
+   "hub": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+   "official_url": "https://www.gaa.ie/fixtures-results",
+   "official_name": "GAA fixtures and results"
+  },
+  {
+   "key": "greyhounds",
+   "label": "Greyhounds",
+   "olbg_label": "Greyhounds",
+   "sport_id": 28,
+   "hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+   "official_url": "https://www.gbgb.org.uk/racing/",
+   "official_name": "Greyhound Board of Great Britain racing"
+  },
+  {
+   "key": "tennis",
+   "label": "Tennis",
+   "olbg_label": "Tennis",
+   "sport_id": 3,
+   "hub": "https://www.olbg.com/betting-tips/Tennis/3",
+   "official_url": "https://www.atptour.com/en/scores/current",
+   "official_name": "ATP Tour scores and schedules"
+  },
+  {
+   "key": "motor-racing",
+   "label": "Motor Racing",
+   "olbg_label": "Motor Racing",
+   "sport_id": 14,
+   "hub": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+   "official_url": "https://www.formula1.com/en/racing/2026",
+   "official_name": "Formula 1 official 2026 calendar"
+  },
+  {
+   "key": "handball",
+   "label": "Handball",
+   "olbg_label": "Handball",
+   "sport_id": 20,
+   "hub": "https://www.olbg.com/betting-tips/Handball/20",
+   "official_url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+   "official_name": "EHF Champions League official matches"
+  },
+  {
+   "key": "ice-hockey",
+   "label": "Ice Hockey",
+   "olbg_label": "Ice Hockey",
+   "sport_id": 13,
+   "hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "official_url": "https://www.nhl.com/schedule",
+   "official_name": "NHL official schedule and game centres"
+  },
+  {
+   "key": "basketball",
+   "label": "Basketball",
+   "olbg_label": "Basketball",
+   "sport_id": 4,
+   "hub": "https://www.olbg.com/betting-tips/Basketball/4",
+   "official_url": "https://www.nba.com/games?date=2026-10-26",
+   "official_name": "NBA official games and scores"
+  },
+  {
+   "key": "rugby-league",
+   "label": "Rugby League",
+   "olbg_label": "Rugby League",
+   "sport_id": 10,
+   "hub": "https://www.olbg.com/betting-tips/Rugby_League/10",
+   "official_url": "https://www.nrl.com/draw/",
+   "official_name": "NRL official draw"
+  }
+ ]
+}
