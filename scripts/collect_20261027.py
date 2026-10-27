@@ -31,6 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "capture-20261027"
 HUB_DIR = OUT / "olbg-hubs"
+ALL_DIR = OUT / "olbg-all-events"
 EVT_DIR = OUT / "olbg-events"
 OFF_DIR = OUT / "official"
 
@@ -60,6 +61,7 @@ HUBS = {
 # Official governing-body / league endpoints. JSON feeds are stored verbatim;
 # HTML pages are stored as plain-text extracts with the exact source URL.
 OFFICIAL_JSON = {
+    "nhl_team_stats": "https://api-web.nhle.com/v1/standings/now",
     "nhl_schedule_20261027": "https://api-web.nhle.com/v1/schedule/2026-10-27",
     "nhl_schedule_20261028": "https://api-web.nhle.com/v1/schedule/2026-10-28",
     "nhl_schedule_20261029": "https://api-web.nhle.com/v1/schedule/2026-10-29",
@@ -73,8 +75,9 @@ OFFICIAL_JSON = {
     "nba_scoreboard": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
     "nba_schedule": "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json",
     "nba_standings": "https://cdn.nba.com/static/json/staticData/standingsLeagueV2.json",
-    "euroleague_games": "https://api-live.euroleaguebasketball.net/v1/games?season=E2026",
-    "euroleague_standings": "https://api-live.euroleaguebasketball.net/v1/standings?season=E2026",
+    "nba_data_scoreboard": "https://data.nba.net/prod/v1/20261027/scoreboard.json",
+    "mlb_team_hitting": "https://statsapi.mlb.com/api/v1/teams/stats?stats=season&group=hitting&season=2026&sportIds=1",
+    "mlb_team_pitching": "https://statsapi.mlb.com/api/v1/teams/stats?stats=season&group=pitching&season=2026&sportIds=1",
     "f1_races_mirror": "https://api.jolpi.ca/ergast/f1/2026/races/",
 }
 
@@ -103,9 +106,21 @@ OFFICIAL_HTML = {
     "gbgb_racing": "https://www.gbgb.org.uk/racing/",
     "gbgb_results": "https://www.gbgb.org.uk/results/",
     "euroleague_home": "https://www.euroleaguebasketball.net/en/euroleague/",
+    "euroleague_standings_page": "https://www.euroleaguebasketball.net/en/euroleague/standings/",
+    "euroleague_games_page": "https://www.euroleaguebasketball.net/en/euroleague/games/",
     "nba_games": "https://www.nba.com/games?date=2026-10-27",
     "nhl_schedule_page": "https://www.nhl.com/schedule/2026-10-27",
     "mlb_schedule_page": "https://www.mlb.com/schedule",
+    "f1_driver_standings": "https://www.formula1.com/en/results/2026/drivers",
+    "f1_team_standings": "https://www.formula1.com/en/results/2026/team",
+    "pdc_order_of_merit": "https://www.pdc.tv/order-of-merit",
+    "wst_rankings": "https://www.wst.tv/rankings",
+    "icc_team_rankings": "https://www.icc-cricket.com/rankings/team-rankings",
+    "gbgb_racecards": "https://www.gbgb.org.uk/racing/race-cards/",
+    "atp_scores_alt": "https://www.atptour.com/en/scores/results-archive",
+    "wta_scores": "https://www.wtatennis.com/scores",
+    "superleague_home": "https://www.superleague.co.uk/",
+    "nrl_ladder": "https://www.nrl.com/ladder/",
 }
 
 
@@ -221,13 +236,14 @@ def event_data_url(event_url: str) -> tuple[str, str] | None:
 
 
 def main() -> int:
-    for d in (HUB_DIR, EVT_DIR, OFF_DIR):
+    for d in (HUB_DIR, ALL_DIR, EVT_DIR, OFF_DIR):
         d.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc)
     manifest = {
         "capture_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "collector": "scripts/collect_20261027.py",
         "hubs": {},
+        "all_events": {},
         "events": {},
         "official": {},
         "notes": [],
@@ -249,18 +265,41 @@ def main() -> int:
             manifest["hubs"][key] = rec
             print(f"hub {key:18s} {rec['status']} {rec['bytes']}", flush=True)
 
-    # 2. Discover event URLs from the decoded hub tips.
+    # 2. Fetch the sport "All Events" pages. These expose outright/tournament
+    #    markets (Golf, Darts, Motor Racing, Rugby League) that the sport hub's
+    #    `tips` array omits.
+    def fetch_all_events(item):
+        key, (slug, sid) = item
+        url = f"https://www.olbg.com/betting-tips/{slug}/All_{slug}/All_Events/{sid}/__data.json"
+        status, body, err = get(url)
+        if status == 200 and body:
+            (ALL_DIR / f"{key}.json").write_bytes(body)
+        return key, {"url": url, "status": status, "bytes": len(body),
+                     "error": err if status != 200 else ""}
+
+    with cf.ThreadPoolExecutor(max_workers=6) as pool:
+        for key, rec in pool.map(fetch_all_events, HUBS.items()):
+            manifest["all_events"][key] = rec
+            print(f"all-events {key:18s} {rec['status']} {rec['bytes']}", flush=True)
+
+    # 3. Discover event URLs from hub tips, hub tournaments, and all-events tips.
     events: dict[str, dict] = {}
-    for key, rec in manifest["hubs"].items():
-        path = HUB_DIR / f"{key}.json"
+    sources = [(key, HUB_DIR / f"{key}.json") for key in HUBS] + \
+              [(key, ALL_DIR / f"{key}.json") for key in HUBS]
+    for key, path in sources:
         if not path.exists():
             continue
-        tips = find_key(decoded_roots(path.read_bytes()), "tips")
-        if not isinstance(tips, list):
-            manifest["notes"].append(f"{key}: no decodable tips array")
-            continue
-        rec["tip_rows"] = len(tips)
-        for tip in tips:
+        roots = decoded_roots(path.read_bytes())
+        feed = find_key(roots, "tips")
+        tournaments = find_key(roots, "tournaments")
+        rows = []
+        for label, group in (("tips", feed), ("tournaments", tournaments)):
+            if isinstance(group, list):
+                rows += [("hub" if path.parent == HUB_DIR else "all", label, t) for t in group]
+        if path.parent == HUB_DIR:
+            manifest["hubs"][key]["tip_rows"] = len(feed or []) if isinstance(feed, list) else 0
+            manifest["hubs"][key]["tournament_rows"] = len(tournaments or []) if isinstance(tournaments, list) else 0
+        for origin, label, tip in rows:
             if not isinstance(tip, dict):
                 continue
             ev_url = tip.get("eventUrl") or ""
@@ -272,11 +311,11 @@ def main() -> int:
             ev_id = m.group(1) if m else re.sub(r"\W+", "_", ev_url)[-80:]
             entry = events.setdefault(ev_id, {
                 "event_id": ev_id, "sport_key": key, "page_url": page_url,
-                "data_url": data_url, "hub_events": set(),
+                "data_url": data_url, "origin": set(),
             })
-            entry["hub_events"].add(key)
+            entry["origin"].add(f"{origin}:{label}")
     for entry in events.values():
-        entry["hub_events"] = sorted(entry["hub_events"])
+        entry["origin"] = sorted(entry["origin"])
     print(f"discovered {len(events)} event pages", flush=True)
 
     # 3. Fetch each event's full market payload. Bounded for runner politeness.

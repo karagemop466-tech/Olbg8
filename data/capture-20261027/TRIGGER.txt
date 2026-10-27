@@ -1,1 +1,1 @@
-Snapshot trigger for 2026-10-27 collection; one run per content change.
+Pass 2: include All Events pages, tournament/outright markets and extra official sources.
