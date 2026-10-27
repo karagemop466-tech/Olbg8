@@ -365,3 +365,18 @@ sources, which `check_site.py` requires for every desk pick.
 producing sixteen broken stylesheet links; that is the real origin of the `sports/hurling.html` breakage repaired
 earlier in this session. The archived generator now passes `css="assets/styles.css"` with `rel="../"`, so its pages
 resolve correctly if it is ever revived.
+
+### Release record — PR #18 (corrections, CI repair, consolidation)
+
+- **PR #18** <https://github.com/karagemop466-tech/Olbg8/pull/18> — "Desk corrections: per-game figures,
+  source re-verification, stale page removed". `build` and `verify` both passed on the final head
+  (runs 40457619796 / 40457619878). **Merged to `main` as `99bf72e`** on 2026-10-27.
+- **Deploy.** `Deploy OLBG research desk` run 40457699851 and `pages build and deployment` 40457699210 both
+  succeeded, `Site quality` run 40457699667 and `Expanded evidence lab checks` 40457699663 succeeded — `main` is
+  green again after the two failing runs on `ce345a8` and `05234f7`. The live page was re-read at
+  <https://karagemop466-tech.github.io/Olbg8/picks.html> and now shows the corrected cards: Dax conceding 39.1 a
+  game, Grenoble scoring 29.6 against Béziers' 36.8, and "24 picks across 7 sports — 10 high, 12 medium, 2 low".
+- **What this PR fixed.** Four sentences had attached a scoring rate to the wrong side of the same match (Dax,
+  Béziers/Grenoble, Plock, Porto), two claims had no captured source, and the engine now carries a separate
+  conceded-per-game input so the classes of error cannot recur. The CI gate was rebuilt around the desk that is
+  actually published, which is also what unblocked Pages.
