@@ -24,6 +24,8 @@ OLBG = "OLBG event listing"
 
 MLB = ("MLB.com probable pitchers", "https://www.mlb.com/probable-pitchers")
 MLB_API = ("MLB StatsAPI (official)", "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=team")
+MLB_PP = ("MLB StatsAPI probable pitchers (official)",
+          "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team")
 ESPN_WS = ("ESPN - 2026 World Series schedule", "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings")
 SI_BET = ("Sports Illustrated - Game 4 betting preview", "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw")
 FOX_ML = ("FOX Sports boxscore page", "https://www.foxsports.com/mlb/world-series-game-4-milwaukee-brewers-vs-tampa-bay-rays-oct-27-2026-game-boxscore-97239")
@@ -76,17 +78,18 @@ PICKS = [
     # ---------------- BASEBALL ----------------
     ("baseball", "160799", "Money Line", "MIL Brewers",
      "Brewers to win the World Series and take the title 4-0",
-     "Milwaukee is one win from the championship, having taken Games 1, 2 and 3 by 3-2, 5-4 and 10-1, and MLB's own schedule carries this as Game 4 at Tropicana Field with the series record printed as 3-0. Neither side has announced a starter, and the Brewers have not had a traditional starting pitcher survive past the fifth inning this month, so a bullpen-heavy afternoon is the likeliest shape. On our numbers the Brewers money line prices at 150 cents to win a game they only need to reach. Take Milwaukee to win the match at -150, and treat the absence of a named starter as the main risk rather than the series state.",
+     "Milwaukee is one win from the championship, having taken Games 1, 2 and 3 by 3-2, 5-4 and 10-1, and MLB's own schedule carries this as Game 4 at Tropicana Field with the series record printed as 3-0. The league's own feed lists Griffin Jax as Tampa Bay's probable starter and leaves Milwaukee's probable slot blank, so the visiting side is the one heading into a bullpen afternoon and that is the shape this price is betting on. On our numbers the Brewers money line sits at -150 for a game they only need to reach rather than win convincingly. Take Milwaukee to win the match at -150, and treat their own blank probable-pitcher slot as the main risk rather than the series state.",
      [("Series state 3-0 and Game 4 venue, date and time", MLB_API),
       ("Game scores in Games 1-3", ESPN_WS),
-      ("Neither club announced a Game 4 starter", MLB)],
+      ("Tampa Bay's probable is Jax; Milwaukee has no probable listed", MLB_PP)],
      "Fixture, series record, venue and start time read from the official MLB data feed."),
     ("baseball", "160799", "Run Line", "MIL Brewers -1.50",
      "Brewers -1.50 run line in a series they are leading 3-0",
      "The margin market is where a 3-0 lead earns something. Milwaukee won Game 3 by nine runs and posted a 10-1 scoreline, while Tampa Bay's only real resistance came in one-run losses in Games 1 and 2. With a probable bullpen game again in front of Milwaukee, and with the Rays' lineup built on Junior Caminero and Yandy Diaz rather than carrying a designated ace, the two-run spread is the more interesting number than the straight winner. Back Brewers minus one run and a half at -125, which asks for a two-run margin rather than just a win.",
      [("Rays roster construction, Caminero and Diaz", MLB_FAQ),
       ("Brewers rotation depth, Chourio, Bauers, Contreras", MLB_FAQ),
-      ("Game 3 scored 10-1", ESPN_WS)],
+      ("Game 3 scored 10-1", ESPN_WS),
+      ("Milwaukee has no probable pitcher listed for Game 4", MLB_PP)],
      "Run-line price originated from two OLBG tips on this market; sample is small."),
     ("baseball", "160799", "Run Line", "TB Rays +1.50",
      "Rays +1.50 keeps a 0-3 hole coverable",
@@ -96,11 +99,11 @@ PICKS = [
      "Zero OLBG tips sit on this side; the price is our floor estimate, not consensus."),
     ("baseball", "160799", "Money Line", "TB Rays",
      "Small exposure to Tampa Bay to avoid a sweep",
-     "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The market exists because neither club has confirmed a starter and the two outlets covering the game do not agree: the Sports Illustrated preview has Griffin Jax going on short rest, while MLB.com's probable-pitcher page names Freddy Peralta. Bet Tampa Bay to win the match at +150 in a small unit, and treat the announcement as the trigger rather than the thesis.",
-     [("Jax expected to start on short rest", SI_BET),
-      ("Peralta with the Rays and named on the club probable page", MLB),
+     "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The price is what it is because Tampa Bay's listed starter, Griffin Jax according to the league's own feed, is a reliever being asked to open a World Series game, and the Sports Illustrated preview has him going on short rest. Bet Tampa Bay to win the match at +150 in a small unit, and treat the announcement as the trigger rather than the thesis.",
+     [("Jax listed as Tampa Bay's probable pitcher for Game 4", MLB_PP),
+      ("Jax asked to open on short rest", SI_BET),
       ("Rays postseason record 7-4", SI_BET)],
-     "Starter reports conflict between sources; treated as unresolved, not as fact."),
+     "Probable pitchers read from the official feed, not from press reports."),
 
     # ---------------- ICE HOCKEY ----------------
     ("ice_hockey", "200104", "Puck Line", "BOS Bruins +1.50",

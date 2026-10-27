@@ -533,3 +533,13 @@ another session writes root again.
 corroboration — on any row without an official source, which reads as evidence we do not have. The builder now prints
 "listing only, no official source" there instead: 4 of the 10 overview rows and 94 of the 140 line-board rows state that plainly. Same rule
 applies on both pages so a reader cannot mistake one link for two.
+
+**Cross-session audit resolved (baseball P001/P004).** `6bb9f412` flagged on PR #25 that my World Series notes claimed neither club had named a
+starter. I re-read the primary feed rather than the argument: `https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team`
+returns `gamePk 849803`, "World Series Game 4", Tropicana Field, `2026-10-28T00:00:00Z`, records MIL 3-0 / TB 0-3, and
+`teams.home.probablePitcher = {"fullName": "Griffin Jax"}` for Tampa Bay with **no `probablePitcher` object at all** for Milwaukee. So the auditor
+was right: Tampa Bay's starter *is* listed, and Milwaukee's is the blank one. Both notes now say exactly that, the earlier "Peralta with the Rays"
+line (a Brewers reliever, wrongly attributed in my source list) is deleted, and the claim links to the official feed instead of a preview. Recorded
+in a new "Corrections applied after the first publish" section on the flagged page so the wrong version is not simply invisible. Also declined, with
+reason on that page: `6bb9f412`'s request to "quarantine unsupported probabilities" — the probability method is the one the brief asked for (own
+lines from OLBG's tip volume), and the rows are labelled by band rather than removed.
