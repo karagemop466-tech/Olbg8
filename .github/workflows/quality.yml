@@ -50,6 +50,7 @@ jobs:
           if [ "$code" -ne 0 ]; then
             { echo "generated files differ (exit $code)"; git status --short; git diff --name-only; } > /tmp/desk-diff.txt
             cat /tmp/desk-diff.txt
+            echo "::error::DESK_DIFF $(tr '\n' '|' < /tmp/desk-diff.txt | cut -c1-900)"
           fi
           exit "$code"
       - name: Upload generated-file diff diagnosis
