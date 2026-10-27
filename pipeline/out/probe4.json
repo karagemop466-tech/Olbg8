@@ -1,0 +1,319 @@
+{
+ "when": "2026-10-27T06:32:20Z",
+ "results": [
+  {
+   "url": "https://api.gbgb.org.uk/api/swagger/v1/swagger.json",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gbgb_swagger"
+  },
+  {
+   "url": "https://api.gbgb.org.uk/swagger/v1/swagger.json",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gbgb_swagger2"
+  },
+  {
+   "url": "https://api.gbgb.org.uk/api/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gbgb_root"
+  },
+  {
+   "url": "https://api.gbgb.org.uk/api/meetings",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gbgb_meetings"
+  },
+  {
+   "url": "https://api.gbgb.org.uk/api/racecards",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gbgb_racecards"
+  },
+  {
+   "url": "https://api.wtatennis.com/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "wta_api_root"
+  },
+  {
+   "url": "https://api.wtatennis.com/scores/current",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "wta_scores_api"
+  },
+  {
+   "url": "https://api.wtatennis.com/tennis/players/ranked?page=0&pageSize=50&metric=SINGLES",
+   "status": 400,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 400",
+   "snippet": "",
+   "tag": "wta_rank_api"
+  },
+  {
+   "url": "https://api.atptour.com/players/rankings?rankType=singles",
+   "status": 0,
+   "bytes": 0,
+   "ok": false,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "snippet": "",
+   "tag": "atp_api"
+  },
+  {
+   "url": "https://www.atptour.com/-/ajax/rankings/singles",
+   "status": 403,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 403",
+   "snippet": "",
+   "tag": "atp_website_api"
+  },
+  {
+   "url": "https://api.wst.tv/",
+   "status": 0,
+   "bytes": 0,
+   "ok": false,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "snippet": "",
+   "tag": "wst_api"
+  },
+  {
+   "url": "https://www.wst.tv/api/matches",
+   "status": 200,
+   "bytes": 6169,
+   "ok": true,
+   "error": "",
+   "snippet": "<!doctype html> <html lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%221%22:%22en%22%7D%7D\"> <head> <title>Home of World Snooker - World Snooker Tour</title><meta data-n-head=\"1\" name=\"referrer\" content=\"strict-origin-when-cross-origin\"><meta data-n-head=\"1\" charset=\"utf-8\"><meta data-n-head=\"1\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-n-head=\"1\" data-hid=\"descriptio",
+   "ctype": "text/html",
+   "tag": "wst_api2"
+  },
+  {
+   "url": "https://www.pdc.tv/api/tournaments",
+   "status": 200,
+   "bytes": 1241747,
+   "ok": true,
+   "error": "",
+   "snippet": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\"> <script src></script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j",
+   "ctype": "text/html",
+   "tag": "pdc_api"
+  },
+  {
+   "url": "https://pdc.tv/wp-json/wp/v2/posts?per_page=5",
+   "status": 200,
+   "bytes": 1241747,
+   "ok": true,
+   "error": "",
+   "snippet": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\"> <script src></script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j",
+   "ctype": "text/html",
+   "tag": "pdc_api2"
+  },
+  {
+   "url": "https://wst.tv/wp-json/wp/v2/posts?per_page=5",
+   "status": 200,
+   "bytes": 6169,
+   "ok": true,
+   "error": "",
+   "snippet": "<!doctype html> <html lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%221%22:%22en%22%7D%7D\"> <head> <title>Home of World Snooker - World Snooker Tour</title><meta data-n-head=\"1\" name=\"referrer\" content=\"strict-origin-when-cross-origin\"><meta data-n-head=\"1\" charset=\"utf-8\"><meta data-n-head=\"1\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-n-head=\"1\" data-hid=\"descriptio",
+   "ctype": "text/html",
+   "tag": "wst_wp"
+  },
+  {
+   "url": "https://www.cev.eu/api/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "cev_api"
+  },
+  {
+   "url": "https://www.cev.eu/api/matches",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "cev_live"
+  },
+  {
+   "url": "https://www.eurohandball.com/api/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "ehf_api"
+  },
+  {
+   "url": "https://www.eurohandball.com/en/api/competitions/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "ehf_comp"
+  },
+  {
+   "url": "https://www.handball-bundesliga.de/api/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "hbl_api"
+  },
+  {
+   "url": "https://www.legavolley.it/api/",
+   "status": 200,
+   "bytes": 137055,
+   "ok": true,
+   "error": "",
+   "snippet": "<!doctype html > <!--[if IE 8]> <html class=\"ie8\" lang=\"en\"> <![endif]--> <!--[if IE 9]> <html class=\"ie9\" lang=\"en\"> <![endif]--> <!--[if gt IE 8]><!--> <html lang=\"it-IT\"> <!--<![endif]--> <head> <title>API Legavolley.it | Lega Pallavolo Serie A</title> <meta charset=\"UTF-8\" /> <link rel='stylesheet' href='/css/global.css?v=1' type='text/css' media='all' /> <meta name=",
+   "ctype": "text/html",
+   "tag": "legavolley_api"
+  },
+  {
+   "url": "https://www.icc-cricket.com/api/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "icc_api"
+  },
+  {
+   "url": "https://www.icc-cricket.com/wp-json/wp/v2/posts?per_page=3",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "icc_wp"
+  },
+  {
+   "url": "https://cricketdata.org/",
+   "status": 200,
+   "bytes": 197893,
+   "ok": true,
+   "error": "",
+   "snippet": "<!doctype html> <html lang=\"en-US\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link rel=\"profile\" href=\"http://gmpg.org/xfn/11\"> <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' /> <!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoa",
+   "ctype": "text/html",
+   "tag": "cricapi"
+  },
+  {
+   "url": "https://www.gaa.ie/api/fixtures",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "gaa_api2"
+  },
+  {
+   "url": "https://www.nrl.com/api/draw?competition=111&season=2026",
+   "status": 200,
+   "bytes": 947,
+   "ok": true,
+   "error": "",
+   "snippet": "<html><head><title>Submit This Form</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"></head><body onload=\"javascript:document.forms[0].submit()\"><form method=\"post\" action=\"https://www.nrl.com/account/signin-nrl\"><input type=\"hidden\" name=\"error\" value=\"login_required\"/><input type=\"hidden\" name=\"error_description\" value=\"Login required\"/><input type=\"hidden\" name=\"state\" value=\"OpenIdC",
+   "ctype": "text/html",
+   "tag": "nrl_api"
+  },
+  {
+   "url": "https://www.superleague.co.uk/api/fixtures",
+   "status": 500,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 500",
+   "snippet": "",
+   "tag": "sl_api"
+  },
+  {
+   "url": "https://api.pulselive.motogp.com/motogp/v1/results/events?seasonUuid=&isFinished=true",
+   "status": 400,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 400",
+   "snippet": "",
+   "tag": "motogp_api"
+  },
+  {
+   "url": "https://api.formula1.com/svc/v2/whereami",
+   "status": 403,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 403",
+   "snippet": "",
+   "tag": "f1_api"
+  },
+  {
+   "url": "https://api.euroleaguebasketball.net/v1/competitions",
+   "status": 0,
+   "bytes": 0,
+   "ok": false,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "snippet": "",
+   "tag": "el_api"
+  },
+  {
+   "url": "https://www.euroleaguebasketball.net/api/v1/games",
+   "status": 429,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 429",
+   "snippet": "",
+   "tag": "el_stats"
+  },
+  {
+   "url": "https://www.pgatour.com/api/schedule",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "pga_api"
+  },
+  {
+   "url": "https://www.lpga.com/api/tournaments",
+   "status": 200,
+   "bytes": 552875,
+   "ok": true,
+   "error": "",
+   "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"/-/media/images/site-logos/lpga_logo_horiz_color_over_white_v3.svg\"/><link rel=\"stylesheet\" href=\"/_next/static/css/02966a67f7ba2850.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/efa0d1e4e9f66445.css\" dat",
+   "ctype": "text/html",
+   "tag": "lpga_api"
+  },
+  {
+   "url": "https://www.olbg.com/api/tips?sport=3",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "snippet": "",
+   "tag": "olbg_api"
+  }
+ ]
+}
