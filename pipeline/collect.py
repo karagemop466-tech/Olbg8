@@ -118,6 +118,63 @@ def save(tag: str, res: dict) -> dict:
     return res
 
 
+
+PROBE2 = [
+    # OLBG event pages - do they expose multiple markets and prices?
+    ("olbg_ev_tennis", "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233"),
+    ("olbg_ev_golf", "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913"),
+    # Tennis official
+    ("atp_rankings", "https://www.atptour.com/en/rankings/singles"),
+    ("wta_scores", "https://www.wtatennis.com/scores"),
+    ("itf", "https://www.itftennis.com/en/tournament-calendar/"),
+    ("tennisexplorer", "https://www.tennisexplorer.com/matches/?type=atp-single&year=2026&month=10&day=27"),
+    # Cricket
+    ("icc_fixtures", "https://www.icc-cricket.com/fixtures-results"),
+    ("icc_home", "https://www.icc-cricket.com/"),
+    ("cricbuzz", "https://www.cricbuzz.com/cricket-match/live-scores"),
+    # Darts
+    ("pdc_home", "https://www.pdc.tv/"),
+    ("pdc_tournaments", "https://www.pdc.tv/tournaments"),
+    # Snooker
+    ("wst_home", "https://www.wst.tv/"),
+    ("wst_matches", "https://www.wst.tv/matches"),
+    # Golf
+    ("pgatour_sched", "https://www.pgatour.com/schedule"),
+    ("lpga", "https://www.lpga.com/tournaments"),
+    ("dpwt", "https://www.europeantour.com/dpworld-tour/schedule/"),
+    # Volleyball
+    ("cev", "https://www.cev.eu/competitions/"),
+    ("volleyballworld", "https://en.volleyballworld.com/volleyball/competitions/"),
+    # Handball
+    ("ehf", "https://ehfcl.eurohandball.com/en/matches/"),
+    ("ehf2", "https://www.eurohandball.com/en/matches/"),
+    # Rugby union
+    ("epcr", "https://www.epcrugby.com/fixtures"),
+    ("unitedrugby", "https://www.unitedrugby.com/fixtures"),
+    ("lnr", "https://prod2.lnr.fr/calendrier-et-resultats"),
+    ("top14", "https://top14.lnr.fr/calendrier-et-resultats"),
+    # Rugby league
+    ("nrl_ladder", "https://www.nrl.com/ladder/data?competition=111&season=2026"),
+    ("superleague", "https://www.superleague.co.uk/fixtures"),
+    # Gaelic
+    ("gaa", "https://www.gaa.ie/fixtures-results/"),
+    # Greyhounds
+    ("gbgb", "https://www.gbgb.org.uk/race-card/"),
+    ("gbgb_results", "https://www.gbgb.org.uk/results"),
+    # Motor racing
+    ("f1_official", "https://www.formula1.com/en/racing/2026"),
+    ("f1_standings", "https://api.jolpi.ca/ergast/f1/current/driverStandings.json"),
+    ("motogp", "https://www.motogp.com/en/calendar"),
+    ("nascar", "https://www.nascar.com/schedule/"),
+    # Basketball
+    ("nba_cdn_hdr", "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"),
+    ("euroleague", "https://www.euroleaguebasketball.net/euroleague/games/"),
+    ("nba_stats", "https://stats.nba.com/stats/scoreboardv3?GameDate=2026-10-27&LeagueID=00"),
+    # Ice hockey
+    ("nhl_clubs", "https://api-web.nhle.com/v1/standings/now"),
+    ("shl", "https://www.shl.se/schedule"),
+]
+
 # ---------------------------------------------------------------- target sets
 SPORTS = json.loads((ROOT / "sports.json").read_text())["sports"]
 
@@ -189,7 +246,9 @@ def main() -> int:
     targets = []
     for sp in SPORTS:
         targets.append(("olbg_" + sp["key"], sp["hub"]))
-    if args.mode == "probe":
+    if args.mode == "probe2":
+        targets = PROBE2
+    elif args.mode == "probe":
         targets = targets[:3] + [
             ("olbg_hub", "https://www.olbg.com/betting-tips"),
             ("mlb_sched", OFFICIAL_TARGETS["baseball"][0]),
