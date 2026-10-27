@@ -3,7 +3,7 @@
   "run_id": 3,
   "stage": "production",
   "requested_utc": "2026-10-27T05:55:00Z",
-  "note": "heartbeat+crash trap: self-reporting runner diagnostics",
-  "bump": 1,
-  "at": "2026-10-27T05:39:04Z"
+  "note": "root cause: git add multi-pathspec abort; fixed with git add -A + loud-fail guard",
+  "bump": 2,
+  "at": "2026-10-27T05:45:06Z"
 }

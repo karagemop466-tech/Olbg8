@@ -51,8 +51,17 @@ jobs:
           }
           (out / "runner-heartbeat.json").write_text(json.dumps(files, indent=2) + "\n")
           PYEOF
-          git add data/olbg data/raw collect collect-ping || true
-          git diff --cached --quiet || git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
+          # NOTE: multi-pathspec "git add a b c" aborts without adding anything
+          # if any pathspec matches no files (e.g. data/raw is empty here) —
+          # use git add -A on the clean worktree instead.
+          git add -A
+          if git diff --cached --quiet; then
+            echo "FATAL: nothing to commit — collector wrote no files"
+            ls -la data/olbg/ 2>/dev/null || echo "data/olbg missing"
+            cat data/olbg/summary.json 2>/dev/null || true
+            exit 1
+          fi
+          git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash origin arena/51373243-olbg8 || true
-          git push origin HEAD:arena/51373243-olbg8 || echo "PUSH FAILED: snapshots remain in run log"
+          git push origin HEAD:arena/51373243-olbg8
           echo "=== committed: ===" && git log --oneline -3
