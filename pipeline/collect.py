@@ -181,60 +181,89 @@ SPORTS = json.loads((ROOT / "sports.json").read_text())["sports"]
 OFFICIAL_TARGETS = {
     "baseball": [
         "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=probablePitcher,linescore,team,venue&startDate={today}&endDate={plus7}",
-        "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season={season}&standingsTypes=regularSeason&hydrate=team",
+        "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=linescore,team&startDate={minus10}&endDate={today}",
+        "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season={season}&standingsTypes=regularSeason",
+        "https://statsapi.mlb.com/api/v1/teams?sportId=1&season={season}",
     ],
     "ice-hockey": [
         "https://api-web.nhle.com/v1/schedule/now",
         "https://api-web.nhle.com/v1/standings/now",
+        "https://api-web.nhle.com/v1/standings/now?date={today}",
     ],
     "basketball": [
         "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
         "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json",
+        "https://www.euroleaguebasketball.net/euroleague/games/",
+        "https://www.nba.com/games",
+        "https://www.basketball-bundesliga.de/spielplan/",
+        "https://www.acb.com/calendario",
     ],
     "cricket": [
-        "https://www.icc-cricket.com/tournaments/calendar",
+        "https://www.icc-cricket.com/fixtures-results",
+        "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
+        "https://www.ecb.co.uk/matches",
+        "https://www.cricket.com.au/matches",
+        "https://www.bcci.tv/",
     ],
     "motor-racing": [
         "https://api.jolpi.ca/ergast/f1/current/races.json",
         "https://api.jolpi.ca/ergast/f1/current/driverStandings.json",
         "https://api.jolpi.ca/ergast/f1/current/constructorStandings.json",
+        "https://api.jolpi.ca/ergast/f1/current/last/results.json",
+        "https://www.formula1.com/en/racing/2026",
+        "https://www.motogp.com/en/calendar",
     ],
     "rugby-league": [
         "https://www.nrl.com/draw/data?competition=111&season={season}&round={round}",
         "https://www.nrl.com/ladder/data?competition=111&season={season}",
+        "https://www.superleague.co.uk/",
+        "https://www.rugby-league.com/",
+        "https://www.nrl.com/draw/data?competition=111&season={season}",
     ],
     "rugby-union": [
-        "https://www.epcrugby.com/fixtures",
-        "https://www.unitedrugby.com/fixtures",
+        "https://www.epcrugby.com/",
+        "https://www.epcrugby.com/champions-cup/fixtures",
+        "https://www.unitedrugby.com/",
+        "https://prod2.lnr.fr/calendrier-et-resultats",
+        "https://top14.lnr.fr/calendrier-et-resultats",
+        "https://www.sixnationsrugby.com/",
     ],
     "golf": [
-        "https://api.sportsdata.io/golf/v2/json/tournaments",
         "https://www.pgatour.com/schedule",
+        "https://www.lpga.com/tournaments",
+        "https://www.pgatour.com/leaderboard",
+        "https://www.europeantour.com/dpworld-tour/schedule/",
+        "https://www.lpga.com/leaderboard",
     ],
     "tennis": [
+        "https://www.wtatennis.com/scores",
+        "https://www.wtatennis.com/rankings/singles",
         "https://www.atptour.com/en/scores/current",
-        "https://api.sofascore.com/api/v1/sport/tennis/scheduled-events/2026-10-27",
+        "https://www.atptour.com/en/rankings/singles",
+        "https://www.itftennis.com/en/",
+        "https://www.wimbledon.com/en_GB/scores/index.html",
     ],
-    "darts": ["https://www.pdc.tv/tournaments"],
-    "snooker": ["https://www.wst.tv/calendar"],
-    "volleyball": ["https://www.cev.eu/competitions/"],
-    "handball": ["https://ehfcl.eurohandball.com/en/matches/"],
-    "greyhounds": ["https://www.gbgb.org.uk/race-card/"],
-    "gaelic-sports": ["https://www.gaa.ie/fixtures-results/"],
+    "darts": ["https://www.pdc.tv/", "https://www.pdc.tv/tournaments", "https://www.pdc.tv/order-of-merit"],
+    "snooker": ["https://www.wst.tv/matches", "https://www.wst.tv/rankings", "https://www.wst.tv/"],
+    "volleyball": ["https://en.volleyballworld.com/volleyball/competitions/", "https://www.cev.eu/", "https://www.cev.eu/match-centres/", "https://www.legavolley.it/"],
+    "handball": ["https://ehfcl.eurohandball.com/en/", "https://www.eurohandball.com/en/", "https://ehfcl.eurohandball.com/en/men/matches/", "https://www.handball-bundesliga.de/spielplan/"],
+    "greyhounds": ["https://www.gbgb.org.uk/results", "https://www.gbgb.org.uk/race-cards/", "https://www.gbgb.org.uk/", "https://www.thegreyhoundboard.org/"],
+    "gaelic-sports": ["https://www.gaa.ie/fixtures-results/", "https://www.gaa.ie/", "https://www.hoganstand.com/"],
 }
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", default="harvest")
+    ap.add_argument("--events-per-sport", type=int, default=14)
     args = ap.parse_args()
 
+    import datetime as _dt
     now = datetime.now(timezone.utc)
     today = now.strftime("%Y-%m-%d")
-    plus7 = (now.replace(hour=0, minute=0, second=0, microsecond=0)).fromtimestamp(
-        now.timestamp() + 7 * 86400, tz=timezone.utc
-    ).strftime("%Y-%m-%d")
-    fmt = {"today": today, "minus7": (now.timestamp() and today), "plus7": plus7,
+    plus7 = _dt.datetime.fromtimestamp(now.timestamp() + 7 * 86400, tz=timezone.utc).strftime("%Y-%m-%d")
+    minus10 = _dt.datetime.fromtimestamp(now.timestamp() - 10 * 86400, tz=timezone.utc).strftime("%Y-%m-%d")
+    fmt = {"today": today, "minus10": minus10, "plus7": plus7,
            "season": str(now.year), "round": "27"}
 
     report = {
@@ -243,34 +272,51 @@ def main() -> int:
         "results": [],
     }
 
-    targets = []
-    for sp in SPORTS:
-        targets.append(("olbg_" + sp["key"], sp["hub"]))
-    if args.mode == "probe2":
-        targets = PROBE2
-    elif args.mode == "probe":
-        targets = targets[:3] + [
-            ("olbg_hub", "https://www.olbg.com/betting-tips"),
-            ("mlb_sched", OFFICIAL_TARGETS["baseball"][0]),
-            ("nhl_sched", OFFICIAL_TARGETS["ice-hockey"][0]),
-            ("nba_today", OFFICIAL_TARGETS["basketball"][0]),
-            ("f1_races", OFFICIAL_TARGETS["motor-racing"][0]),
-            ("nrl_draw", OFFICIAL_TARGETS["rugby-league"][0]),
-            ("atp", OFFICIAL_TARGETS["tennis"][0]),
-            ("sofascore_tennis", OFFICIAL_TARGETS["tennis"][1]),
-        ]
-    else:
-        for key, urls in OFFICIAL_TARGETS.items():
-            for i, u in enumerate(urls):
-                targets.append((f"official_{key}_{i}", u))
-
-    for tag, url in targets:
-        u = url.format(**fmt)
-        res = fetch(u)
+    def run(tag: str, url: str) -> dict:
+        res = fetch(url)
         res = save(slug(tag), res)
         res["tag"] = tag
         report["results"].append(res)
-        print(f"{res['status']:>4} {res['raw_chars']:>8} {tag} {u}", flush=True)
+        print(f"{res['status']:>4} {res['raw_chars']:>8} {tag} {url}", flush=True)
+        return res
+
+    if args.mode == "probe2":
+        for tag, url in PROBE2:
+            run(tag, url)
+    elif args.mode == "probe":
+        for tag, url in [("olbg_" + sp["key"], sp["hub"]) for sp in SPORTS[:3]] + [
+            ("mlb_sched", OFFICIAL_TARGETS["baseball"][0]),
+            ("nhl_sched", OFFICIAL_TARGETS["ice-hockey"][0]),
+        ]:
+            run(tag, url)
+    else:
+        # 1. OLBG sport feeds
+        for sp in SPORTS:
+            run("olbg_" + sp["key"], sp["hub"])
+            time.sleep(1)
+        # 2. OLBG event pages: every distinct event found in the feed
+        seen = set()
+        for sp in SPORTS:
+            p = RAW / f"olbg_{sp['key']}.txt"
+            if not p.exists():
+                continue
+            urls = []
+            for m in re.finditer(r'(https://www\.olbg\.com/betting-tips/[^"\s]+event_id=\d+)', p.read_text(encoding="utf-8", errors="replace")):
+                u = m.group(1)
+                if u not in seen:
+                    seen.add(u)
+                    urls.append(u)
+            for u in urls[: args.events_per_sport]:
+                eid = re.search(r"event_id=(\d+)", u).group(1)
+                run(f"olbgev_{sp['key']}_{eid}", u)
+                time.sleep(0.6)
+        # 3. Official sources
+        for key, urls in OFFICIAL_TARGETS.items():
+            for i, u in enumerate(urls):
+                if not u:
+                    continue
+                run(f"official_{key}_{i}", u.format(**fmt))
+                time.sleep(0.4)
 
     report["finishedUtc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     (OUT / f"{args.mode}.json").write_text(json.dumps(report, indent=1), encoding="utf-8")
