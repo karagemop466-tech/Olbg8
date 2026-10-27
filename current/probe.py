@@ -49,12 +49,12 @@ def main():
             status, final, body = get(url)
             if urlsplit(final).hostname not in ('www.olbg.com', 'olbg.com'):
                 raise ValueError('unexpected category redirect')
-            if any(x in body.lower() for x in ('cf-chl-', 'just a moment...', 'captcha', 'access denied')):
-                message.append('OLBG: access challenge; not bypassed')
-            else:
-                parser = Links()
-                parser.feed(body)
-                message.append(f'OLBG: HTTP {status}; {len(body)} chars; {len(parser.ids)} distinct event IDs; explicit-no-tips={"no tips found" in body.lower()}')
+            parser = Links()
+            parser.feed(body)
+            title_match = re.search(r'<title[^>]*>(.*?)</title>', body, re.I | re.S)
+            title = re.sub(r'\s+', ' ', title_match.group(1)).strip()[:90] if title_match else 'none'
+            markers = [x for x in ('cf-chl-', 'just a moment...', 'captcha', 'access denied') if x in body.lower()]
+            message.append(f'OLBG: HTTP {status}; {len(body)} chars; title={title}; IDs={len(parser.ids)}; markers={markers}')
     except Exception as exc:
         message.append(f'OLBG: {type(exc).__name__}: {str(exc)[:150]}')
     try:
