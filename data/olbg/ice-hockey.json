@@ -1,7 +1,7 @@
 {
  "sport": "Ice Hockey",
  "sport_id": 13,
- "captured_utc": "2026-10-27T06:11:51Z",
+ "captured_utc": "2026-10-27T06:18:46Z",
  "rows": [
   {
    "sport": "Ice Hockey",
@@ -863,9 +863,9 @@
    "competition": "NHL",
    "market": "Puck Line",
    "selection": "PHI Flyers",
-   "decimal_odds": 1.37,
-   "american_odds": -270,
-   "fractional_odds": "37/100",
+   "decimal_odds": 1.4,
+   "american_odds": -250,
+   "fractional_odds": "2/5",
    "start_utc": "2026-10-27T23:07:00Z",
    "event_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
    "league_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/13",
