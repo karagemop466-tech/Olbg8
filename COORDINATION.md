@@ -418,3 +418,17 @@ Session: `51373243` · Branch: `arena/51373243-olbg8` (platform-required branch 
 - 2026-10-27: Runner no-commit root cause found and fixed. All four prior `desk-collector` runs (40455509135/40455741772/40456075522/40456521445) ran the fetch step (~70s) but committed nothing because the commit step used a multi-pathspec `git add data/olbg data/raw collect collect-ping`: the nonexistent `data/raw` pathspec makes `git add` exit 128 and stage **nothing**, masked by `|| true`. Fixed in `3f8af86` (commit step now `git add -A` + loud-fail guard + loud push; always writes `data/olbg/runner-heartbeat.json`). Prior "runner egress dead end" verdict rescinded; new run pending heartbeat confirmation.
 - 2026-10-27: v2 desk built and published to this branch. Data source of truth: `scripts/desk_data_rows.py` (114 OLBG rows across 15 sports with captured prices/tips/URLs/flags + 9 official evidence sources + 4 desk research lines from official inputs) and `scripts/desk_data_picks.py` (48 published picks, 5+/sport where rows allow, 30+ word unique prose, low/medium/high by research probability, 6 cross-cutting flags, 23-source registry). Deterministic builder `scripts/build_desk.py` writes `data/{dashboard,olbg-capture,official-evidence,line-research,sources}.json` and enforces: official reference link per row, visible flag for unconfirmed identity, prose word-count + banned-word audit. Commits: `13d34bd` (data sources), `f86b738` (builder + site data), `0ab62ce` (site render v2 + smoke test).
 - 2026-10-27: v2 site: 48 confidence-labeled picks (executive summary ranked by research probability; per-sport pick groups; shortfall reported not filled), 40 event-confirmed rows, 4 desk research lines, 13/15 sports with listings (snooker + greyhounds = 0 OLBG events today, reported as empty scope). Key irregularities on Flagged: OLBG "Skanderborg" vs EHF-official "SAH Aarhus" identity conflict (F-1027-01), systematic OLBG-vs-official time divergence (F-1027-02), handball rows are 3-way "Tie" (draw) tips (F-1027-03).
+### Release record — PR #18 (corrections, CI repair, consolidation)
+
+- **PR #18** <https://github.com/karagemop466-tech/Olbg8/pull/18> — "Desk corrections: per-game figures,
+  source re-verification, stale page removed". `build` and `verify` both passed on the final head
+  (runs 40457619796 / 40457619878). **Merged to `main` as `99bf72e`** on 2026-10-27.
+- **Deploy.** `Deploy OLBG research desk` run 40457699851 and `pages build and deployment` 40457699210 both
+  succeeded, `Site quality` run 40457699667 and `Expanded evidence lab checks` 40457699663 succeeded — `main` is
+  green again after the two failing runs on `ce345a8` and `05234f7`. The live page was re-read at
+  <https://karagemop466-tech.github.io/Olbg8/picks.html> and now shows the corrected cards: Dax conceding 39.1 a
+  game, Grenoble scoring 29.6 against Béziers' 36.8, and "24 picks across 7 sports — 10 high, 12 medium, 2 low".
+- **What this PR fixed.** Four sentences had attached a scoring rate to the wrong side of the same match (Dax,
+  Béziers/Grenoble, Plock, Porto), two claims had no captured source, and the engine now carries a separate
+  conceded-per-game input so the classes of error cannot recur. The CI gate was rebuilt around the desk that is
+  actually published, which is also what unblocked Pages.
