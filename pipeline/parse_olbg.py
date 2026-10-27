@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent
 RAW = ROOT / "raw"
 OUT = ROOT / "out"
 
-ROW_SPLIT = re.compile(r'<li class="min-h-\[60px\]">')
+ROW_SPLIT = re.compile(r'<li class="min-h-\[')
 SPORTS = json.loads((ROOT / "sports.json").read_text())["sports"]
 
 
@@ -52,6 +52,7 @@ def parse_feed(text: str, sport: dict) -> list[dict]:
         tiprec = one(r'<b class="text-xs truncate">(.*?)</b>', block, flags=re.S)
         conf = one(r"--confidence:\s*(\d+)%", block)
         stars = one(r'<div class="filled" style="width:\s*(\d+)%', block)
+        competition = one(r'<p class="text-sm truncate">(.*?)</p>', block, flags=re.S)
         rows.append({
             "sport_key": sport["key"],
             "sport_label": sport["label"],
@@ -61,6 +62,7 @@ def parse_feed(text: str, sport: dict) -> list[dict]:
             "start_utc": start,
             "selection": selection,
             "market": market,
+            "competition": competition,
             "decimal": dec,
             "american": amer,
             "fractional": frac,
@@ -76,12 +78,19 @@ def main() -> int:
     all_rows = []
     status = []
     for sp in SPORTS:
-        p = RAW / f"olbg_{sp['key']}.txt"
-        if not p.exists():
-            status.append({"sport": sp["label"], "file": p.name, "rows": 0, "note": "no capture"})
+        prefix = "olbg_" + sp["key"].replace("-", "_")
+        files = [p for p in sorted(RAW.glob("olbg_*.txt")) if p.name.startswith(prefix)]
+        if not files:
+            status.append({"sport": sp["label"], "files": [], "rows": 0, "note": "no capture"})
             continue
-        rows = parse_feed(p.read_text(encoding="utf-8", errors="replace"), sp)
-        status.append({"sport": sp["label"], "file": p.name, "rows": len(rows)})
+        rows = []
+        for p in files:
+            rows.extend(parse_feed(p.read_text(encoding="utf-8", errors="replace"), sp))
+        dedup = {}
+        for r in rows:
+            dedup[(r["olbg_event_url"], r["selection"], r["market"])] = r
+        rows = list(dedup.values())
+        status.append({"sport": sp["label"], "files": [f.name for f in files], "rows": len(rows)})
         all_rows.extend(rows)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "olbg_feed.json").write_text(json.dumps({

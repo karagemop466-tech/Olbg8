@@ -255,7 +255,7 @@ OFFICIAL_TARGETS = {
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", default="harvest")
-    ap.add_argument("--events-per-sport", type=int, default=14)
+    ap.add_argument("--events-per-sport", type=int, default=20)
     args = ap.parse_args()
 
     import datetime as _dt
@@ -294,22 +294,42 @@ def main() -> int:
         for sp in SPORTS:
             run("olbg_" + sp["key"], sp["hub"])
             time.sleep(1)
-        # 2. OLBG event pages: every distinct event found in the feed
-        seen = set()
+        # 1b. OLBG competition hubs linked from each sport page
         for sp in SPORTS:
-            p = RAW / f"olbg_{sp['key']}.txt"
+            p = RAW / ("olbg_" + sp["key"].replace("-", "_") + ".txt")
             if not p.exists():
                 continue
+            body = p.read_text(encoding="utf-8", errors="replace")
+            comps = []
+            for m in re.finditer(r'href="(/betting-tips/[^"?#]+)"', body):
+                path = m.group(1)
+                if "All_Events" in path or "event_id" in path:
+                    continue
+                segments = [x for x in path.split("/") if x]
+                if len(segments) < 3:
+                    continue
+                comps.append("https://www.olbg.com" + path)
+            comps = list(dict.fromkeys(comps))[:18]
+            for i, u in enumerate(comps):
+                run(f"olbgcomp_{sp['key'].replace('-', '_')}_{i}", u)
+                time.sleep(0.5)
+
+        # 2. OLBG event pages: every distinct event found across all captured pages
+        seen = set()
+        for sp in SPORTS:
             urls = []
-            for m in re.finditer(r'(https://www\.olbg\.com/betting-tips/[^"\s]+event_id=\d+)', p.read_text(encoding="utf-8", errors="replace")):
-                u = m.group(1)
-                if u not in seen:
-                    seen.add(u)
-                    urls.append(u)
+            for p in sorted(RAW.glob("olbg_*.txt")):
+                if not p.name.startswith("olbg_" + sp["key"].replace("-", "_")):
+                    continue
+                for m in re.finditer(r'(https://www\.olbg\.com/betting-tips/[^"\s]+event_id=\d+)', p.read_text(encoding="utf-8", errors="replace")):
+                    u = m.group(1)
+                    if u not in seen:
+                        seen.add(u)
+                        urls.append(u)
             for u in urls[: args.events_per_sport]:
                 eid = re.search(r"event_id=(\d+)", u).group(1)
-                run(f"olbgev_{sp['key']}_{eid}", u)
-                time.sleep(0.6)
+                run(f"olbgev_{sp['key'].replace('-', '_')}_{eid}", u)
+                time.sleep(0.5)
         # 3. Official sources
         for key, urls in OFFICIAL_TARGETS.items():
             for i, u in enumerate(urls):
