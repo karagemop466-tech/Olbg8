@@ -80,8 +80,11 @@ def shell(page, title, body, desc):
   <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
   an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
   <nav class="sportsnav">{sports_nav}</nav>
-  <div class="fine">Supplementary audits from earlier sessions remain at <a href="{rel}evidence-lab/index.html">evidence-lab/</a> and
-  <a href="{rel}research-desk/index.html">research-desk/</a>. Static snapshot, not a live feed.</div>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="{rel}board/index.html">board/</a>, a collector's live capture at <a href="{rel}current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="{rel}evidence-lab/index.html">evidence-lab/</a> and <a href="{rel}research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
 </footer>
 </body></html>"""
 

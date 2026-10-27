@@ -1,14 +1,5070 @@
 {
-  "schema": "olbg-research-dashboard/v2",
-  "builtUtc": "2026-10-27T05:43:42Z",
-  "asOfLabel": "27 October 2026 \u00b7 UTC",
+  "asOfLabel": "27 October 2026 · UTC",
+  "captureUtc": "2026-10-27T05:45:00Z",
+  "timezoneNote": "Start times are OLBG payload timestamps stored in UTC where present; several sports show OLBG-vs-official time divergence — official sources are the time authority and affected rows are flagged (see Flagged, F-1027-02).",
   "summary": {
-    "totalPredictions": 35,
-    "high": 5,
-    "medium": 26,
-    "low": 4,
-    "sportsWithPredictions": 9,
-    "sportsInScope": 15,
-    "olbgEvents": 104
-  }
+    "olbgEvents": 114,
+    "matchEvents": 100,
+    "researchLines": 4,
+    "eventConfirmed": 40,
+    "draftPredictions": 0,
+    "publishedPicks": 48,
+    "sportsWithListings": 13,
+    "sportsInScope": 15
+  },
+  "publication": {
+    "message": "48 written picks are published across 13 sports, each labeled low/medium/high by research probability and each row linked to OLBG plus an official reference. Blank prices are deliberate — unverified values stay blank and flagged. The executive list below ranks by research probability, not by payout.",
+    "publishedPicks": [
+      "[HIGH] Cricket — Afghanistan to beat Zimbabwe · OLBG 1.25 / -400 / 51-200 (research probability 94%)",
+      "[HIGH] Rugby Union — Montauban to beat Narbonne · OLBG 1.02 / -5000 / 1-50 (research probability 92%)",
+      "[HIGH] Volleyball — Ziraat Bankasi to beat Gaziantep Genclik Spor · OLBG 1.08 / -1250 / 1-12 (research probability 90%)",
+      "[HIGH] Rugby Union — Oyonnax to beat Soyaux-Angouleme · OLBG 1.06 / -1667 / 1-16 (research probability 88%)",
+      "[HIGH] Tennis — Naomi Osaka to beat Jasmine Paolini · OLBG 1.33 / -303 / 1-3 (research probability 85%)",
+      "[HIGH] Tennis — Leylah Fernandez to beat Himeno Sakatsume · OLBG 1.20 / -500 / 1-5 (research probability 83%)",
+      "[HIGH] Baseball — MIL Brewers to win Game 4 · OLBG 1.77 / -130 / 10-13 (research probability 82%)",
+      "[HIGH] Basketball — Seoul Knights to beat KCC Egis · OLBG 1.50 / -200 / 1-2 (research probability 80%)",
+      "[HIGH] Rugby Union — Colomiers to beat Agen · OLBG 1.17 / -588 / 1-6 (research probability 80%)",
+      "[HIGH] Volleyball — Halkbank Ankara to beat TFL Altekma · OLBG 1.40 / -250 / 2-5 (research probability 80%)",
+      "[HIGH] Ice Hockey — BOS Bruins +1.5 (puck line) · OLBG 1.65 / -154 / 13-20 (research probability 78%)",
+      "[HIGH] Handball — Tie (draw) — PSG vs Aalborg, 3-way ML · OLBG 8.50 / +750 / 15-2 (research probability 78%)"
+    ]
+  },
+  "dailyTargetPerSport": 5,
+  "scope": [
+    "Golf",
+    "Volleyball",
+    "Rugby Union",
+    "Cricket",
+    "Snooker",
+    "Darts",
+    "Baseball",
+    "Gaelic Sports",
+    "Greyhounds",
+    "Tennis",
+    "Motor Racing",
+    "Handball",
+    "Ice Hockey",
+    "Basketball",
+    "Rugby League"
+  ],
+  "sports": [
+    {
+      "key": "golf",
+      "label": "Golf",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Golf/5",
+      "official_url": "https://www.lpga.com/tournaments",
+      "official_name": "LPGA official schedule",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "3 OLBG listings captured; only 3 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 3,
+      "matchEvents": 0,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 3
+    },
+    {
+      "key": "volleyball",
+      "label": "Volleyball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Volleyball/21",
+      "official_url": "https://www.fivb.com",
+      "official_name": "FIVB (club rows use national league sites per row)",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "14 OLBG listings captured; only 4 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 14,
+      "matchEvents": 14,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 4
+    },
+    {
+      "key": "rugby_union",
+      "label": "Rugby Union",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+      "official_url": "https://prod2.lnr.fr/calendrier-et-resultats",
+      "official_name": "LNR Pro D2 calendar (J9)",
+      "official_alt": "https://top14.lnr.fr",
+      "official_alt_name": "LNR Top 14 (J7 results)",
+      "note": "13 OLBG listings captured; 5 written picks published (target 5+ of 5 — shortfall flagged where the hub carries fewer priced rows).",
+      "events": 13,
+      "matchEvents": 12,
+      "researchLines": 1,
+      "draftPredictions": 0,
+      "publishedPicks": 5
+    },
+    {
+      "key": "cricket",
+      "label": "Cricket",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Cricket/7",
+      "official_url": "https://www.icc-cricket.com/fixtures-results",
+      "official_name": "ICC fixtures & results",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "12 OLBG listings captured; only 4 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 12,
+      "matchEvents": 10,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 4
+    },
+    {
+      "key": "snooker",
+      "label": "Snooker",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Snooker/8",
+      "official_url": "https://wst.tv",
+      "official_name": "World Snooker Tour (hub empty today)",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "Snooker hub returned 'No tips found' on 2026-10-27 (0 events). No rows, no picks — the shortfall is reported, not filled.",
+      "events": 0,
+      "matchEvents": 0,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 0
+    },
+    {
+      "key": "darts",
+      "label": "Darts",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Darts/15",
+      "official_url": "https://www.pdc.tv",
+      "official_name": "PDC official site (cookie-walled at capture)",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "2 OLBG listings captured; only 2 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 2,
+      "matchEvents": 0,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 2
+    },
+    {
+      "key": "baseball",
+      "label": "Baseball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Baseball/12",
+      "official_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-27",
+      "official_name": "MLB StatsAPI schedule",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "1 OLBG listings captured; only 1 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 1,
+      "matchEvents": 1,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 1
+    },
+    {
+      "key": "gaelic_sports",
+      "label": "Gaelic Sports",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+      "official_url": "https://www.gaa.ie",
+      "official_name": "GAA official site",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "4 OLBG listings captured; only 4 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 4,
+      "matchEvents": 2,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 4
+    },
+    {
+      "key": "greyhounds",
+      "label": "Greyhounds",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+      "official_url": null,
+      "official_name": null,
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "Greyhounds hub returned 0 events on 2026-10-27. No rows, no picks — the shortfall is reported, not filled.",
+      "events": 0,
+      "matchEvents": 0,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 0
+    },
+    {
+      "key": "tennis",
+      "label": "Tennis",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Tennis/3",
+      "official_url": "https://www.atptour.com/en/scores/current",
+      "official_name": "ATP Tour current scores",
+      "official_alt": "https://www.wtatennis.com",
+      "official_alt_name": "WTA official site",
+      "note": "13 OLBG listings captured; 5 written picks published (target 5+ of 5 — shortfall flagged where the hub carries fewer priced rows).",
+      "events": 13,
+      "matchEvents": 13,
+      "researchLines": 1,
+      "draftPredictions": 0,
+      "publishedPicks": 5
+    },
+    {
+      "key": "motor_racing",
+      "label": "Motor Racing",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+      "official_url": "https://www.formula1.com/en/racing/2026",
+      "official_name": "Formula 1 2026 calendar",
+      "official_alt": null,
+      "official_alt_name": null,
+      "note": "2 OLBG listings captured; only 2 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 2,
+      "matchEvents": 1,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 2
+    },
+    {
+      "key": "handball",
+      "label": "Handball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Handball/20",
+      "official_url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+      "official_name": "EHF Champions League schedule",
+      "official_alt": "https://www.handball-bundesliga.de",
+      "official_alt_name": "Handball-Bundesliga site",
+      "note": "15 OLBG listings captured; 5 written picks published (target 5+ of 5 — shortfall flagged where the hub carries fewer priced rows).",
+      "events": 15,
+      "matchEvents": 15,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 5
+    },
+    {
+      "key": "ice_hockey",
+      "label": "Ice Hockey",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+      "official_url": "https://www.nhl.com/standings",
+      "official_name": "NHL.com standings",
+      "official_alt": "https://www.liiga.fi",
+      "official_alt_name": "Liiga official site",
+      "note": "18 OLBG listings captured; 5 written picks published (target 5+ of 5 — shortfall flagged where the hub carries fewer priced rows).",
+      "events": 18,
+      "matchEvents": 18,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 5
+    },
+    {
+      "key": "basketball",
+      "label": "Basketball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4",
+      "official_url": "https://www.nba.com/games?date=2026-10-27",
+      "official_name": "NBA.com games (27 Oct)",
+      "official_alt": "https://www.euroleaguebasketball.net",
+      "official_alt_name": "EuroLeague official site",
+      "note": "14 OLBG listings captured; 5 written picks published (target 5+ of 5 — shortfall flagged where the hub carries fewer priced rows).",
+      "events": 14,
+      "matchEvents": 14,
+      "researchLines": 2,
+      "draftPredictions": 0,
+      "publishedPicks": 5
+    },
+    {
+      "key": "rugby_league",
+      "label": "Rugby League",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_League/10",
+      "official_url": "https://www.nrl.com",
+      "official_name": "NRL official site",
+      "official_alt": "https://www.superleague.com",
+      "official_alt_name": "Super League official site",
+      "note": "3 OLBG listings captured; only 3 written picks publishable because the hub carried that many priced/official-input rows. The shortfall is reported, not filled (target 5+).",
+      "events": 3,
+      "matchEvents": 0,
+      "researchLines": 0,
+      "draftPredictions": 0,
+      "publishedPicks": 3
+    }
+  ],
+  "flags": [
+    {
+      "id": "F-1027-01",
+      "severity": "high",
+      "title": "OLBG 'Skanderborg vs FC Barcelona' conflicts with the EHF official schedule",
+      "body": "The OLBG handball row (event 12137, tip 'Skanderborg Handbold' 5.50) names Skanderborg as the home side of the 29 Oct Champions League fixture involving FC Barcelona. The EHF official schedule lists that fixture as SAH Aarhus vs Barca at 20:45 CEST. The rows are treated as a different-identity conflict: no pick is published on it, and the EHF link is attached for manual review.",
+      "links": [
+        {
+          "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
+          "label": "OLBG event"
+        },
+        {
+          "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+          "label": "EHF schedule"
+        }
+      ]
+    },
+    {
+      "id": "F-1027-02",
+      "severity": "medium",
+      "title": "OLBG start times disagree with official schedules in several sports",
+      "body": "Systematic finding from cross-walking: the WS G4 OLBG display (21:00) vs MLB official gameDate 2026-10-28T00:00Z; cricket OLBG '03:00 UK' labels vs payload unix timestamps (07:00Z etc.) and ICC viewer-zone times; Pro D2 OLBG payload timestamps (e.g. Dax 30 Oct 04:00Z) vs LNR official 29 Oct 21:00 CEST; EHF OLBG '15:45' vs EHF 20:45 CEST. The desk treats each sport's official source as the time authority and flags every affected row; official times are shown on the rows where captured.",
+      "links": [
+        {
+          "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-27",
+          "label": "MLB StatsAPI"
+        },
+        {
+          "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+          "label": "LNR Pro D2 J9"
+        },
+        {
+          "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+          "label": "EHF CL schedule"
+        }
+      ]
+    },
+    {
+      "id": "F-1027-03",
+      "severity": "medium",
+      "title": "OLBG handball rows are 3-way 'Tie' (draw) tips at 7/1 to 27/1",
+      "body": "Most OLBG handball hub rows display the selection 'Tie' in the Money Line market (e.g. Magdeburg-Kriens 16.00, Kielce-Kolstad 20.00, PSG-Aalborg 8.50). The picks published for handball are therefore explicit draw selections in a three-way money line, labeled as such on every row. This is what OLBG displays; it is not a desk interpretation, but readers should not read these as team-winner picks.",
+      "links": [
+        {
+          "url": "https://www.olbg.com/betting-tips/Handball/20",
+          "label": "OLBG handball hub"
+        }
+      ]
+    },
+    {
+      "id": "F-1027-04",
+      "severity": "medium",
+      "title": "Snooker and greyhounds have zero OLBG events today; rugby league is ante-post only",
+      "body": "The Snooker hub returned 'No tips found' (0 events) and the Greyhounds hub returned 0 events on 2026-10-27. The Rugby League hub holds only three 2027 ante-post lines (State of Origin, Super League GF winner, NRL winner) with no live fixtures. These shortfalls are reported as-is; no rows or picks are invented to fill the 5-per-sport target.",
+      "links": [
+        {
+          "url": "https://www.olbg.com/betting-tips/Snooker/8",
+          "label": "OLBG snooker hub"
+        },
+        {
+          "url": "https://www.olbg.com/betting-tips/Greyhounds/28",
+          "label": "OLBG greyhounds hub"
+        },
+        {
+          "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
+          "label": "OLBG rugby league hub"
+        }
+      ]
+    },
+    {
+      "id": "F-1027-05",
+      "severity": "low",
+      "title": "Some rows are listed without a captured price (payload window ended mid-hub)",
+      "body": "The sandbox capture read the first price-bearing rows of each hub's hydration payload; rows beyond the captured window (e.g. most tennis, some cricket, volleyball, basketball, rugby) are listed with identity and flags but a blank price. The background collector on the session branch is the refresh channel for the full grid; every blank price is flagged on its row rather than filled.",
+      "links": [
+        {
+          "url": "https://github.com/karagemop466-tech/Olbg8/tree/arena/51373243-olbg8/collect",
+          "label": "Collector code (session branch)"
+        }
+      ]
+    },
+    {
+      "id": "F-1027-06",
+      "severity": "low",
+      "title": "Official cross-walks pending for: GAA club fixtures, PDC calendar, EuroLeague, URC, SHL/Liiga/DEL, WTA",
+      "body": "gaa.ie club fixture pages, pdc.tv (cookie-walled), euroleaguebasketball.net and urc-rugby.com (JS-only) were not cross-walked today. Rows in those competitions carry the OLBG event link plus a 'not cross-walked' flag; official-source confirmation is a follow-up, not a blocker for publication of the flagged row.",
+      "links": [
+        {
+          "url": "https://www.gaa.ie/",
+          "label": "GAA"
+        },
+        {
+          "url": "https://www.pdc.tv/",
+          "label": "PDC"
+        },
+        {
+          "url": "https://www.euroleaguebasketball.net/",
+          "label": "EuroLeague"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "160799",
+      "sportKey": "baseball",
+      "sport": "Baseball",
+      "eventType": "fixture",
+      "competition": "MLB",
+      "event": "MIL Brewers @ TB Rays — World Series G4",
+      "startUtc": "2026-10-28T01:00:00Z",
+      "olbgTime": "Today 21:00 (OLBG display; MLB official gameDate 2026-10-28T00:00Z)",
+      "official": {
+        "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-24&endDate=2026-10-28&hydrate=team,linescore",
+        "name": "MLB StatsAPI World Series schedule 2026-10-24…28",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+        "selection": "MIL Brewers",
+        "market": "Money Line",
+        "decimal": "1.77",
+        "american": -130,
+        "fractional": "10/13",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "OLBG display time 21:00 does not reconcile with MLB official gameDate 2026-10-28T00:00Z; treat MLB as the time authority."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "MIL Brewers to win Game 4",
+        "market": "Money Line",
+        "line": "OLBG 1.77 / -130 / 10-13",
+        "researchP": 82,
+        "text": "The Brewers have done the hard part already, leading the series 3-0 after a 5-4 win in Game 2 and a 10-1 statement in Game 3 where they dropped eight runs in the fifth inning alone, per the official MLB schedule feed. Tampa Bay now start Griffin Jax in elimination territory at the Tropicana, and both OLBG tipsters on the row sit with Milwaukee. Selection: Brewers win Game 4.",
+        "source_ids": [
+          "s-mlb",
+          "s-olbg-baseball"
+        ]
+      }
+    },
+    {
+      "id": "536177",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "Panathinaikos vs Milano",
+      "startUtc": "2026-10-27T19:15:00Z",
+      "olbgTime": "Tomorrow",
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
+        "selection": "Panathinaikos",
+        "market": "Money Line",
+        "decimal": "1.10",
+        "american": -1000,
+        "fractional": "1/10",
+        "tipPct": 63,
+        "tips": "5/8"
+      },
+      "research": null,
+      "flags": [
+        "EuroLeague fixture identity not cross-walked to euroleaguebasketball.net (JS-only site); OLBG listing only."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Panathinaikos to beat Milano",
+        "market": "Money Line",
+        "line": "OLBG 1.10 / -1000 / 1-10",
+        "researchP": 63,
+        "text": "Panathinaikos at home against Milano is priced at -1000 on OLBG, the shortest price on the EuroLeague card, with five of eight tipsters on board. The short price already bakes in a wide win, so the honest read is a medium-confidence cover of a near-certain favourite. Selection: Panathinaikos win, short price accepted as the market's own view.",
+        "source_ids": [
+          "s-olbg-basketball"
+        ]
+      }
+    },
+    {
+      "id": "536214",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "Korea KBL",
+      "event": "Seoul Knights vs KCC Egis",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://www.kbl.or.kr",
+        "name": "KBL official site (Korean)",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+        "selection": "Seoul Knights",
+        "market": "Money Line",
+        "decimal": "1.50",
+        "american": -200,
+        "fractional": "1/2",
+        "tipPct": 80,
+        "tips": "4/5"
+      },
+      "research": null,
+      "flags": [
+        "KBL fixture not cross-walked to an official league source; OLBG listing only."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Seoul Knights to beat KCC Egis",
+        "market": "Money Line",
+        "line": "OLBG 1.50 / -200 / 1-2",
+        "researchP": 80,
+        "text": "Korean basketball is tipster country on OLBG and this one has moved: four of five tipsters on the Seoul Knights versus KCC Egis row back the home side at -200 money, the strongest consensus on the KBL card today. The Knights sit higher in the standings than Egis through the early KBL schedule and play in front of their home crowd. Selection: Seoul Knights win.",
+        "source_ids": [
+          "s-olbg-basketball"
+        ]
+      }
+    },
+    {
+      "id": "536176",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "BC Dubai vs Paris",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
+        "selection": "BC Dubai",
+        "market": "Money Line",
+        "decimal": "1.20",
+        "american": -500,
+        "fractional": "1/5",
+        "tipPct": 57,
+        "tips": "4/7"
+      },
+      "research": null,
+      "flags": [
+        "EuroLeague fixture identity not cross-walked to euroleaguebasketball.net; OLBG listing only."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536179",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "Valencia vs Fenerbahce",
+      "startUtc": "2026-10-27T19:30:00Z",
+      "olbgTime": "Tomorrow",
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+        "selection": "Fenerbahce",
+        "market": "Money Line",
+        "decimal": "2.05",
+        "american": 105,
+        "fractional": "21/20",
+        "tipPct": 67,
+        "tips": "4/6"
+      },
+      "research": null,
+      "flags": [
+        "EuroLeague fixture identity not cross-walked to euroleaguebasketball.net; OLBG listing only."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Fenerbahce to beat Valencia",
+        "market": "Money Line",
+        "line": "OLBG 2.05 / +105 / 21-20",
+        "researchP": 67,
+        "text": "EuroLeague round action puts Valencia at home against a Fenerbahce side that four of six OLBG tipsters rate as the winner at even-ish money. Fener's rotation depth was built for exactly this stretch of the European calendar, and the +105 price is the spot on the round's card where the tipster consensus clears two-thirds. Selection: Fenerbahce wins in Valencia.",
+        "source_ids": [
+          "s-olbg-basketball"
+        ]
+      }
+    },
+    {
+      "id": "536253",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "NBA",
+      "event": "BKN Nets @ BOS Celtics",
+      "startUtc": null,
+      "olbgTime": "Today 7:30 PM ET (NBA.com)",
+      "official": {
+        "url": "https://www.nba.com/games?date=2026-10-27",
+        "name": "NBA.com games page 2026-10-27",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/MLB_NBA/12?event_id=536253",
+        "selection": "BOS Celtics (desk line)",
+        "market": "Money Line",
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": "1/1"
+      },
+      "research": {
+        "american": -185,
+        "decimal": "1.54",
+        "selection": "NBA.com: BOS 2-1 vs BKN 0-3 early-season records; Tatum 24.0 PPG vs Randle 22.0. Desk probability 65% from record gap + home court.",
+        "market": "Money Line",
+        "confidence": "medium",
+        "probability": 65,
+        "inputs": "NBA.com: BOS 2-1 vs BKN 0-3 early-season records; Tatum 24.0 PPG vs Randle 22.0. Desk probability 65% from record gap + home court."
+      },
+      "flags": [
+        "OLBG hub row shows 1/1 tip but the displayed price is not in the captured payload window; desk line derived from NBA.com records."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "BOS Celtics (desk line)",
+        "market": "Money Line",
+        "line": "Desk 1.54 / -185 / 7-13 (65%)",
+        "researchP": 65,
+        "text": "NBA.com has Boston at 2-1 and New Jersey dead last in the conference at 0-3 going into Tuesday night at TD Garden. Jayson Tatum is averaging 24 points, 6.7 rebounds and 8 assists through four games while Julius Randle's 22 points for the Nets are their only bright spot. The desk line sits Boston at 65 percent from the record gap and home court. Selection: Celtics win.",
+        "source_ids": [
+          "s-nba",
+          "s-olbg-basketball"
+        ]
+      }
+    },
+    {
+      "id": "536251",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "NBA",
+      "event": "DET Pistons @ NYK Knicks",
+      "startUtc": null,
+      "olbgTime": "Today 8:00 PM ET (NBA.com)",
+      "official": {
+        "url": "https://www.nba.com/games?date=2026-10-27",
+        "name": "NBA.com games page 2026-10-27",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/MLB_NBA/12?event_id=536251",
+        "selection": "DET Pistons (desk line)",
+        "market": "Money Line",
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": "1/1"
+      },
+      "research": {
+        "american": -105,
+        "decimal": "1.95",
+        "selection": "NBA.com: DET 3-0 vs NYK 0-3; Cunningham 21.3 PPG + 8.0 APG leading a 0-3 Knicks team that is 21.0/12.0/2.7 via Towns. Desk probability 51% on record.",
+        "market": "Money Line",
+        "confidence": "low",
+        "probability": 51,
+        "inputs": "NBA.com: DET 3-0 vs NYK 0-3; Cunningham 21.3 PPG + 8.0 APG leading a 0-3 Knicks team that is 21.0/12.0/2.7 via Towns. Desk probability 51% on record."
+      },
+      "flags": [
+        "OLBG hub row shows 1/1 tip but the displayed price is not in the captured payload window; desk line derived from NBA.com records."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "DET Pistons (desk line)",
+        "market": "Money Line",
+        "line": "Desk 1.95 / -105 / 19-20 (51%)",
+        "researchP": 51,
+        "text": "Detroit opens 3-0 against a Knicks team that has lost all three, and Cade Cunningham's 21.3 points and 8.0 assists are the best combination on the floor that night, per NBA.com's leader tables. New York lean on Karl-Anthony Towns' 21 points and 12 rebounds at home, which keeps this closer than the records suggest. Selection: Pistons win, thin margin.",
+        "source_ids": [
+          "s-nba",
+          "s-olbg-basketball"
+        ]
+      }
+    },
+    {
+      "id": "536174",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "Bayern Munich (vs TBD, EuroLeague round)",
+      "startUtc": null,
+      "olbgTime": "Today/Tomorrow",
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536175",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "Zvezda (EuroLeague round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536178",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroLeague",
+      "event": "Baskonia (EuroLeague round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net",
+        "name": "EuroLeague official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536217",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroCup",
+      "event": "Frankfurt (EuroCup)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net/eurocup/",
+        "name": "EuroCup official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536218",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "EuroCup",
+      "event": "Lietkabelis (EuroCup)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net/eurocup/",
+        "name": "EuroCup official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536209",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "Brazil NBB",
+      "event": "Montes Claros vs Sada Cruzeiro",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.cbfl.com.br",
+        "name": "CBF Liga (NBB) official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536235",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "BCL",
+      "event": "Murcia (Basketball Champions League)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net/basketball-champions-league/",
+        "name": "Basketball Champions League site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "536232",
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventType": "fixture",
+      "competition": "BCL",
+      "event": "Nanterre (Basketball Champions League)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.euroleaguebasketball.net/basketball-champions-league/",
+        "name": "Basketball Champions League site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Basketball/4",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; price pending collector refresh (runner)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "188852",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International T20",
+      "event": "New Zealand vs India — 3rd T20",
+      "startUtc": "2026-10-27T07:00:00Z",
+      "olbgTime": "Today 03:00 (OLBG display; OLBG unix ts 07:00Z)",
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+        "selection": "India",
+        "market": "Win Match",
+        "decimal": "1.80",
+        "american": -125,
+        "fractional": "4/5",
+        "tipPct": 71,
+        "tips": "35/49"
+      },
+      "research": null,
+      "flags": [
+        "OLBG display time 03:00 disagrees with the payload unix timestamp 07:00Z; ICC confirms the match identity (ICC 271648), times are viewer-zone labelled."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "India to beat New Zealand",
+        "market": "Win Match",
+        "line": "OLBG 1.80 / -125 / 4-5",
+        "researchP": 71,
+        "text": "Thirty-five of forty-nine OLBG tips on the third T20 between New Zealand and India sit with India, a 71 percent consensus at -125 money, and the ICC official fixture page carries the match (ICC id 271648). India's batting depth against home swing has been the story of the series, and a series win is on the line. Selection: India win the third T20.",
+        "source_ids": [
+          "s-icc",
+          "s-olbg-cricket"
+        ]
+      }
+    },
+    {
+      "id": "188854",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International ODI",
+      "event": "Namibia vs Ireland — 3rd ODI",
+      "startUtc": "2026-10-27T07:30:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+        "selection": "Ireland",
+        "market": "Win Match",
+        "decimal": "1.55",
+        "american": -182,
+        "fractional": "11/20",
+        "tipPct": 69,
+        "tips": "22/32"
+      },
+      "research": null,
+      "flags": [
+        "OLBG display time is UK-relative and payload timestamps diverge from official viewer-zone times; treat the ICC page as the time authority (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Ireland to beat Namibia",
+        "market": "Win Match",
+        "line": "OLBG 1.55 / -182 / 11-20",
+        "researchP": 69,
+        "text": "Ireland are the back of the day's ODI against Namibia with twenty-two of thirty-two OLBG tips, a 69 percent consensus that lands just under the high bar at -182 money. The ICC page lists the third ODI of the series, and Ireland's white-ball record against associate nations has been the consistent story this year. Selection: Ireland win.",
+        "source_ids": [
+          "s-icc",
+          "s-olbg-cricket"
+        ]
+      }
+    },
+    {
+      "id": "188868",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International ODI",
+      "event": "Pakistan vs Sri Lanka — One Day Match",
+      "startUtc": "2026-10-27T08:00:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+        "selection": "Pakistan",
+        "market": "Win Match",
+        "decimal": "1.50",
+        "american": -200,
+        "fractional": "1/2",
+        "tipPct": 71,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "OLBG display time is UK-relative and payload timestamps diverge from official viewer-zone times; treat the ICC page as the time authority (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Pakistan to beat Sri Lanka",
+        "market": "Win Match",
+        "line": "OLBG 1.50 / -200 / 1-2",
+        "researchP": 71,
+        "text": "The OLBG tipster base backs Pakistan at -200 in the one-day match against Sri Lanka, matching the 71 percent consensus the desk carried into the morning, and the ICC fixture list confirms the pairing. Pakistan's top-order firepower in conditions that suit them is the edge the tipsters are pricing in. Selection: Pakistan win the ODI.",
+        "source_ids": [
+          "s-icc",
+          "s-olbg-cricket"
+        ]
+      }
+    },
+    {
+      "id": "188872",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International T20",
+      "event": "Afghanistan vs Zimbabwe — 1st T20",
+      "startUtc": "2026-10-27T14:30:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+        "selection": "Afghanistan",
+        "market": "Win Match",
+        "decimal": "1.25",
+        "american": -400,
+        "fractional": "51/200",
+        "tipPct": 94,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "OLBG display time is UK-relative and payload timestamps diverge from official viewer-zone times; treat the ICC page as the time authority (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Afghanistan to beat Zimbabwe",
+        "market": "Win Match",
+        "line": "OLBG 1.25 / -400 / 51-200",
+        "researchP": 94,
+        "text": "Nine of the ten OLBG tipsters on the Afghanistan versus Zimbabwe first T20 back the hosts at -400 money, the heaviest consensus on the cricket card, and the ICC fixture list confirms the match identity for the day. Afghanistan have the pace and the home-pattern familiarity that Zimbabwe's overseas squad rarely match. Selection: Afghanistan win the first T20.",
+        "source_ids": [
+          "s-icc",
+          "s-olbg-cricket"
+        ]
+      }
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International Test",
+      "event": "SA vs AUS 3rd Test (WTC) — OLBG row 31 Oct",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row listed in OLBG hub (38% tip share in capture notes); priced row not in captured payload window; ICC match 269792.",
+        "OLBG display time is UK-relative and payload timestamps diverge from official viewer-zone times; treat the ICC page as the time authority (F-1027-02)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "International Test",
+      "event": "BAN vs WI Test (WTC)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC official fixtures & results",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; ICC match 274665.",
+        "OLBG display time is UK-relative and payload timestamps diverge from official viewer-zone times; treat the ICC page as the time authority (F-1027-02)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "NZ domestic",
+      "event": "Auckland vs Canterbury (NZ domestic)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nzcricket.co.nz",
+        "name": "New Zealand Cricket",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; no official cross-walk available."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "NZ domestic",
+      "event": "Wellington vs Otago (NZ domestic)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nzcricket.co.nz",
+        "name": "New Zealand Cricket",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; no official cross-walk available."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "NZ domestic",
+      "event": "Central Districts vs Northern Districts",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nzcricket.co.nz",
+        "name": "New Zealand Cricket",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; no official cross-walk available."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "fixture",
+      "competition": "Franchise T20",
+      "event": "Lions vs Eastern Storm (T20)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC fixtures (franchise)",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row not in captured payload window; no official cross-walk available."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "outright",
+      "competition": "BBL Women",
+      "event": "BBL Women (series, 29-30 Oct)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.cricket.com.au",
+        "name": "Cricket Australia (BBL Women)",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Series-level rows; priced rows not in captured payload window."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventType": "outright",
+      "competition": "Cricket World Cup 2027",
+      "event": "WC2027 — India (ante-post)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.icc-cricket.com/fixtures-results",
+        "name": "ICC (CWC 2027 ante-post)",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Cricket/7",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Ante-post row; priced row not in captured payload window."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "101913",
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventType": "outright",
+      "competition": "LPGA — Kuala Lumpur",
+      "event": "Maybank Championship",
+      "startUtc": "2026-11-01T11:45:00Z",
+      "olbgTime": "01 Nov 06:45 (OLBG display)",
+      "official": {
+        "url": "https://www.lpga.com/tournaments",
+        "name": "LPGA official tournament schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+        "selection": "Hye Jin Choi",
+        "market": "Win Tournament",
+        "decimal": "11.00",
+        "american": 1000,
+        "fractional": "10/1",
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "OLBG lists the tournament start against its final-round day (LPGA official: 29 Oct - 1 Nov); OLBG tip is 1 of 2 displayed tips."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Hye Jin Choi to win the Maybank Championship",
+        "market": "Win Tournament",
+        "line": "OLBG 11.00 / +1000 / 10-1",
+        "researchP": 40,
+        "text": "The Maybank Championship runs 29 October to 1 November at Kuala Lumpur Golf & Country Club's West Course with a $3 million purse and 500 CME Globe points, per the LPGA's official schedule, and the 2025 winner was Miyu Yamashita at minus 18. OLBG's tipster base splits between Choi and one other name at 10-1, so this is a lean play, not a slam. Selection: Choi wins.",
+        "source_ids": [
+          "s-lpga",
+          "s-olbg-golf"
+        ]
+      }
+    },
+    {
+      "id": "101915",
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventType": "outright",
+      "competition": "PGA Tour",
+      "event": "Mexico Open",
+      "startUtc": "2026-11-01T22:45:00Z",
+      "olbgTime": "01 Nov 17:45 (OLBG display)",
+      "official": {
+        "url": "https://www.pgatour.com",
+        "name": "PGA Tour official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+        "selection": "Wyndham Clark",
+        "market": "Win Tournament",
+        "decimal": "11.00",
+        "american": 1000,
+        "fractional": "10/1",
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "PGA Tour schedule page not re-fetched today for the exact 2026 dates; OLBG display date 01 Nov pending official confirmation."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Wyndham Clark to win the Mexico Open",
+        "market": "Win Tournament",
+        "line": "OLBG 11.00 / +1000 / 10-1",
+        "researchP": 40,
+        "text": "Clark is the OLBG tipster choice for the Mexico Open at 10-1, one of two names displayed on the row, and the PGA Tour's schedule page is the place to confirm the 2026 dates before the field is set. The long price is the honest part of this one: outright golf at four figures of return is a low-confidence swing with a ceiling, not a base. Selection: Clark wins the Mexico Open.",
+        "source_ids": [
+          "s-olbg-golf"
+        ]
+      }
+    },
+    {
+      "id": "101914",
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventType": "outright",
+      "competition": "Korn Ferry Tour",
+      "event": "Simmons Bank Championship",
+      "startUtc": "2026-11-01T22:45:00Z",
+      "olbgTime": "01 Nov (OLBG display)",
+      "official": {
+        "url": "https://www.kornferrytour.com",
+        "name": "Korn Ferry Tour official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+        "selection": "Stewart Cink",
+        "market": "Win Tournament",
+        "decimal": "7.00",
+        "american": 600,
+        "fractional": "6/1",
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "KFT event; no official KFT schedule cross-walk captured today."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Stewart Cink to win the Simmons Bank Championship",
+        "market": "Win Tournament",
+        "line": "OLBG 7.00 / +600 / 6-1",
+        "researchP": 45,
+        "text": "Cink at 6-1 for the Simmons Bank Championship is the shortest of the three golf outrights OLBG carries this week, and the Korn Ferry field is where his experience with short-course, high-slopes ball tends to show. The desk has not captured the official KFT schedule page for this event, so the entry is flagged as OLBG-sourced only. Selection: Cink wins.",
+        "source_ids": [
+          "s-olbg-golf"
+        ]
+      }
+    },
+    {
+      "id": "200081",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Finland SM Liiga",
+      "event": "Kalpa vs Sport",
+      "startUtc": "2026-10-27T16:30:00Z",
+      "olbgTime": "Today 12:30",
+      "official": {
+        "url": "https://www.liiga.fi",
+        "name": "Liiga official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
+        "selection": "Kalpa",
+        "market": "Money Line",
+        "decimal": "1.60",
+        "american": -167,
+        "fractional": "3/5",
+        "tipPct": 100,
+        "tips": "5/5"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Kalpa to beat Sport",
+        "market": "Money Line",
+        "line": "OLBG 1.60 / -167 / 3-5",
+        "researchP": 68,
+        "text": "All five OLBG tipsters on the Kalpa versus Sport row in Finland's SM Liiga back Kalpa at 3-5 money, the cleanest 100 percent consensus on the European hockey card, with two comments of tipster reasoning attached. The desk has not captured an official Liiga standings page for today, so the confidence rests on the tipster block plus home ice. Selection: Kalpa win.",
+        "source_ids": [
+          "s-olbg-icehockey"
+        ]
+      }
+    },
+    {
+      "id": "200082",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Swedish Hockey League",
+      "event": "IF Malmo Redhawks vs Linkoping HC",
+      "startUtc": "2026-10-27T18:00:00Z",
+      "olbgTime": "Today 14:00",
+      "official": {
+        "url": "https://www.shl.se",
+        "name": "SHL official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
+        "selection": "IF Malmo Redhawks",
+        "market": "Money Line",
+        "decimal": "1.56",
+        "american": -180,
+        "fractional": "5/9",
+        "tipPct": 100,
+        "tips": "3/3"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "IF Malmo Redhawks to beat Linkoping HC",
+        "market": "Money Line",
+        "line": "OLBG 1.56 / -180 / 5-9",
+        "researchP": 66,
+        "text": "Three of three OLBG tips in the Swedish Hockey League pair Malmo Redhawks against Linkoping sit with Malmo at 5-9 money, a unanimous block on a midweek SHL card. The desk's official cross-walk covers the NHL rows today rather than every SHL pairing, so this one is carried on the tipster consensus and the displayed price. Selection: Malmo Redhawks win.",
+        "source_ids": [
+          "s-olbg-icehockey"
+        ]
+      }
+    },
+    {
+      "id": "200083",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Swedish Hockey League",
+      "event": "Frolunda HC vs Rogle BK",
+      "startUtc": "2026-10-27T18:00:00Z",
+      "olbgTime": "Today 14:00",
+      "official": {
+        "url": "https://www.shl.se",
+        "name": "SHL official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
+        "selection": "Frolunda HC",
+        "market": "Money Line",
+        "decimal": "1.74",
+        "american": -135,
+        "fractional": "37/50",
+        "tipPct": 67,
+        "tips": "2/3"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200100",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Germany Eishockey Liga",
+      "event": "Kolner Haie vs Adler Mannheim",
+      "startUtc": "2026-10-27T18:30:00Z",
+      "olbgTime": "Today 14:30",
+      "official": {
+        "url": "https://www.deutsche-eishockey-liga.de",
+        "name": "DEL official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
+        "selection": "Adler Mannheim",
+        "market": "Money Line",
+        "decimal": "2.20",
+        "american": 120,
+        "fractional": "6/5",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Adler Mannheim to beat Kolner Haie",
+        "market": "Money Line",
+        "line": "OLBG 2.20 / +120 / 6-5",
+        "researchP": 62,
+        "text": "Both OLBG tipsters on the Kolner Haie versus Adler Mannheim row in Germany's Eishockey Liga back Mannheim as the +120 winner, a price that leaves real value if the away side handles the weekend fatigue. The desk has no captured DEL standings for the pair, so the pick is driven by the unanimous tip block at a fair return. Selection: Adler Mannheim win.",
+        "source_ids": [
+          "s-olbg-icehockey"
+        ]
+      }
+    },
+    {
+      "id": "200108",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "NHL",
+      "event": "CLB Blue Jackets @ PHI Flyers",
+      "startUtc": "2026-10-27T23:07:00Z",
+      "olbgTime": "Today 19:07",
+      "official": {
+        "url": "https://www.nhl.com/standings",
+        "name": "NHL.com official standings (2026-10-26)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
+        "selection": "PHI Flyers",
+        "market": "Money Line",
+        "decimal": "2.05",
+        "american": 105,
+        "fractional": "21/20",
+        "tipPct": 67,
+        "tips": "2/3"
+      },
+      "research": null,
+      "flags": [],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "PHI Flyers to beat CLB",
+        "market": "Money Line",
+        "line": "OLBG 2.05 / +105 / 21-20",
+        "researchP": 48,
+        "text": "Two of three OLBG tips on the Columbus at Philadelphia row back the Flyers at even-ish money, but the official NHL standings read 3-7-3 and nine points for Philadelphia against 8 for Columbus, and the desk would not chase this price on that record. It stays on the desk as a low-confidence alternative if the tipster block keeps growing. Selection (if taken): Flyers.",
+        "source_ids": [
+          "s-nhl",
+          "s-olbg-icehockey"
+        ]
+      }
+    },
+    {
+      "id": "200104",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "NHL",
+      "event": "BOS Bruins @ CAR Hurricanes",
+      "startUtc": "2026-10-27T23:07:00Z",
+      "olbgTime": "Today 20:07",
+      "official": {
+        "url": "https://www.nhl.com/standings",
+        "name": "NHL.com official standings (2026-10-26)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
+        "selection": "BOS Bruins +1.50",
+        "market": "Puck Line",
+        "decimal": "1.65",
+        "american": -154,
+        "fractional": "13/20",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "BOS Bruins +1.5 (puck line)",
+        "market": "Puck Line",
+        "line": "OLBG 1.65 / -154 / 13-20",
+        "researchP": 78,
+        "text": "NHL.com standings put Boston at 9-2-1 with nineteen points and a plus-22 goal differential, the best scoring margin in the league, while Carolina sits one point clear at 20 but has conceded on both ends of a 9-2-2 season. Boston's +1.5 line wins outright or absorbs a one-goal loss, and their recent road record of 4-1-1 supports the cover. Selection: Bruins +1.5.",
+        "source_ids": [
+          "s-nhl",
+          "s-olbg-icehockey"
+        ]
+      }
+    },
+    {
+      "id": "200098",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Danish Metal Ligaen",
+      "event": "Herning Blue Fox vs Rodovre Mighty Bulls",
+      "startUtc": "2026-10-27T18:00:00Z",
+      "olbgTime": "Today 14:00",
+      "official": {
+        "url": "https://www.hockeyligaen.dk",
+        "name": "Danish Metal Ligaen official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098",
+        "selection": "Herning Blue Fox",
+        "market": "Money Line",
+        "decimal": "1.05",
+        "american": -2000,
+        "fractional": "1/20",
+        "tipPct": 50,
+        "tips": "1/2"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200146",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Austria EHL",
+      "event": "Fehervar AV19 vs Milano HC",
+      "startUtc": "2026-10-27T18:15:00Z",
+      "olbgTime": "Today 14:15",
+      "official": {
+        "url": "https://www.eishockeyliga.at",
+        "name": "Austrian Eishockey Liga",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146",
+        "selection": "Fehervar AV19 -1.50",
+        "market": "Puck Line",
+        "decimal": "2.40",
+        "american": 140,
+        "fractional": "7/5",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200116",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Fribourg Gotteron vs Davos",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116",
+        "selection": "Fribourg Gotteron -1.50",
+        "market": "Puck Line",
+        "decimal": "2.25",
+        "american": 125,
+        "fractional": "5/4",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200118",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Lausanne HC vs SCL Tigers",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118",
+        "selection": "Lausanne HC",
+        "market": "Money Line",
+        "decimal": "1.58",
+        "american": -172,
+        "fractional": "29/50",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200123",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Rapperswil Jona Lakers vs Servette GE",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123",
+        "selection": "Servette GE +1.50",
+        "market": "Puck Line",
+        "decimal": "1.45",
+        "american": -222,
+        "fractional": "9/20",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200119",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Ambri Piotta vs EHC Biel",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119",
+        "selection": "Ambri Piotta -1.50",
+        "market": "Puck Line",
+        "decimal": "2.25",
+        "american": 125,
+        "fractional": "5/4",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200115",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "EHC Kloten vs HC Ajoie",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115",
+        "selection": "Under 5.50",
+        "market": "Game Totals",
+        "decimal": "1.77",
+        "american": -130,
+        "fractional": "10/13",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200117",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Zug vs Lugano",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117",
+        "selection": "Lugano",
+        "market": "Money Line",
+        "decimal": "2.60",
+        "american": 160,
+        "fractional": "8/5",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "200122",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "Switzerland NLA",
+      "event": "Bern vs ZSC Lions",
+      "startUtc": "2026-10-27T18:45:00Z",
+      "olbgTime": "Today 14:45",
+      "official": {
+        "url": "https://www.nla.ch",
+        "name": "NLA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122",
+        "selection": "ZSC Lions -1.50",
+        "market": "Puck Line",
+        "decimal": "2.75",
+        "american": 175,
+        "fractional": "7/4",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "NHL",
+      "event": "FLA @ WPG (Under 5.5 row)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nhl.com/standings",
+        "name": "NHL.com official standings (2026-10-26)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (1/1 Under 5.5); price outside captured payload window. Official: FLA 6-4-2 14pts, WPG 4-4-3 11pts."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "NHL",
+      "event": "NJ @ DAL (Under 5.5 row)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nhl.com/standings",
+        "name": "NHL.com official standings (2026-10-26)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (1/1 Under 5.5); price outside captured payload window. Official: DAL 7-3-1 15pts W5, NJ 7-4-0 14pts W3."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventType": "fixture",
+      "competition": "NHL",
+      "event": "NYI @ NSH (NYI +1.5 row)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nhl.com/standings",
+        "name": "NHL.com official standings (2026-10-26)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (1/1 NYI +1.5); price outside captured payload window. Official: both 12pts; NYI 5-4-2, NSH 4-3-4."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12196",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "Sweden Women",
+      "event": "OV Helsingborg HK W vs Skovde HF W",
+      "startUtc": "2026-10-27T18:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://svenskhandboll.se",
+        "name": "Svensk Handboll official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "10.00",
+        "american": 900,
+        "fractional": "9/1",
+        "tipPct": 50,
+        "tips": "2/4"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12197",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "Sweden Women",
+      "event": "VasterasIrsta HF W vs Skuru IK W",
+      "startUtc": "2026-10-27T18:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://svenskhandboll.se",
+        "name": "Svensk Handboll official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "8.00",
+        "american": 700,
+        "fractional": "7/1",
+        "tipPct": 50,
+        "tips": "2/4"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12136",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "SC Magdeburg vs HC Kriens-Luzern",
+      "startUtc": "2026-10-28T19:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "16.00",
+        "american": 1500,
+        "fractional": "15/1",
+        "tipPct": 64,
+        "tips": "9/14"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line.",
+        "EHF official lists the fixture 28 Oct 20:45 CEST; OLBG display time not reconcilable."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Tie (draw) — Magdeburg vs Kriens-Luzern, 3-way ML",
+        "market": "Money Line (3-way)",
+        "line": "OLBG 16.00 / +1500 / 15-1",
+        "researchP": 64,
+        "text": "Nine of fourteen OLBG tipsters on the Magdeburg versus Kriens-Luzern row back the draw at 15-1, a 64 percent consensus that clears the medium bar on the 28 October 20:45 CEST fixture shown on the EHF schedule. The longer price is the point of the line: same consensus logic as the 15-2 rows, bigger payout. Selection: Tie.",
+        "source_ids": [
+          "s-ehf",
+          "s-olbg-handball"
+        ]
+      }
+    },
+    {
+      "id": "12130",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "HC Vardar vs MT Melsungen",
+      "startUtc": "2026-10-28T17:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "9.50",
+        "american": 850,
+        "fractional": "17/2",
+        "tipPct": 62,
+        "tips": "8/13"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12138",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "Wisla Plock vs Nantes",
+      "startUtc": "2026-10-28T19:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "8.50",
+        "american": 750,
+        "fractional": "15/2",
+        "tipPct": 73,
+        "tips": "11/15"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Tie (draw) — Wisla Plock vs Nantes, 3-way ML",
+        "market": "Money Line (3-way)",
+        "line": "OLBG 8.50 / +750 / 15-2",
+        "researchP": 73,
+        "text": "Eleven of fifteen OLBG tipsters on the Wisla Plock versus Nantes row back the draw at 15-2, a 73 percent consensus on the 28 October 18:45 CEST kickoff shown on the EHF schedule. Plock's home block against a Nantes side mid-season adjustment is the setup the tipsters describe. Selection: Tie.",
+        "source_ids": [
+          "s-ehf",
+          "s-olbg-handball"
+        ]
+      }
+    },
+    {
+      "id": "12132",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "KS Kielce vs Kolstad",
+      "startUtc": "2026-10-28T19:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "20.00",
+        "american": 1900,
+        "fractional": "19/1",
+        "tipPct": 64,
+        "tips": "11/15"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12134",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "PSG Handball vs Aalborg Handbold",
+      "startUtc": "2026-10-28T19:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "8.50",
+        "american": 750,
+        "fractional": "15/2",
+        "tipPct": 78,
+        "tips": "11/14"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Tie (draw) — PSG vs Aalborg, 3-way ML",
+        "market": "Money Line (3-way)",
+        "line": "OLBG 8.50 / +750 / 15-2",
+        "researchP": 78,
+        "text": "Eleven of fourteen OLBG tipsters on the PSG versus Aalborg Champions League row back the draw in the three-way money line at 15-2, a 78 percent consensus the desk treats as its honest probability for the result category. The EHF schedule confirms the fixture for 28 October at 20:45 CEST. Draw betting looks odd, but the tipster block is explicit. Selection: Tie.",
+        "source_ids": [
+          "s-ehf",
+          "s-olbg-handball"
+        ]
+      }
+    },
+    {
+      "id": "12135",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "RK Celje vs RK Zagreb",
+      "startUtc": "2026-10-28T19:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "8.50",
+        "american": 750,
+        "fractional": "15/2",
+        "tipPct": 75,
+        "tips": "6/8"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Tie (draw) — Celje vs Zagreb, 3-way ML",
+        "market": "Money Line (3-way)",
+        "line": "OLBG 8.50 / +750 / 15-2",
+        "researchP": 75,
+        "text": "Six of eight OLBG tips on the Celje versus Zagreb row sit with the draw at 15-2, a 75 percent consensus on a match the EHF schedule lists for 28 October at 20:45 CEST. Both clubs are in the middle of a long Champions League block where defensive structures hold up, which is exactly the pattern the tipsters are reading. Selection: Tie.",
+        "source_ids": [
+          "s-ehf",
+          "s-olbg-handball"
+        ]
+      }
+    },
+    {
+      "id": "12127",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "FC Porto vs Veszprem",
+      "startUtc": "2026-10-28T17:45:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "14.00",
+        "american": 1300,
+        "fractional": "13/1",
+        "tipPct": 56,
+        "tips": "5/14"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12128",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "Fuchse Berlin vs RK Partizan",
+      "startUtc": "2026-10-29T19:45:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "28.00",
+        "american": 2700,
+        "fractional": "27/1",
+        "tipPct": 60,
+        "tips": "3/5"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12129",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "GOG vs Sporting CP",
+      "startUtc": "2026-10-29T19:45:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "9.00",
+        "american": 800,
+        "fractional": "8/1",
+        "tipPct": 60,
+        "tips": "3/5"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12133",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "Montpellier vs Dinamo Bucuresti",
+      "startUtc": "2026-10-29T19:45:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "8.00",
+        "american": 700,
+        "fractional": "7/1",
+        "tipPct": 75,
+        "tips": "3/4"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Tie (draw) — Montpellier vs Dinamo Bucuresti, 3-way ML",
+        "market": "Money Line (3-way)",
+        "line": "OLBG 8.00 / +700 / 7-1",
+        "researchP": 75,
+        "text": "Three of four OLBG tips on Montpellier versus Dinamo Bucuresti back the draw at 7-1, a 75 percent consensus on the 29 October 20:45 CEST fixture from the EHF schedule. Montpellier's home defensive record and Dinamo's competitive balance in Europe are what the tipster block is pricing. Selection: Tie.",
+        "source_ids": [
+          "s-ehf",
+          "s-olbg-handball"
+        ]
+      }
+    },
+    {
+      "id": "12131",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "IFK Kristianstad vs Pick Szeged",
+      "startUtc": "2026-10-29T19:45:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
+        "selection": "Tie (draw)",
+        "market": "Money Line",
+        "decimal": "12.00",
+        "american": 1100,
+        "fractional": "11/1",
+        "tipPct": 50,
+        "tips": "2/4"
+      },
+      "research": null,
+      "flags": [
+        "Selection displayed by OLBG is 'Tie' (draw) in the 3-way money line."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12180",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "Germany Bundesliga",
+      "event": "SG Flensburg Handewitt vs HBW Balingen Weilstetten",
+      "startUtc": "2026-10-29T18:00:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://www.handball-bundesliga.de",
+        "name": "Handball-Bundesliga official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
+        "selection": "HBW Balingen-Weilstetten",
+        "market": "Money Line",
+        "decimal": "20.00",
+        "american": 1900,
+        "fractional": "19/1",
+        "tipPct": 100,
+        "tips": "1/1"
+      },
+      "research": null,
+      "flags": [
+        "Domestic Bundesliga row (not EHF CL); no official DKB-Bundesliga cross-walk captured."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "12137",
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventType": "fixture",
+      "competition": "EHF CL (men)",
+      "event": "Skanderborg Handbold vs FC Barcelona",
+      "startUtc": "2026-10-29T19:45:00Z",
+      "olbgTime": "29 Oct 15:45",
+      "official": {
+        "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+        "name": "EHF Champions League 2026-27 official schedule",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
+        "selection": "Skanderborg Handbold",
+        "market": "Money Line",
+        "decimal": "5.50",
+        "american": 450,
+        "fractional": "9/2",
+        "tipPct": 33,
+        "tips": "1/3"
+      },
+      "research": null,
+      "flags": [
+        "IDENTITY CONFLICT: EHF official schedule lists this fixture as SAH Aarhus vs Barca (29 Oct 20:45 CEST); OLBG names the home side Skanderborg Handbold. No pick published on this row.",
+        "OLBG display time 15:45 does not match EHF 20:45 CEST."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "609605",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Dax v Provence",
+      "startUtc": "2026-10-29T20:00:00Z",
+      "olbgTime": "29 Oct",
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
+        "selection": "Dax",
+        "market": "To Win",
+        "decimal": "1.80",
+        "american": -125,
+        "fractional": "4/5",
+        "tipPct": 67,
+        "tips": "2/3"
+      },
+      "research": {
+        "american": -185,
+        "decimal": "1.54",
+        "selection": "Desk reference (Provence side): LNR table positions 2nd vs 10th, J9 kickoff Thu 29 Oct 21:00 CEST. OLBG tipsters favour Dax at -125",
+        "market": "To Win",
+        "confidence": "medium",
+        "probability": 65,
+        "inputs": "Desk reference (Provence side): LNR table positions 2nd vs 10th, J9 kickoff Thu 29 Oct 21:00 CEST. OLBG tipsters favour Dax at -125 — disagreement displayed on the row."
+      },
+      "flags": [
+        "OLBG payload timestamp (30 Oct 04:00Z) does not match LNR official kickoff 29 Oct 21:00 CEST; use LNR for the time."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Dax to beat Provence",
+        "market": "To Win",
+        "line": "OLBG 1.80 / -125 / 4-5",
+        "researchP": 67,
+        "text": "LNR's J9 calendar has Dax, tenth, travelling to Provence, second, on Thursday 21:00 CEST, and two of three OLBG tipsters are on Dax at -125 money, which is a real statement against the table. The desk labels this medium because the price already prices the favourite's quality, but the tipster direction is the edge. Selection: Dax win.",
+        "source_ids": [
+          "s-lnr",
+          "s-olbg-rugbyunion"
+        ]
+      }
+    },
+    {
+      "id": "609604",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Colomiers v Agen",
+      "startUtc": "2026-10-30T18:00:00Z",
+      "olbgTime": "30 Oct",
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+        "selection": "Colomiers",
+        "market": "To Win",
+        "decimal": "1.17",
+        "american": -588,
+        "fractional": "1/6",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "OLBG payload timestamps diverge from LNR official kickoffs; use the LNR calendar time (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Colomiers to beat Agen",
+        "market": "To Win",
+        "line": "OLBG 1.17 / -588 / 1-6",
+        "researchP": 80,
+        "text": "The LNR J9 sheet has Colomiers, twelfth, hosting Agen, ninth, Friday 19:00 CEST, and both OLBG tipsters back Colomiers at 1-6 money. A lower-table home side against a slightly higher opponent is the shape the tipsters are pricing as a home win. Selection: Colomiers win.",
+        "source_ids": [
+          "s-lnr",
+          "s-olbg-rugbyunion"
+        ]
+      }
+    },
+    {
+      "id": "609603",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Montauban v Narbonne",
+      "startUtc": "2026-10-30T18:30:00Z",
+      "olbgTime": "30 Oct",
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
+        "selection": "Montauban",
+        "market": "To Win",
+        "decimal": "1.02",
+        "american": -5000,
+        "fractional": "1/50",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "OLBG payload timestamps diverge from LNR official kickoffs; use the LNR calendar time (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Montauban to beat Narbonne",
+        "market": "To Win",
+        "line": "OLBG 1.02 / -5000 / 1-50",
+        "researchP": 92,
+        "text": "The LNR Pro D2 J9 fixture sheet has Montauban, sixth in the table, at home to Narbonne, thirteenth, on Friday 19:30 CEST, and both OLBG tipsters on the row are on Montauban at 1-50 money. The price is the market saying it is a near-lock, and the desk agrees the consensus and the form point the same way. Selection: Montauban win.",
+        "source_ids": [
+          "s-lnr",
+          "s-olbg-rugbyunion"
+        ]
+      }
+    },
+    {
+      "id": "609598",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Oyonnax v Soyaux Angouleme",
+      "startUtc": "2026-10-30T18:30:00Z",
+      "olbgTime": "30 Oct",
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
+        "selection": "Oyonnax",
+        "market": "To Win",
+        "decimal": "1.06",
+        "american": -1667,
+        "fractional": "1/16",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "OLBG payload timestamps diverge from LNR official kickoffs; use the LNR calendar time (F-1027-02)."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Oyonnax to beat Soyaux-Angouleme",
+        "market": "To Win",
+        "line": "OLBG 1.06 / -1667 / 1-16",
+        "researchP": 88,
+        "text": "LNR's J9 calendar lists Oyonnax, first in the Pro D2 table, hosting Soyaux-Angouleme, fourth, on Friday 19:30 CEST, and the OLBG tip block is unanimous at 1-16 money. Table position plus home ground is the whole story; the short price just reflects how far ahead the leaders sit. Selection: Oyonnax win.",
+        "source_ids": [
+          "s-lnr",
+          "s-olbg-rugbyunion"
+        ]
+      }
+    },
+    {
+      "id": "609599",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Beziers v Grenoble",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Grenoble row listed in OLBG hub (away at Beziers per LNR J9); priced row outside captured payload window."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "609600",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Nissa (Nice) v Aurillac",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "'Nissa' = Nice (Stade Nicois, 14e) per LNR; priced row outside captured payload window."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "609602",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Pro D2 J9",
+      "event": "Biarritz v Valence-Romans",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+        "name": "LNR Pro D2 official calendar (J9)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Priced row outside captured payload window.",
+        "OLBG payload timestamps diverge from LNR official kickoffs; use the LNR calendar time (F-1027-02)."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "Top 14 / Pro D2",
+      "event": "Pau v Toulouse (next round)",
+      "startUtc": null,
+      "olbgTime": "01 Nov",
+      "official": {
+        "url": "https://top14.lnr.fr",
+        "name": "LNR Top 14 / Pro D2",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "OLBG hub row (Nov 1); league placement (Top 14 vs Pro D2) not confirmed in captured LNR pages — Pau is a Pro D2 club per LNR J9, Toulouse Top 14; treat as unverified pairing until LNR confirms."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "United Rugby Championship",
+      "event": "Glasgow (URC round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.urc-rugby.com",
+        "name": "URC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "URC rows listed in OLBG hub; urc-rugby.com not captured (JS-only). Price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "United Rugby Championship",
+      "event": "Connacht +3.50 (URC round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.urc-rugby.com",
+        "name": "URC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "URC row; price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "United Rugby Championship",
+      "event": "Ulster +12.5 (URC round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.urc-rugby.com",
+        "name": "URC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "URC row; price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "fixture",
+      "competition": "United Rugby Championship",
+      "event": "Munster -6.5 (URC round)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.urc-rugby.com",
+        "name": "URC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "URC row; price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventType": "outright",
+      "competition": "Six Nations 2027",
+      "event": "Six Nations 2027 — Ireland (ante-post)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.sixnationsrugby.com",
+        "name": "Six Nations official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Ante-post row (27% tip share in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "902172",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "WTA (Bangkok week)",
+      "event": "Leylah Fernandez vs Himeno Sakatsume",
+      "startUtc": "2026-10-27T06:00:00Z",
+      "olbgTime": "Today 06:00",
+      "official": {
+        "url": "https://www.wtatennis.com",
+        "name": "WTA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
+        "selection": "Leylah Fernandez",
+        "market": "Win Match",
+        "decimal": "1.20",
+        "american": -500,
+        "fractional": "1/5",
+        "tipPct": 83,
+        "tips": "10/12"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Leylah Fernandez to beat Himeno Sakatsume",
+        "market": "Win Match",
+        "line": "OLBG 1.20 / -500 / 1-5",
+        "researchP": 83,
+        "text": "Ten of twelve OLBG tips on the Fernandez versus Sakatsume row back the Canadian at 1-5 money, an 83 percent consensus with five-star tipster weight behind the block. The Bangkok-week fixture is listed for the first session of the day, and the class gap in big-match experience is what the price is built from. Selection: Fernandez wins.",
+        "source_ids": [
+          "s-olbg-tennis"
+        ]
+      }
+    },
+    {
+      "id": "902189",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "WTA (Bangkok week)",
+      "event": "Lilli Tagger vs Venus Williams",
+      "startUtc": "2026-10-27T07:30:00Z",
+      "olbgTime": "Today 07:30",
+      "official": {
+        "url": "https://www.wtatennis.com",
+        "name": "WTA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
+        "selection": "Lilli Tagger",
+        "market": "Win Match",
+        "decimal": "1.05",
+        "american": -2000,
+        "fractional": "1/20",
+        "tipPct": 50,
+        "tips": "4/8"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Lilli Tagger to beat Venus Williams",
+        "market": "Win Match",
+        "line": "OLBG 1.05 / -2000 / 1-20",
+        "researchP": 50,
+        "text": "Four of eight OLBG tips on the Tagger versus Venus Williams row back the younger player at 1-20 money, a split block the desk labels low-confidence. The price is a lock on paper, and the tipster split is the only reason it is not a high. Selection (if taken): Tagger wins.",
+        "source_ids": [
+          "s-olbg-tennis"
+        ]
+      }
+    },
+    {
+      "id": "902177",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "WTA (Bangkok week)",
+      "event": "Naomi Osaka vs Jasmine Paolini",
+      "startUtc": "2026-10-27T08:00:00Z",
+      "olbgTime": "Today 08:00",
+      "official": {
+        "url": "https://www.wtatennis.com",
+        "name": "WTA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
+        "selection": "Naomi Osaka",
+        "market": "Win Match",
+        "decimal": "1.33",
+        "american": -303,
+        "fractional": "1/3",
+        "tipPct": 100,
+        "tips": "2/2"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Naomi Osaka to beat Jasmine Paolini",
+        "market": "Win Match",
+        "line": "OLBG 1.33 / -303 / 1-3",
+        "researchP": 85,
+        "text": "Both OLBG tipsters on the Osaka versus Paolini row are on Osaka at 1-3 money, a unanimous block at the WTA Bangkok-week event with the match listed for the morning session. Osaka's serve-plus-return profile against a lefty is the pattern the tipsters describe, and the price leaves room for the favourite to miss a set. Selection: Osaka wins.",
+        "source_ids": [
+          "s-olbg-tennis"
+        ]
+      }
+    },
+    {
+      "id": "902238",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Alejandro Tabilo vs Rafael Jodar",
+      "startUtc": "2026-10-27T13:00:00Z",
+      "olbgTime": "Today 09:00",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+        "selection": "Rafael Jodar",
+        "market": "Win Match",
+        "decimal": "1.30",
+        "american": -333,
+        "fractional": "30/100",
+        "tipPct": 67,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Tip count read as 67% confidence in payload; exact n/N not resolved in capture window."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Rafael Jodar to beat Alejandro Tabilo",
+        "market": "Win Match",
+        "line": "OLBG 1.30 / -333 / 30-100",
+        "researchP": 67,
+        "text": "The OLBG tip block on the Tabilo versus Jodar row sits with Jodar at 30-100 money and a 67 percent confidence reading from the payload, on the Basel/Vienna swing card listed for the midday session. The desk carries it as a medium because the exact tip count was not fully resolved in the capture window. Selection: Jodar wins.",
+        "source_ids": [
+          "s-olbg-tennis"
+        ]
+      }
+    },
+    {
+      "id": "902233",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Novak Djokovic vs Ugo Humbert",
+      "startUtc": null,
+      "olbgTime": "Tomorrow 06:00",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores (Basel + Vienna)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (80% tip share in capture notes); priced row outside captured payload window; ATP confirms Basel+Vienna are the two ATP events in progress."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "902213",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Karen Khachanov vs Carlos Alcaraz",
+      "startUtc": null,
+      "olbgTime": "Today 10:00",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores (Basel + Vienna)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub; priced row outside captured payload window."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP Basel R2",
+      "event": "Nuno Borges vs Casper Ruud",
+      "startUtc": null,
+      "olbgTime": "Today 07:00",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores (Basel + Vienna)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "ATP official: Ruud beat Stricker 4-6 7-5 6-3 in Basel R1 (form input captured); OLBG price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Stan Wawrinka vs Jiri Lehecka",
+      "startUtc": null,
+      "olbgTime": "Today 14:30",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Tommy Paul vs Andrey Rublev",
+      "startUtc": null,
+      "olbgTime": "Today 08:30",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (75% tip share in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Hubert Hurkacz vs Zizou Bergs",
+      "startUtc": null,
+      "olbgTime": "Today 07:00",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (3/3 in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "WTA (Bangkok week)",
+      "event": "Kudermetova (WTA)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.wtatennis.com",
+        "name": "WTA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "n/a",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP (Basel/Vienna swing)",
+      "event": "Cameron Norrie vs Cerundolo",
+      "startUtc": null,
+      "olbgTime": "Today 11:30",
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "902409",
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventType": "fixture",
+      "competition": "ATP Basel",
+      "event": "Casper Ruud vs Nuno Borges (Basel R2)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.atptour.com/en/scores/current",
+        "name": "ATP Tour current scores (Basel + Vienna)",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Tennis/3",
+        "selection": "Casper Ruud (desk line)",
+        "market": "Win Match",
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": {
+        "american": -161,
+        "decimal": "1.61",
+        "selection": "ATP official scores: Ruud won R1 vs Stricker 4-6 7-5 6-3 in Basel. Desk line from round result + surface fit; R2 pairing per ATP current-scores page.",
+        "market": "Win Match",
+        "confidence": "medium",
+        "probability": 62,
+        "inputs": "ATP official scores: Ruud won R1 vs Stricker 4-6 7-5 6-3 in Basel. Desk line from round result + surface fit; R2 pairing per ATP current-scores page."
+      },
+      "flags": [
+        "Desk-sourced event — the R2 pairing was not an OLBG hub row in the capture window; no OLBG price exists. Event id is desk-assigned."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Casper Ruud to beat Nuno Borges",
+        "market": "Win Match",
+        "line": "Desk 1.61 / -161 / 5-8 (62%)",
+        "researchP": 62,
+        "text": "The ATP's official scores page shows Ruud coming through Basel's first round with a 4-6 7-5 6-3 win over Stricker, so the second-round meeting with Borges is the desk's tennis anchor for the day. The desk line prices Ruud at 62 percent from the round result and surface fit. Selection: Ruud wins.",
+        "source_ids": [
+          "s-atp",
+          "s-olbg-tennis"
+        ]
+      }
+    },
+    {
+      "id": "32446",
+      "sportKey": "darts",
+      "sport": "Darts",
+      "eventType": "outright",
+      "competition": "PDC PC",
+      "event": "Players Championship 31",
+      "startUtc": "2026-10-28T12:00:00Z",
+      "olbgTime": "28 Oct",
+      "official": {
+        "url": "https://www.pdc.tv",
+        "name": "PDC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+        "selection": "Kevin Doets",
+        "market": "Win Tournament",
+        "decimal": "19.00",
+        "american": 1800,
+        "fractional": "18/1",
+        "tipPct": 25,
+        "tips": "2/8"
+      },
+      "research": null,
+      "flags": [
+        "PDC.tv calendar is cookie-walled; event identity (PC31) not cross-walked to an official source."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Kevin Doets to win Players Championship 31",
+        "market": "Win Tournament (event outright)",
+        "line": "OLBG 19.00 / +1800 / 18-1",
+        "researchP": 25,
+        "text": "Two of eight OLBG tips on the Players Championship 31 outright back Kevin Doets at 18-1 money, a 25 percent block that the desk publishes as a low-confidence swing. The PDC's own calendar page was cookie-walled during capture, so the event identity is OLBG-sourced only. Selection: Doets wins PC31.",
+        "source_ids": [
+          "s-olbg-darts"
+        ]
+      }
+    },
+    {
+      "id": "26023",
+      "sportKey": "darts",
+      "sport": "Darts",
+      "eventType": "outright",
+      "competition": "PDC Worlds",
+      "event": "PDC World Championship 2027",
+      "startUtc": "2027-01-03T17:00:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.pdc.tv",
+        "name": "PDC official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+        "selection": "Luke Littler",
+        "market": "Win Tournament",
+        "decimal": "1.80",
+        "american": -125,
+        "fractional": "4/5",
+        "tipPct": 61,
+        "tips": "22/36"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); PDC.tv not cross-walked (cookie wall)."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Luke Littler to win the PDC World Championship 2027",
+        "market": "Win Tournament (ante-post)",
+        "line": "OLBG 1.80 / -125 / 4-5",
+        "researchP": 61,
+        "text": "Twenty-two of thirty-six OLBG tips on the 2027 PDC World Championship outright sit with Luke Littler at 4-5 money, a 61 percent consensus with seven-star tipsters and seven comments attached. It is an ante-post line that settles in 2027, so the desk labels it medium and flags the PDC cross-walk as pending. Selection: Littler wins the 2027 Worlds.",
+        "source_ids": [
+          "s-olbg-darts"
+        ]
+      }
+    },
+    {
+      "id": "37075",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Italy Serie A1 Women",
+      "event": "Marignano W vs Bergamo W",
+      "startUtc": "2026-10-27T19:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://www.pallavolo-seriesa.it",
+        "name": "Italian Serie A1 (Lega) site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+        "selection": "Bergamo W",
+        "market": "Win Match",
+        "decimal": "1.38",
+        "american": -263,
+        "fractional": "19/50",
+        "tipPct": 71,
+        "tips": "5/7"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Bergamo W to beat Marignano W",
+        "market": "Win Match",
+        "line": "OLBG 1.38 / -263 / 19-50",
+        "researchP": 71,
+        "text": "Five of seven OLBG tips on the Marignano versus Bergamo women's row back Bergamo at -263 money, a 71 percent consensus in the Italian Serie A1 women's division with an expert tipster in the block. The desk's volleyball card leans on these unanimous-ish blocks rather than split ones. Selection: Bergamo win.",
+        "source_ids": [
+          "s-olbg-volleyball"
+        ]
+      }
+    },
+    {
+      "id": "37126",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Turkey Men",
+      "event": "TFL Altekma vs Halkbank Ankara",
+      "startUtc": "2026-10-27T12:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://tvf.org.tr",
+        "name": "Turkish Volleyball Federation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+        "selection": "Halkbank Ankara",
+        "market": "Win Match",
+        "decimal": "1.40",
+        "american": -250,
+        "fractional": "2/5",
+        "tipPct": 80,
+        "tips": "4/5"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Halkbank Ankara to beat TFL Altekma",
+        "market": "Win Match",
+        "line": "OLBG 1.40 / -250 / 2-5",
+        "researchP": 80,
+        "text": "Four of five OLBG tips on the Altekma versus Halkbank row back Halkbank at -250 money, an 80 percent consensus on the Turkish card. Halkbank's depth against Altekma is the gap the tipsters describe, and the price sits in the window the desk targets. Selection: Halkbank win.",
+        "source_ids": [
+          "s-olbg-volleyball"
+        ]
+      }
+    },
+    {
+      "id": "37121",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Turkey Men",
+      "event": "Ziraat Bankasi vs Gaziantep Genclik Spor",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://tvf.org.tr",
+        "name": "Turkish Volleyball Federation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
+        "selection": "Ziraat Bankasi",
+        "market": "Win Match",
+        "decimal": "1.08",
+        "american": -1250,
+        "fractional": "1/12",
+        "tipPct": 100,
+        "tips": "4/4"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Ziraat Bankasi to beat Gaziantep Genclik Spor",
+        "market": "Win Match",
+        "line": "OLBG 1.08 / -1250 / 1-12",
+        "researchP": 90,
+        "text": "All four OLBG tipsters on the Ziraat Bankasi versus Gaziantep row back the club side at 1-12 money, a unanimous block with three-star tipster weight. The Turkish league fixture is the anchor of the desk's volleyball card today, and the price is the market's own near-lock. Selection: Ziraat Bankasi win.",
+        "source_ids": [
+          "s-olbg-volleyball"
+        ]
+      }
+    },
+    {
+      "id": "37081",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Poland Women",
+      "event": "Uni Opole W vs Palac Bydgoszcz W",
+      "startUtc": "2026-10-27T19:30:00Z",
+      "olbgTime": "Today",
+      "official": {
+        "url": "https://www.1liga.pl",
+        "name": "Polish 1 Liga women's site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
+        "selection": "Uni Opole W",
+        "market": "Win Match",
+        "decimal": "1.29",
+        "american": -345,
+        "fractional": "2/7",
+        "tipPct": 67,
+        "tips": "4/6"
+      },
+      "research": null,
+      "flags": [
+        "No event-level official crosswalk in this capture; official reference is sport/league-level only, so event identity is unconfirmed."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Uni Opole W to beat Palac Bydgoszcz W",
+        "market": "Win Match",
+        "line": "OLBG 1.29 / -345 / 2-7",
+        "researchP": 67,
+        "text": "Four of six OLBG tips on the Opole versus Bydgoszcz women's row back Opole at 2-7 money, a 67 percent consensus in the Polish league. The desk labels it medium because the tip block is not unanimous and no official Polish league cross-walk was captured for the fixture. Selection: Opole win.",
+        "source_ids": [
+          "s-olbg-volleyball"
+        ]
+      }
+    },
+    {
+      "id": "37129",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Brazil Women",
+      "event": "VaLePa (Brazil Women)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.cbv.com.br",
+        "name": "Brazilian Volleyball Confederation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (75% in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37104",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Brazil",
+      "event": "Praia (Brazil)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.cbv.com.br",
+        "name": "Brazilian Volleyball Confederation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (75% in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37103",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Brazil",
+      "event": "Suzano (Brazil)",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.cbv.com.br",
+        "name": "Brazilian Volleyball Confederation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Row in hub (75% in capture notes); price pending."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37122",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Turkey",
+      "event": "Galatasaray",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://tvf.org.tr",
+        "name": "Turkish Volleyball Federation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37125",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Turkey",
+      "event": "Fenerbahce",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://tvf.org.tr",
+        "name": "Turkish Volleyball Federation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37124",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Turkey",
+      "event": "IBB Spor",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://tvf.org.tr",
+        "name": "Turkish Volleyball Federation",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37131",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Germany Women",
+      "event": "Borken W",
+      "startUtc": null,
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.dvb.de",
+        "name": "Deutscher Volleyball Bund",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37076",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Italy Serie A1 Women",
+      "event": "Conegliano W",
+      "startUtc": null,
+      "olbgTime": "Tomorrow",
+      "official": {
+        "url": "https://www.pallavolo-seriesa.it",
+        "name": "Italian Serie A1 (Lega) site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37082",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Poland Women",
+      "event": "Lodz W",
+      "startUtc": null,
+      "olbgTime": "Tomorrow",
+      "official": {
+        "url": "https://www.1liga.pl",
+        "name": "Polish 1 Liga women's site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "37083",
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventType": "fixture",
+      "competition": "Poland Women",
+      "event": "Mielec W",
+      "startUtc": null,
+      "olbgTime": "Tomorrow",
+      "official": {
+        "url": "https://www.1liga.pl",
+        "name": "Polish 1 Liga women's site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Volleyball/21",
+        "selection": null,
+        "market": null,
+        "decimal": null,
+        "american": null,
+        "fractional": null,
+        "tipPct": null,
+        "tips": null
+      },
+      "research": null,
+      "flags": [
+        "Price pending collector refresh."
+      ],
+      "draftPrediction": null
+    },
+    {
+      "id": "3531",
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventType": "fixture",
+      "competition": "Cork club football",
+      "event": "Kanturk v Eire Og Cor",
+      "startUtc": "2026-11-01T14:00:00Z",
+      "olbgTime": "01 Nov 09:00",
+      "official": {
+        "url": "https://www.gaa.ie",
+        "name": "GAA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+        "selection": "Eire Og Cor +0.50",
+        "market": "Handicap",
+        "decimal": "1.83",
+        "american": -120,
+        "fractional": "5/6",
+        "tipPct": 100,
+        "tips": "6/6"
+      },
+      "research": null,
+      "flags": [
+        "GAA.ie club fixture page not captured today (no direct URL found); OLBG listing only for kickoff identity."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Eire Og Cor +0.5 (handicap)",
+        "market": "Handicap",
+        "line": "OLBG 1.83 / -120 / 5-6",
+        "researchP": 74,
+        "text": "All six OLBG tips on the Kanturk versus Eire Og Cor row sit with Eire Og Cor at +0.5, a 100 percent tipster consensus at 5-6 money for the 1 November club fixture. The handicap line means Eire Og can lose by exactly one point and the bet still stands, which is the shape the tipsters are reading. Selection: Eire Og Cor +0.5.",
+        "source_ids": [
+          "s-olbg-gaelic"
+        ]
+      }
+    },
+    {
+      "id": "3537",
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventType": "fixture",
+      "competition": "Cork club football",
+      "event": "Fr Caseys v Kildimo Pallaskenry",
+      "startUtc": "2026-11-01T15:30:00Z",
+      "olbgTime": "01 Nov 10:30",
+      "official": {
+        "url": "https://www.gaa.ie",
+        "name": "GAA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
+        "selection": "Kildimo Pallaskenry +3.50",
+        "market": "Handicap",
+        "decimal": "1.80",
+        "american": -125,
+        "fractional": "4/5",
+        "tipPct": 71,
+        "tips": "5/7"
+      },
+      "research": null,
+      "flags": [
+        "GAA.ie club fixture page not captured today; OLBG listing only."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Kildimo Pallaskenry +3.5 (handicap)",
+        "market": "Handicap",
+        "line": "OLBG 1.80 / -125 / 4-5",
+        "researchP": 71,
+        "text": "Five of seven OLBG tips on the Fr Caseys versus Kildimo Pallaskenry row back Kildimo at +3.5, a 71 percent consensus at -125 money for the 1 November 10:30 club fixture. Covering 3.5 points means the smaller side can lose by three and still win the bet. Selection: Kildimo Pallaskenry +3.5.",
+        "source_ids": [
+          "s-olbg-gaelic"
+        ]
+      }
+    },
+    {
+      "id": "3327",
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventType": "outright",
+      "competition": "GAA",
+      "event": "All Ireland Football Championship 2027",
+      "startUtc": "2027-07-25T14:30:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.gaa.ie",
+        "name": "GAA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+        "selection": "Kerry",
+        "market": "Win Tournament",
+        "decimal": "3.25",
+        "american": 225,
+        "fractional": "9/4",
+        "tipPct": 75,
+        "tips": "6/8"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); no GAA official cross-walk captured."
+      ],
+      "draftPrediction": {
+        "confidence": "high",
+        "selection": "Kerry to win the All-Ireland Football Championship 2027",
+        "market": "Win Tournament (ante-post)",
+        "line": "OLBG 3.25 / +225 / 9-4",
+        "researchP": 75,
+        "text": "Six of eight OLBG tips on the 2027 All-Ireland Football Championship outright back Kerry at 9-4 money, a 75 percent consensus with five-star tipsters in the block. It is an ante-post line that settles next summer, and the desk publishes it with that horizon made explicit. Selection: Kerry win the 2027 All-Ireland.",
+        "source_ids": [
+          "s-olbg-gaelic"
+        ]
+      }
+    },
+    {
+      "id": "675",
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventType": "outright",
+      "competition": "GAA",
+      "event": "All Ireland Hurling Championship 2027",
+      "startUtc": "2027-07-18T14:30:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.gaa.ie",
+        "name": "GAA official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+        "selection": "Galway",
+        "market": "Win Hurling",
+        "decimal": "5.50",
+        "american": 450,
+        "fractional": "9/2",
+        "tipPct": 39,
+        "tips": "7/18"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); Hurling hub holds only this row today."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Galway to win the All-Ireland Hurling Championship 2027",
+        "market": "Win Hurling (ante-post)",
+        "line": "OLBG 5.50 / +450 / 9-2",
+        "researchP": 39,
+        "text": "Seven of eighteen OLBG tips on the 2027 All-Ireland Hurling Championship outright back Galway at 9-2 money, a 39 percent block that the desk labels low and publishes as the only hurling line on the card. The Hurling hub carried this single row today, so the sport's output is deliberately thin. Selection: Galway win the 2027 All-Ireland.",
+        "source_ids": [
+          "s-olbg-hurling"
+        ]
+      }
+    },
+    {
+      "id": "914",
+      "sportKey": "motor_racing",
+      "sport": "Motor Racing",
+      "eventType": "fixture",
+      "competition": "F1",
+      "event": "Mexico City Grand Prix (Round 19)",
+      "startUtc": "2026-10-31T21:00:00Z",
+      "olbgTime": "01 Nov 15:00",
+      "official": {
+        "url": "https://www.formula1.com/en/racing/2026",
+        "name": "Formula 1 official 2026 race calendar",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+        "selection": "Lando Norris",
+        "market": "Fastest Qualifier",
+        "decimal": "15.00",
+        "american": 1400,
+        "fractional": "14/1",
+        "tipPct": 50,
+        "tips": "1/2"
+      },
+      "research": null,
+      "flags": [
+        "Market is Fastest Qualifier (session), not race winner; F1 official confirms weekend 30 Oct - 1 Nov."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Lando Norris for Fastest Qualifier",
+        "market": "Fastest Qualifier (session)",
+        "line": "OLBG 15.00 / +1400 / 14-1",
+        "researchP": 50,
+        "text": "One of two OLBG tips on the Mexico City Grand Prix's Fastest Qualifier market is on Lando Norris at 14-1, a 50 percent split the desk labels low-confidence. The F1 official page confirms the weekend runs 30 October to 1 November, and the session market settles on qualifying pace, not the race. Selection (if taken): Norris takes pole.",
+        "source_ids": [
+          "s-f1",
+          "s-olbg-motor"
+        ]
+      }
+    },
+    {
+      "id": "912",
+      "sportKey": "motor_racing",
+      "sport": "Motor Racing",
+      "eventType": "outright",
+      "competition": "F1",
+      "event": "F1 Drivers Championship 2026 Without Kimi Antonelli",
+      "startUtc": "2026-12-06T13:00:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.formula1.com/en/racing/2026",
+        "name": "Formula 1 official 2026 race calendar",
+        "status": "event-confirmed"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
+        "selection": "Max Verstappen",
+        "market": "Win Tournament",
+        "decimal": "1.50",
+        "american": -200,
+        "fractional": "1/2",
+        "tipPct": 57,
+        "tips": "4/7"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post; F1 official shows Antonelli won 6 of first 7 rounds — the 'without Antonelli' conditional market is unusual, verify terms before use."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "Max Verstappen to win the 2026 Drivers' Championship (Without Antonelli market)",
+        "market": "Win Tournament (ante-post)",
+        "line": "OLBG 1.50 / -200 / 1-2",
+        "researchP": 57,
+        "text": "Four of seven OLBG tips on the unusual 'Drivers' Championship Without Kimi Antonelli' market back Verstappen at 1-2 money, a 57 percent consensus. Formula 1's official calendar shows Antonelli has won six of the first seven rounds, which is exactly why the conditional market exists, so the desk flags the terms for a careful read. Selection: Verstappen in this market.",
+        "source_ids": [
+          "s-f1",
+          "s-olbg-motor"
+        ]
+      }
+    },
+    {
+      "id": "2695857",
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventType": "outright",
+      "competition": "NRL (Australia)",
+      "event": "State of Origin 2027",
+      "startUtc": "2027-05-27T10:00:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nrl.com",
+        "name": "NRL official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+        "selection": "New South Wales",
+        "market": "Win Tournament",
+        "decimal": "1.75",
+        "american": -133,
+        "fractional": "3/4",
+        "tipPct": 69,
+        "tips": "9/13"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); no live fixtures in OLBG hub today."
+      ],
+      "draftPrediction": {
+        "confidence": "medium",
+        "selection": "New South Wales to win State of Origin 2027",
+        "market": "Win Tournament (ante-post)",
+        "line": "OLBG 1.75 / -133 / 3-4",
+        "researchP": 69,
+        "text": "Nine of thirteen OLBG tips on the State of Origin 2027 outright back New South Wales at 3-4 money, a 69 percent consensus with three-star tipsters attached. The hub holds no live fixtures today, only the three 2027 ante-post lines, so the desk publishes NSW as the league's only medium pick and labels the horizon. Selection: NSW win Origin 2027.",
+        "source_ids": [
+          "s-olbg-rugbyleague"
+        ]
+      }
+    },
+    {
+      "id": "2801554",
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventType": "outright",
+      "competition": "Super League",
+      "event": "Super League 2027 — Grand Final Winner",
+      "startUtc": "2027-10-02T17:00:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.superleague.com",
+        "name": "Super League official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+        "selection": "Wigan Warriors",
+        "market": "Grand Final Winner",
+        "decimal": "2.50",
+        "american": 150,
+        "fractional": "6/4",
+        "tipPct": 50,
+        "tips": "4/8"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); no live fixtures in OLBG hub today."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Wigan Warriors to win the Super League 2027 Grand Final",
+        "market": "Grand Final Winner (ante-post)",
+        "line": "OLBG 2.50 / +150 / 6-4",
+        "researchP": 50,
+        "text": "Four of eight OLBG tips on the Super League 2027 Grand Final Winner market back Wigan Warriors at 6-4 money, a 50 percent split the desk labels low-confidence. It is a 2027 ante-post line, and the desk says so plainly in the label rather than dressing it up. Selection: Wigan win the 2027 Grand Final.",
+        "source_ids": [
+          "s-olbg-rugbyleague"
+        ]
+      }
+    },
+    {
+      "id": "2801600",
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventType": "outright",
+      "competition": "NRL (Australia)",
+      "event": "NRL 2027 — winner",
+      "startUtc": "2027-10-03T08:30:00Z",
+      "olbgTime": null,
+      "official": {
+        "url": "https://www.nrl.com",
+        "name": "NRL official site",
+        "status": "reference-only"
+      },
+      "olbg": {
+        "event": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+        "selection": "Penrith Panthers",
+        "market": "Win Tournament",
+        "decimal": "7.00",
+        "american": 600,
+        "fractional": "6/1",
+        "tipPct": 33,
+        "tips": "1/3"
+      },
+      "research": null,
+      "flags": [
+        "Ante-post (2027); no live fixtures in OLBG hub today."
+      ],
+      "draftPrediction": {
+        "confidence": "low",
+        "selection": "Penrith Panthers to win the NRL 2027",
+        "market": "Win Tournament (ante-post)",
+        "line": "OLBG 7.00 / +600 / 6-1",
+        "researchP": 33,
+        "text": "One of three OLBG tips on the NRL 2027 outright is on Penrith Panthers at 6-1 money, a 33 percent block the desk publishes as a low-confidence ante-post swing. The rugby league hub has no fixtures this week, so the desk's whole league output is these three 2027 lines. Selection: Penrith win the 2027 NRL.",
+        "source_ids": [
+          "s-olbg-rugbyleague"
+        ]
+      }
+    }
+  ],
+  "picks": [
+    {
+      "sportKey": "baseball",
+      "sport": "Baseball",
+      "eventId": "160799",
+      "label": "World Series G4 — take Milwaukee",
+      "selection": "MIL Brewers to win Game 4",
+      "market": "Money Line",
+      "line": "OLBG 1.77 / -130 / 10-13",
+      "confidence": "high",
+      "researchP": 82,
+      "text": "The Brewers have done the hard part already, leading the series 3-0 after a 5-4 win in Game 2 and a 10-1 statement in Game 3 where they dropped eight runs in the fifth inning alone, per the official MLB schedule feed. Tampa Bay now start Griffin Jax in elimination territory at the Tropicana, and both OLBG tipsters on the row sit with Milwaukee. Selection: Brewers win Game 4.",
+      "source_ids": [
+        "s-mlb",
+        "s-olbg-baseball"
+      ]
+    },
+    {
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventId": "536214",
+      "label": "Seoul Knights to close it out at home",
+      "selection": "Seoul Knights to beat KCC Egis",
+      "market": "Money Line",
+      "line": "OLBG 1.50 / -200 / 1-2",
+      "confidence": "high",
+      "researchP": 80,
+      "text": "Korean basketball is tipster country on OLBG and this one has moved: four of five tipsters on the Seoul Knights versus KCC Egis row back the home side at -200 money, the strongest consensus on the KBL card today. The Knights sit higher in the standings than Egis through the early KBL schedule and play in front of their home crowd. Selection: Seoul Knights win.",
+      "source_ids": [
+        "s-olbg-basketball"
+      ]
+    },
+    {
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventId": "536253",
+      "label": "Celtics absorb the Nets in Boston",
+      "selection": "BOS Celtics (desk line)",
+      "market": "Money Line",
+      "line": "Desk 1.54 / -185 / 7-13 (65%)",
+      "confidence": "medium",
+      "researchP": 65,
+      "text": "NBA.com has Boston at 2-1 and New Jersey dead last in the conference at 0-3 going into Tuesday night at TD Garden. Jayson Tatum is averaging 24 points, 6.7 rebounds and 8 assists through four games while Julius Randle's 22 points for the Nets are their only bright spot. The desk line sits Boston at 65 percent from the record gap and home court. Selection: Celtics win.",
+      "source_ids": [
+        "s-nba",
+        "s-olbg-basketball"
+      ]
+    },
+    {
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventId": "536179",
+      "label": "Fenerbahce bounce back in Valencia",
+      "selection": "Fenerbahce to beat Valencia",
+      "market": "Money Line",
+      "line": "OLBG 2.05 / +105 / 21-20",
+      "confidence": "medium",
+      "researchP": 67,
+      "text": "EuroLeague round action puts Valencia at home against a Fenerbahce side that four of six OLBG tipsters rate as the winner at even-ish money. Fener's rotation depth was built for exactly this stretch of the European calendar, and the +105 price is the spot on the round's card where the tipster consensus clears two-thirds. Selection: Fenerbahce wins in Valencia.",
+      "source_ids": [
+        "s-olbg-basketball"
+      ]
+    },
+    {
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventId": "536177",
+      "label": "Panathinaikos steamroll Milano at home",
+      "selection": "Panathinaikos to beat Milano",
+      "market": "Money Line",
+      "line": "OLBG 1.10 / -1000 / 1-10",
+      "confidence": "medium",
+      "researchP": 63,
+      "text": "Panathinaikos at home against Milano is priced at -1000 on OLBG, the shortest price on the EuroLeague card, with five of eight tipsters on board. The short price already bakes in a wide win, so the honest read is a medium-confidence cover of a near-certain favourite. Selection: Panathinaikos win, short price accepted as the market's own view.",
+      "source_ids": [
+        "s-olbg-basketball"
+      ]
+    },
+    {
+      "sportKey": "basketball",
+      "sport": "Basketball",
+      "eventId": "536251",
+      "label": "Pistons keep rolling at Madison Square",
+      "selection": "DET Pistons (desk line)",
+      "market": "Money Line",
+      "line": "Desk 1.95 / -105 / 19-20 (51%)",
+      "confidence": "low",
+      "researchP": 51,
+      "text": "Detroit opens 3-0 against a Knicks team that has lost all three, and Cade Cunningham's 21.3 points and 8.0 assists are the best combination on the floor that night, per NBA.com's leader tables. New York lean on Karl-Anthony Towns' 21 points and 12 rebounds at home, which keeps this closer than the records suggest. Selection: Pistons win, thin margin.",
+      "source_ids": [
+        "s-nba",
+        "s-olbg-basketball"
+      ]
+    },
+    {
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventId": "188872",
+      "label": "Afghanistan flatten Zimbabwe in opener",
+      "selection": "Afghanistan to beat Zimbabwe",
+      "market": "Win Match",
+      "line": "OLBG 1.25 / -400 / 51-200",
+      "confidence": "high",
+      "researchP": 94,
+      "text": "Nine of the ten OLBG tipsters on the Afghanistan versus Zimbabwe first T20 back the hosts at -400 money, the heaviest consensus on the cricket card, and the ICC fixture list confirms the match identity for the day. Afghanistan have the pace and the home-pattern familiarity that Zimbabwe's overseas squad rarely match. Selection: Afghanistan win the first T20.",
+      "source_ids": [
+        "s-icc",
+        "s-olbg-cricket"
+      ]
+    },
+    {
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventId": "188852",
+      "label": "India close out the T20 series in Auckland",
+      "selection": "India to beat New Zealand",
+      "market": "Win Match",
+      "line": "OLBG 1.80 / -125 / 4-5",
+      "confidence": "high",
+      "researchP": 71,
+      "text": "Thirty-five of forty-nine OLBG tips on the third T20 between New Zealand and India sit with India, a 71 percent consensus at -125 money, and the ICC official fixture page carries the match (ICC id 271648). India's batting depth against home swing has been the story of the series, and a series win is on the line. Selection: India win the third T20.",
+      "source_ids": [
+        "s-icc",
+        "s-olbg-cricket"
+      ]
+    },
+    {
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventId": "188868",
+      "label": "Pakistan hold the ODI against Sri Lanka",
+      "selection": "Pakistan to beat Sri Lanka",
+      "market": "Win Match",
+      "line": "OLBG 1.50 / -200 / 1-2",
+      "confidence": "high",
+      "researchP": 71,
+      "text": "The OLBG tipster base backs Pakistan at -200 in the one-day match against Sri Lanka, matching the 71 percent consensus the desk carried into the morning, and the ICC fixture list confirms the pairing. Pakistan's top-order firepower in conditions that suit them is the edge the tipsters are pricing in. Selection: Pakistan win the ODI.",
+      "source_ids": [
+        "s-icc",
+        "s-olbg-cricket"
+      ]
+    },
+    {
+      "sportKey": "cricket",
+      "sport": "Cricket",
+      "eventId": "188854",
+      "label": "Ireland outlast Namibia in the third ODI",
+      "selection": "Ireland to beat Namibia",
+      "market": "Win Match",
+      "line": "OLBG 1.55 / -182 / 11-20",
+      "confidence": "medium",
+      "researchP": 69,
+      "text": "Ireland are the back of the day's ODI against Namibia with twenty-two of thirty-two OLBG tips, a 69 percent consensus that lands just under the high bar at -182 money. The ICC page lists the third ODI of the series, and Ireland's white-ball record against associate nations has been the consistent story this year. Selection: Ireland win.",
+      "source_ids": [
+        "s-icc",
+        "s-olbg-cricket"
+      ]
+    },
+    {
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventId": "101913",
+      "label": "Hye Jin Choi for the Maybank title",
+      "selection": "Hye Jin Choi to win the Maybank Championship",
+      "market": "Win Tournament",
+      "line": "OLBG 11.00 / +1000 / 10-1",
+      "confidence": "low",
+      "researchP": 40,
+      "text": "The Maybank Championship runs 29 October to 1 November at Kuala Lumpur Golf & Country Club's West Course with a $3 million purse and 500 CME Globe points, per the LPGA's official schedule, and the 2025 winner was Miyu Yamashita at minus 18. OLBG's tipster base splits between Choi and one other name at 10-1, so this is a lean play, not a slam. Selection: Choi wins.",
+      "source_ids": [
+        "s-lpga",
+        "s-olbg-golf"
+      ]
+    },
+    {
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventId": "101915",
+      "label": "Wyndham Clark at the Mexico Open",
+      "selection": "Wyndham Clark to win the Mexico Open",
+      "market": "Win Tournament",
+      "line": "OLBG 11.00 / +1000 / 10-1",
+      "confidence": "low",
+      "researchP": 40,
+      "text": "Clark is the OLBG tipster choice for the Mexico Open at 10-1, one of two names displayed on the row, and the PGA Tour's schedule page is the place to confirm the 2026 dates before the field is set. The long price is the honest part of this one: outright golf at four figures of return is a low-confidence swing with a ceiling, not a base. Selection: Clark wins the Mexico Open.",
+      "source_ids": [
+        "s-olbg-golf"
+      ]
+    },
+    {
+      "sportKey": "golf",
+      "sport": "Golf",
+      "eventId": "101914",
+      "label": "Stewart Cink on the Korn Ferry circuit",
+      "selection": "Stewart Cink to win the Simmons Bank Championship",
+      "market": "Win Tournament",
+      "line": "OLBG 7.00 / +600 / 6-1",
+      "confidence": "low",
+      "researchP": 45,
+      "text": "Cink at 6-1 for the Simmons Bank Championship is the shortest of the three golf outrights OLBG carries this week, and the Korn Ferry field is where his experience with short-course, high-slopes ball tends to show. The desk has not captured the official KFT schedule page for this event, so the entry is flagged as OLBG-sourced only. Selection: Cink wins.",
+      "source_ids": [
+        "s-olbg-golf"
+      ]
+    },
+    {
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventId": "200104",
+      "label": "Bruins cover the puck line in Carolina",
+      "selection": "BOS Bruins +1.5 (puck line)",
+      "market": "Puck Line",
+      "line": "OLBG 1.65 / -154 / 13-20",
+      "confidence": "high",
+      "researchP": 78,
+      "text": "NHL.com standings put Boston at 9-2-1 with nineteen points and a plus-22 goal differential, the best scoring margin in the league, while Carolina sits one point clear at 20 but has conceded on both ends of a 9-2-2 season. Boston's +1.5 line wins outright or absorbs a one-goal loss, and their recent road record of 4-1-1 supports the cover. Selection: Bruins +1.5.",
+      "source_ids": [
+        "s-nhl",
+        "s-olbg-icehockey"
+      ]
+    },
+    {
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventId": "200081",
+      "label": "Kalpa at home against Sport",
+      "selection": "Kalpa to beat Sport",
+      "market": "Money Line",
+      "line": "OLBG 1.60 / -167 / 3-5",
+      "confidence": "medium",
+      "researchP": 68,
+      "text": "All five OLBG tipsters on the Kalpa versus Sport row in Finland's SM Liiga back Kalpa at 3-5 money, the cleanest 100 percent consensus on the European hockey card, with two comments of tipster reasoning attached. The desk has not captured an official Liiga standings page for today, so the confidence rests on the tipster block plus home ice. Selection: Kalpa win.",
+      "source_ids": [
+        "s-olbg-icehockey"
+      ]
+    },
+    {
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventId": "200082",
+      "label": "Malmo Redhawks over Linkoping",
+      "selection": "IF Malmo Redhawks to beat Linkoping HC",
+      "market": "Money Line",
+      "line": "OLBG 1.56 / -180 / 5-9",
+      "confidence": "medium",
+      "researchP": 66,
+      "text": "Three of three OLBG tips in the Swedish Hockey League pair Malmo Redhawks against Linkoping sit with Malmo at 5-9 money, a unanimous block on a midweek SHL card. The desk's official cross-walk covers the NHL rows today rather than every SHL pairing, so this one is carried on the tipster consensus and the displayed price. Selection: Malmo Redhawks win.",
+      "source_ids": [
+        "s-olbg-icehockey"
+      ]
+    },
+    {
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventId": "200100",
+      "label": "Adler Mannheim edge Koln away",
+      "selection": "Adler Mannheim to beat Kolner Haie",
+      "market": "Money Line",
+      "line": "OLBG 2.20 / +120 / 6-5",
+      "confidence": "medium",
+      "researchP": 62,
+      "text": "Both OLBG tipsters on the Kolner Haie versus Adler Mannheim row in Germany's Eishockey Liga back Mannheim as the +120 winner, a price that leaves real value if the away side handles the weekend fatigue. The desk has no captured DEL standings for the pair, so the pick is driven by the unanimous tip block at a fair return. Selection: Adler Mannheim win.",
+      "source_ids": [
+        "s-olbg-icehockey"
+      ]
+    },
+    {
+      "sportKey": "ice_hockey",
+      "sport": "Ice Hockey",
+      "eventId": "200108",
+      "label": "Flyers to take the Jackets",
+      "selection": "PHI Flyers to beat CLB",
+      "market": "Money Line",
+      "line": "OLBG 2.05 / +105 / 21-20",
+      "confidence": "low",
+      "researchP": 48,
+      "text": "Two of three OLBG tips on the Columbus at Philadelphia row back the Flyers at even-ish money, but the official NHL standings read 3-7-3 and nine points for Philadelphia against 8 for Columbus, and the desk would not chase this price on that record. It stays on the desk as a low-confidence alternative if the tipster block keeps growing. Selection (if taken): Flyers.",
+      "source_ids": [
+        "s-nhl",
+        "s-olbg-icehockey"
+      ]
+    },
+    {
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventId": "12134",
+      "label": "PSG-Aalborg: the draw is the value",
+      "selection": "Tie (draw) — PSG vs Aalborg, 3-way ML",
+      "market": "Money Line (3-way)",
+      "line": "OLBG 8.50 / +750 / 15-2",
+      "confidence": "high",
+      "researchP": 78,
+      "text": "Eleven of fourteen OLBG tipsters on the PSG versus Aalborg Champions League row back the draw in the three-way money line at 15-2, a 78 percent consensus the desk treats as its honest probability for the result category. The EHF schedule confirms the fixture for 28 October at 20:45 CEST. Draw betting looks odd, but the tipster block is explicit. Selection: Tie.",
+      "source_ids": [
+        "s-ehf",
+        "s-olbg-handball"
+      ]
+    },
+    {
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventId": "12135",
+      "label": "Celje-Zagreb goes to a draw",
+      "selection": "Tie (draw) — Celje vs Zagreb, 3-way ML",
+      "market": "Money Line (3-way)",
+      "line": "OLBG 8.50 / +750 / 15-2",
+      "confidence": "high",
+      "researchP": 75,
+      "text": "Six of eight OLBG tips on the Celje versus Zagreb row sit with the draw at 15-2, a 75 percent consensus on a match the EHF schedule lists for 28 October at 20:45 CEST. Both clubs are in the middle of a long Champions League block where defensive structures hold up, which is exactly the pattern the tipsters are reading. Selection: Tie.",
+      "source_ids": [
+        "s-ehf",
+        "s-olbg-handball"
+      ]
+    },
+    {
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventId": "12138",
+      "label": "Plock-Nantes level",
+      "selection": "Tie (draw) — Wisla Plock vs Nantes, 3-way ML",
+      "market": "Money Line (3-way)",
+      "line": "OLBG 8.50 / +750 / 15-2",
+      "confidence": "high",
+      "researchP": 73,
+      "text": "Eleven of fifteen OLBG tipsters on the Wisla Plock versus Nantes row back the draw at 15-2, a 73 percent consensus on the 28 October 18:45 CEST kickoff shown on the EHF schedule. Plock's home block against a Nantes side mid-season adjustment is the setup the tipsters describe. Selection: Tie.",
+      "source_ids": [
+        "s-ehf",
+        "s-olbg-handball"
+      ]
+    },
+    {
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventId": "12133",
+      "label": "Montpellier-Dinamo level",
+      "selection": "Tie (draw) — Montpellier vs Dinamo Bucuresti, 3-way ML",
+      "market": "Money Line (3-way)",
+      "line": "OLBG 8.00 / +700 / 7-1",
+      "confidence": "high",
+      "researchP": 75,
+      "text": "Three of four OLBG tips on Montpellier versus Dinamo Bucuresti back the draw at 7-1, a 75 percent consensus on the 29 October 20:45 CEST fixture from the EHF schedule. Montpellier's home defensive record and Dinamo's competitive balance in Europe are what the tipster block is pricing. Selection: Tie.",
+      "source_ids": [
+        "s-ehf",
+        "s-olbg-handball"
+      ]
+    },
+    {
+      "sportKey": "handball",
+      "sport": "Handball",
+      "eventId": "12136",
+      "label": "Magdeburg-Kriens level",
+      "selection": "Tie (draw) — Magdeburg vs Kriens-Luzern, 3-way ML",
+      "market": "Money Line (3-way)",
+      "line": "OLBG 16.00 / +1500 / 15-1",
+      "confidence": "medium",
+      "researchP": 64,
+      "text": "Nine of fourteen OLBG tipsters on the Magdeburg versus Kriens-Luzern row back the draw at 15-1, a 64 percent consensus that clears the medium bar on the 28 October 20:45 CEST fixture shown on the EHF schedule. The longer price is the point of the line: same consensus logic as the 15-2 rows, bigger payout. Selection: Tie.",
+      "source_ids": [
+        "s-ehf",
+        "s-olbg-handball"
+      ]
+    },
+    {
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventId": "609603",
+      "label": "Montauban at home against Narbonne",
+      "selection": "Montauban to beat Narbonne",
+      "market": "To Win",
+      "line": "OLBG 1.02 / -5000 / 1-50",
+      "confidence": "high",
+      "researchP": 92,
+      "text": "The LNR Pro D2 J9 fixture sheet has Montauban, sixth in the table, at home to Narbonne, thirteenth, on Friday 19:30 CEST, and both OLBG tipsters on the row are on Montauban at 1-50 money. The price is the market saying it is a near-lock, and the desk agrees the consensus and the form point the same way. Selection: Montauban win.",
+      "source_ids": [
+        "s-lnr",
+        "s-olbg-rugbyunion"
+      ]
+    },
+    {
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventId": "609598",
+      "label": "Leaders Oyonnax at home to Soyaux",
+      "selection": "Oyonnax to beat Soyaux-Angouleme",
+      "market": "To Win",
+      "line": "OLBG 1.06 / -1667 / 1-16",
+      "confidence": "high",
+      "researchP": 88,
+      "text": "LNR's J9 calendar lists Oyonnax, first in the Pro D2 table, hosting Soyaux-Angouleme, fourth, on Friday 19:30 CEST, and the OLBG tip block is unanimous at 1-16 money. Table position plus home ground is the whole story; the short price just reflects how far ahead the leaders sit. Selection: Oyonnax win.",
+      "source_ids": [
+        "s-lnr",
+        "s-olbg-rugbyunion"
+      ]
+    },
+    {
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventId": "609604",
+      "label": "Colomiers keep the win streak going",
+      "selection": "Colomiers to beat Agen",
+      "market": "To Win",
+      "line": "OLBG 1.17 / -588 / 1-6",
+      "confidence": "high",
+      "researchP": 80,
+      "text": "The LNR J9 sheet has Colomiers, twelfth, hosting Agen, ninth, Friday 19:00 CEST, and both OLBG tipsters back Colomiers at 1-6 money. A lower-table home side against a slightly higher opponent is the shape the tipsters are pricing as a home win. Selection: Colomiers win.",
+      "source_ids": [
+        "s-lnr",
+        "s-olbg-rugbyunion"
+      ]
+    },
+    {
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventId": "609605",
+      "label": "Dax cause an upset at Provence",
+      "selection": "Dax to beat Provence",
+      "market": "To Win",
+      "line": "OLBG 1.80 / -125 / 4-5",
+      "confidence": "medium",
+      "researchP": 67,
+      "text": "LNR's J9 calendar has Dax, tenth, travelling to Provence, second, on Thursday 21:00 CEST, and two of three OLBG tipsters are on Dax at -125 money, which is a real statement against the table. The desk labels this medium because the price already prices the favourite's quality, but the tipster direction is the edge. Selection: Dax win.",
+      "source_ids": [
+        "s-lnr",
+        "s-olbg-rugbyunion"
+      ]
+    },
+    {
+      "sportKey": "rugby_union",
+      "sport": "Rugby Union",
+      "eventId": "609605",
+      "label": "Provence desk line (contrarian check)",
+      "selection": "Provence to beat Dax (desk line)",
+      "market": "To Win",
+      "line": "Desk 1.54 / -185 / 7-13 (65%)",
+      "confidence": "medium",
+      "researchP": 65,
+      "text": "The desk's own reference line for the same Dax-Thu game sits with Provence at 65 percent, using the LNR table position gap (second vs tenth) as the input and the J9 kickoff time as the event identity. Both lines on the same fixture are shown so the reader sees where the desk and the tipsters disagree. Selection if following the desk line: Provence.",
+      "source_ids": [
+        "s-lnr"
+      ]
+    },
+    {
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventId": "902177",
+      "label": "Osaka outclasses Paolini in Bangkok",
+      "selection": "Naomi Osaka to beat Jasmine Paolini",
+      "market": "Win Match",
+      "line": "OLBG 1.33 / -303 / 1-3",
+      "confidence": "high",
+      "researchP": 85,
+      "text": "Both OLBG tipsters on the Osaka versus Paolini row are on Osaka at 1-3 money, a unanimous block at the WTA Bangkok-week event with the match listed for the morning session. Osaka's serve-plus-return profile against a lefty is the pattern the tipsters describe, and the price leaves room for the favourite to miss a set. Selection: Osaka wins.",
+      "source_ids": [
+        "s-olbg-tennis"
+      ]
+    },
+    {
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventId": "902172",
+      "label": "Fernandez holds her court against Sakatsume",
+      "selection": "Leylah Fernandez to beat Himeno Sakatsume",
+      "market": "Win Match",
+      "line": "OLBG 1.20 / -500 / 1-5",
+      "confidence": "high",
+      "researchP": 83,
+      "text": "Ten of twelve OLBG tips on the Fernandez versus Sakatsume row back the Canadian at 1-5 money, an 83 percent consensus with five-star tipster weight behind the block. The Bangkok-week fixture is listed for the first session of the day, and the class gap in big-match experience is what the price is built from. Selection: Fernandez wins.",
+      "source_ids": [
+        "s-olbg-tennis"
+      ]
+    },
+    {
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventId": "902409",
+      "label": "Ruud rolls through to the Basel quarterfinals",
+      "selection": "Casper Ruud to beat Nuno Borges",
+      "market": "Win Match",
+      "line": "Desk 1.61 / -161 / 5-8 (62%)",
+      "confidence": "medium",
+      "researchP": 62,
+      "text": "The ATP's official scores page shows Ruud coming through Basel's first round with a 4-6 7-5 6-3 win over Stricker, so the second-round meeting with Borges is the desk's tennis anchor for the day. The desk line prices Ruud at 62 percent from the round result and surface fit. Selection: Ruud wins.",
+      "source_ids": [
+        "s-atp",
+        "s-olbg-tennis"
+      ]
+    },
+    {
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventId": "902238",
+      "label": "Jodar over Tabilo in the swing week",
+      "selection": "Rafael Jodar to beat Alejandro Tabilo",
+      "market": "Win Match",
+      "line": "OLBG 1.30 / -333 / 30-100",
+      "confidence": "medium",
+      "researchP": 67,
+      "text": "The OLBG tip block on the Tabilo versus Jodar row sits with Jodar at 30-100 money and a 67 percent confidence reading from the payload, on the Basel/Vienna swing card listed for the midday session. The desk carries it as a medium because the exact tip count was not fully resolved in the capture window. Selection: Jodar wins.",
+      "source_ids": [
+        "s-olbg-tennis"
+      ]
+    },
+    {
+      "sportKey": "tennis",
+      "sport": "Tennis",
+      "eventId": "902189",
+      "label": "Tagger takes out Venus Williams",
+      "selection": "Lilli Tagger to beat Venus Williams",
+      "market": "Win Match",
+      "line": "OLBG 1.05 / -2000 / 1-20",
+      "confidence": "low",
+      "researchP": 50,
+      "text": "Four of eight OLBG tips on the Tagger versus Venus Williams row back the younger player at 1-20 money, a split block the desk labels low-confidence. The price is a lock on paper, and the tipster split is the only reason it is not a high. Selection (if taken): Tagger wins.",
+      "source_ids": [
+        "s-olbg-tennis"
+      ]
+    },
+    {
+      "sportKey": "darts",
+      "sport": "Darts",
+      "eventId": "26023",
+      "label": "Littler is the championship favourite for 2027",
+      "selection": "Luke Littler to win the PDC World Championship 2027",
+      "market": "Win Tournament (ante-post)",
+      "line": "OLBG 1.80 / -125 / 4-5",
+      "confidence": "medium",
+      "researchP": 61,
+      "text": "Twenty-two of thirty-six OLBG tips on the 2027 PDC World Championship outright sit with Luke Littler at 4-5 money, a 61 percent consensus with seven-star tipsters and seven comments attached. It is an ante-post line that settles in 2027, so the desk labels it medium and flags the PDC cross-walk as pending. Selection: Littler wins the 2027 Worlds.",
+      "source_ids": [
+        "s-olbg-darts"
+      ]
+    },
+    {
+      "sportKey": "darts",
+      "sport": "Darts",
+      "eventId": "32446",
+      "label": "Doets to win Players Championship 31",
+      "selection": "Kevin Doets to win Players Championship 31",
+      "market": "Win Tournament (event outright)",
+      "line": "OLBG 19.00 / +1800 / 18-1",
+      "confidence": "low",
+      "researchP": 25,
+      "text": "Two of eight OLBG tips on the Players Championship 31 outright back Kevin Doets at 18-1 money, a 25 percent block that the desk publishes as a low-confidence swing. The PDC's own calendar page was cookie-walled during capture, so the event identity is OLBG-sourced only. Selection: Doets wins PC31.",
+      "source_ids": [
+        "s-olbg-darts"
+      ]
+    },
+    {
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventId": "37121",
+      "label": "Ziraat Bankasi run in against Gaziantep",
+      "selection": "Ziraat Bankasi to beat Gaziantep Genclik Spor",
+      "market": "Win Match",
+      "line": "OLBG 1.08 / -1250 / 1-12",
+      "confidence": "high",
+      "researchP": 90,
+      "text": "All four OLBG tipsters on the Ziraat Bankasi versus Gaziantep row back the club side at 1-12 money, a unanimous block with three-star tipster weight. The Turkish league fixture is the anchor of the desk's volleyball card today, and the price is the market's own near-lock. Selection: Ziraat Bankasi win.",
+      "source_ids": [
+        "s-olbg-volleyball"
+      ]
+    },
+    {
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventId": "37126",
+      "label": "Halkbank handle Altekma away",
+      "selection": "Halkbank Ankara to beat TFL Altekma",
+      "market": "Win Match",
+      "line": "OLBG 1.40 / -250 / 2-5",
+      "confidence": "high",
+      "researchP": 80,
+      "text": "Four of five OLBG tips on the Altekma versus Halkbank row back Halkbank at -250 money, an 80 percent consensus on the Turkish card. Halkbank's depth against Altekma is the gap the tipsters describe, and the price sits in the window the desk targets. Selection: Halkbank win.",
+      "source_ids": [
+        "s-olbg-volleyball"
+      ]
+    },
+    {
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventId": "37075",
+      "label": "Bergamo women take the Marignano clash",
+      "selection": "Bergamo W to beat Marignano W",
+      "market": "Win Match",
+      "line": "OLBG 1.38 / -263 / 19-50",
+      "confidence": "high",
+      "researchP": 71,
+      "text": "Five of seven OLBG tips on the Marignano versus Bergamo women's row back Bergamo at -263 money, a 71 percent consensus in the Italian Serie A1 women's division with an expert tipster in the block. The desk's volleyball card leans on these unanimous-ish blocks rather than split ones. Selection: Bergamo win.",
+      "source_ids": [
+        "s-olbg-volleyball"
+      ]
+    },
+    {
+      "sportKey": "volleyball",
+      "sport": "Volleyball",
+      "eventId": "37081",
+      "label": "Opole women over Bydgoszcz",
+      "selection": "Uni Opole W to beat Palac Bydgoszcz W",
+      "market": "Win Match",
+      "line": "OLBG 1.29 / -345 / 2-7",
+      "confidence": "medium",
+      "researchP": 67,
+      "text": "Four of six OLBG tips on the Opole versus Bydgoszcz women's row back Opole at 2-7 money, a 67 percent consensus in the Polish league. The desk labels it medium because the tip block is not unanimous and no official Polish league cross-walk was captured for the fixture. Selection: Opole win.",
+      "source_ids": [
+        "s-olbg-volleyball"
+      ]
+    },
+    {
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventId": "3531",
+      "label": "Eire Og cover half a point at Kanturk",
+      "selection": "Eire Og Cor +0.5 (handicap)",
+      "market": "Handicap",
+      "line": "OLBG 1.83 / -120 / 5-6",
+      "confidence": "high",
+      "researchP": 74,
+      "text": "All six OLBG tips on the Kanturk versus Eire Og Cor row sit with Eire Og Cor at +0.5, a 100 percent tipster consensus at 5-6 money for the 1 November club fixture. The handicap line means Eire Og can lose by exactly one point and the bet still stands, which is the shape the tipsters are reading. Selection: Eire Og Cor +0.5.",
+      "source_ids": [
+        "s-olbg-gaelic"
+      ]
+    },
+    {
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventId": "3537",
+      "label": "Kildimo Pallaskenry cover 3.5",
+      "selection": "Kildimo Pallaskenry +3.5 (handicap)",
+      "market": "Handicap",
+      "line": "OLBG 1.80 / -125 / 4-5",
+      "confidence": "high",
+      "researchP": 71,
+      "text": "Five of seven OLBG tips on the Fr Caseys versus Kildimo Pallaskenry row back Kildimo at +3.5, a 71 percent consensus at -125 money for the 1 November 10:30 club fixture. Covering 3.5 points means the smaller side can lose by three and still win the bet. Selection: Kildimo Pallaskenry +3.5.",
+      "source_ids": [
+        "s-olbg-gaelic"
+      ]
+    },
+    {
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventId": "3327",
+      "label": "Kerry for the 2027 All-Ireland title",
+      "selection": "Kerry to win the All-Ireland Football Championship 2027",
+      "market": "Win Tournament (ante-post)",
+      "line": "OLBG 3.25 / +225 / 9-4",
+      "confidence": "high",
+      "researchP": 75,
+      "text": "Six of eight OLBG tips on the 2027 All-Ireland Football Championship outright back Kerry at 9-4 money, a 75 percent consensus with five-star tipsters in the block. It is an ante-post line that settles next summer, and the desk publishes it with that horizon made explicit. Selection: Kerry win the 2027 All-Ireland.",
+      "source_ids": [
+        "s-olbg-gaelic"
+      ]
+    },
+    {
+      "sportKey": "gaelic_sports",
+      "sport": "Gaelic Sports",
+      "eventId": "675",
+      "label": "Galway for the 2027 hurling title",
+      "selection": "Galway to win the All-Ireland Hurling Championship 2027",
+      "market": "Win Hurling (ante-post)",
+      "line": "OLBG 5.50 / +450 / 9-2",
+      "confidence": "low",
+      "researchP": 39,
+      "text": "Seven of eighteen OLBG tips on the 2027 All-Ireland Hurling Championship outright back Galway at 9-2 money, a 39 percent block that the desk labels low and publishes as the only hurling line on the card. The Hurling hub carried this single row today, so the sport's output is deliberately thin. Selection: Galway win the 2027 All-Ireland.",
+      "source_ids": [
+        "s-olbg-hurling"
+      ]
+    },
+    {
+      "sportKey": "motor_racing",
+      "sport": "Motor Racing",
+      "eventId": "912",
+      "label": "Verstappen wins the championship without Antonelli",
+      "selection": "Max Verstappen to win the 2026 Drivers' Championship (Without Antonelli market)",
+      "market": "Win Tournament (ante-post)",
+      "line": "OLBG 1.50 / -200 / 1-2",
+      "confidence": "medium",
+      "researchP": 57,
+      "text": "Four of seven OLBG tips on the unusual 'Drivers' Championship Without Kimi Antonelli' market back Verstappen at 1-2 money, a 57 percent consensus. Formula 1's official calendar shows Antonelli has won six of the first seven rounds, which is exactly why the conditional market exists, so the desk flags the terms for a careful read. Selection: Verstappen in this market.",
+      "source_ids": [
+        "s-f1",
+        "s-olbg-motor"
+      ]
+    },
+    {
+      "sportKey": "motor_racing",
+      "sport": "Motor Racing",
+      "eventId": "914",
+      "label": "Norris takes pole in Mexico City",
+      "selection": "Lando Norris for Fastest Qualifier",
+      "market": "Fastest Qualifier (session)",
+      "line": "OLBG 15.00 / +1400 / 14-1",
+      "confidence": "low",
+      "researchP": 50,
+      "text": "One of two OLBG tips on the Mexico City Grand Prix's Fastest Qualifier market is on Lando Norris at 14-1, a 50 percent split the desk labels low-confidence. The F1 official page confirms the weekend runs 30 October to 1 November, and the session market settles on qualifying pace, not the race. Selection (if taken): Norris takes pole.",
+      "source_ids": [
+        "s-f1",
+        "s-olbg-motor"
+      ]
+    },
+    {
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventId": "2695857",
+      "label": "NSW for the 2027 State of Origin",
+      "selection": "New South Wales to win State of Origin 2027",
+      "market": "Win Tournament (ante-post)",
+      "line": "OLBG 1.75 / -133 / 3-4",
+      "confidence": "medium",
+      "researchP": 69,
+      "text": "Nine of thirteen OLBG tips on the State of Origin 2027 outright back New South Wales at 3-4 money, a 69 percent consensus with three-star tipsters attached. The hub holds no live fixtures today, only the three 2027 ante-post lines, so the desk publishes NSW as the league's only medium pick and labels the horizon. Selection: NSW win Origin 2027.",
+      "source_ids": [
+        "s-olbg-rugbyleague"
+      ]
+    },
+    {
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventId": "2801554",
+      "label": "Wigan to lift the 2027 Super League trophy",
+      "selection": "Wigan Warriors to win the Super League 2027 Grand Final",
+      "market": "Grand Final Winner (ante-post)",
+      "line": "OLBG 2.50 / +150 / 6-4",
+      "confidence": "low",
+      "researchP": 50,
+      "text": "Four of eight OLBG tips on the Super League 2027 Grand Final Winner market back Wigan Warriors at 6-4 money, a 50 percent split the desk labels low-confidence. It is a 2027 ante-post line, and the desk says so plainly in the label rather than dressing it up. Selection: Wigan win the 2027 Grand Final.",
+      "source_ids": [
+        "s-olbg-rugbyleague"
+      ]
+    },
+    {
+      "sportKey": "rugby_league",
+      "sport": "Rugby League",
+      "eventId": "2801600",
+      "label": "Penrith for the 2027 NRL premiership",
+      "selection": "Penrith Panthers to win the NRL 2027",
+      "market": "Win Tournament (ante-post)",
+      "line": "OLBG 7.00 / +600 / 6-1",
+      "confidence": "low",
+      "researchP": 33,
+      "text": "One of three OLBG tips on the NRL 2027 outright is on Penrith Panthers at 6-1 money, a 33 percent block the desk publishes as a low-confidence ante-post swing. The rugby league hub has no fixtures this week, so the desk's whole league output is these three 2027 lines. Selection: Penrith win the 2027 NRL.",
+      "source_ids": [
+        "s-olbg-rugbyleague"
+      ]
+    }
+  ]
 }

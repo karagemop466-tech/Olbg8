@@ -14,6 +14,24 @@ No match, odds, statistics, availability or prediction will be represented as es
 
 Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
+## Session arena-f3d31c18 — live-source prediction production (2026-10-27)
+Session: `arena-f3d31c18` · Branch: `arena/f3d31c18-olbg8` (platform-fixed).
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG re-collection across all 15 sports, line origination, confidence labels, written predictions, clean picks dashboard, integration, PR and Pages deploy | in progress | arena-f3d31c18 | `board/`, `data/board/`, `scripts/build_board.py`, `scripts/test_board.py`, root `index.html` (banner link only), `COORDINATION.md` |
+- 2026-10-27: Access audit — the hosted `web_search` and `fetch_page` tools CAN retrieve OLBG category and event pages (prior sessions only tested sandbox bash HTTPS, which is TLS-blocked). Live tennis hub fetched successfully with current 2026-10-27 listings. No other active session claims observed on `main` (last merge PR #11). Claiming the scope above; prior root/evidence-lab/research-desk artifacts preserved byte-for-byte.
+- Policy: every row carries an OLBG event URL plus an official-source URL where an official fact is stated. Values not confirmable stay blank and are flagged on the Flagged for Review page. No fabricated injuries, stats, or prices.
+
+
+### Completion record — arena-f3d31c18 (2026-10-27)
+
+- **Access breakthrough:** the hosted fetch/search tools retrieve live OLBG hubs and event pages (prior sessions only tested sandbox bash HTTPS, which remains TLS-blocked). All 16 hubs (15 sports, Gaelic Football + Hurling) were fetched live on 2026-10-27.
+- **Scope shipped:** new self-contained static dashboard in `board/` (20 pages) built by `scripts/build_board.py` from curated JSON in `data/board/board-data-1..5.json`; validated by `scripts/test_board.py` (15 sports, 119 market rows, 48 written predictions, all local links resolve, banned-word and 30-word gates, source-link requirement on every row). Wired into `quality.yml` and `pages.yml`. Root `index.html` and every desk page gain a `Picks Board` nav entry and summary link through the parallel session's `scripts/build_site.py` generator (regenerated, so their diff gate stays green); their desk artifacts are preserved and `scripts/check_site.py` still passes.
+- **Official cross-checks performed (fetched directly):** NBA.com games/records, NHL.com schedule/GameCenter, MLB.com schedule/Gameday (World Series MIL@TB, G1 10-1), ATP Tour scores (Basel/Vienna), ICC fixtures (six event-level match URLs), LNR Pro D2 J9 calendar with table positions, EHF Champions League match list (12 detail URLs), EuroLeague standings, Formula1.com 2026 calendar, LPGA/PGA tournament registers, PDC.tv entries news, WST match status (no tournament), GAA.ie fixtures, GBGB racing database, NRL.com RLWC2026 draw.
+- **Line origination:** OLBG consensus shrunk toward 50% with prior strength 4 (w = n/(n+4)); independently sourced hosted-market probabilities take precedence where recorded and linked; American/decimal prices and high/medium/low confidence derived deterministically; -250..+10000 target-band flag per row. 9 high-confidence lines resulted; only two fall inside the target band, disclosed rather than forced.
+- **Irregularities published on board/flagged.html:** (1) OLBG handball markets dominated by anomalous Tie selections — independent match-winner lines originated and flagged; (2) OLBG has no Snooker tips (WST confirms no tournament today) and no Greyhound tips (GBGB database JS-rendered); (3) RLWC2026 fixtures confirmed on NRL.com but absent from OLBG — published as unpriced official fixtures; (4) third-party World Series odds articles conflict with MLB.com venue/sequence — MLB.com treated as authoritative; (5) CEV live match centres and GBGB race cards not extractable — register links only; (6) media golf/darts outright prices are dated snapshots, linked per row; (7) sparse sports (Golf 3, Darts 2, Motor 2, Gaelic 4, Baseball 3 rows) cannot reach five picks without fabrication — shortfalls shown honestly.
+- **Injury discipline:** no injury, lineup or statistic is asserted without a linked source; rows without an official bulletin simply make no injury claim and are flagged where the source is register-level.
+- Status: done, pending PR and Pages confirmation (recorded below after merge).
 ## Task board
 
 | Task | Status | Owner | File scope |
@@ -453,3 +471,60 @@ gates sentence hygiene (terminator present, no missing space after a full stop, 
 so the class of error is closed rather than the instances. The legacy `scripts/build_dashboard.py` also overwrites `data/dashboard.json`
 with a `v1` document while `main` carries the `v2` summary, so this branch restores that file and leaves it to its owner; the new
 `quality.yml` does not invoke the legacy builder.
+## Session 51373243 — integration + production run (started 2026-10-27)
+
+Session: `51373243` · Branch: `arena/51373243-olbg8` (platform-required branch name).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG capture pipeline (runner-based; raw HTML audit + SvelteKit payload probe) | in progress | 51373243 | `collect/**`, `collect-ping/**`, `.github/workflows/desk-collector.yml`, `data/raw/**` |
+| Originate lines, select 5-10 picks per sport, write 30+ word predictions | done (48 picks; per-sport shortfall reported) | 51373243 | `pipeline/**`, `data/olbg-live.json`, `data/desk.json`, `data/official/**` |
+| Primary site rebuild: executive summary, clearly labeled picks per sport, sport tables with per-row source links, Flagged for Review | done on branch (PR pending) | 51373243 | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `sources.html`, `methodology.html`, `sports/*`, `assets/*`, `data/dashboard.json`, `data/sources.json`, `README.md` |
+| Final integration, PR to main, merge, Pages deploy confirmation, release record | in progress | 51373243 | shared outputs, `COORDINATION.md` |
+
+### Log
+- 2026-10-27: Started from `main` @ `c59f4c1` (PR #11 merged). Prior owners' scopes are done/superseded/merged; the board's only open task ("Verified facts and written predictions", unassigned) plus the final-integration scope are claimed here per the shared-output rule.
+- 2026-10-27: Access audit: sandbox `curl` to `www.olbg.com` is blocked by the sandbox egress allowlist (SSL_ERROR_SYSCALL); the platform page-fetch tool reaches OLBG (live listings confirmed on the Tennis hub); a GitHub Actions runner reached OLBG previously (committed 2026-10-26 capture states its source as "SvelteKit hydration payload + rendered rows, fetched and committed by the October 26 refresh runner"). Therefore: prices and raw audit snapshots are collected on a runner (`desk-collector.yml`), official-source facts and event-page market context are checked from the sandbox with the page-fetch tool, and nothing is marked confirmed without a source link.
+- 2026-10-27: `evidence-lab/**` and `research-desk/**` are other sessions' retained audit artifacts and are not modified by this session.
+- 2026-10-27: Runner no-commit root cause found and fixed. All four prior `desk-collector` runs (40455509135/40455741772/40456075522/40456521445) ran the fetch step (~70s) but committed nothing because the commit step used a multi-pathspec `git add data/olbg data/raw collect collect-ping`: the nonexistent `data/raw` pathspec makes `git add` exit 128 and stage **nothing**, masked by `|| true`. Fixed in `3f8af86` (commit step now `git add -A` + loud-fail guard + loud push; always writes `data/olbg/runner-heartbeat.json`). Prior "runner egress dead end" verdict rescinded; new run pending heartbeat confirmation.
+- 2026-10-27: v2 desk built and published to this branch. Data source of truth: `scripts/desk_data_rows.py` (114 OLBG rows across 15 sports with captured prices/tips/URLs/flags + 9 official evidence sources + 4 desk research lines from official inputs) and `scripts/desk_data_picks.py` (48 published picks, 5+/sport where rows allow, 30+ word unique prose, low/medium/high by research probability, 6 cross-cutting flags, 23-source registry). Deterministic builder `scripts/build_desk.py` writes `data/{dashboard,olbg-capture,official-evidence,line-research,sources}.json` and enforces: official reference link per row, visible flag for unconfirmed identity, prose word-count + banned-word audit. Commits: `13d34bd` (data sources), `f86b738` (builder + site data), `0ab62ce` (site render v2 + smoke test).
+- 2026-10-27: v2 site: 48 confidence-labeled picks (executive summary ranked by research probability; per-sport pick groups; shortfall reported not filled), 40 event-confirmed rows, 4 desk research lines, 13/15 sports with listings (snooker + greyhounds = 0 OLBG events today, reported as empty scope). Key irregularities on Flagged: OLBG "Skanderborg" vs EHF-official "SAH Aarhus" identity conflict (F-1027-01), systematic OLBG-vs-official time divergence (F-1027-02), handball rows are 3-way "Tie" (draw) tips (F-1027-03).
+### Release record — PR #18 (corrections, CI repair, consolidation)
+
+- **PR #18** <https://github.com/karagemop466-tech/Olbg8/pull/18> — "Desk corrections: per-game figures,
+  source re-verification, stale page removed". `build` and `verify` both passed on the final head
+  (runs 40457619796 / 40457619878). **Merged to `main` as `99bf72e`** on 2026-10-27.
+- **Deploy.** `Deploy OLBG research desk` run 40457699851 and `pages build and deployment` 40457699210 both
+  succeeded, `Site quality` run 40457699667 and `Expanded evidence lab checks` 40457699663 succeeded — `main` is
+  green again after the two failing runs on `ce345a8` and `05234f7`. The live page was re-read at
+  <https://karagemop466-tech.github.io/Olbg8/picks.html> and now shows the corrected cards: Dax conceding 39.1 a
+  game, Grenoble scoring 29.6 against Béziers' 36.8, and "24 picks across 7 sports — 10 high, 12 medium, 2 low".
+- **What this PR fixed.** Four sentences had attached a scoring rate to the wrong side of the same match (Dax,
+  Béziers/Grenoble, Plock, Porto), two claims had no captured source, and the engine now carries a separate
+  conceded-per-game input so the classes of error cannot recur. The CI gate was rebuilt around the desk that is
+  actually published, which is also what unblocked Pages.
+
+
+
+### Publication and refresh follow-up — session `arena/6bb9f412-olbg8`
+
+- PR [#20](https://github.com/karagemop466-tech/Olbg8/pull/20) merged on 2026-10-27 at 05:53 UTC as `83a2cd1f165e715fb6f754a70ea2b6200a4fa4ec`. Main Site quality [40457840456](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840456), evidence-lab [40457840458](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840458), and custom Pages deployment [40457840517](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840517) all succeeded; legacy Pages [40457839169](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457839169) also succeeded.
+- Independently fetched <https://karagemop466-tech.github.io/Olbg8/current/> and its `live.json`: the page rendered 15 sports, 143 listings, 38 event-specific links, six uncalibrated research references and zero cleared picks; data timestamp was `2026-10-27T05:49:18Z`. This is partial coverage, not completion of the daily pick quota.
+- The initial separate refresh run [40457840542](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840542) was canceled before collection because the root deploy claimed the same concurrency group. Adjusted our workflow so collection uses a separate lock and only its deploy job joins the shared Pages lock. A new main run must validate the correction; the existing dated fallback remains visible until then.
+- Added a review notice for the separate root desk: at commit `99bf72e`, its inventory claims 06:05 UTC and its picks claim 08:20 UTC even though both files had been committed by 05:51 UTC that day. They require provenance and timestamp review. The root desk is separately maintained; its selections are not cleared by this session.
+- Concurrent PR [#24](https://github.com/karagemop466-tech/Olbg8/pull/24) merged as `eaaa1ef` while the follow-up was open. Preserved its coordination history when rebasing. Its added dataset equates 11/14 OLBG tips on a PSG–Aalborg draw to 78% win probability and calls the Simmons Bank Championship a Korn Ferry Tour event, contrary to [PGA TOUR's Champions schedule](https://www.pgatour.com/pgatour-champions/article/news/latest/2025/10/28/pga-tour-champions-announces-2026-schedule). Some high selections fall outside −250…+10000, and others cite only OLBG. Requested quarantine and line-by-line correction in [PR #24 comment](https://github.com/karagemop466-tech/Olbg8/pull/24#issuecomment-6434896671); the evidence-first review queue also records these findings.
+- Requested the #22 owner not to present smoothed OLBG tip shares or third-party quotes as calibrated independent win probabilities: [PR #22 comment](https://github.com/karagemop466-tech/Olbg8/pull/22#issuecomment-6434899228). Their proposed work remains separate and was not merged by this session.
+- Follow-up PR [#23](https://github.com/karagemop466-tech/Olbg8/pull/23) was rebased after PR [#21](https://github.com/karagemop466-tech/Olbg8/pull/21) merged as `41056d6`; resolved the board conflict by preserving both release records. The follow-up publishes the concurrency repair and review notes; its merge and refreshed deployment remain pending.
+
+
+**Second integration round (same session, after PR #25 was opened).** `main` had taken PRs #21–#24 while #25 was up: session
+`f3d31c18` put a 48-pick desk on the root and in `board/`, `51373243` added a runner-side OLBG collector (`data/olbg`,
+`desk-collector.yml`) that decodes SvelteKit `__data.json`, and `6bb9f412` serialized Pages deployment and added `scripts/test_board.py`.
+Resolution: root stays this pipeline; `board/`, `current/`, `price-engine/` and `data/desk-*.json` are kept byte-for-byte as their owners'
+artifacts and each still gates itself in CI (`check_site.py` for the desk payload, `test_board.py` for the board, `current/tests` for the
+collector). `quality.yml` runs my four build steps, `test_site.py`, then their two gates, then syntax and a diff guard over both generated
+sets, so no session's work is validated by another's builder. The site footer now names every sibling surface in one sentence and says
+their prices differ from ours, because four unexplained desks on one host is the confusion the brief is about. Not folded into our picks:
+`f3d31c18`'s 48 rows and the earlier 35-row `data/predictions.json`, which `6bb9f412`'s audit already shows misattributing an ATP serve
+figure (297.4, Hurkacz's, printed as Ruud's "live race ranking"). Open decision for an integrator: consolidate onto one generator before
+another session writes root again.
