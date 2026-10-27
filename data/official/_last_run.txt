@@ -22,7 +22,7 @@ probed 70 official endpoints, 42 answered 200
  200   147766B Golf             espn-lpga-scoreboard
    0        0B Golf             espn-pga-leaderboard
  200   242339B Tennis           espn-atp-scoreboard
- 200   475356B Tennis           espn-wta-scoreboard
+ 200   475702B Tennis           espn-wta-scoreboard
  200   387380B Tennis           espn-atp-rankings
    0        0B Rugby Union      espn-rugby-289
    0        0B Rugby Union      espn-rugby-270
@@ -34,7 +34,7 @@ probed 70 official endpoints, 42 answered 200
    0        0B Cricket          cricinfo-current
    0        0B Cricket          cricinfo-news
    0        0B Cricket          espn-cricket-scoreboard
- 200   371644B Cricket          icc-fixtures
+ 200   371558B Cricket          icc-fixtures
    0        0B Snooker          snooker-matches
    0        0B Snooker          snooker-ranking
    0        0B Snooker          snooker-events
@@ -42,7 +42,7 @@ probed 70 official endpoints, 42 answered 200
    0        0B Darts            espn-darts
  200   494133B Volleyball       cev-match-centres
  200    94588B Handball         ehf-matches
- 200  1314491B Gaelic Football  gaa-fixtures
+ 200  1314275B Gaelic Football  gaa-fixtures
  200    97430B Greyhounds       gbgb-racing
  200   164290B Basketball       espn-nba-standings
  200   384924B Tennis           espn-wta-rankings
@@ -53,7 +53,7 @@ probed 70 official endpoints, 42 answered 200
    0        0B Cricket          espn-cricket-generic
  200    10007B Cricket          espn-cricket-8039
    0        0B Cricket          espn-cricket-web
- 200  1545576B Cricket          icc-home
+ 200  1559450B Cricket          icc-home
    0        0B Snooker          snooker-matches-http
  200     6169B Snooker          wst-wp-posts
  200   181116B Snooker          wst-matches
