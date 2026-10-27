@@ -1,7 +1,7 @@
 {
  "sport": "Greyhounds",
  "sport_id": 28,
- "captured_utc": "2026-10-27T06:14:53Z",
+ "captured_utc": "2026-10-27T06:28:08Z",
  "rows": [
   {
    "sport": "Greyhounds",
@@ -16,15 +16,15 @@
    "american_odds": null,
    "fractional_odds": "SP",
    "start_utc": "2026-10-27T11:01:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:01_Sheffield/28?event_id=690289",
-   "league_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:01_Sheffield/28?event_id=690289",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 1,
-   "experts_count": 0,
    "confidence": 100,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Greyhounds",
@@ -39,15 +39,15 @@
    "american_odds": null,
    "fractional_odds": "SP",
    "start_utc": "2026-10-27T11:09:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:09_Newcastle/28?event_id=690290",
-   "league_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:09_Newcastle/28?event_id=690290",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 1,
-   "experts_count": 0,
    "confidence": 100,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Greyhounds",
@@ -62,15 +62,15 @@
    "american_odds": null,
    "fractional_odds": "SP",
    "start_utc": "2026-10-27T11:27:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:27_Newcastle/28?event_id=690294",
-   "league_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:27_Newcastle/28?event_id=690294",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 1,
-   "experts_count": 0,
    "confidence": 100,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Greyhounds",
@@ -85,15 +85,15 @@
    "american_odds": null,
    "fractional_odds": "SP",
    "start_utc": "2026-10-27T11:34:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:34_Sheffield/28?event_id=690295",
-   "league_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:34_Sheffield/28?event_id=690295",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 1,
-   "experts_count": 0,
    "confidence": 100,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   }
  ]
 }

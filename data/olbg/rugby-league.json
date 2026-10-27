@@ -1,7 +1,7 @@
 {
  "sport": "Rugby League",
  "sport_id": 10,
- "captured_utc": "2026-10-27T06:14:53Z",
+ "captured_utc": "2026-10-27T06:28:08Z",
  "rows": [
   {
    "sport": "Rugby League",
@@ -16,15 +16,15 @@
    "american_odds": -133,
    "fractional_odds": "3/4",
    "start_utc": "2027-05-27T10:00:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
-   "league_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+   "experts_count": 0,
    "win_tips": 9,
    "win_tips_count": 13,
-   "experts_count": 0,
    "confidence": 69,
-   "comments_count": 3
+   "comments_count": 3,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Rugby League",
@@ -39,15 +39,15 @@
    "american_odds": 150,
    "fractional_odds": "6/4",
    "start_utc": "2027-10-02T17:00:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
-   "league_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+   "experts_count": 0,
    "win_tips": 2,
    "win_tips_count": 4,
-   "experts_count": 0,
    "confidence": 50,
-   "comments_count": 2
+   "comments_count": 2,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Rugby League",
@@ -62,38 +62,15 @@
    "american_odds": 600,
    "fractional_odds": "6/1",
    "start_utc": "2027-10-03T08:30:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
-   "league_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 3,
-   "experts_count": 0,
    "confidence": 33,
-   "comments_count": 1
-  },
-  {
-   "sport": "Rugby League",
-   "sport_key": "rugby-league",
-   "sport_id": 10,
-   "event_id": "2801600",
-   "event_name": "NRL 2027",
-   "competition": "NRL 2027",
-   "market": "Grand Final Winner",
-   "selection": "Sydney Roosters",
-   "decimal_odds": 6.5,
-   "american_odds": 550,
-   "fractional_odds": "11/2",
-   "start_utc": "2027-10-03T08:30:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
-   "league_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10",
+   "comments_count": 1,
+   "expired": 0,
    "venue": "",
-   "origin": "event",
-   "win_tips": 1,
-   "win_tips_count": 3,
-   "experts_count": 0,
-   "confidence": 33,
-   "comments_count": 1
+   "address": ""
   }
  ]
 }

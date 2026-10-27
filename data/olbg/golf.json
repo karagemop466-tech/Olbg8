@@ -1,7 +1,7 @@
 {
  "sport": "Golf",
  "sport_id": 5,
- "captured_utc": "2026-10-27T06:14:53Z",
+ "captured_utc": "2026-10-27T06:28:08Z",
  "rows": [
   {
    "sport": "Golf",
@@ -16,38 +16,15 @@
    "american_odds": 1000,
    "fractional_odds": "10/1",
    "start_utc": "2026-11-01T11:45:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
-   "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 2,
-   "experts_count": 0,
    "confidence": 50,
-   "comments_count": 0
-  },
-  {
-   "sport": "Golf",
-   "sport_key": "golf",
-   "sport_id": 5,
-   "event_id": "101915",
-   "event_name": "Mexico Open",
-   "competition": "Mexico Open",
-   "market": "Win Tournament",
-   "selection": "Harry Hall",
-   "decimal_odds": 29.0,
-   "american_odds": 2800,
-   "fractional_odds": "28/1",
-   "start_utc": "2026-11-01T22:45:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
-   "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
+   "comments_count": 0,
+   "expired": 0,
    "venue": "",
-   "origin": "event",
-   "win_tips": 0,
-   "win_tips_count": 2,
-   "experts_count": 0,
-   "confidence": 0,
-   "comments_count": 1
+   "address": ""
   },
   {
    "sport": "Golf",
@@ -62,15 +39,15 @@
    "american_odds": 1000,
    "fractional_odds": "10/1",
    "start_utc": "2026-11-01T22:45:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
-   "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 2,
-   "experts_count": 0,
    "confidence": 50,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   },
   {
    "sport": "Golf",
@@ -85,15 +62,15 @@
    "american_odds": 600,
    "fractional_odds": "6/1",
    "start_utc": "2026-11-01T22:45:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
-   "league_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5",
-   "venue": "",
-   "origin": "hub",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+   "experts_count": 0,
    "win_tips": 1,
    "win_tips_count": 2,
-   "experts_count": 0,
    "confidence": 50,
-   "comments_count": 0
+   "comments_count": 0,
+   "expired": 0,
+   "venue": "",
+   "address": ""
   }
  ]
 }
