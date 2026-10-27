@@ -170,3 +170,21 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+
+---
+
+## Session `c2f58873` — live harvest, originated lines, published picks
+
+Branch: `arena/c2f58873-olbg8` (platform-fixed). Started 2026-10-27 UTC from `main` @ `c59f4c1`.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG harvest of all 15 sport feeds + event pages via GitHub Actions runner | in progress | `c2f58873` | `.github/workflows/harvest.yml`, `pipeline/` |
+| Official-source verification store per sport | in progress | `c2f58873` | `pipeline/`, `data/official/` |
+| Pricing engine, originated lines, confidence | in progress | `c2f58873` | `pipeline/pricing.py`, `data/lines.json` |
+| Written predictions (5+ per sport) | in progress | `c2f58873` | `data/predictions.json` |
+| Dashboard rebuild + Flagged for Review | in progress | `c2f58873` | `index.html`, `sports/`, `assets/`, `flagged.html` |
+| Integration, PR, Pages | in progress | `c2f58873` | shared outputs + release record |
+
+Claimed 2026-10-27. No other session has an active claim on these paths. Files owned by earlier sessions (`research-desk/`, `evidence-lab/`, existing `data/*.json` from `arena/40c30722-olbg8`) will not be modified except the shared dashboard rebuild, which this session performs as the sole active session.
