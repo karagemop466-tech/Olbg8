@@ -14,8 +14,8 @@
    "market": "Money Line",
    "selection": "MIL Brewers",
    "headline": "Brewers to win the World Series and take the title 4-0",
-   "note": "Milwaukee is one win from the championship, having taken Games 1, 2 and 3 by 3-2, 5-4 and 10-1, and MLB's own schedule carries this as Game 4 at Tropicana Field with the series record printed as 3-0. Neither side has announced a starter, and the Brewers have not had a traditional starting pitcher survive past the fifth inning this month, so a bullpen-heavy afternoon is the likeliest shape. On our numbers the Brewers money line prices at 150 cents to win a game they only need to reach. Take Milwaukee to win the match at -150, and treat the absence of a named starter as the main risk rather than the series state.",
-   "word_count": 114,
+   "note": "Milwaukee is one win from the championship, having taken Games 1, 2 and 3 by 3-2, 5-4 and 10-1, and MLB's own schedule carries this as Game 4 at Tropicana Field with the series record printed as 3-0. The league's own feed lists Griffin Jax as Tampa Bay's probable starter and leaves Milwaukee's probable slot blank, so the visiting side is the one heading into a bullpen afternoon and that is the shape this price is betting on. On our numbers the Brewers money line sits at -150 for a game they only need to reach rather than win convincingly. Take Milwaukee to win the match at -150, and treat their own blank probable-pitcher slot as the main risk rather than the series state.",
+   "word_count": 124,
    "confidence": "Low",
    "pick_score": 1218,
    "our_prob": 0.6,
@@ -53,9 +53,9 @@
      "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
     },
     {
-     "claim": "Neither club announced a Game 4 starter",
-     "name": "MLB.com probable pitchers",
-     "url": "https://www.mlb.com/probable-pitchers"
+     "claim": "Tampa Bay's probable is Jax; Milwaukee has no probable listed",
+     "name": "MLB StatsAPI probable pitchers (official)",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team"
     }
    ]
   },
@@ -112,6 +112,11 @@
      "claim": "Game 3 scored 10-1",
      "name": "ESPN - 2026 World Series schedule",
      "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
+    },
+    {
+     "claim": "Milwaukee has no probable pitcher listed for Game 4",
+     "name": "MLB StatsAPI probable pitchers (official)",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team"
     }
    ]
   },
@@ -177,8 +182,8 @@
    "market": "Money Line",
    "selection": "TB Rays",
    "headline": "Small exposure to Tampa Bay to avoid a sweep",
-   "note": "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The market exists because neither club has confirmed a starter and the two outlets covering the game do not agree: the Sports Illustrated preview has Griffin Jax going on short rest, while MLB.com's probable-pitcher page names Freddy Peralta. Bet Tampa Bay to win the match at +150 in a small unit, and treat the announcement as the trigger rather than the thesis.",
-   "word_count": 112,
+   "note": "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The price is what it is because Tampa Bay's listed starter, Griffin Jax according to the league's own feed, is a reliever being asked to open a World Series game, and the Sports Illustrated preview has him going on short rest. Bet Tampa Bay to win the match at +150 in a small unit, and treat the announcement as the trigger rather than the thesis.",
+   "word_count": 115,
    "confidence": "Low",
    "pick_score": 1168,
    "our_prob": 0.4,
@@ -198,7 +203,7 @@
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
-   "evidence": "Starter reports conflict between sources; treated as unresolved, not as fact.",
+   "evidence": "Probable pitchers read from the official feed, not from press reports.",
    "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
    "olbg_listing": {
     "name": "OLBG event listing",
@@ -206,14 +211,14 @@
    },
    "sources": [
     {
-     "claim": "Jax expected to start on short rest",
-     "name": "Sports Illustrated - Game 4 betting preview",
-     "url": "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
+     "claim": "Jax listed as Tampa Bay's probable pitcher for Game 4",
+     "name": "MLB StatsAPI probable pitchers (official)",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team"
     },
     {
-     "claim": "Peralta with the Rays and named on the club probable page",
-     "name": "MLB.com probable pitchers",
-     "url": "https://www.mlb.com/probable-pitchers"
+     "claim": "Jax asked to open on short rest",
+     "name": "Sports Illustrated - Game 4 betting preview",
+     "url": "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
     },
     {
      "claim": "Rays postseason record 7-4",

@@ -46,6 +46,16 @@ def band(c):
     return f'<span class="band {cls}">{c}</span>'
 
 
+def official_chip(obj, rel=""):
+    """The first source that is not OLBG itself. Double-listing the hub as its own
+    corroboration would read as a source we do not have, so it says 'listing only'."""
+    for x in (obj.get("sources") or []):
+        if x.get("url") and "olbg.com" not in x["url"]:
+            tier = x.get("tier") or x.get("tier_override")
+            return src_chip(x["name"], x["url"], tier)
+    return '<span class="blank">listing only, no official source</span>'
+
+
 def src_chip(name, url, tier=None):
     t = f'<span class="tier t{tier.lower()}">{tier}</span>' if tier else ""
     return f'<a class="srclink" href="{e(url)}" target="_blank" rel="noopener">{e(name)}</a>{t}'
@@ -125,7 +135,7 @@ def page_index():
       <td>{e(p['sport'])}</td><td class="mono">{ampn(p['fair_american'])}</td>
       <td class="mono">{ampn(p['our_american'])}</td><td class="mono">{pct(p['our_prob'])}</td>
       <td>{band(p['confidence'])}</td>
-      <td class="srcs">{src_chip('OLBG', p['olbg_url'])}{('<br>' + src_chip(p['sources'][0]['name'], p['sources'][0]['url'])) if p['sources'] else '<span class="blank"> no official link</span>'}</td>
+      <td class="srcs">{src_chip('OLBG', p['olbg_url'])}<br>{official_chip(p)}</td>
     </tr>""" for p in top)
 
     return shell("index", "Overview · OLBG research desk", f"""
@@ -274,7 +284,7 @@ def page_matches():
 <td class="mono">{pct(r['our_prob'])}</td>
 <td class="mono">{'' if r['olbg_win_tips'] is None else r['olbg_win_tips']}/{'' if r['olbg_total_tips'] is None else r['olbg_total_tips']}</td>
 <td>{band(r['confidence'])}</td>
-<td class="srcs">{src_chip('OLBG', r['olbg_url'])}{('<br>' + src_chip(r['sources'][0]['name'], r['sources'][0]['url'])) if r.get('sources') else ''}</td>
+<td class="srcs">{src_chip('OLBG', r['olbg_url'])}<br>{official_chip(r)}</td>
 </tr>""" for r in sorted(rs, key=lambda x: -x["pick_score"]))
         body.append(f"""<section class="sportsec" id="{e(sport.lower().replace(' ', '-'))}">
 <h2>{e(sport)} <span class="cnt">{len(rs)} priced selections</span></h2>
@@ -460,6 +470,16 @@ selection on one page is the confusion the brief asked us to remove.
 committed file and leaves it alone rather than "fixing" someone else's artefact with a stale one. <em>Decision needed:</em> its owner
 should either re-point the builder at today's capture or retire both together.</li>
 </ol></section>
+<section><h2>Corrections applied after the first publish</h2>
+<p class="fine">Kept visible rather than edited silently, because a corrected number is the part of the record worth reading.</p>
+<ul class="nc">
+<li><strong>2026-10-27, baseball P001 and P004.</strong> Both notes said no Game 4 starter had been named by either club, on the strength of
+a press report and a probable-pitchers page that disagreed. A re-read of the official MLB data feed settles it: Tampa Bay's probable is listed as
+Griffin Jax and Milwaukee's probable entry is absent altogether. The notes now state that, the misattributed "Peralta with the Rays" line is gone,
+and the claim is linked to the feed rather than to a preview. Raised by session <code>6bb9f412</code>'s audit on PR #25.</li>
+<li><strong>2026-10-27, overview and line board.</strong> The Sources column repeated the OLBG link where no official source existed, which reads
+as corroboration. Those rows now say "listing only, no official source" (94 of 140 board rows).</li>
+</ul></section>
 <section><h2>Rows with no official crosswalk ({len(unc)})</h2>
 <p class="fine">These rows are published with their OLBG link and no more; the blank official column is the finding.</p>
 <details><summary>Expand the full list</summary><table class="grid"><thead><tr><th>Sport</th><th>Event</th><th>Selection</th><th>Best tier found</th><th>Link</th></tr></thead><tbody>
