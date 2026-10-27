@@ -16,13 +16,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: olbg-harvest-v3-${{ github.ref_name }}
+  group: olbg-harvest-v4-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,8 +36,7 @@ jobs:
         run: |
           mkdir -p data/olbg
           set +e
-          python3 scripts/collect_olbg.py --mode inventory >> /tmp/harvest.log 2>&1
-          python3 scripts/collect_olbg.py --mode raw >> /tmp/harvest.log 2>&1
+          python3 scripts/collect_olbg.py --mode expand --competitions 12 --events 45 >> /tmp/harvest.log 2>&1
           code=$?
           printf 'exit=%s\n' "$code" > data/olbg/_last_run.txt
           tail -c 6000 /tmp/harvest.log >> data/olbg/_last_run.txt
