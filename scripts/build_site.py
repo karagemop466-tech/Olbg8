@@ -25,6 +25,11 @@ NAV = [("index", "Overview", "index.html"), ("picks", "Picks", "picks.html"),
 SPORT_KEYS = [(k, v["label"]) for k, v in CAP["sports"].items()]
 
 
+def slug(key):
+    """Sport pages use hyphenated filenames, the convention already on main."""
+    return key.replace("_", "-")
+
+
 def ampn(v):
     if v is None or v == "":
         return '<span class="blank">no line</span>'
@@ -53,7 +58,7 @@ def shell(page, title, body, desc):
     """One template for every page; _REL keeps the links correct inside sports/."""
     rel = _REL
     nav = "".join(f'<a class="{"on" if p == page else ""}" href="{rel}{u}">{l}</a>' for p, l, u in NAV)
-    sports_nav = "".join(f'<a href="{rel}sports/{k}.html">{e(l)}</a>' for k, l in SPORT_KEYS)
+    sports_nav = "".join(f'<a href="{rel}sports/{slug(k)}.html">{e(l)}</a>' for k, l in SPORT_KEYS)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -100,12 +105,13 @@ def page_index():
         b["picks"] += 1
         if order[p["confidence"]] > order[b["best"]]:
             b["best"] = p["confidence"]
+    by_label = {v["label"]: slug(k) for k, v in CAP["sports"].items()}
     top = sorted(picks, key=lambda x: -x["pick_score"])[:10]
     hi = [p for p in picks if p["confidence"] == "High"]
     med = [p for p in picks if p["confidence"] == "Medium"]
 
     tr = "".join(
-        f'<tr><td><a href="sports/{k}.html">{e(s)}</a></td><td class="num">{d["ev"]}</td>'
+        f'<tr><td><a href="sports/{by_label[s]}.html">{e(s)}</a></td><td class="num">{d["ev"]}</td>'
         f'<td class="num">{d["priced"]}</td><td class="num">{d["picks"]}</td>'
         f'<td>{band(d["best"])}</td><td class="why">{why_for(s, d)}</td></tr>'
         for s, d in sorted(bys.items(), key=lambda x: (-x[1]["picks"], x[0])))
@@ -437,6 +443,14 @@ the EHF records the head-to-head as 7-0-0 to Kielce and Kolstad are 0-0-5 in the
 or the three-way market is being tipped carelessly. Published as counter-consensus; <em>needs a rule</em> for when we override OLBG's most popular pick.</li>
 <li><strong>Unconfirmed statistics quoted from the site itself.</strong> The OLBG Gaelic football page states Mayo beat Kerry in the 2026 All-Ireland final,
 ending a 75-year wait. Not checked against a GAA source in this session, so the Kerry row carries that as an OLBG claim only.</li>
+<li><strong>A parallel desk was merged to <code>main</code> while this one was being built.</strong>
+Session <code>dcc71481</code>/<code>65c1e02b</code> shipped their own root pages from <code>data/desk-*.json</code> with 24 written
+predictions and a separate pricing step in <code>price-engine/originate.py</code>. Two generators cannot own the same eight HTML files,
+so the root surface is now this pipeline's, their builder is archived at <code>price-engine/build_desk_site.py</code>, and their payload is
+retained and still gated by <code>scripts/check_site.py</code>. Their rows are <em>not</em> merged into the published picks: their engine
+prices the same events differently (Colomiers at -161 against our -150, Naomi Osaka at -132 against our -200), and two prices for one
+selection on one page is the confusion the brief asked us to remove.
+<em>Decision needed:</em> retire the parallel payload, or reconcile the two engines into one and publish the union.</li>
 <li><strong>Stale prior capture.</strong> <code>data/dashboard.json</code> and its siblings are stamped 2026-10-26 and were superseded by today's capture,
 but were left in the tree because other sessions own them. <em>Decision needed:</em> whether a later integration pass retires them.</li>
 </ol></section>
@@ -527,7 +541,7 @@ def main():
     write("flagged.html", page_flagged())
     _REL = "../"
     for k, v in CAP["sports"].items():
-        write(f"sports/{k}.html", page_sport(k, v))
+        write(f"sports/{slug(k)}.html", page_sport(k, v))
     _REL = ""
     print(f"built {7 + len(CAP['sports'])} pages")
 

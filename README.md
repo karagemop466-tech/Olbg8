@@ -72,6 +72,13 @@ part of the primary navigation. `data/dashboard.json`, `data/line-research.json`
 `scripts/build_dashboard.py` are the superseded 2026-10-26 payload from the previous release: kept
 because other sessions own them, and listed on the flagged page rather than silently deleted.
 
+A parallel desk (`data/desk-*.json`, `price-engine/`, `assets/desk.css`, `scripts/check_site.py`) was
+merged to `main` from another session while this one was in flight. Its generator is archived at
+`price-engine/build_desk_site.py` and its 24-row payload is still validated by `scripts/check_site.py`
+in CI, but its rows are not published alongside ours: that engine prices the same events differently,
+and one page cannot carry two lines for one selection. The integration is written up on
+[flagged.html](flagged.html).
+
 ## GitHub Pages
 
 Published from `main` at <https://karagemop466-tech.github.io/Olbg8/> as a static root deploy — the

@@ -37,6 +37,14 @@ the EHF records the head-to-head as 7-0-0 to Kielce and Kolstad are 0-0-5 in the
 or the three-way market is being tipped carelessly. Published as counter-consensus; <em>needs a rule</em> for when we override OLBG's most popular pick.</li>
 <li><strong>Unconfirmed statistics quoted from the site itself.</strong> The OLBG Gaelic football page states Mayo beat Kerry in the 2026 All-Ireland final,
 ending a 75-year wait. Not checked against a GAA source in this session, so the Kerry row carries that as an OLBG claim only.</li>
+<li><strong>A parallel desk was merged to <code>main</code> while this one was being built.</strong>
+Session <code>dcc71481</code>/<code>65c1e02b</code> shipped their own root pages from <code>data/desk-*.json</code> with 24 written
+predictions and a separate pricing step in <code>price-engine/originate.py</code>. Two generators cannot own the same eight HTML files,
+so the root surface is now this pipeline's, their builder is archived at <code>price-engine/build_desk_site.py</code>, and their payload is
+retained and still gated by <code>scripts/check_site.py</code>. Their rows are <em>not</em> merged into the published picks: their engine
+prices the same events differently (Colomiers at -161 against our -150, Naomi Osaka at -132 against our -200), and two prices for one
+selection on one page is the confusion the brief asked us to remove.
+<em>Decision needed:</em> retire the parallel payload, or reconcile the two engines into one and publish the union.</li>
 <li><strong>Stale prior capture.</strong> <code>data/dashboard.json</code> and its siblings are stamped 2026-10-26 and were superseded by today's capture,
 but were left in the tree because other sessions own them. <em>Decision needed:</em> whether a later integration pass retires them.</li>
 </ol></section>
@@ -58,7 +66,7 @@ but were left in the tree because other sessions own them. <em>Decision needed:<
 <footer class="foot">
   <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
   an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
-  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby_union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic_sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor_racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice_hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby_league.html">Rugby League</a></nav>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
   <div class="fine">Supplementary audits from earlier sessions remain at <a href="evidence-lab/index.html">evidence-lab/</a> and
   <a href="research-desk/index.html">research-desk/</a>. Static snapshot, not a live feed.</div>
 </footer>
