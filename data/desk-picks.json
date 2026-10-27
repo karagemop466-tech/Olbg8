@@ -1,6 +1,6 @@
 {
  "schema": "olbg-desk-picks/1",
- "generated_utc": "2026-10-27T06:20:00Z",
+ "generated_utc": "2026-10-27T07:05:00Z",
  "pricing_note": "Each pick stores the fair probability behind the line, the margin applied and the resulting American price, so the arithmetic can be re-run by hand.",
  "picks": [
   {
@@ -346,6 +346,120 @@
    ],
    "pricing": "Goal difference per game is +1.83 for Boston and +1.38 for Carolina; after a 0.25-goal home allowance the projected edge is 0.2 goals, which converts to a 52% win share with a 4.0% margin.",
    "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-dub-par",
+   "sport": "basketball",
+   "event_id": "536176",
+   "event": "BC Dubai vs Paris",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T16:00:00Z",
+   "market": "Handicap",
+   "selection": "BC Dubai \u22127.5",
+   "line_american": -198,
+   "line_decimal": 1.505,
+   "implied_pct": 66.4,
+   "confidence": "high",
+   "analysis": "Dubai Basketball have started their first EuroLeague season at 5-2 with a +13 differential, and they are 2-1 at home while scoring 597 points in seven games. Paris are 1-6 with a \u221252 differential and have lost both road games, conceding 649 points overall. The bet is Dubai minus 7.5, which sits four points below the margin their scoring rates project.",
+   "facts": [
+    {
+     "text": "Dubai Basketball: 7 played, 5 wins, 2 losses, 597 for, 584 against (+13), home 2-1, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Paris Basketball: 7 played, 1 win, 6 losses, 597 for, 649 against (\u221252), away 0-2, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176"
+    }
+   ],
+   "pricing": "Dubai rate +1.86 net points per game and Paris \u22127.43; with 2.2 points of home court the projected margin is 11.5, priced through the normal approximation with an 11.5-point spread and a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": []
+  },
+  {
+   "id": "basketball-bay-bar",
+   "sport": "basketball",
+   "event_id": "536174",
+   "event": "Bayern Munich vs Barcelona",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Barcelona \u22123.5",
+   "line_american": -182,
+   "line_decimal": 1.549,
+   "implied_pct": 64.5,
+   "confidence": "medium",
+   "analysis": "Barcelona are 4-3 with a +17 differential from 623 points scored, and they have taken two of three on the road. Bayern Munich are 2-5 with a \u221247 differential and have lost all three home games, scoring 612 while conceding 659. Barcelona minus 3.5 is the selection, well inside the near-seven-point margin the two scoring rates project.",
+   "facts": [
+    {
+     "text": "FC Barcelona: 7 played, 4 wins, 3 losses, 623 for, 606 against (+17), away 2-1, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "FC Bayern Munich: 7 played, 2 wins, 5 losses, 612 for, 659 against (\u221247), home 0-3, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174"
+    }
+   ],
+   "pricing": "Barcelona rate +2.43 net points per game against Bayern's \u22126.71; after the 2.2-point travel allowance the projected margin is 6.94, priced at a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": []
+  },
+  {
+   "id": "basketball-asv-par",
+   "sport": "basketball",
+   "event_id": "536181",
+   "event": "Asvel Lyon Villeurbanne vs Partizan",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Partizan \u22123.5",
+   "line_american": -168,
+   "line_decimal": 1.595,
+   "implied_pct": 62.7,
+   "confidence": "medium",
+   "analysis": "Partizan are 4-3 and have split four road games, holding opponents to 546 points across seven matches. ASVEL are 2-5 with the fourth-worst differential at \u221265, conceding 677 points, and they have lost two of three at home. Partizan minus 3.5 is the call, with the projected margin at 6.4 points.",
+   "facts": [
+    {
+     "text": "Partizan Mozzart Bet: 7 played, 4 wins, 3 losses, 541 for, 546 against (\u22125), away 2-2, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "LDLC ASVEL Villeurbanne: 7 played, 2 wins, 5 losses, 612 for, 677 against (\u221265), home 1-2, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181"
+    }
+   ],
+   "pricing": "Partizan rate \u22120.71 net points per game and ASVEL \u22129.29; with 2.2 points of home court for ASVEL the projected margin is 6.4, priced at a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
    "flags": []
   }
  ]
