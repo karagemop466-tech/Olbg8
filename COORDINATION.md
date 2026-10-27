@@ -170,3 +170,18 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+## Session `3822f8fb` — 2026-10-27 daily production desk (active claim)
+
+Platform restriction: this session is pinned to `arena/3822f8fb-olbg8`; a separate `session-<id>/<task>` branch/worktree is not permitted by the environment, so this single branch serves as both work branch and integration branch. No other branch will be created or pushed.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Fresh 2026-10-27 OLBG capture of all 15 requested sports | in progress | `3822f8fb` | `data/capture-20261027/`, `.github/workflows/collect-20261027.yml` |
+| Reverse-engineer event payload; originate lines for every captured event and market | unclaimed | `3822f8fb` | `data/lines-20261027.json`, `scripts/price_lines.py` |
+| Official-source crosswalk, statistics and availability evidence | unclaimed | `3822f8fb` | `data/evidence-20261027.json`, `data/sources-20261027.json` |
+| Five unique written picks per sport (where OLBG has five in-scope events), confidence labels, executive summary | unclaimed | `3822f8fb` | `data/picks-20261027.json` |
+| Clean dashboard: landing page, sport subpages, lines, picks, sources, methodology, flagged review | unclaimed | `3822f8fb` | `index.html`, `picks.html`, `matches.html`, `lines.html`, `sources.html`, `methodology.html`, `flagged.html`, `sports/*.html`, `assets/`, `scripts/build_site.py`, `scripts/verify_site.py` |
+| Tests, build, final PR from this branch, merge, Pages deployment check | unclaimed | `3822f8fb` | `COORDINATION.md`, `README.md`, `.github/workflows/quality.yml` |
+
+Rules followed: previous sessions' `research-desk/`, `evidence-lab/`, `data/*.json` (legacy) remain untouched as audit artifacts. New work uses dated filenames to avoid scope collisions. Blank and flagged where official confirmation is unavailable; nothing is inferred as fact. Small frequent commits; `git pull --rebase` before each push.
