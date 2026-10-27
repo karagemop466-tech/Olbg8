@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch OLBG snapshots and parse probe
-        run: python3 collect/olbg_fetch.py exploratory 3
+        run: python3 collect/olbg_fetch.py production 4
 
       - name: Commit snapshots for sandbox audit
         run: |
