@@ -1076,6 +1076,6 @@ Platform restriction: pinned to `arena/3822f8fb-olbg8`; no separate `session-<id
 
 ### Release log
 
-- PR: pending creation.
+- PR: https://github.com/karagemop466-tech/Olbg8/pull/37 (opened from `arena/3822f8fb-olbg8` to `main`).
 - Merge result: pending.
 - GitHub Pages deployment: pending confirmation.
