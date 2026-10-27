@@ -2,69 +2,60 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Method · OLBG research desk</title>
-<meta name="description" content="Independent research desk for 15 OLBG sports: current listings, originated lines, confidence-rated picks and flagged gaps.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Structure of OLBG listings, market inventory and the time-label finding.">
+<title>Method and market inventory · OLBG research desk</title>
 <link rel="stylesheet" href="assets/styles.css">
+<script src="assets/app.js" defer></script>
 </head>
 <body>
-<header class="site-header"><div class="header-inner">
-<a class="brand" href="index.html"><span class="brand-mark">OL</span>OLBG Research Desk</a>
-<nav class="nav"><a href="index.html">Overview</a><a href="picks.html">Picks</a><a href="matches.html">Matches</a><a href="sources.html">Sources</a><a href="methodology.html" class="active">Method</a><a href="flagged.html">Flagged for Review</a><a href="originated/index.html">Deep analysis</a></nav>
-</div></header>
-<main>
-
-<section class="hero compact">
-<p class="eyebrow">Method</p>
-<h1>How the prices and the prose are produced</h1>
-<p class="lede">No price on this site is copied from a tipster. Every fair line is computed from the captured market board, and every sentence in a write-up is assembled from a captured field.</p>
+<header class="top">
+  <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
+  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="on" href="methodology.html">Method</a><a class="" href="flagged.html">Flagged for review</a></nav>
+  <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
+</header>
+<div class="wrap">
+<section class="pagemast"><h1>Reverse-engineering the OLBG tips pages</h1>
+<p class="lede">How the site is put together, what the numbers on OLBG actually mean, and which markets exist per sport.</p></section>
+<section>
+<h2>The structure of an OLBG listing</h2>
+<ol class="readout">
+<li><b>Category page</b> — <code>olbg.com/betting-tips/&lt;Sport&gt;/&lt;id&gt;</code>. One card per event, ordered by the number of tips on
+the most popular selection. It prints the event name, a relative time label, the selection, the market, “x/y Win Tips”, the confidence
+percentage, and counts of experts and comments.</li>
+<li><b>Event page</b> — reached from the card. It shows “Most Popular Tip” as a complete table of every selection in the market with its
+own “x / y” and percentage, then repeats each market below with the same figures plus one tipster comment and that tipster's annual
+profit, strike rate, 30-day and 7-day numbers.</li>
+<li><b>What the percentage is.</b> It is the share of tips on that outcome out of the tips on that market, not a win rate and not an
+implied probability from a bookmaker. OLBG says so in its own Value Rating definition, and the totals confirm it: on New Zealand v India
+the two sides are 35 and 15 of 50, which sums to the denominator.</li>
+<li><b>What is missing.</b> The betslip price comparison is rendered after a click, so no bookmaker price exists in the readable markup.
+Every number in the “our line” column on this site therefore came from this desk, not from a book.</li>
+</ol>
 </section>
-<section class="block">
-<h2>1. Reverse-engineering the OLBG board</h2>
-<p>OLBG renders its tips feed server side. Each row carries the event name, an ISO start time, the selection, the market label, the price in decimal, fractional and American form, the tip record and a consensus percentage. Event pages add the rest of the market board: match winner, handicap or line, match total, set betting and period markets where the sport has them. This desk reads those fields directly; it does not infer a market from a page title.</p>
-</section>
-<section class="block">
-<h2>2. Turning a price into a fair line</h2>
-<p>A quoted price contains the bookmaker margin. We remove it with the power method: find the exponent k so that the sum of each implied probability raised to k equals one. That is stricter on longshots than proportional de-vigging and leaves the fair probabilities summing to exactly 100%.</p>
-<pre class="code">p_i = 1 / decimal_i        solve  Σ p_i^k = 1        fair_i = p_i^k / Σ p_j^k</pre>
-<p>Worked example from the captured board: a two-way market at 1.77 and 2.25 de-vigs to 56.1% and 43.9%, which is a fair line of -128 and +128 on a 1.77/2.25 quote.</p>
-</section>
-<section class="block">
-<h2>3. Adding independent information</h2>
-<p>Where an official feed exists (MLB, NHL, Formula 1) the fair price is nudged by official form: last-ten record, points percentage, scoring differential and a home-advantage term. The nudge is capped at 3.5 percentage points and the caveat is printed on each row. Where no official feed is reachable, the fair line is the de-margined board and the row is labelled "de-margined OLBG board" so the reader can see the difference.</p>
-</section>
-<section class="block">
-<h2>4. Confidence bands and the price window</h2>
-<div class="table-wrap"><table class="data">
-<thead><tr><th>Band</th><th>Our fair chance</th><th>Typical fair price</th><th>What it means</th></tr></thead>
-<tbody>
-<tr><td><span class="badge high">HIGH</span></td><td>70% and above</td><td>about -233 or shorter</td><td>A strong edge survives one bad result.</td></tr>
-<tr><td><span class="badge medium">MEDIUM</span></td><td>60% to 70%</td><td>about -175 to -233</td><td>Solid favourite with real risk of variance.</td></tr>
-<tr><td><span class="badge low">LOW</span></td><td>below 60%</td><td>longer than -150</td><td>Published for completeness, not as a banker.</td></tr>
-</tbody></table></div>
-<p>Picks are restricted to fair prices between <strong>-250</strong> and <strong>+10,000</strong>, which is the band where a stake has a defensible shape. Anything shorter than -250 is excluded even when the chance is high, because the return does not compensate for the risk.</p>
-</section>
-<section class="block">
-<h2>5. Writing the prediction</h2>
-<p>Each write-up is at least thirty words and contains, in varying order: the fixture and venue, the two sides' official record and recent results where a feed exists, the relevant scoring numbers, the market price next to our fair price, and an explicit statement of the bet. A missing field produces no sentence rather than a guess, which is why some write-ups are shorter and carry a flag.</p>
-</section>
-<section class="block">
-<h2>6. What the desk deliberately does not do</h2>
-<ul>
-<li>It does not restate a tipster's reasoning as its own.</li>
-<li>It does not fill an injury or lineup gap with an inference; unavailable stays blank and is flagged.</li>
-<li>It does not present a market-anchored line as an independent rating.</li>
-<li>It does not publish a pick outside the price window, however confident the board looks.</li>
-</ul>
-</section>
-
-</main>
-<footer class="site-footer"><div class="footer-inner">
-<p><strong>Independent research.</strong> Built 2026-10-27T06:18:32Z from live OLBG listings and published official competition sources.
-Prices move; re-check the linked market before acting. Not betting advice and no outcome is guaranteed.
-Bet only where lawful and only what you can afford to lose.</p>
-<p class="muted">Every row links to the OLBG market it came from. Where an official competition source could not be reached the row says so and appears on the Flagged for Review page.</p>
-</div></footer>
-<script src="assets/app.js" defer></script>
-</body>
-</html>
+<section><h2>Markets found today, by name</h2><p class="fine">Anything outside this list was not exposed by OLBG for the events captured.</p>
+<ul class="mklist"><li>Game Totals</li><li>Grand Final Winner</li><li>Handicap</li><li>Man Of The Match</li><li>Match Handicap</li><li>Money Line</li><li>Podium Finish</li><li>Points Total</li><li>Pointspread</li><li>Puck Line</li><li>Run Line</li><li>To Win</li><li>Top Team1 Batsman</li><li>Win Hurling</li><li>Win Match</li><li>Win Tournament</li></ul></section>
+<section><h2>Time labels</h2><p>OLBG prints “Today 21:00” style labels with no zone. Four fixtures checked against official start times all
+land on UTC−4 — Columbus at Philadelphia printed 19:07 against an official 23:00Z start, Boston at Carolina 20:07 against 00:00Z,
+Kielce 15:45 against a 19:45Z kick-off, and Wellington 03:00 against a 07:00Z start. Tampa Bay and the Mexican Grand Prix each sit an
+hour further out than that rule predicts, so the raw label is kept on every row, the official UTC time is quoted in words where it was
+found, and nothing on this site claims a kick-off time from OLBG's label alone.</p></section>
+<section><h2>What this site will not do</h2><ul class="nc">
+<li>Publish a price for a market that had no tips. Two totals markets today (the World Series Game 5 line at 7.5 and the Kielce points
+total at 63.5) carry zero volume; both are left unpriced rather than filled from a prior.</li>
+<li>Turn an outright into a confidence bet. Four sports' OLBG coverage is outrights only, and a share of a handful of tips across a
+128-player field is a popularity index, not a price.</li>
+<li>Treat an OLBG paragraph as a fact. Tipster comments are quoted as opinions attributed to OLBG's crowd, never restated as scouting.</li>
+<li>Claim five picks a sport when the evidence covers three. Every shortfall is named on the overview ledger.</li>
+</ul></section></div>
+<footer class="foot">
+  <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
+  an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="board/index.html">board/</a>, a collector's live capture at <a href="current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="evidence-lab/index.html">evidence-lab/</a> and <a href="research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
+</footer>
+</body></html>
