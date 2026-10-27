@@ -241,6 +241,11 @@ internal links/anchors across all 22 pages. `python3 -m py_compile` passes for b
   `scripts/check_site.py` and `data/desk-*.json` are owned by this session and are generated, so a rebase must not
   hand-edit them — change the JSON and re-run `python3 scripts/build_site.py`.
 
+- **PR #14** <https://github.com/karagemop466-tech/Olbg8/pull/14> — "Desk follow-up: basketball to nine verified picks,
+  release record". `build` and `verify` passed (runs 40456219123 / 40456219103). **Merged to `main`** on 2026-10-27 and
+  Pages workflow run 40456284404 ("Deploy OLBG research desk") completed successfully. Live site re-checked at
+  <https://karagemop466-tech.github.io/Olbg8/picks.html>: 12 picks across 4 sports, 3 high / 7 medium / 2 low, each
+  with its evidence trail and review note. `DELIVERY.md` added as a one-page summary for manual review.
 ## Session `arena/65c1e02b-olbg8` — extra-sport price engine (2026-10-27)
 
 **Claim.** `price-engine/**`; `data/desk-picks.json` (additive only — twelve new picks appended, nothing existing
