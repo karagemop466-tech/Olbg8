@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-10-27T06:16:18Z",
+ "built_utc": "2026-10-27T06:18:32Z",
  "sources": {
   "baseball": [
    {
@@ -89,7 +89,7 @@
     "capture": "official_tennis_0",
     "label": "WTA Tour scores",
     "url": "https://www.wtatennis.com/scores",
-    "chars": 213617,
+    "chars": 213612,
     "ok": true
    },
    {
@@ -112,14 +112,14 @@
     "capture": "official_golf_1",
     "label": "LPGA tournament schedule",
     "url": "https://www.lpga.com/tournaments",
-    "chars": 552642,
+    "chars": 543882,
     "ok": true
    },
    {
     "capture": "official_golf_2",
     "label": "PGA TOUR leaderboard",
     "url": "https://www.pgatour.com/leaderboard",
-    "chars": 978814,
+    "chars": 978813,
     "ok": true
    }
   ],
@@ -128,14 +128,14 @@
     "capture": "official_cricket_0",
     "label": "ICC fixtures and results",
     "url": "https://www.icc-cricket.com/fixtures-results",
-    "chars": 371478,
+    "chars": 371449,
     "ok": true
    },
    {
     "capture": "official_cricket_1",
     "label": "ICC men's ODI team rankings",
     "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
-    "chars": 458539,
+    "chars": 458583,
     "ok": true
    }
   ],
@@ -190,7 +190,7 @@
     "capture": "official_handball_1",
     "label": "EHF (eurohandball.com) matches",
     "url": "https://www.eurohandball.com/en/",
-    "chars": 160431,
+    "chars": 160301,
     "ok": true
    }
   ],
@@ -199,7 +199,7 @@
     "capture": "official_gaelic_sports_0",
     "label": "GAA fixtures and results",
     "url": "https://www.gaa.ie/fixtures-results/",
-    "chars": 1314141,
+    "chars": 1314098,
     "ok": true
    }
   ],
@@ -249,7 +249,7 @@
     "capture": "official_basketball_3",
     "label": "NBA.com games",
     "url": "https://www.nba.com/games",
-    "chars": 550016,
+    "chars": 547664,
     "ok": true
    }
   ],
