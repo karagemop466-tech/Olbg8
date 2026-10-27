@@ -55,6 +55,11 @@ def main():
             title = re.sub(r'\s+', ' ', title_match.group(1)).strip()[:90] if title_match else 'none'
             markers = [x for x in ('cf-chl-', 'just a moment...', 'captcha', 'access denied') if x in body.lower()]
             message.append(f'OLBG: HTTP {status}; {len(body)} chars; title={title}; IDs={len(parser.ids)}; markers={markers}')
+            anchor = re.search(r'<a[^>]+href=["\'][^"\']*event_id=\d+', body, re.I)
+            if anchor:
+                snippet = re.sub(r'\s+', ' ', body[max(0, anchor.start()-350):anchor.start()+3500])
+                print('::notice file=current/probe.py,line=2::HTML context: ' + snippet.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A'))
+
     except Exception as exc:
         message.append(f'OLBG: {type(exc).__name__}: {str(exc)[:150]}')
     try:
