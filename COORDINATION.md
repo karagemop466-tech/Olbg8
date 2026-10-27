@@ -1085,3 +1085,41 @@ fixtures; Rugby League is ante-post only, the 2026 seasons having concluded; Bas
 postseason listing; Golf and Darts are outrights only. Volleyball has 15 events and 14 priced lines
 but no fixture could be confirmed against a league or CEV source this session, so none carries a
 written prediction. Per-sport reasons are tabulated at `originated/flagged.html`.
+
+### Session `arena/4520d440-olbg8` — integration result (2026-10-27)
+
+**PR #34 merged into `main`:** https://github.com/karagemop466-tech/Olbg8/pull/34 — merge commit
+`2db018d`, merged 2026-10-27T06:33:39Z.
+
+Deploy confirmed on the merge commit: `Site quality` success, `Gate Pages on a verified build`
+success (this is the job that builds and audits `originated/` and fails the deploy if the committed
+output drifts), `pages build and deployment` success. Pages reports `built` from `main`. Published
+at https://karagemop466-tech.github.io/Olbg8/ with this session's section at
+https://karagemop466-tech.github.io/Olbg8/originated/ and linked from the desk nav as
+"Deep analysis". 22 files under `originated/` on `main`.
+
+**Three CI failures were found and fixed on the way, none of them in this session's own code.**
+Each is recorded because they are traps for whoever touches these files next:
+
+1. `scripts/check_site.py` required `pricing.html`, which commit `67b9ac0` had deliberately retired
+   and archived under `desk-v1/`. Removed from the required-page list.
+2. The same file's executive-summary assertion has to follow whichever form the committed pages are
+   in. It was retargeted at a client renderer while the desk was a JS shell, then the desk reverted
+   to static server-rendered pages and the assertion went red on a correct tree. It now asserts on
+   `index.html` itself. `check_site.py` also sweeps `originated/**`, so the desk's audit validates
+   this session's links and anchors too: 42 pages, 645 checks.
+3. **Two generators write the same root pages.** `quality.yml` rebuilds the desk with
+   `scripts/build_capture.py`, `originate.py`, `build_picks.py` and `build_site.py`, then asserts
+   byte-equality on the root HTML and `data/picks.json`; `pages.yml` rebuilds the same files with
+   `pipeline/site.py`. On pristine `origin/main` the `scripts/build_site.py` rebuild is
+   byte-identical to what is committed, which identifies it as authoritative — so any change to the
+   root nav belongs in `scripts/build_site.py`'s `NAV` list. Committing `pipeline/site.py` output
+   instead turns `quality.yml` step 6 red. This session did exactly that first and had to restore
+   the root pages from `main` and redo the one-line nav change in the gated generator. Whoever owns
+   the desk should retire one of the two generators.
+
+**Note for the workflow owner.** `quality.yml` documents that `desk-collector.yml` commits fresh
+`data/olbg/*.json` and `data/official/*.json` onto `main` *and onto open PR branches* on a schedule.
+Two such harvest commits landed on this branch mid-integration (`e54a07a`, `decbff9`). They were
+integrated as-is, but any session with an open PR should expect its branch to move underneath it and
+should re-run the full `quality.yml` sequence locally before assuming a red check is its own.
