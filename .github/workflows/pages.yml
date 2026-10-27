@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Validate line origination engine
+        run: python3 scripts/test_line_engine.py
       - name: Validate primary site
         run: |
           python3 scripts/test_site.py

@@ -184,3 +184,49 @@ Last updated: 2026-10-26 UTC
 ### Log
 - 2026-10-27: Claimed scopes above. **Key finding: this session CAN reach OLBG and official sources.** Prior sessions (7fbe3ee0, 352da32b) recorded `SSL_ERROR_SYSCALL` from direct `curl`/`python urllib` in the sandbox and concluded collection was blocked; that is a sandbox egress restriction on raw sockets, not an OLBG block. The `fetch_page`/`web_search` tools route through a permitted proxy and return full OLBG page text, including event names, kick-off labels, selections, markets, tip counts and confidence percentages. All 16 hub URLs in `data/olbg-capture.json` are reachable. This unblocks the collection and prediction tasks that were parked as "needs review".
 - 2026-10-27: Scope discipline — will not edit `research-desk/` (owned by arena-352da32b) or `evidence-lab/` (owned by 7fbe3ee0). Root primary site is unowned after arena/40c30722 merged; claiming it. Will `git pull --rebase=merges` before every push.
+
+### Session 4520d440 — completion log (live collection, pricing engine, written predictions)
+
+**Status: DONE.** Branch `arena/4520d440-olbg8`. Files owned and written this session:
+`data/live/*.json` (16 sport captures), `data/evidence/*.json` (5), `data/picks.json`,
+`content/picks_authored.json`, `scripts/line_engine.py`, `scripts/test_line_engine.py`,
+`scripts/build_picks.py`, `scripts/build_site.py`, `scripts/test_site.py`,
+`assets/styles.css`, all root `*.html` and `sports/*.html`, `.github/workflows/pages.yml`.
+
+**Delivered.** 113 OLBG events captured across all 15 requested sports. 95 carry an originated
+line; 88 price inside the −250…+10000 band. 11 written predictions, 6 of them high confidence
+and inside the band, each ≥100 words with named evidence strands, published counter-arguments
+and source links. The site is fully server-rendered — no browser-side JSON fetch, so what the
+audit checks is what the reader sees.
+
+**Verification.** Engine covered by 186 assertions (`python3 scripts/test_line_engine.py`),
+rendered site by `python3 scripts/test_site.py`, which fails the build if any prediction is
+under 30 words, reuses another's prose, contains "model" or "verified", lacks a source, sits
+outside the band while claiming high confidence, or if any page links to a missing file or
+anchor. `test_line_engine.py` is now wired into `pages.yml`.
+
+**Irregularities published on flagged.html (18 findings).** The three high-severity ones:
+1. OLBG's "Best Tipster's Tip" for NZ v India names Rohit Sharma, Virat Kohli, Hardik Pandya,
+   Jasprit Bumrah, Tim Southee and Mitchell McClenaghan — none appear in OLBG's own Man Of The
+   Match list for the event, and ESPNcricinfo confirms Bumrah and Hardik are absent from the
+   series. This is why no prediction here reuses OLBG tipster prose.
+2. OLBG returns "Tie" as the most-tipped outcome on 14 of 15 handball listings. A draw cannot be
+   the modal result of a sport that always settles, so all 15 handball events are left unpriced
+   rather than priced on a broken anchor.
+3. The nine NBA games OLBG listed are the Monday 26 October card, not Tuesday's. Publishing them
+   as upcoming would have meant pricing matches already in progress — the Grizzlies v Jazz game
+   had finished, with Markkanen and Jaren Jackson Jr ruled out during it.
+
+**Cross-scope request (not actioned).** `quality.yml` still runs `node --check assets/app.js` and
+`git diff --exit-code -- data/dashboard.json`. My site no longer loads `assets/app.js` — it is
+server-rendered — but I left that file and `data/dashboard.json` in place rather than delete them,
+because `quality.yml` is outside my claimed scope. Whichever session owns `quality.yml` may want
+to retire both now that the dashboard generation is superseded.
+
+**Shortfall against "5 written predictions per sport", disclosed not hidden.** 8 of 15 sports
+have fewer than 5 and 3 have zero events. Snooker and Greyhounds hubs both return "No tips
+found." with no live fixtures. Rugby League is ante-post only, the 2026 seasons having
+concluded. Baseball has one postseason listing. Golf and Darts are outrights only. Volleyball
+has 15 events and 14 priced lines but no fixture could be confirmed against a league or CEV
+source in this session, so none carries a written prediction. Per-sport reasons are in a table
+on flagged.html and on each sport page.

@@ -65,6 +65,7 @@ from typing import Dict, Optional
 
 __all__ = [
     "SPORT_CALIBRATION",
+    "CALIBRATION_PROVENANCE",
     "PRICE_BAND",
     "OUTCOME_HALF_WIDTH",
     "cal",
@@ -81,8 +82,11 @@ __all__ = [
     "expected_margin",
     "fair_handicap",
     "price_handicap",
+    "price_handicap_pmf",
+    "SNOOKER_BEST_OF_11_MARGIN_PMF",
     "price_total",
     "confidence_label",
+    "pick_confidence",
     "in_price_band",
     "norm_cdf",
 ]
@@ -105,24 +109,105 @@ PRICE_BAND = {"min_american": -250, "max_american": 10000}
 # --------------------------------------------------------------------------
 OUTCOME_HALF_WIDTH = 0.5
 
+# ---------------------------------------------------------------------------
+# Exact discrete margin distributions.
+#
+# A normal approximation to a margin is fine when the margin can take many
+# values, but a best-of-11 snooker frame margin can only be 1, 2, 3, 4, 5 or 6.
+# There is no probability mass near zero for a bell curve to spread into, so the
+# normal path systematically understates cover probabilities - at p = 0.70 it
+# gives 0.412 for -1.5 where the exact answer is 0.533. Where a full published
+# distribution exists, this module prices from the distribution itself.
+#
+# Sourced from the frame-score frequencies OLBG publishes for its Triple Crown
+# events (data/evidence/snooker.json):
+#   6-0 3.9%  6-1 12.5%  6-2 21.1%  6-3 21.1%  6-4 17.5%  6-5 23.9%
+# which is the distribution of the winning margin GIVEN a win. Reading the
+# margins off it: P(win by 2 or more | win) = 0.761, matching the 76.1% OLBG
+# states separately, and E[margin | win] = 2.925 with sd 1.479.
+# ---------------------------------------------------------------------------
+SNOOKER_BEST_OF_11_MARGIN_PMF = {6: 0.039, 5: 0.125, 4: 0.211,
+                                 3: 0.211, 2: 0.175, 1: 0.239}
 
-# --------------------------------------------------------------------------
-# Per-sport calibration.
-#
-#   margin_per_prob_point : expected winning margin per 1.00 of win
-#                           probability above 0.50, expressed in the sport's
-#                           scoring unit. Equivalently, how much of an
-#                           expected margin a given edge implies.
-#   margin_sd             : standard deviation of the winning margin.
-#   handicap_increment    : the granularity lines are quoted at.
-#   supports_handicap     : does the sport have a mainstream handicap market.
-#   supports_total        : does the sport have a mainstream over/under.
-#   draw_possible         : can regulation time end level.
-#   prior_strength_k      : pseudo-tips of weight given to the prior.
-#
-# These are ASSUMPTIONS. They are calibrated to widely used market
-# conventions for each sport and are never presented as observed data.
-# --------------------------------------------------------------------------
+
+def _settle_margin(p_win, target, pmf):
+    """Settle a handicap exactly, given the margin needed to cover.
+
+    ``target`` is the signed margin the side must beat: the side covers when its
+    margin exceeds ``target``, pushes when it equals it, and loses otherwise.
+    The winning margin follows ``pmf``; the losing margin is the same
+    distribution reflected, which is the standard symmetry assumption for a
+    two-contestant zero-sum result and is what makes the signed expectation
+    2 x E[margin | win] x (p - 0.5).
+    """
+    p_cover = p_push = p_lose = 0.0
+    for margin, w in pmf.items():
+        for side_prob, signed in ((p_win, margin), (1.0 - p_win, -margin)):
+            mass = side_prob * w
+            if signed > target:
+                p_cover += mass
+            elif signed == target:
+                p_push += mass
+            else:
+                p_lose += mass
+    return p_cover, p_push, p_lose
+
+
+def price_handicap_pmf(p_win, line, pmf):
+    """Price a handicap exactly from a discrete winning-margin distribution.
+
+    ``pmf`` maps a positive winning margin to its probability *conditional on
+    winning*, and must sum to 1. No normal approximation is used anywhere, so
+    this is the correct path for sports whose margin can only take a handful of
+    integer values - a best-of-11 snooker margin is one of 1, 2, 3, 4, 5 or 6
+    and never anything near zero.
+
+    Quarter lines (a handicap whose required margin lands on x.25 or x.75) are
+    settled as the average of the two adjacent settleable lines, which is the
+    half-win/half-lose convention those lines represent.
+
+    Returns cover / push / lose as an exact disjoint partition of 1.0.
+    """
+    if p_win is None or not pmf:
+        return None
+    total = sum(pmf.values())
+    if total <= 0:
+        return None
+    norm = {m: w / total for m, w in pmf.items()}
+    target = -line
+    # A quarter line is one whose required margin lands on x.25 or x.75, i.e.
+    # twice the target is not a whole number. Those lines are quoted as
+    # half-win/half-lose, so they settle as the average of the two adjacent
+    # whole/half lines.
+    if abs(target * 2.0 - round(target * 2.0)) > 1e-9:
+        # quarter line: average the two neighbouring .0/.5 targets
+        lo = math.floor(target * 2.0) / 2.0
+        hi = math.ceil(target * 2.0) / 2.0
+        res = []
+        for t in (lo, hi):
+            res.append(_settle_margin(p_win, t, norm))
+        p_cover = sum(r[0] for r in res) / 2.0
+        p_push = sum(r[1] for r in res) / 2.0
+        p_lose = sum(r[2] for r in res) / 2.0
+        quarter = True
+    else:
+        p_cover, p_push, p_lose = _settle_margin(p_win, target, norm)
+        quarter = False
+    return {
+        "line": line,
+        "margin_required": target,
+        "p_cover": round(p_cover, 4),
+        "p_push": round(p_push, 4),
+        "p_lose": round(p_lose, 4),
+        "decimal": prob_to_decimal(p_cover),
+        "american": prob_to_american(p_cover),
+        "quarter_line_split": quarter,
+        "exact": True,
+        "calibrated": True,
+        "method": "settled against the published discrete margin distribution",
+    }
+
+
 SPORT_CALIBRATION: Dict[str, dict] = {
     # Basketball: the standard convention is roughly 3% win probability per
     # point of spread near even money, i.e. ~33 points of expected margin per
@@ -197,7 +282,13 @@ SPORT_CALIBRATION: Dict[str, dict] = {
                          supports_total=False, draw_possible=False,
                          prior_strength_k=4.0, unit="outright"),
     # Snooker and darts are two-way match sports quoted in frames/legs.
-    "snooker": dict(margin_per_prob_point=3.0, margin_sd=2.5,
+    # margin_sd is 1.479, not an assumption: it is the standard deviation of the
+    # winning margin in best-of-11 frames derived from the frame-score
+    # distribution OLBG publishes for its Triple Crown events. It replaces an
+    # earlier assumed 2.5, which overstated dispersion by 69% and made every
+    # snooker frame handicap look safer than the evidence supports.
+    # Derivation: data/evidence/snooker.json
+    "snooker": dict(margin_per_prob_point=5.85, margin_sd=1.479,
                     handicap_increment=0.5, supports_handicap=True,
                     supports_total=True, draw_possible=False,
                     prior_strength_k=8.0, unit="frames"),
@@ -217,6 +308,103 @@ SPORT_CALIBRATION: Dict[str, dict] = {
                    supports_total=True, draw_possible=True,
                    prior_strength_k=6.0, unit="points"),
 }
+
+# ---------------------------------------------------------------------------
+# Provenance of every calibration number.
+#
+# "sourced"    - derived from a published distribution; used as-is.
+# "assumption" - a stated market convention or the author's judgement, NOT
+#                sourced from any governing body.
+#
+# Every price derived from an assumption carries calibrated=True so the site can
+# label it. Keeping this map beside the numbers is deliberate: it makes the
+# difference between evidence and convention visible to a reviewer without
+# having to open the derivation files.
+# ---------------------------------------------------------------------------
+CALIBRATION_PROVENANCE = {
+    "snooker": {
+        "margin_sd": ("sourced", 1.479,
+            "Standard deviation of the winning margin in best-of-11 frames, derived from "
+            "the frame-score distribution OLBG publishes for its Triple Crown events: "
+            "6-0 3.9%, 6-1 12.5%, 6-2 21.1%, 6-3 21.1%, 6-4 17.5%, 6-5 23.9%. Mean margin "
+            "2.925 frames. Derivation and cross-check in data/evidence/snooker.json."),
+        "margin_per_prob_point": ("sourced", 5.85,
+            "Twice the sourced mean winning margin of 2.925 frames. A signed margin is "
+            "+M when the side wins and -M when it loses, and M has the same distribution "
+            "either way, so E[signed margin] = 2.925 x (2p - 1) = 5.85 x (p - 0.5). "
+            "This replaces an assumed 3.0, which understated expected margins by half."),
+        "normal_fit_warning": "The normal margin path UNDERSTATES snooker cover "
+            "probabilities, because a best-of-11 margin can only take the six values "
+            "1,2,3,4,5,6 - there is no mass near zero for the normal curve to spread into. "
+            "At p=0.70 the normal path gives P(cover -1.5)=0.412 against the exact 0.533. "
+            "Use price_handicap_pmf for snooker, never price_handicap.",
+        "supersedes": "An earlier assumed margin_sd of 2.5 frames was replaced by the sourced "
+                      "1.479. The assumed figure overstated margin dispersion by 69%.",
+        "handicap_rule": "Frames are integers, so P(cover -1.5) = P(win the match) x 0.761, "
+                         "where 0.761 is the sourced P(win by two frames or more).",
+    },
+    "gaelic": {
+        "margin_per_prob_point": ("assumption", 14.0, None),
+        "margin_sd": ("assumption", 8.0, None),
+        "status": "SUPERSEDED - DO NOT PRICE FROM THIS WITHOUT ADJUSTMENT",
+        "reason": "These figures describe scoring under the rules in force before 1 January "
+                  "2026. The Football Review Committee's 62 changes took effect on that date "
+                  "and materially alter scoring rates, so a margin scale calibrated on "
+                  "pre-2026 games does not transfer to a 2026 fixture. No Gaelic Football "
+                  "match is listed in the current capture window, so no published price in "
+                  "this project depends on it. Recorded rather than silently used.",
+    },
+    "basketball": {
+        "margin_sd": ("assumption", 12.0,
+            "Dispersion of the margin ABOUT a side's expected margin - not the dispersion of "
+            "raw margins. OLBG's five-season NBA tables put the sourced raw-margin dispersion "
+            "near 15.6: three independently published columns of that table imply 15.67 (from "
+            "the 12.5 mean margin), 15.64 (from P(win by 5 or fewer) = 25.08%) and 14.33 (from "
+            "P(win by 10 or fewer) = 51.46%). The raw figure is larger because it also contains "
+            "the favourite/underdog gap itself. See data/evidence/basketball.json."),
+        "margin_per_prob_point": ("assumption", 33.0, None),
+    },
+    "basketball_euro": {"margin_sd": ("assumption", 11.0, None),
+                        "margin_per_prob_point": ("assumption", 30.0, None),
+        "totals_note": "OLBG publishes five-season average totals with a 'Middle 50%' "
+                       "interquartile range per league. Dividing that IQR by 1.349 gives a "
+                       "sourced total-points dispersion: EuroLeague 17.79, EuroCup 18.53, "
+                       "Basketball Champions League 17.05, German Bundesliga 17.05, Polish "
+                       "PLK 17.79, NBA 20.01. Those are used for totals in preference to "
+                       "any assumed figure where the league matches."},
+    "ice_hockey": {"margin_sd": ("assumption", 2.3, None),
+                   "margin_per_prob_point": ("assumption", 5.0, None)},
+    "baseball": {"margin_sd": ("assumption", 4.0, None),
+                 "margin_per_prob_point": ("assumption", 10.0, None)},
+    "rugby_union": {"margin_sd": ("assumption", 14.0, None),
+                    "margin_per_prob_point": ("assumption", 36.0, None)},
+    "rugby_league": {"margin_sd": ("assumption", 17.0, None),
+                     "margin_per_prob_point": ("assumption", 50.0, None)},
+    "cricket_t20": {"margin_sd": ("assumption", 22.0, None),
+                    "margin_per_prob_point": ("assumption", 25.0, None)},
+    "cricket_odi": {"margin_sd": ("assumption", 45.0, None),
+                    "margin_per_prob_point": ("assumption", 45.0, None)},
+    "volleyball": {"margin_sd": ("assumption", 1.4, None),
+                   "margin_per_prob_point": ("assumption", 2.2, None)},
+    "handball": {"margin_sd": ("assumption", 7.0, None),
+                 "margin_per_prob_point": ("assumption", 50.0, None),
+                 "crowd_anchor": "UNUSABLE for this capture. OLBG's handball listings return "
+                                 "'Tie' as the most-tipped outcome on 14 of 15 events, "
+                                 "including every EHF Champions League match. A draw cannot be "
+                                 "the modal outcome of a sport that settles in regulation or "
+                                 "in a shoot-out. The tip share is therefore not treated as a "
+                                 "probability for handball, and no handball price is published "
+                                 "from it. See data/live/handball.json."},
+    "tennis": {"margin_sd": ("assumption", 5.0, None),
+               "margin_per_prob_point": ("assumption", 4.0, None)},
+    "darts": {"margin_sd": ("assumption", 2.0, None),
+              "margin_per_prob_point": ("assumption", 2.5, None)},
+    "golf": {"status": "outright market - no match margin, handicap or total is priced"},
+    "motor_racing": {"status": "outright market - no match margin, handicap or total is priced"},
+    "greyhounds": {"status": "outright market - no match margin, handicap or total is priced. "
+                            "OLBG listed no greyhound races at capture time."},
+}
+
 
 
 def cal(sport: str) -> dict:
@@ -265,6 +453,62 @@ def decimal_to_prob(d: Optional[float]) -> Optional[float]:
     if d is None or d <= 1.0:
         return None
     return 1.0 / d
+
+
+
+def pick_confidence(probability, evidence_tier="crowd_only", corroboration=0,
+                    tips_total=None, min_tips=5, crowd_dependent=True):
+    """Label a pick's confidence from the quality of its evidence, not its price.
+
+    ``confidence_label`` answers a different question - how far a probability sits
+    above evens - and so it can only ever call a heavy favourite "high". That is
+    exactly the trap this project is meant to avoid: the target band is -250 to
+    +10000, so a "high confidence" pick here means *well evidenced at a price
+    that still offers a return*, never merely short.
+
+    Confidence therefore rises with independent corroboration. ``corroboration``
+    counts separate strands of evidence pointing the same way - a market line, a
+    published injury, a full-season count, a head-to-head record - each of which
+    must be sourced before it may be counted.
+
+    A crowd-only pick can never be high: OLBG's own tipsters logged a 37.5%
+    overall strike rate across 948,262 settled tips in the twelve months to
+    17 September 2026, so an uncorroborated tip share is a weak anchor however
+    lopsided it looks.
+    """
+    p = probability if probability is not None else 0.0
+    strands = corroboration or 0
+    # A thin crowd sample only disqualifies a pick when the crowd share is what
+    # the probability rests on. Where the number comes from sourced market
+    # prices, full-season counts or an independent projection, the size of the
+    # OLBG tip sample is irrelevant to how much the pick can be trusted, and
+    # passing crowd_dependent=False says so explicitly.
+    thin = crowd_dependent and tips_total is not None and tips_total < min_tips
+
+    if evidence_tier == "official":
+        if p >= 0.60 and strands >= 3 and not thin:
+            return "high"
+        if p >= 0.58 and strands >= 2:
+            return "medium"
+        if p >= 0.52:
+            return "medium" if strands >= 1 else "low"
+    elif evidence_tier == "partial":
+        if p >= 0.58 and strands >= 3 and not thin:
+            return "high"
+        if p >= 0.55 and strands >= 2:
+            return "medium"
+        if p >= 0.52 and strands >= 1:
+            return "medium"
+    elif evidence_tier == "crowd_only":
+        if p >= 0.72 and strands >= 2 and not thin:
+            return "medium"
+        if p >= 0.62 and strands >= 1:
+            return "low"
+        return "low"
+    # An unrecognised tier is not treated as crowd_only. A typo in a tier label
+    # must never quietly buy a pick more confidence than its evidence supports,
+    # so anything outside the three known tiers is unusable.
+    return "low"
 
 
 def in_price_band(american: Optional[int],

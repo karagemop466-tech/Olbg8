@@ -4,15 +4,20 @@ Run: python3 scripts/test_line_engine.py
 """
 from __future__ import annotations
 
+import math
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from line_engine import (  # noqa: E402
-    OUTCOME_HALF_WIDTH, PRICE_BAND, SPORT_CALIBRATION, add_overround, american_to_prob,
+from line_engine import (
+    CALIBRATION_PROVENANCE,
+    price_handicap_pmf,
+    SNOOKER_BEST_OF_11_MARGIN_PMF,  # noqa: E402
+    OUTCOME_HALF_WIDTH, PRICE_BAND, SPORT_CALIBRATION, add_overround, american_to_prob, cal,
     confidence_label, decimal_to_prob, expected_margin, fair_handicap,
     in_price_band, norm_cdf, normalise, price_handicap, price_total,
+    pick_confidence,
     prior_from_strength, prob_to_american, prob_to_decimal, shrink_tips,
     two_way_from_three_way,
 )
@@ -223,6 +228,123 @@ check("all 15 requested sports have a pricing profile",
       str(expected_sports - set(SPORT_CALIBRATION)))
 
 print()
+
+
+# ---------------------------------------------------------------------------
+# Exact discrete-margin handicap pricing (snooker best-of-11).
+# ---------------------------------------------------------------------------
+def test_pmf_handicap():
+    pmf = SNOOKER_BEST_OF_11_MARGIN_PMF
+    check("pmf sums to 1", abs(sum(pmf.values()) - 1.0) < 1e-9)
+    mean = sum(m * w for m, w in pmf.items())
+    check("sourced mean winning margin is 2.925 frames", abs(mean - 2.925) < 5e-4)
+    var = sum(w * (m - mean) ** 2 for m, w in pmf.items())
+    check("sourced margin sd is 1.479 frames", abs(math.sqrt(var) - 1.479) < 5e-4)
+    p2 = sum(w for m, w in pmf.items() if m >= 2)
+    check("P(win by 2+ | win) reproduces OLBG's stated 76.1%", abs(p2 - 0.761) < 5e-4)
+
+    for p in (0.50, 0.62, 0.70, 0.80, 0.90):
+        r = price_handicap_pmf(p, -1.5, pmf)
+        check("cover probabilities partition 1.0 at p=%.2f" % p,
+              abs(r["p_cover"] + r["p_push"] + r["p_lose"] - 1.0) < 2e-4)
+        check("P(cover -1.5) equals P(win) x 0.761 at p=%.2f" % p,
+              abs(r["p_cover"] - p * 0.761) < 1e-3)
+        check("-1.5 cannot push, frames are integers", r["p_push"] == 0.0)
+
+    r = price_handicap_pmf(0.70, -2.0, pmf)
+    check("a whole-number line can push", r["p_push"] > 0)
+    check("the -2.0 push mass is exactly the 6-3 scoreline at p=0.70",
+          abs(r["p_push"] - 0.70 * 0.175) < 1e-3)
+    check("whole -2.0 and half -2.5 share the same cover probability",
+          abs(r["p_cover"] - price_handicap_pmf(0.70, -2.5, pmf)["p_cover"]) < 1e-9)
+
+    q = price_handicap_pmf(0.70, -1.25, pmf)
+    check("quarter lines are flagged as split", q["quarter_line_split"] is True)
+    check("a quarter line carries push mass borrowed from the whole line",
+          q["p_push"] > 0)
+    check("quarter line cover equals the -1.5 cover, margins are integers",
+          abs(q["p_cover"] - price_handicap_pmf(0.70, -1.5, pmf)["p_cover"]) < 1e-9)
+    check("quarter line still partitions 1.0",
+          abs(q["p_cover"] + q["p_push"] + q["p_lose"] - 1.0) < 2e-4)
+
+    dog = price_handicap_pmf(0.30, 1.5, pmf)
+    fav = price_handicap_pmf(0.70, -1.5, pmf)
+    check("the two sides of a handicap are complementary",
+          abs(dog["p_cover"] - fav["p_lose"]) < 2e-4)
+
+    at50 = price_handicap_pmf(0.50, -1.5, pmf)
+    check("an even match still makes -1.5 a losing proposition",
+          at50["p_cover"] < 0.5)
+    check("the exact path beats the normal path, which understates cover",
+          abs(at50["p_cover"] - 0.3805) < 1e-3
+          and price_handicap(0.50, -1.5, "snooker")["p_cover"] < at50["p_cover"])
+
+    check("pmf pricing is None-safe on probability", price_handicap_pmf(None, -1.5, pmf) is None)
+    check("pmf pricing is None-safe on distribution", price_handicap_pmf(0.7, -1.5, {}) is None)
+    check("pmf pricing rejects an all-zero distribution",
+          price_handicap_pmf(0.7, -1.5, {3: 0.0}) is None)
+    un = price_handicap_pmf(0.70, -1.5, {1: 1, 2: 1, 3: 1})
+    check("an unnormalised pmf is normalised internally",
+          abs(un["p_cover"] - 0.70 * (2 / 3)) < 1e-3)
+
+
+def test_snooker_calibration_is_sourced():
+    c = cal("snooker")
+    check("snooker margin_sd carries the sourced 1.479", abs(c["margin_sd"] - 1.479) < 1e-9)
+    check("snooker margin scale is twice the sourced mean margin",
+          abs(c["margin_per_prob_point"] - 2 * 2.925) < 1e-9)
+    prov = CALIBRATION_PROVENANCE["snooker"]
+    check("snooker margin_sd is labelled sourced", prov["margin_sd"][0] == "sourced")
+    check("snooker margin scale is labelled sourced", prov["margin_per_prob_point"][0] == "sourced")
+    check("gaelic is flagged as superseded by the 2026 rule changes",
+          "SUPERSEDED" in CALIBRATION_PROVENANCE["gaelic"]["status"])
+    check("handball records that its crowd anchor is unusable",
+          "UNUSABLE" in CALIBRATION_PROVENANCE["handball"]["crowd_anchor"])
+    for sport, p in CALIBRATION_PROVENANCE.items():
+        for key, val in p.items():
+            if isinstance(val, tuple):
+                check("provenance for %s.%s is labelled" % (sport, key),
+                      val[0] in ("sourced", "assumption"))
+
+
+print("exact discrete-margin handicap pricing")
+test_pmf_handicap()
+print("calibration provenance")
+test_snooker_calibration_is_sourced()
+
+
+
+print("corroboration-driven pick confidence")
+check("well-evidenced in-band pick is high",
+      pick_confidence(0.667, "official", corroboration=4, tips_total=31) == "high")
+check("a heavy favourite with no corroboration is NOT high",
+      pick_confidence(0.90, "official", corroboration=0, tips_total=40) != "high")
+check("crowd-only can never be high, however lopsided",
+      pick_confidence(0.99, "crowd_only", corroboration=5, tips_total=500) != "high")
+check("crowd-only with a big sample and corroboration reaches medium",
+      pick_confidence(0.80, "crowd_only", corroboration=2, tips_total=49) == "medium")
+check("a thin crowd sample cannot be high",
+      pick_confidence(0.90, "official", corroboration=5, tips_total=1) != "high")
+check("partial tier needs three strands for high",
+      pick_confidence(0.62, "partial", corroboration=2, tips_total=20) == "medium"
+      and pick_confidence(0.62, "partial", corroboration=3, tips_total=20) == "high")
+check("a near-even pick is low regardless of evidence",
+      pick_confidence(0.51, "official", corroboration=6, tips_total=50) == "low")
+check("None probability is low, not a crash",
+      pick_confidence(None, "official", corroboration=6) == "low")
+check("unknown tier is treated as the weakest",
+      pick_confidence(0.99, "nonsense", corroboration=9, tips_total=99) == "low")
+check("a thin crowd sample does not block a crowd-INDEPENDENT pick",
+      pick_confidence(0.707, "partial", corroboration=4, tips_total=2,
+                      crowd_dependent=False) == "high")
+check("the same numbers stay medium once the crowd is the basis",
+      pick_confidence(0.707, "partial", corroboration=4, tips_total=2) == "medium")
+check("crowd_dependent=False cannot rescue a pick with no strands",
+      pick_confidence(0.90, "partial", corroboration=1, tips_total=1,
+                      crowd_dependent=False) == "medium")
+check("the price band still gates separately from confidence",
+      in_price_band(prob_to_american(0.667)) and not in_price_band(prob_to_american(0.90)))
+
 if FAILS:
     print(f"{len(FAILS)} FAILURES: {FAILS}")
     sys.exit(1)
