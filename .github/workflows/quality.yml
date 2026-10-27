@@ -41,7 +41,21 @@ jobs:
           # data/dashboard.json, data/sources.json and pricing.html are owned by
           # concurrent collectors/generators and can change while a PR is open;
           # they are rebuilt and gated above, but not byte-guarded here.
+          set +e
           git diff --exit-code -- data/desk-20261027.json \
             index.html picks.html lines.html matches.html sources.html \
             methodology.html flagged.html sports \
             assets/desk.css assets/desk.js
+          code=$?
+          if [ "$code" -ne 0 ]; then
+            { echo "generated files differ (exit $code)"; git status --short; git diff --name-only; } > /tmp/desk-diff.txt
+            cat /tmp/desk-diff.txt
+          fi
+          exit "$code"
+      - name: Upload generated-file diff diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: desk-diff-diagnosis
+          path: /tmp/desk-diff.txt
+          if-no-files-found: ignore
