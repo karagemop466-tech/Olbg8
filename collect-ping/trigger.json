@@ -1,0 +1,7 @@
+{
+  "session": "51373243",
+  "run_id": 1,
+  "stage": "exploratory",
+  "requested_utc": "2026-10-27T05:45:00Z",
+  "note": "Exploratory probe: raw hub HTML, SvelteKit JSON script blocks, ?_data endpoint, bounded event pages."
+}

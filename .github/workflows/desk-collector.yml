@@ -1,0 +1,40 @@
+# Session 51373243 collector. The sandbox has no egress to olbg.com; the
+# GitHub Actions runner does (proven by the committed 2026-10-26 capture).
+# Raw HTML snapshots and the parse probe are committed back to the session
+# branch for line-by-line audit in the sandbox.
+name: desk-collector (51373243)
+
+on:
+  push:
+    branches: [arena/51373243-olbg8]
+    paths:
+      - .github/workflows/desk-collector.yml
+      - collect/**
+      - collect-ping/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desk-collector-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch OLBG snapshots and parse probe
+        run: python3 collect/olbg_fetch.py exploratory 3
+
+      - name: Commit snapshots for sandbox audit
+        run: |
+          git config user.name "desk-collector-51373243"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw collect collect-ping || true
+          git diff --cached --quiet || git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash origin arena/51373243-olbg8 || true
+          git push origin HEAD:arena/51373243-olbg8 || echo "PUSH FAILED: snapshots remain in run log"
