@@ -1,0 +1,187 @@
+{
+  "schema": "predictions-v1",
+  "written_utc": "2026-10-27T06:10:00Z",
+  "style_rules": [
+    "Every entry names the exact selection, states the confidence band, and runs to at least 30 words.",
+    "Every figure quoted is copied from the official source listed on the same entry.",
+    "No injury or availability claim is made anywhere, because no team-news source was read this session."
+  ],
+  "entries": {
+    "basketball-536177": {
+      "headline": "Panathinaikos to beat Milano",
+      "selection": "Panathinaikos to win the match",
+      "confidence": "High",
+      "analysis": "Panathinaikos are 6-1 through seven EuroLeague rounds and own the best point differential in the competition at plus 96, having scored 613 and conceded 517. Milano are 1-6 and have shipped 648 points while scoring 585, a minus 63 differential. Back Panathinaikos to win the match; the gap at both ends of the floor is simply too wide for Milano to close on the road.",
+      "facts": ["Panathinaikos 6-1, 613 for, 517 against, plus 96", "Milano 1-6, 585 for, 648 against, minus 63"],
+      "sources": ["euroleague"]
+    },
+    "basketball-536175": {
+      "headline": "Crvena Zvezda to beat Maccabi Tel Aviv",
+      "selection": "Crvena Zvezda to win the match",
+      "confidence": "High",
+      "analysis": "Crvena Zvezda are 4-3 with a plus 28 differential, scoring 560 and conceding 532 across seven EuroLeague games. Maccabi Tel Aviv are 2-5 after giving up 653 points, an average of 93.3 per game, while scoring 608. Take Crvena Zvezda to win the match; the Belgrade defence is conceding 76 a game and should hold a Maccabi side that leaks at the other end.",
+      "facts": ["Crvena Zvezda 4-3, 560-532", "Maccabi 2-5, 608-653"],
+      "sources": ["euroleague"]
+    },
+    "basketball-536176": {
+      "headline": "BC Dubai to beat Paris",
+      "selection": "BC Dubai to win the match",
+      "confidence": "High",
+      "analysis": "Dubai Basketball are 5-2 with 597 points scored and 584 conceded, a plus 13 differential in their first EuroLeague season. Paris are 1-6 and have given up 649 points while scoring 597, one of three clubs stuck on a single win. Back BC Dubai to win the match; Paris average 85.3 points and their defence has been the softest part of a difficult start.",
+      "facts": ["BC Dubai 5-2, 597-584", "Paris 1-6, 597-649"],
+      "sources": ["euroleague"]
+    },
+    "basketball-536183": {
+      "headline": "Virtus Bologna to beat Zalgiris",
+      "selection": "Virtus Bologna to win the match",
+      "confidence": "Low",
+      "analysis": "Virtus Bologna are 4-3 with 606 points scored and 608 conceded, a minus 2 differential. Zalgiris are 3-4 and have been outscored by seven points overall, 595 to 602. The pick is Virtus Bologna to win the match: two sides separated by five points across seven games are close to level, so home advantage in Bologna is the difference that matters.",
+      "facts": ["Virtus 4-3, 606-608", "Zalgiris 3-4, 595-602"],
+      "sources": ["euroleague"]
+    },
+    "basketball-536179": {
+      "headline": "Valencia to beat Fenerbahce",
+      "selection": "Valencia to win the match",
+      "confidence": "Low",
+      "analysis": "Valencia are 5-2 and lead the EuroLeague in scoring with 687 points, 98.1 a game, and a plus 57 differential. Fenerbahce are 6-1 with the same plus 57 differential but far less volume, 565 points across seven games. Fenerbahce hold the better record; the call is Valencia to win the match on home floor, where their scoring rate separates two identical point differentials.",
+      "facts": ["Valencia 5-2, 687-630", "Fenerbahce 6-1, 565-508"],
+      "sources": ["euroleague"]
+    },
+    "basketball-536178": {
+      "headline": "Real Madrid to beat Baskonia",
+      "selection": "Real Madrid to win the match",
+      "confidence": "Low",
+      "analysis": "Baskonia are 1-6, scoring 583 and conceding 649 for a minus 66 differential. Real Madrid are 4-3 with a plus 37 differential, 667 scored and 630 conceded, and they average 95.3 points a game. Back Real Madrid to win the match despite the trip to Vitoria; the scoring-margin gap between the two clubs is 14.7 points per game.",
+      "facts": ["Baskonia 1-6, 583-649", "Real Madrid 4-3, 667-630"],
+      "sources": ["euroleague"]
+    },
+    "handball-12128": {
+      "headline": "Fuchse Berlin to beat Partizan",
+      "selection": "Fuchse Berlin to win the match",
+      "confidence": "High",
+      "analysis": "Fuchse Berlin are 3-2 in EHF Champions League Group A with 184 goals scored and 172 conceded, the second-highest scoring record in the group. Partizan are bottom on one point at 0-1-4 and have been outscored 184-148. Back Fuchse Berlin to win the match; the Berlin attack averages 36.8 goals a game and meets the leakiest defence in Group A.",
+      "facts": ["Fuchse Berlin 3-2, 184-172, Group A", "Partizan 0-1-4, 148-184, Group A"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12136": {
+      "headline": "SC Magdeburg to beat HC Kriens Luzern",
+      "selection": "SC Magdeburg to win the match",
+      "confidence": "High",
+      "analysis": "SC Magdeburg have won all five Group F matches, scoring 176 and conceding 140 for a plus 36 goal difference. Kriens-Luzern are 2-3 with a minus 3 difference at 158-161. Back SC Magdeburg to win the match; the hosts concede 28 goals a game, the tightest record in Group F, and Kriens have lost three of five.",
+      "facts": ["Magdeburg 5-0, 176-140, Group F", "Kriens-Luzern 2-3, 158-161, Group F"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12132": {
+      "headline": "Kielce to beat Kolstad",
+      "selection": "KS Kielce to win the match",
+      "confidence": "High",
+      "analysis": "Kielce are 3-2 in Group F, scoring 155 and conceding 153. Kolstad have lost all five group games and carry a minus 35 goal difference, 143 scored and 178 conceded. Take Kielce to win the match; Kolstad average only 28.6 goals a game while giving up 35.6, the weakest defensive record in the section.",
+      "facts": ["Kielce 3-2, 155-153, Group F", "Kolstad 0-5, 143-178, Group F"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12138": {
+      "headline": "Wisla Plock to beat Nantes",
+      "selection": "Wisla Plock to win the match",
+      "confidence": "Low",
+      "analysis": "Wisla Plock and Nantes are level on six points in Group B, and goal difference separates them: Plock are plus 5 at 141-136 while Nantes are minus 1 at 142-143. Back Wisla Plock to win the match at home. In a group where three clubs sit on six points, Plock conceding 27.2 goals a game is the detail that tips this one.",
+      "facts": ["Wisla Plock 3-2, 141-136, Group B", "Nantes 3-2, 142-143, Group B"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12127": {
+      "headline": "Veszprem to beat FC Porto",
+      "selection": "Veszprem to win the match",
+      "confidence": "Low",
+      "analysis": "Veszprem have won all five Group A games, scoring 185 and conceding 146 for a plus 39 difference, level with Barcelona for the best in the competition. Porto are 1-1-3 with a minus 15 difference. Back Veszprem to win the match on the road; Porto concede 34.6 goals a game and now face the group's leading attack.",
+      "facts": ["Veszprem 5-0, 185-146, Group A", "Porto 1-1-3, 158-173, Group A"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12134": {
+      "headline": "PSG Handball to beat Aalborg",
+      "selection": "PSG Handball to win the match",
+      "confidence": "Low",
+      "analysis": "PSG are 3-1-1 and Aalborg 4-1-0 in Group C, and the two clubs are level on plus 25 goal difference, 182-157 for PSG against 170-145 for Aalborg. With the scoring numbers that close, home advantage settles it: back PSG Handball to win the match in Paris, where their 36.4 goals a game is the highest rate in the group.",
+      "facts": ["PSG 3-1-1, 182-157, Group C", "Aalborg 4-1-0, 170-145, Group C"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12130": {
+      "headline": "HC Vardar to beat MT Melsungen",
+      "selection": "HC Vardar to win the match",
+      "confidence": "Low",
+      "analysis": "Vardar are 1-4 in Group B with 154 goals scored and 158 conceded, a minus 4 difference. Melsungen are 3-2 at 138-138. Vardar score 30.8 goals a game to Melsungen's 27.6, and the Skopje crowd has historically made this a difficult trip. Back HC Vardar to win the match, but note the visitors hold the better league position.",
+      "facts": ["Vardar 1-4, 154-158, Group B", "Melsungen 3-2, 138-138, Group B"],
+      "sources": ["ehfcl"]
+    },
+    "handball-12133": {
+      "headline": "Montpellier to beat Dinamo Bucuresti",
+      "selection": "Montpellier to win the match",
+      "confidence": "Low",
+      "analysis": "Montpellier are 1-4 in Group E, scoring 150 and conceding 165. Dinamo Bucuresti are 1-1-3 with 134 scored and 145 conceded, the lowest-scoring attack in the group at 26.8 goals a game. Back Montpellier to win the match at home; their 30 goals per game should outpace a Dinamo side that has struggled to break 30 all season.",
+      "facts": ["Montpellier 1-4, 150-165, Group E", "Dinamo 1-1-3, 134-145, Group E"],
+      "sources": ["ehfcl"]
+    },
+    "rugby-union-609599": {
+      "headline": "Grenoble to win at Beziers",
+      "selection": "Grenoble to win the match",
+      "confidence": "High",
+      "analysis": "Beziers are 2-6 in Pro D2 with 150 points scored and 294 conceded, the worst differential in the league at minus 144. Grenoble are 6-2, plus 51 at 237-186, and have won each of their last five matches. Back Grenoble to win the match; Beziers ship 36.75 points a game and Grenoble average 29.6.",
+      "facts": ["Beziers 2-6, 150-294, minus 144", "Grenoble 6-2, 237-186, plus 51, last five all won"],
+      "sources": ["prod2"]
+    },
+    "rugby-union-609598": {
+      "headline": "Oyonnax to beat Soyaux Angouleme",
+      "selection": "Oyonnax to win the match",
+      "confidence": "High",
+      "analysis": "Oyonnax lead Pro D2 on 34 points after eight rounds, 7-0-1, with 336 points scored and 178 conceded for a plus 158 differential. Soyaux Angouleme are fourth on 22 points at 4-1-3, 269-187. Back Oyonnax to win the match; they average 42 points a game and have taken four wins and a draw from their last five.",
+      "facts": ["Oyonnax 7-0-1, 336-178, 34 pts", "Soyaux Angouleme 4-1-3, 269-187, 22 pts"],
+      "sources": ["prod2"]
+    },
+    "rugby-union-609603": {
+      "headline": "Montauban to beat Narbonne",
+      "selection": "Montauban to win the match",
+      "confidence": "High",
+      "analysis": "Montauban sit sixth on 21 points with a 5-0-3 record, and their 206-237 line leaves a minus 31 differential. Narbonne are 13th on 13 points and have conceded 322 points in eight games, minus 102. Back Montauban to win the match; Narbonne's defence is the leakiest in Pro D2 at 40.25 points a game.",
+      "facts": ["Montauban 5-0-3, 206-237, 21 pts", "Narbonne 3-0-5, 220-322, 13 pts"],
+      "sources": ["prod2"]
+    },
+    "rugby-union-609605": {
+      "headline": "Provence to win at Dax",
+      "selection": "Provence to win the match",
+      "confidence": "High",
+      "analysis": "Provence have won all eight Pro D2 matches and concede only 161 points, the tightest defence in the league, while scoring 276 for a plus 115 differential. Dax are 4-4 and have shipped 313 points, minus 37. Back Provence to win the match; Dax give up 39.1 points a game and now meet the one side nobody has scored on freely.",
+      "facts": ["Provence 8-0-0, 276-161, plus 115", "Dax 4-4, 276-313, minus 37"],
+      "sources": ["prod2"]
+    },
+    "rugby-union-609604": {
+      "headline": "Colomiers to beat Agen",
+      "selection": "Colomiers to win the match",
+      "confidence": "Medium",
+      "analysis": "Colomiers are 12th on 13 points with a 2-6 record, yet their 243-235 line is a plus 8 differential. Agen are ninth on 19 points at 4-4 with 217 scored and 230 conceded, minus 13. Back Colomiers to win the match; their points difference is 21 better than Agen's even though the league table says otherwise.",
+      "facts": ["Colomiers 2-6, 243-235, plus 8, 13 pts", "Agen 4-4, 217-230, minus 13, 19 pts"],
+      "sources": ["prod2"]
+    },
+    "rugby-union-609602": {
+      "headline": "Biarritz to beat Valence Romans",
+      "selection": "Biarritz to win the match",
+      "confidence": "Low",
+      "analysis": "Biarritz are eighth on 20 points with a 4-1-3 record, 223 scored and 215 conceded for a plus 8 differential. Valence Romans are 11th on 17 points at 3-5, 220-213, a slightly better differential but two fewer wins. Back Biarritz to win the match at home, where their extra win and a plus 8 season line separate two very even sides.",
+      "facts": ["Biarritz 4-1-3, 223-215, plus 8, 20 pts", "Valence Romans 3-5, 220-213, plus 7, 17 pts"],
+      "sources": ["prod2"]
+    },
+    "tennis-902177": {
+      "headline": "Naomi Osaka to beat Jasmine Paolini",
+      "selection": "Naomi Osaka to win the match",
+      "confidence": "Low",
+      "analysis": "Naomi Osaka is ranked 18th on 2,287 WTA points and Jasmine Paolini is 35th on 1,512, a gap of 17 places and 775 points. Back Naomi Osaka to win the match at -132. Ranking is the strongest input available for this meeting, and it clearly favours the higher-ranked player.",
+      "facts": ["Osaka rank 18, 2287 points", "Paolini rank 35, 1512 points"],
+      "sources": ["wta"]
+    },
+    "baseball-160799": {
+      "headline": "Milwaukee Brewers to win at Tampa Bay",
+      "selection": "Milwaukee Brewers to win the match",
+      "confidence": "Low",
+      "analysis": "Milwaukee finished the 2026 regular season 103-59 with a plus 214 run differential, a five-game winning streak and an 8-2 record over their last ten. Tampa Bay went 98-64 with a plus 86 differential and lost their most recent game. Back Milwaukee Brewers to win at -122; they scored 832 runs to Tampa Bay's 736.",
+      "facts": ["Brewers 103-59, 832-618, plus 214, W5", "Rays 98-64, 736-650, plus 86, L1"],
+      "sources": ["mlb"]
+    }
+  }
+}

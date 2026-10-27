@@ -20,6 +20,8 @@ jobs:
         run: python scripts/build_dashboard.py
       - name: Validate data and local links
         run: python scripts/test_site.py
+      - name: Regenerate the extra-sport picks
+        run: python price-engine/add_picks.py
       - name: Rebuild the picks desk
         run: python scripts/build_site.py
       - name: Gate the picks desk (word counts, window, bands, sources, links)
@@ -27,4 +29,4 @@ jobs:
       - name: Check JavaScript syntax
         run: node --check assets/app.js
       - name: Confirm generated files are committed
-        run: git diff --exit-code -- data/dashboard.json data/sources.json
+        run: git diff --exit-code -- data/dashboard.json data/sources.json data/desk-picks.json index.html picks.html flagged.html sports/handball.html sports/rugby-union.html

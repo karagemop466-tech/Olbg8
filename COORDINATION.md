@@ -246,3 +246,45 @@ internal links/anchors across all 22 pages. `python3 -m py_compile` passes for b
   Pages workflow run 40456284404 ("Deploy OLBG research desk") completed successfully. Live site re-checked at
   <https://karagemop466-tech.github.io/Olbg8/picks.html>: 12 picks across 4 sports, 3 high / 7 medium / 2 low, each
   with its evidence trail and review note. `DELIVERY.md` added as a one-page summary for manual review.
+## Session `arena/65c1e02b-olbg8` — extra-sport price engine (2026-10-27)
+
+**Claim.** `price-engine/**`; `data/desk-picks.json` (additive only — twelve new picks appended, nothing existing
+edited); `data/desk-flagged.json` (F08–F11 rewritten, F17–F19 added); `README.md`; `.github/workflows/quality.yml`.
+No root page, stylesheet, `scripts/build_site.py`, `scripts/check_site.py` or other `data/desk-*.json` file was
+hand-edited — every page was regenerated with `python3 scripts/build_site.py`. This claim is published after the
+fact: the session began before `main` moved to `17448d7`.
+
+**Scope collision, resolved without loss.** This session's first commit (`380dbdf`) rebuilt the root desk
+independently of `arena/599f03cc-olbg8` at the same time. Instead of merging two competing desks, all shared root
+files were checked out from `origin/main` (`17448d7`) and the part of `380dbdf` worth keeping — the ratings capture,
+the engine and the sports the desk did not cover — was moved into `price-engine/` and re-expressed in the desk's own
+pick schema. Nothing on `main` was weakened: all 115 listings, 9 picks, 16 flags and the full pricing playbook are
+intact, and the twelve new picks extend that schema rather than replace it.
+
+**Work added.**
+- Handball 5, rugby union 6, tennis 1 → the desk now publishes **24 picks across 7 sports** (10 high, 12 medium,
+  2 low), all inside −250 .. +10000.
+- `price-engine/add_picks.py` — deterministic (same output on every run, de-duplicated on sport/event/market/selection).
+  Handball uses the Poisson grid `pricing.html` documents: attack-versus-defence product off a league average of
+  32.1 goals, a six-match prior, 0.85 damping and a 1.2-goal home edge split across the sides. Rugby union uses the
+  documented normal margin: points difference regressed by matches played plus six, 3.0-point home edge, 13.5-point
+  deviation, ±0.5 draw band. Tennis uses the ranking-point gap in log space through the logistic link. Handicap lines
+  are chosen to sit at about 68% cover, each price is the fair odds of that probability, and every number in the prose
+  is filled from `price-engine/ratings.json` at run time so text and arithmetic cannot drift.
+- Flags: F08–F11 rewritten because the PRO D2, EHF Champions League and WTA tables are now captured (they were the
+  stated blockers); F17 covers the thirteen unpriced European ice-hockey rows; F18 states that every price is fair
+  odds with no bookmaker comparison available; F19 records that the single greyhounds row starts before the capture.
+- `README.md` gains a price-engine section and the new snapshot; `quality.yml` regenerates the extra-sport picks and
+  diffs the generated pages, so a hand-edit to output now fails CI.
+
+**Sources used for the new picks.** EHF Champions League standings
+<https://ehfcl.eurohandball.com/men/2026-27/standings/>, LNR PRO D2 <https://prod2.lnr.fr/classement>, WTA rankings
+<https://www.wtatennis.com/rankings/singles>. Existing picks keep their EuroLeague, MLB StatsAPI and NHL sources.
+
+**Gate.** `python3 price-engine/add_picks.py && python3 scripts/build_site.py && python3 scripts/check_site.py` →
+`pages: 22 | sports: 15 | listings: 115 | picks: 24 | flags: 19 | checks: 645` and `all checks passed`.
+
+**Deliberately left unpriced.** Cricket (13 fixtures), the nine men's tennis matches, 13 European ice-hockey rows,
+15 volleyball rows, and every outright market (golf, darts, motor racing, rugby league, Gaelic, greyhounds, rugby
+union Top 14 and URC). In each case the official rate input could not be read in this session, so the row is listed
+and flagged rather than priced on a guess.

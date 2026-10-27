@@ -1,0 +1,147 @@
+{
+  "schema": "ratings-v1",
+  "note": "Rating inputs for the line-origination engine. Every value below was copied from the named official source at the recorded capture time. Nothing here is estimated or filled in. Where a competitor is absent from a captured list, the engine treats the competitor as unrated and refuses to publish a pick on that match.",
+  "sources": {
+    "euroleague": {
+      "label": "EuroLeague Basketball official standings, 2026-27 regular season",
+      "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/",
+      "captured_utc": "2026-10-27T05:40:00Z",
+      "state": "After 7 rounds (all 20 clubs played 7)"
+    },
+    "nhl": {
+      "label": "NHL official standings (NHL StatsAPI)",
+      "url": "https://api-web.nhle.com/v1/standings/now",
+      "captured_utc": "2026-10-26T05:19:00Z",
+      "state": "2026-27 regular season, games through 2026-10-25; re-read 2026-10-27T05:28Z for Carolina and Boston with identical totals"
+    },
+    "mlb": {
+      "label": "MLB official standings (MLB.com StatsAPI)",
+      "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason",
+      "captured_utc": "2026-10-26T05:18:35Z",
+      "state": "2026 regular season complete (162 games)"
+    },
+    "ehfcl": {
+      "label": "EHF Champions League Men 2026/27 official standings",
+      "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/",
+      "captured_utc": "2026-10-26T05:19:00Z",
+      "state": "After 5 group matches"
+    },
+    "prod2": {
+      "label": "LNR official PRO D2 standings 2026-2027",
+      "url": "https://prod2.lnr.fr/classement",
+      "captured_utc": "2026-10-27T05:45:00Z",
+      "state": "After round 8 (J8)"
+    },
+    "wta": {
+      "label": "WTA official singles rankings",
+      "url": "https://www.wtatennis.com/rankings/singles",
+      "captured_utc": "2026-10-26T05:19:03Z",
+      "state": "Top 50 captured"
+    }
+  },
+  "basketball": {
+    "league": "EuroLeague 2026-27",
+    "source": "euroleague",
+    "teams": {
+      "Panathinaikos": {"gp": 7, "w": 6, "l": 1, "pf": 613, "pa": 517},
+      "Fenerbahce": {"gp": 7, "w": 6, "l": 1, "pf": 565, "pa": 508},
+      "Valencia": {"gp": 7, "w": 5, "l": 2, "pf": 687, "pa": 630},
+      "Olympiacos": {"gp": 7, "w": 5, "l": 2, "pf": 625, "pa": 588},
+      "Hapoel Tel Aviv": {"gp": 7, "w": 5, "l": 2, "pf": 630, "pa": 601},
+      "BC Dubai": {"gp": 7, "w": 5, "l": 2, "pf": 597, "pa": 584},
+      "Real Madrid": {"gp": 7, "w": 4, "l": 3, "pf": 667, "pa": 630},
+      "Crvena Zvezda": {"gp": 7, "w": 4, "l": 3, "pf": 560, "pa": 532},
+      "Barcelona": {"gp": 7, "w": 4, "l": 3, "pf": 623, "pa": 606},
+      "Virtus Bologna": {"gp": 7, "w": 4, "l": 3, "pf": 606, "pa": 608},
+      "Partizan": {"gp": 7, "w": 4, "l": 3, "pf": 541, "pa": 546},
+      "Zalgiris": {"gp": 7, "w": 3, "l": 4, "pf": 595, "pa": 602},
+      "Anadolu Efes": {"gp": 7, "w": 3, "l": 4, "pf": 581, "pa": 590},
+      "Besiktas": {"gp": 7, "w": 3, "l": 4, "pf": 634, "pa": 644},
+      "Maccabi Tel Aviv": {"gp": 7, "w": 2, "l": 5, "pf": 608, "pa": 653},
+      "Bayern Munich": {"gp": 7, "w": 2, "l": 5, "pf": 612, "pa": 659},
+      "Asvel Lyon Villeurbanne": {"gp": 7, "w": 2, "l": 5, "pf": 612, "pa": 677},
+      "Paris": {"gp": 7, "w": 1, "l": 6, "pf": 597, "pa": 649},
+      "Milano": {"gp": 7, "w": 1, "l": 6, "pf": 585, "pa": 648},
+      "Baskonia": {"gp": 7, "w": 1, "l": 6, "pf": 583, "pa": 649}
+    }
+  },
+  "handball": {
+    "league": "EHF Champions League Men 2026-27",
+    "source": "ehfcl",
+    "teams": {
+      "SC Magdeburg": {"gp": 5, "w": 5, "d": 0, "l": 0, "gf": 176, "ga": 140, "pts": 10, "group": "F"},
+      "HC Kriens Luzern": {"gp": 5, "w": 2, "d": 0, "l": 3, "gf": 158, "ga": 161, "pts": 4, "group": "F"},
+      "Industria Kielce": {"gp": 5, "w": 3, "d": 0, "l": 2, "gf": 155, "ga": 153, "pts": 6, "group": "F"},
+      "Kolstad": {"gp": 5, "w": 0, "d": 0, "l": 5, "gf": 143, "ga": 178, "pts": 0, "group": "F"},
+      "HC Vardar": {"gp": 5, "w": 1, "d": 0, "l": 4, "gf": 154, "ga": 158, "pts": 2, "group": "B"},
+      "MT Melsungen": {"gp": 5, "w": 3, "d": 0, "l": 2, "gf": 138, "ga": 138, "pts": 6, "group": "B"},
+      "Wisla Plock": {"gp": 5, "w": 3, "d": 0, "l": 2, "gf": 141, "ga": 136, "pts": 6, "group": "B"},
+      "Nantes": {"gp": 5, "w": 3, "d": 0, "l": 2, "gf": 142, "ga": 143, "pts": 6, "group": "B"},
+      "PSG Handball": {"gp": 5, "w": 3, "d": 1, "l": 1, "gf": 182, "ga": 157, "pts": 7, "group": "C"},
+      "Aalborg": {"gp": 5, "w": 4, "d": 1, "l": 0, "gf": 170, "ga": 145, "pts": 9, "group": "C"},
+      "Celje": {"gp": 5, "w": 0, "d": 0, "l": 5, "gf": 150, "ga": 188, "pts": 0, "group": "C"},
+      "Zagreb": {"gp": 5, "w": 2, "d": 0, "l": 3, "gf": 146, "ga": 158, "pts": 4, "group": "C"},
+      "Fuchse Berlin": {"gp": 5, "w": 3, "d": 0, "l": 2, "gf": 184, "ga": 172, "pts": 6, "group": "A"},
+      "Partizan": {"gp": 5, "w": 0, "d": 1, "l": 4, "gf": 148, "ga": 184, "pts": 1, "group": "A"},
+      "Porto": {"gp": 5, "w": 1, "d": 1, "l": 3, "gf": 158, "ga": 173, "pts": 3, "group": "A"},
+      "Veszprem": {"gp": 5, "w": 5, "d": 0, "l": 0, "gf": 185, "ga": 146, "pts": 10, "group": "A"},
+      "GOG": {"gp": 5, "w": 3, "d": 1, "l": 1, "gf": 178, "ga": 172, "pts": 7, "group": "D"},
+      "Sporting CP": {"gp": 5, "w": 4, "d": 1, "l": 0, "gf": 191, "ga": 165, "pts": 9, "group": "D"},
+      "Montpellier": {"gp": 5, "w": 1, "d": 0, "l": 4, "gf": 150, "ga": 165, "pts": 2, "group": "E"},
+      "Dinamo Bucuresti": {"gp": 5, "w": 1, "d": 1, "l": 3, "gf": 134, "ga": 145, "pts": 3, "group": "E"},
+      "IFK Kristianstad": {"gp": 5, "w": 0, "d": 0, "l": 5, "gf": 162, "ga": 197, "pts": 0, "group": "D"},
+      "Pick Szeged": {"gp": 5, "w": 1, "d": 2, "l": 2, "gf": 172, "ga": 169, "pts": 4, "group": "D"},
+      "FC Barcelona": {"gp": 5, "w": 5, "d": 0, "l": 0, "gf": 177, "ga": 138, "pts": 10, "group": "E"}
+    }
+  },
+  "ice_hockey": {
+    "league": "NHL 2026-27",
+    "source": "nhl",
+    "teams": {
+      "BOS": {"name": "Boston Bruins", "gp": 12, "w": 9, "l": 2, "otl": 1, "pts": 19, "gf": 48, "ga": 26, "l10": "7-2-1", "streak": "W2"},
+      "CAR": {"name": "Carolina Hurricanes", "gp": 13, "w": 9, "l": 2, "otl": 2, "pts": 20, "gf": 51, "ga": 33, "l10": "8-1-1", "streak": "W1"},
+      "CBJ": {"name": "Columbus Blue Jackets", "gp": 9, "w": 4, "l": 5, "otl": 0, "pts": 8, "gf": 22, "ga": 30, "l10": "4-5-0", "streak": "W1"},
+      "PHI": {"name": "Philadelphia Flyers", "gp": 13, "w": 3, "l": 7, "otl": 3, "pts": 9, "gf": 24, "ga": 42, "l10": "3-6-1", "streak": "L1"}
+    }
+  },
+  "baseball": {
+    "league": "MLB 2026",
+    "source": "mlb",
+    "teams": {
+      "MIL": {"name": "Milwaukee Brewers", "w": 103, "l": 59, "pct": ".636", "runs_scored": 832, "runs_allowed": 618, "run_diff": 214, "l10": "8-2", "streak": "W5"},
+      "TB": {"name": "Tampa Bay Rays", "w": 98, "l": 64, "pct": ".605", "runs_scored": 736, "runs_allowed": 650, "run_diff": 86, "l10": "5-5", "streak": "L1"}
+    }
+  },
+  "rugby_union": {
+    "league": "Pro D2 2026-27",
+    "source": "prod2",
+    "teams": {
+      "Oyonnax": {"played": 8, "w": 7, "d": 0, "l": 1, "pf": 336, "pa": 178, "pts": 34},
+      "Provence": {"played": 8, "w": 8, "d": 0, "l": 0, "pf": 276, "pa": 161, "pts": 34},
+      "Grenoble": {"played": 8, "w": 6, "d": 0, "l": 2, "pf": 237, "pa": 186, "pts": 26},
+      "Soyaux Angouleme": {"played": 8, "w": 4, "d": 1, "l": 3, "pf": 269, "pa": 187, "pts": 22},
+      "Brive": {"played": 8, "w": 5, "d": 0, "l": 3, "pf": 232, "pa": 198, "pts": 21},
+      "Montauban": {"played": 8, "w": 5, "d": 0, "l": 3, "pf": 206, "pa": 237, "pts": 21},
+      "Aurillac": {"played": 8, "w": 4, "d": 0, "l": 4, "pf": 281, "pa": 270, "pts": 21},
+      "Biarritz": {"played": 8, "w": 4, "d": 1, "l": 3, "pf": 223, "pa": 215, "pts": 20},
+      "Agen": {"played": 8, "w": 4, "d": 0, "l": 4, "pf": 217, "pa": 230, "pts": 19},
+      "Dax": {"played": 8, "w": 4, "d": 0, "l": 4, "pf": 276, "pa": 313, "pts": 19},
+      "Valence Romans": {"played": 8, "w": 3, "d": 0, "l": 5, "pf": 220, "pa": 213, "pts": 17},
+      "Colomiers": {"played": 8, "w": 2, "d": 0, "l": 6, "pf": 243, "pa": 235, "pts": 13},
+      "Narbonne": {"played": 8, "w": 3, "d": 0, "l": 5, "pf": 220, "pa": 322, "pts": 13},
+      "Nissa": {"played": 8, "w": 2, "d": 0, "l": 6, "pf": 195, "pa": 241, "pts": 12},
+      "Beziers": {"played": 8, "w": 2, "d": 0, "l": 6, "pf": 150, "pa": 294, "pts": 9},
+      "Nevers": {"played": 8, "w": 0, "d": 0, "l": 8, "pf": 162, "pa": 263, "pts": 4}
+    }
+  },
+  "tennis": {
+    "league": "WTA Tour",
+    "source": "wta",
+    "players": {
+      "Naomi Osaka": {"rank": 18, "points": 2287},
+      "Leylah Fernandez": {"rank": 23, "points": 1974},
+      "Jasmine Paolini": {"rank": 35, "points": 1512},
+      "Janice Tjen": {"rank": 47, "points": 1120}
+    }
+  }
+}
