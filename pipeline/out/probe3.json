@@ -1,0 +1,743 @@
+{
+ "started_utc": "2026-10-27T06:28:14Z",
+ "official": [
+  {
+   "url": "https://www.icc-cricket.com/fixtures-results",
+   "status": 200,
+   "bytes": 371556,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "icc_fixtures",
+   "title": "ICC Cricket Fixtures &amp; Results | ICC",
+   "date_hits": 89,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.ecb.co.uk/",
+   "status": 200,
+   "bytes": 746220,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "ecb",
+   "title": "England and Wales Cricket Board (ECB) - The Official Website of the ECB",
+   "date_hits": 612,
+   "vs_hits": 310
+  },
+  {
+   "url": "https://www.nrl.com/draw/",
+   "status": 200,
+   "bytes": 798,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "nrl_draw",
+   "title": "Submit This Form",
+   "date_hits": 0,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.nrl.com/ladder/",
+   "status": 200,
+   "bytes": 798,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "nrl_ladder",
+   "title": "Submit This Form",
+   "date_hits": 0,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.superleague.co.uk/matches",
+   "status": 500,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 500",
+   "tag": "superleague",
+   "title": "Server Error",
+   "date_hits": 1,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.rugby-league.com/matches",
+   "status": 200,
+   "bytes": 37333,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "rugby_league_com",
+   "title": "",
+   "date_hits": 3,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.epcrugby.com/",
+   "status": 200,
+   "bytes": 676193,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "epcr",
+   "title": "Home | Investec Champions Cup",
+   "date_hits": 674,
+   "vs_hits": 48
+  },
+  {
+   "url": "https://www.unitedrugby.com/",
+   "status": 200,
+   "bytes": 600930,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "unitedrugby",
+   "title": "Official website of the United Rugby Championship | United Rugby Championship",
+   "date_hits": 38,
+   "vs_hits": 12
+  },
+  {
+   "url": "https://top14.lnr.fr/",
+   "status": 200,
+   "bytes": 264319,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "top14",
+   "title": "TOP 14 | Top 14 - Site Officiel",
+   "date_hits": 63,
+   "vs_hits": 65
+  },
+  {
+   "url": "https://prod2.lnr.fr/",
+   "status": 200,
+   "bytes": 246720,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "prod2",
+   "title": "PRO D2 - Site officiel | Pro D2 - Site Officiel",
+   "date_hits": 16,
+   "vs_hits": 62
+  },
+  {
+   "url": "https://www.premiershiprugby.com/",
+   "status": 200,
+   "bytes": 1028469,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "premiership",
+   "title": "PREM Rugby",
+   "date_hits": 1096,
+   "vs_hits": 58
+  },
+  {
+   "url": "https://www.cev.eu/",
+   "status": 200,
+   "bytes": 123587,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "cev",
+   "title": "Home | CEV",
+   "date_hits": 46,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.cev.eu/club/",
+   "status": 200,
+   "bytes": 87515,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "cev_comp",
+   "title": "Club | CEV",
+   "date_hits": 8,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://en.volleyballworld.com/volleyball/competitions/",
+   "status": 200,
+   "bytes": 151728,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "volleyballworld",
+   "title": "Volleyball World Schedule &#x2013; Official VNL, FIVB Schedule &amp; more",
+   "date_hits": 64,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.legavolley.it/",
+   "status": 200,
+   "bytes": 356037,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "legavolley",
+   "title": "Lega Pallavolo Serie A | Italian Volleyball League &#8211; National Championships",
+   "date_hits": 885,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.eurohandball.com/en/",
+   "status": 200,
+   "bytes": 163508,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "ehf",
+   "title": "European Handball Federation - Home of Handball | EHF",
+   "date_hits": 21,
+   "vs_hits": 2
+  },
+  {
+   "url": "https://ehfcl.eurohandball.com/en/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "tag": "ehfcl",
+   "title": "Error404",
+   "date_hits": 9,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.handball-bundesliga.de/",
+   "status": 200,
+   "bytes": 1204945,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "hbl",
+   "title": "Opel HBL | Die offizielle Seite",
+   "date_hits": 146,
+   "vs_hits": 8
+  },
+  {
+   "url": "https://www.pdc.tv/",
+   "status": 200,
+   "bytes": 1241747,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "pdc",
+   "title": "",
+   "date_hits": 34,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.pdc.tv/tournaments",
+   "status": 200,
+   "bytes": 1241747,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "pdc_tv",
+   "title": "",
+   "date_hits": 34,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.wst.tv/",
+   "status": 200,
+   "bytes": 181180,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "wst",
+   "title": "Home of World Snooker - World Snooker Tour",
+   "date_hits": 87,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.wst.tv/matches",
+   "status": 200,
+   "bytes": 181116,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "wst_matches",
+   "title": "Matches - World Snooker Tour",
+   "date_hits": 87,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.gbgb.org.uk/race-card/",
+   "status": 404,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 404",
+   "tag": "gbgb_racecard",
+   "title": " 404 | Greyhound Board of Great Britain ",
+   "date_hits": 211,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.gbgb.org.uk/results",
+   "status": 200,
+   "bytes": 81995,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "gbgb_results",
+   "title": " Results | Greyhound Board of Great Britain ",
+   "date_hits": 212,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.gaa.ie/fixtures-results/",
+   "status": 200,
+   "bytes": 1314146,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "gaa_fixtures",
+   "title": "GAA.ie - GAA Match Video and Highlights, Fixtures and Results, Latest News",
+   "date_hits": 2233,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.pgatour.com/",
+   "status": 200,
+   "bytes": 2011028,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "pga",
+   "title": "",
+   "date_hits": 120,
+   "vs_hits": 17
+  },
+  {
+   "url": "https://www.lpga.com/",
+   "status": 200,
+   "bytes": 844928,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "lpga",
+   "title": "LPGA | Ladies Professional Golf Association",
+   "date_hits": 64,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.formula1.com/en/racing/2026",
+   "status": 200,
+   "bytes": 621386,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "f1",
+   "title": "F1 Schedule 2026 - Official Calendar of Grand Prix Races",
+   "date_hits": 120,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.motogp.com/en/calendar",
+   "status": 200,
+   "bytes": 301395,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "motogp",
+   "title": "MotoGP\u2122 2026 Calendar | Circuits | Schedule | Information",
+   "date_hits": 146,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.atptour.com/en/scores/current",
+   "status": 403,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 403",
+   "tag": "atp",
+   "title": "",
+   "date_hits": 0,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.wtatennis.com/scores",
+   "status": 200,
+   "bytes": 213617,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "wta_scores",
+   "title": "Tennis Scores | Live Updates & Recent Matches - WTA Official",
+   "date_hits": 160,
+   "vs_hits": 10
+  },
+  {
+   "url": "https://www.nba.com/games",
+   "status": 200,
+   "bytes": 550022,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "nba_games",
+   "title": "NBA Games - All NBA matchups | NBA.com",
+   "date_hits": 98,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+   "status": 403,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 403",
+   "tag": "nba_cdn2",
+   "title": "",
+   "date_hits": 0,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.euroleaguebasketball.net/euroleague/games/",
+   "status": 429,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 429",
+   "tag": "euroleague",
+   "title": "Vercel Security Checkpoint",
+   "date_hits": 2,
+   "vs_hits": 0
+  },
+  {
+   "url": "https://www.acb.com/calendario",
+   "status": 200,
+   "bytes": 2476036,
+   "ok": true,
+   "error": "",
+   "ctype": "text/html",
+   "tag": "acb",
+   "title": "Calendario Liga Endesa | acb.com",
+   "date_hits": 29,
+   "vs_hits": 0
+  }
+ ],
+ "espn": [
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/rugby/leagues?limit=200",
+   "status": 200,
+   "bytes": 2356,
+   "ok": true,
+   "error": "",
+   "ctype": "application/json",
+   "sport": "rugby",
+   "leagues": [
+    {
+     "id": "8016",
+     "name": "British and Irish Lions Tour",
+     "slug": "268565",
+     "abbr": "British and Irish Lions Tour"
+    },
+    {
+     "id": "8337",
+     "name": "Rugby World Cup",
+     "slug": "164205",
+     "abbr": "Rugby World Cup"
+    },
+    {
+     "id": "8323",
+     "name": "Six Nations",
+     "slug": "180659",
+     "abbr": "Six Nations"
+    },
+    {
+     "id": "8328",
+     "name": "The Rugby Championship",
+     "slug": "244293",
+     "abbr": "Rugby Championship"
+    },
+    {
+     "id": "8329",
+     "name": "European Rugby Champions Cup",
+     "slug": "271937",
+     "abbr": "European Rugby Champions Cup"
+    },
+    {
+     "id": "8010",
+     "name": "European Rugby Challenge Cup",
+     "slug": "272073",
+     "abbr": "European Rugby Challenge Cup"
+    },
+    {
+     "id": "8007",
+     "name": "Gallagher Prem",
+     "slug": "267979",
+     "abbr": "Prem Rugby"
+    },
+    {
+     "id": "8331",
+     "name": "United Rugby Championship",
+     "slug": "270557",
+     "abbr": "United Rugby Championship"
+    },
+    {
+     "id": "8005",
+     "name": "French Top 14",
+     "slug": "270559",
+     "abbr": "TOP14"
+    },
+    {
+     "id": "4001",
+     "name": "URBA Primera A",
+     "slug": "2009",
+     "abbr": "URBA Primera A"
+    },
+    {
+     "id": "24400",
+     "name": "Nations Championship",
+     "slug": "17567",
+     "abbr": "Nations Championship"
+    },
+    {
+     "id": "8326",
+     "name": "Super Rugby Pacific",
+     "slug": "242041",
+     "abbr": "Super Rugby Pacific"
+    },
+    {
+     "id": "19867",
+     "name": "Super Rugby Aotearoa",
+     "slug": "289271",
+     "abbr": "Super Rugby Aotearoa"
+    },
+    {
+     "id": "19869",
+     "name": "Super Rugby AU",
+     "slug": "289272",
+     "abbr": "Super Rugby AU"
+    },
+    {
+     "id": "20008",
+     "name": "Super Rugby Trans-Tasman",
+     "slug": "289277",
+     "abbr": "Super Rugby Trans-Tasman"
+    },
+    {
+     "id": "20113",
+     "name": "URBA Top 14",
+     "slug": "289279",
+     "abbr": "URBA Top 14"
+    },
+    {
+     "id": "8002",
+     "name": "Currie Cup",
+     "slug": "270555",
+     "abbr": "Currie Cup"
+    },
+    {
+     "id": "8004",
+     "name": "Mitre 10 Cup",
+     "slug": "270563",
+     "abbr": "National Provence Championship"
+    },
+    {
+     "id": "8009",
+     "name": "Anglo-Welsh Cup",
+     "slug": "236461",
+     "abbr": "Anglo-Welsh Cup"
+    },
+    {
+     "id": "19940",
+     "name": "2020 Tri Nations",
+     "slug": "289274",
+     "abbr": "2020 Tri Nations"
+    },
+    {
+     "id": "10743",
+     "name": "Olympic Men's 7s",
+     "slug": "282",
+     "abbr": ""
+    },
+    {
+     "id": "10729",
+     "name": "Olympic Women's Rugby Sevens",
+     "slug": "283",
+     "abbr": "OLYWRS"
+    },
+    {
+     "id": "17953",
+     "name": "Women's Rugby World Cup",
+     "slug": "289237",
+     "abbr": "Women's Rugby World Cup"
+    },
+    {
+     "id": "19114",
+     "name": "Major League Rugby",
+     "slug": "289262",
+     "abbr": "Major League Rugby"
+    },
+    {
+     "id": "10659",
+     "name": "International Test Match",
+     "slug": "289234",
+     "abbr": "International Test Match"
+    }
+   ]
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/cricket/leagues?limit=200",
+   "status": 200,
+   "bytes": 64,
+   "ok": true,
+   "error": "",
+   "ctype": "application/json",
+   "sport": "cricket",
+   "leagues": []
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/volleyball/leagues?limit=200",
+   "status": 200,
+   "bytes": 294,
+   "ok": true,
+   "error": "",
+   "ctype": "application/json",
+   "sport": "volleyball",
+   "leagues": [
+    {
+     "id": "401",
+     "name": "NCAA Men's Volleyball",
+     "slug": "mens-college-volleyball",
+     "abbr": "NCAA Men's Volleyball"
+    },
+    {
+     "id": "402",
+     "name": "NCAA Women's Volleyball",
+     "slug": "womens-college-volleyball",
+     "abbr": "NCAA Women's Volleyball"
+    }
+   ]
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/handball/leagues?limit=200",
+   "status": 400,
+   "bytes": 0,
+   "ok": false,
+   "error": "HTTP 400",
+   "sport": "handball",
+   "leagues": []
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/rugby-league/leagues?limit=200",
+   "status": 200,
+   "bytes": 158,
+   "ok": true,
+   "error": "",
+   "ctype": "application/json",
+   "sport": "rugby-league",
+   "leagues": [
+    {
+     "id": "8370",
+     "name": "Rugby League",
+     "slug": "3",
+     "abbr": "NRL"
+    }
+   ]
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues?limit=200",
+   "status": 200,
+   "bytes": 1675,
+   "ok": true,
+   "error": "",
+   "ctype": "application/json",
+   "sport": "basketball",
+   "leagues": [
+    {
+     "id": "53",
+     "name": "FIBA World Cup",
+     "slug": "fiba",
+     "abbr": "FIBA"
+    },
+    {
+     "id": "41",
+     "name": "NCAA Men's Basketball",
+     "slug": "mens-college-basketball",
+     "abbr": "NCAAM"
+    },
+    {
+     "id": "3766",
+     "name": "Olympics Men's Basketball",
+     "slug": "mens-olympics-basketball",
+     "abbr": "Olympics"
+    },
+    {
+     "id": "46",
+     "name": "National Basketball Association",
+     "slug": "nba",
+     "abbr": "NBA"
+    },
+    {
+     "id": "69",
+     "name": "NBA G League",
+     "slug": "nba-development",
+     "abbr": "NBA G League"
+    },
+    {
+     "id": "23170",
+     "name": "NBA California Classic Summer League",
+     "slug": "nba-summer-california",
+     "abbr": "NBACC"
+    },
+    {
+     "id": "20727",
+     "name": "Golden State Summer League",
+     "slug": "nba-summer-golden-state",
+     "abbr": "NBAGS"
+    },
+    {
+     "id": "63",
+     "name": "Las Vegas Summer League",
+     "slug": "nba-summer-las-vegas",
+     "abbr": "NBALV"
+    },
+    {
+     "id": "65",
+     "name": "Orlando Summer League",
+     "slug": "nba-summer-orlando",
+     "abbr": "NBAOR"
+    },
+    {
+     "id": "67",
+     "name": "Sacramento Summer League",
+     "slug": "nba-summer-sacramento",
+     "abbr": "NBAGS"
+    },
+    {
+     "id": "64",
+     "name": "Salt Lake City Summer League",
+     "slug": "nba-summer-utah",
+     "abbr": "NBAUT"
+    },
+    {
+     "id": "55",
+     "name": "National Basketball League",
+     "slug": "nbl",
+     "abbr": "NBL"
+    },
+    {
+     "id": "59",
+     "name": "Women's National Basketball Association",
+     "slug": "wnba",
+     "abbr": "WNBA"
+    },
+    {
+     "id": "54",
+     "name": "NCAA Women's Basketball",
+     "slug": "womens-college-basketball",
+     "abbr": "NCAAW"
+    },
+    {
+     "id": "3767",
+     "name": "Olympics Women's Basketball",
+     "slug": "womens-olympics-basketball",
+     "abbr": "Olympics"
+    }
+   ]
+  }
+ ],
+ "finished_utc": "2026-10-27T06:28:43Z"
+}

@@ -1,5 +1,5 @@
 {
- "started_utc": "2026-10-27T06:24:17Z",
+ "started_utc": "2026-10-27T06:27:13Z",
  "results": [
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20261027&limit=50",
@@ -98,7 +98,7 @@
    "ctype": "",
    "ok": false,
    "error": "HTTP 404",
-   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd,\ufffd\ufffd \ufffd \u0014F_E\ufffdEK\ufffd\u0014\ufffdRBh;tJ\ufffd\"\ufffd\ufffdJ\ufffd\ufffd\ufffd\ufffdR\ufffd\ufffd\ufffd!\ufffdw8\ufffd\ufffd^\u0726\u0005\ufffd\ufffd\ufffdz\ufffdW@4\ufffdK|*%\u0015\ufffdcKO\u001f\u001d;N\u05c1=\ufffd\ufffd\u0014\ufffdT\b\ufffdM\u0005\ufffd\ufffd^\u0002\ufffd(s#\u057a\ufffd)\ufffd\ufffd]egT\u0000\ufffd*\ufffd\u007fC\ufffdH\ufffd\u000f~\ufffd\ufffd;\ufffd\ufffd\fU\u053f0[j1\ufffdS\ufffd\u001d[Q\ufffd\ud1ce5\u0004\ufffd\ufffd\ufffd\u000f\ufffd\ufffda<M\ufffd\ufffdy\ufffd\ufffd\ufffd\u0003\u0000\u0000\ufffd\ufffd\u0003\u0000\ufffd.\t\ufffd\ufffd\u0000\u0000\u0000",
+   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd,\ufffd\ufffd \ufffd \u0014F_E\ufffd\ufffd\ufffd4S@J\t\ufffd\ufffd\ufffd)\u074b\ufffd[#5*\u07abK\ufffd\ufffd\ufffdl\ufffd\ufffd\f\ufffd{q\u0013g\ufffd}\ufffd\ufffd\u001a\ufffd\u0002\ufffd\ufffd_\ufffdc\ufffd13\u0017j|\ufffd`\ufffdi\ufffd\ufffdl!J\ufffd\ufffd\ufffdb&\u0014&f\u0010:9\u0001\ufffd\ufffdH\ufffddm7'm\ufffd\u000f\ufffd\ufffd\ufffd\u001e\ufffd-\ufffd\ufffd\r\u0015\u0002\ufffd\ufffd\ufffd\u0551j\u001b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\\\ufffd&\u0017\ufffd\u06b3\u0015\u001b\ufffd\ufffdP\ufffdx\ufffd0\ufffd\ufffd\u0002j8\u000e\ufffd\ufffd~\ufffdL\u0013\u007f\u007f\u0000\u0000\u0000\ufffd\ufffd\u0003\u0000N\u04c16\ufffd\u0000\u0000\u0000",
    "tag": "espn_golf_lb"
   },
   {
@@ -134,7 +134,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard",
    "status": 200,
-   "bytes": 475763,
+   "bytes": 475863,
    "ctype": "application/json",
    "ok": true,
    "error": "",
@@ -193,12 +193,12 @@
   },
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/injuries",
-   "status": 200,
-   "bytes": 2,
-   "ctype": "application/json",
-   "ok": true,
-   "error": "",
-   "snippet": "{}",
+   "status": 0,
+   "bytes": 0,
+   "ctype": "",
+   "ok": false,
+   "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+   "snippet": "",
    "tag": "espn_nba_inj"
   },
   {
@@ -258,7 +258,7 @@
    "ctype": "application/json",
    "ok": true,
    "error": "",
-   "snippet": "{\"wildCardIndicator\":true,\"standingsDateTimeUtc\":\"2026-10-27T06:24:18Z\",\"standings\":[{\"conferenceAbbrev\":\"E\",\"conferenceHomeSequence\":15,\"conferenceL10Sequence\":1,\"conferenceName\":\"Eastern\",\"conferenceRoadSequence\":1,\"conferenceSequence\":1,\"date\":\"2026-10-27\",\"divisionAbbrev\":\"M\",\"divisionHomeSequen",
+   "snippet": "{\"wildCardIndicator\":true,\"standingsDateTimeUtc\":\"2026-10-27T06:27:34Z\",\"standings\":[{\"conferenceAbbrev\":\"E\",\"conferenceHomeSequence\":15,\"conferenceL10Sequence\":1,\"conferenceName\":\"Eastern\",\"conferenceRoadSequence\":1,\"conferenceSequence\":1,\"date\":\"2026-10-27\",\"divisionAbbrev\":\"M\",\"divisionHomeSequen",
    "tag": "nhl_standings"
   },
   {
@@ -344,7 +344,7 @@
   {
    "url": "https://www.icc-cricket.com/fixtures-results",
    "status": 200,
-   "bytes": 371599,
+   "bytes": 371555,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -384,7 +384,7 @@
   {
    "url": "https://www.cricbuzz.com/cricket-match/live-scores",
    "status": 200,
-   "bytes": 439478,
+   "bytes": 439660,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -448,7 +448,7 @@
    "ctype": "",
    "ok": false,
    "error": "HTTP 404",
-   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\u06f6\ufffd.\ufffd{y\ufffd\ufffd\u000e\ufffd\ufffd\ufffd\ufffd\ufffdD\u0505\ufffdn\ufffdng\ufffd\ufffd\ufffd\ufffd\ufffdt\ufffdgVV\ufffd\u0766HHbL\ufffdZ$\ufffd\ufffd\ufffd=\ufffdK\ufffd\u007f\ufffd\ufffd\u0019\ufffd\ufffdy\ufffd\ufffd$\ufffd \u0000)J\"\u0000^\u0014\ufffdx\ufffd\ufffds:\u0012U\ufffd\ufffdPU\u0000  Px\ufffd\ufffd\u000b7p\ufffd\ufffd%\ufffdf\ufffd\ufffd\u007f\ufffd\ufffd!\ufffdG\ufffd\ufffd\ufffd\ufffd\ufffdA\u0016\ufffd\ufffd\ufffd\u01a3\u0007\ufffd\ufffd\ufffd\u0007\u001a\ufffdy8'\ufffd\ufffd93;\ufffdH|\ufffdX\ufffd\u0013}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdq\ub47be\u0010\ufffd\r\ufffd\t\u00161Y\u0000\ufffd\ufffd\u01b3S\ufffd\ufffdz\u000e\ufffd\u95e6\ufffd-\ufffd\u0633",
+   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd6\ufffd\ufffd\u007f\u001eW\ufffd\ufffd\ufffdhj\ufffd\ufffd\u0013Q\ufffdH\ufffd\ufffdn\ufffdg\u001d\ufffdI\\c'\ufffd\ufffdsgwS\ufffd.\ufffd\ufffd\u050c%QKRnw\u001c\ufffd\ufffd\ufffd\ufffdA\ufffd\ufffd\b\ufffd\u00009S\ufffd\ufffd\ufffdc\ufffdE\u001d|\u000e\ufffd\ufffd\u0017__<z\ufffdE\ufffd\ufffd\ufffd\ufffd\u000e\u0019w\ufffdf\ufffd\ufffd\ufffdc\ufffd?c\u001dmW\ufffd#\ufffd5\u007f~3z\ufffd\b\u000e\ufffd(y\ufffd\u0200?\ufffd7\ufffd\ufffd\ufffd\ufffd.\ufffd\u000bT\u078e\ufffd\ufffd\ufffd\fF\u036f\ufffd\ufffd\u0006\u074e>\ufffd\ufffd~\ufffd\ufffd\ufffd\u0208\ufffdm\ufffd\ufffd`z\ufffd&\ufffd\ufffdm\ufffd>\ufffd12\u0247\ufffd\ufffdn\ufffd2\ufffd\ufffdf\u0011Gkt;c\ufffd\ufffdO\u0003x\ufffd",
    "tag": "unitedrugby"
   },
   {
@@ -458,7 +458,7 @@
    "ctype": "text/html",
    "ok": true,
    "error": "",
-   "snippet": "<!DOCTYPE html> <html lang=\"fr\"> <head>     <meta charset=\"utf-8\" />     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\" />     <meta name=\"csrf-token\" content=\"FLKXkrqflpz7uPwWMIKDW3fL9ZHM8Kin1XYzN7A9\" />      <title>Calendrier et r\u00e9sultats de l",
+   "snippet": "<!DOCTYPE html> <html lang=\"fr\"> <head>     <meta charset=\"utf-8\" />     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\" />     <meta name=\"csrf-token\" content=\"SRYr93uOUBH8R7yEtE8O09A4mRTSopm5VaB0M4pu\" />      <title>Calendrier et r\u00e9sultats de l",
    "tag": "top14"
   },
   {
@@ -524,7 +524,7 @@
   {
    "url": "https://www.eurohandball.com/en/",
    "status": 200,
-   "bytes": 163508,
+   "bytes": 163637,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -614,7 +614,7 @@
   {
    "url": "https://www.pgatour.com/schedule",
    "status": 200,
-   "bytes": 536387,
+   "bytes": 536385,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -624,7 +624,7 @@
   {
    "url": "https://www.pgatour.com/leaderboard",
    "status": 200,
-   "bytes": 978922,
+   "bytes": 978915,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -678,7 +678,7 @@
    "ctype": "",
    "ok": false,
    "error": "HTTP 403",
-   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffdX\u000b\ufffd\ufffd\u0292\ufffd+\\O\ufffd\ufffd\ue756\u0006AE{z\ufffdEAE\u0005\u001f\ufffd\ufffd\u001b\u001bF\u0001\u0005\ufffd\ufffd\ufffd\r\u0013\ufffd\u07f7\ufffd{\ufffd\ufffd\ufffd\ufffdsv\ufffdn\ufffd\rC\ufffd\ufffd\ufffd\ufffd2+\ufffd*+\ufffd\ufffd\u007f\ufffdVc\ufffd\ufffds\ufffd{_>7O\ufffd\u0003\ufffd\ufffd\u0482A[\ufffd[\ufffd\u0004\ufffd\ufffd\ufffds\ufffd\u001e\ufffd2\u03d2\u0014\u0003\ufffd\u001f\ufffd0Hq\u001c\ufffd\ufffd\ufffdJ\ufffd\ufffd\ufffd\u0014 \ufffd4j\ufffdk\ufffd\ufffd/\ufffdq\u0018\ufffd\ufffd\ufffd\ufffdT\u0011la\ufffdk\uf955\ufffd2}j\ufffd<c\ufffd\u0019\ufffd\tL_Te\ufffdfZ\u001f@\ufffd\ufffd*\ufffd\u001e\ufffd~\u0004RG\ufffd\u07a3\b\ufffd\u000bo\ufffd\ufffdP\u0000|\ufffd",
+   "snippet": "\u001f\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffdX\u000bs\ufffd\ufffd\ufffd\ufffd+\\\ufffd\u0693d'&\ufffd\ufffd\ufffdd\ufffd\ufffd`\u0003\ufffd\u0001\ufffd\ufffd\ufffd\ufffd\ufffd\u0012 @\ufffde\ufffd4\ufffd\u6fefp23\ufffd39g\ufffd\ufffdV\ufffdr\u0019\ufffdV\ufffd\u05ed\ufffd\ufffd\ufffd\ufffd\ufffd?x\ufffd[\ufffd\ufffd#\ufffdI|\ufffd\ufffd\ufffd\ufffdIx \ufffd\ufffdk0\ufffd\ufffd\ufffd\u001a&A`~\ufffd\ufffd\ufffd\u0103_&i\ufffd\u0010\ufffd\ufffdC\u001f\u0006\tI\ufffd\ufffd\ufffd^\ufffd}\ufffd\u0000\f\ufffd\ufffd\ufffd\ufffd\ufffd\u0185A\ufffdy\ufffd\ufffd\fk\ufffd\ufffd\ufffd{\ufffd%\ufffd<UJ\u0006\ufffd\ufffd(\ufffd\ufffd\ufffdz5\ufffdwk\u001f@\ufffd\ufffdk\ufffd\u0385\ufffd\u0019$H\ufffd\u07a3H\ufffd\ufffdi\ufffdoB\u0001\ufffd\ufffds",
    "tag": "nascar"
   },
   {
@@ -697,7 +697,7 @@
    "bytes": 0,
    "ctype": "",
    "ok": false,
-   "error": "URLError: <urlopen error timed out>",
+   "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>",
    "snippet": "",
    "tag": "bbl_de"
   },
@@ -714,7 +714,7 @@
   {
    "url": "https://www.sportinglife.com/greyhounds",
    "status": 200,
-   "bytes": 185135,
+   "bytes": 185131,
    "ctype": "text/html",
    "ok": true,
    "error": "",
@@ -732,5 +732,5 @@
    "tag": "olbg_grey"
   }
  ],
- "finished_utc": "2026-10-27T06:25:23Z"
+ "finished_utc": "2026-10-27T06:28:10Z"
 }

@@ -1,5 +1,5 @@
 {
- "started_utc": "2026-10-27T06:25:23Z",
+ "started_utc": "2026-10-27T06:28:10Z",
  "results": [
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/scoreboard?dates=20261020-20261103",
@@ -334,7 +334,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261020-20261103",
    "status": 200,
-   "bytes": 958417,
+   "bytes": 958317,
    "ok": true,
    "error": "",
    "summary": {
@@ -484,5 +484,5 @@
    "tag": "espn_league_list"
   }
  ],
- "finished_utc": "2026-10-27T06:25:26Z"
+ "finished_utc": "2026-10-27T06:28:14Z"
 }

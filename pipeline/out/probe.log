@@ -11,13 +11,13 @@
  200     6335 espn_f1              https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261027
  200    11010 espn_f1_racelog      https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20261101
  200   242339 espn_tennis_atp      https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard
- 200   475763 espn_tennis_wta      https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard
+ 200   475863 espn_tennis_wta      https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard
  400        0 espn_volleyball      https://site.api.espn.com/apis/site/v2/sports/volleyball/volleyball/scoreboard?dates=20261027
  400        0 espn_handball        https://site.api.espn.com/apis/site/v2/sports/handball/.../scoreboard
  404        0 espn_leagues         https://site.api.espn.com/apis/site/v2/sports
  200        2 espn_nhl_inj         https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/BOS/injuries
  200        2 espn_mlb_inj         https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/30/injuries
- 200        2 espn_nba_inj         https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/injuries
+   0        0 espn_nba_inj         https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/BOS/injuries
  200    97364 espn_nhl_news        https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/news?limit=20
  200     3582 mlb_probables        https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team,linescore
  200    29899 mlb_rosters          https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active&hydrate=person
@@ -32,11 +32,11 @@
  200  1178016 wta_ranks            https://www.wtatennis.com/rankings/singles
  200   213617 wta_scores           https://www.wtatennis.com/scores
  404        0 itf_cal              https://www.itftennis.com/en/tournament-calendar/
- 200   371599 icc_fixtures         https://www.icc-cricket.com/fixtures-results
+ 200   371555 icc_fixtures         https://www.icc-cricket.com/fixtures-results
  404        0 ecb_fixtures         https://www.ecb.co.uk/matches
  200   282124 cricketaustralia     https://www.cricketaustralia.com.au/
  200   530984 bcci                 https://www.bcci.tv/
- 200   439478 cricbuzz_live        https://www.cricbuzz.com/cricket-match/live-scores
+ 200   439660 cricbuzz_live        https://www.cricbuzz.com/cricket-match/live-scores
  200      862 nrl_draw             https://www.nrl.com/draw/data?competition=111&season=2026&round=27
  200      862 nrl_ladder           https://www.nrl.com/ladder/data?competition=111&season=2026
  500        0 superleague          https://www.superleague.co.uk/fixtures
@@ -50,7 +50,7 @@
  200   151728 volleyballworld      https://en.volleyballworld.com/volleyball/competitions/
  404        0 ehfcl                https://ehfcl.eurohandball.com/en/matches/
  404        0 hbl                  https://www.handball-bundesliga.de/spielplan/
- 200   163508 ehf_ec               https://www.eurohandball.com/en/
+ 200   163637 ehf_ec               https://www.eurohandball.com/en/
  200  1241747 pdc                  https://www.pdc.tv/
  200  1241747 pdc_om               https://www.pdc.tv/order-of-merit
  200   181180 wst                  https://www.wst.tv/
@@ -59,8 +59,8 @@
  200    81995 gbgb_results         https://www.gbgb.org.uk/results
  200  1314146 gaa                  https://www.gaa.ie/fixtures-results/
  404        0 gaa_api              https://www.gaa.ie/api/
- 200   536387 pga_sched            https://www.pgatour.com/schedule
- 200   978922 pga_leaderboard      https://www.pgatour.com/leaderboard
+ 200   536385 pga_sched            https://www.pgatour.com/schedule
+ 200   978915 pga_leaderboard      https://www.pgatour.com/leaderboard
  403        0 dpwt                 https://www.europeantour.com/dpworld-tour/schedule/
  200   549122 lpga                 https://www.lpga.com/tournaments
  200   621386 f1_site              https://www.formula1.com/en/racing/2026
@@ -69,6 +69,6 @@
  429        0 euroleague           https://www.euroleaguebasketball.net/euroleague/games/
    0        0 bbl_de               https://www.basketball-bundesliga.de/spielplan/
  200  2476036 acb                  https://www.acb.com/calendario
- 200   185135 sportinglife_grey    https://www.sportinglife.com/greyhounds
+ 200   185131 sportinglife_grey    https://www.sportinglife.com/greyhounds
  200   314925 olbg_grey            https://www.olbg.com/betting-tips/Greyhounds/28
-reachable: 55/73
+reachable: 54/73
