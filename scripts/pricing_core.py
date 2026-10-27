@@ -144,6 +144,25 @@ def grade(market_complete: bool, official: bool, edge_pts: float, price: int | N
     return "low"
 
 
+def grade_probability(our_prob: float, in_band: bool, supported: bool) -> str:
+    """User-facing confidence: how likely is the selection to win, and is it backed?
+
+    high   - our own probability is at least 70% (a -250 favourite or shorter
+             in American terms), the line sits inside the published band and
+             either primary data or a majority of the community backs it.
+    medium - 55% to 70%, similarly supported.
+    low    - everything else, published only when a sport would otherwise be
+             blank.
+    """
+    if not in_band:
+        return "low"
+    if our_prob >= 70.0 and supported:
+        return "high"
+    if our_prob >= 55.0 and supported:
+        return "medium"
+    return "low"
+
+
 def confidence_score(level: str, edge_pts: float, coverage: float) -> float:
     base = {"high": 60.0, "medium": 38.0, "low": 18.0}[level]
     return round(base + min(edge_pts, 8.0) * 3.0 + coverage * 12.0, 2)

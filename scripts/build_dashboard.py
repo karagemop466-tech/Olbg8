@@ -128,6 +128,42 @@ class Official:
                 if alias:
                     self.teams.setdefault(alias.lower(), entry)
 
+        # MLB schedule: probable pitchers and the most recent completed game
+        schedule = load_json(OFFICIAL / "mlb-schedule.json", {})
+        self.mlb_games: dict[str, dict[str, Any]] = {}
+        for date in schedule.get("dates", []):
+            for game in date.get("games", []):
+                sides = {}
+                for side in ("home", "away"):
+                    team = game.get("teams", {}).get(side, {})
+                    name = team.get("team", {}).get("name", "")
+                    sides[side] = {
+                        "name": name,
+                        "pitcher": (team.get("probablePitcher") or {}).get("fullName", ""),
+                        "score": team.get("score"),
+                    }
+                final = game.get("status", {}).get("abstractGameState") == "Final"
+                for key, side in sides.items():
+                    other = sides["away" if key == "home" else "home"]
+                    entry = self.mlb_games.setdefault(side["name"].lower(), {})
+                    entry.setdefault("upcoming", []).append({
+                        "date": game.get("gameDate"),
+                        "pitcher": side["pitcher"],
+                        "opponent": other["name"],
+                        "home": key == "home",
+                        "venue": game.get("venue", {}).get("name", ""),
+                    })
+                    if final and side.get("score") is not None:
+                        entry.setdefault("last", []).append({
+                            "date": game.get("gameDate"),
+                            "score": f"{side['score']}-{other['score']}",
+                            "opponent": other["name"],
+                            "home": key == "home",
+                            "won": (side["score"] or 0) > (other["score"] or 0),
+                        })
+        for value in self.mlb_games.values():
+            value["upcoming"].sort(key=lambda g: g.get("date") or "")
+            value["last"].sort(key=lambda g: g.get("date") or "")
         # MLB standings
         payload = load_json(OFFICIAL / "mlb-standings.json", {})
         for group in payload.get("records", []):
@@ -189,6 +225,10 @@ class Official:
         key = name.lower().strip()
         if key in self.teams:
             return self.teams[key]
+        tokens = [t for t in key.split() if t]
+        for token in ([tokens[0]] if tokens else []) + ([tokens[-1]] if len(tokens) > 1 else []):
+            if token in self.teams:
+                return self.teams[token]
         for candidate, value in self.teams.items():
             if len(candidate) > 3 and (candidate in key or key in candidate):
                 return value
@@ -206,7 +246,35 @@ class Official:
 
 
 # --------------------------------------------------------------- assembly ---
+MARGIN_ALLOWANCE = [
+    (("Win Match", "Money Line", "To Win", "Puck Line", "FT Result", "Win Hurling"), 0.040),
+    (("Handicap", "Game Totals", "Pointspread", "Games Won", "Set Betting"), 0.045),
+    (("Set Score", "1st Set Winner", "Man Of The Match", "Top Team1 Batsman"), 0.055),
+    (("Win Tournament", "Outright Winner", "Grand Final Winner", "Win Race"), 0.120),
+]
+
+
+def margin_allowance(market: str) -> float:
+    """Published margin allowance for a single-sided captured price.
+
+    OLBG's public payload exposes one price per market, so the second side of
+    the book cannot be measured. The allowance below is the margin we subtract
+    before treating a captured price as a fair probability, by market type.
+    It is an assumption and is labelled as one on the Method page.
+    """
+    for names, value in MARGIN_ALLOWANCE:
+        if market in names:
+            return value
+    return 0.05
+
+
 def event_rows() -> list[dict[str, Any]]:
+    markets_file = OLBG / "markets.json"
+    if markets_file.exists():
+        payload = load_json(markets_file, {})
+        rows = payload.get("rows") or []
+        if rows:
+            return rows
     rows = pc.load_rows(OLBG)
     if rows:
         return rows
@@ -219,11 +287,18 @@ def event_rows() -> list[dict[str, Any]]:
     return merged
 
 
+WIN_MARKETS = {"Win Match", "Money Line", "To Win", "FT Result", "Win Hurling"}
+
+
 def split_teams(name: str) -> tuple[str, str]:
-    for sep in (" vs ", " @ ", " v "):
+    """Return (home, away). OLBG writes US fixtures as 'AWAY @ HOME'."""
+    if " @ " in name:
+        away, home = name.split(" @ ", 1)
+        return home.strip(), away.strip()
+    for sep in (" vs ", " v "):
         if sep in name:
-            left, right = name.split(sep, 1)
-            return left.strip(), right.strip()
+            home, away = name.split(sep, 1)
+            return home.strip(), away.strip()
     return name, ""
 
 
@@ -279,10 +354,21 @@ def official_outlook(event: dict[str, Any], official: Official) -> dict[str, Any
         if not a or not b or not a.get("pct") or not b.get("pct"):
             return None
         prob = pc.log5(float(a["pct"]), float(b["pct"]), 0.04)
+        home_feed = official.mlb_games.get(home.lower(), {})
+        away_feed = official.mlb_games.get(away.lower(), {})
+        home_pitcher = next((g["pitcher"] for g in home_feed.get("upcoming", []) if g.get("pitcher")), "")
+        away_pitcher = next((g["pitcher"] for g in away_feed.get("upcoming", []) if g.get("pitcher")), "")
+        home_last = (home_feed.get("last") or [{}])[-1]
+        away_last = (away_feed.get("last") or [{}])[-1]
+        facts = dict(a)
+        facts["probable_pitcher"] = home_pitcher or away_pitcher
+        facts["pitchers"] = f"{home} {home_pitcher or 'TBC'}; {away} {away_pitcher or 'TBC'}"
+        facts["last_game"] = home_last
+        facts["opponent_last"] = away_last
         return {"prob": prob, "subject": home, "other": away,
                 "method": "log5 on MLB winning percentage plus home-field adjustment",
                 "detail": f"{home} {a['wins']}-{a['losses']} ({a['pct']}), {away} {b['wins']}-{b['losses']} ({b['pct']})",
-                "source": a["source"], "source_label": a["source_label"], "facts": a}
+                "source": a["source"], "source_label": a["source_label"], "facts": facts}
     if sport == "Ice Hockey":
         if not a or not b:
             return None
@@ -316,51 +402,77 @@ def official_outlook(event: dict[str, Any], official: Official) -> dict[str, Any
     return None
 
 
-def price_market(selections: dict[tuple[str, str], dict[str, Any]], official_prob: float | None,
-                 subject: str) -> list[dict[str, Any]]:
+def price_market(event: dict[str, Any], official_prob: float | None, subject: str) -> list[dict[str, Any]]:
+    """Price every captured market for one event.
+
+    Two routes, both fully traceable:
+
+    * primary-data route  - an independent estimate exists (MLB/NHL/NBA records,
+      ATP ranking points). Ours is a 60/40 blend of that estimate and the
+      margin-adjusted market price, so the edge is a genuine disagreement.
+    * market route        - no independent estimate. We publish the
+      margin-adjusted market probability as the line and measure the gap between
+      the OLBG community consensus (share of tips on the selection) and the
+      price. No fabricated statistics enter this route.
+    """
     markets: dict[str, list[tuple[str, dict[str, Any]]]] = {}
-    for (market, selection), data in selections.items():
+    for (market, selection), data in event["selections"].items():
+        if not market or not selection or not data.get("decimal"):
+            continue
         markets.setdefault(market, []).append((selection, data))
     out: list[dict[str, Any]] = []
-    for market, entries in markets.items():
-        decimals = [d["decimal"] for _, d in entries]
-        probs = pc.shin_probabilities(decimals) or pc.proportional(decimals)
-        overround = sum(1.0 / d for d in decimals)
-        complete = len(entries) >= 2 and 1.0 <= overround <= 1.75
+    for market, entries in sorted(markets.items()):
+        allowance = margin_allowance(market)
+        overround_measured = sum(1.0 / d["decimal"] for _, d in entries)
+        complete = len(entries) >= 2 and 1.0 <= overround_measured <= 1.75
         priced = []
-        for (selection, data), prob in zip(entries, probs):
-            our_prob = prob
-            blended = False
-            if official_prob is not None and len(entries) == 2 and subject:
-                if selection.lower().startswith(subject.lower()[:6]) or subject.lower().startswith(selection.lower()[:6]):
-                    our_prob = 0.55 * official_prob + 0.45 * prob
-                    blended = True
-                else:
-                    our_prob = 0.55 * (1 - official_prob) + 0.45 * prob
-                    blended = True
-            edge = (our_prob - prob) * 100
+        for selection, data in entries:
+            implied = 100.0 / data["decimal"]
+            fair_market = implied / (1.0 + allowance)
+            our_prob = fair_market
+            route = "market"
+            if official_prob is not None and len(entries) == 1 and market in WIN_MARKETS:
+                ours = official_prob * 100 if _is_subject(selection, subject) else (1 - official_prob) * 100
+                our_prob = 0.6 * ours + 0.4 * fair_market
+                route = "primary"
+            tips = data.get("win_tips")
+            total = data.get("win_tips_count")
+            consensus = round(100.0 * tips / total, 1) if tips and total and total >= 3 else None
+            gap = round(consensus - fair_market, 1) if consensus is not None else None
+            edge = round(our_prob - fair_market, 2)
             priced.append({
                 "selection": selection,
                 "decimal": data["decimal"],
-                "american": data["american"] if data["american"] is not None else pc.american(data["decimal"]),
-                "fractional": data["fractional"],
-                "market_prob": round(prob * 100, 2),
-                "our_prob": round(our_prob * 100, 2),
-                "our_decimal": pc.decimal_from_prob(our_prob),
-                "our_american": pc.american(pc.decimal_from_prob(our_prob)),
-                "edge_pts": round(edge, 2),
-                "blended": blended,
-                "win_tips": data.get("win_tips"),
-                "win_tips_count": data.get("win_tips_count"),
-                "experts": data.get("experts"),
+                "american": data.get("american") if data.get("american") is not None else pc.american(data["decimal"]),
+                "fractional": data.get("fractional"),
+                "market_prob": round(implied, 2),
+                "fair_prob": round(fair_market, 2),
+                "our_prob": round(our_prob, 2),
+                "our_decimal": pc.decimal_from_prob(our_prob / 100.0),
+                "our_american": pc.american(pc.decimal_from_prob(our_prob / 100.0)),
+                "edge_pts": edge,
+                "consensus": consensus,
+                "consensus_gap": gap,
+                "tips": tips,
+                "tips_total": total,
+                "route": route,
+                "margin_allowance": round(allowance * 100, 1),
             })
         out.append({
             "name": market,
-            "overround": round(overround * 100, 2),
+            "overround": round(overround_measured * 100, 2),
             "complete": complete,
             "selections": sorted(priced, key=lambda s: -(s["our_prob"] or 0)),
         })
     return out
+
+
+def _is_subject(selection: str, subject: str) -> bool:
+    if not subject:
+        return True
+    a = selection.lower().strip()
+    b = subject.lower().strip()
+    return a.startswith(b[:6]) or b.startswith(a[:6])
 
 
 def main() -> None:
@@ -373,7 +485,7 @@ def main() -> None:
 
     for event in events:
         outlook = official_outlook(event, official)
-        markets = price_market(event["selections"], outlook["prob"] if outlook else None,
+        markets = price_market(event, outlook["prob"] if outlook else None,
                                outlook["subject"] if outlook else "")
         flags: list[str] = []
         if not markets:
@@ -392,29 +504,50 @@ def main() -> None:
         }
         out_events.append(entry)
 
-        # candidate picks: best positive edge per event across complete markets
+        # candidate picks: one per event, graded on our own probability
         if not markets:
             continue
         best = None
         for market in markets:
             for selection in market["selections"]:
-                if selection["edge_pts"] <= 0:
+                price = selection["our_american"]
+                if selection["selection"].strip().lower() in ("tie", "draw", "the draw"):
                     continue
-                level = pc.grade(market["complete"], outlook is not None,
-                                 selection["edge_pts"], selection["our_american"])
+                if selection["fair_prob"] < 25.0:
+                    continue
+                if selection["edge_pts"] < -0.5:
+                    continue
+                if not pc.in_range(price):
+                    continue
+                in_band = True
+                supported = selection["route"] == "primary" or (selection["consensus"] or 0) >= 55
+                level = pc.grade_probability(selection["our_prob"], in_band, supported)
+                strength = max(selection["edge_pts"], selection["consensus_gap"] or 0)
                 candidate = {
                     "event_id": event["id"], "sport": event["sport"],
+                    "sport_key": event["sport_key"],
                     "requested_sport": SPORT_TO_REQUESTED.get(event["sport"], event["sport"]),
                     "event": event["name"], "competition": event["competition"],
                     "start_utc": event["start_utc"], "market": market["name"],
                     "selection": selection["selection"],
                     "decimal": selection["decimal"], "american": selection["american"],
                     "our_american": selection["our_american"], "our_decimal": selection["our_decimal"],
-                    "market_prob": selection["market_prob"], "our_prob": selection["our_prob"],
+                    "market_prob": selection["market_prob"], "fair_prob": selection["fair_prob"],
+                    "our_prob": selection["our_prob"],
                     "edge_pts": selection["edge_pts"],
+                    "consensus": selection["consensus"],
+                    "consensus_gap": selection["consensus_gap"],
+                    "tips": selection.get("tips"),
+                    "tips_total": selection.get("tips_total"),
+                    "route": selection["route"],
                     "confidence": level,
-                    "score": pc.confidence_score(level, selection["edge_pts"], 1.0 if outlook else 0.4),
+                    "score": pc.confidence_score(level, max(strength, 0.0),
+                                                 1.0 if selection["route"] == "primary" else 0.45)
+                             + (selection["our_prob"] * 1.6 + min(selection["consensus_gap"] or 0, 10)
+                                if selection["route"] == "market" else 0.0),
                     "overround": market["overround"],
+                    "margin_allowance": selection["margin_allowance"],
+                    "complete": market["complete"],
                     "olbg_url": event["olbg_url"],
                     "official": entry["official"],
                 }
@@ -424,17 +557,22 @@ def main() -> None:
             picks.append(best)
 
     # rank and keep the strongest per sport
-    picks.sort(key=lambda p: (-p["score"], p["start_utc"]))
+    rank = {"high": 0, "medium": 1, "low": 2}
+    picks.sort(key=lambda p: (rank.get(p["confidence"], 3), -p["score"], p["start_utc"]))
     per_sport: dict[str, int] = {}
     kept: list[dict[str, Any]] = []
     for pick in picks:
-        if pick["confidence"] == "low":
-            continue
         count = per_sport.get(pick["requested_sport"], 0)
         if count >= 8:
             continue
         per_sport[pick["requested_sport"]] = count + 1
+        pick["id"] = f"{pick['event_id']}-{re.sub(r'[^a-z0-9]+', '-', pick['selection'].lower())[:24]}"
         kept.append(pick)
+
+    import predictions
+
+    editorial = load_json(ROOT / "content" / "editorial.json", {})
+    predictions.apply(kept, editorial)
 
     sport_summary = []
     for label, key in SPORT_ORDER:

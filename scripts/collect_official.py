@@ -102,6 +102,8 @@ def probe_registry() -> list[dict[str, str]]:
 
 
     # ---- round 2: fill the sports where the first pass failed ----
+    add("Basketball", "espn-nba-standings", "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings")
+    add("Tennis", "espn-wta-rankings", "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/rankings")
     add("Basketball", "espn-nba-scoreboard", "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard")
     add("Basketball", "espn-nba-teams", "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams")
     add("Basketball", "nba-schedule-v2", "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json")
