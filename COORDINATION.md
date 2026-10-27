@@ -170,3 +170,24 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+---
+
+## Session `0d9bd3c1` — live OLBG capture, origination and prediction publication
+
+Branch `arena/0d9bd3c1-olbg8` (platform-fixed; supersedes the requested `session-<id>/<task>` naming). Started from `c59f4c1`.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Claim board, network re-test of OLBG reachability | in progress | `0d9bd3c1` | `COORDINATION.md` |
+| Fresh dated OLBG capture, all 15 requested sports | in progress | `0d9bd3c1` | `capture/` |
+| Line origination engine (odds from consensus), market scan | in progress | `0d9bd3c1` | `pricing/`, `scripts/originate.py` |
+| Written predictions for top-confidence picks per sport | in progress | `0d9bd3c1` | `picks/` |
+| Primary site rebuild (executive summary, obvious picks, sport pages, Flagged for Review) | in progress | `0d9bd3c1` | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `methodology.html`, `sources.html`, `sports/`, `assets/`, `data/` |
+
+No other session holds an active claim (`7fbe3ee0`, `53f44a7c`, `arena-352da32b`, `arena/40c30722-olbg8`, `arena/5bac89f3-olbg8` are all merged/closed). `evidence-lab/` and `research-desk/` are **not** touched by this session — preserved byte-for-byte.
+
+### Findings at claim time (irregularities to resolve)
+1. **OLBG IS reachable from this environment** through the retrieval tool. Earlier logs record `SSL_ERROR_SYSCALL` from raw sandbox `curl`, which was an incorrect basis for concluding that no collection was possible; that conclusion blocked every prior session from publishing a single pick. Retested 2026-10-27 and category + event pages return normally.
+2. **`data/darts.json` is fabricated and must be quarantined.** Five "picks" (Humphries/van Gerwen, Littler/Price, Smith/Cross, Aspinall/Wright, Anderson/Clayton) under "European Championship 2026" carry `"verified": "True"` while the only source cited is a generic tournament directory URL, and the stat lines (e.g. "averaging a massive 105", "checkout percentage on the outer ring is flawless") have no supporting source anywhere in the repo. This is exactly the failure mode the brief forbids.
+3. Prior capture is stale: `data/dashboard.json` is stamped `2026-10-26T05:18:26Z`; the board's own "upcoming matches" are therefore already in the past.
