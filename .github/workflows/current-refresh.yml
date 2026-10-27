@@ -13,11 +13,11 @@ permissions:
   pages: write
   id-token: write
 
-# Share the Pages deployment lock with the existing main workflow. A newer main
-# deployment may cancel a stale capture; a failed refresh is never a fixture census.
+# Capture can run alongside the root build. Only the deployment job takes the
+# shared Pages lock, so a new root build cannot cancel collection at startup.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: current-source-refresh
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -63,6 +63,9 @@ jobs:
         with:
           path: .
   deploy:
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

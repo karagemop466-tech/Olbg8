@@ -432,3 +432,12 @@ Session: `51373243` · Branch: `arena/51373243-olbg8` (platform-required branch 
   Béziers/Grenoble, Plock, Porto), two claims had no captured source, and the engine now carries a separate
   conceded-per-game input so the classes of error cannot recur. The CI gate was rebuilt around the desk that is
   actually published, which is also what unblocked Pages.
+
+
+
+### Publication and refresh follow-up — session `arena/6bb9f412-olbg8`
+
+- PR [#20](https://github.com/karagemop466-tech/Olbg8/pull/20) merged on 2026-10-27 at 05:53 UTC as `83a2cd1f165e715fb6f754a70ea2b6200a4fa4ec`. Main Site quality [40457840456](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840456), evidence-lab [40457840458](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840458), and custom Pages deployment [40457840517](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840517) all succeeded; legacy Pages [40457839169](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457839169) also succeeded.
+- Independently fetched <https://karagemop466-tech.github.io/Olbg8/current/> and its `live.json`: the page rendered 15 sports, 143 listings, 38 event-specific links, six uncalibrated research references and zero cleared picks; data timestamp was `2026-10-27T05:49:18Z`. This is partial coverage, not completion of the daily pick quota.
+- The initial separate refresh run [40457840542](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457840542) was canceled before collection because the root deploy claimed the same concurrency group. Adjusted our workflow so collection uses a separate lock and only its deploy job joins the shared Pages lock. A new main run must validate the correction; the existing dated fallback remains visible until then.
+- Added a review notice for the separate root desk: at commit `99bf72e`, its inventory claims 06:05 UTC and its picks claim 08:20 UTC even though both files had been committed by 05:51 UTC that day. They require provenance and timestamp review. The root desk is separately maintained; its selections are not cleared by this session.
