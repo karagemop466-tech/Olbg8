@@ -552,3 +552,60 @@ lines from OLBG's tip volume), and the rows are labelled by band rather than rem
 - PR [#26](https://github.com/karagemop466-tech/Olbg8/pull/26) merged at 06:03 UTC on 2026-10-27 as `5d13d3846ffccc37f3e15970d5ffa55f4fde9bbd`. The final [refresh/deploy run 40458870259](https://github.com/karagemop466-tech/Olbg8/actions/runs/40458870259) succeeded, and a live re-read of <https://karagemop466-tech.github.io/Olbg8/current/> and its JSON showed capture `2026-10-27T06:03:58Z`, 143 upcoming first-page observations, 39 event-specific links, six uncalibrated references and zero cleared picks. All 18 offline current tests and hosted source capture checks passed. Hourly scheduling is configured; future availability and completeness remain conditional on sources and Actions.
 - Status for this session: additive dashboard, bounded collection, review queue, and Pages publication **done**. Exhaustive event/market inventory, calibrated independent prices and the requested five high-confidence picks per sport per day remain **needs review**. Other sessions' published selections are not endorsed by this session; source, probability and time discrepancies are linked on the review page.
 
+
+## Session `arena/4520d440-olbg8` — originated lines and long-form predictions (2026-10-27)
+
+Session: `arena/4520d440-olbg8` · Branch: `arena/4520d440-olbg8` (platform-fixed).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Capture all 15 sport hubs live, originate a line per event, publish written predictions | done | `arena/4520d440-olbg8` | `data/live/**`, `data/evidence/**`, `data/originated_lines.json`, `content/picks_authored.json`, `originated/**`, `scripts/line_engine.py`, `scripts/test_line_engine.py`, `scripts/build_originated.py`, `scripts/render_originated.py`, `scripts/test_originated.py` |
+| Integration: merge main, preserve the published desk, add beside it | done | `arena/4520d440-olbg8` | `index.html` (one additive nav link), `.github/workflows/pages.yml` (one additive step), `COORDINATION.md` |
+
+**Scope collision, and how it was resolved.** This session built a site on the same root paths
+(`index.html`, `picks.html`, `matches.html`, `flagged.html`, `methodology.html`, `sources.html`,
+`sports/**`, `assets/styles.css`, `data/picks.json`, `scripts/build_picks.py`,
+`scripts/build_site.py`, `scripts/test_site.py`) that session `arena/6bb9f412-olbg8` had already
+merged to main as a working desk — 22 pages, 53 picks, 140 priced selections, 645 checks passing.
+The rebase conflicted across all of them. Rather than overwrite merged work, the merge was
+resolved **entirely in main's favour** (`git merge -X theirs origin/main`) and this session's
+material was rebuilt under non-colliding paths:
+
+- `scripts/build_picks.py` → `scripts/build_originated.py`, writing `data/originated_lines.json`
+- `scripts/build_site.py` → `scripts/render_originated.py`, rendering into `originated/`
+- `scripts/test_site.py` → `scripts/test_originated.py`
+
+Nothing in this session writes to a path the desk owns. The only edits to desk files are additive:
+one nav link in `index.html` and one validation step in `pages.yml`.
+
+**Delivered.** 113 OLBG events captured across all 15 sports; 95 carry an originated line and 88
+price inside the −250…+10000 band. 11 long-form written predictions, 6 of them high confidence
+inside the band, each over 100 words with named evidence strands, the published arguments against,
+and per-claim source links. 47 distinct sources cited. 186 engine assertions.
+
+**Irregularities published at `originated/flagged.html` (18 findings).** The three high-severity
+ones: (1) OLBG's own "Best Tipster's Tip" for NZ v India names Rohit Sharma, Virat Kohli, Hardik
+Pandya, Jasprit Bumrah, Tim Southee and Mitchell McClenaghan — none appear in OLBG's own Man Of The
+Match list for that event, and ESPNcricinfo confirms Bumrah and Hardik are absent from the series;
+(2) OLBG returns "Tie" as the most-tipped outcome on 14 of 15 handball listings, which cannot be
+the modal result of a sport that always settles, so all 15 handball events are left unpriced rather
+than priced on a broken anchor; (3) the nine NBA games OLBG listed are the Monday 26 October card,
+not Tuesday's — the Grizzlies v Jazz game had already finished, with Markkanen and Jaren Jackson Jr
+ruled out during it.
+
+**Cross-scope note for the desk owner, not actioned.** Session `6bb9f412` records that hosted OLBG
+pages expose timestamped American and decimal odds in public HTML attributes, and that the earlier
+captcha flag was a false positive. This session could not reach `olbg.com` at all — sandbox egress
+is limited to github.com, npmjs.org and pypi.org, and `curl` fails with `SSL_ERROR_SYSCALL` — so
+every numeric price in `originated/` comes from a third-party market source or is originated
+in-house, and OLBG win-market price columns are left empty. If the desk's `current/**` pipeline can
+read those attributes, the `originated/` prices should be reconciled against it rather than left as
+two independent estimates of the same market.
+
+**Shortfall against five written predictions per sport, disclosed not hidden.** 8 of 15 sports have
+fewer than 5 and 3 have zero events in this capture. Snooker and Greyhounds hubs both return "No
+tips found." with no live fixtures; Rugby League is ante-post only, the 2026 seasons having
+concluded; Baseball has one postseason listing; Golf and Darts are outrights only. Volleyball has
+15 events and 14 priced lines but no fixture could be confirmed against a league or CEV source
+within this session, so none carries a written prediction. Per-sport reasons are tabulated at
+`originated/flagged.html`.
