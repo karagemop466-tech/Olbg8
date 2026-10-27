@@ -299,3 +299,28 @@ intact, and the twelve new picks extend that schema rather than replace it.
 15 volleyball rows, and every outright market (golf, darts, motor racing, rugby league, Gaelic, greyhounds, rugby
 union Top 14 and URC). In each case the official rate input could not be read in this session, so the row is listed
 and flagged rather than priced on a guess.
+
+### Release record — session `arena/65c1e02b-olbg8`
+
+- **PR #16** <https://github.com/karagemop466-tech/Olbg8/pull/16> — "Desk: handball, rugby union and tennis picks
+  (24 picks, 7 sports)". Checks on the branch: `build` and `verify` both passed (runs 40456916615 / 40456916618).
+  Merged to `main` as `dbfbd92` on 2026-10-27 after a merge of `main` into the branch that kept both coordination
+  blocks (the only conflict was this file; `main`'s copy was taken and this session's block re-appended).
+- **Deploy.** `Deploy OLBG research desk` run 40456981815 completed successfully and the live site was re-read:
+  <https://karagemop466-tech.github.io/Olbg8/picks.html> reports "24 picks across 7 sports — 10 high confidence,
+  12 medium, 2 low", with Rugby Union 6, Handball 5 and Tennis 1 in the per-sport navigation.
+- **Follow-up PR (this commit).** Re-read of the published cards found four sentences where a per-game figure was
+  attached to the wrong side of the same match (Dax's and Beziers' scoring rates described as defensive records,
+  Plock's and Porto's scoring rates described as conceded rates) and two claims with no captured source (a tennis
+  form sentence and a Porto "no result against a side of this standard" clause). All six are rewritten from the
+  same captured tables, the engine now carries a separate conceded-per-game input, and the affected picks were
+  regenerated; the desk keeps its 24 picks and `check_site.py` still passes 645 checks.
+- **Independent re-verification.** Both official tables were re-read after publication, line by line, and every
+  published figure matched: EHF Champions League group phase, groups A–F
+  (<https://ehfcl.eurohandball.com/men/2026-27/standings/>) — for example Veszprém 5-0, 185:146, +39; Füchse 3-0-2,
+  184:172, +12; Partizan 0-1-4, 148:184, −36; Plock 3-0-2, 141:136, +5; Magdeburg 5-0, 176:140, +36; Kriens 2-0-3,
+  158:161, −3; Kolstad 0-0-5, 143:178, −35 — and the LNR PRO D2 table (<https://prod2.lnr.fr/classement>) — Oyonnax
+  34 pts, 336:178; Provence 34 pts, 276:161; Grenoble 26 pts, 237:186; Soyaux-Angoulême 22 pts, 269:187; Montauban
+  21 pts, 206:237; Biarritz 20 pts, 223:215; Agen 19 pts, 217:230; Dax 19 pts, 276:313; Colomiers 13 pts, 243:235;
+  Narbonne 13 pts, 220:322; Béziers 9 pts, 150:294. The EHF round times also reconcile with the OLBG rows at
+  20:45 CET = 19:45 UTC and 18:45 CET = 17:45 UTC.

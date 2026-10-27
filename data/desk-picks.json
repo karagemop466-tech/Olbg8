@@ -16,7 +16,7 @@
    "line_decimal": 1.474,
    "implied_pct": 67.8,
    "confidence": "high",
-   "analysis": "SC Magdeburg have won all five Group F matches, 176-140 on goals with a +36 difference, and they score 35.2 a game. Kriens-Luzern are 2-0-3 at -3 after 158 scored and 161 conceded, and they give up 32.2 per match. SC Magdeburg to win the match: the hosts' scoring rate is more than seven goals per game better than Kriens-Luzern's, and the line asks for less than that.",
+   "analysis": "SC Magdeburg have won all five Group F matches, 176-140 on goals with a +36 difference, and they score 35.2 a game against a Kriens-Luzern side conceding 32.2. Kriens are 2W-0D-3L at -3 after 158 scored and 161 conceded. SC Magdeburg to win the match: the hosts' scoring rate and the visitors' defensive record point the same way, and the price asks for nothing more than a home win.",
    "facts": [
     {
      "text": "SC Magdeburg: 5W-0D-0L, 176 goals for, 140 against (+36).",
@@ -54,7 +54,7 @@
    "line_decimal": 1.49,
    "implied_pct": 67.1,
    "confidence": "high",
-   "analysis": "Kielce are 3-2 in Group F with 155 goals scored and 153 conceded, an average of 31.0 a game. Kolstad have lost all five group matches, scoring 143 and conceding 178 for a -35 difference, the weakest defensive record in the section at 35.6 conceded per match. KS Kielce to win the match, which asks for far less than the gap between those two scoring rates.",
+   "analysis": "Kielce are 3-2 in Group F with 155 goals scored and 153 conceded, an average of 31.0 a game. Kolstad have lost all five group matches, scoring 143 and conceding 178 for a -35 difference, the weakest defensive record in the section at 35.6 conceded per match. KS Kielce to win the match; the price asks for nothing more than a home win.",
    "facts": [
     {
      "text": "KS Kielce: 3W-0D-2L, 155 goals for, 153 against (+2).",
@@ -92,7 +92,7 @@
    "line_decimal": 1.412,
    "implied_pct": 70.8,
    "confidence": "high",
-   "analysis": "Fuchse Berlin are 3-2 in Group A with 184 scored and 172 conceded, one of the two best attacks in the group at 36.8 goals per match. Partizan are bottom with a single point at 0-1-4, outscored 148-184, and they concede 36.8 a game. Fuchse Berlin to win the match; the visitors have taken one point from five matches and have no answer to that scoring rate.",
+   "analysis": "Fuchse Berlin are 3-2 in Group A with 184 scored and 172 conceded, one of the two best attacks in the group at 36.8 goals per match. Partizan are bottom with a single point at 0W-1D-4L, outscored 148-184, and they concede 36.8 a game. Fuchse Berlin to win the match; the visitors have taken one point from five matches and have no answer to that scoring rate.",
    "facts": [
     {
      "text": "Fuchse Berlin: 3W-0D-2L, 184 goals for, 172 against (+12).",
@@ -130,7 +130,7 @@
    "line_decimal": 1.787,
    "implied_pct": 55.9,
    "confidence": "medium",
-   "analysis": "Wisla Plock and Nantes are level on points in Group B, with Plock +5 on goals at 141-136 and Nantes -1 at 142-143. Plock concede 28.6 a game and score 28.2, and in a group where three clubs sit on the same points tally that defensive edge is the difference. Wisla Plock to win the match.",
+   "analysis": "Wisla Plock and Nantes are level on points in Group B, with Plock +5 on goals at 141-136 and Nantes -1 at 142-143. Plock concede 27.2 a game and score 28.2, and in a group where three clubs sit on the same points tally that defensive edge is the difference. Wisla Plock to win the match.",
    "facts": [
     {
      "text": "Wisla Plock: 3W-0D-2L, 141 goals for, 136 against (+5).",
@@ -168,7 +168,7 @@
    "line_decimal": 1.61,
    "implied_pct": 62.1,
    "confidence": "medium",
-   "analysis": "Veszprem have won all five Group A matches, scoring 185 and conceding 146 for a +39 difference, level with Barcelona for the best record in the competition. Porto are 1-1-3 at -15, and they concede 31.6 goals a game. Veszprem to win the match; Porto have no result against a side of this standard and the visitors score 29.2 per match.",
+   "analysis": "Veszprem have won all five Group A matches, scoring 185 and conceding 146 for a +39 difference, level with Barcelona for the best record in the competition. Porto are 1W-1D-3L at -15, and they concede 34.6 goals a game. Veszprem to win the match; Porto have won one of five group matches and the visitors score 37.0 per match.",
    "facts": [
     {
      "text": "FC Porto: 1W-1D-3L, 158 goals for, 173 against (-15).",
@@ -206,7 +206,7 @@
    "line_decimal": 1.465,
    "implied_pct": 68.3,
    "confidence": "high",
-   "analysis": "Beziers are 2-6 in Pro D2 and have conceded 294 points in 8 matches, the worst differential in the league at -144, while Grenoble are 6-2 at +51. Grenoble have won each of their last five and score 23.2 a game against a defence shipping 18.8. Grenoble minus 4.5 points on the handicap.",
+   "analysis": "Beziers are 2-6 in Pro D2 and have conceded 294 points in 8 matches, the worst differential in the league at -144, while Grenoble are 6-2 at +51. Grenoble have won each of their last five and score 29.6 a game against a defence shipping 36.8. Grenoble minus 4.5 points on the handicap.",
    "facts": [
     {
      "text": "Beziers: 8 played, 2W-0D-6L, 150 points for, 294 against (-144), 9 league points.",
@@ -244,7 +244,7 @@
    "line_decimal": 1.465,
    "implied_pct": 68.3,
    "confidence": "high",
-   "analysis": "Oyonnax lead Pro D2 on 34 points after 8 rounds at 7-0-1, scoring 336 and conceding 178 for a +158 differential. Soyaux Angouleme are fourth on 22 points at 4-1-3, 269-187. Oyonnax average 42.0 points a game and have four wins and a draw from their last five. Oyonnax minus 2 points on the handicap.",
+   "analysis": "Oyonnax lead Pro D2 on 34 points after 8 rounds at 7W-0D-1L, scoring 336 and conceding 178 for a +158 differential. Soyaux Angouleme are fourth on 22 points at 4W-1D-3L, 269-187. Oyonnax average 42.0 points a game and have four wins and a draw from their last five. Oyonnax minus 2 points on the handicap.",
    "facts": [
     {
      "text": "Oyonnax: 8 played, 7W-0D-1L, 336 points for, 178 against (+158), 34 league points.",
@@ -282,7 +282,7 @@
    "line_decimal": 1.403,
    "implied_pct": 71.3,
    "confidence": "high",
-   "analysis": "Montauban are 5-0-3 with 206 points scored and 237 conceded, a -31 differential, yet they sit sixth on 21 points. Narbonne are thirteenth on 13 points and have shipped 322 points in 8 matches at -102. Narbonne concede 40.2 a game, the leakiest defence in the division. Montauban to win the match.",
+   "analysis": "Montauban are 5W-0D-3L with 206 points scored and 237 conceded, a -31 differential, yet they sit sixth on 21 points. Narbonne are thirteenth on 13 points and have shipped 322 points in 8 matches at -102. Narbonne concede 40.2 a game, the leakiest defence in the division. Montauban to win the match.",
    "facts": [
     {
      "text": "Montauban: 8 played, 5W-0D-3L, 206 points for, 237 against (-31), 21 league points.",
@@ -320,7 +320,7 @@
    "line_decimal": 1.415,
    "implied_pct": 70.7,
    "confidence": "high",
-   "analysis": "Provence have won all 8 Pro D2 matches and concede only 161 points, the tightest defence in the league, while scoring 276 for an +115 differential. Dax are 4-4 and have shipped 313 points at -37. Dax give up 34.5 points a game and now meet the one side nobody has scored freely against. Provence to win the match.",
+   "analysis": "Provence have won all 8 Pro D2 matches and concede only 161 points, the tightest defence in the league, while scoring 276 for an +115 differential. Dax are 4-4 and have shipped 313 points at -37. Dax give up 39.1 points a game and now meet the one side nobody has scored freely against. Provence to win the match.",
    "facts": [
     {
      "text": "Dax: 8 played, 4W-0D-4L, 276 points for, 313 against (-37), 19 league points.",
@@ -396,7 +396,7 @@
    "line_decimal": 1.735,
    "implied_pct": 57.6,
    "confidence": "medium",
-   "analysis": "Biarritz are eighth on 20 points at 4-1-3, scoring 223 and conceding 215 for a +8 differential. Valence Romans are eleventh on 17 points at 3-5, 220-213, a slightly better differential but two fewer wins. Biarritz to win the match, with the extra win and the home ground separating two otherwise even sides.",
+   "analysis": "Biarritz are eighth on 20 points at 4W-1D-3L, scoring 223 and conceding 215 for a +8 differential. Valence Romans are eleventh on 17 points at 3-5, 220-213, a slightly better differential but two fewer wins. Biarritz to win the match, with the extra win and the home ground separating two otherwise even sides.",
    "facts": [
     {
      "text": "Biarritz: 8 played, 4W-1D-3L, 223 points for, 215 against (+8), 20 league points.",
@@ -434,7 +434,7 @@
    "line_decimal": 1.758,
    "implied_pct": 56.9,
    "confidence": "medium",
-   "analysis": "Naomi Osaka is ranked 18 on 2,287 WTA points and Jasmine Paolini is 35 on 1,512, a gap of 17 places and 775 points. Osaka has been the more consistent player across the season's ranking window while Paolini has slipped down the list. Naomi Osaka to win the match.",
+   "analysis": "Naomi Osaka is ranked 18 on 2,287 WTA points and Jasmine Paolini is 35 on 1,512, a gap of 17 places and 775 points. Ranking points are the only rate input captured for this match, so the price rests on that gap and nothing else. Naomi Osaka to win the match.",
    "facts": [
     {
      "text": "Naomi Osaka: ranked 18 with 2,287 ranking points.",

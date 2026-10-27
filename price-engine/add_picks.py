@@ -106,46 +106,47 @@ def rugby_projection(home, away):
 PICKS = [
     dict(suffix="mag", sport="handball", event_id="12136", side="home",
          prose="SC Magdeburg have won all five Group F matches, {hgf}-{hga} on goals with a {hgd:+d} difference, "
-               "and they score {hs:.1f} a game. Kriens-Luzern are {aw}-{ad}-{al} at {agd:+d} after {agf} scored and "
-               "{aga} conceded, and they give up {as_:.1f} per match. {call}: the hosts' scoring rate is more than "
-               "seven goals per game better than Kriens-Luzern's, and the line asks for less than that."),
+               "and they score {hs:.1f} a game against a Kriens-Luzern side conceding {as_:.1f}. Kriens are "
+               "{aw}W-{ad}D-{al}L at {agd:+d} after {agf} scored and {aga} conceded. {call}: the hosts' scoring rate "
+               "and the visitors' defensive record point the same way, and the price asks for nothing more than a "
+               "home win."),
     dict(suffix="kie", sport="handball", event_id="12132", side="home",
          prose="Kielce are {hw}-{hl} in Group F with {hgf} goals scored and {hga} conceded, an average of {hs:.1f} "
                "a game. Kolstad have lost all five group matches, scoring {agf} and conceding {aga} for a {agd:+d} "
-               "difference, the weakest defensive record in the section at {as_:.1f} conceded per match. {call}, "
-               "which asks for far less than the gap between those two scoring rates."),
+               "difference, the weakest defensive record in the section at {as_:.1f} conceded per match. {call}; the "
+               "price asks for nothing more than a home win."),
     dict(suffix="fuc", sport="handball", event_id="12128", side="home",
          prose="Fuchse Berlin are {hw}-{hl} in Group A with {hgf} scored and {hga} conceded, one of the two best "
                "attacks in the group at {hs:.1f} goals per match. Partizan are bottom with a single point at "
-               "{aw}-{ad}-{al}, outscored {agf}-{aga}, and they concede {as_:.1f} a game. {call}; the visitors have "
+               "{aw}W-{ad}D-{al}L, outscored {agf}-{aga}, and they concede {as_:.1f} a game. {call}; the visitors have "
                "taken one point from five matches and have no answer to that scoring rate."),
     dict(suffix="plo", sport="handball", event_id="12138", side="home",
          prose="Wisla Plock and Nantes are level on points in Group B, with Plock {hgd:+d} on goals at {hgf}-{hga} "
-               "and Nantes {agd:+d} at {agf}-{aga}. Plock concede {as_:.1f} a game and score {hs:.1f}, and in a group "
+               "and Nantes {agd:+d} at {agf}-{aga}. Plock concede {hpa_pg:.1f} a game and score {hs:.1f}, and in a group "
                "where three clubs sit on the same points tally that defensive edge is the difference. {call}."),
     dict(suffix="ves", sport="handball", event_id="12127", side="away",
          prose="Veszprem have won all five Group A matches, scoring {agf} and conceding {aga} for a {agd:+d} "
-               "difference, level with Barcelona for the best record in the competition. Porto are {hw}-{hd}-{hl} at "
-               "{hgd:+d}, and they concede {hs:.1f} goals a game. {call}; Porto have no result against a side of this "
-               "standard and the visitors score {as_:.1f} per match."),
+               "difference, level with Barcelona for the best record in the competition. Porto are {hw}W-{hd}D-{hl}L at "
+               "{hgd:+d}, and they concede {hpa_pg:.1f} goals a game. {call}; Porto have won one of five group matches and "
+               "the visitors score {ags:.1f} per match."),
     dict(suffix="gre", sport="rugby-union", event_id="609599", side="away",
          prose="Beziers are {hw}-{hl} in Pro D2 and have conceded {hga} points in {hp} matches, the worst "
                "differential in the league at {hgd:+d}, while Grenoble are {aw}-{al} at {agd:+d}. Grenoble have won "
-               "each of their last five and score {as_:.1f} a game against a defence shipping {hs:.1f}. {call}."),
+               "each of their last five and score {ags:.1f} a game against a defence shipping {hpa_pg:.1f}. {call}."),
     dict(suffix="oyo", sport="rugby-union", event_id="609598", side="home",
-         prose="Oyonnax lead Pro D2 on {hp_} points after {hp} rounds at {hw}-{hd}-{hl}, scoring {hgf} and conceding "
-               "{hga} for a {hgd:+d} differential. Soyaux Angouleme are fourth on {ap} points at {aw}-{ad}-{al}, "
+         prose="Oyonnax lead Pro D2 on {hp_} points after {hp} rounds at {hw}W-{hd}D-{hl}L, scoring {hgf} and conceding "
+               "{hga} for a {hgd:+d} differential. Soyaux Angouleme are fourth on {ap} points at {aw}W-{ad}D-{al}L, "
                "{agf}-{aga}. Oyonnax average {hs:.1f} points a game and have four wins and a draw from their last "
                "five. {call}."),
     dict(suffix="mtb", sport="rugby-union", event_id="609603", side="home",
-         prose="Montauban are {hw}-{hd}-{hl} with {hgf} points scored and {hga} conceded, a {hgd:+d} differential, "
+         prose="Montauban are {hw}W-{hd}D-{hl}L with {hgf} points scored and {hga} conceded, a {hgd:+d} differential, "
                "yet they sit sixth on {hp_} points. Narbonne are thirteenth on {ap} points and have shipped {aga} "
                "points in {ap_} matches at {agd:+d}. Narbonne concede {as_:.1f} a game, the leakiest defence in the "
                "division. {call}."),
     dict(suffix="prv", sport="rugby-union", event_id="609605", side="away",
          prose="Provence have won all {ap_} Pro D2 matches and concede only {aga} points, the tightest defence in "
                "the league, while scoring {agf} for an {agd:+d} differential. Dax are {hw}-{hl} and have shipped "
-               "{hga} points at {hgd:+d}. Dax give up {hs:.1f} points a game and now meet the one side nobody has "
+               "{hga} points at {hgd:+d}. Dax give up {hpa_pg:.1f} points a game and now meet the one side nobody has "
                "scored freely against. {call}."),
     dict(suffix="col", sport="rugby-union", event_id="609604", side="home",
          prose="Colomiers are twelfth on {hp_} points with a {hw}-{hl} record, yet their {hgf}-{hga} line is a "
@@ -153,14 +154,14 @@ PICKS = [
                "conceded, {agd:+d}. Colomiers' points difference is {gap} better than Agen's even though the table "
                "says otherwise. {call}."),
     dict(suffix="bia", sport="rugby-union", event_id="609602", side="home",
-         prose="Biarritz are eighth on {hp_} points at {hw}-{hd}-{hl}, scoring {hgf} and conceding {hga} for a "
+         prose="Biarritz are eighth on {hp_} points at {hw}W-{hd}D-{hl}L, scoring {hgf} and conceding {hga} for a "
                "{hgd:+d} differential. Valence Romans are eleventh on {ap} points at {aw}-{al}, {agf}-{aga}, a "
                "slightly better differential but two fewer wins. {call}, with the extra win and the home ground "
                "separating two otherwise even sides."),
     dict(suffix="osa", sport="tennis", event_id="902177", side="home",
          prose="Naomi Osaka is ranked {hrank} on {hpoints:,} WTA points and Jasmine Paolini is {arank} on "
-               "{apoints:,}, a gap of {rankgap} places and {pointgap:,} points. Osaka has been the more consistent "
-               "player across the season's ranking window while Paolini has slipped down the list. {call}."),
+               "{apoints:,}, a gap of {rankgap} places and {pointgap:,} points. Ranking points are the only rate "
+               "input captured for this match, so the price rests on that gap and nothing else. {call}."),
 ]
 
 
@@ -211,7 +212,7 @@ def build_handball(spec, event, table, avg):
         return None
     stats = dict(
         home=home, away=away, hw=h["w"], hd=h["d"], hl=h["l"], hgf=h["gf"], hga=h["ga"],
-        hgd=h["gf"] - h["ga"], hs=h["gf"] / h["gp"],
+        hgd=h["gf"] - h["ga"], hs=h["gf"] / h["gp"], hpa_pg=h["ga"] / h["gp"],
         aw=a["w"], ad=a["d"], al=a["l"], agf=a["gf"], aga=a["ga"],
         agd=a["gf"] - a["ga"], as_=a["ga"] / a["gp"], ags=a["gf"] / a["gp"],
         line=best["line"] or 0,
@@ -260,7 +261,8 @@ def build_rugby(spec, event, table):
         return None
     stats = dict(
         home=home, away=away, hw=h["w"], hd=h["d"], hl=h["l"], hgf=h["pf"], hga=h["pa"],
-        hgd=h["pf"] - h["pa"], hs=h["pf"] / h["played"], hp=h["played"], hp_=h["pts"],
+        hgd=h["pf"] - h["pa"], hs=h["pf"] / h["played"], hpa_pg=h["pa"] / h["played"],
+        hp=h["played"], hp_=h["pts"],
         aw=a["w"], ad=a["d"], al=a["l"], agf=a["pf"], aga=a["pa"], agd=a["pf"] - a["pa"],
         ap=a["pts"], ap_=a["played"], as_=a["pa"] / a["played"], ags=a["pf"] / a["played"],
         gap=abs((h["pf"] - h["pa"]) - (a["pf"] - a["pa"])), line=best["line"] or 0,
