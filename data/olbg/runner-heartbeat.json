@@ -1,5 +1,5 @@
 {
-  "when_utc": "2026-10-27T05:46:28Z",
+  "when_utc": "2026-10-27T05:56:01Z",
   "files_written": [
     "event-baseball-1-__data.json",
     "event-basketball-1-__data.json",
@@ -51,11 +51,12 @@
     "hub-tennis-__data.json",
     "hub-volleyball-__data.json",
     "robots-2026-10-27.txt",
+    "runner-heartbeat.json",
     "summary.json",
     "tips.json",
     "tournaments.json"
   ],
-  "tip_rows": 172,
+  "tip_rows": 168,
   "summary_status": "ok",
   "crash_file": false
 }

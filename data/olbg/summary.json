@@ -1,13 +1,13 @@
 {
-  "retrieved_at": "2026-10-27T05:45:14.179241+00:00",
+  "retrieved_at": "2026-10-27T05:54:46.496933+00:00",
   "sports": {
     "tennis": {
       "slug": "tennis",
       "url": "https://www.olbg.com/betting-tips/Tennis/3/__data.json",
-      "retrieved_at": "2026-10-27T05:45:14.940421+00:00",
+      "retrieved_at": "2026-10-27T05:54:47.284695+00:00",
       "http_code": "200",
-      "sha256": "3d65e69101f5c4d82c32d450abab82cdae8a312cd1dd5d96b176c41f94cdd85f",
-      "bytes": 96253,
+      "sha256": "a8a2b6d0a94978cd817b0e9672d836526fc3e9db30d7ff273c27cc29c0a4fe44",
+      "bytes": 96286,
       "tips": 49,
       "tournaments": 0,
       "error": null
@@ -15,10 +15,10 @@
     "basketball": {
       "slug": "basketball",
       "url": "https://www.olbg.com/betting-tips/Basketball/4/__data.json",
-      "retrieved_at": "2026-10-27T05:45:16.573179+00:00",
+      "retrieved_at": "2026-10-27T05:54:48.938556+00:00",
       "http_code": "200",
-      "sha256": "636960c6d3b858e5157e71d0d59dfecd1187a4a866efc606217a7d088579b138",
-      "bytes": 93205,
+      "sha256": "af5ebd6597804798899bf98f776b859e56913d347a541ea3968f7cf7fb4152a4",
+      "bytes": 93238,
       "tips": 36,
       "tournaments": 0,
       "error": null
@@ -26,10 +26,10 @@
     "golf": {
       "slug": "golf",
       "url": "https://www.olbg.com/betting-tips/Golf/5/__data.json",
-      "retrieved_at": "2026-10-27T05:45:17.927798+00:00",
+      "retrieved_at": "2026-10-27T05:54:50.327913+00:00",
       "http_code": "200",
-      "sha256": "dcc835818f8793dc581f028e72c26a58464aee2328497649773c3b5882138d66",
-      "bytes": 60460,
+      "sha256": "05614f8abfcc99a5f080c5077a59496cc177843408128e15f90845adec489316",
+      "bytes": 60505,
       "tips": 0,
       "tournaments": 3,
       "error": null
@@ -37,10 +37,10 @@
     "cricket": {
       "slug": "cricket",
       "url": "https://www.olbg.com/betting-tips/Cricket/7/__data.json",
-      "retrieved_at": "2026-10-27T05:45:19.537476+00:00",
+      "retrieved_at": "2026-10-27T05:54:51.948275+00:00",
       "http_code": "200",
-      "sha256": "ad7f8f682dc764ec0729edbbb395db9c353ef5282e20e09ea36d17584da3d577",
-      "bytes": 65318,
+      "sha256": "d05305170d0d0aca6eb9a380713df337a4efaa8e10bda97186b95cb5621cc6c5",
+      "bytes": 65346,
       "tips": 10,
       "tournaments": 8,
       "error": null
@@ -48,10 +48,10 @@
     "snooker": {
       "slug": "snooker",
       "url": "https://www.olbg.com/betting-tips/Snooker/8/__data.json",
-      "retrieved_at": "2026-10-27T05:45:21.148420+00:00",
+      "retrieved_at": "2026-10-27T05:54:53.574642+00:00",
       "http_code": "200",
-      "sha256": "5993245f4ee5948d3093bca6f7d20cb96d51935defbb10c3c9c6b363353e6dba",
-      "bytes": 53074,
+      "sha256": "ea4d605d072405a3445da8b1ffc10b42d7b4d5de887527044d6febc37a5aba0d",
+      "bytes": 53095,
       "tips": 0,
       "tournaments": 0,
       "error": null
@@ -59,21 +59,21 @@
     "rugby-union": {
       "slug": "rugby-union",
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/9/__data.json",
-      "retrieved_at": "2026-10-27T05:45:22.760381+00:00",
+      "retrieved_at": "2026-10-27T05:54:55.176977+00:00",
       "http_code": "200",
-      "sha256": "b4641e26ebc11b76bd43e8da753af32d8bd0df35a2bb516fae9d6eb112a1d603",
-      "bytes": 55529,
-      "tips": 12,
+      "sha256": "6ba23055bdc616464d0ba72e0c6a48d651be281c2577b5e0df347bc75bfbae6a",
+      "bytes": 52624,
+      "tips": 8,
       "tournaments": 1,
       "error": null
     },
     "rugby-league": {
       "slug": "rugby-league",
       "url": "https://www.olbg.com/betting-tips/Rugby_League/10/__data.json",
-      "retrieved_at": "2026-10-27T05:45:24.357294+00:00",
+      "retrieved_at": "2026-10-27T05:54:56.415796+00:00",
       "http_code": "200",
-      "sha256": "28eb2666db4ae17a308f2610972d3a9d5dc508f032521f57e301485d2e33e407",
-      "bytes": 44575,
+      "sha256": "a06fa9ee6d77aea29ae90613df6e6164484452c0a2f24f0809a455ffd0b9e9b1",
+      "bytes": 44606,
       "tips": 0,
       "tournaments": 3,
       "error": null
@@ -81,10 +81,10 @@
     "baseball": {
       "slug": "baseball",
       "url": "https://www.olbg.com/betting-tips/Baseball/12/__data.json",
-      "retrieved_at": "2026-10-27T05:45:25.953603+00:00",
+      "retrieved_at": "2026-10-27T05:54:57.652590+00:00",
       "http_code": "200",
-      "sha256": "078f67024a17f2f95dbf4d3ff1345137ab3836e2491d035916b5dd41b4822c9d",
-      "bytes": 49409,
+      "sha256": "a062c1cda4f4080e7989686ae275bd86801854e28e2bd34371304f3720deb541",
+      "bytes": 49442,
       "tips": 2,
       "tournaments": 0,
       "error": null
@@ -92,10 +92,10 @@
     "ice-hockey": {
       "slug": "ice-hockey",
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13/__data.json",
-      "retrieved_at": "2026-10-27T05:45:27.569556+00:00",
+      "retrieved_at": "2026-10-27T05:54:59.269942+00:00",
       "http_code": "200",
-      "sha256": "3e8acad20ef6391f3be49e5dbbfb7f3ef6ec9df310251ac26e23f3be7839954c",
-      "bytes": 67193,
+      "sha256": "60a49800a1a6e295f21f037424305adaffa7bec3e1fa42f22c693916f862b3a2",
+      "bytes": 67228,
       "tips": 20,
       "tournaments": 0,
       "error": null
@@ -103,21 +103,21 @@
     "motor-racing": {
       "slug": "motor-racing",
       "url": "https://www.olbg.com/betting-tips/Motor_Racing/14/__data.json",
-      "retrieved_at": "2026-10-27T05:45:29.167994+00:00",
+      "retrieved_at": "2026-10-27T05:55:00.653282+00:00",
       "http_code": "200",
-      "sha256": "ee5fa3efcba504ea341c694781cd88346afaeb4e9b1a435808d12c4fd340d83b",
-      "bytes": 63911,
+      "sha256": "b2acade4378f9a8241dfbc28a88c70a5298760e46ca252ea076642e730861363",
+      "bytes": 63169,
       "tips": 0,
-      "tournaments": 2,
+      "tournaments": 1,
       "error": null
     },
     "darts": {
       "slug": "darts",
       "url": "https://www.olbg.com/betting-tips/Darts/15/__data.json",
-      "retrieved_at": "2026-10-27T05:45:30.772990+00:00",
+      "retrieved_at": "2026-10-27T05:55:02.293388+00:00",
       "http_code": "200",
-      "sha256": "d1da7b0d264078dabb2edd330c9e47b6969e9563d21fe83ce136caad7236822b",
-      "bytes": 64927,
+      "sha256": "00ba8aa65b5571c2a3364723321e548ca63599c04aef30722bbb766937128d9b",
+      "bytes": 64955,
       "tips": 0,
       "tournaments": 2,
       "error": null
@@ -125,10 +125,10 @@
     "handball": {
       "slug": "handball",
       "url": "https://www.olbg.com/betting-tips/Handball/20/__data.json",
-      "retrieved_at": "2026-10-27T05:45:32.387715+00:00",
+      "retrieved_at": "2026-10-27T05:55:03.913884+00:00",
       "http_code": "200",
-      "sha256": "b8f676858321aa3defb7ca5ec8800ebfe4e08d33b0cdef79b193e5281fad1b98",
-      "bytes": 56511,
+      "sha256": "381d3c5bb8b75bbcc356499ff63d9f07f25870019067d1932fb1f2db6ccf7b10",
+      "bytes": 56541,
       "tips": 19,
       "tournaments": 0,
       "error": null
@@ -136,10 +136,10 @@
     "volleyball": {
       "slug": "volleyball",
       "url": "https://www.olbg.com/betting-tips/Volleyball/21/__data.json",
-      "retrieved_at": "2026-10-27T05:45:33.988174+00:00",
+      "retrieved_at": "2026-10-27T05:55:05.822846+00:00",
       "http_code": "200",
-      "sha256": "773e47e97344f262ab57fe49424308b57a5056d75fdca942ec1b4ab82df00c34",
-      "bytes": 57077,
+      "sha256": "290ed1cff3f53a60d5ddfd5fac4fb0d11c89f566d06183d7d8d17e9dc730045c",
+      "bytes": 57110,
       "tips": 22,
       "tournaments": 0,
       "error": null
@@ -147,10 +147,10 @@
     "gaelic-football": {
       "slug": "gaelic-football",
       "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25/__data.json",
-      "retrieved_at": "2026-10-27T05:45:35.569420+00:00",
+      "retrieved_at": "2026-10-27T05:55:07.064236+00:00",
       "http_code": "200",
-      "sha256": "11bc622c4b6991a0b70c4e2beaaf952851a0d80afa4540f902ff7b919b724a2a",
-      "bytes": 46550,
+      "sha256": "c91f3435a855558724093f224af0a950e6ca01650b7be21bbeb3fae3c8f93fba",
+      "bytes": 46583,
       "tips": 2,
       "tournaments": 1,
       "error": null
@@ -158,10 +158,10 @@
     "hurling": {
       "slug": "hurling",
       "url": "https://www.olbg.com/betting-tips/Hurling/26/__data.json",
-      "retrieved_at": "2026-10-27T05:45:37.158523+00:00",
+      "retrieved_at": "2026-10-27T05:55:08.307681+00:00",
       "http_code": "200",
-      "sha256": "2fe0a7368c1350b5d597f5a8f7262f5f9e7ecc27df3860f115a4d5b57804afd8",
-      "bytes": 41001,
+      "sha256": "ff4d750f35cc0398d760536d26b26f63024766a2915874eb50f2196c71e48ecd",
+      "bytes": 41034,
       "tips": 0,
       "tournaments": 1,
       "error": null
@@ -169,10 +169,10 @@
     "greyhounds": {
       "slug": "greyhounds",
       "url": "https://www.olbg.com/betting-tips/Greyhounds/28/__data.json",
-      "retrieved_at": "2026-10-27T05:45:38.504641+00:00",
+      "retrieved_at": "2026-10-27T05:55:09.671502+00:00",
       "http_code": "200",
-      "sha256": "00d2051e22645e82211c01877dc3164f0540d5bcee4d072286fac47b8aa97f41",
-      "bytes": 62897,
+      "sha256": "985fdc3a591ceb1141d51f5fb98b8443d21d15d4e1f70c6d8ac63b146092a017",
+      "bytes": 62930,
       "tips": 0,
       "tournaments": 0,
       "error": null
@@ -180,6 +180,6 @@
   },
   "status": "ok",
   "events_captured": 31,
-  "total_tips": 172,
-  "total_tournaments": 21
+  "total_tips": 168,
+  "total_tournaments": 20
 }

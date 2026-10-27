@@ -4,21 +4,21 @@ hub basketball 200 tips=36 tourns=0
 hub golf 200 tips=0 tourns=3
 hub cricket 200 tips=10 tourns=8
 hub snooker 200 tips=0 tourns=0
-hub rugby-union 200 tips=12 tourns=1
+hub rugby-union 200 tips=8 tourns=1
 hub rugby-league 200 tips=0 tourns=3
 hub baseball 200 tips=2 tourns=0
 hub ice-hockey 200 tips=20 tourns=0
-hub motor-racing 200 tips=0 tourns=2
+hub motor-racing 200 tips=0 tourns=1
 hub darts 200 tips=0 tourns=2
 hub handball 200 tips=19 tourns=0
 hub volleyball 200 tips=22 tourns=0
 hub gaelic-football 200 tips=2 tourns=1
 hub hurling 200 tips=0 tourns=1
 hub greyhounds 200 tips=0 tourns=0
-event tennis Leylah Fernandez vs Himeno Sakatsume 200
 event tennis Stan Wawrinka vs Jiri Lehecka 200
 event tennis Alejandro Tabilo vs Rafael Jodar 200
 event tennis Lilli Tagger vs Venus Williams 200
+event tennis Cameron Norrie vs Francisco Cerundolo 200
 event basketball Panathinaikos vs Milano 200
 event basketball BC Dubai vs Paris 200
 event basketball Seoul Knights vs KCC Egis 200
@@ -27,10 +27,10 @@ event cricket New Zealand vs India 3rd T20 Match 200
 event cricket Namibia vs Ireland 3rd ODI 200
 event cricket Pakistan vs Sri Lanka One Day Match 200
 event cricket Afghanistan vs Zimbabwe 1st T20 Match 200
-event rugby-union Dax v Provence 200
 event rugby-union Montauban v Narbonne 200
-event rugby-union Oyonnax v Soyaux Angouleme 200
-event rugby-union Colomiers v Agen 200
+event rugby-union Nissa v Aurillac 200
+event rugby-union Connacht v Leinster 200
+event rugby-union Glasgow Warriors v Lions 200
 event baseball MIL Brewers @ TB Rays 200
 event ice-hockey Kalpa vs Sport 200
 event ice-hockey IF Malmo Redhawks vs Linkoping HC 200
