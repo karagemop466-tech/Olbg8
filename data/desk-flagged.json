@@ -1,0 +1,273 @@
+{
+ "schema": "olbg-desk-flagged/1",
+ "items": [
+  {
+   "id": "F01",
+   "sport": "snooker",
+   "sport_label": "Snooker",
+   "item": "Whole snooker hub",
+   "issue": "OLBG returned 'No tips found' for the entire snooker hub at capture, so there was no event and no market to place a prediction on. This is a coverage gap on OLBG, not evidence that no snooker is being played.",
+   "sources": [
+    {
+     "label": "OLBG snooker hub",
+     "url": "https://www.olbg.com/betting-tips/Snooker/8"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F02",
+   "sport": "darts",
+   "sport_label": "Darts",
+   "item": "Two outright markets only",
+   "issue": "Both rows are tournament-winner markets (PDC World Championship 2027, Players Championship 31). A tournament outright cannot be priced from verified form without the confirmed entry list, so nothing is published.",
+   "sources": [
+    {
+     "label": "OLBG darts hub",
+     "url": "https://www.olbg.com/betting-tips/Darts/15"
+    },
+    {
+     "label": "PDC official",
+     "url": "https://www.pdc.tv/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F03",
+   "sport": "golf",
+   "sport_label": "Golf",
+   "item": "Three outright tournament markets only",
+   "issue": "Maybank Championship, Mexico Open and Simmons Bank Championship carry one or two tips each on the win-tournament market. No official field list was captured, so field-relative win shares cannot be computed.",
+   "sources": [
+    {
+     "label": "OLBG golf hub",
+     "url": "https://www.olbg.com/betting-tips/Golf/5"
+    },
+    {
+     "label": "PGA TOUR schedule",
+     "url": "https://www.pgatour.com/schedule"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F04",
+   "sport": "motor-racing",
+   "sport_label": "Motor Racing",
+   "item": "Entry list not captured",
+   "issue": "The archived row is the Mexico City Grand Prix outright (Charles Leclerc). Without the official entry list, grid penalties and reliability data, no grid-normalised price is published.",
+   "sources": [
+    {
+     "label": "Formula 1 official",
+     "url": "https://www.formula1.com/"
+    },
+    {
+     "label": "Archived OLBG event",
+     "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F05",
+   "sport": "greyhounds",
+   "sport_label": "Greyhounds",
+   "item": "Race-level data missing",
+   "issue": "Greyhound rows expire within minutes and the archived Monmore row is already past. A race price needs the official racecard, trap draw and sectional times for that meeting, none of which was captured.",
+   "sources": [
+    {
+     "label": "GBGB official",
+     "url": "https://www.gbgb.org.uk/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F06",
+   "sport": "gaelic-sports",
+   "sport_label": "Gaelic Sports",
+   "item": "Club fixtures not re-captured",
+   "issue": "The four Gaelic rows are from 26 October. One of them (Fr Caseys v Kildimo Pallaskenry) came through with a blank market and selection, which is a defect in the OLBG payload that needs re-checking on the live page.",
+   "sources": [
+    {
+     "label": "GAA fixtures",
+     "url": "https://www.gaa.ie/fixtures-results/"
+    },
+    {
+     "label": "OLBG Gaelic football hub",
+     "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F07",
+   "sport": "rugby-league",
+   "sport_label": "Rugby League",
+   "item": "Futures only, seasons finished",
+   "issue": "Only three 2027 outright markets were listed (State of Origin, Super League Grand Final, NRL Grand Final) and no match-level fixture. A season-long future cannot be supported by current form in October, so no pick is published.",
+   "sources": [
+    {
+     "label": "OLBG rugby league hub",
+     "url": "https://www.olbg.com/betting-tips/Rugby_League/10"
+    },
+    {
+     "label": "RFL official",
+     "url": "https://www.rugby-league.com/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F08",
+   "sport": "rugby-union",
+   "sport_label": "Rugby Union",
+   "item": "No verified league table",
+   "issue": "Thirteen fixtures were captured across Pro D2, the URC and Top 14, but the URC standings URL used returned a 404 and no other official table was retrieved, so no form-based line could be originated.",
+   "sources": [
+    {
+     "label": "OLBG rugby union hub",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/9"
+    },
+    {
+     "label": "United Rugby Championship",
+     "url": "https://unitedrugby.com/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F09",
+   "sport": "cricket",
+   "sport_label": "Cricket",
+   "item": "Official fixture pages not retrieved",
+   "issue": "Thirteen cricket events were captured, including New Zealand v India 3rd T20 and Pakistan v Sri Lanka. The ICC and board fixture pages needed to confirm XI, venue and toss were not retrieved in this session, so no pick is published.",
+   "sources": [
+    {
+     "label": "OLBG cricket hub",
+     "url": "https://www.olbg.com/betting-tips/Cricket/7"
+    },
+    {
+     "label": "ICC official",
+     "url": "https://www.icc-cricket.com/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F10",
+   "sport": "tennis",
+   "sport_label": "Tennis",
+   "item": "Competition and draw not confirmed",
+   "issue": "OLBG prints no competition name on tennis hub rows. The ATP and WTA draw pages were not retrieved, so the tournament, round and surface behind these fourteen matches are unconfirmed and nothing is priced.",
+   "sources": [
+    {
+     "label": "OLBG tennis hub",
+     "url": "https://www.olbg.com/betting-tips/Tennis/3"
+    },
+    {
+     "label": "ATP Tour",
+     "url": "https://www.atptour.com/"
+    },
+    {
+     "label": "WTA Tour",
+     "url": "https://www.wtatennis.com/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F11",
+   "sport": "handball",
+   "sport_label": "Handball",
+   "item": "EHF standings page returned 404",
+   "issue": "Fifteen handball rows were captured. The EHF Champions League standings URL returned a 404, so no group table was available to price the fixtures. Separately, OLBG's most-tipped selection is the draw (Tie) on eleven of the thirteen Champions League rows, which is unusual and worth a manual look.",
+   "sources": [
+    {
+     "label": "OLBG handball hub",
+     "url": "https://www.olbg.com/betting-tips/Handball/20"
+    },
+    {
+     "label": "EHF Champions League",
+     "url": "https://ehfcl.eurohandball.com/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F12",
+   "sport": "volleyball",
+   "sport_label": "Volleyball",
+   "item": "Marignano row missing from the table",
+   "issue": "Marignano W vs Bergamo W is on OLBG, and Bergamo's row was captured (3-1, 9-6 sets, 325-320 points). Marignano's row was not in the part of the Serie A1 table retrieved, so the match was withheld rather than priced on one side only.",
+   "sources": [
+    {
+     "label": "Lega Pallavolo Serie A Femminile table",
+     "url": "https://www.legavolleyfemminile.it/classifica/"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F13",
+   "sport": "all",
+   "sport_label": "All sports",
+   "item": "OLBG clock times are relative",
+   "issue": "OLBG prints Today/Tomorrow plus a clock time, not a UTC timestamp. The clock reconciles to UTC+4 against the 26 October hydration capture, and that conversion is applied throughout. One exception is flagged: MLB's official first pitch for World Series Game 4 is an hour earlier than the OLBG label implies, and the official time is used.",
+   "sources": [
+    {
+     "label": "OLBG volleyball hub",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/21"
+    },
+    {
+     "label": "MLB official schedule",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F14",
+   "sport": "all",
+   "sport_label": "All sports",
+   "item": "No OLBG prices are quoted",
+   "issue": "A logged-out page fetch of OLBG does not render bookmaker prices, so no OLBG price appears anywhere on this site. Prices for March 2026 OLBG rows exist in the separate 26 October hydration capture and are not reused as lines.",
+   "sources": [
+    {
+     "label": "OLBG betting tips hub",
+     "url": "https://www.olbg.com/betting-tips"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F15",
+   "sport": "baseball",
+   "sport_label": "Baseball",
+   "item": "Brewers starter unposted",
+   "issue": "The official MLB schedule lists Tampa Bay's probable pitcher (Griffin Jax) but no Milwaukee starter for Game 4 at capture. The published line therefore relies on Tampa Bay's side of the pitching matchup only, and is flagged on the pick itself.",
+   "sources": [
+    {
+     "label": "MLB schedule",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "id": "F16",
+   "sport": "basketball",
+   "sport_label": "Basketball",
+   "item": "Handicap lines are originated here",
+   "issue": "OLBG lists pointspread as a market but does not publish a line for these EuroLeague games in the fetched pages. The handicap numbers on the desk's basketball picks (Panathinaikos \u221219.5, Real Madrid \u22129.5, Crvena Zvezda \u22129.5) are originated by this desk, not quoted from OLBG or a bookmaker.",
+   "sources": [
+    {
+     "label": "EuroLeague standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "status": "open"
+  }
+ ]
+}
