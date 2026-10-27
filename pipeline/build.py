@@ -123,16 +123,33 @@ def official_table_facts(table: dict, team_name: str, sport: str) -> dict:
     return {}
 
 
+MATCH_SUFFIX = re.compile(
+    r"\s+(?:\d+(?:st|nd|rd|th)?\s+)?(?:One Day Match|Test Match|T20 Match|T20I Match|T20I|ODI Match|ODI|"
+    r"Match\s*\d*|Grand Prix|Betting Tips and Predictions)\s*$", re.I)
+
+
+def _clean_side(side: str) -> str:
+    prev = None
+    side = side.strip()
+    while prev != side:
+        prev = side
+        side = MATCH_SUFFIX.sub("", side).strip()
+    return side
+
+
 def split_event_name(name: str) -> tuple[str, str]:
     """Return (home, away) from an OLBG event name where possible."""
     if not name:
         return "", ""
     if " @ " in name:
         away, home = name.split(" @ ", 1)
-        return home.strip(), away.strip()
-    if " vs " in name:
-        a, b = name.split(" vs ", 1)
-        return a.strip(), b.strip()
+        return _clean_side(home), _clean_side(away)
+    for sep in (" vs ", " v "):
+        if sep in name:
+            a, b = name.split(sep, 1)
+            out = (_clean_side(a), _clean_side(b))
+            if all(out):
+                return out
     return "", ""
 
 
@@ -213,9 +230,13 @@ def construct_events(feed: dict, boards: dict, facts: dict) -> list[dict]:
                         "consensus": r.get("consensus_pct"),
                     })
     # official crosswalk
+    tennis_ranks = ((facts.get("sports", {}).get("tennis", {}) or {}).get("rankings", {}) or {}).get("players", {})
     for ev in events.values():
         home, away = split_event_name(ev["event_name"])
         ev["home"], ev["away"] = home, away
+        if ev["sport"] == "tennis" and tennis_ranks:
+            ev["home_rank"] = tennis_ranks.get(home)
+            ev["away_rank"] = tennis_ranks.get(away)
         if not home:
             continue
         off = match_official(ev["sport"], home, away, ev["start_utc"], facts)
@@ -311,6 +332,9 @@ def candidate_picks(events: list[dict]) -> list[dict]:
                     "home": ev.get("home"), "away": ev.get("away"),
                     "home_table": ev.get("home_table") or {}, "away_table": ev.get("away_table") or {},
                     "probable_home": ev.get("probable_home"), "probable_away": ev.get("probable_away"),
+                    "home_rank": ev.get("home_rank"), "away_rank": ev.get("away_rank"),
+                    "selection_rank": (ev.get("home_rank") if s["selection"].strip() == (ev.get("home") or "") else
+                                       ev.get("away_rank") if s["selection"].strip() == (ev.get("away") or "") else None),
                     "basis": "official-feed + de-margined board" if ev.get("official_confirmed") else "de-margined OLBG board",
                     "board_extra": [
                         (m, ", ".join(board_line(x) for x in sels[:2] if x.get("selection")))
@@ -369,7 +393,7 @@ def main() -> int:
         p["event_pick_index"] = seen_per_event[p["olbg_url"]] - 1
         p["id"] = f"{p['sport']}-{i + 1:02d}"
         p["headline"] = W.headline(p)
-        p["prediction"] = W.build_prediction(p, facts_available=bool(p["official_confirmed"]))
+        p["prediction"] = W.build_prediction(p, facts_available=bool(p["official_confirmed"]) or bool(p.get("home_rank") and p.get("away_rank")))
         p["words"] = W.word_count(p["prediction"])
     pick_ids = {p["olbg_url"] + "|" + p["selection"] + "|" + p["market"] for p in picks}
     for p in picks:

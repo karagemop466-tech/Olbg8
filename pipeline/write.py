@@ -58,16 +58,27 @@ def clause_opener(p, key) -> str:
     home, away = p.get("home") or "", p.get("away") or ""
     venue = p.get("venue")
     date = _date_label(p.get("start_utc"))
-    comp_txt = comp if comp else "an OLBG-listed fixture"
+    individual = p.get("sport") in ("tennis", "darts", "snooker", "golf", "greyhounds")
+    comp_txt = comp or ""
     if home and away:
-        opts = [
-            f"{home} host {away} on {date} in {comp_txt}." if not venue else f"{home} host {away} at {venue} on {date} in {comp_txt}.",
-            f"{comp_txt.capitalize() if comp_txt[0].islower() else comp_txt} action on {date} pairs {home} with {away}" + (f" at {venue}." if venue else "."),
-            f"The fixture between {home} and {away} is set for {date}" + (f" at {venue}" if venue else "") + f", listed under {comp_txt}.",
-            f"{away} travel to {home} for {comp_txt} on {date}" + (f", with {venue} the venue." if venue else "."),
-        ]
+        verb = "meets" if individual else "host"
+        if comp_txt:
+            opts = [
+                f"{home} {verb} {away} on {date} in {comp_txt}." if not venue else f"{home} {verb} {away} at {venue} on {date} in {comp_txt}.",
+                f"{comp_txt} action on {date} pairs {home} with {away}" + (f" at {venue}." if venue else "."),
+                f"The {comp_txt} fixture between {home} and {away} is set for {date}" + (f" at {venue}." if venue else "") + ".",
+                f"{away} {('faces' if individual else 'travel to')} {home} on {date}" + (f" at {venue}." if venue else "."),
+            ]
+        else:
+            opts = [
+                f"{home} {verb} {away} on {date}" + (f" at {venue}." if venue else "."),
+                f"The fixture between {home} and {away} is set for {date}" + (f" at {venue}." if venue else "") + ".",
+                f"{away} {('faces' if individual else 'travel to')} {home} on {date}" + (f" at {venue}." if venue else "."),
+                f"{home} and {away} meet on {date}" + (f" at {venue}." if venue else "") + ", a fixture OLBG prices without naming the competition.",
+            ]
         return _pick(opts, key, "opener")
-    return f"{p.get('event_name') or comp_txt} is the event, listed for {date}."
+    label = p.get("event_name") or comp_txt or "the event"
+    return f"{label} is the event, listed for {date}" + (f" in {comp_txt}." if comp_txt else ".")
 
 
 def clause_record(p, side, key) -> str:
@@ -153,6 +164,18 @@ def clause_pitchers(p, key) -> str:
     if ph:
         return f"MLB.com names {ph} to start for {home}; {away} had not posted a starter at capture."
     return f"MLB.com names {pa} to start for {away}; {home} had not posted a starter at capture."
+
+
+def clause_ranking(p, key) -> str:
+    hr, ar = p.get("home_rank"), p.get("away_rank")
+    home, away = p.get("home") or "", p.get("away") or ""
+    if not hr or not ar or not home or not away:
+        return ""
+    return _pick([
+        f"The WTA singles list has {home} at {hr} and {away} at {ar}.",
+        f"On the official WTA rankings this is {hr} against {ar}, {home} first.",
+        f"Ranking points separate them: {home} sits {hr} in the world, {away} {ar}.",
+    ], key, "rank")
 
 
 def clause_market(p, key) -> str:
@@ -314,6 +337,8 @@ def build_prediction(p: dict, facts_available: bool) -> str:
         elif p.get("sport") == "ice-hockey":
             pool = [clause_record(p, "home", key), clause_record(p, "away", key),
                     clause_goals(p, "home", key), clause_home_road(p, "away", key)]
+        elif p.get("sport") == "tennis":
+            pool = [clause_ranking(p, key), clause_record(p, "home", key), clause_record(p, "away", key)]
         else:
             pool = [clause_record(p, "home", key), clause_record(p, "away", key)]
         take = 3 if idx else len(pool)

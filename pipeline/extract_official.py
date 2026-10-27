@@ -244,6 +244,22 @@ def motor_racing() -> dict:
     return {"fixtures": fixtures, "results": results, "drivers": drivers, "constructors": constructors}
 
 
+# ------------------------------------------------------------ WTA singles ranks
+def tennis_rankings() -> dict:
+    t = read("official_tennis_1")
+    if not t:
+        return {}
+    rows = re.findall(r'data-player-name="([^"]+)".*?player-row__rank[^>]*>\s*(\d+)\s*</span>', t, re.S)
+    best: dict[str, int] = {}
+    for name, rank in rows:
+        n = name.strip()
+        r = int(rank)
+        if n and (n not in best or r < best[n]):
+            best[n] = r
+    return {"source": "WTA Tour official singles rankings", "url": "https://www.wtatennis.com/rankings/singles",
+            "players": best}
+
+
 # ----------------------------------------------------------------- json-ld aid
 def jsonld_events(sport: str, capture: str, url: str) -> list[dict]:
     t = read(capture)
@@ -281,6 +297,7 @@ def main() -> int:
     facts["sports"]["baseball"] = baseball()
     facts["sports"]["ice-hockey"] = ice_hockey()
     facts["sports"]["motor-racing"] = motor_racing()
+    facts["sports"]["tennis"] = {"rankings": tennis_rankings()}
 
     ld = []
     for sport, items in SOURCES.items():
