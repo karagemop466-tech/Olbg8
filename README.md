@@ -1,92 +1,100 @@
-# OLBG Research Desk
+# OLBG multi-sport line desk
 
-A multi-sport betting-research desk reverse-engineered from OLBG's tips pages. Every page here is
-generated from four data files, so the site cannot display a number the pipeline did not produce.
+An independent price desk for the fifteen OLBG sports requested for this project.
+It reverse-engineers how OLBG publishes fixtures and market data, originates its
+own line for every captured market, grades each selection, and writes a
+prediction for every published pick.
 
-As at **27 October 2026, 05:26 UTC**: 112 OLBG listings across 15 sports, **140 priced
-selections**, **53 written predictions** across 13 sports, and every row carrying a link to the
-source that was actually opened for it.
-
-## The 15 sports
-
-Golf · Volleyball · Rugby Union · Cricket · Snooker · Darts · Baseball · Gaelic Sports ·
-Greyhounds · Tennis · Motor Racing · Handball · Ice Hockey · Basketball · Rugby League
+**Live site:** <https://karagemop466-tech.github.io/Olbg8/>
 
 ## Pages
 
 | Page | What it answers |
 |---|---|
-| [Overview](index.html) | Executive summary: the strongest positions today, coverage ledger per sport, and the irregularities found in the repository. |
-| [Picks](picks.html) | The predictions. 53 cards, grouped by sport, each with the explicit selection, market, our line, the confidence band, the reasoning and its sources. |
-| [Line board](matches.html) | All 140 priced selections across every market OLBG exposed, with the tip volume behind each. Filterable. |
-| [Pricing](pricing.html) | How a share of tips becomes a line: the Dirichlet estimate, outcome counts, the −250 to +10,000 band, and confidence bands as actually applied. |
-| [Sources](sources.html) | Every event matched to an official source, tiered A or B, with what each source was used to confirm — and the list of what was not checked. |
-| [Method](methodology.html) | How an OLBG listing is structured, what its percentages mean, the market inventory and the time-zone finding. |
-| [Flagged for review](flagged.html) | The review queue: the fabricated file that was removed, empty categories, thin markets, unpriced markets, out-of-band favourites. |
-| [Sport pages](sports/) | One page per sport: its picks above its full market table, or the reason there is nothing to price. |
+| **Overview** (`index.html`) | Executive summary: the highest-graded picks, headline counts, coverage by sport. |
+| **Picks** (`picks.html`) | Every published pick: selection, OLBG price, our line, confidence, written prediction, sources. Filterable. |
+| **All matches** (`matches.html`) | Every captured event and market with market price, de-vigged probability, our line and the edge. |
+| **Sports** (`sports/*.html`) | One page per requested sport: its picks, then its captured events and market tables. |
+| **Flagged for review** (`flagged.html`) | Sports with no market, sports priced from market data only, row-level gaps. |
+| **Sources** (`sources.html`) | The source register with every primary feed and OLBG category used. |
+| **Method** (`methodology.html`) | How a price is produced, what the grades mean, what the site will not do. |
 
-## Pipeline
+## Current snapshot
 
-```bash
-python3 scripts/build_capture.py   # capture/raw-*.json  -> data/live-capture.json
-python3 scripts/originate.py       # + data/crosswalks.json -> data/lines.json
-python3 scripts/build_picks.py     # -> data/picks.json (every pick must resolve to a priced row)
-python3 scripts/build_site.py      # -> all HTML pages
-python3 scripts/test_site.py       # publication checks; exits non-zero on any failure
+* **190 OLBG events · 223 markets · 257 priced selections** across **13 of the 15** requested sports.
+* **63 published picks** — 3 high, 25 medium, 35 low — each with a prediction of at least 30 words.
+* Snooker and Greyhounds exposed no market row at capture time and are published as gaps, not filled in.
+* Primary data covered 28 tennis matches, 8 basketball games, 7 ice-hockey games and 2 baseball games.
+
+## How the data is produced
+
+OLBG category pages are JavaScript shells. The rows come from the route's SvelteKit
+hydration payload (`/betting-tips/<Sport>/<id>/__data.json`), a flattened `devalue`
+array that the collector decodes. It then walks category → competition → event pages.
+
+```
+scripts/collect_olbg.py       OLBG hydration decoder + inventory walk
+scripts/collect_official.py   probe and capture of primary league/tour feeds
+scripts/pricing_core.py       implied probability, Shin de-vig, log5, grading
+scripts/build_dashboard.py    events -> markets -> lines -> picks -> dashboard.json
+scripts/predictions.py        written prediction for every published pick
+scripts/test_site.py          fail-closed validation of the published payload
 ```
 
-Sources are never hand-written into the HTML: `capture/raw-2026-10-27.json` holds the verbatim OLBG
-rows, and `data/crosswalks.json` holds the source register, tiers and `not_checked` list.
+```bash
+python3 scripts/build_dashboard.py
+python3 scripts/test_site.py
+python3 -m http.server 8000 --bind 0.0.0.0   # then open http://localhost:8000/
+```
 
-## Standing rules this repository enforces
+The browser loads `data/dashboard.json` over HTTP, so serve the folder rather than
+opening the HTML files directly.
 
-1. **No invented data.** A value that no source states is left blank and flagged, not estimated.
-   `scripts/test_site.py` fails the build if a page renders a placeholder or a pick stops resolving.
-2. **Confidence is earned in four steps** — official source matched, priced chance ≥ 60%, at least
-   four tips in the market, and a line inside −250 to +10,000. Missing one is Medium or Low; the
-   label and the reason are printed on the row.
-3. **A favourite is not a pick.** Anything shorter than −250 is excluded from the picks surface by
-   instruction, and the excluded rows are listed on the flagged page instead of being dropped.
-4. **Shortfalls are stated, not filled.** Snooker and Greyhounds had no OLBG listing at capture time
-   and publish zero picks; Golf, Darts, Motor Racing, Rugby League, Baseball and Gaelic games are
-   under five because the listings or the tip volume did not support more. Each reason is on the
-   Overview ledger.
-5. **`"model"` and `"verified"` never appear in published prose.** Those words describe internal
-   machinery, and a claim of verification without a source is how fabricated content reached this
-   repository before. See [quarantine/README.md](quarantine/README.md).
+Network work runs on GitHub Actions runners because the agent sandbox only reaches
+GitHub, npm and PyPI: `.github/workflows/olbg-collect.yml` captures OLBG,
+`.github/workflows/official-collect.yml` captures the primary feeds.
 
-## Verification standard
+## Pricing method
 
-A row must have an OLBG event link, and any fact stated about it must trace to a source that was
-opened in this session. Tier A means the governing body, tour, league data feed or the club's own
-page named the fixture; tier B means reliable independent reporting. High requires tier A. OLBG's
-own tip counts, displayed percentages and tipster comments are quoted as what OLBG published, never
-restated as scouting. Injury and availability lines were checked only for the events where they were
-found; the rest say so.
+A captured decimal price becomes an implied probability. OLBG's public payload
+exposes **one price per market**, not both sides, so the margin is removed with a
+published allowance by market type (4% win markets, 4.5% handicaps and totals, 12%
+outrights) rather than measured. Where a primary feed gives an independent
+measurement — log5 on MLB winning percentage with a home-field term, on NHL points
+percentage with home ice, on NBA win percentage with home court, or a logistic on
+ATP/WTA ranking points — that estimate is blended 60/40 with the market figure and
+the disagreement is reported as the edge. The published line is the fair odds of
+the blended probability, with no margin added.
 
-## Legacy and supplementary
+**Confidence** is probability-based: `high` ≥70% inside the requested −250 to
++10000 band with primary data or a community majority behind it, `medium` 55–70%,
+`low` everything else (published only where a sport would otherwise be blank).
 
-`evidence-lab/` and `research-desk/` are earlier sessions' audits, preserved byte-for-byte and not
-part of the primary navigation. `data/dashboard.json`, `data/line-research.json`,
-`data/publication-gate.json`, `data/official-evidence.json`, `data/olbg-capture.json` and
-`scripts/build_dashboard.py` are the superseded 2026-10-26 payload from the previous release: kept
-because other sessions own them, and listed on the flagged page rather than silently deleted.
+## Verification
 
-A parallel desk (`data/desk-*.json`, `price-engine/`, `assets/desk.css`, `scripts/check_site.py`) was
-merged to `main` from another session while this one was in flight. Its generator is archived at
-`price-engine/build_desk_site.py` and its 24-row payload is still validated by `scripts/check_site.py`
-in CI, but its rows are not published alongside ours: that engine prices the same events differently,
-and one page cannot carry two lines for one selection. The integration is written up on
-[flagged.html](flagged.html).
+`scripts/test_site.py` fails the build if a pick lacks a price, a grade, a ≥30-word
+prediction or an OLBG link, if any prediction contains a blank value or the internal
+wording the brief prohibits, or if any local link breaks. The build is deterministic
+and CI fails if the committed `data/dashboard.json` differs from a rebuild.
 
-## GitHub Pages
+Missing data stays missing: a sport with no OLBG market is published on **Flagged
+for review** rather than filled with an invented fixture.
 
-Published from `main` at <https://karagemop466-tech.github.io/Olbg8/> as a static root deploy — the
-generated HTML is committed, so the deploy needs no build step. `.github/workflows/` validates the
-committed site.
+## Repository layout
 
-## Disclaimer
+```
+data/olbg/         captured OLBG markets, per sport, plus markets.json and the probe log
+data/official/     captured primary feeds and the endpoint probe
+data/dashboard.json  derived payload rendered by the site
+assets/            styles.css, app.js, favicon
+sports/            fifteen sport pages
+desk-v1/           the previous root desk, archived byte-for-byte and still browsable
+board/ current/ evidence-lab/ research-desk/   earlier sessions' desks, untouched
+```
 
-Independent research, not OLBG advice and not a guarantee. OLBG publishes tipster opinion; this desk
-prices that opinion and adds sourced context. Check the linked source and the current market before
-relying on anything here. Only bet where lawful, and only what you can afford to lose.
+## Provenance and scope
+
+Every pick carries the OLBG market URL it was priced from and, on the primary route,
+the league or tour URL that supplied its facts. OLBG is a market source, not a
+governing body, and is not responsible for any claim made here. Independent
+research, not betting advice. 18+. Bet only what you can afford to lose.
