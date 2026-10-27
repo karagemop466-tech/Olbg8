@@ -1,28 +1,34 @@
 #!/usr/bin/env python3
-"""OLBG collector - decodes the SvelteKit `__data.json` hydration feed.
+"""OLBG collector.
 
-The rendered OLBG sport pages are JavaScript shells. The actual fixture, market
-and price data is served as a flattened `devalue` payload from
-`<page path>/__data.json`. This module flattens that payload back into plain
-Python objects and normalises the market rows so the rest of the pipeline can
-work from real captured prices instead of scraped prose.
+Reverse-engineered sources
+--------------------------
+1. Sport hubs `/betting-tips/<Sport>/<id>` are JavaScript shells. Their
+   SvelteKit hydration payload lives at `<path>/__data.json` in a flattened
+   `devalue` array. That payload names OLBG's own JSON endpoints under keys such
+   as `tipsApiUrl`.
+2. Those endpoints (`/sports/<Sport>/top_tips?...&paginate=1-100`) return the
+   tip rows: event, market, selection, decimal/American/fractional price,
+   kick-off, expert and confidence counts. `paginate` is a plain range, so the
+   whole board can be walked in pages of 100.
+3. Each event page has its own hydration payload which carries the full market
+   board for that event (all markets, all selections, all prices).
 
-Run modes
----------
-    python3 scripts/collect_olbg.py            # live fetch (used by CI runner)
-    python3 scripts/collect_olbg.py --raw DIR  # parse already-saved raw bodies
+Only captured values are written. Missing values stay missing.
 
-Nothing here invents data. If a page cannot be fetched the sport is recorded
-with an explicit error entry and zero rows.
+Modes
+-----
+--mode tips     walk the paginated tips API for every category
+--mode detail   walk the event pages for the captured events (market depth)
+--mode raw      dump one decoded event tree per category for parser work
 """
 
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
-import os
 import re
-import sys
 import time
 import urllib.error
 import urllib.request
@@ -33,7 +39,6 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data" / "olbg"
 
-# (display label, OLBG path segment, OLBG sport id)
 SPORTS: list[tuple[str, str, int]] = [
     ("Golf", "Golf", 5),
     ("Volleyball", "Volleyball", 21),
@@ -58,19 +63,17 @@ UA = (
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
 BASE = "https://www.olbg.com"
+PAGE = 100
+
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 # ---------------------------------------------------------------- devalue ---
 def unflatten(data: list[Any]) -> Any:
-    """Rebuild a flattened devalue array.
-
-    SvelteKit stores every distinct value once. An integer in the array is an
-    index into the same array; resolving it yields the stored value, and that
-    value is never re-resolved (so a stored literal `0` stays `0`).
-    """
     if not isinstance(data, list) or not data:
         return None
-
     cache: dict[int, Any] = {}
     size = len(data)
 
@@ -89,11 +92,11 @@ def unflatten(data: list[Any]) -> Any:
                 out[key] = resolve(ref)
             return out
         if isinstance(value, list):
-            out_list: list[Any] = []
-            cache[index] = out_list
+            bucket: list[Any] = []
+            cache[index] = bucket
             for ref in value:
-                out_list.append(resolve(ref))
-            return out_list
+                bucket.append(resolve(ref))
+            return bucket
         cache[index] = value
         return value
 
@@ -104,21 +107,19 @@ def decode_payload(body: bytes) -> Any:
     raw = json.loads(body.decode("utf-8", "replace"))
     nodes = raw.get("nodes") or []
     if not nodes:
-        return None
-    # Later nodes are the most specific; the last one is the page data.
+        return raw
     node = nodes[-1]
     if node.get("type") == "error":
-        raise ValueError(f"OLBG data error node: {node.get('error')}")
+        raise ValueError(f"data node error: {node.get('error')}")
     if node.get("type") != "data" or not isinstance(node.get("data"), list):
         return None
     return unflatten(node["data"])
 
 
-def walk(node: Any):
-    """Yield every dict/list reachable from node."""
+def walk(node: Any, limit: int = 600000):
     stack = [node]
     seen = 0
-    while stack and seen < 400000:
+    while stack and seen < limit:
         seen += 1
         current = stack.pop()
         if isinstance(current, dict):
@@ -129,65 +130,61 @@ def walk(node: Any):
 
 
 # ---------------------------------------------------------------- fetching --
-def fetch(url: str, tries: int = 3) -> tuple[int, bytes, str]:
-    last_error = ""
+def fetch(url: str, tries: int = 3, referer: str = f"{BASE}/betting-tips") -> tuple[int, bytes, str]:
+    last = ""
     for attempt in range(tries):
-        request = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": UA,
-                "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
-                "Accept-Language": "en-GB,en;q=0.9",
-                "Referer": BASE + "/betting-tips",
-            },
-        )
         try:
-            with urllib.request.urlopen(request, timeout=45) as response:
-                return response.status, response.read(), ""
-        except urllib.error.HTTPError as exc:  # pragma: no cover - network
-            last_error = f"HTTP {exc.code}"
-            if exc.code in (403, 404, 429):
-                time.sleep(2 + attempt * 3)
+            request = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": UA,
+                    "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
+                    "Accept-Language": "en-GB,en;q=0.9",
+                    "Accept-Encoding": "gzip",
+                    "Referer": referer,
+                },
+            )
+            with urllib.request.urlopen(request, timeout=40) as response:
+                body = response.read()
+                if response.headers.get("Content-Encoding") == "gzip":
+                    body = gzip.decompress(body)
+                return response.status, body, ""
+        except urllib.error.HTTPError as exc:
+            last = f"HTTP {exc.code}"
+            if exc.code in (403, 429, 500, 502, 503):
+                time.sleep(3 + attempt * 4)
             else:
                 break
         except Exception as exc:  # pragma: no cover - network
-            last_error = f"{type(exc).__name__}: {exc}"
+            last = f"{type(exc).__name__}: {exc}"
             time.sleep(2 + attempt * 2)
-    return 0, b"", last_error
+    return 0, b"", last
 
 
-def data_url(page_path: str) -> str:
-    path, _, query = page_path.partition("?")
-    url = BASE + path.rstrip("/") + "/__data.json"
-    return f"{url}?{query}" if query else url
+def data_url(url: str) -> str:
+    absolute = url if url.startswith("http") else BASE + url
+    path, _, query = absolute.partition("?")
+    target = path.rstrip("/") + "/__data.json"
+    return f"{target}?{query}" if query else target
+
+
+def api_templates(tree: Any) -> list[str]:
+    found: list[str] = []
+    for node in walk(tree):
+        for key, value in node.items():
+            if isinstance(key, str) and key.lower().endswith("apiurl") and isinstance(value, str):
+                if "top_tips" in value and value not in found:
+                    found.append(value)
+    return found
 
 
 # ------------------------------------------------------------- extraction ---
-def collect_tips(tree: Any) -> list[dict[str, Any]]:
-    """Pull market rows out of a decoded sport feed."""
+def market_rows(tree: Any) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
-    seen: set[tuple] = set()
     for node in walk(tree):
-        if "eventUrl" not in node or "selection" not in node:
-            continue
-        selection = node.get("selection")
-        market = node.get("market_alias") or node.get("market_name") or node.get("market")
-        if not isinstance(selection, str) or not isinstance(market, str):
-            continue
-        key = (node.get("eventUrl"), market, selection, node.get("odds"))
-        if key in seen:
-            continue
-        seen.add(key)
-        rows.append(node)
+        if "selection" in node and "market_alias" in node and "eventUrl" in node:
+            rows.append(node)
     return rows
-
-
-def american_from_decimal(price: float | None) -> int | None:
-    if not price or price <= 1.0:
-        return None
-    if price >= 2.0:
-        return int(round((price - 1.0) * 100))
-    return int(round(-100.0 / (price - 1.0)))
 
 
 def to_decimal(value: Any) -> float | None:
@@ -198,179 +195,245 @@ def to_decimal(value: Any) -> float | None:
     return round(price, 4) if price > 1.0 else None
 
 
+def american(decimal: float | None, given: Any = None) -> int | None:
+    if given not in (None, "", "-"):
+        try:
+            return int(str(given).replace("+", ""))
+        except ValueError:
+            pass
+    if not decimal:
+        return None
+    if decimal >= 2.0:
+        return int(round((decimal - 1.0) * 100))
+    return int(round(-100.0 / (decimal - 1.0)))
+
+
 def iso_from_unix(value: Any) -> str:
     try:
         stamp = int(value)
     except (TypeError, ValueError):
         return ""
-    if stamp < 1_000_000_000 or stamp > 4_000_000_000:
+    if not 1_000_000_000 < stamp < 4_000_000_000:
         return ""
     return datetime.fromtimestamp(stamp, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def event_id_from(url: str) -> str:
+    match = re.search(r"event_id=(\d+)", url or "")
+    return match.group(1) if match else ""
+
+
 def normalise(row: dict[str, Any], sport: dict[str, Any]) -> dict[str, Any]:
     decimal = to_decimal(row.get("odds"))
-    american = row.get("american_odds")
-    try:
-        american_int = int(str(american).replace("+", "")) if american not in (None, "") else None
-    except ValueError:
-        american_int = None
-    if american_int is None:
-        american_int = american_from_decimal(decimal)
-    event_url = str(row.get("eventUrl") or "")
-    event_id = ""
-    match = re.search(r"event_id=(\d+)", event_url)
-    if match:
-        event_id = match.group(1)
+    url = str(row.get("eventUrl") or "")
     return {
         "sport": sport["label"],
         "sport_key": sport["key"],
         "sport_id": sport["sport_id"],
-        "event_id": event_id,
+        "event_id": event_id_from(url),
         "event_name": str(row.get("event_name_alias") or "").strip(),
         "competition": str(row.get("menu_league") or "").strip(),
-        "market": str(row.get("market_alias") or row.get("market_name") or row.get("market") or "").strip(),
+        "market": str(row.get("market_alias") or "").strip(),
         "selection": str(row.get("selection") or "").strip(),
         "decimal_odds": decimal,
-        "american_odds": american_int,
+        "american_odds": american(decimal, row.get("american_odds")),
         "fractional_odds": str(row.get("fractional_odds") or ""),
         "start_utc": iso_from_unix(row.get("event_start_unix_timestamp")),
-        "olbg_url": event_url if event_url.startswith("http") else BASE + event_url,
+        "olbg_url": url if url.startswith("http") else BASE + url,
         "experts_count": row.get("experts_count"),
         "win_tips": row.get("win_tips"),
         "win_tips_count": row.get("win_tips_count"),
         "confidence": row.get("confidence"),
         "comments_count": row.get("comments_count"),
-        "expired": bool(row.get("expired")) if row.get("expired") is not None else None,
+        "expired": row.get("expired"),
         "venue": row.get("venue") or "",
         "address": row.get("address") or "",
     }
 
 
-def api_urls(tree: Any) -> list[str]:
-    found: list[str] = []
+# ------------------------------------------------------------------ modes ---
+def collect_tips(state: dict[str, Any], max_pages: int) -> None:
+    probe = state["probe"]
+    all_rows: list[dict[str, Any]] = []
+    for label, segment, sport_id in SPORTS:
+        key = re.sub(r"[^a-z0-9]+", "-", label.lower())
+        sport = {"label": label, "key": key, "sport_id": sport_id, "segment": segment}
+        hub = f"/betting-tips/{segment}/{sport_id}"
+        status, body, error = fetch(data_url(hub))
+        entry: dict[str, Any] = {"hub": {"status": status, "bytes": len(body), "error": error}, "pages": []}
+        templates: list[str] = []
+        if status == 200 and body:
+            try:
+                templates = api_templates(decode_payload(body))
+            except Exception as exc:  # noqa: BLE001
+                entry["hub"]["decode_error"] = f"{type(exc).__name__}: {exc}"
+        if not templates:
+            templates = [
+                f"/sports/{segment}/top_tips?source=&paginate=1-100&include_recommendations=1"
+                "&include_expired=0&bookie_name=_best_&client_type=desktop_website"
+            ]
+        entry["templates"] = templates[:2]
+
+        rows: list[dict[str, Any]] = []
+        for index in range(max_pages):
+            start = index * PAGE + 1
+            end = start + PAGE - 1
+            template = templates[0]
+            url = re.sub(r"paginate=[\d\-]+", f"paginate={start}-{end}", template)
+            url = url.replace("include_expired=1", "include_expired=0")
+            if url.startswith("/"):
+                url = BASE + url
+            status, body, error = fetch(url, tries=2)
+            page_info = {"range": f"{start}-{end}", "status": status, "bytes": len(body), "error": error}
+            if status != 200 or not body:
+                entry["pages"].append(page_info)
+                break
+            try:
+                tree = decode_payload(body)
+                found = market_rows(tree)
+            except Exception as exc:  # noqa: BLE001
+                page_info["decode_error"] = f"{type(exc).__name__}: {exc}"
+                entry["pages"].append(page_info)
+                break
+            page_info["rows"] = len(found)
+            entry["pages"].append(page_info)
+            rows.extend(normalise(row, sport) for row in found)
+            if len(found) < PAGE:
+                break
+            time.sleep(0.4)
+
+        deduped: list[dict[str, Any]] = []
+        seen: set[tuple] = set()
+        for row in rows:
+            sig = (row["event_id"], row["market"], row["selection"], row["decimal_odds"])
+            if sig in seen:
+                continue
+            seen.add(sig)
+            deduped.append(row)
+        deduped.sort(key=lambda r: (r["start_utc"], r["event_name"], r["market"], r["selection"]))
+        all_rows.extend(deduped)
+        entry["rows"] = len(deduped)
+        entry["events"] = len({r["event_id"] for r in deduped})
+        probe["sports"][key] = entry
+        if deduped:
+            (OUT_DIR / f"{key}.json").write_text(
+                json.dumps({"sport": label, "sport_id": sport_id, "captured_utc": state["captured"], "rows": deduped}, indent=1)
+            )
+
+    state["rows"] = all_rows
+    (OUT_DIR / "latest.json").write_text(
+        json.dumps(
+            {"captured_utc": state["captured"], "source": "OLBG.com top_tips JSON endpoint", "rows": all_rows},
+            indent=1,
+        )
+    )
+
+
+def collect_detail(state: dict[str, Any], per_sport: int) -> None:
+    """Fetch event pages and keep every market row plus a structural probe."""
+    latest = json.loads((OUT_DIR / "latest.json").read_text())
+    rows = latest["rows"]
+    detail: dict[str, Any] = {}
+    by_sport: dict[str, list[str]] = {}
+    for row in rows:
+        if not row["event_id"] or not row["olbg_url"]:
+            continue
+        bucket = by_sport.setdefault(row["sport_key"], [])
+        if row["event_id"] not in bucket:
+            bucket.append(row["event_id"])
+    for sport_key, event_ids in by_sport.items():
+        kept: list[dict[str, Any]] = []
+        for event_id in event_ids[:per_sport]:
+            row = next(r for r in rows if r["event_id"] == event_id)
+            status, body, error = fetch(data_url(row["olbg_url"]), tries=2, referer=row["olbg_url"])
+            record: dict[str, Any] = {"event_id": event_id, "event_name": row["event_name"], "status": status, "bytes": len(body), "error": error}
+            if status == 200 and body:
+                try:
+                    tree = decode_payload(body)
+                    shapes = market_board(tree)
+                    record["markets"] = shapes["markets"]
+                    record["rows"] = shapes["rows"]
+                    record["api_urls"] = shapes["api_urls"][:4]
+                    record["keysets"] = shapes["keysets"]
+                    kept.append(record)
+                except Exception as exc:  # noqa: BLE001
+                    record["decode_error"] = f"{type(exc).__name__}: {exc}"
+            detail[f"{sport_key}:{event_id}"] = record
+            time.sleep(0.35)
+        (OUT_DIR / f"{sport_key}-markets.json").write_text(json.dumps(kept, indent=1))
+    (OUT_DIR / "_detail.json").write_text(json.dumps(detail, indent=1))
+
+
+def market_board(tree: Any) -> dict[str, Any]:
+    """Collect every selection-level odds object on an event page."""
+    rows: list[dict[str, Any]] = []
+    keysets: dict[str, int] = {}
+    apis: list[str] = []
     for node in walk(tree):
         for key, value in node.items():
             if isinstance(key, str) and key.lower().endswith("apiurl") and isinstance(value, str):
-                if value not in found:
-                    found.append(value)
-    return found
-
-
-def market_shapes(tree: Any) -> dict[str, Any]:
-    """Probe summary of the market objects on an event page."""
-    keysets: dict[str, int] = {}
-    samples: list[dict[str, Any]] = []
+                if value not in apis:
+                    apis.append(value)
+        if "odds" not in node:
+            continue
+        if not ({"selection", "name", "outcome", "outcome_name"} & set(node)):
+            continue
+        signature = ",".join(sorted(str(k) for k in node))[:400]
+        keysets[signature] = keysets.get(signature, 0) + 1
+        slim = {k: node[k] for k in node if not isinstance(node[k], (dict, list))}
+        if len(json.dumps(slim)) < 900:
+            rows.append(slim)
     markets: dict[str, int] = {}
-    for node in walk(tree):
-        if "selection" in node and "odds" in node and len(node) < 40:
-            signature = ",".join(sorted(str(k) for k in node))
-            keysets[signature] = keysets.get(signature, 0) + 1
-            name = node.get("market_name") or node.get("market") or node.get("market_alias") or node.get("marketName")
-            if isinstance(name, str):
-                markets[name] = markets.get(name, 0) + 1
-            if len(samples) < 4:
-                samples.append({k: node.get(k) for k in list(node)[:24]})
-    return {"keysets": keysets, "markets": markets, "samples": samples}
+    for row in rows:
+        name = row.get("market_alias") or row.get("market_name") or row.get("market")
+        if isinstance(name, str):
+            markets[name] = markets.get(name, 0) + 1
+    return {"rows": rows[:400], "keysets": dict(sorted(keysets.items(), key=lambda kv: -kv[1])[:12]), "markets": markets, "api_urls": apis}
+
+
+def dump_raw(state: dict[str, Any]) -> None:
+    """Save one full decoded event payload per category for parser development."""
+    latest = json.loads((OUT_DIR / "latest.json").read_text())
+    raw_dir = OUT_DIR / "raw"
+    raw_dir.mkdir(exist_ok=True)
+    seen: set[str] = set()
+    for row in latest["rows"]:
+        if row["sport_key"] in seen or not row["olbg_url"]:
+            continue
+        seen.add(row["sport_key"])
+        status, body, error = fetch(data_url(row["olbg_url"]), tries=2, referer=row["olbg_url"])
+        if status != 200 or not body:
+            continue
+        try:
+            tree = decode_payload(body)
+        except Exception:  # noqa: BLE001
+            continue
+        text = json.dumps(tree)
+        if len(text) > 3_000_000:
+            continue
+        (raw_dir / f"{row['sport_key']}.json").write_text(text)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--raw", help="directory of previously saved raw bodies")
-    parser.add_argument("--event-pages", type=int, default=4, help="event detail pages per sport")
+    parser.add_argument("--mode", default="tips", choices=["tips", "detail", "raw", "all"])
+    parser.add_argument("--max-pages", type=int, default=12)
+    parser.add_argument("--detail-events", type=int, default=30)
     args = parser.parse_args()
 
-    captured = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    raw_dir = Path(args.raw) if args.raw else None
-    out_dir = (raw_dir / "out") if raw_dir else OUT_DIR
-    out_dir.mkdir(parents=True, exist_ok=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    state: dict[str, Any] = {"captured": now_iso(), "probe": {"captured_utc": now_iso(), "sports": {}}}
 
-    probe: dict[str, Any] = {"captured_utc": captured, "sports": {}, "events": {}}
-    all_rows: list[dict[str, Any]] = []
-
-    for label, segment, sport_id in SPORTS:
-        key = re.sub(r"[^a-z0-9]+", "-", label.lower())
-        sport = {"label": label, "key": key, "sport_id": sport_id, "segment": segment}
-        pages = {
-            "hub": f"/betting-tips/{segment}/{sport_id}",
-            "all_events": f"/betting-tips/{segment}/All_{segment}/All_Events/{sport_id}",
-        }
-        sport_probe: dict[str, Any] = {"sport_id": sport_id, "pages": {}, "api_urls": []}
-        rows: list[dict[str, Any]] = []
-        for name, page_path in pages.items():
-            if raw_dir:
-                candidate = raw_dir / f"{key}__{name}.json"
-                if not candidate.exists():
-                    sport_probe["pages"][name] = {"status": "missing-local"}
-                    continue
-                body = candidate.read_bytes()
-                status, error = 200, ""
-            else:
-                status, body, error = fetch(data_url(page_path))
-                time.sleep(0.7)
-            entry = {"status": status, "bytes": len(body), "error": error}
-            if status == 200 and body:
-                try:
-                    tree = decode_payload(body)
-                    found = collect_tips(tree)
-                    entry["tips"] = len(found)
-                    for api in api_urls(tree):
-                        if api not in sport_probe["api_urls"]:
-                            sport_probe["api_urls"].append(api)
-                    rows.extend(normalise(row, sport) for row in found)
-                except Exception as exc:  # noqa: BLE001
-                    entry["decode_error"] = f"{type(exc).__name__}: {exc}"
-            sport_probe["pages"][name] = entry
-
-        # de-duplicate identical (event, market, selection, price) observations
-        deduped: list[dict[str, Any]] = []
-        seen: set[tuple] = set()
-        for row in rows:
-            key2 = (row["event_id"], row["market"], row["selection"], row["decimal_odds"])
-            if key2 in seen:
-                continue
-            seen.add(key2)
-            deduped.append(row)
-        deduped.sort(key=lambda r: (r["start_utc"], r["event_name"], r["market"], r["selection"]))
-        all_rows.extend(deduped)
-        sport_probe["rows"] = len(deduped)
-        sport_probe["events"] = len({r["event_id"] for r in deduped})
-        probe["sports"][key] = sport_probe
-
-        if deduped:
-            (out_dir / f"{key}.json").write_text(
-                json.dumps({"sport": label, "sport_id": sport_id, "captured_utc": captured, "rows": deduped}, indent=1)
-            )
-
-        # Event detail: full market list for a few events per sport.
-        if not raw_dir:
-            event_ids: list[str] = []
-            for row in deduped:
-                if row["event_id"] and row["event_id"] not in event_ids:
-                    event_ids.append(row["event_id"])
-            for event_id in event_ids[: args.event_pages]:
-                row = next(r for r in deduped if r["event_id"] == event_id)
-                status, body, error = fetch(data_url(row["olbg_url"]))
-                time.sleep(0.7)
-                detail = {"status": status, "bytes": len(body), "error": error, "url": row["olbg_url"]}
-                if status == 200 and body:
-                    try:
-                        tree = decode_payload(body)
-                        detail["shapes"] = market_shapes(tree)
-                        detail["api_urls"] = api_urls(tree)
-                    except Exception as exc:  # noqa: BLE001
-                        detail["decode_error"] = f"{type(exc).__name__}: {exc}"
-                probe["events"][f"{key}:{event_id}"] = detail
-
-    payload = {
-        "captured_utc": captured,
-        "source": "OLBG.com SvelteKit __data.json hydration feeds",
-        "sports": {label: sid for label, _, sid in SPORTS},
-        "rows": all_rows,
-    }
-    (out_dir / "latest.json").write_text(json.dumps(payload, indent=1))
-    (out_dir / "_probe.json").write_text(json.dumps(probe, indent=1))
-    print(f"captured {len(all_rows)} market rows across {len(SPORTS)} categories")
+    if args.mode in ("tips", "all"):
+        collect_tips(state, args.max_pages)
+        (OUT_DIR / "_probe.json").write_text(json.dumps(state["probe"], indent=1))
+        print(f"tips: {len(state['rows'])} rows")
+    if args.mode in ("detail", "all"):
+        collect_detail(state, args.detail_events)
+        print("detail captured")
+    if args.mode == "raw":
+        dump_raw(state)
+        print("raw dumps captured")
 
 
 if __name__ == "__main__":

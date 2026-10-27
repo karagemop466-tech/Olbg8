@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: olbg-harvest-${{ github.ref_name }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   harvest:
@@ -36,7 +36,7 @@ jobs:
         run: |
           mkdir -p data/olbg
           set +e
-          python3 scripts/collect_olbg.py --event-pages 3 > /tmp/harvest.log 2>&1
+          python3 scripts/collect_olbg.py --mode all --max-pages 10 --detail-events 24 > /tmp/harvest.log 2>&1
           code=$?
           printf 'exit=%s\n' "$code" > data/olbg/_last_run.txt
           tail -c 6000 /tmp/harvest.log >> data/olbg/_last_run.txt
