@@ -1,7 +1,7 @@
 {
  "sport": "Rugby Union",
  "sport_id": 9,
- "captured_utc": "2026-10-27T06:11:51Z",
+ "captured_utc": "2026-10-27T06:18:46Z",
  "rows": [
   {
    "sport": "Rugby Union",
@@ -153,29 +153,6 @@
    "decimal_odds": 1.06,
    "american_odds": -1667,
    "fractional_odds": "1/16",
-   "start_utc": "2026-10-30T18:30:00Z",
-   "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
-   "league_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9",
-   "venue": "",
-   "origin": "hub",
-   "win_tips": 2,
-   "win_tips_count": 3,
-   "experts_count": 0,
-   "confidence": 67,
-   "comments_count": 0
-  },
-  {
-   "sport": "Rugby Union",
-   "sport_key": "rugby-union",
-   "sport_id": 9,
-   "event_id": "609598",
-   "event_name": "Oyonnax v Soyaux Angouleme",
-   "competition": "",
-   "market": "To Win",
-   "selection": "Oyonnax",
-   "decimal_odds": 1.04,
-   "american_odds": -2500,
-   "fractional_odds": "1/25",
    "start_utc": "2026-10-30T18:30:00Z",
    "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
    "league_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9",

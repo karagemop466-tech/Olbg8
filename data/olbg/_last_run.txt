@@ -1,7 +1,7 @@
 exit=0
 golf: rows=4 events=3 competitions=1
 volleyball: rows=29 events=22 competitions=1
-rugby-union: rows=20 events=13 competitions=1
+rugby-union: rows=19 events=13 competitions=1
 cricket: rows=23 events=18 competitions=1
 snooker: rows=0 events=0 competitions=0
 darts: rows=3 events=2 competitions=1
@@ -13,6 +13,6 @@ tennis: rows=62 events=50 competitions=1
 motor-racing: rows=3 events=2 competitions=1
 handball: rows=23 events=19 competitions=1
 ice-hockey: rows=45 events=20 competitions=7
-basketball: rows=48 events=39 competitions=8
+basketball: rows=49 events=39 competitions=8
 rugby-league: rows=4 events=3 competitions=1
 expand: 279 rows
