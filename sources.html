@@ -1,16 +1,373 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="OLBG source-first multi-sport research desk, lines, picks, and flagged findings.">
-  <title>Sources · OLBG research desk</title>
-  <link rel="stylesheet" href="assets/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Official and discovery source register with capture status.">
+<title>Sources · OLBG desk</title>
+<link rel="stylesheet" href="assets/desk.css">
 </head>
 <body data-page="sources">
-  <div id="site-header"></div>
-  <main id="app" aria-live="polite"><div class="empty">Loading source-first desk…</div></main>
-  <div id="site-footer"></div>
-  <script src="assets/app.js" defer></script>
-</body>
-</html>
+<header class="topbar"><div class="wrap topbar-inner">
+<a class="brand" href="index.html"><span class="brand-mark">O</span><span>OLBG desk</span></a>
+<nav class="nav" aria-label="Primary navigation"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Today&#x27;s picks</a><a class="" href="lines.html">Our lines</a><a class="" href="matches.html">Matches</a><a class="active" href="sources.html">Sources</a><a class="" href="methodology.html">Methodology</a><a class="" href="flagged.html">Flagged for review</a></nav>
+</div></header>
+<main class="wrap"><section class="hero"><p class="eyebrow">Sources · 27 October 2026 · UTC</p>
+<h1>39 official snapshots plus 15 OLBG discovery hubs.</h1><p class="lede">Only sources that returned HTTP 200 are used for facts. Failures stay listed with their status so a reviewer can check them manually.</p></section>
+<div class="callout"><strong>Source hierarchy:</strong> governing-body / league feeds for identity, form and statistics; OLBG event payloads for market names, selections, prices and tip counts; our own calculation for fair lines and confidence. A third-party F1 results mirror is labelled supplemental and is not used as an official fact.</div>
+<div class="section-head"><div><h2>Source register</h2><p>Every table row on this site links back to one of these sources (or to the specific official event page derived from them).</p></div></div>
+<div class="table-tools"><input type="search" class="filter-input" data-filter="sources-table" placeholder="Search source…" aria-label="Filter sources"><span class="filter-count" data-count="sources-table"></span></div>
+<div class="table-wrap"><table class="data-table" id="sources-table"><thead><tr><th>Source</th><th>Role</th><th>Type</th><th>HTTP</th><th>Bytes</th><th>Note</th><th>Link</th></tr></thead><tbody><tr data-search="atp_rankings atp rankings official">
+<td><strong>Atp Rankings</strong><br><span class="muted">atp_rankings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://www.atptour.com/en/rankings/singles" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="atp_scores atp scores official">
+<td><strong>Atp Scores</strong><br><span class="muted">atp_scores</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://www.atptour.com/en/scores/current" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="atp_scores_alt atp scores alt official">
+<td><strong>Atp Scores Alt</strong><br><span class="muted">atp_scores_alt</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://www.atptour.com/en/scores/results-archive" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="cev_match_centres cev match centres official">
+<td><strong>Cev Match Centres</strong><br><span class="muted">cev_match_centres</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">494133</td><td>—</td>
+<td><a class="src-link" href="https://www.cev.eu/match-centres/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="cricket_australia_fixtures cricket australia fixtures official">
+<td><strong>Cricket Australia Fixtures</strong><br><span class="muted">cricket_australia_fixtures</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">197670</td><td>—</td>
+<td><a class="src-link" href="https://www.cricket.com.au/fixtures" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="dpworld_schedule dpworld schedule official">
+<td><strong>Dpworld Schedule</strong><br><span class="muted">dpworld_schedule</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://www.europeantour.com/dpworld-tour/schedule/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="ehfcl_matches ehfcl matches official">
+<td><strong>Ehfcl Matches</strong><br><span class="muted">ehfcl_matches</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">94588</td><td>—</td>
+<td><a class="src-link" href="https://ehfcl.eurohandball.com/men/2026-27/matches/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="ehfcl_standings ehfcl standings official">
+<td><strong>Ehfcl Standings</strong><br><span class="muted">ehfcl_standings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">209049</td><td>—</td>
+<td><a class="src-link" href="https://ehfcl.eurohandball.com/men/2026-27/standings/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="epcr_matches epcr matches official">
+<td><strong>Epcr Matches</strong><br><span class="muted">epcr_matches</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">348682</td><td>—</td>
+<td><a class="src-link" href="https://www.epcrugby.com/champions-cup/matches" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="euroleague_games_page euroleague games page official">
+<td><strong>Euroleague Games Page</strong><br><span class="muted">euroleague_games_page</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 429</td>
+<td><a class="src-link" href="https://www.euroleaguebasketball.net/en/euroleague/games/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="euroleague_home euroleague home official">
+<td><strong>Euroleague Home</strong><br><span class="muted">euroleague_home</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 429</td>
+<td><a class="src-link" href="https://www.euroleaguebasketball.net/en/euroleague/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="euroleague_standings_page euroleague standings page official">
+<td><strong>Euroleague Standings Page</strong><br><span class="muted">euroleague_standings_page</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 429</td>
+<td><a class="src-link" href="https://www.euroleaguebasketball.net/en/euroleague/standings/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="f1_driver_standings f1 driver standings official">
+<td><strong>F1 Driver Standings</strong><br><span class="muted">f1_driver_standings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">409391</td><td>—</td>
+<td><a class="src-link" href="https://www.formula1.com/en/results/2026/drivers" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="f1_races_mirror f1 races mirror supplemental (not official)">
+<td><strong>F1 Races Mirror</strong><br><span class="muted">f1_races_mirror</span></td>
+<td>supplemental (not official)</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">14294</td><td>—</td>
+<td><a class="src-link" href="https://api.jolpi.ca/ergast/f1/2026/races/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="f1_team_standings f1 team standings official">
+<td><strong>F1 Team Standings</strong><br><span class="muted">f1_team_standings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">323037</td><td>—</td>
+<td><a class="src-link" href="https://www.formula1.com/en/results/2026/team" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="formula1_calendar formula1 calendar official">
+<td><strong>Formula1 Calendar</strong><br><span class="muted">formula1_calendar</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">621386</td><td>—</td>
+<td><a class="src-link" href="https://www.formula1.com/en/racing/2026" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="gaa_fixtures gaa fixtures official">
+<td><strong>Gaa Fixtures</strong><br><span class="muted">gaa_fixtures</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">1314448</td><td>—</td>
+<td><a class="src-link" href="https://www.gaa.ie/fixtures-results" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="gbgb_racecards gbgb racecards official">
+<td><strong>Gbgb Racecards</strong><br><span class="muted">gbgb_racecards</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 404</td>
+<td><a class="src-link" href="https://www.gbgb.org.uk/racing/race-cards/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="gbgb_racing gbgb racing official">
+<td><strong>Gbgb Racing</strong><br><span class="muted">gbgb_racing</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">97430</td><td>—</td>
+<td><a class="src-link" href="https://www.gbgb.org.uk/racing/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="gbgb_results gbgb results official">
+<td><strong>Gbgb Results</strong><br><span class="muted">gbgb_results</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">81995</td><td>—</td>
+<td><a class="src-link" href="https://www.gbgb.org.uk/results/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="icc_fixtures icc fixtures official">
+<td><strong>Icc Fixtures</strong><br><span class="muted">icc_fixtures</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">371514</td><td>—</td>
+<td><a class="src-link" href="https://www.icc-cricket.com/fixtures-results" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="icc_team_rankings icc team rankings official">
+<td><strong>Icc Team Rankings</strong><br><span class="muted">icc_team_rankings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 404</td>
+<td><a class="src-link" href="https://www.icc-cricket.com/rankings/team-rankings" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="lnr_prod2 lnr prod2 official">
+<td><strong>Lnr Prod2</strong><br><span class="muted">lnr_prod2</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">166948</td><td>—</td>
+<td><a class="src-link" href="https://prod2.lnr.fr/calendrier-et-resultats" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="lpga_tournaments lpga tournaments official">
+<td><strong>Lpga Tournaments</strong><br><span class="muted">lpga_tournaments</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">528264</td><td>—</td>
+<td><a class="src-link" href="https://www.lpga.com/tournaments" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="mlb_schedule mlb schedule official">
+<td><strong>Mlb Schedule</strong><br><span class="muted">mlb_schedule</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">26343</td><td>—</td>
+<td><a class="src-link" href="https://statsapi.mlb.com/api/v1/schedule?sportId=1&amp;startDate=2026-10-24&amp;endDate=2026-11-05&amp;hydrate=team,linescore,probablePitcher,decisions" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="mlb_schedule_page mlb schedule page official">
+<td><strong>Mlb Schedule Page</strong><br><span class="muted">mlb_schedule_page</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">502191</td><td>—</td>
+<td><a class="src-link" href="https://www.mlb.com/schedule" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="mlb_standings mlb standings official">
+<td><strong>Mlb Standings</strong><br><span class="muted">mlb_standings</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">102372</td><td>—</td>
+<td><a class="src-link" href="https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&amp;season=2026&amp;standingsTypes=regularSeason&amp;hydrate=team" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="mlb_team_hitting mlb team hitting official">
+<td><strong>Mlb Team Hitting</strong><br><span class="muted">mlb_team_hitting</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">21475</td><td>—</td>
+<td><a class="src-link" href="https://statsapi.mlb.com/api/v1/teams/stats?stats=season&amp;group=hitting&amp;season=2026&amp;sportIds=1" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="mlb_team_pitching mlb team pitching official">
+<td><strong>Mlb Team Pitching</strong><br><span class="muted">mlb_team_pitching</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">35686</td><td>—</td>
+<td><a class="src-link" href="https://statsapi.mlb.com/api/v1/teams/stats?stats=season&amp;group=pitching&amp;season=2026&amp;sportIds=1" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nba_data_scoreboard nba data scoreboard official">
+<td><strong>Nba Data Scoreboard</strong><br><span class="muted">nba_data_scoreboard</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>URLError: &lt;urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for &#x27;data.nba.net&#x27;. (_ssl.c:1010)&gt;</td>
+<td><a class="src-link" href="https://data.nba.net/prod/v1/20261027/scoreboard.json" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nba_games nba games official">
+<td><strong>Nba Games</strong><br><span class="muted">nba_games</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">324578</td><td>—</td>
+<td><a class="src-link" href="https://www.nba.com/games?date=2026-10-27" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nba_schedule nba schedule official">
+<td><strong>Nba Schedule</strong><br><span class="muted">nba_schedule</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nba_scoreboard nba scoreboard official">
+<td><strong>Nba Scoreboard</strong><br><span class="muted">nba_scoreboard</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nba_standings nba standings official">
+<td><strong>Nba Standings</strong><br><span class="muted">nba_standings</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 403</td>
+<td><a class="src-link" href="https://cdn.nba.com/static/json/staticData/standingsLeagueV2.json" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_schedule_20261027 nhl schedule 20261027 official">
+<td><strong>Nhl Schedule 20261027</strong><br><span class="muted">nhl_schedule_20261027</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">91706</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/schedule/2026-10-27" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_schedule_20261028 nhl schedule 20261028 official">
+<td><strong>Nhl Schedule 20261028</strong><br><span class="muted">nhl_schedule_20261028</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">92487</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/schedule/2026-10-28" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_schedule_20261029 nhl schedule 20261029 official">
+<td><strong>Nhl Schedule 20261029</strong><br><span class="muted">nhl_schedule_20261029</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">92629</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/schedule/2026-10-29" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_schedule_page nhl schedule page official">
+<td><strong>Nhl Schedule Page</strong><br><span class="muted">nhl_schedule_page</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">81760</td><td>—</td>
+<td><a class="src-link" href="https://www.nhl.com/schedule/2026-10-27" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_scores_now nhl scores now official">
+<td><strong>Nhl Scores Now</strong><br><span class="muted">nhl_scores_now</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">28206</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/score/now" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_standings nhl standings official">
+<td><strong>Nhl Standings</strong><br><span class="muted">nhl_standings</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">58202</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/standings/now" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nhl_team_stats nhl team stats official">
+<td><strong>Nhl Team Stats</strong><br><span class="muted">nhl_team_stats</span></td>
+<td>official</td><td>json</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">58202</td><td>—</td>
+<td><a class="src-link" href="https://api-web.nhle.com/v1/standings/now" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nrl_draw nrl draw official">
+<td><strong>Nrl Draw</strong><br><span class="muted">nrl_draw</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">798</td><td>—</td>
+<td><a class="src-link" href="https://www.nrl.com/draw/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="nrl_ladder nrl ladder official">
+<td><strong>Nrl Ladder</strong><br><span class="muted">nrl_ladder</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">798</td><td>—</td>
+<td><a class="src-link" href="https://www.nrl.com/ladder/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="pdc_order_of_merit pdc order of merit official">
+<td><strong>Pdc Order Of Merit</strong><br><span class="muted">pdc_order_of_merit</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">1241747</td><td>—</td>
+<td><a class="src-link" href="https://www.pdc.tv/order-of-merit" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="pdc_tournaments pdc tournaments official">
+<td><strong>Pdc Tournaments</strong><br><span class="muted">pdc_tournaments</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">1241747</td><td>—</td>
+<td><a class="src-link" href="https://www.pdc.tv/tournaments" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="pgatour_schedule pgatour schedule official">
+<td><strong>Pgatour Schedule</strong><br><span class="muted">pgatour_schedule</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">536387</td><td>—</td>
+<td><a class="src-link" href="https://www.pgatour.com/schedule" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="superleague_fixtures superleague fixtures official">
+<td><strong>Superleague Fixtures</strong><br><span class="muted">superleague_fixtures</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge warn">0</span></td>
+<td class="mono">0</td><td>HTTP 500</td>
+<td><a class="src-link" href="https://www.superleague.co.uk/fixtures" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="superleague_home superleague home official">
+<td><strong>Superleague Home</strong><br><span class="muted">superleague_home</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">86902</td><td>—</td>
+<td><a class="src-link" href="https://www.superleague.co.uk/" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wst_calendar wst calendar official">
+<td><strong>Wst Calendar</strong><br><span class="muted">wst_calendar</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">6169</td><td>—</td>
+<td><a class="src-link" href="https://www.wst.tv/calendar" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wst_matches wst matches official">
+<td><strong>Wst Matches</strong><br><span class="muted">wst_matches</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">181116</td><td>—</td>
+<td><a class="src-link" href="https://www.wst.tv/matches" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wst_rankings wst rankings official">
+<td><strong>Wst Rankings</strong><br><span class="muted">wst_rankings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">183267</td><td>—</td>
+<td><a class="src-link" href="https://www.wst.tv/rankings" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wta_rankings wta rankings official">
+<td><strong>Wta Rankings</strong><br><span class="muted">wta_rankings</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">1178016</td><td>—</td>
+<td><a class="src-link" href="https://www.wtatennis.com/rankings/singles" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wta_scores wta scores official">
+<td><strong>Wta Scores</strong><br><span class="muted">wta_scores</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">213612</td><td>—</td>
+<td><a class="src-link" href="https://www.wtatennis.com/scores" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="wta_tournaments wta tournaments official">
+<td><strong>Wta Tournaments</strong><br><span class="muted">wta_tournaments</span></td>
+<td>official</td><td>html</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">326518</td><td>—</td>
+<td><a class="src-link" href="https://www.wtatennis.com/tournaments" target="_blank" rel="noopener noreferrer">Open source</a></td></tr><tr data-search="olbg-golf olbg golf hub discovery">
+<td><strong>OLBG Golf hub</strong><br><span class="muted">olbg-golf</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">60470</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Golf/5" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.lpga.com/tournaments" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-volleyball olbg volleyball hub discovery">
+<td><strong>OLBG Volleyball hub</strong><br><span class="muted">olbg-volleyball</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">57087</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Volleyball/21" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.cev.eu/match-centres/" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-rugby-union olbg rugby union hub discovery">
+<td><strong>OLBG Rugby Union hub</strong><br><span class="muted">olbg-rugby-union</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">55574</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Rugby_Union/9" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.epcrugby.com/champions-cup/matches" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-cricket olbg cricket hub discovery">
+<td><strong>OLBG Cricket hub</strong><br><span class="muted">olbg-cricket</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">65363</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Cricket/7" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.icc-cricket.com/fixtures-results" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-snooker olbg snooker hub discovery">
+<td><strong>OLBG Snooker hub</strong><br><span class="muted">olbg-snooker</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">53084</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Snooker/8" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.wst.tv/matches" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-darts olbg darts hub discovery">
+<td><strong>OLBG Darts hub</strong><br><span class="muted">olbg-darts</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">64937</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Darts/15" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.pdc.tv/tournaments" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-baseball olbg baseball hub discovery">
+<td><strong>OLBG Baseball hub</strong><br><span class="muted">olbg-baseball</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">49419</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Baseball/12" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://statsapi.mlb.com/api/v1/schedule?sportId=1&amp;startDate=2026-10-24&amp;endDate=2026-11-05&amp;hydrate=team,linescore,probablePitcher,decisions" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-gaelic-sports olbg gaelic sports hub discovery">
+<td><strong>OLBG Gaelic Sports hub</strong><br><span class="muted">olbg-gaelic-sports</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">46560</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Gaelic_Football/25" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.gaa.ie/fixtures-results" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-greyhounds olbg greyhounds hub discovery">
+<td><strong>OLBG Greyhounds hub</strong><br><span class="muted">olbg-greyhounds</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">62907</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Greyhounds/28" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.gbgb.org.uk/racing/" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-tennis olbg tennis hub discovery">
+<td><strong>OLBG Tennis hub</strong><br><span class="muted">olbg-tennis</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">96298</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Tennis/3" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.wtatennis.com/rankings/singles" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-motor-racing olbg motor racing hub discovery">
+<td><strong>OLBG Motor Racing hub</strong><br><span class="muted">olbg-motor-racing</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">63921</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Motor_Racing/14" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.formula1.com/en/results/2026/drivers" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-handball olbg handball hub discovery">
+<td><strong>OLBG Handball hub</strong><br><span class="muted">olbg-handball</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">56556</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Handball/20" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://ehfcl.eurohandball.com/men/2026-27/standings/" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-ice-hockey olbg ice hockey hub discovery">
+<td><strong>OLBG Ice Hockey hub</strong><br><span class="muted">olbg-ice-hockey</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">67238</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Ice_Hockey/13" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://api-web.nhle.com/v1/standings/now" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-basketball olbg basketball hub discovery">
+<td><strong>OLBG Basketball hub</strong><br><span class="muted">olbg-basketball</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">93250</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Basketball/4" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.nba.com/games?date=2026-10-27" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr><tr data-search="olbg-rugby-league olbg rugby league hub discovery">
+<td><strong>OLBG Rugby League hub</strong><br><span class="muted">olbg-rugby-league</span></td>
+<td>discovery</td><td>discovery</td>
+<td><span class="badge ok">200</span></td>
+<td class="mono">44620</td><td>—</td>
+<td><a class="src-link" href="https://www.olbg.com/betting-tips/Rugby_League/10" target="_blank" rel="noopener noreferrer">Open source</a> <a class="src-link" href="https://www.nrl.com/draw/" target="_blank" rel="noopener noreferrer">Official directory</a></td></tr></tbody></table></div>
+<section class="prose"><h3>Official sport directories</h3><p><a class="src-link" href="https://www.lpga.com/tournaments" target="_blank" rel="noopener noreferrer">Golf</a>; <a class="src-link" href="https://www.cev.eu/match-centres/" target="_blank" rel="noopener noreferrer">Volleyball</a>; <a class="src-link" href="https://www.epcrugby.com/champions-cup/matches" target="_blank" rel="noopener noreferrer">Rugby Union</a>; <a class="src-link" href="https://www.icc-cricket.com/fixtures-results" target="_blank" rel="noopener noreferrer">Cricket</a>; <a class="src-link" href="https://www.wst.tv/matches" target="_blank" rel="noopener noreferrer">Snooker</a>; <a class="src-link" href="https://www.pdc.tv/tournaments" target="_blank" rel="noopener noreferrer">Darts</a>; <a class="src-link" href="https://statsapi.mlb.com/api/v1/schedule?sportId=1&amp;startDate=2026-10-24&amp;endDate=2026-11-05&amp;hydrate=team,linescore,probablePitcher,decisions" target="_blank" rel="noopener noreferrer">Baseball</a>; <a class="src-link" href="https://www.gaa.ie/fixtures-results" target="_blank" rel="noopener noreferrer">Gaelic Sports</a>; <a class="src-link" href="https://www.gbgb.org.uk/racing/" target="_blank" rel="noopener noreferrer">Greyhounds</a>; <a class="src-link" href="https://www.wtatennis.com/rankings/singles" target="_blank" rel="noopener noreferrer">Tennis</a>; <a class="src-link" href="https://www.formula1.com/en/results/2026/drivers" target="_blank" rel="noopener noreferrer">Motor Racing</a>; <a class="src-link" href="https://ehfcl.eurohandball.com/men/2026-27/standings/" target="_blank" rel="noopener noreferrer">Handball</a>; <a class="src-link" href="https://api-web.nhle.com/v1/standings/now" target="_blank" rel="noopener noreferrer">Ice Hockey</a>; <a class="src-link" href="https://www.nba.com/games?date=2026-10-27" target="_blank" rel="noopener noreferrer">Basketball</a>; <a class="src-link" href="https://www.nrl.com/draw/" target="_blank" rel="noopener noreferrer">Rugby League</a>.</p></section></main>
+<footer class="footer"><div class="wrap">
+<p><strong>OLBG desk</strong> · snapshot 2026-10-27T05:40:57Z · 193 captured events · 61 written picks.</p>
+<p>Independent research, not OLBG advice and not a bookmaker offer. Blank fields are deliberate. Check the linked official source and the live market before relying on anything here. Only bet where lawful and only what you can afford to lose.</p>
+<p><a href="data/desk-20261027.json">Download the full dataset (JSON)</a> · <a href="research-desk/index.html">Previous audit desk</a> · <a href="evidence-lab/index.html">Evidence lab</a></p>
+</div></footer>
+<script src="assets/desk.js" defer></script>
+</body></html>
