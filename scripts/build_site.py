@@ -199,6 +199,13 @@ def page_index():
     Kielce v Kolstad the crowd is on a tie against a side with a 7-0-0 head-to-head record. Those rows are published as
     counter-consensus reads, not copied.</li>
   </ul>
+  <div class="sibling">
+    <b>A second desk exists in this repository and its numbers differ.</b> Session <code>438bbe65</code>'s pipeline builds a
+    JavaScript-rendered line desk from its own harvest: 190 events, 223 markets and 63 picks against the 112 listings and 53 picks
+    published here. Its page renders "Loading the line desk…" until a script fetch completes, which is the failure this site is built to
+    avoid, and its rows cannot be traced from this branch to a capture this branch re-read, so they are not folded into our counts.
+    Both are validated in CI by their own gates; nothing is quietly merged to make a bigger number.
+  </div>
   <p><a class="btn ghost" href="flagged.html">Open the full review queue</a></p>
 </section>
 """, "OLBG multi-sport research desk: originated lines, confidence bands and written predictions.")
