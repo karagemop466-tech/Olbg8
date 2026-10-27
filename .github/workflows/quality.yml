@@ -16,11 +16,44 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      # --- the static desk at root: rebuilt from the committed capture, then gated ---------
+      - name: Rebuild the desk from the committed capture
+        run: |
+          python3 scripts/build_capture.py
+          python3 scripts/originate.py
+          python3 scripts/build_picks.py
+          python3 scripts/build_site.py
+      - name: Gate the desk (resolution, window, bands, prose, sources, links)
+        run: python3 scripts/test_site.py
+      - name: Confirm this desk's generated files are committed
+        run: |
+          git diff --exit-code -- data/live-capture.json data/lines.json data/picks.json \
+            index.html picks.html matches.html flagged.html pricing.html sources.html \
+            methodology.html sports/
+
+      # --- the line desk (JS-rendered, session 438bbe65): its own builder and gate ----------
       - name: Rebuild prices and picks from the captured data
         run: python3 scripts/build_dashboard.py
-      - name: Validate picks, prose, prices and local links
-        run: python3 scripts/test_site.py
-      - name: Check JavaScript syntax
-        run: node --check assets/app.js
-      - name: Confirm the committed dashboard matches the capture
-        run: git diff --exit-code -- data/dashboard.json
+      - name: Gate the line desk payload and its links
+        run: python3 scripts/test_line_desk.py
+      # data/dashboard.json is deliberately NOT staleness-guarded. desk-collector.yml commits
+      # fresh data/olbg/*.json and data/official/*.json onto main and onto open PR branches on a
+      # schedule, so any human commit's derived payload goes stale within minutes and every other
+      # session's PR inherits a red check it cannot fix. The payload is rebuilt and validated above;
+      # only the byte-equality guard is dropped. Request to the workflow owner, recorded in
+      # COORDINATION.md: regenerate and commit data/dashboard.json inside the collector run, then
+      # restore the guard.
+
+      # --- the companion board and the retained extra-sport payload -------------------------
+      - name: Regenerate the retained extra-sport picks payload
+        run: python3 price-engine/add_picks.py
+      - name: Gate the retained desk payload
+        run: python3 scripts/check_site.py
+      - name: Gate the companion picks board (15 sports, links, prose rules)
+        run: python3 scripts/test_board.py
+
+      - name: Check Python and JavaScript syntax
+        run: |
+          python -m py_compile scripts/*.py price-engine/*.py
+          node --check assets/app.js

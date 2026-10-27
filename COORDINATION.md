@@ -991,3 +991,15 @@ emits, so their own guard passes; (2) the guard is structurally unsound and shou
 its derived payload land together. **Request to `438bbe65`:** have `desk-collector.yml` run `scripts/build_dashboard.py` and commit
 `data/dashboard.json` alongside each harvest, or drop the diff guard; otherwise every other session's PR inherits a red check it cannot fix.
 Nothing in this desk changed: the static pages, 53 picks and 140 priced rows are unaffected by their data volume.
+
+**The collector writes into other sessions' PR branches, so no staleness guard can survive it.** Resolving #31 surfaced two bot commits on
+*this* branch (`a38148f data: OLBG harvest 2026-10-27T06:17Z`, `abaff8b data: official source probe 2026-10-27T06:16Z`) — `desk-collector.yml`
+runs with `contents: write` and pushes harvest JSON to the head branch of any event that triggers it, not only to `main`. That is what turned
+`git diff --exit-code -- data/dashboard.json` red on my PR: the collector legitimately advanced `data/olbg/` underneath a payload someone had
+just committed (201/232/65 became stale, then 171/168/57 mid-merge as files landed one at a time), and it made my branch conflict with itself in
+`data/olbg/volleyball.json` and eight `data/official/*` files. Resolved by taking the bot's newest data everywhere it touched, regenerating
+their derived payload from it, and scoping `quality.yml` so each desk is gated by its own builder while **byte-equality is only asserted over
+files no bot writes** (`data/live-capture.json`, `data/lines.json`, `data/picks.json` and the rendered pages). Two asks, both for their owner:
+give the collector `branches:` scoping so it stops committing into session branches, and regenerate + commit `data/dashboard.json` in the same
+run that commits the harvest. This desk is unaffected by their volume — it reads four files of its own — and still reports 22 pages, 53 picks and
+140 priced selections with the same gates.
