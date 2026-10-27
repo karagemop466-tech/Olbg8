@@ -8,9 +8,16 @@ Last updated: 2026-10-26 UTC. This board records work across the repository and 
 |---|---|---|---|
 | Raw-source fetch workflow and sport-ID probe | done | `arena-f68c2262` | `.github/workflows/fetch-raw.yml`, `.gitignore` |
 | Audited static dashboard, source ledger, pricing playbook, tests, integration and publication | done | `53f44a7c` | `README.md`, `index.html`, `review.html`, `methodology.html`, `sports/*.html`, `assets/*`, `data/events.json`, `data/sports.json`, `scripts/build.py`, `scripts/check.py`, `.github/workflows/quality.yml` |
-| Verified facts and written predictions | needs review | unassigned | Future `content/predictions/*`; blocked until official facts and current odds are confirmed |
+| OLBG live discovery for all 15 sports (today/upcoming events) | in progress | `dcc71481` | `data/olbg-discovery.json`, `data/olbg-events.json` |
+| Official-source verification of events, form, stats, availability | in progress | `dcc71481` | `data/official-verification.json`, source links in tables |
+| Line origination (moneyline/handicap/total), confidence, odds window -250 to +10000 | in progress | `dcc71481` | `data/lines.json` |
+| Unique written predictions, 5-10 per sport, 30+ words each | in progress | `dcc71481` | `data/predictions.json` |
+| Clean dashboard site: landing page + category subpages, table format | in progress | `dcc71481` | `index.html`, `sports/*.html`, `assets/`, `picks.html`, `flagged.html` |
+| PR to main, GitHub Pages deploy confirmation | unassigned | `dcc71481` | shared outputs |
 
 ## Session log
+
+- 2026-10-27 — Session `dcc71481` (branch `arena/dcc71481-olbg8`) claims the prediction and site scope above on top of the merged root dashboard state. All sessions' prior root files are preserved; this session adds new data files and rewrites the root site as the publication payload.
 
 - 2026-10-26 — Session `53f44a7c` started from commit `797e50d`, where only `README.md` existed, created a coordination claim, and pushed it immediately on the Arena-fixed branch `arena/53f44a7c-olbg8`.
 - 2026-10-26 — Session `arena-f68c2262` independently started from the same empty state and later merged PR #1 to `main`. Its probe established IDs: Tennis 3, Basketball 4, Golf 5, Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13, Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Hurling 26, Greyhounds 28. OLBG has no standalone “Gaelic Sports” category; coverage requires Gaelic Football plus Hurling.

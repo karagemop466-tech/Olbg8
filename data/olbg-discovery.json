@@ -1,0 +1,272 @@
+{
+  "schema": "olbg-discovery/v1",
+  "capturedUtc": "2026-10-27T00:00:00Z",
+  "note": "Events harvested from OLBG sport hub pages. Times shown by OLBG are UK local; the UK is on GMT (UTC+0) after 25 Oct 2026, so displayed times are stored as UTC. Outright/tournament markets are listed for completeness but excluded from the match-pick quota. Snooker and Greyhounds returned no tips at capture time.",
+  "sports": [
+    {
+      "key": "tennis",
+      "label": "Tennis",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Tennis/3",
+      "official_url": "https://www.atptour.com/en/scores/current",
+      "official_name": "ATP Tour official scores and schedules",
+      "official_alt": "https://www.wtatennis.com/tournaments",
+      "official_alt_name": "WTA official tournaments",
+      "events": [
+        {"event_id": "902172", "event": "Leylah Fernandez vs Himeno Sakatsume", "market": "Win Match", "olbg_selection": "Leylah Fernandez", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T02:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172"},
+        {"event_id": "902189", "event": "Lilli Tagger vs Venus Williams", "market": "Win Match", "olbg_selection": "Lilli Tagger", "tip_share": "50%", "tips": "4/8", "start_utc": "2026-10-27T03:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189"},
+        {"event_id": "902177", "event": "Naomi Osaka vs Jasmine Paolini", "market": "Win Match", "olbg_selection": "Naomi Osaka", "tip_share": "100%", "tips": "4/4", "start_utc": "2026-10-27T04:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177"},
+        {"event_id": "902238", "event": "Alejandro Tabilo vs Rafael Jodar", "market": "Win Match", "olbg_selection": "Rafael Jodar", "tip_share": "67%", "tips": "4/6", "start_utc": "2026-10-27T09:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238"},
+        {"event_id": "902232", "event": "Stan Wawrinka vs Jiri Lehecka", "market": "Win Match", "olbg_selection": "Stan Wawrinka", "tip_share": "50%", "tips": "4/8", "start_utc": "2026-10-27T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232"},
+        {"event_id": "902322", "event": "Hubert Hurkacz vs Zizou Bergs", "market": "Win Match", "olbg_selection": "Hubert Hurkacz", "tip_share": "100%", "tips": "3/3", "start_utc": "2026-10-27T07:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322"},
+        {"event_id": "902252", "event": "Tommy Paul vs Andrey Rublev", "market": "Win Match", "olbg_selection": "Andrey Rublev", "tip_share": "75%", "tips": "3/4", "start_utc": "2026-10-27T08:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252"},
+        {"event_id": "902210", "event": "Cameron Norrie vs Francisco Cerundolo", "market": "Win Match", "olbg_selection": "Cameron Norrie", "tip_share": "60%", "tips": "3/5", "start_utc": "2026-10-27T11:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210"},
+        {"event_id": "902187", "event": "Polina Kudermetova vs Janice Tjen", "market": "Win Match", "olbg_selection": "Janice Tjen", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T02:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3?event_id=902187"},
+        {"event_id": "902409", "event": "Nuno Borges vs Casper Ruud", "market": "Win Match", "olbg_selection": "Casper Ruud", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T07:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409"},
+        {"event_id": "902240", "event": "Alex Michelsen vs Botic Van De Zandschulp", "market": "Win Match", "olbg_selection": "Alex Michelsen", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T10:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240"},
+        {"event_id": "902213", "event": "Karen Khachanov vs Carlos Alcaraz", "market": "Win Match", "olbg_selection": "Karen Khachanov", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T10:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213"},
+        {"event_id": "902182", "event": "Antonia Ruzic vs Claire Liu", "market": "Win Match", "olbg_selection": "Antonia Ruzic", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T02:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Antonia_Ruzic_vs_Claire_Liu/3?event_id=902182"},
+        {"event_id": "902233", "event": "Novak Djokovic vs Ugo Humbert", "market": "Win Match", "olbg_selection": "Novak Djokovic", "tip_share": "80%", "tips": "4/5", "start_utc": "2026-10-28T06:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233"}
+      ]
+    },
+    {
+      "key": "volleyball",
+      "label": "Volleyball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Volleyball/21",
+      "official_url": "https://www.cev.eu/match-centres/",
+      "official_name": "CEV European Volleyball Confederation match centres",
+      "official_alt": "https://www.tvf.org.tr/",
+      "official_alt_name": "Turkish Volleyball Federation official site",
+      "events": [
+        {"event_id": "37075", "event": "Marignano W vs Bergamo W", "market": "Win Match", "olbg_selection": "Bergamo W", "tip_share": "71%", "tips": "5/7", "start_utc": "2026-10-27T15:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075"},
+        {"event_id": "37126", "event": "TFL Altekma vs Halkbank Ankara", "market": "Win Match", "olbg_selection": "Halkbank Ankara", "tip_share": "80%", "tips": "4/5", "start_utc": "2026-10-27T08:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126"},
+        {"event_id": "37121", "event": "Ziraat Bankasi vs Gaziantep Genclik Spor", "market": "Win Match", "olbg_selection": "Ziraat Bankasi", "tip_share": "100%", "tips": "4/4", "start_utc": "2026-10-27T12:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121"},
+        {"event_id": "37081", "event": "Uni Opole W vs Palac Bydgoszcz W", "market": "Win Match", "olbg_selection": "Uni Opole W", "tip_share": "67%", "tips": "4/6", "start_utc": "2026-10-27T15:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081"},
+        {"event_id": "37124", "event": "Istanbul Genclik Spor vs IBB Spor", "market": "Win Match", "olbg_selection": "IBB Spor", "tip_share": "60%", "tips": "3/5", "start_utc": "2026-10-27T07:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124"},
+        {"event_id": "37129", "event": "VaLePa vs AC Oulu", "market": "Win Match", "olbg_selection": "VaLePa", "tip_share": "75%", "tips": "3/4", "start_utc": "2026-10-27T12:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129"},
+        {"event_id": "37103", "event": "Suzano Volei vs Goias Volei", "market": "Win Match", "olbg_selection": "Suzano Volei", "tip_share": "75%", "tips": "3/4", "start_utc": "2026-10-27T17:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103"},
+        {"event_id": "37104", "event": "Praia Clube vs Sao Jose", "market": "Win Match", "olbg_selection": "Praia Clube", "tip_share": "75%", "tips": "3/4", "start_utc": "2026-10-27T20:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104"},
+        {"event_id": "37122", "event": "Sungurlu Bld vs Galatasaray", "market": "Win Match", "olbg_selection": "Galatasaray", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T09:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21?event_id=37122"},
+        {"event_id": "37125", "event": "Fenerbahce vs Alanya Bld", "market": "Win Match", "olbg_selection": "Alanya Bld", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T12:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21?event_id=37125"},
+        {"event_id": "37131", "event": "Volleys Borken W vs Vilsbiburg W", "market": "Win Match", "olbg_selection": "Vilsbiburg W", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T13:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131"},
+        {"event_id": "37123", "event": "Sultanbeyli Bld vs Gebze Genclik", "market": "Win Match", "olbg_selection": "Sultanbeyli Bld", "tip_share": "n/a", "tips": "n/a", "start_utc": "2026-10-27T09:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sultanbeyli_Bld_vs_Gebze_Genclik/21?event_id=37123"},
+        {"event_id": "37076", "event": "Conegliano W vs Vallefoglia W", "market": "Win Match", "olbg_selection": "Vallefoglia W", "tip_share": "60%", "tips": "6/10", "start_utc": "2026-10-28T15:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"},
+        {"event_id": "37082", "event": "Budowlani Lodz W vs Radomka Radom W", "market": "Win Match", "olbg_selection": "Budowlani Lodz W", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-28T12:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082"},
+        {"event_id": "37083", "event": "Mielec W vs Rzeszow W", "market": "Win Match", "olbg_selection": "Rzeszow W", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-28T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083"}
+      ]
+    },
+    {
+      "key": "rugby-union",
+      "label": "Rugby Union",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+      "official_url": "https://prod2.lnr.fr/calendrier-et-resultats",
+      "official_name": "LNR (Top 14 / Pro D2) official calendar and results",
+      "official_alt": "https://www.unitedrugby.com/",
+      "official_alt_name": "United Rugby Championship official site",
+      "events": [
+        {"event_id": "609605", "event": "Dax v Provence", "market": "To Win", "olbg_selection": "Dax", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-29T16:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605"},
+        {"event_id": "609604", "event": "Colomiers v Agen", "market": "To Win", "olbg_selection": "Colomiers", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-30T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"},
+        {"event_id": "609603", "event": "Montauban v Narbonne", "market": "To Win", "olbg_selection": "Montauban", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-30T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603"},
+        {"event_id": "609598", "event": "Oyonnax v Soyaux Angouleme", "market": "To Win", "olbg_selection": "Oyonnax", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-30T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598"},
+        {"event_id": "609599", "event": "Beziers v Grenoble", "market": "To Win", "olbg_selection": "Grenoble", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-30T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599"},
+        {"event_id": "609600", "event": "Nissa v Aurillac", "market": "To Win", "olbg_selection": "Nissa", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-30T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600"},
+        {"event_id": "609590", "event": "Glasgow Warriors v Lions", "market": "To Win", "olbg_selection": "Glasgow Warriors", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-30T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590"},
+        {"event_id": "609584", "event": "Connacht v Leinster", "market": "Handicap", "olbg_selection": "Connacht +3.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-30T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584"},
+        {"event_id": "609602", "event": "Biarritz v Valence Romans", "market": "To Win", "olbg_selection": "Biarritz", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-30T16:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602"},
+        {"event_id": "609588", "event": "Stormers v Ulster", "market": "Handicap", "olbg_selection": "Ulster +12.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-31T08:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588"},
+        {"event_id": "609586", "event": "Munster v Sharks", "market": "Handicap", "olbg_selection": "Munster -6.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-31T13:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586"},
+        {"event_id": "609611", "event": "Pau v Toulouse", "market": "To Win", "olbg_selection": "Pau", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-11-01T15:05:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611"}
+      ]
+    },
+    {
+      "key": "cricket",
+      "label": "Cricket",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Cricket/7",
+      "official_url": "https://www.icc-cricket.com/fixtures-results",
+      "official_name": "ICC official fixtures and results",
+      "official_alt": "https://www.cricket.com.au/fixtures",
+      "official_alt_name": "Cricket Australia official fixtures",
+      "events": [
+        {"event_id": "188852", "event": "New Zealand vs India 3rd T20 Match", "market": "Win Match", "olbg_selection": "India", "tip_share": "71%", "tips": "35/49", "start_utc": "2026-10-27T03:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"},
+        {"event_id": "188854", "event": "Namibia vs Ireland 3rd ODI", "market": "Win Match", "olbg_selection": "Ireland", "tip_share": "69%", "tips": "22/32", "start_utc": "2026-10-27T03:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"},
+        {"event_id": "188868", "event": "Pakistan vs Sri Lanka One Day Match", "market": "Win Match", "olbg_selection": "Pakistan", "tip_share": "71%", "tips": "22/31", "start_utc": "2026-10-27T04:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"},
+        {"event_id": "188872", "event": "Afghanistan vs Zimbabwe 1st T20 Match", "market": "Win Match", "olbg_selection": "Afghanistan", "tip_share": "94%", "tips": "15/16", "start_utc": "2026-10-27T10:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872"},
+        {"event_id": "188864", "event": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash", "market": "Win Match", "olbg_selection": "Hobart Hurricanes W", "tip_share": "67%", "tips": "4/6", "start_utc": "2026-10-29T04:10:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864"},
+        {"event_id": "188876", "event": "Auckland vs Canterbury One Day Match", "market": "Win Match", "olbg_selection": "Canterbury", "tip_share": "75%", "tips": "3/4", "start_utc": "2026-10-27T17:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876"},
+        {"event_id": "188865", "event": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash", "market": "Win Match", "olbg_selection": "Sydney Sixers W", "tip_share": "60%", "tips": "3/5", "start_utc": "2026-10-30T04:10:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865"},
+        {"event_id": "188835", "event": "South Africa vs Australia", "market": "Win Match", "olbg_selection": "South Africa", "tip_share": "38%", "tips": "3/8", "start_utc": "2026-10-31T04:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835"},
+        {"event_id": "188878", "event": "Wellington vs Otago One Day Match", "market": "Win Match", "olbg_selection": "Wellington", "tip_share": "50%", "tips": "2/4", "start_utc": "2026-10-27T17:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878"},
+        {"event_id": "188877", "event": "Central Districts vs Northern Districts One Day Match", "market": "Win Match", "olbg_selection": "Northern Districts", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T17:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877"},
+        {"event_id": "188874", "event": "Lions vs Eastern Storm T20", "market": "Win Match", "olbg_selection": "Lions", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-28T12:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874"},
+        {"event_id": "188871", "event": "Bangladesh vs West Indies", "market": "Win Match", "olbg_selection": "West Indies", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-31T23:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871"}
+      ]
+    },
+    {
+      "key": "ice-hockey",
+      "label": "Ice Hockey",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+      "official_url": "https://www.nhl.com/schedule",
+      "official_name": "NHL official schedule and game centres",
+      "official_alt": "https://liiga.fi/",
+      "official_alt_name": "Finnish SM-liiga official site",
+      "events": [
+        {"event_id": "200081", "event": "Kalpa vs Sport", "league": "Finland SM Liiga", "market": "Money Line", "olbg_selection": "Kalpa", "tip_share": "100%", "tips": "5/5", "start_utc": "2026-10-27T12:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081"},
+        {"event_id": "200082", "event": "IF Malmo Redhawks vs Linkoping HC", "league": "Swedish Hockey League", "market": "Money Line", "olbg_selection": "IF Malmo Redhawks", "tip_share": "100%", "tips": "3/3", "start_utc": "2026-10-27T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082"},
+        {"event_id": "200083", "event": "Frolunda HC vs Rogle BK", "league": "Swedish Hockey League", "market": "Money Line", "olbg_selection": "Frolunda HC", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083"},
+        {"event_id": "200100", "event": "Kolner Haie vs Adler Mannheim", "league": "Germany Eishockey Liga", "market": "Money Line", "olbg_selection": "Adler Mannheim", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100"},
+        {"event_id": "200108", "event": "CLB Blue Jackets @ PHI Flyers", "league": "NHL", "market": "Money Line", "olbg_selection": "PHI Flyers", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-27T19:07:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108"},
+        {"event_id": "200104", "event": "BOS Bruins @ CAR Hurricanes", "league": "NHL", "market": "Puck Line", "olbg_selection": "BOS Bruins +1.50", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T20:07:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104"},
+        {"event_id": "200098", "event": "Herning Blue Fox vs Rodovre Mighty Bulls", "league": "Danish Metal Ligaen", "market": "Puck Line", "olbg_selection": "Rodovre Mighty Bulls +3.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098"},
+        {"event_id": "200146", "event": "Fehervar AV19 vs Milano HC", "league": "Austria EHL", "market": "Puck Line", "olbg_selection": "Fehervar AV19 -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:15:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146"},
+        {"event_id": "200116", "event": "Fribourg Gotteron vs Davos", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "Fribourg Gotteron -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116"},
+        {"event_id": "200122", "event": "Bern vs ZSC Lions", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "ZSC Lions -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122"},
+        {"event_id": "200115", "event": "EHC Kloten vs HC Ajoie", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "EHC Kloten -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115"},
+        {"event_id": "200117", "event": "Zug vs Lugano", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "Lugano +1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117"},
+        {"event_id": "200118", "event": "Lausanne HC vs SCL Tigers", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "Lausanne HC -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118"},
+        {"event_id": "200119", "event": "Ambri Piotta vs EHC Biel", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "Ambri Piotta -1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119"},
+        {"event_id": "200123", "event": "Rapperswil Jona Lakers vs Servette GE", "league": "Switzerland NLA", "market": "Puck Line", "olbg_selection": "Servette GE +1.50", "tip_share": "100%", "tips": "1/1", "start_utc": "2026-10-27T14:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123"}
+      ]
+    },
+    {
+      "key": "basketball",
+      "label": "Basketball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4",
+      "official_url": "https://www.euroleaguebasketball.net/en/euroleague/",
+      "official_name": "EuroLeague official site",
+      "official_alt": "https://www.nba.com/games",
+      "official_alt_name": "NBA official games and scores",
+      "events": [
+        {"event_id": "536214", "event": "Seoul Knights vs KCC Egis", "league": "Korea KBL", "market": "Money Line", "olbg_selection": "Seoul Knights", "tip_share": "80%", "tips": "4/5", "start_utc": "2026-10-27T06:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214"},
+        {"event_id": "536176", "event": "BC Dubai vs Paris", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "BC Dubai", "tip_share": "57%", "tips": "4/7", "start_utc": "2026-10-27T12:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176"},
+        {"event_id": "536174", "event": "Bayern Munich vs Barcelona", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Bayern Munich", "tip_share": "60%", "tips": "3/5", "start_utc": "2026-10-27T15:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174"},
+        {"event_id": "536177", "event": "Panathinaikos vs Milano", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Panathinaikos", "tip_share": "63%", "tips": "5/8", "start_utc": "2026-10-27T15:15:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177"},
+        {"event_id": "536179", "event": "Valencia vs Fenerbahce", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Fenerbahce", "tip_share": "67%", "tips": "4/6", "start_utc": "2026-10-27T15:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179"},
+        {"event_id": "536235", "event": "UCAM Murcia vs Peristeri", "league": "Basketball Champions League", "market": "Money Line", "olbg_selection": "UCAM Murcia", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T15:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4?event_id=536235"},
+        {"event_id": "536178", "event": "Baskonia vs Real Madrid", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Baskonia", "tip_share": "50%", "tips": "3/6", "start_utc": "2026-10-27T16:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178"},
+        {"event_id": "536218", "event": "Lietkabelis vs Ratiopharm Ulm", "league": "EuroCup", "market": "Money Line", "olbg_selection": "Lietkabelis", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T13:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218"},
+        {"event_id": "536217", "event": "Frankfurt Skyliners vs U BT Cluj Napoca", "league": "EuroCup", "market": "Pointspread", "olbg_selection": "Frankfurt Skyliners +1.50", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T14:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217"},
+        {"event_id": "536175", "event": "Crvena Zvezda vs Maccabi Tel Aviv", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Crvena Zvezda", "tip_share": "50%", "tips": "2/4", "start_utc": "2026-10-27T15:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175"},
+        {"event_id": "536222", "event": "Aris vs Cedevita Olimpija", "league": "EuroCup", "market": "Money Line", "olbg_selection": "Aris", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-28T13:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4?event_id=536222"},
+        {"event_id": "536180", "event": "Besiktas vs Olympiacos", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Besiktas", "tip_share": "67%", "tips": "2/3", "start_utc": "2026-10-28T13:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180"},
+        {"event_id": "536181", "event": "Asvel Lyon Villeurbanne vs Partizan", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Partizan", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-28T15:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181"},
+        {"event_id": "536183", "event": "Virtus Bologna vs Zalgiris", "league": "EuroLeague", "market": "Money Line", "olbg_selection": "Virtus Bologna", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-28T15:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183"}
+      ]
+    },
+    {
+      "key": "baseball",
+      "label": "Baseball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Baseball/12",
+      "official_url": "https://www.mlb.com/schedule",
+      "official_name": "MLB official schedule",
+      "official_alt": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-26&endDate=2026-11-05&hydrate=team,linescore,probablePitcher",
+      "official_alt_name": "MLB StatsAPI schedule",
+      "events": [
+        {"event_id": "160799", "event": "MIL Brewers @ TB Rays", "league": "MLB", "market": "Money Line", "olbg_selection": "MIL Brewers", "tip_share": "100%", "tips": "2/2", "start_utc": "2026-10-27T21:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799"}
+      ]
+    },
+    {
+      "key": "handball",
+      "label": "Handball",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Handball/20",
+      "official_url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+      "official_name": "EHF Champions League official matches",
+      "official_alt": "https://ehfcl.eurohandball.com/men/2026-27/standings/",
+      "official_alt_name": "EHF Champions League official standings",
+      "events": [
+        {"event_id": "12197", "event": "VasterasIrsta HF W vs Skuru IK W", "market": "Money Line", "olbg_selection": "VasterasIrsta HF (W)", "tip_share": "50%", "tips": "2/4", "start_utc": "2026-10-27T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197"},
+        {"event_id": "12196", "event": "OV Helsingborg HK W vs Skovde HF W", "market": "Money Line", "olbg_selection": "Skovde HF (W)", "tip_share": "50%", "tips": "2/4", "start_utc": "2026-10-27T14:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196"},
+        {"event_id": "12136", "event": "SC Magdeburg vs HC Kriens Luzern", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "64%", "tips": "9/14", "start_utc": "2026-10-28T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136"},
+        {"event_id": "12130", "event": "HC Vardar vs MT Melsungen", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "62%", "tips": "8/13", "start_utc": "2026-10-28T13:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130"},
+        {"event_id": "12138", "event": "Wisla Plock vs Nantes", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "73%", "tips": "8/11", "start_utc": "2026-10-28T13:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138"},
+        {"event_id": "12132", "event": "KS Kielce vs Kolstad", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "64%", "tips": "7/11", "start_utc": "2026-10-28T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132"},
+        {"event_id": "12134", "event": "PSG Handball vs Aalborg Handbold", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "78%", "tips": "7/9", "start_utc": "2026-10-28T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134"},
+        {"event_id": "12135", "event": "RK Celje vs RK Zagreb", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "75%", "tips": "6/8", "start_utc": "2026-10-28T15:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135"},
+        {"event_id": "12127", "event": "FC Porto vs Veszprem", "market": "Money Line", "olbg_selection": "Tie", "tip_share": "56%", "tips": "5/9", "start_utc": "2026-10-28T13:45:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127"}
+      ]
+    },
+    {
+      "key": "gaelic-sports",
+      "label": "Gaelic Sports",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+      "official_url": "https://www.gaa.ie/fixtures-results",
+      "official_name": "GAA official fixtures and results",
+      "official_alt": "https://ladiesgaelic.ie/fixtures/",
+      "official_alt_name": "Ladies Gaelic Football official fixtures",
+      "events": [
+        {"event_id": "3531", "event": "Kanturk v Eire Og Cor", "market": "To Win (handicap selection)", "olbg_selection": "Eire Og Cor +0.50", "tip_share": "100%", "tips": "6/6", "start_utc": "2026-11-01T09:00:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531"},
+        {"event_id": "3537", "event": "Fr Caseys v Kildimo Pallaskenry", "market": "To Win (handicap selection)", "olbg_selection": "Kildimo Pallaskenry +3.50", "tip_share": "71%", "tips": "5/7", "start_utc": "2026-11-01T10:30:00Z", "type": "fixture", "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537"}
+      ]
+    },
+    {
+      "key": "golf",
+      "label": "Golf",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Golf/5",
+      "official_url": "https://www.pgatour.com/schedule",
+      "official_name": "PGA TOUR official schedule",
+      "official_alt": "https://www.lpga.com/tournaments",
+      "official_alt_name": "LPGA official tournament schedule",
+      "events": [
+        {"event_id": "101913", "event": "Maybank Championship", "market": "Win Tournament", "olbg_selection": "Lottie Woad", "tip_share": "50%", "tips": "1/2", "start_utc": "2026-11-01T06:45:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913"},
+        {"event_id": "101915", "event": "Mexico Open", "market": "Win Tournament", "olbg_selection": "Wyndham Clark", "tip_share": "50%", "tips": "1/2", "start_utc": "2026-11-01T17:45:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"},
+        {"event_id": "101914", "event": "Simmons Bank Championship", "market": "Win Tournament", "olbg_selection": "Stewart Cink", "tip_share": "50%", "tips": "1/2", "start_utc": "2026-11-01T17:45:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914"}
+      ]
+    },
+    {
+      "key": "darts",
+      "label": "Darts",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Darts/15",
+      "official_url": "https://www.pdc.tv/tournaments",
+      "official_name": "PDC official tournaments",
+      "events": [
+        {"event_id": "32446", "event": "Players Championship 31", "market": "Win Tournament", "olbg_selection": "Nathan Aspinall", "tip_share": "25%", "tips": "2/8", "start_utc": "2026-10-28T08:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446"},
+        {"event_id": "26023", "event": "PDC World Championship 2027", "market": "Win Tournament", "olbg_selection": "Luke Littler", "tip_share": "61%", "tips": "22/36", "start_utc": "2027-01-03T12:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023"}
+      ]
+    },
+    {
+      "key": "motor-racing",
+      "label": "Motor Racing",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+      "official_url": "https://www.formula1.com/en/racing/2026",
+      "official_name": "Formula 1 official 2026 calendar",
+      "events": [
+        {"event_id": "914", "event": "Mexico City Grand Prix", "market": "Podium Finish", "olbg_selection": "Max Verstappen - Yes", "tip_share": "50%", "tips": "1/2", "start_utc": "2026-11-01T15:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914"},
+        {"event_id": "912", "event": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli", "market": "Win Tournament", "olbg_selection": "Max Verstappen", "tip_share": "57%", "tips": "4/7", "start_utc": "2026-12-06T08:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912"}
+      ]
+    },
+    {
+      "key": "rugby-league",
+      "label": "Rugby League",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_League/10",
+      "official_url": "https://www.nrl.com/draw/",
+      "official_name": "NRL official draw",
+      "official_alt": "https://www.superleague.co.uk/",
+      "official_alt_name": "Super League official site",
+      "events": [
+        {"event_id": "2695857", "event": "State of Origin 2027", "market": "Win Tournament", "olbg_selection": "New South Wales", "tip_share": "69%", "tips": "9/13", "start_utc": "2027-05-27T06:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857"},
+        {"event_id": "2801554", "event": "Super League 2027", "market": "Grand Final Winner", "olbg_selection": "Wigan Warriors", "tip_share": "50%", "tips": "2/4", "start_utc": "2027-10-02T13:00:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554"},
+        {"event_id": "2801600", "event": "NRL 2027", "market": "Grand Final Winner", "olbg_selection": "Penrith Panthers", "tip_share": "33%", "tips": "1/3", "start_utc": "2027-10-03T04:30:00Z", "type": "outright", "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600"}
+      ]
+    },
+    {
+      "key": "snooker",
+      "label": "Snooker",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Snooker/8",
+      "official_url": "https://www.wst.tv/matches",
+      "official_name": "World Snooker Tour official match list",
+      "official_alt": "https://www.wst.tv/calendar",
+      "official_alt_name": "World Snooker Tour official calendar",
+      "events": [],
+      "note": "OLBG returned \"No tips found.\" at capture time. No match events available to price."
+    },
+    {
+      "key": "greyhounds",
+      "label": "Greyhounds",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+      "official_url": "https://www.gbgb.org.uk/racing/",
+      "official_name": "GBGB official greyhound racing",
+      "official_alt": "https://www.gbgb.org.uk/results/",
+      "official_alt_name": "GBGB official results",
+      "events": [],
+      "note": "OLBG returned \"No tips found.\" at capture time. No race events available to price."
+    }
+  ]
+}
