@@ -103,6 +103,9 @@ def main() -> int:
         rows = list(dedup.values())
         status.append({"sport": sp["label"], "files": [f.name for f in files], "rows": len(rows)})
         all_rows.extend(rows)
+    if not all_rows:
+        print("FAILED: no OLBG captures found in pipeline/raw; refusing to overwrite the index")
+        return 1
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "olbg_feed.json").write_text(json.dumps({
         "captured_utc": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",

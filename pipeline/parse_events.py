@@ -94,6 +94,9 @@ def main() -> int:
         status.append({"file": p.name, "event": parsed["event"], "market_count": len(parsed["markets"]),
                        "selections": total})
         events.append(parsed)
+    if not events:
+        print("FAILED: no OLBG event captures found in pipeline/raw; refusing to overwrite the board")
+        return 1
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "olbg_events.json").write_text(json.dumps({"events": events}, indent=1), encoding="utf-8")
     for s in status:

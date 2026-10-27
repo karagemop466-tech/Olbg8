@@ -1,4 +1,4 @@
-name: Validate site before Pages
+name: Gate Pages on a verified build
 
 on:
   push:
@@ -16,14 +16,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild and verify
-        working-directory: pipeline
-        run: |
-          python3 parse_olbg.py
-          python3 parse_events.py
-          python3 extract_official.py
-          python3 build.py
-      - name: Regenerate site and check links
+      - name: Unit tests
+        run: python3 -m unittest discover -s pipeline/tests -v
+      - name: Regenerate and verify the site
         run: |
           python3 pipeline/site.py
           python3 pipeline/check.py

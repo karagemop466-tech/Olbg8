@@ -443,8 +443,9 @@ def build_flagged(desk: dict) -> str:
         f'''<tr><td>{e(p["sport_label"])}</td><td>{e(p["event_name"])}</td><td>{e(p["selection"])}</td>
 <td>{e(p["market"])}</td><td>{e("; ".join(p["flags"]))}</td>
 <td class="links"><a href="{e(p["olbg_url"])}" target="_blank" rel="noopener">OLBG</a></td></tr>''' for p in pick_flags)
+    label_of = {x["key"]: x["label"] for x in sports}
     src_rows = "".join(
-        f'''<tr><td>{e(sp["label"])}</td><td>{e(r["label"])}</td><td class="links"><a href="{e(r["url"])}" target="_blank" rel="noopener">{e(r["url"])}</a></td><td>Returned no usable payload at capture.</td></tr>'''
+        f'''<tr><td>{e(label_of.get(sp, sp))}</td><td>{e(r["label"])}</td><td class="links"><a href="{e(r["url"])}" target="_blank" rel="noopener">{e(r["url"])}</a></td><td>Returned no usable payload at capture.</td></tr>'''
         for sp, r in blocked)
     body = f'''
 <section class="hero compact">

@@ -16,19 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild the desk from the committed capture
-        working-directory: pipeline
-        run: |
-          python3 parse_olbg.py
-          python3 parse_events.py
-          python3 extract_official.py
-          python3 build.py
-      - name: Regenerate the site
-        run: python3 pipeline/site.py
       - name: Unit tests
         run: python3 -m unittest discover -s pipeline/tests -v
+      - name: Regenerate the site from the committed payload
+        run: python3 pipeline/site.py
       - name: Line-by-line payload and link checks
-        working-directory: pipeline
-        run: python3 check.py
+        run: python3 pipeline/check.py
       - name: Check JavaScript syntax
         run: node --check assets/app.js
