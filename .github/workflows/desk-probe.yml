@@ -11,6 +11,7 @@ on:
     paths:
       - pipeline/probe_sources.py
       - pipeline/probe2.py
+      - pipeline/probe3.py
       - .github/workflows/desk-probe.yml
 
 permissions:
@@ -35,6 +36,8 @@ jobs:
         run: |
           python3 pipeline/probe_sources.py > /tmp/probe.log 2>&1 || true
           python3 pipeline/probe2.py > /tmp/probe2.log 2>&1 || true
+          python3 pipeline/probe3.py > /tmp/probe3.log 2>&1 || true
+          cat /tmp/probe3.log
           cat /tmp/probe2.log
           cat /tmp/probe.log
           cp /tmp/probe.log pipeline/out/probe.log
@@ -43,7 +46,7 @@ jobs:
         run: |
           git config user.name  'arena-agent'
           git config user.email '297053741+arena-agent@users.noreply.github.com'
-          git add -A pipeline/out/probe.json pipeline/out/probe.log pipeline/out/probe2.json 2>/dev/null || true
+          git add -A pipeline/out/probe.json pipeline/out/probe.log pipeline/out/probe2.json pipeline/out/probe3 pipeline/out/probe3.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "::error::nothing staged"
           fi
