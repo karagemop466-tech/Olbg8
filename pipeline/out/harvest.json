@@ -1,16 +1,16 @@
 {
  "mode": "harvest",
- "startedUtc": "2026-10-27T06:08:39Z",
+ "startedUtc": "2026-10-27T06:18:48Z",
  "results": [
   {
    "url": "https://www.olbg.com/betting-tips/Golf/5",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:40Z",
-   "bytes": 302098,
+   "fetched_utc": "2026-10-27T06:18:48Z",
+   "bytes": 302069,
    "raw_file": "pipeline/raw/olbg_golf.txt.gz",
-   "raw_chars": 301902,
+   "raw_chars": 301873,
    "tag": "olbg_golf"
   },
   {
@@ -18,10 +18,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:41Z",
-   "bytes": 343576,
+   "fetched_utc": "2026-10-27T06:18:50Z",
+   "bytes": 343557,
    "raw_file": "pipeline/raw/olbg_volleyball.txt.gz",
-   "raw_chars": 343328,
+   "raw_chars": 343309,
    "tag": "olbg_volleyball"
   },
   {
@@ -29,10 +29,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:43Z",
-   "bytes": 321386,
+   "fetched_utc": "2026-10-27T06:18:52Z",
+   "bytes": 321359,
    "raw_file": "pipeline/raw/olbg_rugby_union.txt.gz",
-   "raw_chars": 321192,
+   "raw_chars": 321165,
    "tag": "olbg_rugby-union"
   },
   {
@@ -40,10 +40,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:44Z",
-   "bytes": 355629,
+   "fetched_utc": "2026-10-27T06:18:53Z",
+   "bytes": 355598,
    "raw_file": "pipeline/raw/olbg_cricket.txt.gz",
-   "raw_chars": 355349,
+   "raw_chars": 355318,
    "tag": "olbg_cricket"
   },
   {
@@ -51,10 +51,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:46Z",
-   "bytes": 267026,
+   "fetched_utc": "2026-10-27T06:18:55Z",
+   "bytes": 266995,
    "raw_file": "pipeline/raw/olbg_snooker.txt.gz",
-   "raw_chars": 266816,
+   "raw_chars": 266785,
    "tag": "olbg_snooker"
   },
   {
@@ -62,10 +62,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:47Z",
-   "bytes": 308596,
+   "fetched_utc": "2026-10-27T06:18:56Z",
+   "bytes": 308567,
    "raw_file": "pipeline/raw/olbg_darts.txt.gz",
-   "raw_chars": 308356,
+   "raw_chars": 308327,
    "tag": "olbg_darts"
   },
   {
@@ -73,10 +73,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:48Z",
-   "bytes": 263838,
+   "fetched_utc": "2026-10-27T06:18:58Z",
+   "bytes": 263809,
    "raw_file": "pipeline/raw/olbg_baseball.txt.gz",
-   "raw_chars": 263650,
+   "raw_chars": 263621,
    "tag": "olbg_baseball"
   },
   {
@@ -84,10 +84,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:50Z",
-   "bytes": 277697,
+   "fetched_utc": "2026-10-27T06:18:59Z",
+   "bytes": 277653,
    "raw_file": "pipeline/raw/olbg_gaelic_sports.txt.gz",
-   "raw_chars": 277475,
+   "raw_chars": 277431,
    "tag": "olbg_gaelic-sports"
   },
   {
@@ -95,10 +95,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:51Z",
-   "bytes": 282288,
+   "fetched_utc": "2026-10-27T06:19:01Z",
+   "bytes": 314398,
    "raw_file": "pipeline/raw/olbg_greyhounds.txt.gz",
-   "raw_chars": 282076,
+   "raw_chars": 314186,
    "tag": "olbg_greyhounds"
   },
   {
@@ -106,10 +106,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:53Z",
-   "bytes": 398870,
+   "fetched_utc": "2026-10-27T06:19:02Z",
+   "bytes": 399699,
    "raw_file": "pipeline/raw/olbg_tennis.txt.gz",
-   "raw_chars": 398670,
+   "raw_chars": 399499,
    "tag": "olbg_tennis"
   },
   {
@@ -117,10 +117,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:54Z",
-   "bytes": 304069,
+   "fetched_utc": "2026-10-27T06:19:04Z",
+   "bytes": 304019,
    "raw_file": "pipeline/raw/olbg_motor_racing.txt.gz",
-   "raw_chars": 303873,
+   "raw_chars": 303823,
    "tag": "olbg_motor-racing"
   },
   {
@@ -128,10 +128,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:56Z",
-   "bytes": 340370,
+   "fetched_utc": "2026-10-27T06:19:06Z",
+   "bytes": 340339,
    "raw_file": "pipeline/raw/olbg_handball.txt.gz",
-   "raw_chars": 340182,
+   "raw_chars": 340151,
    "tag": "olbg_handball"
   },
   {
@@ -139,10 +139,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:57Z",
-   "bytes": 357851,
+   "fetched_utc": "2026-10-27T06:19:07Z",
+   "bytes": 357822,
    "raw_file": "pipeline/raw/olbg_ice_hockey.txt.gz",
-   "raw_chars": 357559,
+   "raw_chars": 357530,
    "tag": "olbg_ice-hockey"
   },
   {
@@ -150,10 +150,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:08:59Z",
-   "bytes": 401921,
+   "fetched_utc": "2026-10-27T06:19:09Z",
+   "bytes": 404192,
    "raw_file": "pipeline/raw/olbg_basketball.txt.gz",
-   "raw_chars": 401673,
+   "raw_chars": 403944,
    "tag": "olbg_basketball"
   },
   {
@@ -161,10 +161,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:00Z",
-   "bytes": 271164,
+   "fetched_utc": "2026-10-27T06:19:10Z",
+   "bytes": 271135,
    "raw_file": "pipeline/raw/olbg_rugby_league.txt.gz",
-   "raw_chars": 270966,
+   "raw_chars": 270937,
    "tag": "olbg_rugby-league"
   },
   {
@@ -172,10 +172,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:01Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:12Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_golf_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_golf_0"
   },
   {
@@ -183,10 +183,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:02Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:13Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_golf_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_golf_1"
   },
   {
@@ -194,10 +194,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:03Z",
-   "bytes": 302098,
+   "fetched_utc": "2026-10-27T06:19:14Z",
+   "bytes": 302069,
    "raw_file": "pipeline/raw/olbgcomp_golf_2.txt.gz",
-   "raw_chars": 301902,
+   "raw_chars": 301873,
    "tag": "olbgcomp_golf_2"
   },
   {
@@ -205,10 +205,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:05Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:15Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_volleyball_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_volleyball_0"
   },
   {
@@ -216,10 +216,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:05Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:16Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_volleyball_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_volleyball_1"
   },
   {
@@ -227,10 +227,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:06Z",
-   "bytes": 343576,
+   "fetched_utc": "2026-10-27T06:19:17Z",
+   "bytes": 343557,
    "raw_file": "pipeline/raw/olbgcomp_volleyball_2.txt.gz",
-   "raw_chars": 343328,
+   "raw_chars": 343309,
    "tag": "olbgcomp_volleyball_2"
   },
   {
@@ -238,10 +238,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:07Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:18Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_rugby_union_0"
   },
   {
@@ -249,10 +249,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:08Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:19Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_rugby_union_1"
   },
   {
@@ -260,10 +260,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:09Z",
-   "bytes": 271164,
+   "fetched_utc": "2026-10-27T06:19:20Z",
+   "bytes": 271135,
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_2.txt.gz",
-   "raw_chars": 270966,
+   "raw_chars": 270937,
    "tag": "olbgcomp_rugby_union_2"
   },
   {
@@ -271,10 +271,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:10Z",
-   "bytes": 321386,
+   "fetched_utc": "2026-10-27T06:19:21Z",
+   "bytes": 321359,
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_3.txt.gz",
-   "raw_chars": 321192,
+   "raw_chars": 321165,
    "tag": "olbgcomp_rugby_union_3"
   },
   {
@@ -282,10 +282,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:11Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:22Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_cricket_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_cricket_0"
   },
   {
@@ -293,10 +293,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:12Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:23Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_cricket_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_cricket_1"
   },
   {
@@ -304,10 +304,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:13Z",
-   "bytes": 355629,
+   "fetched_utc": "2026-10-27T06:19:24Z",
+   "bytes": 355598,
    "raw_file": "pipeline/raw/olbgcomp_cricket_2.txt.gz",
-   "raw_chars": 355349,
+   "raw_chars": 355318,
    "tag": "olbgcomp_cricket_2"
   },
   {
@@ -315,10 +315,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:14Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:25Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_snooker_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_snooker_0"
   },
   {
@@ -326,10 +326,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:15Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:26Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_snooker_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_snooker_1"
   },
   {
@@ -337,10 +337,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:15Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:27Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_darts_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_darts_0"
   },
   {
@@ -348,10 +348,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:16Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:28Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_darts_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_darts_1"
   },
   {
@@ -359,10 +359,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:17Z",
-   "bytes": 308596,
+   "fetched_utc": "2026-10-27T06:19:29Z",
+   "bytes": 308567,
    "raw_file": "pipeline/raw/olbgcomp_darts_2.txt.gz",
-   "raw_chars": 308356,
+   "raw_chars": 308327,
    "tag": "olbgcomp_darts_2"
   },
   {
@@ -370,10 +370,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:18Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:30Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_baseball_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_baseball_0"
   },
   {
@@ -381,10 +381,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:19Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:31Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_baseball_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_baseball_1"
   },
   {
@@ -392,10 +392,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:20Z",
-   "bytes": 263838,
+   "fetched_utc": "2026-10-27T06:19:32Z",
+   "bytes": 263809,
    "raw_file": "pipeline/raw/olbgcomp_baseball_2.txt.gz",
-   "raw_chars": 263650,
+   "raw_chars": 263621,
    "tag": "olbgcomp_baseball_2"
   },
   {
@@ -403,10 +403,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:21Z",
-   "bytes": 272174,
+   "fetched_utc": "2026-10-27T06:19:33Z",
+   "bytes": 272143,
    "raw_file": "pipeline/raw/olbgcomp_baseball_3.txt.gz",
-   "raw_chars": 271864,
+   "raw_chars": 271833,
    "tag": "olbgcomp_baseball_3"
   },
   {
@@ -414,10 +414,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:22Z",
-   "bytes": 208051,
+   "fetched_utc": "2026-10-27T06:19:34Z",
+   "bytes": 208022,
    "raw_file": "pipeline/raw/olbgcomp_baseball_4.txt.gz",
-   "raw_chars": 207863,
+   "raw_chars": 207834,
    "tag": "olbgcomp_baseball_4"
   },
   {
@@ -425,10 +425,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:23Z",
-   "bytes": 207866,
+   "fetched_utc": "2026-10-27T06:19:35Z",
+   "bytes": 207837,
    "raw_file": "pipeline/raw/olbgcomp_baseball_5.txt.gz",
-   "raw_chars": 207678,
+   "raw_chars": 207649,
    "tag": "olbgcomp_baseball_5"
   },
   {
@@ -436,10 +436,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:24Z",
-   "bytes": 183594,
+   "fetched_utc": "2026-10-27T06:19:36Z",
+   "bytes": 183565,
    "raw_file": "pipeline/raw/olbgcomp_baseball_6.txt.gz",
-   "raw_chars": 183406,
+   "raw_chars": 183377,
    "tag": "olbgcomp_baseball_6"
   },
   {
@@ -447,10 +447,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:24Z",
-   "bytes": 183594,
+   "fetched_utc": "2026-10-27T06:19:37Z",
+   "bytes": 183565,
    "raw_file": "pipeline/raw/olbgcomp_baseball_7.txt.gz",
-   "raw_chars": 183406,
+   "raw_chars": 183377,
    "tag": "olbgcomp_baseball_7"
   },
   {
@@ -458,10 +458,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:26Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:38Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_gaelic_sports_0"
   },
   {
@@ -469,10 +469,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:27Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:39Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_gaelic_sports_1"
   },
   {
@@ -480,10 +480,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:28Z",
-   "bytes": 277697,
+   "fetched_utc": "2026-10-27T06:19:40Z",
+   "bytes": 277653,
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_2.txt.gz",
-   "raw_chars": 277475,
+   "raw_chars": 277431,
    "tag": "olbgcomp_gaelic_sports_2"
   },
   {
@@ -491,10 +491,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:29Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:41Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_greyhounds_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_greyhounds_0"
   },
   {
@@ -502,10 +502,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:30Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:42Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_greyhounds_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_greyhounds_1"
   },
   {
@@ -513,10 +513,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:31Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:43Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_tennis_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_tennis_0"
   },
   {
@@ -524,10 +524,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:32Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:44Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_tennis_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_tennis_1"
   },
   {
@@ -535,10 +535,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:32Z",
-   "bytes": 398870,
+   "fetched_utc": "2026-10-27T06:19:45Z",
+   "bytes": 399699,
    "raw_file": "pipeline/raw/olbgcomp_tennis_2.txt.gz",
-   "raw_chars": 398670,
+   "raw_chars": 399499,
    "tag": "olbgcomp_tennis_2"
   },
   {
@@ -546,10 +546,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:33Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:46Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_motor_racing_0"
   },
   {
@@ -557,10 +557,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:34Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:47Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_motor_racing_1"
   },
   {
@@ -568,10 +568,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:35Z",
-   "bytes": 304069,
+   "fetched_utc": "2026-10-27T06:19:48Z",
+   "bytes": 304019,
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_2.txt.gz",
-   "raw_chars": 303873,
+   "raw_chars": 303823,
    "tag": "olbgcomp_motor_racing_2"
   },
   {
@@ -579,10 +579,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:36Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:49Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_handball_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_handball_0"
   },
   {
@@ -590,10 +590,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:37Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:50Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_handball_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_handball_1"
   },
   {
@@ -601,10 +601,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:38Z",
-   "bytes": 340370,
+   "fetched_utc": "2026-10-27T06:19:51Z",
+   "bytes": 340339,
    "raw_file": "pipeline/raw/olbgcomp_handball_2.txt.gz",
-   "raw_chars": 340182,
+   "raw_chars": 340151,
    "tag": "olbgcomp_handball_2"
   },
   {
@@ -612,10 +612,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:39Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:19:52Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_ice_hockey_0"
   },
   {
@@ -623,10 +623,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:40Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:19:53Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_ice_hockey_1"
   },
   {
@@ -634,10 +634,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:41Z",
-   "bytes": 357851,
+   "fetched_utc": "2026-10-27T06:19:54Z",
+   "bytes": 357822,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_2.txt.gz",
-   "raw_chars": 357559,
+   "raw_chars": 357530,
    "tag": "olbgcomp_ice_hockey_2"
   },
   {
@@ -645,10 +645,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:42Z",
-   "bytes": 244425,
+   "fetched_utc": "2026-10-27T06:19:55Z",
+   "bytes": 244396,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_3.txt.gz",
-   "raw_chars": 244219,
+   "raw_chars": 244190,
    "tag": "olbgcomp_ice_hockey_3"
   },
   {
@@ -656,10 +656,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:42Z",
-   "bytes": 283680,
+   "fetched_utc": "2026-10-27T06:19:56Z",
+   "bytes": 283653,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_4.txt.gz",
-   "raw_chars": 283492,
+   "raw_chars": 283465,
    "tag": "olbgcomp_ice_hockey_4"
   },
   {
@@ -667,10 +667,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:43Z",
-   "bytes": 401921,
+   "fetched_utc": "2026-10-27T06:19:58Z",
+   "bytes": 404192,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_5.txt.gz",
-   "raw_chars": 401673,
+   "raw_chars": 403944,
    "tag": "olbgcomp_ice_hockey_5"
   },
   {
@@ -678,10 +678,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:44Z",
-   "bytes": 263838,
+   "fetched_utc": "2026-10-27T06:19:59Z",
+   "bytes": 263809,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_6.txt.gz",
-   "raw_chars": 263650,
+   "raw_chars": 263621,
    "tag": "olbgcomp_ice_hockey_6"
   },
   {
@@ -689,10 +689,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:45Z",
-   "bytes": 281087,
+   "fetched_utc": "2026-10-27T06:20:00Z",
+   "bytes": 281068,
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_7.txt.gz",
-   "raw_chars": 280875,
+   "raw_chars": 280856,
    "tag": "olbgcomp_ice_hockey_7"
   },
   {
@@ -700,10 +700,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:46Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:20:01Z",
+   "bytes": 478585,
    "raw_file": "pipeline/raw/olbgcomp_basketball_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478341,
    "tag": "olbgcomp_basketball_0"
   },
   {
@@ -711,10 +711,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:47Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:20:02Z",
+   "bytes": 482617,
    "raw_file": "pipeline/raw/olbgcomp_basketball_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482273,
    "tag": "olbgcomp_basketball_1"
   },
   {
@@ -722,10 +722,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:48Z",
-   "bytes": 246998,
+   "fetched_utc": "2026-10-27T06:20:03Z",
+   "bytes": 246950,
    "raw_file": "pipeline/raw/olbgcomp_basketball_2.txt.gz",
-   "raw_chars": 246786,
+   "raw_chars": 246738,
    "tag": "olbgcomp_basketball_2"
   },
   {
@@ -733,10 +733,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:49Z",
-   "bytes": 204385,
+   "fetched_utc": "2026-10-27T06:20:05Z",
+   "bytes": 204331,
    "raw_file": "pipeline/raw/olbgcomp_basketball_3.txt.gz",
-   "raw_chars": 204197,
+   "raw_chars": 204143,
    "tag": "olbgcomp_basketball_3"
   },
   {
@@ -744,10 +744,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:50Z",
-   "bytes": 265472,
+   "fetched_utc": "2026-10-27T06:20:06Z",
+   "bytes": 265416,
    "raw_file": "pipeline/raw/olbgcomp_basketball_4.txt.gz",
-   "raw_chars": 265278,
+   "raw_chars": 265222,
    "tag": "olbgcomp_basketball_4"
   },
   {
@@ -755,10 +755,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:51Z",
-   "bytes": 319398,
+   "fetched_utc": "2026-10-27T06:20:07Z",
+   "bytes": 319522,
    "raw_file": "pipeline/raw/olbgcomp_basketball_5.txt.gz",
-   "raw_chars": 319210,
+   "raw_chars": 319334,
    "tag": "olbgcomp_basketball_5"
   },
   {
@@ -766,10 +766,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:52Z",
-   "bytes": 401921,
+   "fetched_utc": "2026-10-27T06:20:08Z",
+   "bytes": 404374,
    "raw_file": "pipeline/raw/olbgcomp_basketball_6.txt.gz",
-   "raw_chars": 401673,
+   "raw_chars": 404126,
    "tag": "olbgcomp_basketball_6"
   },
   {
@@ -777,10 +777,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:53Z",
-   "bytes": 208886,
+   "fetched_utc": "2026-10-27T06:20:09Z",
+   "bytes": 209027,
    "raw_file": "pipeline/raw/olbgcomp_basketball_7.txt.gz",
-   "raw_chars": 208650,
+   "raw_chars": 208791,
    "tag": "olbgcomp_basketball_7"
   },
   {
@@ -788,10 +788,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:54Z",
-   "bytes": 201067,
+   "fetched_utc": "2026-10-27T06:20:10Z",
+   "bytes": 201208,
    "raw_file": "pipeline/raw/olbgcomp_basketball_8.txt.gz",
-   "raw_chars": 200819,
+   "raw_chars": 200960,
    "tag": "olbgcomp_basketball_8"
   },
   {
@@ -799,10 +799,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:55Z",
-   "bytes": 271258,
+   "fetched_utc": "2026-10-27T06:20:11Z",
+   "bytes": 271368,
    "raw_file": "pipeline/raw/olbgcomp_basketball_9.txt.gz",
-   "raw_chars": 271058,
+   "raw_chars": 271168,
    "tag": "olbgcomp_basketball_9"
   },
   {
@@ -810,10 +810,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:55Z",
-   "bytes": 222798,
+   "fetched_utc": "2026-10-27T06:20:12Z",
+   "bytes": 222924,
    "raw_file": "pipeline/raw/olbgcomp_basketball_10.txt.gz",
-   "raw_chars": 222606,
+   "raw_chars": 222732,
    "tag": "olbgcomp_basketball_10"
   },
   {
@@ -821,10 +821,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:56Z",
-   "bytes": 208073,
+   "fetched_utc": "2026-10-27T06:20:13Z",
+   "bytes": 208231,
    "raw_file": "pipeline/raw/olbgcomp_basketball_11.txt.gz",
-   "raw_chars": 207869,
+   "raw_chars": 208027,
    "tag": "olbgcomp_basketball_11"
   },
   {
@@ -832,10 +832,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:57Z",
-   "bytes": 207079,
+   "fetched_utc": "2026-10-27T06:20:14Z",
+   "bytes": 207312,
    "raw_file": "pipeline/raw/olbgcomp_basketball_12.txt.gz",
-   "raw_chars": 206851,
+   "raw_chars": 207084,
    "tag": "olbgcomp_basketball_12"
   },
   {
@@ -843,10 +843,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:58Z",
-   "bytes": 207310,
+   "fetched_utc": "2026-10-27T06:20:15Z",
+   "bytes": 207463,
    "raw_file": "pipeline/raw/olbgcomp_basketball_13.txt.gz",
-   "raw_chars": 207002,
+   "raw_chars": 207155,
    "tag": "olbgcomp_basketball_13"
   },
   {
@@ -854,10 +854,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:09:59Z",
-   "bytes": 216737,
+   "fetched_utc": "2026-10-27T06:20:16Z",
+   "bytes": 216986,
    "raw_file": "pipeline/raw/olbgcomp_basketball_14.txt.gz",
-   "raw_chars": 216465,
+   "raw_chars": 216714,
    "tag": "olbgcomp_basketball_14"
   },
   {
@@ -865,10 +865,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:00Z",
-   "bytes": 206845,
+   "fetched_utc": "2026-10-27T06:20:17Z",
+   "bytes": 206998,
    "raw_file": "pipeline/raw/olbgcomp_basketball_15.txt.gz",
-   "raw_chars": 206581,
+   "raw_chars": 206734,
    "tag": "olbgcomp_basketball_15"
   },
   {
@@ -876,10 +876,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:01Z",
-   "bytes": 213370,
+   "fetched_utc": "2026-10-27T06:20:18Z",
+   "bytes": 226538,
    "raw_file": "pipeline/raw/olbgcomp_basketball_16.txt.gz",
-   "raw_chars": 213182,
+   "raw_chars": 226350,
    "tag": "olbgcomp_basketball_16"
   },
   {
@@ -887,10 +887,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:01Z",
-   "bytes": 478606,
+   "fetched_utc": "2026-10-27T06:20:20Z",
+   "bytes": 478791,
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_0.txt.gz",
-   "raw_chars": 478362,
+   "raw_chars": 478547,
    "tag": "olbgcomp_rugby_league_0"
   },
   {
@@ -898,10 +898,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:03Z",
-   "bytes": 482643,
+   "fetched_utc": "2026-10-27T06:20:21Z",
+   "bytes": 482839,
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_1.txt.gz",
-   "raw_chars": 482299,
+   "raw_chars": 482495,
    "tag": "olbgcomp_rugby_league_1"
   },
   {
@@ -909,10 +909,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:04Z",
-   "bytes": 271164,
+   "fetched_utc": "2026-10-27T06:20:22Z",
+   "bytes": 271358,
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_2.txt.gz",
-   "raw_chars": 270966,
+   "raw_chars": 271160,
    "tag": "olbgcomp_rugby_league_2"
   },
   {
@@ -920,10 +920,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:05Z",
-   "bytes": 321386,
+   "fetched_utc": "2026-10-27T06:20:23Z",
+   "bytes": 321577,
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_3.txt.gz",
-   "raw_chars": 321192,
+   "raw_chars": 321383,
    "tag": "olbgcomp_rugby_league_3"
   },
   {
@@ -931,10 +931,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:06Z",
-   "bytes": 437301,
+   "fetched_utc": "2026-10-27T06:20:24Z",
+   "bytes": 437481,
    "raw_file": "pipeline/raw/olbgev_golf_101913.txt.gz",
-   "raw_chars": 437077,
+   "raw_chars": 437257,
    "tag": "olbgev_golf_101913"
   },
   {
@@ -942,10 +942,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:07Z",
-   "bytes": 600794,
+   "fetched_utc": "2026-10-27T06:20:25Z",
+   "bytes": 600886,
    "raw_file": "pipeline/raw/olbgev_golf_101915.txt.gz",
-   "raw_chars": 600570,
+   "raw_chars": 600662,
    "tag": "olbgev_golf_101915"
   },
   {
@@ -953,43 +953,43 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:08Z",
-   "bytes": 357003,
+   "fetched_utc": "2026-10-27T06:20:26Z",
+   "bytes": 357101,
    "raw_file": "pipeline/raw/olbgev_golf_101914.txt.gz",
-   "raw_chars": 356779,
+   "raw_chars": 356877,
    "tag": "olbgev_golf_101914"
-  },
-  {
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
-   "status": 200,
-   "ok": true,
-   "error": "",
-   "fetched_utc": "2026-10-27T06:10:09Z",
-   "bytes": 233730,
-   "raw_file": "pipeline/raw/olbgev_volleyball_37076.txt.gz",
-   "raw_chars": 233508,
-   "tag": "olbgev_volleyball_37076"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:10Z",
-   "bytes": 235008,
+   "fetched_utc": "2026-10-27T06:20:27Z",
+   "bytes": 235270,
    "raw_file": "pipeline/raw/olbgev_volleyball_37075.txt.gz",
-   "raw_chars": 234786,
+   "raw_chars": 235048,
    "tag": "olbgev_volleyball_37075"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:20:28Z",
+   "bytes": 233912,
+   "raw_file": "pipeline/raw/olbgev_volleyball_37076.txt.gz",
+   "raw_chars": 233690,
+   "tag": "olbgev_volleyball_37076"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:11Z",
-   "bytes": 237898,
+   "fetched_utc": "2026-10-27T06:20:29Z",
+   "bytes": 243516,
    "raw_file": "pipeline/raw/olbgev_volleyball_37126.txt.gz",
-   "raw_chars": 237676,
+   "raw_chars": 243294,
    "tag": "olbgev_volleyball_37126"
   },
   {
@@ -997,10 +997,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:12Z",
-   "bytes": 249833,
+   "fetched_utc": "2026-10-27T06:20:30Z",
+   "bytes": 250008,
    "raw_file": "pipeline/raw/olbgev_volleyball_37121.txt.gz",
-   "raw_chars": 249611,
+   "raw_chars": 249786,
    "tag": "olbgev_volleyball_37121"
   },
   {
@@ -1008,10 +1008,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:13Z",
-   "bytes": 236862,
+   "fetched_utc": "2026-10-27T06:20:31Z",
+   "bytes": 236960,
    "raw_file": "pipeline/raw/olbgev_volleyball_37081.txt.gz",
-   "raw_chars": 236640,
+   "raw_chars": 236738,
    "tag": "olbgev_volleyball_37081"
   },
   {
@@ -1019,10 +1019,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:14Z",
-   "bytes": 238420,
+   "fetched_utc": "2026-10-27T06:20:32Z",
+   "bytes": 238600,
    "raw_file": "pipeline/raw/olbgev_volleyball_37124.txt.gz",
-   "raw_chars": 238183,
+   "raw_chars": 238363,
    "tag": "olbgev_volleyball_37124"
   },
   {
@@ -1030,10 +1030,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:15Z",
-   "bytes": 240432,
+   "fetched_utc": "2026-10-27T06:20:33Z",
+   "bytes": 240530,
    "raw_file": "pipeline/raw/olbgev_volleyball_37129.txt.gz",
-   "raw_chars": 240210,
+   "raw_chars": 240308,
    "tag": "olbgev_volleyball_37129"
   },
   {
@@ -1041,10 +1041,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:16Z",
-   "bytes": 234870,
+   "fetched_utc": "2026-10-27T06:20:34Z",
+   "bytes": 234963,
    "raw_file": "pipeline/raw/olbgev_volleyball_37103.txt.gz",
-   "raw_chars": 234642,
+   "raw_chars": 234735,
    "tag": "olbgev_volleyball_37103"
   },
   {
@@ -1052,10 +1052,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:17Z",
-   "bytes": 213382,
+   "fetched_utc": "2026-10-27T06:20:34Z",
+   "bytes": 213654,
    "raw_file": "pipeline/raw/olbgev_volleyball_37104.txt.gz",
-   "raw_chars": 213160,
+   "raw_chars": 213432,
    "tag": "olbgev_volleyball_37104"
   },
   {
@@ -1063,10 +1063,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:18Z",
-   "bytes": 213713,
+   "fetched_utc": "2026-10-27T06:20:36Z",
+   "bytes": 213893,
    "raw_file": "pipeline/raw/olbgev_volleyball_37122.txt.gz",
-   "raw_chars": 213491,
+   "raw_chars": 213671,
    "tag": "olbgev_volleyball_37122"
   },
   {
@@ -1074,10 +1074,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:19Z",
-   "bytes": 213451,
+   "fetched_utc": "2026-10-27T06:20:36Z",
+   "bytes": 213637,
    "raw_file": "pipeline/raw/olbgev_volleyball_37125.txt.gz",
-   "raw_chars": 213229,
+   "raw_chars": 213415,
    "tag": "olbgev_volleyball_37125"
   },
   {
@@ -1085,10 +1085,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:20Z",
-   "bytes": 213914,
+   "fetched_utc": "2026-10-27T06:20:37Z",
+   "bytes": 214106,
    "raw_file": "pipeline/raw/olbgev_volleyball_37131.txt.gz",
-   "raw_chars": 213692,
+   "raw_chars": 213884,
    "tag": "olbgev_volleyball_37131"
   },
   {
@@ -1096,10 +1096,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:21Z",
-   "bytes": 214131,
+   "fetched_utc": "2026-10-27T06:20:38Z",
+   "bytes": 214405,
    "raw_file": "pipeline/raw/olbgev_volleyball_37082.txt.gz",
-   "raw_chars": 213909,
+   "raw_chars": 214183,
    "tag": "olbgev_volleyball_37082"
   },
   {
@@ -1107,10 +1107,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:21Z",
-   "bytes": 213391,
+   "fetched_utc": "2026-10-27T06:20:40Z",
+   "bytes": 213489,
    "raw_file": "pipeline/raw/olbgev_volleyball_37083.txt.gz",
-   "raw_chars": 213169,
+   "raw_chars": 213267,
    "tag": "olbgev_volleyball_37083"
   },
   {
@@ -1118,10 +1118,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:22Z",
-   "bytes": 214005,
+   "fetched_utc": "2026-10-27T06:20:41Z",
+   "bytes": 214185,
    "raw_file": "pipeline/raw/olbgev_volleyball_37123.txt.gz",
-   "raw_chars": 213783,
+   "raw_chars": 213963,
    "tag": "olbgev_volleyball_37123"
   },
   {
@@ -1129,10 +1129,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:23Z",
-   "bytes": 213895,
+   "fetched_utc": "2026-10-27T06:20:42Z",
+   "bytes": 214075,
    "raw_file": "pipeline/raw/olbgev_volleyball_37127.txt.gz",
-   "raw_chars": 213673,
+   "raw_chars": 213853,
    "tag": "olbgev_volleyball_37127"
   },
   {
@@ -1140,10 +1140,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:24Z",
-   "bytes": 214036,
+   "fetched_utc": "2026-10-27T06:20:43Z",
+   "bytes": 214134,
    "raw_file": "pipeline/raw/olbgev_volleyball_37134.txt.gz",
-   "raw_chars": 213814,
+   "raw_chars": 213912,
    "tag": "olbgev_volleyball_37134"
   },
   {
@@ -1151,10 +1151,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:25Z",
-   "bytes": 214131,
+   "fetched_utc": "2026-10-27T06:20:44Z",
+   "bytes": 214229,
    "raw_file": "pipeline/raw/olbgev_volleyball_37132.txt.gz",
-   "raw_chars": 213908,
+   "raw_chars": 214006,
    "tag": "olbgev_volleyball_37132"
   },
   {
@@ -1162,10 +1162,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:26Z",
-   "bytes": 235890,
+   "fetched_utc": "2026-10-27T06:20:45Z",
+   "bytes": 235988,
    "raw_file": "pipeline/raw/olbgev_volleyball_37135.txt.gz",
-   "raw_chars": 235668,
+   "raw_chars": 235766,
    "tag": "olbgev_volleyball_37135"
   },
   {
@@ -1173,10 +1173,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:27Z",
-   "bytes": 213637,
+   "fetched_utc": "2026-10-27T06:20:46Z",
+   "bytes": 213735,
    "raw_file": "pipeline/raw/olbgev_volleyball_37136.txt.gz",
-   "raw_chars": 213415,
+   "raw_chars": 213513,
    "tag": "olbgev_volleyball_37136"
   },
   {
@@ -1184,10 +1184,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:28Z",
-   "bytes": 230529,
+   "fetched_utc": "2026-10-27T06:20:47Z",
+   "bytes": 230703,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609605.txt.gz",
-   "raw_chars": 230307,
+   "raw_chars": 230481,
    "tag": "olbgev_rugby_union_609605"
   },
   {
@@ -1195,10 +1195,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:29Z",
-   "bytes": 201096,
+   "fetched_utc": "2026-10-27T06:20:48Z",
+   "bytes": 201276,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609604.txt.gz",
-   "raw_chars": 200874,
+   "raw_chars": 201054,
    "tag": "olbgev_rugby_union_609604"
   },
   {
@@ -1206,10 +1206,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:30Z",
-   "bytes": 229959,
+   "fetched_utc": "2026-10-27T06:20:49Z",
+   "bytes": 230137,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609603.txt.gz",
-   "raw_chars": 229737,
+   "raw_chars": 229915,
    "tag": "olbgev_rugby_union_609603"
   },
   {
@@ -1217,10 +1217,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:31Z",
-   "bytes": 219647,
+   "fetched_utc": "2026-10-27T06:20:50Z",
+   "bytes": 219827,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609598.txt.gz",
-   "raw_chars": 219425,
+   "raw_chars": 219605,
    "tag": "olbgev_rugby_union_609598"
   },
   {
@@ -1228,10 +1228,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:32Z",
-   "bytes": 201189,
+   "fetched_utc": "2026-10-27T06:20:51Z",
+   "bytes": 201287,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609599.txt.gz",
-   "raw_chars": 200967,
+   "raw_chars": 201065,
    "tag": "olbgev_rugby_union_609599"
   },
   {
@@ -1239,10 +1239,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:33Z",
-   "bytes": 201078,
+   "fetched_utc": "2026-10-27T06:20:52Z",
+   "bytes": 201184,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609600.txt.gz",
-   "raw_chars": 200856,
+   "raw_chars": 200962,
    "tag": "olbgev_rugby_union_609600"
   },
   {
@@ -1250,10 +1250,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:33Z",
-   "bytes": 201170,
+   "fetched_utc": "2026-10-27T06:20:54Z",
+   "bytes": 201350,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609584.txt.gz",
-   "raw_chars": 200948,
+   "raw_chars": 201128,
    "tag": "olbgev_rugby_union_609584"
   },
   {
@@ -1261,10 +1261,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:34Z",
-   "bytes": 201469,
+   "fetched_utc": "2026-10-27T06:20:55Z",
+   "bytes": 201731,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609590.txt.gz",
-   "raw_chars": 201247,
+   "raw_chars": 201509,
    "tag": "olbgev_rugby_union_609590"
   },
   {
@@ -1272,10 +1272,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:35Z",
-   "bytes": 201532,
+   "fetched_utc": "2026-10-27T06:20:56Z",
+   "bytes": 201630,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609602.txt.gz",
-   "raw_chars": 201310,
+   "raw_chars": 201408,
    "tag": "olbgev_rugby_union_609602"
   },
   {
@@ -1283,10 +1283,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:36Z",
-   "bytes": 201160,
+   "fetched_utc": "2026-10-27T06:20:57Z",
+   "bytes": 201258,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609588.txt.gz",
-   "raw_chars": 200938,
+   "raw_chars": 201036,
    "tag": "olbgev_rugby_union_609588"
   },
   {
@@ -1294,10 +1294,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:37Z",
-   "bytes": 201120,
+   "fetched_utc": "2026-10-27T06:20:58Z",
+   "bytes": 201300,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609586.txt.gz",
-   "raw_chars": 200898,
+   "raw_chars": 201078,
    "tag": "olbgev_rugby_union_609586"
   },
   {
@@ -1305,10 +1305,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:38Z",
-   "bytes": 221444,
+   "fetched_utc": "2026-10-27T06:20:59Z",
+   "bytes": 221624,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609611.txt.gz",
-   "raw_chars": 221222,
+   "raw_chars": 221402,
    "tag": "olbgev_rugby_union_609611"
   },
   {
@@ -1316,10 +1316,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:39Z",
-   "bytes": 274253,
+   "fetched_utc": "2026-10-27T06:21:00Z",
+   "bytes": 274433,
    "raw_file": "pipeline/raw/olbgev_rugby_union_609013.txt.gz",
-   "raw_chars": 274003,
+   "raw_chars": 274183,
    "tag": "olbgev_rugby_union_609013"
   },
   {
@@ -1327,10 +1327,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:40Z",
-   "bytes": 647280,
+   "fetched_utc": "2026-10-27T06:21:01Z",
+   "bytes": 652604,
    "raw_file": "pipeline/raw/olbgev_cricket_188852.txt.gz",
-   "raw_chars": 647058,
+   "raw_chars": 652382,
    "tag": "olbgev_cricket_188852"
   },
   {
@@ -1338,10 +1338,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:40Z",
-   "bytes": 590405,
+   "fetched_utc": "2026-10-27T06:21:02Z",
+   "bytes": 595892,
    "raw_file": "pipeline/raw/olbgev_cricket_188868.txt.gz",
-   "raw_chars": 590183,
+   "raw_chars": 595670,
    "tag": "olbgev_cricket_188868"
   },
   {
@@ -1349,10 +1349,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:41Z",
-   "bytes": 416520,
+   "fetched_utc": "2026-10-27T06:21:03Z",
+   "bytes": 416770,
    "raw_file": "pipeline/raw/olbgev_cricket_188854.txt.gz",
-   "raw_chars": 416298,
+   "raw_chars": 416548,
    "tag": "olbgev_cricket_188854"
   },
   {
@@ -1360,10 +1360,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:42Z",
-   "bytes": 464069,
+   "fetched_utc": "2026-10-27T06:21:04Z",
+   "bytes": 474653,
    "raw_file": "pipeline/raw/olbgev_cricket_188872.txt.gz",
-   "raw_chars": 463847,
+   "raw_chars": 474431,
    "tag": "olbgev_cricket_188872"
   },
   {
@@ -1371,10 +1371,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:43Z",
-   "bytes": 205667,
+   "fetched_utc": "2026-10-27T06:21:05Z",
+   "bytes": 205765,
    "raw_file": "pipeline/raw/olbgev_cricket_188864.txt.gz",
-   "raw_chars": 205445,
+   "raw_chars": 205543,
    "tag": "olbgev_cricket_188864"
   },
   {
@@ -1382,10 +1382,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:44Z",
-   "bytes": 221723,
+   "fetched_utc": "2026-10-27T06:21:06Z",
+   "bytes": 221903,
    "raw_file": "pipeline/raw/olbgev_cricket_188876.txt.gz",
-   "raw_chars": 221501,
+   "raw_chars": 221681,
    "tag": "olbgev_cricket_188876"
   },
   {
@@ -1393,10 +1393,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:45Z",
-   "bytes": 195624,
+   "fetched_utc": "2026-10-27T06:21:07Z",
+   "bytes": 195722,
    "raw_file": "pipeline/raw/olbgev_cricket_188865.txt.gz",
-   "raw_chars": 195402,
+   "raw_chars": 195500,
    "tag": "olbgev_cricket_188865"
   },
   {
@@ -1404,10 +1404,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:46Z",
-   "bytes": 224373,
+   "fetched_utc": "2026-10-27T06:21:08Z",
+   "bytes": 224635,
    "raw_file": "pipeline/raw/olbgev_cricket_188877.txt.gz",
-   "raw_chars": 224151,
+   "raw_chars": 224413,
    "tag": "olbgev_cricket_188877"
   },
   {
@@ -1415,10 +1415,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:47Z",
-   "bytes": 222611,
+   "fetched_utc": "2026-10-27T06:21:09Z",
+   "bytes": 222873,
    "raw_file": "pipeline/raw/olbgev_cricket_188878.txt.gz",
-   "raw_chars": 222389,
+   "raw_chars": 222651,
    "tag": "olbgev_cricket_188878"
   },
   {
@@ -1426,10 +1426,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:48Z",
-   "bytes": 194531,
+   "fetched_utc": "2026-10-27T06:21:10Z",
+   "bytes": 194793,
    "raw_file": "pipeline/raw/olbgev_cricket_188874.txt.gz",
-   "raw_chars": 194309,
+   "raw_chars": 194571,
    "tag": "olbgev_cricket_188874"
   },
   {
@@ -1437,10 +1437,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:49Z",
-   "bytes": 268610,
+   "fetched_utc": "2026-10-27T06:21:11Z",
+   "bytes": 268792,
    "raw_file": "pipeline/raw/olbgev_cricket_182606.txt.gz",
-   "raw_chars": 268384,
+   "raw_chars": 268566,
    "tag": "olbgev_cricket_182606"
   },
   {
@@ -1448,10 +1448,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:50Z",
-   "bytes": 327897,
+   "fetched_utc": "2026-10-27T06:21:12Z",
+   "bytes": 328163,
    "raw_file": "pipeline/raw/olbgev_cricket_188835.txt.gz",
-   "raw_chars": 327673,
+   "raw_chars": 327939,
    "tag": "olbgev_cricket_188835"
   },
   {
@@ -1459,10 +1459,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:51Z",
-   "bytes": 212315,
+   "fetched_utc": "2026-10-27T06:21:13Z",
+   "bytes": 212475,
    "raw_file": "pipeline/raw/olbgev_cricket_187184.txt.gz",
-   "raw_chars": 212091,
+   "raw_chars": 212251,
    "tag": "olbgev_cricket_187184"
   },
   {
@@ -1470,10 +1470,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:52Z",
-   "bytes": 359602,
+   "fetched_utc": "2026-10-27T06:21:14Z",
+   "bytes": 359782,
    "raw_file": "pipeline/raw/olbgev_cricket_188863.txt.gz",
-   "raw_chars": 359378,
+   "raw_chars": 359558,
    "tag": "olbgev_cricket_188863"
   },
   {
@@ -1481,10 +1481,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:52Z",
-   "bytes": 324573,
+   "fetched_utc": "2026-10-27T06:21:15Z",
+   "bytes": 324841,
    "raw_file": "pipeline/raw/olbgev_cricket_188871.txt.gz",
-   "raw_chars": 324349,
+   "raw_chars": 324617,
    "tag": "olbgev_cricket_188871"
   },
   {
@@ -1492,10 +1492,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:53Z",
-   "bytes": 212321,
+   "fetched_utc": "2026-10-27T06:21:16Z",
+   "bytes": 212583,
    "raw_file": "pipeline/raw/olbgev_cricket_187503.txt.gz",
-   "raw_chars": 212097,
+   "raw_chars": 212359,
    "tag": "olbgev_cricket_187503"
   },
   {
@@ -1503,10 +1503,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:54Z",
-   "bytes": 206055,
+   "fetched_utc": "2026-10-27T06:21:17Z",
+   "bytes": 206153,
    "raw_file": "pipeline/raw/olbgev_cricket_187504.txt.gz",
-   "raw_chars": 205831,
+   "raw_chars": 205929,
    "tag": "olbgev_cricket_187504"
   },
   {
@@ -1514,10 +1514,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:55Z",
-   "bytes": 237163,
+   "fetched_utc": "2026-10-27T06:21:18Z",
+   "bytes": 237343,
    "raw_file": "pipeline/raw/olbgev_cricket_188350.txt.gz",
-   "raw_chars": 236945,
+   "raw_chars": 237125,
    "tag": "olbgev_cricket_188350"
   },
   {
@@ -1525,10 +1525,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:56Z",
-   "bytes": 645573,
+   "fetched_utc": "2026-10-27T06:21:19Z",
+   "bytes": 645676,
    "raw_file": "pipeline/raw/olbgev_darts_26023.txt.gz",
-   "raw_chars": 645347,
+   "raw_chars": 645450,
    "tag": "olbgev_darts_26023"
   },
   {
@@ -1536,10 +1536,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:57Z",
-   "bytes": 649363,
+   "fetched_utc": "2026-10-27T06:21:20Z",
+   "bytes": 649463,
    "raw_file": "pipeline/raw/olbgev_darts_32446.txt.gz",
-   "raw_chars": 649137,
+   "raw_chars": 649237,
    "tag": "olbgev_darts_32446"
   },
   {
@@ -1547,10 +1547,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:58Z",
-   "bytes": 207971,
+   "fetched_utc": "2026-10-27T06:21:21Z",
+   "bytes": 208151,
    "raw_file": "pipeline/raw/olbgev_baseball_160799.txt.gz",
-   "raw_chars": 207749,
+   "raw_chars": 207929,
    "tag": "olbgev_baseball_160799"
   },
   {
@@ -1558,10 +1558,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:10:59Z",
-   "bytes": 247524,
+   "fetched_utc": "2026-10-27T06:21:22Z",
+   "bytes": 247632,
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3531.txt.gz",
-   "raw_chars": 247288,
+   "raw_chars": 247396,
    "tag": "olbgev_gaelic_sports_3531"
   },
   {
@@ -1569,10 +1569,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:00Z",
-   "bytes": 247095,
+   "fetched_utc": "2026-10-27T06:21:23Z",
+   "bytes": 247193,
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3537.txt.gz",
-   "raw_chars": 246871,
+   "raw_chars": 246969,
    "tag": "olbgev_gaelic_sports_3537"
   },
   {
@@ -1580,21 +1580,65 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:01Z",
-   "bytes": 329344,
+   "fetched_utc": "2026-10-27T06:21:24Z",
+   "bytes": 329438,
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3327.txt.gz",
-   "raw_chars": 329120,
+   "raw_chars": 329214,
    "tag": "olbgev_gaelic_sports_3327"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:01_Sheffield/28?event_id=690289",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:25Z",
+   "bytes": 198572,
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690289.txt.gz",
+   "raw_chars": 198354,
+   "tag": "olbgev_greyhounds_690289"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:09_Newcastle/28?event_id=690290",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:25Z",
+   "bytes": 201530,
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690290.txt.gz",
+   "raw_chars": 201312,
+   "tag": "olbgev_greyhounds_690290"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:27_Newcastle/28?event_id=690294",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:26Z",
+   "bytes": 201544,
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690294.txt.gz",
+   "raw_chars": 201326,
+   "tag": "olbgev_greyhounds_690294"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:34_Sheffield/28?event_id=690295",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:27Z",
+   "bytes": 198570,
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690295.txt.gz",
+   "raw_chars": 198352,
+   "tag": "olbgev_greyhounds_690295"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:02Z",
-   "bytes": 274143,
+   "fetched_utc": "2026-10-27T06:21:28Z",
+   "bytes": 274241,
    "raw_file": "pipeline/raw/olbgev_tennis_902189.txt.gz",
-   "raw_chars": 273921,
+   "raw_chars": 274019,
    "tag": "olbgev_tennis_902189"
   },
   {
@@ -1602,21 +1646,32 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:03Z",
-   "bytes": 273391,
+   "fetched_utc": "2026-10-27T06:21:29Z",
+   "bytes": 273577,
    "raw_file": "pipeline/raw/olbgev_tennis_902177.txt.gz",
-   "raw_chars": 273169,
+   "raw_chars": 273355,
    "tag": "olbgev_tennis_902177"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:30Z",
+   "bytes": 271084,
+   "raw_file": "pipeline/raw/olbgev_tennis_902322.txt.gz",
+   "raw_chars": 270862,
+   "tag": "olbgev_tennis_902322"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:04Z",
-   "bytes": 268598,
+   "fetched_utc": "2026-10-27T06:21:31Z",
+   "bytes": 268780,
    "raw_file": "pipeline/raw/olbgev_tennis_902238.txt.gz",
-   "raw_chars": 268376,
+   "raw_chars": 268558,
    "tag": "olbgev_tennis_902238"
   },
   {
@@ -1624,10 +1679,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:05Z",
-   "bytes": 270027,
+   "fetched_utc": "2026-10-27T06:21:32Z",
+   "bytes": 270205,
    "raw_file": "pipeline/raw/olbgev_tennis_902232.txt.gz",
-   "raw_chars": 269802,
+   "raw_chars": 269980,
    "tag": "olbgev_tennis_902232"
   },
   {
@@ -1635,32 +1690,21 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:06Z",
-   "bytes": 260477,
+   "fetched_utc": "2026-10-27T06:21:33Z",
+   "bytes": 260657,
    "raw_file": "pipeline/raw/olbgev_tennis_902233.txt.gz",
-   "raw_chars": 260255,
+   "raw_chars": 260435,
    "tag": "olbgev_tennis_902233"
-  },
-  {
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
-   "status": 200,
-   "ok": true,
-   "error": "",
-   "fetched_utc": "2026-10-27T06:11:07Z",
-   "bytes": 270898,
-   "raw_file": "pipeline/raw/olbgev_tennis_902322.txt.gz",
-   "raw_chars": 270676,
-   "tag": "olbgev_tennis_902322"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:08Z",
-   "bytes": 248194,
+   "fetched_utc": "2026-10-27T06:21:34Z",
+   "bytes": 248374,
    "raw_file": "pipeline/raw/olbgev_tennis_902409.txt.gz",
-   "raw_chars": 247972,
+   "raw_chars": 248152,
    "tag": "olbgev_tennis_902409"
   },
   {
@@ -1668,10 +1712,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:09Z",
-   "bytes": 264706,
+   "fetched_utc": "2026-10-27T06:21:35Z",
+   "bytes": 273094,
    "raw_file": "pipeline/raw/olbgev_tennis_902252.txt.gz",
-   "raw_chars": 264484,
+   "raw_chars": 272872,
    "tag": "olbgev_tennis_902252"
   },
   {
@@ -1679,10 +1723,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:10Z",
-   "bytes": 265685,
+   "fetched_utc": "2026-10-27T06:21:36Z",
+   "bytes": 265783,
    "raw_file": "pipeline/raw/olbgev_tennis_902210.txt.gz",
-   "raw_chars": 265463,
+   "raw_chars": 265561,
    "tag": "olbgev_tennis_902210"
   },
   {
@@ -1690,21 +1734,32 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:11Z",
-   "bytes": 227804,
+   "fetched_utc": "2026-10-27T06:21:37Z",
+   "bytes": 227910,
    "raw_file": "pipeline/raw/olbgev_tennis_902310.txt.gz",
-   "raw_chars": 227582,
+   "raw_chars": 227688,
    "tag": "olbgev_tennis_902310"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:38Z",
+   "bytes": 256976,
+   "raw_file": "pipeline/raw/olbgev_tennis_902372.txt.gz",
+   "raw_chars": 256754,
+   "tag": "olbgev_tennis_902372"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:12Z",
-   "bytes": 263564,
+   "fetched_utc": "2026-10-27T06:21:39Z",
+   "bytes": 263744,
    "raw_file": "pipeline/raw/olbgev_tennis_902240.txt.gz",
-   "raw_chars": 263342,
+   "raw_chars": 263522,
    "tag": "olbgev_tennis_902240"
   },
   {
@@ -1712,10 +1767,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:13Z",
-   "bytes": 227750,
+   "fetched_utc": "2026-10-27T06:21:40Z",
+   "bytes": 227930,
    "raw_file": "pipeline/raw/olbgev_tennis_902213.txt.gz",
-   "raw_chars": 227528,
+   "raw_chars": 227708,
    "tag": "olbgev_tennis_902213"
   },
   {
@@ -1723,32 +1778,21 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:13Z",
-   "bytes": 227839,
+   "fetched_utc": "2026-10-27T06:21:40Z",
+   "bytes": 227937,
    "raw_file": "pipeline/raw/olbgev_tennis_902374.txt.gz",
-   "raw_chars": 227617,
+   "raw_chars": 227715,
    "tag": "olbgev_tennis_902374"
-  },
-  {
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
-   "status": 200,
-   "ok": true,
-   "error": "",
-   "fetched_utc": "2026-10-27T06:11:14Z",
-   "bytes": 256784,
-   "raw_file": "pipeline/raw/olbgev_tennis_902372.txt.gz",
-   "raw_chars": 256562,
-   "tag": "olbgev_tennis_902372"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Xinran_Sun_vs_Mananchaya_Sawangkaew/3?event_id=902183",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:15Z",
-   "bytes": 250098,
+   "fetched_utc": "2026-10-27T06:21:42Z",
+   "bytes": 250188,
    "raw_file": "pipeline/raw/olbgev_tennis_902183.txt.gz",
-   "raw_chars": 249876,
+   "raw_chars": 249966,
    "tag": "olbgev_tennis_902183"
   },
   {
@@ -1756,10 +1800,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:16Z",
-   "bytes": 250306,
+   "fetched_utc": "2026-10-27T06:21:42Z",
+   "bytes": 250484,
    "raw_file": "pipeline/raw/olbgev_tennis_902378.txt.gz",
-   "raw_chars": 250084,
+   "raw_chars": 250262,
    "tag": "olbgev_tennis_902378"
   },
   {
@@ -1767,10 +1811,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:17Z",
-   "bytes": 254845,
+   "fetched_utc": "2026-10-27T06:21:43Z",
+   "bytes": 255025,
    "raw_file": "pipeline/raw/olbgev_tennis_902234.txt.gz",
-   "raw_chars": 254623,
+   "raw_chars": 254803,
    "tag": "olbgev_tennis_902234"
   },
   {
@@ -1778,43 +1822,43 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:18Z",
-   "bytes": 227703,
+   "fetched_utc": "2026-10-27T06:21:44Z",
+   "bytes": 227878,
    "raw_file": "pipeline/raw/olbgev_tennis_902320.txt.gz",
-   "raw_chars": 227481,
+   "raw_chars": 227656,
    "tag": "olbgev_tennis_902320"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Francesca_Jones_vs_Maria_Florencia_Urrutia/3?event_id=902323",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:21:45Z",
+   "bytes": 202208,
+   "raw_file": "pipeline/raw/olbgev_tennis_902323.txt.gz",
+   "raw_chars": 201986,
+   "tag": "olbgev_tennis_902323"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Mia_Ristic_vs_Martyna_Kubka/3?event_id=902370",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:19Z",
-   "bytes": 227358,
+   "fetched_utc": "2026-10-27T06:21:46Z",
+   "bytes": 227536,
    "raw_file": "pipeline/raw/olbgev_tennis_902370.txt.gz",
-   "raw_chars": 227136,
+   "raw_chars": 227314,
    "tag": "olbgev_tennis_902370"
-  },
-  {
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Giovanni_Mpetshi_Perricard_vs_Arthur_Fils/3?event_id=902347",
-   "status": 200,
-   "ok": true,
-   "error": "",
-   "fetched_utc": "2026-10-27T06:11:20Z",
-   "bytes": 229758,
-   "raw_file": "pipeline/raw/olbgev_tennis_902347.txt.gz",
-   "raw_chars": 229536,
-   "tag": "olbgev_tennis_902347"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:20Z",
-   "bytes": 246357,
+   "fetched_utc": "2026-10-27T06:21:47Z",
+   "bytes": 246525,
    "raw_file": "pipeline/raw/olbgev_motor_racing_912.txt.gz",
-   "raw_chars": 246133,
+   "raw_chars": 246301,
    "tag": "olbgev_motor_racing_912"
   },
   {
@@ -1822,10 +1866,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:21Z",
-   "bytes": 578815,
+   "fetched_utc": "2026-10-27T06:21:48Z",
+   "bytes": 383008,
    "raw_file": "pipeline/raw/olbgev_motor_racing_914.txt.gz",
-   "raw_chars": 578569,
+   "raw_chars": 382761,
    "tag": "olbgev_motor_racing_914"
   },
   {
@@ -1833,10 +1877,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:22Z",
-   "bytes": 211620,
+   "fetched_utc": "2026-10-27T06:21:49Z",
+   "bytes": 211800,
    "raw_file": "pipeline/raw/olbgev_handball_12136.txt.gz",
-   "raw_chars": 211396,
+   "raw_chars": 211576,
    "tag": "olbgev_handball_12136"
   },
   {
@@ -1844,10 +1888,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:23Z",
-   "bytes": 230005,
+   "fetched_utc": "2026-10-27T06:21:50Z",
+   "bytes": 230185,
    "raw_file": "pipeline/raw/olbgev_handball_12130.txt.gz",
-   "raw_chars": 229781,
+   "raw_chars": 229961,
    "tag": "olbgev_handball_12130"
   },
   {
@@ -1855,10 +1899,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:24Z",
-   "bytes": 211023,
+   "fetched_utc": "2026-10-27T06:21:51Z",
+   "bytes": 211208,
    "raw_file": "pipeline/raw/olbgev_handball_12138.txt.gz",
-   "raw_chars": 210799,
+   "raw_chars": 210984,
    "tag": "olbgev_handball_12138"
   },
   {
@@ -1866,10 +1910,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:24Z",
-   "bytes": 210988,
+   "fetched_utc": "2026-10-27T06:21:52Z",
+   "bytes": 211158,
    "raw_file": "pipeline/raw/olbgev_handball_12132.txt.gz",
-   "raw_chars": 210764,
+   "raw_chars": 210934,
    "tag": "olbgev_handball_12132"
   },
   {
@@ -1877,10 +1921,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:25Z",
-   "bytes": 211587,
+   "fetched_utc": "2026-10-27T06:21:53Z",
+   "bytes": 211767,
    "raw_file": "pipeline/raw/olbgev_handball_12134.txt.gz",
-   "raw_chars": 211363,
+   "raw_chars": 211543,
    "tag": "olbgev_handball_12134"
   },
   {
@@ -1888,10 +1932,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:26Z",
-   "bytes": 211002,
+   "fetched_utc": "2026-10-27T06:21:54Z",
+   "bytes": 211182,
    "raw_file": "pipeline/raw/olbgev_handball_12135.txt.gz",
-   "raw_chars": 210778,
+   "raw_chars": 210958,
    "tag": "olbgev_handball_12135"
   },
   {
@@ -1899,10 +1943,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:27Z",
-   "bytes": 219757,
+   "fetched_utc": "2026-10-27T06:21:55Z",
+   "bytes": 219925,
    "raw_file": "pipeline/raw/olbgev_handball_12128.txt.gz",
-   "raw_chars": 219531,
+   "raw_chars": 219699,
    "tag": "olbgev_handball_12128"
   },
   {
@@ -1910,10 +1954,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:28Z",
-   "bytes": 210964,
+   "fetched_utc": "2026-10-27T06:21:56Z",
+   "bytes": 211144,
    "raw_file": "pipeline/raw/olbgev_handball_12127.txt.gz",
-   "raw_chars": 210740,
+   "raw_chars": 210920,
    "tag": "olbgev_handball_12127"
   },
   {
@@ -1921,10 +1965,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:29Z",
-   "bytes": 231920,
+   "fetched_utc": "2026-10-27T06:21:57Z",
+   "bytes": 247012,
    "raw_file": "pipeline/raw/olbgev_handball_12196.txt.gz",
-   "raw_chars": 231686,
+   "raw_chars": 246778,
    "tag": "olbgev_handball_12196"
   },
   {
@@ -1932,10 +1976,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:30Z",
-   "bytes": 232023,
+   "fetched_utc": "2026-10-27T06:21:58Z",
+   "bytes": 232203,
    "raw_file": "pipeline/raw/olbgev_handball_12197.txt.gz",
-   "raw_chars": 231779,
+   "raw_chars": 231959,
    "tag": "olbgev_handball_12197"
   },
   {
@@ -1943,10 +1987,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:31Z",
-   "bytes": 210785,
+   "fetched_utc": "2026-10-27T06:21:58Z",
+   "bytes": 210977,
    "raw_file": "pipeline/raw/olbgev_handball_12129.txt.gz",
-   "raw_chars": 210561,
+   "raw_chars": 210753,
    "tag": "olbgev_handball_12129"
   },
   {
@@ -1954,10 +1998,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:31Z",
-   "bytes": 211490,
+   "fetched_utc": "2026-10-27T06:21:59Z",
+   "bytes": 211675,
    "raw_file": "pipeline/raw/olbgev_handball_12133.txt.gz",
-   "raw_chars": 211266,
+   "raw_chars": 211451,
    "tag": "olbgev_handball_12133"
   },
   {
@@ -1965,10 +2009,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:32Z",
-   "bytes": 211530,
+   "fetched_utc": "2026-10-27T06:22:00Z",
+   "bytes": 211708,
    "raw_file": "pipeline/raw/olbgev_handball_12131.txt.gz",
-   "raw_chars": 211306,
+   "raw_chars": 211484,
    "tag": "olbgev_handball_12131"
   },
   {
@@ -1976,10 +2020,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:33Z",
-   "bytes": 199053,
+   "fetched_utc": "2026-10-27T06:22:01Z",
+   "bytes": 199216,
    "raw_file": "pipeline/raw/olbgev_handball_12180.txt.gz",
-   "raw_chars": 198829,
+   "raw_chars": 198992,
    "tag": "olbgev_handball_12180"
   },
   {
@@ -1987,10 +2031,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:34Z",
-   "bytes": 211840,
+   "fetched_utc": "2026-10-27T06:22:02Z",
+   "bytes": 212020,
    "raw_file": "pipeline/raw/olbgev_handball_12137.txt.gz",
-   "raw_chars": 211616,
+   "raw_chars": 211796,
    "tag": "olbgev_handball_12137"
   },
   {
@@ -1998,10 +2042,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:35Z",
-   "bytes": 198012,
+   "fetched_utc": "2026-10-27T06:22:03Z",
+   "bytes": 198197,
    "raw_file": "pipeline/raw/olbgev_handball_12169.txt.gz",
-   "raw_chars": 197788,
+   "raw_chars": 197973,
    "tag": "olbgev_handball_12169"
   },
   {
@@ -2009,10 +2053,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:35Z",
-   "bytes": 197969,
+   "fetched_utc": "2026-10-27T06:22:04Z",
+   "bytes": 198149,
    "raw_file": "pipeline/raw/olbgev_handball_12185.txt.gz",
-   "raw_chars": 197745,
+   "raw_chars": 197925,
    "tag": "olbgev_handball_12185"
   },
   {
@@ -2020,10 +2064,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:36Z",
-   "bytes": 198250,
+   "fetched_utc": "2026-10-27T06:22:05Z",
+   "bytes": 198435,
    "raw_file": "pipeline/raw/olbgev_handball_12163.txt.gz",
-   "raw_chars": 198026,
+   "raw_chars": 198211,
    "tag": "olbgev_handball_12163"
   },
   {
@@ -2031,10 +2075,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:37Z",
-   "bytes": 198206,
+   "fetched_utc": "2026-10-27T06:22:06Z",
+   "bytes": 198386,
    "raw_file": "pipeline/raw/olbgev_handball_12158.txt.gz",
-   "raw_chars": 197982,
+   "raw_chars": 198162,
    "tag": "olbgev_handball_12158"
   },
   {
@@ -2042,10 +2086,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:38Z",
-   "bytes": 233162,
+   "fetched_utc": "2026-10-27T06:22:06Z",
+   "bytes": 233346,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200081.txt.gz",
-   "raw_chars": 232940,
+   "raw_chars": 233124,
    "tag": "olbgev_ice_hockey_200081"
   },
   {
@@ -2053,10 +2097,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:39Z",
-   "bytes": 234823,
+   "fetched_utc": "2026-10-27T06:22:07Z",
+   "bytes": 235003,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200082.txt.gz",
-   "raw_chars": 234599,
+   "raw_chars": 234779,
    "tag": "olbgev_ice_hockey_200082"
   },
   {
@@ -2064,10 +2108,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:40Z",
-   "bytes": 245386,
+   "fetched_utc": "2026-10-27T06:22:08Z",
+   "bytes": 245561,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200083.txt.gz",
-   "raw_chars": 245162,
+   "raw_chars": 245337,
    "tag": "olbgev_ice_hockey_200083"
   },
   {
@@ -2075,10 +2119,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:41Z",
-   "bytes": 241352,
+   "fetched_utc": "2026-10-27T06:22:09Z",
+   "bytes": 241520,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200100.txt.gz",
-   "raw_chars": 241127,
+   "raw_chars": 241295,
    "tag": "olbgev_ice_hockey_200100"
   },
   {
@@ -2086,10 +2130,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:42Z",
-   "bytes": 246374,
+   "fetched_utc": "2026-10-27T06:22:10Z",
+   "bytes": 246542,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200108.txt.gz",
-   "raw_chars": 246152,
+   "raw_chars": 246320,
    "tag": "olbgev_ice_hockey_200108"
   },
   {
@@ -2097,10 +2141,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:43Z",
-   "bytes": 246649,
+   "fetched_utc": "2026-10-27T06:22:11Z",
+   "bytes": 246829,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200104.txt.gz",
-   "raw_chars": 246427,
+   "raw_chars": 246607,
    "tag": "olbgev_ice_hockey_200104"
   },
   {
@@ -2108,10 +2152,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:43Z",
-   "bytes": 230056,
+   "fetched_utc": "2026-10-27T06:22:12Z",
+   "bytes": 230236,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200098.txt.gz",
-   "raw_chars": 229834,
+   "raw_chars": 230014,
    "tag": "olbgev_ice_hockey_200098"
   },
   {
@@ -2119,10 +2163,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:44Z",
-   "bytes": 228372,
+   "fetched_utc": "2026-10-27T06:22:14Z",
+   "bytes": 228552,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200146.txt.gz",
-   "raw_chars": 228146,
+   "raw_chars": 228326,
    "tag": "olbgev_ice_hockey_200146"
   },
   {
@@ -2130,10 +2174,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:45Z",
-   "bytes": 210937,
+   "fetched_utc": "2026-10-27T06:22:14Z",
+   "bytes": 211115,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200116.txt.gz",
-   "raw_chars": 210715,
+   "raw_chars": 210893,
    "tag": "olbgev_ice_hockey_200116"
   },
   {
@@ -2141,10 +2185,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:46Z",
-   "bytes": 229770,
+   "fetched_utc": "2026-10-27T06:22:15Z",
+   "bytes": 229950,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200118.txt.gz",
-   "raw_chars": 229548,
+   "raw_chars": 229728,
    "tag": "olbgev_ice_hockey_200118"
   },
   {
@@ -2152,10 +2196,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:47Z",
-   "bytes": 240002,
+   "fetched_utc": "2026-10-27T06:22:16Z",
+   "bytes": 240182,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200123.txt.gz",
-   "raw_chars": 239780,
+   "raw_chars": 239960,
    "tag": "olbgev_ice_hockey_200123"
   },
   {
@@ -2163,10 +2207,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:48Z",
-   "bytes": 229967,
+   "fetched_utc": "2026-10-27T06:22:17Z",
+   "bytes": 230145,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200119.txt.gz",
-   "raw_chars": 229745,
+   "raw_chars": 229923,
    "tag": "olbgev_ice_hockey_200119"
   },
   {
@@ -2174,10 +2218,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:49Z",
-   "bytes": 245724,
+   "fetched_utc": "2026-10-27T06:22:18Z",
+   "bytes": 245904,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200115.txt.gz",
-   "raw_chars": 245502,
+   "raw_chars": 245682,
    "tag": "olbgev_ice_hockey_200115"
   },
   {
@@ -2185,10 +2229,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:49Z",
-   "bytes": 238547,
+   "fetched_utc": "2026-10-27T06:22:19Z",
+   "bytes": 238727,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200117.txt.gz",
-   "raw_chars": 238325,
+   "raw_chars": 238505,
    "tag": "olbgev_ice_hockey_200117"
   },
   {
@@ -2196,10 +2240,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:50Z",
-   "bytes": 229325,
+   "fetched_utc": "2026-10-27T06:22:20Z",
+   "bytes": 229503,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200122.txt.gz",
-   "raw_chars": 229103,
+   "raw_chars": 229281,
    "tag": "olbgev_ice_hockey_200122"
   },
   {
@@ -2207,10 +2251,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:51Z",
-   "bytes": 239462,
+   "fetched_utc": "2026-10-27T06:22:21Z",
+   "bytes": 239642,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200111.txt.gz",
-   "raw_chars": 239240,
+   "raw_chars": 239420,
    "tag": "olbgev_ice_hockey_200111"
   },
   {
@@ -2218,10 +2262,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:52Z",
-   "bytes": 239412,
+   "fetched_utc": "2026-10-27T06:22:22Z",
+   "bytes": 239592,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200105.txt.gz",
-   "raw_chars": 239190,
+   "raw_chars": 239370,
    "tag": "olbgev_ice_hockey_200105"
   },
   {
@@ -2229,10 +2273,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:53Z",
-   "bytes": 209637,
+   "fetched_utc": "2026-10-27T06:22:23Z",
+   "bytes": 209817,
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200112.txt.gz",
-   "raw_chars": 209415,
+   "raw_chars": 209595,
    "tag": "olbgev_ice_hockey_200112"
   },
   {
@@ -2240,10 +2284,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:54Z",
-   "bytes": 221608,
+   "fetched_utc": "2026-10-27T06:22:24Z",
+   "bytes": 221784,
    "raw_file": "pipeline/raw/olbgev_basketball_536177.txt.gz",
-   "raw_chars": 221386,
+   "raw_chars": 221562,
    "tag": "olbgev_basketball_536177"
   },
   {
@@ -2251,10 +2295,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:55Z",
-   "bytes": 237960,
+   "fetched_utc": "2026-10-27T06:22:24Z",
+   "bytes": 238138,
    "raw_file": "pipeline/raw/olbgev_basketball_536214.txt.gz",
-   "raw_chars": 237738,
+   "raw_chars": 237916,
    "tag": "olbgev_basketball_536214"
   },
   {
@@ -2262,10 +2306,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:56Z",
-   "bytes": 250155,
+   "fetched_utc": "2026-10-27T06:22:25Z",
+   "bytes": 250347,
    "raw_file": "pipeline/raw/olbgev_basketball_536176.txt.gz",
-   "raw_chars": 249933,
+   "raw_chars": 250125,
    "tag": "olbgev_basketball_536176"
   },
   {
@@ -2273,10 +2317,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:56Z",
-   "bytes": 246925,
+   "fetched_utc": "2026-10-27T06:22:26Z",
+   "bytes": 247101,
    "raw_file": "pipeline/raw/olbgev_basketball_536179.txt.gz",
-   "raw_chars": 246684,
+   "raw_chars": 246860,
    "tag": "olbgev_basketball_536179"
   },
   {
@@ -2284,10 +2328,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:57Z",
-   "bytes": 212212,
+   "fetched_utc": "2026-10-27T06:22:27Z",
+   "bytes": 212392,
    "raw_file": "pipeline/raw/olbgev_basketball_536218.txt.gz",
-   "raw_chars": 211990,
+   "raw_chars": 212170,
    "tag": "olbgev_basketball_536218"
   },
   {
@@ -2295,10 +2339,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:58Z",
-   "bytes": 256320,
+   "fetched_utc": "2026-10-27T06:22:28Z",
+   "bytes": 256520,
    "raw_file": "pipeline/raw/olbgev_basketball_536174.txt.gz",
-   "raw_chars": 256098,
+   "raw_chars": 256298,
    "tag": "olbgev_basketball_536174"
   },
   {
@@ -2306,10 +2350,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:11:59Z",
-   "bytes": 242443,
+   "fetched_utc": "2026-10-27T06:22:29Z",
+   "bytes": 242625,
    "raw_file": "pipeline/raw/olbgev_basketball_536178.txt.gz",
-   "raw_chars": 242221,
+   "raw_chars": 242403,
    "tag": "olbgev_basketball_536178"
   },
   {
@@ -2317,10 +2361,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:00Z",
-   "bytes": 258855,
+   "fetched_utc": "2026-10-27T06:22:30Z",
+   "bytes": 259033,
    "raw_file": "pipeline/raw/olbgev_basketball_536217.txt.gz",
-   "raw_chars": 258625,
+   "raw_chars": 258803,
    "tag": "olbgev_basketball_536217"
   },
   {
@@ -2328,10 +2372,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:01Z",
-   "bytes": 212171,
+   "fetched_utc": "2026-10-27T06:22:31Z",
+   "bytes": 212351,
    "raw_file": "pipeline/raw/olbgev_basketball_536175.txt.gz",
-   "raw_chars": 211949,
+   "raw_chars": 212129,
    "tag": "olbgev_basketball_536175"
   },
   {
@@ -2339,10 +2383,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:02Z",
-   "bytes": 219563,
+   "fetched_utc": "2026-10-27T06:22:32Z",
+   "bytes": 219745,
    "raw_file": "pipeline/raw/olbgev_basketball_536235.txt.gz",
-   "raw_chars": 219341,
+   "raw_chars": 219523,
    "tag": "olbgev_basketball_536235"
   },
   {
@@ -2350,10 +2394,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:03Z",
-   "bytes": 211998,
+   "fetched_utc": "2026-10-27T06:22:33Z",
+   "bytes": 212178,
    "raw_file": "pipeline/raw/olbgev_basketball_536222.txt.gz",
-   "raw_chars": 211776,
+   "raw_chars": 211956,
    "tag": "olbgev_basketball_536222"
   },
   {
@@ -2361,10 +2405,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:04Z",
-   "bytes": 211613,
+   "fetched_utc": "2026-10-27T06:22:34Z",
+   "bytes": 211793,
    "raw_file": "pipeline/raw/olbgev_basketball_536180.txt.gz",
-   "raw_chars": 211391,
+   "raw_chars": 211571,
    "tag": "olbgev_basketball_536180"
   },
   {
@@ -2372,10 +2416,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:05Z",
-   "bytes": 212209,
+   "fetched_utc": "2026-10-27T06:22:34Z",
+   "bytes": 212399,
    "raw_file": "pipeline/raw/olbgev_basketball_536181.txt.gz",
-   "raw_chars": 211987,
+   "raw_chars": 212177,
    "tag": "olbgev_basketball_536181"
   },
   {
@@ -2383,10 +2427,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:05Z",
-   "bytes": 231654,
+   "fetched_utc": "2026-10-27T06:22:35Z",
+   "bytes": 231834,
    "raw_file": "pipeline/raw/olbgev_basketball_536183.txt.gz",
-   "raw_chars": 231432,
+   "raw_chars": 231612,
    "tag": "olbgev_basketball_536183"
   },
   {
@@ -2394,10 +2438,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:06Z",
-   "bytes": 209502,
+   "fetched_utc": "2026-10-27T06:22:36Z",
+   "bytes": 209687,
    "raw_file": "pipeline/raw/olbgev_basketball_536232.txt.gz",
-   "raw_chars": 209280,
+   "raw_chars": 209465,
    "tag": "olbgev_basketball_536232"
   },
   {
@@ -2405,10 +2449,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:07Z",
-   "bytes": 212140,
+   "fetched_utc": "2026-10-27T06:22:37Z",
+   "bytes": 212320,
    "raw_file": "pipeline/raw/olbgev_basketball_536215.txt.gz",
-   "raw_chars": 211918,
+   "raw_chars": 212098,
    "tag": "olbgev_basketball_536215"
   },
   {
@@ -2416,54 +2460,54 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:08Z",
-   "bytes": 212424,
+   "fetched_utc": "2026-10-27T06:22:38Z",
+   "bytes": 212604,
    "raw_file": "pipeline/raw/olbgev_basketball_536219.txt.gz",
-   "raw_chars": 212202,
+   "raw_chars": 212382,
    "tag": "olbgev_basketball_536219"
+  },
+  {
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Minas_vs_Pato_Basquete/4?event_id=536210",
+   "status": 200,
+   "ok": true,
+   "error": "",
+   "fetched_utc": "2026-10-27T06:22:39Z",
+   "bytes": 209450,
+   "raw_file": "pipeline/raw/olbgev_basketball_536210.txt.gz",
+   "raw_chars": 209228,
+   "tag": "olbgev_basketball_536210"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4?event_id=536209",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:09Z",
-   "bytes": 208501,
+   "fetched_utc": "2026-10-27T06:22:40Z",
+   "bytes": 209301,
    "raw_file": "pipeline/raw/olbgev_basketball_536209.txt.gz",
-   "raw_chars": 208279,
+   "raw_chars": 209079,
    "tag": "olbgev_basketball_536209"
   },
   {
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/BKN_Nets_@_BOS_Celtics/4?event_id=536253",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Pinheiros_vs_Uniao_Corinthians/4?event_id=536211",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:10Z",
-   "bytes": 207042,
-   "raw_file": "pipeline/raw/olbgev_basketball_536253.txt.gz",
-   "raw_chars": 206820,
-   "tag": "olbgev_basketball_536253"
-  },
-  {
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DET_Pistons_@_NY_Knicks/4?event_id=536251",
-   "status": 200,
-   "ok": true,
-   "error": "",
-   "fetched_utc": "2026-10-27T06:12:10Z",
-   "bytes": 207066,
-   "raw_file": "pipeline/raw/olbgev_basketball_536251.txt.gz",
-   "raw_chars": 206844,
-   "tag": "olbgev_basketball_536251"
+   "fetched_utc": "2026-10-27T06:22:41Z",
+   "bytes": 209822,
+   "raw_file": "pipeline/raw/olbgev_basketball_536211.txt.gz",
+   "raw_chars": 209600,
+   "tag": "olbgev_basketball_536211"
   },
   {
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:11Z",
-   "bytes": 236954,
+   "fetched_utc": "2026-10-27T06:22:42Z",
+   "bytes": 237134,
    "raw_file": "pipeline/raw/olbgev_rugby_league_2695857.txt.gz",
-   "raw_chars": 236732,
+   "raw_chars": 236912,
    "tag": "olbgev_rugby_league_2695857"
   },
   {
@@ -2471,10 +2515,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:12Z",
-   "bytes": 297507,
+   "fetched_utc": "2026-10-27T06:22:43Z",
+   "bytes": 297692,
    "raw_file": "pipeline/raw/olbgev_rugby_league_2801554.txt.gz",
-   "raw_chars": 297283,
+   "raw_chars": 297468,
    "tag": "olbgev_rugby_league_2801554"
   },
   {
@@ -2482,10 +2526,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:13Z",
-   "bytes": 277419,
+   "fetched_utc": "2026-10-27T06:22:44Z",
+   "bytes": 277611,
    "raw_file": "pipeline/raw/olbgev_rugby_league_2801600.txt.gz",
-   "raw_chars": 277195,
+   "raw_chars": 277387,
    "tag": "olbgev_rugby_league_2801600"
   },
   {
@@ -2493,7 +2537,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:14Z",
+   "fetched_utc": "2026-10-27T06:22:44Z",
    "bytes": 13431,
    "raw_file": "pipeline/raw/official_baseball_0.txt.gz",
    "raw_chars": 13431,
@@ -2504,7 +2548,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:14Z",
+   "fetched_utc": "2026-10-27T06:22:45Z",
    "bytes": 40482,
    "raw_file": "pipeline/raw/official_baseball_1.txt.gz",
    "raw_chars": 40478,
@@ -2515,7 +2559,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:15Z",
+   "fetched_utc": "2026-10-27T06:22:46Z",
    "bytes": 80986,
    "raw_file": "pipeline/raw/official_baseball_2.txt.gz",
    "raw_chars": 80986,
@@ -2526,7 +2570,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:15Z",
+   "fetched_utc": "2026-10-27T06:22:46Z",
    "bytes": 23219,
    "raw_file": "pipeline/raw/official_baseball_3.txt.gz",
    "raw_chars": 23219,
@@ -2537,7 +2581,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:16Z",
+   "fetched_utc": "2026-10-27T06:22:47Z",
    "bytes": 91380,
    "raw_file": "pipeline/raw/official_ice_hockey_0.txt.gz",
    "raw_chars": 91367,
@@ -2548,7 +2592,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:16Z",
+   "fetched_utc": "2026-10-27T06:22:47Z",
    "bytes": 58202,
    "raw_file": "pipeline/raw/official_ice_hockey_1.txt.gz",
    "raw_chars": 58197,
@@ -2559,7 +2603,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:17Z",
+   "fetched_utc": "2026-10-27T06:22:48Z",
    "bytes": 58202,
    "raw_file": "pipeline/raw/official_ice_hockey_2.txt.gz",
    "raw_chars": 58197,
@@ -2570,7 +2614,7 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:12:23Z",
+   "fetched_utc": "2026-10-27T06:22:55Z",
    "raw_file": "pipeline/raw/official_basketball_0.txt.gz",
    "raw_chars": 445,
    "tag": "official_basketball_0"
@@ -2580,7 +2624,7 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:12:30Z",
+   "fetched_utc": "2026-10-27T06:23:01Z",
    "raw_file": "pipeline/raw/official_basketball_1.txt.gz",
    "raw_chars": 431,
    "tag": "official_basketball_1"
@@ -2590,9 +2634,9 @@
    "status": 429,
    "ok": false,
    "error": "HTTP 429",
-   "fetched_utc": "2026-10-27T06:12:36Z",
+   "fetched_utc": "2026-10-27T06:23:08Z",
    "raw_file": "pipeline/raw/official_basketball_2.txt.gz",
-   "raw_chars": 31437,
+   "raw_chars": 31436,
    "tag": "official_basketball_2"
   },
   {
@@ -2600,10 +2644,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:12:37Z",
-   "bytes": 550032,
+   "fetched_utc": "2026-10-27T06:23:09Z",
+   "bytes": 550105,
    "raw_file": "pipeline/raw/official_basketball_3.txt.gz",
-   "raw_chars": 550016,
+   "raw_chars": 550089,
    "tag": "official_basketball_3"
   },
   {
@@ -2611,7 +2655,7 @@
    "status": 0,
    "ok": false,
    "error": "URLError: <urlopen error timed out>",
-   "fetched_utc": "2026-10-27T06:14:14Z",
+   "fetched_utc": "2026-10-27T06:24:46Z",
    "raw_file": "pipeline/raw/official_basketball_4.txt.gz",
    "raw_chars": 0,
    "tag": "official_basketball_4"
@@ -2621,7 +2665,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:16Z",
+   "fetched_utc": "2026-10-27T06:24:48Z",
    "bytes": 2476036,
    "raw_file": "pipeline/raw/official_basketball_5.txt.gz",
    "raw_chars": 2474877,
@@ -2632,10 +2676,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:16Z",
-   "bytes": 371598,
+   "fetched_utc": "2026-10-27T06:24:49Z",
+   "bytes": 371643,
    "raw_file": "pipeline/raw/official_cricket_0.txt.gz",
-   "raw_chars": 371478,
+   "raw_chars": 371523,
    "tag": "official_cricket_0"
   },
   {
@@ -2643,10 +2687,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:17Z",
-   "bytes": 458683,
+   "fetched_utc": "2026-10-27T06:24:50Z",
+   "bytes": 458815,
    "raw_file": "pipeline/raw/official_cricket_1.txt.gz",
-   "raw_chars": 458539,
+   "raw_chars": 458671,
    "tag": "official_cricket_1"
   },
   {
@@ -2654,7 +2698,7 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:14:24Z",
+   "fetched_utc": "2026-10-27T06:24:57Z",
    "raw_file": "pipeline/raw/official_cricket_2.txt.gz",
    "raw_chars": 19318,
    "tag": "official_cricket_2"
@@ -2664,7 +2708,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:25Z",
+   "fetched_utc": "2026-10-27T06:24:58Z",
    "bytes": 197670,
    "raw_file": "pipeline/raw/official_cricket_3.txt.gz",
    "raw_chars": 197668,
@@ -2675,7 +2719,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:26Z",
+   "fetched_utc": "2026-10-27T06:24:59Z",
    "bytes": 530984,
    "raw_file": "pipeline/raw/official_cricket_4.txt.gz",
    "raw_chars": 530856,
@@ -2686,7 +2730,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:27Z",
+   "fetched_utc": "2026-10-27T06:25:00Z",
    "bytes": 14301,
    "raw_file": "pipeline/raw/official_motor_racing_0.txt.gz",
    "raw_chars": 14296,
@@ -2697,7 +2741,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:27Z",
+   "fetched_utc": "2026-10-27T06:25:01Z",
    "bytes": 10119,
    "raw_file": "pipeline/raw/official_motor_racing_1.txt.gz",
    "raw_chars": 10117,
@@ -2708,7 +2752,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:28Z",
+   "fetched_utc": "2026-10-27T06:25:02Z",
    "bytes": 2507,
    "raw_file": "pipeline/raw/official_motor_racing_2.txt.gz",
    "raw_chars": 2507,
@@ -2719,7 +2763,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:29Z",
+   "fetched_utc": "2026-10-27T06:25:03Z",
    "bytes": 13131,
    "raw_file": "pipeline/raw/official_motor_racing_3.txt.gz",
    "raw_chars": 13129,
@@ -2730,7 +2774,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:29Z",
+   "fetched_utc": "2026-10-27T06:25:04Z",
    "bytes": 621386,
    "raw_file": "pipeline/raw/official_motor_racing_4.txt.gz",
    "raw_chars": 621339,
@@ -2741,7 +2785,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:30Z",
+   "fetched_utc": "2026-10-27T06:25:05Z",
    "bytes": 301395,
    "raw_file": "pipeline/raw/official_motor_racing_5.txt.gz",
    "raw_chars": 301156,
@@ -2752,7 +2796,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:32Z",
+   "fetched_utc": "2026-10-27T06:25:06Z",
    "bytes": 862,
    "raw_file": "pipeline/raw/official_rugby_league_0.txt.gz",
    "raw_chars": 862,
@@ -2763,7 +2807,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:33Z",
+   "fetched_utc": "2026-10-27T06:25:08Z",
    "bytes": 862,
    "raw_file": "pipeline/raw/official_rugby_league_1.txt.gz",
    "raw_chars": 862,
@@ -2774,7 +2818,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:34Z",
+   "fetched_utc": "2026-10-27T06:25:09Z",
    "bytes": 86902,
    "raw_file": "pipeline/raw/official_rugby_league_2.txt.gz",
    "raw_chars": 86890,
@@ -2785,7 +2829,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:35Z",
+   "fetched_utc": "2026-10-27T06:25:10Z",
    "bytes": 90001,
    "raw_file": "pipeline/raw/official_rugby_league_3.txt.gz",
    "raw_chars": 89987,
@@ -2796,7 +2840,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:36Z",
+   "fetched_utc": "2026-10-27T06:25:12Z",
    "bytes": 862,
    "raw_file": "pipeline/raw/official_rugby_league_4.txt.gz",
    "raw_chars": 862,
@@ -2807,10 +2851,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:38Z",
-   "bytes": 676193,
+   "fetched_utc": "2026-10-27T06:25:13Z",
+   "bytes": 678881,
    "raw_file": "pipeline/raw/official_rugby_union_0.txt.gz",
-   "raw_chars": 675507,
+   "raw_chars": 678195,
    "tag": "official_rugby-union_0"
   },
   {
@@ -2818,9 +2862,9 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:14:48Z",
+   "fetched_utc": "2026-10-27T06:25:23Z",
    "raw_file": "pipeline/raw/official_rugby_union_1.txt.gz",
-   "raw_chars": 52614,
+   "raw_chars": 52577,
    "tag": "official_rugby-union_1"
   },
   {
@@ -2828,7 +2872,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:48Z",
+   "fetched_utc": "2026-10-27T06:25:23Z",
    "bytes": 600930,
    "raw_file": "pipeline/raw/official_rugby_union_2.txt.gz",
    "raw_chars": 600410,
@@ -2839,7 +2883,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:49Z",
+   "fetched_utc": "2026-10-27T06:25:25Z",
    "bytes": 166948,
    "raw_file": "pipeline/raw/official_rugby_union_3.txt.gz",
    "raw_chars": 166894,
@@ -2850,7 +2894,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:51Z",
+   "fetched_utc": "2026-10-27T06:25:26Z",
    "bytes": 161017,
    "raw_file": "pipeline/raw/official_rugby_union_4.txt.gz",
    "raw_chars": 160916,
@@ -2861,7 +2905,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:52Z",
+   "fetched_utc": "2026-10-27T06:25:27Z",
    "bytes": 371430,
    "raw_file": "pipeline/raw/official_rugby_union_5.txt.gz",
    "raw_chars": 371416,
@@ -2872,10 +2916,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:52Z",
-   "bytes": 536387,
+   "fetched_utc": "2026-10-27T06:25:28Z",
+   "bytes": 536413,
    "raw_file": "pipeline/raw/official_golf_0.txt.gz",
-   "raw_chars": 536380,
+   "raw_chars": 536406,
    "tag": "official_golf_0"
   },
   {
@@ -2883,10 +2927,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:53Z",
-   "bytes": 552647,
+   "fetched_utc": "2026-10-27T06:25:29Z",
+   "bytes": 549122,
    "raw_file": "pipeline/raw/official_golf_1.txt.gz",
-   "raw_chars": 552642,
+   "raw_chars": 549117,
    "tag": "official_golf_1"
   },
   {
@@ -2894,10 +2938,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:14:53Z",
-   "bytes": 978916,
+   "fetched_utc": "2026-10-27T06:25:29Z",
+   "bytes": 978915,
    "raw_file": "pipeline/raw/official_golf_2.txt.gz",
-   "raw_chars": 978814,
+   "raw_chars": 978813,
    "tag": "official_golf_2"
   },
   {
@@ -2905,7 +2949,7 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:15:00Z",
+   "fetched_utc": "2026-10-27T06:25:36Z",
    "raw_file": "pipeline/raw/official_golf_3.txt.gz",
    "raw_chars": 406,
    "tag": "official_golf_3"
@@ -2915,10 +2959,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:01Z",
-   "bytes": 803647,
+   "fetched_utc": "2026-10-27T06:25:37Z",
+   "bytes": 800244,
    "raw_file": "pipeline/raw/official_golf_4.txt.gz",
-   "raw_chars": 803646,
+   "raw_chars": 800243,
    "tag": "official_golf_4"
   },
   {
@@ -2926,7 +2970,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:01Z",
+   "fetched_utc": "2026-10-27T06:25:37Z",
    "bytes": 213617,
    "raw_file": "pipeline/raw/official_tennis_0.txt.gz",
    "raw_chars": 213617,
@@ -2937,7 +2981,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:02Z",
+   "fetched_utc": "2026-10-27T06:25:38Z",
    "bytes": 1178016,
    "raw_file": "pipeline/raw/official_tennis_1.txt.gz",
    "raw_chars": 1178000,
@@ -2948,9 +2992,9 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:15:08Z",
+   "fetched_utc": "2026-10-27T06:25:45Z",
    "raw_file": "pipeline/raw/official_tennis_2.txt.gz",
-   "raw_chars": 2249,
+   "raw_chars": 2258,
    "tag": "official_tennis_2"
   },
   {
@@ -2958,9 +3002,9 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:15:15Z",
+   "fetched_utc": "2026-10-27T06:25:51Z",
    "raw_file": "pipeline/raw/official_tennis_3.txt.gz",
-   "raw_chars": 2235,
+   "raw_chars": 2224,
    "tag": "official_tennis_3"
   },
   {
@@ -2968,7 +3012,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:15Z",
+   "fetched_utc": "2026-10-27T06:25:52Z",
    "bytes": 76161,
    "raw_file": "pipeline/raw/official_tennis_4.txt.gz",
    "raw_chars": 76153,
@@ -2979,10 +3023,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:16Z",
-   "bytes": 232083,
+   "fetched_utc": "2026-10-27T06:25:53Z",
+   "bytes": 231861,
    "raw_file": "pipeline/raw/official_tennis_5.txt.gz",
-   "raw_chars": 232079,
+   "raw_chars": 231857,
    "tag": "official_tennis_5"
   },
   {
@@ -2990,7 +3034,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:17Z",
+   "fetched_utc": "2026-10-27T06:25:54Z",
    "bytes": 1241747,
    "raw_file": "pipeline/raw/official_darts_0.txt.gz",
    "raw_chars": 1241736,
@@ -3001,7 +3045,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:17Z",
+   "fetched_utc": "2026-10-27T06:25:55Z",
    "bytes": 1241747,
    "raw_file": "pipeline/raw/official_darts_1.txt.gz",
    "raw_chars": 1241736,
@@ -3012,7 +3056,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:18Z",
+   "fetched_utc": "2026-10-27T06:25:56Z",
    "bytes": 1241747,
    "raw_file": "pipeline/raw/official_darts_2.txt.gz",
    "raw_chars": 1241736,
@@ -3023,7 +3067,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:19Z",
+   "fetched_utc": "2026-10-27T06:25:57Z",
    "bytes": 181116,
    "raw_file": "pipeline/raw/official_snooker_0.txt.gz",
    "raw_chars": 181111,
@@ -3034,7 +3078,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:19Z",
+   "fetched_utc": "2026-10-27T06:25:58Z",
    "bytes": 183267,
    "raw_file": "pipeline/raw/official_snooker_1.txt.gz",
    "raw_chars": 183262,
@@ -3045,7 +3089,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:20Z",
+   "fetched_utc": "2026-10-27T06:25:58Z",
    "bytes": 181180,
    "raw_file": "pipeline/raw/official_snooker_2.txt.gz",
    "raw_chars": 181175,
@@ -3056,7 +3100,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:21Z",
+   "fetched_utc": "2026-10-27T06:26:00Z",
    "bytes": 151728,
    "raw_file": "pipeline/raw/official_volleyball_0.txt.gz",
    "raw_chars": 151684,
@@ -3067,7 +3111,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:23Z",
+   "fetched_utc": "2026-10-27T06:26:02Z",
    "bytes": 123587,
    "raw_file": "pipeline/raw/official_volleyball_1.txt.gz",
    "raw_chars": 123581,
@@ -3078,7 +3122,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:24Z",
+   "fetched_utc": "2026-10-27T06:26:03Z",
    "bytes": 494133,
    "raw_file": "pipeline/raw/official_volleyball_2.txt.gz",
    "raw_chars": 494133,
@@ -3089,9 +3133,9 @@
    "status": 403,
    "ok": false,
    "error": "HTTP 403",
-   "fetched_utc": "2026-10-27T06:15:31Z",
+   "fetched_utc": "2026-10-27T06:26:10Z",
    "raw_file": "pipeline/raw/official_volleyball_3.txt.gz",
-   "raw_chars": 3066,
+   "raw_chars": 3083,
    "tag": "official_volleyball_3"
   },
   {
@@ -3099,7 +3143,7 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:15:39Z",
+   "fetched_utc": "2026-10-27T06:26:19Z",
    "raw_file": "pipeline/raw/official_handball_0.txt.gz",
    "raw_chars": 40371,
    "tag": "official_handball_0"
@@ -3109,10 +3153,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:40Z",
-   "bytes": 163508,
+   "fetched_utc": "2026-10-27T06:26:21Z",
+   "bytes": 163637,
    "raw_file": "pipeline/raw/official_handball_1.txt.gz",
-   "raw_chars": 163481,
+   "raw_chars": 163610,
    "tag": "official_handball_1"
   },
   {
@@ -3120,7 +3164,7 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:15:48Z",
+   "fetched_utc": "2026-10-27T06:26:30Z",
    "raw_file": "pipeline/raw/official_handball_2.txt.gz",
    "raw_chars": 40383,
    "tag": "official_handball_2"
@@ -3130,9 +3174,9 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:15:57Z",
+   "fetched_utc": "2026-10-27T06:26:39Z",
    "raw_file": "pipeline/raw/official_handball_3.txt.gz",
-   "raw_chars": 152725,
+   "raw_chars": 152708,
    "tag": "official_handball_3"
   },
   {
@@ -3140,7 +3184,7 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:15:58Z",
+   "fetched_utc": "2026-10-27T06:26:41Z",
    "bytes": 81995,
    "raw_file": "pipeline/raw/official_greyhounds_0.txt.gz",
    "raw_chars": 81988,
@@ -3151,7 +3195,7 @@
    "status": 404,
    "ok": false,
    "error": "HTTP 404",
-   "fetched_utc": "2026-10-27T06:16:07Z",
+   "fetched_utc": "2026-10-27T06:26:51Z",
    "raw_file": "pipeline/raw/official_greyhounds_1.txt.gz",
    "raw_chars": 78726,
    "tag": "official_greyhounds_1"
@@ -3161,10 +3205,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:16:08Z",
-   "bytes": 96287,
+   "fetched_utc": "2026-10-27T06:26:52Z",
+   "bytes": 96275,
    "raw_file": "pipeline/raw/official_greyhounds_2.txt.gz",
-   "raw_chars": 96258,
+   "raw_chars": 96246,
    "tag": "official_greyhounds_2"
   },
   {
@@ -3172,7 +3216,7 @@
    "status": 0,
    "ok": false,
    "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-   "fetched_utc": "2026-10-27T06:16:15Z",
+   "fetched_utc": "2026-10-27T06:26:59Z",
    "raw_file": "pipeline/raw/official_greyhounds_3.txt.gz",
    "raw_chars": 0,
    "tag": "official_greyhounds_3"
@@ -3182,10 +3226,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:16:16Z",
-   "bytes": 1314534,
+   "fetched_utc": "2026-10-27T06:27:01Z",
+   "bytes": 1314491,
    "raw_file": "pipeline/raw/official_gaelic_sports_0.txt.gz",
-   "raw_chars": 1314141,
+   "raw_chars": 1314098,
    "tag": "official_gaelic-sports_0"
   },
   {
@@ -3193,10 +3237,10 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:16:16Z",
-   "bytes": 401959,
+   "fetched_utc": "2026-10-27T06:27:02Z",
+   "bytes": 401873,
    "raw_file": "pipeline/raw/official_gaelic_sports_1.txt.gz",
-   "raw_chars": 401780,
+   "raw_chars": 401694,
    "tag": "official_gaelic-sports_1"
   },
   {
@@ -3204,12 +3248,12 @@
    "status": 200,
    "ok": true,
    "error": "",
-   "fetched_utc": "2026-10-27T06:16:17Z",
+   "fetched_utc": "2026-10-27T06:27:03Z",
    "bytes": 65559,
    "raw_file": "pipeline/raw/official_gaelic_sports_2.txt.gz",
    "raw_chars": 65558,
    "tag": "official_gaelic-sports_2"
   }
  ],
- "finishedUtc": "2026-10-27T06:16:17Z"
+ "finishedUtc": "2026-10-27T06:27:03Z"
 }

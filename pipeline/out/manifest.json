@@ -1,5 +1,5 @@
 {
- "captured_utc": "2026-10-27T06:16:17Z",
+ "captured_utc": "2026-10-27T06:27:03Z",
  "mode": "harvest",
  "entries": [
   {
@@ -7,10 +7,10 @@
    "url": "https://www.olbg.com/betting-tips/Golf/5",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:40Z",
+   "fetched_utc": "2026-10-27T06:18:48Z",
    "raw_file": "pipeline/raw/olbg_golf.txt.gz",
-   "raw_sha256": "fc7d3c6e866c3f20bda63f4d21cc6a9e78649e7b117db4f1602614370a9ec474",
-   "raw_chars": 301902,
+   "raw_sha256": "aee55d6ac50434bcdceed6ac9d0a308a2882eff74a7ef19972139f5d9665d65a",
+   "raw_chars": 301873,
    "error": ""
   },
   {
@@ -18,10 +18,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/21",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:41Z",
+   "fetched_utc": "2026-10-27T06:18:50Z",
    "raw_file": "pipeline/raw/olbg_volleyball.txt.gz",
-   "raw_sha256": "60c4a00ae2c486834cf410aed9ad581e7f8d090c90ef413a545f39dfeec8488f",
-   "raw_chars": 343328,
+   "raw_sha256": "fbae744a4855924ac58c9e86b9caa93f717c458d8e11e3fcc0e497c7c2564227",
+   "raw_chars": 343309,
    "error": ""
   },
   {
@@ -29,10 +29,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:43Z",
+   "fetched_utc": "2026-10-27T06:18:52Z",
    "raw_file": "pipeline/raw/olbg_rugby_union.txt.gz",
-   "raw_sha256": "eb1b22670dab2c276399b739f256f9c4cc3dc211ecb1a61432c4f164b7e1350e",
-   "raw_chars": 321192,
+   "raw_sha256": "ce3ba0c849d4ed6f9240cb862aac746186ed331aaff6852467f02ef199f73a5a",
+   "raw_chars": 321165,
    "error": ""
   },
   {
@@ -40,10 +40,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/7",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:44Z",
+   "fetched_utc": "2026-10-27T06:18:53Z",
    "raw_file": "pipeline/raw/olbg_cricket.txt.gz",
-   "raw_sha256": "bd8a74a191c51802adabe40a3aa86998b0b2aa4113332b94df37cd6ce58fb5e5",
-   "raw_chars": 355349,
+   "raw_sha256": "2f93950317cf141da4be8e4935a9a7dbb189c5cbe02c2a49e7ab2f9977a8cd1a",
+   "raw_chars": 355318,
    "error": ""
   },
   {
@@ -51,10 +51,10 @@
    "url": "https://www.olbg.com/betting-tips/Snooker/8",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:46Z",
+   "fetched_utc": "2026-10-27T06:18:55Z",
    "raw_file": "pipeline/raw/olbg_snooker.txt.gz",
-   "raw_sha256": "c2884307aa24a775218554c875810e3cf19d623bad0e572def589797ec0758ef",
-   "raw_chars": 266816,
+   "raw_sha256": "facc9d176bfeb57d99bf587f59ad5a99f4ca16188e9f1537da1b7c74f1a1cc0f",
+   "raw_chars": 266785,
    "error": ""
   },
   {
@@ -62,10 +62,10 @@
    "url": "https://www.olbg.com/betting-tips/Darts/15",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:47Z",
+   "fetched_utc": "2026-10-27T06:18:56Z",
    "raw_file": "pipeline/raw/olbg_darts.txt.gz",
-   "raw_sha256": "b248b0586cf1d53f4714d2d06f9bfbb10e400251b0c559e467a9cdb4df9f9bbe",
-   "raw_chars": 308356,
+   "raw_sha256": "88b6ebc74258dbade4ad5a3e39303d4def8d85c928fe2c5862ca63faa5098a96",
+   "raw_chars": 308327,
    "error": ""
   },
   {
@@ -73,10 +73,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:48Z",
+   "fetched_utc": "2026-10-27T06:18:58Z",
    "raw_file": "pipeline/raw/olbg_baseball.txt.gz",
-   "raw_sha256": "03c63d3fd14027fd9f4adbef1f62681099705991fca57acbf4fb8c803eaab5c0",
-   "raw_chars": 263650,
+   "raw_sha256": "7ccd68cc3092dd6a84948af5c6fac55b74fcfc68bd4cf5d09d58cba5c39f6d42",
+   "raw_chars": 263621,
    "error": ""
   },
   {
@@ -84,10 +84,10 @@
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:50Z",
+   "fetched_utc": "2026-10-27T06:18:59Z",
    "raw_file": "pipeline/raw/olbg_gaelic_sports.txt.gz",
-   "raw_sha256": "dbc8a8b41a811d151d03e8b05a96d93945bfda97f720911ffdec4beb50ef039f",
-   "raw_chars": 277475,
+   "raw_sha256": "5af11f007695c69d8ce9281c3d404577a02c331f235db13832e072f8aefd54de",
+   "raw_chars": 277431,
    "error": ""
   },
   {
@@ -95,10 +95,10 @@
    "url": "https://www.olbg.com/betting-tips/Greyhounds/28",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:51Z",
+   "fetched_utc": "2026-10-27T06:19:01Z",
    "raw_file": "pipeline/raw/olbg_greyhounds.txt.gz",
-   "raw_sha256": "202561e4130ec4e6237b73bffcc6ecc6bff7dc79b91379671177e44fbcb264e1",
-   "raw_chars": 282076,
+   "raw_sha256": "526d2945441f676411c1d01bde381d78159e34bf7b9f458ba83de438780d66e2",
+   "raw_chars": 314186,
    "error": ""
   },
   {
@@ -106,10 +106,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/3",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:53Z",
+   "fetched_utc": "2026-10-27T06:19:02Z",
    "raw_file": "pipeline/raw/olbg_tennis.txt.gz",
-   "raw_sha256": "9bd5c858dd1a1b4e01c02f15e8b609d480c8d6a2834d638778654463af5d9109",
-   "raw_chars": 398670,
+   "raw_sha256": "04607100eafee98a1723e9a6e8744b9f3f6c323d87ae74b34260a6baa2aad98a",
+   "raw_chars": 399499,
    "error": ""
   },
   {
@@ -117,10 +117,10 @@
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:54Z",
+   "fetched_utc": "2026-10-27T06:19:04Z",
    "raw_file": "pipeline/raw/olbg_motor_racing.txt.gz",
-   "raw_sha256": "9a12715c5105e792c6dd0d046510eac9c8aa6c36d8d486fda745321ed785e1d8",
-   "raw_chars": 303873,
+   "raw_sha256": "37a86506435bb20774d0ebc244bb1771c7a96d81ec3c20d9b089c81143b2b591",
+   "raw_chars": 303823,
    "error": ""
   },
   {
@@ -128,10 +128,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/20",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:56Z",
+   "fetched_utc": "2026-10-27T06:19:06Z",
    "raw_file": "pipeline/raw/olbg_handball.txt.gz",
-   "raw_sha256": "4ea3b4c1353cc90e3a524bf46e996e97a41e49748685be0709a739f3e1c6b163",
-   "raw_chars": 340182,
+   "raw_sha256": "70209716f018ebe9fa652fc1e378ada6846641fe6decf210f46cc0cddb7dd18e",
+   "raw_chars": 340151,
    "error": ""
   },
   {
@@ -139,10 +139,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:57Z",
+   "fetched_utc": "2026-10-27T06:19:07Z",
    "raw_file": "pipeline/raw/olbg_ice_hockey.txt.gz",
-   "raw_sha256": "8c7dab1249c8378ae16187d95a521bf6662346ae6f0937a12169abf35f7910c8",
-   "raw_chars": 357559,
+   "raw_sha256": "915ebd3fe885296a38df5bb530a972b64e19dd694ae9211fc241cd152eff491b",
+   "raw_chars": 357530,
    "error": ""
   },
   {
@@ -150,10 +150,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:08:59Z",
+   "fetched_utc": "2026-10-27T06:19:09Z",
    "raw_file": "pipeline/raw/olbg_basketball.txt.gz",
-   "raw_sha256": "5f6c7ad6f814a3270f53b4c5a3f4673a3d9f16c937b7a6c6b560159c1ca6295a",
-   "raw_chars": 401673,
+   "raw_sha256": "441e04387fa014c8d077451cbe7a83b54103d75f45185556596594919c56f64f",
+   "raw_chars": 403944,
    "error": ""
   },
   {
@@ -161,10 +161,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:00Z",
+   "fetched_utc": "2026-10-27T06:19:10Z",
    "raw_file": "pipeline/raw/olbg_rugby_league.txt.gz",
-   "raw_sha256": "6d2631678508b297702761817071e3492d59d3f3b2cd9a8152e19d22585c820d",
-   "raw_chars": 270966,
+   "raw_sha256": "bcfec3d3cd9362824d64e9b808e6900849d76b155e0c6762b4653b290d32039e",
+   "raw_chars": 270937,
    "error": ""
   },
   {
@@ -172,10 +172,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:01Z",
+   "fetched_utc": "2026-10-27T06:19:12Z",
    "raw_file": "pipeline/raw/olbgcomp_golf_0.txt.gz",
-   "raw_sha256": "a07fd687d21aca4a51cd209663c64a84f60bccc4037090c47908fab5c9d40d4b",
-   "raw_chars": 478362,
+   "raw_sha256": "c351c89275cbef22c6228dc049b295b9eab48b7da62facdfdc55f72d7376b4fe",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -183,10 +183,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:02Z",
+   "fetched_utc": "2026-10-27T06:19:13Z",
    "raw_file": "pipeline/raw/olbgcomp_golf_1.txt.gz",
-   "raw_sha256": "2758b8f8c7dc9715d06060061c1ffa4bab5051cd2f8f58e682b25e3c66fd913e",
-   "raw_chars": 482299,
+   "raw_sha256": "18f9691505c7f26af406e6ce5e642631b39aafdc4b00b2a0929aadca9e959077",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -194,10 +194,10 @@
    "url": "https://www.olbg.com/betting-tips/Golf/5",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:03Z",
+   "fetched_utc": "2026-10-27T06:19:14Z",
    "raw_file": "pipeline/raw/olbgcomp_golf_2.txt.gz",
-   "raw_sha256": "ce2234804ce343a5858007f72907ed8d278c51f905a478ef00fbac0d8e5bc29e",
-   "raw_chars": 301902,
+   "raw_sha256": "d21b3059ec21721255d87e9818e032b69fc6efb83185920518c395661f245b86",
+   "raw_chars": 301873,
    "error": ""
   },
   {
@@ -205,10 +205,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:05Z",
+   "fetched_utc": "2026-10-27T06:19:15Z",
    "raw_file": "pipeline/raw/olbgcomp_volleyball_0.txt.gz",
-   "raw_sha256": "b00155bb9bfd6061eb902d60959cc2d7a3bbb93b329010118c6b4d4b539d40bc",
-   "raw_chars": 478362,
+   "raw_sha256": "71a2ac68071ff6694aad6cd731261256968a774db4d01ed747b398911cf8da4e",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -216,10 +216,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:05Z",
+   "fetched_utc": "2026-10-27T06:19:16Z",
    "raw_file": "pipeline/raw/olbgcomp_volleyball_1.txt.gz",
-   "raw_sha256": "46e7b8202dcb5cc8f0ef7997aab1fa9fb638d9c5cdb2cd1127cfb0ae356f855d",
-   "raw_chars": 482299,
+   "raw_sha256": "9517b1891bafcce4ee435853081687063f7f60c5863823bed85a700bef3b75b8",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -227,10 +227,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/21",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:06Z",
+   "fetched_utc": "2026-10-27T06:19:17Z",
    "raw_file": "pipeline/raw/olbgcomp_volleyball_2.txt.gz",
-   "raw_sha256": "05c338879fe42175ef653f7fa1cd98ff5eada7cc5bf2dbf0e34d54c7564d4131",
-   "raw_chars": 343328,
+   "raw_sha256": "ac57938eac79dc57e00f1e9fbcd41ea752a5a34be8ccc02f395bc43ec48ef128",
+   "raw_chars": 343309,
    "error": ""
   },
   {
@@ -238,10 +238,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:07Z",
+   "fetched_utc": "2026-10-27T06:19:18Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_0.txt.gz",
-   "raw_sha256": "e5822f852c47151b6149a2c62b5696b97d8e7138d3d7ad89ec20cf37ad34df4d",
-   "raw_chars": 478362,
+   "raw_sha256": "8fd625bceb9476e7fe5f9bca56ea6008d19bb75857274b36b79ba01cfd4fba6b",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -249,10 +249,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:08Z",
+   "fetched_utc": "2026-10-27T06:19:19Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_1.txt.gz",
-   "raw_sha256": "d1f7493d7f515091a49f5c24171e108ccc10ec70981bb1f3960399fe60f0144d",
-   "raw_chars": 482299,
+   "raw_sha256": "f5ee40fa3a6aba6d0289cf3059579168f4395f8fb288a399df52726f0779b4ab",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -260,10 +260,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:09Z",
+   "fetched_utc": "2026-10-27T06:19:20Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_2.txt.gz",
-   "raw_sha256": "f3e0aa937f90439e41c6df977512bb4906fc69f4cbc948252412cc5c51cb7779",
-   "raw_chars": 270966,
+   "raw_sha256": "3b125ad1bd44bc1db3130a348dd2445ffdde5f7b60f5038ab2108bd791f1ee4b",
+   "raw_chars": 270937,
    "error": ""
   },
   {
@@ -271,10 +271,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:10Z",
+   "fetched_utc": "2026-10-27T06:19:21Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_union_3.txt.gz",
-   "raw_sha256": "1027b7107d564d1c5b5ff967a3659f54a1e791b04c3916e7f74d25f149fdd7ad",
-   "raw_chars": 321192,
+   "raw_sha256": "cd172d425f8e2d944ae82f17489e5d4bddf6179264630fac2c48d07109a8a437",
+   "raw_chars": 321165,
    "error": ""
   },
   {
@@ -282,10 +282,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:11Z",
+   "fetched_utc": "2026-10-27T06:19:22Z",
    "raw_file": "pipeline/raw/olbgcomp_cricket_0.txt.gz",
-   "raw_sha256": "a9faa33c4b8bd7666fcb821dfa89676c88bc0367a53c57adeff95f2316ab0e89",
-   "raw_chars": 478362,
+   "raw_sha256": "2306bc1dff247ed62664dda4855a9456091d62c4c4b0319d542e05a4a37554a5",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -293,10 +293,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:12Z",
+   "fetched_utc": "2026-10-27T06:19:23Z",
    "raw_file": "pipeline/raw/olbgcomp_cricket_1.txt.gz",
-   "raw_sha256": "3d1f40e613f43d9fac263e23d20c2301775bf2b7d532b4e4fe6a7bc39ccd67f0",
-   "raw_chars": 482299,
+   "raw_sha256": "3a0e772c8ac87fc3b914169bed6453b0736ab701d7a38c8455c3c0a60fb9acd9",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -304,10 +304,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/7",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:13Z",
+   "fetched_utc": "2026-10-27T06:19:24Z",
    "raw_file": "pipeline/raw/olbgcomp_cricket_2.txt.gz",
-   "raw_sha256": "127e4a91aca26c825cd46b49cd847271e40688e1d59af36ee5810cb9aeb9612a",
-   "raw_chars": 355349,
+   "raw_sha256": "9e4ae0bc5e1d931db77bd3afd3308e4ec079bdb3f13f56081ac9fd590d0a358c",
+   "raw_chars": 355318,
    "error": ""
   },
   {
@@ -315,10 +315,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:14Z",
+   "fetched_utc": "2026-10-27T06:19:25Z",
    "raw_file": "pipeline/raw/olbgcomp_snooker_0.txt.gz",
-   "raw_sha256": "92d7c9ffac2b614009d4fa06b76f9115aadb851eb3d1d744b20a3f813442e378",
-   "raw_chars": 478362,
+   "raw_sha256": "b057c7a5ca63eaaa5d4d8fce8f4a2876558fd2f85252f3413a1fdedb0ad1c18e",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -326,10 +326,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:15Z",
+   "fetched_utc": "2026-10-27T06:19:26Z",
    "raw_file": "pipeline/raw/olbgcomp_snooker_1.txt.gz",
-   "raw_sha256": "6c91a6f8d22a2fdc71833e8ac02eee2b1c916c8ef235778263359b483abffb2b",
-   "raw_chars": 482299,
+   "raw_sha256": "101cea47b988fb5b92189dfe5a3a4b7e0df92771d4cf342575793962a5c84baf",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -337,10 +337,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:15Z",
+   "fetched_utc": "2026-10-27T06:19:27Z",
    "raw_file": "pipeline/raw/olbgcomp_darts_0.txt.gz",
-   "raw_sha256": "89069a602e0a5e0f76c0eac82cc5b7b8c5c5ca8d0aaf564ee85f7b77b55ab7b7",
-   "raw_chars": 478362,
+   "raw_sha256": "c90b2f88f152ab9f4d6042ad6725c9c2e7b8ce15921da7f4359a03fdbb0e7327",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -348,10 +348,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:16Z",
+   "fetched_utc": "2026-10-27T06:19:28Z",
    "raw_file": "pipeline/raw/olbgcomp_darts_1.txt.gz",
-   "raw_sha256": "9bf9df88f666f5dec8351d85c7da85dd633a36f755ec450a6fad43741ea56efa",
-   "raw_chars": 482299,
+   "raw_sha256": "452f36147ff116f30bbcac36c911dc519a0040a533210b1c425bb89b442f1641",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -359,10 +359,10 @@
    "url": "https://www.olbg.com/betting-tips/Darts/15",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:17Z",
+   "fetched_utc": "2026-10-27T06:19:29Z",
    "raw_file": "pipeline/raw/olbgcomp_darts_2.txt.gz",
-   "raw_sha256": "c308166947ccbd67e6ac19e5c6c885da90d153a6340389d0542166aae9e7ceb5",
-   "raw_chars": 308356,
+   "raw_sha256": "b34b7194e09caab574a9ac52ce786af3ce6c8ee1e444449bd381ce8011a7f421",
+   "raw_chars": 308327,
    "error": ""
   },
   {
@@ -370,10 +370,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:18Z",
+   "fetched_utc": "2026-10-27T06:19:30Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_0.txt.gz",
-   "raw_sha256": "68506fa84f45b78b90889df899a1936389b2ced25f0e36499906dc5c96c7ae30",
-   "raw_chars": 478362,
+   "raw_sha256": "eea2920fdaedc74c46349e9a8934d816c6d8c513bdcb7d8836a676994ffe7714",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -381,10 +381,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:19Z",
+   "fetched_utc": "2026-10-27T06:19:31Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_1.txt.gz",
-   "raw_sha256": "d065cb4a16869170d6c87345f15e12a4c7a803015be68c6a3c281266890cfe23",
-   "raw_chars": 482299,
+   "raw_sha256": "e5ccd55bdd4d935ee68d32e10a70984e1db0228f3cdf9c486abe6a5ec65a3105",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -392,10 +392,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:20Z",
+   "fetched_utc": "2026-10-27T06:19:32Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_2.txt.gz",
-   "raw_sha256": "bda95df60a0ad05d940a3bb9e2b9cccfb9fa6ee72b825d42cff60bd94a1f4439",
-   "raw_chars": 263650,
+   "raw_sha256": "6fc731b4323ce3eb174d50fae9ad7b1d30f130f0f8492a1e5bd40fb6c5a155a2",
+   "raw_chars": 263621,
    "error": ""
   },
   {
@@ -403,10 +403,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/MLB/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:21Z",
+   "fetched_utc": "2026-10-27T06:19:33Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_3.txt.gz",
-   "raw_sha256": "280b2cb0f993218c2593f11035fc2e5a9a309d05e443e4416354f9de507fe312",
-   "raw_chars": 271864,
+   "raw_sha256": "5474d1c6bdbab58f806653db1cdd7227647b7e03ff9f049e232cc91df09d3e5c",
+   "raw_chars": 271833,
    "error": ""
   },
   {
@@ -414,10 +414,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/Other/Japan_NPB/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:22Z",
+   "fetched_utc": "2026-10-27T06:19:34Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_4.txt.gz",
-   "raw_sha256": "c9b080e99a612f4c4dc8d54a106e88b7bd28baab9bf6c5ca28e0f4124c51f6d2",
-   "raw_chars": 207863,
+   "raw_sha256": "92d24fefb1d93e85717c6bea1422ae83d717cfe0015e7292181a54de5c8d3b79",
+   "raw_chars": 207834,
    "error": ""
   },
   {
@@ -425,10 +425,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/Other/Korea_KBO/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:23Z",
+   "fetched_utc": "2026-10-27T06:19:35Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_5.txt.gz",
-   "raw_sha256": "ea271dd030adb3dfc86db057635cf93447ef91984a8197877be2fefdf09c43df",
-   "raw_chars": 207678,
+   "raw_sha256": "2fbee8447955554b99c400edc5faf6433b747a2ce1a090233e4bba0939d44589",
+   "raw_chars": 207649,
    "error": ""
   },
   {
@@ -436,10 +436,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/Other/Japan_NPB_2026/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:24Z",
+   "fetched_utc": "2026-10-27T06:19:36Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_6.txt.gz",
-   "raw_sha256": "6a0098ac00a03a2b6edd86509b99447e9d5d57f1a60f5a3321a62a6d1cefdacb",
-   "raw_chars": 183406,
+   "raw_sha256": "39cc651aed1806ae00f85e0377c5c7a9c0200b9f9adce77641747a5bc7959763",
+   "raw_chars": 183377,
    "error": ""
   },
   {
@@ -447,10 +447,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/Other/Korea_KBO_2026/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:24Z",
+   "fetched_utc": "2026-10-27T06:19:37Z",
    "raw_file": "pipeline/raw/olbgcomp_baseball_7.txt.gz",
-   "raw_sha256": "4a17ed92c2534e50e1d681eb14ab9db60a1e911a93916f5f80f7b5f88d9a4e3b",
-   "raw_chars": 183406,
+   "raw_sha256": "0f4b4b3cce7ccaeb6376ea74cb05b4355f763a8f52dff8e5fb53bf350af671bf",
+   "raw_chars": 183377,
    "error": ""
   },
   {
@@ -458,10 +458,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:26Z",
+   "fetched_utc": "2026-10-27T06:19:38Z",
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_0.txt.gz",
-   "raw_sha256": "edb9336469966a0bb548727c2f963d71acf075727092f6b6b20a92b0a985617c",
-   "raw_chars": 478362,
+   "raw_sha256": "e947990a0a8f44f9b543e65290c8b6718c174ca47f6ccae5e4ff7330ca4286e7",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -469,10 +469,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:27Z",
+   "fetched_utc": "2026-10-27T06:19:39Z",
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_1.txt.gz",
-   "raw_sha256": "32f3ad34867f852526f85a147c873aa8f5a3b2a68884b4521031c5796b18f379",
-   "raw_chars": 482299,
+   "raw_sha256": "0f780a24b3b826d221dc91a1b7e914e428b94eea905cd7af510c20754ca69408",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -480,10 +480,10 @@
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:28Z",
+   "fetched_utc": "2026-10-27T06:19:40Z",
    "raw_file": "pipeline/raw/olbgcomp_gaelic_sports_2.txt.gz",
-   "raw_sha256": "1c7329b1a6d70a1932e0ad5644fb8a6e7e37840bbbd9c1c16e5540412b8efaee",
-   "raw_chars": 277475,
+   "raw_sha256": "7cd2961f5f15500e35f0fbdd593d68b310449e4bd8a27c7fd9886c3513a7cf58",
+   "raw_chars": 277431,
    "error": ""
   },
   {
@@ -491,10 +491,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:29Z",
+   "fetched_utc": "2026-10-27T06:19:41Z",
    "raw_file": "pipeline/raw/olbgcomp_greyhounds_0.txt.gz",
-   "raw_sha256": "19d41e07a652ab3cc4a58539d2c553af8f347158791644b03e1c626b9fbf302b",
-   "raw_chars": 478362,
+   "raw_sha256": "ce511eb8ed9869243f3e5cd63b9606d5b060c03e62eaabdd5f6d556216de5b9b",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -502,10 +502,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:30Z",
+   "fetched_utc": "2026-10-27T06:19:42Z",
    "raw_file": "pipeline/raw/olbgcomp_greyhounds_1.txt.gz",
-   "raw_sha256": "547a063e584a31f997d7fabc79fd7cbee828723758db09a5422bdc2b972c3624",
-   "raw_chars": 482299,
+   "raw_sha256": "91f49ad255185a78e3d9b64715a4154d1563aa52974aed3e4fb7abc5eb6d75b8",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -513,10 +513,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:31Z",
+   "fetched_utc": "2026-10-27T06:19:43Z",
    "raw_file": "pipeline/raw/olbgcomp_tennis_0.txt.gz",
-   "raw_sha256": "0ac40e07ce444ea5cf3f70e83423eaa9cfc5a0e78d4b054944367b12a687eba3",
-   "raw_chars": 478362,
+   "raw_sha256": "1ef3f79cd7c73ba5cd788993c1fe89f5618abd2667cd02260729a3832b218eff",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -524,10 +524,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:32Z",
+   "fetched_utc": "2026-10-27T06:19:44Z",
    "raw_file": "pipeline/raw/olbgcomp_tennis_1.txt.gz",
-   "raw_sha256": "964d7d55e205cd49eae0faace995cbd2c9e9e608922621f5984f5cba36a41505",
-   "raw_chars": 482299,
+   "raw_sha256": "c9ec74a7b69d2dac90c599fd86a7691244efd89a18ec1748378619e5f4c0943f",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -535,10 +535,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/3",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:32Z",
+   "fetched_utc": "2026-10-27T06:19:45Z",
    "raw_file": "pipeline/raw/olbgcomp_tennis_2.txt.gz",
-   "raw_sha256": "4ea5e1dae6a1464cb9be094855e8c9d4e2d662edc54a31c5b2202b0bd7178772",
-   "raw_chars": 398670,
+   "raw_sha256": "5b714af459dcb58c27fc68b65283b6b5668ee5a8c5e633ae3c18aa20c800bc51",
+   "raw_chars": 399499,
    "error": ""
   },
   {
@@ -546,10 +546,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:33Z",
+   "fetched_utc": "2026-10-27T06:19:46Z",
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_0.txt.gz",
-   "raw_sha256": "f0f0dab824631a85ee92e3fa71b48ba249bf9bd27d21cd220169dd5e34cc003c",
-   "raw_chars": 478362,
+   "raw_sha256": "5bcff0b9be7609e47dcea8296ae7ae89350d0c41feb051c1ee630467357a85d3",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -557,10 +557,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:34Z",
+   "fetched_utc": "2026-10-27T06:19:47Z",
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_1.txt.gz",
-   "raw_sha256": "46f7b024ea51d0b05350f0b77608064da9574d292956abb46b228d2f321cea5f",
-   "raw_chars": 482299,
+   "raw_sha256": "653469d9d8a18221f55537eb030c19baa9afdaa077e0030eb21e743c2c990f19",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -568,10 +568,10 @@
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:35Z",
+   "fetched_utc": "2026-10-27T06:19:48Z",
    "raw_file": "pipeline/raw/olbgcomp_motor_racing_2.txt.gz",
-   "raw_sha256": "c3bfd4dcfe08ba9aca2b8ffa2b4f638e7255f45f034925cee9beb16dfa0563e5",
-   "raw_chars": 303873,
+   "raw_sha256": "1f7061938d37fe7be61c81541e874efa6bd38d43fc0e200b48cfbade3e5c3831",
+   "raw_chars": 303823,
    "error": ""
   },
   {
@@ -579,10 +579,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:36Z",
+   "fetched_utc": "2026-10-27T06:19:49Z",
    "raw_file": "pipeline/raw/olbgcomp_handball_0.txt.gz",
-   "raw_sha256": "3eeb7c5e5a133ca006d0227007ab6dd42423749c7b88811ad545b76438c5b373",
-   "raw_chars": 478362,
+   "raw_sha256": "01e200928bb96216257cb124d3d8bd73e6f7f89fdafc4c422798f9d45a3a7a32",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -590,10 +590,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:37Z",
+   "fetched_utc": "2026-10-27T06:19:50Z",
    "raw_file": "pipeline/raw/olbgcomp_handball_1.txt.gz",
-   "raw_sha256": "5e2e894da3be88ca1cfc1fee20553cf2db3514ec22137a0cf329fa06017eec06",
-   "raw_chars": 482299,
+   "raw_sha256": "8695786c7bff1332237b8425ce538270ca30a4ecf4f68d013dc0412fa49294a5",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -601,10 +601,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/20",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:38Z",
+   "fetched_utc": "2026-10-27T06:19:51Z",
    "raw_file": "pipeline/raw/olbgcomp_handball_2.txt.gz",
-   "raw_sha256": "0502f0e946212e6b9d5d51e3fbf855fc5ee599d987b6488d8856208573ec2de7",
-   "raw_chars": 340182,
+   "raw_sha256": "8b551a6936a035f46b337369097cb849ad389123311d000f1e448def58360535",
+   "raw_chars": 340151,
    "error": ""
   },
   {
@@ -612,10 +612,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:39Z",
+   "fetched_utc": "2026-10-27T06:19:52Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_0.txt.gz",
-   "raw_sha256": "336bd22236df1b961b6b3197855b77e76db5475c00e20b03c68ef40616dcfe7e",
-   "raw_chars": 478362,
+   "raw_sha256": "5a0dfb790220e4ba3b7f938ff098f00c8a9243652475e2a67062d1abcfdd4db5",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -623,10 +623,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:40Z",
+   "fetched_utc": "2026-10-27T06:19:53Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_1.txt.gz",
-   "raw_sha256": "c4eae5d20e80ec4270f32fb9f92bd83acfc82e592e56362a70126f23b983257d",
-   "raw_chars": 482299,
+   "raw_sha256": "686cd05ff8528551aa2f11563a7b717c24b73da57428dd4f20b9dd7ecb484cc8",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -634,10 +634,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:41Z",
+   "fetched_utc": "2026-10-27T06:19:54Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_2.txt.gz",
-   "raw_sha256": "f08cdbe285adfc373f07c011289f80d3de098040bfbf8bf9ac5a9008aeb00b09",
-   "raw_chars": 357559,
+   "raw_sha256": "1216fccaec39c99f028e84fd4305427866ee5754acbeb5bf657ff5435d7fff9c",
+   "raw_chars": 357530,
    "error": ""
   },
   {
@@ -645,10 +645,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/13",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:42Z",
+   "fetched_utc": "2026-10-27T06:19:55Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_3.txt.gz",
-   "raw_sha256": "be19c96df704b548854136a210424c58ff4520d55b3343632aaaa5fa34b102b1",
-   "raw_chars": 244219,
+   "raw_sha256": "2d094cd1b7de360e0d3ddd540b86452b3eb77512c8a2c4690d4f06390c161e5d",
+   "raw_chars": 244190,
    "error": ""
   },
   {
@@ -656,10 +656,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/13",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:42Z",
+   "fetched_utc": "2026-10-27T06:19:56Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_4.txt.gz",
-   "raw_sha256": "d877a8e6fd71d0b624df4f806565e27dd7d9494a9b009eaa9645d534d5010d35",
-   "raw_chars": 283492,
+   "raw_sha256": "73c215644449788a0534432bf7b81b05b48d6f4b57a2318e2ccef7d871ddbb59",
+   "raw_chars": 283465,
    "error": ""
   },
   {
@@ -667,10 +667,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:43Z",
+   "fetched_utc": "2026-10-27T06:19:58Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_5.txt.gz",
-   "raw_sha256": "c12837c395b3692b3424cf7525b45b6946488266337072377a7890f9344f888e",
-   "raw_chars": 401673,
+   "raw_sha256": "4a2925f547dadfb1e2c6caf152d9a979c531f2c4f7d11f98d2af2efc6800b0c0",
+   "raw_chars": 403944,
    "error": ""
   },
   {
@@ -678,10 +678,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/12",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:44Z",
+   "fetched_utc": "2026-10-27T06:19:59Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_6.txt.gz",
-   "raw_sha256": "ce3ab3699840f99d2f0aa0637130efae90acd3b3e340fb5b501e300b50c757aa",
-   "raw_chars": 263650,
+   "raw_sha256": "bc1b3f0c806fb3b5764be45a586138c3b8594eb6403b05da7532f6fbf7fe0ef2",
+   "raw_chars": 263621,
    "error": ""
   },
   {
@@ -689,10 +689,10 @@
    "url": "https://www.olbg.com/betting-tips/American_Football/11",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:45Z",
+   "fetched_utc": "2026-10-27T06:20:00Z",
    "raw_file": "pipeline/raw/olbgcomp_ice_hockey_7.txt.gz",
-   "raw_sha256": "00880071ff6f544c4a102d4453402fa781c76633d2464d88d7976f3140f73738",
-   "raw_chars": 280875,
+   "raw_sha256": "a9a0164d750d2fa303b6b0e1c7de4471fb86e1e2f2e241aa61578243489b6097",
+   "raw_chars": 280856,
    "error": ""
   },
   {
@@ -700,10 +700,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:46Z",
+   "fetched_utc": "2026-10-27T06:20:01Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_0.txt.gz",
-   "raw_sha256": "f8d5a73e78625ac1eb1bde226e176bcfd5ec8b446033cc7be2865210215e3f44",
-   "raw_chars": 478362,
+   "raw_sha256": "25c0531a37c31f34193aa77628c261c04b896b752f0d441269aff5e864763de5",
+   "raw_chars": 478341,
    "error": ""
   },
   {
@@ -711,10 +711,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:47Z",
+   "fetched_utc": "2026-10-27T06:20:02Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_1.txt.gz",
-   "raw_sha256": "2692b452d6eee9bf87445e413909698b1b072a578d19ef11bcd83722bf72ecc3",
-   "raw_chars": 482299,
+   "raw_sha256": "a4cc43d08a7c466bf699c61761d4526802ea2573ffebc066fefd892ba718019f",
+   "raw_chars": 482273,
    "error": ""
   },
   {
@@ -722,10 +722,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:48Z",
+   "fetched_utc": "2026-10-27T06:20:03Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_2.txt.gz",
-   "raw_sha256": "f290e938803e385d02dbca8ea79003ff28aa4d18c21ecf7d8496e02e28e52c08",
-   "raw_chars": 246786,
+   "raw_sha256": "4ec9b0b376410666c07630caebe8188293f0cb6ae065df28f67047b0c87caab2",
+   "raw_chars": 246738,
    "error": ""
   },
   {
@@ -733,10 +733,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:49Z",
+   "fetched_utc": "2026-10-27T06:20:05Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_3.txt.gz",
-   "raw_sha256": "800fd3a89ca88f21850d60ab4aef50a42153c6aaf15d726ded1a8727a44e1430",
-   "raw_chars": 204197,
+   "raw_sha256": "82714259d8c449334bb0c1eca1b4ab125f9735e1930d8a3b2d73c26591843cdb",
+   "raw_chars": 204143,
    "error": ""
   },
   {
@@ -744,10 +744,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:50Z",
+   "fetched_utc": "2026-10-27T06:20:06Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_4.txt.gz",
-   "raw_sha256": "a312e116d65857a06efa0c5e0610f9777533c4c405e2190fff2734037aa659b2",
-   "raw_chars": 265278,
+   "raw_sha256": "03cf8f01c2b7e8c6fd4788e3339a855fb2bcbc3b427ea54685f579b205bb3855",
+   "raw_chars": 265222,
    "error": ""
   },
   {
@@ -755,10 +755,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:51Z",
+   "fetched_utc": "2026-10-27T06:20:07Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_5.txt.gz",
-   "raw_sha256": "eb28991c26fbeb84e72f967e79a1db1e361b431c214c1cf9bd1e1478fba4c92e",
-   "raw_chars": 319210,
+   "raw_sha256": "4bc053a3304fb240fad2a09f4b46dd6557ecd5d2587f1d80169233151350f575",
+   "raw_chars": 319334,
    "error": ""
   },
   {
@@ -766,10 +766,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:52Z",
+   "fetched_utc": "2026-10-27T06:20:08Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_6.txt.gz",
-   "raw_sha256": "16514e5c68766f2eea8a936f4c955445db52e6f5dd257288e86b8c499559a692",
-   "raw_chars": 401673,
+   "raw_sha256": "f28f1b2425ed48f036e7850550e7e4cff97dcf1b2727e89e95c808895a4cf67b",
+   "raw_chars": 404126,
    "error": ""
   },
   {
@@ -777,10 +777,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA_Championship/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:53Z",
+   "fetched_utc": "2026-10-27T06:20:09Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_7.txt.gz",
-   "raw_sha256": "227299f86c5dd9ab0428a12310eda9b9bfc106e3b66fef6fdf90d9825c88aa92",
-   "raw_chars": 208650,
+   "raw_sha256": "0095a6acd53dd94475cf0f3901d2654846f4ec26000ca2523d40ff94e1b12cff",
+   "raw_chars": 208791,
    "error": ""
   },
   {
@@ -788,10 +788,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA_All_Star_Game/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:54Z",
+   "fetched_utc": "2026-10-27T06:20:10Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_8.txt.gz",
-   "raw_sha256": "81fe7aaad4ff2673f0c5b50c9dca00ffdfdd8e91b13a7671c6873969d1b761d6",
-   "raw_chars": 200819,
+   "raw_sha256": "c3aa3e6c9a160a5ac8154d8b758816b5670414021dc996a7e6c70793cc004dd8",
+   "raw_chars": 200960,
    "error": ""
   },
   {
@@ -799,10 +799,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:55Z",
+   "fetched_utc": "2026-10-27T06:20:11Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_9.txt.gz",
-   "raw_sha256": "f713fe741071e859eda1d8ee6e3a67a8d5d469a7973d672da493fb552d88ddb6",
-   "raw_chars": 271058,
+   "raw_sha256": "303fc895bb1da6fa5c14c7c34150c370408c83c34d5ae6ac7cbad28cb3b59517",
+   "raw_chars": 271168,
    "error": ""
   },
   {
@@ -810,10 +810,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:55Z",
+   "fetched_utc": "2026-10-27T06:20:12Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_10.txt.gz",
-   "raw_sha256": "a1c6ff6a602ecd3c2e2ff877efe99b136b490b20b179aaf0d90b092a57aa70c6",
-   "raw_chars": 222606,
+   "raw_sha256": "54f10b3b8b7b9dd5cf0961b66e44bd9fa180182131ce76cef4457ec83bb96fdb",
+   "raw_chars": 222732,
    "error": ""
   },
   {
@@ -821,10 +821,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague_Women/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:56Z",
+   "fetched_utc": "2026-10-27T06:20:13Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_11.txt.gz",
-   "raw_sha256": "1359609cb76488cfcba06c0257fd79dc42e3555dab57dd19d425cfe441fafaa5",
-   "raw_chars": 207869,
+   "raw_sha256": "bad75fe77fca2aa586166fd15358fb4665d9e1cb74f9f2985df90856de8ae5aa",
+   "raw_chars": 208027,
    "error": ""
   },
   {
@@ -832,10 +832,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Germany_Bundesliga/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:57Z",
+   "fetched_utc": "2026-10-27T06:20:14Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_12.txt.gz",
-   "raw_sha256": "5aec853c026a595a18e6c5259a68aee55911c453ffbb6e6a871d035981dcd938",
-   "raw_chars": 206851,
+   "raw_sha256": "332226e775827a383c4c4dae48cbbc54bfc2721dfb8880d8634e4892e2206af2",
+   "raw_chars": 207084,
    "error": ""
   },
   {
@@ -843,10 +843,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Poland_PLK/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:58Z",
+   "fetched_utc": "2026-10-27T06:20:15Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_13.txt.gz",
-   "raw_sha256": "827176a28d733f872708165d4852eda2ac07abaeae11d871f9685b9fa732ddc4",
-   "raw_chars": 207002,
+   "raw_sha256": "408c27fdf116babfe6c20484f58c86233581e1497e505173ef606b89ab098bd7",
+   "raw_chars": 207155,
    "error": ""
   },
   {
@@ -854,10 +854,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:09:59Z",
+   "fetched_utc": "2026-10-27T06:20:16Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_14.txt.gz",
-   "raw_sha256": "40c0998ea446ed53f9bf3aeb4c2e490d952c748578df9dfd46314ba006aaf585",
-   "raw_chars": 216465,
+   "raw_sha256": "2a6f9442a2c4358d46b9a6b77f6b2cfc8077c0ce968d5d75d31714ff41416139",
+   "raw_chars": 216714,
    "error": ""
   },
   {
@@ -865,10 +865,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_WKBL/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:00Z",
+   "fetched_utc": "2026-10-27T06:20:17Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_15.txt.gz",
-   "raw_sha256": "1f420d43558c99dd2bde7b08966162b3993d118890937d9bd2de43cc97f0b680",
-   "raw_chars": 206581,
+   "raw_sha256": "2957c62e785346caf406fe4bcece0b736fc9f84ae606f4af8e7af0d90e41dd3e",
+   "raw_chars": 206734,
    "error": ""
   },
   {
@@ -876,10 +876,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/4",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:01Z",
+   "fetched_utc": "2026-10-27T06:20:18Z",
    "raw_file": "pipeline/raw/olbgcomp_basketball_16.txt.gz",
-   "raw_sha256": "4a8e7ed0b6b4c96436bbbdd6910f8e72d0a9ab201d7fea7e87330945ec5574d0",
-   "raw_chars": 213182,
+   "raw_sha256": "8fca0148a9830abfc5452170aca806c8417d9a364613b820eb378fcb037120a9",
+   "raw_chars": 226350,
    "error": ""
   },
   {
@@ -887,10 +887,10 @@
    "url": "https://www.olbg.com/betting-tips/Football/1",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:01Z",
+   "fetched_utc": "2026-10-27T06:20:20Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_0.txt.gz",
-   "raw_sha256": "649ccad4a95d821d6c84777e8f2570082b6fbb00d4551b4d3b62467751e7a181",
-   "raw_chars": 478362,
+   "raw_sha256": "8195bc6291fe99c8ba69b1a2ef191da8196a7dd4b8c42055927db63c73dbbf20",
+   "raw_chars": 478547,
    "error": ""
   },
   {
@@ -898,10 +898,10 @@
    "url": "https://www.olbg.com/betting-tips/Horse_Racing/2",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:03Z",
+   "fetched_utc": "2026-10-27T06:20:21Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_1.txt.gz",
-   "raw_sha256": "b1f4178346bd3b8f864c8c688f20d0446bc670b9b0cf925ef1219617406034e7",
-   "raw_chars": 482299,
+   "raw_sha256": "1851a74ececbb8863de2a966500b968a48f2093008dd86eaec362dc5e700a6d3",
+   "raw_chars": 482495,
    "error": ""
   },
   {
@@ -909,10 +909,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/10",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:04Z",
+   "fetched_utc": "2026-10-27T06:20:22Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_2.txt.gz",
-   "raw_sha256": "1d5f5357c8e859a8fba5c7311d00b10059e867858c013f222a393697bcb7e3bc",
-   "raw_chars": 270966,
+   "raw_sha256": "be36c16d078ff67c420d97bfd4d9db4c1b43048d5d5f9ba4b9107b5215b8dfa9",
+   "raw_chars": 271160,
    "error": ""
   },
   {
@@ -920,10 +920,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:05Z",
+   "fetched_utc": "2026-10-27T06:20:23Z",
    "raw_file": "pipeline/raw/olbgcomp_rugby_league_3.txt.gz",
-   "raw_sha256": "6f602abb2397ea531c103a6f30211ecb7b567ea9a782450e029c5acc994d1c65",
-   "raw_chars": 321192,
+   "raw_sha256": "77d50e8159f9e7f7421b7b1583c08499654b652e30124c988911281ff37dde1c",
+   "raw_chars": 321383,
    "error": ""
   },
   {
@@ -931,10 +931,10 @@
    "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:06Z",
+   "fetched_utc": "2026-10-27T06:20:24Z",
    "raw_file": "pipeline/raw/olbgev_golf_101913.txt.gz",
-   "raw_sha256": "421809ffeb886d1820739d04b74cf7148fc3bd7f0f7ab27280efc5a9800e18aa",
-   "raw_chars": 437077,
+   "raw_sha256": "359950533433724bbc43436c27e5bd67184d23f30609e7d76388d615591528ef",
+   "raw_chars": 437257,
    "error": ""
   },
   {
@@ -942,10 +942,10 @@
    "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:07Z",
+   "fetched_utc": "2026-10-27T06:20:25Z",
    "raw_file": "pipeline/raw/olbgev_golf_101915.txt.gz",
-   "raw_sha256": "1b8b79b7292e939cfb05c4541260ffa897129fff0846019b8e9365c261295bfc",
-   "raw_chars": 600570,
+   "raw_sha256": "e057196354e3fea9a67ce810ada9378451ba73936bfd58413ea78f4e0c633a0e",
+   "raw_chars": 600662,
    "error": ""
   },
   {
@@ -953,21 +953,10 @@
    "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:08Z",
+   "fetched_utc": "2026-10-27T06:20:26Z",
    "raw_file": "pipeline/raw/olbgev_golf_101914.txt.gz",
-   "raw_sha256": "1b79682b9ce8b5578dd7158ca09c04d2017edaa0df79255460c84f0aaa8f531c",
-   "raw_chars": 356779,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_volleyball_37076",
-   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:10:09Z",
-   "raw_file": "pipeline/raw/olbgev_volleyball_37076.txt.gz",
-   "raw_sha256": "8f48c2aa4db21e90e7cbe997636b669e0e8535f0f4e10274f68554fb99fdb5bb",
-   "raw_chars": 233508,
+   "raw_sha256": "44d549095df385ec5c56b18b1cda85ae68e12911fb26810b2fbf737e4a18cede",
+   "raw_chars": 356877,
    "error": ""
   },
   {
@@ -975,10 +964,21 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:10Z",
+   "fetched_utc": "2026-10-27T06:20:27Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37075.txt.gz",
-   "raw_sha256": "d61e70a64effb59cf221f94f87750b8c47c69b4bc37a748b2c07a3cb150a8640",
-   "raw_chars": 234786,
+   "raw_sha256": "ad372ac89bf16504b9ac01108923f02cc22b7d50f1b436f68f9faf6ad885c797",
+   "raw_chars": 235048,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_volleyball_37076",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:20:28Z",
+   "raw_file": "pipeline/raw/olbgev_volleyball_37076.txt.gz",
+   "raw_sha256": "f7f7d4682ac8ea8477cdd77b1ff8c189c045d49cb2a7c0bfbeb626f01161c707",
+   "raw_chars": 233690,
    "error": ""
   },
   {
@@ -986,10 +986,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:11Z",
+   "fetched_utc": "2026-10-27T06:20:29Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37126.txt.gz",
-   "raw_sha256": "705445f1ad8ccd675af81fd5276d24d56aa126d3b148e17d4ed15828678ade36",
-   "raw_chars": 237676,
+   "raw_sha256": "b3689a20b5e96ed11919a68492a6e5aa26ee38b438d73222a3b6c24b9d9fb650",
+   "raw_chars": 243294,
    "error": ""
   },
   {
@@ -997,10 +997,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:12Z",
+   "fetched_utc": "2026-10-27T06:20:30Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37121.txt.gz",
-   "raw_sha256": "7de9d8c6df21f1df5b1c2d0cd557811df486bedbc7006def2a056789b06ba1f3",
-   "raw_chars": 249611,
+   "raw_sha256": "2841ee448de0ad997482daf692ea23053ea1cbe12ff0338ffb834fc972bdbac5",
+   "raw_chars": 249786,
    "error": ""
   },
   {
@@ -1008,10 +1008,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:13Z",
+   "fetched_utc": "2026-10-27T06:20:31Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37081.txt.gz",
-   "raw_sha256": "af1b88c2075fd6185c9f829704f24d197057c6170932572fc4ff4e79e17352e3",
-   "raw_chars": 236640,
+   "raw_sha256": "e4f32b971eb8877d2f5a2d049e0f7acd0ea0cd94c183c29fb3c29769de590bc1",
+   "raw_chars": 236738,
    "error": ""
   },
   {
@@ -1019,10 +1019,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:14Z",
+   "fetched_utc": "2026-10-27T06:20:32Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37124.txt.gz",
-   "raw_sha256": "12ec9b955f41062bbb5cd6a56ffb6960788f978f1486ef9070297b2b0280ddb9",
-   "raw_chars": 238183,
+   "raw_sha256": "88112acd2e63677ffaff82fedba47a24eeafafcaf2a7f2c0d2719aa3384a9dd1",
+   "raw_chars": 238363,
    "error": ""
   },
   {
@@ -1030,10 +1030,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:15Z",
+   "fetched_utc": "2026-10-27T06:20:33Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37129.txt.gz",
-   "raw_sha256": "635c400866271ffb7e1ec6ec77fffd564398225e8ac05d3d6ccbe4cbee717aa2",
-   "raw_chars": 240210,
+   "raw_sha256": "1b13f09ba85c4024f19484743a06f095299f8f575f5097f4740679453ac34da9",
+   "raw_chars": 240308,
    "error": ""
   },
   {
@@ -1041,10 +1041,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:16Z",
+   "fetched_utc": "2026-10-27T06:20:34Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37103.txt.gz",
-   "raw_sha256": "18837e513ff0994b4ae0d26a8407253d5a8583fd20df7207a194f37f76a10301",
-   "raw_chars": 234642,
+   "raw_sha256": "eb9a6c616556a9c831ff65ee6ca80084f52b35ee2459f2d2918d078a63806ce0",
+   "raw_chars": 234735,
    "error": ""
   },
   {
@@ -1052,10 +1052,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:17Z",
+   "fetched_utc": "2026-10-27T06:20:34Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37104.txt.gz",
-   "raw_sha256": "21a6e2d3822b7c1a08dd5c8088ecf8380526fed59d24bd5ec49f0f1ebdabf41b",
-   "raw_chars": 213160,
+   "raw_sha256": "ebd93fca968c08b7379b5f6e22232a2f99139d85bbf048172d90f42046d27112",
+   "raw_chars": 213432,
    "error": ""
   },
   {
@@ -1063,10 +1063,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21?event_id=37122",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:18Z",
+   "fetched_utc": "2026-10-27T06:20:36Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37122.txt.gz",
-   "raw_sha256": "46cda58972c5f81c09c90c88e9c1bcf9b28074253555cd33bbfdc6b614cf121f",
-   "raw_chars": 213491,
+   "raw_sha256": "ff191a8ef2f10b69113740d340a40182f5ab8dd9d4faa2502d7216a0f3a11895",
+   "raw_chars": 213671,
    "error": ""
   },
   {
@@ -1074,10 +1074,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21?event_id=37125",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:19Z",
+   "fetched_utc": "2026-10-27T06:20:36Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37125.txt.gz",
-   "raw_sha256": "f029ede4e886c68e28e93ee1e22f2b647cbc3ecbb3fb93b1f63f6a6a8d325888",
-   "raw_chars": 213229,
+   "raw_sha256": "48ab4272b393ce9eda758e9e33290267d0c05936f72062c369bf3bbaa403e25a",
+   "raw_chars": 213415,
    "error": ""
   },
   {
@@ -1085,10 +1085,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:20Z",
+   "fetched_utc": "2026-10-27T06:20:37Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37131.txt.gz",
-   "raw_sha256": "6e1018cc55ae841b7f585fa56f508f14731f9ee4f0527703e119ca6312a9b7dc",
-   "raw_chars": 213692,
+   "raw_sha256": "562e9e98f92986e994c57684bd8967ba525a7ab1bdee10e1548b1c12cc7e400c",
+   "raw_chars": 213884,
    "error": ""
   },
   {
@@ -1096,10 +1096,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:21Z",
+   "fetched_utc": "2026-10-27T06:20:38Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37082.txt.gz",
-   "raw_sha256": "4f0cdbb46770358ea7b6163e86a1253c544f53491fcb6e157e29e8b4954cae16",
-   "raw_chars": 213909,
+   "raw_sha256": "048c1a7068f85b067e26ddce575caa6490c05f9ae483a0111f34107401ab36bb",
+   "raw_chars": 214183,
    "error": ""
   },
   {
@@ -1107,10 +1107,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:21Z",
+   "fetched_utc": "2026-10-27T06:20:40Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37083.txt.gz",
-   "raw_sha256": "2f72e08cb178d19a9edf677a4959c93abe4314dd96e6049aecde7a4c231ff24e",
-   "raw_chars": 213169,
+   "raw_sha256": "6e6e8552862ede41ad3f1341ed134f4f251b241247532e02b031cc0df9da2575",
+   "raw_chars": 213267,
    "error": ""
   },
   {
@@ -1118,10 +1118,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sultanbeyli_Bld_vs_Gebze_Genclik/21?event_id=37123",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:22Z",
+   "fetched_utc": "2026-10-27T06:20:41Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37123.txt.gz",
-   "raw_sha256": "b2fa5e1cff526ce7b2a849c89fd34506f4f4e840c2b0b818eedfc609bbd5017d",
-   "raw_chars": 213783,
+   "raw_sha256": "4ad6d36708e50450c4dec726d06c63fbafacaca88c59d08f69f1d7f81068d921",
+   "raw_chars": 213963,
    "error": ""
   },
   {
@@ -1129,10 +1129,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Onikisubat_Bld_vs_Spor_Toto_SK/21?event_id=37127",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:23Z",
+   "fetched_utc": "2026-10-27T06:20:42Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37127.txt.gz",
-   "raw_sha256": "6ed99f82b70510c8dd576f994077c59f60edb559d13148e0a5e353cd4aa6c728",
-   "raw_chars": 213673,
+   "raw_sha256": "ecbca8039b1f8a4081569c7f7cb17d4038d53ebf2558816c63e3c54446573cd8",
+   "raw_chars": 213853,
    "error": ""
   },
   {
@@ -1140,10 +1140,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/LP_Pihtipudas_W_vs_Nurmon_Jymy_W/21?event_id=37134",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:24Z",
+   "fetched_utc": "2026-10-27T06:20:43Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37134.txt.gz",
-   "raw_sha256": "6f322ba7d657e66ee93fff30f0131233b925932f3fc4c11a2accfcbc327c9dcb",
-   "raw_chars": 213814,
+   "raw_sha256": "9d731c5d0e78691ddc56ac67404cb67154834c64719696e6da10673d8ab66c0a",
+   "raw_chars": 213912,
    "error": ""
   },
   {
@@ -1151,10 +1151,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21?event_id=37132",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:25Z",
+   "fetched_utc": "2026-10-27T06:20:44Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37132.txt.gz",
-   "raw_sha256": "bd9fddcc94dbf58f931bd4f49826d64d4c7f037e9f2095bf632981979a4d9471",
-   "raw_chars": 213908,
+   "raw_sha256": "55a82b38036b34b7d67312a44f1bf369f759690d44d1d39d3576fc2e6ecb3111",
+   "raw_chars": 214006,
    "error": ""
   },
   {
@@ -1162,10 +1162,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/SV_Warnemunde_vs_VfB_Friedrichshafen/21?event_id=37135",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:26Z",
+   "fetched_utc": "2026-10-27T06:20:45Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37135.txt.gz",
-   "raw_sha256": "5b0dfd539ec1b56c8820a93de26ac741827067a9c0cd1284946d628b4f18e067",
-   "raw_chars": 235668,
+   "raw_sha256": "7a7bd9de83a8fae779688cfeb363dfa65ab44ac60224fa1860fca1cfc7ef5c82",
+   "raw_chars": 235766,
    "error": ""
   },
   {
@@ -1173,10 +1173,10 @@
    "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/SSC_Karlsruhe_vs_SWD_Duren/21?event_id=37136",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:27Z",
+   "fetched_utc": "2026-10-27T06:20:46Z",
    "raw_file": "pipeline/raw/olbgev_volleyball_37136.txt.gz",
-   "raw_sha256": "811bc7acdfb2d5c2e0a39e158b224bc3aa3cf6dc728f317bccf10d66df4cd2df",
-   "raw_chars": 213415,
+   "raw_sha256": "d8e8c9574cfd4e6ef6d80382152c2f893c6091083ba730208725e2950e904042",
+   "raw_chars": 213513,
    "error": ""
   },
   {
@@ -1184,10 +1184,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:28Z",
+   "fetched_utc": "2026-10-27T06:20:47Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609605.txt.gz",
-   "raw_sha256": "88c7daf517e776df508d9b77ddd76a134d9bea9de6bd10f769a67d9baf866cbe",
-   "raw_chars": 230307,
+   "raw_sha256": "4672b8fd2de8a0bf389f522e19911f8de9aaa2d465649e62259b578d38db269a",
+   "raw_chars": 230481,
    "error": ""
   },
   {
@@ -1195,10 +1195,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:29Z",
+   "fetched_utc": "2026-10-27T06:20:48Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609604.txt.gz",
-   "raw_sha256": "7022042dcf7e137cc6e699ff390d1409c12c739ddc8b9313dbc897846d95a224",
-   "raw_chars": 200874,
+   "raw_sha256": "ffcaa3e45a6260a6262da7fce721d2e37ce80373b15ae71ad802e76fa44ccb66",
+   "raw_chars": 201054,
    "error": ""
   },
   {
@@ -1206,10 +1206,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:30Z",
+   "fetched_utc": "2026-10-27T06:20:49Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609603.txt.gz",
-   "raw_sha256": "4f75712aed535af21aba2fc45db346360173c209856dd19138a80fe4077b6022",
-   "raw_chars": 229737,
+   "raw_sha256": "563dc6cc8837ed1dd55045fd1d81168779d69f93ef2e95a89a3ec1b40d8ef176",
+   "raw_chars": 229915,
    "error": ""
   },
   {
@@ -1217,10 +1217,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:31Z",
+   "fetched_utc": "2026-10-27T06:20:50Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609598.txt.gz",
-   "raw_sha256": "22ca350083b05e956a20aa07ad667fb0c61958269c3b74fce5aff772b305fe47",
-   "raw_chars": 219425,
+   "raw_sha256": "27e0e4ed5e5d982e69c771c376993f96625ea2f49de3d70abc8e903314302e0a",
+   "raw_chars": 219605,
    "error": ""
   },
   {
@@ -1228,10 +1228,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:32Z",
+   "fetched_utc": "2026-10-27T06:20:51Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609599.txt.gz",
-   "raw_sha256": "4a5cf0e6c928ef8dc33de73bdc1c2ab78b20c2cc573ef968c6af9cb1dac39da4",
-   "raw_chars": 200967,
+   "raw_sha256": "6a795114c9601c85bdc8346222da69f0feb9959b029796df4677d8343da3cdeb",
+   "raw_chars": 201065,
    "error": ""
   },
   {
@@ -1239,10 +1239,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:33Z",
+   "fetched_utc": "2026-10-27T06:20:52Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609600.txt.gz",
-   "raw_sha256": "ef757000ae3d2b7c92ed31796a435723476347580f7f940dc1e569c378b223f4",
-   "raw_chars": 200856,
+   "raw_sha256": "b78288bd0326c773412e8d1c4285b82e87d593698756d46aff5f6d5614c04d61",
+   "raw_chars": 200962,
    "error": ""
   },
   {
@@ -1250,10 +1250,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:33Z",
+   "fetched_utc": "2026-10-27T06:20:54Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609584.txt.gz",
-   "raw_sha256": "1defd2f044d41f6a3c2d1ff433ab2794597ab64be5292614ae5f16abd66ff4ee",
-   "raw_chars": 200948,
+   "raw_sha256": "e335a9252d69305f60eb279e3d8ce6b980bf6b8658eceaeafcd6dfbadbcea5e6",
+   "raw_chars": 201128,
    "error": ""
   },
   {
@@ -1261,10 +1261,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:34Z",
+   "fetched_utc": "2026-10-27T06:20:55Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609590.txt.gz",
-   "raw_sha256": "7d8cc2f014afffbba512cf1ed289ecada72f0ccb457690896ae0fa4cad4d6197",
-   "raw_chars": 201247,
+   "raw_sha256": "88dff94b1877d2c85f24aa682030d57be6424bc5e0084974cebfe93f12571912",
+   "raw_chars": 201509,
    "error": ""
   },
   {
@@ -1272,10 +1272,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:35Z",
+   "fetched_utc": "2026-10-27T06:20:56Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609602.txt.gz",
-   "raw_sha256": "f7157459756cd9955fbf57d606793c040b02188bf725962a4bdcc5850ddb7b72",
-   "raw_chars": 201310,
+   "raw_sha256": "72c72949bd8b24a9323970656b909994ba7aded1e82d9eabebc581cfbb752975",
+   "raw_chars": 201408,
    "error": ""
   },
   {
@@ -1283,10 +1283,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:36Z",
+   "fetched_utc": "2026-10-27T06:20:57Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609588.txt.gz",
-   "raw_sha256": "640150eeaacfa5d5b41d9ae591b7e52b1c9025109b9dca4e1b1aa4a5d2322e43",
-   "raw_chars": 200938,
+   "raw_sha256": "efd40f5ac0e10e60279987d27aaff00340e8cdf4ebcc94b57ead814a219ec460",
+   "raw_chars": 201036,
    "error": ""
   },
   {
@@ -1294,10 +1294,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:37Z",
+   "fetched_utc": "2026-10-27T06:20:58Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609586.txt.gz",
-   "raw_sha256": "1ccc55dd7c36e100bfbe6a8aeed399e4d533456bc457631aeec0234cecb2f5c7",
-   "raw_chars": 200898,
+   "raw_sha256": "536f41cddef6bff821e9ecee8a02c7c6c855358450fba6937b5e0a5120ac7a06",
+   "raw_chars": 201078,
    "error": ""
   },
   {
@@ -1305,10 +1305,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:38Z",
+   "fetched_utc": "2026-10-27T06:20:59Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609611.txt.gz",
-   "raw_sha256": "9c8cfd0df9fb26e43ed3e49629c1b383a852e2ac6c17c44d8765de7627768fd0",
-   "raw_chars": 221222,
+   "raw_sha256": "529dcb6c6ced1ac3d9da3d45f0fae58f11fc211f10a2dd5034ad3c0ebe39bac1",
+   "raw_chars": 221402,
    "error": ""
   },
   {
@@ -1316,10 +1316,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:39Z",
+   "fetched_utc": "2026-10-27T06:21:00Z",
    "raw_file": "pipeline/raw/olbgev_rugby_union_609013.txt.gz",
-   "raw_sha256": "5a96ff5064381a62c8a5602e94ea8da1dd571f5d079bbdfbf3b1004d14b90e63",
-   "raw_chars": 274003,
+   "raw_sha256": "2575b388e72ea5aa9bcfe0bcebde8e4a4894e2ad735bb76944be5c4da81a4eeb",
+   "raw_chars": 274183,
    "error": ""
   },
   {
@@ -1327,10 +1327,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:40Z",
+   "fetched_utc": "2026-10-27T06:21:01Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188852.txt.gz",
-   "raw_sha256": "a9eed89a79342ddb2b7b7088c80326571836c663919b45b429b2bdec6a757e7c",
-   "raw_chars": 647058,
+   "raw_sha256": "1c66d637c5eae456911d82e98aed864ce13d4c2f9b4aa42b2867a547b40fae1b",
+   "raw_chars": 652382,
    "error": ""
   },
   {
@@ -1338,10 +1338,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:40Z",
+   "fetched_utc": "2026-10-27T06:21:02Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188868.txt.gz",
-   "raw_sha256": "7d1981377b7ea612cc977cedc7736669c26270f2a6f64f98fc5f79e740c08e34",
-   "raw_chars": 590183,
+   "raw_sha256": "482e9d440105fdc377e6d17bcaf72270dd40a0d347fe169baa3b362b361ffa5d",
+   "raw_chars": 595670,
    "error": ""
   },
   {
@@ -1349,10 +1349,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:41Z",
+   "fetched_utc": "2026-10-27T06:21:03Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188854.txt.gz",
-   "raw_sha256": "d45b4c20062ef41ae92d3d35d0adf967bf12c31c9515462a7343ba4b130f3dcf",
-   "raw_chars": 416298,
+   "raw_sha256": "51ce18ae6f95c5a894d6bbc72f5eb569e83babec644211d6a5b6842f0e487e9d",
+   "raw_chars": 416548,
    "error": ""
   },
   {
@@ -1360,10 +1360,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:42Z",
+   "fetched_utc": "2026-10-27T06:21:04Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188872.txt.gz",
-   "raw_sha256": "ae998db7d9da818fb596531297b47be55bbfa8c6e4b64ad9f7925c87d40b609f",
-   "raw_chars": 463847,
+   "raw_sha256": "a3a8a48bce0f95497e023420a109136c0b35b5ce441049ef436edaf8ce160a80",
+   "raw_chars": 474431,
    "error": ""
   },
   {
@@ -1371,10 +1371,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:43Z",
+   "fetched_utc": "2026-10-27T06:21:05Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188864.txt.gz",
-   "raw_sha256": "1904e6ead3e4e445bb9a58c06d090978cc768f9897f0bc8900f5d8da54af050b",
-   "raw_chars": 205445,
+   "raw_sha256": "d58f46d274335b2c287d422eb34b1526434cb541027a41538ac61a8c72b82504",
+   "raw_chars": 205543,
    "error": ""
   },
   {
@@ -1382,10 +1382,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:44Z",
+   "fetched_utc": "2026-10-27T06:21:06Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188876.txt.gz",
-   "raw_sha256": "913ad7068e097774aa1596ac222a36798a9c5f493631e46ec0439e6de24c6f32",
-   "raw_chars": 221501,
+   "raw_sha256": "13be95fd45ea43d43d9a217c2d2e233351cd4d05a287803f1723fce1a3b330e8",
+   "raw_chars": 221681,
    "error": ""
   },
   {
@@ -1393,10 +1393,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:45Z",
+   "fetched_utc": "2026-10-27T06:21:07Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188865.txt.gz",
-   "raw_sha256": "25cd2055540aa0be17a752e9322f385971588afa65d49afc409021de352e73f1",
-   "raw_chars": 195402,
+   "raw_sha256": "2a956695125fac8d9fb9d55ef10dae34dea54562a227a0585e2ac18ede9cffbd",
+   "raw_chars": 195500,
    "error": ""
   },
   {
@@ -1404,10 +1404,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:46Z",
+   "fetched_utc": "2026-10-27T06:21:08Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188877.txt.gz",
-   "raw_sha256": "128cbc1b2522c26a126bbc7ce8a74835498ead215016d8a69f0441790c15641e",
-   "raw_chars": 224151,
+   "raw_sha256": "40c275c00bc9ce4720a5b5aec6c77650c8772434a0406ec86b10f9b25859a365",
+   "raw_chars": 224413,
    "error": ""
   },
   {
@@ -1415,10 +1415,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:47Z",
+   "fetched_utc": "2026-10-27T06:21:09Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188878.txt.gz",
-   "raw_sha256": "082524ad7ef45cc8dd81c2402c855822e14c5ac5dce8c39256bc450da46ea205",
-   "raw_chars": 222389,
+   "raw_sha256": "9f4ee7a41b6a9e9fe918e2e00d8ee6c5818b5881af5543a0a70bef6a37d0c177",
+   "raw_chars": 222651,
    "error": ""
   },
   {
@@ -1426,10 +1426,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:48Z",
+   "fetched_utc": "2026-10-27T06:21:10Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188874.txt.gz",
-   "raw_sha256": "8099de50e3ae6147d97972acb4759542120636137def29d62fa5e77cf08c85ef",
-   "raw_chars": 194309,
+   "raw_sha256": "1c7f3ba0d2ad53aafd965cb20df7015c271b75137c8e426dc0066d2d1d34baf3",
+   "raw_chars": 194571,
    "error": ""
   },
   {
@@ -1437,10 +1437,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7?event_id=182606",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:49Z",
+   "fetched_utc": "2026-10-27T06:21:11Z",
    "raw_file": "pipeline/raw/olbgev_cricket_182606.txt.gz",
-   "raw_sha256": "e324dc7885c04ccda89c348980485d9e298379049c2815d54aa6e66f3a868d88",
-   "raw_chars": 268384,
+   "raw_sha256": "ba241707e0b388a9ba5d529c1f4cda06b1bcca118c5792583b01ae82681ebd12",
+   "raw_chars": 268566,
    "error": ""
   },
   {
@@ -1448,10 +1448,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:50Z",
+   "fetched_utc": "2026-10-27T06:21:12Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188835.txt.gz",
-   "raw_sha256": "a7c5b812aa0e22652b111b3ff853164c6e87ace8a8007c91abd78ca7024ace1c",
-   "raw_chars": 327673,
+   "raw_sha256": "6b6f6291cb3e66b6e65bc7fd48b55bbc20ae8a60f0c7957a33d04f14336ae4cb",
+   "raw_chars": 327939,
    "error": ""
   },
   {
@@ -1459,10 +1459,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:51Z",
+   "fetched_utc": "2026-10-27T06:21:13Z",
    "raw_file": "pipeline/raw/olbgev_cricket_187184.txt.gz",
-   "raw_sha256": "9807fe149e2839266e98b20bb9151562278e252cb1916f5b6f5c3ddaa4cfbc33",
-   "raw_chars": 212091,
+   "raw_sha256": "ecee3333e15790ad2d189575a7a355ce9ebb0984b4de6cd932276b76f26f7ef4",
+   "raw_chars": 212251,
    "error": ""
   },
   {
@@ -1470,10 +1470,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:52Z",
+   "fetched_utc": "2026-10-27T06:21:14Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188863.txt.gz",
-   "raw_sha256": "c7a335ee1a689197c2f84126f282cdac2de983c330d73170f381be74f01ea597",
-   "raw_chars": 359378,
+   "raw_sha256": "0ec9a36ba602bb96f970b715505678a91ec587b491b4348e684f4f4cdd9e26f8",
+   "raw_chars": 359558,
    "error": ""
   },
   {
@@ -1481,10 +1481,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:52Z",
+   "fetched_utc": "2026-10-27T06:21:15Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188871.txt.gz",
-   "raw_sha256": "0aae9fadcf78115400f34614ada6e46f12b83f097376e3309c9c71abc88d28ad",
-   "raw_chars": 324349,
+   "raw_sha256": "d9b249ca4468661a0acabb2f202b960e8aba5e00f57afc41c335cf0c436facb0",
+   "raw_chars": 324617,
    "error": ""
   },
   {
@@ -1492,10 +1492,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7?event_id=187503",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:53Z",
+   "fetched_utc": "2026-10-27T06:21:16Z",
    "raw_file": "pipeline/raw/olbgev_cricket_187503.txt.gz",
-   "raw_sha256": "ff0a7f4fe5df8e0a85223628b0620b880454d78f12dd6b915f88cd76a2dd787c",
-   "raw_chars": 212097,
+   "raw_sha256": "42cb1d43034ee2e7e7513752fc160e56b8d549a40cdb2392246b787e580bf41d",
+   "raw_chars": 212359,
    "error": ""
   },
   {
@@ -1503,10 +1503,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7?event_id=187504",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:54Z",
+   "fetched_utc": "2026-10-27T06:21:17Z",
    "raw_file": "pipeline/raw/olbgev_cricket_187504.txt.gz",
-   "raw_sha256": "693f50d42ebdf9c5e550d74c8c16b7b606ed617fdfa8a4aa25c6397796cb8d87",
-   "raw_chars": 205831,
+   "raw_sha256": "a73fb2a0bb0ec06cfc3153262befbf0d5e9237ba0a8c52456d51fb17603ca463",
+   "raw_chars": 205929,
    "error": ""
   },
   {
@@ -1514,10 +1514,10 @@
    "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7?event_id=188350",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:55Z",
+   "fetched_utc": "2026-10-27T06:21:18Z",
    "raw_file": "pipeline/raw/olbgev_cricket_188350.txt.gz",
-   "raw_sha256": "187f710b19477c3e8efbcc369403b485d901562a6fe659f5b9bdbab448c2f366",
-   "raw_chars": 236945,
+   "raw_sha256": "d5f797db8d93c40efd5ebd7db05ffa409f7239fa3297eb0c208d63c3f94c28fe",
+   "raw_chars": 237125,
    "error": ""
   },
   {
@@ -1525,10 +1525,10 @@
    "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:56Z",
+   "fetched_utc": "2026-10-27T06:21:19Z",
    "raw_file": "pipeline/raw/olbgev_darts_26023.txt.gz",
-   "raw_sha256": "0f8cb5005615c89edba3b6f80e5cf6d784fc76802636d106378f671ebfca7d09",
-   "raw_chars": 645347,
+   "raw_sha256": "09957ebf6b8e76e6f520672cd8e896dc01d8426d7b8c13c2b1b104135bde9fc8",
+   "raw_chars": 645450,
    "error": ""
   },
   {
@@ -1536,10 +1536,10 @@
    "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:57Z",
+   "fetched_utc": "2026-10-27T06:21:20Z",
    "raw_file": "pipeline/raw/olbgev_darts_32446.txt.gz",
-   "raw_sha256": "440c94e9a42155d5f7abeb0aa2a15921a86641073fecbd3ad6724f932623f474",
-   "raw_chars": 649137,
+   "raw_sha256": "cd0424fdc15e9a46b3c4d4220cd5d4d7bf8027b00739a532c3429e2e2a510dbc",
+   "raw_chars": 649237,
    "error": ""
   },
   {
@@ -1547,10 +1547,10 @@
    "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:58Z",
+   "fetched_utc": "2026-10-27T06:21:21Z",
    "raw_file": "pipeline/raw/olbgev_baseball_160799.txt.gz",
-   "raw_sha256": "49b580ebd134c3d6506a5181618c104d6fa9992f8a07237b705ff4dc8846ba33",
-   "raw_chars": 207749,
+   "raw_sha256": "c620953e453f955a546a4c4b701f337303c51a38ff30fa680d065da94fce2a11",
+   "raw_chars": 207929,
    "error": ""
   },
   {
@@ -1558,10 +1558,10 @@
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:10:59Z",
+   "fetched_utc": "2026-10-27T06:21:22Z",
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3531.txt.gz",
-   "raw_sha256": "557a27295af4d46d05bdf2c8ee02d4ba8f9eda5f3441df27292c7c501b32726d",
-   "raw_chars": 247288,
+   "raw_sha256": "b74f7f7f17937e85730f6e39e8e32533926d6bcaff52b73786ccf2f75b846677",
+   "raw_chars": 247396,
    "error": ""
   },
   {
@@ -1569,10 +1569,10 @@
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:00Z",
+   "fetched_utc": "2026-10-27T06:21:23Z",
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3537.txt.gz",
-   "raw_sha256": "2d03d4315b0b439abfb5aef4b2d97b268c50346d02fd1372cc63e6371c911f01",
-   "raw_chars": 246871,
+   "raw_sha256": "1e26020978cab434fe9fb45894d3195fd2cb39e4d3cdc28a0e1730407c2615db",
+   "raw_chars": 246969,
    "error": ""
   },
   {
@@ -1580,10 +1580,54 @@
    "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:01Z",
+   "fetched_utc": "2026-10-27T06:21:24Z",
    "raw_file": "pipeline/raw/olbgev_gaelic_sports_3327.txt.gz",
-   "raw_sha256": "7f4274351a84d83726fe5111ef2ee2b8ab147a93df7c48b2d4f48dbcd7d1933f",
-   "raw_chars": 329120,
+   "raw_sha256": "d00d7f392f0083bf3f516a0905b55ca212c089bb6f5ea735ebbeae5cc95b8ab7",
+   "raw_chars": 329214,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_greyhounds_690289",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:01_Sheffield/28?event_id=690289",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:25Z",
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690289.txt.gz",
+   "raw_sha256": "64f9e6446a0abc5923e88c73b8ec69d3273a5c3812ce9fb35678be65493a5488",
+   "raw_chars": 198354,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_greyhounds_690290",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:09_Newcastle/28?event_id=690290",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:25Z",
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690290.txt.gz",
+   "raw_sha256": "5d9d65ce659a6308577a35c6d906fc24fc8f9c5e06750beab31c83996a0223a4",
+   "raw_chars": 201312,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_greyhounds_690294",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:27_Newcastle/28?event_id=690294",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:26Z",
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690294.txt.gz",
+   "raw_sha256": "c8bcbc2a67af5d9691f45324f0f8b77e692875cca00f827cd020b42bc17f9614",
+   "raw_chars": 201326,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_greyhounds_690295",
+   "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:34_Sheffield/28?event_id=690295",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:27Z",
+   "raw_file": "pipeline/raw/olbgev_greyhounds_690295.txt.gz",
+   "raw_sha256": "9be5d7af3f4862afd655ae08b6e55772634b2f36efb31ffdaacff4037368c5c2",
+   "raw_chars": 198352,
    "error": ""
   },
   {
@@ -1591,10 +1635,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:02Z",
+   "fetched_utc": "2026-10-27T06:21:28Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902189.txt.gz",
-   "raw_sha256": "5ced1d65301421d04b420cf42387d70a7198696d83722a760125d54d77aede81",
-   "raw_chars": 273921,
+   "raw_sha256": "9f8b33b64ccb51d5a696ccc4168e01ad86797dc418804b639336bed240ae8be0",
+   "raw_chars": 274019,
    "error": ""
   },
   {
@@ -1602,43 +1646,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:03Z",
+   "fetched_utc": "2026-10-27T06:21:29Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902177.txt.gz",
-   "raw_sha256": "886416db8ee1dfb1ab9e62210f3650aa78012b7b3ce12264e177ed38db8171b0",
-   "raw_chars": 273169,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902238",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:04Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902238.txt.gz",
-   "raw_sha256": "6cbf80c6d9a07a92f521f830a106d5d578062f1b04319aa03e5df462742ee149",
-   "raw_chars": 268376,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902232",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:05Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902232.txt.gz",
-   "raw_sha256": "28e685f7e43f41845429fea01a1b3b205d48df1feb19b143c65b93984ec06965",
-   "raw_chars": 269802,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902233",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:06Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902233.txt.gz",
-   "raw_sha256": "d493b7625a04faade350f7d82ac1eb78c15f7c73df8efdcff28bf4aa72723fe7",
-   "raw_chars": 260255,
+   "raw_sha256": "bed5346140801ec58f6c1fdd0d7ed3bc0d4d70a468d9ad84528ebd40c00158c3",
+   "raw_chars": 273355,
    "error": ""
   },
   {
@@ -1646,10 +1657,43 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:07Z",
+   "fetched_utc": "2026-10-27T06:21:30Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902322.txt.gz",
-   "raw_sha256": "e47140d7f2bc4fdfe44bd2feab22972e12c57779b4945fc3329477e25408f6b7",
-   "raw_chars": 270676,
+   "raw_sha256": "de670372d6f44606dd01ab19b99a38bfa586f8fe55914ea6cbabde2cb2683af9",
+   "raw_chars": 270862,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902238",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:31Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902238.txt.gz",
+   "raw_sha256": "9e28260503728a424003d45c84b76f1aa771fda3b4379ef4736bee490764f24a",
+   "raw_chars": 268558,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902232",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:32Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902232.txt.gz",
+   "raw_sha256": "dfaea21a2af076fcdbb7ed1d7f3407aa4ffa7e946ac456ce99f9d7dc3e44120d",
+   "raw_chars": 269980,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902233",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:33Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902233.txt.gz",
+   "raw_sha256": "cc2012a8a5f69b9dab788af915809994e4e6485b1c4d0cad2d673e0e82d6975e",
+   "raw_chars": 260435,
    "error": ""
   },
   {
@@ -1657,10 +1701,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:08Z",
+   "fetched_utc": "2026-10-27T06:21:34Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902409.txt.gz",
-   "raw_sha256": "066f7624aab37bca8ea5345b5eb8ba7d840002091ae46a1f4486c0e82a6bd56c",
-   "raw_chars": 247972,
+   "raw_sha256": "21040400006935ca87185468c9a7136088163e6b27ddbbe3edc563378c01b345",
+   "raw_chars": 248152,
    "error": ""
   },
   {
@@ -1668,10 +1712,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:09Z",
+   "fetched_utc": "2026-10-27T06:21:35Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902252.txt.gz",
-   "raw_sha256": "322e3b98699d605a4a7d2f9fa74c71e6c37abe6a2118ee0dee8d213d9b785aef",
-   "raw_chars": 264484,
+   "raw_sha256": "8b9e0e7d893326669eae9294cdd472c24ea62487b433f8b0038f72da61ea40d6",
+   "raw_chars": 272872,
    "error": ""
   },
   {
@@ -1679,10 +1723,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:10Z",
+   "fetched_utc": "2026-10-27T06:21:36Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902210.txt.gz",
-   "raw_sha256": "a6cd679ff821d73ba763a98dfc80f145c92c11ae9bdad673272d2dccc0a41a1d",
-   "raw_chars": 265463,
+   "raw_sha256": "f93581f1d302e120a63f0061311c517639f321668c2158456d7e93b88a93815c",
+   "raw_chars": 265561,
    "error": ""
   },
   {
@@ -1690,43 +1734,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tereza_Valentova_vs_Mia_Pohankova/3?event_id=902310",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:11Z",
+   "fetched_utc": "2026-10-27T06:21:37Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902310.txt.gz",
-   "raw_sha256": "1abb41195b8efcd046ddf92fe9eb8469f4ef08027908155bdbcb70e5331967d9",
-   "raw_chars": 227582,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902240",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:12Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902240.txt.gz",
-   "raw_sha256": "79bbc4071568f57abaae358979a2356b2119409bf3161a111a589036a18c7ed4",
-   "raw_chars": 263342,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902213",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:13Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902213.txt.gz",
-   "raw_sha256": "3a74b12b58a9e3df2427c3d74da970d3e8764587777036ebe2da630ff3c861b5",
-   "raw_chars": 227528,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902374",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Danka_Kovinic_vs_Noma_Noha_Akugue/3?event_id=902374",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:13Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902374.txt.gz",
-   "raw_sha256": "5257788a9e534d56fc59f86771977170f0a65c1c962f2bf1d2192da82f5898d9",
-   "raw_chars": 227617,
+   "raw_sha256": "e52832ae1784ea65cd6e1e084edbee065db1d4c8e6e0c5d3fa8e4b5ce882803e",
+   "raw_chars": 227688,
    "error": ""
   },
   {
@@ -1734,10 +1745,43 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:14Z",
+   "fetched_utc": "2026-10-27T06:21:38Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902372.txt.gz",
-   "raw_sha256": "8126b7f175daaca390dba0e09107efcbb6e03f7a21efb5c75c1a044171e965f0",
-   "raw_chars": 256562,
+   "raw_sha256": "4607558c0537876bf8a460e870d8937e533ff1227248a2368ac04fc457c27c01",
+   "raw_chars": 256754,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902240",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:39Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902240.txt.gz",
+   "raw_sha256": "402b43f6a600d006719018d409b74c16c28e7544c65db7117929e9cb1ef34960",
+   "raw_chars": 263522,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902213",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:40Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902213.txt.gz",
+   "raw_sha256": "e064a4788793f2ec30833d4fc2243e0f3cc6305e263b663190e7b64beae7dc74",
+   "raw_chars": 227708,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902374",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Danka_Kovinic_vs_Noma_Noha_Akugue/3?event_id=902374",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:40Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902374.txt.gz",
+   "raw_sha256": "6da98576ea7f269aec02e14cdee8d3a33095f69e7f488a65a68df3ee93dc2481",
+   "raw_chars": 227715,
    "error": ""
   },
   {
@@ -1745,10 +1789,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Xinran_Sun_vs_Mananchaya_Sawangkaew/3?event_id=902183",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:15Z",
+   "fetched_utc": "2026-10-27T06:21:42Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902183.txt.gz",
-   "raw_sha256": "3e7fac1a2fe5230b61e20ceb48f1d146b757e31a5ece376b10c799f65604b9d2",
-   "raw_chars": 249876,
+   "raw_sha256": "db4b4430b7ef50a0953dcaaaad8276c226110303ade111d94c0820d8e4fb8b1f",
+   "raw_chars": 249966,
    "error": ""
   },
   {
@@ -1756,10 +1800,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Marina_Bassols_Ribera_vs_Victoria_Jimenez_Kasintseva/3?event_id=902378",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:16Z",
+   "fetched_utc": "2026-10-27T06:21:42Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902378.txt.gz",
-   "raw_sha256": "cd13e2082b40ed02ed0fe59bcf98b88cfa21f3eb4b5a330550c4ba25defe1d63",
-   "raw_chars": 250084,
+   "raw_sha256": "ddbf8ab0b677b8074f4d0d3464f0a0279bfe790d07693072b74461f9b640a720",
+   "raw_chars": 250262,
    "error": ""
   },
   {
@@ -1767,10 +1811,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jerome_Kym_vs_Arthur_Rinderknech/3?event_id=902234",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:17Z",
+   "fetched_utc": "2026-10-27T06:21:43Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902234.txt.gz",
-   "raw_sha256": "aedfe3e5f84d0f1f4fdede5f15bc69630dc0c8c5cc5374de8e353dd8112946ba",
-   "raw_chars": 254623,
+   "raw_sha256": "95c331b23a1dbd341548092cdf3543fc75f8969359b0620adcc887142fce5b84",
+   "raw_chars": 254803,
    "error": ""
   },
   {
@@ -1778,10 +1822,21 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Adrian_Mannarino_vs_Ignacio_Buse/3?event_id=902320",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:18Z",
+   "fetched_utc": "2026-10-27T06:21:44Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902320.txt.gz",
-   "raw_sha256": "2897e69b9047f8c5f45ae996b56f9bf5ecec75696326cea9e471ec3d3b330186",
-   "raw_chars": 227481,
+   "raw_sha256": "a58894c7ab0f9c631eaaaf04a92d873c0bbc9921a5ddd7ba5d390382622f8cdf",
+   "raw_chars": 227656,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_tennis_902323",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Francesca_Jones_vs_Maria_Florencia_Urrutia/3?event_id=902323",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:21:45Z",
+   "raw_file": "pipeline/raw/olbgev_tennis_902323.txt.gz",
+   "raw_sha256": "2e01aa4baf673776ef426fe567eaef1000a5cf90f79794924bca1b05ff422765",
+   "raw_chars": 201986,
    "error": ""
   },
   {
@@ -1789,21 +1844,10 @@
    "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Mia_Ristic_vs_Martyna_Kubka/3?event_id=902370",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:19Z",
+   "fetched_utc": "2026-10-27T06:21:46Z",
    "raw_file": "pipeline/raw/olbgev_tennis_902370.txt.gz",
-   "raw_sha256": "abbd9fd45b35eb9480f513976512b159f2083d1371f2ce8c9344cb9b01fe6573",
-   "raw_chars": 227136,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_tennis_902347",
-   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Giovanni_Mpetshi_Perricard_vs_Arthur_Fils/3?event_id=902347",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:11:20Z",
-   "raw_file": "pipeline/raw/olbgev_tennis_902347.txt.gz",
-   "raw_sha256": "b6136b62c8b3b71cb812850c944505d9799cd2a79708fd0b7e5951bd879576b9",
-   "raw_chars": 229536,
+   "raw_sha256": "38e9da96731aa3c04091aa47f62361b9bfed42cb5ef1e2b00cc0940ebf422e62",
+   "raw_chars": 227314,
    "error": ""
   },
   {
@@ -1811,10 +1855,10 @@
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:20Z",
+   "fetched_utc": "2026-10-27T06:21:47Z",
    "raw_file": "pipeline/raw/olbgev_motor_racing_912.txt.gz",
-   "raw_sha256": "35541506ae431b92ee4d6619b4521a7d1504ed25ea848053c18a1a7755012e46",
-   "raw_chars": 246133,
+   "raw_sha256": "4315cd12e5547e0b43967f32c44dab417e33f04816b003d34fe64f8d62b775ab",
+   "raw_chars": 246301,
    "error": ""
   },
   {
@@ -1822,10 +1866,10 @@
    "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:21Z",
+   "fetched_utc": "2026-10-27T06:21:48Z",
    "raw_file": "pipeline/raw/olbgev_motor_racing_914.txt.gz",
-   "raw_sha256": "25a4b5c722180fc197e4eaa1906610f6d729ec50f8344d440b5b35368b6710c8",
-   "raw_chars": 578569,
+   "raw_sha256": "0a2fba4d0bccdee27a50587b52c391c8773d60ae5b67ecf2ac99d1af76fb7b84",
+   "raw_chars": 382761,
    "error": ""
   },
   {
@@ -1833,10 +1877,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:22Z",
+   "fetched_utc": "2026-10-27T06:21:49Z",
    "raw_file": "pipeline/raw/olbgev_handball_12136.txt.gz",
-   "raw_sha256": "111ed63a23705275e0bf6f0e124730429738312f16729193c36641ab056364e2",
-   "raw_chars": 211396,
+   "raw_sha256": "52a72942ed9dac28cb816a9dc2e23d8111b03081c79af4c65389ea99fb5185dc",
+   "raw_chars": 211576,
    "error": ""
   },
   {
@@ -1844,10 +1888,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:23Z",
+   "fetched_utc": "2026-10-27T06:21:50Z",
    "raw_file": "pipeline/raw/olbgev_handball_12130.txt.gz",
-   "raw_sha256": "714897993d1867d7bc8bd08bd0d9fd2c52e342eea2b0611b8c431812db6b00a5",
-   "raw_chars": 229781,
+   "raw_sha256": "8643a5f134a963abfeaaabbf2b5e5c7e9aaf103a849bf893434a85057bf13e64",
+   "raw_chars": 229961,
    "error": ""
   },
   {
@@ -1855,10 +1899,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:24Z",
+   "fetched_utc": "2026-10-27T06:21:51Z",
    "raw_file": "pipeline/raw/olbgev_handball_12138.txt.gz",
-   "raw_sha256": "21c769a85ac79708fbfbb520f9af69065d049672938807575ceff29134a1951a",
-   "raw_chars": 210799,
+   "raw_sha256": "bd46b8d3171a29d54818f919a8ce50a932a53db1b23e79c17a77bb53e7292843",
+   "raw_chars": 210984,
    "error": ""
   },
   {
@@ -1866,10 +1910,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:24Z",
+   "fetched_utc": "2026-10-27T06:21:52Z",
    "raw_file": "pipeline/raw/olbgev_handball_12132.txt.gz",
-   "raw_sha256": "6bf12374baeba3a22c37f7e8a26286bfbaf61fa1d08547eb31151a9ce5361cb1",
-   "raw_chars": 210764,
+   "raw_sha256": "0f333f49aed14fa1d33370ab5d0cb3a25331c18c8fe0f11d7a746bab2b1ca16f",
+   "raw_chars": 210934,
    "error": ""
   },
   {
@@ -1877,10 +1921,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:25Z",
+   "fetched_utc": "2026-10-27T06:21:53Z",
    "raw_file": "pipeline/raw/olbgev_handball_12134.txt.gz",
-   "raw_sha256": "b03b0fe47aa0c82547c439fe4a56c256e5d553a90b841b6829dfbf2e9ed8f1c0",
-   "raw_chars": 211363,
+   "raw_sha256": "d6ff4c8e43944c5256c89b282c11e45f10d15baaf0a1684bbf9a9b770dbcbec5",
+   "raw_chars": 211543,
    "error": ""
   },
   {
@@ -1888,10 +1932,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:26Z",
+   "fetched_utc": "2026-10-27T06:21:54Z",
    "raw_file": "pipeline/raw/olbgev_handball_12135.txt.gz",
-   "raw_sha256": "b17e2c206b53d13b9203588620a53fdc82fa99d57447f8589dfcc0ca05a8c07d",
-   "raw_chars": 210778,
+   "raw_sha256": "50c8d046e2234ce6b7536bbceb1a092b172603a9f88abe4a95b02039a677dbee",
+   "raw_chars": 210958,
    "error": ""
   },
   {
@@ -1899,10 +1943,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:27Z",
+   "fetched_utc": "2026-10-27T06:21:55Z",
    "raw_file": "pipeline/raw/olbgev_handball_12128.txt.gz",
-   "raw_sha256": "b22c781e27986103d71f9cb7a74ca707d348a7d44fc68f7502daa11e5b16ba15",
-   "raw_chars": 219531,
+   "raw_sha256": "b5ce2bd56d481558ac0d8e85de2ba8364da35e2ea3dccb9c6a5ebd002d3bad0c",
+   "raw_chars": 219699,
    "error": ""
   },
   {
@@ -1910,10 +1954,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:28Z",
+   "fetched_utc": "2026-10-27T06:21:56Z",
    "raw_file": "pipeline/raw/olbgev_handball_12127.txt.gz",
-   "raw_sha256": "88e110560b8b3b365d59e38c21e3a6b1efebae29ba8d50e450c6fc9250776382",
-   "raw_chars": 210740,
+   "raw_sha256": "f97eccb145744877b26ee6d1441abaaa2d4da17b4fc742b6903b7a70d3e9024e",
+   "raw_chars": 210920,
    "error": ""
   },
   {
@@ -1921,10 +1965,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:29Z",
+   "fetched_utc": "2026-10-27T06:21:57Z",
    "raw_file": "pipeline/raw/olbgev_handball_12196.txt.gz",
-   "raw_sha256": "bacded30d8a6fc82e7a89502efcd1906e7671665aa0b4f9b86347e0308a7c110",
-   "raw_chars": 231686,
+   "raw_sha256": "63dded9c975b0b48e97704dab2c61a6f71c10605bb9a619719c0daf131cb037b",
+   "raw_chars": 246778,
    "error": ""
   },
   {
@@ -1932,10 +1976,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:30Z",
+   "fetched_utc": "2026-10-27T06:21:58Z",
    "raw_file": "pipeline/raw/olbgev_handball_12197.txt.gz",
-   "raw_sha256": "de338266f2f274a12449e8b7e789b3662679b68d893934a84baad567caec42b7",
-   "raw_chars": 231779,
+   "raw_sha256": "44b501fb2f85723379c58659657615094fc74660fcbb876f1f1e82c03e4a0f68",
+   "raw_chars": 231959,
    "error": ""
   },
   {
@@ -1943,10 +1987,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:31Z",
+   "fetched_utc": "2026-10-27T06:21:58Z",
    "raw_file": "pipeline/raw/olbgev_handball_12129.txt.gz",
-   "raw_sha256": "f399910e917e5e4b937c1b465a58808b904c115bb05152e4cff08c2855389cd9",
-   "raw_chars": 210561,
+   "raw_sha256": "354c0bd6c95af35403e8b487b8d3ad1317ac0717c65c667c66afff1050d29437",
+   "raw_chars": 210753,
    "error": ""
   },
   {
@@ -1954,10 +1998,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:31Z",
+   "fetched_utc": "2026-10-27T06:21:59Z",
    "raw_file": "pipeline/raw/olbgev_handball_12133.txt.gz",
-   "raw_sha256": "fc04f9a26a8e6b10b13d48fbb70a44d403131dfdcdfec6bd9f808b07ed93b412",
-   "raw_chars": 211266,
+   "raw_sha256": "6f1e68a12f4f362cd215749cc85a4836f451428bc1266ce05200ca1da86cfebb",
+   "raw_chars": 211451,
    "error": ""
   },
   {
@@ -1965,10 +2009,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:32Z",
+   "fetched_utc": "2026-10-27T06:22:00Z",
    "raw_file": "pipeline/raw/olbgev_handball_12131.txt.gz",
-   "raw_sha256": "c69e6e7a62086859cdaaef239aa1f27450737951c30280d24f2889599e7ddd2c",
-   "raw_chars": 211306,
+   "raw_sha256": "358d4d0e5bc11301b2866f74e5a9f6d90c54c90a5232ec201a77911e9906c34b",
+   "raw_chars": 211484,
    "error": ""
   },
   {
@@ -1976,10 +2020,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:33Z",
+   "fetched_utc": "2026-10-27T06:22:01Z",
    "raw_file": "pipeline/raw/olbgev_handball_12180.txt.gz",
-   "raw_sha256": "c735e9515d9cc7cdb57b292233295821152917d85119495da6c78623903d1756",
-   "raw_chars": 198829,
+   "raw_sha256": "585005a5581d744383f4ca479a42e157e164f09eda4473c17db161c5bc399ea9",
+   "raw_chars": 198992,
    "error": ""
   },
   {
@@ -1987,10 +2031,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:34Z",
+   "fetched_utc": "2026-10-27T06:22:02Z",
    "raw_file": "pipeline/raw/olbgev_handball_12137.txt.gz",
-   "raw_sha256": "0b0be4c9bc395811ea3a253a85bd3e0ee5f5c1aaf0dec653714020a9d5c1f254",
-   "raw_chars": 211616,
+   "raw_sha256": "95d4c50d696c86994ebbe3cfa94cc11e808aed6da09b52a8b69606e94536f949",
+   "raw_chars": 211796,
    "error": ""
   },
   {
@@ -1998,10 +2042,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/ThSV_Eisenach_vs_Fuchse_Berlin/20?event_id=12169",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:35Z",
+   "fetched_utc": "2026-10-27T06:22:03Z",
    "raw_file": "pipeline/raw/olbgev_handball_12169.txt.gz",
-   "raw_sha256": "72e8a3622831fec52e3ea7b300c88f33f37c9c0b7a53322011637f16bec7747a",
-   "raw_chars": 197788,
+   "raw_sha256": "9a6e75e9966bcfa3e268f60777cf24c4a8abdcfc3c13484e35e28bfc7dec16c6",
+   "raw_chars": 197973,
    "error": ""
   },
   {
@@ -2009,10 +2053,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/BM_Granollers_vs_FC_Barcelona/20?event_id=12185",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:35Z",
+   "fetched_utc": "2026-10-27T06:22:04Z",
    "raw_file": "pipeline/raw/olbgev_handball_12185.txt.gz",
-   "raw_sha256": "b2467df84002ded7883ae49e94a1d27f02105b21b7eb4268f45c0041b83b91a3",
-   "raw_chars": 197745,
+   "raw_sha256": "6322fd547a84cd268eeaecfafff96fa246a4a90c0cedc8b6249ae294c88e4657",
+   "raw_chars": 197925,
    "error": ""
   },
   {
@@ -2020,10 +2064,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Team_Tvis_Holstebro_vs_TMS_Ringsted/20?event_id=12163",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:36Z",
+   "fetched_utc": "2026-10-27T06:22:05Z",
    "raw_file": "pipeline/raw/olbgev_handball_12163.txt.gz",
-   "raw_sha256": "68323721f754fb6c9a8bdb53473c92351487f2f58d640ca65b1f4264fc6ec650",
-   "raw_chars": 198026,
+   "raw_sha256": "3c635ab3753aad27f9d5c0cc4669de72143f26dc33d6730b44f22b2f53346a08",
+   "raw_chars": 198211,
    "error": ""
   },
   {
@@ -2031,10 +2075,10 @@
    "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fredericia_HK_vs_Mors_Thy_Handbold/20?event_id=12158",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:37Z",
+   "fetched_utc": "2026-10-27T06:22:06Z",
    "raw_file": "pipeline/raw/olbgev_handball_12158.txt.gz",
-   "raw_sha256": "4cca349310a122948cba37699947ad740be66ae4504a30e2958cb91d0f364ca6",
-   "raw_chars": 197982,
+   "raw_sha256": "89c034ae5c120176df0ce9f132e2e053be415212ece5328abd539969529e3c1f",
+   "raw_chars": 198162,
    "error": ""
   },
   {
@@ -2042,10 +2086,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:38Z",
+   "fetched_utc": "2026-10-27T06:22:06Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200081.txt.gz",
-   "raw_sha256": "c1a38a329a577f25513700e6b6b4f3ecac4f8cb3198f9303547518ca14e4bd9b",
-   "raw_chars": 232940,
+   "raw_sha256": "45603ecc70ab3bb321b9a44011acc048f55e6690618a61a8981ca4ec72f5e820",
+   "raw_chars": 233124,
    "error": ""
   },
   {
@@ -2053,10 +2097,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:39Z",
+   "fetched_utc": "2026-10-27T06:22:07Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200082.txt.gz",
-   "raw_sha256": "6231931d78c027b0d6335db154a181934be84e5731f592c0e923c63b65266582",
-   "raw_chars": 234599,
+   "raw_sha256": "f031214963b8238cd14caa15e7c3ef00bdb8c29d41198ffba26a4779e1d10378",
+   "raw_chars": 234779,
    "error": ""
   },
   {
@@ -2064,10 +2108,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:40Z",
+   "fetched_utc": "2026-10-27T06:22:08Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200083.txt.gz",
-   "raw_sha256": "ca9b1b1ed2d72f73b22342144a9f9887b265b0c5cc73c8eedbc5875c131d376f",
-   "raw_chars": 245162,
+   "raw_sha256": "04d2b40667d66e197632eec556ceeb1303d9477d0457fbebf90ff179df313050",
+   "raw_chars": 245337,
    "error": ""
   },
   {
@@ -2075,10 +2119,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:41Z",
+   "fetched_utc": "2026-10-27T06:22:09Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200100.txt.gz",
-   "raw_sha256": "c2495dded0ec5ae1e1fda1e568780c7a1be52234b2ea17ca7f12f3e266caf710",
-   "raw_chars": 241127,
+   "raw_sha256": "5d2f443e0c1a502c42ec8353ebbc9973ca0d23adc75df18b6f5c8827b5b91a75",
+   "raw_chars": 241295,
    "error": ""
   },
   {
@@ -2086,10 +2130,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:42Z",
+   "fetched_utc": "2026-10-27T06:22:10Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200108.txt.gz",
-   "raw_sha256": "0d37e51978a4106da9474521acc583973dcc6c6b1b11619e440104fc86e16d4a",
-   "raw_chars": 246152,
+   "raw_sha256": "bc9f87d4aa3f48cf46d4a5080e684282c3f9145a9c8b56dbc2ff4a069eae82de",
+   "raw_chars": 246320,
    "error": ""
   },
   {
@@ -2097,10 +2141,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:43Z",
+   "fetched_utc": "2026-10-27T06:22:11Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200104.txt.gz",
-   "raw_sha256": "123ff3bdb466bba68bede32eb873ae0890e2e4bb611d837a662cb56855040c39",
-   "raw_chars": 246427,
+   "raw_sha256": "e8de8dd3b983dc8895c14740e6f815d94c230cb173af4e2911446bea26e21fab",
+   "raw_chars": 246607,
    "error": ""
   },
   {
@@ -2108,10 +2152,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:43Z",
+   "fetched_utc": "2026-10-27T06:22:12Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200098.txt.gz",
-   "raw_sha256": "3b4bcc27e3fa99ff95b99dd37a4d329a2ab0046708e9a83e8c8be9801c128176",
-   "raw_chars": 229834,
+   "raw_sha256": "c845754cee374bb36d40dcaa9dd36c40ce2f5ae9de4e6242e40316d2eb766763",
+   "raw_chars": 230014,
    "error": ""
   },
   {
@@ -2119,10 +2163,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:44Z",
+   "fetched_utc": "2026-10-27T06:22:14Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200146.txt.gz",
-   "raw_sha256": "deacb74b699605a7fb825b0299a845191531d86fe481398ced2a81f57e665bb3",
-   "raw_chars": 228146,
+   "raw_sha256": "585e92a777b4c4d75925be4933ccae5c367f93727703453fc59da22f568c1514",
+   "raw_chars": 228326,
    "error": ""
   },
   {
@@ -2130,10 +2174,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:45Z",
+   "fetched_utc": "2026-10-27T06:22:14Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200116.txt.gz",
-   "raw_sha256": "8565d011a2c9e25f3a3ee97d7569e56489911eb2a54ddcf4d93f0ed6f5f16d26",
-   "raw_chars": 210715,
+   "raw_sha256": "281bed401a2512301d4dca2394f9c0367e05314e058c1b1947b39c0bc7f19406",
+   "raw_chars": 210893,
    "error": ""
   },
   {
@@ -2141,10 +2185,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:46Z",
+   "fetched_utc": "2026-10-27T06:22:15Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200118.txt.gz",
-   "raw_sha256": "61b293e021fc9a8fd0c56ebc69c4ad2f2ab75874c9d873faade582e5d0502c91",
-   "raw_chars": 229548,
+   "raw_sha256": "f9b9bf82fe26a4022323297e4022c9014c7fa306ed520952cdcc64edad638993",
+   "raw_chars": 229728,
    "error": ""
   },
   {
@@ -2152,10 +2196,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:47Z",
+   "fetched_utc": "2026-10-27T06:22:16Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200123.txt.gz",
-   "raw_sha256": "58fa3c2cd74544c776034d29cdcd54b555ab1faee74724b9c2b7c0b05d6e3c1b",
-   "raw_chars": 239780,
+   "raw_sha256": "a07dbde378b3c0f607317021699468eb4371072a8ba3212d31d155f9e69f0bfe",
+   "raw_chars": 239960,
    "error": ""
   },
   {
@@ -2163,10 +2207,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:48Z",
+   "fetched_utc": "2026-10-27T06:22:17Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200119.txt.gz",
-   "raw_sha256": "601245432a48a05484e7f85fccba897e62bd2b467cce858b889b48a8abb5b47e",
-   "raw_chars": 229745,
+   "raw_sha256": "12ad0152082d5182fea432334a0a826811a68468573150217624ec83a934eb87",
+   "raw_chars": 229923,
    "error": ""
   },
   {
@@ -2174,10 +2218,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:49Z",
+   "fetched_utc": "2026-10-27T06:22:18Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200115.txt.gz",
-   "raw_sha256": "3e175925a5f44c80c9acc62c1bc7e548202d67ab96b28d8dcfb80ec1d10188ce",
-   "raw_chars": 245502,
+   "raw_sha256": "62aeda231b6887293d7637438e57459d637a7b1b35272826bea7c4c778310480",
+   "raw_chars": 245682,
    "error": ""
   },
   {
@@ -2185,10 +2229,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:49Z",
+   "fetched_utc": "2026-10-27T06:22:19Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200117.txt.gz",
-   "raw_sha256": "422c4fcf3310b8341f506a2bfd0b3527988d8f14802e1d58601b597d69f934a5",
-   "raw_chars": 238325,
+   "raw_sha256": "eb872764c8fc89b5da422652d864a5e612015d4c830d01b8e504db5370b41b10",
+   "raw_chars": 238505,
    "error": ""
   },
   {
@@ -2196,10 +2240,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:50Z",
+   "fetched_utc": "2026-10-27T06:22:20Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200122.txt.gz",
-   "raw_sha256": "c4b24dff0c86ca07f9aebeb3ac286486e217adb176475f099d7ee236f2c3da8e",
-   "raw_chars": 229103,
+   "raw_sha256": "7b704efd5521976c9ccdee63524192e402eaed37e88610b0214a072d8b8c63d1",
+   "raw_chars": 229281,
    "error": ""
   },
   {
@@ -2207,10 +2251,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13?event_id=200111",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:51Z",
+   "fetched_utc": "2026-10-27T06:22:21Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200111.txt.gz",
-   "raw_sha256": "ef670e7a4661c4971cc2436e5d621983e478ea65abfa7954188e69deb86b8758",
-   "raw_chars": 239240,
+   "raw_sha256": "7dd9f73b9ce18a2b47d54f4fbdb39fc5944c51c714a598f766d640e3108aebf5",
+   "raw_chars": 239420,
    "error": ""
   },
   {
@@ -2218,10 +2262,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:52Z",
+   "fetched_utc": "2026-10-27T06:22:22Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200105.txt.gz",
-   "raw_sha256": "f28febdb5699d1d3fb81af9dcbe2c60842e8eff7de898fd36c2bf28bf175a41d",
-   "raw_chars": 239190,
+   "raw_sha256": "a39ec4beeb7cfebc7d148c3cef12b541ec152e7c11f13541461b19749c771fa3",
+   "raw_chars": 239370,
    "error": ""
   },
   {
@@ -2229,10 +2273,10 @@
    "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13?event_id=200112",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:53Z",
+   "fetched_utc": "2026-10-27T06:22:23Z",
    "raw_file": "pipeline/raw/olbgev_ice_hockey_200112.txt.gz",
-   "raw_sha256": "f92124fb433f4cb31ab37598a420038dd04ddcd5d720775706ac18b555ee11e7",
-   "raw_chars": 209415,
+   "raw_sha256": "a9cd0e59245c3694c3ea6af8dd9a5d2430463ad4684035b46ed4ce14af4b0457",
+   "raw_chars": 209595,
    "error": ""
   },
   {
@@ -2240,10 +2284,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:54Z",
+   "fetched_utc": "2026-10-27T06:22:24Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536177.txt.gz",
-   "raw_sha256": "c06350a6b8ff639e069d0dddde6c842a6a74bab6fd89cd584178c0de25f3427a",
-   "raw_chars": 221386,
+   "raw_sha256": "0241c1b54230739c22feefb73381dbf95d07a2c0ca45efbb4dc66e72b1aee3c7",
+   "raw_chars": 221562,
    "error": ""
   },
   {
@@ -2251,10 +2295,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:55Z",
+   "fetched_utc": "2026-10-27T06:22:24Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536214.txt.gz",
-   "raw_sha256": "517f63199a89a08a92017c5dd50e86e7d9c00cc1d03dbdac1632805fe7f20e8e",
-   "raw_chars": 237738,
+   "raw_sha256": "4c2d2d24447512a8a85c4feff5070ed61e68dcb3eca4d164e489bfee0845c60f",
+   "raw_chars": 237916,
    "error": ""
   },
   {
@@ -2262,10 +2306,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:56Z",
+   "fetched_utc": "2026-10-27T06:22:25Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536176.txt.gz",
-   "raw_sha256": "dc07bdd040bc3cc24b07621bffbdc3a5fe1ca72aebd8dba73cea89f9d757e7cd",
-   "raw_chars": 249933,
+   "raw_sha256": "b58b9d9d04e308ec7bb8fd8a11a419ca9a2f88eb86beaa5b918bf3d758942061",
+   "raw_chars": 250125,
    "error": ""
   },
   {
@@ -2273,10 +2317,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:56Z",
+   "fetched_utc": "2026-10-27T06:22:26Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536179.txt.gz",
-   "raw_sha256": "80d6b892819524ae8940aa670493b1a174ad3e3601ebe2e491550c9f65883b2f",
-   "raw_chars": 246684,
+   "raw_sha256": "d7d8a87fed5e24e366d31133d2af7ccb7a151d0c77d832814cda9af26c707816",
+   "raw_chars": 246860,
    "error": ""
   },
   {
@@ -2284,10 +2328,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:57Z",
+   "fetched_utc": "2026-10-27T06:22:27Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536218.txt.gz",
-   "raw_sha256": "89e67542fb202c585b5d1bdafc009dfa8b91332fe2dc95195f8b11441afdef56",
-   "raw_chars": 211990,
+   "raw_sha256": "742217aee076621c70f0f8790637ae3712d2b1af1d03923e0dc951af52bea9af",
+   "raw_chars": 212170,
    "error": ""
   },
   {
@@ -2295,10 +2339,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:58Z",
+   "fetched_utc": "2026-10-27T06:22:28Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536174.txt.gz",
-   "raw_sha256": "feee6e90333f465b076107371a1a1af67fb8b5d3d6c2b04c47346bda82429d06",
-   "raw_chars": 256098,
+   "raw_sha256": "b5382b292649a789d6a507e9d74cf1fde122df366ec7f81186bac99e43dd1939",
+   "raw_chars": 256298,
    "error": ""
   },
   {
@@ -2306,10 +2350,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:11:59Z",
+   "fetched_utc": "2026-10-27T06:22:29Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536178.txt.gz",
-   "raw_sha256": "59a3771e0ac5215bf7003a3b89d2a47ddcecaf3731abdf9eda87b958b9abd9ed",
-   "raw_chars": 242221,
+   "raw_sha256": "4e999df88fc1c69ac5df195775cfe76ad1496a93f418011293716518a74b5509",
+   "raw_chars": 242403,
    "error": ""
   },
   {
@@ -2317,10 +2361,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:00Z",
+   "fetched_utc": "2026-10-27T06:22:30Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536217.txt.gz",
-   "raw_sha256": "fbce0d8d037d06d3aa18641b86ffe257aa0af872651c23c51c53fde9e4ee7838",
-   "raw_chars": 258625,
+   "raw_sha256": "c992bca8bb6fe385c43d356e7a8e84c3c9d37e46acb321a0b71c31a3a1ab54da",
+   "raw_chars": 258803,
    "error": ""
   },
   {
@@ -2328,10 +2372,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:01Z",
+   "fetched_utc": "2026-10-27T06:22:31Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536175.txt.gz",
-   "raw_sha256": "85ded803cf5a73e9ccd2b054193ba01a9b34100ddf9268a27fe0ee0d3e9ca83d",
-   "raw_chars": 211949,
+   "raw_sha256": "0dae28fe82499d4331b283afe3031316479119fd665361b123b2c0910cc1876e",
+   "raw_chars": 212129,
    "error": ""
   },
   {
@@ -2339,10 +2383,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4?event_id=536235",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:02Z",
+   "fetched_utc": "2026-10-27T06:22:32Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536235.txt.gz",
-   "raw_sha256": "4700f8f3d6acda34157e1b4dc7290d89abc4c5d4886a2014de6b04430216fc43",
-   "raw_chars": 219341,
+   "raw_sha256": "61cb9201e27e971008ee23508d192ba1edbbf8ed5af72468e385a130a1c0853e",
+   "raw_chars": 219523,
    "error": ""
   },
   {
@@ -2350,10 +2394,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4?event_id=536222",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:03Z",
+   "fetched_utc": "2026-10-27T06:22:33Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536222.txt.gz",
-   "raw_sha256": "dd31619022ef706d394c7c15de79863e0683c65d882f71400a9004cf94492ca9",
-   "raw_chars": 211776,
+   "raw_sha256": "db22c800da98a37620d61efb48c41418510791a6e77414a2aad2980c8dace2ec",
+   "raw_chars": 211956,
    "error": ""
   },
   {
@@ -2361,10 +2405,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:04Z",
+   "fetched_utc": "2026-10-27T06:22:34Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536180.txt.gz",
-   "raw_sha256": "849d27ec347b4e37cd5923c94ff1d59c13376c4954fd6cc35ee698660db136a2",
-   "raw_chars": 211391,
+   "raw_sha256": "74e7f280e2801cb1b84a9bbe09c167a193bb4fa2f043cd7563b2e5c5d2977ee2",
+   "raw_chars": 211571,
    "error": ""
   },
   {
@@ -2372,10 +2416,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:05Z",
+   "fetched_utc": "2026-10-27T06:22:34Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536181.txt.gz",
-   "raw_sha256": "b083b87161396346de6ceeacea5f8c78f59f878567173ddd014af253475cb066",
-   "raw_chars": 211987,
+   "raw_sha256": "40a80506b82fcf74b8a9ae2de92ddde233b498fbb32fb48046abf5ff117f6470",
+   "raw_chars": 212177,
    "error": ""
   },
   {
@@ -2383,10 +2427,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:05Z",
+   "fetched_utc": "2026-10-27T06:22:35Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536183.txt.gz",
-   "raw_sha256": "b0d4ae53a5cc4559d6311030e39db521774de1a5fc5becbda854e0b2230606c9",
-   "raw_chars": 231432,
+   "raw_sha256": "ac11d29fe3f4da391c70e78f50453613f31d7022adb76efa8166b14da068cddb",
+   "raw_chars": 231612,
    "error": ""
   },
   {
@@ -2394,10 +2438,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/Baku_Sabah_vs_Nanterre/4?event_id=536232",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:06Z",
+   "fetched_utc": "2026-10-27T06:22:36Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536232.txt.gz",
-   "raw_sha256": "27aa2d6d210f0d2b44d358a14442377ab5e5b2fdf7c1d23166196c17798b0eee",
-   "raw_chars": 209280,
+   "raw_sha256": "b8037d5722abd691098c4e9df443bd36c3dc5ab04f8f6ef04d66895715f6c5d2",
+   "raw_chars": 209465,
    "error": ""
   },
   {
@@ -2405,10 +2449,10 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Balkan_Botevgrad_vs_Manresa/4?event_id=536215",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:07Z",
+   "fetched_utc": "2026-10-27T06:22:37Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536215.txt.gz",
-   "raw_sha256": "198366315a9aa05aeff5a5013243d85b6578877c5c9c545803e09debd8aa535b",
-   "raw_chars": 211918,
+   "raw_sha256": "5040cfe07fb7a2276eb93f5b462c799574156c49858ff76071a8b16134a12899",
+   "raw_chars": 212098,
    "error": ""
   },
   {
@@ -2416,10 +2460,21 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Roma_Basketball_vs_Bosna_Sarajevo/4?event_id=536219",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:08Z",
+   "fetched_utc": "2026-10-27T06:22:38Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536219.txt.gz",
-   "raw_sha256": "ed5901950d11eabaac2e5edf278bf7b9a4febcc24fa2e5a88c79195194c00b6c",
-   "raw_chars": 212202,
+   "raw_sha256": "6673a17f2bc74a6a74565e37d55d54ae5a61effb74a918cf4bbc9aebc28ab0b0",
+   "raw_chars": 212382,
+   "error": ""
+  },
+  {
+   "tag": "olbgev_basketball_536210",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Minas_vs_Pato_Basquete/4?event_id=536210",
+   "status": 200,
+   "ok": true,
+   "fetched_utc": "2026-10-27T06:22:39Z",
+   "raw_file": "pipeline/raw/olbgev_basketball_536210.txt.gz",
+   "raw_sha256": "b85727a37d756fc3ac5e6094eed592037f2d07fa5f50288503555e4a1f5af91c",
+   "raw_chars": 209228,
    "error": ""
   },
   {
@@ -2427,32 +2482,21 @@
    "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4?event_id=536209",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:09Z",
+   "fetched_utc": "2026-10-27T06:22:40Z",
    "raw_file": "pipeline/raw/olbgev_basketball_536209.txt.gz",
-   "raw_sha256": "0a6373b04c2105ce54adc5f04d49eeaca620ecf90e4e22911888c8b32a3e0bcd",
-   "raw_chars": 208279,
+   "raw_sha256": "8d839d76be887a308f17b7b7b166ed435e30ef83e11f377ed9040a789add9d6a",
+   "raw_chars": 209079,
    "error": ""
   },
   {
-   "tag": "olbgev_basketball_536253",
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/BKN_Nets_@_BOS_Celtics/4?event_id=536253",
+   "tag": "olbgev_basketball_536211",
+   "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Pinheiros_vs_Uniao_Corinthians/4?event_id=536211",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:10Z",
-   "raw_file": "pipeline/raw/olbgev_basketball_536253.txt.gz",
-   "raw_sha256": "bb0e89892f8600f8989efca6823d6f27de9cf599dd941496f62ddbdef4a5eecf",
-   "raw_chars": 206820,
-   "error": ""
-  },
-  {
-   "tag": "olbgev_basketball_536251",
-   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DET_Pistons_@_NY_Knicks/4?event_id=536251",
-   "status": 200,
-   "ok": true,
-   "fetched_utc": "2026-10-27T06:12:10Z",
-   "raw_file": "pipeline/raw/olbgev_basketball_536251.txt.gz",
-   "raw_sha256": "4c15a7c5861d80d8e9499235f79c125a40c7af12425e7586f01a2f3d55a437f4",
-   "raw_chars": 206844,
+   "fetched_utc": "2026-10-27T06:22:41Z",
+   "raw_file": "pipeline/raw/olbgev_basketball_536211.txt.gz",
+   "raw_sha256": "8106e6974a5d3d0adbcd3c8fab4376b4ac096ec1ca7286ac42901af1ded7d60f",
+   "raw_chars": 209600,
    "error": ""
   },
   {
@@ -2460,10 +2504,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:11Z",
+   "fetched_utc": "2026-10-27T06:22:42Z",
    "raw_file": "pipeline/raw/olbgev_rugby_league_2695857.txt.gz",
-   "raw_sha256": "66fb1402fbeffe9e88f57abb9e6e6414d53ac476bfe09d5a4780d5be90471726",
-   "raw_chars": 236732,
+   "raw_sha256": "94a391e099e59081820e74c340675f2df55d22f284c73be1dda6c09ff30fa4fb",
+   "raw_chars": 236912,
    "error": ""
   },
   {
@@ -2471,10 +2515,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:12Z",
+   "fetched_utc": "2026-10-27T06:22:43Z",
    "raw_file": "pipeline/raw/olbgev_rugby_league_2801554.txt.gz",
-   "raw_sha256": "538ed9722324934b7d90fe5c6f13c6fecc608a7c744c79efc0efda3a91ee8e97",
-   "raw_chars": 297283,
+   "raw_sha256": "2ec8864a35e042453a8b437dbcf10e7db52b56ec5fc5ade6d90d40548658ebff",
+   "raw_chars": 297468,
    "error": ""
   },
   {
@@ -2482,10 +2526,10 @@
    "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:13Z",
+   "fetched_utc": "2026-10-27T06:22:44Z",
    "raw_file": "pipeline/raw/olbgev_rugby_league_2801600.txt.gz",
-   "raw_sha256": "4fc8a102d453b801ff631253be813c6b2f85e1906ef2c3e22bd4f28f6c6cb138",
-   "raw_chars": 277195,
+   "raw_sha256": "e321c5ccb8f13c990babdf96ca304a00301961c6b52e8a11a99e3c5d25be53df",
+   "raw_chars": 277387,
    "error": ""
   },
   {
@@ -2493,9 +2537,9 @@
    "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=probablePitcher,linescore,team,venue&startDate=2026-10-27&endDate=2026-11-03",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:14Z",
+   "fetched_utc": "2026-10-27T06:22:44Z",
    "raw_file": "pipeline/raw/official_baseball_0.txt.gz",
-   "raw_sha256": "49fa60a51f9d4d53f3c68496df57839af1359f331d5973c00307a33a996a24c3",
+   "raw_sha256": "5e7dee17aa6bc324e5fb63ce0860119c60f785a57a27560f80f86c939d3e0244",
    "raw_chars": 13431,
    "error": ""
   },
@@ -2504,9 +2548,9 @@
    "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=linescore,team&startDate=2026-10-17&endDate=2026-10-27",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:14Z",
+   "fetched_utc": "2026-10-27T06:22:45Z",
    "raw_file": "pipeline/raw/official_baseball_1.txt.gz",
-   "raw_sha256": "6761ba8424bce9448739244867a99d90c0d419ff53b4ffd4485159003cd15b7f",
+   "raw_sha256": "e5774a5f70c7746c8861e3aa43d6108c4885683365cd99515143453aeb69fe03",
    "raw_chars": 40478,
    "error": ""
   },
@@ -2515,9 +2559,9 @@
    "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:15Z",
+   "fetched_utc": "2026-10-27T06:22:46Z",
    "raw_file": "pipeline/raw/official_baseball_2.txt.gz",
-   "raw_sha256": "c876e5f520e167c1d4349f5a41bd9e3edecd051e379acc368babac490f19f283",
+   "raw_sha256": "732491eabb55023062260875a954617981158c970041215e9573f5bc50a8eaa3",
    "raw_chars": 80986,
    "error": ""
   },
@@ -2526,9 +2570,9 @@
    "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:15Z",
+   "fetched_utc": "2026-10-27T06:22:46Z",
    "raw_file": "pipeline/raw/official_baseball_3.txt.gz",
-   "raw_sha256": "21f718a9499ef64d54d3c470a7b6edca40c3d10d48c3b2c57ace3ce07eddd338",
+   "raw_sha256": "1a91db5fe8f89e95dfd5134fb24753aabe8328dbfbc88c3c14af8f6820c44527",
    "raw_chars": 23219,
    "error": ""
   },
@@ -2537,9 +2581,9 @@
    "url": "https://api-web.nhle.com/v1/schedule/now",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:16Z",
+   "fetched_utc": "2026-10-27T06:22:47Z",
    "raw_file": "pipeline/raw/official_ice_hockey_0.txt.gz",
-   "raw_sha256": "e1ef07131f1ab83e8948f37fd09c2bbcca0ce3794e6cdca15bc3ab47f7ea0742",
+   "raw_sha256": "2088a5cf2a37842f51cff28d92bac11dbe9ce3440c5366b57003fdb1b59fe9c0",
    "raw_chars": 91367,
    "error": ""
   },
@@ -2548,9 +2592,9 @@
    "url": "https://api-web.nhle.com/v1/standings/now",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:16Z",
+   "fetched_utc": "2026-10-27T06:22:47Z",
    "raw_file": "pipeline/raw/official_ice_hockey_1.txt.gz",
-   "raw_sha256": "5b47f84f1ad79d91c7dd88ae027a68e58ba47f734138f0de3803d88fda9a6bf6",
+   "raw_sha256": "bd391553e7f3499a49dfbe60cce5af40f2ae79f76402124d8686cc709d404773",
    "raw_chars": 58197,
    "error": ""
   },
@@ -2559,9 +2603,9 @@
    "url": "https://api-web.nhle.com/v1/standings/now?date=2026-10-27",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:17Z",
+   "fetched_utc": "2026-10-27T06:22:48Z",
    "raw_file": "pipeline/raw/official_ice_hockey_2.txt.gz",
-   "raw_sha256": "28ad46b47e7d17f4980c4f9ea8d6adebd456aac17e368dbf6a24a7f637ae61a3",
+   "raw_sha256": "848d035336e2d31846fd1d599720b84e8bf875bfc5969c6afa49af25a3cae832",
    "raw_chars": 58197,
    "error": ""
   },
@@ -2570,9 +2614,9 @@
    "url": "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:12:23Z",
+   "fetched_utc": "2026-10-27T06:22:55Z",
    "raw_file": "pipeline/raw/official_basketball_0.txt.gz",
-   "raw_sha256": "0e8519aded57bf53c8222afa6804f178720f5a7ae54c7525f390d7438ea65b93",
+   "raw_sha256": "4812a8f8b42b68b6bdcff334d414bab3ae5d83177acc0c36b6d09500217fb23b",
    "raw_chars": 445,
    "error": "HTTP 403"
   },
@@ -2581,9 +2625,9 @@
    "url": "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:12:30Z",
+   "fetched_utc": "2026-10-27T06:23:01Z",
    "raw_file": "pipeline/raw/official_basketball_1.txt.gz",
-   "raw_sha256": "e867e4dc568e195091e8e7dfb9b28348e53d7c37a93c1903677d3f24c3a1e4c6",
+   "raw_sha256": "0c116f33f5f0c96ad1bf5a12499cadfb5dd8f6156e806507189ded4c40635938",
    "raw_chars": 431,
    "error": "HTTP 403"
   },
@@ -2592,10 +2636,10 @@
    "url": "https://www.euroleaguebasketball.net/euroleague/games/",
    "status": 429,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:12:36Z",
+   "fetched_utc": "2026-10-27T06:23:08Z",
    "raw_file": "pipeline/raw/official_basketball_2.txt.gz",
-   "raw_sha256": "a2ea4af81cc3f77d66ff22419c704894f5dd7687a77d03ded0fb2799044b19c7",
-   "raw_chars": 31437,
+   "raw_sha256": "393ab4cdc57cc6846ae696cdd10ca2aa8b0c480757953f36fcf26115a2282e36",
+   "raw_chars": 31436,
    "error": "HTTP 429"
   },
   {
@@ -2603,10 +2647,10 @@
    "url": "https://www.nba.com/games",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:12:37Z",
+   "fetched_utc": "2026-10-27T06:23:09Z",
    "raw_file": "pipeline/raw/official_basketball_3.txt.gz",
-   "raw_sha256": "c1dc75925a85042f5ee97b724e2231091623955d76629cee6f0a5c611b48cf8a",
-   "raw_chars": 550016,
+   "raw_sha256": "b7302d7ba4114041e7dffe29e52437512f615d56565b27f742f3113a590e6bed",
+   "raw_chars": 550089,
    "error": ""
   },
   {
@@ -2614,9 +2658,9 @@
    "url": "https://www.basketball-bundesliga.de/spielplan/",
    "status": 0,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:14:14Z",
+   "fetched_utc": "2026-10-27T06:24:46Z",
    "raw_file": "pipeline/raw/official_basketball_4.txt.gz",
-   "raw_sha256": "d96d2584d4839c67bb82e57f7079514299cfe37ef731b9b889394aaf17cedbff",
+   "raw_sha256": "8c80cbf2177b3e065ab74f04fd8312a7e16bb34aeeb35fa04b9e1ddd681ab42d",
    "raw_chars": 0,
    "error": "URLError: <urlopen error timed out>"
   },
@@ -2625,9 +2669,9 @@
    "url": "https://www.acb.com/calendario",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:16Z",
+   "fetched_utc": "2026-10-27T06:24:48Z",
    "raw_file": "pipeline/raw/official_basketball_5.txt.gz",
-   "raw_sha256": "e8fca8b8758454ae3a2a5d38dee7aa88cc6e0aabd92556e2e1ff7c7a358975b2",
+   "raw_sha256": "17ebd17b94c146eaef74b0cfb7dfaf7d42af9472319395ab7303ac1862744f90",
    "raw_chars": 2474877,
    "error": ""
   },
@@ -2636,10 +2680,10 @@
    "url": "https://www.icc-cricket.com/fixtures-results",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:16Z",
+   "fetched_utc": "2026-10-27T06:24:49Z",
    "raw_file": "pipeline/raw/official_cricket_0.txt.gz",
-   "raw_sha256": "122daf86a8c457e8509ceba099d754c94edeffc2a8458e55a3d87cb1005d5893",
-   "raw_chars": 371478,
+   "raw_sha256": "7811e560065f8e7c5d891c296b5aff04f2a1f563b694fefa0da858afa51496b5",
+   "raw_chars": 371523,
    "error": ""
   },
   {
@@ -2647,10 +2691,10 @@
    "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:17Z",
+   "fetched_utc": "2026-10-27T06:24:50Z",
    "raw_file": "pipeline/raw/official_cricket_1.txt.gz",
-   "raw_sha256": "e1e0e81607048545b0da7dc39d922854d77067c3ccd19ff12ae169c5f3f2daa1",
-   "raw_chars": 458539,
+   "raw_sha256": "4c5bfe97904847aeb34b0461c295cdba45fe7412683b5d4696298b33a98a8782",
+   "raw_chars": 458671,
    "error": ""
   },
   {
@@ -2658,9 +2702,9 @@
    "url": "https://www.ecb.co.uk/matches",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:14:24Z",
+   "fetched_utc": "2026-10-27T06:24:57Z",
    "raw_file": "pipeline/raw/official_cricket_2.txt.gz",
-   "raw_sha256": "d5f62c29ecc00e8a5eefa2fa25d13f97543ccb960495310c2a799e24f38c8acb",
+   "raw_sha256": "f3fa45cdbea980c936b94a3e0005e6250f45d3cbbf514ba3c4b63bb262345a9e",
    "raw_chars": 19318,
    "error": "HTTP 404"
   },
@@ -2669,9 +2713,9 @@
    "url": "https://www.cricket.com.au/matches",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:25Z",
+   "fetched_utc": "2026-10-27T06:24:58Z",
    "raw_file": "pipeline/raw/official_cricket_3.txt.gz",
-   "raw_sha256": "897fd0d8e9eb7f435989080062b6a5edd4f27607227d2e50f46076e0532e30d7",
+   "raw_sha256": "b1b72d53fc2c845f35c667b011c0d0fea5a71db8fc013e8bb5a6bcaf489ee130",
    "raw_chars": 197668,
    "error": ""
   },
@@ -2680,9 +2724,9 @@
    "url": "https://www.bcci.tv/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:26Z",
+   "fetched_utc": "2026-10-27T06:24:59Z",
    "raw_file": "pipeline/raw/official_cricket_4.txt.gz",
-   "raw_sha256": "9bbd2293f0aeb62aeb0339a8a62899eebad670230166f9aa3d7e4bb4709efa67",
+   "raw_sha256": "e19c0291a814dcdfb00aeb813b77e6836ec7560cda1146a100cacf6a5ba79a98",
    "raw_chars": 530856,
    "error": ""
   },
@@ -2691,9 +2735,9 @@
    "url": "https://api.jolpi.ca/ergast/f1/current/races.json",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:27Z",
+   "fetched_utc": "2026-10-27T06:25:00Z",
    "raw_file": "pipeline/raw/official_motor_racing_0.txt.gz",
-   "raw_sha256": "fd2349703c569dfd86d1fe0ebf333f564d11a5350012fec124aff9d2b90bc6eb",
+   "raw_sha256": "aea3fc29c8a401750d45af3ab740c25c995893eb7b0744ba256c85657df8c4c9",
    "raw_chars": 14296,
    "error": ""
   },
@@ -2702,9 +2746,9 @@
    "url": "https://api.jolpi.ca/ergast/f1/current/driverStandings.json",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:27Z",
+   "fetched_utc": "2026-10-27T06:25:01Z",
    "raw_file": "pipeline/raw/official_motor_racing_1.txt.gz",
-   "raw_sha256": "f39b45a2b902a64fb976da2bc6aa132fdd02dbeff12e0ecce1c1a4531d98dbc3",
+   "raw_sha256": "8d3c5bbf1cf03912ed9aff8c5a27671d147668a38cdfa90ac7f7df1313a42394",
    "raw_chars": 10117,
    "error": ""
   },
@@ -2713,9 +2757,9 @@
    "url": "https://api.jolpi.ca/ergast/f1/current/constructorStandings.json",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:28Z",
+   "fetched_utc": "2026-10-27T06:25:02Z",
    "raw_file": "pipeline/raw/official_motor_racing_2.txt.gz",
-   "raw_sha256": "13fab93d0a0c33fadfe4b0e93db15cbc3136ef583f450b7c0e1bf95231a2e617",
+   "raw_sha256": "0041723b76cb2dcc5d6b37afd69a1d0b6fa40081e042c0b9c2415a132b1ccd4e",
    "raw_chars": 2507,
    "error": ""
   },
@@ -2724,9 +2768,9 @@
    "url": "https://api.jolpi.ca/ergast/f1/current/last/results.json",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:29Z",
+   "fetched_utc": "2026-10-27T06:25:03Z",
    "raw_file": "pipeline/raw/official_motor_racing_3.txt.gz",
-   "raw_sha256": "d8f532355496d604e5ab4de89ba72a8e82f1f85550b05490d8ad70cee8c9bd76",
+   "raw_sha256": "a06bdd516344887929ac63ca9978235de3950a0f33d0625ee4e201992211da10",
    "raw_chars": 13129,
    "error": ""
   },
@@ -2735,9 +2779,9 @@
    "url": "https://www.formula1.com/en/racing/2026",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:29Z",
+   "fetched_utc": "2026-10-27T06:25:04Z",
    "raw_file": "pipeline/raw/official_motor_racing_4.txt.gz",
-   "raw_sha256": "7f75145a3319ffd0a74a3040301d9bb8fd757d7c4bc3b2ae5e96ccf2b7722496",
+   "raw_sha256": "0f5c89b71463427c5ab4d516bb96b310122499932e1507b1a712c91a2a3d861f",
    "raw_chars": 621339,
    "error": ""
   },
@@ -2746,9 +2790,9 @@
    "url": "https://www.motogp.com/en/calendar",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:30Z",
+   "fetched_utc": "2026-10-27T06:25:05Z",
    "raw_file": "pipeline/raw/official_motor_racing_5.txt.gz",
-   "raw_sha256": "d89748ebb427eb96569fff1b918e36fcb348b4755afb68a331f07ef5602e540e",
+   "raw_sha256": "15da443b1b9033d285979f2ae4256bf4ff1a95b478cf32e8884eb554737a0b79",
    "raw_chars": 301156,
    "error": ""
   },
@@ -2757,9 +2801,9 @@
    "url": "https://www.nrl.com/draw/data?competition=111&season=2026&round=27",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:32Z",
+   "fetched_utc": "2026-10-27T06:25:06Z",
    "raw_file": "pipeline/raw/official_rugby_league_0.txt.gz",
-   "raw_sha256": "02879370775092357af9ae335b6079777d6e1b03c9c4fd1d10af18ec98ab39ad",
+   "raw_sha256": "9cfa9d2ffe2690b178024f56a71efc5316078e4afb75804fcee360ba912596fa",
    "raw_chars": 862,
    "error": ""
   },
@@ -2768,9 +2812,9 @@
    "url": "https://www.nrl.com/ladder/data?competition=111&season=2026",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:33Z",
+   "fetched_utc": "2026-10-27T06:25:08Z",
    "raw_file": "pipeline/raw/official_rugby_league_1.txt.gz",
-   "raw_sha256": "4dc1c3bddbd135fac7cc402720b141337f79e0329946c5bc20fa8563e1083c69",
+   "raw_sha256": "a86e46d59bd06b63e410c3c4970bae16d9c27a86a43b795868aa78aa2d40ab32",
    "raw_chars": 862,
    "error": ""
   },
@@ -2779,9 +2823,9 @@
    "url": "https://www.superleague.co.uk/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:34Z",
+   "fetched_utc": "2026-10-27T06:25:09Z",
    "raw_file": "pipeline/raw/official_rugby_league_2.txt.gz",
-   "raw_sha256": "56085714be373e17d6d0ffa2f0136db78daa6b1832aafbc7e08da40ee00fd7a3",
+   "raw_sha256": "f095f627ad7db7aba15e5e915ef73e7f804f69bd018e6fd8bf725be60e75c88f",
    "raw_chars": 86890,
    "error": ""
   },
@@ -2790,9 +2834,9 @@
    "url": "https://www.rugby-league.com/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:35Z",
+   "fetched_utc": "2026-10-27T06:25:10Z",
    "raw_file": "pipeline/raw/official_rugby_league_3.txt.gz",
-   "raw_sha256": "1d5853451180a7e76a4bf363f261139669a7818e5b4b5bf39db0286089533fce",
+   "raw_sha256": "e175af077d196283d07b7552da012b08686a3a15ecb9dab14ffa860de8a00815",
    "raw_chars": 89987,
    "error": ""
   },
@@ -2801,9 +2845,9 @@
    "url": "https://www.nrl.com/draw/data?competition=111&season=2026",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:36Z",
+   "fetched_utc": "2026-10-27T06:25:12Z",
    "raw_file": "pipeline/raw/official_rugby_league_4.txt.gz",
-   "raw_sha256": "45154a31e0e73ee2c7de1961823a4cf05797dc87865af1133cb8b356ae086a90",
+   "raw_sha256": "fbc2752def507ae0d8457c1e2b54f4bbb33fdbd7d41404d9efa659db13e5bc19",
    "raw_chars": 862,
    "error": ""
   },
@@ -2812,10 +2856,10 @@
    "url": "https://www.epcrugby.com/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:38Z",
+   "fetched_utc": "2026-10-27T06:25:13Z",
    "raw_file": "pipeline/raw/official_rugby_union_0.txt.gz",
-   "raw_sha256": "806ac801f72443c5e69825b6a8a42701068ce9c80fb38c63b97b18b72462e58d",
-   "raw_chars": 675507,
+   "raw_sha256": "a278c7f71ea85b66fb4a2744cbc576ad615c1972665c00b99b7da9ec3046ada6",
+   "raw_chars": 678195,
    "error": ""
   },
   {
@@ -2823,10 +2867,10 @@
    "url": "https://www.epcrugby.com/champions-cup/fixtures",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:14:48Z",
+   "fetched_utc": "2026-10-27T06:25:23Z",
    "raw_file": "pipeline/raw/official_rugby_union_1.txt.gz",
-   "raw_sha256": "c4cff2f2b5d009752d1bf844e5b712b51b7788b4e1eb4fe637c71e3b1160862d",
-   "raw_chars": 52614,
+   "raw_sha256": "ed8adc95530dd475701d80d710657e55524d5135fb2ae341ee1b27da09015d03",
+   "raw_chars": 52577,
    "error": "HTTP 404"
   },
   {
@@ -2834,9 +2878,9 @@
    "url": "https://www.unitedrugby.com/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:48Z",
+   "fetched_utc": "2026-10-27T06:25:23Z",
    "raw_file": "pipeline/raw/official_rugby_union_2.txt.gz",
-   "raw_sha256": "7292cf4fad852941d3d23eb70c2e8dceaaaa863db73677ecfca28ae6ae40c95f",
+   "raw_sha256": "0698d1de987558ad3985996679609066a9d4c3b96c06dc1a662d5882a3f50f7c",
    "raw_chars": 600410,
    "error": ""
   },
@@ -2845,9 +2889,9 @@
    "url": "https://prod2.lnr.fr/calendrier-et-resultats",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:49Z",
+   "fetched_utc": "2026-10-27T06:25:25Z",
    "raw_file": "pipeline/raw/official_rugby_union_3.txt.gz",
-   "raw_sha256": "736d1d1e5ffbe8e82ab504f37041e1b1000003397707245b8dddb1f60788a69c",
+   "raw_sha256": "bc8eefac2b9814e4a81eed92d0746df6d60616c7606aa7a7319972a7616914b2",
    "raw_chars": 166894,
    "error": ""
   },
@@ -2856,9 +2900,9 @@
    "url": "https://top14.lnr.fr/calendrier-et-resultats",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:51Z",
+   "fetched_utc": "2026-10-27T06:25:26Z",
    "raw_file": "pipeline/raw/official_rugby_union_4.txt.gz",
-   "raw_sha256": "8098efe8e634c46bbc12dfa3251b613ce9c73d34209ee1bc2bef7772a0a3d10a",
+   "raw_sha256": "7dc8cf080c21d7ed3187a5db05ce1a5028f72743c57ef872eb5f42b1cd8ecedd",
    "raw_chars": 160916,
    "error": ""
   },
@@ -2867,9 +2911,9 @@
    "url": "https://www.sixnationsrugby.com/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:52Z",
+   "fetched_utc": "2026-10-27T06:25:27Z",
    "raw_file": "pipeline/raw/official_rugby_union_5.txt.gz",
-   "raw_sha256": "260b22580720dab6aedf509885d6c217bc523282b185dac9c494af5812a1d245",
+   "raw_sha256": "34b4ac955ef68f58687dc33eb03b42937779f25fd0b709b346df71bca51cf7f7",
    "raw_chars": 371416,
    "error": ""
   },
@@ -2878,10 +2922,10 @@
    "url": "https://www.pgatour.com/schedule",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:52Z",
+   "fetched_utc": "2026-10-27T06:25:28Z",
    "raw_file": "pipeline/raw/official_golf_0.txt.gz",
-   "raw_sha256": "d0f03069a50828505fc6c23ce2a27748c7f67683debfda97e1e81dce55d915d8",
-   "raw_chars": 536380,
+   "raw_sha256": "0a2d173d6cdb919b8c6cae3f000164d81cc91794d31c9a1422f5ce4f264705b5",
+   "raw_chars": 536406,
    "error": ""
   },
   {
@@ -2889,10 +2933,10 @@
    "url": "https://www.lpga.com/tournaments",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:53Z",
+   "fetched_utc": "2026-10-27T06:25:29Z",
    "raw_file": "pipeline/raw/official_golf_1.txt.gz",
-   "raw_sha256": "8ab8a5b90a07d0a515ef4c6671588eeb98ed84f96dac6161f7fe0ee7f32db63e",
-   "raw_chars": 552642,
+   "raw_sha256": "ad315b01e8a78afa8fc51a2b6d4d16329879ad2ac863adb3e4bf73ae2ac0f955",
+   "raw_chars": 549117,
    "error": ""
   },
   {
@@ -2900,10 +2944,10 @@
    "url": "https://www.pgatour.com/leaderboard",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:14:53Z",
+   "fetched_utc": "2026-10-27T06:25:29Z",
    "raw_file": "pipeline/raw/official_golf_2.txt.gz",
-   "raw_sha256": "e086d5e7f7fc736d3fa33c972d21a66992fff815d27d9301444d69b97d1a0bb1",
-   "raw_chars": 978814,
+   "raw_sha256": "306cea2a6a6e923b46ffe1978f21f717c5ba825cc890e0ec2d3f61738339580e",
+   "raw_chars": 978813,
    "error": ""
   },
   {
@@ -2911,9 +2955,9 @@
    "url": "https://www.europeantour.com/dpworld-tour/schedule/",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:00Z",
+   "fetched_utc": "2026-10-27T06:25:36Z",
    "raw_file": "pipeline/raw/official_golf_3.txt.gz",
-   "raw_sha256": "92da8e460ba1f95f86512116ef33650b6aed9d5c294c1b8de523d30b9ca84784",
+   "raw_sha256": "31b45570efae8a574865c9df6afe322d1d0bca5d5bbe963fd96074806bec23b8",
    "raw_chars": 406,
    "error": "HTTP 403"
   },
@@ -2922,10 +2966,10 @@
    "url": "https://www.lpga.com/leaderboard",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:01Z",
+   "fetched_utc": "2026-10-27T06:25:37Z",
    "raw_file": "pipeline/raw/official_golf_4.txt.gz",
-   "raw_sha256": "c2b986f33ca118446e60ff94a3245f4d5e9ed31037d61db1b1fa6014a0a835b9",
-   "raw_chars": 803646,
+   "raw_sha256": "9247602104e428fef783f48bf6f2d253fb4e42c6c9a766c48e3d5c11831b8aa3",
+   "raw_chars": 800243,
    "error": ""
   },
   {
@@ -2933,9 +2977,9 @@
    "url": "https://www.wtatennis.com/scores",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:01Z",
+   "fetched_utc": "2026-10-27T06:25:37Z",
    "raw_file": "pipeline/raw/official_tennis_0.txt.gz",
-   "raw_sha256": "5283e2f11660a7f4803d079f14f036dfffbf85e71796aefe304bc18964c247b0",
+   "raw_sha256": "4cba61cc180bc30c86349997d7b28979cc6252f3fab581609518ada68f30357d",
    "raw_chars": 213617,
    "error": ""
   },
@@ -2944,9 +2988,9 @@
    "url": "https://www.wtatennis.com/rankings/singles",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:02Z",
+   "fetched_utc": "2026-10-27T06:25:38Z",
    "raw_file": "pipeline/raw/official_tennis_1.txt.gz",
-   "raw_sha256": "38c8afb1eb41bd611fff098dfa66b7a3741972ee728ae41830c9b5dfa65af40a",
+   "raw_sha256": "7bf0aa91a3faef8844a98fd988f77f8135f4e1722e29f218bb234e4edcb557d0",
    "raw_chars": 1178000,
    "error": ""
   },
@@ -2955,10 +2999,10 @@
    "url": "https://www.atptour.com/en/scores/current",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:08Z",
+   "fetched_utc": "2026-10-27T06:25:45Z",
    "raw_file": "pipeline/raw/official_tennis_2.txt.gz",
-   "raw_sha256": "24f86fa116af58a699977543b7f614d678e7dc195171747a1944a95eee2aa2dd",
-   "raw_chars": 2249,
+   "raw_sha256": "1ab57491560e2692d6e91fc9b90a2d4fe7d55c5f93c0f6e7c25f0871b0d68d67",
+   "raw_chars": 2258,
    "error": "HTTP 403"
   },
   {
@@ -2966,10 +3010,10 @@
    "url": "https://www.atptour.com/en/rankings/singles",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:15Z",
+   "fetched_utc": "2026-10-27T06:25:51Z",
    "raw_file": "pipeline/raw/official_tennis_3.txt.gz",
-   "raw_sha256": "c66c9ed047c9d12bfcaf9a673cffb3163ed3fd220025c63878f335953fef9839",
-   "raw_chars": 2235,
+   "raw_sha256": "70a77cc8d2f17432bfc732809959fc78c28df8b762db12958277c0d863335aa9",
+   "raw_chars": 2224,
    "error": "HTTP 403"
   },
   {
@@ -2977,9 +3021,9 @@
    "url": "https://www.itftennis.com/en/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:15Z",
+   "fetched_utc": "2026-10-27T06:25:52Z",
    "raw_file": "pipeline/raw/official_tennis_4.txt.gz",
-   "raw_sha256": "6831a9f94c2e7889c70435d8b168016b342a36da037ce2a20b279bd3184ae031",
+   "raw_sha256": "ff0e4f4dbcbb23047179905ee82be4db3041b03bc8333acd31116e4324a7a5cb",
    "raw_chars": 76153,
    "error": ""
   },
@@ -2988,10 +3032,10 @@
    "url": "https://www.wimbledon.com/en_GB/scores/index.html",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:16Z",
+   "fetched_utc": "2026-10-27T06:25:53Z",
    "raw_file": "pipeline/raw/official_tennis_5.txt.gz",
-   "raw_sha256": "a19bce9f11f0f7d7c071335c2be27ff301213a8a3450996823a367c7aa5c93b5",
-   "raw_chars": 232079,
+   "raw_sha256": "db5a1072e1491225efcc7d6b640daacf941928764cd80df2d38d35bc7406d8e7",
+   "raw_chars": 231857,
    "error": ""
   },
   {
@@ -2999,9 +3043,9 @@
    "url": "https://www.pdc.tv/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:17Z",
+   "fetched_utc": "2026-10-27T06:25:54Z",
    "raw_file": "pipeline/raw/official_darts_0.txt.gz",
-   "raw_sha256": "63a7b5f9c3319dbaf574ec748d3159f419ce0cdd175d63e9abb075cc941de23f",
+   "raw_sha256": "8e0ec566d8eb515b6533b6b50b940d1e125817c4c4e153d1b2bc0e8ad71e635b",
    "raw_chars": 1241736,
    "error": ""
   },
@@ -3010,9 +3054,9 @@
    "url": "https://www.pdc.tv/tournaments",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:17Z",
+   "fetched_utc": "2026-10-27T06:25:55Z",
    "raw_file": "pipeline/raw/official_darts_1.txt.gz",
-   "raw_sha256": "e4fc16b538b11502cbd1678f97a3391902d6c11646050e4aaec33a910bf4a391",
+   "raw_sha256": "939e553ece4d1157c597caf5656d99a2fe6c2d56e235bef6715323c7970157f7",
    "raw_chars": 1241736,
    "error": ""
   },
@@ -3021,9 +3065,9 @@
    "url": "https://www.pdc.tv/order-of-merit",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:18Z",
+   "fetched_utc": "2026-10-27T06:25:56Z",
    "raw_file": "pipeline/raw/official_darts_2.txt.gz",
-   "raw_sha256": "e1430f92e99787c7a60c7a669e99ddd3176790aeb211d6b2ae41abcb868132c2",
+   "raw_sha256": "f6aee41a2d906a040686cdd251fb85ecdbb0df90f915f9236e8bd1f6bd7184ed",
    "raw_chars": 1241736,
    "error": ""
   },
@@ -3032,9 +3076,9 @@
    "url": "https://www.wst.tv/matches",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:19Z",
+   "fetched_utc": "2026-10-27T06:25:57Z",
    "raw_file": "pipeline/raw/official_snooker_0.txt.gz",
-   "raw_sha256": "7ff7c0085e2a53bc2e0a772547b94e81b350d479abd5aa36cf3541de7448231a",
+   "raw_sha256": "7944525dd5a363bfc19e35132e7f1a865da711fd5780fd878a78055ea61dcebb",
    "raw_chars": 181111,
    "error": ""
   },
@@ -3043,9 +3087,9 @@
    "url": "https://www.wst.tv/rankings",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:19Z",
+   "fetched_utc": "2026-10-27T06:25:58Z",
    "raw_file": "pipeline/raw/official_snooker_1.txt.gz",
-   "raw_sha256": "ed03eef637b0fad135b6e52820e81466afdf93d13ff88c85be7e57bae7114ae9",
+   "raw_sha256": "6e89f2878011b96a5a5fdac1179e4308ec7db77fd50d8c873c9ef9ea910f7164",
    "raw_chars": 183262,
    "error": ""
   },
@@ -3054,9 +3098,9 @@
    "url": "https://www.wst.tv/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:20Z",
+   "fetched_utc": "2026-10-27T06:25:58Z",
    "raw_file": "pipeline/raw/official_snooker_2.txt.gz",
-   "raw_sha256": "5c7484cbd6416bb41222d098eb6cb338902ad92e0c67e9805dec2c3b867d803e",
+   "raw_sha256": "e6ce8d11ccc8bea499856eb6ca5af71043cb38b6859499b348847c2a247cfe43",
    "raw_chars": 181175,
    "error": ""
   },
@@ -3065,9 +3109,9 @@
    "url": "https://en.volleyballworld.com/volleyball/competitions/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:21Z",
+   "fetched_utc": "2026-10-27T06:26:00Z",
    "raw_file": "pipeline/raw/official_volleyball_0.txt.gz",
-   "raw_sha256": "e1f06c16804c5f83f336e51f98379bed8ab96b9659d721dc265e3bad3a87977c",
+   "raw_sha256": "4c8340147ae491dc5395cd9f004c706259d2bb8226e90c00cef253374f8e063e",
    "raw_chars": 151684,
    "error": ""
   },
@@ -3076,9 +3120,9 @@
    "url": "https://www.cev.eu/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:23Z",
+   "fetched_utc": "2026-10-27T06:26:02Z",
    "raw_file": "pipeline/raw/official_volleyball_1.txt.gz",
-   "raw_sha256": "c0e9deab947fd4a355d733567a374f36c56edfa7eb1712591c5d3b61dbbbc79b",
+   "raw_sha256": "16b3137f01a3897cf116983dbd33de10a870bd5b2740edb6efcb7cc376cc3498",
    "raw_chars": 123581,
    "error": ""
   },
@@ -3087,9 +3131,9 @@
    "url": "https://www.cev.eu/match-centres/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:24Z",
+   "fetched_utc": "2026-10-27T06:26:03Z",
    "raw_file": "pipeline/raw/official_volleyball_2.txt.gz",
-   "raw_sha256": "fe6fb7cd3cca028d4a621c91dd1bed40c2161aaeb7f9a80e2661477547fd4fac",
+   "raw_sha256": "8dcf81e47cf9e45f8a18fec8b6224c5ad4565cd7482334de3cf870082e039a0d",
    "raw_chars": 494133,
    "error": ""
   },
@@ -3098,10 +3142,10 @@
    "url": "https://www.legavolley.it/",
    "status": 403,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:31Z",
+   "fetched_utc": "2026-10-27T06:26:10Z",
    "raw_file": "pipeline/raw/official_volleyball_3.txt.gz",
-   "raw_sha256": "0a48378a8682435b3f4666c362400d44d4e80b1dcf9fcf30b993cb9ed49e4d90",
-   "raw_chars": 3066,
+   "raw_sha256": "f397f7d74e4b52fe7d91308831a058abf6b1e1d676b7df60b7a6292fac9b8b6b",
+   "raw_chars": 3083,
    "error": "HTTP 403"
   },
   {
@@ -3109,9 +3153,9 @@
    "url": "https://ehfcl.eurohandball.com/en/",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:39Z",
+   "fetched_utc": "2026-10-27T06:26:19Z",
    "raw_file": "pipeline/raw/official_handball_0.txt.gz",
-   "raw_sha256": "61429b38e95cc63de0a6dc71cb89ff427080e5cdcd5021f569febbf2dfd8d13f",
+   "raw_sha256": "a971be99cca9855b999550530fb29bdccc9800700c3d267a5a6ea783acfe9e5b",
    "raw_chars": 40371,
    "error": "HTTP 404"
   },
@@ -3120,10 +3164,10 @@
    "url": "https://www.eurohandball.com/en/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:40Z",
+   "fetched_utc": "2026-10-27T06:26:21Z",
    "raw_file": "pipeline/raw/official_handball_1.txt.gz",
-   "raw_sha256": "0da6ec069b181428302254da9df897a81f296aeb7dddb09d493de6d43eb46132",
-   "raw_chars": 163481,
+   "raw_sha256": "20a864419538e4b1dc1ca05bb736e67df97ed69dbcc19152f539b6b7f5041ba3",
+   "raw_chars": 163610,
    "error": ""
   },
   {
@@ -3131,9 +3175,9 @@
    "url": "https://ehfcl.eurohandball.com/en/men/matches/",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:48Z",
+   "fetched_utc": "2026-10-27T06:26:30Z",
    "raw_file": "pipeline/raw/official_handball_2.txt.gz",
-   "raw_sha256": "15550542a0f3fb9c13363eaf2ec72dffb4656607c31035a235428ccddb2735f7",
+   "raw_sha256": "5f704304469e5ded0ac9f0eed759ae9ce6df0789b81ded485ace1ad1a5bbbb11",
    "raw_chars": 40383,
    "error": "HTTP 404"
   },
@@ -3142,10 +3186,10 @@
    "url": "https://www.handball-bundesliga.de/spielplan/",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:15:57Z",
+   "fetched_utc": "2026-10-27T06:26:39Z",
    "raw_file": "pipeline/raw/official_handball_3.txt.gz",
-   "raw_sha256": "c2e93184d3dab386b39ca0182b8a2f4d98bc8af574adccd63f595163dd2b2a9b",
-   "raw_chars": 152725,
+   "raw_sha256": "e5942b986e5733faaff7780f01f4773499afaeb2686b088969a22d49160ae7d9",
+   "raw_chars": 152708,
    "error": "HTTP 404"
   },
   {
@@ -3153,9 +3197,9 @@
    "url": "https://www.gbgb.org.uk/results",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:15:58Z",
+   "fetched_utc": "2026-10-27T06:26:41Z",
    "raw_file": "pipeline/raw/official_greyhounds_0.txt.gz",
-   "raw_sha256": "8d5cfc086627a97bee2b2230f076922fd4f5f9ac520fc068d5d0d1e8c6f08d35",
+   "raw_sha256": "7cabb543da312729a80fc9d4288a3c4f2da3c08f0f29943a07ccbf978d93fc6b",
    "raw_chars": 81988,
    "error": ""
   },
@@ -3164,9 +3208,9 @@
    "url": "https://www.gbgb.org.uk/race-cards/",
    "status": 404,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:16:07Z",
+   "fetched_utc": "2026-10-27T06:26:51Z",
    "raw_file": "pipeline/raw/official_greyhounds_1.txt.gz",
-   "raw_sha256": "3aa7e744f21a01189c78a3f0ff0f5eef68e01546e8886abec42e079d14ec7a0c",
+   "raw_sha256": "4ec5fadc2ccf88c5e43084fd4eda2048aa49b4da3294210e9ce0786fc5053cb9",
    "raw_chars": 78726,
    "error": "HTTP 404"
   },
@@ -3175,10 +3219,10 @@
    "url": "https://www.gbgb.org.uk/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:16:08Z",
+   "fetched_utc": "2026-10-27T06:26:52Z",
    "raw_file": "pipeline/raw/official_greyhounds_2.txt.gz",
-   "raw_sha256": "e91b4f8ac7a0a5bb83997cdf06dc4df5c48ba158012df63a8a50072eeae3b3e6",
-   "raw_chars": 96258,
+   "raw_sha256": "5a921bbd01fe7c57ef36cf02f6dc708b5c0f647b934170d65285cab642d738bb",
+   "raw_chars": 96246,
    "error": ""
   },
   {
@@ -3186,9 +3230,9 @@
    "url": "https://www.thegreyhoundboard.org/",
    "status": 0,
    "ok": false,
-   "fetched_utc": "2026-10-27T06:16:15Z",
+   "fetched_utc": "2026-10-27T06:26:59Z",
    "raw_file": "pipeline/raw/official_greyhounds_3.txt.gz",
-   "raw_sha256": "f2d4b7cc96a3509443c96020a65d6100ea0fc496d754ea1979fcd206e718673a",
+   "raw_sha256": "0cce8555b076de9339a2afae42d9e8df690c719fabb25626c65b741da13fbd06",
    "raw_chars": 0,
    "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
   },
@@ -3197,10 +3241,10 @@
    "url": "https://www.gaa.ie/fixtures-results/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:16:16Z",
+   "fetched_utc": "2026-10-27T06:27:01Z",
    "raw_file": "pipeline/raw/official_gaelic_sports_0.txt.gz",
-   "raw_sha256": "83e4e12a7c8406014085d90edfca99eb5ad27d7e413d5f7335715c99081a563a",
-   "raw_chars": 1314141,
+   "raw_sha256": "efa41a01230814f6b0381deb5aef9a5f325a906dc8ed692125ab3ed39a443999",
+   "raw_chars": 1314098,
    "error": ""
   },
   {
@@ -3208,10 +3252,10 @@
    "url": "https://www.gaa.ie/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:16:16Z",
+   "fetched_utc": "2026-10-27T06:27:02Z",
    "raw_file": "pipeline/raw/official_gaelic_sports_1.txt.gz",
-   "raw_sha256": "8e0bfa3b5d0e1e6603c7ca0ac0bf86182e50ed309a057a1b1acd545370996c5c",
-   "raw_chars": 401780,
+   "raw_sha256": "a45aa8ce01dceffb76361f56c383d6e6b0e34669d8b4771e7346ab360869840d",
+   "raw_chars": 401694,
    "error": ""
   },
   {
@@ -3219,9 +3263,9 @@
    "url": "https://www.hoganstand.com/",
    "status": 200,
    "ok": true,
-   "fetched_utc": "2026-10-27T06:16:17Z",
+   "fetched_utc": "2026-10-27T06:27:03Z",
    "raw_file": "pipeline/raw/official_gaelic_sports_2.txt.gz",
-   "raw_sha256": "71acec51189f5d513a851d9052363482d0a7a2f0c3cd9248d3e087ee39c0882d",
+   "raw_sha256": "ddca9edc893b0e2aa59003f0a0be4e9a9a98761cafc0001e072146def9ee121b",
    "raw_chars": 65558,
    "error": ""
   }

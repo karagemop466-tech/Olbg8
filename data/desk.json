@@ -1,16 +1,16 @@
 {
- "built_utc": "2026-10-27T06:18:32Z",
+ "built_utc": "2026-10-27T06:27:05Z",
  "sport_count": 15,
  "summary": {
   "sports": 15,
-  "events": 152,
-  "listings": 159,
-  "markets_captured": 393,
-  "selections_priced": 1916,
-  "picks": 76,
+  "events": 159,
+  "listings": 166,
+  "markets_captured": 394,
+  "selections_priced": 1867,
+  "picks": 72,
   "high": 4,
   "medium": 31,
-  "low": 41,
+  "low": 37,
   "official_confirmed_events": 6,
   "sports_with_picks": 13
  },
@@ -134,8 +134,8 @@
    "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
    "official_name": "Greyhound Board of Great Britain racing",
    "official_url": "https://www.gbgb.org.uk/racing/",
-   "events": 0,
-   "listings": 0,
+   "events": 4,
+   "listings": 4,
    "picks": 0,
    "high": 0,
    "official_confirmed": 0,
@@ -164,10 +164,10 @@
    "official_url": "https://www.formula1.com/en/racing/2026",
    "events": 2,
    "listings": 2,
-   "picks": 7,
+   "picks": 3,
    "high": 0,
    "official_confirmed": 0,
-   "target_met": true
+   "target_met": false
   },
   {
    "key": "handball",
@@ -204,8 +204,8 @@
    "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4",
    "official_name": "NBA official games and scores",
    "official_url": "https://www.nba.com/games?date=2026-10-26",
-   "events": 30,
-   "listings": 34,
+   "events": 33,
+   "listings": 37,
    "picks": 7,
    "high": 0,
    "official_confirmed": 0,
@@ -565,8 +565,8 @@
    "market": "Win Match",
    "price_decimal": 1.38,
    "price_american": -263,
-   "tip_record": "5 / 7 Win Tips",
-   "consensus": "71",
+   "tip_record": "6 / 8 Win Tips",
+   "consensus": "75",
    "our_prob": 0.7015384085191745,
    "our_fair_american": -235,
    "our_fair_decimal": 1.4254387042198102,
@@ -599,7 +599,7 @@
    "event_pick_index": 0,
    "id": "volleyball-08",
    "headline": "Bergamo W - Win Match at -263",
-   "prediction": "Marignano W host Bergamo W on 27 October 2026 at 19:00 UTC. The raw -263 on Bergamo W implies 72.5%; stripping the book margin pushes the same line to 70.2%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. The same board prices set score at Bergamo W to win 3-0 +210, Bergamo W to win 3-1 +275. The tip record on the selection is 5 / 7 Win Tips, and the consensus bar sits at 71%. The bet is Bergamo W at -263 to take the win. The short price is the risk: one bad night erases several wins.",
+   "prediction": "Marignano W host Bergamo W on 27 October 2026 at 19:00 UTC. The raw -263 on Bergamo W implies 72.5%; stripping the book margin pushes the same line to 70.2%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. The same board prices set score at Bergamo W to win 3-0 +210, Bergamo W to win 3-1 +275. The tip record on the selection is 6 / 8 Win Tips, and the consensus bar sits at 75%. The bet is Bergamo W at -263 to take the win. The short price is the risk: one bad night erases several wins.",
    "words": 113,
    "flags": [
     "no official fixture crosswalk"
@@ -616,8 +616,8 @@
    "market": "Win Match",
    "price_decimal": 1.4,
    "price_american": -250,
-   "tip_record": "4 / 5 Win Tips",
-   "consensus": "80",
+   "tip_record": "5 / 5 Win Tips",
+   "consensus": "100",
    "our_prob": 0.688907769851235,
    "our_fair_american": -221,
    "our_fair_decimal": 1.4515731187295844,
@@ -650,7 +650,7 @@
    "event_pick_index": 0,
    "id": "volleyball-09",
    "headline": "Halkbank Ankara - Win Match at -250",
-   "prediction": "The fixture between TFL Altekma and Halkbank Ankara is set for 27 October 2026 at 12:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The tip record on the selection is 4 / 5 Win Tips, and the consensus bar sits at 80%. The raw -250 on Halkbank Ankara implies 71.4%; stripping the book margin pushes the same line to 68.9%. The quote is 2.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Halkbank Ankara to win 3-0 +240, Halkbank Ankara to win 3-1 +275 for this fixture. The bet is Halkbank Ankara at -250 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
+   "prediction": "The fixture between TFL Altekma and Halkbank Ankara is set for 27 October 2026 at 12:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The tip record on the selection is 5 / 5 Win Tips, and the consensus bar sits at 100%. The raw -250 on Halkbank Ankara implies 71.4%; stripping the book margin pushes the same line to 68.9%. The quote is 2.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. OLBG also lists set score at Halkbank Ankara to win 3-0 +240, Halkbank Ankara to win 3-1 +275 for this fixture. The bet is Halkbank Ankara at -250 to take the win. At this price a losing run is survivable, but the margin for error is thin.",
    "words": 142,
    "flags": [
     "no official fixture crosswalk"
@@ -819,7 +819,7 @@
    "selection": "Nissa",
    "market": "To Win",
    "price_decimal": 1.44,
-   "price_american": -225,
+   "price_american": -227,
    "tip_record": "1 / 1 Win Tips",
    "consensus": "100",
    "our_prob": 0.6626975597850834,
@@ -853,8 +853,8 @@
    "market_size": 2,
    "event_pick_index": 0,
    "id": "rugby-union-13",
-   "headline": "Nissa - To Win at -225",
-   "prediction": "The fixture between Nissa and Aurillac is set for 30 October 2026 at 18:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. OLBG also lists handicap at Aurillac +5.50 -118, Nissa -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Nissa is -225, which the margin-free reading moves to about 66.3%. Against the fair number the price sits 3.2 points short, so the pick is about the outcome rather than a pricing bargain. Backing Nissa at -225 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "headline": "Nissa - To Win at -227",
+   "prediction": "The fixture between Nissa and Aurillac is set for 30 October 2026 at 18:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. OLBG also lists handicap at Aurillac +5.50 -118, Nissa -5.50 -110 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Nissa is -227, which the margin-free reading moves to about 66.3%. Against the fair number the price sits 3.2 points short, so the pick is about the outcome rather than a pricing bargain. Backing Nissa at -227 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
    "words": 131,
    "flags": [
     "no official fixture crosswalk"
@@ -1022,16 +1022,16 @@
    "venue": null,
    "selection": "Dax",
    "market": "To Win",
-   "price_decimal": 1.73,
-   "price_american": -138,
+   "price_decimal": 1.8,
+   "price_american": -125,
    "tip_record": "2 / 3 Win Tips",
    "consensus": "67",
-   "our_prob": 0.5405961571496081,
-   "our_fair_american": -118,
-   "our_fair_decimal": 1.8498096717384795,
-   "market_implied": 0.5780346820809249,
-   "edge_pts": -3.743852493131683,
-   "ev": -0.06476864813117805,
+   "our_prob": 0.5285427352713755,
+   "our_fair_american": -112,
+   "our_fair_decimal": 1.89199459810295,
+   "market_implied": 0.5555555555555556,
+   "edge_pts": -2.701282028418006,
+   "ev": -0.04862307651152403,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
    "official_confirmed": false,
@@ -1057,8 +1057,8 @@
    "market_size": 2,
    "event_pick_index": 0,
    "id": "rugby-union-17",
-   "headline": "Dax - To Win at -138",
-   "prediction": "Dax host Provence on 29 October 2026 at 20:00 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The same board prices handicap at Provence +1.50 -125, Dax -1.50 -110. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Dax is -138, which the margin-free reading moves to about 54.1%. Measured against the fair number the price is 3.7 points short, so the return depends on the outcome rather than a pricing edge. The bet is Dax at -138 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "headline": "Dax - To Win at -125",
+   "prediction": "Dax host Provence on 29 October 2026 at 20:00 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The same board prices handicap at Provence +1.50 -125, Dax -1.50 -110. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Dax is -125, which the margin-free reading moves to about 52.9%. Measured against the fair number the price is 2.7 points short, so the return depends on the outcome rather than a pricing edge. The bet is Dax at -125 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
    "words": 120,
    "flags": [
     "no official fixture crosswalk"
@@ -1121,8 +1121,8 @@
    "market": "Win Match",
    "price_decimal": 1.5,
    "price_american": -200,
-   "tip_record": "24 / 34 Win Tips",
-   "consensus": "71",
+   "tip_record": "25 / 34 Win Tips",
+   "consensus": "74",
    "our_prob": 0.6478008163415787,
    "our_fair_american": -184,
    "our_fair_decimal": 1.543684377626209,
@@ -1163,7 +1163,7 @@
    "event_pick_index": 0,
    "id": "cricket-19",
    "headline": "Pakistan - Win Match at -200",
-   "prediction": "Sri Lanka travel to Pakistan on 27 October 2026 at 08:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The tip record on the selection is 24 / 34 Win Tips, and the consensus bar sits at 71%. The raw -200 on Pakistan implies 66.7%; stripping the book margin pushes the same line to 64.8%. Against the fair number the price sits 1.9 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists man of the match at MB Azam +550, P Nissanka +700 for this fixture. The bet is Pakistan at -200 to take the win. This sits in the middle band, which is where most honest match prices belong.",
+   "prediction": "Sri Lanka travel to Pakistan on 27 October 2026 at 08:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The tip record on the selection is 25 / 34 Win Tips, and the consensus bar sits at 74%. The raw -200 on Pakistan implies 66.7%; stripping the book margin pushes the same line to 64.8%. Against the fair number the price sits 1.9 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists man of the match at MB Azam +550, P Nissanka +700 for this fixture. The bet is Pakistan at -200 to take the win. This sits in the middle band, which is where most honest match prices belong.",
    "words": 129,
    "flags": [
     "no official fixture crosswalk"
@@ -1224,16 +1224,16 @@
    "venue": null,
    "selection": "Ireland",
    "market": "Win Match",
-   "price_decimal": 1.55,
-   "price_american": -182,
+   "price_decimal": 1.57,
+   "price_american": -175,
    "tip_record": "22 / 32 Win Tips",
    "consensus": "69",
-   "our_prob": 0.6253061687767776,
-   "our_fair_american": -167,
-   "our_fair_decimal": 1.599216591699707,
-   "market_implied": 0.6451612903225806,
-   "edge_pts": -1.9855121545803045,
-   "ev": -0.030775438395994725,
+   "our_prob": 0.6205876633644777,
+   "our_fair_american": -164,
+   "our_fair_decimal": 1.6113758926153345,
+   "market_implied": 0.6369426751592356,
+   "edge_pts": -1.6355011794757957,
+   "ev": -0.025677368517770027,
    "confidence": "medium",
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
    "official_confirmed": false,
@@ -1263,8 +1263,8 @@
    "market_size": 2,
    "event_pick_index": 0,
    "id": "cricket-21",
-   "headline": "Ireland - Win Match at -182",
-   "prediction": "Ireland travel to Namibia on 27 October 2026 at 07:30 UTC. OLBG also lists top team2 batsman at PR Stirling (Ireland) +350, A Balbirnie (Ireland) +450 for this fixture. The tip record on the selection is 22 / 32 Win Tips, and the consensus bar sits at 69%. At -182, Ireland has to land 62.5% of the time to break even on the stake. Against the fair number the price sits 2.0 points short, so the pick is about the outcome rather than a pricing bargain. Backing Ireland at -182 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "headline": "Ireland - Win Match at -175",
+   "prediction": "Ireland travel to Namibia on 27 October 2026 at 07:30 UTC. OLBG also lists top team2 batsman at PR Stirling (Ireland) +350, A Balbirnie (Ireland) +450 for this fixture. The tip record on the selection is 22 / 32 Win Tips, and the consensus bar sits at 69%. At -175, Ireland has to land 62.1% of the time to break even on the stake. Against the fair number the price sits 1.6 points short, so the pick is about the outcome rather than a pricing bargain. Backing Ireland at -175 is the play. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
    "words": 116,
    "flags": [
     "no official fixture crosswalk"
@@ -1372,7 +1372,7 @@
    "selection": "Northern Districts",
    "market": "Win Match",
    "price_decimal": 1.67,
-   "price_american": -150,
+   "price_american": -149,
    "tip_record": "2 / 3 Win Tips",
    "consensus": "67",
    "our_prob": 0.5788013690510176,
@@ -1401,8 +1401,8 @@
    "market_size": 2,
    "event_pick_index": 0,
    "id": "cricket-24",
-   "headline": "Northern Districts - Win Match at -150",
-   "prediction": "Central Districts host Northern Districts on 27 October 2026 at 21:30 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Northern Districts is -150, which the margin-free reading moves to about 57.9%. Measured against the fair number the price is 2.0 points short, so the return depends on the outcome rather than a pricing edge. Backing Northern Districts at -150 is the play. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "headline": "Northern Districts - Win Match at -149",
+   "prediction": "Central Districts host Northern Districts on 27 October 2026 at 21:30 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. OLBG shows 2 / 3 Win Tips on this line with a 67% consensus reading. The price on Northern Districts is -149, which the margin-free reading moves to about 57.9%. Measured against the fair number the price is 2.0 points short, so the return depends on the outcome rather than a pricing edge. Backing Northern Districts at -149 is the play. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
    "words": 112,
    "flags": [
     "no official fixture crosswalk"
@@ -1421,12 +1421,12 @@
    "price_american": -125,
    "tip_record": "22 / 36 Win Tips",
    "consensus": "61",
-   "our_prob": 0.5108319559516494,
+   "our_prob": 0.5108319559516502,
    "our_fair_american": -104,
-   "our_fair_decimal": 1.9575909227077615,
+   "our_fair_decimal": 1.9575909227077586,
    "market_implied": 0.5555555555555556,
-   "edge_pts": -4.472359960390615,
-   "ev": -0.08050247928703103,
+   "edge_pts": -4.472359960390538,
+   "ev": -0.08050247928702958,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
    "official_confirmed": false,
@@ -1467,12 +1467,12 @@
    "price_american": 500,
    "tip_record": "2 / 36 Win Tips",
    "consensus": "6",
-   "our_prob": 0.1290444550366069,
+   "our_prob": 0.12904445503660708,
    "our_fair_american": 675,
-   "our_fair_decimal": 7.749267488605562,
+   "our_fair_decimal": 7.74926748860555,
    "market_implied": 0.16666666666666666,
-   "edge_pts": -3.762221163005977,
-   "ev": -0.22573326978035868,
+   "edge_pts": -3.7622211630059574,
+   "ev": -0.22573326978035746,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
    "official_confirmed": false,
@@ -1513,12 +1513,12 @@
    "price_american": 800,
    "tip_record": "1 / 9 Win Tips",
    "consensus": "11",
-   "our_prob": 0.08711275609756888,
+   "our_prob": 0.08711275609756887,
    "our_fair_american": 1048,
-   "our_fair_decimal": 11.479375062820537,
+   "our_fair_decimal": 11.479375062820539,
    "market_implied": 0.1111111111111111,
-   "edge_pts": -2.399835501354222,
-   "ev": -0.21598519512188008,
+   "edge_pts": -2.3998355013542234,
+   "ev": -0.2159851951218802,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
    "official_confirmed": false,
@@ -1559,12 +1559,12 @@
    "price_american": 1000,
    "tip_record": "2 / 9 Win Tips",
    "consensus": "22",
-   "our_prob": 0.06970762743355673,
+   "our_prob": 0.06970762743355671,
    "our_fair_american": 1335,
-   "our_fair_decimal": 14.345632419539323,
+   "our_fair_decimal": 14.345632419539324,
    "market_implied": 0.09090909090909091,
-   "edge_pts": -2.1201463475534186,
-   "ev": -0.23321609823087597,
+   "edge_pts": -2.12014634755342,
+   "ev": -0.23321609823087608,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
    "official_confirmed": false,
@@ -1605,12 +1605,12 @@
    "price_american": 1200,
    "tip_record": "2 / 36 Win Tips",
    "consensus": "6",
-   "our_prob": 0.05333357632719068,
+   "our_prob": 0.05333357632719076,
    "our_fair_american": 1775,
-   "our_fair_decimal": 18.749914572861243,
+   "our_fair_decimal": 18.749914572861215,
    "market_implied": 0.07692307692307693,
-   "edge_pts": -2.358950059588625,
-   "ev": -0.3066635077465212,
+   "edge_pts": -2.358950059588617,
+   "ev": -0.3066635077465202,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
    "official_confirmed": false,
@@ -1651,12 +1651,12 @@
    "price_american": 1400,
    "tip_record": "2 / 9 Win Tips",
    "consensus": "22",
-   "our_prob": 0.04939293065057323,
+   "our_prob": 0.04939293065057322,
    "our_fair_american": 1925,
-   "our_fair_decimal": 20.245812241319083,
+   "our_fair_decimal": 20.245812241319086,
    "market_implied": 0.06666666666666667,
-   "edge_pts": -1.7273736016093437,
-   "ev": -0.2591060402414015,
+   "edge_pts": -1.7273736016093444,
+   "ev": -0.2591060402414016,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
    "official_confirmed": false,
@@ -2349,7 +2349,7 @@
     ],
     [
      "Games Won",
-     "Rafael Jodar -3.50 -138, Alejandro Tabilo +3.50 +115"
+     "Rafael Jodar -3.50 -137, Alejandro Tabilo +3.50 +115"
     ]
    ],
    "shape": {},
@@ -2375,7 +2375,7 @@
    "price_decimal": 1.4,
    "price_american": -250,
    "tip_record": "1 / 1 Win Tips",
-   "consensus": "0",
+   "consensus": "100",
    "our_prob": 0.6994928991105018,
    "our_fair_american": -233,
    "our_fair_decimal": 1.4296070786017026,
@@ -2416,8 +2416,8 @@
    "event_pick_index": 0,
    "id": "tennis-40",
    "headline": "Lucrezia Stefanini to win 2 - 0 - Set Betting at -250",
-   "prediction": "Isabella Maria Serban faces Lucrezia Stefanini on 27 October 2026 at 10:00 UTC. Alongside the match price, win match is available at Lucrezia Stefanini -909, Isabella Maria Serban +650. The raw -250 on Lucrezia Stefanini to win 2 - 0 implies 71.4%; stripping the book margin pushes the same line to 69.9%. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. Backing Lucrezia Stefanini to win 2 - 0 at -250 is the play. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 101,
+   "prediction": "Isabella Maria Serban faces Lucrezia Stefanini on 27 October 2026 at 10:00 UTC. Alongside the match price, win match is available at Lucrezia Stefanini -909, Isabella Maria Serban +650. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The raw -250 on Lucrezia Stefanini to win 2 - 0 implies 71.4%; stripping the book margin pushes the same line to 69.9%. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. Backing Lucrezia Stefanini to win 2 - 0 at -250 is the play. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 119,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2434,7 +2434,7 @@
    "price_decimal": 1.4,
    "price_american": -250,
    "tip_record": "1 / 1 Win Tips",
-   "consensus": "0",
+   "consensus": "100",
    "our_prob": 0.6994298951228703,
    "our_fair_american": -233,
    "our_fair_decimal": 1.4297358562638045,
@@ -2475,8 +2475,8 @@
    "event_pick_index": 0,
    "id": "tennis-41",
    "headline": "Naomi Osaka - 1st Set Winner at -250",
-   "prediction": "Naomi Osaka and Jasmine Paolini meet on 27 October 2026 at 08:00 UTC, a fixture OLBG prices without naming the competition. On the official WTA rankings this is 19 against 36, Naomi Osaka first. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists win match at Naomi Osaka -303, Jasmine Paolini +260 for this fixture. The raw -250 on Naomi Osaka implies 71.4%; stripping the book margin pushes the same line to 69.9%. The bet is Naomi Osaka at -250 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 124,
+   "prediction": "Naomi Osaka and Jasmine Paolini meet on 27 October 2026 at 08:00 UTC, a fixture OLBG prices without naming the competition. On the official WTA rankings this is 19 against 36, Naomi Osaka first. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. OLBG also lists win match at Naomi Osaka -303, Jasmine Paolini +260 for this fixture. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -250 on Naomi Osaka implies 71.4%; stripping the book margin pushes the same line to 69.9%. The bet is Naomi Osaka at -250 to take the win. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 138,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2707,183 +2707,6 @@
   {
    "sport": "motor-racing",
    "sport_label": "Motor Racing",
-   "event_name": "Mexico City Grand Prix",
-   "competition": "",
-   "start_utc": "2026-11-01T20:00:00.000Z",
-   "venue": null,
-   "selection": "Kimi Antonelli - Yes",
-   "market": "Top 6 Finish",
-   "price_decimal": 1.08,
-   "price_american": -1205,
-   "tip_record": "0 / 0 Win Tips",
-   "consensus": "0",
-   "our_prob": 0.3308384542116003,
-   "our_fair_american": 202,
-   "our_fair_decimal": 3.0226232388342984,
-   "market_implied": 0.9259259259259258,
-   "edge_pts": -59.50874717143255,
-   "ev": -0.6426944694514717,
-   "confidence": "low",
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "official_confirmed": false,
-   "official_url": null,
-   "official_source": null,
-   "home": "",
-   "away": "",
-   "home_table": {},
-   "away_table": {},
-   "probable_home": null,
-   "probable_away": null,
-   "home_rank": null,
-   "away_rank": null,
-   "selection_rank": null,
-   "basis": "de-margined OLBG board",
-   "board_extra": [
-    [
-     "Win Race",
-     "Max Verstappen +138, Kimi Antonelli +175"
-    ],
-    [
-     "Fastest Lap",
-     "Max Verstappen +220, Kimi Antonelli +250"
-    ],
-    [
-     "Podium Finish",
-     "Max Verstappen - Yes -351, Kimi Antonelli - Yes -200"
-    ]
-   ],
-   "shape": {},
-   "market_size": 22,
-   "event_pick_index": 0,
-   "id": "motor-racing-46",
-   "headline": "Kimi Antonelli - Yes - Top 6 Finish at -1205",
-   "prediction": "Mexico City Grand Prix is the event, listed for 1 November 2026 at 20:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against a field of 22, the leader is still only a minority chance. Alongside the match price, win race is available at Max Verstappen +138, Kimi Antonelli +175. The raw -1205 on Kimi Antonelli - Yes implies 92.6%; stripping the book margin pushes the same line to 33.1%. The quote is 59.5 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Kimi Antonelli - Yes at -1205 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 132,
-   "flags": [
-    "no official fixture crosswalk"
-   ]
-  },
-  {
-   "sport": "motor-racing",
-   "sport_label": "Motor Racing",
-   "event_name": "Mexico City Grand Prix",
-   "competition": "",
-   "start_utc": "2026-11-01T20:00:00.000Z",
-   "venue": null,
-   "selection": "Max Verstappen - Yes",
-   "market": "Top 6 Finish",
-   "price_decimal": 1.08,
-   "price_american": -1205,
-   "tip_record": "0 / 0 Win Tips",
-   "consensus": "0",
-   "our_prob": 0.3308384542116003,
-   "our_fair_american": 202,
-   "our_fair_decimal": 3.0226232388342984,
-   "market_implied": 0.9259259259259258,
-   "edge_pts": -59.50874717143255,
-   "ev": -0.6426944694514717,
-   "confidence": "low",
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "official_confirmed": false,
-   "official_url": null,
-   "official_source": null,
-   "home": "",
-   "away": "",
-   "home_table": {},
-   "away_table": {},
-   "probable_home": null,
-   "probable_away": null,
-   "home_rank": null,
-   "away_rank": null,
-   "selection_rank": null,
-   "basis": "de-margined OLBG board",
-   "board_extra": [
-    [
-     "Win Race",
-     "Max Verstappen +138, Kimi Antonelli +175"
-    ],
-    [
-     "Fastest Lap",
-     "Max Verstappen +220, Kimi Antonelli +250"
-    ],
-    [
-     "Podium Finish",
-     "Max Verstappen - Yes -351, Kimi Antonelli - Yes -200"
-    ]
-   ],
-   "shape": {},
-   "market_size": 22,
-   "event_pick_index": 1,
-   "id": "motor-racing-47",
-   "headline": "Max Verstappen - Yes - Top 6 Finish at -1205",
-   "prediction": "Mexico City Grand Prix is the event, listed for 1 November 2026 at 20:00 UTC. The market is a 22-runner field, which is why the numbers are long even for the leaders. The raw -1205 on Max Verstappen - Yes implies 92.6%; stripping the book margin pushes the same line to 33.1%. Measured against the fair number the price is 59.5 points short, so the return depends on the outcome rather than a pricing edge. Alongside the match price, win race is available at Max Verstappen +138, Kimi Antonelli +175. Backing Max Verstappen - Yes at -1205 is the play. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 115,
-   "flags": [
-    "no official fixture crosswalk"
-   ]
-  },
-  {
-   "sport": "motor-racing",
-   "sport_label": "Motor Racing",
-   "event_name": "Mexico City Grand Prix",
-   "competition": "",
-   "start_utc": "2026-11-01T20:00:00.000Z",
-   "venue": null,
-   "selection": "Charles Leclerc - Yes",
-   "market": "Top 6 Finish",
-   "price_decimal": 1.14,
-   "price_american": -704,
-   "tip_record": "0 / 0 Win Tips",
-   "consensus": "0",
-   "our_prob": 0.15210138415403884,
-   "our_fair_american": 557,
-   "our_fair_decimal": 6.574562128818381,
-   "market_implied": 0.8771929824561404,
-   "edge_pts": -72.50915983021015,
-   "ev": -0.8266044220643958,
-   "confidence": "low",
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "official_confirmed": false,
-   "official_url": null,
-   "official_source": null,
-   "home": "",
-   "away": "",
-   "home_table": {},
-   "away_table": {},
-   "probable_home": null,
-   "probable_away": null,
-   "home_rank": null,
-   "away_rank": null,
-   "selection_rank": null,
-   "basis": "de-margined OLBG board",
-   "board_extra": [
-    [
-     "Win Race",
-     "Max Verstappen +138, Kimi Antonelli +175"
-    ],
-    [
-     "Fastest Lap",
-     "Max Verstappen +220, Kimi Antonelli +250"
-    ],
-    [
-     "Podium Finish",
-     "Max Verstappen - Yes -351, Kimi Antonelli - Yes -200"
-    ]
-   ],
-   "shape": {},
-   "market_size": 22,
-   "event_pick_index": 2,
-   "id": "motor-racing-48",
-   "headline": "Charles Leclerc - Yes - Top 6 Finish at -704",
-   "prediction": "Mexico City Grand Prix is the event, listed for 1 November 2026 at 20:00 UTC. With 22 names priced in the market, the arithmetic is stretched in a way a two-way match market never is. At -704, Charles Leclerc - Yes has to land 15.2% of the time to break even on the stake. The quote is 72.5 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The same board prices win race at Max Verstappen +138, Kimi Antonelli +175. The bet is Charles Leclerc - Yes at -704 to take the win. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 114,
-   "flags": [
-    "no official fixture crosswalk"
-   ]
-  },
-  {
-   "sport": "motor-racing",
-   "sport_label": "Motor Racing",
    "event_name": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
    "competition": "",
    "start_utc": "2026-12-06T13:00:00.000Z",
@@ -2919,10 +2742,10 @@
    "shape": {},
    "market_size": 6,
    "event_pick_index": 1,
-   "id": "motor-racing-49",
+   "id": "motor-racing-46",
    "headline": "George Russell - Win Tournament at +500",
-   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. At +500, George Russell has to land 13.8% of the time to break even on the stake. Measured against the fair number the price is 2.8 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 1 / 7 Win Tips on this line with a 14% consensus reading. Backing George Russell at +500 is the play. This is the thinnest of the three bands, so stake accordingly.",
-   "words": 113,
+   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. OLBG shows 1 / 7 Win Tips on this line with a 14% consensus reading. The raw +500 on George Russell implies 16.7%; stripping the book margin pushes the same line to 13.8%. The quote is 2.8 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is George Russell at +500 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 120,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -2965,69 +2788,10 @@
    "shape": {},
    "market_size": 6,
    "event_pick_index": 2,
-   "id": "motor-racing-50",
+   "id": "motor-racing-47",
    "headline": "Lewis Hamilton - Win Tournament at +650",
-   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. The tip record on the selection is 2 / 7 Win Tips, and the consensus bar sits at 29%. The raw +650 on Lewis Hamilton implies 13.3%; stripping the book margin pushes the same line to 10.8%. Measured against the fair number the price is 2.5 points short, so the return depends on the outcome rather than a pricing edge. The bet is Lewis Hamilton at +650 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 109,
-   "flags": [
-    "no official fixture crosswalk"
-   ]
-  },
-  {
-   "sport": "motor-racing",
-   "sport_label": "Motor Racing",
-   "event_name": "Mexico City Grand Prix",
-   "competition": "",
-   "start_utc": "2026-11-01T20:00:00.000Z",
-   "venue": null,
-   "selection": "Lewis Hamilton - Yes",
-   "market": "Top 6 Finish",
-   "price_decimal": 1.17,
-   "price_american": -602,
-   "tip_record": "0 / 0 Win Tips",
-   "consensus": "0",
-   "our_prob": 0.10471200508914953,
-   "our_fair_american": 855,
-   "our_fair_decimal": 9.550003355858019,
-   "market_implied": 0.8547008547008548,
-   "edge_pts": -74.99888496117052,
-   "ev": -0.877486954045695,
-   "confidence": "low",
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "official_confirmed": false,
-   "official_url": null,
-   "official_source": null,
-   "home": "",
-   "away": "",
-   "home_table": {},
-   "away_table": {},
-   "probable_home": null,
-   "probable_away": null,
-   "home_rank": null,
-   "away_rank": null,
-   "selection_rank": null,
-   "basis": "de-margined OLBG board",
-   "board_extra": [
-    [
-     "Win Race",
-     "Max Verstappen +138, Kimi Antonelli +175"
-    ],
-    [
-     "Fastest Lap",
-     "Max Verstappen +220, Kimi Antonelli +250"
-    ],
-    [
-     "Podium Finish",
-     "Max Verstappen - Yes -351, Kimi Antonelli - Yes -200"
-    ]
-   ],
-   "shape": {},
-   "market_size": 22,
-   "event_pick_index": 3,
-   "id": "motor-racing-51",
-   "headline": "Lewis Hamilton - Yes - Top 6 Finish at -602",
-   "prediction": "Mexico City Grand Prix is the event, listed for 1 November 2026 at 20:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Against a field of 22, the leader is still only a minority chance. OLBG also lists win race at Max Verstappen +138, Kimi Antonelli +175 for this fixture. The raw -602 on Lewis Hamilton - Yes implies 85.5%; stripping the book margin pushes the same line to 10.5%. The quote is 75.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing Lewis Hamilton - Yes at -602 is the play. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 127,
+   "prediction": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli is the event, listed for 6 December 2026 at 13:00 UTC. The raw +650 on Lewis Hamilton implies 13.3%; stripping the book margin pushes the same line to 10.8%. Measured against the fair number the price is 2.5 points short, so the return depends on the outcome rather than a pricing edge. The tip record on the selection is 2 / 7 Win Tips, and the consensus bar sits at 29%. Backing Lewis Hamilton at +650 is the play. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 103,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3087,10 +2851,10 @@
    },
    "market_size": 3,
    "event_pick_index": 0,
-   "id": "handball-52",
+   "id": "handball-48",
    "headline": "MT Melsungen - Money Line at -222",
-   "prediction": "The fixture between HC Vardar and MT Melsungen is set for 28 October 2026 at 17:45 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Against the fair number the price sits 1.8 points short, so the pick is about the outcome rather than a pricing bargain. The board's match handicap sits at -2.50 with the points total at 62.50, a frame in the region of 32-30. Alongside the match price, match handicap is available at HC Vardar +2.50 -114, MT Melsungen -2.50 -114. OLBG shows 1 / 13 Win Tips on this line with a 8% consensus reading. At -222, MT Melsungen has to land 67.1% of the time to break even on the stake. The selection is MT Melsungen at -222. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 147,
+   "prediction": "MT Melsungen travel to HC Vardar on 28 October 2026 at 17:45 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against the fair number the price sits 1.8 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 32-30, from a 62.50 total and a -2.50 handicap. OLBG also lists match handicap at HC Vardar +2.50 -114, MT Melsungen -2.50 -114 for this fixture. The tip record on the selection is 1 / 13 Win Tips, and the consensus bar sits at 8%. At -222, MT Melsungen has to land 67.1% of the time to break even on the stake. The selection is MT Melsungen at -222. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 158,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3150,10 +2914,10 @@
    },
    "market_size": 3,
    "event_pick_index": 0,
-   "id": "handball-53",
+   "id": "handball-49",
    "headline": "VasterasIrsta HF (W) - Money Line at -200",
-   "prediction": "VasterasIrsta HF W and Skuru IK W meet on 27 October 2026 at 18:00 UTC, a fixture OLBG prices without naming the competition. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The same board prices match handicap at Skuru IK W +2.50 -133, VasterasIrsta HF W -2.50 -105. OLBG shows 2 / 5 Win Tips on this line with a 40% consensus reading. The price on VasterasIrsta HF (W) is -200, which the margin-free reading moves to about 63.4%. The quote is 3.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the match handicap at -2.50 and the points total at 51.50 describe something like a 27-24 game. The selection is VasterasIrsta HF (W) at -200. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 151,
+   "prediction": "VasterasIrsta HF W and Skuru IK W meet on 27 October 2026 at 18:00 UTC, a fixture OLBG prices without naming the competition. The same board prices match handicap at Skuru IK W +2.50 -133, VasterasIrsta HF W -2.50 -105. OLBG shows 2 / 5 Win Tips on this line with a 40% consensus reading. The price on VasterasIrsta HF (W) is -200, which the margin-free reading moves to about 63.4%. Against the fair number the price sits 3.3 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the match handicap at -2.50 and the points total at 51.50 describe something like a 27-24 game. The selection is VasterasIrsta HF (W) at -200. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 134,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3171,12 +2935,12 @@
    "price_american": -182,
    "tip_record": "0 / 5 Win Tips",
    "consensus": "0",
-   "our_prob": 0.6226408353377829,
+   "our_prob": 0.6226408353377828,
    "our_fair_american": -165,
-   "our_fair_decimal": 1.6060623448468483,
+   "our_fair_decimal": 1.6060623448468485,
    "market_implied": 0.6451612903225806,
-   "edge_pts": -2.252045498479771,
-   "ev": -0.03490670522643646,
+   "edge_pts": -2.252045498479782,
+   "ev": -0.03490670522643663,
    "confidence": "medium",
    "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
    "official_confirmed": false,
@@ -3213,10 +2977,10 @@
    },
    "market_size": 3,
    "event_pick_index": 0,
-   "id": "handball-54",
+   "id": "handball-50",
    "headline": "Sporting CP - Money Line at -182",
-   "prediction": "GOG host Sporting CP on 29 October 2026 at 17:45 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The same board prices match handicap at GOG +2.50 -128, Sporting CP -2.50 +100. The price on Sporting CP is -182, which the margin-free reading moves to about 62.3%. Against the fair number the price sits 2.3 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the match handicap at -2.50 and the points total at 66.50 describe something like a 34-32 game. The selection is Sporting CP at -182. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 124,
+   "prediction": "GOG and Sporting CP meet on 29 October 2026 at 17:45 UTC, a fixture OLBG prices without naming the competition. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The price on Sporting CP is -182, which the margin-free reading moves to about 62.3%. The quote is 2.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's match handicap sits at -2.50 with the points total at 66.50, a frame in the region of 34-32. Alongside the match price, match handicap is available at GOG +2.50 -128, Sporting CP -2.50 +100. The selection is Sporting CP at -182. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 143,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3276,10 +3040,10 @@
    },
    "market_size": 3,
    "event_pick_index": 0,
-   "id": "handball-55",
+   "id": "handball-51",
    "headline": "Wisla Plock - Money Line at -161",
-   "prediction": "Wisla Plock and Nantes meet on 28 October 2026 at 17:45 UTC, a fixture OLBG prices without naming the competition. Measured against the fair number the price is 1.9 points short, so the return depends on the outcome rather than a pricing edge. Read together, the match handicap at -1.50 and the points total at 57.50 describe something like a 30-28 game. The same board prices match handicap at Nantes +1.50 -114, Wisla Plock -1.50 -114. OLBG shows 1 / 11 Win Tips on this line with a 9% consensus reading. The raw -161 on Wisla Plock implies 61.7%; stripping the book margin pushes the same line to 59.8%. The selection is Wisla Plock at -161. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 135,
+   "prediction": "The fixture between Wisla Plock and Nantes is set for 28 October 2026 at 17:45 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The price on Wisla Plock is -161, which the margin-free reading moves to about 59.8%. Measured against the fair number the price is 1.9 points short, so the return depends on the outcome rather than a pricing edge. Read together, the match handicap at -1.50 and the points total at 57.50 describe something like a 30-28 game. The same board prices match handicap at Nantes +1.50 -114, Wisla Plock -1.50 -114. The tip record on the selection is 1 / 11 Win Tips, and the consensus bar sits at 9%. The selection is Wisla Plock at -161. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 150,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3339,10 +3103,10 @@
    },
    "market_size": 3,
    "event_pick_index": 0,
-   "id": "handball-56",
+   "id": "handball-52",
    "headline": "RK Zagreb - Money Line at -139",
-   "prediction": "The fixture between RK Celje and RK Zagreb is set for 28 October 2026 at 19:45 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. Put the two lines together and the implied scoreline lands near 32-30, from a 62.50 total and a -1.50 handicap. OLBG also lists match handicap at RK Celje +1.50 -125, RK Zagreb -1.50 -105 for this fixture. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. The price on RK Zagreb is -139, which the margin-free reading moves to about 55.7%. The selection is RK Zagreb at -139. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 153,
+   "prediction": "The fixture between RK Celje and RK Zagreb is set for 28 October 2026 at 19:45 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. Measured against the fair number the price is 2.4 points short, so the return depends on the outcome rather than a pricing edge. The board's match handicap sits at -1.50 with the points total at 62.50, a frame in the region of 32-30. Alongside the match price, match handicap is available at RK Celje +1.50 -125, RK Zagreb -1.50 -105. OLBG shows 1 / 8 Win Tips on this line with a 13% consensus reading. At -139, RK Zagreb has to land 55.7% of the time to break even on the stake. The selection is RK Zagreb at -139. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 150,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3402,10 +3166,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-57",
+   "id": "ice-hockey-53",
    "headline": "Fribourg Gotteron - Money Line at -208",
-   "prediction": "Switzerland NLA action on 27 October 2026 at 18:45 UTC pairs Fribourg Gotteron with Davos. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. At -208, Fribourg Gotteron has to land 65.9% of the time to break even on the stake. Against the fair number the price sits 1.7 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 4-2, from a 5.50 total and a -1.50 handicap. OLBG also lists puck line at Davos +1.50 -172, Fribourg Gotteron -1.50 +125 for this fixture. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fribourg Gotteron at -208. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 150,
+   "prediction": "Fribourg Gotteron host Davos on 27 October 2026 at 18:45 UTC in Switzerland NLA. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. Against the fair number the price sits 1.7 points short, so the pick is about the outcome rather than a pricing bargain. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at Davos +1.50 -172, Fribourg Gotteron -1.50 +125. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -208 on Fribourg Gotteron implies 67.6%; stripping the book margin pushes the same line to 65.9%. The selection is Fribourg Gotteron at -208. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 152,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3465,10 +3229,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-58",
+   "id": "ice-hockey-54",
    "headline": "Ambri Piotta - Money Line at -200",
-   "prediction": "Ambri Piotta host EHC Biel on 27 October 2026 at 18:45 UTC in Switzerland NLA. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at EHC Biel +1.50 -165, Ambri Piotta -1.50 +125. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. At -200, Ambri Piotta has to land 65.4% of the time to break even on the stake. The quote is 1.3 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Ambri Piotta at -200. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 132,
+   "prediction": "EHC Biel travel to Ambri Piotta on 27 October 2026 at 18:45 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. Against the fair number the price sits 1.3 points short, so the pick is about the outcome rather than a pricing bargain. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at EHC Biel +1.50 -165, Ambri Piotta -1.50 +125. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The raw -200 on Ambri Piotta implies 66.7%; stripping the book margin pushes the same line to 65.4%. The selection is Ambri Piotta at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 148,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3528,10 +3292,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-59",
+   "id": "ice-hockey-55",
    "headline": "CAR Hurricanes - Money Line at -180",
-   "prediction": "The NHL fixture between Carolina Hurricanes and Boston Bruins is set for 28 October 2026 at 00:07 UTC at Lenovo Center.. The tip record on the selection is 1 / 2 Win Tips, and the consensus bar sits at 50%. The price on CAR Hurricanes is -180, which the margin-free reading moves to about 65.0%. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Read together, the puck line at -1.50 and the game totals at 6.50 describe something like a 4-2 game. The same board prices puck line at BOS Bruins +1.50 -154, CAR Hurricanes -1.50 +125. The selection is CAR Hurricanes at -180. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 142,
+   "prediction": "The NHL fixture between Carolina Hurricanes and Boston Bruins is set for 28 October 2026 at 00:07 UTC at Lenovo Center.. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Read together, the puck line at -1.50 and the game totals at 6.50 describe something like a 4-2 game. The same board prices puck line at BOS Bruins +1.50 -154, CAR Hurricanes -1.50 +125. OLBG shows 1 / 2 Win Tips on this line with a 50% consensus reading. The price on CAR Hurricanes is -180, which the margin-free reading moves to about 65.0%. The selection is CAR Hurricanes at -180. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 130,
    "flags": []
   },
   {
@@ -3589,10 +3353,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-60",
+   "id": "ice-hockey-56",
    "headline": "Fehervar AV19 - Money Line at -200",
-   "prediction": "The Austria EHL fixture between Fehervar AV19 and Milano HC is set for 27 October 2026 at 18:15 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. The price on Fehervar AV19 is -200, which the margin-free reading moves to about 64.5%. Against the fair number the price sits 2.2 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at Milano HC +1.50 -172, Fehervar AV19 -1.50 +140. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The selection is Fehervar AV19 at -200. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 150,
+   "prediction": "The Austria EHL fixture between Fehervar AV19 and Milano HC is set for 27 October 2026 at 18:15 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against the fair number the price sits 2.2 points short, so the pick is about the outcome rather than a pricing bargain. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at Milano HC +1.50 -172, Fehervar AV19 -1.50 +140. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -200 on Fehervar AV19 implies 66.7%; stripping the book margin pushes the same line to 64.5%. The selection is Fehervar AV19 at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 156,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3652,10 +3416,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-61",
+   "id": "ice-hockey-57",
    "headline": "Zug - Money Line at -200",
-   "prediction": "Lugano travel to Zug on 27 October 2026 at 18:45 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The board's puck line sits at -1.50 with the game totals at 5.50, a frame in the region of 4-2. Alongside the match price, puck line is available at Lugano +1.50 -167, Zug -1.50 +130. The raw -200 on Zug implies 66.7%; stripping the book margin pushes the same line to 64.5%. The quote is 2.2 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Zug at -200. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 126,
+   "prediction": "Switzerland NLA action on 27 October 2026 at 18:45 UTC pairs Zug with Lugano. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. At -200, Zug has to land 64.5% of the time to break even on the stake. Against the fair number the price sits 2.2 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 4-2, from a 5.50 total and a -1.50 handicap. OLBG also lists puck line at Lugano +1.50 -167, Zug -1.50 +130 for this fixture. The selection is Zug at -200. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 132,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3715,10 +3479,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-62",
+   "id": "ice-hockey-58",
    "headline": "IF Malmo Redhawks - Money Line at -180",
-   "prediction": "Linkoping HC travel to IF Malmo Redhawks on 27 October 2026 at 18:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. The same board prices puck line at Linkoping HC +1.50 -196, IF Malmo Redhawks -1.50 +145. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. The price on IF Malmo Redhawks is -180, which the margin-free reading moves to about 62.3%. The quote is 1.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The selection is IF Malmo Redhawks at -180. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 142,
+   "prediction": "IF Malmo Redhawks host Linkoping HC on 27 October 2026 at 18:00 UTC in Swedish Hockey League. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at Linkoping HC +1.50 -196, IF Malmo Redhawks -1.50 +145. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. At -180, IF Malmo Redhawks has to land 62.3% of the time to break even on the stake. The quote is 1.8 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is IF Malmo Redhawks at -180. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 137,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3778,10 +3542,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "ice-hockey-63",
+   "id": "ice-hockey-59",
    "headline": "Lausanne HC - Money Line at -172",
-   "prediction": "SCL Tigers travel to Lausanne HC on 27 October 2026 at 18:45 UTC. The same board prices puck line at SCL Tigers +1.50 -208, Lausanne HC -1.50 +155. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -172 on Lausanne HC implies 63.3%; stripping the book margin pushes the same line to 61.8%. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The selection is Lausanne HC at -172. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 123,
+   "prediction": "The Switzerland NLA fixture between Lausanne HC and SCL Tigers is set for 27 October 2026 at 18:45 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the puck line at -1.50 and the game totals at 5.50 describe something like a 4-2 game. The same board prices puck line at SCL Tigers +1.50 -208, Lausanne HC -1.50 +155. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Lausanne HC is -172, which the margin-free reading moves to about 61.8%. The selection is Lausanne HC at -172. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 162,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3841,10 +3605,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-64",
+   "id": "basketball-60",
    "headline": "Olympiacos - Money Line at -250",
-   "prediction": "Olympiacos travel to Besiktas on 28 October 2026 at 17:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. At -250, Olympiacos has to land 69.9% of the time to break even on the stake. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's pointspread sits at -6.50 with the game totals at 175.50, a frame in the region of 91-84. Alongside the match price, pointspread is available at Besiktas +6.50 -110, Olympiacos -6.50 -110. The tip record on the selection is 1 / 3 Win Tips, and the consensus bar sits at 33%. The selection is Olympiacos at -250. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 146,
+   "prediction": "The Euroleague fixture between Besiktas and Olympiacos is set for 28 October 2026 at 17:30 UTC. The board's pointspread sits at -6.50 with the game totals at 175.50, a frame in the region of 91-84. Alongside the match price, pointspread is available at Besiktas +6.50 -110, Olympiacos -6.50 -110. The tip record on the selection is 1 / 3 Win Tips, and the consensus bar sits at 33%. The price on Olympiacos is -250, which the margin-free reading moves to about 69.9%. Against the fair number the price sits 1.5 points short, so the pick is about the outcome rather than a pricing bargain. The selection is Olympiacos at -250. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 133,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3904,10 +3668,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-65",
+   "id": "basketball-61",
    "headline": "Crvena Zvezda - Money Line at -208",
-   "prediction": "The Euroleague fixture between Crvena Zvezda and Maccabi Tel Aviv is set for 27 October 2026 at 19:00 UTC. Put the two lines together and the implied scoreline lands near 89-84, from a 172.50 total and a -5.50 handicap. OLBG also lists pointspread at Maccabi Tel Aviv +5.50 -118, Crvena Zvezda -5.50 -105 for this fixture. The tip record on the selection is 2 / 4 Win Tips, and the consensus bar sits at 50%. The raw -208 on Crvena Zvezda implies 67.6%; stripping the book margin pushes the same line to 67.2%. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. The selection is Crvena Zvezda at -208. At this price a losing run is survivable, but the margin for error is thin.",
-   "words": 138,
+   "prediction": "Euroleague action on 27 October 2026 at 19:00 UTC pairs Crvena Zvezda with Maccabi Tel Aviv. The raw -208 on Crvena Zvezda implies 67.6%; stripping the book margin pushes the same line to 67.2%. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Put the two lines together and the implied scoreline lands near 89-84, from a 172.50 total and a -5.50 handicap. OLBG also lists pointspread at Maccabi Tel Aviv +5.50 -118, Crvena Zvezda -5.50 -105 for this fixture. The tip record on the selection is 2 / 4 Win Tips, and the consensus bar sits at 50%. The selection is Crvena Zvezda at -208. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 134,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -3967,10 +3731,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-66",
+   "id": "basketball-62",
    "headline": "Nanterre - Money Line at -208",
-   "prediction": "Basketball Champions League action on 27 October 2026 at 16:00 UTC pairs Baku Sabah with Nanterre. Against the fair number the price sits 1.4 points short, so the pick is about the outcome rather than a pricing bargain. The board's pointspread sits at -5.50 with the game totals at 164.50, a frame in the region of 85-80. Alongside the match price, pointspread is available at Baku Sabah +5.50 -120, Nanterre -5.50 -115. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. The price on Nanterre is -208, which the margin-free reading moves to about 66.2%. The selection is Nanterre at -208. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 125,
+   "prediction": "Basketball Champions League action on 27 October 2026 at 16:00 UTC pairs Baku Sabah with Nanterre. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. OLBG shows 1 / 1 Win Tips on this line with a 100% consensus reading. The raw -208 on Nanterre implies 67.6%; stripping the book margin pushes the same line to 66.2%. Against the fair number the price sits 1.4 points short, so the pick is about the outcome rather than a pricing bargain. Read together, the pointspread at -5.50 and the game totals at 164.50 describe something like a 85-80 game. The same board prices pointspread at Baku Sabah +5.50 -120, Nanterre -5.50 -115. The selection is Nanterre at -208. At this price a losing run is survivable, but the margin for error is thin.",
+   "words": 145,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4030,10 +3794,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-67",
+   "id": "basketball-63",
    "headline": "Seoul Knights - Money Line at -200",
-   "prediction": "The Korea KBL fixture between Seoul Knights and KCC Egis is set for 27 October 2026 at 10:00 UTC. At -200, Seoul Knights has to land 65.1% of the time to break even on the stake. Against the fair number the price sits 1.6 points short, so the pick is about the outcome rather than a pricing bargain. Put the two lines together and the implied scoreline lands near 89-84, from a 173.50 total and a -5.00 handicap. OLBG also lists pointspread at KCC Egis +5.00 -120, Seoul Knights -5.00 -120 for this fixture. OLBG shows 4 / 6 Win Tips on this line with a 67% consensus reading. The selection is Seoul Knights at -200. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
-   "words": 139,
+   "prediction": "The Korea KBL fixture between Seoul Knights and KCC Egis is set for 27 October 2026 at 10:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The quote is 1.6 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's pointspread sits at -5.00 with the game totals at 173.50, a frame in the region of 89-84. Alongside the match price, pointspread is available at KCC Egis +5.00 -120, Seoul Knights -5.00 -120. OLBG shows 4 / 6 Win Tips on this line with a 67% consensus reading. The price on Seoul Knights is -200, which the margin-free reading moves to about 65.1%. The selection is Seoul Knights at -200. This sits in the middle band, which is where most honest match prices belong.",
+   "words": 146,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4093,73 +3857,10 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-68",
+   "id": "basketball-64",
    "headline": "Lietkabelis - Money Line at -161",
-   "prediction": "Euro Cup action on 27 October 2026 at 17:00 UTC pairs Lietkabelis with Ratiopharm Ulm. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Put the two lines together and the implied scoreline lands near 87-84, from a 170.50 total and a -3.50 handicap. OLBG also lists pointspread at Lietkabelis -3.50 -110, Ratiopharm Ulm +3.50 -110 for this fixture. OLBG shows 3 / 3 Win Tips on this line with a 100% consensus reading. At -161, Lietkabelis has to land 60.2% of the time to break even on the stake. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. The selection is Lietkabelis at -161. This sits in the middle band, which is where most honest match prices belong.",
-   "words": 142,
-   "flags": [
-    "no official fixture crosswalk"
-   ]
-  },
-  {
-   "sport": "basketball",
-   "sport_label": "Basketball",
-   "event_name": "DET Pistons @ NY Knicks",
-   "competition": "NBA",
-   "start_utc": "2026-10-28T00:10:00.000Z",
-   "venue": null,
-   "selection": "NY Knicks",
-   "market": "Money Line",
-   "price_decimal": 1.67,
-   "price_american": -149,
-   "tip_record": "1 / 1 Win Tips",
-   "consensus": "100",
-   "our_prob": 0.595619827129117,
-   "our_fair_american": -147,
-   "our_fair_decimal": 1.6789232904149487,
-   "market_implied": 0.5988023952095809,
-   "edge_pts": -0.318256808046391,
-   "ev": -0.0053148886943746865,
-   "confidence": "low",
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DET_Pistons_@_NY_Knicks/4?event_id=536251",
-   "official_confirmed": false,
-   "official_url": null,
-   "official_source": null,
-   "home": "NY Knicks",
-   "away": "DET Pistons",
-   "home_table": {},
-   "away_table": {},
-   "probable_home": null,
-   "probable_away": null,
-   "home_rank": null,
-   "away_rank": null,
-   "selection_rank": null,
-   "basis": "de-margined OLBG board",
-   "board_extra": [
-    [
-     "Pointspread",
-     "NY Knicks -3.50 -110, DET Pistons +3.50 +105"
-    ],
-    [
-     "Game Totals",
-     "Over 218.50 -109, Under 218.50 -105"
-    ]
-   ],
-   "shape": {
-    "spread_market": "Pointspread",
-    "spread_team": "NY Knicks",
-    "spread_line": -3.5,
-    "total_market": "Game Totals",
-    "total_line": 218.5,
-    "frame_home": 111.0,
-    "frame_away": 107.5
-   },
-   "market_size": 2,
-   "event_pick_index": 0,
-   "id": "basketball-69",
-   "headline": "NY Knicks - Money Line at -149",
-   "prediction": "DET Pistons travel to NY Knicks on 28 October 2026 at 00:10 UTC. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. Put the two lines together and the implied scoreline lands near 111-108, from a 218.50 total and a -3.50 handicap. OLBG also lists pointspread at NY Knicks -3.50 -110, DET Pistons +3.50 +105 for this fixture. The tip record on the selection is 1 / 1 Win Tips, and the consensus bar sits at 100%. At -149, NY Knicks has to land 59.6% of the time to break even on the stake. The selection is NY Knicks at -149. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 134,
+   "prediction": "Ratiopharm Ulm travel to Lietkabelis on 27 October 2026 at 17:00 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. At -161, Lietkabelis has to land 60.2% of the time to break even on the stake. The quote is 1.5 points tighter than the margin-free number, so this is a confidence play rather than a value play. The board's pointspread sits at -3.50 with the game totals at 170.50, a frame in the region of 87-84. Alongside the match price, pointspread is available at Lietkabelis -3.50 -110, Ratiopharm Ulm +3.50 -110. The tip record on the selection is 3 / 3 Win Tips, and the consensus bar sits at 100%. The selection is Lietkabelis at -161. The chance is real without being dominant, so the stake should reflect a coin that lands this way about six times in ten.",
+   "words": 148,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4173,16 +3874,16 @@
    "venue": null,
    "selection": "Brasilia",
    "market": "Money Line",
-   "price_decimal": 1.7,
-   "price_american": -143,
+   "price_decimal": 1.65,
+   "price_american": -154,
    "tip_record": "0 / 1 Win Tips",
    "consensus": "0",
-   "our_prob": 0.5859734059447811,
-   "our_fair_american": -142,
-   "our_fair_decimal": 1.7065620894307865,
-   "market_implied": 0.5882352941176471,
-   "edge_pts": -0.2261888172865989,
-   "ev": -0.003845209893872159,
+   "our_prob": 0.5957027680225275,
+   "our_fair_american": -147,
+   "our_fair_decimal": 1.6786895305515572,
+   "market_implied": 0.6060606060606061,
+   "edge_pts": -1.0357838038078548,
+   "ev": -0.01709043276282962,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4?event_id=536209",
    "official_confirmed": false,
@@ -4219,10 +3920,73 @@
    },
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "basketball-70",
-   "headline": "Brasilia - Money Line at -143",
-   "prediction": "Brasilia travel to Cruzeiro on 27 October 2026 at 22:30 UTC. The board's pointspread sits at -3.00 with the game totals at 161.50, a frame in the region of 82-79. Alongside the match price, pointspread is available at Brasilia -3.00 -120, Cruzeiro +3.00 -120. The price on Brasilia is -143, which the margin-free reading moves to about 58.6%. The margin-free number and the quoted price land within a point of each other, so the board is about right on this one. The selection is Brasilia at -143. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 104,
+   "id": "basketball-65",
+   "headline": "Brasilia - Money Line at -154",
+   "prediction": "The Brazil NBB fixture between Cruzeiro and Brasilia is set for 27 October 2026 at 22:30 UTC. Put the two lines together and the implied scoreline lands near 82-79, from a 161.50 total and a -3.00 handicap. OLBG also lists pointspread at Brasilia -3.00 -120, Cruzeiro +3.00 -120 for this fixture. The raw -154 on Brasilia implies 60.6%; stripping the book margin pushes the same line to 59.6%. The quote is 1.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The selection is Brasilia at -154. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 107,
+   "flags": [
+    "no official fixture crosswalk"
+   ]
+  },
+  {
+   "sport": "basketball",
+   "sport_label": "Basketball",
+   "event_name": "Valencia vs Fenerbahce",
+   "competition": "Euroleague",
+   "start_utc": "2026-10-27T19:30:00.000Z",
+   "venue": null,
+   "selection": "Valencia +1.50",
+   "market": "Pointspread",
+   "price_decimal": 1.8,
+   "price_american": -125,
+   "tip_record": "0 / 0 Win Tips",
+   "consensus": "0",
+   "our_prob": 0.5402783935918584,
+   "our_fair_american": -118,
+   "our_fair_decimal": 1.8508976332587315,
+   "market_implied": 0.5555555555555556,
+   "edge_pts": -1.5277161963697217,
+   "ev": -0.0274988915346549,
+   "confidence": "low",
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+   "official_confirmed": false,
+   "official_url": null,
+   "official_source": null,
+   "home": "Valencia",
+   "away": "Fenerbahce",
+   "home_table": {},
+   "away_table": {},
+   "probable_home": null,
+   "probable_away": null,
+   "home_rank": null,
+   "away_rank": null,
+   "selection_rank": null,
+   "basis": "de-margined OLBG board",
+   "board_extra": [
+    [
+     "Money Line",
+     "Valencia -118, Fenerbahce +105"
+    ],
+    [
+     "Game Totals",
+     "Under 176.50 -118, Over 176.50 -105"
+    ]
+   ],
+   "shape": {
+    "spread_market": "Pointspread",
+    "spread_team": "Fenerbahce",
+    "spread_line": -1.5,
+    "total_market": "Game Totals",
+    "total_line": 176.5,
+    "frame_home": 89.0,
+    "frame_away": 87.5
+   },
+   "market_size": 2,
+   "event_pick_index": 0,
+   "id": "basketball-66",
+   "headline": "Valencia +1.50 - Pointspread at -125",
+   "prediction": "Euroleague action on 27 October 2026 at 19:30 UTC pairs Valencia with Fenerbahce. Measured against the fair number the price is 1.5 points short, so the return depends on the outcome rather than a pricing edge. The board's pointspread sits at -1.50 with the game totals at 176.50, a frame in the region of 89-88. Alongside the match price, money line is available at Valencia -118, Fenerbahce +105. The price on Valencia +1.50 is -125, which the margin-free reading moves to about 54.0%. The selection is Valencia +1.50 at -125. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 105,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4265,10 +4029,10 @@
    "shape": {},
    "market_size": 2,
    "event_pick_index": 0,
-   "id": "rugby-league-71",
+   "id": "rugby-league-67",
    "headline": "New South Wales - Win Tournament at -133",
-   "prediction": "State of Origin 2027 is the event, listed for 27 May 2027 at 10:00 UTC. OLBG shows 9 / 13 Win Tips on this line with a 69% consensus reading. At -133, New South Wales has to land 54.9% of the time to break even on the stake. Measured against the fair number the price is 2.3 points short, so the return depends on the outcome rather than a pricing edge. Backing New South Wales at -133 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 94,
+   "prediction": "State of Origin 2027 is the event, listed for 27 May 2027 at 10:00 UTC. This competition sits outside the official feeds the desk tracks, so the board itself supplies the numbers here. OLBG shows 9 / 13 Win Tips on this line with a 69% consensus reading. The price on New South Wales is -133, which the margin-free reading moves to about 54.9%. The quote is 2.3 points tighter than the margin-free number, which is the normal cost of backing a chance this size. Backing New South Wales at -133 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 108,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4311,10 +4075,10 @@
    "shape": {},
    "market_size": 2,
    "event_pick_index": 1,
-   "id": "rugby-league-72",
+   "id": "rugby-league-68",
    "headline": "Queensland - Win Tournament at +110",
-   "prediction": "State of Origin 2027 is the event, listed for 27 May 2027 at 10:00 UTC. At +110, Queensland has to land 45.1% of the time to break even on the stake. The quote is 2.5 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 4 / 13 Win Tips on this line with a 31% consensus reading. The bet is Queensland at +110 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 93,
+   "prediction": "State of Origin 2027 is the event, listed for 27 May 2027 at 10:00 UTC. At +110, Queensland has to land 45.1% of the time to break even on the stake. Measured against the fair number the price is 2.5 points short, so the return depends on the outcome rather than a pricing edge. OLBG shows 4 / 13 Win Tips on this line with a 31% consensus reading. Backing Queensland at +110 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 90,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4332,12 +4096,12 @@
    "price_american": 150,
    "tip_record": "2 / 4 Win Tips",
    "consensus": "50",
-   "our_prob": 0.3496107575750748,
+   "our_prob": 0.34961075757507476,
    "our_fair_american": 186,
-   "our_fair_decimal": 2.8603238840133853,
+   "our_fair_decimal": 2.8603238840133858,
    "market_implied": 0.4,
-   "edge_pts": -5.038924242492521,
-   "ev": -0.12597310606231293,
+   "edge_pts": -5.038924242492526,
+   "ev": -0.12597310606231316,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
    "official_confirmed": false,
@@ -4357,10 +4121,10 @@
    "shape": {},
    "market_size": 15,
    "event_pick_index": 0,
-   "id": "rugby-league-73",
+   "id": "rugby-league-69",
    "headline": "Wigan Warriors - Grand Final Winner at +150",
-   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. Against a field of 15, the leader is still only a minority chance. The quote is 5.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 2 / 4 Win Tips on this line with a 50% consensus reading. At +150, Wigan Warriors has to land 35.0% of the time to break even on the stake. The bet is Wigan Warriors at +150 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
-   "words": 107,
+   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. The market is a 15-runner field, which is why the numbers are long even for the leaders. Measured against the fair number the price is 5.0 points short, so the return depends on the outcome rather than a pricing edge. The tip record on the selection is 2 / 4 Win Tips, and the consensus bar sits at 50%. At +150, Wigan Warriors has to land 35.0% of the time to break even on the stake. The bet is Wigan Warriors at +150 to take the win. This is the thinnest of the three bands, so stake accordingly.",
+   "words": 132,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4378,12 +4142,12 @@
    "price_american": 350,
    "tip_record": "1 / 4 Win Tips",
    "consensus": "25",
-   "our_prob": 0.17815635650112435,
+   "our_prob": 0.17815635650112432,
    "our_fair_american": 461,
-   "our_fair_decimal": 5.613046986587251,
+   "our_fair_decimal": 5.613046986587252,
    "market_implied": 0.2222222222222222,
-   "edge_pts": -4.406586572109786,
-   "ev": -0.1982963957449404,
+   "edge_pts": -4.406586572109789,
+   "ev": -0.1982963957449405,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
    "official_confirmed": false,
@@ -4403,10 +4167,10 @@
    "shape": {},
    "market_size": 15,
    "event_pick_index": 1,
-   "id": "rugby-league-74",
+   "id": "rugby-league-70",
    "headline": "Leeds Rhinos - Grand Final Winner at +350",
-   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against a field of 15, the leader is still only a minority chance. The tip record on the selection is 1 / 4 Win Tips, and the consensus bar sits at 25%. At +350, Leeds Rhinos has to land 17.8% of the time to break even on the stake. The quote is 4.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Leeds Rhinos at +350 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
-   "words": 137,
+   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. No official feed for this competition is on the desk's source list, so the live OLBG board carries the evidence behind the price. Against a field of 15, the leader is still only a minority chance. OLBG shows 1 / 4 Win Tips on this line with a 25% consensus reading. At +350, Leeds Rhinos has to land 17.8% of the time to break even on the stake. The quote is 4.4 points tighter than the margin-free number, which is the normal cost of backing a chance this size. The bet is Leeds Rhinos at +350 to take the win. The band is the lowest of the three, which makes this a small-stakes opinion rather than a headline bet.",
+   "words": 133,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4424,12 +4188,12 @@
    "price_american": 450,
    "tip_record": "1 / 4 Win Tips",
    "consensus": "25",
-   "our_prob": 0.14152881939323123,
+   "our_prob": 0.1415288193932312,
    "our_fair_american": 607,
-   "our_fair_decimal": 7.06569873392038,
+   "our_fair_decimal": 7.065698733920382,
    "market_implied": 0.18181818181818182,
-   "edge_pts": -4.028936242495059,
-   "ev": -0.22159149333722827,
+   "edge_pts": -4.028936242495062,
+   "ev": -0.2215914933372285,
    "confidence": "low",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
    "official_confirmed": false,
@@ -4449,10 +4213,10 @@
    "shape": {},
    "market_size": 15,
    "event_pick_index": 2,
-   "id": "rugby-league-75",
+   "id": "rugby-league-71",
    "headline": "Hull KR - Grand Final Winner at +450",
-   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. The desk has no readable official fixture feed for this competition, so every figure below comes from the OLBG board. Against a field of 15, the leader is still only a minority chance. The raw +450 on Hull KR implies 18.2%; stripping the book margin pushes the same line to 14.2%. The quote is 4.0 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 4 Win Tips on this line with a 25% consensus reading. Backing Hull KR at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 123,
+   "prediction": "Super League 2027 is the event, listed for 2 October 2027 at 17:00 UTC. Against a field of 15, the leader is still only a minority chance. OLBG shows 1 / 4 Win Tips on this line with a 25% consensus reading. At +450, Hull KR has to land 14.2% of the time to break even on the stake. Measured against the fair number the price is 4.0 points short, so the return depends on the outcome rather than a pricing edge. Backing Hull KR at +450 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
+   "words": 104,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -4495,10 +4259,10 @@
    "shape": {},
    "market_size": 18,
    "event_pick_index": 0,
-   "id": "rugby-league-76",
+   "id": "rugby-league-72",
    "headline": "Sydney Roosters - Grand Final Winner at +550",
-   "prediction": "NRL 2027 is the event, listed for 3 October 2027 at 08:30 UTC. Nothing on the official-source register covers this competition, which leaves the OLBG market as the reference point. The market is a 18-runner field, which is why the numbers are long even for the leaders. The price on Sydney Roosters is +550, which the margin-free reading moves to about 13.1%. The quote is 2.3 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 3 Win Tips on this line with a 33% consensus reading. Backing Sydney Roosters at +550 is the play. Treat this as a speculative line and size it well below a high-confidence bet.",
-   "words": 120,
+   "prediction": "NRL 2027 is the event, listed for 3 October 2027 at 08:30 UTC. The market is a 18-runner field, which is why the numbers are long even for the leaders. At +550, Sydney Roosters has to land 13.1% of the time to break even on the stake. The quote is 2.3 points tighter than the margin-free number, which is the normal cost of backing a chance this size. OLBG shows 1 / 3 Win Tips on this line with a 33% consensus reading. The bet is Sydney Roosters at +550 to take the win. Nothing here justifies a large stake: the chance is real but the band is deliberately cautious.",
+   "words": 110,
    "flags": [
     "no official fixture crosswalk"
    ]
@@ -6786,6 +6550,96 @@
    "feed_count": 1
   },
   {
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+   "sport": "volleyball",
+   "sport_label": "Volleyball",
+   "event_name": "Marignano W vs Bergamo W",
+   "competition": "",
+   "start_utc": "2026-10-27T19:00:00.000Z",
+   "markets": {
+    "Win Match": [
+     {
+      "selection": "Bergamo W",
+      "decimal": "1.38",
+      "american": "-263",
+      "fractional": "19/50",
+      "tip_record": "6 / 8 Win Tips",
+      "consensus": "75",
+      "comments": ""
+     },
+     {
+      "selection": "Marignano W",
+      "decimal": "3.00",
+      "american": "200",
+      "fractional": "2/1",
+      "tip_record": "2 / 8 Win Tips",
+      "consensus": "25",
+      "comments": ""
+     }
+    ],
+    "Set Score": [
+     {
+      "selection": "Bergamo W to win 3-0",
+      "decimal": "3.10",
+      "american": "210",
+      "fractional": "21/10",
+      "tip_record": "0 / 3 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Bergamo W to win 3-1",
+      "decimal": "3.75",
+      "american": "275",
+      "fractional": "11/4",
+      "tip_record": "1 / 3 Win Tips",
+      "consensus": "33",
+      "comments": ""
+     },
+     {
+      "selection": "Bergamo W to win 3-2",
+      "decimal": "5.00",
+      "american": "400",
+      "fractional": "4/1",
+      "tip_record": "0 / 3 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Marignano W to win 3-2",
+      "decimal": "7.00",
+      "american": "600",
+      "fractional": "6/1",
+      "tip_record": "2 / 3 Win Tips",
+      "consensus": "67",
+      "comments": ""
+     },
+     {
+      "selection": "Marignano W to win 3-1",
+      "decimal": "8.00",
+      "american": "700",
+      "fractional": "7/1",
+      "tip_record": "0 / 3 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Marignano W to win 3-0",
+      "decimal": "9.50",
+      "american": "850",
+      "fractional": "17/2",
+      "tip_record": "0 / 3 Win Tips",
+      "consensus": "0",
+      "comments": "21,"
+     }
+    ]
+   },
+   "event_id": "37075",
+   "home": "Marignano W",
+   "away": "Bergamo W",
+   "feed_count": 1
+  },
+  {
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
    "sport": "volleyball",
    "sport_label": "Volleyball",
@@ -6876,96 +6730,6 @@
    "feed_count": 1
   },
   {
-   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
-   "sport": "volleyball",
-   "sport_label": "Volleyball",
-   "event_name": "Marignano W vs Bergamo W",
-   "competition": "",
-   "start_utc": "2026-10-27T19:00:00.000Z",
-   "markets": {
-    "Win Match": [
-     {
-      "selection": "Bergamo W",
-      "decimal": "1.38",
-      "american": "-263",
-      "fractional": "19/50",
-      "tip_record": "5 / 7 Win Tips",
-      "consensus": "71",
-      "comments": ""
-     },
-     {
-      "selection": "Marignano W",
-      "decimal": "3.00",
-      "american": "200",
-      "fractional": "2/1",
-      "tip_record": "2 / 7 Win Tips",
-      "consensus": "29",
-      "comments": ""
-     }
-    ],
-    "Set Score": [
-     {
-      "selection": "Bergamo W to win 3-0",
-      "decimal": "3.10",
-      "american": "210",
-      "fractional": "21/10",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Bergamo W to win 3-1",
-      "decimal": "3.75",
-      "american": "275",
-      "fractional": "11/4",
-      "tip_record": "1 / 3 Win Tips",
-      "consensus": "33",
-      "comments": ""
-     },
-     {
-      "selection": "Bergamo W to win 3-2",
-      "decimal": "5.00",
-      "american": "400",
-      "fractional": "4/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Marignano W to win 3-2",
-      "decimal": "7.00",
-      "american": "600",
-      "fractional": "6/1",
-      "tip_record": "2 / 3 Win Tips",
-      "consensus": "67",
-      "comments": ""
-     },
-     {
-      "selection": "Marignano W to win 3-1",
-      "decimal": "8.00",
-      "american": "700",
-      "fractional": "7/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Marignano W to win 3-0",
-      "decimal": "9.50",
-      "american": "850",
-      "fractional": "17/2",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": "21,"
-     }
-    ]
-   },
-   "event_id": "37075",
-   "home": "Marignano W",
-   "away": "Bergamo W",
-   "feed_count": 1
-  },
-  {
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
    "sport": "volleyball",
    "sport_label": "Volleyball",
@@ -6979,9 +6743,9 @@
       "decimal": "1.40",
       "american": "-250",
       "fractional": "2/5",
-      "tip_record": "4 / 5 Win Tips",
-      "consensus": "80",
-      "comments": ""
+      "tip_record": "5 / 5 Win Tips",
+      "consensus": "100",
+      "comments": "2"
      },
      {
       "selection": "TFL Altekma",
@@ -7249,17 +7013,17 @@
       "decimal": "1.85",
       "american": "-118",
       "fractional": "17/20",
-      "tip_record": "3 / 5 Win Tips",
-      "consensus": "60",
+      "tip_record": "3 / 6 Win Tips",
+      "consensus": "50",
       "comments": ""
      },
      {
       "selection": "IBB Spor",
       "decimal": "1.95",
       "american": "-105",
-      "fractional": "20/21",
-      "tip_record": "3 / 5 Win Tips",
-      "consensus": "60",
+      "fractional": "19/20",
+      "tip_record": "3 / 6 Win Tips",
+      "consensus": "50",
       "comments": "2"
      }
     ],
@@ -7698,7 +7462,7 @@
       "selection": "Fenerbahce",
       "decimal": "1.33",
       "american": "-303",
-      "fractional": "1/3",
+      "fractional": "33/100",
       "tip_record": "1 / 3 Win Tips",
       "consensus": "33",
       "comments": ""
@@ -8596,9 +8360,9 @@
     "To Win": [
      {
       "selection": "Dax",
-      "decimal": "1.73",
-      "american": "-138",
-      "fractional": "8/11",
+      "decimal": "1.80",
+      "american": "-125",
+      "fractional": "4/5",
       "tip_record": "2 / 3 Win Tips",
       "consensus": "67",
       "comments": ""
@@ -8651,7 +8415,7 @@
      {
       "selection": "Colomiers",
       "decimal": "1.17",
-      "american": "-602",
+      "american": "-588",
       "fractional": "1/6",
       "tip_record": "2 / 2 Win Tips",
       "consensus": "100",
@@ -8758,9 +8522,9 @@
     "To Win": [
      {
       "selection": "Oyonnax",
-      "decimal": "1.04",
-      "american": "-2500",
-      "fractional": "1/25",
+      "decimal": "1.06",
+      "american": "-1667",
+      "fractional": "1/16",
       "tip_record": "2 / 3 Win Tips",
       "consensus": "67",
       "comments": ""
@@ -8867,8 +8631,8 @@
      {
       "selection": "Nissa",
       "decimal": "1.44",
-      "american": "-225",
-      "fractional": "4/9",
+      "american": "-227",
+      "fractional": "11/25",
       "tip_record": "1 / 1 Win Tips",
       "consensus": "100",
       "comments": ""
@@ -9029,7 +8793,7 @@
      {
       "selection": "Biarritz",
       "decimal": "1.22",
-      "american": "-450",
+      "american": "-455",
       "fractional": "2/9",
       "tip_record": "1 / 1 Win Tips",
       "consensus": "100",
@@ -9317,9 +9081,9 @@
       "decimal": "1.80",
       "american": "-125",
       "fractional": "4/5",
-      "tip_record": "37 / 52 Win Tips",
-      "consensus": "71",
-      "comments": "18"
+      "tip_record": "38 / 52 Win Tips",
+      "consensus": "73",
+      "comments": "20"
      },
      {
       "selection": "New Zealand",
@@ -9337,7 +9101,7 @@
       "decimal": "7.00",
       "american": "600",
       "fractional": "6/1",
-      "tip_record": "5 / 26 Win Tips",
+      "tip_record": "5 / 27 Win Tips",
       "consensus": "19",
       "comments": "2"
      },
@@ -9346,7 +9110,7 @@
       "decimal": "7.00",
       "american": "600",
       "fractional": "6/1",
-      "tip_record": "4 / 26 Win Tips",
+      "tip_record": "4 / 27 Win Tips",
       "consensus": "15",
       "comments": ""
      },
@@ -9355,7 +9119,7 @@
       "decimal": "8.00",
       "american": "700",
       "fractional": "7/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9364,8 +9128,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9373,7 +9137,7 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      },
@@ -9382,8 +9146,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9391,7 +9155,7 @@
       "decimal": "10.00",
       "american": "900",
       "fractional": "9/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      },
@@ -9400,8 +9164,8 @@
       "decimal": "10.00",
       "american": "900",
       "fractional": "9/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9409,7 +9173,7 @@
       "decimal": "11.00",
       "american": "1000",
       "fractional": "10/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      },
@@ -9418,8 +9182,8 @@
       "decimal": "11.00",
       "american": "1000",
       "fractional": "10/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9427,7 +9191,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      },
@@ -9436,7 +9200,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9445,7 +9209,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      },
@@ -9454,7 +9218,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9463,7 +9227,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9472,7 +9236,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9481,7 +9245,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9490,8 +9254,8 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9499,7 +9263,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9508,7 +9272,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9517,7 +9281,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9526,7 +9290,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9535,7 +9299,7 @@
       "decimal": "19.00",
       "american": "1800",
       "fractional": "18/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9544,7 +9308,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9553,7 +9317,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9562,7 +9326,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9571,8 +9335,8 @@
       "decimal": "23.00",
       "american": "2200",
       "fractional": "22/1",
-      "tip_record": "2 / 26 Win Tips",
-      "consensus": "8",
+      "tip_record": "2 / 27 Win Tips",
+      "consensus": "7",
       "comments": ""
      },
      {
@@ -9580,7 +9344,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9589,7 +9353,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9598,7 +9362,7 @@
       "decimal": "34.00",
       "american": "3300",
       "fractional": "33/1",
-      "tip_record": "0 / 26 Win Tips",
+      "tip_record": "0 / 27 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9607,7 +9371,7 @@
       "decimal": "34.00",
       "american": "3300",
       "fractional": "33/1",
-      "tip_record": "1 / 26 Win Tips",
+      "tip_record": "1 / 27 Win Tips",
       "consensus": "4",
       "comments": ""
      }
@@ -9915,9 +9679,9 @@
       "decimal": "1.50",
       "american": "-200",
       "fractional": "1/2",
-      "tip_record": "24 / 34 Win Tips",
-      "consensus": "71",
-      "comments": "16"
+      "tip_record": "25 / 34 Win Tips",
+      "consensus": "74",
+      "comments": "17"
      },
      {
       "selection": "Sri Lanka",
@@ -9935,8 +9699,8 @@
       "decimal": "6.50",
       "american": "550",
       "fractional": "11/2",
-      "tip_record": "6 / 15 Win Tips",
-      "consensus": "40",
+      "tip_record": "6 / 16 Win Tips",
+      "consensus": "38",
       "comments": "2"
      },
      {
@@ -9944,7 +9708,7 @@
       "decimal": "8.00",
       "american": "700",
       "fractional": "7/1",
-      "tip_record": "2 / 15 Win Tips",
+      "tip_record": "2 / 16 Win Tips",
       "consensus": "13",
       "comments": ""
      },
@@ -9953,8 +9717,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -9962,8 +9726,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -9971,7 +9735,7 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9980,7 +9744,7 @@
       "decimal": "9.50",
       "american": "850",
       "fractional": "17/2",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9989,7 +9753,7 @@
       "decimal": "10.00",
       "american": "900",
       "fractional": "9/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -9998,7 +9762,7 @@
       "decimal": "11.00",
       "american": "1000",
       "fractional": "10/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10007,8 +9771,8 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10016,8 +9780,8 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10025,7 +9789,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10034,7 +9798,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10043,7 +9807,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10052,7 +9816,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10061,8 +9825,8 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10070,7 +9834,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10079,8 +9843,8 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10088,7 +9852,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10097,7 +9861,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10106,7 +9870,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10115,7 +9879,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10124,7 +9888,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10133,7 +9897,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10142,8 +9906,8 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10151,7 +9915,7 @@
       "decimal": "19.00",
       "american": "1800",
       "fractional": "18/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10160,7 +9924,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10169,7 +9933,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10178,8 +9942,8 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10187,7 +9951,7 @@
       "decimal": "23.00",
       "american": "2200",
       "fractional": "22/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10196,7 +9960,7 @@
       "decimal": "23.00",
       "american": "2200",
       "fractional": "22/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10205,7 +9969,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10214,7 +9978,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      }
@@ -10225,8 +9989,8 @@
       "decimal": "4.00",
       "american": "300",
       "fractional": "3/1",
-      "tip_record": "4 / 15 Win Tips",
-      "consensus": "27",
+      "tip_record": "4 / 16 Win Tips",
+      "consensus": "25",
       "comments": "2"
      },
      {
@@ -10234,8 +9998,8 @@
       "decimal": "4.33",
       "american": "333",
       "fractional": "10/3",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10243,7 +10007,7 @@
       "decimal": "5.00",
       "american": "400",
       "fractional": "4/1",
-      "tip_record": "2 / 15 Win Tips",
+      "tip_record": "2 / 16 Win Tips",
       "consensus": "13",
       "comments": ""
      },
@@ -10252,7 +10016,7 @@
       "decimal": "5.00",
       "american": "400",
       "fractional": "4/1",
-      "tip_record": "2 / 15 Win Tips",
+      "tip_record": "2 / 16 Win Tips",
       "consensus": "13",
       "comments": ""
      },
@@ -10261,7 +10025,7 @@
       "decimal": "5.50",
       "american": "450",
       "fractional": "9/2",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10270,8 +10034,8 @@
       "decimal": "5.50",
       "american": "450",
       "fractional": "9/2",
-      "tip_record": "3 / 15 Win Tips",
-      "consensus": "20",
+      "tip_record": "3 / 16 Win Tips",
+      "consensus": "19",
       "comments": ""
      },
      {
@@ -10279,8 +10043,8 @@
       "decimal": "6.00",
       "american": "500",
       "fractional": "5/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10288,8 +10052,8 @@
       "decimal": "10.00",
       "american": "900",
       "fractional": "9/1",
-      "tip_record": "1 / 15 Win Tips",
-      "consensus": "7",
+      "tip_record": "1 / 16 Win Tips",
+      "consensus": "6",
       "comments": ""
      },
      {
@@ -10297,7 +10061,7 @@
       "decimal": "10.00",
       "american": "900",
       "fractional": "9/1",
-      "tip_record": "2 / 15 Win Tips",
+      "tip_record": "2 / 16 Win Tips",
       "consensus": "13",
       "comments": ""
      },
@@ -10306,7 +10070,7 @@
       "decimal": "29.00",
       "american": "2800",
       "fractional": "28/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10315,7 +10079,7 @@
       "decimal": "41.00",
       "american": "4000",
       "fractional": "40/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10324,7 +10088,7 @@
       "decimal": "51.00",
       "american": "5000",
       "fractional": "50/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10333,7 +10097,7 @@
       "decimal": "67.00",
       "american": "6600",
       "fractional": "66/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10342,7 +10106,7 @@
       "decimal": "201.00",
       "american": "20000",
       "fractional": "200/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10351,7 +10115,7 @@
       "decimal": "251.00",
       "american": "25000",
       "fractional": "250/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10360,7 +10124,7 @@
       "decimal": "251.00",
       "american": "25000",
       "fractional": "250/1",
-      "tip_record": "0 / 15 Win Tips",
+      "tip_record": "0 / 16 Win Tips",
       "consensus": "0",
       "comments": ""
      }
@@ -10528,9 +10292,9 @@
     "Win Match": [
      {
       "selection": "Ireland",
-      "decimal": "1.55",
-      "american": "-182",
-      "fractional": "11/20",
+      "decimal": "1.57",
+      "american": "-175",
+      "fractional": "4/7",
       "tip_record": "22 / 32 Win Tips",
       "consensus": "69",
       "comments": "6"
@@ -10877,8 +10641,8 @@
       "decimal": "7.00",
       "american": "600",
       "fractional": "6/1",
-      "tip_record": "3 / 7 Win Tips",
-      "consensus": "43",
+      "tip_record": "3 / 8 Win Tips",
+      "consensus": "38",
       "comments": "2"
      },
      {
@@ -10886,8 +10650,8 @@
       "decimal": "8.00",
       "american": "700",
       "fractional": "7/1",
-      "tip_record": "1 / 7 Win Tips",
-      "consensus": "14",
+      "tip_record": "1 / 8 Win Tips",
+      "consensus": "13",
       "comments": ""
      },
      {
@@ -10895,8 +10659,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "1 / 7 Win Tips",
-      "consensus": "14",
+      "tip_record": "1 / 8 Win Tips",
+      "consensus": "13",
       "comments": ""
      },
      {
@@ -10904,8 +10668,8 @@
       "decimal": "9.00",
       "american": "800",
       "fractional": "8/1",
-      "tip_record": "1 / 7 Win Tips",
-      "consensus": "14",
+      "tip_record": "1 / 8 Win Tips",
+      "consensus": "13",
       "comments": ""
      },
      {
@@ -10913,7 +10677,7 @@
       "decimal": "11.00",
       "american": "1000",
       "fractional": "10/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10922,8 +10686,8 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "1 / 7 Win Tips",
-      "consensus": "14",
+      "tip_record": "1 / 8 Win Tips",
+      "consensus": "13",
       "comments": ""
      },
      {
@@ -10931,7 +10695,7 @@
       "decimal": "13.00",
       "american": "1200",
       "fractional": "12/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10940,7 +10704,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10949,7 +10713,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10958,7 +10722,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10967,7 +10731,7 @@
       "decimal": "15.00",
       "american": "1400",
       "fractional": "14/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10976,7 +10740,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10985,7 +10749,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -10994,7 +10758,7 @@
       "decimal": "17.00",
       "american": "1600",
       "fractional": "16/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11003,7 +10767,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11012,7 +10776,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11021,7 +10785,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11030,7 +10794,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11039,8 +10803,8 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "1 / 7 Win Tips",
-      "consensus": "14",
+      "tip_record": "1 / 8 Win Tips",
+      "consensus": "13",
       "comments": ""
      },
      {
@@ -11048,7 +10812,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11057,7 +10821,7 @@
       "decimal": "21.00",
       "american": "2000",
       "fractional": "20/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11066,7 +10830,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11075,7 +10839,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11084,7 +10848,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11093,7 +10857,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11102,7 +10866,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11111,7 +10875,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11120,7 +10884,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -11129,7 +10893,7 @@
       "decimal": "26.00",
       "american": "2500",
       "fractional": "25/1",
-      "tip_record": "0 / 7 Win Tips",
+      "tip_record": "0 / 8 Win Tips",
       "consensus": "0",
       "comments": ""
      }
@@ -11140,8 +10904,8 @@
       "decimal": "3.40",
       "american": "240",
       "fractional": "12/5",
-      "tip_record": "0 / 4 Win Tips",
-      "consensus": "0",
+      "tip_record": "1 / 4 Win Tips",
+      "consensus": "25",
       "comments": ""
      },
      {
@@ -11268,9 +11032,9 @@
       "decimal": "3.25",
       "american": "225",
       "fractional": "9/4",
-      "tip_record": "2 / 5 Win Tips",
-      "consensus": "40",
-      "comments": "2"
+      "tip_record": "3 / 5 Win Tips",
+      "consensus": "60",
+      "comments": "3"
      },
      {
       "selection": "R Gurbaz (Afghanistan)",
@@ -11519,7 +11283,7 @@
      {
       "selection": "Northern Districts",
       "decimal": "1.67",
-      "american": "-150",
+      "american": "-149",
       "fractional": "4/6",
       "tip_record": "2 / 3 Win Tips",
       "consensus": "67",
@@ -12150,21 +11914,21 @@
    "markets": {
     "Outright Winner": [
      {
-      "selection": "Sydney Sixers W",
-      "decimal": "4.30",
-      "american": "330",
-      "fractional": "33/10",
-      "tip_record": "2 / 3 Win Tips",
-      "consensus": "67",
-      "comments": ""
-     },
-     {
       "selection": "Hobart Hurricanes W",
       "decimal": "4.50",
       "american": "350",
       "fractional": "7/2",
       "tip_record": "0 / 3 Win Tips",
       "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Sydney Sixers W",
+      "decimal": "4.50",
+      "american": "350",
+      "fractional": "7/2",
+      "tip_record": "2 / 3 Win Tips",
+      "consensus": "67",
       "comments": ""
      },
      {
@@ -12763,9 +12527,9 @@
     "Win Match": [
      {
       "selection": "Bangladesh",
-      "decimal": "1.91",
-      "american": "-110",
-      "fractional": "10/11",
+      "decimal": "1.86",
+      "american": "-116",
+      "fractional": "869/1000",
       "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
       "comments": ""
@@ -16213,6 +15977,268 @@
    "feed_count": 1
   },
   {
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:01_Sheffield/28?event_id=690289",
+   "sport": "greyhounds",
+   "sport_label": "Greyhounds",
+   "event_name": "11:01 Sheffield",
+   "competition": "",
+   "start_utc": "2026-10-27T11:01:00.000Z",
+   "markets": {
+    "Daily Races": [
+     {
+      "selection": "Blake Delight",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Lauragh Taylor",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Monagore Bill",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Muldona Diamond",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Priceless Juliet",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": "28,"
+     }
+    ]
+   },
+   "event_id": "690289",
+   "home": "",
+   "away": "",
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:09_Newcastle/28?event_id=690290",
+   "sport": "greyhounds",
+   "sport_label": "Greyhounds",
+   "event_name": "11:09 Newcastle",
+   "competition": "",
+   "start_utc": "2026-10-27T11:09:00.000Z",
+   "markets": {
+    "Daily Races": [
+     {
+      "selection": "Alnwick Hawk",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Fabulous Kira",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Fabulous Show",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Moyvane Taylor",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Santas Hurricane",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Tinnock Sheba",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": "28,"
+     }
+    ]
+   },
+   "event_id": "690290",
+   "home": "",
+   "away": "",
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:27_Newcastle/28?event_id=690294",
+   "sport": "greyhounds",
+   "sport_label": "Greyhounds",
+   "event_name": "11:27 Newcastle",
+   "competition": "",
+   "start_utc": "2026-10-27T11:27:00.000Z",
+   "markets": {
+    "Daily Races": [
+     {
+      "selection": "Alnwick Ava",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Blackhouse Flock",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Bramble Emerald",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Mad For Porter",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Whitehills Magic",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Withme Withoutme",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": "28,"
+     }
+    ]
+   },
+   "event_id": "690294",
+   "home": "",
+   "away": "",
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/11:34_Sheffield/28?event_id=690295",
+   "sport": "greyhounds",
+   "sport_label": "Greyhounds",
+   "event_name": "11:34 Sheffield",
+   "competition": "",
+   "start_utc": "2026-10-27T11:34:00.000Z",
+   "markets": {
+    "Daily Races": [
+     {
+      "selection": "Chiltern Truffle",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Drumdoit Belle",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Russanda Bertha",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Slippy Shane",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Slippy Soreng",
+      "decimal": "SP",
+      "american": "-",
+      "fractional": "SP",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": "28,"
+     }
+    ]
+   },
+   "event_id": "690295",
+   "home": "",
+   "away": "",
+   "feed_count": 1
+  },
+  {
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
    "sport": "tennis",
    "sport_label": "Tennis",
@@ -16369,7 +16395,7 @@
       "decimal": "3.60",
       "american": "260",
       "fractional": "13/5",
-      "tip_record": "0 / 5 Win Tips",
+      "tip_record": "0 / 6 Win Tips",
       "consensus": "0",
       "comments": ""
      }
@@ -16419,7 +16445,7 @@
       "american": "-250",
       "fractional": "2/5",
       "tip_record": "1 / 1 Win Tips",
-      "consensus": "0",
+      "consensus": "100",
       "comments": ""
      },
      {
@@ -16427,7 +16453,7 @@
       "decimal": "3.10",
       "american": "210",
       "fractional": "21/10",
-      "tip_record": "0 / 0 Win Tips",
+      "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
       "comments": ""
      }
@@ -16478,6 +16504,140 @@
    "away": "Jasmine Paolini",
    "home_rank": 19,
    "away_rank": 36,
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
+   "sport": "tennis",
+   "sport_label": "Tennis",
+   "event_name": "Hubert Hurkacz vs Zizou Bergs",
+   "competition": "",
+   "start_utc": "2026-10-27T11:00:00.000Z",
+   "markets": {
+    "Win Match": [
+     {
+      "selection": "Hubert Hurkacz",
+      "decimal": "1.57",
+      "american": "-175",
+      "fractional": "4/7",
+      "tip_record": "4 / 4 Win Tips",
+      "consensus": "100",
+      "comments": "2"
+     },
+     {
+      "selection": "Zizou Bergs",
+      "decimal": "2.60",
+      "american": "160",
+      "fractional": "8/5",
+      "tip_record": "0 / 4 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Set Betting": [
+     {
+      "selection": "Hubert Hurkacz to win 2 - 0",
+      "decimal": "2.40",
+      "american": "140",
+      "fractional": "7/5",
+      "tip_record": "0 / 2 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Hubert Hurkacz to win 2 - 1",
+      "decimal": "4.00",
+      "american": "300",
+      "fractional": "3/1",
+      "tip_record": "2 / 2 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Zizou Bergs to win 2 - 0",
+      "decimal": "4.33",
+      "american": "333",
+      "fractional": "10/3",
+      "tip_record": "0 / 2 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Zizou Bergs to win 2 - 1",
+      "decimal": "5.00",
+      "american": "400",
+      "fractional": "4/1",
+      "tip_record": "0 / 2 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "1st Set Winner": [
+     {
+      "selection": "Hubert Hurkacz",
+      "decimal": "1.65",
+      "american": "-154",
+      "fractional": "13/20",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Zizou Bergs",
+      "decimal": "2.30",
+      "american": "130",
+      "fractional": "13/10",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Games Won": [
+     {
+      "selection": "Zizou Bergs +2.50",
+      "decimal": "1.73",
+      "american": "-138",
+      "fractional": "8/11",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Hubert Hurkacz -2.50",
+      "decimal": "2.20",
+      "american": "120",
+      "fractional": "6/5",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Total Games": [
+     {
+      "selection": "Over 24.50",
+      "decimal": "1.83",
+      "american": "-120",
+      "fractional": "5/6",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Under 24.50",
+      "decimal": "2.00",
+      "american": "100",
+      "fractional": "1/1",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": "3,"
+     }
+    ]
+   },
+   "event_id": "902322",
+   "home": "Hubert Hurkacz",
+   "away": "Zizou Bergs",
+   "home_rank": null,
+   "away_rank": null,
    "feed_count": 1
   },
   {
@@ -16570,7 +16730,7 @@
      {
       "selection": "Rafael Jodar -3.50",
       "decimal": "1.73",
-      "american": "-138",
+      "american": "-137",
       "fractional": "8/11",
       "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
@@ -16883,140 +17043,6 @@
    "feed_count": 1
   },
   {
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
-   "sport": "tennis",
-   "sport_label": "Tennis",
-   "event_name": "Hubert Hurkacz vs Zizou Bergs",
-   "competition": "",
-   "start_utc": "2026-10-27T11:00:00.000Z",
-   "markets": {
-    "Win Match": [
-     {
-      "selection": "Hubert Hurkacz",
-      "decimal": "1.57",
-      "american": "-175",
-      "fractional": "4/7",
-      "tip_record": "4 / 4 Win Tips",
-      "consensus": "100",
-      "comments": "2"
-     },
-     {
-      "selection": "Zizou Bergs",
-      "decimal": "2.60",
-      "american": "160",
-      "fractional": "8/5",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Set Betting": [
-     {
-      "selection": "Hubert Hurkacz to win 2 - 0",
-      "decimal": "2.40",
-      "american": "140",
-      "fractional": "7/5",
-      "tip_record": "0 / 2 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Hubert Hurkacz to win 2 - 1",
-      "decimal": "4.00",
-      "american": "300",
-      "fractional": "3/1",
-      "tip_record": "2 / 2 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     },
-     {
-      "selection": "Zizou Bergs to win 2 - 0",
-      "decimal": "4.33",
-      "american": "333",
-      "fractional": "10/3",
-      "tip_record": "0 / 2 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Zizou Bergs to win 2 - 1",
-      "decimal": "5.00",
-      "american": "400",
-      "fractional": "4/1",
-      "tip_record": "0 / 2 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "1st Set Winner": [
-     {
-      "selection": "Hubert Hurkacz",
-      "decimal": "1.65",
-      "american": "-154",
-      "fractional": "13/20",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Zizou Bergs",
-      "decimal": "2.30",
-      "american": "130",
-      "fractional": "13/10",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Games Won": [
-     {
-      "selection": "Zizou Bergs +2.50",
-      "decimal": "1.73",
-      "american": "-138",
-      "fractional": "8/11",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Hubert Hurkacz -2.50",
-      "decimal": "2.20",
-      "american": "120",
-      "fractional": "6/5",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Total Games": [
-     {
-      "selection": "Over 24.50",
-      "decimal": "1.83",
-      "american": "-120",
-      "fractional": "5/6",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Under 24.50",
-      "decimal": "2.00",
-      "american": "100",
-      "fractional": "1/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": "3,"
-     }
-    ]
-   },
-   "event_id": "902322",
-   "home": "Hubert Hurkacz",
-   "away": "Zizou Bergs",
-   "home_rank": null,
-   "away_rank": null,
-   "feed_count": 1
-  },
-  {
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
    "sport": "tennis",
    "sport_label": "Tennis",
@@ -17126,7 +17152,7 @@
      {
       "selection": "Under 23.50",
       "decimal": "1.73",
-      "american": "-138",
+      "american": "-137",
       "fractional": "8/11",
       "tip_record": "0 / 0 Win Tips",
       "consensus": "0",
@@ -17161,9 +17187,9 @@
     "Win Match": [
      {
       "selection": "Tommy Paul",
-      "decimal": "1.75",
-      "american": "-133",
-      "fractional": "3/4",
+      "decimal": "1.73",
+      "american": "-138",
+      "fractional": "8/11",
       "tip_record": "1 / 4 Win Tips",
       "consensus": "25",
       "comments": ""
@@ -17199,9 +17225,9 @@
      },
      {
       "selection": "Tommy Paul to win 2 - 1",
-      "decimal": "4.25",
-      "american": "325",
-      "fractional": "13/4",
+      "decimal": "4.20",
+      "american": "320",
+      "fractional": "16/5",
       "tip_record": "1 / 2 Win Tips",
       "consensus": "50",
       "comments": ""
@@ -17268,10 +17294,10 @@
      },
      {
       "selection": "Over 23.50",
-      "decimal": "2.10",
-      "american": "110",
-      "fractional": "11/10",
-      "tip_record": "1 / 1 Win Tips",
+      "decimal": "2.05",
+      "american": "105",
+      "fractional": "21/20",
+      "tip_record": "2 / 2 Win Tips",
       "consensus": "100",
       "comments": "3,"
      }
@@ -17374,7 +17400,7 @@
      {
       "selection": "Francisco Cerundolo -2.50",
       "decimal": "1.73",
-      "american": "-138",
+      "american": "-137",
       "fractional": "8/11",
       "tip_record": "1 / 2 Win Tips",
       "consensus": "50",
@@ -17431,7 +17457,7 @@
       "selection": "Tereza Valentova",
       "decimal": "1.44",
       "american": "-227",
-      "fractional": "4/9",
+      "fractional": "11/25",
       "tip_record": "2 / 2 Win Tips",
       "consensus": "100",
       "comments": ""
@@ -17548,6 +17574,140 @@
    "event_id": "902310",
    "home": "Tereza Valentova",
    "away": "Mia Pohankova",
+   "home_rank": null,
+   "away_rank": null,
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
+   "sport": "tennis",
+   "sport_label": "Tennis",
+   "event_name": "Lucrezia Stefanini vs Isabella Maria Serban",
+   "competition": "",
+   "start_utc": "2026-10-27T10:00:00.000Z",
+   "markets": {
+    "Win Match": [
+     {
+      "selection": "Lucrezia Stefanini",
+      "decimal": "1.11",
+      "american": "-909",
+      "fractional": "1/9",
+      "tip_record": "2 / 2 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Isabella Maria Serban",
+      "decimal": "7.50",
+      "american": "650",
+      "fractional": "13/2",
+      "tip_record": "0 / 2 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Set Betting": [
+     {
+      "selection": "Lucrezia Stefanini to win 2 - 0",
+      "decimal": "1.40",
+      "american": "-250",
+      "fractional": "2/5",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Lucrezia Stefanini to win 2 - 1",
+      "decimal": "5.50",
+      "american": "450",
+      "fractional": "9/2",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Isabella Maria Serban to win 2 - 1",
+      "decimal": "12.00",
+      "american": "1100",
+      "fractional": "11/1",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Isabella Maria Serban to win 2 - 0",
+      "decimal": "13.00",
+      "american": "1200",
+      "fractional": "12/1",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "1st Set Winner": [
+     {
+      "selection": "Lucrezia Stefanini",
+      "decimal": "1.17",
+      "american": "-588",
+      "fractional": "1/6",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Isabella Maria Serban",
+      "decimal": "5.40",
+      "american": "440",
+      "fractional": "22/5",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Games Won": [
+     {
+      "selection": "Lucrezia Stefanini -6.50",
+      "decimal": "1.90",
+      "american": "-111",
+      "fractional": "9/10",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Isabella Maria Serban +6.50",
+      "decimal": "1.98",
+      "american": "-102",
+      "fractional": "49/50",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Total Games": [
+     {
+      "selection": "Over 17.50",
+      "decimal": "1.83",
+      "american": "-120",
+      "fractional": "5/6",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Under 17.50",
+      "decimal": "2.10",
+      "american": "110",
+      "fractional": "11/10",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": "3,"
+     }
+    ]
+   },
+   "event_id": "902372",
+   "home": "Lucrezia Stefanini",
+   "away": "Isabella Maria Serban",
    "home_rank": null,
    "away_rank": null,
    "feed_count": 1
@@ -17698,7 +17858,7 @@
      {
       "selection": "Carlos Alcaraz",
       "decimal": "1.22",
-      "american": "-455",
+      "american": "-450",
       "fractional": "2/9",
       "tip_record": "0 / 2 Win Tips",
       "consensus": "0",
@@ -17955,140 +18115,6 @@
    "feed_count": 1
   },
   {
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
-   "sport": "tennis",
-   "sport_label": "Tennis",
-   "event_name": "Lucrezia Stefanini vs Isabella Maria Serban",
-   "competition": "",
-   "start_utc": "2026-10-27T10:00:00.000Z",
-   "markets": {
-    "Win Match": [
-     {
-      "selection": "Lucrezia Stefanini",
-      "decimal": "1.11",
-      "american": "-909",
-      "fractional": "1/9",
-      "tip_record": "2 / 2 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     },
-     {
-      "selection": "Isabella Maria Serban",
-      "decimal": "7.50",
-      "american": "650",
-      "fractional": "13/2",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Set Betting": [
-     {
-      "selection": "Lucrezia Stefanini to win 2 - 0",
-      "decimal": "1.40",
-      "american": "-250",
-      "fractional": "2/5",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lucrezia Stefanini to win 2 - 1",
-      "decimal": "5.50",
-      "american": "450",
-      "fractional": "9/2",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isabella Maria Serban to win 2 - 1",
-      "decimal": "12.00",
-      "american": "1100",
-      "fractional": "11/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isabella Maria Serban to win 2 - 0",
-      "decimal": "13.00",
-      "american": "1200",
-      "fractional": "12/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "1st Set Winner": [
-     {
-      "selection": "Lucrezia Stefanini",
-      "decimal": "1.17",
-      "american": "-588",
-      "fractional": "1/6",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isabella Maria Serban",
-      "decimal": "5.40",
-      "american": "440",
-      "fractional": "22/5",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Games Won": [
-     {
-      "selection": "Lucrezia Stefanini -6.50",
-      "decimal": "1.90",
-      "american": "-111",
-      "fractional": "9/10",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isabella Maria Serban +6.50",
-      "decimal": "1.98",
-      "american": "-102",
-      "fractional": "49/50",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Total Games": [
-     {
-      "selection": "Over 17.50",
-      "decimal": "1.83",
-      "american": "-120",
-      "fractional": "5/6",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Under 17.50",
-      "decimal": "2.10",
-      "american": "110",
-      "fractional": "11/10",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "0",
-      "comments": "3,"
-     }
-    ]
-   },
-   "event_id": "902372",
-   "home": "Lucrezia Stefanini",
-   "away": "Isabella Maria Serban",
-   "home_rank": null,
-   "away_rank": null,
-   "feed_count": 1
-  },
-  {
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Xinran_Sun_vs_Mananchaya_Sawangkaew/3?event_id=902183",
    "sport": "tennis",
    "sport_label": "Tennis",
@@ -18099,9 +18125,9 @@
     "Win Match": [
      {
       "selection": "Mananchaya Sawangkaew",
-      "decimal": "1.80",
-      "american": "-125",
-      "fractional": "4/5",
+      "decimal": "1.85",
+      "american": "-118",
+      "fractional": "17/20",
       "tip_record": "1 / 1 Win Tips",
       "consensus": "100",
       "comments": ""
@@ -18176,19 +18202,19 @@
     ],
     "Games Won": [
      {
-      "selection": "Mananchaya Sawangkaew -1.50",
-      "decimal": "1.85",
-      "american": "-118",
-      "fractional": "17/20",
+      "selection": "Xinran Sun +1.50",
+      "decimal": "1.83",
+      "american": "-120",
+      "fractional": "5/6",
       "tip_record": "0 / 0 Win Tips",
       "consensus": "0",
       "comments": ""
      },
      {
-      "selection": "Xinran Sun +1.50",
-      "decimal": "1.85",
-      "american": "-118",
-      "fractional": "17/20",
+      "selection": "Mananchaya Sawangkaew -1.50",
+      "decimal": "1.98",
+      "american": "-102",
+      "fractional": "49/50",
       "tip_record": "0 / 0 Win Tips",
       "consensus": "0",
       "comments": ""
@@ -18197,9 +18223,9 @@
     "Total Games": [
      {
       "selection": "Under 21.50",
-      "decimal": "1.91",
-      "american": "-110",
-      "fractional": "10/11",
+      "decimal": "1.80",
+      "american": "-125",
+      "fractional": "4/5",
       "tip_record": "0 / 0 Win Tips",
       "consensus": "0",
       "comments": ""
@@ -18625,6 +18651,62 @@
    "feed_count": 1
   },
   {
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Francesca_Jones_vs_Maria_Florencia_Urrutia/3?event_id=902323",
+   "sport": "tennis",
+   "sport_label": "Tennis",
+   "event_name": "Francesca Jones vs Maria Florencia Urrutia",
+   "competition": "",
+   "start_utc": "2026-10-27T14:00:00.000Z",
+   "markets": {
+    "Win Match": [
+     {
+      "selection": "Francesca Jones",
+      "decimal": "1.05",
+      "american": "-2000",
+      "fractional": "1/20",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     },
+     {
+      "selection": "Maria Florencia Urrutia",
+      "decimal": "8.50",
+      "american": "750",
+      "fractional": "15/2",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "1st Set Winner": [
+     {
+      "selection": "Francesca Jones",
+      "decimal": "1.10",
+      "american": "-1000",
+      "fractional": "1/10",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Maria Florencia Urrutia",
+      "decimal": "6.50",
+      "american": "550",
+      "fractional": "11/2",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": "3,"
+     }
+    ]
+   },
+   "event_id": "902323",
+   "home": "Francesca Jones",
+   "away": "Maria Florencia Urrutia",
+   "home_rank": null,
+   "away_rank": null,
+   "feed_count": 1
+  },
+  {
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Mia_Ristic_vs_Martyna_Kubka/3?event_id=902370",
    "sport": "tennis",
    "sport_label": "Tennis",
@@ -18759,140 +18841,6 @@
    "feed_count": 1
   },
   {
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Giovanni_Mpetshi_Perricard_vs_Arthur_Fils/3?event_id=902347",
-   "sport": "tennis",
-   "sport_label": "Tennis",
-   "event_name": "Giovanni Mpetshi Perricard vs Arthur Fils",
-   "competition": "",
-   "start_utc": "2026-10-27T14:30:00.000Z",
-   "markets": {
-    "Win Match": [
-     {
-      "selection": "Arthur Fils",
-      "decimal": "1.25",
-      "american": "-400",
-      "fractional": "1/4",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Giovanni Mpetshi Perricard",
-      "decimal": "4.00",
-      "american": "300",
-      "fractional": "3/1",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     }
-    ],
-    "Set Betting": [
-     {
-      "selection": "Arthur Fils to win 2 - 0",
-      "decimal": "1.80",
-      "american": "-125",
-      "fractional": "4/5",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Arthur Fils to win 2 - 1",
-      "decimal": "3.90",
-      "american": "290",
-      "fractional": "29/10",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Giovanni Mpetshi Perricard to win 2 - 1",
-      "decimal": "7.50",
-      "american": "650",
-      "fractional": "13/2",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Giovanni Mpetshi Perricard to win 2 - 0",
-      "decimal": "8.00",
-      "american": "700",
-      "fractional": "7/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "1st Set Winner": [
-     {
-      "selection": "Arthur Fils",
-      "decimal": "1.36",
-      "american": "-275",
-      "fractional": "4/11",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Giovanni Mpetshi Perricard",
-      "decimal": "3.20",
-      "american": "220",
-      "fractional": "11/5",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     }
-    ],
-    "Games Won": [
-     {
-      "selection": "Giovanni Mpetshi Perricard +3.50",
-      "decimal": "1.73",
-      "american": "-138",
-      "fractional": "8/11",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     },
-     {
-      "selection": "Arthur Fils -3.50",
-      "decimal": "2.20",
-      "american": "120",
-      "fractional": "6/5",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Total Games": [
-     {
-      "selection": "Under 23.50",
-      "decimal": "1.80",
-      "american": "-125",
-      "fractional": "4/5",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Over 23.50",
-      "decimal": "1.98",
-      "american": "-102",
-      "fractional": "49/50",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "100",
-      "comments": "3,"
-     }
-    ]
-   },
-   "event_id": "902347",
-   "home": "Giovanni Mpetshi Perricard",
-   "away": "Arthur Fils",
-   "home_rank": null,
-   "away_rank": null,
-   "feed_count": 1
-  },
-  {
    "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
    "sport": "motor-racing",
    "sport_label": "Motor Racing",
@@ -18970,206 +18918,6 @@
    "competition": "",
    "start_utc": "2026-11-01T20:00:00.000Z",
    "markets": {
-    "Win Race": [
-     {
-      "selection": "Max Verstappen",
-      "decimal": "2.38",
-      "american": "138",
-      "fractional": "11/8",
-      "tip_record": "1 / 3 Win Tips",
-      "consensus": "33",
-      "comments": ""
-     },
-     {
-      "selection": "Kimi Antonelli",
-      "decimal": "2.75",
-      "american": "175",
-      "fractional": "7/4",
-      "tip_record": "1 / 3 Win Tips",
-      "consensus": "33",
-      "comments": ""
-     },
-     {
-      "selection": "Charles Leclerc",
-      "decimal": "9.00",
-      "american": "800",
-      "fractional": "8/1",
-      "tip_record": "1 / 3 Win Tips",
-      "consensus": "33",
-      "comments": ""
-     },
-     {
-      "selection": "Lewis Hamilton",
-      "decimal": "9.50",
-      "american": "850",
-      "fractional": "17/2",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "George Russell",
-      "decimal": "17.00",
-      "american": "1600",
-      "fractional": "16/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lando Norris",
-      "decimal": "19.00",
-      "american": "1800",
-      "fractional": "18/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isack Hadjar",
-      "decimal": "26.00",
-      "american": "2500",
-      "fractional": "25/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oscar Piastri",
-      "decimal": "34.00",
-      "american": "3300",
-      "fractional": "33/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Arvid Lindblad",
-      "decimal": "251.00",
-      "american": "25000",
-      "fractional": "250/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Liam Lawson",
-      "decimal": "251.00",
-      "american": "25000",
-      "fractional": "250/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Pierre Gasly",
-      "decimal": "251.00",
-      "american": "25000",
-      "fractional": "250/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Alex Albon",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Carlos Sainz",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Esteban Ocon",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Fernando Alonso",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Franco Colapinto",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Gabriel Bortoleto",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lance Stroll",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Nico Hulkenberg",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oliver Bearman",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Sergio Perez",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Valtteri Bottas",
-      "decimal": "501.00",
-      "american": "50000",
-      "fractional": "500/1",
-      "tip_record": "0 / 3 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
     "Fastest Lap": [
      {
       "selection": "Max Verstappen",
@@ -19566,406 +19314,6 @@
       "american": "45000",
       "fractional": "450/1",
       "tip_record": "0 / 2 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Top 6 Finish": [
-     {
-      "selection": "Kimi Antonelli - Yes",
-      "decimal": "1.08",
-      "american": "-1205",
-      "fractional": "1/12",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Max Verstappen - Yes",
-      "decimal": "1.08",
-      "american": "-1205",
-      "fractional": "1/12",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Charles Leclerc - Yes",
-      "decimal": "1.14",
-      "american": "-704",
-      "fractional": "1/7",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lewis Hamilton - Yes",
-      "decimal": "1.17",
-      "american": "-602",
-      "fractional": "1/6",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "George Russell - Yes",
-      "decimal": "1.20",
-      "american": "-500",
-      "fractional": "1/5",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lando Norris - Yes",
-      "decimal": "1.40",
-      "american": "-250",
-      "fractional": "2/5",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isack Hadjar - Yes",
-      "decimal": "1.67",
-      "american": "-150",
-      "fractional": "4/6",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oscar Piastri - Yes",
-      "decimal": "1.83",
-      "american": "-120",
-      "fractional": "5/6",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Liam Lawson - Yes",
-      "decimal": "6.00",
-      "american": "500",
-      "fractional": "5/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Arvid Lindblad - Yes",
-      "decimal": "8.00",
-      "american": "700",
-      "fractional": "7/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Pierre Gasly - Yes",
-      "decimal": "9.00",
-      "american": "800",
-      "fractional": "8/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Franco Colapinto - Yes",
-      "decimal": "17.00",
-      "american": "1600",
-      "fractional": "16/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Gabriel Bortoleto - Yes",
-      "decimal": "21.00",
-      "american": "2000",
-      "fractional": "20/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Nico Hulkenberg - Yes",
-      "decimal": "21.00",
-      "american": "2000",
-      "fractional": "20/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Esteban Ocon - Yes",
-      "decimal": "26.00",
-      "american": "2500",
-      "fractional": "25/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oliver Bearman - Yes",
-      "decimal": "26.00",
-      "american": "2500",
-      "fractional": "25/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Fernando Alonso - Yes",
-      "decimal": "34.00",
-      "american": "3300",
-      "fractional": "33/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lance Stroll - Yes",
-      "decimal": "41.00",
-      "american": "4000",
-      "fractional": "40/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Carlos Sainz - Yes",
-      "decimal": "51.00",
-      "american": "5000",
-      "fractional": "50/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Alex Albon - Yes",
-      "decimal": "67.00",
-      "american": "6600",
-      "fractional": "66/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Sergio Perez - Yes",
-      "decimal": "251.00",
-      "american": "25000",
-      "fractional": "250/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Valtteri Bottas - Yes",
-      "decimal": "251.00",
-      "american": "25000",
-      "fractional": "250/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Points Finish": [
-     {
-      "selection": "Kimi Antonelli - Yes",
-      "decimal": "1.06",
-      "american": "-1613",
-      "fractional": "1/16",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Max Verstappen - Yes",
-      "decimal": "1.06",
-      "american": "-1613",
-      "fractional": "1/16",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Charles Leclerc - Yes",
-      "decimal": "1.07",
-      "american": "-1408",
-      "fractional": "1/14",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lewis Hamilton - Yes",
-      "decimal": "1.07",
-      "american": "-1408",
-      "fractional": "1/14",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "George Russell - Yes",
-      "decimal": "1.08",
-      "american": "-1205",
-      "fractional": "1/12",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lando Norris - Yes",
-      "decimal": "1.10",
-      "american": "-1000",
-      "fractional": "1/10",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Isack Hadjar - Yes",
-      "decimal": "1.12",
-      "american": "-800",
-      "fractional": "1/8",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oscar Piastri - Yes",
-      "decimal": "1.14",
-      "american": "-704",
-      "fractional": "1/7",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Liam Lawson - Yes",
-      "decimal": "1.50",
-      "american": "-200",
-      "fractional": "1/2",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Arvid Lindblad - Yes",
-      "decimal": "1.73",
-      "american": "-138",
-      "fractional": "8/11",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Pierre Gasly - Yes",
-      "decimal": "1.73",
-      "american": "-138",
-      "fractional": "8/11",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Franco Colapinto - Yes",
-      "decimal": "2.75",
-      "american": "175",
-      "fractional": "7/4",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Gabriel Bortoleto - Yes",
-      "decimal": "3.00",
-      "american": "200",
-      "fractional": "2/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Nico Hulkenberg - Yes",
-      "decimal": "3.50",
-      "american": "250",
-      "fractional": "5/2",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Oliver Bearman - Yes",
-      "decimal": "5.00",
-      "american": "400",
-      "fractional": "4/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Esteban Ocon - Yes",
-      "decimal": "6.00",
-      "american": "500",
-      "fractional": "5/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Fernando Alonso - Yes",
-      "decimal": "6.00",
-      "american": "500",
-      "fractional": "5/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Lance Stroll - Yes",
-      "decimal": "10.00",
-      "american": "900",
-      "fractional": "9/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Alex Albon - Yes",
-      "decimal": "11.00",
-      "american": "1000",
-      "fractional": "10/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Carlos Sainz - Yes",
-      "decimal": "11.00",
-      "american": "1000",
-      "fractional": "10/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Sergio Perez - Yes",
-      "decimal": "67.00",
-      "american": "6600",
-      "fractional": "66/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Valtteri Bottas - Yes",
-      "decimal": "67.00",
-      "american": "6600",
-      "fractional": "66/1",
-      "tip_record": "0 / 0 Win Tips",
       "consensus": "0",
       "comments": "14,"
      }
@@ -20663,8 +20011,8 @@
       "decimal": "5.50",
       "american": "450",
       "fractional": "9/2",
-      "tip_record": "0 / 5 Win Tips",
-      "consensus": "0",
+      "tip_record": "1 / 5 Win Tips",
+      "consensus": "20",
       "comments": ""
      },
      {
@@ -20683,7 +20031,7 @@
       "decimal": "1.85",
       "american": "-118",
       "fractional": "17/20",
-      "tip_record": "1 / 1 Win Tips",
+      "tip_record": "2 / 2 Win Tips",
       "consensus": "100",
       "comments": ""
      },
@@ -21365,8 +20713,8 @@
      {
       "selection": "Sport +1.50",
       "decimal": "1.44",
-      "american": "-225",
-      "fractional": "4/9",
+      "american": "-227",
+      "fractional": "11/25",
       "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
       "comments": ""
@@ -21660,9 +21008,9 @@
     "Puck Line": [
      {
       "selection": "PHI Flyers +1.50",
-      "decimal": "1.37",
-      "american": "-270",
-      "fractional": "37/100",
+      "decimal": "1.40",
+      "american": "-250",
+      "fractional": "2/5",
       "tip_record": "1 / 1 Win Tips",
       "consensus": "100",
       "comments": ""
@@ -22859,7 +22207,7 @@
       "decimal": "1.85",
       "american": "-118",
       "fractional": "17/20",
-      "tip_record": "0 / 0 Win Tips",
+      "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
       "comments": ""
      },
@@ -22869,7 +22217,7 @@
       "american": "-102",
       "fractional": "49/50",
       "tip_record": "1 / 1 Win Tips",
-      "consensus": "0",
+      "consensus": "100",
       "comments": "4,"
      }
     ]
@@ -23016,7 +22364,7 @@
       "decimal": "2.04",
       "american": "104",
       "fractional": "26/25",
-      "tip_record": "0 / 1 Win Tips",
+      "tip_record": "0 / 2 Win Tips",
       "consensus": "0",
       "comments": "4,"
      }
@@ -23186,18 +22534,18 @@
     "Money Line": [
      {
       "selection": "Barcelona",
-      "decimal": "2.00",
-      "american": "100",
-      "fractional": "1/1",
+      "decimal": "1.91",
+      "american": "-110",
+      "fractional": "10/11",
       "tip_record": "2 / 5 Win Tips",
       "consensus": "40",
       "comments": ""
      },
      {
       "selection": "Bayern Munich",
-      "decimal": "2.00",
-      "american": "100",
-      "fractional": "1/1",
+      "decimal": "2.05",
+      "american": "105",
+      "fractional": "21/20",
       "tip_record": "3 / 5 Win Tips",
       "consensus": "60",
       "comments": ""
@@ -24064,6 +23412,80 @@
    "feed_count": 1
   },
   {
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Minas_vs_Pato_Basquete/4?event_id=536210",
+   "sport": "basketball",
+   "sport_label": "Basketball",
+   "event_name": "Minas vs Pato Basquete",
+   "competition": "Brazil NBB",
+   "start_utc": "2026-10-27T22:00:00.000Z",
+   "markets": {
+    "Money Line": [
+     {
+      "selection": "Minas",
+      "decimal": "1.02",
+      "american": "-4000",
+      "fractional": "1/40",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Pato Basquete",
+      "decimal": "11.00",
+      "american": "1000",
+      "fractional": "10/1",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     }
+    ],
+    "Pointspread": [
+     {
+      "selection": "Minas -18.50",
+      "decimal": "1.85",
+      "american": "-118",
+      "fractional": "17/20",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Pato Basquete +18.50",
+      "decimal": "1.95",
+      "american": "-105",
+      "fractional": "20/21",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Game Totals": [
+     {
+      "selection": "Over 162.50",
+      "decimal": "1.85",
+      "american": "-118",
+      "fractional": "17/20",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Under 162.50",
+      "decimal": "1.95",
+      "american": "-105",
+      "fractional": "20/21",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": "4,"
+     }
+    ]
+   },
+   "event_id": "536210",
+   "home": "Minas",
+   "away": "Pato Basquete",
+   "feed_count": 1
+  },
+  {
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4?event_id=536209",
    "sport": "basketball",
    "sport_label": "Basketball",
@@ -24074,9 +23496,9 @@
     "Money Line": [
      {
       "selection": "Brasilia",
-      "decimal": "1.70",
-      "american": "-143",
-      "fractional": "7/10",
+      "decimal": "1.65",
+      "american": "-154",
+      "fractional": "13/20",
       "tip_record": "0 / 1 Win Tips",
       "consensus": "0",
       "comments": ""
@@ -24138,6 +23560,103 @@
    "feed_count": 1
   },
   {
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Pinheiros_vs_Uniao_Corinthians/4?event_id=536211",
+   "sport": "basketball",
+   "sport_label": "Basketball",
+   "event_name": "Pinheiros vs Uniao Corinthians",
+   "competition": "Brazil NBB",
+   "start_utc": "2026-10-27T23:30:00.000Z",
+   "markets": {
+    "Money Line": [
+     {
+      "selection": "Pinheiros",
+      "decimal": "1.15",
+      "american": "-667",
+      "fractional": "2/13",
+      "tip_record": "0 / 1 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Uniao Corinthians",
+      "decimal": "6.00",
+      "american": "500",
+      "fractional": "5/1",
+      "tip_record": "1 / 1 Win Tips",
+      "consensus": "100",
+      "comments": ""
+     }
+    ],
+    "Pointspread": [
+     {
+      "selection": "Pinheiros -10.50",
+      "decimal": "1.83",
+      "american": "-120",
+      "fractional": "5/6",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Uniao Corinthians +10.50",
+      "decimal": "2.05",
+      "american": "105",
+      "fractional": "21/20",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     }
+    ],
+    "Game Totals": [
+     {
+      "selection": "Over 159.50",
+      "decimal": "1.83",
+      "american": "-120",
+      "fractional": "5/6",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": ""
+     },
+     {
+      "selection": "Under 159.50",
+      "decimal": "1.85",
+      "american": "-118",
+      "fractional": "17/20",
+      "tip_record": "0 / 0 Win Tips",
+      "consensus": "0",
+      "comments": "4,"
+     }
+    ]
+   },
+   "event_id": "536211",
+   "home": "Pinheiros",
+   "away": "Uniao Corinthians",
+   "feed_count": 1
+  },
+  {
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Argentina_Liga_Nacional/Penarol_vs_San_Martin/4?event_id=536207",
+   "sport": "basketball",
+   "sport_label": "Basketball",
+   "event_name": "Penarol vs San Martin",
+   "competition": "Argentina Liga Nacional",
+   "start_utc": "2026-10-28T00:00:00.000Z",
+   "markets": {
+    "Money Line": [
+     {
+      "selection": "San Martin",
+      "decimal": "4.20",
+      "american": "320",
+      "tip_record": "1/1 Win Tips",
+      "consensus": "100"
+     }
+    ]
+   },
+   "event_id": "536207",
+   "home": "Penarol",
+   "away": "San Martin",
+   "feed_count": 1
+  },
+  {
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/BKN_Nets_@_BOS_Celtics/4?event_id=536253",
    "sport": "basketball",
    "sport_label": "Basketball",
@@ -24150,59 +23669,8 @@
       "selection": "BOS Celtics",
       "decimal": "1.17",
       "american": "-599",
-      "fractional": "1/6",
-      "tip_record": "1 / 2 Win Tips",
-      "consensus": "50",
-      "comments": ""
-     },
-     {
-      "selection": "BKN Nets",
-      "decimal": "5.50",
-      "american": "450",
-      "fractional": "9/2",
-      "tip_record": "1 / 2 Win Tips",
-      "consensus": "50",
-      "comments": ""
-     }
-    ],
-    "Pointspread": [
-     {
-      "selection": "BKN Nets +12.50",
-      "decimal": "1.87",
-      "american": "-115",
-      "fractional": "20/23",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "BOS Celtics -12.50",
-      "decimal": "2.00",
-      "american": "100",
-      "fractional": "1/1",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Game Totals": [
-     {
-      "selection": "Under 221.50",
-      "decimal": "1.91",
-      "american": "-110",
-      "fractional": "10/11",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Over 221.50",
-      "decimal": "1.95",
-      "american": "-105",
-      "fractional": "20/21",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": "4,"
+      "tip_record": "1/2 Win Tips",
+      "consensus": "50"
      }
     ]
    },
@@ -24224,59 +23692,8 @@
       "selection": "NY Knicks",
       "decimal": "1.67",
       "american": "-149",
-      "fractional": "4/6",
-      "tip_record": "1 / 1 Win Tips",
-      "consensus": "100",
-      "comments": ""
-     },
-     {
-      "selection": "DET Pistons",
-      "decimal": "2.45",
-      "american": "145",
-      "fractional": "29/20",
-      "tip_record": "0 / 1 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Pointspread": [
-     {
-      "selection": "NY Knicks -3.50",
-      "decimal": "1.91",
-      "american": "-110",
-      "fractional": "10/11",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "DET Pistons +3.50",
-      "decimal": "2.05",
-      "american": "105",
-      "fractional": "21/20",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     }
-    ],
-    "Game Totals": [
-     {
-      "selection": "Over 218.50",
-      "decimal": "1.92",
-      "american": "-109",
-      "fractional": "100/109",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": ""
-     },
-     {
-      "selection": "Under 218.50",
-      "decimal": "1.95",
-      "american": "-105",
-      "fractional": "20/21",
-      "tip_record": "0 / 0 Win Tips",
-      "consensus": "0",
-      "comments": "4,"
+      "tip_record": "1/1 Win Tips",
+      "consensus": "100"
      }
     ]
    },
@@ -24295,11 +23712,11 @@
    "markets": {
     "Money Line": [
      {
-      "selection": "SA Spurs",
-      "decimal": "1.05",
-      "american": "-2000",
-      "tip_record": "1/1 Win Tips",
-      "consensus": "100"
+      "selection": "SAC Kings",
+      "decimal": "13.00",
+      "american": "1200",
+      "tip_record": "1/2 Win Tips",
+      "consensus": "50"
      }
     ]
    },
@@ -24968,7 +24385,7 @@
     "capture": "official_tennis_0",
     "label": "WTA Tour scores",
     "url": "https://www.wtatennis.com/scores",
-    "chars": 213612,
+    "chars": 213617,
     "ok": true
    },
    {
@@ -24984,14 +24401,14 @@
     "capture": "official_golf_0",
     "label": "PGA TOUR schedule",
     "url": "https://www.pgatour.com/schedule",
-    "chars": 536380,
+    "chars": 536406,
     "ok": true
    },
    {
     "capture": "official_golf_1",
     "label": "LPGA tournament schedule",
     "url": "https://www.lpga.com/tournaments",
-    "chars": 543882,
+    "chars": 549117,
     "ok": true
    },
    {
@@ -25007,14 +24424,14 @@
     "capture": "official_cricket_0",
     "label": "ICC fixtures and results",
     "url": "https://www.icc-cricket.com/fixtures-results",
-    "chars": 371449,
+    "chars": 371523,
     "ok": true
    },
    {
     "capture": "official_cricket_1",
     "label": "ICC men's ODI team rankings",
     "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
-    "chars": 458583,
+    "chars": 458671,
     "ok": true
    }
   ],
@@ -25023,7 +24440,7 @@
     "capture": "official_rugby_union_0",
     "label": "EPCR (Champions Cup) fixtures page",
     "url": "https://www.epcrugby.com/",
-    "chars": 675507,
+    "chars": 678195,
     "ok": true
    },
    {
@@ -25069,7 +24486,7 @@
     "capture": "official_handball_1",
     "label": "EHF (eurohandball.com) matches",
     "url": "https://www.eurohandball.com/en/",
-    "chars": 160301,
+    "chars": 160559,
     "ok": true
    }
   ],
@@ -25094,7 +24511,7 @@
     "capture": "official_greyhounds_2",
     "label": "GBGB race cards",
     "url": "https://www.gbgb.org.uk/race-cards/",
-    "chars": 96175,
+    "chars": 96163,
     "ok": true
    }
   ],
@@ -25128,7 +24545,7 @@
     "capture": "official_basketball_3",
     "label": "NBA.com games",
     "url": "https://www.nba.com/games",
-    "chars": 547664,
+    "chars": 550089,
     "ok": true
    }
   ],
