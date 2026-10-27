@@ -819,7 +819,9 @@ def price_market(ev: dict, official: dict, market: dict) -> dict:
         result["flags"].append("No usable displayed prices in this market.")
         return result
     raw = [1 / valid_decimal(t["decimal"]) for t in tips]
-    overround = sum(raw)
+    # math.fsum is correctly rounded and identical across CPython versions
+    # (3.12 changed builtin float sum), so generated files stay byte-stable.
+    overround = math.fsum(raw)
     market_prob = [r / overround for r in raw]
     total_tips = max((t["total_tips"] for t in tips), default=0)
     win_tips = [t["win_tips"] for t in tips]
@@ -837,7 +839,7 @@ def price_market(ev: dict, official: dict, market: dict) -> dict:
         # differs between CPython versions' float summation.
         fair = list(market_prob)
     else:
-        total_fair = sum(max(f, 0.00001) for f in fair)
+        total_fair = math.fsum(max(f, 0.00001) for f in fair)
         fair = [max(f, 0.00001) / total_fair for f in fair]
     for i, (t, mp, cp, fp) in enumerate(zip(tips, market_prob, consensus, fair)):
         displayed = re.sub(r"[^0-9+-]", "", t["american"])
