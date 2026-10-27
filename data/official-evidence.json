@@ -1,0 +1,59 @@
+{
+  "captureUtc": "2026-10-27T05:45:00Z",
+  "evidence": {
+    "mlb_ws": {
+      "name": "MLB StatsAPI World Series schedule 2026-10-24…28",
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-24&endDate=2026-10-28&hydrate=team,linescore",
+      "facts": "MIL lead TB 3-0. G2 (Oct 24, MIL home): MIL 5-4 TB. G3 (Oct 26, TB home): MIL 10-1 TB (8 runs in 5th). G4 officialDate 2026-10-27, gameDate 2026-10-28T00:00Z, Tropicana Field, gamePk 849803. Rays probable: Griffin Jax (hydrate=probablePitcher, gamePk 849803).",
+      "source_id": "s-mlb"
+    },
+    "nhl_standings": {
+      "name": "NHL.com official standings (2026-10-26)",
+      "url": "https://www.nhl.com/standings",
+      "facts": "CAR 13 GP 9-2-2, 20 pts, +18 GD, L10 8-1-1, W1. BOS 12 GP 9-2-1, 19 pts, +22 GD, L10 7-2-1, W2, road 4-1-1. PHI 13 GP 3-7-3, 9 pts, -18 GD, L1. CBJ 9 GP 4-5-0, 8 pts, -8, W1, road 0-2-0. FLA 12 GP 6-4-2, 14 pts, -2, W1. WPG 11 GP 4-4-3, 11 pts, -4, L1. NJ 11 GP 7-4-0, 14 pts, +4, W3. DAL 11 GP 7-3-1, 15 pts, +12, W5, GA 20 in 11. NYI 11 GP 5-4-2, 12 pts, +3, L1, road 1-3-1. NSH 11 GP 4-3-4, 12 pts, -4, W1. MTL 11 GP 6-3-2, 14 pts, W2. STL 11 GP 5-5-1, 11 pts, L1. LAK 10 GP 3-5-2, 8 pts, home 0-3-0.",
+      "source_id": "s-nhl"
+    },
+    "nba_games": {
+      "name": "NBA.com games page 2026-10-27",
+      "url": "https://www.nba.com/games?date=2026-10-27",
+      "facts": "BKN 0-3 at BOS 2-1, 7:30 PM ET (game bkn-vs-bos-0022600128); season leaders Randle (BKN) 22.0/7.0/6.3, Tatum (BOS) 24.0/6.7/8.0. DET 3-0 at NYK 0-3, 8:00 PM ET (det-vs-nyk-0022600129); Cunningham (DET) 21.3/4.7/8.0, Towns (NYK) 21.0/12.0/2.7. Also SAC 0-3 at SAS 1-2, POR 2-0 at LAL 3-0.",
+      "source_id": "s-nba"
+    },
+    "icc_fixtures": {
+      "name": "ICC official fixtures & results",
+      "url": "https://www.icc-cricket.com/fixtures-results",
+      "facts": "NZ vs IND 3rd T20 (ICC match 271648), NAM vs IRE 3rd ODI (275412), PAK vs SL ODI (274146), SA vs AUS 3rd Test WTC (269792), AFG vs ZIM 1st T20 (274660), BAN vs WI Test WTC (274665). List identities confirmed; absolute times on the ICC page are viewer-timezone labelled.",
+      "source_id": "s-icc"
+    },
+    "atp_scores": {
+      "name": "ATP Tour current scores (Basel + Vienna)",
+      "url": "https://www.atptour.com/en/scores/current",
+      "facts": "ATP Basel R1: Ruud d. Stricker 4-6 7-5 6-3; Vacherot d. Navone. ATP Vienna R1: de Minaur d. Machac 1-6 6-4 6-3; Mensik d. Neumayer 6-2 6-2. OLBG tennis events on 27-28 Oct belong to the Basel/Vienna swing plus the WTA Bangkok week (women's).",
+      "source_id": "s-atp"
+    },
+    "lpga_sched": {
+      "name": "LPGA official tournament schedule",
+      "url": "https://www.lpga.com/tournaments",
+      "facts": "Maybank Championship 29 Oct - 1 Nov 2026, Kuala Lumpur Golf & Country Club West Course, $3.00M purse, 500 CME Globe points, 2025 winner Miyu Yamashita (-18).",
+      "source_id": "s-lpga"
+    },
+    "ehf_cl": {
+      "name": "EHF Champions League 2026-27 official schedule",
+      "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+      "facts": "28 Oct: Wisla Plock-Nantes 18:45, Porto-Veszprem 18:45, Vardar-Melsungen 18:45, Kielce-Kolstad 20:45, Celje-Zagreb 20:45, Magdeburg-Kriens-Luzern 20:45, PSG-Aalborg 20:45 (CEST). 29 Oct: Kristianstad-Szeged 18:45, GOG-Sporting 18:45, Fuchse Berlin-Partizan 18:45, Montpellier-Dinamo 20:45, SAH Aarhus-Barca 20:45.",
+      "source_id": "s-ehf"
+    },
+    "lnr_prod2": {
+      "name": "LNR Pro D2 official calendar (J9)",
+      "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+      "facts": "J9: Thu 29 Oct 21:00 Dax (10e) vs Provence (2e). Fri 30 Oct 19:00 Colomiers (12e) vs Agen (9e); 19:30 Beziers (15e) vs Grenoble (3e); 19:30 Montauban (6e) vs Narbonne (13e); 19:30 Nissa/Nice (14e) vs Aurillac (7e); 19:30 Oyonnax (1e) vs Soyaux-Angouleme (4e); 21:00 Biarritz (8e) vs Valence-Romans (11e); 21:00 Nevers (16e) vs Brive (5e). Top 14 J7 results: Toulon 41-20 Pau, Castres 16-8 Stade Francais, Toulouse 38-33 Perpignan, UBB 25-19 La Rochelle.",
+      "source_id": "s-lnr"
+    },
+    "f1_2026": {
+      "name": "Formula 1 official 2026 race calendar",
+      "url": "https://www.formula1.com/en/racing/2026",
+      "facts": "Round 19 Mexico: 30 Oct - 1 Nov 2026 (race Sunday 1 Nov). Recent rounds: Antonelli won Australia, China, Japan, Miami, Canada, Monaco (6 of 7); Hamilton won Spain. Verstappen best finish 3rd (Canada).",
+      "source_id": "s-f1"
+    }
+  }
+}

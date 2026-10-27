@@ -1,0 +1,268 @@
+{
+ "schema": "olbg-desk-sources/1",
+ "groups": [
+  {
+   "title": "Listing source",
+   "intro": "Everything about what is on offer, and which side tipsters prefer, comes from these pages.",
+   "items": [
+    {
+     "name": "OLBG sport hubs",
+     "url": "https://www.olbg.com/betting-tips",
+     "covers": "All fifteen sports",
+     "used_for": "Event listings, markets, tip counts",
+     "checked": "Fetched for this build; per-sport hub links are on each sport page"
+    }
+   ]
+  },
+  {
+   "title": "Official competition sources",
+   "intro": "Used for event identity, form, standings and availability. A pick is not published without at least one of these confirming the fixture.",
+   "items": [
+    {
+     "name": "ATP Tour",
+     "url": "https://www.atptour.com/",
+     "covers": "Tennis",
+     "used_for": "Draws, rankings, results",
+     "checked": "See sport page"
+    },
+    {
+     "name": "WTA Tour",
+     "url": "https://www.wtatennis.com/",
+     "covers": "Tennis",
+     "used_for": "Draws, rankings, results",
+     "checked": "See sport page"
+    },
+    {
+     "name": "GAA",
+     "url": "https://www.gaa.ie/",
+     "covers": "Gaelic football, hurling",
+     "used_for": "Fixtures, results, tables",
+     "checked": "See sport page"
+    },
+    {
+     "name": "World Snooker Tour",
+     "url": "https://www.wst.tv/",
+     "covers": "Snooker",
+     "used_for": "Draws, results, rankings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "PDC",
+     "url": "https://www.pdc.tv/",
+     "covers": "Darts",
+     "used_for": "Draws, results, order of merit",
+     "checked": "See sport page"
+    },
+    {
+     "name": "MLB",
+     "url": "https://www.mlb.com/",
+     "covers": "Baseball",
+     "used_for": "Schedule, standings, probable pitchers",
+     "checked": "See sport page"
+    },
+    {
+     "name": "NHL",
+     "url": "https://www.nhl.com/",
+     "covers": "Ice hockey",
+     "used_for": "Schedule, standings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "NBA",
+     "url": "https://www.nba.com/",
+     "covers": "Basketball",
+     "used_for": "Schedule, standings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "EuroLeague",
+     "url": "https://www.euroleaguebasketball.net/",
+     "covers": "Basketball",
+     "used_for": "Schedule, standings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "IHF",
+     "url": "https://www.ihf.info/",
+     "covers": "Handball",
+     "used_for": "Competitions, results",
+     "checked": "See sport page"
+    },
+    {
+     "name": "EHF",
+     "url": "https://www.eurohandball.com/",
+     "covers": "Handball",
+     "used_for": "Champions League fixtures",
+     "checked": "See sport page"
+    },
+    {
+     "name": "CEV",
+     "url": "https://www.cev.eu/match-centres/",
+     "covers": "Volleyball",
+     "used_for": "European fixtures",
+     "checked": "See sport page"
+    },
+    {
+     "name": "Lega Pallavolo Serie A Femminile",
+     "url": "https://www.legavolleyfemminile.it/",
+     "covers": "Volleyball",
+     "used_for": "Italian league table and results",
+     "checked": "See sport page"
+    },
+    {
+     "name": "Formula 1",
+     "url": "https://www.formula1.com/",
+     "covers": "Motor racing",
+     "used_for": "Calendar, results, standings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "MotoGP",
+     "url": "https://www.motogp.com/",
+     "covers": "Motor racing",
+     "used_for": "Calendar, results, standings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "PGA TOUR",
+     "url": "https://www.pgatour.com/schedule",
+     "covers": "Golf",
+     "used_for": "Schedule, leaderboards",
+     "checked": "See sport page"
+    },
+    {
+     "name": "DP World Tour",
+     "url": "https://www.europeantour.com/dpworld-tour/schedule/",
+     "covers": "Golf",
+     "used_for": "Schedule, leaderboards",
+     "checked": "See sport page"
+    },
+    {
+     "name": "ICC",
+     "url": "https://www.icc-cricket.com/",
+     "covers": "Cricket",
+     "used_for": "Fixtures, rankings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "World Rugby",
+     "url": "https://www.world.rugby/",
+     "covers": "Rugby union",
+     "used_for": "Fixtures, rankings",
+     "checked": "See sport page"
+    },
+    {
+     "name": "RFL",
+     "url": "https://www.rugby-league.com/",
+     "covers": "Rugby league",
+     "used_for": "Fixtures, tables",
+     "checked": "See sport page"
+    },
+    {
+     "name": "GBGB",
+     "url": "https://www.gbgb.org.uk/",
+     "covers": "Greyhounds",
+     "used_for": "Racing office, results",
+     "checked": "See sport page"
+    }
+   ]
+  },
+  {
+   "title": "Official pages opened for this snapshot, and what each returned",
+   "intro": "The result of every official fetch is logged here so a reader can see which facts came from where, and which pages failed.",
+   "items": [
+    {
+     "name": "EuroLeague standings (2026-27, 20 clubs)",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/",
+     "covers": "Basketball",
+     "used_for": "Games, wins, points for/against, home/away splits for all six published basketball picks",
+     "checked": "Read 2026-10-27; table returned 20 rows with 7 games played"
+    },
+    {
+     "name": "NHL standings feed",
+     "url": "https://api-web.nhle.com/v1/standings/now",
+     "covers": "Ice hockey",
+     "used_for": "Carolina and Boston records, goal differential, home and road splits",
+     "checked": "Read 2026-10-27 (standings dated 2026-10-26)"
+    },
+    {
+     "name": "NHL schedule for 2026-10-27",
+     "url": "https://api-web.nhle.com/v1/schedule/2026-10-27",
+     "covers": "Ice hockey",
+     "used_for": "Official face-off times and venue for the two NHL games",
+     "checked": "Read 2026-10-27; 11 games listed"
+    },
+    {
+     "name": "MLB schedule and probable pitchers",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team",
+     "covers": "Baseball",
+     "used_for": "World Series Game 4 identity, venue, first pitch, series records, Tampa Bay starter",
+     "checked": "Read 2026-10-27; Milwaukee starter not posted"
+    },
+    {
+     "name": "Lega Pallavolo Serie A Femminile table",
+     "url": "https://www.legavolleyfemminile.it/classifica/",
+     "covers": "Volleyball",
+     "used_for": "Conegliano and Vallefoglia sets, points and league points",
+     "checked": "Read 2026-10-27; rows to position 6 retrieved"
+    },
+    {
+     "name": "United Rugby Championship standings",
+     "url": "https://unitedrugby.com/standings",
+     "covers": "Rugby union",
+     "used_for": "Intended source for the URC matches",
+     "checked": "Returned HTTP 404 on 2026-10-27 - no table available, so no rugby union pick"
+    },
+    {
+     "name": "EHF Champions League standings",
+     "url": "https://ehfcl.eurohandball.com/en/standings/",
+     "covers": "Handball",
+     "used_for": "Intended source for the handball group tables",
+     "checked": "Returned HTTP 404 on 2026-10-27 - no table available, so no handball pick"
+    },
+    {
+     "name": "ICC tournament standings",
+     "url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup/standings",
+     "covers": "Cricket",
+     "used_for": "Intended source for cricket series standings",
+     "checked": "Returned HTTP 404 on 2026-10-27 - no pick published"
+    },
+    {
+     "name": "GAA fixtures and results",
+     "url": "https://www.gaa.ie/fixtures-results/",
+     "covers": "Gaelic football and hurling",
+     "used_for": "Intended source for the club fixtures on OLBG",
+     "checked": "Read 2026-10-27; the October page listed one completed Shinty-Hurling international and no upcoming club fixture, so no Gaelic pick"
+    },
+    {
+     "name": "PGA TOUR schedule",
+     "url": "https://www.pgatour.com/schedule",
+     "covers": "Golf",
+     "used_for": "Intended source for the tournament fields",
+     "checked": "Not retrieved in this session - golf has outright markets only and no published pick"
+    },
+    {
+     "name": "PDC",
+     "url": "https://www.pdc.tv/",
+     "covers": "Darts",
+     "used_for": "Intended source for the Players Championship entry list",
+     "checked": "Not retrieved in this session - darts has outright markets only and no published pick"
+    },
+    {
+     "name": "ATP Tour",
+     "url": "https://www.atptour.com/",
+     "covers": "Tennis",
+     "used_for": "Intended source for the draws behind the fourteen tennis listings",
+     "checked": "Not retrieved in this session - no tennis pick"
+    },
+    {
+     "name": "World Snooker Tour",
+     "url": "https://www.wst.tv/",
+     "covers": "Snooker",
+     "used_for": "Would be the source if OLBG had listed a snooker market",
+     "checked": "OLBG snooker hub returned no tips, so there was nothing to check"
+    }
+   ]
+  }
+ ]
+}

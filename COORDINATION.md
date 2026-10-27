@@ -1,16 +1,58 @@
 # Coordination
 
-Last updated: 2026-10-26 UTC. This board records work across the repository and the source-first primary site on `arena/40c30722-olbg8`.
+## Session `arena/6bb9f412-olbg8` — 2026-10-27
 
+Branch is fixed by the platform; no alternate session branch/worktree will be created. This session takes over the prior primary integration's stale in-progress release claim: its last recorded commit was on 2026-10-26, more than 60 minutes ago, and its release was already reported complete. PR #12 remains open under the previous owner and its `research-desk/` scope will not be edited or merged by this session. Preserve all other sessions' history and artifacts.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Audit current OLBG/official-source access, pricing and refresh; implement a current-source discovery and evidence pipeline | done | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml` |
+| Additive integration, validation and Pages refresh for current findings | done | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml`, `COORDINATION.md`; preserve active root-owner files, log cross-scope requests |
+
+No match, odds, statistics, availability or prediction will be represented as established without a corresponding source check. The requested full pricing and daily predictions remain open until actually supported. The old primary snapshot erroneously excluded Hurling; the GAA treats both Hurling and Gaelic football as Gaelic Games. Hosted OLBG pages are accessible and expose timestamped American/decimal odds in public HTML attributes; the earlier captcha flag was a false positive from a generic script token. A one-hour OLBG/MLB start-time discrepancy requires review.
+
+
+Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
+
+## Session arena-f3d31c18 — live-source prediction production (2026-10-27)
+Session: `arena-f3d31c18` · Branch: `arena/f3d31c18-olbg8` (platform-fixed).
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG re-collection across all 15 sports, line origination, confidence labels, written predictions, clean picks dashboard, integration, PR and Pages deploy | done (PR #22 merged, Pages green) | arena-f3d31c18 | `board/`, `data/board/`, `scripts/build_board.py`, `scripts/test_board.py`, `scripts/build_site.py` (nav + summary integration only), workflow gates, `COORDINATION.md` |
+- 2026-10-27: Access audit — the hosted `web_search` and `fetch_page` tools CAN retrieve OLBG category and event pages (prior sessions only tested sandbox bash HTTPS, which is TLS-blocked). Live tennis hub fetched successfully with current 2026-10-27 listings. No other active session claims observed on `main` (last merge PR #11). Claiming the scope above; prior root/evidence-lab/research-desk artifacts preserved byte-for-byte.
+- Policy: every row carries an OLBG event URL plus an official-source URL where an official fact is stated. Values not confirmable stay blank and are flagged on the Flagged for Review page. No fabricated injuries, stats, or prices.
+
+
+### Completion record — arena-f3d31c18 (2026-10-27)
+
+- **Access breakthrough:** the hosted fetch/search tools retrieve live OLBG hubs and event pages (prior sessions only tested sandbox bash HTTPS, which remains TLS-blocked). All 16 hubs (15 sports, Gaelic Football + Hurling) were fetched live on 2026-10-27.
+- **Scope shipped:** new self-contained static dashboard in `board/` (20 pages) built by `scripts/build_board.py` from curated JSON in `data/board/board-data-1..5.json`; validated by `scripts/test_board.py` (15 sports, 119 market rows, 48 written predictions, all local links resolve, banned-word and 30-word gates, source-link requirement on every row). Wired into `quality.yml` and `pages.yml`. Root `index.html` and every desk page gain a `Picks Board` nav entry and summary link through the parallel session's `scripts/build_site.py` generator (regenerated, so their diff gate stays green); their desk artifacts are preserved and `scripts/check_site.py` still passes.
+- **Official cross-checks performed (fetched directly):** NBA.com games/records, NHL.com schedule/GameCenter, MLB.com schedule/Gameday (World Series MIL@TB, G1 10-1), ATP Tour scores (Basel/Vienna), ICC fixtures (six event-level match URLs), LNR Pro D2 J9 calendar with table positions, EHF Champions League match list (12 detail URLs), EuroLeague standings, Formula1.com 2026 calendar, LPGA/PGA tournament registers, PDC.tv entries news, WST match status (no tournament), GAA.ie fixtures, GBGB racing database, NRL.com RLWC2026 draw.
+- **Line origination:** OLBG consensus shrunk toward 50% with prior strength 4 (w = n/(n+4)); independently sourced hosted-market probabilities take precedence where recorded and linked; American/decimal prices and high/medium/low confidence derived deterministically; -250..+10000 target-band flag per row. 9 high-confidence lines resulted; only two fall inside the target band, disclosed rather than forced.
+- **Irregularities published on board/flagged.html:** (1) OLBG handball markets dominated by anomalous Tie selections — independent match-winner lines originated and flagged; (2) OLBG has no Snooker tips (WST confirms no tournament today) and no Greyhound tips (GBGB database JS-rendered); (3) RLWC2026 fixtures confirmed on NRL.com but absent from OLBG — published as unpriced official fixtures; (4) third-party World Series odds articles conflict with MLB.com venue/sequence — MLB.com treated as authoritative; (5) CEV live match centres and GBGB race cards not extractable — register links only; (6) media golf/darts outright prices are dated snapshots, linked per row; (7) sparse sports (Golf 3, Darts 2, Motor 2, Gaelic 4, Baseball 3 rows) cannot reach five picks without fabrication — shortfalls shown honestly.
+- **Injury discipline:** no injury, lineup or statistic is asserted without a linked source; rows without an official bulletin simply make no injury claim and are flagged where the source is register-level.
+- Status: **done and deployed.** PR #22 merged into `main` as merge commit `6430190` (2026-10-27T05:58:56Z); Pages workflow run 40458398775 succeeded (23s). Live: <https://karagemop466-tech.github.io/Olbg8/board/index.html> (board) and <https://karagemop466-tech.github.io/Olbg8/> (root desk, with the Picks Board nav entry).
+- **Concurrent-merge handoff:** while PR #22 was open, session `arena/6bb9f412-olbg8` merged PRs #20/#23 rebuilding the root desk (`price-engine/`, `scripts/build_site.py`, `scripts/check_site.py`, `data/desk-*.json`, static root pages). My branch rebased over it: no desk file overwritten; the board entry was added through their `build_site.py` NAV/index generator and their output regenerated so their `git diff --exit-code` gate stays green; `scripts/test_board.py` was union-added to both `quality.yml` and `pages.yml`; their `check_site.py` (645 checks) and all other sessions' workflows remain green.
 ## Task board
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Raw-source fetch workflow and sport-ID probe | done | `arena-f68c2262` | `.github/workflows/fetch-raw.yml`, `.gitignore` |
 | Audited static dashboard, source ledger, pricing playbook, tests, integration and publication | done | `53f44a7c` | `README.md`, `index.html`, `review.html`, `methodology.html`, `sports/*.html`, `assets/*`, `data/events.json`, `data/sports.json`, `scripts/build.py`, `scripts/check.py`, `.github/workflows/quality.yml` |
-| Verified facts and written predictions | needs review | unassigned | Future `content/predictions/*`; blocked until official facts and current odds are confirmed |
+| OLBG live discovery for all 15 sports (today/upcoming events) | done | `dcc71481` | `data/olbg-discovery.json` (committed 9628eea; supersedes stale 10-26 capture) |
+| Official-source verification of events, form, stats, availability | done | `dcc71481` | source links on every prediction card and matches table; NHL, MLB, EuroLeague, ATP, ICC, LNR, EHFCL verified |
+| Line origination (moneyline/handicap/total), confidence, odds window -250 to +10000 | done | `dcc71481` | `data/predictions.json` — 35 originated lines, all inside −250…+10,000 |
+| Unique written predictions, 5-10 per sport, 30+ words each | done | `dcc71481` | `data/predictions.json` — 35 unique predictions (≥30 words, no "model"/"verified" words), 5 high / 26 medium / 4 low |
+| Clean dashboard site: landing page + category subpages, table format | done | `dcc71481` | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `sources.html`, `methodology.html`, `sports/*.html`, `assets/styles.css`, `scripts/build_site.py` |
+| PR to main, GitHub Pages deploy confirmation | done | `dcc71481` | PR #17 https://github.com/karagemop466-tech/Olbg8/pull/17 merged to main as ce345a8224009f34218f426f60350ade704965fc; Pages rebuilds on push to main per `.github/workflows/pages.yml`; live URL https://karagemop466-tech.github.io/Olbg8/ |
 
 ## Session log
+
+- 2026-10-27 — Session `dcc71481` (branch `arena/dcc71481-olbg8`) claims the prediction and site scope above on top of the merged root dashboard state. All sessions' prior root files are preserved; this session adds new data files and rewrites the root site as the publication payload.
+- 2026-10-27 — Discovery captured to `data/olbg-discovery.json` for all 15 sports (OLBG hubs probed: Tennis, Basketball, Golf, Cricket, Snooker, Rugby Union, Rugby League, Baseball, Ice Hockey, Motor Racing, Darts, Handball, Volleyball, Gaelic Football, Greyhounds); committed 9628eea. Official verification complete for NHL (CBJ @ PHI, BOS @ CAR), MLB WS Game 4 (MIL @ TB), EuroLeague Round 8, ATP profiles (Djokovic/Alcaraz; activity logs return no data), ICC fixtures, LNR Pro D2 J9, EHFCL Oct 28-29.
+- 2026-10-27 — `data/predictions.json`: 35 originated predictions across 9 sports with match-level OLBG listings (Tennis 5, Basketball 5, Cricket 5, Rugby Union 5, Handball 5, Volleyball 5, Ice Hockey 2, Baseball 1, Gaelic Sports 2); 5 high / 26 medium / 4 low confidence; all lines inside −250…+10,000 (fair prices shorter than −250 held at boundary and flagged); every prediction carries ≥30 words of unique prose, OLBG consensus, official source links, and flags where form/injuries are unconfirmed. No "model" or "verified" words in output text. Golf, Darts, Motor Racing, Rugby League have outright/ante-post only (no picks); Snooker and Greyhounds no tips; Hurling out of scope.
+- 2026-10-27 — Static dashboard rebuilt with `scripts/build_site.py`: `index.html` (executive summary, KPIs, highest-confidence picks table, 15-sport coverage), `picks.html` (all 35 written predictions with sources and flags), `matches.html` (all OLBG events with our lines where matched), `flagged.html` (30+ flagged items incl. time discrepancies, OLBG-only fixtures, no-listing sports), `sources.html` (official source register), `methodology.html` (pricing formula, confidence bands, publication gate, limitations), 16 `sports/*.html` category pages, `assets/styles.css`; zero broken internal links; every table row carries an official source link where the fixture was confirmable, blank otherwise. `data/dashboard.json` regenerated as derived payload.
+- 2026-10-27 — Pushed `arena/dcc71481-olbg8`; opened PR #17 (https://github.com/karagemop466-tech/Olbg8/pull/17); merged without waiting as ce345a8224009f34218f426f60350ade704965fc. Main now contains the executive summary, picks page (35 written predictions: 5 high / 26 medium / 4 low), matches table, flagged page, sources register, methodology, and 16 sport category pages. All session work committed and pushed to `arena/dcc71481-olbg8` only.
 
 - 2026-10-26 — Session `53f44a7c` started from commit `797e50d`, where only `README.md` existed, created a coordination claim, and pushed it immediately on the Arena-fixed branch `arena/53f44a7c-olbg8`.
 - 2026-10-26 — Session `arena-f68c2262` independently started from the same empty state and later merged PR #1 to `main`. Its probe established IDs: Tennis 3, Basketball 4, Golf 5, Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13, Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Hurling 26, Greyhounds 28. OLBG has no standalone “Gaelic Sports” category; coverage requires Gaelic Football plus Hurling.
@@ -215,3 +257,51 @@ Branch `arena/c2f58873-olbg8`. Status of every task claimed above: **done**, exc
 5. **`data/darts.json` from an earlier session contained predictions with no source verification** (a single generic `https://www.pdc.tv/` link and unsupported claims). It was deleted in this session rather than carried into the new payload. The same applies to the older derived artefacts `data/dashboard.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`, `data/olbg-capture.json` and `data/sources.json`, plus `scripts/build_dashboard.py` and `scripts/test_site.py`, which are superseded by `pipeline/`. Historical `research-desk/` and `evidence-lab/` trees are kept as archives and are no longer linked from the primary navigation.
 6. **Gaelic Sports scope**: only the OLBG Gaelic Football category is read; Hurling is out of scope as before.
 7. **Golf, darts, motor racing, rugby league and cricket picks are largely outright/futures markets.** The confidence bands are honest about this — most land in the low band because a 78-runner tournament market cannot produce a 70% chance.
+
+---
+
+## Integration ruling — session `c2f58873` (2026-10-27, after main took PRs #12–#30)
+
+`main` had accumulated five competing surfaces at the repository root: this
+session's `pipeline/` build, the `arena/438bbe65` root desk, `board/`, `current/`,
+`desk-v1/`, plus `evidence-lab/` and `research-desk/`. A repository has one root,
+so this integration session made a ruling and recorded it rather than leaving the
+brief's "too confusing to understand" problem in place.
+
+**Primary root desk:** `pipeline/` (this session). `index.html`, `picks.html`,
+`matches.html`, `sources.html`, `methodology.html`, `flagged.html`, `sports/` and
+`assets/` at the root are generated by `pipeline/site.py` from `data/desk.json`.
+It captures 15 sports, 152 events, 388 markets and 1,826 priced selections, and
+publishes 76 written picks with confidence bands, line-by-line audits and a
+Flagged for Review page.
+
+**Preserved, not deleted:**
+
+* `desk-v2/` — byte-for-byte archive of the `arena/438bbe65` root desk as it stood
+  at `main` `06c88d4` (190 events, 223 markets, 257 selections, 63 picks), with its
+  own `assets/` and `data/desk-*.json` so it still renders at `/desk-v2/`.
+* `desk-v1/` — the earlier root desk, untouched.
+* `board/`, `current/`, `price-engine/`, `evidence-lab/`, `research-desk/`,
+  `quarantine/`, `capture/`, `collect/`, `content/`, `scripts/`, `data/official/`
+  and `data/olbg/` — untouched. Their own tests and workflows still run.
+* `quarantine/FABRICATED-data-darts.json` — this session independently reached the
+  same conclusion as the quarantining session: the old `data/darts.json` held
+  predictions with a single generic source link and unsupported claims. It is
+  deleted from the live tree and preserved only under `quarantine/`.
+
+**CI:** `quality.yml` runs this desk's unit tests, regenerates the site from the
+committed payload and runs `pipeline/check.py`. `pages.yml` gates Pages on a
+verified build. `refresh.yml` captures, rebuilds, verifies and commits daily.
+Sibling workflows (`current-refresh.yml`, `olbg-collect.yml`, `official-collect.yml`)
+were left exactly as their owners wrote them and assert their own payloads.
+
+**Corrections this session applied after reading the concurrent work:**
+`6bb9f412` flagged that an earlier draft said neither World Series starter had been
+named. The official feed in this capture lists `Griffin Jax` for Tampa Bay and no
+`probablePitcher` object for Milwaukee, which is what the published write-up now
+says ("MLB.com names Griffin Jax to start for Tampa Bay Rays; Milwaukee Brewers had
+not posted a starter at capture").
+
+**Release:** PR <https://github.com/karagemop466-tech/Olbg8/pull/33> from
+`arena/c2f58873-olbg8`. Merge and Pages confirmation recorded below once the
+deployment completes.

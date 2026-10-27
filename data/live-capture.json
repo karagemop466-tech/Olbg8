@@ -1,0 +1,3053 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "captured_utc": "2026-10-27T05:26:00Z",
+ "collector": "direct page retrieval of live OLBG category and event pages",
+ "timezone_finding": "OLBG prints relative labels with a clock time. Cross-checking three events against official UTC start times (NHL CBJ@PHI 23:00Z shown 19:07, NHL BOS@CAR 00:00Z shown 20:07, EHF Kielce 19:45Z shown 15:45, ICC NZ v IND 07:00Z shown 03:00) places OLBG's clock in US Eastern daylight time (UTC-4), not UK time. MLB and F1 rows differ by a further hour; official start times are therefore authoritative and are shown beside every row where they were confirmed.",
+ "sports": {
+  "golf": {
+   "label": "Golf",
+   "sport_id": 5,
+   "events": [
+    {
+     "event_id": "101913",
+     "name": "Maybank Championship",
+     "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+     "time_label": "01 Nov 06:45",
+     "competition": "LPGA Tour",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lottie Woad",
+         "win_tips": 1,
+         "total_tips": 2,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "LPGA official tournament page and entry list",
+      "url": "https://www.lpga.com/tournaments/maybank-championship/entries",
+      "confirmed": "Maybank Championship, Kuala Lumpur Golf & Country Club West Course, 29 Oct - 1 Nov 2026; Lottie Woad entered",
+      "alt_name": "LPGA official tournament schedule",
+      "alt_url": "https://www.lpga.com/tournaments"
+     }
+    },
+    {
+     "event_id": "101915",
+     "name": "Mexico Open",
+     "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+     "time_label": "01 Nov 17:45",
+     "competition": "PGA Tour",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Wyndham Clark",
+         "win_tips": 1,
+         "total_tips": 2,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "101914",
+     "name": "Simmons Bank Championship",
+     "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+     "time_label": "01 Nov 17:45",
+     "competition": "PGA Tour Champions",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Stewart Cink",
+         "win_tips": 1,
+         "total_tips": 2,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Golf/5"
+  },
+  "volleyball": {
+   "label": "Volleyball",
+   "sport_id": 21,
+   "events": [
+    {
+     "event_id": "37076",
+     "name": "Conegliano W vs Vallefoglia W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+     "time_label": "Tomorrow 15:00",
+     "competition": "Italy Serie A1 (W)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Vallefoglia W",
+         "win_tips": 6,
+         "total_tips": 10,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37075",
+     "name": "Marignano W vs Bergamo W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+     "time_label": "Today 15:00",
+     "competition": "Italy Serie A1 (W)",
+     "experts": 1,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Bergamo W",
+         "win_tips": 5,
+         "total_tips": 7,
+         "displayed_pct": 71
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37126",
+     "name": "TFL Altekma vs Halkbank Ankara",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+     "time_label": "Today 08:00",
+     "competition": "Turkey (M)",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Halkbank Ankara",
+         "win_tips": 4,
+         "total_tips": 5,
+         "displayed_pct": 80
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37121",
+     "name": "Ziraat Bankasi vs Gaziantep Genclik Spor",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
+     "time_label": "Today 12:00",
+     "competition": "Turkey (M)",
+     "experts": 2,
+     "comments": 3,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Ziraat Bankasi",
+         "win_tips": 4,
+         "total_tips": 4,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37081",
+     "name": "Uni Opole W vs Palac Bydgoszcz W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
+     "time_label": "Today 15:30",
+     "competition": "Poland Liga Siatkowki (W)",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Uni Opole W",
+         "win_tips": 4,
+         "total_tips": 6,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37124",
+     "name": "Istanbul Genclik Spor vs IBB Spor",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
+     "time_label": "Today 07:00",
+     "competition": "Turkey (M)",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "IBB Spor",
+         "win_tips": 3,
+         "total_tips": 5,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37129",
+     "name": "VaLePa vs AC Oulu",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
+     "time_label": "Today 12:30",
+     "competition": "Finland 1-sarja (M)",
+     "experts": 1,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "VaLePa",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37103",
+     "name": "Suzano Volei vs Goias Volei",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
+     "time_label": "Today 17:30",
+     "competition": "Brazil Superliga (M)",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Suzano Volei",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37104",
+     "name": "Praia Clube vs Sao Jose",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104",
+     "time_label": "Today 20:00",
+     "competition": "Brazil Superliga (M)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Praia Clube",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37122",
+     "name": "Sungurlu Bld vs Galatasaray",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21?event_id=37122",
+     "time_label": "Today 09:30",
+     "competition": "Turkey (M)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Galatasaray",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37125",
+     "name": "Fenerbahce vs Alanya Bld",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21?event_id=37125",
+     "time_label": "Today 12:00",
+     "competition": "Turkey (M)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Alanya Bld",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37131",
+     "name": "Volleys Borken W vs Vilsbiburg W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
+     "time_label": "Today 13:30",
+     "competition": "Germany Bundesliga (W)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Vilsbiburg W",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37082",
+     "name": "Budowlani Lodz W vs Radomka Radom W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082",
+     "time_label": "Tomorrow 12:30",
+     "competition": "Poland Liga Siatkowki (W)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Budowlani Lodz W",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "37083",
+     "name": "Mielec W vs Rzeszow W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083",
+     "time_label": "Tomorrow 14:00",
+     "competition": "Poland Liga Siatkowki (W)",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Rzeszow W",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Volleyball/21"
+  },
+  "rugby_union": {
+   "label": "Rugby Union",
+   "sport_id": 9,
+   "events": [
+    {
+     "event_id": "609605",
+     "name": "Dax v Provence",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
+     "time_label": "29 Oct 16:00",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Dax",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609604",
+     "name": "Colomiers v Agen",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+     "time_label": "30 Oct 14:00",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Colomiers",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609603",
+     "name": "Montauban v Narbonne",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
+     "time_label": "30 Oct 14:30",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Montauban",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609598",
+     "name": "Oyonnax v Soyaux Angouleme",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
+     "time_label": "30 Oct 14:30",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Oyonnax",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609599",
+     "name": "Beziers v Grenoble",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
+     "time_label": "30 Oct 14:30",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Grenoble",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609600",
+     "name": "Nissa v Aurillac",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
+     "time_label": "30 Oct 14:30",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Nissa",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609590",
+     "name": "Glasgow Warriors v Lions",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
+     "time_label": "30 Oct 15:45",
+     "competition": "United Rugby Championship",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Glasgow Warriors",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "BBC Sport URC scores & fixtures",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures",
+      "confirmed": "Glasgow Warriors v Johannesburg Lions, URC round 5, Fri 30 Oct 2026 19:45, Scotstoun",
+      "alt_name": "RTE URC fixtures",
+      "alt_url": "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/"
+     }
+    },
+    {
+     "event_id": "609584",
+     "name": "Connacht v Leinster",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
+     "time_label": "30 Oct 15:45",
+     "competition": "United Rugby Championship",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Handicap",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Connacht +3.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "BBC Sport URC scores & fixtures",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures",
+      "confirmed": "Connacht v Leinster, URC round 5, Fri 30 Oct 2026 19:45, Dexcom Stadium, Galway"
+     }
+    },
+    {
+     "event_id": "609602",
+     "name": "Biarritz v Valence Romans",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
+     "time_label": "30 Oct 16:00",
+     "competition": "France Pro D2",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Biarritz",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609588",
+     "name": "Stormers v Ulster",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
+     "time_label": "31 Oct 08:45",
+     "competition": "United Rugby Championship",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Handicap",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Ulster +12.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609586",
+     "name": "Munster v Sharks",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
+     "time_label": "31 Oct 13:30",
+     "competition": "United Rugby Championship",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Handicap",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Munster -6.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "BBC Sport URC scores & fixtures",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures",
+      "confirmed": "Munster v Durban Sharks, URC round 5, Sat 31 Oct 2026 17:30, Thomond Park"
+     }
+    },
+    {
+     "event_id": "609611",
+     "name": "Pau v Toulouse",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
+     "time_label": "01 Nov 15:05",
+     "competition": "France Top 14",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "To Win",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Pau",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "609013",
+     "name": "Six Nations 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
+     "time_label": "14 Mar 2027 16:00",
+     "competition": "Six Nations",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Ireland",
+         "win_tips": 3,
+         "total_tips": 11,
+         "displayed_pct": 27
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_Union/9"
+  },
+  "cricket": {
+   "label": "Cricket",
+   "sport_id": 7,
+   "events": [
+    {
+     "event_id": "188852",
+     "name": "New Zealand vs India 3rd T20 Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+     "time_label": "Today 03:00",
+     "competition": "India tour of New Zealand",
+     "experts": 2,
+     "comments": 18,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "event_page",
+       "selections": [
+        {
+         "label": "India",
+         "win_tips": 35,
+         "total_tips": 50
+        },
+        {
+         "label": "New Zealand",
+         "win_tips": 15,
+         "total_tips": 50
+        }
+       ]
+      },
+      {
+       "market": "Man Of The Match",
+       "basis": "event_page",
+       "selections": [
+        {
+         "label": "Abhishek Sharma",
+         "win_tips": 4,
+         "total_tips": 25
+        },
+        {
+         "label": "SV Samson",
+         "win_tips": 4,
+         "total_tips": 25
+        },
+        {
+         "label": "V Suryavanshi",
+         "win_tips": 0,
+         "total_tips": 25
+        },
+        {
+         "label": "FH Allen",
+         "win_tips": 2,
+         "total_tips": 25
+        },
+        {
+         "label": "IPKP Kishan",
+         "win_tips": 1,
+         "total_tips": 25
+        },
+        {
+         "label": "TL Seifert",
+         "win_tips": 2,
+         "total_tips": 25
+        },
+        {
+         "label": "MJ Santner",
+         "win_tips": 1,
+         "total_tips": 25
+        },
+        {
+         "label": "S Iyer",
+         "win_tips": 2,
+         "total_tips": 25
+        },
+        {
+         "label": "S Dube",
+         "win_tips": 1,
+         "total_tips": 25
+        },
+        {
+         "label": "T Varma",
+         "win_tips": 2,
+         "total_tips": 25
+        },
+        {
+         "label": "AR Patel",
+         "win_tips": 1,
+         "total_tips": 25
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "ESPNcricinfo 3rd T20I match preview / live page",
+      "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview",
+      "confirmed": "India lead 5-match T20I series 2-0; 3rd T20I Tue 27 Oct 2026 at Hnry Stadium, Wellington; Matt Henry withdrawn from series, Lockie Ferguson unavailable for this match",
+      "alt_name": "ICC news item on New Zealand squad updates",
+      "alt_url": "https://www.icc-cricket.com/news/new-zealand-announce-key-updates-for-t20i-squad-against-india"
+     }
+    },
+    {
+     "event_id": "188854",
+     "name": "Namibia vs Ireland 3rd ODI",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+     "time_label": "Today 03:30",
+     "competition": "Ireland tour of Namibia",
+     "experts": 1,
+     "comments": 6,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Ireland",
+         "win_tips": 22,
+         "total_tips": 32,
+         "displayed_pct": 69
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188868",
+     "name": "Pakistan vs Sri Lanka One Day Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+     "time_label": "Today 04:00",
+     "competition": "Sri Lanka tour of Pakistan",
+     "experts": 1,
+     "comments": 15,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Pakistan",
+         "win_tips": 22,
+         "total_tips": 31,
+         "displayed_pct": 71
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188872",
+     "name": "Afghanistan vs Zimbabwe 1st T20 Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+     "time_label": "Today 10:30",
+     "competition": "Zimbabwe tour of Afghanistan",
+     "experts": 1,
+     "comments": 11,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Afghanistan",
+         "win_tips": 15,
+         "total_tips": 16,
+         "displayed_pct": 94
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188864",
+     "name": "Melbourne Stars W vs Hobart Hurricanes W T20 Big Bash",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
+     "time_label": "29 Oct 04:10",
+     "competition": "Women's Big Bash",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Hobart Hurricanes W",
+         "win_tips": 4,
+         "total_tips": 6,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188876",
+     "name": "Auckland vs Canterbury One Day Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
+     "time_label": "Today 17:30",
+     "competition": "The Ford Trophy",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Canterbury",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188865",
+     "name": "Brisbane Heat W vs Sydney Sixers W T20 Big Bash",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
+     "time_label": "30 Oct 04:10",
+     "competition": "Women's Big Bash",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Sydney Sixers W",
+         "win_tips": 3,
+         "total_tips": 5,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188835",
+     "name": "South Africa vs Australia",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+     "time_label": "31 Oct 04:30",
+     "competition": "International",
+     "experts": 1,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "South Africa",
+         "win_tips": 3,
+         "total_tips": 8,
+         "displayed_pct": 38
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188878",
+     "name": "Wellington vs Otago One Day Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+     "time_label": "Today 17:30",
+     "competition": "The Ford Trophy",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Wellington",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188877",
+     "name": "Central Districts vs Northern Districts One Day Match",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
+     "time_label": "Today 17:30",
+     "competition": "The Ford Trophy",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Northern Districts",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188874",
+     "name": "Lions vs Eastern Storm T20",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874",
+     "time_label": "Tomorrow 12:00",
+     "competition": "SA domestic T20",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lions",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188871",
+     "name": "Bangladesh vs West Indies",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+     "time_label": "31 Oct 23:30",
+     "competition": "International",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "West Indies",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "188854",
+     "name": "Namibia vs Ireland 3rd ODI",
+     "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+     "time_label": "Today 03:30",
+     "competition": "Ireland tour of Namibia",
+     "experts": 0,
+     "comments": 5,
+     "markets": [
+      {
+       "market": "Top Team1 Batsman",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "MG Erasmus (Namibia)",
+         "win_tips": 10,
+         "total_tips": 18,
+         "displayed_pct": 56
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Cricket/7"
+  },
+  "snooker": {
+   "label": "Snooker",
+   "sport_id": 8,
+   "events": [],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Snooker/8",
+   "capture_note": "OLBG Snooker category page printed 'No tips found.'"
+  },
+  "darts": {
+   "label": "Darts",
+   "sport_id": 15,
+   "events": [
+    {
+     "event_id": "26023",
+     "name": "PDC World Championship 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+     "time_label": "03 Jan 2027 12:00",
+     "competition": "PDC World Championship",
+     "experts": 0,
+     "comments": 7,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Luke Littler",
+         "win_tips": 22,
+         "total_tips": 36,
+         "displayed_pct": 61
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "PDC official World Championship tournament page",
+      "url": "https://www.pdc.tv/tournaments/paddy-power-world-darts-championship",
+      "confirmed": "2026/27 Paddy Power World Darts Championship, Alexandra Palace, 11 Dec 2026 - 3 Jan 2027, 128-player field, top 32 seeded; Luke Littler defending champion"
+     }
+    },
+    {
+     "event_id": "32446",
+     "name": "Players Championship 31",
+     "olbg_url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+     "time_label": "Tomorrow 08:00",
+     "competition": "PDC ProTour",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Nathan Aspinall",
+         "win_tips": 2,
+         "total_tips": 8,
+         "displayed_pct": 25
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "PDC official calendar",
+      "url": "https://www.pdc.tv/calendar/",
+      "confirmed": "2026 Players Championship 31 listed for Wed 28 Oct 2026 at Maaspoort, Den Bosch",
+      "alt_name": "Sky Sports 2026 darts schedule",
+      "alt_url": "https://www.skysports.com/darts/news/13428768/darts-2026-schedule-and-dates-premier-league-darts-world-matchplay-and-more-with-luke-littler-in-action"
+     }
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Darts/15"
+  },
+  "baseball": {
+   "label": "Baseball",
+   "sport_id": 12,
+   "events": [
+    {
+     "event_id": "160799",
+     "name": "MIL Brewers @ TB Rays",
+     "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+     "time_label": "Today 21:00",
+     "competition": "MLB World Series",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "event_page",
+       "selections": [
+        {
+         "label": "MIL Brewers",
+         "win_tips": 2,
+         "total_tips": 2
+        },
+        {
+         "label": "TB Rays",
+         "win_tips": 0,
+         "total_tips": 2
+        }
+       ]
+      },
+      {
+       "market": "Run Line",
+       "basis": "event_page",
+       "line": 1.5,
+       "selections": [
+        {
+         "label": "TB Rays +1.50",
+         "win_tips": 0,
+         "total_tips": 1
+        },
+        {
+         "label": "MIL Brewers -1.50",
+         "win_tips": 1,
+         "total_tips": 1
+        }
+       ]
+      },
+      {
+       "market": "Game Totals",
+       "basis": "event_page",
+       "line": 7.5,
+       "selections": [
+        {
+         "label": "Under 7.50",
+         "win_tips": 0,
+         "total_tips": 0
+        },
+        {
+         "label": "Over 7.50",
+         "win_tips": 0,
+         "total_tips": 0
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "MLB StatsAPI schedule for 2026-10-27 (sportId=1) - official MLB",
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=team",
+      "confirmed": "World Series Game 4, Milwaukee Brewers (away) at Tampa Bay Rays, Tropicana Field, gamePk 849803, series record MIL 3-0 TB; gameDate 2026-10-28T00:00:00Z",
+      "alt_name": "MLB.com probable pitchers page",
+      "alt_url": "https://www.mlb.com/probable-pitchers"
+     }
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Baseball/12"
+  },
+  "gaelic_sports": {
+   "label": "Gaelic Sports",
+   "sport_id": 25,
+   "events": [
+    {
+     "event_id": "3531",
+     "name": "Kanturk v Eire Og Cor",
+     "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+     "time_label": "01 Nov 09:00",
+     "competition": "Cork Club Championship",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Handicap",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Eire Og Cor +0.50",
+         "win_tips": 6,
+         "total_tips": 6,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "3537",
+     "name": "Fr Caseys v Kildimo Pallaskenry",
+     "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
+     "time_label": "01 Nov 10:30",
+     "competition": "Limerick Club Championship",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Handicap",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Kildimo Pallaskenry +3.50",
+         "win_tips": 5,
+         "total_tips": 7,
+         "displayed_pct": 71
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "3327",
+     "name": "All Ireland Football Championship 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+     "time_label": "25 Jul 2027 10:30",
+     "competition": "All-Ireland SFC",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Kerry",
+         "win_tips": 6,
+         "total_tips": 8,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "675",
+     "name": "All Ireland Hurling Championship 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+     "time_label": "18 Jul 2027 10:30",
+     "competition": "All-Ireland SHC",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Hurling",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Galway",
+         "win_tips": 7,
+         "total_tips": 18,
+         "displayed_pct": 39
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Gaelic_Sports/25"
+  },
+  "greyhounds": {
+   "label": "Greyhounds",
+   "sport_id": 28,
+   "events": [],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+   "capture_note": "OLBG Greyhounds category page printed 'No tips found.'"
+  },
+  "tennis": {
+   "label": "Tennis",
+   "sport_id": 3,
+   "events": [
+    {
+     "event_id": "902172",
+     "name": "Leylah Fernandez vs Himeno Sakatsume",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
+     "time_label": "Today 02:00",
+     "competition": "WTA Tokyo",
+     "experts": 1,
+     "comments": 5,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Leylah Fernandez",
+         "win_tips": 10,
+         "total_tips": 12,
+         "displayed_pct": 83
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902189",
+     "name": "Lilli Tagger vs Venus Williams",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
+     "time_label": "Today 03:30",
+     "competition": "WTA Guangzhou",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lilli Tagger",
+         "win_tips": 4,
+         "total_tips": 8,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902177",
+     "name": "Naomi Osaka vs Jasmine Paolini",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
+     "time_label": "Today 04:00",
+     "competition": "WTA Tokyo",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Naomi Osaka",
+         "win_tips": 4,
+         "total_tips": 4,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902238",
+     "name": "Alejandro Tabilo vs Rafael Jodar",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+     "time_label": "Today 09:00",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 3,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Rafael Jodar",
+         "win_tips": 4,
+         "total_tips": 6,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902232",
+     "name": "Stan Wawrinka vs Jiri Lehecka",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
+     "time_label": "Today 14:30",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Stan Wawrinka",
+         "win_tips": 4,
+         "total_tips": 8,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902233",
+     "name": "Novak Djokovic vs Ugo Humbert",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+     "time_label": "Tomorrow 06:00",
+     "competition": "ATP Basel",
+     "experts": 0,
+     "comments": 3,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Novak Djokovic",
+         "win_tips": 4,
+         "total_tips": 5,
+         "displayed_pct": 80
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902322",
+     "name": "Hubert Hurkacz vs Zizou Bergs",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
+     "time_label": "Today 07:00",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Hubert Hurkacz",
+         "win_tips": 3,
+         "total_tips": 3,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902252",
+     "name": "Tommy Paul vs Andrey Rublev",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252",
+     "time_label": "Today 08:30",
+     "competition": "ATP Basel",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Andrey Rublev",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902210",
+     "name": "Cameron Norrie vs Francisco Cerundolo",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210",
+     "time_label": "Today 11:30",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Cameron Norrie",
+         "win_tips": 3,
+         "total_tips": 5,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902187",
+     "name": "Polina Kudermetova vs Janice Tjen",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3?event_id=902187",
+     "time_label": "Today 02:00",
+     "competition": "WTA Guangzhou",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Janice Tjen",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902409",
+     "name": "Nuno Borges vs Casper Ruud",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
+     "time_label": "Today 07:00",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Casper Ruud",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902240",
+     "name": "Alex Michelsen vs Botic Van De Zandschulp",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
+     "time_label": "Today 10:00",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Alex Michelsen",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "902213",
+     "name": "Karen Khachanov vs Carlos Alcaraz",
+     "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
+     "time_label": "Today 10:00",
+     "competition": "ATP Vienna",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Win Match",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Karen Khachanov",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Tennis/3"
+  },
+  "motor_racing": {
+   "label": "Motor Racing",
+   "sport_id": 14,
+   "events": [
+    {
+     "event_id": "912",
+     "name": "Formula 1 Drivers Championship 2026 Without Kimi Antonelli",
+     "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
+     "time_label": "06 Dec 08:00",
+     "competition": "F1 World Championship",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Max Verstappen",
+         "win_tips": 4,
+         "total_tips": 7,
+         "displayed_pct": 57
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "914",
+     "name": "Mexico City Grand Prix",
+     "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+     "time_label": "01 Nov 15:00",
+     "competition": "Formula 1",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Podium Finish",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Max Verstappen - Yes",
+         "win_tips": 1,
+         "total_tips": 2,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "Formula 1 official Mexico City Grand Prix 2026 race page",
+      "url": "https://www.formula1.com/en/racing/2026/mexico",
+      "confirmed": "Round 19 of 2026 at Autodromo Hermanos Rodriguez, 30 Oct - 1 Nov 2026; 71 laps; race billed Sun 1 Nov",
+      "alt_name": "BBC Sport Mexico City GP start-time and title-permutation briefing",
+      "alt_url": "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o"
+     }
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Motor_Racing/14"
+  },
+  "handball": {
+   "label": "Handball",
+   "sport_id": 20,
+   "events": [
+    {
+     "event_id": "12136",
+     "name": "SC Magdeburg vs HC Kriens Luzern",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
+     "time_label": "Tomorrow 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 9,
+         "total_tips": 14,
+         "displayed_pct": 64
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12130",
+     "name": "HC Vardar vs MT Melsungen",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
+     "time_label": "Tomorrow 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 8,
+         "total_tips": 13,
+         "displayed_pct": 62
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12138",
+     "name": "Wisla Plock vs Nantes",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
+     "time_label": "Tomorrow 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 8,
+         "total_tips": 11,
+         "displayed_pct": 73
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12132",
+     "name": "KS Kielce vs Kolstad",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
+     "time_label": "Tomorrow 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "event_page",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 7,
+         "total_tips": 11
+        },
+        {
+         "label": "KS Kielce",
+         "win_tips": 2,
+         "total_tips": 11
+        },
+        {
+         "label": "Kolstad",
+         "win_tips": 2,
+         "total_tips": 11
+        }
+       ]
+      },
+      {
+       "market": "Match Handicap",
+       "basis": "event_page",
+       "line": 7.5,
+       "selections": [
+        {
+         "label": "Kolstad +7.50",
+         "win_tips": 2,
+         "total_tips": 2
+        },
+        {
+         "label": "KS Kielce -7.50",
+         "win_tips": 0,
+         "total_tips": 2
+        }
+       ]
+      },
+      {
+       "market": "Points Total",
+       "basis": "event_page",
+       "line": 63.5,
+       "selections": [
+        {
+         "label": "Over 63.50",
+         "win_tips": 0,
+         "total_tips": 0
+        },
+        {
+         "label": "Under 63.50",
+         "win_tips": 0,
+         "total_tips": 0
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "EHF (European Handball Federation) club fixture page",
+      "url": "https://www.eurohandball.com/en/club/kZVHhs7nxEhEqyCf6iK_Sw/KolstadH%C3%A5ndball/",
+      "confirmed": "Industria Kielce v Kolstad Håndball, Group F, Wed 28 Oct 2026 20:45 CET, Hala Legionów, Kielce",
+      "alt_name": "EHF Champions League fixture news (ehfcl.eurohandball.com)",
+      "alt_url": "https://ehfcl.eurohandball.com/news/en/final-rematch-at-kielce-sporting-aim-to-conquer-szeged-s-fortress-in-round-3/"
+     }
+    },
+    {
+     "event_id": "12134",
+     "name": "PSG Handball vs Aalborg Handbold",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
+     "time_label": "Tomorrow 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 7,
+         "total_tips": 9,
+         "displayed_pct": 78
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12135",
+     "name": "RK Celje vs RK Zagreb",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
+     "time_label": "Tomorrow 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 6,
+         "total_tips": 8,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12128",
+     "name": "Fuchse Berlin vs RK Partizan",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
+     "time_label": "29 Oct 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 6,
+         "total_tips": 14,
+         "displayed_pct": 43
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12127",
+     "name": "FC Porto vs Veszprem",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
+     "time_label": "Tomorrow 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 5,
+         "total_tips": 9,
+         "displayed_pct": 56
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12129",
+     "name": "GOG vs Sporting CP",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
+     "time_label": "29 Oct 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 3,
+         "total_tips": 5,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12133",
+     "name": "Montpellier vs Dinamo Bucuresti",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
+     "time_label": "29 Oct 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 3,
+         "total_tips": 4,
+         "displayed_pct": 75
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12197",
+     "name": "VasterasIrsta HF W vs Skuru IK W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
+     "time_label": "Today 14:00",
+     "competition": "Sweden Damallsvenskan (W)",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "VasterasIrsta HF (W)",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12196",
+     "name": "OV Helsingborg HK W vs Skovde HF W",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
+     "time_label": "Today 14:00",
+     "competition": "Sweden Damallsvenskan (W)",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Skovde HF (W)",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12131",
+     "name": "IFK Kristianstad vs Pick Szeged",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
+     "time_label": "29 Oct 13:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Tie",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12180",
+     "name": "SG Flensburg Handewitt vs HBW Balingen Weilstetten",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
+     "time_label": "29 Oct 14:00",
+     "competition": "Germany DKB Bundesliga",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "HBW Balingen-Weilstetten",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "12137",
+     "name": "Skanderborg Handbold vs FC Barcelona",
+     "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
+     "time_label": "29 Oct 15:45",
+     "competition": "EHF Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Skanderborg Handbold",
+         "win_tips": 1,
+         "total_tips": 3,
+         "displayed_pct": 33
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Handball/20"
+  },
+  "ice_hockey": {
+   "label": "Ice Hockey",
+   "sport_id": 13,
+   "events": [
+    {
+     "event_id": "200081",
+     "name": "Kalpa vs Sport",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
+     "time_label": "Today 12:30",
+     "competition": "Finland Liiga",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Kalpa",
+         "win_tips": 5,
+         "total_tips": 5,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200082",
+     "name": "IF Malmo Redhawks vs Linkoping HC",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
+     "time_label": "Today 14:00",
+     "competition": "Sweden SHL",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "IF Malmo Redhawks",
+         "win_tips": 3,
+         "total_tips": 3,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200083",
+     "name": "Frolunda HC vs Rogle BK",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
+     "time_label": "Today 14:00",
+     "competition": "Sweden SHL",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Frolunda HC",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200100",
+     "name": "Kolner Haie vs Adler Mannheim",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
+     "time_label": "Today 14:30",
+     "competition": "Germany DEL",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Adler Mannheim",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200108",
+     "name": "CLB Blue Jackets @ PHI Flyers",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
+     "time_label": "Today 19:07",
+     "competition": "NHL",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "PHI Flyers",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "NHL.com official score API for 2026-10-27",
+      "url": "https://api-web.nhle.com/v1/score/2026-10-27",
+      "confirmed": "Columbus Blue Jackets (4-5-0) at Philadelphia Flyers (3-7-3), game id 2026020188, Xfinity Mobile Arena, startTimeUTC 2026-10-27T23:00:00Z; NHL-listed partner odds CBJ -125/-127/-128, PHI +104/+105/+106"
+     }
+    },
+    {
+     "event_id": "200104",
+     "name": "BOS Bruins @ CAR Hurricanes",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
+     "time_label": "Today 20:07",
+     "competition": "NHL",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "event_page",
+       "line": 1.5,
+       "selections": [
+        {
+         "label": "BOS Bruins +1.50",
+         "win_tips": 2,
+         "total_tips": 2
+        },
+        {
+         "label": "CAR Hurricanes -1.50",
+         "win_tips": 0,
+         "total_tips": 2
+        }
+       ]
+      },
+      {
+       "market": "Money Line",
+       "basis": "event_page",
+       "selections": [
+        {
+         "label": "CAR Hurricanes",
+         "win_tips": 1,
+         "total_tips": 2
+        },
+        {
+         "label": "BOS Bruins",
+         "win_tips": 1,
+         "total_tips": 2
+        }
+       ]
+      },
+      {
+       "market": "Game Totals",
+       "basis": "event_page",
+       "line": 6.5,
+       "selections": [
+        {
+         "label": "Under 6.50",
+         "win_tips": 0,
+         "total_tips": 1
+        },
+        {
+         "label": "Over 6.50",
+         "win_tips": 1,
+         "total_tips": 1
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "NHL.com official score API for 2026-10-27",
+      "url": "https://api-web.nhle.com/v1/score/2026-10-27",
+      "confirmed": "Boston Bruins (9-2-1) at Carolina Hurricanes (9-2-2), game id 2026020189, Lenovo Center, startTimeUTC 2026-10-28T00:00:00Z; NHL-listed partner odds CAR -192/-196, BOS +158/+160"
+     }
+    },
+    {
+     "event_id": "200098",
+     "name": "Herning Blue Fox vs Rodovre Mighty Bulls",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098",
+     "time_label": "Today 14:00",
+     "competition": "Denish Metal Ligaen",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Rodovre Mighty Bulls +3.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200146",
+     "name": "Fehervar AV19 vs Milano HC",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146",
+     "time_label": "Today 14:15",
+     "competition": "Austrian ICE Hockey League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Fehervar AV19 -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200116",
+     "name": "Fribourg Gotteron vs Davos",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Fribourg Gotteron -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200122",
+     "name": "Bern vs ZSC Lions",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "ZSC Lions -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200115",
+     "name": "EHC Kloten vs HC Ajoie",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "EHC Kloten -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200117",
+     "name": "Zug vs Lugano",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lugano +1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200118",
+     "name": "Lausanne HC vs SCL Tigers",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lausanne HC -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200119",
+     "name": "Ambri Piotta vs EHC Biel",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Ambri Piotta -1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "200123",
+     "name": "Rapperswil Jona Lakers vs Servette GE",
+     "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123",
+     "time_label": "Today 14:45",
+     "competition": "Switzerland National League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Puck Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Servette GE +1.50",
+         "win_tips": 1,
+         "total_tips": 1,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13"
+  },
+  "basketball": {
+   "label": "Basketball",
+   "sport_id": 4,
+   "events": [
+    {
+     "event_id": "536177",
+     "name": "Panathinaikos vs Milano",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
+     "time_label": "Today 15:15",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Panathinaikos",
+         "win_tips": 5,
+         "total_tips": 8,
+         "displayed_pct": 62
+        }
+       ]
+      }
+     ],
+     "official": {
+      "name": "Olimpia Milano official EuroLeague standings page",
+      "url": "https://www.olimpiamilano.com/classifica/",
+      "confirmed": "Round 8 pairing Panathinaikos AKTOR Athens v Armani Olimpia Milano; standings after 7 rounds PAO 6-1 (+96), MIL 1-6 (-63)",
+      "alt_name": "Real Madrid / EuroLeague fixture listing via AiScore (secondary)",
+      "alt_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EuroLeague_regular_season"
+     }
+    },
+    {
+     "event_id": "536214",
+     "name": "Seoul Knights vs KCC Egis",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+     "time_label": "Today 06:00",
+     "competition": "Korea KBL",
+     "experts": 1,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Seoul Knights",
+         "win_tips": 4,
+         "total_tips": 5,
+         "displayed_pct": 80
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536176",
+     "name": "BC Dubai vs Paris",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
+     "time_label": "Today 12:00",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "BC Dubai",
+         "win_tips": 4,
+         "total_tips": 7,
+         "displayed_pct": 57
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536179",
+     "name": "Valencia vs Fenerbahce",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+     "time_label": "Today 15:30",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Fenerbahce",
+         "win_tips": 4,
+         "total_tips": 6,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536174",
+     "name": "Bayern Munich vs Barcelona",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+     "time_label": "Today 15:00",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Bayern Munich",
+         "win_tips": 3,
+         "total_tips": 5,
+         "displayed_pct": 60
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536178",
+     "name": "Baskonia vs Real Madrid",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
+     "time_label": "Today 16:00",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Baskonia",
+         "win_tips": 3,
+         "total_tips": 6,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536218",
+     "name": "Lietkabelis vs Ratiopharm Ulm",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218",
+     "time_label": "Today 13:00",
+     "competition": "EuroCup",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Lietkabelis",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536217",
+     "name": "Frankfurt Skyliners vs U BT Cluj Napoca",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217",
+     "time_label": "Today 14:30",
+     "competition": "EuroCup",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Pointspread",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Frankfurt Skyliners +1.50",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536175",
+     "name": "Crvena Zvezda vs Maccabi Tel Aviv",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
+     "time_label": "Today 15:00",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Crvena Zvezda",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536235",
+     "name": "UCAM Murcia vs Peristeri",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4?event_id=536235",
+     "time_label": "Today 15:30",
+     "competition": "Basketball Champions League",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "UCAM Murcia",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536222",
+     "name": "Aris vs Cedevita Olimpija",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4?event_id=536222",
+     "time_label": "Tomorrow 13:30",
+     "competition": "EuroCup",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Aris",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536180",
+     "name": "Besiktas vs Olympiacos",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
+     "time_label": "Tomorrow 13:30",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Besiktas",
+         "win_tips": 2,
+         "total_tips": 3,
+         "displayed_pct": 67
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536181",
+     "name": "Asvel Lyon Villeurbanne vs Partizan",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181",
+     "time_label": "Tomorrow 15:00",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Partizan",
+         "win_tips": 2,
+         "total_tips": 2,
+         "displayed_pct": 100
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "536183",
+     "name": "Virtus Bologna vs Zalgiris",
+     "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183",
+     "time_label": "Tomorrow 15:30",
+     "competition": "EuroLeague",
+     "experts": 0,
+     "comments": 0,
+     "markets": [
+      {
+       "market": "Money Line",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Virtus Bologna",
+         "win_tips": null,
+         "total_tips": null,
+         "displayed_pct": null
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4"
+  },
+  "rugby_league": {
+   "label": "Rugby League",
+   "sport_id": 10,
+   "events": [
+    {
+     "event_id": "2695857",
+     "name": "State of Origin 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+     "time_label": "27 May 2027 06:00",
+     "competition": "State of Origin",
+     "experts": 0,
+     "comments": 3,
+     "markets": [
+      {
+       "market": "Win Tournament",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "New South Wales",
+         "win_tips": 9,
+         "total_tips": 13,
+         "displayed_pct": 69
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "2801554",
+     "name": "Super League 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+     "time_label": "02 Oct 2027 13:00",
+     "competition": "Super League",
+     "experts": 0,
+     "comments": 2,
+     "markets": [
+      {
+       "market": "Grand Final Winner",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Wigan Warriors",
+         "win_tips": 2,
+         "total_tips": 4,
+         "displayed_pct": 50
+        }
+       ]
+      }
+     ],
+     "official": {}
+    },
+    {
+     "event_id": "2801600",
+     "name": "NRL 2027",
+     "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+     "time_label": "03 Oct 2027 04:30",
+     "competition": "NRL",
+     "experts": 0,
+     "comments": 1,
+     "markets": [
+      {
+       "market": "Grand Final Winner",
+       "basis": "hub_top",
+       "selections": [
+        {
+         "label": "Penrith Panthers",
+         "win_tips": 1,
+         "total_tips": 3,
+         "displayed_pct": 33
+        }
+       ]
+      }
+     ],
+     "official": {}
+    }
+   ],
+   "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_League/10"
+  }
+ }
+}

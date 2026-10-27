@@ -1,0 +1,77 @@
+name: Refresh current research snapshot
+
+on:
+  # Every main push also refreshes: a legacy root deploy otherwise replaces
+  # the hosted snapshot with the older, committed fallback.
+  push:
+    branches: [main]
+  schedule:
+    - cron: '11 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Capture can run alongside the root build. Only the deployment job takes the
+# shared Pages lock, so a new root build cannot cancel collection at startup.
+concurrency:
+  group: current-source-refresh
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check current dashboard offline
+        run: |
+          python3 -m unittest discover -s current/tests -v
+          python3 current/build_pages.py
+          git diff --exit-code -- current/*.html current/sports
+          node --check current/app.js
+      - name: Capture public sources
+        run: |
+          # If collection crashes, publish the dated committed snapshot instead.
+          # Individual blocked/failed feeds remain explicit error records.
+          if ! python3 current/collect.py --output "$RUNNER_TEMP/current-live.json"; then
+            echo '::warning::Collection failed; using the dated committed snapshot.'
+            rm -f "$RUNNER_TEMP/current-live.json"
+          fi
+      - name: Retain latest main and apply the capture
+        run: |
+          # A long capture must not restore stale root files over a newer main.
+          git fetch origin main
+          latest="$(git rev-parse FETCH_HEAD)"
+          if ! git diff --quiet HEAD "$latest" -- current/ .github/workflows/current-refresh.yml; then
+            echo '::error::The current collector changed during this capture; retry on the next run.'
+            exit 1
+          fi
+          git checkout --detach "$latest"
+          if [ -f "$RUNNER_TEMP/current-live.json" ]; then
+            cp "$RUNNER_TEMP/current-live.json" current/live.json
+          fi
+          python3 -m unittest discover -s current/tests -v
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+  deploy:
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,74 @@
+{
+  "captureUtc": "2026-10-27T05:45:00Z",
+  "method": {
+    "probabilityScale": {
+      "high": "> 70%",
+      "medium": "55-70%",
+      "low": "< 55%"
+    },
+    "priceWindow": {
+      "low": -250,
+      "high": 10000
+    },
+    "fairPrice": "From research probability p: decimal = 1/p; American = -100/(d-1) for d<2, +100*(d-1) for d>=2. Lines are reference prices from captured official inputs, never a bookmaker offer."
+  },
+  "deskLines": [
+    {
+      "event_id": "536253",
+      "sport": "basketball",
+      "event": "BKN Nets @ BOS Celtics",
+      "line": {
+        "dec": "1.54",
+        "amer": "-185",
+        "frac": "7/13",
+        "p": 0.65,
+        "inputs": "NBA.com: BOS 2-1 vs BKN 0-3 early-season records; Tatum 24.0 PPG vs Randle 22.0. Desk probability 65% from record gap + home court.",
+        "derived": true
+      },
+      "official": "nba_games"
+    },
+    {
+      "event_id": "536251",
+      "sport": "basketball",
+      "event": "DET Pistons @ NYK Knicks",
+      "line": {
+        "dec": "1.95",
+        "amer": "-105",
+        "frac": "19/20",
+        "p": 0.51,
+        "inputs": "NBA.com: DET 3-0 vs NYK 0-3; Cunningham 21.3 PPG + 8.0 APG leading a 0-3 Knicks team that is 21.0/12.0/2.7 via Towns. Desk probability 51% on record.",
+        "derived": true
+      },
+      "official": "nba_games"
+    },
+    {
+      "event_id": "609605",
+      "sport": "rugby_union",
+      "event": "Dax v Provence",
+      "line": {
+        "dec": "1.54",
+        "amer": "-185",
+        "frac": "7/13",
+        "p": 0.65,
+        "inputs": "Desk reference (Provence side): LNR table positions 2nd vs 10th, J9 kickoff Thu 29 Oct 21:00 CEST. OLBG tipsters favour Dax at -125 — disagreement displayed on the row.",
+        "derived": true
+      },
+      "official": "lnr_prod2"
+    },
+    {
+      "event_id": "902409",
+      "sport": "tennis",
+      "event": "Casper Ruud vs Nuno Borges (Basel R2)",
+      "line": {
+        "dec": "1.61",
+        "amer": "-161",
+        "frac": "5/8",
+        "p": 0.62,
+        "inputs": "ATP official scores: Ruud won R1 vs Stricker 4-6 7-5 6-3 in Basel. Desk line from round result + surface fit; R2 pairing per ATP current-scores page.",
+        "derived": true
+      },
+      "official": "atp_scores"
+    }
+  ],
+  "researchLineCount": 4
+}

@@ -1,0 +1,212 @@
+{
+  "captureUtc": "2026-10-27T05:45:00Z",
+  "registry": [
+    {
+      "id": "s-mlb",
+      "name": "MLB StatsAPI — World Series schedule + probable pitchers",
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-24&endDate=2026-10-28&hydrate=team,linescore",
+      "kind": "league API (official)",
+      "captured": "2026-10-27T05:30Z",
+      "supports": "WS series state (MIL 3-0), G2/G3 scores, G4 identity/time/venue, Rays probable pitcher",
+      "limitation": "Game-level live feed not captured; scores are the official linescore as of capture."
+    },
+    {
+      "id": "s-nhl",
+      "name": "NHL.com official standings",
+      "url": "https://www.nhl.com/standings",
+      "kind": "league site (official)",
+      "captured": "2026-10-27T05:31Z",
+      "supports": "32-team 2026 standings: records, points, goal diff, last-10, home/road splits for all OLBG NHL rows",
+      "limitation": "Standings as of 2026-10-26; game-by-game results not captured per game."
+    },
+    {
+      "id": "s-nba",
+      "name": "NBA.com games page (2026-10-27)",
+      "url": "https://www.nba.com/games?date=2026-10-27",
+      "kind": "league site (official)",
+      "captured": "2026-10-27T05:44Z",
+      "supports": "BKN@BOS and DET@NYK identity, tipoff times, early-season records, season leaders",
+      "limitation": "cdn.nba.com scoreboard JSON returned HTTP 500 at capture; nba.com HTML used instead."
+    },
+    {
+      "id": "s-icc",
+      "name": "ICC official fixtures & results",
+      "url": "https://www.icc-cricket.com/fixtures-results",
+      "kind": "governing body (official)",
+      "captured": "2026-10-27T05:32Z",
+      "supports": "Identity of all OLBG international cricket matches (ICC match IDs)",
+      "limitation": "Absolute kickoff times are viewer-timezone labelled; OLBG times and payload timestamps differ."
+    },
+    {
+      "id": "s-atp",
+      "name": "ATP Tour current scores",
+      "url": "https://www.atptour.com/en/scores/current",
+      "kind": "tour site (official)",
+      "captured": "2026-10-27T05:33Z",
+      "supports": "Basel + Vienna are the ATP events in progress; R1 results (Ruud, de Minaur, Mensik, Tien)",
+      "limitation": "Full R2 draws not captured; WTA events not covered by the ATP page."
+    },
+    {
+      "id": "s-lpga",
+      "name": "LPGA official tournament schedule",
+      "url": "https://www.lpga.com/tournaments",
+      "kind": "tour site (official)",
+      "captured": "2026-10-27T05:42Z",
+      "supports": "Maybank Championship dates/venue/purse/2025 winner",
+      "limitation": "Player-by-player entries not captured."
+    },
+    {
+      "id": "s-ehf",
+      "name": "EHF Champions League 2026-27 schedule",
+      "url": "https://ehfcl.eurohandball.com/men/2026-27/matches/",
+      "kind": "governing body (official)",
+      "captured": "2026-10-27T05:36Z",
+      "supports": "Identity + CEST kickoffs for all OLBG EHF CL rows; exposes the Skanderborg/Aarhus conflict",
+      "limitation": "Women's league rows (Helsingborg, Vasteras) not on the men's CL schedule."
+    },
+    {
+      "id": "s-lnr",
+      "name": "LNR official Top 14 + Pro D2 calendar/results",
+      "url": "https://prod2.lnr.fr/calendrier-et-resultats",
+      "kind": "league (official)",
+      "captured": "2026-10-27T05:46Z",
+      "supports": "Pro D2 J9 fixtures, table positions, kickoff times; Top 14 J7 results",
+      "limitation": "URC not covered (different body); Pau-Toulouse Nov 1 pairing not confirmed in captured pages."
+    },
+    {
+      "id": "s-f1",
+      "name": "Formula 1 official 2026 calendar",
+      "url": "https://www.formula1.com/en/racing/2026",
+      "kind": "series (official)",
+      "captured": "2026-10-27T05:45Z",
+      "supports": "Mexico GP weekend dates (30 Oct - 1 Nov); 2026 race results (Antonelli 6 of 7 wins)",
+      "limitation": "Championship points table not captured; session-level market terms not on the page."
+    },
+    {
+      "id": "s-olbg-baseball",
+      "name": "OLBG Baseball hub + event payloads",
+      "url": "https://www.olbg.com/betting-tips/Baseball/12/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:28Z",
+      "supports": "MIL@TB WS G4 displayed price 1.77/-130, tip counts, event id 160799",
+      "limitation": "OLBG prices are best-odds at capture time and move; display times unreliable (see flags)."
+    },
+    {
+      "id": "s-olbg-basketball",
+      "name": "OLBG Basketball hub payload",
+      "url": "https://www.olbg.com/betting-tips/Basketball/4/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:29Z",
+      "supports": "Pana/Seoul/Dubai/Fener displayed prices, tip counts, event ids; NBA rows identified",
+      "limitation": "48 listed rows; price captured for first 4 + identity for NBA rows."
+    },
+    {
+      "id": "s-olbg-cricket",
+      "name": "OLBG Cricket hub payload",
+      "url": "https://www.olbg.com/betting-tips/Cricket/7/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:33Z",
+      "supports": "India/Ireland/Pakistan/Afghanistan displayed prices, tip counts, event ids",
+      "limitation": "13 listed rows; price captured for 4."
+    },
+    {
+      "id": "s-olbg-golf",
+      "name": "OLBG Golf hub payload",
+      "url": "https://www.olbg.com/betting-tips/Golf/5/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:27Z",
+      "supports": "Choi/Clark/Cink outright prices, event ids 101913/101915/101914",
+      "limitation": "3 rows only; all ante-post tournament winners."
+    },
+    {
+      "id": "s-olbg-icehockey",
+      "name": "OLBG Ice Hockey hub payload",
+      "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:40Z",
+      "supports": "15 displayed prices (Liiga/SHL/DEL/EHL/NLA/NHL), event ids, tip counts",
+      "limitation": "3 NHL rows (FLA@WPG, NJ@DAL, NYI@NSH) outside captured price window."
+    },
+    {
+      "id": "s-olbg-handball",
+      "name": "OLBG Handball hub payload",
+      "url": "https://www.olbg.com/betting-tips/Handball/20/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:42Z",
+      "supports": "15 displayed prices incl. all EHF CL draw tips, Balingen, Skanderborg rows",
+      "limitation": "Most selections display as 'Tie' (draw); see flag F-1027-03."
+    },
+    {
+      "id": "s-olbg-rugbyunion",
+      "name": "OLBG Rugby Union hub payload",
+      "url": "https://www.olbg.com/betting-tips/Rugby_Union/9/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:42Z",
+      "supports": "Dax/Colomiers/Montauban/Oyonnax displayed prices, event ids",
+      "limitation": "Payload timestamps inconsistent with LNR official kickoffs (see flag F-1027-02)."
+    },
+    {
+      "id": "s-olbg-tennis",
+      "name": "OLBG Tennis hub payload",
+      "url": "https://www.olbg.com/betting-tips/Tennis/3/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:29Z",
+      "supports": "Fernandez/Tagger/Osaka/Jodar displayed prices, event ids, tip counts",
+      "limitation": "48 listed rows; price captured for 4; tournament assignment via ATP official page."
+    },
+    {
+      "id": "s-olbg-darts",
+      "name": "OLBG Darts hub payload",
+      "url": "https://www.olbg.com/betting-tips/Darts/15/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:42Z",
+      "supports": "Doets PC31 and Littler 2027 Worlds displayed prices, event ids",
+      "limitation": "2 rows only; PDC cross-walk blocked by cookie wall."
+    },
+    {
+      "id": "s-olbg-volleyball",
+      "name": "OLBG Volleyball hub payload",
+      "url": "https://www.olbg.com/betting-tips/Volleyball/21/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:33Z",
+      "supports": "Bergamo W/Halkbank/Ziraat/Opole W displayed prices, event ids",
+      "limitation": "22 listed rows; price captured for 4."
+    },
+    {
+      "id": "s-olbg-gaelic",
+      "name": "OLBG Gaelic Football hub payload",
+      "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:43Z",
+      "supports": "Eire Og +0.5 / KP +3.5 handicap prices, Kerry 2027 outright, event ids",
+      "limitation": "GAA official fixture pages not captured."
+    },
+    {
+      "id": "s-olbg-hurling",
+      "name": "OLBG Hurling hub payload",
+      "url": "https://www.olbg.com/betting-tips/Hurling/26/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:43Z",
+      "supports": "Galway 2027 All-Ireland HC outright 5.50, event id 675",
+      "limitation": "1 row only (ante-post)."
+    },
+    {
+      "id": "s-olbg-motor",
+      "name": "OLBG Motor Racing hub payload",
+      "url": "https://www.olbg.com/betting-tips/Motor_Racing/14/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:43Z",
+      "supports": "Norris fastest-qualifier and Verstappen D/C-without-Antonelli prices, event ids",
+      "limitation": "Session/conditional markets — terms must be checked with the bookmaker."
+    },
+    {
+      "id": "s-olbg-rugbyleague",
+      "name": "OLBG Rugby League hub payload",
+      "url": "https://www.olbg.com/betting-tips/Rugby_League/10/__data.json",
+      "kind": "tip discovery (OLBG)",
+      "captured": "2026-10-27T05:42Z",
+      "supports": "NSW SoO 2027, Wigan SL-GF 2027, Penrith NRL 2027 prices, event ids",
+      "limitation": "Ante-post only; no live fixtures in hub today."
+    }
+  ]
+}

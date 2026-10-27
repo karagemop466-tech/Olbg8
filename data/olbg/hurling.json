@@ -1,0 +1,53 @@
+{
+ "sport": "Hurling",
+ "sport_id": 26,
+ "captured_utc": "2026-10-27T06:11:51Z",
+ "rows": [
+  {
+   "sport": "Hurling",
+   "sport_key": "hurling",
+   "sport_id": 26,
+   "event_id": "675",
+   "event_name": "All Ireland Hurling Championship 2027",
+   "competition": "",
+   "market": "Win Hurling",
+   "selection": "Galway",
+   "decimal_odds": 5.5,
+   "american_odds": 450,
+   "fractional_odds": "9/2",
+   "start_utc": "2027-07-18T14:30:00Z",
+   "event_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+   "league_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/26",
+   "venue": "",
+   "origin": "hub",
+   "win_tips": 7,
+   "win_tips_count": 18,
+   "experts_count": 0,
+   "confidence": 39,
+   "comments_count": 0
+  },
+  {
+   "sport": "Hurling",
+   "sport_key": "hurling",
+   "sport_id": 26,
+   "event_id": "675",
+   "event_name": "All Ireland Hurling Championship 2027",
+   "competition": "All Ireland Hurling Championship 2027",
+   "market": "Win Hurling",
+   "selection": "Limerick",
+   "decimal_odds": 2.62,
+   "american_odds": 162,
+   "fractional_odds": "13/8",
+   "start_utc": "2027-07-18T14:30:00Z",
+   "event_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+   "league_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/26",
+   "venue": "",
+   "origin": "event",
+   "win_tips": 5,
+   "win_tips_count": 18,
+   "experts_count": 0,
+   "confidence": 28,
+   "comments_count": 2
+  }
+ ]
+}

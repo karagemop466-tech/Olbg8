@@ -1,4 +1,4 @@
-# OLBG Research Desk
+# OLBG multi-sport line desk
 
 An independent, source-linked research desk for the fifteen OLBG sports in scope:
 

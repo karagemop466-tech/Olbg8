@@ -1,0 +1,48 @@
+robots 200 6776b
+hub tennis 200 tips=49 tourns=0
+hub basketball 200 tips=36 tourns=0
+hub golf 200 tips=0 tourns=3
+hub cricket 200 tips=10 tourns=8
+hub snooker 200 tips=0 tourns=0
+hub rugby-union 200 tips=12 tourns=1
+hub rugby-league 200 tips=0 tourns=3
+hub baseball 200 tips=2 tourns=0
+hub ice-hockey 200 tips=20 tourns=0
+hub motor-racing 200 tips=0 tourns=2
+hub darts 200 tips=0 tourns=2
+hub handball 200 tips=19 tourns=0
+hub volleyball 200 tips=22 tourns=0
+hub gaelic-football 200 tips=2 tourns=1
+hub hurling 200 tips=0 tourns=1
+hub greyhounds 200 tips=0 tourns=0
+event tennis Leylah Fernandez vs Himeno Sakatsume 200
+event tennis Stan Wawrinka vs Jiri Lehecka 200
+event tennis Alejandro Tabilo vs Rafael Jodar 200
+event tennis Lilli Tagger vs Venus Williams 200
+event basketball Panathinaikos vs Milano 200
+event basketball BC Dubai vs Paris 200
+event basketball Seoul Knights vs KCC Egis 200
+event basketball Valencia vs Fenerbahce 200
+event cricket New Zealand vs India 3rd T20 Match 200
+event cricket Namibia vs Ireland 3rd ODI 200
+event cricket Pakistan vs Sri Lanka One Day Match 200
+event cricket Afghanistan vs Zimbabwe 1st T20 Match 200
+event rugby-union Dax v Provence 200
+event rugby-union Montauban v Narbonne 200
+event rugby-union Oyonnax v Soyaux Angouleme 200
+event rugby-union Colomiers v Agen 200
+event baseball MIL Brewers @ TB Rays 200
+event ice-hockey Kalpa vs Sport 200
+event ice-hockey IF Malmo Redhawks vs Linkoping HC 200
+event ice-hockey Frolunda HC vs Rogle BK 200
+event ice-hockey CLB Blue Jackets @ PHI Flyers 200
+event handball SC Magdeburg vs HC Kriens Luzern 200
+event handball Fuchse Berlin vs RK Partizan 200
+event handball HC Vardar vs MT Melsungen 200
+event handball Wisla Plock vs Nantes 200
+event volleyball Conegliano W vs Vallefoglia W 200
+event volleyball Marignano W vs Bergamo W 200
+event volleyball Uni Opole W vs Palac Bydgoszcz W 200
+event volleyball TFL Altekma vs Halkbank Ankara 200
+event gaelic-football Fr Caseys v Kildimo Pallaskenry 200
+event gaelic-football Kanturk v Eire Og Cor 200
