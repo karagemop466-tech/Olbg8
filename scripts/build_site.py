@@ -1,615 +1,626 @@
 #!/usr/bin/env python3
-"""Generate the static OLBG desk site from the committed data files.
+"""Build the static OLBG desk from committed JSON sources.
 
-Run: python3 scripts/build_site.py
-Outputs: index.html, picks.html, matches.html, pricing.html, methodology.html,
-         sources.html, flagged.html and sports/<slug>.html
+Every displayed number comes from one of these committed files:
+  data/desk-sports.json     sport register, hubs, official source links
+  data/desk-inventory.json  OLBG listing capture (event, market, selection, tips)
+  data/desk-picks.json      originated lines + written predictions + sources
+  data/desk-pricing.json    per-sport line-origination method
+  data/desk-flagged.json    review items (unverified / irregular)
+  data/desk-sources.json    official source register
+
+Usage: python3 scripts/build_site.py
 """
+from __future__ import annotations
 
 import html
 import json
-import os
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "data")
-
-SPORTS = [
-    ("Basketball", "basketball", "4"),
-    ("Baseball", "baseball", "12"),
-    ("Cricket", "cricket", "7"),
-    ("Darts", "darts", "15"),
-    ("Gaelic Sports", "gaelic-sports", "25"),
-    ("Golf", "golf", "5"),
-    ("Greyhounds", "greyhounds", "28"),
-    ("Handball", "handball", "20"),
-    ("Ice Hockey", "ice-hockey", "13"),
-    ("Motor Racing", "motor-racing", "14"),
-    ("Rugby League", "rugby-league", "10"),
-    ("Rugby Union", "rugby-union", "9"),
-    ("Snooker", "snooker", "8"),
-    ("Tennis", "tennis", "3"),
-    ("Volleyball", "volleyball", "21"),
-]
-SLUG = {name: slug for name, slug, _ in SPORTS}
-OLBG_ID = {name: sid for name, _, sid in SPORTS}
-SOURCE_FOR_SPORT = {
-    "Basketball": "euroleague",
-    "Handball": "ehfcl",
-    "Ice Hockey": "nhl",
-    "Baseball": "mlb",
-    "Rugby Union": "prod2",
-    "Tennis": "wta",
-}
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+OUT = ROOT
 
 
-def esc(value):
-    return html.escape(str(value), quote=True)
+# ---------------------------------------------------------------- utilities
+def esc(value) -> str:
+    return html.escape(str(value if value is not None else ""))
 
 
-def money(price):
-    if price is None:
-        return "&mdash;"
-    return f"+{price:.0f}" if price > 0 else f"{price:.0f}"
+def load(name: str):
+    path = DATA / name
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
-def pct(p):
-    return "&mdash;" if p is None else f"{p * 100:.1f}%"
+def american_to_decimal(american: float) -> float:
+    a = float(american)
+    return round(1 + (a / 100 if a > 0 else 100 / abs(a)), 3)
 
 
-def badge_conf(band):
-    if not band:
-        return '<span class="badge none">No pick</span>'
-    return f'<span class="badge {band.lower()}">{esc(band)}</span>'
+def decimal_to_american(dec: float) -> int:
+    dec = float(dec)
+    if dec >= 2:
+        return int(round((dec - 1) * 100))
+    return int(round(-100 / (dec - 1)))
 
 
-def window_badge(row):
-    if not row.get("pick"):
+def implied_pct(american: float) -> float:
+    a = float(american)
+    p = 100 / (a + 100) if a > 0 else abs(a) / (abs(a) + 100)
+    return round(p * 100, 1)
+
+
+def fmt_american(american) -> str:
+    if american in (None, ""):
+        return "—"
+    return f"+{int(american)}" if int(american) > 0 else str(int(american))
+
+
+def fmt_dt(iso: str) -> str:
+    if not iso:
+        return "—"
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    except ValueError:
+        return esc(iso)
+    return dt.strftime("%a %d %b %H:%M UTC")
+
+
+def day_of(iso: str) -> str:
+    try:
+        dt = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+    except (ValueError, AttributeError):
         return ""
-    if row["pick"]["in_price_window"]:
-        return '<span class="badge win">In window</span>'
-    return '<span class="badge out">Outside window</span>'
+    return dt.strftime("%Y-%m-%d")
 
 
-def when(label):
-    if label.startswith("Today"):
-        return "Today"
-    if label.startswith("Tomorrow"):
-        return "Tomorrow"
-    return "Later"
+REFRESH = (load("desk-inventory.json") or {}).get("captured_utc", "")
+TODAY = REFRESH[:10] if REFRESH else datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def load():
-    matches = json.load(open(os.path.join(DATA, "matches.json")))
-    preds = json.load(open(os.path.join(DATA, "predictions.json")))
-    ratings = json.load(open(os.path.join(DATA, "ratings.json")))
-    listings = json.load(open(os.path.join(DATA, "olbg-listings.json")))
-    for row in matches["rows"]:
-        entry = preds["entries"].get(row["id"])
-        if entry and row.get("pick"):
-            row["pick"]["published"] = True
-            row["pick"]["confidence"] = entry["confidence"]
-            row["prediction"] = entry
-    return matches, preds, ratings, listings
+# ---------------------------------------------------------------- page shell
+NAV = [
+    ("overview", "Overview", "index.html"),
+    ("picks", "Picks", "picks.html"),
+    ("matches", "Matches", "matches.html"),
+    ("pricing", "Pricing", "pricing.html"),
+    ("sources", "Sources", "sources.html"),
+    ("flagged", "Flagged", "flagged.html"),
+    ("method", "Method", "methodology.html"),
+]
 
 
-def page(title, active, body, depth=0):
-    prefix = "../" * depth
-    links = [
-        ("index.html", "Executive summary"),
-        ("picks.html", "Written predictions"),
-        ("matches.html", "Full price board"),
-        ("pricing.html", "How we price"),
-        ("methodology.html", "Method"),
-        ("sources.html", "Sources"),
-        ("flagged.html", "Flagged for review"),
-    ]
-    nav_parts = []
-    for href, label in links:
-        cls = ' class="active"' if href == active else ""
-        nav_parts.append('<a href="%s%s"%s>%s</a>' % (prefix, href, cls, esc(label)))
-    nav = "".join(nav_parts)
-    return f"""<!DOCTYPE html>
+def page(key: str, title: str, body: str, base: str = "", subtitle: str = "") -> str:
+    current = ' aria-current="page"'
+    nav = "\n".join(
+        f'<a href="{base}{href}"{current if k == key else ""}>{esc(label)}</a>'
+        for k, label, href in NAV
+    )
+    return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} &middot; OLBG multi-sport desk</title>
-<link rel="stylesheet" href="{prefix}assets/styles.css">
+<title>{esc(title)} · OLBG desk</title>
+<meta name="description" content="OLBG multi-sport desk: captured listings, originated lines, sourced written predictions, and flagged items.">
+<link rel="stylesheet" href="{base}assets/desk.css">
 </head>
 <body>
-<header class="site">
-  <div class="wrap">
-    <div>
-      <div class="brand">OLBG <span>multi-sport desk</span></div>
-      <div class="tagline">Fifteen sports, one price board, written predictions only where the inputs are sourced</div>
-    </div>
-  </div>
-  <div class="wrap"><nav class="site">{nav}</nav></div>
-</header>
-<main><div class="wrap">
+<div class="topbar"><div class="topbar-in">
+  <a class="brand" href="{base}index.html"><span class="brand-mark">O</span>
+    <span>OLBG desk<small>{esc(subtitle or 'lines · picks · sources')}</small></span></a>
+  <nav class="main" aria-label="Primary">{nav}</nav>
+</div></div>
+<main class="wrap">
 {body}
-</div></main>
+</main>
 <footer class="site"><div class="wrap">
-Independent research, not OLBG advice and not a guarantee. Prices shown are our own fair prices, not bookmaker prices.
-18+. Only stake what you can afford to lose. Data capture: <strong>2026-10-27 05:30 UTC</strong>.
+  <p><strong>Independent research desk.</strong> Listings, markets and tip counts come from OLBG.com pages
+  captured {esc(REFRESH or "n/a")}. Lines, probabilities and written predictions are originated here and are
+  not OLBG or bookmaker prices. Check the linked official source and current market before acting.
+  Nothing here is a guarantee. 18+. Only bet where lawful.</p>
 </div></footer>
-<script src="{prefix}assets/app.js" defer></script>
 </body>
 </html>
 """
 
 
-def pick_table(rows, show_sport=True, depth=0):
-    prefix = "../" * depth
-    head = ['<div class="tablewrap"><table class="filterable"><thead><tr>']
-    cols = []
-    if show_sport:
-        cols.append("Sport")
-    cols += ["When", "Match", "Competition", "Selection", "Our price", "Chance", "Confidence", "Window"]
-    head += [f'<th>{esc(c)}</th>' for c in cols]
-    head.append("</tr></thead><tbody>")
-    out = "".join(head)
-    for row in rows:
-        p = row["pick"]
-        cells = []
-        if show_sport:
-            cells.append(f'<a href="{prefix}sports/{SLUG[row["sport"]]}.html">{esc(row["sport"])}</a>')
-        cells += [
-            esc(when(row["start_label"])),
-            f'<a href="#{esc(row["id"])}">{esc(row["event"])}</a>',
-            esc(row["competition"]),
-            f'<strong>{esc(p["selection"])}</strong>',
-            money(p["american"]),
-            pct(p["probability"]),
-            badge_conf(p["confidence"]),
-            window_badge(row),
-        ]
-        out += "<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>"
-    return out + "</tbody></table></div>"
+def badge(conf: str) -> str:
+    klass = {"high": "b-high", "medium": "b-medium", "low": "b-low"}.get(str(conf).lower(), "b-mute")
+    return f'<span class="badge {klass}">{esc(conf)}</span>'
 
 
-def pick_cards(rows, depth=0):
-    prefix = "../" * depth
+def src_links(urls) -> str:
     out = []
-    for row in rows:
-        p, pr = row["pick"], row["prediction"]
-        srcs = ", ".join(
-            f'<a href="{esc(row["source_urls"][k])}">{esc(row["source_labels"][k])}</a>' for k in pr["sources"]
-        )
-        out.append(
-            f'<div class="pickcard" id="{esc(row["id"])}">'
-            f'<h3>{esc(pr["headline"])}</h3>'
-            f'<div class="meta">{esc(row["sport"])} &middot; {esc(row["competition"])} &middot; '
-            f'{esc(row["start_label"])} &middot; {badge_conf(p["confidence"])} {window_badge(row)}</div>'
-            f'<div class="sel">Selection: {esc(pr["selection"])} &nbsp;&middot;&nbsp; our price {money(p["american"])} '
-            f'&nbsp;&middot;&nbsp; our chance {pct(p["probability"])}</div>'
-            f'<p class="analysis">{esc(pr["analysis"])}</p>'
-            f'<div class="srcs">Sources: {srcs} &middot; '
-            f'<a href="{esc(row["olbg_url"])}">OLBG market</a></div>'
-            "</div>"
-        )
-    return "\n".join(out)
-
-
-def main():
-    matches, preds, ratings, listings = load()
-    rows = matches["rows"]
-    events = [r for r in rows]
-    rated = [r for r in events if r.get("pick")]
-    published = [r for r in rated if r.get("prediction")]
-    high = [r for r in published if r["pick"]["confidence"] == "High"]
-    in_window = [r for r in published if r["pick"]["in_price_window"]]
-    total_listings = len(events)
-    sources = ratings["sources"]
-
-    for row in events:
-        key = SOURCE_FOR_SPORT.get(row["sport"])
-        row["source_urls"] = {key: sources[key]["url"]} if key else {}
-        row["source_labels"] = {key: sources[key]["label"].split(" (")[0]} if key else {}
-
-    by_sport = defaultdict(list)
-    for row in events:
-        by_sport[row["sport"]].append(row)
-
-    published_by_sport = defaultdict(list)
-    for row in published:
-        published_by_sport[row["sport"]].append(row)
-
-    counts = {}
-    for name, slug, _ in SPORTS:
-        srows = by_sport.get(name, [])
-        sp = [r for r in srows if r.get("pick")]
-        pub = [r for r in srows if r.get("prediction")]
-        counts[name] = {
-            "listings": len(srows),
-            "priced": len(sp),
-            "published": len(pub),
-            "high": len([r for r in pub if r["pick"]["confidence"] == "High"]),
-        }
-
-    # ---------------------------------------------------------------- home ----
-    stats = [
-        (len(SPORTS), "sports covered"),
-        (total_listings, "OLBG listings captured"),
-        (len(rated), "matches priced by us"),
-        (len(published), "written predictions"),
-    ]
-    stat_html = "".join(
-        f'<div class="stat"><div class="n">{n}</div><div class="l">{esc(l)}</div></div>' for n, l in stats
-    )
-
-    coverage_rows = []
-    for name, slug, _ in SPORTS:
-        c = counts[name]
-        status = "Picks published" if c["published"] else ("Priced, no pick" if c["priced"] else "No price")
-        cls = ' class="muted"' if not c["published"] else ""
-        coverage_rows.append(
-            f'<tr{cls}><td><a href="sports/{slug}.html">{esc(name)}</a></td>'
-            f'<td class="num">{c["listings"]}</td><td class="num">{c["priced"]}</td>'
-            f'<td class="num">{c["published"]}</td><td class="num">{c["high"]}</td><td>{esc(status)}</td></tr>'
-        )
-
-    home_body = f"""
-<h1>Executive summary</h1>
-<p class="lede">Every match, race and tournament market we could see on OLBG for the fifteen requested sports, captured at
-<strong>2026-10-27 05:30 UTC</strong>, plus our own price for each one. Written predictions appear only where an official
-source gave us the numbers to write them.</p>
-
-<div class="grid k4">{stat_html}</div>
-
-<div class="note"><strong>Read this first.</strong> The written predictions live on
-<a href="picks.html">Written predictions</a> and every one is also linked from its sport page. The complete board, including
-matches we could not price, is on <a href="matches.html">Full price board</a>. Anything uncertain is listed on
-<a href="flagged.html">Flagged for review</a>.</div>
-
-<h2>Today's highest-confidence picks</h2>
-<p class="lede">{len(high)} selections came out at a 70% chance or better on our numbers. Every one of them is priced shorter
-than -250, so they sit outside the -250 to +10000 window and are labelled accordingly. They are still our strongest views.</p>
-{pick_table(high, depth=0)}
-
-<h2>Picks inside the -250 to +10000 window</h2>
-<p class="lede">{len(in_window)} of the {len(published)} published picks sit inside the -250 to +10000 window. The rest are
-stronger favourites than -250 and are tagged as outside it.</p>
-{pick_table(in_window, depth=0)}
-
-<h2>Coverage by sport</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Sport</th><th class="num">OLBG listings</th><th class="num">Priced</th>
-<th class="num">Written picks</th><th class="num">High confidence</th><th>Status</th></tr></thead>
-<tbody>{''.join(coverage_rows)}</tbody></table></div>
-
-<h2>Where things are</h2>
-<ul class="tight">
-<li><a href="picks.html">Written predictions</a> &mdash; the full analysis for every published pick, grouped by sport.</li>
-<li><a href="matches.html">Full price board</a> &mdash; all {total_listings} OLBG listings with our money line, handicap and total, and the exact reason for any blank.</li>
-<li><a href="pricing.html">How we price</a> &mdash; the formula, the parameters, and a worked example for each sport.</li>
-<li><a href="sources.html">Sources</a> &mdash; every official page used, with its capture time.</li>
-<li><a href="flagged.html">Flagged for review</a> &mdash; gaps, irregularities and anything we refused to fill in.</li>
-</ul>
-
-<h2>What is not covered, and why</h2>
-<p class="lede">{len(SPORTS) - len(published_by_sport)} of the {len(SPORTS)} sports have no written prediction in this capture. That is a sourcing outcome, not an
-editorial choice: Snooker and Greyhounds showed <em>no tips at all</em> on OLBG, and the remaining sports expose only
-futures markets or competitions whose official tables we could not read inside this session. No price was invented to fill
-those gaps. The full list, with the exact missing input, is on <a href="flagged.html">Flagged for review</a>.</p>
-"""
-    open(os.path.join(ROOT, "index.html"), "w").write(page("Executive summary", "index.html", home_body))
-
-    # --------------------------------------------------------------- picks ----
-    groups = []
-    for name, slug, _ in SPORTS:
-        prows = published_by_sport.get(name, [])
-        if not prows:
-            continue
-        prows.sort(key=lambda r: -r["pick"]["probability"])
-        groups.append(f'<h2 id="{slug}">{esc(name)} <span class="chip">{len(prows)} written predictions</span></h2>')
-        groups.append(pick_cards(prows))
-    picks_body = f"""
-<h1>Written predictions</h1>
-<p class="lede">Every pick below names the competition, the selection, our price, our chance and a confidence band, and every
-statement is drawn from the official source listed on the card. Nothing here mentions injuries, because no team-news source
-was read for this edition.</p>
-<div class="note warn"><strong>Only {len(published)} picks cleared the bar.</strong> A pick is published only when both
-competitors have an official rating input and our chance of the selection winning is at least 55%. Nine sports did not clear
-that bar; the reasons are on <a href="flagged.html">Flagged for review</a>.</div>
-{''.join(groups)}
-"""
-    open(os.path.join(ROOT, "picks.html"), "w").write(page("Written predictions", "picks.html", picks_body))
-
-    # ------------------------------------------------------------- matches ----
-    body_rows = []
-    for name, slug, _ in SPORTS:
-        for row in sorted(by_sport.get(name, []), key=lambda r: (when(r["start_label"]), r["competition"], r["event"])):
-            p = row.get("pick")
-            m = row.get("markets")
-            if p:
-                price_cell = money(p["american"])
-                sel_cell = f'<strong>{esc(p["selection"])}</strong>'
-                conf = badge_conf(p["confidence"])
-                window = window_badge(row)
-            else:
-                price_cell = "&mdash;"
-                sel_cell = '<span class="chip">not priced</span>'
-                conf = badge_conf(None)
-                window = ""
-            handicap = esc(m["handicap"]["display"]) if m and m.get("handicap") else "&mdash;"
-            total = esc(str(m["total"]["line"])) if m and m.get("total") else "&mdash;"
-            reason = "; ".join(row.get("flags", [])) or ""
-            body_rows.append(
-                f'<tr><td>{esc(name)}</td><td>{esc(when(row["start_label"]))}</td>'
-                f'<td><a href="{esc(row["olbg_url"])}">{esc(row["event"])}</a><br><span class="chip">{esc(row["start_label"])} &middot; {esc(row["competition"])}</span></td>'
-                f'<td>{esc(row["olbg_selection"])}<br><span class="chip">{esc(row["olbg_tips"])} tips &middot; {esc(row["olbg_pct"])}%</span></td>'
-                f"<td>{sel_cell}</td><td class=\"num\">{price_cell}</td><td>{conf}</td><td>{window}</td>"
-                f"<td>{handicap}</td><td class=\"num\">{total}</td>"
-                f'<td class="chip">{esc(reason)}</td></tr>'
-            )
-    matches_body = f"""
-<h1>Full price board</h1>
-<p class="lede">All {total_listings} OLBG listings in scope, with our money-line selection, the handicap number we would
-post, our projected total, and the exact reason where a row is blank. Filter by sport or search a team.</p>
-<div class="toolbar">
-  <input type="search" data-filter="board" placeholder="Search team, player or competition">
-  <select data-filter="board-sport"><option value="">All sports</option>{''.join(f'<option>{esc(n)}</option>' for n, _, _ in SPORTS)}</select>
-  <span class="chip" data-count="board"></span>
-</div>
-<div class="tablewrap"><table id="board" class="filterable">
-<thead><tr><th>Sport</th><th>When</th><th>Match</th><th>OLBG most-tipped</th><th>Our pick</th>
-<th class="num">Our price</th><th>Confidence</th><th>Window</th><th>Our handicap</th><th class="num">Our total</th>
-<th>Notes</th></tr></thead>
-<tbody>{''.join(body_rows)}</tbody></table></div>
-"""
-    open(os.path.join(ROOT, "matches.html"), "w").write(page("Full price board", "matches.html", matches_body))
-
-    # ------------------------------------------------------------- pricing ----
-    params = matches["sport_parameters"]
-    param_rows = []
-    for name in ["Basketball", "Handball", "Ice Hockey", "Baseball", "Rugby Union"]:
-        param_rows.append(
-            f"<tr><td>{esc(name)}</td><td class=\"num\">{params['home_edge'][name]:.2f}</td>"
-            f"<td class=\"num\">{params['margin_sd'][name]:.1f}</td>"
-            f"<td class=\"num\">{params['shrink_k'][name]:.0f}</td>"
-            f"<td class=\"num\">{params['scoring_step'][name]:.1f}</td></tr>"
-        )
-    pricing_body = f"""
-<h1>How we price every match</h1>
-<p class="lede">We do not copy a bookmaker. We build a number from official results and then convert that number into a
-price. The method is the same for every sport; only the parameters change.</p>
-
-<h2>1. Rating input</h2>
-<p>For each competitor we take the official season record: matches played, and points or goals or runs for and against.
-Nothing else. Where a competition has a table, the table is the input. Where it does not, we do not price the match.</p>
-
-<h2>2. Shrink the sample</h2>
-<p>A seven-game point differential is noisy, so every rating is pulled toward the league average before use:</p>
-<p><code>rating = (points_for - points_against) / games_played &times; games_played / (games_played + K)</code></p>
-<p>With K around 8 to 12 for a short European season and 60 for a 162-game baseball season, a club that has played a handful
-of matches cannot produce an extreme number.</p>
-
-<h2>3. Turn the ratings into a projected margin</h2>
-<p><code>projected margin = home rating - away rating + home edge</code>, where the home edge is the sport-specific bump in
-the table below. The projected margin is also our handicap number, rounded to the sport's scoring step.</p>
-
-<h2>4. Turn the margin into a probability</h2>
-<p>We treat the actual margin as normally distributed around the projection with the sport's own standard deviation. That
-gives the chance of the favourite covering any line, and for handball and rugby union it also gives the chance of a draw,
-so those two sports are priced as three-way markets.</p>
-
-<h2>5. Convert to a price</h2>
-<p><code>price = -100 &times; p / (1 - p)</code> when p is at least 50%, otherwise <code>100 &times; (1 - p) / p</code>.
-These are fair prices with no margin. A bookmaker's price is shorter; that gap is where a bet becomes interesting.</p>
-
-<h2>Parameters in use</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Sport</th><th class="num">Home edge</th><th class="num">Margin SD</th><th class="num">Shrink K</th>
-<th class="num">Scoring step</th></tr></thead>
-<tbody>{''.join(param_rows)}</tbody></table></div>
-<p class="chip">Tennis is priced separately: a Bradley-Terry comparison of ranking points, scaled by 1.5 in log space, with no
-home edge because the first-named player is not the host.</p>
-
-<h2>Worked example: Dax v Provence</h2>
-<p>Provence have played 8 matches with 276 points scored and 161 conceded, so their raw differential is plus 14.4. Shrunk
-with K = 6 it becomes plus 8.2. Dax are minus 4.6 raw, minus 2.6 shrunk. Adding the 3.5 home edge for Dax gives a projected
-margin of minus 7.4 in Provence's favour, which we round to a 7.5-point handicap. The chance of Provence winning outright
-comes out at 70.8%, which converts to -243. That is the one High-confidence pick of the day that also sits inside the
--250 to +10000 window.</p>
-
-<h2>Markets we publish for every priced match</h2>
-<ul class="tight">
-<li><strong>Match winner</strong> &mdash; the price on each side, plus the draw where the sport allows one.</li>
-<li><strong>Handicap</strong> &mdash; the projected margin, quoted as a line, with a price on each side.</li>
-<li><strong>Total</strong> &mdash; the combined score the two records imply, rounded to the sport's step.</li>
-</ul>
-<p class="lede">Markets we do not price: player props, correct score, and anything that needs team news. No injury,
-suspension or lineup information was read for this edition, so no market depends on it.</p>
-"""
-    open(os.path.join(ROOT, "pricing.html"), "w").write(page("How we price", "pricing.html", pricing_body))
-
-    # --------------------------------------------------------- methodology ----
-    method_body = f"""
-<h1>Method and verification</h1>
-<p class="lede">The rules this desk follows, in the order they are applied.</p>
-
-<h2>Capture</h2>
-<p>The fifteen OLBG category pages were read directly on 2026-10-27 from <code>olbg.com/betting-tips/&lt;Sport&gt;/&lt;id&gt;</code>.
-Every listing keeps its own event URL so a reader can reopen the market and confirm the match, the most-tipped selection and
-the tip counts. Two categories, Snooker and Greyhounds, displayed <em>No tips found</em> and are reported as empty rather
-than padded.</p>
-
-<h2>Pricing gate</h2>
-<p>A match is priced only when both competitors appear in an official table we actually read. If one side is missing, the
-price stays blank. If the whole competition lacks a table, the whole competition stays blank. This is why nine sports carry
-no prediction today.</p>
-
-<h2>Publication gate</h2>
-<p>A pick is published only when the chance of the selection winning is at least 55%. Below that the number is a coin flip
-and publishing it would be noise. Every published pick is between 55% and 85%.</p>
-
-<h2>Confidence bands</h2>
-<ul class="tight">
-<li><span class="badge high">High</span> 70% or better.</li>
-<li><span class="badge medium">Medium</span> 62% to 69.9%.</li>
-<li><span class="badge low">Low</span> below 62%.</li>
-</ul>
-
-<h2>The price window</h2>
-<p>The brief asks for picks between -250 and +10000. On fair prices, a selection with a 70% chance is -233, so a
-High-confidence pick is almost always shorter than -250. We therefore label the window status on every pick instead of
-hiding the conflict: {len(in_window)} of {len(published)} published picks are inside the window, and {len(high)} High-confidence
-picks are outside it and marked <span class="badge out">Outside window</span>.</p>
-
-<h2>What a written prediction must contain</h2>
-<p>A named selection, the competition, at least thirty words of reasoning, and figures that can be traced to the source on
-the same card. No prediction mentions an injury, a suspension or a lineup, because none of those were read from an official
-source for this edition.</p>
-
-<h2>What we will not do</h2>
-<ul class="tight">
-<li>Fill a blank with an estimate and present it as a fact.</li>
-<li>Quote a statistic from memory or from a preview article rather than the governing body.</li>
-<li>Publish a pick because a sport needs a quota.</li>
-</ul>
-"""
-    open(os.path.join(ROOT, "methodology.html"), "w").write(page("Method", "methodology.html", method_body))
-
-    # ------------------------------------------------------------- sources ----
-    src_rows = []
-    for key, s in sources.items():
-        used = [r for r in events if key in r["source_urls"]]
-        src_rows.append(
-            f'<tr><td><a href="{esc(s["url"])}">{esc(s["label"])}</a></td>'
-            f'<td>{esc(s["url"])}</td><td>{esc(s["captured_utc"])}</td>'
-            f'<td class="num">{len(used)}</td><td>{esc(s.get("state", ""))}</td></tr>'
-        )
-    olbg_rows = "".join(
-        f'<tr><td>{esc(name)}</td><td><a href="https://www.olbg.com/betting-tips/{page_path}">OLBG {esc(name)} category</a></td>'
-        f'<td class="num">{counts[name]["listings"]}</td></tr>'
-        for name, slug, page_path in [(n, s, f"{n.replace(' ', '_')}/{i}") for n, s, i in SPORTS]
-    )
-    sources_body = f"""
-<h1>Sources</h1>
-<p class="lede">Every figure in a written prediction comes from one of the official pages below. OLBG is the source for the
-market itself, never for a sporting fact.</p>
-
-<h2>Official sources used for pricing</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Source</th><th>URL</th><th>Captured (UTC)</th><th class="num">Rows</th><th>State</th></tr></thead>
-<tbody>{''.join(src_rows)}</tbody></table></div>
-
-<h2>OLBG category pages</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Sport</th><th>Page</th><th class="num">Listings captured</th></tr></thead>
-<tbody>{olbg_rows}</tbody></table></div>
-
-<h2>Official pages checked but not usable for a price</h2>
-<ul class="tight">
-<li><a href="https://www.icc-cricket.com/rankings/team-rankings/mens/odi">ICC team rankings</a> &mdash; the ranking table did not render, so cricket has no rating input. The ICC fixtures page did confirm the six international fixtures listed on OLBG, including that South Africa v Australia and Bangladesh v West Indies are Tests rather than one-day matches.</li>
-<li><a href="https://www.atptour.com/en/rankings/singles">ATP rankings</a> &mdash; the table sat behind a very large page and could not be read inside this session, so the nine men's tennis matches are unpriced. The WTA list was readable and covers the women's matches.</li>
-<li><a href="https://www.lnr.fr/rugby-pro-d2/classement">LNR Pro D2 (old path)</a> &mdash; returned a 404. The working table is <a href="https://prod2.lnr.fr/classement">prod2.lnr.fr/classement</a>, which is what we used.</li>
-<li><a href="https://www.nationalleague.ch/ranking">Swiss National League</a> &mdash; returned a not-found page, so the six Swiss fixtures are unpriced.</li>
-</ul>
-"""
-    open(os.path.join(ROOT, "sources.html"), "w").write(page("Sources", "sources.html", sources_body))
-
-    # ------------------------------------------------------------- flagged ----
-    unpriced = [r for r in events if not r.get("pick")]
-    flag_rows = []
-    for row in unpriced:
-        flag_rows.append(
-            f'<tr><td>{esc(row["sport"])}</td><td><a href="{esc(row["olbg_url"])}">{esc(row["event"])}</a></td>'
-            f'<td>{esc(row["competition"])}</td><td>{esc("; ".join(row.get("flags", [])))}</td></tr>'
-        )
-    flagged_body = f"""
-<h1>Flagged for review</h1>
-<p class="lede">Everything below is either blank, uncertain or contradictory. None of it has been smoothed over.</p>
-
-<h2>1. Categories with no listings at all</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Sport</th><th>OLBG page</th><th>What OLBG displayed</th></tr></thead>
-<tbody>
-<tr><td>Snooker</td><td><a href="https://www.olbg.com/betting-tips/Snooker/8">Snooker (8)</a></td><td>No tips found.</td></tr>
-<tr><td>Greyhounds</td><td><a href="https://www.olbg.com/betting-tips/Greyhounds/28">Greyhounds (28)</a></td><td>No tips found.</td></tr>
-</tbody></table></div>
-<p class="lede">Two of the fifteen requested sports had no market on OLBG at capture time. Nothing was substituted.</p>
-
-<h2>2. Markets that exist but cannot be priced here</h2>
-<ul class="tight">
-<li><strong>Outright and futures markets</strong> &mdash; golf (3), darts (2), motor racing (2), rugby league (3), Gaelic football (1), cricket World Cup 2027. Pricing a field of 100+ golfers or a 128-player darts event needs a field-strength list we did not capture.</li>
-<li><strong>Competitions without an official table in this session</strong> &mdash; cricket (13 listings), volleyball (14), the non-NHL hockey leagues (13), the non-EuroLeague basketball competitions (5), and the URC and Top 14 rugby fixtures (4).</li>
-<li><strong>Tennis</strong> &mdash; only the four women inside the captured WTA top 50 could be priced, which yields one publishable match. The nine men's matches need the ATP list.</li>
-</ul>
-
-<h2>3. Data irregularities spotted on OLBG</h2>
-<ul class="tight">
-<li><strong>Handball selection labels.</strong> Eleven of fifteen handball rows showed the most-tipped selection as literally <em>Tie</em>. A draw being the single most-tipped outcome in eleven matches is implausible, so we treat the label as a display fault and price the match ourselves rather than reading it as a drawn match. <a href="https://www.olbg.com/betting-tips/Handball/20">Handball page</a>.</li>
-<li><strong>Conflicting most-tipped selections.</strong> On the main ice hockey page, Ambri Piotta v EHC Biel showed a puck line (-1.50) as the most-tipped market; the Swiss league sub-page showed the plain money line for the same fixture. EHC Kloten v HC Ajoie showed Kloten -1.50 on one page and HC Ajoie on the other. <a href="https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/13">Swiss National League page</a>.</li>
-<li><strong>Relative time labels.</strong> OLBG prints <em>Today</em> and <em>Tomorrow</em> without a date or a timezone. We kept the wording exactly as displayed and did not convert it to a clock time.</li>
-<li><strong>Format mismatch.</strong> OLBG lists South Africa v Australia and Bangladesh v West Indies without a format; the ICC fixtures page shows both as Tests. We follow the ICC.</li>
-</ul>
-
-<h2>4. Every row we could not price ({len(unpriced)} of {total_listings})</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Sport</th><th>Event</th><th>Competition</th><th>Reason</th></tr></thead>
-<tbody>{''.join(flag_rows)}</tbody></table></div>
-
-<h2>5. Standing gaps in this edition</h2>
-<ul class="tight">
-<li>No injury, suspension or lineup check was possible, so no prediction refers to team news.</li>
-<li>No bookmaker price was compared against our number, because the brief asks for our own lines. A value bet needs that comparison and we have not made one.</li>
-<li>The five-per-sport written-prediction target is met for basketball, handball and rugby union only. The other twelve sports fall short for the sourcing reasons above.</li>
-<li>Standings move daily. Every rating input carries its capture time on the <a href="sources.html">Sources</a> page and should be re-read before betting.</li>
-</ul>
-"""
-    open(os.path.join(ROOT, "flagged.html"), "w").write(page("Flagged for review", "flagged.html", flagged_body))
-
-    # -------------------------------------------------------------- sports ----
-    os.makedirs(os.path.join(ROOT, "sports"), exist_ok=True)
-    for name, slug, _ in SPORTS:
-        srows = sorted(by_sport.get(name, []), key=lambda r: (when(r["start_label"]), r["competition"], r["event"]))
-        pub = [r for r in srows if r.get("prediction")]
-        pub.sort(key=lambda r: -r["pick"]["probability"])
-        priced_n = len([r for r in srows if r.get("pick")])
-        oid = OLBG_ID[name]
-        page_path = f"{name.replace(' ', '_')}/{oid}"
-        if not srows:
-            body = f"""
-<h1>{esc(name)}</h1>
-<p class="lede">OLBG displayed <strong>no tips</strong> for this sport at capture time, so there is nothing to price.
-The category page is <a href="https://www.olbg.com/betting-tips/{page_path}">here</a>.</p>
-<div class="note warn">This is reported as an empty category, not as missing research. Nothing was substituted to fill it.</div>
-"""
+    for i, item in enumerate(urls, 1):
+        if isinstance(item, str):
+            out.append(f'<a href="{esc(item)}" target="_blank" rel="noopener noreferrer">source {i}</a>')
         else:
-            cards = pick_cards(pub, depth=1) if pub else '<div class="note warn">No pick cleared the publication bar for this sport in this capture. The board below shows what we could price and the reason for every blank.</div>'
-            table_rows = []
-            for row in srows:
-                p = row.get("pick")
-                table_rows.append(
-                    f'<tr><td><a href="{esc(row["olbg_url"])}">{esc(row["event"])}</a></td>'
-                    f'<td>{esc(row["start_label"])}</td><td>{esc(row["olbg_selection"])}</td>'
-                    f'<td class="num">{esc(row["olbg_pct"])}%</td>'
-                    f'<td>{"<strong>" + esc(p["selection"]) + "</strong>" if p else "&mdash;"}</td>'
-                    f'<td class="num">{money(p["american"]) if p else "&mdash;"}</td>'
-                    f'<td>{badge_conf(p["confidence"]) if p else badge_conf(None)}</td>'
-                    f'<td class="chip">{esc("; ".join(row.get("flags", [])))}</td></tr>'
-                )
-            body = f"""
-<h1>{esc(name)}</h1>
-<p class="lede">{len(srows)} OLBG listings captured, {priced_n} priced by us, {len(pub)} written predictions.
-Category page: <a href="https://www.olbg.com/betting-tips/{page_path}">OLBG {esc(name)}</a>.</p>
-<h2>Written predictions</h2>
-{cards}
-<h2>All captured markets</h2>
-<div class="tablewrap"><table>
-<thead><tr><th>Event</th><th>When</th><th>OLBG most-tipped</th><th class="num">Tip share</th>
-<th>Our pick</th><th class="num">Our price</th><th>Confidence</th><th>Notes</th></tr></thead>
-<tbody>{''.join(table_rows)}</tbody></table></div>
-"""
-        open(os.path.join(ROOT, "sports", f"{slug}.html"), "w").write(
-            page(name, "", body, depth=1)
-        )
+            out.append(
+                f'<a href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">{esc(item.get("label") or f"source {i}")}</a>'
+            )
+    return " · ".join(out) if out else '<span class="badge b-flag">no source</span>'
 
-    # ---------------------------------------------------------------- done ----
-    print(f"built index, picks ({len(published)}), board ({total_listings}), pricing, method, sources, flagged, {len(SPORTS)} sports")
+
+# ---------------------------------------------------------------- data load
+SPORTS_DOC = load("desk-sports.json") or {"sports": []}
+SPORTS = SPORTS_DOC["sports"]
+SPORT_BY_KEY = {s["key"]: s for s in SPORTS}
+INVENTORY = load("desk-inventory.json") or {"sports": {}, "captured_utc": ""}
+INV = INVENTORY.get("sports", {})
+PICKS_DOC = load("desk-picks.json") or {"picks": []}
+PICKS = sorted(PICKS_DOC.get("picks", []), key=lambda p: (p.get("start_utc", ""), p.get("sport", "")))
+PRICING = load("desk-pricing.json") or {"sports": {}}
+FLAGGED = load("desk-flagged.json") or {"items": []}
+SOURCES = load("desk-sources.json") or {"groups": []}
+
+PICKS_BY_SPORT = defaultdict(list)
+for p in PICKS:
+    PICKS_BY_SPORT[p["sport"]].append(p)
+PICK_BY_EVENT = {p["event_id"]: p for p in PICKS if p.get("event_id")}
+
+
+def inv_events(key: str) -> list:
+    return (INV.get(key) or {}).get("events", [])
+
+
+def all_events() -> list:
+    rows = []
+    for s in SPORTS:
+        for e in inv_events(s["key"]):
+            rows.append((s, e))
+    return rows
+
+
+# ---------------------------------------------------------------- fragments
+def picks_table(picks, base: str = "", show_sport: bool = True) -> str:
+    if not picks:
+        return '<p class="note">No pick published for this sport in this capture. See the flagged list for the reason.</p>'
+    head = ["#", "Match", "Our line", "Price", "Implied", "Confidence"]
+    if show_sport:
+        head.insert(1, "Sport")
+    head.append("Detail")
+    numcls = ' class="num"'
+    h = "".join(f"<th{numcls if c in ('Price', 'Implied') else ''}>{c}</th>" for c in head)
+    rows = []
+    for i, p in enumerate(picks, 1):
+        cells = [f'<td class="num">{i}</td>']
+        if show_sport:
+            label = SPORT_BY_KEY.get(p["sport"], {}).get("label", p["sport"])
+            cells.append(f'<td><a href="{base}sports/{esc(p["sport"])}.html">{esc(label)}</a></td>')
+        cells.append(
+            f'<td><strong>{esc(p["event"])}</strong><br><span class="meta">{esc(p.get("competition") or "")} · {esc(fmt_dt(p.get("start_utc")))}</span></td>'
+        )
+        cells.append(f'<td><strong>{esc(p["market"])}: {esc(p["selection"])}</strong></td>')
+        cells.append(f'<td class="num"><span class="price">{esc(fmt_american(p.get("line_american")))}</span></td>')
+        cells.append(f'<td class="num">{esc(p.get("implied_pct"))}%</td>')
+        cells.append(f'<td>{badge(p.get("confidence"))}</td>')
+        anchor = p["id"]
+        cells.append(f'<td><a href="{base}picks.html#{esc(anchor)}">read</a></td>')
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    return (
+        '<div class="tablewrap"><table class="t-compact"><thead><tr>' + h + "</tr></thead><tbody>"
+        + "".join(rows) + "</tbody></table></div>"
+    )
+
+
+def pick_card(p: dict, base: str = "") -> str:
+    conf = str(p.get("confidence", "")).lower()
+    facts = "".join(
+        f'<li>{esc(f["text"])} <a href="{esc(f["source"])}" target="_blank" rel="noopener noreferrer">[source]</a></li>'
+        for f in p.get("facts", [])
+    )
+    flags = ""
+    if p.get("flags"):
+        flags = '<div class="note" style="margin-top:.6rem"><strong>Review note:</strong> ' + "<br>".join(
+            esc(f) for f in p["flags"]
+        ) + "</div>"
+    facts_html = f'<ul class="facts">{facts}</ul>' if facts else ""
+    sport_label = SPORT_BY_KEY.get(p["sport"], {}).get("label", p["sport"])
+    return f"""<article class="pick {esc(conf)}" id="{esc(p['id'])}">
+  <div class="pick-head">
+    <h3>{esc(p['event'])}</h3>
+    {badge(p.get('confidence'))}
+    <span class="meta">{esc(sport_label)} · {esc(p.get('competition') or '')} · {esc(fmt_dt(p.get('start_utc')))}</span>
+  </div>
+  <div class="sel">
+    <span class="lbl">Bet</span><span class="val">{esc(p['market'])}: {esc(p['selection'])}</span>
+    <span class="lbl">Our line</span><span class="price">{esc(fmt_american(p.get('line_american')))}</span>
+    <span class="lbl">decimal</span><span class="price">{esc(p.get('line_decimal'))}</span>
+    <span class="lbl">win chance</span><span class="price">{esc(p.get('implied_pct'))}%</span>
+  </div>
+  <p class="prose">{esc(p.get('analysis', ''))}</p>
+  {facts_html}
+  {flags}
+  <div class="pick-foot">
+    <span><strong>Sources:</strong> {src_links(p.get('sources', []))}</span>
+    <span><strong>Pricing:</strong> {esc(p.get('pricing') or '')}</span>
+    <span>{esc(p.get('window_note') or '')}</span>
+  </div>
+</article>"""
+
+
+def inventory_table(events, picks_by_event=None, base: str = "") -> str:
+    if not events:
+        return '<p class="note">No OLBG listing captured for this sport in this snapshot.</p>'
+    picks_by_event = picks_by_event or {}
+    rows = []
+    for e in events:
+        p = picks_by_event.get(e.get("event_id"))
+        line = "—"
+        conf = '<span class="badge b-mute">no pick</span>'
+        if p:
+            line = f'<span class="price">{esc(fmt_american(p.get("line_american")))}</span><br><span class="meta">{esc(p["market"])}</span>'
+            conf = f'<a href="{base}picks.html#{esc(p["id"])}">{badge(p.get("confidence"))}</a>'
+        elif e.get("originated_line"):
+            line = f'<span class="price">{esc(fmt_american(e["originated_line"]))}</span><br><span class="meta">{esc(e.get("originated_market") or "")}</span>'
+        rows.append(
+            "<tr>"
+            f'<td><a href="{esc(e.get("url"))}" target="_blank" rel="noopener noreferrer">{esc(e.get("name"))}</a>'
+            f'<br><span class="meta">{esc(e.get("competition") or "")}</span></td>'
+            f'<td class="mono">{esc(fmt_dt(e.get("start_utc")))}<br><span class="meta">OLBG label: {esc(e.get("olbg_label") or "—")}</span></td>'
+            f'<td>{esc(e.get("market") or "—")}<br><span class="meta">{esc(e.get("selection") or "—")}</span></td>'
+            f'<td class="num">{esc(e.get("tips_total") or "—")}</td>'
+            f'<td class="num">{esc(str(e.get("tip_pct")) + "%" if e.get("tip_pct") is not None else "—")}</td>'
+            f'<td class="num">{line}</td>'
+            f"<td>{conf}</td>"
+            "</tr>"
+        )
+    return (
+        '<div class="tablewrap"><table class="t-compact"><thead><tr>'
+        "<th>Match (OLBG)</th><th>Kick-off</th><th>OLBG market / most-tipped</th>"
+        '<th class="num">Tips</th><th class="num">Tip %</th><th class="num">Our line</th><th>Pick</th>'
+        "</tr></thead><tbody>" + "".join(rows) + "</tbody></table></div>"
+    )
+
+
+# ---------------------------------------------------------------- pages
+def build_index() -> str:
+    total = len(PICKS)
+    by_conf = Counter(p.get("confidence", "").lower() for p in PICKS)
+    listed = sum(len(inv_events(s["key"])) for s in SPORTS)
+    with_pick = len({p["sport"] for p in PICKS})
+    today_picks = [p for p in PICKS if day_of(p.get("start_utc")) == TODAY]
+    next_picks = [p for p in PICKS if day_of(p.get("start_utc")) != TODAY]
+
+    kindex = {}
+    for s in SPORTS:
+        ev = inv_events(s["key"])
+        pk = PICKS_BY_SPORT.get(s["key"], [])
+        kindex[s["key"]] = (len(ev), len(pk))
+
+    mute = '<span class="badge b-mute">—</span>'
+    sport_rows = "".join(
+        "<tr>"
+        f'<td><a href="sports/{esc(s["key"])}.html"><strong>{esc(s["label"])}</strong></a>'
+        f'<br><span class="meta">{esc(s.get("note", "")) if s.get("note") else ""}</span></td>'
+        f'<td class="num">{esc(s["sport_id"])}</td>'
+        f'<td class="num">{kindex[s["key"]][0]}</td>'
+        f'<td class="num">{kindex[s["key"]][1]}</td>'
+        f'<td class="num">{min(kindex[s["key"]][1], 5)}/5</td>'
+        f'<td>{badge("high") if any(p.get("confidence") == "high" for p in PICKS_BY_SPORT.get(s["key"], [])) else mute}</td>'
+        f'<td>{src_links([{"label": "OLBG", "url": s["hub"]}] + s.get("official", []))}</td>'
+        "</tr>"
+        for s in SPORTS
+    )
+
+    ordered = sorted(PICKS, key=lambda p: (-p.get("implied_pct", 0), p.get("start_utc", "")))
+    top = ordered[:10]
+    top_html = picks_table(top, show_sport=True)
+    hero = "".join(
+        f'<a class="hero-card" href="picks.html#{esc(p["id"])}">'
+        f'<span class="hero-tag">{esc(SPORT_BY_KEY.get(p["sport"], {}).get("label", p["sport"]))} · {esc(p.get("competition") or "")}</span>'
+        f'<strong>{esc(p["event"])}</strong>'
+        f'<span class="hero-bet">{esc(p["market"])}: {esc(p["selection"])}</span>'
+        f'<span class="hero-price">{esc(fmt_american(p.get("line_american")))} <em>{esc(p.get("implied_pct"))}%</em> {badge(p.get("confidence"))}</span>'
+        f'<span class="hero-when">{esc(fmt_dt(p.get("start_utc")))}</span></a>'
+        for p in ordered[:3]
+    )
+
+    body = f"""
+<h1>OLBG multi-sport desk</h1>
+<p class="lead">Fifteen sports, one page. The <strong>Picks</strong> tab holds {total} fully written predictions
+with an originated line for every selection; the <strong>Matches</strong> tab holds all {listed} OLBG listings
+captured on {esc(REFRESH)}; <strong>Flagged</strong> holds everything that could not be confirmed from an
+official source.</p>
+
+<div class="grid cols-4" style="margin:1rem 0 1.4rem">
+  <div class="stat"><b>{total}</b><span>written picks</span></div>
+  <div class="stat pos"><b>{by_conf.get('high', 0)}</b><span>high confidence</span></div>
+  <div class="stat"><b>{listed}</b><span>OLBG listings captured</span></div>
+  <div class="stat"><b>{with_pick}/15</b><span>sports with a pick</span></div>
+</div>
+
+<h2>Executive summary</h2>
+<div class="card">
+<p><strong>Where the picks are:</strong> <a href="picks.html">Picks</a> lists every selection with its price,
+win chance and confidence, followed by the full written reasoning. Each sport page repeats its own picks at the
+top, above that sport's OLBG listing table. <a href="matches.html">Matches</a> is the complete inventory.</p>
+<p><strong>Today ({esc(TODAY)}):</strong> {len(today_picks)} pick(s) start today, {len(next_picks)} start later in
+the capture window. Confidence bands are high (&ge;65% implied), medium (55–64%) and low (&lt;55%); a pick is only
+published when an official source confirms the identity of the event and the form facts used.</p>
+<p><strong>Price window:</strong> every published line sits between −250 and +10000 American, per the desk mandate.
+Lines are originated here from the inputs named on the Pricing page and carry a margin flag; they are never presented as bookmaker prices.</p>
+</div>
+
+<div class="hero">
+{hero}
+</div>
+<h3 style="margin-top:1.4rem">Highest-confidence picks in this capture</h3>
+{top_html}
+
+<h2>Sport coverage</h2>
+<div class="tablewrap"><table class="t-compact"><thead><tr>
+<th>Sport</th><th class="num">OLBG id</th><th class="num">Listings</th><th class="num">Picks</th><th class="num">of 5</th><th>High?</th><th>Sources</th>
+</tr></thead><tbody>{sport_rows}</tbody></table></div>
+
+<h2>How to read a pick</h2>
+<div class="card">
+<ul class="clean">
+<li><strong>Bet</strong> — the market and the side: match winner, handicap, total, set winner, race place, etc.</li>
+<li><strong>Our line</strong> — the American price this desk originates for that side, not a price quoted by any bookmaker.</li>
+<li><strong>Win chance</strong> — the probability behind the line, after the desk margin is removed from the raw estimate.</li>
+<li><strong>Sources</strong> — one link to the OLBG listing and at least one link to the official body used for the form facts.</li>
+</ul>
+</div>
+"""
+    return page("overview", "Overview", body)
+
+
+def build_picks() -> str:
+    conf = Counter(str(p.get("confidence", "")).lower() for p in PICKS)
+    toc = "".join(
+        f'<a href="#{esc(s["key"])}">{esc(s["label"])} ({len(PICKS_BY_SPORT.get(s["key"], []))})</a>' for s in SPORTS
+    )
+    sections = []
+    for s in SPORTS:
+        picks = PICKS_BY_SPORT.get(s["key"], [])
+        cards = "".join(pick_card(p) for p in picks) if picks else (
+            '<p class="note">No pick passes the publication gate for this sport in this capture. '
+            f'<a href="sports/{esc(s["key"])}.html">Sport page</a> · <a href="flagged.html">reason</a></p>'
+        )
+        sections.append(
+            f'<section id="{esc(s["key"])}"><h2>{esc(s["label"])} '
+            f'<span class="meta">— {len(picks)} pick(s)</span></h2>{cards}</section>'
+        )
+    body = f"""
+<h1>Picks</h1>
+<p class="lead">Every published prediction, in full. {len(PICKS)} picks across {len(PICKS_BY_SPORT)} sports —
+{conf.get('high', 0)} high confidence, {conf.get('medium', 0)} medium, {conf.get('low', 0)} low. Each block states
+the exact bet first, then the reasoning, then the sources.</p>
+<div class="toc">{toc}</div>
+<div class="card" style="margin-bottom:1rem">
+<p><strong>Reading order:</strong> the shaded <em>Bet</em> strip names the selection and our price. The paragraph
+under it is the prediction. The bullet list after that is the evidence trail, one link per fact. The footer names
+the pricing method and the official source for the event.</p>
+</div>
+{''.join(sections)}
+"""
+    return page("picks", "Picks", body)
+
+
+def build_matches() -> str:
+    rows = all_events()
+    picks_by_event = {p["event_id"]: p for p in PICKS if p.get("event_id")}
+    sections = []
+    for s in SPORTS:
+        ev = inv_events(s["key"])
+        gap = (INV.get(s["key"]) or {}).get("gap_note")
+        sections.append(
+            f'<h2 id="{esc(s["key"])}">{esc(s["label"])} <span class="meta">— {len(ev)} listings</span></h2>'
+            + (f'<p class="note">{esc(gap)}</p>' if gap else "")
+            + inventory_table(ev, picks_by_event)
+        )
+    body = f"""
+<h1>Matches</h1>
+<p class="lead">Every in-scope OLBG listing captured at {esc(REFRESH)}: {len(rows)} rows across 15 sports.
+The OLBG column links to the live event page so each row can be checked by hand. "Our line" is filled only where
+this desk originated a price for that event; otherwise it stays blank rather than guessed.</p>
+<div class="tablewrap" style="margin-bottom:1.2rem"><table class="t-compact"><thead><tr>
+<th>Sport</th><th class="num">Listings</th><th class="num">With pick</th><th>Market types seen</th></tr></thead><tbody>
+{''.join(
+    '<tr>'
+    f'<td><a href="#{esc(s["key"])}">{esc(s["label"])}</a></td>'
+    f'<td class="num">{len(inv_events(s["key"]))}</td>'
+    f'<td class="num">{len(PICKS_BY_SPORT.get(s["key"], []))}</td>'
+    f'<td>{esc(", ".join(sorted({e.get("market","") for e in inv_events(s["key"])})) or "—")}</td>'
+    '</tr>'
+    for s in SPORTS
+)}
+</tbody></table></div>
+{''.join(sections)}
+"""
+    return page("matches", "Matches", body)
+
+
+def build_pricing() -> str:
+    blocks = []
+    for s in SPORTS:
+        doc = (PRICING.get("sports") or {}).get(s["key"], {})
+        markets = doc.get("markets", [])
+        mrows = "".join(
+            "<tr>"
+            f'<td><strong>{esc(m.get("market"))}</strong></td>'
+            f'<td>{esc(m.get("method"))}</td>'
+            f'<td class="mono">{esc(m.get("inputs"))}</td>'
+            f'<td class="mono">{esc(m.get("margin"))}</td>'
+            "</tr>"
+            for m in markets
+        )
+        table = (
+            '<div class="tablewrap"><table class="t-compact"><thead><tr><th>Market</th><th>Origination method</th>'
+            '<th>Inputs used</th><th>Margin</th></tr></thead><tbody>' + mrows + "</tbody></table></div>"
+            if mrows
+            else '<p class="note">No market method recorded for this sport.</p>'
+        )
+        blocks.append(
+            f'<section id="{esc(s["key"])}"><h2>{esc(s["label"])}</h2>'
+            f'<p>{esc(doc.get("summary") or "Pricing method not recorded for this capture.")}</p>'
+            f'{table}'
+            + (f'<p class="meta" style="margin-top:.5rem">Worked example: {esc(doc["example"])}</p>' if doc.get("example") else "")
+            + "</section>"
+        )
+    guards = "".join(f"<li>{esc(g)}</li>" for g in PRICING.get("guards", []))
+    body = f"""
+<h1>Pricing every sport</h1>
+<p class="lead">How this desk turns a verified input into a line. The method is fixed per sport so the same
+inputs always produce the same price, and every published line can be re-derived by hand.</p>
+<div class="card">
+<h3>The arithmetic</h3>
+<ol>
+<li><strong>Estimate a probability</strong> for the selection from the sport's verified inputs (form table,
+head-to-head record, ranking points, recent scoring rates, field size for races).</li>
+<li><strong>Add the desk margin</strong> to that probability, because these are originated lines, not market
+offers. Margins are published per sport below.</li>
+<li><strong>Convert</strong> the adjusted probability to decimal then American. Decimal above 2.00 becomes
+positive American, below 2.00 becomes negative.</li>
+<li><strong>Clamp to the mandate window</strong> (−250 to +10000 American). A selection whose honest price is
+shorter than −250 is published as a pick but flagged as outside the window.</li>
+<li><strong>Band the confidence</strong> by the implied probability of the published line:
+high ≥ 65%, medium 55–64.9%, low &lt; 55%.</li>
+</ol>
+</div>
+<h3 style="margin-top:1.2rem">Standing guards</h3>
+<ul class="clean">{guards}</ul>
+{''.join(blocks)}
+"""
+    return page("pricing", "Pricing", body)
+
+
+def build_sources() -> str:
+    groups = SOURCES.get("groups", [])
+    blocks = []
+    for g in groups:
+        rows = "".join(
+            "<tr>"
+            f'<td><a href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">{esc(item["name"])}</a></td>'
+            f'<td>{esc(item.get("covers") or "")}</td>'
+            f'<td>{esc(item.get("used_for") or "")}</td>'
+            f'<td>{esc(item.get("checked") or "")}</td>'
+            "</tr>"
+            for item in g.get("items", [])
+        )
+        blocks.append(
+            f'<h2>{esc(g["title"])}</h2><p>{esc(g.get("intro") or "")}</p>'
+            '<div class="tablewrap"><table class="t-compact"><thead><tr>'
+            "<th>Source</th><th>Covers</th><th>Used for</th><th>Check status</th>"
+            f"</tr></thead><tbody>{rows}</tbody></table></div>"
+        )
+    body = f"""
+<h1>Sources</h1>
+<p class="lead">The register of pages this desk reads. OLBG is the source for listings, markets and tip counts;
+official bodies and competitions are the source for event identity, form and statistics. Where an official page
+did not confirm a value, the value is blank and the row is on <a href="flagged.html">Flagged</a>.</p>
+{''.join(blocks)}
+"""
+    return page("sources", "Sources", body)
+
+
+def build_flagged() -> str:
+    items = FLAGGED.get("items", [])
+    rows = "".join(
+        "<tr>"
+        f'<td class="mono">{esc(i.get("id"))}</td>'
+        f'<td>{esc(i.get("sport_label") or i.get("sport") or "")}</td>'
+        f'<td><strong>{esc(i.get("item"))}</strong></td>'
+        f'<td>{esc(i.get("issue"))}</td>'
+        f'<td>{src_links(i.get("sources", [])) if i.get("sources") else "—"}</td>'
+        f'<td>{esc(i.get("status") or "open")}</td>'
+        "</tr>"
+        for i in items
+    )
+    body = f"""
+<h1>Flagged for Review</h1>
+<p class="lead">Everything that could not be closed against an official source, plus every judgement call worth a
+second pair of eyes. Nothing on this page is hidden from the site: the related match or pick still appears, with the
+gap stated. {len(items)} items.</p>
+<div class="warn"><strong>Rule applied:</strong> a value is either confirmed on a linked official page, or it is
+blank and listed here. No value has been inferred to fill a cell.</div>
+<div class="tablewrap" style="margin-top:1rem"><table class="t-compact"><thead><tr>
+<th>Ref</th><th>Sport</th><th>Item</th><th>Issue found</th><th>Source links</th><th>Status</th>
+</tr></thead><tbody>{rows}</tbody></table></div>
+"""
+    return page("flagged", "Flagged for Review", body)
+
+
+def build_method() -> str:
+    doc = load("desk-methodology.json") or {}
+    sections = "".join(
+        f'<h2>{esc(s["title"])}</h2>' + "".join(f"<p>{esc(p)}</p>" for p in s.get("paras", []))
+        + ("<ul class=\"clean\">" + "".join(f"<li>{esc(li)}</li>" for li in s.get("list", [])) + "</ul>" if s.get("list") else "")
+        for s in doc.get("sections", [])
+    )
+    body = f"""
+<h1>Method</h1>
+<p class="lead">What the site reads, how the reverse-engineering of OLBG works, how lines are produced, and where
+the limits are. Everything stated here is checkable from the committed JSON and the linked pages.</p>
+{sections}
+"""
+    return page("method", "Method", body)
+
+
+def build_sport(s: dict) -> str:
+    key = s["key"]
+    ev = inv_events(key)
+    picks = PICKS_BY_SPORT.get(key, [])
+    picks_by_event = {p["event_id"]: p for p in PICKS if p.get("event_id")}
+    doc = (PRICING.get("sports") or {}).get(key, {})
+    gap = (INV.get(key) or {}).get("gap_note")
+    cards = "".join(pick_card(p, base="../") for p in picks)
+    if not picks:
+        cards = (
+            '<p class="note">No pick cleared the gate for this sport in this capture. The listings below are still '
+            "captured and linked so the market can be watched; the reason no line was published is in "
+            '<a href="../flagged.html">Flagged for Review</a>.</p>'
+        )
+    official = src_links(s.get("official", []))
+    body = f"""
+<p class="crumb"><a href="../index.html">Overview</a> / {esc(s['label'])}</p>
+<h1>{esc(s['label'])}</h1>
+<p class="lead">{esc(s.get('blurb') or '')}</p>
+<div class="grid cols-4" style="margin:1rem 0 1.4rem">
+  <div class="stat"><b>{len(ev)}</b><span>OLBG listings</span></div>
+  <div class="stat"><b>{len(picks)}</b><span>written picks</span></div>
+  <div class="stat"><b>{len([p for p in picks if p.get('confidence') == 'high'])}</b><span>high confidence</span></div>
+  <div class="stat"><b>{esc(s["sport_id"])}</b><span>OLBG sport id</span></div>
+</div>
+<div class="card"><strong>Links:</strong> <a href="{esc(s['hub'])}" target="_blank" rel="noopener noreferrer">OLBG {esc(s['label'])} hub</a>
+· {official}</div>
+<h2>Picks for {esc(s['label'])}</h2>
+{cards}
+<h2>OLBG listings captured</h2>
+{f'<p class="note">{esc(gap)}</p>' if gap else ''}
+{inventory_table(ev, picks_by_event, base='../')}
+<h2>How this sport is priced</h2>
+<p>{esc(doc.get('summary') or 'No pricing note recorded for this capture.')}</p>
+{f'<p class="meta">Worked example: {esc(doc["example"])}</p>' if doc.get('example') else ''}
+"""
+    return page("sports", s["label"], body, base="../")
+
+
+# ---------------------------------------------------------------- write
+def write(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
+    print(f"  wrote {path.relative_to(ROOT)}")
+
+
+def main() -> None:
+    print("Building OLBG desk…")
+    write(OUT / "index.html", build_index())
+    write(OUT / "picks.html", build_picks())
+    write(OUT / "matches.html", build_matches())
+    write(OUT / "pricing.html", build_pricing())
+    write(OUT / "sources.html", build_sources())
+    write(OUT / "flagged.html", build_flagged())
+    write(OUT / "methodology.html", build_method())
+    for s in SPORTS:
+        write(OUT / "sports" / f"{s['key']}.html", build_sport(s))
+    print(f"Done: {7 + len(SPORTS)} pages.")
 
 
 if __name__ == "__main__":

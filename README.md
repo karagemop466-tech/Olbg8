@@ -1,79 +1,94 @@
-# OLBG multi-sport desk
+# OLBG desk — lines, picks and sources
 
-A static GitHub Pages site that answers three questions for fifteen OLBG sports:
-**what is on, what price do we make it, and what is the written prediction.**
+A static dashboard for the fifteen OLBG sports in scope. Every page is generated from committed JSON by
+`scripts/build_site.py` and gated by `scripts/check_site.py`, so the published site can be rebuilt and audited
+line by line.
 
-Live site: <https://karagemop466-tech.github.io/Olbg8/>
+**Live site:** <https://karagemop466-tech.github.io/Olbg8/>
 
-## The pages
+## What is on the site
 
-| Page | What it is for |
+| Page | What it holds |
 |---|---|
-| `index.html` | Executive summary: headline numbers, the highest-confidence picks, the picks inside the -250 to +10000 window, and coverage by sport. |
-| `picks.html` | The written predictions. One card per pick: competition, selection, our price, our chance, confidence band and the official source. |
-| `matches.html` | The full price board: all 111 OLBG listings with our money line, handicap, total and the exact reason for any blank. Filterable by sport and searchable. |
-| `pricing.html` | How the number is made: the formula, the parameters per sport, and a worked example. |
-| `methodology.html` | Capture rules, pricing gate, publication gate, confidence bands and the price-window rule. |
-| `sources.html` | Every official page used, its URL, its capture time and how many rows depend on it. |
-| `flagged.html` | Everything blank, uncertain or contradictory, including rows we refused to fill. |
-| `sports/<sport>.html` | One page for each of the fifteen requested sports. |
+| `index.html` | Executive summary, the three strongest picks as cards, the highest-confidence picks table, and a coverage table for all 15 sports |
+| `picks.html` | Every published prediction: the bet and our price first, then the written analysis, the evidence bullets with a link per fact, and the pricing method |
+| `matches.html` | All 115 captured OLBG listings, one table per sport, each row linked to its live OLBG event page, with our line where one exists |
+| `pricing.html` | How each of the 15 sports is priced, market by market, with the margin applied and a worked example |
+| `sources.html` | Source register: OLBG for listings, official bodies for fixtures and form |
+| `flagged.html` | Everything that could not be closed against an official source, with links |
+| `methodology.html` | How OLBG is reverse-engineered, the publication gate, the price window and the known limits |
+| `sports/<sport>.html` | One page per sport: its picks at the top, then its OLBG listing table, then how the sport is priced |
 
-## Capture
+## Snapshot
 
-OLBG's fifteen requested category pages were read on **2026-10-27 05:30 UTC** at
-`olbg.com/betting-tips/<Sport>/<id>`, with sport ids Tennis 3, Basketball 4, Golf 5,
-Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13,
-Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Greyhounds 28.
+Captured **2026-10-27 06:05 UTC**: 115 OLBG listings across 15 sports, **24 published picks** (10 high, 12 medium,
+2 low confidence), every one inside the −250 to +10000 American window, and **19 flagged items**.
 
-Result: **111 listings** across 13 sports with a market. Snooker and Greyhounds displayed
-*No tips found* and are reported as empty rather than padded. Gaelic Football (and Hurling,
-had it been listed) is published under the single **Gaelic Sports** page the brief asked for.
+Seven sports carry picks: Basketball (9), Rugby Union (6), Handball (5), Volleyball (1), Baseball (1), Ice Hockey (1)
+and Tennis (1). The other eight are priced on `pricing.html` but carry no pick, because the official table needed to
+confirm a rate input was not reachable; each one is named, with the exact page that unblocks it, on `flagged.html`.
+Nothing is filled in by inference.
 
-## Pricing
+## How a pick is built
 
-`scripts/originate.py` turns an official season record into a price:
+1. **Capture** the OLBG hub row: event, market, most-tipped selection, tip count.
+2. **Confirm** the fixture and the form facts on an official page (league table, standings feed, schedule API).
+3. **Price** it with that sport's method and margin, then band it by the implied probability of the published line.
+4. **Write** at least 30 words naming the bet, the form, the recent record and the match-specific numbers, with a
+   source link per fact.
+5. **Gate** it: `scripts/check_site.py` refuses a short prediction, a line outside the window, a mismatched
+   confidence band, a missing source, an unknown event id, or a broken internal link.
 
-1. **Rating** — points/goals/runs for and against per game, straight from the official table.
-2. **Shrink** — `games / (games + K)` pulls a short sample back toward the league average.
-3. **Project a margin** — home rating minus away rating plus a sport-specific home edge.
-4. **Probability** — normal distribution around that margin, with a sport-specific SD, and a
-   draw band for handball and rugby union.
-5. **Price** — fair American odds, `-100p/(1-p)` or `100(1-p)/p`.
-
-Every match also gets a handicap line (the projected margin, rounded) and a total
-(the combined scoring rate the two records imply). Tennis uses a Bradley–Terry comparison
-of ranking points instead.
-
-A match is priced **only** when both competitors appear in an official table that was
-actually read. Otherwise the price stays blank and the row is flagged. That is why
-10 of the 15 sports have no written prediction in this edition.
-
-## Publication rules
-
-- A pick is published only when our chance of the selection winning is at least 55%.
-- Confidence: **High** ≥ 70%, **Medium** 62–69.9%, **Low** < 62%.
-- The brief's -250 to +10000 window is enforced as a label, not a filter: picks shorter
-  than -250 are shown and tagged *Outside window*, because on fair prices a 70% chance is
-  -233 and the two rules otherwise overlap in a very narrow band.
-- Written predictions are at least 30 words, name the selection, quote only figures from the
-  official source on the card, and never mention injuries, because no team-news source was read.
-
-## Rebuild
+## Local build
 
 ```bash
-python3 scripts/originate.py     # ratings -> prices -> data/matches.json
-python3 scripts/build_site.py    # data -> static HTML
-python3 scripts/test_site.py     # pages, links, prices, predictions
+python3 price-engine/add_picks.py   # rebuilds the handball, rugby union and tennis picks from price-engine/ratings.json
+python3 scripts/build_site.py       # writes the 22 HTML pages from data/*.json
+python3 scripts/check_site.py       # 645 assertions: rules, arithmetic, sources, links
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-No build dependencies. `data/ratings.json` holds every rating input together with the
-official URL and capture time it came from; edit that file, not the HTML.
+`add_picks.py` is deterministic: it reads the captured ratings, prices each fixture, and writes the same twelve
+picks into `data/desk-picks.json` on every run, de-duplicated on sport, event, market and selection.
 
-## Files from earlier sessions
+## Data files
 
-`research-desk/` and `evidence-lab/` are retained as historical audit artifacts from
-earlier sessions and are not part of the primary navigation. `data/dashboard.json`,
-`data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json` and
-`data/publication-gate.json` are the older capture set; `data/official-evidence.json` is
-still the record for the MLB, NHL, EHF and WTA snapshot times quoted in the sources page.
+| File | Contents |
+|---|---|
+| `data/desk-sports.json` | The 15 sports, OLBG hub URLs, sport ids, official source links |
+| `data/desk-inventory.json` | Captured OLBG listings with the original OLBG day/time label beside the converted UTC time |
+| `data/desk-picks.json` | Published picks: line, decimal, implied %, confidence, analysis, facts, sources, pricing note |
+| `data/desk-pricing.json` | Market-by-market origination method per sport, margins, and the standing guards |
+| `data/desk-flagged.json` | Review items with source links |
+| `data/desk-sources.json` | Source register rendered on `sources.html` |
+| `data/desk-methodology.json` | Methodology sections rendered on `methodology.html` |
+| `price-engine/*` | Raw rate inputs, first-generation engine and the published add-on engine described below |
+
+## The price engine
+
+`price-engine/` holds the raw inputs and the origination code behind the twelve handball, rugby union and tennis
+picks that were added to the desk on 27 October.
+
+| File | Contents |
+|---|---|
+| `price-engine/ratings.json` | Captured rate inputs: EHF Champions League group tables, the LNR PRO D2 table, the WTA ranking points for the four ranked players in the tennis capture |
+| `price-engine/olbg-listings.json` | The original 111-row listing capture, kept as the raw record |
+| `price-engine/matches.json` | Every listing scored and priced, including the ones that fell outside the window |
+| `price-engine/predictions.json` | The prose drafted for the twenty-two priced rows before the desk rewrite |
+| `price-engine/originate.py` | The first-generation engine: normal-approximation margins per sport |
+| `price-engine/add_picks.py` | The published engine: Poisson grid for handball, normal margin for rugby, ranking link for tennis, with the window and band guards applied |
+
+Handball uses the attack-versus-defence product and Poisson grid that `pricing.html` documents for the sport; rugby
+uses the documented normal margin with a 13.5-point deviation and a draw band; tennis uses the ranking-point gap in
+log space. Each output carries a fact per figure with a link to the official table it came from.
+
+The earlier capture tooling (`data/dashboard.json`, `data/olbg-capture.json`, `scripts/build_dashboard.py`,
+`scripts/test_site.py`) is retained unchanged as the 26 October record, and `research-desk/` plus `evidence-lab/`
+remain archived supplements.
+
+## Limits
+
+This is a static snapshot, not a live feed. OLBG shows no prices to a logged-out fetch, so no OLBG price is quoted
+anywhere; every price is originated by this desk. Kick-off times are converted from OLBG's relative
+Today/Tomorrow labels at UTC+4 and the original label is printed next to each row. Betting involves risk:
+independent research, not advice, not a guarantee. 18+.

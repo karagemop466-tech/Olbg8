@@ -27,6 +27,7 @@ jobs:
       - name: Validate primary site
         run: |
           python3 scripts/test_site.py
+          python3 scripts/check_site.py
           python3 -m py_compile scripts/*.py
           node --check assets/app.js
       - name: Configure Pages

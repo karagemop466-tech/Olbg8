@@ -1,0 +1,922 @@
+{
+ "schema": "olbg-desk-picks/1",
+ "generated_utc": "2026-10-27T08:20:00Z",
+ "pricing_note": "Each pick stores the fair probability behind the line, the margin applied and the resulting American price, so the arithmetic can be re-run by hand.",
+ "picks": [
+  {
+   "id": "handball-12136-mag",
+   "sport": "handball",
+   "event_id": "12136",
+   "event": "SC Magdeburg vs HC Kriens Luzern",
+   "competition": "EHF Champions League",
+   "start_utc": "2026-10-28T19:45:00Z",
+   "market": "Money line",
+   "selection": "SC Magdeburg",
+   "line_american": -211,
+   "line_decimal": 1.474,
+   "implied_pct": 67.8,
+   "confidence": "high",
+   "analysis": "SC Magdeburg have won all five Group F matches, 176-140 on goals with a +36 difference, and they score 35.2 a game. Kriens-Luzern are 2-0-3 at -3 after 158 scored and 161 conceded, and they give up 32.2 per match. SC Magdeburg to win the match: the hosts' scoring rate is more than seven goals per game better than Kriens-Luzern's, and the line asks for less than that.",
+   "facts": [
+    {
+     "text": "SC Magdeburg: 5W-0D-0L, 176 goals for, 140 against (+36).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    },
+    {
+     "text": "HC Kriens Luzern: 2W-0D-3L, 158 goals for, 161 against (-3).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136"
+    },
+    {
+     "label": "EHF Champions League official standings",
+     "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "pricing": "SC Magdeburg score 33.9 and HC Kriens Luzern 29.7 expected goals: both rates come from an attack-versus-defence product against a league average of 32.1, with a 1.2-goal home edge split across the two sides. The Poisson grid over those means gives 67.9% home, 4.4% draw and 27.7% away, and the priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "handball-12132-kie",
+   "sport": "handball",
+   "event_id": "12132",
+   "event": "KS Kielce vs Kolstad",
+   "competition": "EHF Champions League",
+   "start_utc": "2026-10-28T19:45:00Z",
+   "market": "Money line",
+   "selection": "KS Kielce",
+   "line_american": -204,
+   "line_decimal": 1.49,
+   "implied_pct": 67.1,
+   "confidence": "high",
+   "analysis": "Kielce are 3-2 in Group F with 155 goals scored and 153 conceded, an average of 31.0 a game. Kolstad have lost all five group matches, scoring 143 and conceding 178 for a -35 difference, the weakest defensive record in the section at 35.6 conceded per match. KS Kielce to win the match, which asks for far less than the gap between those two scoring rates.",
+   "facts": [
+    {
+     "text": "KS Kielce: 3W-0D-2L, 155 goals for, 153 against (+2).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    },
+    {
+     "text": "Kolstad: 0W-0D-5L, 143 goals for, 178 against (-35).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132"
+    },
+    {
+     "label": "EHF Champions League official standings",
+     "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "pricing": "KS Kielce score 33.6 and Kolstad 29.6 expected goals: both rates come from an attack-versus-defence product against a league average of 32.1, with a 1.2-goal home edge split across the two sides. The Poisson grid over those means gives 67.1% home, 4.4% draw and 28.5% away, and the priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "handball-12128-fuc",
+   "sport": "handball",
+   "event_id": "12128",
+   "event": "Fuchse Berlin vs RK Partizan",
+   "competition": "EHF Champions League",
+   "start_utc": "2026-10-29T17:45:00Z",
+   "market": "Money line",
+   "selection": "Fuchse Berlin",
+   "line_american": -243,
+   "line_decimal": 1.412,
+   "implied_pct": 70.8,
+   "confidence": "high",
+   "analysis": "Fuchse Berlin are 3-2 in Group A with 184 scored and 172 conceded, one of the two best attacks in the group at 36.8 goals per match. Partizan are bottom with a single point at 0-1-4, outscored 148-184, and they concede 36.8 a game. Fuchse Berlin to win the match; the visitors have taken one point from five matches and have no answer to that scoring rate.",
+   "facts": [
+    {
+     "text": "Fuchse Berlin: 3W-0D-2L, 184 goals for, 172 against (+12).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    },
+    {
+     "text": "RK Partizan: 0W-1D-4L, 148 goals for, 184 against (-36).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128"
+    },
+    {
+     "label": "EHF Champions League official standings",
+     "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "pricing": "Fuchse Berlin score 36.4 and RK Partizan 31.4 expected goals: both rates come from an attack-versus-defence product against a league average of 32.1, with a 1.2-goal home edge split across the two sides. The Poisson grid over those means gives 70.9% home, 4.0% draw and 25.1% away, and the priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "handball-12138-plo",
+   "sport": "handball",
+   "event_id": "12138",
+   "event": "Wisla Plock vs Nantes",
+   "competition": "EHF Champions League",
+   "start_utc": "2026-10-28T17:45:00Z",
+   "market": "Money line",
+   "selection": "Wisla Plock",
+   "line_american": -127,
+   "line_decimal": 1.787,
+   "implied_pct": 55.9,
+   "confidence": "medium",
+   "analysis": "Wisla Plock and Nantes are level on points in Group B, with Plock +5 on goals at 141-136 and Nantes -1 at 142-143. Plock concede 28.6 a game and score 28.2, and in a group where three clubs sit on the same points tally that defensive edge is the difference. Wisla Plock to win the match.",
+   "facts": [
+    {
+     "text": "Wisla Plock: 3W-0D-2L, 141 goals for, 136 against (+5).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    },
+    {
+     "text": "Nantes: 3W-0D-2L, 142 goals for, 143 against (-1).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138"
+    },
+    {
+     "label": "EHF Champions League official standings",
+     "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "pricing": "Wisla Plock score 29.9 and Nantes 28.3 expected goals: both rates come from an attack-versus-defence product against a league average of 32.1, with a 1.2-goal home edge split across the two sides. The Poisson grid over those means gives 56.0% home, 5.1% draw and 38.9% away, and the priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "handball-12127-ves",
+   "sport": "handball",
+   "event_id": "12127",
+   "event": "FC Porto vs Veszprem",
+   "competition": "EHF Champions League",
+   "start_utc": "2026-10-28T17:45:00Z",
+   "market": "Money line",
+   "selection": "Veszprem",
+   "line_american": -164,
+   "line_decimal": 1.61,
+   "implied_pct": 62.1,
+   "confidence": "medium",
+   "analysis": "Veszprem have won all five Group A matches, scoring 185 and conceding 146 for a +39 difference, level with Barcelona for the best record in the competition. Porto are 1-1-3 at -15, and they concede 31.6 goals a game. Veszprem to win the match; Porto have no result against a side of this standard and the visitors score 29.2 per match.",
+   "facts": [
+    {
+     "text": "FC Porto: 1W-1D-3L, 158 goals for, 173 against (-15).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    },
+    {
+     "text": "Veszprem: 5W-0D-0L, 185 goals for, 146 against (+39).",
+     "source": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127"
+    },
+    {
+     "label": "EHF Champions League official standings",
+     "url": "https://ehfcl.eurohandball.com/men/2026-27/standings/"
+    }
+   ],
+   "pricing": "FC Porto score 31.4 and Veszprem 34.4 expected goals: both rates come from an attack-versus-defence product against a league average of 32.1, with a 1.2-goal home edge split across the two sides. The Poisson grid over those means gives 33.2% home, 4.6% draw and 62.2% away, and the priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609599-gre",
+   "sport": "rugby-union",
+   "event_id": "609599",
+   "event": "Beziers v Grenoble",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-30T18:30:00Z",
+   "market": "Handicap",
+   "selection": "Grenoble −4.5",
+   "line_american": -215,
+   "line_decimal": 1.465,
+   "implied_pct": 68.3,
+   "confidence": "high",
+   "analysis": "Beziers are 2-6 in Pro D2 and have conceded 294 points in 8 matches, the worst differential in the league at -144, while Grenoble are 6-2 at +51. Grenoble have won each of their last five and score 23.2 a game against a defence shipping 18.8. Grenoble minus 4.5 points on the handicap.",
+   "facts": [
+    {
+     "text": "Beziers: 8 played, 2W-0D-6L, 150 points for, 294 against (-144), 9 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Grenoble: 8 played, 6W-0D-2L, 237 points for, 186 against (+51), 26 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Beziers -144 becomes -10.29 and Grenoble +51 becomes +3.64. Adding the 3.0-point home edge gives a -10.93 projected margin with a 13.5-point standard deviation: 19.9% home, 2.1% draw, 78.0% away. The 4.5-point line is covered 68.3% of the time.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609598-oyo",
+   "sport": "rugby-union",
+   "event_id": "609598",
+   "event": "Oyonnax v Soyaux Angouleme",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-30T18:30:00Z",
+   "market": "Handicap",
+   "selection": "Oyonnax −2",
+   "line_american": -215,
+   "line_decimal": 1.465,
+   "implied_pct": 68.3,
+   "confidence": "high",
+   "analysis": "Oyonnax lead Pro D2 on 34 points after 8 rounds at 7-0-1, scoring 336 and conceding 178 for a +158 differential. Soyaux Angouleme are fourth on 22 points at 4-1-3, 269-187. Oyonnax average 42.0 points a game and have four wins and a draw from their last five. Oyonnax minus 2 points on the handicap.",
+   "facts": [
+    {
+     "text": "Oyonnax: 8 played, 7W-0D-1L, 336 points for, 178 against (+158), 34 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Soyaux Angouleme: 8 played, 4W-1D-3L, 269 points for, 187 against (+82), 22 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Oyonnax +158 becomes +11.29 and Soyaux Angouleme +82 becomes +5.86. Adding the 3.0-point home edge gives a +8.43 projected margin with a 13.5-point standard deviation: 72.1% home, 2.4% draw, 25.4% away. The 2-point line is covered 68.3% of the time.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609603-mtb",
+   "sport": "rugby-union",
+   "event_id": "609603",
+   "event": "Montauban v Narbonne",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-30T18:30:00Z",
+   "market": "Money line",
+   "selection": "Montauban",
+   "line_american": -248,
+   "line_decimal": 1.403,
+   "implied_pct": 71.3,
+   "confidence": "high",
+   "analysis": "Montauban are 5-0-3 with 206 points scored and 237 conceded, a -31 differential, yet they sit sixth on 21 points. Narbonne are thirteenth on 13 points and have shipped 322 points in 8 matches at -102. Narbonne concede 40.2 a game, the leakiest defence in the division. Montauban to win the match.",
+   "facts": [
+    {
+     "text": "Montauban: 8 played, 5W-0D-3L, 206 points for, 237 against (-31), 21 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Narbonne: 8 played, 3W-0D-5L, 220 points for, 322 against (-102), 13 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Montauban -31 becomes -2.21 and Narbonne -102 becomes -7.29. Adding the 3.0-point home edge gives a +8.07 projected margin with a 13.5-point standard deviation: 71.3% home, 2.5% draw, 26.3% away. The priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609605-prv",
+   "sport": "rugby-union",
+   "event_id": "609605",
+   "event": "Dax v Provence",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-29T20:00:00Z",
+   "market": "Money line",
+   "selection": "Provence",
+   "line_american": -241,
+   "line_decimal": 1.415,
+   "implied_pct": 70.7,
+   "confidence": "high",
+   "analysis": "Provence have won all 8 Pro D2 matches and concede only 161 points, the tightest defence in the league, while scoring 276 for an +115 differential. Dax are 4-4 and have shipped 313 points at -37. Dax give up 34.5 points a game and now meet the one side nobody has scored freely against. Provence to win the match.",
+   "facts": [
+    {
+     "text": "Dax: 8 played, 4W-0D-4L, 276 points for, 313 against (-37), 19 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Provence: 8 played, 8W-0D-0L, 276 points for, 161 against (+115), 34 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Dax -37 becomes -2.64 and Provence +115 becomes +8.21. Adding the 3.0-point home edge gives a -7.86 projected margin with a 13.5-point standard deviation: 26.8% home, 2.5% draw, 70.7% away. The priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609604-col",
+   "sport": "rugby-union",
+   "event_id": "609604",
+   "event": "Colomiers v Agen",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-30T18:00:00Z",
+   "market": "Money line",
+   "selection": "Colomiers",
+   "line_american": -161,
+   "line_decimal": 1.621,
+   "implied_pct": 61.7,
+   "confidence": "medium",
+   "analysis": "Colomiers are twelfth on 13 points with a 2-6 record, yet their 243-235 line is a +8 differential. Agen are ninth on 19 points at 4-4 with 217 scored and 230 conceded, -13. Colomiers' points difference is 21 better than Agen's even though the table says otherwise. Colomiers to win the match.",
+   "facts": [
+    {
+     "text": "Colomiers: 8 played, 2W-0D-6L, 243 points for, 235 against (+8), 13 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Agen: 8 played, 4W-0D-4L, 217 points for, 230 against (-13), 19 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Colomiers +8 becomes +0.57 and Agen -13 becomes -0.93. Adding the 3.0-point home edge gives a +4.50 projected margin with a 13.5-point standard deviation: 61.6% home, 2.8% draw, 35.6% away. The priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "rugby-union-609602-bia",
+   "sport": "rugby-union",
+   "event_id": "609602",
+   "event": "Biarritz v Valence Romans",
+   "competition": "Pro D2 (France)",
+   "start_utc": "2026-10-30T20:00:00Z",
+   "market": "Money line",
+   "selection": "Biarritz",
+   "line_american": -136,
+   "line_decimal": 1.735,
+   "implied_pct": 57.6,
+   "confidence": "medium",
+   "analysis": "Biarritz are eighth on 20 points at 4-1-3, scoring 223 and conceding 215 for a +8 differential. Valence Romans are eleventh on 17 points at 3-5, 220-213, a slightly better differential but two fewer wins. Biarritz to win the match, with the extra win and the home ground separating two otherwise even sides.",
+   "facts": [
+    {
+     "text": "Biarritz: 8 played, 4W-1D-3L, 223 points for, 215 against (+8), 20 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    },
+    {
+     "text": "Valence Romans: 8 played, 3W-0D-5L, 220 points for, 213 against (+7), 17 league points.",
+     "source": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602"
+    },
+    {
+     "label": "LNR official PRO D2 standings",
+     "url": "https://prod2.lnr.fr/classement"
+    }
+   ],
+   "pricing": "Points difference is regressed by matches played plus 6: Biarritz +8 becomes +0.57 and Valence Romans +7 becomes +0.50. Adding the 3.0-point home edge gives a +3.07 projected margin with a 13.5-point standard deviation: 57.6% home, 2.9% draw, 39.6% away. The priced line is the match-winner result.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "tennis-902177-osa",
+   "sport": "tennis",
+   "event_id": "902177",
+   "event": "Naomi Osaka vs Jasmine Paolini",
+   "competition": "",
+   "start_utc": "2026-10-27T08:00:00Z",
+   "market": "Money line",
+   "selection": "Naomi Osaka",
+   "line_american": -132,
+   "line_decimal": 1.758,
+   "implied_pct": 56.9,
+   "confidence": "medium",
+   "analysis": "Naomi Osaka is ranked 18 on 2,287 WTA points and Jasmine Paolini is 35 on 1,512, a gap of 17 places and 775 points. Osaka has been the more consistent player across the season's ranking window while Paolini has slipped down the list. Naomi Osaka to win the match.",
+   "facts": [
+    {
+     "text": "Naomi Osaka: ranked 18 with 2,287 ranking points.",
+     "source": "https://www.wtatennis.com/rankings/singles"
+    },
+    {
+     "text": "Jasmine Paolini: ranked 35 with 1,512 ranking points.",
+     "source": "https://www.wtatennis.com/rankings/singles"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177"
+    },
+    {
+     "label": "WTA official singles rankings",
+     "url": "https://www.wtatennis.com/rankings/singles"
+    }
+   ],
+   "pricing": "Ranking points enter in log space, 2,287 against 1,512, a gap of 0.414. Dividing by 1.5 and passing it through the logistic link gives 56.9% for Naomi Osaka, and the price is the fair odds at that figure.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-pao-mil",
+   "sport": "basketball",
+   "event_id": "536177",
+   "event": "Panathinaikos vs Milano",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:15:00Z",
+   "market": "Handicap",
+   "selection": "Panathinaikos −19.5",
+   "line_american": -246,
+   "line_decimal": 1.407,
+   "implied_pct": 71.1,
+   "confidence": "high",
+   "analysis": "Panathinaikos are the form team of the opening EuroLeague month at 6-1, with a +96 points differential built on 613 scored and 517 conceded, and they are 5-1 on their own floor. Milano arrive at 1-6 with a −63 differential and an 0-3 road record, having conceded 648 points in seven games. The call is Panathinaikos minus 19.5 points on the handicap, a line that still sits below the 24.9-point margin their scoring rates project.",
+   "facts": [
+    {
+     "text": "Panathinaikos: 7 played, 6 wins, 1 loss, 613 points for, 517 against (+96), home 5-1, last ten 6-1.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Armani Olimpia Milano: 7 played, 1 win, 6 losses, 585 points for, 648 against (−63), road 0-3, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177"
+    }
+   ],
+   "pricing": "Net points per game each side (Panathinaikos +13.71, Milano −9.00) plus 2.2 home court gives a projected 24.9-point margin; the cover probability is the normal approximation with an 11.5-point standard deviation, then a 4.5% handicap margin is applied.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-vbc-fen",
+   "sport": "basketball",
+   "event_id": "536179",
+   "event": "Valencia vs Fenerbahce",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:30:00Z",
+   "market": "Money line",
+   "selection": "Valencia",
+   "line_american": -149,
+   "line_decimal": 1.671,
+   "implied_pct": 59.8,
+   "confidence": "medium",
+   "analysis": "Valencia are 5-2 with a +57 differential after seven games, splitting their home games 2-2 while scoring 687 points, the highest total in the table. Fenerbahce are 6-1 and level on differential at +57, but their record is built at home where they are 5-0; on the road they are 1-1 with 508 points conceded overall. The lean is Valencia on the money line, and it goes against the OLBG crowd, which has Fenerbahce at 67% of tips.",
+   "facts": [
+    {
+     "text": "Valencia Basket: 7 played, 5 wins, 2 losses, 687 for, 630 against (+57), home 2-2, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Fenerbahce: 7 played, 6 wins, 1 loss, 565 for, 508 against (+57), home 5-0, away 1-1, last ten 6-1.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179"
+    }
+   ],
+   "pricing": "Equal net ratings (8.14 points per game each) leave the 2.2-point home edge as the whole of the projected margin; the win probability is the normal approximation on that margin, plus a 4.0% money-line margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-bes-oly",
+   "sport": "basketball",
+   "event_id": "536180",
+   "event": "Besiktas vs Olympiacos",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T17:30:00Z",
+   "market": "Money line",
+   "selection": "Olympiacos",
+   "line_american": -211,
+   "line_decimal": 1.474,
+   "implied_pct": 67.8,
+   "confidence": "high",
+   "analysis": "Olympiacos are 5-2 with a +37 differential and the best road record in the early table at 4-1, with two of their games already decided in overtime. Besiktas are 3-4 and have been outscored by ten points across seven games, going 1-2 at home while conceding 644. The bet is Olympiacos to win, with the away form and the four-point projected edge doing the work.",
+   "facts": [
+    {
+     "text": "Olympiacos Piraeus: 7 played, 5 wins, 2 losses, 625 for, 588 against (+37), away 4-1, overtime 2-0, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Besiktas Istanbul: 7 played, 3 wins, 4 losses, 634 for, 644 against (−10), home 1-2, last ten 3-4.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180"
+    }
+   ],
+   "pricing": "Net points per game give Olympiacos +5.29 and Besiktas −1.43; with 2.2 points conceded for travel the projected margin is 4.5, priced through the normal approximation with a 4.0% margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-vir-zal",
+   "sport": "basketball",
+   "event_id": "536183",
+   "event": "Virtus Bologna vs Zalgiris",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T19:30:00Z",
+   "market": "Money line",
+   "selection": "Virtus Bologna",
+   "line_american": -135,
+   "line_decimal": 1.741,
+   "implied_pct": 57.4,
+   "confidence": "medium",
+   "analysis": "Virtus Bologna are 4-3 and unbeaten at home at 2-0, although their overall differential is a modest −2 from 606 scored and 608 conceded. Zalgiris are 3-4 with a −7 differential and a 2-2 road split, and they have been held to 595 points in seven games. The selection is Virtus Bologna money line, a small edge taken because the venue form is the clearest split in the match.",
+   "facts": [
+    {
+     "text": "Virtus Bologna: 7 played, 4 wins, 3 losses, 606 for, 608 against (−2), home 2-0, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Zalgiris Kaunas: 7 played, 3 wins, 4 losses, 595 for, 602 against (−7), away 2-2, home 1-2, last ten 3-4.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183"
+    }
+   ],
+   "pricing": "Net ratings of −0.29 and −1.00 per game plus the 2.2-point home edge project a 1.5-point margin; normal approximation with an 11.5-point standard deviation, then a 4.0% money-line margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-bas-rmb",
+   "sport": "basketball",
+   "event_id": "536178",
+   "event": "Baskonia vs Real Madrid",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T20:00:00Z",
+   "market": "Handicap",
+   "selection": "Real Madrid −9.5",
+   "line_american": -170,
+   "line_decimal": 1.588,
+   "implied_pct": 63.0,
+   "confidence": "medium",
+   "analysis": "Real Madrid sit 4-3 with a +37 differential from 667 points scored, the second-highest in the league, and have won two of their five road games. Baskonia are 1-6 with the worst differential in the table at −66, conceding 649 points in seven games and losing three of four at home. Real Madrid minus 9.5 is the bet, comfortably inside the 12.5-point margin the two scoring rates project.",
+   "facts": [
+    {
+     "text": "Real Madrid: 7 played, 4 wins, 3 losses, 667 for, 630 against (+37), away 2-3, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Kosner Baskonia: 7 played, 1 win, 6 losses, 583 for, 649 against (−66), home 1-3, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178"
+    }
+   ],
+   "pricing": "Real Madrid rate +5.29 net points per game and Baskonia −9.43; after the 2.2-point travel allowance the projected margin is 12.5, so the −9.5 line needs only a 3-point cover, priced at a 4.5% margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-czv-mta",
+   "sport": "basketball",
+   "event_id": "536175",
+   "event": "Crvena Zvezda vs Maccabi Tel Aviv",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Crvena Zvezda −9.5",
+   "line_american": -173,
+   "line_decimal": 1.578,
+   "implied_pct": 63.4,
+   "confidence": "medium",
+   "analysis": "Crvena Zvezda are 4-3 with a +28 differential, scoring 560 and conceding 532, and they have split their home games 2-2. Maccabi are 2-5 with a −45 differential, the third-worst in the table, and they are 1-3 on the road after conceding 653 points. The pick is Crvena Zvezda minus 9.5, a line the projected 12.6-point margin clears with room.",
+   "facts": [
+    {
+     "text": "Crvena Zvezda: 7 played, 4 wins, 3 losses, 560 for, 532 against (+28), home 2-2, away 2-1, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Maccabi Rapyd Tel Aviv: 7 played, 2 wins, 5 losses, 608 for, 653 against (−45), away 1-3, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175"
+    }
+   ],
+   "pricing": "Crvena Zvezda rate +4.00 net points per game against Maccabi's −6.43, with 2.2 points of home court, for a 12.6-point projection; normal approximation and a 4.5% handicap margin give the line.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "volleyball-con-val",
+   "sport": "volleyball",
+   "event_id": "37076",
+   "event": "Conegliano W vs Vallefoglia W",
+   "competition": "Serie A1 women (Italy)",
+   "start_utc": "2026-10-28T19:00:00Z",
+   "market": "Set score",
+   "selection": "Conegliano to win 3-1",
+   "line_american": 198,
+   "line_decimal": 2.98,
+   "implied_pct": 33.6,
+   "confidence": "low",
+   "analysis": "Conegliano have opened the Serie A1 season with four wins and have not dropped a single set, taking all 12 played and outscoring opponents 304-219. Vallefoglia are also 4-0 but have lost four sets on the way, 12-4, with a much tighter 377-351 points record. Conegliano should win, but a Vallefoglia side that has taken a set in every other match makes 3-1 the value scoreline rather than a whitewash.",
+   "facts": [
+    {
+     "text": "Imoco Conegliano: 4 matches, 4 wins, 12 sets won and 0 lost, 304 points for and 219 against, 12 league points.",
+     "source": "https://www.legavolleyfemminile.it/classifica/"
+    },
+    {
+     "text": "Megabox Vallefoglia: 4 matches, 4 wins, 12 sets won and 4 lost, 377 points for and 351 against, 11 league points.",
+     "source": "https://www.legavolleyfemminile.it/classifica/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Lega Pallavolo Serie A Femminile table",
+     "url": "https://www.legavolleyfemminile.it/classifica/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"
+    }
+   ],
+   "pricing": "A 0.72 per-set rate for Conegliano gives a 79% match win; of the winning paths, 3-1 is the single most likely scoreline at about 35% before the 7% set-score margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "baseball-mil-tb",
+   "sport": "baseball",
+   "event_id": "160799",
+   "event": "MIL Brewers @ TB Rays",
+   "competition": "MLB World Series, Game 4",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "market": "Money line",
+   "selection": "Milwaukee Brewers",
+   "line_american": -131,
+   "line_decimal": 1.763,
+   "implied_pct": 56.7,
+   "confidence": "medium",
+   "analysis": "The Brewers lead the World Series 3-0 and are 3-0 in the postseason after taking the first three games of the series at Tropicana Field. Milwaukee's own starter for Game 4 was not posted on the official schedule when this was priced, while Tampa Bay list Griffin Jax. With the series edge and a Tampa Bay staff working short, the bet is Milwaukee on the money line.",
+   "facts": [
+    {
+     "text": "MLB schedule lists World Series Game 4 at Tropicana Field on 2026-10-27 local (2026-10-28T00:00Z), Tampa Bay's listed pitcher Griffin Jax, and series records of Milwaukee 3-0 and Tampa Bay 0-3.",
+     "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team,linescore"
+    }
+   ],
+   "sources": [
+    {
+     "label": "MLB official schedule and probable pitchers",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team,linescore"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799"
+    }
+   ],
+   "pricing": "Projected runs of 4.6 for Milwaukee and 4.1 for Tampa Bay give a 54.6% win share once the run-scoring spread of 4.3 runs is applied; the published line adds a 4.0% money-line margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": [
+    "Milwaukee's Game 4 starter was not listed on the official schedule at capture, so the pitching half of the projection rests on Tampa Bay's listed starter only.",
+    "OLBG printed 21:00 for this game while MLB's official first-pitch time converts to 00:00Z; the official time is used here and the one-hour difference is flagged."
+   ]
+  },
+  {
+   "id": "ice-hockey-bos-car",
+   "sport": "ice-hockey",
+   "event_id": "200104",
+   "event": "BOS Bruins @ CAR Hurricanes",
+   "competition": "NHL",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "market": "Money line",
+   "selection": "Boston Bruins",
+   "line_american": -118,
+   "line_decimal": 1.847,
+   "implied_pct": 54.1,
+   "confidence": "low",
+   "analysis": "Boston are 9-2-1 with a +22 goal differential, the second-best mark in the league, and have won two straight while going 4-1-1 on the road. Carolina are 9-2-2 with a +18 differential but only 2-1-1 at home, where they have scored 13 and conceded 10 in four games. The pick is Boston on the money line at a near-even price, taking the road form and the superior goal difference.",
+   "facts": [
+    {
+     "text": "Boston Bruins: 12 games, 9-2-1, 48 goals for and 26 against (+22), road 4-1-1, streak W2.",
+     "source": "https://api-web.nhle.com/v1/standings/now"
+    },
+    {
+     "text": "Carolina Hurricanes: 13 games, 9-2-2, 51 goals for and 33 against (+18), home 2-1-1 with 13 for and 10 against.",
+     "source": "https://api-web.nhle.com/v1/standings/now"
+    }
+   ],
+   "sources": [
+    {
+     "label": "NHL official standings feed",
+     "url": "https://api-web.nhle.com/v1/standings/now"
+    },
+    {
+     "label": "NHL official schedule for 2026-10-27",
+     "url": "https://api-web.nhle.com/v1/schedule/2026-10-27"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104"
+    }
+   ],
+   "pricing": "Goal difference per game is +1.83 for Boston and +1.38 for Carolina; after a 0.25-goal home allowance the projected edge is 0.2 goals, which converts to a 52% win share with a 4.0% margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-dub-par",
+   "sport": "basketball",
+   "event_id": "536176",
+   "event": "BC Dubai vs Paris",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T16:00:00Z",
+   "market": "Handicap",
+   "selection": "BC Dubai −7.5",
+   "line_american": -198,
+   "line_decimal": 1.505,
+   "implied_pct": 66.4,
+   "confidence": "high",
+   "analysis": "Dubai Basketball have started their first EuroLeague season at 5-2 with a +13 differential, and they are 2-1 at home while scoring 597 points in seven games. Paris are 1-6 with a −52 differential and have lost both road games, conceding 649 points overall. The bet is Dubai minus 7.5, which sits four points below the margin their scoring rates project.",
+   "facts": [
+    {
+     "text": "Dubai Basketball: 7 played, 5 wins, 2 losses, 597 for, 584 against (+13), home 2-1, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Paris Basketball: 7 played, 1 win, 6 losses, 597 for, 649 against (−52), away 0-2, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176"
+    }
+   ],
+   "pricing": "Dubai rate +1.86 net points per game and Paris −7.43; with 2.2 points of home court the projected margin is 11.5, priced through the normal approximation with an 11.5-point spread and a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": []
+  },
+  {
+   "id": "basketball-bay-bar",
+   "sport": "basketball",
+   "event_id": "536174",
+   "event": "Bayern Munich vs Barcelona",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Barcelona −3.5",
+   "line_american": -182,
+   "line_decimal": 1.549,
+   "implied_pct": 64.5,
+   "confidence": "medium",
+   "analysis": "Barcelona are 4-3 with a +17 differential from 623 points scored, and they have taken two of three on the road. Bayern Munich are 2-5 with a −47 differential and have lost all three home games, scoring 612 while conceding 659. Barcelona minus 3.5 is the selection, well inside the near-seven-point margin the two scoring rates project.",
+   "facts": [
+    {
+     "text": "FC Barcelona: 7 played, 4 wins, 3 losses, 623 for, 606 against (+17), away 2-1, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "FC Bayern Munich: 7 played, 2 wins, 5 losses, 612 for, 659 against (−47), home 0-3, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174"
+    }
+   ],
+   "pricing": "Barcelona rate +2.43 net points per game against Bayern's −6.71; after the 2.2-point travel allowance the projected margin is 6.94, priced at a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": []
+  },
+  {
+   "id": "basketball-asv-par",
+   "sport": "basketball",
+   "event_id": "536181",
+   "event": "Asvel Lyon Villeurbanne vs Partizan",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Partizan −3.5",
+   "line_american": -168,
+   "line_decimal": 1.595,
+   "implied_pct": 62.7,
+   "confidence": "medium",
+   "analysis": "Partizan are 4-3 and have split four road games, holding opponents to 546 points across seven matches. ASVEL are 2-5 with the fourth-worst differential at −65, conceding 677 points, and they have lost two of three at home. Partizan minus 3.5 is the call, with the projected margin at 6.4 points.",
+   "facts": [
+    {
+     "text": "Partizan Mozzart Bet: 7 played, 4 wins, 3 losses, 541 for, 546 against (−5), away 2-2, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "LDLC ASVEL Villeurbanne: 7 played, 2 wins, 5 losses, 612 for, 677 against (−65), home 1-2, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181"
+    }
+   ],
+   "pricing": "Partizan rate −0.71 net points per game and ASVEL −9.29; with 2.2 points of home court for ASVEL the projected margin is 6.4, priced at a 4.5% handicap margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": []
+  }
+ ]
+}
