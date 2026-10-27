@@ -134,6 +134,15 @@ def trim_event(ev: dict, league_label: str) -> dict:
     return out
 
 
+def _shrink(obj) -> dict:
+    """Keep a small structural sample so parsers can be written offline."""
+    try:
+        text = json.dumps(obj)[:6000]
+        return json.loads(text if text.endswith("}") else text.rsplit(",", 1)[0] + "}")
+    except Exception:
+        return {}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--back", type=int, default=12)
@@ -147,6 +156,7 @@ def main() -> int:
     payload = {"fetched_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "leagues": {}}
     for sport_key, path, slug, label in LEAGUES:
         seen: dict[str, dict] = {}
+        sample: dict = {}
         for d in dates:
             url = f"{SITE}/{path}/scoreboard?dates={d}&limit=200"
             body = get(url)
@@ -160,10 +170,13 @@ def main() -> int:
                 rec = trim_event(ev, label)
                 if rec["id"] and rec["id"] not in seen:
                     seen[rec["id"]] = rec
+                if sample.get("event") is None:
+                    sample["event"] = ev
             time.sleep(0.15)
         payload["leagues"][f"{sport_key}|{slug}"] = {
             "sport": sport_key, "slug": slug, "label": label,
             "events": sorted(seen.values(), key=lambda e: e.get("date") or ""),
+            "sample": json.loads(json.dumps(sample)[:0] or "{}") if False else _shrink(sample),
         }
         print(f"{label:<32} {len(seen):>4} events", flush=True)
 
@@ -187,7 +200,8 @@ def main() -> int:
                              "detail": (detail or "")[:220],
                              "date": ath.get("date")})
         inj["leagues"][f"{sport_key}|{slug}"] = {"sport": sport_key, "slug": slug,
-                                                 "count": len(rows), "rows": rows[:400]}
+                                                 "count": len(rows), "rows": rows[:400],
+                                                 "sample": _shrink({"item": (data.get("injuries") or data.get("items") or [None])[0]})}
         print(f"injuries {slug:<8} {len(rows)} rows", flush=True)
     (OUT / "espn_injuries.json").write_text(json.dumps(inj), encoding="utf-8")
     return 0
