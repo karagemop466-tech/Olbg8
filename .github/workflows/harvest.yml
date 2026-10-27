@@ -34,7 +34,7 @@ jobs:
           mode="$MODE"
           if [ -z "$mode" ]; then mode="$(cat pipeline/mode.txt)"; fi
           echo "mode=$mode"
-          python3 pipeline/collect.py --mode "$mode"
+          python3 pipeline/collect.py --mode "$mode" 2>&1 | tee pipeline/out/run.log
       - name: Commit harvested data
         run: |
           git config user.name "olbg-harvest-bot"
