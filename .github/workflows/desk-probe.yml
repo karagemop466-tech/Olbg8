@@ -1,0 +1,56 @@
+name: Desk source probe
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: collector mode
+        default: probe
+  push:
+    branches: [arena/c2f58873-olbg8]
+    paths:
+      - pipeline/probe_sources.py
+      - .github/workflows/desk-probe.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desk-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probe sources
+        run: |
+          python3 pipeline/probe_sources.py > /tmp/probe.log 2>&1 || true
+          cat /tmp/probe.log
+          cp /tmp/probe.log pipeline/out/probe.log
+      - name: Commit probe results
+        if: always()
+        run: |
+          git config user.name  'arena-agent'
+          git config user.email '297053741+arena-agent@users.noreply.github.com'
+          git add -A pipeline/out/probe.json pipeline/out/probe.log 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "::error::nothing staged"
+          fi
+          if ! git commit -q -m "probe: official source reachability sweep" ; then
+            echo "::error::commit failed"; exit 1
+          fi
+          for i in 1 2 3; do
+            if git push origin "HEAD:${{ github.ref_name }}"; then echo pushed; exit 0; fi
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            sleep 3
+          done
+          echo "::error::push failed after 3 attempts"
+          exit 1
