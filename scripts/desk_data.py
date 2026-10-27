@@ -597,11 +597,13 @@ def official_basketball(out, ev, comps):
         else:
             out["flags"].append("The captured NBA games page did not expose an event-specific box score or team record.")
         out["url"] = official_url("nba_games")
+        out["name"] = "NBA official games page"
     else:
         out["flags"].append("EuroLeague and other European official endpoints returned HTTP 429/403 at capture; the official league link is provided for review.")
         out["url"] = official_url("euroleague_games_page") or "https://www.euroleaguebasketball.net/en/euroleague/games/"
-        out["urls"].append(dict(name="EuroLeague official games (capture blocked)", url=out["url"]))
-    out["urls"][0]["url"] = out["url"]
+        out["name"] = "EuroLeague official games (capture blocked)"
+        out["urls"].append(dict(name=out["name"], url=out["url"]))
+    out["urls"][0] = dict(name=out["name"], url=out["url"])
 
 
 def official_handball(out, ev, comps):
@@ -658,11 +660,12 @@ def official_golf(out, ev):
         out["stats"].append("LPGA lists Miyu Yamashita as the 2025 Maybank champion at 18 under par.")
     elif "Mexico" in ev["name"] or "Simmons" in ev["name"]:
         out["url"] = official_url("pgatour_schedule")
+        out["name"] = out["sport_primary_label"] = "PGA TOUR official schedule"
         out["facts"].append("The PGA TOUR official schedule was captured; this event was not identity-matched within the captured schedule text.")
         out["flags"].append("Golf event identity could not be matched to a captured official tournament page.")
     else:
         out["flags"].append("Golf event identity could not be matched to a captured official tournament page.")
-    out["urls"][0]["url"] = out["url"]
+    out["urls"][0] = dict(name=out["name"], url=out["url"])
 
 
 def official_cricket(out, ev, comps):
@@ -674,23 +677,25 @@ def official_cricket(out, ev, comps):
         out["flags"].append("The ICC fixtures page is JavaScript-rendered; this identity match comes from embedded official page text rather than a structured fixture API.")
     elif OFFICIAL.text_has("cricket_australia_fixtures", comps[0] if comps else ev["name"]):
         out["url"] = official_url("cricket_australia_fixtures")
+        out["name"] = "Cricket Australia official fixtures"
         out["level"] = "competition"
         out["facts"].append("Cricket Australia's official fixtures page was captured with this competition's schedule.")
     else:
         out["flags"].append("No official event-level fixture match for this cricket row.")
-    out["urls"][0]["url"] = out["url"]
+    out["urls"][0] = dict(name=out["name"], url=out["url"])
 
 
 def official_rugby_union(out, ev, comps):
-    out["url"] = official_url("lnr_prod2") if "Division 2" in (ev["competition"] or "") else official_url("epcr_matches")
     key = "lnr_prod2" if "Division 2" in (ev["competition"] or "") else "epcr_matches"
+    out["url"] = official_url(key)
+    out["name"] = "LNR Pro D2 official calendar" if key == "lnr_prod2" else "EPCR Champions Cup official matches"
     found = sum(1 for c in comps if OFFICIAL.text_has(key, c))
     if found >= 2:
         out["level"] = "competition"
         out["facts"].append(f"The official {'LNR Pro D2' if key == 'lnr_prod2' else 'EPCR'} fixtures page lists {' and '.join(comps)}.")
     else:
         out["flags"].append("No official event-level fixture match for this rugby union row.")
-    out["urls"][0]["url"] = out["url"]
+    out["urls"][0] = dict(name=out["name"], url=out["url"])
 
 
 def official_volleyball(out, ev, comps):

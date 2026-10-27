@@ -1241,3 +1241,12 @@ should re-run the full `quality.yml` sequence locally before assuming a red chec
 - `main` advanced to `93e5c76` (sessions `1c2e36bf`, PRs #38/#39). Merged again; only `COORDINATION.md` conflicted and was unioned. `previous-desk/` was refreshed from the newest published main pages.
 - The first CI failures on PR #37 were caused by `data/dashboard.json`/`data/sources.json`/`pricing.html` being owned by concurrent collectors (removed from the byte guard) and by a genuine cross-version determinism bug: CPython 3.12 changed builtin float `sum()`, which produced signed-zero edges (`-0.0` vs `0.0`) in `data/desk-20261027.json`, `lines.html` and `sports/tennis.html`. Fixed by using `math.fsum`, skipping needless renormalisation on pure de-vig markets, and snapping edges below 1e-9 to `0.0`. All generated files are now byte-identical on Python 3.11 and 3.12.
 - Diagnostics were surfaced through a check-run annotation (`DESK_DIFF`), because the sandbox cannot reach GitHub's blob-storage log/artifact hosts. No credentials were requested or stored.
+
+## Final release record — `3822f8fb`
+
+- **PR [#37](https://github.com/karagemop466-tech/Olbg8/pull/37) merged** at 2026-10-27T06:59:25Z as merge commit `76d5e920ac5da9b9632a795f827be746a1635e36`. Both required `verify` checks passed on the final head `e737764`.
+- **GitHub Pages deployment confirmed**: workflow [Deploy OLBG desk run 40464380091](https://github.com/karagemop466-tech/Olbg8/actions/runs/40464380091) completed successfully; the Pages API reports `built` from `main` root at <https://karagemop466-tech.github.io/Olbg8/>. Cache-busted live fetches of `/`, `/picks.html` and `/flagged.html` returned the 63-pick, 2,393-line, 652-flag desk with official and OLBG links on every row.
+- A small follow-up PR corrects four source-label/URL mismatches found during the live review (PGA TOUR vs LPGA, LNR vs EPCR, Cricket Australia vs ICC, EuroLeague vs NBA); its number and merge result will be recorded here after merge.
+
+- Follow-up PR: https://github.com/karagemop466-tech/Olbg8/pull/40 (source-label corrections and this release record). Merge result: **merged** — both `verify` checks passed on head `dd41b84` and the PR was merged with `gh pr merge 40 --merge`; its Pages deployment is recorded below.
+- Post-merge bot harvests `445c475` and `4120ed9` were merged into the follow-up branch as-is; they only refresh concurrent `data/olbg/*` and `data/official/*` snapshots and do not alter the 06:17 UTC desk capture.

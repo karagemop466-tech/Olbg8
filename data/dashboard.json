@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-27T06:21:00Z",
+ "generated_utc": "2026-10-27T06:59:35Z",
  "counts": {
-  "events": 201,
-  "markets": 234,
-  "selections": 278,
-  "picks": 65,
+  "events": 217,
+  "markets": 249,
+  "selections": 299,
+  "picks": 66,
   "high": 3,
-  "medium": 24,
+  "medium": 25,
   "sports_with_events": 14,
   "sports": 15
  },
@@ -41,7 +41,7 @@
    "olbg_hub": "https://www.olbg.com/betting-tips/Volleyball/21",
    "events": 22,
    "markets": 27,
-   "selections": 32,
+   "selections": 31,
    "picks": 8,
    "high": 2,
    "medium": 3,
@@ -58,8 +58,8 @@
    "sport_id": 9,
    "olbg_hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
    "events": 13,
-   "markets": 16,
-   "selections": 19,
+   "markets": 15,
+   "selections": 18,
    "picks": 8,
    "high": 0,
    "medium": 0,
@@ -75,9 +75,9 @@
    ],
    "sport_id": 7,
    "olbg_hub": "https://www.olbg.com/betting-tips/Cricket/7",
-   "events": 18,
-   "markets": 21,
-   "selections": 24,
+   "events": 17,
+   "markets": 20,
+   "selections": 23,
    "picks": 8,
    "high": 0,
    "medium": 6,
@@ -184,13 +184,13 @@
    ],
    "sport_id": 3,
    "olbg_hub": "https://www.olbg.com/betting-tips/Tennis/3",
-   "events": 50,
-   "markets": 57,
-   "selections": 60,
+   "events": 64,
+   "markets": 71,
+   "selections": 82,
    "picks": 8,
    "high": 1,
    "medium": 5,
-   "with_official": 28
+   "with_official": 29
   },
   {
    "key": "motor-racing",
@@ -221,9 +221,9 @@
    "sport_id": 20,
    "olbg_hub": "https://www.olbg.com/betting-tips/Handball/20",
    "events": 19,
-   "markets": 19,
-   "selections": 23,
-   "picks": 2,
+   "markets": 20,
+   "selections": 24,
+   "picks": 3,
    "high": 0,
    "medium": 0,
    "with_official": 0
@@ -239,8 +239,8 @@
    "sport_id": 13,
    "olbg_hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
    "events": 20,
-   "markets": 36,
-   "selections": 48,
+   "markets": 35,
+   "selections": 45,
    "picks": 8,
    "high": 0,
    "medium": 3,
@@ -256,12 +256,12 @@
    ],
    "sport_id": 4,
    "olbg_hub": "https://www.olbg.com/betting-tips/Basketball/4",
-   "events": 39,
-   "markets": 41,
-   "selections": 48,
+   "events": 42,
+   "markets": 44,
+   "selections": 52,
    "picks": 8,
    "high": 0,
-   "medium": 5,
+   "medium": 6,
    "with_official": 8
   },
   {
@@ -952,15 +952,15 @@
    "sport_key": "tennis",
    "requested_sport": "Tennis",
    "name": "Simona Waltert vs Jil Teichmann",
-   "competition": "",
+   "competition": "WTA Guangzhou",
    "start_utc": "2026-10-27T03:00:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Simona_Waltert_vs_Jil_Teichmann/3?event_id=902180",
    "markets": [
     {
      "name": "Win Match",
-     "overround": 55.56,
-     "complete": false,
+     "overround": 105.56,
+     "complete": true,
      "selections": [
       {
        "selection": "Simona Waltert",
@@ -975,6 +975,24 @@
        "edge_pts": 0.0,
        "consensus": 50.0,
        "consensus_gap": -3.4,
+       "tips": 2,
+       "tips_total": 4,
+       "route": "market",
+       "margin_allowance": 4.0
+      },
+      {
+       "selection": "Jil Teichmann",
+       "decimal": 2.0,
+       "american": 100,
+       "fractional": "1/1",
+       "market_prob": 50.0,
+       "fair_prob": 48.08,
+       "our_prob": 48.08,
+       "our_decimal": 2.08,
+       "our_american": 108,
+       "edge_pts": 0.0,
+       "consensus": 50.0,
+       "consensus_gap": 1.9,
        "tips": 2,
        "tips_total": 4,
        "route": "market",
@@ -1379,10 +1397,10 @@
        "our_decimal": 1.87,
        "our_american": -115,
        "edge_pts": 0.0,
-       "consensus": 73.1,
-       "consensus_gap": 19.7,
-       "tips": 38,
-       "tips_total": 52,
+       "consensus": 73.6,
+       "consensus_gap": 20.2,
+       "tips": 39,
+       "tips_total": 53,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -1407,22 +1425,22 @@
    "markets": [
     {
      "name": "Win Match",
-     "overround": 63.69,
+     "overround": 60.61,
      "complete": false,
      "selections": [
       {
        "selection": "Ireland",
-       "decimal": 1.57,
-       "american": -175,
-       "fractional": "4/7",
-       "market_prob": 63.69,
-       "fair_prob": 61.24,
-       "our_prob": 61.24,
-       "our_decimal": 1.63,
-       "our_american": -159,
+       "decimal": 1.65,
+       "american": -154,
+       "fractional": "13/20",
+       "market_prob": 60.61,
+       "fair_prob": 58.28,
+       "our_prob": 58.28,
+       "our_decimal": 1.72,
+       "our_american": -139,
        "edge_pts": 0.0,
        "consensus": 68.8,
-       "consensus_gap": 7.6,
+       "consensus_gap": 10.5,
        "tips": 22,
        "tips_total": 32,
        "route": "market",
@@ -1463,10 +1481,10 @@
        "our_decimal": 1.09,
        "our_american": -1111,
        "edge_pts": 0.0,
-       "consensus": 60.0,
-       "consensus_gap": -31.6,
+       "consensus": 54.5,
+       "consensus_gap": -37.1,
        "tips": 6,
-       "tips_total": 10,
+       "tips_total": 11,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -1505,10 +1523,10 @@
        "our_decimal": 1.56,
        "our_american": -179,
        "edge_pts": 0.0,
-       "consensus": 73.5,
-       "consensus_gap": 9.4,
+       "consensus": 71.4,
+       "consensus_gap": 7.3,
        "tips": 25,
-       "tips_total": 34,
+       "tips_total": 35,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -1593,10 +1611,10 @@
        "our_decimal": 1.56,
        "our_american": -179,
        "edge_pts": 0.0,
-       "consensus": 66.7,
-       "consensus_gap": 2.6,
-       "tips": 4,
-       "tips_total": 6,
+       "consensus": 71.4,
+       "consensus_gap": 7.3,
+       "tips": 5,
+       "tips_total": 7,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -1721,8 +1739,8 @@
        "edge_pts": -3.32,
        "consensus": 100.0,
        "consensus_gap": 38.8,
-       "tips": 4,
-       "tips_total": 4,
+       "tips": 5,
+       "tips_total": 5,
        "route": "primary",
        "margin_allowance": 4.0
       }
@@ -1735,52 +1753,6 @@
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.5571177504393673
-   },
-   "flags": []
-  },
-  {
-   "id": "902409",
-   "sport": "Tennis",
-   "sport_key": "tennis",
-   "requested_sport": "Tennis",
-   "name": "Nuno Borges vs Casper Ruud",
-   "competition": "",
-   "start_utc": "2026-10-27T11:00:00Z",
-   "venue": "",
-   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
-   "markets": [
-    {
-     "name": "Win Match",
-     "overround": 69.44,
-     "complete": false,
-     "selections": [
-      {
-       "selection": "Casper Ruud",
-       "decimal": 1.44,
-       "american": -227,
-       "fractional": "4/9",
-       "market_prob": 69.44,
-       "fair_prob": 66.77,
-       "our_prob": 66.68,
-       "our_decimal": 1.5,
-       "our_american": -200,
-       "edge_pts": -0.1,
-       "consensus": 100.0,
-       "consensus_gap": 33.2,
-       "tips": 3,
-       "tips_total": 3,
-       "route": "primary",
-       "margin_allowance": 4.0
-      }
-     ]
-    }
-   ],
-   "official": {
-    "method": "logistic model on ATP ranking points",
-    "detail": "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
-    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
-    "source_label": "ATP ranking points",
-    "prob": 0.333889816360601
    },
    "flags": []
   },
@@ -1832,34 +1804,16 @@
    "sport_key": "volleyball",
    "requested_sport": "Volleyball",
    "name": "Istanbul Genclik Spor vs IBB Spor",
-   "competition": "Turkiye Efeler League",
+   "competition": "",
    "start_utc": "2026-10-27T11:00:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
    "markets": [
     {
      "name": "Win Match",
-     "overround": 105.34,
-     "complete": true,
+     "overround": 51.28,
+     "complete": false,
      "selections": [
-      {
-       "selection": "Istanbul Genclik Spor",
-       "decimal": 1.85,
-       "american": -118,
-       "fractional": "17/20",
-       "market_prob": 54.05,
-       "fair_prob": 51.98,
-       "our_prob": 51.98,
-       "our_decimal": 1.92,
-       "our_american": -109,
-       "edge_pts": 0.0,
-       "consensus": 50.0,
-       "consensus_gap": -2.0,
-       "tips": 3,
-       "tips_total": 6,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
       {
        "selection": "IBB Spor",
        "decimal": 1.95,
@@ -1871,10 +1825,10 @@
        "our_decimal": 2.03,
        "our_american": 103,
        "edge_pts": 0.0,
-       "consensus": 50.0,
-       "consensus_gap": 0.7,
-       "tips": 3,
-       "tips_total": 6,
+       "consensus": 57.1,
+       "consensus_gap": 7.8,
+       "tips": 4,
+       "tips_total": 7,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -1934,6 +1888,48 @@
    "official": null,
    "flags": [
     "no priced market captured",
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902402",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Jessica Pieri vs Elizara Yaneva",
+   "competition": "",
+   "start_utc": "2026-10-27T11:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jessica_Pieri_vs_Elizara_Yaneva/3?event_id=902402",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 59.88,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Elizara Yaneva -4.50",
+       "decimal": 1.67,
+       "american": -149,
+       "fractional": "4/6",
+       "market_prob": 59.88,
+       "fair_prob": 57.3,
+       "our_prob": 57.3,
+       "our_decimal": 1.75,
+       "our_american": -133,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
     "no independent official estimate for this competition"
    ]
   },
@@ -2023,10 +2019,10 @@
        "our_decimal": 1.46,
        "our_american": -217,
        "edge_pts": 0.0,
-       "consensus": 83.3,
-       "consensus_gap": 14.6,
+       "consensus": 71.4,
+       "consensus_gap": 2.7,
        "tips": 5,
-       "tips_total": 6,
+       "tips_total": 7,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -2044,15 +2040,15 @@
    "sport_key": "tennis",
    "requested_sport": "Tennis",
    "name": "Jerome Kym vs Arthur Rinderknech",
-   "competition": "ATP Basel",
+   "competition": "",
    "start_utc": "2026-10-27T12:30:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jerome_Kym_vs_Arthur_Rinderknech/3?event_id=902234",
    "markets": [
     {
      "name": "Win Match",
-     "overround": 103.17,
-     "complete": true,
+     "overround": 55.56,
+     "complete": false,
      "selections": [
       {
        "selection": "Jerome Kym",
@@ -2064,24 +2060,6 @@
        "our_prob": 53.42,
        "our_decimal": 1.87,
        "our_american": -115,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 2,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
-      {
-       "selection": "Arthur Rinderknech",
-       "decimal": 2.1,
-       "american": 110,
-       "fractional": "11/10",
-       "market_prob": 47.62,
-       "fair_prob": 45.79,
-       "our_prob": 45.79,
-       "our_decimal": 2.18,
-       "our_american": 118,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -2104,34 +2082,16 @@
    "sport_key": "tennis",
    "requested_sport": "Tennis",
    "name": "Tommy Paul vs Andrey Rublev",
-   "competition": "ATP Vienna",
+   "competition": "",
    "start_utc": "2026-10-27T12:30:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252",
    "markets": [
     {
      "name": "Win Match",
-     "overround": 101.28,
-     "complete": true,
+     "overround": 43.48,
+     "complete": false,
      "selections": [
-      {
-       "selection": "Tommy Paul",
-       "decimal": 1.73,
-       "american": -138,
-       "fractional": "8/11",
-       "market_prob": 57.8,
-       "fair_prob": 55.58,
-       "our_prob": 55.58,
-       "our_decimal": 1.8,
-       "our_american": -125,
-       "edge_pts": 0.0,
-       "consensus": 25.0,
-       "consensus_gap": -30.6,
-       "tips": 1,
-       "tips_total": 4,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
       {
        "selection": "Andrey Rublev",
        "decimal": 2.3,
@@ -2139,15 +2099,15 @@
        "fractional": "13/10",
        "market_prob": 43.48,
        "fair_prob": 41.81,
-       "our_prob": 41.81,
-       "our_decimal": 2.39,
-       "our_american": 139,
-       "edge_pts": 0.0,
+       "our_prob": 43.63,
+       "our_decimal": 2.29,
+       "our_american": 129,
+       "edge_pts": 1.82,
        "consensus": 75.0,
        "consensus_gap": 33.2,
        "tips": 3,
        "tips_total": 4,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
@@ -2161,6 +2121,48 @@
     "prob": 0.5515463917525774
    },
    "flags": []
+  },
+  {
+   "id": "902406",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Adrienn Nagy vs Oksana Selekhmeteva",
+   "competition": "",
+   "start_utc": "2026-10-27T13:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Adrienn_Nagy_vs_Oksana_Selekhmeteva/3?event_id=902406",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 54.64,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Oksana Selekhmeteva -5.50",
+       "decimal": 1.83,
+       "american": -120,
+       "fractional": "5/6",
+       "market_prob": 54.64,
+       "fair_prob": 52.29,
+       "our_prob": 52.29,
+       "our_decimal": 1.91,
+       "our_american": -110,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
   },
   {
    "id": "902238",
@@ -2189,10 +2191,10 @@
        "our_decimal": 1.43,
        "our_american": -233,
        "edge_pts": -3.95,
-       "consensus": 66.7,
-       "consensus_gap": -7.3,
-       "tips": 4,
-       "tips_total": 6,
+       "consensus": 71.4,
+       "consensus_gap": -2.6,
+       "tips": 5,
+       "tips_total": 7,
        "route": "primary",
        "margin_allowance": 4.0
       }
@@ -2521,10 +2523,10 @@
        "our_decimal": 4.11,
        "our_american": 311,
        "edge_pts": 3.4,
-       "consensus": null,
-       "consensus_gap": null,
+       "consensus": 66.7,
+       "consensus_gap": 45.8,
        "tips": 2,
-       "tips_total": 2,
+       "tips_total": 3,
        "route": "primary",
        "margin_allowance": 4.0
       }
@@ -2573,6 +2575,48 @@
        "tips_total": 18,
        "route": "market",
        "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902405",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Gaia Maduzzi vs Linda Klimovicova",
+   "competition": "",
+   "start_utc": "2026-10-27T14:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Gaia_Maduzzi_vs_Linda_Klimovicova/3?event_id=902405",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 58.82,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Linda Klimovicova -5.50",
+       "decimal": 1.7,
+       "american": -143,
+       "fractional": "7/10",
+       "market_prob": 58.82,
+       "fair_prob": 56.29,
+       "our_prob": 56.29,
+       "our_decimal": 1.78,
+       "our_american": -128,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
       }
      ]
     }
@@ -2738,39 +2782,81 @@
    ]
   },
   {
+   "id": "902338",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Ana Candiotto vs Luna Maria Cinalli",
+   "competition": "WTA Curitiba",
+   "start_utc": "2026-10-27T15:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ana_Candiotto_vs_Luna_Maria_Cinalli/3?event_id=902338",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 104.71,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Luna Maria Cinalli",
+       "decimal": 1.91,
+       "american": -110,
+       "fractional": "10/11",
+       "market_prob": 52.36,
+       "fair_prob": 50.1,
+       "our_prob": 50.1,
+       "our_decimal": 2.0,
+       "our_american": 100,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Luna Maria Cinalli -4.50",
+       "decimal": 1.91,
+       "american": -110,
+       "fractional": "10/11",
+       "market_prob": 52.36,
+       "fair_prob": 50.1,
+       "our_prob": 50.1,
+       "our_decimal": 2.0,
+       "our_american": 100,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
    "id": "902210",
    "sport": "Tennis",
    "sport_key": "tennis",
    "requested_sport": "Tennis",
    "name": "Cameron Norrie vs Francisco Cerundolo",
-   "competition": "ATP Vienna",
+   "competition": "",
    "start_utc": "2026-10-27T15:30:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210",
    "markets": [
     {
      "name": "Win Match",
-     "overround": 103.03,
-     "complete": true,
+     "overround": 36.36,
+     "complete": false,
      "selections": [
-      {
-       "selection": "Francisco Cerundolo",
-       "decimal": 1.5,
-       "american": -200,
-       "fractional": "1/2",
-       "market_prob": 66.67,
-       "fair_prob": 64.1,
-       "our_prob": 64.1,
-       "our_decimal": 1.56,
-       "our_american": -179,
-       "edge_pts": 0.0,
-       "consensus": 40.0,
-       "consensus_gap": -24.1,
-       "tips": 2,
-       "tips_total": 5,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
       {
        "selection": "Cameron Norrie",
        "decimal": 2.75,
@@ -2778,15 +2864,15 @@
        "fractional": "7/4",
        "market_prob": 36.36,
        "fair_prob": 34.97,
-       "our_prob": 34.97,
-       "our_decimal": 2.86,
-       "our_american": 186,
-       "edge_pts": 0.0,
+       "our_prob": 34.44,
+       "our_decimal": 2.9,
+       "our_american": 190,
+       "edge_pts": -0.52,
        "consensus": 60.0,
        "consensus_gap": 25.0,
        "tips": 3,
        "tips_total": 5,
-       "route": "market",
+       "route": "primary",
        "margin_allowance": 4.0
       }
      ]
@@ -2800,6 +2886,66 @@
     "prob": 0.3409415121255349
    },
    "flags": []
+  },
+  {
+   "id": "902332",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Justina M Gonzalez Daniele vs Solana Sierra",
+   "competition": "WTA Curitiba",
+   "start_utc": "2026-10-27T15:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Justina_M_Gonzalez_Daniele_vs_Solana_Sierra/3?event_id=902332",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 95.24,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Solana Sierra",
+       "decimal": 2.1,
+       "american": 110,
+       "fractional": "11/10",
+       "market_prob": 47.62,
+       "fair_prob": 45.57,
+       "our_prob": 45.57,
+       "our_decimal": 2.19,
+       "our_american": 119,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Solana Sierra -6.50",
+       "decimal": 2.1,
+       "american": 110,
+       "fractional": "11/10",
+       "market_prob": 47.62,
+       "fair_prob": 45.57,
+       "our_prob": 45.57,
+       "our_decimal": 2.19,
+       "our_american": 119,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
   },
   {
    "id": "902361",
@@ -2856,19 +3002,19 @@
    "markets": [
     {
      "name": "1st Set Winner",
-     "overround": 5.88,
+     "overround": 9.09,
      "complete": false,
      "selections": [
       {
        "selection": "Carlota Garibay Romero",
-       "decimal": 17.0,
-       "american": 1600,
-       "fractional": "16/1",
-       "market_prob": 5.88,
-       "fair_prob": 5.58,
-       "our_prob": 5.58,
-       "our_decimal": 17.93,
-       "our_american": 1693,
+       "decimal": 11.0,
+       "american": 1000,
+       "fractional": "10/1",
+       "market_prob": 9.09,
+       "fair_prob": 8.62,
+       "our_prob": 8.62,
+       "our_decimal": 11.6,
+       "our_american": 1060,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -2971,6 +3117,48 @@
    ]
   },
   {
+   "id": "536216",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "name": "Bahcesehir Koleji vs PAOK",
+   "competition": "Euro Cup",
+   "start_utc": "2026-10-27T16:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Bahcesehir_Koleji_vs_PAOK/4?event_id=536216",
+   "markets": [
+    {
+     "name": "Money Line",
+     "overround": 62.11,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Bahcesehir Koleji",
+       "decimal": 1.61,
+       "american": -164,
+       "fractional": "8/13",
+       "market_prob": 62.11,
+       "fair_prob": 59.72,
+       "our_prob": 59.72,
+       "our_decimal": 1.67,
+       "our_american": -149,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
    "id": "536232",
    "sport": "Basketball",
    "sport_key": "basketball",
@@ -2997,10 +3185,10 @@
        "our_decimal": 1.54,
        "our_american": -185,
        "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
+       "consensus": 100.0,
+       "consensus_gap": 35.0,
+       "tips": 3,
+       "tips_total": 3,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -3309,7 +3497,7 @@
       {
        "selection": "Alexander Zverev",
        "decimal": 1.08,
-       "american": -1250,
+       "american": -1205,
        "fractional": "1/12",
        "market_prob": 92.59,
        "fair_prob": 89.03,
@@ -3409,7 +3597,7 @@
    "sport_key": "volleyball",
    "requested_sport": "Volleyball",
    "name": "PGE Skra Belchatow vs GKS Katowice",
-   "competition": "",
+   "competition": "Poland Plus Liga",
    "start_utc": "2026-10-27T16:30:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21?event_id=37132",
@@ -3441,19 +3629,19 @@
     },
     {
      "name": "Win Match",
-     "overround": 73.53,
+     "overround": 72.46,
      "complete": false,
      "selections": [
       {
        "selection": "PGE Skra Belchatow",
-       "decimal": 1.36,
-       "american": -278,
-       "fractional": "4/11",
-       "market_prob": 73.53,
-       "fair_prob": 70.7,
-       "our_prob": 70.7,
-       "our_decimal": 1.41,
-       "our_american": -244,
+       "decimal": 1.38,
+       "american": -263,
+       "fractional": "19/50",
+       "market_prob": 72.46,
+       "fair_prob": 69.68,
+       "our_prob": 69.68,
+       "our_decimal": 1.44,
+       "our_american": -227,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -3601,8 +3789,8 @@
        "edge_pts": 0.0,
        "consensus": 100.0,
        "consensus_gap": 40.6,
-       "tips": 3,
-       "tips_total": 3,
+       "tips": 4,
+       "tips_total": 4,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -3704,7 +3892,7 @@
       {
        "selection": "Emiliana Arango",
        "decimal": 1.73,
-       "american": -137,
+       "american": -138,
        "fractional": "8/11",
        "market_prob": 57.8,
        "fair_prob": 55.58,
@@ -3718,6 +3906,126 @@
        "tips_total": 1,
        "route": "market",
        "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902364",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Fiona Ferro vs Sofia Johnson",
+   "competition": "WTA Queretaro",
+   "start_utc": "2026-10-27T17:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Fiona_Ferro_vs_Sofia_Johnson/3?event_id=902364",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 102.56,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Fiona Ferro",
+       "decimal": 1.95,
+       "american": -105,
+       "fractional": "19/20",
+       "market_prob": 51.28,
+       "fair_prob": 49.07,
+       "our_prob": 49.07,
+       "our_decimal": 2.04,
+       "our_american": 104,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Fiona Ferro -5.50",
+       "decimal": 1.95,
+       "american": -105,
+       "fractional": "19/20",
+       "market_prob": 51.28,
+       "fair_prob": 49.07,
+       "our_prob": 49.07,
+       "our_decimal": 2.04,
+       "our_american": 104,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902363",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Polona Hercog vs Martina Capurro Taborda",
+   "competition": "WTA Queretaro",
+   "start_utc": "2026-10-27T17:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polona_Hercog_vs_Martina_Capurro_Taborda/3?event_id=902363",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 96.15,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Polona Hercog",
+       "decimal": 2.08,
+       "american": 108,
+       "fractional": "27/25",
+       "market_prob": 48.08,
+       "fair_prob": 46.01,
+       "our_prob": 46.01,
+       "our_decimal": 2.17,
+       "our_american": 117,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Polona Hercog -5.50",
+       "decimal": 2.08,
+       "american": 108,
+       "fractional": "27/25",
+       "market_prob": 48.08,
+       "fair_prob": 46.01,
+       "our_prob": 46.01,
+       "our_decimal": 2.17,
+       "our_american": 117,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
       }
      ]
     }
@@ -3837,6 +4145,48 @@
    ]
   },
   {
+   "id": "536233",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "name": "Brose Bamberg vs Varese",
+   "competition": "Basketball Champions League",
+   "start_utc": "2026-10-27T18:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/Brose_Bamberg_vs_Varese/4?event_id=536233",
+   "markets": [
+    {
+     "name": "Money Line",
+     "overround": 65.36,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Brose Bamberg",
+       "decimal": 1.53,
+       "american": -189,
+       "fractional": "8/15",
+       "market_prob": 65.36,
+       "fair_prob": 62.85,
+       "our_prob": 62.85,
+       "our_decimal": 1.59,
+       "our_american": -169,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
    "id": "12196",
    "sport": "Handball",
    "sport_key": "handball",
@@ -3847,6 +4197,31 @@
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
    "markets": [
+    {
+     "name": "Match Handicap",
+     "overround": 54.05,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "OV Helsingborg HK W +4.50",
+       "decimal": 1.85,
+       "american": -118,
+       "fractional": "17/20",
+       "market_prob": 54.05,
+       "fair_prob": 51.48,
+       "our_prob": 51.48,
+       "our_decimal": 1.94,
+       "our_american": -106,
+       "edge_pts": 0.0,
+       "consensus": 100.0,
+       "consensus_gap": 48.5,
+       "tips": 3,
+       "tips_total": 3,
+       "route": "market",
+       "margin_allowance": 5.0
+      }
+     ]
+    },
     {
      "name": "Money Line",
      "overround": 91.97,
@@ -3863,10 +4238,10 @@
        "our_decimal": 1.27,
        "our_american": -370,
        "edge_pts": 0.0,
-       "consensus": 40.0,
-       "consensus_gap": -38.8,
+       "consensus": 33.3,
+       "consensus_gap": -45.5,
        "tips": 2,
-       "tips_total": 5,
+       "tips_total": 6,
        "route": "market",
        "margin_allowance": 4.0
       },
@@ -3881,10 +4256,10 @@
        "our_decimal": 10.4,
        "our_american": 940,
        "edge_pts": 0.0,
-       "consensus": 60.0,
-       "consensus_gap": 50.4,
+       "consensus": 50.0,
+       "consensus_gap": 40.4,
        "tips": 3,
-       "tips_total": 5,
+       "tips_total": 6,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -4061,29 +4436,11 @@
     },
     {
      "name": "Puck Line",
-     "overround": 117.65,
-     "complete": true,
+     "overround": 58.82,
+     "complete": false,
      "selections": [
       {
        "selection": "Rodovre Mighty Bulls",
-       "decimal": 1.7,
-       "american": -143,
-       "fractional": "7/10",
-       "market_prob": 58.82,
-       "fair_prob": 56.56,
-       "our_prob": 56.56,
-       "our_decimal": 1.77,
-       "our_american": -130,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
-      {
-       "selection": "Rodovre Mighty Bulls +3.50",
        "decimal": 1.7,
        "american": -143,
        "fractional": "7/10",
@@ -4262,10 +4619,10 @@
        "our_decimal": 2.13,
        "our_american": 113,
        "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
+       "consensus": 66.7,
+       "consensus_gap": 19.8,
        "tips": 2,
-       "tips_total": 2,
+       "tips_total": 3,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -4360,6 +4717,126 @@
        "tips_total": 1,
        "route": "market",
        "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902337",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Berta Bonardi vs Marjorie Souza",
+   "competition": "WTA Curitiba",
+   "start_utc": "2026-10-27T18:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Berta_Bonardi_vs_Marjorie_Souza/3?event_id=902337",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 115.61,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Marjorie Souza",
+       "decimal": 1.73,
+       "american": -138,
+       "fractional": "8/11",
+       "market_prob": 57.8,
+       "fair_prob": 55.31,
+       "our_prob": 55.31,
+       "our_decimal": 1.81,
+       "our_american": -123,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Marjorie Souza -4.50",
+       "decimal": 1.73,
+       "american": -138,
+       "fractional": "8/11",
+       "market_prob": 57.8,
+       "fair_prob": 55.31,
+       "our_prob": 55.31,
+       "our_decimal": 1.81,
+       "our_american": -123,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902350",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Carole Monnet vs Leolia Jeanjean",
+   "competition": "WTA Queretaro",
+   "start_utc": "2026-10-27T18:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Carole_Monnet_vs_Leolia_Jeanjean/3?event_id=902350",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 108.11,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Leolia Jeanjean",
+       "decimal": 1.85,
+       "american": -118,
+       "fractional": "17/20",
+       "market_prob": 54.05,
+       "fair_prob": 51.73,
+       "our_prob": 51.73,
+       "our_decimal": 1.93,
+       "our_american": -108,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Leolia Jeanjean -4.50",
+       "decimal": 1.85,
+       "american": -118,
+       "fractional": "17/20",
+       "market_prob": 54.05,
+       "fair_prob": 51.73,
+       "our_prob": 51.73,
+       "our_decimal": 1.93,
+       "our_american": -108,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
       }
      ]
     }
@@ -4722,29 +5199,11 @@
     },
     {
      "name": "Puck Line",
-     "overround": 66.67,
+     "overround": 33.33,
      "complete": false,
      "selections": [
       {
        "selection": "EHC Kloten",
-       "decimal": 3.0,
-       "american": 200,
-       "fractional": "2/1",
-       "market_prob": 33.33,
-       "fair_prob": 32.05,
-       "our_prob": 32.05,
-       "our_decimal": 3.12,
-       "our_american": 212,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
-      {
-       "selection": "EHC Kloten -1.50",
        "decimal": 3.0,
        "american": 200,
        "fractional": "2/1",
@@ -5097,7 +5556,7 @@
    "markets": [
     {
      "name": "Money Line",
-     "overround": 101.14,
+     "overround": 102.36,
      "complete": true,
      "selections": [
       {
@@ -5120,17 +5579,17 @@
       },
       {
        "selection": "Bayern Munich",
-       "decimal": 2.05,
-       "american": 105,
-       "fractional": "21/20",
-       "market_prob": 48.78,
-       "fair_prob": 46.9,
-       "our_prob": 46.9,
-       "our_decimal": 2.13,
-       "our_american": 113,
+       "decimal": 2.0,
+       "american": 100,
+       "fractional": "1/1",
+       "market_prob": 50.0,
+       "fair_prob": 48.08,
+       "our_prob": 48.08,
+       "our_decimal": 2.08,
+       "our_american": 108,
        "edge_pts": 0.0,
        "consensus": 60.0,
-       "consensus_gap": 13.1,
+       "consensus_gap": 11.9,
        "tips": 3,
        "tips_total": 5,
        "route": "market",
@@ -5157,22 +5616,40 @@
    "markets": [
     {
      "name": "Money Line",
-     "overround": 67.57,
-     "complete": false,
+     "overround": 100.73,
+     "complete": true,
      "selections": [
       {
        "selection": "Crvena Zvezda",
-       "decimal": 1.48,
-       "american": -208,
-       "fractional": "10/21",
-       "market_prob": 67.57,
-       "fair_prob": 64.97,
-       "our_prob": 64.97,
-       "our_decimal": 1.54,
-       "our_american": -185,
+       "decimal": 1.42,
+       "american": -238,
+       "fractional": "21/50",
+       "market_prob": 70.42,
+       "fair_prob": 67.71,
+       "our_prob": 67.71,
+       "our_decimal": 1.48,
+       "our_american": -208,
        "edge_pts": 0.0,
        "consensus": 50.0,
-       "consensus_gap": -15.0,
+       "consensus_gap": -17.7,
+       "tips": 2,
+       "tips_total": 4,
+       "route": "market",
+       "margin_allowance": 4.0
+      },
+      {
+       "selection": "Maccabi Tel Aviv",
+       "decimal": 3.3,
+       "american": 230,
+       "fractional": "23/10",
+       "market_prob": 30.3,
+       "fair_prob": 29.14,
+       "our_prob": 29.14,
+       "our_decimal": 3.43,
+       "our_american": 243,
+       "edge_pts": 0.0,
+       "consensus": 50.0,
+       "consensus_gap": 20.9,
        "tips": 2,
        "tips_total": 4,
        "route": "market",
@@ -5212,6 +5689,48 @@
        "our_prob": 80.13,
        "our_decimal": 1.25,
        "our_american": -400,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "536221",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "name": "Trento vs Buducnost",
+   "competition": "Euro Cup",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Trento_vs_Buducnost/4?event_id=536221",
+   "markets": [
+    {
+     "name": "Money Line",
+     "overround": 62.11,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Buducnost",
+       "decimal": 1.61,
+       "american": -164,
+       "fractional": "8/13",
+       "market_prob": 62.11,
+       "fair_prob": 59.72,
+       "our_prob": 59.72,
+       "our_decimal": 1.67,
+       "our_american": -149,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -5494,10 +6013,10 @@
        "our_decimal": 2.13,
        "our_american": 113,
        "edge_pts": 0.0,
-       "consensus": 66.7,
-       "consensus_gap": 19.8,
-       "tips": 4,
-       "tips_total": 6,
+       "consensus": 71.4,
+       "consensus_gap": 24.5,
+       "tips": 5,
+       "tips_total": 7,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -5542,6 +6061,66 @@
        "tips_total": 2,
        "route": "market",
        "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902416",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Valeriya Strakhova vs Sofia Costoulas",
+   "competition": "WTA Queretaro",
+   "start_utc": "2026-10-27T19:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Valeriya_Strakhova_vs_Sofia_Costoulas/3?event_id=902416",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 104.71,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Sofia Costoulas",
+       "decimal": 1.91,
+       "american": -110,
+       "fractional": "10/11",
+       "market_prob": 52.36,
+       "fair_prob": 50.1,
+       "our_prob": 50.1,
+       "our_decimal": 2.0,
+       "our_american": 100,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Sofia Costoulas -5.50",
+       "decimal": 1.91,
+       "american": -110,
+       "fractional": "10/11",
+       "market_prob": 52.36,
+       "fair_prob": 50.1,
+       "our_prob": 50.1,
+       "our_decimal": 2.0,
+       "our_american": 100,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
       }
      ]
     }
@@ -5696,6 +6275,126 @@
    ]
   },
   {
+   "id": "902336",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Carolina Alves vs Julia Grabher",
+   "competition": "WTA Curitiba",
+   "start_utc": "2026-10-27T21:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Carolina_Alves_vs_Julia_Grabher/3?event_id=902336",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 108.11,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Julia Grabher",
+       "decimal": 1.85,
+       "american": -118,
+       "fractional": "17/20",
+       "market_prob": 54.05,
+       "fair_prob": 51.73,
+       "our_prob": 51.73,
+       "our_decimal": 1.93,
+       "our_american": -108,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Julia Grabher -5.50",
+       "decimal": 1.85,
+       "american": -118,
+       "fractional": "17/20",
+       "market_prob": 54.05,
+       "fair_prob": 51.73,
+       "our_prob": 51.73,
+       "our_decimal": 1.93,
+       "our_american": -108,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
+   "id": "902417",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Victoria Rodriguez vs Alicia Herrero Linana",
+   "competition": "WTA Queretaro",
+   "start_utc": "2026-10-27T21:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Victoria_Rodriguez_vs_Alicia_Herrero_Linana/3?event_id=902417",
+   "markets": [
+    {
+     "name": "Games Won",
+     "overround": 115.61,
+     "complete": true,
+     "selections": [
+      {
+       "selection": "Alicia Herrero Linana",
+       "decimal": 1.73,
+       "american": -138,
+       "fractional": "8/11",
+       "market_prob": 57.8,
+       "fair_prob": 55.31,
+       "our_prob": 55.31,
+       "our_decimal": 1.81,
+       "our_american": -123,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Alicia Herrero Linana -6.50",
+       "decimal": 1.73,
+       "american": -138,
+       "fractional": "8/11",
+       "market_prob": 57.8,
+       "fair_prob": 55.31,
+       "our_prob": 55.31,
+       "our_decimal": 1.81,
+       "our_american": -123,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
    "id": "188876",
    "sport": "Cricket",
    "sport_key": "cricket",
@@ -5780,38 +6479,56 @@
    ]
   },
   {
-   "id": "188878",
-   "sport": "Cricket",
-   "sport_key": "cricket",
-   "requested_sport": "Cricket",
-   "name": "Wellington vs Otago One Day Match",
-   "competition": "",
+   "id": "902349",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Tamara Zidansek vs Katrina Scott",
+   "competition": "WTA Queretaro",
    "start_utc": "2026-10-27T21:30:00Z",
    "venue": "",
-   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tamara_Zidansek_vs_Katrina_Scott/3?event_id=902349",
    "markets": [
     {
-     "name": "Win Match",
-     "overround": 65.36,
+     "name": "Games Won",
+     "overround": 97.56,
      "complete": false,
      "selections": [
       {
-       "selection": "Wellington",
-       "decimal": 1.53,
-       "american": -189,
-       "fractional": "8/15",
-       "market_prob": 65.36,
-       "fair_prob": 62.85,
-       "our_prob": 62.85,
-       "our_decimal": 1.59,
-       "our_american": -169,
+       "selection": "Tamara Zidansek",
+       "decimal": 2.05,
+       "american": 105,
+       "fractional": "21/20",
+       "market_prob": 48.78,
+       "fair_prob": 46.68,
+       "our_prob": 46.68,
+       "our_decimal": 2.14,
+       "our_american": 114,
        "edge_pts": 0.0,
-       "consensus": 50.0,
-       "consensus_gap": -12.8,
-       "tips": 2,
-       "tips_total": 4,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
        "route": "market",
-       "margin_allowance": 4.0
+       "margin_allowance": 4.5
+      },
+      {
+       "selection": "Tamara Zidansek -5.50",
+       "decimal": 2.05,
+       "american": 105,
+       "fractional": "21/20",
+       "market_prob": 48.78,
+       "fair_prob": 46.68,
+       "our_prob": 46.68,
+       "our_decimal": 2.14,
+       "our_american": 114,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "market",
+       "margin_allowance": 4.5
       }
      ]
     }
@@ -5834,22 +6551,22 @@
    "markets": [
     {
      "name": "Win Match",
-     "overround": 62.5,
+     "overround": 60.61,
      "complete": false,
      "selections": [
       {
        "selection": "Suzano Volei",
-       "decimal": 1.6,
-       "american": -167,
-       "fractional": "3/5",
-       "market_prob": 62.5,
-       "fair_prob": 60.1,
-       "our_prob": 60.1,
-       "our_decimal": 1.66,
-       "our_american": -152,
+       "decimal": 1.65,
+       "american": -154,
+       "fractional": "13/20",
+       "market_prob": 60.61,
+       "fair_prob": 58.28,
+       "our_prob": 58.28,
+       "our_decimal": 1.72,
+       "our_american": -139,
        "edge_pts": 0.0,
        "consensus": 75.0,
-       "consensus_gap": 14.9,
+       "consensus_gap": 16.7,
        "tips": 3,
        "tips_total": 4,
        "route": "market",
@@ -5876,9 +6593,27 @@
    "markets": [
     {
      "name": "Money Line",
-     "overround": 9.09,
-     "complete": false,
+     "overround": 107.13,
+     "complete": true,
      "selections": [
+      {
+       "selection": "Minas",
+       "decimal": 1.02,
+       "american": -4000,
+       "fractional": "1/40",
+       "market_prob": 98.04,
+       "fair_prob": 94.27,
+       "our_prob": 94.27,
+       "our_decimal": 1.06,
+       "our_american": -1667,
+       "edge_pts": 0.0,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 2,
+       "route": "market",
+       "margin_allowance": 4.0
+      },
       {
        "selection": "Pato Basquete",
        "decimal": 11.0,
@@ -5893,7 +6628,7 @@
        "consensus": null,
        "consensus_gap": null,
        "tips": 1,
-       "tips_total": 1,
+       "tips_total": 2,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -5934,8 +6669,8 @@
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
+       "tips": 2,
+       "tips_total": 2,
        "route": "market",
        "margin_allowance": 4.0
       }
@@ -6140,37 +6875,19 @@
    "markets": [
     {
      "name": "Money Line",
-     "overround": 103.65,
-     "complete": true,
+     "overround": 85.47,
+     "complete": false,
      "selections": [
       {
        "selection": "BOS Celtics",
        "decimal": 1.17,
-       "american": -602,
+       "american": -599,
        "fractional": "1/6",
        "market_prob": 85.47,
        "fair_prob": 82.18,
        "our_prob": 82.18,
        "our_decimal": 1.22,
        "our_american": -455,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 2,
-       "route": "market",
-       "margin_allowance": 4.0
-      },
-      {
-       "selection": "BKN Nets",
-       "decimal": 5.5,
-       "american": 450,
-       "fractional": "9/2",
-       "market_prob": 18.18,
-       "fair_prob": 17.48,
-       "our_prob": 17.48,
-       "our_decimal": 5.72,
-       "our_american": 472,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -6346,31 +7063,6 @@
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105",
    "markets": [
-    {
-     "name": "Game Totals",
-     "overround": 46.51,
-     "complete": false,
-     "selections": [
-      {
-       "selection": "Under 5.50",
-       "decimal": 2.15,
-       "american": 115,
-       "fractional": "23/20",
-       "market_prob": 46.51,
-       "fair_prob": 44.51,
-       "our_prob": 44.51,
-       "our_decimal": 2.25,
-       "our_american": 125,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
-       "route": "market",
-       "margin_allowance": 4.5
-      }
-     ]
-    },
     {
      "name": "Money Line",
      "overround": 55.56,
@@ -6962,6 +7654,52 @@
    "flags": []
   },
   {
+   "id": "902409",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Nuno Borges vs Casper Ruud",
+   "competition": "",
+   "start_utc": "2026-10-28T11:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
+   "markets": [
+    {
+     "name": "Win Match",
+     "overround": 68.97,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Casper Ruud",
+       "decimal": 1.45,
+       "american": -222,
+       "fractional": "9/20",
+       "market_prob": 68.97,
+       "fair_prob": 66.31,
+       "our_prob": 66.49,
+       "our_decimal": 1.5,
+       "our_american": -200,
+       "edge_pts": 0.18,
+       "consensus": 100.0,
+       "consensus_gap": 33.7,
+       "tips": 3,
+       "tips_total": 3,
+       "route": "primary",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.333889816360601
+   },
+   "flags": []
+  },
+  {
    "id": "32446",
    "sport": "Darts",
    "sport_key": "darts",
@@ -7006,10 +7744,10 @@
        "our_decimal": 16.8,
        "our_american": 1580,
        "edge_pts": 0.0,
-       "consensus": 22.2,
-       "consensus_gap": 16.2,
+       "consensus": 20.0,
+       "consensus_gap": 14.0,
        "tips": 2,
-       "tips_total": 9,
+       "tips_total": 10,
        "route": "market",
        "margin_allowance": 12.0
       },
@@ -7082,6 +7820,52 @@
     "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
     "source_label": "ATP ranking points",
     "prob": 0.36226415094339626
+   },
+   "flags": []
+  },
+  {
+   "id": "902204",
+   "sport": "Tennis",
+   "sport_key": "tennis",
+   "requested_sport": "Tennis",
+   "name": "Tallon Griekspoor vs Brandon Nakashima",
+   "competition": "",
+   "start_utc": "2026-10-28T12:00:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tallon_Griekspoor_vs_Brandon_Nakashima/3?event_id=902204",
+   "markets": [
+    {
+     "name": "Win Match",
+     "overround": 34.48,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Tallon Griekspoor",
+       "decimal": 2.9,
+       "american": 190,
+       "fractional": "19/10",
+       "market_prob": 34.48,
+       "fair_prob": 33.16,
+       "our_prob": 31.47,
+       "our_decimal": 3.18,
+       "our_american": 218,
+       "edge_pts": -1.68,
+       "consensus": null,
+       "consensus_gap": null,
+       "tips": 1,
+       "tips_total": 1,
+       "route": "primary",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": {
+    "method": "logistic model on ATP ranking points",
+    "detail": "Tallon Griekspoor holds 1,035 ranking points and Brandon Nakashima holds 2,375",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "source_label": "ATP ranking points",
+    "prob": 0.3035190615835777
    },
    "flags": []
   },
@@ -7308,19 +8092,19 @@
    "markets": [
     {
      "name": "Money Line",
-     "overround": 86.96,
+     "overround": 85.47,
      "complete": false,
      "selections": [
       {
        "selection": "Tofas",
-       "decimal": 1.15,
-       "american": -667,
-       "fractional": "3/20",
-       "market_prob": 86.96,
-       "fair_prob": 83.61,
-       "our_prob": 83.61,
-       "our_decimal": 1.2,
-       "our_american": -500,
+       "decimal": 1.17,
+       "american": -599,
+       "fractional": "1/6",
+       "market_prob": 85.47,
+       "fair_prob": 82.18,
+       "our_prob": 82.18,
+       "our_decimal": 1.22,
+       "our_american": -455,
        "edge_pts": 0.0,
        "consensus": null,
        "consensus_gap": null,
@@ -8155,6 +8939,48 @@
    ]
   },
   {
+   "id": "188878",
+   "sport": "Cricket",
+   "sport_key": "cricket",
+   "requested_sport": "Cricket",
+   "name": "Wellington vs Otago One Day Match",
+   "competition": "",
+   "start_utc": "2026-10-28T21:30:00Z",
+   "venue": "",
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
+   "markets": [
+    {
+     "name": "Win Match",
+     "overround": 65.36,
+     "complete": false,
+     "selections": [
+      {
+       "selection": "Wellington",
+       "decimal": 1.53,
+       "american": -189,
+       "fractional": "8/15",
+       "market_prob": 65.36,
+       "fair_prob": 62.85,
+       "our_prob": 62.85,
+       "our_decimal": 1.59,
+       "our_american": -169,
+       "edge_pts": 0.0,
+       "consensus": 50.0,
+       "consensus_gap": -12.8,
+       "tips": 2,
+       "tips_total": 4,
+       "route": "market",
+       "margin_allowance": 4.0
+      }
+     ]
+    }
+   ],
+   "official": null,
+   "flags": [
+    "no independent official estimate for this competition"
+   ]
+  },
+  {
    "id": "536254",
    "sport": "Basketball",
    "sport_key": "basketball",
@@ -8933,36 +9759,11 @@
    "sport_key": "rugby-union",
    "requested_sport": "Rugby Union",
    "name": "Connacht v Leinster",
-   "competition": "United Rugby Championship",
+   "competition": "",
    "start_utc": "2026-10-30T19:45:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
    "markets": [
-    {
-     "name": "Handicap",
-     "overround": 52.63,
-     "complete": false,
-     "selections": [
-      {
-       "selection": "Connacht +3.50",
-       "decimal": 1.9,
-       "american": -111,
-       "fractional": "9/10",
-       "market_prob": 52.63,
-       "fair_prob": 50.37,
-       "our_prob": 50.37,
-       "our_decimal": 1.99,
-       "our_american": -101,
-       "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
-       "tips": 1,
-       "tips_total": 1,
-       "route": "market",
-       "margin_allowance": 4.5
-      }
-     ]
-    },
     {
      "name": "To Win",
      "overround": 44.44,
@@ -9151,7 +9952,7 @@
    "sport_key": "rugby-union",
    "requested_sport": "Rugby Union",
    "name": "Stormers v Ulster",
-   "competition": "United Rugby Championship",
+   "competition": "",
    "start_utc": "2026-10-31T12:45:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
@@ -9218,7 +10019,7 @@
    "sport_key": "rugby-union",
    "requested_sport": "Rugby Union",
    "name": "Munster v Sharks",
-   "competition": "United Rugby Championship",
+   "competition": "",
    "start_utc": "2026-10-31T17:30:00Z",
    "venue": "",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
@@ -9695,45 +10496,45 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
    "markets": [
     {
-     "name": "Podium Finish",
-     "overround": 125.74,
-     "complete": true,
+     "name": "Win Race",
+     "overround": 78.38,
+     "complete": false,
      "selections": [
       {
-       "selection": "Max Verstappen - Yes",
-       "decimal": 1.28,
-       "american": -351,
-       "fractional": "2/7",
-       "market_prob": 78.12,
-       "fair_prob": 74.4,
-       "our_prob": 74.4,
-       "our_decimal": 1.34,
-       "our_american": -294,
+       "selection": "Max Verstappen",
+       "decimal": 2.38,
+       "american": 138,
+       "fractional": "11/8",
+       "market_prob": 42.02,
+       "fair_prob": 37.52,
+       "our_prob": 37.52,
+       "our_decimal": 2.67,
+       "our_american": 167,
        "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
+       "consensus": 33.3,
+       "consensus_gap": -4.2,
        "tips": 1,
-       "tips_total": 2,
+       "tips_total": 3,
        "route": "market",
-       "margin_allowance": 5.0
+       "margin_allowance": 12.0
       },
       {
-       "selection": "Charles Leclerc - Yes",
-       "decimal": 2.1,
-       "american": 110,
-       "fractional": "11/10",
-       "market_prob": 47.62,
-       "fair_prob": 45.35,
-       "our_prob": 45.35,
-       "our_decimal": 2.21,
-       "our_american": 121,
+       "selection": "Kimi Antonelli",
+       "decimal": 2.75,
+       "american": 175,
+       "fractional": "7/4",
+       "market_prob": 36.36,
+       "fair_prob": 32.47,
+       "our_prob": 32.47,
+       "our_decimal": 3.08,
+       "our_american": 208,
        "edge_pts": 0.0,
-       "consensus": null,
-       "consensus_gap": null,
+       "consensus": 33.3,
+       "consensus_gap": 0.8,
        "tips": 1,
-       "tips_total": 2,
+       "tips_total": 3,
        "route": "market",
-       "margin_allowance": 5.0
+       "margin_allowance": 12.0
       }
      ]
     }
@@ -9876,48 +10677,6 @@
        "consensus_gap": null,
        "tips": 1,
        "tips_total": 2,
-       "route": "market",
-       "margin_allowance": 12.0
-      }
-     ]
-    }
-   ],
-   "official": null,
-   "flags": [
-    "no independent official estimate for this competition"
-   ]
-  },
-  {
-   "id": "187184",
-   "sport": "Cricket",
-   "sport_key": "cricket",
-   "requested_sport": "Cricket",
-   "name": "Big Bash Women 2026",
-   "competition": "",
-   "start_utc": "2026-12-05T08:10:00Z",
-   "venue": "",
-   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184",
-   "markets": [
-    {
-     "name": "Outright Winner",
-     "overround": 22.22,
-     "complete": false,
-     "selections": [
-      {
-       "selection": "Sydney Sixers W",
-       "decimal": 4.5,
-       "american": 350,
-       "fractional": "7/2",
-       "market_prob": 22.22,
-       "fair_prob": 19.84,
-       "our_prob": 19.84,
-       "our_decimal": 5.04,
-       "our_american": 404,
-       "edge_pts": 0.0,
-       "consensus": 66.7,
-       "consensus_gap": 46.9,
-       "tips": 2,
-       "tips_total": 3,
        "route": "market",
        "margin_allowance": 12.0
       }
@@ -10647,41 +11406,41 @@
    ]
   },
   {
-   "event_id": "37126",
-   "sport": "Volleyball",
-   "sport_key": "volleyball",
-   "requested_sport": "Volleyball",
-   "event": "TFL Altekma vs Halkbank Ankara",
-   "competition": "",
-   "start_utc": "2026-10-27T12:00:00Z",
-   "market": "Win Match",
-   "selection": "Halkbank Ankara",
-   "decimal": 1.4,
-   "american": -250,
-   "our_american": -217,
-   "our_decimal": 1.46,
-   "market_prob": 71.43,
-   "fair_prob": 68.68,
-   "our_prob": 68.68,
+   "event_id": "536232",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "Baku Sabah vs Nanterre",
+   "competition": "Basketball Champions League",
+   "start_utc": "2026-10-27T16:00:00Z",
+   "market": "Money Line",
+   "selection": "Nanterre",
+   "decimal": 1.48,
+   "american": -208,
+   "our_american": -185,
+   "our_decimal": 1.54,
+   "market_prob": 67.57,
+   "fair_prob": 64.97,
+   "our_prob": 64.97,
    "edge_pts": 0.0,
-   "consensus": 83.3,
-   "consensus_gap": 14.6,
-   "tips": 5,
-   "tips_total": 6,
+   "consensus": 100.0,
+   "consensus_gap": 35.0,
+   "tips": 3,
+   "tips_total": 3,
    "route": "market",
    "confidence": "medium",
-   "score": 187.288,
-   "overround": 71.43,
+   "score": 181.352,
+   "overround": 67.57,
    "margin_allowance": 4.0,
    "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/Baku_Sabah_vs_Nanterre/4?event_id=536232",
    "official": null,
-   "id": "37126-halkbank-ankara",
-   "prediction": "Halkbank Ankara is the selection in the Win Match at -250. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 12:00 UTC. TFL Altekma are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -250 implies 71.43%, which becomes 68.68% after the allowance. Our line is -217. The community split is 83.3% on this selection, which is 5 of 6 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "id": "536232-nanterre",
+   "prediction": "Back Nanterre at -208 for the Money Line. Basketball Champions League supplies the competition and the event starts 2026-10-27 16:00 UTC. Nanterre face Baku Sabah. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 67.57% implied falls to 64.97%, and our line is -185. The community split is 100.0% on this selection, which is 3 of 3 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
-    "OLBG price -250 on Halkbank Ankara in the Win Match",
-    "margin-adjusted market probability 68.68% against our 68.68%",
-    "community consensus 83.3% (5 of 6 OLBG tips)"
+    "OLBG price -208 on Nanterre in the Money Line",
+    "margin-adjusted market probability 64.97% against our 64.97%",
+    "community consensus 100.0% (3 of 3 OLBG tips)"
    ]
   },
   {
@@ -10761,44 +11520,6 @@
    ]
   },
   {
-   "event_id": "188868",
-   "sport": "Cricket",
-   "sport_key": "cricket",
-   "requested_sport": "Cricket",
-   "event": "Pakistan vs Sri Lanka One Day Match",
-   "competition": "",
-   "start_utc": "2026-10-27T08:00:00Z",
-   "market": "Win Match",
-   "selection": "Pakistan",
-   "decimal": 1.5,
-   "american": -200,
-   "our_american": -179,
-   "our_decimal": 1.56,
-   "market_prob": 66.67,
-   "fair_prob": 64.1,
-   "our_prob": 64.1,
-   "edge_pts": 0.0,
-   "consensus": 73.5,
-   "consensus_gap": 9.4,
-   "tips": 25,
-   "tips_total": 34,
-   "route": "market",
-   "confidence": "medium",
-   "score": 179.36,
-   "overround": 66.67,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
-   "official": null,
-   "id": "188868-pakistan",
-   "prediction": "The pick is Pakistan in the Win Match, quoted at -200. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 08:00 UTC. Sri Lanka One Day Match are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -200 implies 66.67%, which becomes 64.1% after the allowance. Our line is -179. The community split is 73.5% on this selection, which is 25 of 34 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -200 on Pakistan in the Win Match",
-    "margin-adjusted market probability 64.1% against our 64.1%",
-    "community consensus 73.5% (25 of 34 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "37075",
    "sport": "Volleyball",
    "sport_key": "volleyball",
@@ -10875,6 +11596,82 @@
    ]
   },
   {
+   "event_id": "188868",
+   "sport": "Cricket",
+   "sport_key": "cricket",
+   "requested_sport": "Cricket",
+   "event": "Pakistan vs Sri Lanka One Day Match",
+   "competition": "",
+   "start_utc": "2026-10-27T08:00:00Z",
+   "market": "Win Match",
+   "selection": "Pakistan",
+   "decimal": 1.5,
+   "american": -200,
+   "our_american": -179,
+   "our_decimal": 1.56,
+   "market_prob": 66.67,
+   "fair_prob": 64.1,
+   "our_prob": 64.1,
+   "edge_pts": 0.0,
+   "consensus": 71.4,
+   "consensus_gap": 7.3,
+   "tips": 25,
+   "tips_total": 35,
+   "route": "market",
+   "confidence": "medium",
+   "score": 175.16,
+   "overround": 66.67,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+   "official": null,
+   "id": "188868-pakistan",
+   "prediction": "The pick is Pakistan in the Win Match, quoted at -200. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 08:00 UTC. Sri Lanka One Day Match are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -200 implies 66.67%, which becomes 64.1% after the allowance. Our line is -179. The community split is 71.4% on this selection, which is 25 of 35 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price -200 on Pakistan in the Win Match",
+    "margin-adjusted market probability 64.1% against our 64.1%",
+    "community consensus 71.4% (25 of 35 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "536214",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "Seoul Knights vs KCC Egis",
+   "competition": "Korea KBL",
+   "start_utc": "2026-10-27T10:00:00Z",
+   "market": "Money Line",
+   "selection": "Seoul Knights",
+   "decimal": 1.5,
+   "american": -200,
+   "our_american": -179,
+   "our_decimal": 1.56,
+   "market_prob": 66.67,
+   "fair_prob": 64.1,
+   "our_prob": 64.1,
+   "edge_pts": 0.0,
+   "consensus": 71.4,
+   "consensus_gap": 7.3,
+   "tips": 5,
+   "tips_total": 7,
+   "route": "market",
+   "confidence": "medium",
+   "score": 175.16,
+   "overround": 66.67,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+   "official": null,
+   "id": "536214-seoul-knights",
+   "prediction": "Seoul Knights is the selection in the Money Line at -200. Korea KBL supplies the competition and the event starts 2026-10-27 10:00 UTC. Seoul Knights face KCC Egis. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -200 implies 66.67%, which becomes 64.1% after the allowance. Our line is -179. The community split is 71.4% on this selection, which is 5 of 7 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price -200 on Seoul Knights in the Money Line",
+    "margin-adjusted market probability 64.1% against our 64.1%",
+    "community consensus 71.4% (5 of 7 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "200081",
    "sport": "Ice Hockey",
    "sport_key": "ice-hockey",
@@ -10913,44 +11710,6 @@
    ]
   },
   {
-   "event_id": "37103",
-   "sport": "Volleyball",
-   "sport_key": "volleyball",
-   "requested_sport": "Volleyball",
-   "event": "Suzano Volei vs Goias Volei",
-   "competition": "",
-   "start_utc": "2026-10-27T21:30:00Z",
-   "market": "Win Match",
-   "selection": "Suzano Volei",
-   "decimal": 1.6,
-   "american": -167,
-   "our_american": -152,
-   "our_decimal": 1.66,
-   "market_prob": 62.5,
-   "fair_prob": 60.1,
-   "our_prob": 60.1,
-   "edge_pts": 0.0,
-   "consensus": 75.0,
-   "consensus_gap": 14.9,
-   "tips": 3,
-   "tips_total": 4,
-   "route": "market",
-   "confidence": "medium",
-   "score": 173.56,
-   "overround": 62.5,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
-   "official": null,
-   "id": "37103-suzano-volei",
-   "prediction": "Suzano Volei is the selection in the Win Match at -167. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 21:30 UTC. Goias Volei are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -167 implies 62.5%, which becomes 60.1% after the allowance. Our line is -152. Of the 4 tips OLBG lists for the market, 3 (75.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -167 on Suzano Volei in the Win Match",
-    "margin-adjusted market probability 60.1% against our 60.1%",
-    "community consensus 75.0% (3 of 4 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "536218",
    "sport": "Basketball",
    "sport_key": "basketball",
@@ -10970,8 +11729,8 @@
    "edge_pts": 0.0,
    "consensus": 100.0,
    "consensus_gap": 40.6,
-   "tips": 3,
-   "tips_total": 3,
+   "tips": 4,
+   "tips_total": 4,
    "route": "market",
    "confidence": "medium",
    "score": 172.36,
@@ -10981,11 +11740,11 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218",
    "official": null,
    "id": "536218-lietkabelis",
-   "prediction": "Back Lietkabelis at -161 for the Money Line. Euro Cup supplies the competition and the event starts 2026-10-27 17:00 UTC. Ratiopharm Ulm are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -161 implies 61.73%, which becomes 59.35% after the allowance. Our line is -147. The community split is 100.0% on this selection, which is 3 of 3 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "prediction": "Back Lietkabelis at -161 for the Money Line. Euro Cup supplies the competition and the event starts 2026-10-27 17:00 UTC. Ratiopharm Ulm are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -161 implies 61.73%, which becomes 59.35% after the allowance. Our line is -147. The community split is 100.0% on this selection, which is 4 of 4 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
     "OLBG price -161 on Lietkabelis in the Money Line",
     "margin-adjusted market probability 59.35% against our 59.35%",
-    "community consensus 100.0% (3 of 3 OLBG tips)"
+    "community consensus 100.0% (4 of 4 OLBG tips)"
    ]
   },
   {
@@ -10998,32 +11757,70 @@
    "start_utc": "2026-10-27T07:30:00Z",
    "market": "Win Match",
    "selection": "Ireland",
-   "decimal": 1.57,
-   "american": -175,
-   "our_american": -159,
-   "our_decimal": 1.63,
-   "market_prob": 63.69,
-   "fair_prob": 61.24,
-   "our_prob": 61.24,
+   "decimal": 1.65,
+   "american": -154,
+   "our_american": -139,
+   "our_decimal": 1.72,
+   "market_prob": 60.61,
+   "fair_prob": 58.28,
+   "our_prob": 58.28,
    "edge_pts": 0.0,
    "consensus": 68.8,
-   "consensus_gap": 7.6,
+   "consensus_gap": 10.5,
    "tips": 22,
    "tips_total": 32,
    "route": "market",
    "confidence": "medium",
-   "score": 171.784,
-   "overround": 63.69,
+   "score": 170.64800000000002,
+   "overround": 60.61,
    "margin_allowance": 4.0,
    "complete": false,
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
    "official": null,
    "id": "188854-ireland",
-   "prediction": "Ireland at -175 is the call in the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 07:30 UTC. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -175 implies 63.69%, which becomes 61.24% after the allowance. Our line is -159. The community split is 68.8% on this selection, which is 22 of 32 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "prediction": "Ireland at -154 is the call in the Win Match. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 07:30 UTC. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -154 implies 60.61%, which becomes 58.28% after the allowance. Our line is -139. The community split is 68.8% on this selection, which is 22 of 32 recorded tips. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
    "facts": [
-    "OLBG price -175 on Ireland in the Win Match",
-    "margin-adjusted market probability 61.24% against our 61.24%",
+    "OLBG price -154 on Ireland in the Win Match",
+    "margin-adjusted market probability 58.28% against our 58.28%",
     "community consensus 68.8% (22 of 32 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "37103",
+   "sport": "Volleyball",
+   "sport_key": "volleyball",
+   "requested_sport": "Volleyball",
+   "event": "Suzano Volei vs Goias Volei",
+   "competition": "",
+   "start_utc": "2026-10-27T21:30:00Z",
+   "market": "Win Match",
+   "selection": "Suzano Volei",
+   "decimal": 1.65,
+   "american": -154,
+   "our_american": -139,
+   "our_decimal": 1.72,
+   "market_prob": 60.61,
+   "fair_prob": 58.28,
+   "our_prob": 58.28,
+   "edge_pts": 0.0,
+   "consensus": 75.0,
+   "consensus_gap": 16.7,
+   "tips": 3,
+   "tips_total": 4,
+   "route": "market",
+   "confidence": "medium",
+   "score": 170.64800000000002,
+   "overround": 60.61,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
+   "official": null,
+   "id": "37103-suzano-volei",
+   "prediction": "Suzano Volei is the selection in the Win Match at -154. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 21:30 UTC. Goias Volei are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -154 implies 60.61%, which becomes 58.28% after the allowance. Our line is -139. Of the 4 tips OLBG lists for the market, 3 (75.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price -154 on Suzano Volei in the Win Match",
+    "margin-adjusted market probability 58.28% against our 58.28%",
+    "community consensus 75.0% (3 of 4 OLBG tips)"
    ]
   },
   {
@@ -11141,41 +11938,41 @@
    ]
   },
   {
-   "event_id": "536214",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "Seoul Knights vs KCC Egis",
-   "competition": "Korea KBL",
-   "start_utc": "2026-10-27T10:00:00Z",
-   "market": "Money Line",
-   "selection": "Seoul Knights",
-   "decimal": 1.5,
-   "american": -200,
-   "our_american": -179,
-   "our_decimal": 1.56,
-   "market_prob": 66.67,
-   "fair_prob": 64.1,
-   "our_prob": 64.1,
+   "event_id": "37126",
+   "sport": "Volleyball",
+   "sport_key": "volleyball",
+   "requested_sport": "Volleyball",
+   "event": "TFL Altekma vs Halkbank Ankara",
+   "competition": "",
+   "start_utc": "2026-10-27T12:00:00Z",
+   "market": "Win Match",
+   "selection": "Halkbank Ankara",
+   "decimal": 1.4,
+   "american": -250,
+   "our_american": -217,
+   "our_decimal": 1.46,
+   "market_prob": 71.43,
+   "fair_prob": 68.68,
+   "our_prob": 68.68,
    "edge_pts": 0.0,
-   "consensus": 66.7,
-   "consensus_gap": 2.6,
-   "tips": 4,
-   "tips_total": 6,
+   "consensus": 71.4,
+   "consensus_gap": 2.7,
+   "tips": 5,
+   "tips_total": 7,
    "route": "market",
    "confidence": "medium",
-   "score": 156.36,
-   "overround": 66.67,
+   "score": 164.08800000000002,
+   "overround": 71.43,
    "margin_allowance": 4.0,
    "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
    "official": null,
-   "id": "536214-seoul-knights",
-   "prediction": "Seoul Knights is the selection in the Money Line at -200. Korea KBL supplies the competition and the event starts 2026-10-27 10:00 UTC. Seoul Knights face KCC Egis. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -200 implies 66.67%, which becomes 64.1% after the allowance. Our line is -179. The community split is 66.7% on this selection, which is 4 of 6 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "id": "37126-halkbank-ankara",
+   "prediction": "Halkbank Ankara is the selection in the Win Match at -250. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 12:00 UTC. TFL Altekma are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -250 implies 71.43%, which becomes 68.68% after the allowance. Our line is -217. The community split is 71.4% on this selection, which is 5 of 7 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
-    "OLBG price -200 on Seoul Knights in the Money Line",
-    "margin-adjusted market probability 64.1% against our 64.1%",
-    "community consensus 66.7% (4 of 6 OLBG tips)"
+    "OLBG price -250 on Halkbank Ankara in the Win Match",
+    "margin-adjusted market probability 68.68% against our 68.68%",
+    "community consensus 71.4% (5 of 7 OLBG tips)"
    ]
   },
   {
@@ -11389,25 +12186,25 @@
    "requested_sport": "Tennis",
    "event": "Nuno Borges vs Casper Ruud",
    "competition": "",
-   "start_utc": "2026-10-27T11:00:00Z",
+   "start_utc": "2026-10-28T11:00:00Z",
    "market": "Win Match",
    "selection": "Casper Ruud",
-   "decimal": 1.44,
-   "american": -227,
+   "decimal": 1.45,
+   "american": -222,
    "our_american": -200,
    "our_decimal": 1.5,
-   "market_prob": 69.44,
-   "fair_prob": 66.77,
-   "our_prob": 66.68,
-   "edge_pts": -0.1,
+   "market_prob": 68.97,
+   "fair_prob": 66.31,
+   "our_prob": 66.49,
+   "edge_pts": 0.18,
    "consensus": 100.0,
-   "consensus_gap": 33.2,
+   "consensus_gap": 33.7,
    "tips": 3,
    "tips_total": 3,
    "route": "primary",
    "confidence": "medium",
    "score": 74.0,
-   "overround": 69.44,
+   "overround": 68.97,
    "margin_allowance": 4.0,
    "complete": false,
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
@@ -11419,11 +12216,11 @@
     "prob": 0.333889816360601
    },
    "id": "902409-casper-ruud",
-   "prediction": "The play here is Casper Ruud in the Win Match, priced at -227. Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995, the tour's own published ranking measure. The other side of the fixture is Nuno Borges. The captured price of -227 implies 69.44% before margin and 66.77% after the 4.0% allowance; we make it 66.68%, so the fair line is -200. 100.0% of the recorded OLBG tips are on this selection (3 of 3). No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
+   "prediction": "The play here is Casper Ruud in the Win Match, priced at -222. Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995, the tour's own published ranking measure. The other side of the fixture is Nuno Borges. The captured price of -222 implies 68.97% before margin and 66.31% after the 4.0% allowance; we make it 66.49%, so the fair line is -200. 100.0% of the recorded OLBG tips are on this selection (3 of 3). No injury report is carried for this fixture in the feeds we read, so nothing is added on availability. Ranking points and the price carry this argument, not a single match.",
    "facts": [
     "Nuno Borges holds 1,000 ranking points and Casper Ruud holds 1,995",
-    "OLBG price -227 on Casper Ruud in the Win Match",
-    "margin-adjusted market probability 66.77% against our 66.68%",
+    "OLBG price -222 on Casper Ruud in the Win Match",
+    "margin-adjusted market probability 66.31% against our 66.49%",
     "community consensus 100.0% (3 of 3 OLBG tips)"
    ]
   },
@@ -11621,10 +12418,10 @@
    "fair_prob": 53.42,
    "our_prob": 53.42,
    "edge_pts": 0.0,
-   "consensus": 73.1,
-   "consensus_gap": 19.7,
-   "tips": 38,
-   "tips_total": 52,
+   "consensus": 73.6,
+   "consensus_gap": 20.2,
+   "tips": 39,
+   "tips_total": 53,
    "route": "market",
    "confidence": "low",
    "score": 142.872,
@@ -11634,11 +12431,11 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
    "official": null,
    "id": "188852-india",
-   "prediction": "India is the selection in the Win Match at -125. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 07:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 55.56% implied falls to 53.42%, and our line is -115. Of the 52 tips OLBG lists for the market, 38 (73.1%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "prediction": "India is the selection in the Win Match at -125. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 07:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 55.56% implied falls to 53.42%, and our line is -115. Of the 53 tips OLBG lists for the market, 39 (73.6%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
    "facts": [
     "OLBG price -125 on India in the Win Match",
     "margin-adjusted market probability 53.42% against our 53.42%",
-    "community consensus 73.1% (38 of 52 OLBG tips)"
+    "community consensus 73.6% (39 of 53 OLBG tips)"
    ]
   },
   {
@@ -11756,6 +12553,44 @@
    ]
   },
   {
+   "event_id": "12196",
+   "sport": "Handball",
+   "sport_key": "handball",
+   "requested_sport": "Handball",
+   "event": "OV Helsingborg HK W vs Skovde HF W",
+   "competition": "Sweden Handbollsligan Women",
+   "start_utc": "2026-10-27T18:00:00Z",
+   "market": "Match Handicap",
+   "selection": "OV Helsingborg HK W +4.50",
+   "decimal": 1.85,
+   "american": -118,
+   "our_american": -106,
+   "our_decimal": 1.94,
+   "market_prob": 54.05,
+   "fair_prob": 51.48,
+   "our_prob": 51.48,
+   "edge_pts": 0.0,
+   "consensus": 100.0,
+   "consensus_gap": 48.5,
+   "tips": 3,
+   "tips_total": 3,
+   "route": "market",
+   "confidence": "low",
+   "score": 139.768,
+   "overround": 54.05,
+   "margin_allowance": 5.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
+   "official": null,
+   "id": "12196-ov-helsingborg-hk-w-4-50",
+   "prediction": "The pick is OV Helsingborg HK W +4.50 in the Match Handicap, quoted at -118. Sweden Handbollsligan Women supplies the competition and the event starts 2026-10-27 18:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 5.0% allowance rather than measured: 54.05% implied falls to 51.48%, and our line is -106. Of the 3 tips OLBG lists for the market, 3 (100.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price -118 on OV Helsingborg HK W +4.50 in the Match Handicap",
+    "margin-adjusted market probability 51.48% against our 51.48%",
+    "community consensus 100.0% (3 of 3 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "2695857",
    "sport": "Rugby League",
    "sport_key": "rugby-league",
@@ -11870,43 +12705,6 @@
    ]
   },
   {
-   "event_id": "37132",
-   "sport": "Volleyball",
-   "sport_key": "volleyball",
-   "requested_sport": "Volleyball",
-   "event": "PGE Skra Belchatow vs GKS Katowice",
-   "competition": "",
-   "start_utc": "2026-10-27T16:30:00Z",
-   "market": "Win Match",
-   "selection": "PGE Skra Belchatow",
-   "decimal": 1.36,
-   "american": -278,
-   "our_american": -244,
-   "our_decimal": 1.41,
-   "market_prob": 73.53,
-   "fair_prob": 70.7,
-   "our_prob": 70.7,
-   "edge_pts": 0.0,
-   "consensus": null,
-   "consensus_gap": null,
-   "tips": 1,
-   "tips_total": 2,
-   "route": "market",
-   "confidence": "low",
-   "score": 136.52,
-   "overround": 73.53,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21?event_id=37132",
-   "official": null,
-   "id": "37132-pge-skra-belchatow",
-   "prediction": "PGE Skra Belchatow is the selection in the Win Match at -278. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 16:30 UTC. PGE Skra Belchatow face GKS Katowice. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -278 implies 73.53%, which becomes 70.7% after the allowance. Our line is -244. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -278 on PGE Skra Belchatow in the Win Match",
-    "margin-adjusted market probability 70.7% against our 70.7%"
-   ]
-  },
-  {
    "event_id": "200112",
    "sport": "Ice Hockey",
    "sport_key": "ice-hockey",
@@ -11948,6 +12746,43 @@
     "NSH Predators 4-3-4 (12 pts), NY Islanders 5-4-2 (12 pts)",
     "OLBG price -270 on NY Islanders in the Puck Line",
     "margin-adjusted market probability 70.19% against our 70.19%"
+   ]
+  },
+  {
+   "event_id": "37132",
+   "sport": "Volleyball",
+   "sport_key": "volleyball",
+   "requested_sport": "Volleyball",
+   "event": "PGE Skra Belchatow vs GKS Katowice",
+   "competition": "Poland Plus Liga",
+   "start_utc": "2026-10-27T16:30:00Z",
+   "market": "Win Match",
+   "selection": "PGE Skra Belchatow",
+   "decimal": 1.38,
+   "american": -263,
+   "our_american": -227,
+   "our_decimal": 1.44,
+   "market_prob": 72.46,
+   "fair_prob": 69.68,
+   "our_prob": 69.68,
+   "edge_pts": 0.0,
+   "consensus": null,
+   "consensus_gap": null,
+   "tips": 1,
+   "tips_total": 2,
+   "route": "market",
+   "confidence": "low",
+   "score": 134.888,
+   "overround": 72.46,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21?event_id=37132",
+   "official": null,
+   "id": "37132-pge-skra-belchatow",
+   "prediction": "PGE Skra Belchatow is the selection in the Win Match at -263. Poland Plus Liga supplies the competition and the event starts 2026-10-27 16:30 UTC. PGE Skra Belchatow face GKS Katowice. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -263 implies 72.46%, which becomes 69.68% after the allowance. Our line is -227. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price -263 on PGE Skra Belchatow in the Win Match",
+    "margin-adjusted market probability 69.68% against our 69.68%"
    ]
   },
   {
@@ -11996,6 +12831,44 @@
    ]
   },
   {
+   "event_id": "536174",
+   "sport": "Basketball",
+   "sport_key": "basketball",
+   "requested_sport": "Basketball",
+   "event": "Bayern Munich vs Barcelona",
+   "competition": "Euroleague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Money Line",
+   "selection": "Bayern Munich",
+   "decimal": 2.0,
+   "american": 100,
+   "our_american": 108,
+   "our_decimal": 2.08,
+   "market_prob": 50.0,
+   "fair_prob": 48.08,
+   "our_prob": 48.08,
+   "edge_pts": 0.0,
+   "consensus": 60.0,
+   "consensus_gap": 11.9,
+   "tips": 3,
+   "tips_total": 5,
+   "route": "market",
+   "confidence": "low",
+   "score": 134.328,
+   "overround": 102.36,
+   "margin_allowance": 4.0,
+   "complete": true,
+   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
+   "official": null,
+   "id": "536174-bayern-munich",
+   "prediction": "Bayern Munich at +100 is the call in the Money Line. Euroleague supplies the competition and the event starts 2026-10-27 19:00 UTC. Barcelona are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: +100 implies 50.0%, which becomes 48.08% after the allowance. Our line is +108. Of the 5 tips OLBG lists for the market, 3 (60.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "facts": [
+    "OLBG price +100 on Bayern Munich in the Money Line",
+    "margin-adjusted market probability 48.08% against our 48.08%",
+    "community consensus 60.0% (3 of 5 OLBG tips)"
+   ]
+  },
+  {
    "event_id": "200100",
    "sport": "Ice Hockey",
    "sport_key": "ice-hockey",
@@ -12030,6 +12903,44 @@
    "facts": [
     "OLBG price -256 on Adler Mannheim in the Puck Line",
     "margin-adjusted market probability 69.18% against our 69.18%"
+   ]
+  },
+  {
+   "event_id": "37124",
+   "sport": "Volleyball",
+   "sport_key": "volleyball",
+   "requested_sport": "Volleyball",
+   "event": "Istanbul Genclik Spor vs IBB Spor",
+   "competition": "",
+   "start_utc": "2026-10-27T11:00:00Z",
+   "market": "Win Match",
+   "selection": "IBB Spor",
+   "decimal": 1.95,
+   "american": -105,
+   "our_american": 103,
+   "our_decimal": 2.03,
+   "market_prob": 51.28,
+   "fair_prob": 49.31,
+   "our_prob": 49.31,
+   "edge_pts": 0.0,
+   "consensus": 57.1,
+   "consensus_gap": 7.8,
+   "tips": 4,
+   "tips_total": 7,
+   "route": "market",
+   "confidence": "low",
+   "score": 133.496,
+   "overround": 51.28,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
+   "official": null,
+   "id": "37124-ibb-spor",
+   "prediction": "IBB Spor is the selection in the Win Match at -105. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 11:00 UTC. Istanbul Genclik Spor are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -105 implies 51.28%, which becomes 49.31% after the allowance. Our line is +103. The community split is 57.1% on this selection, which is 4 of 7 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price -105 on IBB Spor in the Win Match",
+    "margin-adjusted market probability 49.31% against our 49.31%",
+    "community consensus 57.1% (4 of 7 OLBG tips)"
    ]
   },
   {
@@ -12077,81 +12988,6 @@
    ]
   },
   {
-   "event_id": "536227",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "Le Mans vs Hapoel Jerusalem",
-   "competition": "Euro Cup",
-   "start_utc": "2026-10-28T19:00:00Z",
-   "market": "Money Line",
-   "selection": "Hapoel Jerusalem",
-   "decimal": 1.4,
-   "american": -250,
-   "our_american": -217,
-   "our_decimal": 1.46,
-   "market_prob": 71.43,
-   "fair_prob": 68.68,
-   "our_prob": 68.68,
-   "edge_pts": 0.0,
-   "consensus": null,
-   "consensus_gap": null,
-   "tips": 1,
-   "tips_total": 1,
-   "route": "market",
-   "confidence": "low",
-   "score": 133.288,
-   "overround": 71.43,
-   "margin_allowance": 4.0,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Le_Mans_vs_Hapoel_Jerusalem/4?event_id=536227",
-   "official": null,
-   "id": "536227-hapoel-jerusalem",
-   "prediction": "Back Hapoel Jerusalem at -250 for the Money Line. Euro Cup supplies the competition and the event starts 2026-10-28 19:00 UTC. Hapoel Jerusalem face Le Mans. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 71.43% implied falls to 68.68%, and our line is -217. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price -250 on Hapoel Jerusalem in the Money Line",
-    "margin-adjusted market probability 68.68% against our 68.68%"
-   ]
-  },
-  {
-   "event_id": "536174",
-   "sport": "Basketball",
-   "sport_key": "basketball",
-   "requested_sport": "Basketball",
-   "event": "Bayern Munich vs Barcelona",
-   "competition": "Euroleague",
-   "start_utc": "2026-10-27T19:00:00Z",
-   "market": "Money Line",
-   "selection": "Bayern Munich",
-   "decimal": 2.05,
-   "american": 105,
-   "our_american": 113,
-   "our_decimal": 2.13,
-   "market_prob": 48.78,
-   "fair_prob": 46.9,
-   "our_prob": 46.9,
-   "edge_pts": 0.0,
-   "consensus": 60.0,
-   "consensus_gap": 13.1,
-   "tips": 3,
-   "tips_total": 5,
-   "route": "market",
-   "confidence": "low",
-   "score": 132.44,
-   "overround": 101.14,
-   "margin_allowance": 4.0,
-   "complete": true,
-   "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
-   "official": null,
-   "id": "536174-bayern-munich",
-   "prediction": "Bayern Munich at +105 is the call in the Money Line. Euroleague supplies the competition and the event starts 2026-10-27 19:00 UTC. Barcelona are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: +105 implies 48.78%, which becomes 46.9% after the allowance. Our line is +113. Of the 5 tips OLBG lists for the market, 3 (60.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
-   "facts": [
-    "OLBG price +105 on Bayern Munich in the Money Line",
-    "margin-adjusted market probability 46.9% against our 46.9%",
-    "community consensus 60.0% (3 of 5 OLBG tips)"
-   ]
-  },
-  {
    "event_id": "609600",
    "sport": "Rugby Union",
    "sport_key": "rugby-union",
@@ -12194,7 +13030,7 @@
    "sport_key": "rugby-union",
    "requested_sport": "Rugby Union",
    "event": "Munster v Sharks",
-   "competition": "United Rugby Championship",
+   "competition": "",
    "start_utc": "2026-10-31T17:30:00Z",
    "market": "To Win",
    "selection": "Munster",
@@ -12219,7 +13055,7 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
    "official": null,
    "id": "609586-munster",
-   "prediction": "The pick is Munster in the To Win, quoted at -227. United Rugby Championship supplies the competition and the event starts 2026-10-31 17:30 UTC. Sharks are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -227 implies 69.44%, which becomes 66.77% after the allowance. Our line is -200. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
+   "prediction": "The pick is Munster in the To Win, quoted at -227. OLBG does not publish a competition name on this market page and the event starts 2026-10-31 17:30 UTC. Sharks are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -227 implies 69.44%, which becomes 66.77% after the allowance. Our line is -200. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. This is a price-led call and is graded accordingly.",
    "facts": [
     "OLBG price -227 on Munster in the To Win",
     "margin-adjusted market probability 66.77% against our 66.77%"
@@ -12455,7 +13291,7 @@
    "requested_sport": "Cricket",
    "event": "Wellington vs Otago One Day Match",
    "competition": "",
-   "start_utc": "2026-10-27T21:30:00Z",
+   "start_utc": "2026-10-28T21:30:00Z",
    "market": "Win Match",
    "selection": "Wellington",
    "decimal": 1.53,
@@ -12479,49 +13315,11 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
    "official": null,
    "id": "188878-wellington",
-   "prediction": "Wellington is the selection in the Win Match at -189. OLBG does not publish a competition name on this market page and the event starts 2026-10-27 21:30 UTC. Otago One Day Match are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -189 implies 65.36%, which becomes 62.85% after the allowance. Our line is -169. Of the 4 tips OLBG lists for the market, 2 (50.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
+   "prediction": "Wellington is the selection in the Win Match at -189. OLBG does not publish a competition name on this market page and the event starts 2026-10-28 21:30 UTC. Otago One Day Match are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -189 implies 65.36%, which becomes 62.85% after the allowance. Our line is -169. Of the 4 tips OLBG lists for the market, 2 (50.0%) sit on this side. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. This is a price-led call and is graded accordingly.",
    "facts": [
     "OLBG price -189 on Wellington in the Win Match",
     "margin-adjusted market probability 62.85% against our 62.85%",
     "community consensus 50.0% (2 of 4 OLBG tips)"
-   ]
-  },
-  {
-   "event_id": "37124",
-   "sport": "Volleyball",
-   "sport_key": "volleyball",
-   "requested_sport": "Volleyball",
-   "event": "Istanbul Genclik Spor vs IBB Spor",
-   "competition": "Turkiye Efeler League",
-   "start_utc": "2026-10-27T11:00:00Z",
-   "market": "Win Match",
-   "selection": "IBB Spor",
-   "decimal": 1.95,
-   "american": -105,
-   "our_american": 103,
-   "our_decimal": 2.03,
-   "market_prob": 51.28,
-   "fair_prob": 49.31,
-   "our_prob": 49.31,
-   "edge_pts": 0.0,
-   "consensus": 50.0,
-   "consensus_gap": 0.7,
-   "tips": 3,
-   "tips_total": 6,
-   "route": "market",
-   "confidence": "low",
-   "score": 105.09600000000002,
-   "overround": 105.34,
-   "margin_allowance": 4.0,
-   "complete": true,
-   "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
-   "official": null,
-   "id": "37124-ibb-spor",
-   "prediction": "IBB Spor is the selection in the Win Match at -105. Turkiye Efeler League supplies the competition and the event starts 2026-10-27 11:00 UTC. Istanbul Genclik Spor are the opposition. Only one price per market is exposed publicly, so the margin is handled with a 4.0% allowance: -105 implies 51.28%, which becomes 49.31% after the allowance. Our line is +103. The community split is 50.0% on this selection, which is 3 of 6 recorded tips. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -105 on IBB Spor in the Win Match",
-    "margin-adjusted market probability 49.31% against our 49.31%",
-    "community consensus 50.0% (3 of 6 OLBG tips)"
    ]
   },
   {
@@ -12563,49 +13361,12 @@
    ]
   },
   {
-   "event_id": "609584",
-   "sport": "Rugby Union",
-   "sport_key": "rugby-union",
-   "requested_sport": "Rugby Union",
-   "event": "Connacht v Leinster",
-   "competition": "United Rugby Championship",
-   "start_utc": "2026-10-30T19:45:00Z",
-   "market": "Handicap",
-   "selection": "Connacht +3.50",
-   "decimal": 1.9,
-   "american": -111,
-   "our_american": -101,
-   "our_decimal": 1.99,
-   "market_prob": 52.63,
-   "fair_prob": 50.37,
-   "our_prob": 50.37,
-   "edge_pts": 0.0,
-   "consensus": null,
-   "consensus_gap": null,
-   "tips": 1,
-   "tips_total": 1,
-   "route": "market",
-   "confidence": "low",
-   "score": 103.99199999999999,
-   "overround": 52.63,
-   "margin_allowance": 4.5,
-   "complete": false,
-   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
-   "official": null,
-   "id": "609584-connacht-3-50",
-   "prediction": "Connacht +3.50 at -111 is the call in the Handicap. United Rugby Championship supplies the competition and the event starts 2026-10-30 19:45 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.5% allowance rather than measured: 52.63% implied falls to 50.37%, and our line is -101. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
-   "facts": [
-    "OLBG price -111 on Connacht +3.50 in the Handicap",
-    "margin-adjusted market probability 50.37% against our 50.37%"
-   ]
-  },
-  {
    "event_id": "609588",
    "sport": "Rugby Union",
    "sport_key": "rugby-union",
    "requested_sport": "Rugby Union",
    "event": "Stormers v Ulster",
-   "competition": "United Rugby Championship",
+   "competition": "",
    "start_utc": "2026-10-31T12:45:00Z",
    "market": "Handicap",
    "selection": "Ulster +12.50",
@@ -12630,7 +13391,7 @@
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
    "official": null,
    "id": "609588-ulster-12-50",
-   "prediction": "Ulster +12.50 is the selection in the Handicap at -111. United Rugby Championship supplies the competition and the event starts 2026-10-31 12:45 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.5% allowance rather than measured: 52.63% implied falls to 50.37%, and our line is -101. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "prediction": "Ulster +12.50 is the selection in the Handicap at -111. OLBG does not publish a competition name on this market page and the event starts 2026-10-31 12:45 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.5% allowance rather than measured: 52.63% implied falls to 50.37%, and our line is -101. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
     "OLBG price -111 on Ulster +12.50 in the Handicap",
     "margin-adjusted market probability 50.37% against our 50.37%"
@@ -12675,40 +13436,40 @@
    ]
   },
   {
-   "event_id": "914",
-   "sport": "Motor Racing",
-   "sport_key": "motor-racing",
-   "requested_sport": "Motor Racing",
-   "event": "Mexico City Grand Prix",
-   "competition": "Mexico City Grand Prix",
-   "start_utc": "2026-11-01T20:00:00Z",
-   "market": "Podium Finish",
-   "selection": "Charles Leclerc - Yes",
-   "decimal": 2.1,
-   "american": 110,
-   "our_american": 121,
-   "our_decimal": 2.21,
-   "market_prob": 47.62,
-   "fair_prob": 45.35,
-   "our_prob": 45.35,
+   "event_id": "609584",
+   "sport": "Rugby Union",
+   "sport_key": "rugby-union",
+   "requested_sport": "Rugby Union",
+   "event": "Connacht v Leinster",
+   "competition": "",
+   "start_utc": "2026-10-30T19:45:00Z",
+   "market": "To Win",
+   "selection": "Connacht",
+   "decimal": 2.25,
+   "american": 125,
+   "our_american": 134,
+   "our_decimal": 2.34,
+   "market_prob": 44.44,
+   "fair_prob": 42.74,
+   "our_prob": 42.74,
    "edge_pts": 0.0,
    "consensus": null,
    "consensus_gap": null,
    "tips": 1,
-   "tips_total": 2,
+   "tips_total": 1,
    "route": "market",
    "confidence": "low",
-   "score": 95.96000000000001,
-   "overround": 125.74,
-   "margin_allowance": 5.0,
-   "complete": true,
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+   "score": 91.78399999999999,
+   "overround": 44.44,
+   "margin_allowance": 4.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
    "official": null,
-   "id": "914-charles-leclerc-yes",
-   "prediction": "Charles Leclerc - Yes is the selection in the Podium Finish at +110. Mexico City Grand Prix supplies the competition and the event starts 2026-11-01 20:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 5.0% allowance rather than measured: 47.62% implied falls to 45.35%, and our line is +121. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "id": "609584-connacht",
+   "prediction": "Connacht at +125 is the call in the To Win. OLBG does not publish a competition name on this market page and the event starts 2026-10-30 19:45 UTC. Connacht face Leinster. OLBG publishes a single price for this market, so the book is adjusted with a stated 4.0% allowance rather than measured: 44.44% implied falls to 42.74%, and our line is +134. There is no reachable primary feed for selection news in this competition, and nothing on availability is asserted. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
    "facts": [
-    "OLBG price +110 on Charles Leclerc - Yes in the Podium Finish",
-    "margin-adjusted market probability 45.35% against our 45.35%"
+    "OLBG price +125 on Connacht in the To Win",
+    "margin-adjusted market probability 42.74% against our 42.74%"
    ]
   },
   {
@@ -12822,6 +13583,44 @@
    "facts": [
     "OLBG price +550 on Sydney Roosters in the Grand Final Winner",
     "margin-adjusted market probability 13.74% against our 13.74%",
+    "community consensus 33.3% (1 of 3 OLBG tips)"
+   ]
+  },
+  {
+   "event_id": "914",
+   "sport": "Motor Racing",
+   "sport_key": "motor-racing",
+   "requested_sport": "Motor Racing",
+   "event": "Mexico City Grand Prix",
+   "competition": "Mexico City Grand Prix",
+   "start_utc": "2026-11-01T20:00:00Z",
+   "market": "Win Race",
+   "selection": "Max Verstappen",
+   "decimal": 2.38,
+   "american": 138,
+   "our_american": 167,
+   "our_decimal": 2.67,
+   "market_prob": 42.02,
+   "fair_prob": 37.52,
+   "our_prob": 37.52,
+   "edge_pts": 0.0,
+   "consensus": 33.3,
+   "consensus_gap": -4.2,
+   "tips": 1,
+   "tips_total": 3,
+   "route": "market",
+   "confidence": "low",
+   "score": 79.232,
+   "overround": 78.38,
+   "margin_allowance": 12.0,
+   "complete": false,
+   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+   "official": null,
+   "id": "914-max-verstappen",
+   "prediction": "Max Verstappen is the selection in the Win Race at +138. Mexico City Grand Prix supplies the competition and the event starts 2026-11-01 20:00 UTC. OLBG publishes a single price for this market, so the book is adjusted with a stated 12.0% allowance rather than measured: 42.02% implied falls to 37.52%, and our line is +167. Of the 3 tips OLBG lists for the market, 1 (33.3%) sit on this side. No primary team-news, injury or lineup feed covers this competition in the sources we check, so none is claimed here. The price and the split of opinion are the whole case, and the confidence grade reflects that.",
+   "facts": [
+    "OLBG price +138 on Max Verstappen in the Win Race",
+    "margin-adjusted market probability 37.52% against our 37.52%",
     "community consensus 33.3% (1 of 3 OLBG tips)"
    ]
   },
