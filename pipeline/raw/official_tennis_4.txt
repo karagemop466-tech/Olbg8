@@ -658,10 +658,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 
-<div id="video-highlights__2700267a-92f0-4393-a253-1e8983dc7411"></div>
+<div id="video-highlights__7f1f7da3-3a8a-4461-93fe-57b6cf97aec0"></div>
 <script>
      ReactDOMOld.render(
-         ReactOld.createElement(VideoHighlights, {"UniqueID":"2700267a-92f0-4393-a253-1e8983dc7411","title":"Latest Videos: Billie Jean King Cup by Gainbridge Finals","playlistId":"PLI3jxh2Featc"}), document.getElementById('video-highlights__2700267a-92f0-4393-a253-1e8983dc7411'));
+         ReactOld.createElement(VideoHighlights, {"UniqueID":"7f1f7da3-3a8a-4461-93fe-57b6cf97aec0","title":"Latest Videos: Billie Jean King Cup by Gainbridge Finals","playlistId":"PLI3jxh2Featc"}), document.getElementById('video-highlights__7f1f7da3-3a8a-4461-93fe-57b6cf97aec0'));
 </script><div id="homepage-hero-module"></div>
 <script>
     ReactDOMOld.render(
@@ -1034,5 +1034,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- CDF: No JS dependencies were declared //-->
     <script type="module" src="https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js" defer></script>
 
-<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1387705919" async></script></body>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1690404416" async></script></body>
 </html>

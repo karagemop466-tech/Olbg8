@@ -863,7 +863,7 @@
                 <a class="hs-forum-post__title" href='/Forum/Details/111146?county=National&Latest=1#Latest'>Leitrim GAA thread</a>
                 <div class="hs-forum-post__meta">
                     <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 10241</span>
-                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T21:46:09"><i class="fa fa-clock-o" aria-hidden="true"></i> 7h ago</time>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T21:46:09"><i class="fa fa-clock-o" aria-hidden="true"></i> 8h ago</time>
                 </div>
             </li>
             <li class="hs-forum-post">
@@ -877,7 +877,7 @@
                 <a class="hs-forum-post__title" href='/Forum/Details/85420?county=National&Latest=1#Latest'>International Rules</a>
                 <div class="hs-forum-post__meta">
                     <span class="hs-post-count" title="Replies in this topic"><i class="fa fa-comments" aria-hidden="true"></i> 695</span>
-                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T20:48:00"><i class="fa fa-clock-o" aria-hidden="true"></i> 8h ago</time>
+                    <time class="hs-forum-post__time" title="Last post" datetime="2026-10-26T20:48:00"><i class="fa fa-clock-o" aria-hidden="true"></i> 9h ago</time>
                 </div>
             </li>
             <li class="hs-forum-post">

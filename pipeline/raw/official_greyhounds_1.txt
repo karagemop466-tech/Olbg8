@@ -54,7 +54,7 @@ src="https://www.facebook.com/tr?id=484530894320615&ev=PageView&noscript=1"
     
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="noindex" />
-<!-- / The SEO Framework by Sybre Waaijer | 0.11ms meta | 0.12ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 0.15ms meta | 0.12ms boot -->
 
 <link rel='dns-prefetch' href='//use.typekit.net' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />

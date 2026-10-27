@@ -4,7 +4,7 @@
 <H1>Access Denied</H1>
  
 You don't have permission to access "http&#58;&#47;&#47;cdn&#46;nba&#46;com&#47;static&#47;json&#47;staticData&#47;scheduleLeagueV2&#95;1&#46;json" on this server.<P>
-Reference&#32;&#35;18&#46;4fa7cb17&#46;1793079693&#46;5e44d9fa
-<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4fa7cb17&#46;1793079693&#46;5e44d9fa</P>
+Reference&#32;&#35;18&#46;4df7dead&#46;1793080316&#46;6d938ffe
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4df7dead&#46;1793080316&#46;6d938ffe</P>
 </BODY>
 </HTML>

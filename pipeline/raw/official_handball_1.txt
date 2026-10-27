@@ -1439,7 +1439,6 @@ World Championship                </span>
           <div class="carousel-filter" data-target="filterCarousel">
             <div class="carousel-filter-inner">
               <button class="carousel-filter-btn is--active" data-carousel-filter="all">All</button>
-                <button class="carousel-filter-btn" data-carousel-filter="EHF_Channel (Beach Handball)">Beach Handball</button>
                 <button class="carousel-filter-btn" data-carousel-filter="EHF_Channel (EHF CL)">EHF Champions League</button>
                 <button class="carousel-filter-btn" data-carousel-filter="EHF_Channel (EHF Euro Events)">EHF EURO</button>
                 <button class="carousel-filter-btn" data-carousel-filter="EHF_Channel (European Cup)">EHF European Cup</button>
@@ -1732,7 +1731,7 @@ EHF EURO            </span>
     <!-- ./text -->
 </a>
 <!-- ./teaser card -->            </div>
-            <div class="carousel-item" data-filter-cat="EHF_Channel (Beach Handball)">
+            <div class="carousel-item" data-filter-cat="EHF_Channel (Inside The Ehf)">
 
 
 <!-- teaser card -->
@@ -1746,8 +1745,8 @@ EHF EURO            </span>
     <!-- text -->
     <div class="teaser-card-info editor-output">
             <!-- tag -->
-            <span class="tag theme--yellow">
-Beach Handball            </span>
+            <span class="tag theme--blue">
+Inside the EHF            </span>
             <!-- ./tag -->
         <h3>A look at the Beach Handball Commission — what is it, who is&hellip;</h3>
         <p>How the EHF's principal body for beach handball ensures coherent growth of the sport across Europe</p>
