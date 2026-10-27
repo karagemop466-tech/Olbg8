@@ -1,0 +1,36 @@
+name: Test current public-source capture
+on:
+  push:
+    branches: [arena/6bb9f412-olbg8]
+    paths: [current/collect.py, current/catalog.json, current/curated.json, current/tests/**, .github/workflows/current-probe.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test parsers offline
+        run: python -m unittest discover -s current/tests -v
+      - name: Capture bounded public pages
+        run: python current/collect.py --output current/live-test.json
+      - name: Make capture available for audit
+        run: |
+          python - <<'PY'
+          import base64, pathlib, zlib
+          p = pathlib.Path('current/live-test.json')
+          b = base64.b64encode(zlib.compress(p.read_bytes(), 9)).decode('ascii')
+          parts = [b[i:i+3500] for i in range(0, len(b), 3500)]
+          for i, part in enumerate(parts):
+              print(f'::notice file=current/collect.py,line=1::SNAPSHOT:{i+1:02}/{len(parts):02}:{part}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: current-capture-test
+          path: current/live-test.json
+          retention-days: 3

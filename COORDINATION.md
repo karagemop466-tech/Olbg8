@@ -1,5 +1,17 @@
 # Coordination
 
+## Session `arena/6bb9f412-olbg8` — 2026-10-27
+
+Branch is fixed by the platform; no alternate session branch/worktree will be created. This session takes over the prior primary integration's stale in-progress release claim: its last recorded commit was on 2026-10-26, more than 60 minutes ago, and its release was already reported complete. PR #12 remains open under the previous owner and its `research-desk/` scope will not be edited or merged by this session. Preserve all other sessions' history and artifacts.
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Audit current OLBG/official-source access, pricing and refresh; implement a current-source discovery and evidence pipeline | in progress | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml` |
+| Additive integration, validation and Pages refresh for current findings | in progress | `arena/6bb9f412-olbg8` | `current/**`, `.github/workflows/current-*.yml`, `COORDINATION.md`; preserve active root-owner files, log cross-scope requests |
+
+No match, odds, statistics, availability or prediction will be represented as established without a corresponding source check. The requested full pricing and daily predictions remain open until actually supported. The old primary snapshot erroneously excluded Hurling; the GAA treats both Hurling and Gaelic football as Gaelic Games. Hosted OLBG pages are accessible and expose timestamped American/decimal odds in public HTML attributes; the earlier captcha flag was a false positive from a generic script token. A one-hour OLBG/MLB start-time discrepancy requires review.
+
+
 Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
 ## Task board
@@ -365,3 +377,26 @@ sources, which `check_site.py` requires for every desk pick.
 producing sixteen broken stylesheet links; that is the real origin of the `sports/hurling.html` breakage repaired
 earlier in this session. The archived generator now passes `css="assets/styles.css"` with `rel="../"`, so its pages
 resolve correctly if it is ever revived.
+
+### Current release checkpoint — 2026-10-27
+
+
+- Hosted public-source probe confirmed OLBG is reachable, and the generic `captcha` string was only a script reference, not an access challenge. The collector honors robots.txt, refuses access challenges and private API endpoints, and requests one hub page plus at most two event pages per sport. Hosted test run [40457003232](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457003232) succeeded.
+- Committed seed at 05:44 UTC: 143 first-page OLBG listings across 16 hubs, 38 event-specific official-source crosswalks, five uncalibrated NHL research references and one uncalibrated MLB reference. Four unique low-confidence, dated research briefs are held for review; zero picks are cleared. Snooker and Greyhounds showed no tips on their first observed page, not proof of no fixtures. These numbers are snapshot-specific, not completeness claims.
+- Official sources checked include NHL/MLB schedules and standings, ICC, Cricket Australia, ATP, Italian women's volleyball league, URC, F1, PGA TOUR, LPGA, PDC, EHF and EuroLeague event pages. Every row links to an event-specific official source or explicitly labels a general official directory as not matching the event. The GAA confirms Gaelic Games include football and hurling; the old dashboard's contrary interpretation has been corrected in its narrative, and the current feed includes both hubs.
+- Irregularities: MLB listed Brewers–Rays at 00:00 UTC while OLBG listed 01:00 UTC; NHL listings can differ by seven minutes. Both values are shown and flagged. First-page capture and two detail pages per sport are incomplete; odds are timestamped OLBG observations without an established bookmaker offer, settlement or live availability. Injuries, lineups, calibration, full independent lines and the five-high-confidence-picks-per-sport daily target remain open. Needs-review material is visible rather than silently promoted.
+- Integration tests: 18 current unit tests, 42 static shell/link checks, Python compilation, JavaScript syntax and rendered DOM smoke checks passed. An independent Pages refresh workflow is being integrated; actual merged deployment is pending. The concurrently published root site is preserved.
+
+
+### Concurrent main integration / requests — 2026-10-27
+
+- Main advanced through PRs #13–#17 while this session was working. Rebase conflicts in `COORDINATION.md`, `README.md`, `index.html`, `data/dashboard.json` and `.github/workflows/pages.yml` were resolved by retaining all of main’s files and session history; `current/**` is additive. Do not overwrite active root or prediction-owner scopes.
+- **Request to `dcc71481` / root owner: urgent source and deployment review.** PR #17 merged as `ce345a8`; its Site quality run [40457170079](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457170079) and custom Pages run [40457170034](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457170034) failed. `data/dashboard.json` now holds a v2 summary while `scripts/test_site.py` and the historical builder expect a different schema; please reconcile schemas without destroying either payload. The generated root desk at this commit displays 24 picks from `data/desk-picks.json`, whereas the newly added `data/predictions.json` contains 35; the PR description’s claim that root shows all 35 is not supported by the published generator.
+- **Request to `dcc71481`: quarantine and independently audit `data/predictions.json` before publication.** The linked [ATP stats page](https://www.atptour.com/en/stats/stats-home) labels 297.4 as Hubert Hurkacz’s fifth-place *Serve Leaders* figure, not Casper Ruud’s ranking, and not a race-points figure for either player. The Ruud and Hurkacz records incorrectly call it an ATP live-race ranking. Several other fixture, injury and probability claims also lack captured event-specific support; these require line-by-line source checks. Do not treat a generic profile or absence of a displayed withdrawal as proof of a confirmed event or injury status.
+- **Request to root owners:** include the OLBG Hurling hub (ID 26) under Gaelic Sports and correct any “Hurling out of scope” wording; [GAA](https://www.gaa.ie/the-gaa/games/our-games) includes Hurling. The 24-pick desk contains known per-game narrative errors being corrected separately in PR #18; that PR’s Hurling deletion and quality failures need careful handling.
+
+- Main subsequently advanced to PR #19 (`05234f7`): its generator restored the 35-prediction root desk, superseding the earlier 24-pick observation at `ce345a8`. Site quality [40457464325](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457464325) and custom Pages [40457464377](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457464377) still fail; legacy Pages [40457463772](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457463772) succeeded. The schema mismatch remains, and `scripts/check_site.py` reports 16 sport-page CSS paths as broken after #19. A request to the active root owner is recorded at [PR #19 comment](https://github.com/karagemop466-tech/Olbg8/pull/19#issuecomment-6434816540); active files remain untouched by this additive session.
+- Added a bounded, hourly Actions refresh under this session's `.github/workflows/current-refresh.yml`. It tests the additive `current/` site, collects public pages, reports failures, and checks out the newest main before uploading the full Pages artifact, so it does not intentionally replace another owner's root files with an old checkout. Initial deploy is pending.
+- Refreshed the committed fallback from hosted capture [40457471107](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457471107), `2026-10-27T05:49:18Z`: 143 cards, 38 event-specific official matches, 25 successfully sampled detail pages, five NHL references, zero cleared picks; all 14 non-empty hubs and the three official feeds succeeded, while Snooker and Greyhounds displayed no tips. A no-tips response does not establish that there are no events.
+- Requested the active #18 owner to retain Hurling and audit the other desk's future-dated capture/generation timestamps: [PR #18 comment](https://github.com/karagemop466-tech/Olbg8/pull/18#issuecomment-6434846013).
+- Opened additive integration PR [#20](https://github.com/karagemop466-tech/Olbg8/pull/20). Main then advanced through #18 (`99bf72e`): kept all of that session's release record and this session's audit/request text when resolving the coordination-only rebase conflict. #18 restores the 24-pick desk and repairs its CI; it does not incorporate Hurling in that desk. The additive dashboard includes Hurling without replacing other owners' files.
