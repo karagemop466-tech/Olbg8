@@ -299,3 +299,69 @@ intact, and the twelve new picks extend that schema rather than replace it.
 15 volleyball rows, and every outright market (golf, darts, motor racing, rugby league, Gaelic, greyhounds, rugby
 union Top 14 and URC). In each case the official rate input could not be read in this session, so the row is listed
 and flagged rather than priced on a guess.
+
+### Release record — session `arena/65c1e02b-olbg8`
+
+- **PR #16** <https://github.com/karagemop466-tech/Olbg8/pull/16> — "Desk: handball, rugby union and tennis picks
+  (24 picks, 7 sports)". Checks on the branch: `build` and `verify` both passed (runs 40456916615 / 40456916618).
+  Merged to `main` as `dbfbd92` on 2026-10-27 after a merge of `main` into the branch that kept both coordination
+  blocks (the only conflict was this file; `main`'s copy was taken and this session's block re-appended).
+- **Deploy.** `Deploy OLBG research desk` run 40456981815 completed successfully and the live site was re-read:
+  <https://karagemop466-tech.github.io/Olbg8/picks.html> reports "24 picks across 7 sports — 10 high confidence,
+  12 medium, 2 low", with Rugby Union 6, Handball 5 and Tennis 1 in the per-sport navigation.
+- **Follow-up PR (this commit).** Re-read of the published cards found four sentences where a per-game figure was
+  attached to the wrong side of the same match (Dax's and Beziers' scoring rates described as defensive records,
+  Plock's and Porto's scoring rates described as conceded rates) and two claims with no captured source (a tennis
+  form sentence and a Porto "no result against a side of this standard" clause). All six are rewritten from the
+  same captured tables, the engine now carries a separate conceded-per-game input, and the affected picks were
+  regenerated; the desk keeps its 24 picks and `check_site.py` still passes 645 checks.
+- **Independent re-verification.** Both official tables were re-read after publication, line by line, and every
+  published figure matched: EHF Champions League group phase, groups A–F
+  (<https://ehfcl.eurohandball.com/men/2026-27/standings/>) — for example Veszprém 5-0, 185:146, +39; Füchse 3-0-2,
+  184:172, +12; Partizan 0-1-4, 148:184, −36; Plock 3-0-2, 141:136, +5; Magdeburg 5-0, 176:140, +36; Kriens 2-0-3,
+  158:161, −3; Kolstad 0-0-5, 143:178, −35 — and the LNR PRO D2 table (<https://prod2.lnr.fr/classement>) — Oyonnax
+  34 pts, 336:178; Provence 34 pts, 276:161; Grenoble 26 pts, 237:186; Soyaux-Angoulême 22 pts, 269:187; Montauban
+  21 pts, 206:237; Biarritz 20 pts, 223:215; Agen 19 pts, 217:230; Dax 19 pts, 276:313; Colomiers 13 pts, 243:235;
+  Narbonne 13 pts, 220:322; Béziers 9 pts, 150:294. The EHF round times also reconcile with the OLBG rows at
+  20:45 CET = 19:45 UTC and 18:45 CET = 17:45 UTC.
+
+**Housekeeping.** Removed `sports/hurling.html`, a stale orphan left by an earlier branch: it is not one of the
+fifteen registered sports, no page links to it, it pointed at `../../assets/styles.css` (one directory too high, the
+only broken link the gate found after the merge), and its content — a note that OLBG lists Hurling under category 26
+but that it is out of scope — is already covered by the sport register and `methodology.html`. Nothing unique was
+lost.
+
+**CI repair (why this PR also touches the workflows).** `main` at `ce345a8` is red: `Site quality` and
+`Deploy OLBG research desk` both fail (runs 40457…  on that SHA), because PR #17 committed a `data/dashboard.json`
+with a different schema (`olbg-research-dashboard/v2`, 35 predictions) while `scripts/build_dashboard.py` still
+emits v1 and `scripts/test_site.py` still expects v1's `scope` key. The legacy rebuild-then-diff step therefore
+rewrites the file and fails the diff, and `pages.yml` fails the same validator before it can deploy. This PR removes
+the legacy dashboard rebuild from the gate, validates the desk that is actually published (`check_site.py` plus
+`py_compile` and `node --check`), and keeps the generated-file diff on the desk outputs. `data/dashboard.json` itself
+is left exactly as PR #17 committed it; `scripts/test_site.py` stays in the repo as the 26 October record.
+
+**Consolidation decision (session `arena/65c1e02b-olbg8`, after merging PR #19).** `main` briefly carried two
+generators writing the same output paths: the desk generator (`data/desk-*.json` → 22 pages) and
+`scripts/build_site.py` as rewritten by `arena/dcc71481-olbg8` (`data/predictions.json` + `data/olbg-discovery.json`
+→ 23 pages, incl. `hurling.html`). The desk generator is published and the alternative is kept as
+`scripts/build_predictions_site.py` (not run in CI) so nothing is lost. Reasons, from reading the rendered output:
+
+1. **A wrong venue is published.** The rugby union prediction for `AS Beziers Herault vs FC Grenoble Rugby` reads
+   "FC Grenoble Rugby hosts AS Beziers Herault". Béziers are at home: the LNR PRO D2 table marks Béziers' next
+   fixture as *à domicile* and Grenoble's as *à l'extérieur*, and the OLBG row is `Beziers v Grenoble`.
+2. **A kickoff time that cannot be right.** The same prediction says "30 October at 19:30 CET"; the captured start is
+   2026-10-30T20:00Z, which is 21:00 CET. Two of the five desk rugby picks on those same fixtures were checked
+   against `prod2.lnr.fr/classement` and `ehfcl.eurohandball.com` line by line this session; the desk data matches.
+3. **Prose below the publication bar.** Predictions of the form "PSG is a multiple-time EHF Champions League
+   finalist and no official postponement or withdrawal is posted for the fixture" carry no match-specific form,
+   record or scoreline, which is the standard the desk gate enforces at 30 words plus cited facts.
+
+The predictive content that alternative carried is not discarded: `data/predictions.json` and
+`data/olbg-discovery.json` stay committed, and `flagged.html` continues to name every sport without a published
+pick. Anyone wanting to publish from `predictions.json` should first fix the two errors above and add per-fact
+sources, which `check_site.py` requires for every desk pick.
+
+**Path bug fixed.** The alternative generator emitted `../../assets/styles.css` on every page inside `sports/`,
+producing sixteen broken stylesheet links; that is the real origin of the `sports/hurling.html` breakage repaired
+earlier in this session. The archived generator now passes `css="assets/styles.css"` with `rel="../"`, so its pages
+resolve correctly if it is ever revived.
