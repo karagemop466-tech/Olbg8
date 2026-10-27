@@ -63,6 +63,8 @@ UA = (
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
 BASE = "https://www.olbg.com"
+TIPS_HOST = "https://tipsb.olbg.info"
+API_KEY = "S6H8MM3KN52Q8KN8"   # shipped in OLBG's own public page payload
 PAGE = 100
 
 
@@ -159,6 +161,19 @@ def fetch(url: str, tries: int = 3, referer: str = f"{BASE}/betting-tips") -> tu
             last = f"{type(exc).__name__}: {exc}"
             time.sleep(2 + attempt * 2)
     return 0, b"", last
+
+
+def absolute(url: str) -> str:
+    """Resolve an OLBG data path to the host that actually serves it."""
+    if url.startswith("http"):
+        target = url
+    elif url.startswith("/sports/"):
+        target = TIPS_HOST + url
+    else:
+        target = BASE + url
+    if "/sports/" in target and "api_key=" not in target:
+        target += ("&" if "?" in target else "?") + f"api_key={API_KEY}"
+    return target
 
 
 def data_url(url: str) -> str:
@@ -273,6 +288,7 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
                 "&include_expired=0&bookie_name=_best_&client_type=desktop_website"
             ]
         entry["templates"] = templates[:2]
+        extra_pages = [f"/betting-tips/{segment}/All_{segment}/All_Events/{sport_id}"]
 
         rows: list[dict[str, Any]] = []
         working: str | None = None
@@ -289,8 +305,7 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
                     continue
                 url = re.sub(r"paginate=[\d\-]+", f"paginate={start}-{end}", candidate)
                 url = url.replace("include_expired=1", "include_expired=0")
-                if url.startswith("/"):
-                    url = BASE + url
+                url = absolute(url)
                 status, body, error = fetch(url, tries=2)
                 print(f"{key} {start}-{end} status={status} bytes={len(body)} host={url.split('/')[2]} err={error}", flush=True)
                 if status == 200 and body:
@@ -322,6 +337,26 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
             if sig in seen:
                 continue
             seen.add(sig)
+            deduped.append(row)
+        for page_path in extra_pages:
+            status2, body2, error2 = fetch(data_url(page_path))
+            extra = {"status": status2, "bytes": len(body2), "error": error2}
+            if status2 == 200 and body2:
+                try:
+                    found2 = market_rows(decode_payload(body2))
+                    extra["tips"] = len(found2)
+                    rows.extend(normalise(row, sport) for row in found2)
+                except Exception as exc:  # noqa: BLE001
+                    extra["decode_error"] = f"{type(exc).__name__}: {exc}"
+            entry.setdefault("extra_pages", []).append(extra)
+
+        deduped: list[dict[str, Any]] = []
+        seen2: set[tuple] = set()
+        for row in rows:
+            sig = (row["event_id"], row["market"], row["selection"], row["decimal_odds"])
+            if sig in seen2:
+                continue
+            seen2.add(sig)
             deduped.append(row)
         deduped.sort(key=lambda r: (r["start_utc"], r["event_name"], r["market"], r["selection"]))
         all_rows.extend(deduped)
