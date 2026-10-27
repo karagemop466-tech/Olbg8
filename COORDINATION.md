@@ -324,3 +324,9 @@ and flagged rather than priced on a guess.
   21 pts, 206:237; Biarritz 20 pts, 223:215; Agen 19 pts, 217:230; Dax 19 pts, 276:313; Colomiers 13 pts, 243:235;
   Narbonne 13 pts, 220:322; Béziers 9 pts, 150:294. The EHF round times also reconcile with the OLBG rows at
   20:45 CET = 19:45 UTC and 18:45 CET = 17:45 UTC.
+
+**Housekeeping.** Removed `sports/hurling.html`, a stale orphan left by an earlier branch: it is not one of the
+fifteen registered sports, no page links to it, it pointed at `../../assets/styles.css` (one directory too high, the
+only broken link the gate found after the merge), and its content — a note that OLBG lists Hurling under category 26
+but that it is out of scope — is already covered by the sport register and `methodology.html`. Nothing unique was
+lost.
