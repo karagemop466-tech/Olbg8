@@ -165,6 +165,10 @@ class Official:
             "lpga_tournaments", "pgatour_schedule", "wst_matches", "wst_calendar",
             "wst_rankings", "gbgb_racing", "gbgb_results", "nrl_draw", "superleague_home",
             "formula1_calendar", "f1_races_mirror", "wta_tournaments", "wta_scores",
+            "wta_guangzhou_draws", "wta_tokyo_draws", "wta_courmayeur_draws",
+            "wta_queretaro_draws", "wta_curitiba_draws", "wta_guangzhou_overview",
+            "wta_tokyo_overview", "atp_vienna_draws", "atp_basel_draws",
+            "atp_vienna_results", "atp_basel_results",
         ]}
 
     @staticmethod
@@ -501,12 +505,14 @@ def official_mlb(out, ev, comps):
     aa, ha = (first_abbrev(x) for x in comps) if len(comps) == 2 else ("", "")
     day = ev["start_utc"][:10]
     games = [g for g in OFFICIAL.mlb_games if {g["away_abbr"], g["home_abbr"]} == {aa, ha}]
-    upcoming = next((g for g in games if (g["official_date"] or "")[:10] == day), None)
+    # Match on the UTC gameDate (OLBG timestamps are UTC); officialDate is the
+    # local US calendar date and is one day earlier for night games.
+    upcoming = next((g for g in games if (g["date"] or "")[:10] == day and g["state"] != "Final"), None)
     if upcoming:
         out["url"] = f"https://www.mlb.com/gameday/{upcoming['pk']}"
         out["level"] = "event"
         out["urls"].append(dict(name="MLB official gameday", url=out["url"]))
-        out["facts"].append(f"MLB's official schedule lists game {upcoming['pk']} on {upcoming['official_date']} with {upcoming['away']} at {upcoming['home']}.")
+        out["facts"].append(f"MLB's official schedule lists game {upcoming['pk']} at {upcoming['date'][:16].replace('T', ' ')} UTC (official date {upcoming['official_date']}) with {upcoming['away']} at {upcoming['home']}.")
         if upcoming["away_pitcher"] or upcoming["home_pitcher"]:
             out["facts"].append(f"MLB lists {upcoming['away_pitcher'] or 'an unconfirmed starter'} and {upcoming['home_pitcher'] or 'an unconfirmed starter'} as probable pitchers.")
         if (upcoming["date"] or "")[:16] != ev["start_utc"][:16]:
@@ -524,8 +530,43 @@ def official_mlb(out, ev, comps):
         out["_total_estimate"] = round(sum(total) / len(total), 2)
 
 
+TENNIS_DRAWS = {
+    "WTA Guangzhou": ("wta_guangzhou_draws", "WTA official Guangzhou Open 2026 draw"),
+    "WTA Tokyo": ("wta_tokyo_draws", "WTA official Toray Pan Pacific Open 2026 draw"),
+    "WTA Courmayeur": ("wta_courmayeur_draws", "WTA official Courmayeur 125 2026 draw"),
+    "WTA Queretaro": ("wta_queretaro_draws", "WTA official Queretaro 125 2026 draw"),
+    "WTA Curitiba": ("wta_curitiba_draws", "WTA official Curitiba 125 2026 draw"),
+    "ATP Vienna": ("atp_vienna_draws", "ATP official Vienna 2026 draw"),
+    "ATP Basel": ("atp_basel_draws", "ATP official Basel 2026 draw"),
+}
+
+
 def official_tennis(out, ev, comps):
-    # WTA official rankings are the captured official source for women's events.
+    competition = ev["competition"] or ""
+    draw = TENNIS_DRAWS.get(competition)
+    if draw:
+        key, label = draw
+        url = official_url(key)
+        if url:
+            out["url"] = url
+            out["name"] = label
+            out["urls"][0] = dict(name=label, url=url)
+        ok = official_ok(key)
+        if not ok:
+            out["flags"].append(f"{label} returned HTTP {MANIFEST['official'].get(key, {}).get('status')} at capture; the link is supplied for manual review.")
+        found = [p for p in comps if OFFICIAL.text_has(key, p)]
+        if len(found) >= 2:
+            out["level"] = "event"
+            out["facts"].append(f"The {label} page lists both {' and '.join(found)} in its singles draw.")
+        elif found:
+            out["level"] = "competition"
+            out["facts"].append(f"The {label} page was captured; {', '.join(found)} appears in the draw data.")
+            out["flags"].append("Only one player from this OLBG match was found in the official draw text.")
+        else:
+            out["level"] = "competition" if ok else "directory"
+            out["facts"].append(f"The {label} page is the official tournament-level source for this event.")
+            out["flags"].append("Neither player name was matched inside the captured official draw text, so the official link is tournament-level rather than match-level.")
+    # WTA official rankings are the captured official source for ranked players.
     ranks = []
     for player in comps:
         rec = OFFICIAL.wta.get(norm(player))
@@ -533,16 +574,13 @@ def official_tennis(out, ev, comps):
             ranks.append((player, rec))
             out["stats"].append(f"The WTA official singles ranking lists {player} at No. {rec['rank']} with {rec['points']} points ({rec['country']}).")
     if ranks:
-        out["level"] = "competition"
-        out["facts"].append("The official WTA rankings page was captured with current position and points for the named player(s).")
+        out["level"] = "event" if out["level"] == "event" else "competition"
         out["_ranks"] = {norm(p): r["rank"] for p, r in ranks}
-    else:
-        out["flags"].append("No official WTA/ATP ranking match for these players; ATP's official pages were blocked with HTTP 403 at capture.")
+    elif not draw:
+        out["flags"].append("No official WTA/ATP ranking or draw page matched this event; ATP's official pages were blocked with HTTP 403 at capture.")
         out["urls"].append(dict(name="ATP Tour official scores (HTTP 403 at capture)",
                                 url="https://www.atptour.com/en/scores/current"))
-    if "WTA" in (ev["competition"] or ""):
-        out["facts"].append("The WTA official tournaments page lists the current tour calendar.")
-        out["urls"].append(dict(name="WTA official tournaments", url=official_url("wta_tournaments")))
+    out["urls"].append(dict(name="WTA official tournaments", url=official_url("wta_tournaments")))
 
 
 def official_basketball(out, ev, comps):
@@ -628,6 +666,7 @@ def official_cricket(out, ev, comps):
     if found >= 2:
         out["level"] = "competition"
         out["facts"].append(f"ICC's official fixtures and results page lists the {' vs '.join(comps)} series.")
+        out["flags"].append("The ICC fixtures page is JavaScript-rendered; this identity match comes from embedded official page text rather than a structured fixture API.")
     elif OFFICIAL.text_has("cricket_australia_fixtures", comps[0] if comps else ev["name"]):
         out["url"] = official_url("cricket_australia_fixtures")
         out["level"] = "competition"
