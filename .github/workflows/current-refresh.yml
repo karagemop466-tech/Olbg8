@@ -1,9 +1,10 @@
 name: Refresh current research snapshot
 
 on:
+  # Every main push also refreshes: a legacy root deploy otherwise replaces
+  # the hosted snapshot with the older, committed fallback.
   push:
     branches: [main]
-    paths: ['current/**', '.github/workflows/current-refresh.yml']
   schedule:
     - cron: '11 * * * *'
   workflow_dispatch:

@@ -42,6 +42,8 @@ class ParserTests(unittest.TestCase):
         self.assertIsNone(collect.odds_from({'data-decimal':'2.00','data-american':'-130'}))
         self.assertIsNone(collect.odds_from({'data-decimal':'0','data-american':'0'}))
         self.assertIsNone(collect.odds_from({}))
+        self.assertIsNone(collect.odds_from({'data-decimal':'nan','data-american':'-130'}))
+        self.assertIsNone(collect.odds_from({'data-decimal':'inf','data-american':'-130'}))
 
     def test_legitimate_captcha_reference_is_not_challenge(self):
         self.assertFalse(collect.is_challenge('<title>Sports tips</title><script src="captcha.js"></script>'))
