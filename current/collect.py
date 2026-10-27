@@ -18,6 +18,8 @@ from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 from urllib.robotparser import RobotFileParser
 
+from pricing import nhl_reference
+
 HERE = Path(__file__).resolve().parent
 AGENT = "Olbg8Bot/1.0"
 CHECKED_AT = "2026-10-27T05:38:00Z"  # time of manual source audit; not updated by automation
@@ -290,7 +292,8 @@ def dynamic_crosswalk(row, fixtures, checked_at):
     delta = int((parse_time(row["start"]) - parse_time(f["start"])).total_seconds() / 60)
     return {"kind": "schedule-api", "url": f["url"], "start": f["start"],
             "checkedAt": checked_at, "note": "Matched both official team names, league and a unique start within two hours.",
-            "timeDifferenceMinutes": delta}
+            "timeDifferenceMinutes": delta, "awayAbbrev": f.get("awayAbbrev"), "homeAbbrev": f.get("homeAbbrev"),
+            "season": f.get("season"), "gameType": f.get("gameType")}
 
 
 def nhl_fixtures(payload):
@@ -305,7 +308,8 @@ def nhl_fixtures(payload):
                 return v.get("default", "") if isinstance(v, dict) else str(v)
             if game.get("id") and game.get("startTimeUTC") and nickname(away) and nickname(home):
                 result.append({"league":"NHL", "away":nickname(away), "home":nickname(home),
-                               "start":game["startTimeUTC"],
+                               "start":game["startTimeUTC"], "awayAbbrev":away.get("abbrev"), "homeAbbrev":home.get("abbrev"),
+                               "season":game.get("season"), "gameType":game.get("gameType"),
                                "url":f"https://api-web.nhle.com/v1/gamecenter/{game['id']}/landing"})
     return result
 
@@ -343,7 +347,37 @@ def get_official_fixtures(client, now):
             statuses.append({"name":league, "status":"ok", "count":len(found), "url":url})
         except (HTTPError, URLError, OSError, ValueError, TypeError, KeyError) as exc:
             statuses.append({"name":league, "status":"error", "detail":describe_error(exc), "url":url})
-    return fixtures, statuses
+    standings = {}
+    standings_url = "https://api-web.nhle.com/v1/standings/now"
+    try:
+        payload = json.loads(client.get(standings_url))
+        for team in payload.get("standings", []):
+            abbr = team.get("teamAbbrev", {}).get("default")
+            if abbr:
+                standings[abbr] = team
+        if not standings:
+            raise ValueError("no NHL standings records")
+        statuses.append({"name":"NHL standings", "status":"ok", "count":len(standings), "url":standings_url})
+    except (HTTPError, URLError, OSError, ValueError, TypeError, KeyError) as exc:
+        statuses.append({"name":"NHL standings", "status":"error", "detail":describe_error(exc), "url":standings_url})
+    return fixtures, statuses, standings
+
+
+def nhl_line(official, standings):
+    if not official or official.get("kind") != "schedule-api" or official.get("gameType") != 2:
+        return None
+    home, away = standings.get(official.get("homeAbbrev")), standings.get(official.get("awayAbbrev"))
+    if not home or not away or home.get("seasonId") != official.get("season") or away.get("seasonId") != official.get("season"):
+        return None
+    try:
+        values = nhl_reference(home, away)
+    except (ValueError, TypeError, KeyError):
+        return None
+    return {**values, "home":official["homeAbbrev"], "away":official["awayAbbrev"],
+            "inputs": {official["homeAbbrev"]:{k:home[k] for k in ("gamesPlayed","goalFor","goalAgainst")},
+                       official["awayAbbrev"]:{k:away[k] for k in ("gamesPlayed","goalFor","goalAgainst")}},
+            "source":"https://api-web.nhle.com/v1/standings/now",
+            "label":"Uncalibrated winner reference; equal split of tied scores; not a settled-market quote."}
 
 
 def build_snapshot(client, now, market_budget=2):
@@ -359,7 +393,7 @@ def build_snapshot(client, now, market_budget=2):
     except (HTTPError, URLError, OSError, ValueError) as exc:
         robots = None
         robots_error = describe_error(exc)
-    fixtures, snapshot["officialFeeds"] = get_official_fixtures(client, now)
+    fixtures, snapshot["officialFeeds"], standings = get_official_fixtures(client, now)
     seen = set()
     for sport in catalog:
         for label, number in sport["hubs"]:
@@ -395,6 +429,7 @@ def build_snapshot(client, now, market_budget=2):
                     seen.add(identity)
                     row.update({"sport":sport["key"], "hub":label, "capturedAt":captured})
                     row["official"] = dynamic_crosswalk(row, fixtures, captured) or manual_crosswalk(row, curated)
+                    row["researchLine"] = nhl_line(row["official"], standings) if row["sport"] == "ice-hockey" else None
                     row["details"] = None
                     snapshot["events"].append(row)
                     status["count"] += 1

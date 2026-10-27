@@ -82,6 +82,15 @@ class CrosswalkTests(unittest.TestCase):
                 'teams':{'away':{'team':{'teamName':'Alpha'}},'home':{'team':{'teamName':'Beta'}}}}]}]}
         self.assertEqual(len(collect.mlb_fixtures(mlb)), 1)
 
+    def test_nhl_line_requires_matching_season_and_inputs(self):
+        official={'kind':'schedule-api','gameType':2,'season':20302031,'homeAbbrev':'BBB','awayAbbrev':'AAA'}
+        team={'seasonId':20302031,'gamesPlayed':10,'goalFor':30,'goalAgainst':30}
+        line=collect.nhl_line(official,{'BBB':team,'AAA':team})
+        self.assertIsNotNone(line)
+        self.assertAlmostEqual(line['homeProbability'],.5,places=8)
+        self.assertIsNone(collect.nhl_line({**official,'gameType':3},{'BBB':team,'AAA':team}))
+        self.assertIsNone(collect.nhl_line({**official,'season':20402041},{'BBB':team,'AAA':team}))
+
     def test_failure_is_not_no_events(self):
         class Failed:
             def get(self, url): raise OSError('offline')
