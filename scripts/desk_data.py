@@ -831,8 +831,14 @@ def price_market(ev: dict, official: dict, market: dict) -> dict:
     if tilt:
         for i, t in enumerate(tips):
             fair[i] += tilt.get(norm(t["selection"]), 0.0)
-    total_fair = sum(max(f, 0.00001) for f in fair)
-    fair = [max(f, 0.00001) / total_fair for f in fair]
+    if w == 0 and not tilt:
+        # Pure de-vig: keep the exact market probabilities. Re-normalising them
+        # can introduce ±1e-16 drift (and a signed zero in the edge column) that
+        # differs between CPython versions' float summation.
+        fair = list(market_prob)
+    else:
+        total_fair = sum(max(f, 0.00001) for f in fair)
+        fair = [max(f, 0.00001) / total_fair for f in fair]
     for i, (t, mp, cp, fp) in enumerate(zip(tips, market_prob, consensus, fair)):
         displayed = re.sub(r"[^0-9+-]", "", t["american"])
         try:
@@ -840,6 +846,8 @@ def price_market(ev: dict, official: dict, market: dict) -> dict:
         except Exception:
             displayed_int = prob_to_american(1 / valid_decimal(t["decimal"]))
         edge = (fp - mp) * 100
+        if abs(edge) < 1e-9:
+            edge = 0.0
         result["selections"].append(dict(
             selection=t["selection"], decimal=t["decimal"], american=t["american"],
             fractional=t["fractional"], displayed_american=displayed_int,

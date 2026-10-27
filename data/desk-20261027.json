@@ -42693,7 +42693,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 51.95,
      "our_american": -108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -42707,7 +42707,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 48.05,
      "our_american": 108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -45231,7 +45231,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 51.95,
      "our_american": -108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -45245,7 +45245,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 48.05,
      "our_american": 108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -49081,7 +49081,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 31.98,
      "our_american": 213,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -49095,7 +49095,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 30.92,
      "our_american": 223,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -49109,7 +49109,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 18.55,
      "our_american": 439,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -49123,7 +49123,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 18.55,
      "our_american": 439,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -49265,7 +49265,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 51.95,
      "our_american": -108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -49279,7 +49279,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 48.05,
      "our_american": 108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -54617,7 +54617,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 50.53,
      "our_american": -102,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -54631,7 +54631,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 49.47,
      "our_american": 102,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -56993,7 +56993,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 50.53,
      "our_american": -102,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -57007,7 +57007,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 49.47,
      "our_american": 102,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -61433,7 +61433,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 29.74,
      "our_american": 236,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -61447,7 +61447,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 25.77,
      "our_american": 288,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -61461,7 +61461,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 23.01,
      "our_american": 335,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -61475,7 +61475,7 @@
      "consensus_pct": 25.0,
      "fair_pct": 21.48,
      "our_american": 366,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
@@ -63901,7 +63901,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 51.95,
      "our_american": -108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     },
@@ -63915,7 +63915,7 @@
      "consensus_pct": 50.0,
      "fair_pct": 48.05,
      "our_american": 108,
-     "edge_pp": -0.0,
+     "edge_pp": 0.0,
      "win_tips": 0,
      "total_tips": 0
     }
