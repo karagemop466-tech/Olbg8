@@ -14,7 +14,6 @@ import html
 import json
 import os
 import sys
-from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -51,6 +50,9 @@ OFFICIAL = {
 }
 
 CONF_CLASS = {"high": "c-high", "medium": "c-med", "low": "c-low"}
+
+
+STAMP = ""  # the capture stamp, set in main(); never the wall clock
 
 
 def e(x):
@@ -172,14 +174,14 @@ every fact sourced, every shortfall flagged</p>
 sourced market lines where they exist. OLBG publishes no numeric odds on its win markets, so
 those columns are empty rather than filled. Confidence reflects evidence quality, not how short
 a price is. Nothing here is betting advice.</p>
-<p>Generated %s UTC &middot; <a href="../index.html">&larr; the published desk</a> &middot;
+<p>Capture %s &middot; <a href="../index.html">&larr; the published desk</a> &middot;
 <a href="sources.html">all sources</a> &middot;
 <a href="flagged.html">flagged irregularities</a> &middot;
 <a href="https://github.com/karagemop466-tech/Olbg8">repository</a></p>
 </div></footer>
 </body></html>""" % (e(title), "assets/styles.css",
                     nav(active if active != "root" else "index.html"), body,
-                    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"))
+                    STAMP)
 
 
 def sport_cards(doc):
@@ -198,7 +200,13 @@ def sport_cards(doc):
 
 
 def build():
+    global STAMP
     doc = json.load(open(os.path.join(ROOT, "data", "originated_lines.json")))
+    # The footer must not embed the clock: pages.yml regenerates this section and
+    # fails the deploy if the committed output drifts, so the render has to be
+    # byte-reproducible. A wall-clock stamp matches only by luck within the same
+    # minute and would fail that gate on any slower run.
+    STAMP = doc.get("generated_utc") or doc.get("capture_window") or "not recorded"
     picks = doc["picks"]
     events = doc["events"]
     featured = [p for p in picks if p["featured"]]
