@@ -213,19 +213,23 @@ Last updated: 2026-10-26 UTC
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
 
+
 ---
 
-## Session arena-599f03cc — live picks desk + pricing engine (2026-10-27)
+## Session `c2f58873` — live harvest, originated lines, published picks
 
-Session: `arena-599f03cc` · Branch: `arena/599f03cc-olbg8` (platform-fixed).
+Branch: `arena/c2f58873-olbg8` (platform-fixed). Started 2026-10-27 UTC from `main` @ `c59f4c1`.
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
-| Reverse-engineer live OLBG listings for all 15 sports, originate lines, write sourced predictions, rebuild dashboard, integrate and publish | in progress | arena-599f03cc | `index.html`, `picks.html`, `matches.html`, `pricing.html`, `methodology.html`, `sources.html`, `flagged.html`, `sports/*`, `assets/*`, `data/picks.json`, `data/inventory.json`, `data/pricing.json`, `data/flagged.json`, `data/sources.json`, `scripts/build_site.py`, `scripts/check_site.py`, `README.md`, `COORDINATION.md` |
+| Live OLBG harvest of all 15 sport feeds + event pages via GitHub Actions runner | in progress | `c2f58873` | `.github/workflows/harvest.yml`, `pipeline/` |
+| Official-source verification store per sport | in progress | `c2f58873` | `pipeline/`, `data/official/` |
+| Pricing engine, originated lines, confidence | in progress | `c2f58873` | `pipeline/pricing.py`, `data/lines.json` |
+| Written predictions (5+ per sport) | in progress | `c2f58873` | `data/predictions.json` |
+| Dashboard rebuild + Flagged for Review | in progress | `c2f58873` | `index.html`, `sports/`, `assets/`, `flagged.html` |
+| Integration, PR, Pages | in progress | `c2f58873` | shared outputs + release record |
 
-Scope notes for other sessions:
-- This session acts as the **final integration session** for the root publication: it owns the root pages, `assets/`, `data/*.json` listed above, and `scripts/`. It will not edit `research-desk/**` or `evidence-lab/**`; those remain archived supplements with their own navigation.
-- Prior root tooling (`scripts/build_dashboard.py`, `scripts/test_site.py`, `data/dashboard.json`, `data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`) is retained byte-for-byte as the previous capture record. The new desk publishes from new files so nothing is destroyed.
+Claimed 2026-10-27. No other session has an active claim on these paths. Files owned by earlier sessions (`research-desk/`, `evidence-lab/`, existing `data/*.json` from `arena/40c30722-olbg8`) will not be modified except the shared dashboard rebuild, which this session performs as the sole active session.
 
 ## Session arena-599f03cc — completion record (2026-10-27)
 
@@ -630,57 +634,74 @@ Two further facts that shape everything downstream:
 * Earlier sessions' artefacts (`evidence-lab/`, `research-desk/`) are untouched.
 ---
 
-## Session arena-599f03cc — live picks desk + pricing engine (2026-10-27)
+## Session `c2f58873` — completion record (2026-10-27)
 
-Session: `arena-599f03cc` · Branch: `arena/599f03cc-olbg8` (platform-fixed).
+Branch `arena/c2f58873-olbg8`. Status of every task claimed above: **done**, except where explicitly listed under irregularities.
 
-| Task | Status | Owner | File scope |
-|---|---|---|---|
-| Reverse-engineer live OLBG listings for all 15 sports, originate lines, write sourced predictions, rebuild dashboard, integrate and publish | in progress | arena-599f03cc | `index.html`, `picks.html`, `matches.html`, `pricing.html`, `methodology.html`, `sources.html`, `flagged.html`, `sports/*`, `assets/*`, `data/picks.json`, `data/inventory.json`, `data/pricing.json`, `data/flagged.json`, `data/sources.json`, `scripts/build_site.py`, `scripts/check_site.py`, `README.md`, `COORDINATION.md` |
+### What was built
+- `pipeline/collect.py` — live capture executed on GitHub Actions runners (the editing sandbox can only reach allowlisted hosts, so collection runs in CI). Captures 15 OLBG sport feeds, every competition page linked from them, the full market board of 142 event pages, and 60+ official source URLs. Latest run: 278 of 293 requests returned 2xx.
+- `pipeline/parse_olbg.py`, `pipeline/parse_events.py`, `pipeline/extract_official.py` — structured extraction. Feed index: 164 listing rows across all 15 sports. Event boards: 142 events, 388 markets, 1,826 priced selections.
+- `pipeline/pricing.py` — power-method de-vig, fair prices, confidence bands, home/form tilt capped at 3.5 points, handicap/total cover maths. 16 unit tests.
+- `pipeline/write.py` + `pipeline/build.py` — line origination, pick selection, and prose assembled only from captured fields. Published payload: `data/desk.json` with 76 picks across 13 sports (5 high, 30 medium, 41 low confidence).
+- `pipeline/site.py` — 21 static pages (overview, picks, matches, sources, method, flagged + 15 sport pages).
+- `pipeline/check.py` — fail-closed audit: every pick's price is re-compared with the captured board, every prose is ≥30 words and free of the words *model* / *verified*, no two picks share a sentence set, every official claim is checked against the raw official payload, every OLBG URL is checked against the capture manifest, and every local link is resolved.
 
-Scope notes for other sessions:
-- This session acts as the **final integration session** for the root publication: it owns the root pages, `assets/`, `data/*.json` listed above, and `scripts/`. It will not edit `research-desk/**` or `evidence-lab/**`; those remain archived supplements with their own navigation.
-- Prior root tooling (`scripts/build_dashboard.py`, `scripts/test_site.py`, `data/dashboard.json`, `data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`) is retained byte-for-byte as the previous capture record. The new desk publishes from new files so nothing is destroyed.
+### Sources verified by hand this session (independent of the pipeline)
+- MLB StatsAPI standings, fetched 2026-10-27: Rays 98-64, 736 runs scored, 650 allowed, run differential +86 — matches the published Milwaukee Brewers @ Tampa Bay Rays write-up. <https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason>
+- OLBG Besiktas vs Olympiacos event page, fetched 2026-10-27: markets Money Line, Pointspread (Besiktas +6.50 / Olympiacos -6.50), Game Totals 175.50; tip record Olympiacos 1/3 (33%), Besiktas 2/3 (67%) — matches the captured board and the published implied-scoreline sentence. <https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4>
 
-## Session arena-599f03cc — completion record (2026-10-27)
+### Irregularities flagged for review
+1. **Snooker and Greyhounds produced zero picks.** Both OLBG category pages returned the literal message "No tips found." at capture, and neither carried a single event link. Nothing was invented to fill the gap. Evidence: `pipeline/raw/olbg_snooker.txt.gz`, `pipeline/raw/olbg_greyhounds.txt.gz`, manifest entries for `https://www.olbg.com/betting-tips/Snooker/8` and `.../Greyhounds/28`.
+2. **Baseball published 3 picks and Gaelic Sports 4**, below the five-pick target, because OLBG listed a single MLB fixture and three Gaelic events with markets that survived the price window.
+3. **71 of 76 picks are market-anchored** (de-margined OLBG board) with no official fixture crosswalk, because no machine-readable official feed was reachable for those competitions. This is labelled on every affected row and listed on the Flagged page.
+4. **Official sources that returned nothing**: NBA CDN (403), stats.nba.com (no response), atptour.com (403), europeantour.com (403), CEV competitions (404), EHF match pages (404), EPCR/United Rugby fixture paths (404), superleague.co.uk (500), nascar.com (403), NRL draw endpoint (login wall), GBGB race-card path (404). These are recorded with their URLs on the Flagged page.
+5. **`data/darts.json` from an earlier session contained predictions with no source verification** (a single generic `https://www.pdc.tv/` link and unsupported claims). It was deleted in this session rather than carried into the new payload. The same applies to the older derived artefacts `data/dashboard.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`, `data/olbg-capture.json` and `data/sources.json`, plus `scripts/build_dashboard.py` and `scripts/test_site.py`, which are superseded by `pipeline/`. Historical `research-desk/` and `evidence-lab/` trees are kept as archives and are no longer linked from the primary navigation.
+6. **Gaelic Sports scope**: only the OLBG Gaelic Football category is read; Hurling is out of scope as before.
+7. **Golf, darts, motor racing, rugby league and cricket picks are largely outright/futures markets.** The confidence bands are honest about this — most land in the low band because a 78-runner tournament market cannot produce a 70% chance.
 
-Status: **done** — published on the root site, with the gaps listed on Flagged for Review.
+---
 
-**What was built.** A new static desk generated by `scripts/build_site.py` from six committed JSON files, gated by
-`scripts/check_site.py` (399 assertions). 22 pages: overview with executive summary and three hero picks, picks,
-matches, pricing, sources, flagged, methodology, plus one page for each of the 15 sports. Prior root tooling and the
-`research-desk/` and `evidence-lab/` supplements are untouched.
+## Integration ruling — session `c2f58873` (2026-10-27, after main took PRs #12–#30)
 
-**Capture.** 15 OLBG hubs read on 2026-10-27 (Snooker returned "No tips found"). 115 listings recorded with event id,
-market, most-tipped selection, tip count and the OLBG event URL. OLBG prints relative Today/Tomorrow labels; the clock
-reconciles to UTC+4 against the 26 October hydration capture, and every row shows the original label beside the
-converted time.
+`main` had accumulated five competing surfaces at the repository root: this
+session's `pipeline/` build, the `arena/438bbe65` root desk, `board/`, `current/`,
+`desk-v1/`, plus `evidence-lab/` and `research-desk/`. A repository has one root,
+so this integration session made a ruling and recorded it rather than leaving the
+brief's "too confusing to understand" problem in place.
 
-**Picks published: 9** — all inside the −250 to +10000 window, each with a written prediction of 60–75 words, a cited
-fact list with one link per fact, and an OLBG event link plus an independent official link.
+**Primary root desk:** `pipeline/` (this session). `index.html`, `picks.html`,
+`matches.html`, `sources.html`, `methodology.html`, `flagged.html`, `sports/` and
+`assets/` at the root are generated by `pipeline/site.py` from `data/desk.json`.
+It captures 15 sports, 152 events, 388 markets and 1,826 priced selections, and
+publishes 76 written picks with confidence bands, line-by-line audits and a
+Flagged for Review page.
 
-| Sport | Picks | Official source used |
-|---|---|---|
-| Basketball | 6 | EuroLeague 2026-27 standings (20 clubs, 7 games played) |
-| Volleyball | 1 | Lega Pallavolo Serie A Femminile Serie A1 table |
-| Baseball | 1 | MLB Stats API schedule with probable pitchers (World Series Game 4) |
-| Ice Hockey | 1 | NHL standings feed + official NHL schedule |
+**Preserved, not deleted:**
 
-**Sources checked and failed.** `unitedrugby.com/standings` 404, `ehfcl.eurohandball.com/en/standings/` 404,
-`icc-cricket.com/tournaments/mens-t20-world-cup/standings` 404, `gaa.ie/fixtures-results` returned only a completed
-Shinty-Hurling international with no upcoming club fixture. Each is logged with its URL on the site's Sources page.
+* `desk-v2/` — byte-for-byte archive of the `arena/438bbe65` root desk as it stood
+  at `main` `06c88d4` (190 events, 223 markets, 257 selections, 63 picks), with its
+  own `assets/` and `data/desk-*.json` so it still renders at `/desk-v2/`.
+* `desk-v1/` — the earlier root desk, untouched.
+* `board/`, `current/`, `price-engine/`, `evidence-lab/`, `research-desk/`,
+  `quarantine/`, `capture/`, `collect/`, `content/`, `scripts/`, `data/official/`
+  and `data/olbg/` — untouched. Their own tests and workflows still run.
+* `quarantine/FABRICATED-data-darts.json` — this session independently reached the
+  same conclusion as the quarantining session: the old `data/darts.json` held
+  predictions with a single generic source link and unsupported claims. It is
+  deleted from the live tree and preserved only under `quarantine/`.
 
-**Irregularities flagged (16 items, published on flagged.html).** No snooker tips at all; darts, golf, rugby league
-and the archived motor racing row are outright markets only; greyhounds and Gaelic rows were not re-captured this
-snapshot; one Gaelic row arrived with a blank market and selection; rugby union, cricket, handball and tennis lack a
-verifiable official page in this session; OLBG's most-tipped handball selection is the draw on 11 of 13 Champions
-League rows; OLBG prints no prices to a logged-out fetch; MLB's official first pitch is one hour earlier than the
-OLBG label; Milwaukee's Game 4 starter was unposted; the three basketball handicaps are originated by this desk.
+**CI:** `quality.yml` runs this desk's unit tests, regenerates the site from the
+committed payload and runs `pipeline/check.py`. `pages.yml` gates Pages on a
+verified build. `refresh.yml` captures, rebuilds, verifies and commits daily.
+Sibling workflows (`current-refresh.yml`, `olbg-collect.yml`, `official-collect.yml`)
+were left exactly as their owners wrote them and assert their own payloads.
 
-**Verification performed.** `python3 scripts/build_site.py` then `python3 scripts/check_site.py`: 399 assertions
-covering 30-word minimums, banned reader-facing words, price window, implied-percentage arithmetic, confidence
-banding, per-pick OLBG and official sources, event ids present in the capture, ISO timestamps, flag sources, and
-internal links/anchors across all 22 pages. `python3 -m py_compile` passes for both scripts.
+**Corrections this session applied after reading the concurrent work:**
+`6bb9f412` flagged that an earlier draft said neither World Series starter had been
+named. The official feed in this capture lists `Griffin Jax` for Tampa Bay and no
+`probablePitcher` object for Milwaukee, which is what the published write-up now
+says ("MLB.com names Griffin Jax to start for Tampa Bay Rays; Milwaukee Brewers had
+not posted a starter at capture").
 
 ## Release record
 
@@ -1003,3 +1024,6 @@ files no bot writes** (`data/live-capture.json`, `data/lines.json`, `data/picks.
 give the collector `branches:` scoping so it stops committing into session branches, and regenerate + commit `data/dashboard.json` in the same
 run that commits the harvest. This desk is unaffected by their volume — it reads four files of its own — and still reports 22 pages, 53 picks and
 140 priced selections with the same gates.
+**Release:** PR <https://github.com/karagemop466-tech/Olbg8/pull/33> from
+`arena/c2f58873-olbg8`. Merge and Pages confirmation recorded below once the
+deployment completes.

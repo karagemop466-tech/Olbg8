@@ -1,0 +1,339 @@
+{
+ "schema": "olbg-desk-sports/1",
+ "sports": [
+  {
+   "key": "golf",
+   "label": "Golf",
+   "sport_id": 5,
+   "hub": "https://www.olbg.com/betting-tips/Golf/5",
+   "official": [
+    {
+     "label": "PGA TOUR schedule",
+     "url": "https://www.pgatour.com/schedule"
+    },
+    {
+     "label": "DP World Tour schedule",
+     "url": "https://www.europeantour.com/dpworld-tour/schedule/"
+    },
+    {
+     "label": "LPGA schedule",
+     "url": "https://www.lpga.com/tournaments"
+    }
+   ],
+   "blurb": "Tournament outright and place markets. OLBG lists a tournament only when tipsters have posted on it, so a thin golf card is normal mid-week.",
+   "note": "Outright event markets, not head-to-head fixtures."
+  },
+  {
+   "key": "volleyball",
+   "label": "Volleyball",
+   "sport_id": 21,
+   "hub": "https://www.olbg.com/betting-tips/Volleyball/21",
+   "official": [
+    {
+     "label": "CEV match centres",
+     "url": "https://www.cev.eu/match-centres/"
+    },
+    {
+     "label": "Lega Pallavolo Serie A Femminile",
+     "url": "https://www.legavolleyfemminile.it/"
+    },
+    {
+     "label": "Turkish Volleyball Federation",
+     "url": "https://tvf.org.tr/"
+    },
+    {
+     "label": "Volleyball World",
+     "url": "https://en.volleyballworld.com/"
+    }
+   ],
+   "blurb": "Domestic women's and men's leagues plus international fixtures. Match winner and set-score markets are both listed on OLBG.",
+   "note": "Largest club-league card of the fifteen sports at capture."
+  },
+  {
+   "key": "rugby-union",
+   "label": "Rugby Union",
+   "sport_id": 9,
+   "hub": "https://www.olbg.com/betting-tips/Rugby_Union/9",
+   "official": [
+    {
+     "label": "World Rugby",
+     "url": "https://www.world.rugby/"
+    },
+    {
+     "label": "United Rugby Championship",
+     "url": "https://unitedrugby.com/"
+    },
+    {
+     "label": "Premiership Rugby",
+     "url": "https://www.premiershiprugby.com/"
+    },
+    {
+     "label": "Top 14",
+     "url": "https://top14.lnr.fr/"
+    }
+   ],
+   "blurb": "Club and international fixtures with handicap and total-points markets. OLBG's rugby union card is thin outside international windows.",
+   "note": ""
+  },
+  {
+   "key": "cricket",
+   "label": "Cricket",
+   "sport_id": 7,
+   "hub": "https://www.olbg.com/betting-tips/Cricket/7",
+   "official": [
+    {
+     "label": "ICC",
+     "url": "https://www.icc-cricket.com/"
+    },
+    {
+     "label": "ECB",
+     "url": "https://www.ecb.co.uk/"
+    },
+    {
+     "label": "Cricket Australia",
+     "url": "https://www.cricket.com.au/"
+    },
+    {
+     "label": "BCCI",
+     "url": "https://www.bcci.tv/"
+    }
+   ],
+   "blurb": "T20 and ODI fixtures plus Test matches. Winner markets dominate; series and innings totals appear on bigger fixtures.",
+   "note": ""
+  },
+  {
+   "key": "snooker",
+   "label": "Snooker",
+   "sport_id": 8,
+   "hub": "https://www.olbg.com/betting-tips/Snooker/8",
+   "official": [
+    {
+     "label": "World Snooker Tour",
+     "url": "https://www.wst.tv/"
+    },
+    {
+     "label": "WPBSA",
+     "url": "https://wpbsa.com/"
+    }
+   ],
+   "blurb": "Ranking-event match markets. OLBG's snooker hub frequently shows no tips between events, which is a coverage gap, not an absence of play.",
+   "note": ""
+  },
+  {
+   "key": "darts",
+   "label": "Darts",
+   "sport_id": 15,
+   "hub": "https://www.olbg.com/betting-tips/Darts/15",
+   "official": [
+    {
+     "label": "PDC",
+     "url": "https://www.pdc.tv/"
+    },
+    {
+     "label": "Winmau / WDF",
+     "url": "https://www.wdfdarts.org/"
+    }
+   ],
+   "blurb": "PDC tour events, European Tour and World Series nights. Match winner and checkout markets.",
+   "note": ""
+  },
+  {
+   "key": "baseball",
+   "label": "Baseball",
+   "sport_id": 12,
+   "hub": "https://www.olbg.com/betting-tips/Baseball/12",
+   "official": [
+    {
+     "label": "MLB",
+     "url": "https://www.mlb.com/"
+    },
+    {
+     "label": "MLB standings",
+     "url": "https://www.mlb.com/standings"
+    },
+    {
+     "label": "NPB",
+     "url": "https://npb.jp/"
+    }
+   ],
+   "blurb": "MLB and NPB fixtures with moneyline and run-line markets. Starting pitchers are the decisive input and must be confirmed on the official team page.",
+   "note": ""
+  },
+  {
+   "key": "gaelic-sports",
+   "label": "Gaelic Sports",
+   "sport_id": 25,
+   "hub": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
+   "official": [
+    {
+     "label": "GAA",
+     "url": "https://www.gaa.ie/"
+    },
+    {
+     "label": "GAA fixtures and results",
+     "url": "https://www.gaa.ie/fixtures-results/"
+    },
+    {
+     "label": "Hurling hub (OLBG id 26)",
+     "url": "https://www.olbg.com/betting-tips/Hurling/26"
+    }
+   ],
+   "blurb": "OLBG has no single Gaelic Sports category: Gaelic football (id 25) and hurling (id 26) are separate. Both are covered here under the one heading.",
+   "note": "Coverage requires two OLBG categories; Gaelic football is the primary id."
+  },
+  {
+   "key": "greyhounds",
+   "label": "Greyhounds",
+   "sport_id": 28,
+   "hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+   "official": [
+    {
+     "label": "Greyhound Board of Great Britain",
+     "url": "https://www.gbgb.org.uk/"
+    },
+    {
+     "label": "GBGB results",
+     "url": "https://www.gbgb.org.uk/results"
+    }
+   ],
+   "blurb": "Race-by-race markets. OLBG exposes only races with tipster activity, so the card here is a subset of any track's programme.",
+   "note": "Race events, not fixtures."
+  },
+  {
+   "key": "tennis",
+   "label": "Tennis",
+   "sport_id": 3,
+   "hub": "https://www.olbg.com/betting-tips/Tennis/3",
+   "official": [
+    {
+     "label": "ATP Tour",
+     "url": "https://www.atptour.com/"
+    },
+    {
+     "label": "WTA Tour",
+     "url": "https://www.wtatennis.com/"
+    },
+    {
+     "label": "ITF",
+     "url": "https://www.itftennis.com/"
+    }
+   ],
+   "blurb": "ATP, WTA and Challenger match markets. The deepest card of the fifteen sports at capture, with win-match and set markets.",
+   "note": ""
+  },
+  {
+   "key": "motor-racing",
+   "label": "Motor Racing",
+   "sport_id": 14,
+   "hub": "https://www.olbg.com/betting-tips/Motor_Racing/14",
+   "official": [
+    {
+     "label": "Formula 1",
+     "url": "https://www.formula1.com/"
+    },
+    {
+     "label": "MotoGP",
+     "url": "https://www.motogp.com/"
+    },
+    {
+     "label": "FIA",
+     "url": "https://www.fia.com/"
+    }
+   ],
+   "blurb": "Grand Prix and MotoGP outright markets, including race winner and podium.",
+   "note": "Outright event markets, not fixtures."
+  },
+  {
+   "key": "handball",
+   "label": "Handball",
+   "sport_id": 20,
+   "hub": "https://www.olbg.com/betting-tips/Handball/20",
+   "official": [
+    {
+     "label": "IHF",
+     "url": "https://www.ihf.info/"
+    },
+    {
+     "label": "EHF Champions League",
+     "url": "https://ehfcl.eurohandball.com/"
+    },
+    {
+     "label": "EHF",
+     "url": "https://www.eurohandball.com/"
+    }
+   ],
+   "blurb": "EHF club competitions and domestic leagues. OLBG shows win-match and handicap markets, and occasionally a draw selection.",
+   "note": ""
+  },
+  {
+   "key": "ice-hockey",
+   "label": "Ice Hockey",
+   "sport_id": 13,
+   "hub": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
+   "official": [
+    {
+     "label": "NHL",
+     "url": "https://www.nhl.com/"
+    },
+    {
+     "label": "NHL standings",
+     "url": "https://www.nhl.com/standings"
+    },
+    {
+     "label": "IIHF",
+     "url": "https://www.iihf.com/"
+    }
+   ],
+   "blurb": "NHL and European league fixtures with moneyline, puck-line and total-goals markets.",
+   "note": ""
+  },
+  {
+   "key": "basketball",
+   "label": "Basketball",
+   "sport_id": 4,
+   "hub": "https://www.olbg.com/betting-tips/Basketball/4",
+   "official": [
+    {
+     "label": "NBA",
+     "url": "https://www.nba.com/"
+    },
+    {
+     "label": "NBA standings",
+     "url": "https://www.nba.com/standings"
+    },
+    {
+     "label": "EuroLeague",
+     "url": "https://www.euroleaguebasketball.net/"
+    },
+    {
+     "label": "FIBA",
+     "url": "https://www.fiba.basketball/"
+    }
+   ],
+   "blurb": "NBA, EuroLeague and domestic fixtures. Moneyline, handicap and total-points markets.",
+   "note": ""
+  },
+  {
+   "key": "rugby-league",
+   "label": "Rugby League",
+   "sport_id": 10,
+   "hub": "https://www.olbg.com/betting-tips/Rugby_League/10",
+   "official": [
+    {
+     "label": "RFL",
+     "url": "https://www.rugby-league.com/"
+    },
+    {
+     "label": "Super League",
+     "url": "https://www.superleague.co.uk/"
+    },
+    {
+     "label": "NRL",
+     "url": "https://www.nrl.com/"
+    }
+   ],
+   "blurb": "Super League, Championship and NRL fixtures with handicap and total-points markets.",
+   "note": ""
+  }
+ ]
+}

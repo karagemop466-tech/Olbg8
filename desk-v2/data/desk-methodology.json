@@ -1,0 +1,54 @@
+{
+ "schema": "olbg-desk-methodology/1",
+ "sections": [
+  {
+   "title": "1. How OLBG is read",
+   "paras": [
+    "Each sport hub is a server-rendered list. Every event row contains, in order: the event name and its link, a relative day label plus a clock time, the most-tipped selection, the market name, a tip counter in the form won/total, and a percentage.",
+    "The hub itself is not a fixture database. It only lists events that at least one tipster has posted on, so a sport with an empty hub may still have fixtures that day. That distinction is recorded on every sport page rather than hidden.",
+    "Event pages add the full market tree for that match (win market, set score, handicap, totals, and so on) and the split of tips between selections. Market coverage therefore comes from the event page, not from the hub row.",
+    "OLBG does not print absolute kick-off dates on the hub; it prints Today or Tomorrow plus a clock time. The clock reconciles to UTC plus four hours against the hydration timestamps captured on 26 October, so UTC is the label plus four hours while US Eastern daylight time is in force. Each converted time is shown next to the label it came from, so the arithmetic can be checked."
+   ],
+   "list": [
+    "Hub URL pattern: /betting-tips/{Sport}/{sport_id}",
+    "Event URL pattern: /betting-tips/{Sport}/All_{Sport}/All_Events/{Home}_vs_{Away}/{sport_id}?event_id={id}",
+    "Tip counter reads won/total across all tips on that selection, not a probability of winning."
+   ]
+  },
+  {
+   "title": "2. What makes a pick publishable",
+   "paras": [
+    "A match reaches the Picks page only when four things line up: the event is confirmed on an official competition page for that date, the selection is a real market on the linked OLBG event page, at least two form or availability facts are confirmed on an official page, and the originated line is inside the mandate window.",
+    "If any of those is missing the match stays on the Matches page with a blank line and appears on Flagged for Review with the specific gap named. Blank is always preferred to guessed."
+   ],
+   "list": [
+    "Written analysis must exceed 30 words and name the bet explicitly.",
+    "Every quantified fact carries its own link to the official page it came from.",
+    "Confidence is set from the published implied probability, not from tip counts or reputation.",
+    "The words model and verified are kept out of reader-facing predictions by design; the internal checks are described on this page instead."
+   ]
+  },
+  {
+   "title": "3. Originated lines, not market prices",
+   "paras": [
+    "Every price in this repository is produced by this desk's own method for that sport, documented market by market on the Pricing page. The margin applied to each market is published, so the raw probability can be recovered from the published one.",
+    "The mandate is to cover selections between -250 and +10000 American. That is a probability range of about 71.4% down to 0.01%. Lines stronger than -250 are flagged out-of-window even where the analysis supports them, because those are the prices the brief asks us to avoid.",
+    "Confidence follows the price. High is 65.0% to 71.4% implied, which is roughly -186 to -250 on the American scale; medium is 55.0% to 64.9%; low is anything longer. This keeps every high-confidence pick inside the requested window by construction."
+   ]
+  },
+  {
+   "title": "4. Known limits of this snapshot",
+   "paras": [
+    "This is a static build. It reflects the OLBG pages as fetched for this release, not a live feed; kick-offs are labelled with the converted time and the original OLBG label so a reader can tell how stale a row is.",
+    "OLBG shows no prices to a logged-out page fetch, so no OLBG price is quoted anywhere. Where a captured hydration payload holds an OLBG decimal for a row, that is recorded separately as the previous session's capture and is not reused as a line.",
+    "Some official bodies publish JavaScript-only pages or block automated retrieval. When that happens the sport keeps its listings but loses its picks, and the reason is named on Flagged for Review rather than filled in from memory."
+   ]
+  },
+  {
+   "title": "5. Reproducing this build",
+   "paras": [
+    "The site is generated from committed JSON by a deterministic script: run python3 scripts/build_site.py, then python3 scripts/check_site.py. The checker enforces the publication rules, including word counts, banned reader-facing words, source links on every row, price window, confidence arithmetic and internal link integrity."
+   ]
+  }
+ ]
+}
