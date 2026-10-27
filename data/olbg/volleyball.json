@@ -1,7 +1,7 @@
 {
  "sport": "Volleyball",
  "sport_id": 21,
- "captured_utc": "2026-10-27T05:59:06Z",
+ "captured_utc": "2026-10-27T06:14:53Z",
  "rows": [
   {
    "sport": "Volleyball",
@@ -9,7 +9,7 @@
    "sport_id": 21,
    "event_id": "37124",
    "event_name": "Istanbul Genclik Spor vs IBB Spor",
-   "competition": "",
+   "competition": "Turkiye Efeler League",
    "market": "Win Match",
    "selection": "IBB Spor",
    "decimal_odds": 1.95,
@@ -19,12 +19,35 @@
    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
    "league_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21",
    "venue": "",
+   "origin": "event",
+   "win_tips": 3,
+   "win_tips_count": 6,
+   "experts_count": 0,
+   "confidence": 50,
+   "comments_count": 2
+  },
+  {
+   "sport": "Volleyball",
+   "sport_key": "volleyball",
+   "sport_id": 21,
+   "event_id": "37124",
+   "event_name": "Istanbul Genclik Spor vs IBB Spor",
+   "competition": "",
+   "market": "Win Match",
+   "selection": "Istanbul Genclik Spor",
+   "decimal_odds": 1.85,
+   "american_odds": -118,
+   "fractional_odds": "17/20",
+   "start_utc": "2026-10-27T11:00:00Z",
+   "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
+   "league_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21",
+   "venue": "",
    "origin": "hub",
    "win_tips": 3,
-   "win_tips_count": 5,
+   "win_tips_count": 6,
    "experts_count": 0,
-   "confidence": 60,
-   "comments_count": 2
+   "confidence": 50,
+   "comments_count": 0
   },
   {
    "sport": "Volleyball",
@@ -43,11 +66,11 @@
    "league_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21",
    "venue": "",
    "origin": "hub",
-   "win_tips": 4,
+   "win_tips": 5,
    "win_tips_count": 5,
    "experts_count": 0,
-   "confidence": 80,
-   "comments_count": 1
+   "confidence": 100,
+   "comments_count": 2
   },
   {
    "sport": "Volleyball",
@@ -335,7 +358,7 @@
    "market": "Win Match",
    "selection": "Vilsbiburg W",
    "decimal_odds": 1.36,
-   "american_odds": -275,
+   "american_odds": -278,
    "fractional_odds": "4/11",
    "start_utc": "2026-10-27T17:30:00Z",
    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
@@ -388,10 +411,10 @@
    "league_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21",
    "venue": "",
    "origin": "hub",
-   "win_tips": 5,
-   "win_tips_count": 7,
+   "win_tips": 6,
+   "win_tips_count": 8,
    "experts_count": 1,
-   "confidence": 71,
+   "confidence": 75,
    "comments_count": 1
   },
   {
@@ -450,7 +473,7 @@
    "market": "Win Match",
    "selection": "Uni Opole W",
    "decimal_odds": 1.29,
-   "american_odds": -345,
+   "american_odds": -350,
    "fractional_odds": "2/7",
    "start_utc": "2026-10-27T19:30:00Z",
    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
