@@ -63,6 +63,21 @@ def main():
     except Exception as exc:
         message.append(f'OLBG: {type(exc).__name__}: {str(exc)[:150]}')
     try:
+        status, final, body = get('https://www.olbg.com/betting-tips/Baseball/12')
+        anchor = re.search(r'<a[^>]+href=["\'][^"\']*event_id=\d+', body, re.I)
+        if anchor:
+            snippet = re.sub(r'\s+', ' ', body[anchor.start():anchor.start()+2600])
+            print('::notice file=current/probe.py,line=3::BASEBALL: ' + snippet.replace('%', '%25'))
+        match = re.search(r'href=["\'](https://www\.olbg\.com/betting-tips/Baseball/[^"\']*event_id=\d+)', body, re.I)
+        if match and robot.can_fetch(AGENT, match.group(1)):
+            status, final, details = get(match.group(1))
+            index = details.find('data-american=')
+            if index >= 0:
+                snippet = re.sub(r'\s+', ' ', details[max(0, index-1400):index+600])
+                print('::notice file=current/probe.py,line=4::EVENT MARKUP: ' + snippet.replace('%', '%25'))
+    except Exception as exc:
+        message.append(f'baseball detail: {type(exc).__name__}: {str(exc)[:100]}')
+    try:
         status, final, text = get('https://api-web.nhle.com/v1/schedule/2026-10-27')
         message.append(f'NHL: HTTP {status}; host={urlsplit(final).hostname}; json-like={text.lstrip().startswith("{")}')
     except Exception as exc:
