@@ -34,6 +34,10 @@ def money(am) -> str:
     return f"+{am}" if am > 0 else str(am)
 
 
+def plural(n: int, word: str, suffix: str = "s") -> str:
+    return f"{n} {word}" + ("" if n == 1 else suffix)
+
+
 def day(iso: str) -> str:
     if not iso:
         return "-"
@@ -455,11 +459,11 @@ def build_flagged(desk: dict) -> str:
 </section>
 <section class="block">
 <h2>Sports with no qualifying pick ({len(no_pick)})</h2>
-{'<ul class="flag-list">' + "".join(f'<li><strong>{e(x["label"])}</strong> — {x["events"]} events captured, {x["listings"]} listings. ' + ('No OLBG listing existed at capture time, so no market could be priced. ' if x["events"] == 0 else 'Listings existed but every selection fell outside the -250 to +10,000 fair-price window or below the 45% chance floor. ') + f'<a href="sports/{x["key"]}.html">Sport page</a></li>' for x in no_pick) + '</ul>' if no_pick else '<p class="empty">None.</p>'}
+{'<ul class="flag-list">' + "".join(f'<li><strong>{e(x["label"])}</strong> — {plural(x["events"], "event")} captured, {plural(x["listings"], "listing")}. ' + ('OLBG returned its literal "No tips found." message and carried no event link on the category page, so no market could be priced. ' if x["events"] == 0 else 'Listings existed but every selection fell outside the -250 to +10,000 fair-price window or below the chance floor. ') + f'<a href="sports/{x["key"]}.html">Sport page</a> · <a href="{e(x["olbg_hub"])}" target="_blank" rel="noopener">OLBG hub</a></li>' for x in no_pick) + '</ul>' if no_pick else '<p class="empty">None.</p>'}
 </section>
 <section class="block">
 <h2>Sports below the five-pick target ({len(thin)})</h2>
-{'<ul class="flag-list">' + "".join(f'<li><strong>{e(x["label"])}</strong> — {x["picks"]} picks from {x["events"]} events. <a href="sports/{x["key"]}.html">Sport page</a></li>' for x in thin) + '</ul>' if thin else '<p class="empty">None.</p>'}
+{'<ul class="flag-list">' + "".join(f'<li><strong>{e(x["label"])}</strong> — {x["picks"]} picks from {plural(x["events"], "event")}. <a href="sports/{x["key"]}.html">Sport page</a></li>' for x in thin) + '</ul>' if thin else '<p class="empty">None.</p>'}
 </section>
 <section class="block">
 <h2>Sports with no official fixture crosswalk ({len(no_official)})</h2>
