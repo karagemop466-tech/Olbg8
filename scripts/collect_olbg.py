@@ -132,7 +132,7 @@ def walk(node: Any, limit: int = 600000):
 
 
 # ---------------------------------------------------------------- fetching --
-def fetch(url: str, tries: int = 3, referer: str = f"{BASE}/betting-tips") -> tuple[int, bytes, str]:
+def fetch(url: str, tries: int = 2, referer: str = f"{BASE}/betting-tips", timeout: int = 20) -> tuple[int, bytes, str]:
     last = ""
     for attempt in range(tries):
         try:
@@ -146,7 +146,7 @@ def fetch(url: str, tries: int = 3, referer: str = f"{BASE}/betting-tips") -> tu
                     "Referer": referer,
                 },
             )
-            with urllib.request.urlopen(request, timeout=40) as response:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
                 body = response.read()
                 if response.headers.get("Content-Encoding") == "gzip":
                     body = gzip.decompress(body)
@@ -306,7 +306,7 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
                 url = re.sub(r"paginate=[\d\-]+", f"paginate={start}-{end}", candidate)
                 url = url.replace("include_expired=1", "include_expired=0")
                 url = absolute(url)
-                status, body, error = fetch(url, tries=2)
+                status, body, error = fetch(url, tries=1, timeout=12)
                 print(f"{key} {start}-{end} status={status} bytes={len(body)} host={url.split('/')[2]} err={error}", flush=True)
                 if status == 200 and body:
                     working = candidate
