@@ -44,8 +44,10 @@
       <div class="side-bottom">Source-first, never a live odds service.<br><a href="${local('../snapshot.html')}">View 26 Oct archive ↗</a></div></aside>`;
     const picker = document.querySelector('#mobile-sport');
     picker?.addEventListener('change', e=>{ if (e.target.value) location.href=local(`sports/${encodeURIComponent(e.target.value)}.html`); });
-    const fresh = !stale(data.capturedAt);
-    document.querySelector('#topbar').innerHTML = `<div class="topbar"><div class="top-left">RESEARCH DESK <span style="padding:0 7px;color:#c9d6cf">/</span> <strong>${esc(page==='sport' ? data.sports.find(s=>s.key===sportKey)?.name || 'Sport' : ({home:'Overview',listings:'All listings',briefs:'Research briefs',review:'Flagged for review',method:'Methodology'}[page] || 'Overview'))}</strong></div><div class="top-right"><span class="live-dot ${fresh?'':'stale'}"></span><span>${fresh?'Captured':'Snapshot'} ${esc(ageText(data.capturedAt))}</span><span class="top-pill ${fresh?'':'warn'}">${fresh?'Source snapshot':'Refresh overdue'}</span></div></div>`;
+    const errors = data.hubs.filter(h=>h.status==='error').length;
+    const fresh = !stale(data.capturedAt) && errors === 0;
+    const freshness = stale(data.capturedAt) ? 'Refresh overdue' : errors ? `${errors} source error${errors===1?'':'s'}` : 'Source snapshot';
+    document.querySelector('#topbar').innerHTML = `<div class="topbar"><div class="top-left">RESEARCH DESK <span style="padding:0 7px;color:#c9d6cf">/</span> <strong>${esc(page==='sport' ? data.sports.find(s=>s.key===sportKey)?.name || 'Sport' : ({home:'Overview',listings:'All listings',briefs:'Research briefs',review:'Flagged for review',method:'Methodology'}[page] || 'Overview'))}</strong></div><div class="top-right"><span class="live-dot ${fresh?'':'stale'}"></span><span>${fresh?'Captured':'Snapshot'} ${esc(ageText(data.capturedAt))}</span><span class="top-pill ${fresh?'':'warn'}">${esc(freshness)}</span></div></div>`;
     document.querySelector('#footer').innerHTML = `<footer class="footer"><p><strong>The Research Desk</strong> · independent, source-first research<br>Capture: ${esc(humanTime(data.capturedAt))}</p><p>Prices are observations, not offers. Check all sources and limits.<br><a href="https://www.ncpgambling.org/help-treatment/" target="_blank" rel="noopener noreferrer">Gambling support ↗</a></p></footer>`;
   }
 
@@ -59,7 +61,9 @@
 
   function marketDetails(row) {
     const detail = row.details;
-    if (!detail || detail.status !== 'ok' || !detail.markets?.length) return '';
+    if (!detail) return '';
+    if (detail.status !== 'ok') return `<span class="status-text">Market detail: ${esc(detail.status)}${detail.detail ? ` (${esc(detail.detail)})` : ''}</span>`;
+    if (!detail.markets?.length) return '';
     return `<details class="mini-details"><summary>${detail.markets.length} sampled market${detail.markets.length===1?'':'s'}</summary><div class="market-list">${detail.markets.map(m=>`<div><div class="market-name">${esc(m.name)}</div><div class="market-outcomes">${(m.selections || []).map(s=>`${esc(s.selection)} <strong>${price(s.odds)}</strong>`).join(' · ') || 'No outcomes captured'}</div></div>`).join('')}</div></details>`;
   }
   function sourceStatus(e) {
@@ -68,6 +72,13 @@
     const d = difference(e);
     if (d !== null && d !== 0) return `Start times differ by ${Math.abs(d)} min`;
     return e.official.kind === 'manual' && !e.official.start ? 'Official identity; time not checked' : 'Official event matched';
+  }
+  function referenceCell(e) {
+    const r = e.researchLine;
+    if (r) return `<strong>${esc(r.home)} ${price({american:r.homeAmerican})}</strong><span class="subtle">${esc(r.away)} ${price({american:r.awayAmerican})} · uncalibrated</span><span class="status-text">Reference only, review</span><details class="mini-details"><summary>Inputs &amp; limits</summary><div class="market-list">${[r.home,r.away].map(team=>{const v=r.inputs[team];return `<div>${esc(team)}: ${esc(v.gamesPlayed)} games, ${esc(v.goalFor)} goals for, ${esc(v.goalAgainst)} against</div>`;}).join('')}<div>Equal split of tied scores; no goalie, injury, home-ice or calibration adjustment.</div><div>${external(r.source,'NHL standings')}</div></div></details>`;
+    const b=e.referenceBrief;
+    if (b) return `<strong>${price(b.researchLine)}</strong><span class="subtle">${esc(b.selection)} · uncalibrated</span><span class="status-text">Reference only, review</span><a class="source-link" href="${local('briefs.html')}">Inputs &amp; limits →</a>`;
+    return '—<span class="subtle">No independent line</span>';
   }
   function eventRow(e,sport) {
     const official = e.official?.url || sport.official;
@@ -80,7 +91,7 @@
       <td class="time"><strong>${esc(shortTime(mainTime))}</strong><span class="subtle">${esc(timeLabel)}</span>${d!==null&&d!==0?`<span class="status-text">OLBG: ${esc(shortTime(e.start))}</span>`:''}</td>
       <td class="selection">${e.selection?`<strong>${esc(e.selection)}</strong><span class="subtle">${esc(e.market || 'Market not supplied')}</span>`:'—<span class="subtle">No selection captured</span>'}</td>
       <td><span class="price">${price(e.odds)}</span><span class="subtle">${e.odds?'OLBG snapshot':'Not supplied'}</span></td>
-      <td>${e.researchLine ? `<strong>${esc(e.researchLine.home)} ${price({american:e.researchLine.homeAmerican})}</strong><span class="subtle">${esc(e.researchLine.away)} ${price({american:e.researchLine.awayAmerican})} · uncalibrated</span><span class="status-text">Reference only, review</span><details class="mini-details"><summary>Inputs &amp; limits</summary><div class="market-list">${[e.researchLine.home,e.researchLine.away].map(team=>{const v=e.researchLine.inputs[team];return `<div>${esc(team)}: ${esc(v.gamesPlayed)} games, ${esc(v.goalFor)} goals for, ${esc(v.goalAgainst)} against</div>`;}).join('')}<div>Equal split of tied scores; no goalie, injury, home-ice or calibration adjustment.</div><div>${external(e.researchLine.source,'NHL standings')}</div></div></details>` : '—<span class="subtle">No independent line</span>'}</td>
+      <td>${referenceCell(e)}</td>
       <td class="sources">${external(official,specific?'Official event':'Official directory',specific?'Source for the event identity':'General sport reference; not an event match')} ${external(e.url,'OLBG')}<span class="${specific && !(d!==null&&d!==0) ? 'subtle':'status-text'}">${esc(sourceStatus(e))}</span></td>
     </tr>`;
   }
@@ -105,11 +116,14 @@
   function active(data) { return data.events.filter(displayable).sort(eventSort); }
   function overview(data,briefs) {
     const rows=active(data), matched=rows.filter(e=>e.official), sampled=rows.filter(e=>e.details?.status==='ok');
+    const failedHubs=data.hubs.filter(h=>h.status==='error');
+    const failedOfficial=data.officialFeeds.filter(f=>f.status==='error');
     const staleNotice = stale(data.capturedAt) ? notice('Refresh overdue.',`This capture is ${esc(ageText(data.capturedAt))}; odds and event status may no longer be current. Check the linked sources.`) : '';
+    const failedNotice = failedHubs.length || failedOfficial.length ? notice('Collection gaps.',`${failedHubs.length} OLBG hub(s) and ${failedOfficial.length} official feed(s) failed. See Flagged for review; failures are not zero-event findings.`) : '';
     const availableBriefs = briefs.filter(b=>briefState(b)==='Needs review').slice(0,2);
-    app.innerHTML = `${head('Executive summary','A clearer view of the field','Current OLBG observations, official sources, and research gaps—kept separate from betting recommendations.',action('Review the flags','review.html'))}${staleNotice}
+    app.innerHTML = `${head('Executive summary','A clearer view of the field','Current OLBG observations, official sources, and research gaps—kept separate from betting recommendations.',action('Review the flags','review.html'))}${staleNotice}${failedNotice}
       <section class="hero"><div class="hero-content"><div class="hero-kicker"><span class="live-dot"></span> Source-first coverage · 15 sports</div><h2>Research with the caveats in view.</h2><p>Prices are a captured OLBG display, not a live offer. Popular selections belong to OLBG’s tipsters; they are not our predictions or win probabilities.</p></div>${action('Explore listings','listings.html',true)}</section>
-      <div class="stats">${stat('Upcoming OLBG listings',rows.length,'First rendered hub pages only','calendar')}${stat('Official-source matches',matched.length,'Identity links, not pick clearance','check')}${stat('Independent reference lines',rows.filter(e=>e.researchLine).length,'NHL only · uncalibrated','layers')}${stat('Cleared picks',data.publishedPicks.length,'Target: 5 per sport, per day','target')}</div>
+      <div class="stats">${stat('Upcoming OLBG listings',rows.length,'First rendered hub pages only','calendar')}${stat('Official-source matches',matched.length,'Identity links, not pick clearance','check')}${stat('Independent reference lines',rows.filter(e=>e.researchLine||e.referenceBrief).length,'Review only · uncalibrated','layers')}${stat('Cleared picks',data.publishedPicks.length,'Target: 5 per sport, per day','target')}</div>
       ${section('Browse by sport','Gaelic Sports includes Gaelic football and hurling.','All listings','listings.html')}<div class="sport-grid">${data.sports.map(s=>sportCard(s,rows,data)).join('')}</div>
       ${section('Officially sourced events','A selection of upcoming rows with an event-specific source.','See all listings','listings.html')}<div class="surface">${table(matched.slice(0,8),data,{empty:'No upcoming event-specific crosswalks in this capture.'})}</div>
       ${section('Research notes','Independent, low-confidence leans remain flagged—not cleared picks.','All briefs','briefs.html')}<div class="surface">${availableBriefs.length?availableBriefs.map(briefCard).join(''):'<div class="empty">No fresh research briefs. Historical notes remain available in Research briefs.</div>'}</div>`;
@@ -117,17 +131,18 @@
   function filteredPage(data, rows, options={}) {
     const allowed = options.lockSport ? [options.lockSport] : data.sports.map(s=>s.key);
     const dropdown = options.lockSport ? '' : `<label class="field"><span>Sport</span><select id="sport-filter"><option value="">All sports</option>${data.sports.map(s=>`<option value="${esc(s.key)}">${esc(s.name)}</option>`).join('')}</select></label>`;
-    const content = `<div class="surface"><div class="filters"><label class="field grow"><span>Search events or selections</span><input id="event-search" type="search" placeholder="Search the captured listings…" autocomplete="off"></label>${dropdown}<label class="field"><span>Official source</span><select id="source-filter"><option value="">All source states</option><option value="matched">Event-specific</option><option value="missing">Needs event match</option></select></label><div class="result-count" id="result-count"></div></div><div id="listing-results"></div><div id="more-results" style="padding:0 18px 18px"></div></div>`;
+    const content = `<div class="surface"><div class="filters"><label class="field grow"><span>Search events or selections</span><input id="event-search" type="search" placeholder="Search the captured listings…" autocomplete="off"></label>${dropdown}<label class="field"><span>Official source</span><select id="source-filter"><option value="">All source states</option><option value="matched">Event-specific</option><option value="missing">Needs event match</option></select></label><label class="field"><span>OLBG price</span><select id="price-filter"><option value="">Any price</option><option value="window">−250 to +10000</option></select></label><div class="result-count" id="result-count"></div></div><div id="listing-results"></div><div id="more-results" style="padding:0 18px 18px"></div></div>`;
     const update = () => {
       const q = (document.querySelector('#event-search')?.value || '').trim().toLowerCase();
       const key = document.querySelector('#sport-filter')?.value || '';
       const source = document.querySelector('#source-filter')?.value || '';
-      const filtered = rows.filter(e=>allowed.includes(e.sport) && (!key||e.sport===key) && (!source||(source==='matched' ? !!e.official : !e.official)) && `${e.event||''} ${e.selection||''} ${e.market||''} ${e.competition||''}`.toLowerCase().includes(q));
+      const windowOnly = document.querySelector('#price-filter')?.value === 'window';
+      const filtered = rows.filter(e=>allowed.includes(e.sport) && (!key||e.sport===key) && (!source||(source==='matched' ? !!e.official : !e.official)) && (!windowOnly || (e.odds && e.odds.american >= -250 && e.odds.american <= 10000)) && `${e.event||''} ${e.selection||''} ${e.market||''} ${e.competition||''}`.toLowerCase().includes(q));
       let shown = 30;
       const paint = () => { document.querySelector('#listing-results').innerHTML=table(filtered.slice(0,shown),data); document.querySelector('#result-count').textContent=`${filtered.length} listing${filtered.length===1?'':'s'}`; const more=document.querySelector('#more-results'); more.innerHTML=shown<filtered.length?`<button class="button" type="button" id="show-more">Show more (${filtered.length-shown})</button>`:''; document.querySelector('#show-more')?.addEventListener('click',()=>{shown+=30;paint();}); };
       paint();
     };
-    setTimeout(()=>{ ['event-search','sport-filter','source-filter'].forEach(id=>document.querySelector(`#${id}`)?.addEventListener(id==='event-search'?'input':'change',update)); update(); },0);
+    setTimeout(()=>{ ['event-search','sport-filter','source-filter','price-filter'].forEach(id=>document.querySelector(`#${id}`)?.addEventListener(id==='event-search'?'input':'change',update)); update(); },0);
     return content;
   }
   function listings(data) {
@@ -151,11 +166,12 @@
       <div class="surface">${briefs.map(briefCard).join('')}</div>`;
   }
   function review(data) {
-    const rows=active(data), unmatched=rows.filter(e=>!e.official), conflicts=rows.filter(e=>difference(e)!==null&&difference(e)!==0), bad=data.hubs.filter(h=>h.status==='error'), noTips=data.hubs.filter(h=>h.status==='no-tips');
+    const rows=active(data), unmatched=rows.filter(e=>!e.official), conflicts=rows.filter(e=>difference(e)!==null&&difference(e)!==0), bad=data.hubs.filter(h=>h.status==='error'), noTips=data.hubs.filter(h=>h.status==='no-tips'), detailErrors=rows.filter(e=>e.details && e.details.status!=='ok');
     app.innerHTML = `${head('Quality & limitations','Flagged for review','The gaps stay visible. An event-specific source link establishes an identity, not a betting recommendation.',action('View listings','listings.html'))}
       ${stale(data.capturedAt)?notice('Snapshot is stale.',`Last captured ${esc(humanTime(data.capturedAt))}. Recheck prices, statuses and all links.`):''}
-      <div class="flag-grid"><div class="flag-card"><h3>Daily pick target unmet</h3><p>Zero cleared picks. Four dated low-confidence briefs do not meet the request for five high-confidence picks per sport each day.</p></div><div class="flag-card"><h3>Partial discovery</h3><p>Only first hub pages and at most ${esc(data.limits.eventDetailsPerSport)} event detail pages per sport are captured. Untipped and load-more events can be absent.</p></div><div class="flag-card"><h3>Odds &amp; market rules</h3><p>Displayed prices are timestamped OLBG observations, not bookmaker-specific offers. Settlement, limits, availability and calibration are not established.</p></div><div class="flag-card"><h3>${unmatched.length} source gaps</h3><p>These upcoming OLBG entries link only to a general sport directory; event identity and official timing have not been established.</p></div><div class="flag-card"><h3>${conflicts.length} start-time differences</h3><p>Where both timestamps exist, differing OLBG and official times are displayed side by side. Recheck the official fixture.</p></div><div class="flag-card"><h3>${bad.length} unavailable hub${bad.length===1?'':'s'} · ${noTips.length} no-tips page${noTips.length===1?'':'s'}</h3><p>An access or parser error is not a claim that a sport has no events. A no-tips page is not a complete fixture census.</p></div></div>
+      <div class="flag-grid"><div class="flag-card"><h3>Daily pick target unmet</h3><p>Zero cleared picks. Four dated low-confidence briefs do not meet the request for five high-confidence picks per sport each day.</p></div><div class="flag-card"><h3>Partial discovery</h3><p>Only first hub pages and at most ${esc(data.limits.eventDetailsPerSport)} event detail pages per sport are captured. Untipped and load-more events can be absent.</p></div><div class="flag-card"><h3>Odds &amp; market rules</h3><p>Displayed prices are timestamped OLBG observations, not bookmaker-specific offers. Settlement, limits, availability and calibration are not established.</p></div><div class="flag-card"><h3>${unmatched.length} source gaps</h3><p>These upcoming OLBG entries link only to a general sport directory; event identity and official timing have not been established.</p></div><div class="flag-card"><h3>${conflicts.length} start-time differences</h3><p>Where both timestamps exist, differing OLBG and official times are displayed side by side. Recheck the official fixture.</p></div><div class="flag-card"><h3>${bad.length} unavailable hubs · ${detailErrors.length} market-page errors</h3><p>There are also ${noTips.length} no-tips pages. An access or parser error is not a claim that a sport has no events; no-tips pages are not complete fixture censuses.</p></div></div>
       ${section('Hub status','Status is per first-page capture; both Gaelic hubs are shown.')}<div class="surface"><div class="table-wrap"><table><thead><tr><th>Hub</th><th>Capture status</th><th>Listings</th><th>Official reference</th><th>OLBG source</th></tr></thead><tbody>${data.hubs.map(h=>{const s=data.sports.find(x=>x.key===h.sport);return `<tr><td><strong>${esc(h.label)}</strong></td><td>${esc(h.status)}<span class="subtle">${esc(h.detail||'')}</span></td><td>${esc(h.count)}</td><td>${external(s.official,s.officialLabel,'General reference, not event confirmation')}</td><td>${external(h.url,'Hub')}</td></tr>`;}).join('')}</tbody></table></div></div>
+      ${section('Official feed status','An error means the live schedule or standings could not be used in this capture.')}<div class="surface"><div class="table-wrap"><table><thead><tr><th>Official feed</th><th>Status</th><th>Records</th><th>Source</th></tr></thead><tbody>${data.officialFeeds.map(f=>`<tr><td><strong>${esc(f.name)}</strong></td><td>${esc(f.status)}<span class="subtle">${esc(f.detail||'')}</span></td><td>${esc(f.count ?? '—')}</td><td>${external(f.url,'Official feed')}</td></tr>`).join('')}</tbody></table></div></div>
       ${section('Rows needing official matching or time review','Browse all affected events; the official-directory label is not a fixture confirmation.')} ${filteredPage(data,rows.filter(e=>!e.official || (difference(e)!==null && difference(e)!==0)))}
       ${section('Other open checks','Manual official-source checks are dated and become stale; injuries, lineups and current prices need renewed review.')}<div class="surface pad prose"><p>The old 26 October snapshot incorrectly excluded hurling. This release includes both OLBG Gaelic Football and Hurling hubs. <a class="source-link" href="https://www.gaa.ie/the-gaa/games/our-games" target="_blank" rel="noopener noreferrer">GAA games ↗</a></p><p>Research briefs are independently written and held for review; their historical quotes and time-sensitive facts are not automatically refreshed. <a class="source-link" href="${local('briefs.html')}">Read the briefs →</a></p></div>`;
   }
@@ -169,6 +185,11 @@
   }
   Promise.all([fetch(local('live.json'),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`snapshot ${r.status}`);return r.json();}),fetch(local('briefs.json'),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`briefs ${r.status}`);return r.json();})]).then(([data,briefs])=>{
     if (data.schema !== 'olbg-current/v1' || !Array.isArray(data.events) || !Array.isArray(data.sports)) throw Error('Invalid snapshot schema');
+    for (const b of briefs) {
+      if (!b.researchLine || briefState(b)!=='Needs review') continue;
+      const e=data.events.find(row=>row.sport===b.sport && row.id===b.eventId && row.event===b.event);
+      if (e) e.referenceBrief=b;
+    }
     renderChrome(data);
     if(page==='home') overview(data,briefs); else if(page==='listings') listings(data); else if(page==='sport') sportPage(data,briefs); else if(page==='briefs') briefsPage(data,briefs); else if(page==='review') review(data); else methodology(data);
   }).catch(error=>{app.innerHTML=`<div class="notice"><div><strong>Snapshot unavailable.</strong> The research data could not be loaded (${esc(error.message)}). This is not evidence that there are no events.</div></div>`;});

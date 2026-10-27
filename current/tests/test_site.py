@@ -61,7 +61,8 @@ class SiteTests(unittest.TestCase):
         for e in data['events']:
             pair=(e['hub'],e['id']); self.assertNotIn(pair,pairs);pairs.add(pair)
             self.assertEqual(urlparse(e['url']).hostname,'www.olbg.com')
-            self.assertTrue(e['event'])
+            if not e['event']:
+                self.assertIsNone(e['official'])
             if e['official']:
                 self.assertEqual(urlparse(e['official']['url']).scheme,'https')
             if e['odds']:
