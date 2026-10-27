@@ -307,4 +307,23 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:  # noqa: BLE001
+        import traceback
+
+        OUT.mkdir(parents=True, exist_ok=True)
+        (OUT / "crash.json").write_text(
+            json.dumps(
+                {
+                    "status": "crashed",
+                    "when": ts_iso(),
+                    "argv": sys.argv,
+                    "traceback": traceback.format_exc(),
+                },
+                indent=2,
+            )
+            + "\n"
+        )
+        traceback.print_exc()
+        raise

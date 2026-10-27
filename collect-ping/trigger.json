@@ -3,5 +3,7 @@
   "run_id": 3,
   "stage": "production",
   "requested_utc": "2026-10-27T05:55:00Z",
-  "note": "Fix commit scope: stage data/olbg (production output dir)."
+  "note": "heartbeat+crash trap: self-reporting runner diagnostics",
+  "bump": 1,
+  "at": "2026-10-27T05:39:04Z"
 }

@@ -34,7 +34,25 @@ jobs:
         run: |
           git config user.name "desk-collector-51373243"
           git config user.email "actions@users.noreply.github.com"
+          mkdir -p data/olbg
+          # heartbeat: always commit something so a silent no-commit is impossible
+          python3 - <<'PYEOF'
+          import json, time
+          from pathlib import Path
+          out = Path("data/olbg")
+          files = {
+              "when_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+              "files_written": sorted(
+                  p.name for p in out.iterdir() if p.is_file()
+              ),
+              "tip_rows": len(json.loads((out / "tips.json").read_text())) if (out / "tips.json").exists() else None,
+              "summary_status": json.loads((out / "summary.json").read_text()).get("status") if (out / "summary.json").exists() else None,
+              "crash_file": (out / "crash.json").exists(),
+          }
+          (out / "runner-heartbeat.json").write_text(json.dumps(files, indent=2) + "\n")
+          PYEOF
           git add data/olbg data/raw collect collect-ping || true
           git diff --cached --quiet || git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash origin arena/51373243-olbg8 || true
           git push origin HEAD:arena/51373243-olbg8 || echo "PUSH FAILED: snapshots remain in run log"
+          echo "=== committed: ===" && git log --oneline -3
