@@ -143,17 +143,14 @@ def main() -> int:
                 if frag not in dest_anchors:
                     errors.append(f"{page.relative_to(ROOT)}: missing anchor #{frag} in {dest.relative_to(ROOT)}")
 
-    # The landing page is a client-rendered shell: index.html mounts #app and
-    # defers to assets/app.js, which is what actually renders the executive
-    # summary. Asserting on index.html's static text therefore failed even
-    # though the reader does see an executive summary. Check the shell mounts the
-    # app and that the renderer emits the section - the intent, not the artefact.
-    landing = (ROOT / "index.html").read_text(encoding="utf-8")
-    renderer = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
-    ok('id="app"' in landing and "assets/app.js" in landing,
-       "landing page does not mount the client renderer")
-    ok(renderer.count("Executive summary") >= 1,
-       "landing page renderer does not emit an executive summary")
+    # The desk at root is a static, server-rendered site: scripts/build_site.py
+    # writes the executive summary straight into index.html, so assert on the
+    # page the reader actually receives. (This check briefly targeted a
+    # client-side renderer during a rebuild that has since been reverted; the
+    # assertion has to follow whichever form the committed pages are in, or it
+    # fails on a tree that is otherwise correct.)
+    ok((ROOT / "index.html").read_text(encoding="utf-8").count("Executive summary") >= 1,
+       "landing page has no executive summary")
 
     print(f"pages: {len(pages)} | sports: {len(sports)} | listings: {sum(len(v) for v in inv_events.values())} "
           f"| picks: {len(picks)} | flags: {len(flags)} | checks: {checks}")
