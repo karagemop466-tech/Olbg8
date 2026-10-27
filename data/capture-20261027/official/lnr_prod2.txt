@@ -1,5 +1,5 @@
 SOURCE: https://prod2.lnr.fr/calendrier-et-resultats
-FETCHED_UTC: 2026-10-27T05:33:53Z
+FETCHED_UTC: 2026-10-27T05:41:10Z
 
 Calendrier et résultats de la journée 9 - 2026-2027 | Pro D2 - Site Officiel 
  Menu 

@@ -1,9 +1,131 @@
 {
-  "capture_utc": "2026-10-27T05:33:44Z",
+  "all_events": {
+    "baseball": {
+      "bytes": 12424,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Baseball/All_Baseball/All_Events/12/__data.json"
+    },
+    "basketball": {
+      "bytes": 34412,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Basketball/All_Basketball/All_Events/4/__data.json"
+    },
+    "cricket": {
+      "bytes": 25475,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/7/__data.json"
+    },
+    "darts": {
+      "bytes": 13206,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/15/__data.json"
+    },
+    "gaelic_football": {
+      "bytes": 14787,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/25/__data.json"
+    },
+    "golf": {
+      "bytes": 13965,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/5/__data.json"
+    },
+    "greyhounds": {
+      "bytes": 9022,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Greyhounds/All_Greyhounds/All_Events/28/__data.json"
+    },
+    "handball": {
+      "bytes": 25797,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/20/__data.json"
+    },
+    "hurling": {
+      "bytes": 12517,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/26/__data.json"
+    },
+    "ice_hockey": {
+      "bytes": 25849,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Ice_Hockey/All_Ice_Hockey/All_Events/13/__data.json"
+    },
+    "motor_racing": {
+      "bytes": 13710,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/14/__data.json"
+    },
+    "rugby_league": {
+      "bytes": 14017,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/10/__data.json"
+    },
+    "rugby_union": {
+      "bytes": 22009,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/9/__data.json"
+    },
+    "snooker": {
+      "bytes": 8966,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Snooker/All_Snooker/All_Events/8/__data.json"
+    },
+    "tennis": {
+      "bytes": 42089,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/3/__data.json"
+    },
+    "volleyball": {
+      "bytes": 28541,
+      "error": "",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/21/__data.json"
+    }
+  },
+  "capture_utc": "2026-10-27T05:40:57Z",
   "collector": "scripts/collect_20261027.py",
   "events": {
+    "101913": {
+      "bytes": 55704,
+      "error": "",
+      "page_url": "/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+      "sport_key": "golf",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5/__data.json?event_id=101913"
+    },
+    "101914": {
+      "bytes": 42119,
+      "error": "",
+      "page_url": "/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+      "sport_key": "golf",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5/__data.json?event_id=101914"
+    },
+    "101915": {
+      "bytes": 88621,
+      "error": "",
+      "page_url": "/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+      "sport_key": "golf",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5/__data.json?event_id=101915"
+    },
     "12127": {
-      "bytes": 16018,
+      "bytes": 16119,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127",
       "sport_key": "handball",
@@ -11,7 +133,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20/__data.json?event_id=12127"
     },
     "12128": {
-      "bytes": 18635,
+      "bytes": 18612,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
       "sport_key": "handball",
@@ -19,7 +141,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20/__data.json?event_id=12128"
     },
     "12129": {
-      "bytes": 16027,
+      "bytes": 16021,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20?event_id=12129",
       "sport_key": "handball",
@@ -27,7 +149,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/GOG_vs_Sporting_CP/20/__data.json?event_id=12129"
     },
     "12130": {
-      "bytes": 21808,
+      "bytes": 21810,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
       "sport_key": "handball",
@@ -35,7 +157,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20/__data.json?event_id=12130"
     },
     "12131": {
-      "bytes": 16208,
+      "bytes": 16239,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20?event_id=12131",
       "sport_key": "handball",
@@ -43,7 +165,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/IFK_Kristianstad_vs_Pick_Szeged/20/__data.json?event_id=12131"
     },
     "12132": {
-      "bytes": 16049,
+      "bytes": 16123,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20?event_id=12132",
       "sport_key": "handball",
@@ -51,7 +173,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/KS_Kielce_vs_Kolstad/20/__data.json?event_id=12132"
     },
     "12133": {
-      "bytes": 16223,
+      "bytes": 16254,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20?event_id=12133",
       "sport_key": "handball",
@@ -59,7 +181,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Montpellier_vs_Dinamo_Bucuresti/20/__data.json?event_id=12133"
     },
     "12134": {
-      "bytes": 16282,
+      "bytes": 16353,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
       "sport_key": "handball",
@@ -67,7 +189,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20/__data.json?event_id=12134"
     },
     "12135": {
-      "bytes": 16082,
+      "bytes": 16059,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20?event_id=12135",
       "sport_key": "handball",
@@ -75,7 +197,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/RK_Celje_vs_RK_Zagreb/20/__data.json?event_id=12135"
     },
     "12136": {
-      "bytes": 16246,
+      "bytes": 16350,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
       "sport_key": "handball",
@@ -83,7 +205,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20/__data.json?event_id=12136"
     },
     "12137": {
-      "bytes": 16392,
+      "bytes": 16391,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20?event_id=12137",
       "sport_key": "handball",
@@ -91,7 +213,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Skanderborg_Handbold_vs_FC_Barcelona/20/__data.json?event_id=12137"
     },
     "12138": {
-      "bytes": 16067,
+      "bytes": 16141,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
       "sport_key": "handball",
@@ -99,7 +221,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20/__data.json?event_id=12138"
     },
     "12158": {
-      "bytes": 14055,
+      "bytes": 14054,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Fredericia_HK_vs_Mors_Thy_Handbold/20?event_id=12158",
       "sport_key": "handball",
@@ -107,7 +229,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fredericia_HK_vs_Mors_Thy_Handbold/20/__data.json?event_id=12158"
     },
     "12163": {
-      "bytes": 14067,
+      "bytes": 14113,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/Team_Tvis_Holstebro_vs_TMS_Ringsted/20?event_id=12163",
       "sport_key": "handball",
@@ -115,7 +237,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Team_Tvis_Holstebro_vs_TMS_Ringsted/20/__data.json?event_id=12163"
     },
     "12169": {
-      "bytes": 13975,
+      "bytes": 13951,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/ThSV_Eisenach_vs_Fuchse_Berlin/20?event_id=12169",
       "sport_key": "handball",
@@ -123,7 +245,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/ThSV_Eisenach_vs_Fuchse_Berlin/20/__data.json?event_id=12169"
     },
     "12180": {
-      "bytes": 14339,
+      "bytes": 14315,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20?event_id=12180",
       "sport_key": "handball",
@@ -131,7 +253,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SG_Flensburg_Handewitt_vs_HBW_Balingen_Weilstetten/20/__data.json?event_id=12180"
     },
     "12185": {
-      "bytes": 13959,
+      "bytes": 14033,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/BM_Granollers_vs_FC_Barcelona/20?event_id=12185",
       "sport_key": "handball",
@@ -139,7 +261,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/BM_Granollers_vs_FC_Barcelona/20/__data.json?event_id=12185"
     },
     "12196": {
-      "bytes": 23560,
+      "bytes": 23591,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
       "sport_key": "handball",
@@ -147,7 +269,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20/__data.json?event_id=12196"
     },
     "12197": {
-      "bytes": 23535,
+      "bytes": 23566,
       "error": "",
       "page_url": "/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
       "sport_key": "handball",
@@ -155,7 +277,7 @@
       "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20/__data.json?event_id=12197"
     },
     "160795": {
-      "bytes": 92300,
+      "bytes": 92304,
       "error": "",
       "page_url": "/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795",
       "sport_key": "baseball",
@@ -163,15 +285,63 @@
       "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12/__data.json?event_id=160795"
     },
     "160799": {
-      "bytes": 15344,
+      "bytes": 15348,
       "error": "",
       "page_url": "/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
       "sport_key": "baseball",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12/__data.json?event_id=160799"
     },
+    "182606": {
+      "bytes": 34139,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7?event_id=182606",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/World_Cup_2027/7/__data.json?event_id=182606"
+    },
+    "187184": {
+      "bytes": 16185,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7?event_id=187184",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Big_Bash_Women_2026/7/__data.json?event_id=187184"
+    },
+    "187503": {
+      "bytes": 16276,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7?event_id=187503",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Big_Bash_2026-27/7/__data.json?event_id=187503"
+    },
+    "187504": {
+      "bytes": 15088,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7?event_id=187504",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/SA20_2026-27/7/__data.json?event_id=187504"
+    },
+    "188350": {
+      "bytes": 19887,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7?event_id=188350",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/T20_Blast_2027/7/__data.json?event_id=188350"
+    },
+    "188835": {
+      "bytes": 42344,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7?event_id=188835",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/South_Africa_vs_Australia/7/__data.json?event_id=188835"
+    },
     "188852": {
-      "bytes": 178240,
+      "bytes": 178314,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
       "sport_key": "cricket",
@@ -179,15 +349,23 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7/__data.json?event_id=188852"
     },
     "188854": {
-      "bytes": 91329,
+      "bytes": 91333,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
       "sport_key": "cricket",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7/__data.json?event_id=188854"
     },
+    "188863": {
+      "bytes": 42092,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7?event_id=188863",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Renegades_W_vs_Sydney_Thunder_W_T20_Big_Bash/7/__data.json?event_id=188863"
+    },
     "188864": {
-      "bytes": 17308,
+      "bytes": 17312,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7?event_id=188864",
       "sport_key": "cricket",
@@ -195,7 +373,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Melbourne_Stars_W_vs_Hobart_Hurricanes_W_T20_Big_Bash/7/__data.json?event_id=188864"
     },
     "188865": {
-      "bytes": 13667,
+      "bytes": 13671,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Brisbane_Heat_W_vs_Sydney_Sixers_W_T20_Big_Bash/7?event_id=188865",
       "sport_key": "cricket",
@@ -210,8 +388,16 @@
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7/__data.json?event_id=188868"
     },
+    "188871": {
+      "bytes": 38233,
+      "error": "",
+      "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7?event_id=188871",
+      "sport_key": "cricket",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Bangladesh_vs_West_Indies/7/__data.json?event_id=188871"
+    },
     "188872": {
-      "bytes": 100857,
+      "bytes": 100861,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
       "sport_key": "cricket",
@@ -219,7 +405,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7/__data.json?event_id=188872"
     },
     "188874": {
-      "bytes": 13246,
+      "bytes": 13250,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7?event_id=188874",
       "sport_key": "cricket",
@@ -227,7 +413,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Lions_vs_Eastern_Storm_T20/7/__data.json?event_id=188874"
     },
     "188876": {
-      "bytes": 24747,
+      "bytes": 24751,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7?event_id=188876",
       "sport_key": "cricket",
@@ -235,7 +421,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Auckland_vs_Canterbury_One_Day_Match/7/__data.json?event_id=188876"
     },
     "188877": {
-      "bytes": 22441,
+      "bytes": 22455,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7?event_id=188877",
       "sport_key": "cricket",
@@ -243,7 +429,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Central_Districts_vs_Northern_Districts_One_Day_Match/7/__data.json?event_id=188877"
     },
     "188878": {
-      "bytes": 22138,
+      "bytes": 22152,
       "error": "",
       "page_url": "/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7?event_id=188878",
       "sport_key": "cricket",
@@ -251,7 +437,7 @@
       "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Wellington_vs_Otago_One_Day_Match/7/__data.json?event_id=188878"
     },
     "200081": {
-      "bytes": 26819,
+      "bytes": 26850,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
       "sport_key": "ice_hockey",
@@ -259,7 +445,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13/__data.json?event_id=200081"
     },
     "200082": {
-      "bytes": 27612,
+      "bytes": 27621,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
       "sport_key": "ice_hockey",
@@ -267,7 +453,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13/__data.json?event_id=200082"
     },
     "200083": {
-      "bytes": 26463,
+      "bytes": 26467,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
       "sport_key": "ice_hockey",
@@ -275,7 +461,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13/__data.json?event_id=200083"
     },
     "200098": {
-      "bytes": 22039,
+      "bytes": 22148,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13?event_id=200098",
       "sport_key": "ice_hockey",
@@ -283,7 +469,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Danish_Metal_Ligaen/Herning_Blue_Fox_vs_Rodovre_Mighty_Bulls/13/__data.json?event_id=200098"
     },
     "200100": {
-      "bytes": 27498,
+      "bytes": 27475,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13?event_id=200100",
       "sport_key": "ice_hockey",
@@ -291,7 +477,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Germany_Eishockey_Liga/Kolner_Haie_vs_Adler_Mannheim/13/__data.json?event_id=200100"
     },
     "200102": {
-      "bytes": 56194,
+      "bytes": 44056,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102",
       "sport_key": "ice_hockey",
@@ -299,7 +485,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13/__data.json?event_id=200102"
     },
     "200103": {
-      "bytes": 64023,
+      "bytes": 47812,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103",
       "sport_key": "ice_hockey",
@@ -307,7 +493,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13/__data.json?event_id=200103"
     },
     "200104": {
-      "bytes": 27288,
+      "bytes": 27362,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104",
       "sport_key": "ice_hockey",
@@ -315,7 +501,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13/__data.json?event_id=200104"
     },
     "200105": {
-      "bytes": 25589,
+      "bytes": 25593,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13?event_id=200105",
       "sport_key": "ice_hockey",
@@ -323,7 +509,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/FLA_Panthers_@_WPG_Jets/13/__data.json?event_id=200105"
     },
     "200108": {
-      "bytes": 27159,
+      "bytes": 27161,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
       "sport_key": "ice_hockey",
@@ -331,7 +517,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13/__data.json?event_id=200108"
     },
     "200111": {
-      "bytes": 25569,
+      "bytes": 25638,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13?event_id=200111",
       "sport_key": "ice_hockey",
@@ -339,7 +525,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NJ_Devils_@_DAL_Stars/13/__data.json?event_id=200111"
     },
     "200112": {
-      "bytes": 16727,
+      "bytes": 16731,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13?event_id=200112",
       "sport_key": "ice_hockey",
@@ -347,7 +533,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/NY_Islanders_@_NSH_Predators/13/__data.json?event_id=200112"
     },
     "200115": {
-      "bytes": 26521,
+      "bytes": 26642,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13?event_id=200115",
       "sport_key": "ice_hockey",
@@ -355,7 +541,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/EHC_Kloten_vs_HC_Ajoie/13/__data.json?event_id=200115"
     },
     "200116": {
-      "bytes": 17613,
+      "bytes": 17722,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13?event_id=200116",
       "sport_key": "ice_hockey",
@@ -363,7 +549,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Fribourg_Gotteron_vs_Davos/13/__data.json?event_id=200116"
     },
     "200117": {
-      "bytes": 25858,
+      "bytes": 25889,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13?event_id=200117",
       "sport_key": "ice_hockey",
@@ -371,7 +557,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Zug_vs_Lugano/13/__data.json?event_id=200117"
     },
     "200118": {
-      "bytes": 23240,
+      "bytes": 23322,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13?event_id=200118",
       "sport_key": "ice_hockey",
@@ -379,7 +565,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Lausanne_HC_vs_SCL_Tigers/13/__data.json?event_id=200118"
     },
     "200119": {
-      "bytes": 23270,
+      "bytes": 23381,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13?event_id=200119",
       "sport_key": "ice_hockey",
@@ -387,7 +573,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Ambri_Piotta_vs_EHC_Biel/13/__data.json?event_id=200119"
     },
     "200122": {
-      "bytes": 23116,
+      "bytes": 23120,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13?event_id=200122",
       "sport_key": "ice_hockey",
@@ -395,7 +581,7 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Bern_vs_ZSC_Lions/13/__data.json?event_id=200122"
     },
     "200123": {
-      "bytes": 26307,
+      "bytes": 26416,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13?event_id=200123",
       "sport_key": "ice_hockey",
@@ -403,15 +589,63 @@
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Switzerland_NLA/Rapperswil_Jona_Lakers_vs_Servette_GE/13/__data.json?event_id=200123"
     },
     "200146": {
-      "bytes": 21513,
+      "bytes": 21595,
       "error": "",
       "page_url": "/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13?event_id=200146",
       "sport_key": "ice_hockey",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Austria_EHL/Fehervar_AV19_vs_Milano_HC/13/__data.json?event_id=200146"
     },
+    "26023": {
+      "bytes": 122700,
+      "error": "",
+      "page_url": "/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023",
+      "sport_key": "darts",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15/__data.json?event_id=26023"
+    },
+    "2695857": {
+      "bytes": 34326,
+      "error": "",
+      "page_url": "/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
+      "sport_key": "rugby_league",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10/__data.json?event_id=2695857"
+    },
+    "2801554": {
+      "bytes": 39759,
+      "error": "",
+      "page_url": "/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
+      "sport_key": "rugby_league",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10/__data.json?event_id=2801554"
+    },
+    "2801600": {
+      "bytes": 32100,
+      "error": "",
+      "page_url": "/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
+      "sport_key": "rugby_league",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10/__data.json?event_id=2801600"
+    },
+    "32446": {
+      "bytes": 104799,
+      "error": "",
+      "page_url": "/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446",
+      "sport_key": "darts",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15/__data.json?event_id=32446"
+    },
+    "3327": {
+      "bytes": 44282,
+      "error": "",
+      "page_url": "/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
+      "sport_key": "gaelic_football",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25/__data.json?event_id=3327"
+    },
     "3531": {
-      "bytes": 30349,
+      "bytes": 30450,
       "error": "",
       "page_url": "/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
       "sport_key": "gaelic_football",
@@ -419,7 +653,7 @@
       "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25/__data.json?event_id=3531"
     },
     "3537": {
-      "bytes": 29898,
+      "bytes": 29972,
       "error": "",
       "page_url": "/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
       "sport_key": "gaelic_football",
@@ -427,7 +661,7 @@
       "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25/__data.json?event_id=3537"
     },
     "37065": {
-      "bytes": 17654,
+      "bytes": 16640,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Scandicci_W_vs_Novara_W/21?event_id=37065",
       "sport_key": "volleyball",
@@ -435,7 +669,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Scandicci_W_vs_Novara_W/21/__data.json?event_id=37065"
     },
     "37075": {
-      "bytes": 23784,
+      "bytes": 23831,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
       "sport_key": "volleyball",
@@ -443,7 +677,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21/__data.json?event_id=37075"
     },
     "37076": {
-      "bytes": 22695,
+      "bytes": 22655,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
       "sport_key": "volleyball",
@@ -451,7 +685,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21/__data.json?event_id=37076"
     },
     "37081": {
-      "bytes": 24233,
+      "bytes": 24237,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
       "sport_key": "volleyball",
@@ -459,7 +693,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21/__data.json?event_id=37081"
     },
     "37082": {
-      "bytes": 16871,
+      "bytes": 16902,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21?event_id=37082",
       "sport_key": "volleyball",
@@ -467,7 +701,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Budowlani_Lodz_W_vs_Radomka_Radom_W/21/__data.json?event_id=37082"
     },
     "37083": {
-      "bytes": 16606,
+      "bytes": 16653,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21?event_id=37083",
       "sport_key": "volleyball",
@@ -475,7 +709,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Mielec_W_vs_Rzeszow_W/21/__data.json?event_id=37083"
     },
     "37103": {
-      "bytes": 23770,
+      "bytes": 23747,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21?event_id=37103",
       "sport_key": "volleyball",
@@ -483,7 +717,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Suzano_Volei_vs_Goias_Volei/21/__data.json?event_id=37103"
     },
     "37104": {
-      "bytes": 16603,
+      "bytes": 16704,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21?event_id=37104",
       "sport_key": "volleyball",
@@ -491,7 +725,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Praia_Clube_vs_Sao_Jose/21/__data.json?event_id=37104"
     },
     "37121": {
-      "bytes": 33724,
+      "bytes": 33728,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
       "sport_key": "volleyball",
@@ -499,7 +733,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21/__data.json?event_id=37121"
     },
     "37122": {
-      "bytes": 16719,
+      "bytes": 16723,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21?event_id=37122",
       "sport_key": "volleyball",
@@ -507,7 +741,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sungurlu_Bld_vs_Galatasaray/21/__data.json?event_id=37122"
     },
     "37123": {
-      "bytes": 16821,
+      "bytes": 16820,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Sultanbeyli_Bld_vs_Gebze_Genclik/21?event_id=37123",
       "sport_key": "volleyball",
@@ -515,7 +749,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sultanbeyli_Bld_vs_Gebze_Genclik/21/__data.json?event_id=37123"
     },
     "37124": {
-      "bytes": 28746,
+      "bytes": 28776,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
       "sport_key": "volleyball",
@@ -523,7 +757,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21/__data.json?event_id=37124"
     },
     "37125": {
-      "bytes": 16644,
+      "bytes": 16730,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21?event_id=37125",
       "sport_key": "volleyball",
@@ -531,7 +765,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Fenerbahce_vs_Alanya_Bld/21/__data.json?event_id=37125"
     },
     "37126": {
-      "bytes": 24400,
+      "bytes": 24403,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
       "sport_key": "volleyball",
@@ -539,7 +773,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21/__data.json?event_id=37126"
     },
     "37127": {
-      "bytes": 16754,
+      "bytes": 16731,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Onikisubat_Bld_vs_Spor_Toto_SK/21?event_id=37127",
       "sport_key": "volleyball",
@@ -547,7 +781,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Onikisubat_Bld_vs_Spor_Toto_SK/21/__data.json?event_id=37127"
     },
     "37129": {
-      "bytes": 28011,
+      "bytes": 28056,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21?event_id=37129",
       "sport_key": "volleyball",
@@ -555,7 +789,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/VaLePa_vs_AC_Oulu/21/__data.json?event_id=37129"
     },
     "37131": {
-      "bytes": 16772,
+      "bytes": 16776,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21?event_id=37131",
       "sport_key": "volleyball",
@@ -563,7 +797,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Volleys_Borken_W_vs_Vilsbiburg_W/21/__data.json?event_id=37131"
     },
     "37132": {
-      "bytes": 16877,
+      "bytes": 16951,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21?event_id=37132",
       "sport_key": "volleyball",
@@ -571,7 +805,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/PGE_Skra_Belchatow_vs_GKS_Katowice/21/__data.json?event_id=37132"
     },
     "37134": {
-      "bytes": 16824,
+      "bytes": 16898,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/LP_Pihtipudas_W_vs_Nurmon_Jymy_W/21?event_id=37134",
       "sport_key": "volleyball",
@@ -579,7 +813,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/LP_Pihtipudas_W_vs_Nurmon_Jymy_W/21/__data.json?event_id=37134"
     },
     "37135": {
-      "bytes": 24052,
+      "bytes": 24083,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/SV_Warnemunde_vs_VfB_Friedrichshafen/21?event_id=37135",
       "sport_key": "volleyball",
@@ -587,7 +821,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/SV_Warnemunde_vs_VfB_Friedrichshafen/21/__data.json?event_id=37135"
     },
     "37136": {
-      "bytes": 16679,
+      "bytes": 16683,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/SSC_Karlsruhe_vs_SWD_Duren/21?event_id=37136",
       "sport_key": "volleyball",
@@ -595,7 +829,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/SSC_Karlsruhe_vs_SWD_Duren/21/__data.json?event_id=37136"
     },
     "37137": {
-      "bytes": 20742,
+      "bytes": 24373,
       "error": "",
       "page_url": "/betting-tips/Volleyball/All_Volleyball/All_Events/Berlin_Volleys_vs_VOLLEY_GOATS_Mitteldeutschland/21?event_id=37137",
       "sport_key": "volleyball",
@@ -603,7 +837,7 @@
       "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Berlin_Volleys_vs_VOLLEY_GOATS_Mitteldeutschland/21/__data.json?event_id=37137"
     },
     "536153": {
-      "bytes": 29192,
+      "bytes": 31804,
       "error": "",
       "page_url": "/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153",
       "sport_key": "basketball",
@@ -611,7 +845,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4/__data.json?event_id=536153"
     },
     "536174": {
-      "bytes": 31068,
+      "bytes": 31189,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
       "sport_key": "basketball",
@@ -619,7 +853,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4/__data.json?event_id=536174"
     },
     "536175": {
-      "bytes": 18888,
+      "bytes": 19025,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175",
       "sport_key": "basketball",
@@ -627,7 +861,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4/__data.json?event_id=536175"
     },
     "536176": {
-      "bytes": 29841,
+      "bytes": 29843,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
       "sport_key": "basketball",
@@ -635,7 +869,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4/__data.json?event_id=536176"
     },
     "536177": {
-      "bytes": 22510,
+      "bytes": 22514,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
       "sport_key": "basketball",
@@ -643,7 +877,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4/__data.json?event_id=536177"
     },
     "536178": {
-      "bytes": 28048,
+      "bytes": 28052,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178",
       "sport_key": "basketball",
@@ -651,7 +885,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4/__data.json?event_id=536178"
     },
     "536179": {
-      "bytes": 32004,
+      "bytes": 32008,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
       "sport_key": "basketball",
@@ -659,7 +893,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4/__data.json?event_id=536179"
     },
     "536180": {
-      "bytes": 18773,
+      "bytes": 18872,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180",
       "sport_key": "basketball",
@@ -667,7 +901,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4/__data.json?event_id=536180"
     },
     "536181": {
-      "bytes": 18997,
+      "bytes": 18974,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4?event_id=536181",
       "sport_key": "basketball",
@@ -675,7 +909,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Asvel_Lyon_Villeurbanne_vs_Partizan/4/__data.json?event_id=536181"
     },
     "536182": {
-      "bytes": 18932,
+      "bytes": 18936,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Hapoel_Tel_Aviv_vs_Anadolu_Efes/4?event_id=536182",
       "sport_key": "basketball",
@@ -683,7 +917,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Hapoel_Tel_Aviv_vs_Anadolu_Efes/4/__data.json?event_id=536182"
     },
     "536183": {
-      "bytes": 24836,
+      "bytes": 24840,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183",
       "sport_key": "basketball",
@@ -691,7 +925,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4/__data.json?event_id=536183"
     },
     "536201": {
-      "bytes": 58469,
+      "bytes": 43037,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4?event_id=536201",
       "sport_key": "basketball",
@@ -699,7 +933,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/ATL_Hawks_@_HOU_Rockets/4/__data.json?event_id=536201"
     },
     "536202": {
-      "bytes": 46966,
+      "bytes": 64284,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4?event_id=536202",
       "sport_key": "basketball",
@@ -707,7 +941,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/GS_Warriors_@_DEN_Nuggets/4/__data.json?event_id=536202"
     },
     "536204": {
-      "bytes": 44258,
+      "bytes": 65233,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204",
       "sport_key": "basketball",
@@ -715,7 +949,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4/__data.json?event_id=536204"
     },
     "536205": {
-      "bytes": 44580,
+      "bytes": 40872,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205",
       "sport_key": "basketball",
@@ -723,7 +957,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4/__data.json?event_id=536205"
     },
     "536206": {
-      "bytes": 65261,
+      "bytes": 44554,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4?event_id=536206",
       "sport_key": "basketball",
@@ -731,7 +965,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/MEM_Grizzlies_@_UTA_Jazz/4/__data.json?event_id=536206"
     },
     "536209": {
-      "bytes": 15540,
+      "bytes": 15514,
       "error": "",
       "page_url": "/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4?event_id=536209",
       "sport_key": "basketball",
@@ -739,7 +973,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/Other/Brazil_NBB/Cruzeiro_vs_Brasilia/4/__data.json?event_id=536209"
     },
     "536214": {
-      "bytes": 24173,
+      "bytes": 24175,
       "error": "",
       "page_url": "/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
       "sport_key": "basketball",
@@ -747,7 +981,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4/__data.json?event_id=536214"
     },
     "536215": {
-      "bytes": 19085,
+      "bytes": 19140,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Balkan_Botevgrad_vs_Manresa/4?event_id=536215",
       "sport_key": "basketball",
@@ -755,7 +989,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Balkan_Botevgrad_vs_Manresa/4/__data.json?event_id=536215"
     },
     "536217": {
-      "bytes": 35965,
+      "bytes": 35967,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217",
       "sport_key": "basketball",
@@ -763,7 +997,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4/__data.json?event_id=536217"
     },
     "536218": {
-      "bytes": 19152,
+      "bytes": 19183,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4?event_id=536218",
       "sport_key": "basketball",
@@ -771,7 +1005,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Lietkabelis_vs_Ratiopharm_Ulm/4/__data.json?event_id=536218"
     },
     "536219": {
-      "bytes": 19244,
+      "bytes": 19275,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Roma_Basketball_vs_Bosna_Sarajevo/4?event_id=536219",
       "sport_key": "basketball",
@@ -779,7 +1013,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Roma_Basketball_vs_Bosna_Sarajevo/4/__data.json?event_id=536219"
     },
     "536222": {
-      "bytes": 19109,
+      "bytes": 19230,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4?event_id=536222",
       "sport_key": "basketball",
@@ -787,7 +1021,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Aris_vs_Cedevita_Olimpija/4/__data.json?event_id=536222"
     },
     "536224": {
-      "bytes": 19037,
+      "bytes": 19041,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Siauliai_vs_Maxima_Roma/4?event_id=536224",
       "sport_key": "basketball",
@@ -795,7 +1029,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Siauliai_vs_Maxima_Roma/4/__data.json?event_id=536224"
     },
     "536225": {
-      "bytes": 19044,
+      "bytes": 19048,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Slask_Wroclaw_vs_Tofas/4?event_id=536225",
       "sport_key": "basketball",
@@ -803,7 +1037,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Slask_Wroclaw_vs_Tofas/4/__data.json?event_id=536225"
     },
     "536227": {
-      "bytes": 19096,
+      "bytes": 19205,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Le_Mans_vs_Hapoel_Jerusalem/4?event_id=536227",
       "sport_key": "basketball",
@@ -811,7 +1045,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Le_Mans_vs_Hapoel_Jerusalem/4/__data.json?event_id=536227"
     },
     "536228": {
-      "bytes": 19114,
+      "bytes": 19223,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Tortona_vs_Rostock_Seawolves/4?event_id=536228",
       "sport_key": "basketball",
@@ -819,7 +1053,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Tortona_vs_Rostock_Seawolves/4/__data.json?event_id=536228"
     },
     "536230": {
-      "bytes": 19162,
+      "bytes": 19166,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/San_Pablo_Burgos_vs_Rigas_Zelli/4?event_id=536230",
       "sport_key": "basketball",
@@ -827,7 +1061,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/San_Pablo_Burgos_vs_Rigas_Zelli/4/__data.json?event_id=536230"
     },
     "536231": {
-      "bytes": 18975,
+      "bytes": 18979,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Euro_Cup/Tenerife_vs_Venezia/4?event_id=536231",
       "sport_key": "basketball",
@@ -835,7 +1069,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Tenerife_vs_Venezia/4/__data.json?event_id=536231"
     },
     "536232": {
-      "bytes": 16215,
+      "bytes": 16322,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Basketball_Champions_League/Baku_Sabah_vs_Nanterre/4?event_id=536232",
       "sport_key": "basketball",
@@ -843,7 +1077,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/Baku_Sabah_vs_Nanterre/4/__data.json?event_id=536232"
     },
     "536235": {
-      "bytes": 19971,
+      "bytes": 19955,
       "error": "",
       "page_url": "/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4?event_id=536235",
       "sport_key": "basketball",
@@ -851,7 +1085,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/European/Basketball_Champions_League/UCAM_Murcia_vs_Peristeri/4/__data.json?event_id=536235"
     },
     "536251": {
-      "bytes": 15099,
+      "bytes": 15101,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/DET_Pistons_@_NY_Knicks/4?event_id=536251",
       "sport_key": "basketball",
@@ -859,7 +1093,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/DET_Pistons_@_NY_Knicks/4/__data.json?event_id=536251"
     },
     "536252": {
-      "bytes": 15086,
+      "bytes": 15165,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/SAC_Kings_@_SA_Spurs/4?event_id=536252",
       "sport_key": "basketball",
@@ -867,7 +1101,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/SAC_Kings_@_SA_Spurs/4/__data.json?event_id=536252"
     },
     "536253": {
-      "bytes": 15058,
+      "bytes": 15099,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/BKN_Nets_@_BOS_Celtics/4?event_id=536253",
       "sport_key": "basketball",
@@ -875,7 +1109,7 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/BKN_Nets_@_BOS_Celtics/4/__data.json?event_id=536253"
     },
     "536254": {
-      "bytes": 15121,
+      "bytes": 15096,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/PHI_76ers_@_IND_Pacers/4?event_id=536254",
       "sport_key": "basketball",
@@ -883,15 +1117,23 @@
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHI_76ers_@_IND_Pacers/4/__data.json?event_id=536254"
     },
     "536255": {
-      "bytes": 15221,
+      "bytes": 15225,
       "error": "",
       "page_url": "/betting-tips/Basketball/NBA/NBA/POR_Trail_Blazers_@_LA_Lakers/4?event_id=536255",
       "sport_key": "basketball",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/POR_Trail_Blazers_@_LA_Lakers/4/__data.json?event_id=536255"
     },
+    "609013": {
+      "bytes": 42614,
+      "error": "",
+      "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9?event_id=609013",
+      "sport_key": "rugby_union",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Six_Nations_2027/9/__data.json?event_id=609013"
+    },
     "609584": {
-      "bytes": 14408,
+      "bytes": 14423,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
       "sport_key": "rugby_union",
@@ -899,7 +1141,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9/__data.json?event_id=609584"
     },
     "609586": {
-      "bytes": 14375,
+      "bytes": 14379,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9?event_id=609586",
       "sport_key": "rugby_union",
@@ -907,7 +1149,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Munster_v_Sharks/9/__data.json?event_id=609586"
     },
     "609588": {
-      "bytes": 14367,
+      "bytes": 14469,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9?event_id=609588",
       "sport_key": "rugby_union",
@@ -915,7 +1157,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Stormers_v_Ulster/9/__data.json?event_id=609588"
     },
     "609590": {
-      "bytes": 14525,
+      "bytes": 14527,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9?event_id=609590",
       "sport_key": "rugby_union",
@@ -923,7 +1165,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Glasgow_Warriors_v_Lions/9/__data.json?event_id=609590"
     },
     "609598": {
-      "bytes": 20126,
+      "bytes": 20157,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
       "sport_key": "rugby_union",
@@ -931,7 +1173,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9/__data.json?event_id=609598"
     },
     "609599": {
-      "bytes": 14400,
+      "bytes": 14474,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599",
       "sport_key": "rugby_union",
@@ -939,7 +1181,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9/__data.json?event_id=609599"
     },
     "609600": {
-      "bytes": 14364,
+      "bytes": 14440,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9?event_id=609600",
       "sport_key": "rugby_union",
@@ -947,7 +1189,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Nissa_v_Aurillac/9/__data.json?event_id=609600"
     },
     "609602": {
-      "bytes": 14506,
+      "bytes": 14580,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9?event_id=609602",
       "sport_key": "rugby_union",
@@ -955,7 +1197,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Biarritz_v_Valence_Romans/9/__data.json?event_id=609602"
     },
     "609603": {
-      "bytes": 22187,
+      "bytes": 22191,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
       "sport_key": "rugby_union",
@@ -963,7 +1205,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9/__data.json?event_id=609603"
     },
     "609604": {
-      "bytes": 14363,
+      "bytes": 14409,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
       "sport_key": "rugby_union",
@@ -971,7 +1213,7 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9/__data.json?event_id=609604"
     },
     "609605": {
-      "bytes": 23003,
+      "bytes": 23077,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
       "sport_key": "rugby_union",
@@ -979,15 +1221,23 @@
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9/__data.json?event_id=609605"
     },
     "609611": {
-      "bytes": 21201,
+      "bytes": 21302,
       "error": "",
       "page_url": "/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611",
       "sport_key": "rugby_union",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9/__data.json?event_id=609611"
     },
+    "675": {
+      "bytes": 30299,
+      "error": "",
+      "page_url": "/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
+      "sport_key": "hurling",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26/__data.json?event_id=675"
+    },
     "902172": {
-      "bytes": 59027,
+      "bytes": 59101,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
       "sport_key": "tennis",
@@ -995,7 +1245,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3/__data.json?event_id=902172"
     },
     "902174": {
-      "bytes": 24251,
+      "bytes": 27692,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Diane_Parry_vs_Cristina_Bucsa/3?event_id=902174",
       "sport_key": "tennis",
@@ -1003,7 +1253,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Diane_Parry_vs_Cristina_Bucsa/3/__data.json?event_id=902174"
     },
     "902176": {
-      "bytes": 25773,
+      "bytes": 25777,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova/3?event_id=902176",
       "sport_key": "tennis",
@@ -1011,7 +1261,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova/3/__data.json?event_id=902176"
     },
     "902177": {
-      "bytes": 30743,
+      "bytes": 30747,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
       "sport_key": "tennis",
@@ -1019,7 +1269,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3/__data.json?event_id=902177"
     },
     "902179": {
-      "bytes": 41144,
+      "bytes": 41218,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Kaitlin_Quevedo_vs_Sofia_Kenin/3?event_id=902179",
       "sport_key": "tennis",
@@ -1027,7 +1277,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Kaitlin_Quevedo_vs_Sofia_Kenin/3/__data.json?event_id=902179"
     },
     "902180": {
-      "bytes": 27926,
+      "bytes": 27930,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Simona_Waltert_vs_Jil_Teichmann/3?event_id=902180",
       "sport_key": "tennis",
@@ -1035,7 +1285,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Simona_Waltert_vs_Jil_Teichmann/3/__data.json?event_id=902180"
     },
     "902181": {
-      "bytes": 27964,
+      "bytes": 24730,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Sara_Sorribes_Tormo_vs_Zeynep_Sonmez/3?event_id=902181",
       "sport_key": "tennis",
@@ -1043,7 +1293,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Sara_Sorribes_Tormo_vs_Zeynep_Sonmez/3/__data.json?event_id=902181"
     },
     "902182": {
-      "bytes": 25895,
+      "bytes": 25969,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Antonia_Ruzic_vs_Claire_Liu/3?event_id=902182",
       "sport_key": "tennis",
@@ -1051,7 +1301,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Antonia_Ruzic_vs_Claire_Liu/3/__data.json?event_id=902182"
     },
     "902183": {
-      "bytes": 26345,
+      "bytes": 26349,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Xinran_Sun_vs_Mananchaya_Sawangkaew/3?event_id=902183",
       "sport_key": "tennis",
@@ -1059,7 +1309,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Xinran_Sun_vs_Mananchaya_Sawangkaew/3/__data.json?event_id=902183"
     },
     "902187": {
-      "bytes": 26191,
+      "bytes": 26267,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3?event_id=902187",
       "sport_key": "tennis",
@@ -1067,7 +1317,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Polina_Kudermetova_vs_Janice_Tjen/3/__data.json?event_id=902187"
     },
     "902189": {
-      "bytes": 36362,
+      "bytes": 36366,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
       "sport_key": "tennis",
@@ -1075,7 +1325,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3/__data.json?event_id=902189"
     },
     "902203": {
-      "bytes": 19041,
+      "bytes": 19115,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Alexander_Zverev_vs_Martin_Landaluce/3?event_id=902203",
       "sport_key": "tennis",
@@ -1083,7 +1333,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alexander_Zverev_vs_Martin_Landaluce/3/__data.json?event_id=902203"
     },
     "902205": {
-      "bytes": 27986,
+      "bytes": 24667,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Lorenzo_Musetti_vs_Frances_Tiafoe/3?event_id=902205",
       "sport_key": "tennis",
@@ -1091,7 +1341,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lorenzo_Musetti_vs_Frances_Tiafoe/3/__data.json?event_id=902205"
     },
     "902206": {
-      "bytes": 28115,
+      "bytes": 28119,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Flavio_Cobolli_vs_Grigor_Dimitrov/3?event_id=902206",
       "sport_key": "tennis",
@@ -1099,7 +1349,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Flavio_Cobolli_vs_Grigor_Dimitrov/3/__data.json?event_id=902206"
     },
     "902210": {
-      "bytes": 29761,
+      "bytes": 29835,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3?event_id=902210",
       "sport_key": "tennis",
@@ -1107,7 +1357,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Cameron_Norrie_vs_Francisco_Cerundolo/3/__data.json?event_id=902210"
     },
     "902213": {
-      "bytes": 19010,
+      "bytes": 17945,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3?event_id=902213",
       "sport_key": "tennis",
@@ -1115,7 +1365,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Karen_Khachanov_vs_Carlos_Alcaraz/3/__data.json?event_id=902213"
     },
     "902232": {
-      "bytes": 33937,
+      "bytes": 33936,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
       "sport_key": "tennis",
@@ -1123,7 +1373,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3/__data.json?event_id=902232"
     },
     "902233": {
-      "bytes": 35300,
+      "bytes": 35299,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
       "sport_key": "tennis",
@@ -1131,7 +1381,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3/__data.json?event_id=902233"
     },
     "902234": {
-      "bytes": 26564,
+      "bytes": 26638,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Jerome_Kym_vs_Arthur_Rinderknech/3?event_id=902234",
       "sport_key": "tennis",
@@ -1139,7 +1389,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jerome_Kym_vs_Arthur_Rinderknech/3/__data.json?event_id=902234"
     },
     "902238": {
-      "bytes": 37214,
+      "bytes": 37225,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
       "sport_key": "tennis",
@@ -1147,7 +1397,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3/__data.json?event_id=902238"
     },
     "902240": {
-      "bytes": 29511,
+      "bytes": 29585,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3?event_id=902240",
       "sport_key": "tennis",
@@ -1155,7 +1405,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alex_Michelsen_vs_Botic_Van_De_Zandschulp/3/__data.json?event_id=902240"
     },
     "902252": {
-      "bytes": 29742,
+      "bytes": 29759,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3?event_id=902252",
       "sport_key": "tennis",
@@ -1163,7 +1413,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tommy_Paul_vs_Andrey_Rublev/3/__data.json?event_id=902252"
     },
     "902301": {
-      "bytes": 24427,
+      "bytes": 30417,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Anastasia_Zakharova_vs_Magda_Linette/3?event_id=902301",
       "sport_key": "tennis",
@@ -1171,7 +1421,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anastasia_Zakharova_vs_Magda_Linette/3/__data.json?event_id=902301"
     },
     "902302": {
-      "bytes": 25874,
+      "bytes": 25878,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Dayana_Yastremska_vs_Katie_Volynets/3?event_id=902302",
       "sport_key": "tennis",
@@ -1179,7 +1429,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Dayana_Yastremska_vs_Katie_Volynets/3/__data.json?event_id=902302"
     },
     "902305": {
-      "bytes": 30077,
+      "bytes": 38661,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari/3?event_id=902305",
       "sport_key": "tennis",
@@ -1187,7 +1437,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Yulia_Putintseva_vs_Maria_Sakkari/3/__data.json?event_id=902305"
     },
     "902309": {
-      "bytes": 33011,
+      "bytes": 33085,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Maya_Joint_vs_Sorana_Cirstea/3?event_id=902309",
       "sport_key": "tennis",
@@ -1195,7 +1445,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Maya_Joint_vs_Sorana_Cirstea/3/__data.json?event_id=902309"
     },
     "902310": {
-      "bytes": 18994,
+      "bytes": 19068,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Tereza_Valentova_vs_Mia_Pohankova/3?event_id=902310",
       "sport_key": "tennis",
@@ -1203,7 +1453,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tereza_Valentova_vs_Mia_Pohankova/3/__data.json?event_id=902310"
     },
     "902314": {
-      "bytes": 26384,
+      "bytes": 23056,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Jurij_Rodionov_vs_Nikoloz_Basilashvili/3?event_id=902314",
       "sport_key": "tennis",
@@ -1211,7 +1461,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Jurij_Rodionov_vs_Nikoloz_Basilashvili/3/__data.json?event_id=902314"
     },
     "902320": {
-      "bytes": 18948,
+      "bytes": 19022,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Adrian_Mannarino_vs_Ignacio_Buse/3?event_id=902320",
       "sport_key": "tennis",
@@ -1219,7 +1469,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Adrian_Mannarino_vs_Ignacio_Buse/3/__data.json?event_id=902320"
     },
     "902322": {
-      "bytes": 27923,
+      "bytes": 28016,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3?event_id=902322",
       "sport_key": "tennis",
@@ -1227,7 +1477,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Hubert_Hurkacz_vs_Zizou_Bergs/3/__data.json?event_id=902322"
     },
     "902330": {
-      "bytes": 15269,
+      "bytes": 14486,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Rebeca_Pereira_vs_Yasmine_Kabbaj/3?event_id=902330",
       "sport_key": "tennis",
@@ -1235,7 +1485,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Rebeca_Pereira_vs_Yasmine_Kabbaj/3/__data.json?event_id=902330"
     },
     "902335": {
-      "bytes": 24642,
+      "bytes": 27994,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Maria_Lourdes_Carle_vs_Laura_Pigossi/3?event_id=902335",
       "sport_key": "tennis",
@@ -1243,7 +1493,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Maria_Lourdes_Carle_vs_Laura_Pigossi/3/__data.json?event_id=902335"
     },
     "902342": {
-      "bytes": 20407,
+      "bytes": 19031,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Ben_Shelton_vs_Aleksandar_Kovacevic/3?event_id=902342",
       "sport_key": "tennis",
@@ -1251,7 +1501,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ben_Shelton_vs_Aleksandar_Kovacevic/3/__data.json?event_id=902342"
     },
     "902344": {
-      "bytes": 26292,
+      "bytes": 26296,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Yannick_Hanfmann_vs_Jan_Lennard_Struff/3?event_id=902344",
       "sport_key": "tennis",
@@ -1259,7 +1509,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Yannick_Hanfmann_vs_Jan_Lennard_Struff/3/__data.json?event_id=902344"
     },
     "902347": {
-      "bytes": 19104,
+      "bytes": 20548,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Giovanni_Mpetshi_Perricard_vs_Arthur_Fils/3?event_id=902347",
       "sport_key": "tennis",
@@ -1267,7 +1517,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Giovanni_Mpetshi_Perricard_vs_Arthur_Fils/3/__data.json?event_id=902347"
     },
     "902348": {
-      "bytes": 22762,
+      "bytes": 26120,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Elizabeth_Mandlik_vs_Emiliana_Arango/3?event_id=902348",
       "sport_key": "tennis",
@@ -1275,7 +1525,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Elizabeth_Mandlik_vs_Emiliana_Arango/3/__data.json?event_id=902348"
     },
     "902351": {
-      "bytes": 23159,
+      "bytes": 26500,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Mell_Elizabeth_Reasco_Gonzalez_vs_Diletta_Cherubini/3?event_id=902351",
       "sport_key": "tennis",
@@ -1283,7 +1533,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Mell_Elizabeth_Reasco_Gonzalez_vs_Diletta_Cherubini/3/__data.json?event_id=902351"
     },
     "902353": {
-      "bytes": 15264,
+      "bytes": 14439,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Katherine_Hui_vs_Bianca_Andreescu/3?event_id=902353",
       "sport_key": "tennis",
@@ -1291,7 +1541,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Katherine_Hui_vs_Bianca_Andreescu/3/__data.json?event_id=902353"
     },
     "902355": {
-      "bytes": 14566,
+      "bytes": 14570,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Tatjana_Maria_vs_Carlota_Garibay_Romero/3?event_id=902355",
       "sport_key": "tennis",
@@ -1299,7 +1549,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Tatjana_Maria_vs_Carlota_Garibay_Romero/3/__data.json?event_id=902355"
     },
     "902361": {
-      "bytes": 26158,
+      "bytes": 22809,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Martina_Colmegna_vs_Zuzanna_Pawlikowska/3?event_id=902361",
       "sport_key": "tennis",
@@ -1307,7 +1557,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Martina_Colmegna_vs_Zuzanna_Pawlikowska/3/__data.json?event_id=902361"
     },
     "902365": {
-      "bytes": 25986,
+      "bytes": 25990,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Adriana_Reami_vs_Lan_Mi/3?event_id=902365",
       "sport_key": "tennis",
@@ -1315,7 +1565,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Adriana_Reami_vs_Lan_Mi/3/__data.json?event_id=902365"
     },
     "902368": {
-      "bytes": 26136,
+      "bytes": 26210,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Anna_Blinkova_vs_Dalma_Galfi/3?event_id=902368",
       "sport_key": "tennis",
@@ -1323,7 +1573,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anna_Blinkova_vs_Dalma_Galfi/3/__data.json?event_id=902368"
     },
     "902369": {
-      "bytes": 18922,
+      "bytes": 18926,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Laura_Mair_vs_Katarina_Zavatska/3?event_id=902369",
       "sport_key": "tennis",
@@ -1331,7 +1581,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Laura_Mair_vs_Katarina_Zavatska/3/__data.json?event_id=902369"
     },
     "902370": {
-      "bytes": 20208,
+      "bytes": 18937,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Mia_Ristic_vs_Martyna_Kubka/3?event_id=902370",
       "sport_key": "tennis",
@@ -1339,7 +1589,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Mia_Ristic_vs_Martyna_Kubka/3/__data.json?event_id=902370"
     },
     "902372": {
-      "bytes": 19224,
+      "bytes": 19240,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3?event_id=902372",
       "sport_key": "tennis",
@@ -1347,7 +1597,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lucrezia_Stefanini_vs_Isabella_Maria_Serban/3/__data.json?event_id=902372"
     },
     "902374": {
-      "bytes": 19025,
+      "bytes": 19099,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Danka_Kovinic_vs_Noma_Noha_Akugue/3?event_id=902374",
       "sport_key": "tennis",
@@ -1355,7 +1605,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Danka_Kovinic_vs_Noma_Noha_Akugue/3/__data.json?event_id=902374"
     },
     "902378": {
-      "bytes": 26543,
+      "bytes": 26615,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Marina_Bassols_Ribera_vs_Victoria_Jimenez_Kasintseva/3?event_id=902378",
       "sport_key": "tennis",
@@ -1363,7 +1613,7 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Marina_Bassols_Ribera_vs_Victoria_Jimenez_Kasintseva/3/__data.json?event_id=902378"
     },
     "902380": {
-      "bytes": 26198,
+      "bytes": 26202,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Alycia_Parks_vs_Kimberly_Birrell/3?event_id=902380",
       "sport_key": "tennis",
@@ -1371,143 +1621,175 @@
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alycia_Parks_vs_Kimberly_Birrell/3/__data.json?event_id=902380"
     },
     "902409": {
-      "bytes": 18847,
+      "bytes": 18921,
       "error": "",
       "page_url": "/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3?event_id=902409",
       "sport_key": "tennis",
       "status": 200,
       "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Nuno_Borges_vs_Casper_Ruud/3/__data.json?event_id=902409"
+    },
+    "912": {
+      "bytes": 27204,
+      "error": "",
+      "page_url": "/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
+      "sport_key": "motor_racing",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14/__data.json?event_id=912"
+    },
+    "914": {
+      "bytes": 47852,
+      "error": "",
+      "page_url": "/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
+      "sport_key": "motor_racing",
+      "status": 200,
+      "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14/__data.json?event_id=914"
     }
   },
-  "events_discovered": 172,
-  "events_requested": 172,
+  "events_discovered": 193,
+  "events_requested": 193,
   "hubs": {
     "baseball": {
-      "bytes": 49415,
+      "bytes": 49419,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Baseball/12",
       "status": 200,
       "tip_rows": 2,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Baseball/12/__data.json"
     },
     "basketball": {
-      "bytes": 93213,
+      "bytes": 93250,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Basketball/4",
       "status": 200,
       "tip_rows": 36,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Basketball/4/__data.json"
     },
     "cricket": {
-      "bytes": 65319,
+      "bytes": 65363,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Cricket/7",
       "status": 200,
       "tip_rows": 10,
+      "tournament_rows": 8,
       "url": "https://www.olbg.com/betting-tips/Cricket/7/__data.json"
     },
     "darts": {
-      "bytes": 64926,
+      "bytes": 64937,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Darts/15",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 2,
       "url": "https://www.olbg.com/betting-tips/Darts/15/__data.json"
     },
     "gaelic_football": {
-      "bytes": 46556,
+      "bytes": 46560,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Gaelic_Football/25",
       "status": 200,
       "tip_rows": 2,
+      "tournament_rows": 1,
       "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25/__data.json"
     },
     "golf": {
-      "bytes": 60478,
+      "bytes": 60470,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Golf/5",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 3,
       "url": "https://www.olbg.com/betting-tips/Golf/5/__data.json"
     },
     "greyhounds": {
-      "bytes": 62908,
+      "bytes": 62907,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Greyhounds/28",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Greyhounds/28/__data.json"
     },
     "handball": {
-      "bytes": 56519,
+      "bytes": 56556,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Handball/20",
       "status": 200,
       "tip_rows": 19,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Handball/20/__data.json"
     },
     "hurling": {
-      "bytes": 41007,
+      "bytes": 41046,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Hurling/26",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 1,
       "url": "https://www.olbg.com/betting-tips/Hurling/26/__data.json"
     },
     "ice_hockey": {
-      "bytes": 67182,
+      "bytes": 67238,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Ice_Hockey/13",
       "status": 200,
       "tip_rows": 20,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Ice_Hockey/13/__data.json"
     },
     "motor_racing": {
-      "bytes": 63905,
+      "bytes": 63921,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Motor_Racing/14",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 2,
       "url": "https://www.olbg.com/betting-tips/Motor_Racing/14/__data.json"
     },
     "rugby_league": {
-      "bytes": 44581,
+      "bytes": 44620,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Rugby_League/10",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 3,
       "url": "https://www.olbg.com/betting-tips/Rugby_League/10/__data.json"
     },
     "rugby_union": {
-      "bytes": 55543,
+      "bytes": 55574,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Rugby_Union/9",
       "status": 200,
       "tip_rows": 12,
+      "tournament_rows": 1,
       "url": "https://www.olbg.com/betting-tips/Rugby_Union/9/__data.json"
     },
     "snooker": {
-      "bytes": 53080,
+      "bytes": 53084,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Snooker/8",
       "status": 200,
       "tip_rows": 0,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Snooker/8/__data.json"
     },
     "tennis": {
-      "bytes": 96273,
+      "bytes": 96298,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Tennis/3",
       "status": 200,
       "tip_rows": 49,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Tennis/3/__data.json"
     },
     "volleyball": {
-      "bytes": 57070,
+      "bytes": 57087,
       "error": "",
       "page_url": "https://www.olbg.com/betting-tips/Volleyball/21",
       "status": 200,
       "tip_rows": 22,
+      "tournament_rows": 0,
       "url": "https://www.olbg.com/betting-tips/Volleyball/21/__data.json"
     }
   },
@@ -1526,6 +1808,13 @@
       "kind": "html",
       "status": 0,
       "url": "https://www.atptour.com/en/scores/current"
+    },
+    "atp_scores_alt": {
+      "bytes": 0,
+      "error": "HTTP 403",
+      "kind": "html",
+      "status": 0,
+      "url": "https://www.atptour.com/en/scores/results-archive"
     },
     "cev_match_centres": {
       "bytes": 494133,
@@ -1569,12 +1858,12 @@
       "status": 200,
       "url": "https://www.epcrugby.com/champions-cup/matches"
     },
-    "euroleague_games": {
+    "euroleague_games_page": {
       "bytes": 0,
-      "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "kind": "json",
+      "error": "HTTP 429",
+      "kind": "html",
       "status": 0,
-      "url": "https://api-live.euroleaguebasketball.net/v1/games?season=E2026"
+      "url": "https://www.euroleaguebasketball.net/en/euroleague/games/"
     },
     "euroleague_home": {
       "bytes": 0,
@@ -1583,12 +1872,19 @@
       "status": 0,
       "url": "https://www.euroleaguebasketball.net/en/euroleague/"
     },
-    "euroleague_standings": {
+    "euroleague_standings_page": {
       "bytes": 0,
-      "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "kind": "json",
+      "error": "HTTP 429",
+      "kind": "html",
       "status": 0,
-      "url": "https://api-live.euroleaguebasketball.net/v1/standings?season=E2026"
+      "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    "f1_driver_standings": {
+      "bytes": 409391,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.formula1.com/en/results/2026/drivers"
     },
     "f1_races_mirror": {
       "bytes": 14294,
@@ -1596,6 +1892,13 @@
       "kind": "json",
       "status": 200,
       "url": "https://api.jolpi.ca/ergast/f1/2026/races/"
+    },
+    "f1_team_standings": {
+      "bytes": 323037,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.formula1.com/en/results/2026/team"
     },
     "formula1_calendar": {
       "bytes": 621386,
@@ -1605,11 +1908,18 @@
       "url": "https://www.formula1.com/en/racing/2026"
     },
     "gaa_fixtures": {
-      "bytes": 1314577,
+      "bytes": 1314448,
       "error": "",
       "kind": "html",
       "status": 200,
       "url": "https://www.gaa.ie/fixtures-results"
+    },
+    "gbgb_racecards": {
+      "bytes": 0,
+      "error": "HTTP 404",
+      "kind": "html",
+      "status": 0,
+      "url": "https://www.gbgb.org.uk/racing/race-cards/"
     },
     "gbgb_racing": {
       "bytes": 97430,
@@ -1632,6 +1942,13 @@
       "status": 200,
       "url": "https://www.icc-cricket.com/fixtures-results"
     },
+    "icc_team_rankings": {
+      "bytes": 0,
+      "error": "HTTP 404",
+      "kind": "html",
+      "status": 0,
+      "url": "https://www.icc-cricket.com/rankings/team-rankings"
+    },
     "lnr_prod2": {
       "bytes": 166948,
       "error": "",
@@ -1640,7 +1957,7 @@
       "url": "https://prod2.lnr.fr/calendrier-et-resultats"
     },
     "lpga_tournaments": {
-      "bytes": 550674,
+      "bytes": 528264,
       "error": "",
       "kind": "html",
       "status": 200,
@@ -1654,7 +1971,7 @@
       "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-24&endDate=2026-11-05&hydrate=team,linescore,probablePitcher,decisions"
     },
     "mlb_schedule_page": {
-      "bytes": 502185,
+      "bytes": 502191,
       "error": "",
       "kind": "html",
       "status": 200,
@@ -1667,8 +1984,29 @@
       "status": 200,
       "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason&hydrate=team"
     },
+    "mlb_team_hitting": {
+      "bytes": 21475,
+      "error": "",
+      "kind": "json",
+      "status": 200,
+      "url": "https://statsapi.mlb.com/api/v1/teams/stats?stats=season&group=hitting&season=2026&sportIds=1"
+    },
+    "mlb_team_pitching": {
+      "bytes": 35686,
+      "error": "",
+      "kind": "json",
+      "status": 200,
+      "url": "https://statsapi.mlb.com/api/v1/teams/stats?stats=season&group=pitching&season=2026&sportIds=1"
+    },
+    "nba_data_scoreboard": {
+      "bytes": 0,
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.nba.net'. (_ssl.c:1010)>",
+      "kind": "json",
+      "status": 0,
+      "url": "https://data.nba.net/prod/v1/20261027/scoreboard.json"
+    },
     "nba_games": {
-      "bytes": 324368,
+      "bytes": 324578,
       "error": "",
       "kind": "html",
       "status": 200,
@@ -1737,12 +2075,33 @@
       "status": 200,
       "url": "https://api-web.nhle.com/v1/standings/now"
     },
+    "nhl_team_stats": {
+      "bytes": 58202,
+      "error": "",
+      "kind": "json",
+      "status": 200,
+      "url": "https://api-web.nhle.com/v1/standings/now"
+    },
     "nrl_draw": {
       "bytes": 798,
       "error": "",
       "kind": "html",
       "status": 200,
       "url": "https://www.nrl.com/draw/"
+    },
+    "nrl_ladder": {
+      "bytes": 798,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.nrl.com/ladder/"
+    },
+    "pdc_order_of_merit": {
+      "bytes": 1241747,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.pdc.tv/order-of-merit"
     },
     "pdc_tournaments": {
       "bytes": 1241747,
@@ -1752,7 +2111,7 @@
       "url": "https://www.pdc.tv/tournaments"
     },
     "pgatour_schedule": {
-      "bytes": 536384,
+      "bytes": 536387,
       "error": "",
       "kind": "html",
       "status": 200,
@@ -1764,6 +2123,13 @@
       "kind": "html",
       "status": 0,
       "url": "https://www.superleague.co.uk/fixtures"
+    },
+    "superleague_home": {
+      "bytes": 86902,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.superleague.co.uk/"
     },
     "wst_calendar": {
       "bytes": 6169,
@@ -1779,12 +2145,26 @@
       "status": 200,
       "url": "https://www.wst.tv/matches"
     },
+    "wst_rankings": {
+      "bytes": 183267,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.wst.tv/rankings"
+    },
     "wta_rankings": {
       "bytes": 1178016,
       "error": "",
       "kind": "html",
       "status": 200,
       "url": "https://www.wtatennis.com/rankings/singles"
+    },
+    "wta_scores": {
+      "bytes": 213612,
+      "error": "",
+      "kind": "html",
+      "status": 200,
+      "url": "https://www.wtatennis.com/scores"
     },
     "wta_tournaments": {
       "bytes": 326518,

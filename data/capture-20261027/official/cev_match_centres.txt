@@ -1,5 +1,5 @@
 SOURCE: https://www.cev.eu/match-centres/
-FETCHED_UTC: 2026-10-27T05:33:54Z
+FETCHED_UTC: 2026-10-27T05:41:11Z
 
 Match Centres | CEV 
  CEV 
