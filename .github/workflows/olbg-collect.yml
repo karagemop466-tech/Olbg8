@@ -43,16 +43,18 @@ jobs:
           cat /tmp/harvest.log
 
       - name: Show harvest summary
+        continue-on-error: true
         run: |
           python3 - <<'PY'
           import json, pathlib
           probe = json.loads(pathlib.Path("data/olbg/_probe.json").read_text())
           for key, sport in probe["sports"].items():
-              pages = ", ".join(f"{n}={p.get('status')}/{p.get('bytes')}B" for n, p in sport["pages"].items())
+              pages = ", ".join(f"{n}={p.get('status')}/{p.get('bytes')}B" for n, p in (sport.get("pages") or {}).items()) if isinstance(sport.get("pages"), dict) else ""
               print(f"{key:16s} rows={sport.get('rows')} events={sport.get('events')} {pages}")
           PY
 
       - name: Commit captured data
+        if: always()
         run: |
           git config user.name "olbg-harvest-bot"
           git config user.email "actions@users.noreply.github.com"

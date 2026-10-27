@@ -275,15 +275,27 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
         entry["templates"] = templates[:2]
 
         rows: list[dict[str, Any]] = []
+        working: str | None = None
         for index in range(max_pages):
             start = index * PAGE + 1
             end = start + PAGE - 1
-            template = templates[0]
-            url = re.sub(r"paginate=[\d\-]+", f"paginate={start}-{end}", template)
-            url = url.replace("include_expired=1", "include_expired=0")
-            if url.startswith("/"):
-                url = BASE + url
-            status, body, error = fetch(url, tries=2)
+            candidates = [working] if working else list(templates) + [
+                f"/sports/{segment}/top_tips?source=&paginate=1-100&include_recommendations=1"
+                "&include_expired=0&bookie_name=_best_&client_type=desktop_website"
+            ]
+            status, body, error, url = 0, b"", "no candidate", ""
+            for candidate in candidates:
+                if not candidate:
+                    continue
+                url = re.sub(r"paginate=[\d\-]+", f"paginate={start}-{end}", candidate)
+                url = url.replace("include_expired=1", "include_expired=0")
+                if url.startswith("/"):
+                    url = BASE + url
+                status, body, error = fetch(url, tries=2)
+                print(f"{key} {start}-{end} status={status} bytes={len(body)} host={url.split('/')[2]} err={error}", flush=True)
+                if status == 200 and body:
+                    working = candidate
+                    break
             page_info = {"range": f"{start}-{end}", "status": status, "bytes": len(body), "error": error}
             if status != 200 or not body:
                 entry["pages"].append(page_info)
@@ -297,6 +309,7 @@ def collect_tips(state: dict[str, Any], max_pages: int) -> None:
                 break
             page_info["rows"] = len(found)
             entry["pages"].append(page_info)
+            print(f"{key} {start}-{end} rows={len(found)}", flush=True)
             rows.extend(normalise(row, sport) for row in found)
             if len(found) < PAGE:
                 break
