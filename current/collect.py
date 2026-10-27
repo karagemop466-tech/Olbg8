@@ -20,7 +20,7 @@ from urllib.robotparser import RobotFileParser
 
 HERE = Path(__file__).resolve().parent
 AGENT = "Olbg8Bot/1.0"
-CHECKED_AT = "2026-10-27T05:40:00Z"  # time of manual source audit; not updated by automation
+CHECKED_AT = "2026-10-27T05:38:00Z"  # time of manual source audit; not updated by automation
 MAX_BYTES = 6_000_000
 
 

@@ -1,0 +1,31 @@
+[
+  {
+    "id":"baseball-160799","sport":"baseball","eventId":"160799","event":"MIL Brewers @ TB Rays","selection":"Milwaukee Brewers money line","confidence":"Low","checkedAt":"2026-10-27T05:38:00Z","expiresAt":"2026-10-28T00:00:00Z","status":"needs-review",
+    "prediction":"I lean Milwaukee Brewers to win Game 4. The Brewers lead the World Series 3–0 after a 10–1 Game 3, although that short run does not guarantee another result. MLB listed Griffin Jax for Tampa Bay and Milwaukee's starter as to be announced; recheck both starters and the conflicting start times before making any decision.",
+    "officialSources":[{"label":"MLB Game 4 preview","url":"https://www.mlb.com/news/2026-world-series-game-4-storylines-brewers-rays"},{"label":"MLB 2026 standings","url":"https://www.mlb.com/standings/mlb/2026"},{"label":"MLB Pythagorean definition","url":"https://www.mlb.com/glossary/advanced-stats/pythagorean-winning-percentage"}],
+    "olbg":"https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+    "flags":["OLBG listed 01:00 UTC; MLB listed 00:00 UTC. Confirm the start before relying on either.","Milwaukee starter, lineups and injury availability need another official check.","This is a low-confidence research lean, not a cleared bet."],
+    "researchLine":{"american":-141,"probability":0.585689102550563,"method":"Regular-season Pythagorean strength with exponent 2, combined by log5. Inputs: Milwaukee 832 runs scored / 618 allowed; Tampa Bay 736 / 650. No home, starter, bullpen, injury or postseason adjustment. Uncalibrated; not a bookmaker quote or evidence of value.","script":"current/pricing.py"}
+  },
+  {
+    "id":"tennis-902233","sport":"tennis","eventId":"902233","event":"Novak Djokovic vs Ugo Humbert","selection":"Novak Djokovic to win","confidence":"Low","checkedAt":"2026-10-27T05:38:00Z","expiresAt":"2026-10-28T10:00:00Z","status":"needs-review",
+    "prediction":"I lean Novak Djokovic over Ugo Humbert in Basel, with low confidence. The ATP says Djokovic won their only previous meeting at Wimbledon in 2019 and has a 12–2 Basel record, but the tournament record is old and the preview gives no match time or current injury status. Recheck the order of play and availability before relying on this view.",
+    "officialSources":[{"label":"ATP Basel preview","url":"https://www.atptour.com/en/news/djokovic-basel-2026-first-match"}],
+    "olbg":"https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
+    "flags":["ATP preview confirms the date but not the hour; the OLBG time must be rechecked against the order of play.","Current availability and an independent calibrated line are missing.","This is a low-confidence research lean, not a cleared bet."],"researchLine":null
+  },
+  {
+    "id":"volleyball-37076","sport":"volleyball","eventId":"37076","event":"Conegliano W vs Vallefoglia W","selection":"Conegliano to win","confidence":"Low","checkedAt":"2026-10-27T05:38:00Z","expiresAt":"2026-10-28T19:00:00Z","status":"needs-review",
+    "prediction":"I lean Conegliano to beat Vallefoglia. The Italian league's preview reported four full league wins for Conegliano and a recent Supercoppa title, but Vallefoglia were also unbeaten and only one point behind. That makes this a cautious view rather than a high-confidence pick; confirm the match-day squads and an actually available price first.",
+    "officialSources":[{"label":"Italian league match preview","url":"https://www.legavolleyfemminile.it/lvf-a1-fineco-conegliano-e-scandicci-dopo-bari-lasticella-rimane-alta-big-match-contro-vallefoglia-e-novara/"}],
+    "olbg":"https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+    "flags":["OLBG's popular selection is Vallefoglia, not this independent lean; its price does not price Conegliano.","Lineups, injuries and an independent calibrated line require review.","This is a low-confidence research lean, not a cleared bet."],"researchLine":null
+  },
+  {
+    "id":"rugby-union-609584","sport":"rugby-union","eventId":"609584","event":"Connacht v Leinster","selection":"Leinster to win","confidence":"Low","checkedAt":"2026-10-27T05:38:00Z","expiresAt":"2026-10-30T19:45:00Z","status":"needs-review",
+    "prediction":"I lean Leinster to win at Connacht. The URC match centre lists Leinster wins in the five recent head-to-head meetings it shows, including 34–23 at Connacht in January 2026. Its displayed season totals were 104 points for Connacht and 99 for Leinster; those figures do not establish the match-day lineups, so this remains a low-confidence view.",
+    "officialSources":[{"label":"URC match centre and history","url":"https://stats.unitedrugby.com/match-centre/202601/united-rugby-championship/connacht-rugby-vs-leinster-rugby-2026-10-30/292616"}],
+    "olbg":"https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Connacht_v_Leinster/9?event_id=609584",
+    "flags":["The OLBG category's Connacht +3.5 handicap is not a Leinster moneyline quote.","Squads, injuries and an independent calibrated line require review.","This is a low-confidence research lean, not a cleared bet."],"researchLine":null
+  }
+]
