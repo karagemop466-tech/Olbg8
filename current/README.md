@@ -15,3 +15,7 @@ node --check current/app.js
 ```
 
 For a public-source refresh on a network that can reach the sources, run `python3 current/collect.py`; it writes a new `current/live.json`. No credentials or private API access are needed.
+
+## Publication check
+
+On 27 October 2026, [refresh run 40458254763](https://github.com/karagemop466-tech/Olbg8/actions/runs/40458254763) completed its public collection and Pages deployment. A live read showed `2026-10-27T05:57:33Z`; later deployments may supersede it. A main push also triggers a refresh so that a legacy deployment does not leave the older committed fallback in place indefinitely.
