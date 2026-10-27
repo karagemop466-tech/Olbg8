@@ -16,11 +16,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild primary dashboard
-        run: python scripts/build_dashboard.py
-      - name: Validate data and local links
-        run: python scripts/test_site.py
-      - name: Check JavaScript syntax
-        run: node --check assets/app.js
+
+      - name: Rebuild the desk from the committed capture
+        run: |
+          python3 scripts/build_capture.py
+          python3 scripts/originate.py
+          python3 scripts/build_picks.py
+          python3 scripts/build_site.py
+      - name: Gate the desk (resolution, window, bands, prose, sources, links)
+        run: python3 scripts/test_site.py
+      - name: Regenerate the retained extra-sport picks payload
+        run: python3 price-engine/add_picks.py
+      - name: Gate the retained desk payload
+        run: python3 scripts/check_site.py
+      - name: Gate the companion picks board (15 sports, links, prose rules)
+        run: python3 scripts/test_board.py
+      - name: Check Python and JavaScript syntax
+        run: |
+          python -m py_compile scripts/*.py price-engine/*.py
+          node --check assets/app.js
       - name: Confirm generated files are committed
-        run: git diff --exit-code -- data/dashboard.json data/sources.json
+        run: |
+          git diff --exit-code -- data/live-capture.json data/lines.json data/picks.json \
+            index.html picks.html matches.html flagged.html pricing.html sources.html \
+            methodology.html sports/ data/desk-picks.json

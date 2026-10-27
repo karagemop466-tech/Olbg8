@@ -1,221 +1,216 @@
 #!/usr/bin/env python3
-"""Offline audit of the rendered site and the payload behind it.
+"""Publication checks for the static desk. Run after build_site.py.
 
-Everything here runs without a network. It fails loudly if a prediction is too
-short, reuses another prediction's prose, contains the internal vocabulary the
-output is not allowed to use, lacks a source, sits outside the price band while
-claiming high confidence, or if any rendered page links to a file that does not
-exist.
-
-Run: python3 scripts/test_site.py
+These tests are the contract between the data files and the published pages: a page may not
+display a number the pipeline did not produce, a pick may not be short, hedged with forbidden
+words, priced outside the agreed band, or missing a source, and no link may dangle.
 """
-from __future__ import annotations
-
 import json
+import os
 import re
 import sys
-from pathlib import Path
+from collections import Counter
+from html.parser import HTMLParser
 from urllib.parse import urlparse
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
-
-from line_engine import PRICE_BAND, in_price_band  # noqa: E402
-
-EXPECTED_SPORTS = {
-    "Golf", "Volleyball", "Rugby Union", "Cricket", "Snooker", "Darts", "Baseball",
-    "Gaelic Sports", "Greyhounds", "Tennis", "Motor Racing", "Handball", "Ice Hockey",
-    "Basketball", "Rugby League",
-}
-BANNED = ("model", "verified")
-WORD_FLOOR = 30
-ERRORS = []
-
-
-def err(msg):
-    ERRORS.append(msg)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FAIL = []
+WARN = []
 
 
 def check(cond, msg):
     if not cond:
-        err(msg)
+        FAIL.append(msg)
 
 
-def main():
-    picks_doc = json.loads((ROOT / "data/picks.json").read_text())
-    events = picks_doc["events"]
-    picks = picks_doc["picks"]
+def read(rel):
+    with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
+        return f.read()
 
-    # ---- scope ----------------------------------------------------------
-    check(set(picks_doc["by_sport"]) <= EXPECTED_SPORTS,
-          "picks.json covers a sport outside the 15 requested")
-    check(len(picks_doc["by_sport"]) == 15,
-          "expected all 15 sports in by_sport, got %d" % len(picks_doc["by_sport"]))
 
-    # ---- every captured event is accounted for --------------------------
-    check(events, "event inventory is empty")
-    priced = [x for x in events if x.get("priceable")]
-    check(len(priced) > 0, "no event carries an originated line")
-    for x in events:
-        name = x.get("event_name")
-        if not name and not x.get("flags"):
-            err("event %s has a blank name and no flag explaining it" % x.get("event_id"))
-        if not x.get("priceable"):
-            check(x.get("flags"),
-                  "event %s is not priceable but carries no explanation" % x.get("event_name"))
+def load(rel):
+    return json.loads(read(rel))
+
+
+CAP = load("data/live-capture.json")
+LINES = load("data/lines.json")
+PICKS = load("data/picks.json")
+CW = load("data/crosswalks.json")
+PAGES = [f for f in sorted(os.listdir(ROOT)) if f.endswith(".html")] + \
+        [f"sports/{f}" for f in sorted(os.listdir(os.path.join(ROOT, "sports"))) if f.endswith(".html")]
+
+# 1. structural integrity of the data ---------------------------------------------------------
+ids = [p["pick_id"] for p in PICKS["picks"]]
+check(len(ids) == len(set(ids)), "pick_id values are not unique")
+idx = {(r["event_id"], r["market"], r["selection"]): r for r in LINES["rows"]}
+for p in PICKS["picks"]:
+    key = (p["event_id"], p["market"], p["selection"])
+    check(key in idx, f"{p['pick_id']}: resolves to no priced row in lines.json")
+    if key in idx:
+        r = idx[key]
+        for fld in ("fair_american", "our_american", "our_prob", "confidence", "official_tier"):
+            check(p[fld] == r[fld], f"{p['pick_id']}: {fld} disagrees with lines.json "
+                                    f"({p[fld]!r} vs {r[fld]!r})")
+check(not any(p["confidence"] == "High" and p["market"].startswith(("Premiership", "Championship", "Six Nations"))
+              for p in PICKS["picks"]), "an outright reached the High band")
+
+# 2. the brief's quality bars ------------------------------------------------------------------
+FORBIDDEN = ("model", "verified")
+for p in PICKS["picks"]:
+    note = p["note"]
+    words = len(re.findall(r"[\w'/&.%+-]+", note))
+    check(words >= 30, f"{p['pick_id']}: note is {words} words, minimum is 30")
+    low = note.lower()
+    for w in FORBIDDEN:
+        check(re.search(rf"\b{w}\b", low) is None, f"{p['pick_id']}: note uses the word '{w}'")
+    fa = p["fair_american"]
+    check(fa is not None, f"{p['pick_id']}: published pick with no line")
+    if fa is not None:
+        check(-250 <= fa <= 10000, f"{p['pick_id']}: fair line {fa} is outside −250 to +10,000")
+    # A note has to be about *this* fixture. OLBG abbreviates team names ("BOS Bruins"),
+    # so the vocabulary it may draw on is the selection, the event label, the market name and
+    # the claim text attached to its sources ("Boston Bruins 9-2-1" gives it Boston and Bruins).
+    stop = {"over", "under", "tie", "win", "match", "line", "market", "total", "totals", "handicap",
+            "the", "and", "for", "with", "from", "this", "that", "own", "league", "list", "page",
+            "series", "game", "games", "side", "sides", "official", "source", "tips", "tipped"}
+    vocab = " ".join([p["selection"], p["event"], p["market"]] +
+                     [f'{s.get("claim") or ""} {s["name"]}' for s in p["sources"]])
+    toks = {t for t in re.findall(r"[A-Za-z][A-Za-z'.-]{3,}", vocab)}
+    toks = {t for t in toks if t.lower() not in stop and len(t) > 4}
+    hits = {t for t in toks if t.lower() in low}
+    specific = p["selection"].strip().lower() in low or p["event"].lower() in low
+    check(specific or len(hits) >= 2,
+          f"{p['pick_id']}: note is too generic — it names neither the selection nor two of the "
+          f"participants or facts its own sources state ({sorted(hits)})")
+    check(bool(p["sources"]), f"{p['pick_id']}: no source attached")
+    for s in p["sources"]:
+        check(s["url"].startswith("https://"), f"{p['pick_id']}: source not https: {s['url']}")
+        check("olbg.com" not in s["url"] or "betting-tips" in s["url"],
+              f"{p['pick_id']}: OLBG source should point at the tips listing")
+
+# 3. prose must not be a template ---------------------------------------------------------------
+notes = {p["pick_id"]: p["note"] for p in PICKS["picks"]}
+
+
+def shingles(text, k=9):
+    w = re.findall(r"[A-Za-z0-9'.-]+", text.lower())
+    return {tuple(w[i:i + k]) for i in range(max(0, len(w) - k + 1))}
+
+
+shared = {}
+for pid, note in notes.items():
+    for sh in shingles(note):
+        shared.setdefault(sh, []).append(pid)
+dupes = {k: v for k, v in shared.items() if len(set(v)) > 1}
+check(not dupes, "two picks share a 9-word run of prose (copy-paste writing): "
+                 + "; ".join(f"{' '.join(k)} -> {sorted(set(v))}" for k, v in list(dupes.items())[:3]))
+openers = Counter(" ".join(n.split()[:2]).lower() for n in notes.values())
+worst = {k: v for k, v in openers.items() if v > 2}
+check(not worst, f"pick notes repeat an opening phrase {worst}")
+formulaic = [pid for pid, n in notes.items() if re.match(r"^(All \w+|Both|\d+ of|Every one|One \w+ of) ", n)]
+check(len(formulaic) <= 5, f"{len(formulaic)} notes open on the tip-count formula; vary the lead-ins")
+for pid, n in notes.items():
+    words = re.findall(r"[A-Za-z0-9'.-]+", n)
+    check(len(shingles(n)) >= len(words) - 9, f"{pid}: repeats itself inside one note")
+    # sentence hygiene: the prose is hand-written, so these catch splices and lost terminators
+    check(n.rstrip()[-1] in ".!?", f"{pid}: note does not end on a sentence mark")
+    check(re.search(r"[a-z]\.[A-Za-z]", n) is None, f"{pid}: missing space after a full stop")
+    check("  " not in n, f"{pid}: double space in prose")
+    for si, sent in enumerate(re.split(r"(?<=[.!?]) +", n)):
+        w = len(sent.split())
+        check(w <= 45, f"{pid}: sentence {si + 1} runs to {w} words; split it")
+        check(w >= 5, f"{pid}: sentence {si + 1} is only {w} words ({sent!r})")
+        check(sent[0].isupper() or sent[0].isdigit(),
+              f"{pid}: sentence {si + 1} starts lower-case ({sent[:40]!r}) — a lost full stop")
+
+# 4. coverage ledger ---------------------------------------------------------------------------
+per = Counter(p["sport"] for p in PICKS["picks"])
+listed = {v["label"] for v in CAP["sports"].values() if v["events"]}
+check(set(per) <= listed, "a pick exists for a sport with no OLBG listing")
+for label in listed:
+    check(per[label] >= 1, f"{label} has a listing but no written pick")
+for key, v in CAP["sports"].items():
+    if not v["events"]:
+        check(v.get("capture_note"), f"{v['label']} has zero events and no capture note explaining it")
+        check(per[v["label"]] == 0, f"{v['label']}: picks exist for an empty category")
+check(len(PICKS["picks"]) >= 40, f"only {len(PICKS['picks'])} picks published; the desk target is 5 per sport")
+
+# 5. unpriced and uncorroborated must stay visibly honest ---------------------------------------
+for r in LINES["rows"]:
+    if r["fair_american"] is None:
+        check("UNPRICED_MARKET" in r["flags"], f"{r['event']} {r['market']}: unpriced row without a flag")
+    if r["official_tier"] != "A":
+        check("NO_OFFICIAL_CROSSWALK" in r["flags"],
+              f"{r['event']}: tier {r['official_tier']} row missing its corroboration flag")
+
+# 6. the rendered pages ------------------------------------------------------------------------
+for page in PAGES:
+    html = read(page)
+    check(html.startswith("<!doctype html>"), f"{page}: missing doctype")
+    for bad in ("None", "nan%", "TODO", "FIXME", "Lorem", "{e(", "{'", "&amp;amp;"):
+        if bad in ("None", "nan%"):
+            check(re.search(r">\s*" + re.escape(bad) + r"\s*<", html) is None,
+                  f"{page}: renders a literal '{bad}' where a value was expected")
         else:
-            ol = x.get("our_line") or {}
-            check(ol.get("our_pick") is not None,
-                  "priced event %s has no pick" % x.get("event_name"))
-            p = ol.get("our_pick_probability")
-            check(p is not None and 0 < p < 1,
-                  "priced event %s has an impossible probability %r" % (x.get("event_name"), p))
-            check(ol.get("our_pick_american") is not None,
-                  "priced event %s has no American price" % x.get("event_name"))
-            fair = ol.get("fair") or {}
-            if fair:
-                tot = sum(v["p"] for v in fair.values() if isinstance(v, dict) and v.get("p"))
-                check(abs(tot - 1.0) < 2e-3,
-                      "event %s fair probabilities sum to %.4f" % (x.get("event_name"), tot))
-            # a pick promoted above low confidence must not come from the crowd alone
-            if ol.get("confidence") in ("high", "medium"):
-                check(x.get("evidence_tier") in ("official", "partial"),
-                      "event %s is %s confidence on crowd-only evidence"
-                      % (x.get("event_name"), ol.get("confidence")))
+            check(bad not in html, f"{page}: contains '{bad}'")
+    check(html.count("<table") == html.count("</table>"), f"{page}: unbalanced table markup")
+    check(html.count("<tr") == html.count("</tr>"), f"{page}: unbalanced row markup")
 
-    # ---- authored predictions ------------------------------------------
-    check(picks, "no written predictions were produced")
-    seen = {}
-    for p in picks:
-        pid = p["pick_id"]
-        text = (p.get("prediction") or "").strip()
-        words = len(text.split())
-        check(words >= WORD_FLOOR,
-              "%s: prediction is %d words, below the %d-word floor" % (pid, words, WORD_FLOOR))
-        low = text.lower()
-        for bad in BANNED:
-            check(not re.search(r"\b%s\b" % bad, low),
-                  "%s: prediction contains the forbidden word %r" % (pid, bad))
-        check(p.get("sources"), "%s: no sources listed" % pid)
-        check(p.get("corroboration"), "%s: no evidence strands listed" % pid)
-        check(p.get("event_name"), "%s: no event name" % pid)
-        check(p.get("selection"), "%s: no selection" % pid)
-        check(p.get("market"), "%s: no market" % pid)
-        for s_ in p.get("sources") or []:
-            check(s_.get("url") and s_.get("name"),
-                  "%s: a source is missing a name or a url" % pid)
-        key = re.sub(r"[^a-z]+", "", low)[:120]
-        check(key not in seen, "%s: prediction prose duplicates %s" % (pid, seen.get(key)))
-        seen[key] = pid
+# 7. links resolve ------------------------------------------------------------------------------
+class Links(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.hrefs = []
 
-        conf = p["confidence"]
-        check(conf in ("high", "medium", "low"), "%s: unknown confidence %r" % (pid, conf))
-        if conf == "high":
-            check(p["evidence_tier"] in ("official", "partial"),
-                  "%s: high confidence on crowd-only evidence" % pid)
-            check(len(p["corroboration"]) >= 3,
-                  "%s: high confidence on %d strands, needs at least 3"
-                  % (pid, len(p["corroboration"])))
-        if p["our_probability"] is not None:
-            check(0 < p["our_probability"] < 1,
-                  "%s: impossible probability %r" % (pid, p["our_probability"]))
-        # The band gate applies to the price WE originate.
-        if p["our_american"] is not None:
-            check(in_price_band(p["our_american"]),
-                  "%s: originated price %s is outside the %s..%s band"
-                  % (pid, p["our_american"], PRICE_BAND["min_american"],
-                     PRICE_BAND["max_american"]))
-            if conf == "high":
-                check(p["in_price_band"],
-                      "%s: high confidence but outside the price band" % pid)
-        # A selection we rate below the market is not a pick.
-        if p.get("edge_vs_market") is not None:
-            check(p["edge_vs_market"] > 0,
-                  "%s: our probability is below the market's implied, so there is no edge" % pid)
-
-    featured = [p for p in picks if p["featured"]]
-    check(len(featured) >= 1, "no pick cleared the high-confidence in-band gate")
-    for p in featured:
-        check(p["confidence"] == "high" and p["in_price_band"],
-              "%s: marked featured without clearing both gates" % p["pick_id"])
-
-    # ---- the publishing gate must itself be clean -----------------------
-    check(not picks_doc.get("validation_problems"),
-          "build_picks reported validation problems: %s"
-          % picks_doc.get("validation_problems"))
-
-    # ---- rendered HTML --------------------------------------------------
-    html_files = list(ROOT.glob("*.html")) + list((ROOT / "sports").glob("*.html"))
-    check(len(html_files) >= 21, "expected at least 21 rendered pages, found %d" % len(html_files))
-    for must in ("index.html", "picks.html", "matches.html", "flagged.html",
-                 "methodology.html", "sources.html"):
-        check((ROOT / must).exists(), "missing page %s" % must)
-
-    index = (ROOT / "index.html").read_text()
-    check("Executive summary" in index, "index.html has no executive summary")
-    for p in featured:
-        check(p["selection"].split("(")[0].strip()[:18] in index
-              or p["selection"][:18] in index,
-              "featured pick %s is not on the landing page" % p["pick_id"])
-
-    # banned vocabulary must not appear inside any rendered prediction block
-    pred_re = re.compile(r'<div class="pred">(.*?)</div>', re.S)
-    strip_re = re.compile(r"<[^>]+>")
-    for f in html_files:
-        for block in pred_re.findall(f.read_text()):
-            txt = strip_re.sub(" ", block).lower()
-            for bad in BANNED:
-                check(not re.search(r"\b%s\b" % bad, txt),
-                      "%s: a rendered prediction contains %r" % (f.name, bad))
-            check(len(txt.split()) >= WORD_FLOOR,
-                  "%s: a rendered prediction is under %d words" % (f.name, WORD_FLOOR))
-
-    # every sport has a page
-    for s in EXPECTED_SPORTS:
-        slug = s.lower().replace(" ", "-")
-        check((ROOT / "sports" / ("%s.html" % slug)).exists(),
-              "missing sport page sports/%s.html" % slug)
-
-    # every rendered row links to an official source
-    matches_html = (ROOT / "matches.html").read_text()
-    check(matches_html.count("Official source") >= 1,
-          "matches.html has no official-source column")
-    for s in EXPECTED_SPORTS:
-        slug = s.lower().replace(" ", "-")
-        body = (ROOT / "sports" / ("%s.html" % slug)).read_text()
-        rows = body.count("<tr>")
-        if rows > 1:
-            check("http" in body, "sports/%s.html has table rows but no source links" % slug)
-
-    # no broken relative links anywhere
-    href_re = re.compile(r'href="([^"]+)"')
-    for f in html_files:
-        for href in href_re.findall(f.read_text()):
-            parsed = urlparse(href)
-            if parsed.scheme or href.startswith("#") or href.startswith("mailto:"):
-                continue
-            target = (f.parent / parsed.path).resolve()
-            check(target.exists(), "%s links to a missing file: %s" % (f.name, href))
-
-    # anchors referenced from other pages must exist
-    anchor_re = re.compile(r'href="(picks\.html|\.\./picks\.html)#([^"]+)"')
-    picks_html = (ROOT / "picks.html").read_text()
-    ids = set(re.findall(r'id="([^"]+)"', picks_html))
-    for f in html_files:
-        for _href, frag in anchor_re.findall(f.read_text()):
-            check(frag in ids, "%s links to picks.html#%s which does not exist" % (f.name, frag))
-
-    if ERRORS:
-        print("SITE AUDIT FAILED - %d problem(s):" % len(ERRORS))
-        for x in ERRORS:
-            print("  ! " + x)
-        sys.exit(1)
-
-    print("site audit ok: %d html pages, %d events captured, %d priced, %d written predictions "
-          "(%d high confidence in band), %d distinct sources cited"
-          % (len(html_files), len(events), len(priced), len(picks), len(featured),
-             len({s_["url"] for p in picks for s_ in p["sources"]})))
+    def handle_starttag(self, tag, attrs):
+        d = dict(attrs)
+        if tag == "a" and d.get("href"):
+            self.hrefs.append(d["href"])
+        if tag in ("link", "script") and d.get("href" if tag == "link" else "src"):
+            self.hrefs.append(d.get("href" if tag == "link" else "src"))
 
 
-if __name__ == "__main__":
-    main()
+for page in PAGES:
+    base = os.path.dirname(os.path.join(ROOT, page))
+    lp = Links()
+    lp.feed(read(page))
+    for h in lp.hrefs:
+        if h.startswith(("http://", "https://", "mailto:")):
+            check(h.startswith("https://"), f"{page}: insecure link {h}")
+            continue
+        target = h.split("#")[0]
+        if not target:
+            continue
+        check(os.path.exists(os.path.join(base, target)), f"{page}: broken relative link -> {h}")
+    for h in [x for x in lp.hrefs if "#" in x and not x.startswith("http")]:
+        frag = h.split("#")[1]
+        fpage = os.path.join(base, h.split("#")[0] or page)
+        if os.path.exists(fpage) and frag:
+            check(f'id="{frag}"' in read(os.path.relpath(fpage, ROOT)),
+                  f"{page}: anchor #{frag} does not exist in {h}")
+
+# 8. no fabricated artefacts return ---------------------------------------------------------------
+check(not os.path.exists(os.path.join(ROOT, "data", "darts.json")),
+      "data/darts.json (fabricated) is back in the published data directory")
+check(os.path.exists(os.path.join(ROOT, "quarantine", "FABRICATED-data-darts.json")),
+      "quarantine note for the fabricated darts file is missing")
+
+# 9. every row on the board carries a source -------------------------------------------------------
+for page in ("picks.html", "matches.html"):
+    html = read(page)
+    n_rows = html.count("<tr") + html.count('<article class="pick"')
+    n_links = html.count("srclink")
+    check(n_links >= n_rows, f"{page}: {n_rows} rows but only {n_links} source links rendered")
+
+if WARN:
+    print("warnings:")
+    for w in WARN:
+        print("  !", w)
+if FAIL:
+    print(f"FAILED {len(FAIL)} check(s):")
+    for f in FAIL[:60]:
+        print("  x", f)
+    sys.exit(1)
+print(f"ok — {len(PAGES)} pages, {len(PICKS['picks'])} picks, {len(LINES['rows'])} priced selections, "
+      f"{len(idx)} lines rows, all checks passed")
+print("   picks per sport: " + ", ".join(f"{k} {v}" for k, v in sorted(per.items(), key=lambda x: -x[1])))
