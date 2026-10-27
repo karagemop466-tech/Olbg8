@@ -1,0 +1,61 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "golf",
+ "sport_label": "Golf",
+ "sport_id": 5,
+ "hub_url": "https://www.olbg.com/betting-tips/Golf/5",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "event_count": 3,
+ "events": [
+  {
+   "event_id": 101913,
+   "event_name": "Maybank Championship",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913",
+   "time_label": "01 Nov 06:45",
+   "top_selection": "Lottie Woad",
+   "top_market": "Win Tournament",
+   "tips_win": 1,
+   "tips_total": 2,
+   "tip_pct": 50,
+   "notes": "Ladies European Tour / Maybank Championship. Outright tournament market, not a head-to-head match."
+  },
+  {
+   "event_id": 101915,
+   "event_name": "Mexico Open",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915",
+   "time_label": "01 Nov 17:45",
+   "top_selection": "Wyndham Clark",
+   "top_market": "Win Tournament",
+   "tips_win": 1,
+   "tips_total": 2,
+   "tip_pct": 50,
+   "notes": "PGA TOUR event. Outright tournament market."
+  },
+  {
+   "event_id": 101914,
+   "event_name": "Simmons Bank Championship",
+   "olbg_url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914",
+   "time_label": "01 Nov 17:45",
+   "top_selection": "Stewart Cink",
+   "top_market": "Win Tournament",
+   "tips_win": 1,
+   "tips_total": 2,
+   "tip_pct": 50,
+   "notes": "PGA TOUR Champions event. Outright tournament market."
+  }
+ ],
+ "olbg_documented_markets": [
+  "Tournament Outright Winner",
+  "First Round Leader",
+  "Top American",
+  "Top European",
+  "Top GB & Ireland",
+  "Team event: Overall correct score",
+  "Team event: Top combined points scorer",
+  "Team event: Top team points scorer"
+ ],
+ "olbg_market_doc_url": "https://www.olbg.com/betting-tips/Golf/5",
+ "olbg_confidence_definition": "OLBG states on this page: 'The selection odds are shown alongside the number of tips received compared with the total number of tips on all outcomes in the market, which gives the confidence percentage.' Value Rating 'compares the percentage of tips a selection has received with the chance of winning implied by its odds.'",
+ "notes": "Golf is an outright/field sport: OLBG lists three tournaments, each with a 'Win Tournament' market. There are no head-to-head 'matches'. Three tournaments is below the five-to-ten target; the shortfall is a property of the OLBG golf calendar at capture, not of collection. FLAGGED."
+}

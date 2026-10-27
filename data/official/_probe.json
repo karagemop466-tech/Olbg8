@@ -1,5 +1,5 @@
 {
- "probed_utc": "2026-10-27T06:38:39Z",
+ "probed_utc": "2026-10-27T06:20:59Z",
  "entries": [
   {
    "sport": "Baseball",
@@ -72,7 +72,7 @@
    "counts": {
     "standings": 32
    },
-   "excerpt": "{\"wildCardIndicator\": true, \"standingsDateTimeUtc\": \"2026-10-27T06:38:30Z\", \"standings\": [{\"conferenceAbbrev\": \"E\", \"conferenceHomeSequence\": 15, \"conferenceL10Sequence\": 1, \"conferenceName\": \"Eastern\", \"conferenceRoadSequence\": 1, \"conferenceSequence\": 1, \"date\": \"2026-10-26\", \"divisionAbbrev\": \"M\", \"divisionHomeSequence\": 8, \"divisionL10Sequence\": 1, \"divisionName\": \"Metropolitan\", \"divisionRoadSequence\": 1, \"divisionSequence\": 1, \"gameTypeId\": 2, \"gamesPlayed\": 13, \"goalDifferential\": 18, \"goalDifferentialPctg\": 1.384615, \"goalAgainst\": 33, \"goalFor\": 51, \"goalsForPctg\": 3.923077, \"homeGame"
+   "excerpt": "{\"wildCardIndicator\": true, \"standingsDateTimeUtc\": \"2026-10-27T06:21:00Z\", \"standings\": [{\"conferenceAbbrev\": \"E\", \"conferenceHomeSequence\": 15, \"conferenceL10Sequence\": 1, \"conferenceName\": \"Eastern\", \"conferenceRoadSequence\": 1, \"conferenceSequence\": 1, \"date\": \"2026-10-26\", \"divisionAbbrev\": \"M\", \"divisionHomeSequence\": 8, \"divisionL10Sequence\": 1, \"divisionName\": \"Metropolitan\", \"divisionRoadSequence\": 1, \"divisionSequence\": 1, \"gameTypeId\": 2, \"gamesPlayed\": 13, \"goalDifferential\": 18, \"goalDifferentialPctg\": 1.384615, \"goalAgainst\": 33, \"goalFor\": 51, \"goalsForPctg\": 3.923077, \"homeGame"
   },
   {
    "sport": "Ice Hockey",
@@ -425,7 +425,7 @@
    "name": "espn-wta-scoreboard",
    "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard",
    "status": 200,
-   "bytes": 475916,
+   "bytes": 476063,
    "content_type": "application/json;charset=UTF-8",
    "format": "json",
    "top_keys": [
@@ -583,7 +583,7 @@
    "name": "icc-fixtures",
    "url": "https://www.icc-cricket.com/fixtures-results",
    "status": 200,
-   "bytes": 371557,
+   "bytes": 371598,
    "content_type": "text/html; charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cfebd638e4c0d914.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next"
@@ -655,7 +655,7 @@
    "name": "gaa-fixtures",
    "url": "https://www.gaa.ie/fixtures-results",
    "status": 200,
-   "bytes": 1314577,
+   "bytes": 1314491,
    "content_type": "text/html; charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html lang=\"en\" class=\"font-foco\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/b890550200953777.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1c45fb95e52719e1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/7b6d4bb147"
@@ -725,7 +725,7 @@
    "name": "espn-nba-scoreboard",
    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
    "status": 200,
-   "bytes": 214853,
+   "bytes": 214852,
    "content_type": "application/json;charset=UTF-8",
    "format": "json",
    "top_keys": [
@@ -821,7 +821,7 @@
    "name": "icc-home",
    "url": "https://www.icc-cricket.com/",
    "status": 200,
-   "bytes": 1559625,
+   "bytes": 1559754,
    "content_type": "text/html; charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cfebd638e4c0d914.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next"
@@ -912,7 +912,7 @@
    "name": "epcr-matches",
    "url": "https://www.epcrugby.com/champions-cup/matches",
    "status": 200,
-   "bytes": 360254,
+   "bytes": 348682,
    "content_type": "text/html;charset=utf-8",
    "format": "html",
    "excerpt": "<!DOCTYPE html><html  lang=\"en\"><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<script type=\"importmap\">{\"imports\":{\"#entry\":\"/_nuxt/DyCSv0i6.js\"}}</script>\n<title>Fixtures &amp; Results | Investec Champions Cup</title>\n<style>@font-face{font-display:swap;font-family:Champion;font-style:normal;font-weight:350;src:url(https://media-cdn.incrowdsport"

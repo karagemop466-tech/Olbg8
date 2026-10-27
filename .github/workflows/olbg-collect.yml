@@ -6,6 +6,10 @@ name: OLBG live harvest
 
 on:
   push:
+    # The 06:17 UTC integration branch carries its own committed capture; a
+    # harvest landing mid-PR only produces duplicate/stale data commits.
+    branches-ignore:
+      - arena/3822f8fb-olbg8
     paths:
       - "scripts/collect_olbg.py"
       - ".github/workflows/olbg-collect.yml"

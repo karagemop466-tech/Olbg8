@@ -11,7 +11,7 @@
 <body>
 <header class="top">
   <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
-  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="" href="methodology.html">Method</a><a class="on" href="flagged.html">Flagged for review</a></nav>
+  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="" href="methodology.html">Method</a><a class="on" href="flagged.html">Flagged for review</a><a class="" href="originated/index.html">Deep analysis</a></nav>
   <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
 </header>
 <div class="wrap">
@@ -37,19 +37,21 @@ the EHF records the head-to-head as 7-0-0 to Kielce and Kolstad are 0-0-5 in the
 or the three-way market is being tipped carelessly. Published as counter-consensus; <em>needs a rule</em> for when we override OLBG's most popular pick.</li>
 <li><strong>Unconfirmed statistics quoted from the site itself.</strong> The OLBG Gaelic football page states Mayo beat Kerry in the 2026 All-Ireland final,
 ending a 75-year wait. Not checked against a GAA source in this session, so the Kerry row carries that as an OLBG claim only.</li>
-<li><strong>A parallel desk was merged to <code>main</code> while this one was being built.</strong>
-Session <code>dcc71481</code>/<code>65c1e02b</code> shipped their own root pages from <code>data/desk-*.json</code> with 24 written
-predictions and a separate pricing step in <code>price-engine/originate.py</code>. Two generators cannot own the same eight HTML files,
-so the root surface is now this pipeline's, their builder is archived at <code>price-engine/build_desk_site.py</code>, and their payload is
-retained and still gated by <code>scripts/check_site.py</code>. Their rows are <em>not</em> merged into the published picks: their engine
-prices the same events differently (Colomiers at -161 against our -150, Naomi Osaka at -132 against our -200), and two prices for one
-selection on one page is the confusion the brief asked us to remove.
-<em>Decision needed:</em> retire the parallel payload, or reconcile the two engines into one and publish the union.</li>
-<li><strong>The legacy builder no longer matches its own payload.</strong> <code>scripts/build_dashboard.py</code> emits a
-<code>v1</code> document from the 2026-10-26 capture, while <code>data/dashboard.json</code> as committed on <code>main</code> is a
-<code>v2</code> summary. Running the old builder therefore overwrites 7,000 lines of the published payload; this branch restores the
-committed file and leaves it alone rather than "fixing" someone else's artefact with a stale one. <em>Decision needed:</em> its owner
-should either re-point the builder at today's capture or retire both together.</li>
+<li><strong>Four desks are now in this repository, and this page is the one at root.</strong> Sessions
+<code>dcc71481</code>/<code>65c1e02b</code> (24 picks, archived builder at <code>price-engine/build_desk_site.py</code>),
+<code>438bbe65</code> (a JavaScript-rendered line desk, 65 picks, its gate retained at <code>scripts/test_line_desk.py</code>) and
+<code>f3d1c18</code>/<code>c2f58873</code> (a companion board at <code>board/</code>, 48 picks) each solved part of the same brief from
+different captures. Prices differ between them — Colomiers at -150 here against -161 there, Naomi Osaka at -200 against -132 — so their rows
+are not folded into ours, and their counts are stated on the overview rather than hidden. Every one of them is rebuilt and gated in the same CI
+run by its own builder. <em>Decision needed:</em> one integrator should pick a single capture and a single renderer; four pre-rendered
+"sources" pages on one host is the confusion this brief was written to remove.</li>
+<li><strong>A scheduled collector commits into other sessions' branches, so no staleness guard can survive it.</strong>
+<code>desk-collector.yml</code> pushes harvest JSON to <code>data/olbg/</code> and <code>data/official/</code> on <code>contents: write</code>
+for <em>any</em> branch that triggers it — this session's PR branch received <code>data: OLBG harvest …T06:17Z</code> commits, which made that
+branch conflict with itself and turned a downstream <code>git diff --exit-code -- data/dashboard.json</code> check red on an unrelated PR. The
+byte-equality guard is now scoped to the four files this pipeline writes plus the rendered pages, and the request recorded in
+<code>COORDINATION.md</code> is that the collector regenerate and commit derived payloads in its own run and stop writing to session branches.
+<em>Decision needed:</em> that workflow's owner.</li>
 </ol></section>
 <section><h2>Corrections applied after the first publish</h2>
 <p class="fine">Kept visible rather than edited silently, because a corrected number is the part of the record worth reading.</p>

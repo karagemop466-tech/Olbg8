@@ -6,6 +6,9 @@ name: Official source probe
 
 on:
   push:
+    # Keep scheduled probes off the integration branch so a PR head stays stable.
+    branches-ignore:
+      - arena/3822f8fb-olbg8
     paths:
       - "scripts/collect_official.py"
       - ".github/workflows/official-collect.yml"

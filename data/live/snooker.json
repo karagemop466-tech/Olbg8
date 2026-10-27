@@ -1,0 +1,19 @@
+{
+ "schema": "olbg-live-capture/v2",
+ "sport_key": "snooker",
+ "sport_label": "Snooker",
+ "sport_id": 8,
+ "hub_url": "https://www.olbg.com/betting-tips/Snooker/8",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "capture_method": "fetch_page via permitted proxy",
+ "event_count": 0,
+ "events": [],
+ "olbg_page_states": "No tips found.",
+ "olbg_documented_markets": [
+  "Win Match",
+  "Handicap Betting (frame handicap)",
+  "Frame Betting (final frame score)",
+  "Win Tournament (antepost)"
+ ],
+ "notes": "ZERO snooker listings on OLBG at capture. The hub renders 'No tips found.' Five-to-ten snooker match picks cannot be produced without fabricating fixtures. Independently reproduces session 53f44a7c's 2026-10-26 observation that 'Snooker showed no tips at capture time'. FLAGGED, not hidden."
+}

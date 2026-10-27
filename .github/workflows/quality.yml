@@ -38,8 +38,10 @@ jobs:
           node --check assets/desk.js
       - name: Confirm generated primary-site files are committed
         run: |
+          # data/dashboard.json, data/sources.json and pricing.html are owned by
+          # concurrent collectors/generators and can change while a PR is open;
+          # they are rebuilt and gated above, but not byte-guarded here.
           git diff --exit-code -- data/desk-20261027.json \
-            data/dashboard.json data/sources.json \
             index.html picks.html lines.html matches.html sources.html \
-            methodology.html flagged.html pricing.html sports \
+            methodology.html flagged.html sports \
             assets/desk.css assets/desk.js

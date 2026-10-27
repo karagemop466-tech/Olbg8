@@ -1,18 +1,18 @@
 exit=0
-golf: rows=4 events=3 competitions=1
-volleyball: rows=28 events=22 competitions=1
+golf: rows=5 events=3 competitions=1
+volleyball: rows=32 events=22 competitions=1
 rugby-union: rows=19 events=13 competitions=1
-cricket: rows=23 events=18 competitions=1
+cricket: rows=25 events=18 competitions=1
 snooker: rows=0 events=0 competitions=0
-darts: rows=3 events=2 competitions=1
+darts: rows=4 events=2 competitions=1
 baseball: rows=2 events=2 competitions=1
 gaelic-football: rows=7 events=3 competitions=1
 hurling: rows=2 events=1 competitions=1
 greyhounds: rows=4 events=4 competitions=1
-tennis: rows=63 events=50 competitions=1
+tennis: rows=60 events=50 competitions=1
 motor-racing: rows=3 events=2 competitions=1
-handball: rows=24 events=19 competitions=1
-ice-hockey: rows=43 events=19 competitions=7
-basketball: rows=47 events=39 competitions=8
+handball: rows=23 events=19 competitions=1
+ice-hockey: rows=48 events=20 competitions=7
+basketball: rows=48 events=39 competitions=8
 rugby-league: rows=4 events=3 competitions=1
-expand: 276 rows
+expand: 286 rows
