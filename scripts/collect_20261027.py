@@ -121,6 +121,19 @@ OFFICIAL_HTML = {
     "wta_scores": "https://www.wtatennis.com/scores",
     "superleague_home": "https://www.superleague.co.uk/",
     "nrl_ladder": "https://www.nrl.com/ladder/",
+    # Event-level official draw pages discovered on the governing-body sites.
+    # These are the 2026 tournaments present in the OLBG Tennis feed.
+    "wta_guangzhou_draws": "https://www.wtatennis.com/tournaments/1023/guangzhou/2026/draws",
+    "wta_tokyo_draws": "https://www.wtatennis.com/tournaments/1056/tokyo/2026/draws",
+    "wta_courmayeur_draws": "https://www.wtatennis.com/tournaments/1174/courmayeur-125/2026/draws",
+    "wta_queretaro_draws": "https://www.wtatennis.com/tournaments/1145/queretaro-125/2026/draws",
+    "wta_curitiba_draws": "https://www.wtatennis.com/tournaments/1180/curitiba-125/2026/draws",
+    "wta_guangzhou_overview": "https://www.wtatennis.com/tournaments/1023/guangzhou/2026",
+    "wta_tokyo_overview": "https://www.wtatennis.com/tournaments/1056/tokyo/2026",
+    "atp_vienna_draws": "https://www.atptour.com/en/scores/archive/vienna/337/2026/draws",
+    "atp_basel_draws": "https://www.atptour.com/en/scores/archive/basel/328/2026/draws",
+    "atp_vienna_results": "https://www.atptour.com/en/scores/current/vienna/337/results",
+    "atp_basel_results": "https://www.atptour.com/en/scores/current/basel/328/results",
 }
 
 
