@@ -1,7 +1,7 @@
 {
  "sport": "Darts",
  "sport_id": 15,
- "captured_utc": "2026-10-27T06:21:00Z",
+ "captured_utc": "2026-10-27T06:59:35Z",
  "rows": [
   {
    "sport": "Darts",
@@ -44,9 +44,9 @@
    "venue": "",
    "origin": "hub",
    "win_tips": 2,
-   "win_tips_count": 9,
+   "win_tips_count": 10,
    "experts_count": 0,
-   "confidence": 22,
+   "confidence": 20,
    "comments_count": 1
   },
   {
