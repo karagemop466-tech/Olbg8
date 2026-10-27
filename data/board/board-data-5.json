@@ -1,0 +1,44 @@
+{
+  "sports": [
+    {
+      "key": "snooker",
+      "label": "Snooker",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Snooker/8",
+      "official_register": "https://www.wst.tv/matches",
+      "official_register_note": "Both OLBG ('No tips found') and World Snooker Tour ('There is no tournament taking place today', fetched 2026-10-27) confirm no active snooker event. No rows, lines or predictions are fabricated; the WST calendar link is provided for the next tournament.",
+      "rows": [],
+      "empty_reason": "OLBG hub shows 'No tips found' and WST confirms no tournament is taking place on 2026-10-27."
+    },
+    {
+      "key": "greyhounds",
+      "label": "Greyhounds",
+      "olbg_hub": "https://www.olbg.com/betting-tips/Greyhounds/28",
+      "official_register": "https://www.gbgb.org.uk/racing/",
+      "official_register_note": "OLBG currently shows 'No tips found' for greyhounds. The GBGB racing database (fetched 2026-10-27) is live with date search and recent race reports (Scurry Gold Cup, Oaks and Doncaster Puppy Derby coverage, 22 Oct), but its card data is JavaScript-rendered and no per-race official extraction was possible. No runners or lines are invented.",
+      "rows": [],
+      "empty_reason": "No OLBG greyhound tips at capture time; GBGB confirms the sport is active but race-level data could not be extracted from the official database in this environment."
+    }
+  ],
+  "source_ledger": [
+    {"name":"OLBG sport hubs and event pages","url":"https://www.olbg.com/betting-tips","role":"Primary listing source: fixtures, kick-off labels, markets, tip counts and consensus, tipster commentary","type":"tipster platform, not an official governing body"},
+    {"name":"NBA.com games & standings","url":"https://www.nba.com/games?date=2026-10-27","role":"Official NBA fixtures, team records, season leaders and per-game IDs","type":"official league"},
+    {"name":"NHL.com schedule & GameCenter","url":"https://www.nhl.com/schedule","role":"Official NHL fixtures, broadcast info and game IDs","type":"official league"},
+    {"name":"MLB.com schedule & Gameday","url":"https://www.mlb.com/schedule","role":"Official World Series schedule and scores","type":"official league"},
+    {"name":"ATP Tour scores","url":"https://www.atptour.com/en/scores/current","role":"Official ATP tournaments, live scores and results","type":"official tour"},
+    {"name":"WTA Tour schedule","url":"https://wtatour.com/tournaments/schedule","role":"Official WTA register (event-level extraction not available)","type":"official tour"},
+    {"name":"ICC fixtures & results","url":"https://www.icc-cricket.com/fixtures-results","role":"Official international cricket fixtures with match IDs","type":"official governing body"},
+    {"name":"LNR Pro D2 calendar","url":"https://prod2.lnr.fr/calendrier-et-resultats","role":"Official French Pro D2 J9 fixtures, league positions and match sheets","type":"official league"},
+    {"name":"United Rugby Championship","url":"https://www.unitedrugby.com/","role":"URC register; event pages not individually extracted","type":"official league"},
+    {"name":"EHF Champions League matches","url":"https://ehfcl.eurohandball.com/men/2026-27/matches/","role":"Official handball fixtures and detail pages","type":"official competition"},
+    {"name":"CEV","url":"https://www.cev.eu/","role":"European volleyball confederation register; live match centres not exposed in fetched index","type":"official confederation"},
+    {"name":"EuroLeague Basketball standings","url":"https://www.euroleaguebasketball.net/en/euroleague/standings/","role":"Official 2026-27 EuroLeague standings and differentials","type":"official competition"},
+    {"name":"Formula1.com 2026 calendar","url":"https://www.formula1.com/en/racing/2026","role":"Official F1 calendar, round numbers and season results","type":"official series"},
+    {"name":"PGA Tour schedule","url":"https://www.pgatour.com/schedule","role":"Official PGA Tour schedule and results","type":"official tour"},
+    {"name":"LPGA tournaments","url":"https://www.lpga.com/tournaments","role":"Official LPGA fields, purses and schedules","type":"official tour"},
+    {"name":"PDC.tv news & tournaments","url":"https://www.pdc.tv/tournaments","role":"Official PDC entries and tournament news","type":"official tour"},
+    {"name":"World Snooker Tour","url":"https://www.wst.tv/matches","role":"Official snooker tournament status","type":"official tour"},
+    {"name":"GAA.ie fixtures","url":"https://www.gaa.ie/fixtures-results","role":"Official inter-county fixtures and results","type":"official association"},
+    {"name":"GBGB racing","url":"https://www.gbgb.org.uk/racing/","role":"Official British greyhound racing database and news","type":"official regulator"},
+    {"name":"NRL.com draw","url":"https://www.nrl.com/draw/","role":"Official NRL and Rugby League World Cup fixtures","type":"official league"}
+  ]
+}

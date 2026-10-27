@@ -1,0 +1,389 @@
+{
+ "schema": "olbg-desk-pricing/1",
+ "guards": [
+  "No line is published without an official source for the event's identity and for the form inputs used in the calculation.",
+  "Where a required input (starting pitcher, lineup, going, weather, injury) is unconfirmed, the line is withheld and the match is flagged rather than priced on an assumption.",
+  "Margins are stated per market so a reader can back out the desk's raw probability: raw = published probability / (1 + margin).",
+  "The mandate window is -250 to +10000 American. A line shorter than -250 is still published where the analysis supports it, but is labelled out-of-window.",
+  "Confidence bands follow the published implied probability: high 65.0-71.4% (which is -186 to -250 American), medium 55.0-64.9%, low below 55.0%.",
+  "Every price is originated by this desk. No bookmaker price is copied, and no OLBG tip count is treated as a probability."
+ ],
+ "banding": {
+  "high": "65.0-71.4% implied (about -186 to -250 American)",
+  "medium": "55.0-64.9% implied (about +54 to -185)",
+  "low": "below 55.0% implied (about +82 or longer)"
+ },
+ "sports": {
+  "volleyball": {
+   "summary": "Two-way match market with no draw. Each side is rated from sets and points won per set across the current league season and from head-to-head set differential; the rating gap is converted to a match probability with the standard logistic link, then adjusted for home court (worth 0.15 to 0.30 of a set) and, for set-score markets, expanded through a per-set binomial.",
+   "markets": [
+    {
+     "market": "Match winner (2-way)",
+     "method": "Logistic on rating gap; per-set win rate estimated from season set differential, then converted to a best-of-five match probability by summing binomial terms for 3-0, 3-1 and 3-2.",
+     "inputs": "League sets won/lost, points per set, head-to-head set record, home/away split",
+     "margin": "4.0%"
+    },
+    {
+     "market": "Set score (3-0, 3-1, 3-2)",
+     "method": "Binomial with per-set probability from the rating gap, split across the three winning scorelines; sets are treated as independent within 0.02 tolerance.",
+     "inputs": "Same as match winner",
+     "margin": "7.0%"
+    },
+    {
+     "market": "Total sets over/under",
+     "method": "Sum of the match-winner scenarios that produce each total; the over/under line is derived from the resulting distribution, not from a market quote.",
+     "inputs": "Per-set probability, match-winner probability",
+     "margin": "6.0%"
+    }
+   ],
+   "example": "A side rated 0.62 per set in a best-of-five wins 3-0 at 23.8%, 3-1 at 26.6% and 3-2 at 24.7%, so the match probability is 75.1%; after the 4% margin the published line is about -270, which is inside the window only if the band check passes."
+  },
+  "tennis": {
+   "summary": "Two-way match market. Player strength comes from tour ranking points and recent win rate on the same surface, blended into an Elo-style rating; the rating gap becomes a match probability, then a per-set probability for set and total-games markets.",
+   "markets": [
+    {
+     "market": "Match winner (2-way)",
+     "method": "Elo-style rating difference plus a surface term; converted with the logistic link and then adjusted for best-of-three versus best-of-five format.",
+     "inputs": "Ranking points, surface win rate over the last 52 weeks, head-to-head, retirement history",
+     "margin": "3.5%"
+    },
+    {
+     "market": "Set betting",
+     "method": "Per-set probability from the same rating gap; match probability is the binomial sum over straight-set and three-set paths.",
+     "inputs": "Same as match winner",
+     "margin": "6.0%"
+    },
+    {
+     "market": "Total games over/under",
+     "method": "Expected games from the per-set win rate and the players' service hold rates, then a normal approximation around the resulting mean.",
+     "inputs": "Hold rate, break rate, per-set probability",
+     "margin": "6.0%"
+    }
+   ],
+   "example": "A 120-point rating edge converts to 68.5% in a best-of-three; with the 3.5% margin the line is -231 and the published win chance is 69.9%."
+  },
+  "basketball": {
+   "summary": "Two-way market including overtime. Team strength is a points-per-100-possession differential adjusted for schedule and opponent, converted to a projected margin, then to a win probability with a margin standard deviation of 11.5 points.",
+   "markets": [
+    {
+     "market": "Moneyline (2-way, includes OT)",
+     "method": "Normal approximation: P(win) = Phi(projected margin / 11.5). Projected margin from net rating differential plus 2.2 points home court.",
+     "inputs": "Net rating, pace, rest days, confirmed availability of listed starters",
+     "margin": "4.0%"
+    },
+    {
+     "market": "Handicap / spread",
+     "method": "Same projected margin against the desk's own spread line, priced with the same normal approximation and a push band of 0.5 points.",
+     "inputs": "Net rating, home court, rest",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Total points over/under",
+     "method": "Expected possessions multiplied by expected points per possession for both teams; the line is the sum, priced with a 14-point standard deviation.",
+     "inputs": "Pace, offensive and defensive efficiency",
+     "margin": "4.5%"
+    }
+   ],
+   "example": "A projected 6.4-point home margin gives Phi(6.4/11.5) = 71.1% home; the 4% margin pushes the published line to about -285 and the pick is flagged out-of-window."
+  },
+  "ice-hockey": {
+   "summary": "Three-way regulation market and two-way market including overtime and shootout. Strength is goal differential per 60 minutes at even strength; regulation probabilities come from a Poisson goal model, and the draw is removed to price the two-way market.",
+   "markets": [
+    {
+     "market": "Moneyline (2-way, includes OT/SO)",
+     "method": "Poisson goal model for 60 minutes, then the regulation draw is split 55/45 toward the stronger side for overtime; the three outcomes are renormalised to two.",
+     "inputs": "Goals for/against per 60, save percentage, special teams, confirmed starting goaltender",
+     "margin": "4.0%"
+    },
+    {
+     "market": "Regulation 3-way",
+     "method": "Poisson with expected goals for each side; the draw is the P(equal goals) term.",
+     "inputs": "Same as moneyline",
+     "margin": "5.0%"
+    },
+    {
+     "market": "Puck line -1.5 / +1.5",
+     "method": "The same Poisson grid, summed over the margin cells that satisfy the handicap, including the empty-net effect of 0.25 goals.",
+     "inputs": "Expected goals for each side",
+     "margin": "5.5%"
+    },
+    {
+     "market": "Total goals over/under",
+     "method": "Poisson total with the line at the desk's own expected-goal sum rounded to the nearest half.",
+     "inputs": "Expected goals for each side",
+     "margin": "5.0%"
+    }
+   ],
+   "example": "Expected goals 3.15 to 2.70 gives a 44.1% regulation home win, 24.6% draw and 31.3% away; splitting the draw 55/45 yields 57.6% home on the two-way market."
+  },
+  "rugby-union": {
+   "summary": "Three-way market (win, draw, loss) with handicap and total points. Strength is points differential adjusted for opponent quality; the draw is modelled explicitly at about 2% to 4% depending on the expected margin.",
+   "markets": [
+    {
+     "market": "Match winner (3-way)",
+     "method": "Normal approximation on projected margin with a 13.5-point standard deviation; the draw band is plus or minus 0.5 points, and home advantage is 3.0 points.",
+     "inputs": "Points for/against, strength of schedule, recent results, confirmed team sheet",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Handicap",
+     "method": "The same projected margin against the desk's handicap line, with a push band.",
+     "inputs": "Same as match winner",
+     "margin": "5.0%"
+    },
+    {
+     "market": "Total points over/under",
+     "method": "Sum of expected points for both sides, priced with a 12-point standard deviation.",
+     "inputs": "Tries and penalty counts per match, kick success",
+     "margin": "5.0%"
+    }
+   ],
+   "example": "A projected 7-point home margin puts the home win at 69.6% and the draw at 2.9%; the away win takes the remaining 27.5%."
+  },
+  "rugby-league": {
+   "summary": "Three-way and two-way markets with handicap and totals. League strength is points differential per match with a larger home edge than rugby union because of the six-again rule's tempo effect.",
+   "markets": [
+    {
+     "market": "Match winner (3-way)",
+     "method": "Normal approximation on projected margin, 14.5-point standard deviation, 3.5 points home advantage, draw band of plus or minus 0.5 points.",
+     "inputs": "Points for/against per match, recent form, confirmed 17-man squad",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Handicap",
+     "method": "Projected margin against the desk's handicap line with a push band.",
+     "inputs": "Same as match winner",
+     "margin": "5.0%"
+    },
+    {
+     "market": "Total points over/under",
+     "method": "Sum of expected points with a 13-point standard deviation.",
+     "inputs": "Tries per match, goal-kicking success",
+     "margin": "5.0%"
+    }
+   ],
+   "example": "A projected 12-point margin gives roughly 79% for the favourite before the draw band is removed."
+  },
+  "handball": {
+   "summary": "Three-way market in most European leagues and two-way in some cup formats. Strength is goals for and against per match; expected goals come from an attack-versus-defence product, and the win probabilities come from a Poisson grid.",
+   "markets": [
+    {
+     "market": "Match winner (3-way)",
+     "method": "Independent Poisson on each side's expected goals; draw is the diagonal of the grid, home edge worth 1.2 goals.",
+     "inputs": "Goals for/against per match, home/away split, EHF coefficient",
+     "margin": "5.0%"
+    },
+    {
+     "market": "Handicap",
+     "method": "The Poisson grid summed over margin cells satisfying the handicap.",
+     "inputs": "Expected goals for each side",
+     "margin": "5.5%"
+    },
+    {
+     "market": "Total goals over/under",
+     "method": "Poisson total around the desk's expected-goal sum, line rounded to the nearest whole goal.",
+     "inputs": "Expected goals for each side",
+     "margin": "5.5%"
+    }
+   ],
+   "example": "Expected goals 30.5 to 27.0 gives a 54.9% home win, 12.1% draw and 33.0% away win."
+  },
+  "cricket": {
+   "summary": "Two-way match market and, in Test cricket, a three-way market with the draw. T20 and ODI probabilities come from a scoring-rate model; Test probabilities are driven by first-innings run expectation and remaining time.",
+   "markets": [
+    {
+     "market": "Match winner (2-way, limited overs)",
+     "method": "Expected run-rate differential converted to a projected run margin, then to a win probability with a 22-run standard deviation for T20 and 34 for ODI.",
+     "inputs": "Runs per over for and against, powerplay and death-over splits, toss and confirmed XI",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Test match (3-way incl. draw)",
+     "method": "First-innings expectation, follow-on risk and the forecast overs remaining produce win/draw/loss shares; the draw is not a residual but is modelled from time lost.",
+     "inputs": "Batting averages, bowling averages, venue history, weather forecast",
+     "margin": "6.0%"
+    },
+    {
+     "market": "Series and innings totals",
+     "method": "Sum of per-match expectations across the scheduled fixtures.",
+     "inputs": "Per-match run expectation",
+     "margin": "6.0%"
+    }
+   ],
+   "example": "A projected 18-run edge in a T20 gives 66.9% for the stronger side before the toss adjustment."
+  },
+  "snooker": {
+   "summary": "Two-way match market in a best-of format. Strength is a per-frame probability built from ranking, recent frame differential and head-to-head; the match probability is the binomial sum over the required frames.",
+   "markets": [
+    {
+     "market": "Match winner (2-way)",
+     "method": "Per-frame probability from frame win rate and break-building; converted to best-of-N by summing binomial probabilities of reaching the target first.",
+     "inputs": "Ranking, frames won/lost this season, head-to-head frame record, format",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Handicap frames",
+     "method": "The same binomial distribution, summed over the frames handicap.",
+     "inputs": "Per-frame probability, format",
+     "margin": "5.5%"
+    },
+    {
+     "market": "Total frames over/under",
+     "method": "Distribution of the finishing frame count from the binomial.",
+     "inputs": "Per-frame probability, format",
+     "margin": "5.5%"
+    }
+   ],
+   "example": "A 0.58 per-frame edge in a best-of-nine gives 66.3% for the match, with the most likely scoreline 5-3."
+  },
+  "darts": {
+   "summary": "Two-way match market in legs or sets. Strength is three-dart average and checkout percentage; legs are converted to a match probability through a per-leg binomial or a set-based equivalent.",
+   "markets": [
+    {
+     "market": "Match winner (2-way)",
+     "method": "Per-leg probability from three-dart average and checkout rate, then a binomial through the format; set play multiplies the leg model by a set conversion of 0.92.",
+     "inputs": "Three-dart average over 12 months, checkout percentage, head-to-head",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Handicap legs",
+     "method": "The same binomial summed over the legs handicap.",
+     "inputs": "Per-leg probability, format",
+     "margin": "5.5%"
+    },
+    {
+     "market": "Total legs or 180s",
+     "method": "Leg distribution and expected 180s from the scoring rate.",
+     "inputs": "Three-dart average, 180 rate",
+     "margin": "6.0%"
+    }
+   ],
+   "example": "A 0.60 per-leg edge in a best-of-19 legs match gives 71.3%, which sits at the very edge of the price window."
+  },
+  "baseball": {
+   "summary": "Two-way moneyline and run line. Strength is a run-expectation model driven by the confirmed starting pitchers, the bullpen and the park; the win probability comes from a run-scoring simulation with a 4.3-run standard deviation.",
+   "markets": [
+    {
+     "market": "Moneyline (2-way)",
+     "method": "Expected runs for each side from starter ERA/FIP and bullpen quality, park factor and lineup handedness; converted to a win probability with a 4.3-run standard deviation.",
+     "inputs": "Confirmed starters, bullpen ERA, park factor, lineup",
+     "margin": "4.0%"
+    },
+    {
+     "market": "Run line -1.5 / +1.5",
+     "method": "The same run distribution summed over the margin cells, with the home team's ninth inning conditioned on the score.",
+     "inputs": "Same as moneyline",
+     "margin": "5.0%"
+    },
+    {
+     "market": "Total runs over/under",
+     "method": "The sum of expected runs, priced with a 4.3-run standard deviation.",
+     "inputs": "Starters, park, wind",
+     "margin": "4.5%"
+    }
+   ],
+   "example": "Expected runs 4.6 to 4.0 gives a 57.5% home win with the stated spread; the line lands near -135."
+  },
+  "gaelic-sports": {
+   "summary": "Two-way market in Gaelic football and hurling, plus handicap and total points. Strength is scoring difference per game adjusted for division and opponent; draws are possible but rare and are priced as a no-bet on the two-way market.",
+   "markets": [
+    {
+     "market": "Match winner (2-way, draw no bet)",
+     "method": "Normal approximation on projected margin with a 9.5-point standard deviation for football and 11 for hurling; home advantage 2.5 points.",
+     "inputs": "Scoring difference per game, division, league and championship form, confirmed panel",
+     "margin": "4.5%"
+    },
+    {
+     "market": "Handicap",
+     "method": "Projected margin against the desk's handicap line with a push band.",
+     "inputs": "Same as match winner",
+     "margin": "5.5%"
+    },
+    {
+     "market": "Total points over/under",
+     "method": "Sum of expected scores with a 10-point standard deviation.",
+     "inputs": "Scores for/against per game",
+     "margin": "5.5%"
+    }
+   ],
+   "example": "A projected 5-point football margin gives 70.1% for the favourite, which is inside the window at about -215."
+  },
+  "greyhounds": {
+   "summary": "Race outright market across the six to eight runners, plus forecast and place markets. Strength is early pace and recent sectional times adjusted for trap and going; probabilities are normalised across the field.",
+   "markets": [
+    {
+     "market": "Race winner (field)",
+     "method": "Trap-adjusted sectional rating for each runner, converted to a softmax probability across the field and normalised to 100%.",
+     "inputs": "Recent sectional times, trap bias at the track, going, grade",
+     "margin": "12.0% (spread across the field)"
+    },
+    {
+     "market": "Place (top 2 or 3)",
+     "method": "Harville approximation on the win probabilities for the place terms advertised by the track.",
+     "inputs": "Win probabilities, field size, place terms",
+     "margin": "10.0%"
+    },
+    {
+     "market": "Forecast / tricast",
+     "method": "Harville pairwise and triple products from the win probabilities.",
+     "inputs": "Win probabilities",
+     "margin": "15.0%"
+    }
+   ],
+   "example": "A runner at 26% raw becomes 22.7% after the 12% field margin, which is about +340 American."
+  },
+  "golf": {
+   "summary": "Tournament outright and place markets. Strength is strokes-gained per round over the last 24 rounds adjusted for course fit; win probability is normalised across the field and place probability uses the Harville approximation.",
+   "markets": [
+    {
+     "market": "Tournament winner (field)",
+     "method": "Strokes-gained rating converted to a per-round standard deviation of 2.6 strokes; win probability from a Plackett-Luce normalisation across the confirmed field.",
+     "inputs": "Strokes gained tee-to-green and putting, course fit, field strength, confirmed entry list",
+     "margin": "14.0% (spread across the field)"
+    },
+    {
+     "market": "Top 10 / top 20 finish",
+     "method": "Harville approximation across the field for the place terms.",
+     "inputs": "Win probabilities",
+     "margin": "10.0%"
+    },
+    {
+     "market": "72-hole matchups",
+     "method": "Head-to-head difference in strokes-gained rating, priced with a 2.6-stroke-per-round standard deviation over four rounds.",
+     "inputs": "Strokes-gained ratings for both players",
+     "margin": "6.0%"
+    }
+   ],
+   "example": "A field-leading 8% raw win share becomes 6.9% after the field margin, which is about +1350 American."
+  },
+  "motor-racing": {
+   "summary": "Race outright, podium and head-to-head markets. Strength is a car-plus-driver rating derived from qualifying and race pace; win probability is normalised across the grid, with a reliability term from recent retirements.",
+   "markets": [
+    {
+     "market": "Race winner (grid)",
+     "method": "Pace rating from qualifying gaps, converted to a softmax across the grid and multiplied by a reliability factor (finishing rate over the last 20 starts).",
+     "inputs": "Qualifying gaps, race pace, reliability, grid penalties",
+     "margin": "12.0% (spread across the grid)"
+    },
+    {
+     "market": "Podium finish",
+     "method": "Sum of the top-three finishing permutations from the same normalised distribution.",
+     "inputs": "Win probabilities, reliability",
+     "margin": "9.0%"
+    },
+    {
+     "market": "Head-to-head (driver or team)",
+     "method": "Two-way conversion of the pace gap between the pair.",
+     "inputs": "Qualifying and race pace gap",
+     "margin": "5.0%"
+    }
+   ],
+   "example": "A 24% raw win share becomes 21.1% after the grid margin, which is about +375 American."
+  },
+  "gaelic_hurling": {
+   "summary": "Hurling uses the Gaelic football engine with a wider margin standard deviation and a higher expected score.",
+   "markets": [],
+   "example": ""
+  }
+ }
+}
