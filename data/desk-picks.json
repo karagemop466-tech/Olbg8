@@ -1,4 +1,352 @@
 {
  "schema": "olbg-desk-picks/1",
- "picks": []
+ "generated_utc": "2026-10-27T06:20:00Z",
+ "pricing_note": "Each pick stores the fair probability behind the line, the margin applied and the resulting American price, so the arithmetic can be re-run by hand.",
+ "picks": [
+  {
+   "id": "basketball-pao-mil",
+   "sport": "basketball",
+   "event_id": "536177",
+   "event": "Panathinaikos vs Milano",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:15:00Z",
+   "market": "Handicap",
+   "selection": "Panathinaikos \u221219.5",
+   "line_american": -246,
+   "line_decimal": 1.407,
+   "implied_pct": 71.1,
+   "confidence": "high",
+   "analysis": "Panathinaikos are the form team of the opening EuroLeague month at 6-1, with a +96 points differential built on 613 scored and 517 conceded, and they are 5-1 on their own floor. Milano arrive at 1-6 with a \u221263 differential and an 0-3 road record, having conceded 648 points in seven games. The call is Panathinaikos minus 19.5 points on the handicap, a line that still sits below the 24.9-point margin their scoring rates project.",
+   "facts": [
+    {
+     "text": "Panathinaikos: 7 played, 6 wins, 1 loss, 613 points for, 517 against (+96), home 5-1, last ten 6-1.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Armani Olimpia Milano: 7 played, 1 win, 6 losses, 585 points for, 648 against (\u221263), road 0-3, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177"
+    }
+   ],
+   "pricing": "Net points per game each side (Panathinaikos +13.71, Milano \u22129.00) plus 2.2 home court gives a projected 24.9-point margin; the cover probability is the normal approximation with an 11.5-point standard deviation, then a 4.5% handicap margin is applied.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-vbc-fen",
+   "sport": "basketball",
+   "event_id": "536179",
+   "event": "Valencia vs Fenerbahce",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:30:00Z",
+   "market": "Money line",
+   "selection": "Valencia",
+   "line_american": -149,
+   "line_decimal": 1.671,
+   "implied_pct": 59.8,
+   "confidence": "medium",
+   "analysis": "Valencia are 5-2 with a +57 differential after seven games, splitting their home games 2-2 while scoring 687 points, the highest total in the table. Fenerbahce are 6-1 and level on differential at +57, but their record is built at home where they are 5-0; on the road they are 1-1 with 508 points conceded overall. The lean is Valencia on the money line, and it goes against the OLBG crowd, which has Fenerbahce at 67% of tips.",
+   "facts": [
+    {
+     "text": "Valencia Basket: 7 played, 5 wins, 2 losses, 687 for, 630 against (+57), home 2-2, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Fenerbahce: 7 played, 6 wins, 1 loss, 565 for, 508 against (+57), home 5-0, away 1-1, last ten 6-1.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179"
+    }
+   ],
+   "pricing": "Equal net ratings (8.14 points per game each) leave the 2.2-point home edge as the whole of the projected margin; the win probability is the normal approximation on that margin, plus a 4.0% money-line margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-bes-oly",
+   "sport": "basketball",
+   "event_id": "536180",
+   "event": "Besiktas vs Olympiacos",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T17:30:00Z",
+   "market": "Money line",
+   "selection": "Olympiacos",
+   "line_american": -211,
+   "line_decimal": 1.474,
+   "implied_pct": 67.8,
+   "confidence": "high",
+   "analysis": "Olympiacos are 5-2 with a +37 differential and the best road record in the early table at 4-1, with two of their games already decided in overtime. Besiktas are 3-4 and have been outscored by ten points across seven games, going 1-2 at home while conceding 644. The bet is Olympiacos to win, with the away form and the four-point projected edge doing the work.",
+   "facts": [
+    {
+     "text": "Olympiacos Piraeus: 7 played, 5 wins, 2 losses, 625 for, 588 against (+37), away 4-1, overtime 2-0, last ten 5-2.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Besiktas Istanbul: 7 played, 3 wins, 4 losses, 634 for, 644 against (\u221210), home 1-2, last ten 3-4.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Besiktas_vs_Olympiacos/4?event_id=536180"
+    }
+   ],
+   "pricing": "Net points per game give Olympiacos +5.29 and Besiktas \u22121.43; with 2.2 points conceded for travel the projected margin is 4.5, priced through the normal approximation with a 4.0% margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-vir-zal",
+   "sport": "basketball",
+   "event_id": "536183",
+   "event": "Virtus Bologna vs Zalgiris",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-28T19:30:00Z",
+   "market": "Money line",
+   "selection": "Virtus Bologna",
+   "line_american": -135,
+   "line_decimal": 1.741,
+   "implied_pct": 57.4,
+   "confidence": "medium",
+   "analysis": "Virtus Bologna are 4-3 and unbeaten at home at 2-0, although their overall differential is a modest \u22122 from 606 scored and 608 conceded. Zalgiris are 3-4 with a \u22127 differential and a 2-2 road split, and they have been held to 595 points in seven games. The selection is Virtus Bologna money line, a small edge taken because the venue form is the clearest split in the match.",
+   "facts": [
+    {
+     "text": "Virtus Bologna: 7 played, 4 wins, 3 losses, 606 for, 608 against (\u22122), home 2-0, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Zalgiris Kaunas: 7 played, 3 wins, 4 losses, 595 for, 602 against (\u22127), away 2-2, home 1-2, last ten 3-4.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Virtus_Bologna_vs_Zalgiris/4?event_id=536183"
+    }
+   ],
+   "pricing": "Net ratings of \u22120.29 and \u22121.00 per game plus the 2.2-point home edge project a 1.5-point margin; normal approximation with an 11.5-point standard deviation, then a 4.0% money-line margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-bas-rmb",
+   "sport": "basketball",
+   "event_id": "536178",
+   "event": "Baskonia vs Real Madrid",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T20:00:00Z",
+   "market": "Handicap",
+   "selection": "Real Madrid \u22129.5",
+   "line_american": -170,
+   "line_decimal": 1.588,
+   "implied_pct": 63.0,
+   "confidence": "medium",
+   "analysis": "Real Madrid sit 4-3 with a +37 differential from 667 points scored, the second-highest in the league, and have won two of their five road games. Baskonia are 1-6 with the worst differential in the table at \u221266, conceding 649 points in seven games and losing three of four at home. Real Madrid minus 9.5 is the bet, comfortably inside the 12.5-point margin the two scoring rates project.",
+   "facts": [
+    {
+     "text": "Real Madrid: 7 played, 4 wins, 3 losses, 667 for, 630 against (+37), away 2-3, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Kosner Baskonia: 7 played, 1 win, 6 losses, 583 for, 649 against (\u221266), home 1-3, last ten 1-6.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Baskonia_vs_Real_Madrid/4?event_id=536178"
+    }
+   ],
+   "pricing": "Real Madrid rate +5.29 net points per game and Baskonia \u22129.43; after the 2.2-point travel allowance the projected margin is 12.5, so the \u22129.5 line needs only a 3-point cover, priced at a 4.5% margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "basketball-czv-mta",
+   "sport": "basketball",
+   "event_id": "536175",
+   "event": "Crvena Zvezda vs Maccabi Tel Aviv",
+   "competition": "EuroLeague",
+   "start_utc": "2026-10-27T19:00:00Z",
+   "market": "Handicap",
+   "selection": "Crvena Zvezda \u22129.5",
+   "line_american": -173,
+   "line_decimal": 1.578,
+   "implied_pct": 63.4,
+   "confidence": "medium",
+   "analysis": "Crvena Zvezda are 4-3 with a +28 differential, scoring 560 and conceding 532, and they have split their home games 2-2. Maccabi are 2-5 with a \u221245 differential, the third-worst in the table, and they are 1-3 on the road after conceding 653 points. The pick is Crvena Zvezda minus 9.5, a line the projected 12.6-point margin clears with room.",
+   "facts": [
+    {
+     "text": "Crvena Zvezda: 7 played, 4 wins, 3 losses, 560 for, 532 against (+28), home 2-2, away 2-1, last ten 4-3.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "text": "Maccabi Rapyd Tel Aviv: 7 played, 2 wins, 5 losses, 608 for, 653 against (\u221245), away 1-3, last ten 2-5.",
+     "source": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "EuroLeague official standings",
+     "url": "https://www.euroleaguebasketball.net/en/euroleague/standings/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Crvena_Zvezda_vs_Maccabi_Tel_Aviv/4?event_id=536175"
+    }
+   ],
+   "pricing": "Crvena Zvezda rate +4.00 net points per game against Maccabi's \u22126.43, with 2.2 points of home court, for a 12.6-point projection; normal approximation and a 4.5% handicap margin give the line.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "volleyball-con-val",
+   "sport": "volleyball",
+   "event_id": "37076",
+   "event": "Conegliano W vs Vallefoglia W",
+   "competition": "Serie A1 women (Italy)",
+   "start_utc": "2026-10-28T19:00:00Z",
+   "market": "Set score",
+   "selection": "Conegliano to win 3-1",
+   "line_american": 198,
+   "line_decimal": 2.98,
+   "implied_pct": 33.6,
+   "confidence": "low",
+   "analysis": "Conegliano have opened the Serie A1 season with four wins and have not dropped a single set, taking all 12 played and outscoring opponents 304-219. Vallefoglia are also 4-0 but have lost four sets on the way, 12-4, with a much tighter 377-351 points record. Conegliano should win, but a Vallefoglia side that has taken a set in every other match makes 3-1 the value scoreline rather than a whitewash.",
+   "facts": [
+    {
+     "text": "Imoco Conegliano: 4 matches, 4 wins, 12 sets won and 0 lost, 304 points for and 219 against, 12 league points.",
+     "source": "https://www.legavolleyfemminile.it/classifica/"
+    },
+    {
+     "text": "Megabox Vallefoglia: 4 matches, 4 wins, 12 sets won and 4 lost, 377 points for and 351 against, 11 league points.",
+     "source": "https://www.legavolleyfemminile.it/classifica/"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Lega Pallavolo Serie A Femminile table",
+     "url": "https://www.legavolleyfemminile.it/classifica/"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"
+    }
+   ],
+   "pricing": "A 0.72 per-set rate for Conegliano gives a 79% match win; of the winning paths, 3-1 is the single most likely scoreline at about 35% before the 7% set-score margin.",
+   "window_note": "",
+   "flags": []
+  },
+  {
+   "id": "baseball-mil-tb",
+   "sport": "baseball",
+   "event_id": "160799",
+   "event": "MIL Brewers @ TB Rays",
+   "competition": "MLB World Series, Game 4",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "market": "Money line",
+   "selection": "Milwaukee Brewers",
+   "line_american": -131,
+   "line_decimal": 1.763,
+   "implied_pct": 56.7,
+   "confidence": "medium",
+   "analysis": "The Brewers lead the World Series 3-0 and are 3-0 in the postseason after taking the first three games of the series at Tropicana Field. Milwaukee's own starter for Game 4 was not posted on the official schedule when this was priced, while Tampa Bay list Griffin Jax. With the series edge and a Tampa Bay staff working short, the bet is Milwaukee on the money line.",
+   "facts": [
+    {
+     "text": "MLB schedule lists World Series Game 4 at Tropicana Field on 2026-10-27 local (2026-10-28T00:00Z), Tampa Bay's listed pitcher Griffin Jax, and series records of Milwaukee 3-0 and Tampa Bay 0-3.",
+     "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team,linescore"
+    }
+   ],
+   "sources": [
+    {
+     "label": "MLB official schedule and probable pitchers",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=probablePitcher,team,linescore"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799"
+    }
+   ],
+   "pricing": "Projected runs of 4.6 for Milwaukee and 4.1 for Tampa Bay give a 54.6% win share once the run-scoring spread of 4.3 runs is applied; the published line adds a 4.0% money-line margin.",
+   "window_note": "Inside the mandate window.",
+   "flags": [
+    "Milwaukee's Game 4 starter was not listed on the official schedule at capture, so the pitching half of the projection rests on Tampa Bay's listed starter only.",
+    "OLBG printed 21:00 for this game while MLB's official first-pitch time converts to 00:00Z; the official time is used here and the one-hour difference is flagged."
+   ]
+  },
+  {
+   "id": "ice-hockey-bos-car",
+   "sport": "ice-hockey",
+   "event_id": "200104",
+   "event": "BOS Bruins @ CAR Hurricanes",
+   "competition": "NHL",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "market": "Money line",
+   "selection": "Boston Bruins",
+   "line_american": -118,
+   "line_decimal": 1.847,
+   "implied_pct": 54.1,
+   "confidence": "low",
+   "analysis": "Boston are 9-2-1 with a +22 goal differential, the second-best mark in the league, and have won two straight while going 4-1-1 on the road. Carolina are 9-2-2 with a +18 differential but only 2-1-1 at home, where they have scored 13 and conceded 10 in four games. The pick is Boston on the money line at a near-even price, taking the road form and the superior goal difference.",
+   "facts": [
+    {
+     "text": "Boston Bruins: 12 games, 9-2-1, 48 goals for and 26 against (+22), road 4-1-1, streak W2.",
+     "source": "https://api-web.nhle.com/v1/standings/now"
+    },
+    {
+     "text": "Carolina Hurricanes: 13 games, 9-2-2, 51 goals for and 33 against (+18), home 2-1-1 with 13 for and 10 against.",
+     "source": "https://api-web.nhle.com/v1/standings/now"
+    }
+   ],
+   "sources": [
+    {
+     "label": "NHL official standings feed",
+     "url": "https://api-web.nhle.com/v1/standings/now"
+    },
+    {
+     "label": "NHL official schedule for 2026-10-27",
+     "url": "https://api-web.nhle.com/v1/schedule/2026-10-27"
+    },
+    {
+     "label": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/BOS_Bruins_@_CAR_Hurricanes/13?event_id=200104"
+    }
+   ],
+   "pricing": "Goal difference per game is +1.83 for Boston and +1.38 for Carolina; after a 0.25-goal home allowance the projected edge is 0.2 goals, which converts to a 52% win share with a 4.0% margin.",
+   "window_note": "",
+   "flags": []
+  }
+ ]
 }

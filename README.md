@@ -1,68 +1,70 @@
-# OLBG Research Desk
+# OLBG desk — lines, picks and sources
 
-A clean, source-first static GitHub Pages dashboard for the requested OLBG sports:
+A static dashboard for the fifteen OLBG sports in scope. Every page is generated from committed JSON by
+`scripts/build_site.py` and gated by `scripts/check_site.py`, so the published site can be rebuilt and audited
+line by line.
 
-- Golf
-- Volleyball
-- Rugby Union
-- Cricket
-- Snooker
-- Darts
-- Baseball
-- Gaelic Sports
-- Greyhounds
-- Tennis
-- Motor Racing
-- Handball
-- Ice Hockey
-- Basketball
-- Rugby League
+**Live site:** <https://karagemop466-tech.github.io/Olbg8/>
 
-## What is in the primary site
+## What is on the site
 
-- **Overview** — executive summary, publication status, sport coverage ledger, and the next captured listings.
-- **Matches** — searchable table of every in-scope OLBG listing in the capture, with the OLBG selection, displayed price, our research line where one was supportable, confidence, and both source paths.
-- **Picks** — the only recommendation page. It currently publishes zero actionable picks. Four full prose research briefs are retained as explicitly withheld notes because the capture did not clear every publication gate.
-- **One page per sport** — a clean category view for all 15 requested sports, including categories with no OLBG listing in this capture.
-- **Flagged for Review** — source gaps, missing event crosswalks, incomplete injury/availability checks, scope interpretation, and every flagged row.
-- **Sources** — official-source register and OLBG hub links.
-- **Methodology & markets** — OLBG reverse-engineering notes, market definitions, line calculation, confidence bands, and publication gates.
+| Page | What it holds |
+|---|---|
+| `index.html` | Executive summary, the three strongest picks as cards, the highest-confidence picks table, and a coverage table for all 15 sports |
+| `picks.html` | Every published prediction: the bet and our price first, then the written analysis, the evidence bullets with a link per fact, and the pricing method |
+| `matches.html` | All 115 captured OLBG listings, one table per sport, each row linked to its live OLBG event page, with our line where one exists |
+| `pricing.html` | How each of the 15 sports is priced, market by market, with the margin applied and a worked example |
+| `sources.html` | Source register: OLBG for listings, official bodies for fixtures and form |
+| `flagged.html` | Everything that could not be closed against an official source, with links |
+| `methodology.html` | How OLBG is reverse-engineered, the publication gate, the price window and the known limits |
+| `sports/<sport>.html` | One page per sport: its picks at the top, then its OLBG listing table, then how the sport is priced |
 
 ## Snapshot
 
-The included capture was taken **2026-10-26 05:18:26 UTC**. It contains **116 in-scope OLBG listings** after excluding one Hurling listing because Hurling was not requested. Four rows were identity-matched to an official event source and 17 rows have a research line from captured official inputs. No actionable pick is published.
+Captured **2026-10-27 06:05 UTC**: 115 OLBG listings across 15 sports, **9 published picks** (2 high, 5 medium,
+2 low confidence), all inside the −250 to +10000 American window, and **16 flagged items**.
 
-Those zeroes are deliberate. OLBG's sport pages expose events with tipster activity, not a complete fixture database. An official calendar or standings page is not treated as proof of an exact match, lineup, injury status, or available market. Blank values remain blank and are flagged instead of being inferred.
+Four sports carry picks: Basketball (6), Volleyball (1), Baseball (1) and Ice Hockey (1). The other eleven have no
+pick because the official source needed to confirm the fixture or the form was not reachable in this session. Each
+one is named, with the exact page that unblocks it, on `flagged.html` — nothing is filled in by inference.
 
-## Run locally
+## How a pick is built
 
-The primary site is static and has no build dependency:
+1. **Capture** the OLBG hub row: event, market, most-tipped selection, tip count.
+2. **Confirm** the fixture and the form facts on an official page (league table, standings feed, schedule API).
+3. **Price** it with that sport's method and margin, then band it by the implied probability of the published line.
+4. **Write** at least 30 words naming the bet, the form, the recent record and the match-specific numbers, with a
+   source link per fact.
+5. **Gate** it: `scripts/check_site.py` refuses a short prediction, a line outside the window, a mismatched
+   confidence band, a missing source, an unknown event id, or a broken internal link.
+
+## Local build
 
 ```bash
-python3 scripts/build_dashboard.py
-python3 scripts/test_site.py
+python3 scripts/build_site.py     # writes the 22 HTML pages from data/*.json
+python3 scripts/check_site.py     # 399 assertions: rules, arithmetic, sources, links
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-Open `http://localhost:8000/` locally. The browser must load the JSON over HTTP; opening the HTML directly as a `file://` URL will block the data fetch in most browsers.
+## Data files
 
-The data transform is deterministic and uses these committed capture files:
+| File | Contents |
+|---|---|
+| `data/desk-sports.json` | The 15 sports, OLBG hub URLs, sport ids, official source links |
+| `data/desk-inventory.json` | Captured OLBG listings with the original OLBG day/time label beside the converted UTC time |
+| `data/desk-picks.json` | Published picks: line, decimal, implied %, confidence, analysis, facts, sources, pricing note |
+| `data/desk-pricing.json` | Market-by-market origination method per sport, margins, and the standing guards |
+| `data/desk-flagged.json` | Review items with source links |
+| `data/desk-sources.json` | Source register rendered on `sources.html` |
+| `data/desk-methodology.json` | Methodology sections rendered on `methodology.html` |
 
-- `data/olbg-capture.json` — OLBG event feed and displayed selection/price snapshot.
-- `data/line-research.json` — research lines and official-source checks.
-- `data/official-evidence.json` — captured official evidence payload.
-- `data/publication-gate.json` — publication decision record.
-- `data/dashboard.json` — derived payload consumed by the site.
-- `data/sources.json` — official-source register.
+The earlier capture tooling (`data/dashboard.json`, `data/olbg-capture.json`, `scripts/build_dashboard.py`,
+`scripts/test_site.py`) is retained unchanged as the 26 October record, and `research-desk/` plus `evidence-lab/`
+remain archived supplements.
 
-## Verification standard
+## Limits
 
-A row must have an OLBG event link and an official source reference. An exact event crosswalk, current relevant statistics, a material availability/injury check, a defensible in-range line, and unique written reasoning are all required before a recommendation can appear on **Picks**. High-confidence prose must be unique, natural, at least 30 words, and must not claim facts that lack an official source. The repository's `COORDINATION.md` records source checks, irregularities, integration, and release status.
-
-This is independent research, not OLBG advice and not a guarantee. Check the linked source and current market before relying on any information. Only bet where lawful and only what you can afford to lose.
-
-## GitHub Pages
-
-The repository is configured for Pages from `main` at <https://karagemop466-tech.github.io/Olbg8/>. The workflow validates the committed primary site and deploys the repository root after changes reach `main`.
-
-The older `research-desk/` directory is retained as a supplementary audit artifact from earlier repository work. It is not the primary navigation or publication payload.
+This is a static snapshot, not a live feed. OLBG shows no prices to a logged-out fetch, so no OLBG price is quoted
+anywhere; every price is originated by this desk. Kick-off times are converted from OLBG's relative
+Today/Tomorrow labels at UTC+4 and the original label is printed next to each row. Betting involves risk:
+independent research, not advice, not a guarantee. 18+.

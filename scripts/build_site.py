@@ -301,14 +301,25 @@ def build_index() -> str:
         f'<td class="num">{esc(s["sport_id"])}</td>'
         f'<td class="num">{kindex[s["key"]][0]}</td>'
         f'<td class="num">{kindex[s["key"]][1]}</td>'
+        f'<td class="num">{min(kindex[s["key"]][1], 5)}/5</td>'
         f'<td>{badge("high") if any(p.get("confidence") == "high" for p in PICKS_BY_SPORT.get(s["key"], [])) else mute}</td>'
         f'<td>{src_links([{"label": "OLBG", "url": s["hub"]}] + s.get("official", []))}</td>'
         "</tr>"
         for s in SPORTS
     )
 
-    top = sorted(PICKS, key=lambda p: ({"high": 0, "medium": 1}.get(p.get("confidence"), 2), p.get("start_utc", "")))[:10]
+    ordered = sorted(PICKS, key=lambda p: (-p.get("implied_pct", 0), p.get("start_utc", "")))
+    top = ordered[:10]
     top_html = picks_table(top, show_sport=True)
+    hero = "".join(
+        f'<a class="hero-card" href="picks.html#{esc(p["id"])}">'
+        f'<span class="hero-tag">{esc(SPORT_BY_KEY.get(p["sport"], {}).get("label", p["sport"]))} · {esc(p.get("competition") or "")}</span>'
+        f'<strong>{esc(p["event"])}</strong>'
+        f'<span class="hero-bet">{esc(p["market"])}: {esc(p["selection"])}</span>'
+        f'<span class="hero-price">{esc(fmt_american(p.get("line_american")))} <em>{esc(p.get("implied_pct"))}%</em> {badge(p.get("confidence"))}</span>'
+        f'<span class="hero-when">{esc(fmt_dt(p.get("start_utc")))}</span></a>'
+        for p in ordered[:3]
+    )
 
     body = f"""
 <h1>OLBG multi-sport desk</h1>
@@ -333,15 +344,18 @@ top, above that sport's OLBG listing table. <a href="matches.html">Matches</a> i
 the capture window. Confidence bands are high (&ge;65% implied), medium (55–64%) and low (&lt;55%); a pick is only
 published when an official source confirms the identity of the event and the form facts used.</p>
 <p><strong>Price window:</strong> every published line sits between −250 and +10000 American, per the desk mandate.
-Lines are originated here from verified inputs and carry a margin flag, never presented as bookmaker prices.</p>
+Lines are originated here from the inputs named on the Pricing page and carry a margin flag; they are never presented as bookmaker prices.</p>
 </div>
 
-<h3 style="margin-top:1.2rem">Highest-confidence picks in this capture</h3>
+<div class="hero">
+{hero}
+</div>
+<h3 style="margin-top:1.4rem">Highest-confidence picks in this capture</h3>
 {top_html}
 
 <h2>Sport coverage</h2>
 <div class="tablewrap"><table class="t-compact"><thead><tr>
-<th>Sport</th><th class="num">OLBG id</th><th class="num">Listings</th><th class="num">Picks</th><th>High?</th><th>Sources</th>
+<th>Sport</th><th class="num">OLBG id</th><th class="num">Listings</th><th class="num">Picks</th><th class="num">of 5</th><th>High?</th><th>Sources</th>
 </tr></thead><tbody>{sport_rows}</tbody></table></div>
 
 <h2>How to read a pick</h2>

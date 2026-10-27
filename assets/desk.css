@@ -119,3 +119,15 @@ ul.clean li:last-child { border-bottom: 0; }
   .topbar, footer.site { display: none; }
   body { background: #fff; }
 }
+
+/* ---------- hero picks ---------- */
+.hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .8rem; margin: 1rem 0 .2rem; }
+.hero-card { display: flex; flex-direction: column; gap: .3rem; background: #fff; border: 1px solid var(--line);
+  border-top: 3px solid var(--brand); border-radius: var(--radius); padding: .85rem .95rem; box-shadow: var(--shadow); color: var(--ink); }
+.hero-card:hover { text-decoration: none; border-color: #c9d8f7; transform: translateY(-1px); }
+.hero-tag { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.hero-card strong { font-size: 1rem; }
+.hero-bet { font-weight: 700; color: var(--brand-ink); }
+.hero-price { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.05rem; }
+.hero-price em { font-style: normal; font-weight: 500; color: var(--ink-3); font-size: .82rem; }
+.hero-when { font-size: .76rem; color: var(--ink-3); }
