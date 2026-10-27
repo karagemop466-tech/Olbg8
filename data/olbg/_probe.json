@@ -1,102 +1,107 @@
 {
- "captured_utc": "2026-10-27T05:43:46Z",
+ "captured_utc": "2026-10-27T05:57:05Z",
  "sports": {
   "golf": {
    "hub": {
     "status": 200,
-    "bytes": 60470,
+    "bytes": 60515,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Golf/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213172%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 14261,
+     "error": "",
+     "tips": 3
     }
    ],
-   "templates": [
-    "/sports/Golf/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079614874%3Aouk%3Asafari%3Aunknown%3A16.6&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 3,
+   "events": 3
   },
   "volleyball": {
    "hub": {
     "status": 200,
-    "bytes": 57087,
+    "bytes": 57120,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Volleyball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080214246%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 28592,
+     "error": "",
+     "tips": 22
     }
    ],
-   "templates": [
-    "/sports/Volleyball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615895%3Aouk%3Agoogle-chrome%3Aunknown%3A115.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 22,
+   "events": 22
   },
   "rugby-union": {
    "hub": {
     "status": 200,
-    "bytes": 55539,
+    "bytes": 52634,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Rugby_Union/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080214118%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 19266,
+     "error": "",
+     "tips": 10
     }
    ],
-   "templates": [
-    "/sports/Rugby_Union/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615795%3Aouk%3Amicrosoft-edge%3Aunknown%3A117.0.2045.36&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 10,
+   "events": 10
   },
   "cricket": {
    "hub": {
     "status": 200,
-    "bytes": 65328,
+    "bytes": 65356,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Cricket/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213241%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 25507,
+     "error": "",
+     "tips": 18
     }
    ],
-   "templates": [
-    "/sports/Cricket/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079614965%3Aouk%3Amicrosoft-edge%3Aunknown%3A117.0.2045.31&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 18,
+   "events": 18
   },
   "snooker": {
    "hub": {
     "status": 200,
-    "bytes": 53084,
+    "bytes": 53105,
     "error": ""
    },
-   "pages": [
-    {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
-    }
-   ],
+   "pages": [],
    "templates": [
-    "/sports/Snooker/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615882%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+    "/sports/Snooker/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080214199%3Aouk%3Asafari%3Aunknown%3A16.5&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
+    {
+     "status": 200,
+     "bytes": 8999,
+     "error": "",
+     "tips": 0
+    }
    ],
    "rows": 0,
    "events": 0
@@ -104,99 +109,104 @@
   "darts": {
    "hub": {
     "status": 200,
-    "bytes": 64937,
+    "bytes": 64965,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Darts/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213522%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 13169,
+     "error": "",
+     "tips": 2
     }
    ],
-   "templates": [
-    "/sports/Darts/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615099%3Aouk%3Amicrosoft-edge%3Aunknown%3A116.0.1938.54&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 2,
+   "events": 2
   },
   "baseball": {
    "hub": {
     "status": 200,
-    "bytes": 49419,
+    "bytes": 49452,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Baseball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080212812%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 12790,
+     "error": "",
+     "tips": 1
     }
    ],
-   "templates": [
-    "/sports/Baseball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079614531%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 1,
+   "events": 1
   },
   "gaelic-football": {
    "hub": {
     "status": 200,
-    "bytes": 46560,
+    "bytes": 46593,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Gaelic_Football/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213540%3Aouk%3Agoogle-chrome%3Aunknown%3A109.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 14750,
+     "error": "",
+     "tips": 3
     }
    ],
-   "templates": [
-    "/sports/Gaelic_Football/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615250%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 3,
+   "events": 3
   },
   "hurling": {
    "hub": {
     "status": 200,
-    "bytes": 41011,
+    "bytes": 41044,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Hurling/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213760%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 12811,
+     "error": "",
+     "tips": 1
     }
    ],
-   "templates": [
-    "/sports/Hurling/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615522%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 1,
+   "events": 1
   },
   "greyhounds": {
    "hub": {
     "status": 200,
-    "bytes": 62907,
+    "bytes": 62940,
     "error": ""
    },
-   "pages": [
-    {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
-    }
-   ],
+   "pages": [],
    "templates": [
-    "/sports/Greyhounds/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615270%3Aouk%3Agoogle-chrome%3Aunknown%3A115.0.0.0&bookie_name=_best_&client_type=desktop_website"
+    "/sports/Greyhounds/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213637%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
+    {
+     "status": 200,
+     "bytes": 9052,
+     "error": "",
+     "tips": 0
+    }
    ],
    "rows": 0,
    "events": 0
@@ -204,122 +214,128 @@
   "tennis": {
    "hub": {
     "status": 200,
-    "bytes": 96263,
+    "bytes": 96296,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Tennis/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213156%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 42016,
+     "error": "",
+     "tips": 40
     }
    ],
-   "templates": [
-    "/sports/Tennis/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079614777%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 40,
+   "events": 40
   },
   "motor-racing": {
    "hub": {
     "status": 200,
-    "bytes": 63921,
+    "bytes": 63179,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Motor_Racing/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213995%3Aouk%3Agoogle-chrome%3Aunknown%3A114.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 12950,
+     "error": "",
+     "tips": 1
     }
    ],
-   "templates": [
-    "/sports/Motor_Racing/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615613%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 1,
+   "events": 1
   },
   "handball": {
    "hub": {
     "status": 200,
-    "bytes": 56521,
+    "bytes": 56551,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Handball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213749%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 25760,
+     "error": "",
+     "tips": 19
     }
    ],
-   "templates": [
-    "/sports/Handball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615325%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 19,
+   "events": 19
   },
   "ice-hockey": {
    "hub": {
     "status": 200,
-    "bytes": 67203,
+    "bytes": 67238,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Ice_Hockey/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080213838%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 26441,
+     "error": "",
+     "tips": 18
     }
    ],
-   "templates": [
-    "/sports/Ice_Hockey/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615523%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 18,
+   "events": 18
   },
   "basketball": {
    "hub": {
     "status": 200,
-    "bytes": 93215,
+    "bytes": 93248,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Basketball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080212773%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 35275,
+     "error": "",
+     "tips": 30
     }
    ],
-   "templates": [
-    "/sports/Basketball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079614491%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 30,
+   "events": 30
   },
   "rugby-league": {
    "hub": {
     "status": 200,
-    "bytes": 44585,
+    "bytes": 44616,
     "error": ""
    },
-   "pages": [
+   "pages": [],
+   "templates": [
+    "/sports/Rugby_League/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793080214018%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "extra_pages": [
     {
-     "range": "1-100",
-     "status": 0,
-     "bytes": 0,
-     "error": "HTTP 404"
+     "status": 200,
+     "bytes": 14425,
+     "error": "",
+     "tips": 3
     }
    ],
-   "templates": [
-    "/sports/Rugby_League/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615620%3Aouk%3Agoogle-chrome%3Aunknown%3A115.0.0.0&bookie_name=_best_&client_type=desktop_website"
-   ],
-   "rows": 0,
-   "events": 0
+   "rows": 3,
+   "events": 3
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "sport": "Volleyball",
  "sport_id": 21,
- "captured_utc": "2026-10-27T05:33:37Z",
+ "captured_utc": "2026-10-27T05:57:05Z",
  "rows": [
   {
    "sport": "Volleyball",
@@ -12,9 +12,9 @@
    "competition": "",
    "market": "Win Match",
    "selection": "IBB Spor",
-   "decimal_odds": 2.0,
-   "american_odds": 100,
-   "fractional_odds": "1/1",
+   "decimal_odds": 1.95,
+   "american_odds": -105,
+   "fractional_odds": "20/21",
    "start_utc": "2026-10-27T11:00:00Z",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124",
    "experts_count": 0,
@@ -22,7 +22,7 @@
    "win_tips_count": 5,
    "confidence": 60,
    "comments_count": 2,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -45,7 +45,7 @@
    "win_tips_count": 5,
    "confidence": 80,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -68,7 +68,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -91,7 +91,7 @@
    "win_tips_count": 3,
    "confidence": 67,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -114,7 +114,7 @@
    "win_tips_count": 3,
    "confidence": 67,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -137,7 +137,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -160,7 +160,7 @@
    "win_tips_count": 4,
    "confidence": 100,
    "comments_count": 3,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -183,7 +183,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -206,7 +206,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -229,7 +229,7 @@
    "win_tips_count": 4,
    "confidence": 75,
    "comments_count": 2,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -252,7 +252,7 @@
    "win_tips_count": 3,
    "confidence": 67,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -275,7 +275,7 @@
    "win_tips_count": 2,
    "confidence": 50,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -298,7 +298,7 @@
    "win_tips_count": 7,
    "confidence": 71,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -321,7 +321,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -335,7 +335,7 @@
    "market": "Win Match",
    "selection": "Uni Opole W",
    "decimal_odds": 1.29,
-   "american_odds": -345,
+   "american_odds": -350,
    "fractional_odds": "2/7",
    "start_utc": "2026-10-27T19:30:00Z",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
@@ -344,7 +344,7 @@
    "win_tips_count": 6,
    "confidence": 67,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -367,7 +367,7 @@
    "win_tips_count": 4,
    "confidence": 75,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -390,7 +390,7 @@
    "win_tips_count": 4,
    "confidence": 75,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -413,7 +413,7 @@
    "win_tips_count": 3,
    "confidence": 67,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -436,7 +436,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -459,7 +459,7 @@
    "win_tips_count": 3,
    "confidence": 67,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -482,7 +482,7 @@
    "win_tips_count": 10,
    "confidence": 60,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -505,7 +505,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   }

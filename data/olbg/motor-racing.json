@@ -1,31 +1,8 @@
 {
  "sport": "Motor Racing",
  "sport_id": 14,
- "captured_utc": "2026-10-27T05:33:37Z",
+ "captured_utc": "2026-10-27T05:57:05Z",
  "rows": [
-  {
-   "sport": "Motor Racing",
-   "sport_key": "motor-racing",
-   "sport_id": 14,
-   "event_id": "914",
-   "event_name": "Mexico City Grand Prix",
-   "competition": "",
-   "market": "Win Race",
-   "selection": "Kimi Antonelli",
-   "decimal_odds": 2.75,
-   "american_odds": 175,
-   "fractional_odds": "7/4",
-   "start_utc": "2026-11-01T20:00:00Z",
-   "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914",
-   "experts_count": 0,
-   "win_tips": 1,
-   "win_tips_count": 3,
-   "confidence": 33,
-   "comments_count": 0,
-   "expired": false,
-   "venue": "",
-   "address": ""
-  },
   {
    "sport": "Motor Racing",
    "sport_key": "motor-racing",
@@ -45,7 +22,7 @@
    "win_tips_count": 7,
    "confidence": 57,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   }

@@ -1,7 +1,7 @@
 {
  "sport": "Handball",
  "sport_id": 20,
- "captured_utc": "2026-10-27T05:33:37Z",
+ "captured_utc": "2026-10-27T05:57:05Z",
  "rows": [
   {
    "sport": "Handball",
@@ -22,53 +22,7 @@
    "win_tips_count": 4,
    "confidence": 50,
    "comments_count": 1,
-   "expired": false,
-   "venue": "",
-   "address": ""
-  },
-  {
-   "sport": "Handball",
-   "sport_key": "handball",
-   "sport_id": 20,
-   "event_id": "12196",
-   "event_name": "OV Helsingborg HK W vs Skovde HF W",
-   "competition": "",
-   "market": "Money Line",
-   "selection": "Tie",
-   "decimal_odds": 10.0,
-   "american_odds": 900,
-   "fractional_odds": "9/1",
-   "start_utc": "2026-10-27T18:00:00Z",
-   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196",
-   "experts_count": 0,
-   "win_tips": 2,
-   "win_tips_count": 4,
-   "confidence": 50,
-   "comments_count": 0,
-   "expired": false,
-   "venue": "",
-   "address": ""
-  },
-  {
-   "sport": "Handball",
-   "sport_key": "handball",
-   "sport_id": 20,
-   "event_id": "12197",
-   "event_name": "VasterasIrsta HF W vs Skuru IK W",
-   "competition": "",
-   "market": "Money Line",
-   "selection": "Tie",
-   "decimal_odds": 8.0,
-   "american_odds": 700,
-   "fractional_odds": "7/1",
-   "start_utc": "2026-10-27T18:00:00Z",
-   "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197",
-   "experts_count": 0,
-   "win_tips": 2,
-   "win_tips_count": 4,
-   "confidence": 50,
-   "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -91,7 +45,7 @@
    "win_tips_count": 4,
    "confidence": 50,
    "comments_count": 1,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -114,7 +68,7 @@
    "win_tips_count": 9,
    "confidence": 56,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -137,7 +91,7 @@
    "win_tips_count": 13,
    "confidence": 62,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -160,7 +114,7 @@
    "win_tips_count": 11,
    "confidence": 73,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -183,7 +137,7 @@
    "win_tips_count": 11,
    "confidence": 64,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -206,7 +160,7 @@
    "win_tips_count": 9,
    "confidence": 78,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -229,7 +183,7 @@
    "win_tips_count": 8,
    "confidence": 75,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -252,7 +206,7 @@
    "win_tips_count": 14,
    "confidence": 64,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -275,7 +229,7 @@
    "win_tips_count": 14,
    "confidence": 43,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -298,7 +252,7 @@
    "win_tips_count": 5,
    "confidence": 60,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -321,7 +275,7 @@
    "win_tips_count": 4,
    "confidence": 50,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -344,7 +298,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -367,7 +321,7 @@
    "win_tips_count": 4,
    "confidence": 75,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -390,7 +344,7 @@
    "win_tips_count": 3,
    "confidence": 33,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -413,7 +367,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -436,7 +390,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -459,7 +413,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   },
@@ -482,7 +436,7 @@
    "win_tips_count": 1,
    "confidence": 100,
    "comments_count": 0,
-   "expired": false,
+   "expired": 0,
    "venue": "",
    "address": ""
   }
