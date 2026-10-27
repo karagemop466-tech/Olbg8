@@ -26,6 +26,7 @@ jobs:
           python-version: "3.12"
       - name: Validate the published desk
         run: |
+          python3 scripts/test_site.py
           python3 scripts/check_site.py
           python3 scripts/test_board.py
           python3 -m py_compile scripts/*.py price-engine/*.py

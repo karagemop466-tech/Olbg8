@@ -397,6 +397,47 @@ producing sixteen broken stylesheet links; that is the real origin of the `sport
 earlier in this session. The archived generator now passes `css="assets/styles.css"` with `rel="../"`, so its pages
 resolve correctly if it is ever revived.
 
+### Session `0d9bd3c1` — integration of the parallel desk merged to `main` on 2026-10-27
+
+`origin/main` moved 25 commits ahead while this branch was in flight (PRs #13–#19, sessions
+`599f03cc`, `dcc71481`, `65c1e02b`), and those sessions had shipped their own root desk: `index.html`,
+`picks.html`, `matches.html`, `flagged.html`, `pricing.html`, `sources.html`, `methodology.html`,
+`sports/*.html`, `scripts/build_site.py`, `assets/desk.css`, plus `data/desk-*.json` (24 picks) and
+`price-engine/` (their own `originate.py`, `ratings.json`, `predictions.json`). Merged rather than
+rebased, because upstream contains merge commits and this branch's scope touches the same files.
+
+Resolutions, all deliberate:
+
+1. **Root surface = this pipeline.** Conflicted HTML, `assets/styles.css` and `scripts/build_site.py`
+   resolved to this branch; the other desk's generator is archived whole at
+   `price-engine/build_desk_site.py` so nothing of theirs is lost, only demoted from writing the root.
+   Reason for choosing 53 rows over 24: every row here resolves against captured tip counts, carries the
+   claim its source supports, and survives a nine-group gate; the two sets are not comparable in evidence.
+2. **Sport page filenames adopted from main** (hyphens: `sports/rugby-union.html`). Both generators were
+   writing the same directory under two naming schemes, which left orphan pages and dead links; the builder
+   now emits the main convention and the underscore duplicates are deleted.
+3. **`data/darts.json` stays quarantined.** It was still present on `main` and is removed by this merge,
+   with `quarantine/FABRICATED-data-darts.json` and `quarantine/README.md` as the record.
+4. **Their payload stays published as data, not as advice.** `data/desk-*.json` are untouched and
+   `price-engine/add_picks.py` still regenerates them byte-identically. `scripts/check_site.py` still gates
+   them in CI and passes ("pages: 22 | sports: 15 | listings: 115 | picks: 24 | flags: 19 | checks: 645").
+   Their picks are **not** folded into the published list: their engine prices the same events differently
+   (Colomiers -161 vs our -150, Osaka -132 vs our -200), and one page cannot show two lines for one
+   selection. Flagged as an open decision: retire or reconcile.
+5. **CI rewired, not removed.** `quality.yml` now rebuilds through
+   `build_capture → originate → build_picks → build_site`, runs `test_site.py`, then runs their
+   `add_picks.py` + `check_site.py` so their artifact stays honest, then `py_compile scripts/*.py
+   price-engine/*.py`, `node --check assets/app.js`, and a `git diff --exit-code` guard over the generated
+   set. `pages.yml` runs both gates before deploying. Verified locally: a full pipeline rerun leaves every
+   generated file byte-identical, so the guard cannot flake.
+6. **`COORDINATION.md` was a both-sides-appended conflict** and was resolved by union; no session block
+   was dropped. `README.md` rewritten for this pipeline with a "Legacy and supplementary" section naming
+   every retained foreign artifact.
+
+Open items handed to the next integrator: the quarantine delete/reconcile decision; tier-A coverage for
+volleyball, Pro D2/Top 14 and non-NHL hockey; retiring the 2026-10-26 `dashboard.json` payload; a second
+daily capture to prove the pipeline repeats.
+
 ### Current release checkpoint — 2026-10-27
 
 
@@ -419,6 +460,18 @@ resolve correctly if it is ever revived.
 - Refreshed the committed fallback from hosted capture [40457471107](https://github.com/karagemop466-tech/Olbg8/actions/runs/40457471107), `2026-10-27T05:49:18Z`: 143 cards, 38 event-specific official matches, 25 successfully sampled detail pages, five NHL references, zero cleared picks; all 14 non-empty hubs and the three official feeds succeeded, while Snooker and Greyhounds displayed no tips. A no-tips response does not establish that there are no events.
 - Requested the active #18 owner to retain Hurling and audit the other desk's future-dated capture/generation timestamps: [PR #18 comment](https://github.com/karagemop466-tech/Olbg8/pull/18#issuecomment-6434846013).
 - Opened additive integration PR [#20](https://github.com/karagemop466-tech/Olbg8/pull/20). Main then advanced through #18 (`99bf72e`): kept all of that session's release record and this session's audit/request text when resolving the coordination-only rebase conflict. #18 restores the 24-pick desk and repairs its CI; it does not incorporate Hurling in that desk. The additive dashboard includes Hurling without replacing other owners' files.
+
+
+**Post-merge prose and factual pass (same session).** Reviewing my own 53 notes after the opener rewrite found four defects worth
+recording, because each one is the kind of thing a reader would catch first: two notes opened on the same "N of M tips" formula in 27
+places (re-led so the tip count sits inside the sentence, no opener now repeats more than twice, and no two notes share a nine-word run);
+a splice bug from that rewrite dropped 27 sentence-final periods; the cricket man-of-the-match note named "Sarfaraz Khan's rival Samson"
+when the OLBG market's co-leader is `SV Samson` on four tips; and the World Series Game 4 note assembled two conflicting pitcher reports
+into one clause that read as a team statement. All four are fixed at source in `scripts/build_picks.py`, and `scripts/test_site.py` now
+gates sentence hygiene (terminator present, no missing space after a full stop, every sentence 5-45 words, no lower-case sentence start),
+so the class of error is closed rather than the instances. The legacy `scripts/build_dashboard.py` also overwrites `data/dashboard.json`
+with a `v1` document while `main` carries the `v2` summary, so this branch restores that file and leaves it to its owner; the new
+`quality.yml` does not invoke the legacy builder.
 ## Session 51373243 — integration + production run (started 2026-10-27)
 
 Session: `51373243` · Branch: `arena/51373243-olbg8` (platform-required branch name).
@@ -463,3 +516,16 @@ Session: `51373243` · Branch: `arena/51373243-olbg8` (platform-required branch 
 - Concurrent PR [#24](https://github.com/karagemop466-tech/Olbg8/pull/24) merged as `eaaa1ef` while the follow-up was open. Preserved its coordination history when rebasing. Its added dataset equates 11/14 OLBG tips on a PSG–Aalborg draw to 78% win probability and calls the Simmons Bank Championship a Korn Ferry Tour event, contrary to [PGA TOUR's Champions schedule](https://www.pgatour.com/pgatour-champions/article/news/latest/2025/10/28/pga-tour-champions-announces-2026-schedule). Some high selections fall outside −250…+10000, and others cite only OLBG. Requested quarantine and line-by-line correction in [PR #24 comment](https://github.com/karagemop466-tech/Olbg8/pull/24#issuecomment-6434896671); the evidence-first review queue also records these findings.
 - Requested the #22 owner not to present smoothed OLBG tip shares or third-party quotes as calibrated independent win probabilities: [PR #22 comment](https://github.com/karagemop466-tech/Olbg8/pull/22#issuecomment-6434899228). Their proposed work remains separate and was not merged by this session.
 - Follow-up PR [#23](https://github.com/karagemop466-tech/Olbg8/pull/23) was rebased after PR [#21](https://github.com/karagemop466-tech/Olbg8/pull/21) merged as `41056d6`; resolved the board conflict by preserving both release records. The follow-up publishes the concurrency repair and review notes; its merge and refreshed deployment remain pending.
+
+
+**Second integration round (same session, after PR #25 was opened).** `main` had taken PRs #21–#24 while #25 was up: session
+`f3d31c18` put a 48-pick desk on the root and in `board/`, `51373243` added a runner-side OLBG collector (`data/olbg`,
+`desk-collector.yml`) that decodes SvelteKit `__data.json`, and `6bb9f412` serialized Pages deployment and added `scripts/test_board.py`.
+Resolution: root stays this pipeline; `board/`, `current/`, `price-engine/` and `data/desk-*.json` are kept byte-for-byte as their owners'
+artifacts and each still gates itself in CI (`check_site.py` for the desk payload, `test_board.py` for the board, `current/tests` for the
+collector). `quality.yml` runs my four build steps, `test_site.py`, then their two gates, then syntax and a diff guard over both generated
+sets, so no session's work is validated by another's builder. The site footer now names every sibling surface in one sentence and says
+their prices differ from ours, because four unexplained desks on one host is the confusion the brief is about. Not folded into our picks:
+`f3d31c18`'s 48 rows and the earlier 35-row `data/predictions.json`, which `6bb9f412`'s audit already shows misattributing an ATP serve
+figure (297.4, Hurkacz's, printed as Ruud's "live race ranking"). Open decision for an integrator: consolidate onto one generator before
+another session writes root again.

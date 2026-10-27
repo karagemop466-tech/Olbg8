@@ -2,37 +2,60 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Method · OLBG desk</title>
-<meta name="description" content="OLBG multi-sport desk: captured listings, originated lines, sourced written predictions, and flagged items.">
-<link rel="stylesheet" href="assets/desk.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Structure of OLBG listings, market inventory and the time-label finding.">
+<title>Method and market inventory · OLBG research desk</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/app.js" defer></script>
 </head>
 <body>
-<div class="topbar"><div class="topbar-in">
-  <a class="brand" href="index.html"><span class="brand-mark">O</span>
-    <span>OLBG desk<small>lines · picks · sources</small></span></a>
-  <nav class="main" aria-label="Primary"><a href="index.html">Overview</a>
-<a href="picks.html">Picks</a>
-<a href="matches.html">Matches</a>
-<a href="pricing.html">Pricing</a>
-<a href="sources.html">Sources</a>
-<a href="flagged.html">Flagged</a>
-<a href="methodology.html" aria-current="page">Method</a>
-<a href="board/index.html">Picks Board</a></nav>
-</div></div>
-<main class="wrap">
-
-<h1>Method</h1>
-<p class="lead">What the site reads, how the reverse-engineering of OLBG works, how lines are produced, and where
-the limits are. Everything stated here is checkable from the committed JSON and the linked pages.</p>
-<h2>1. How OLBG is read</h2><p>Each sport hub is a server-rendered list. Every event row contains, in order: the event name and its link, a relative day label plus a clock time, the most-tipped selection, the market name, a tip counter in the form won/total, and a percentage.</p><p>The hub itself is not a fixture database. It only lists events that at least one tipster has posted on, so a sport with an empty hub may still have fixtures that day. That distinction is recorded on every sport page rather than hidden.</p><p>Event pages add the full market tree for that match (win market, set score, handicap, totals, and so on) and the split of tips between selections. Market coverage therefore comes from the event page, not from the hub row.</p><p>OLBG does not print absolute kick-off dates on the hub; it prints Today or Tomorrow plus a clock time. The clock reconciles to UTC plus four hours against the hydration timestamps captured on 26 October, so UTC is the label plus four hours while US Eastern daylight time is in force. Each converted time is shown next to the label it came from, so the arithmetic can be checked.</p><ul class="clean"><li>Hub URL pattern: /betting-tips/{Sport}/{sport_id}</li><li>Event URL pattern: /betting-tips/{Sport}/All_{Sport}/All_Events/{Home}_vs_{Away}/{sport_id}?event_id={id}</li><li>Tip counter reads won/total across all tips on that selection, not a probability of winning.</li></ul><h2>2. What makes a pick publishable</h2><p>A match reaches the Picks page only when four things line up: the event is confirmed on an official competition page for that date, the selection is a real market on the linked OLBG event page, at least two form or availability facts are confirmed on an official page, and the originated line is inside the mandate window.</p><p>If any of those is missing the match stays on the Matches page with a blank line and appears on Flagged for Review with the specific gap named. Blank is always preferred to guessed.</p><ul class="clean"><li>Written analysis must exceed 30 words and name the bet explicitly.</li><li>Every quantified fact carries its own link to the official page it came from.</li><li>Confidence is set from the published implied probability, not from tip counts or reputation.</li><li>The words model and verified are kept out of reader-facing predictions by design; the internal checks are described on this page instead.</li></ul><h2>3. Originated lines, not market prices</h2><p>Every price in this repository is produced by this desk&#x27;s own method for that sport, documented market by market on the Pricing page. The margin applied to each market is published, so the raw probability can be recovered from the published one.</p><p>The mandate is to cover selections between -250 and +10000 American. That is a probability range of about 71.4% down to 0.01%. Lines stronger than -250 are flagged out-of-window even where the analysis supports them, because those are the prices the brief asks us to avoid.</p><p>Confidence follows the price. High is 65.0% to 71.4% implied, which is roughly -186 to -250 on the American scale; medium is 55.0% to 64.9%; low is anything longer. This keeps every high-confidence pick inside the requested window by construction.</p><h2>4. Known limits of this snapshot</h2><p>This is a static build. It reflects the OLBG pages as fetched for this release, not a live feed; kick-offs are labelled with the converted time and the original OLBG label so a reader can tell how stale a row is.</p><p>OLBG shows no prices to a logged-out page fetch, so no OLBG price is quoted anywhere. Where a captured hydration payload holds an OLBG decimal for a row, that is recorded separately as the previous session&#x27;s capture and is not reused as a line.</p><p>Some official bodies publish JavaScript-only pages or block automated retrieval. When that happens the sport keeps its listings but loses its picks, and the reason is named on Flagged for Review rather than filled in from memory.</p><h2>5. Reproducing this build</h2><p>The site is generated from committed JSON by a deterministic script: run python3 scripts/build_site.py, then python3 scripts/check_site.py. The checker enforces the publication rules, including word counts, banned reader-facing words, source links on every row, price window, confidence arithmetic and internal link integrity.</p>
-
-</main>
-<footer class="site"><div class="wrap">
-  <p><strong>Independent research desk.</strong> Listings, markets and tip counts come from OLBG.com pages
-  captured 2026-10-27T06:05:00Z. Lines, probabilities and written predictions are originated here and are
-  not OLBG or bookmaker prices. Check the linked official source and current market before acting.
-  Nothing here is a guarantee. 18+. Only bet where lawful.</p>
-</div></footer>
-</body>
-</html>
+<header class="top">
+  <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
+  <nav class="mainnav"><a class="" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="on" href="methodology.html">Method</a><a class="" href="flagged.html">Flagged for review</a></nav>
+  <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
+</header>
+<div class="wrap">
+<section class="pagemast"><h1>Reverse-engineering the OLBG tips pages</h1>
+<p class="lede">How the site is put together, what the numbers on OLBG actually mean, and which markets exist per sport.</p></section>
+<section>
+<h2>The structure of an OLBG listing</h2>
+<ol class="readout">
+<li><b>Category page</b> — <code>olbg.com/betting-tips/&lt;Sport&gt;/&lt;id&gt;</code>. One card per event, ordered by the number of tips on
+the most popular selection. It prints the event name, a relative time label, the selection, the market, “x/y Win Tips”, the confidence
+percentage, and counts of experts and comments.</li>
+<li><b>Event page</b> — reached from the card. It shows “Most Popular Tip” as a complete table of every selection in the market with its
+own “x / y” and percentage, then repeats each market below with the same figures plus one tipster comment and that tipster's annual
+profit, strike rate, 30-day and 7-day numbers.</li>
+<li><b>What the percentage is.</b> It is the share of tips on that outcome out of the tips on that market, not a win rate and not an
+implied probability from a bookmaker. OLBG says so in its own Value Rating definition, and the totals confirm it: on New Zealand v India
+the two sides are 35 and 15 of 50, which sums to the denominator.</li>
+<li><b>What is missing.</b> The betslip price comparison is rendered after a click, so no bookmaker price exists in the readable markup.
+Every number in the “our line” column on this site therefore came from this desk, not from a book.</li>
+</ol>
+</section>
+<section><h2>Markets found today, by name</h2><p class="fine">Anything outside this list was not exposed by OLBG for the events captured.</p>
+<ul class="mklist"><li>Game Totals</li><li>Grand Final Winner</li><li>Handicap</li><li>Man Of The Match</li><li>Match Handicap</li><li>Money Line</li><li>Podium Finish</li><li>Points Total</li><li>Pointspread</li><li>Puck Line</li><li>Run Line</li><li>To Win</li><li>Top Team1 Batsman</li><li>Win Hurling</li><li>Win Match</li><li>Win Tournament</li></ul></section>
+<section><h2>Time labels</h2><p>OLBG prints “Today 21:00” style labels with no zone. Four fixtures checked against official start times all
+land on UTC−4 — Columbus at Philadelphia printed 19:07 against an official 23:00Z start, Boston at Carolina 20:07 against 00:00Z,
+Kielce 15:45 against a 19:45Z kick-off, and Wellington 03:00 against a 07:00Z start. Tampa Bay and the Mexican Grand Prix each sit an
+hour further out than that rule predicts, so the raw label is kept on every row, the official UTC time is quoted in words where it was
+found, and nothing on this site claims a kick-off time from OLBG's label alone.</p></section>
+<section><h2>What this site will not do</h2><ul class="nc">
+<li>Publish a price for a market that had no tips. Two totals markets today (the World Series Game 5 line at 7.5 and the Kielce points
+total at 63.5) carry zero volume; both are left unpriced rather than filled from a prior.</li>
+<li>Turn an outright into a confidence bet. Four sports' OLBG coverage is outrights only, and a share of a handful of tips across a
+128-player field is a popularity index, not a price.</li>
+<li>Treat an OLBG paragraph as a fact. Tipster comments are quoted as opinions attributed to OLBG's crowd, never restated as scouting.</li>
+<li>Claim five picks a sport when the evidence covers three. Every shortfall is named on the overview ledger.</li>
+</ul></section></div>
+<footer class="foot">
+  <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
+  an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="board/index.html">board/</a>, a collector's live capture at <a href="current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="evidence-lab/index.html">evidence-lab/</a> and <a href="research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
+</footer>
+</body></html>

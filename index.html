@@ -2,82 +2,158 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Overview · OLBG desk</title>
-<meta name="description" content="OLBG multi-sport desk: captured listings, originated lines, sourced written predictions, and flagged items.">
-<link rel="stylesheet" href="assets/desk.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="OLBG multi-sport research desk: originated lines, confidence bands and written predictions.">
+<title>Overview · OLBG research desk</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/app.js" defer></script>
 </head>
 <body>
-<div class="topbar"><div class="topbar-in">
-  <a class="brand" href="index.html"><span class="brand-mark">O</span>
-    <span>OLBG desk<small>lines · picks · sources</small></span></a>
-  <nav class="main" aria-label="Primary"><a href="index.html" aria-current="page">Overview</a>
-<a href="picks.html">Picks</a>
-<a href="matches.html">Matches</a>
-<a href="pricing.html">Pricing</a>
-<a href="sources.html">Sources</a>
-<a href="flagged.html">Flagged</a>
-<a href="methodology.html">Method</a>
-<a href="board/index.html">Picks Board</a></nav>
-</div></div>
-<main class="wrap">
+<header class="top">
+  <div class="brand"><a href="index.html"><strong>OLBG desk</strong><span>lines, picks and evidence</span></a></div>
+  <nav class="mainnav"><a class="on" href="index.html">Overview</a><a class="" href="picks.html">Picks</a><a class="" href="matches.html">Line board</a><a class="" href="pricing.html">Pricing</a><a class="" href="sources.html">Sources</a><a class="" href="methodology.html">Method</a><a class="" href="flagged.html">Flagged for review</a></nav>
+  <div class="stamp">Data as at 27 October 2026, 05:26 UTC</div>
+</header>
+<div class="wrap">
+<section class="hero">
+  <div>
+    <h1>Executive summary</h1>
+    <p class="lede">A live OLBG capture taken 27 October 2026, 05:26 UTC, our own originated line on every selection in it, and
+    53 written predictions across 13 sports.</p>
+    <div class="wherebox">
+      <b>Where the picks are:</b>
+      <ol>
+        <li><a href="picks.html">Picks</a> — every written prediction, grouped by sport, with the selection, our line,
+        the confidence band and the source links.</li>
+        <li>The <b>strongest positions right now</b> are the table directly below this box.</li>
+        <li><a href="matches.html">Line board</a> — all 140 priced selections and every market we found.</li>
+        <li>Each sport page (footer list) shows that sport's picks and its full market table together.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="kpis"><div class="kpi"><b>53</b><span>picks published</span></div><div class="kpi"><b>140</b><span>priced selections</span></div><div class="kpi"><b>112</b><span>OLBG events captured</span></div><div class="kpi"><b>1</b><span>High</span></div><div class="kpi"><b>7</b><span>Medium</span></div><div class="kpi"><b>109</b><span>flagged rows</span></div></div>
+</section>
 
-<h1>OLBG multi-sport desk</h1>
-<p class="lead">Fifteen sports, one page. The <strong>Picks</strong> tab holds 24 fully written predictions
-with an originated line for every selection; the <strong>Matches</strong> tab holds all 115 OLBG listings
-captured on 2026-10-27T06:05:00Z; <strong>Flagged</strong> holds everything that could not be confirmed from an
-official source.</p>
+<section class="callout">
+  <h2>The one pick that cleared every gate</h2>
+  <p class="big"><strong>India</strong> to win the New Zealand vs India 3rd T20 Match — win match at <span class="mono"><span class="neg">-205</span></span>. Thirty-five of the fifty tips in this market sit on India, the single largest block of agreement on the whole multi-sport board. The official reporting backs why: India chased 226 and then 181 at Hagley Oval to win the first two games by four wickets apiece. New Zealand&#x27;s pace depth has thinned, with Matt Henry removed from the series after bowling two overs in the second game and Lockie Ferguson unavailable for this match, while Ishan Kishan&#x27;s adductor strain keeps Vaibhav Sooryavanshi in the India XI. India to win the match at -205, with Wellington&#x27;s wind the only real argument against.</p>
+  <p class="fine">A High label needs all four of: an official source opened and matched to the fixture, a priced selection at
+  60% or better, at least four tips in that market, and a line inside −250 to +10,000. Fourteen of today's events met the
+  first condition; the crowd-weighted price is what decides the rest.</p>
+</section>
 
-<div class="grid cols-4" style="margin:1rem 0 1.4rem">
-  <div class="stat"><b>24</b><span>written picks</span></div>
-  <div class="stat pos"><b>10</b><span>high confidence</span></div>
-  <div class="stat"><b>115</b><span>OLBG listings captured</span></div>
-  <div class="stat"><b>7/15</b><span>sports with a pick</span></div>
+<section>
+  <h2>Top ten positions today, by score</h2>
+  <p class="fine">Score ranks confidence band, then the volume of OLBG tips behind the selection, then how far our price sits from the
+  shrinkage floor. It is a triage order, not a predicted win rate.</p>
+  <table class="grid"><thead><tr><th>Selection</th><th>Sport</th><th>Our fair line</th><th>Line after margin</th><th>Chance</th><th>Confidence</th><th>Sources</th></tr></thead>
+  <tbody><tr>
+      <td><a class="sel" href="picks.html#P010"><strong>India</strong></a>
+        <div class="sub">Win Match · New Zealand vs India 3rd T20 Match</div></td>
+      <td>Cricket</td><td class="mono"><span class="neg">-205</span></td>
+      <td class="mono"><span class="neg">-234</span></td><td class="mono">67.2%</td>
+      <td><span class="band hi">High</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview" target="_blank" rel="noopener">ESPNcricinfo match preview</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P011"><strong>Pakistan</strong></a>
+        <div class="sub">Win Match · Pakistan vs Sri Lanka One Day Match</div></td>
+      <td>Cricket</td><td class="mono"><span class="neg">-200</span></td>
+      <td class="mono"><span class="neg">-227</span></td><td class="mono">66.7%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868" target="_blank" rel="noopener">OLBG event page</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P012"><strong>Ireland</strong></a>
+        <div class="sub">Win Match · Namibia vs Ireland 3rd ODI</div></td>
+      <td>Cricket</td><td class="mono"><span class="neg">-186</span></td>
+      <td class="mono"><span class="neg">-210</span></td><td class="mono">65.0%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854" target="_blank" rel="noopener">OLBG event page</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P027"><strong>Panathinaikos</strong></a>
+        <div class="sub">Money Line · Panathinaikos vs Milano</div></td>
+      <td>Basketball</td><td class="mono"><span class="neg">-129</span></td>
+      <td class="mono"><span class="neg">-142</span></td><td class="mono">56.2%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.olimpiamilano.com/classifica/" target="_blank" rel="noopener">Olimpia Milano official EuroLeague table</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P015"><strong>Leylah Fernandez</strong></a>
+        <div class="sub">Win Match · Leylah Fernandez vs Himeno Sakatsume</div></td>
+      <td>Tennis</td><td class="mono"><span class="neg">-233</span></td>
+      <td class="mono"><span class="neg">-269</span></td><td class="mono">70.0%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-draw-preview-alcaraz-rybakina-zverev-shelton-headline-huge-week/" target="_blank" rel="noopener">Tennis Connected - draw preview</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P006"><strong>PHI Flyers</strong></a>
+        <div class="sub">Money Line · CLB Blue Jackets @ PHI Flyers</div></td>
+      <td>Ice Hockey</td><td class="mono"><span class="neg">-120</span></td>
+      <td class="mono"><span class="neg">-132</span></td><td class="mono">54.5%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://api-web.nhle.com/v1/score/2026-10-27" target="_blank" rel="noopener">NHL.com official score API</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P047"><strong>New South Wales</strong></a>
+        <div class="sub">Win Tournament · State of Origin 2027</div></td>
+      <td>Rugby League</td><td class="mono"><span class="neg">-162</span></td>
+      <td class="mono"><span class="neg">-182</span></td><td class="mono">61.9%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857" target="_blank" rel="noopener">OLBG event page</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P050"><strong>Kerry</strong></a>
+        <div class="sub">Win Tournament · All Ireland Football Championship 2027</div></td>
+      <td>Gaelic Sports</td><td class="mono"><span class="neg">-167</span></td>
+      <td class="mono"><span class="neg">-187</span></td><td class="mono">62.5%</td>
+      <td><span class="band med">Medium</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://www.olbg.com/betting-tips/Gaelic_Football/25" target="_blank" rel="noopener">OLBG category page</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P023"><strong>Luke Littler</strong></a>
+        <div class="sub">Win Tournament · PDC World Championship 2027</div></td>
+      <td>Darts</td><td class="mono"><span class="neg">-101</span></td>
+      <td class="mono"><span class="neg">-109</span></td><td class="mono">50.1%</td>
+      <td><span class="band lo">Low</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://en.wikipedia.org/wiki/2026_in_PDC" target="_blank" rel="noopener">Season record of PDC titles</a></td>
+    </tr><tr>
+      <td><a class="sel" href="picks.html#P001"><strong>MIL Brewers</strong></a>
+        <div class="sub">Money Line · MIL Brewers @ TB Rays</div></td>
+      <td>Baseball</td><td class="mono"><span class="neg">-150</span></td>
+      <td class="mono"><span class="neg">-167</span></td><td class="mono">60.0%</td>
+      <td><span class="band lo">Low</span></td>
+      <td class="srcs"><a class="srclink" href="https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799" target="_blank" rel="noopener">OLBG</a><br><a class="srclink" href="https://statsapi.mlb.com/api/v1/schedule?sportId=1&amp;date=2026-10-27&amp;hydrate=team" target="_blank" rel="noopener">MLB StatsAPI (official)</a></td>
+    </tr></tbody></table>
+  <p class="jump"><a class="btn" href="picks.html">Read all 53 written predictions</a>
+  <a class="btn ghost" href="matches.html">See the full line board</a></p>
+</section>
+
+<section>
+  <h2>Coverage by sport</h2>
+  <p class="fine">The brief asks for five to ten picks a sport. We publish what the evidence supports and say plainly where it does not.</p>
+  <table class="grid"><thead><tr><th>Sport</th><th>OLBG events</th><th>Priced selections</th><th>Written picks</th><th>Best band</th><th>Why it is short of five</th></tr></thead>
+  <tbody><tr><td><a href="sports/basketball.html">Basketball</a></td><td class="num">14</td><td class="num">14</td><td class="num">5</td><td><span class="band med">Medium</span></td><td class="why"></td></tr><tr><td><a href="sports/cricket.html">Cricket</a></td><td class="num">13</td><td class="num">25</td><td class="num">5</td><td><span class="band hi">High</span></td><td class="why"></td></tr><tr><td><a href="sports/handball.html">Handball</a></td><td class="num">15</td><td class="num">21</td><td class="num">5</td><td><span class="band lo">Low</span></td><td class="why"></td></tr><tr><td><a href="sports/ice-hockey.html">Ice Hockey</a></td><td class="num">15</td><td class="num">20</td><td class="num">5</td><td><span class="band med">Medium</span></td><td class="why"></td></tr><tr><td><a href="sports/rugby-union.html">Rugby Union</a></td><td class="num">13</td><td class="num">13</td><td class="num">5</td><td><span class="band lo">Low</span></td><td class="why"></td></tr><tr><td><a href="sports/tennis.html">Tennis</a></td><td class="num">13</td><td class="num">13</td><td class="num">5</td><td><span class="band med">Medium</span></td><td class="why"></td></tr><tr><td><a href="sports/volleyball.html">Volleyball</a></td><td class="num">14</td><td class="num">14</td><td class="num">5</td><td><span class="band lo">Low</span></td><td class="why"></td></tr><tr><td><a href="sports/baseball.html">Baseball</a></td><td class="num">1</td><td class="num">6</td><td class="num">4</td><td><span class="band lo">Low</span></td><td class="why">One game listed — World Series Game 4 — and its totals market had no tips, so it is unpriced.</td></tr><tr><td><a href="sports/gaelic-sports.html">Gaelic Sports</a></td><td class="num">4</td><td class="num">4</td><td class="num">4</td><td><span class="band med">Medium</span></td><td class="why">Four listings in total across Gaelic football and hurling.</td></tr><tr><td><a href="sports/golf.html">Golf</a></td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td><span class="band lo">Low</span></td><td class="why">Three tournaments listed, one tip on each outright; field sizes beyond the LPGA page were not confirmable.</td></tr><tr><td><a href="sports/rugby-league.html">Rugby League</a></td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td><span class="band med">Medium</span></td><td class="why">No club fixtures live; three ante-post outrights only.</td></tr><tr><td><a href="sports/darts.html">Darts</a></td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td><span class="band lo">Low</span></td><td class="why">Two markets only, both outrights; no match-level darts market was live on OLBG.</td></tr><tr><td><a href="sports/motor-racing.html">Motor Racing</a></td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td><span class="band lo">Low</span></td><td class="why">Two markets only: the Mexican Grand Prix podium market and one ante-post line.</td></tr><tr><td><a href="sports/greyhounds.html">Greyhounds</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td><span class="band lo">Low</span></td><td class="why">OLBG printed “No tips found.” for this category at capture time — nothing to price or predict.</td></tr><tr><td><a href="sports/snooker.html">Snooker</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td><span class="band lo">Low</span></td><td class="why">OLBG printed “No tips found.” for this category at capture time — nothing to price or predict.</td></tr></tbody></table>
+</section>
+
+<section class="alerts">
+  <h2>Irregularities found in the repository, and what we did</h2>
+  <ul>
+    <li><strong>Fabricated darts file removed.</strong> <code>data/darts.json</code> held five "verified: True" darts picks that cited a
+    tournament directory page and quoted statistics the PDC does not publish. The fixtures it named do not appear in any capture file.
+    Moved to <code>quarantine/</code> with the evidence written up on the <a href="flagged.html">flagged page</a>.</li>
+    <li><strong>OLBG is reachable.</strong> Earlier session notes stopped at a TLS error from the sandbox and concluded nothing could be
+    collected, which is why the site published zero picks. Direct retrieval works; today's board is the result.</li>
+    <li><strong>OLBG's printed times are US Eastern, not UK time.</strong> Four events cross-checked against official start times land on
+    UTC−4. Two others sit an hour off, so official start times are treated as authoritative and shown beside each row.</li>
+    <li><strong>Consensus is not always right.</strong> Handball's most-tipped outcome is the draw on eight of fifteen markets, and on
+    Kielce v Kolstad the crowd is on a tie against a side with a 7-0-0 head-to-head record. Those rows are published as
+    counter-consensus reads, not copied.</li>
+  </ul>
+  <p><a class="btn ghost" href="flagged.html">Open the full review queue</a></p>
+</section>
 </div>
-
-<h2>Executive summary</h2>
-<div class="card">
-<p><strong>Extended 2026-10-27 re-collection:</strong> the companion <a href="board/index.html">Picks Board</a>
-covers 119 priced markets across all 15 sports with 48 written predictions, its own deterministic line-origination
-rule, per-row official source links and a dedicated <a href="board/flagged.html">review queue</a>. Snooker and
-greyhounds are reported as empty rather than padded, and sparse outright sports show their shortfalls honestly.</p>
-<p><strong>Where the picks are:</strong> <a href="picks.html">Picks</a> lists every selection with its price,
-win chance and confidence, followed by the full written reasoning. Each sport page repeats its own picks at the
-top, above that sport's OLBG listing table. <a href="matches.html">Matches</a> is the complete inventory.</p>
-<p><strong>Today (2026-10-27):</strong> 7 pick(s) start today, 17 start later in
-the capture window. Confidence bands are high (&ge;65% implied), medium (55–64%) and low (&lt;55%); a pick is only
-published when an official source confirms the identity of the event and the form facts used.</p>
-<p><strong>Price window:</strong> every published line sits between −250 and +10000 American, per the desk mandate.
-Lines are originated here from the inputs named on the Pricing page and carry a margin flag; they are never presented as bookmaker prices.</p>
-</div>
-
-<div class="hero">
-<a class="hero-card" href="picks.html#rugby-union-609603-mtb"><span class="hero-tag">Rugby Union · Pro D2 (France)</span><strong>Montauban v Narbonne</strong><span class="hero-bet">Money line: Montauban</span><span class="hero-price">-248 <em>71.3%</em> <span class="badge b-high">high</span></span><span class="hero-when">Fri 30 Oct 18:30 UTC</span></a><a class="hero-card" href="picks.html#basketball-pao-mil"><span class="hero-tag">Basketball · EuroLeague</span><strong>Panathinaikos vs Milano</strong><span class="hero-bet">Handicap: Panathinaikos −19.5</span><span class="hero-price">-246 <em>71.1%</em> <span class="badge b-high">high</span></span><span class="hero-when">Tue 27 Oct 19:15 UTC</span></a><a class="hero-card" href="picks.html#handball-12128-fuc"><span class="hero-tag">Handball · EHF Champions League</span><strong>Fuchse Berlin vs RK Partizan</strong><span class="hero-bet">Money line: Fuchse Berlin</span><span class="hero-price">-243 <em>70.8%</em> <span class="badge b-high">high</span></span><span class="hero-when">Thu 29 Oct 17:45 UTC</span></a>
-</div>
-<h3 style="margin-top:1.4rem">Highest-confidence picks in this capture</h3>
-<div class="tablewrap"><table class="t-compact"><thead><tr><th>#</th><th>Sport</th><th>Match</th><th>Our line</th><th class="num">Price</th><th class="num">Implied</th><th>Confidence</th><th>Detail</th></tr></thead><tbody><tr><td class="num">1</td><td><a href="sports/rugby-union.html">Rugby Union</a></td><td><strong>Montauban v Narbonne</strong><br><span class="meta">Pro D2 (France) · Fri 30 Oct 18:30 UTC</span></td><td><strong>Money line: Montauban</strong></td><td class="num"><span class="price">-248</span></td><td class="num">71.3%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#rugby-union-609603-mtb">read</a></td></tr><tr><td class="num">2</td><td><a href="sports/basketball.html">Basketball</a></td><td><strong>Panathinaikos vs Milano</strong><br><span class="meta">EuroLeague · Tue 27 Oct 19:15 UTC</span></td><td><strong>Handicap: Panathinaikos −19.5</strong></td><td class="num"><span class="price">-246</span></td><td class="num">71.1%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#basketball-pao-mil">read</a></td></tr><tr><td class="num">3</td><td><a href="sports/handball.html">Handball</a></td><td><strong>Fuchse Berlin vs RK Partizan</strong><br><span class="meta">EHF Champions League · Thu 29 Oct 17:45 UTC</span></td><td><strong>Money line: Fuchse Berlin</strong></td><td class="num"><span class="price">-243</span></td><td class="num">70.8%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#handball-12128-fuc">read</a></td></tr><tr><td class="num">4</td><td><a href="sports/rugby-union.html">Rugby Union</a></td><td><strong>Dax v Provence</strong><br><span class="meta">Pro D2 (France) · Thu 29 Oct 20:00 UTC</span></td><td><strong>Money line: Provence</strong></td><td class="num"><span class="price">-241</span></td><td class="num">70.7%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#rugby-union-609605-prv">read</a></td></tr><tr><td class="num">5</td><td><a href="sports/rugby-union.html">Rugby Union</a></td><td><strong>Beziers v Grenoble</strong><br><span class="meta">Pro D2 (France) · Fri 30 Oct 18:30 UTC</span></td><td><strong>Handicap: Grenoble −4.5</strong></td><td class="num"><span class="price">-215</span></td><td class="num">68.3%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#rugby-union-609599-gre">read</a></td></tr><tr><td class="num">6</td><td><a href="sports/rugby-union.html">Rugby Union</a></td><td><strong>Oyonnax v Soyaux Angouleme</strong><br><span class="meta">Pro D2 (France) · Fri 30 Oct 18:30 UTC</span></td><td><strong>Handicap: Oyonnax −2</strong></td><td class="num"><span class="price">-215</span></td><td class="num">68.3%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#rugby-union-609598-oyo">read</a></td></tr><tr><td class="num">7</td><td><a href="sports/basketball.html">Basketball</a></td><td><strong>Besiktas vs Olympiacos</strong><br><span class="meta">EuroLeague · Wed 28 Oct 17:30 UTC</span></td><td><strong>Money line: Olympiacos</strong></td><td class="num"><span class="price">-211</span></td><td class="num">67.8%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#basketball-bes-oly">read</a></td></tr><tr><td class="num">8</td><td><a href="sports/handball.html">Handball</a></td><td><strong>SC Magdeburg vs HC Kriens Luzern</strong><br><span class="meta">EHF Champions League · Wed 28 Oct 19:45 UTC</span></td><td><strong>Money line: SC Magdeburg</strong></td><td class="num"><span class="price">-211</span></td><td class="num">67.8%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#handball-12136-mag">read</a></td></tr><tr><td class="num">9</td><td><a href="sports/handball.html">Handball</a></td><td><strong>KS Kielce vs Kolstad</strong><br><span class="meta">EHF Champions League · Wed 28 Oct 19:45 UTC</span></td><td><strong>Money line: KS Kielce</strong></td><td class="num"><span class="price">-204</span></td><td class="num">67.1%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#handball-12132-kie">read</a></td></tr><tr><td class="num">10</td><td><a href="sports/basketball.html">Basketball</a></td><td><strong>BC Dubai vs Paris</strong><br><span class="meta">EuroLeague · Tue 27 Oct 16:00 UTC</span></td><td><strong>Handicap: BC Dubai −7.5</strong></td><td class="num"><span class="price">-198</span></td><td class="num">66.4%</td><td><span class="badge b-high">high</span></td><td><a href="picks.html#basketball-dub-par">read</a></td></tr></tbody></table></div>
-
-<h2>Sport coverage</h2>
-<div class="tablewrap"><table class="t-compact"><thead><tr>
-<th>Sport</th><th class="num">OLBG id</th><th class="num">Listings</th><th class="num">Picks</th><th class="num">of 5</th><th>High?</th><th>Sources</th>
-</tr></thead><tbody><tr><td><a href="sports/golf.html"><strong>Golf</strong></a><br><span class="meta">Outright event markets, not head-to-head fixtures.</span></td><td class="num">5</td><td class="num">3</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Golf/5" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.pgatour.com/schedule" target="_blank" rel="noopener noreferrer">PGA TOUR schedule</a> · <a href="https://www.europeantour.com/dpworld-tour/schedule/" target="_blank" rel="noopener noreferrer">DP World Tour schedule</a> · <a href="https://www.lpga.com/tournaments" target="_blank" rel="noopener noreferrer">LPGA schedule</a></td></tr><tr><td><a href="sports/volleyball.html"><strong>Volleyball</strong></a><br><span class="meta">Largest club-league card of the fifteen sports at capture.</span></td><td class="num">21</td><td class="num">16</td><td class="num">1</td><td class="num">1/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Volleyball/21" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.cev.eu/match-centres/" target="_blank" rel="noopener noreferrer">CEV match centres</a> · <a href="https://www.legavolleyfemminile.it/" target="_blank" rel="noopener noreferrer">Lega Pallavolo Serie A Femminile</a> · <a href="https://tvf.org.tr/" target="_blank" rel="noopener noreferrer">Turkish Volleyball Federation</a> · <a href="https://en.volleyballworld.com/" target="_blank" rel="noopener noreferrer">Volleyball World</a></td></tr><tr><td><a href="sports/rugby-union.html"><strong>Rugby Union</strong></a><br><span class="meta"></span></td><td class="num">9</td><td class="num">13</td><td class="num">6</td><td class="num">5/5</td><td><span class="badge b-high">high</span></td><td><a href="https://www.olbg.com/betting-tips/Rugby_Union/9" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.world.rugby/" target="_blank" rel="noopener noreferrer">World Rugby</a> · <a href="https://unitedrugby.com/" target="_blank" rel="noopener noreferrer">United Rugby Championship</a> · <a href="https://www.premiershiprugby.com/" target="_blank" rel="noopener noreferrer">Premiership Rugby</a> · <a href="https://top14.lnr.fr/" target="_blank" rel="noopener noreferrer">Top 14</a></td></tr><tr><td><a href="sports/cricket.html"><strong>Cricket</strong></a><br><span class="meta"></span></td><td class="num">7</td><td class="num">13</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Cricket/7" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.icc-cricket.com/" target="_blank" rel="noopener noreferrer">ICC</a> · <a href="https://www.ecb.co.uk/" target="_blank" rel="noopener noreferrer">ECB</a> · <a href="https://www.cricket.com.au/" target="_blank" rel="noopener noreferrer">Cricket Australia</a> · <a href="https://www.bcci.tv/" target="_blank" rel="noopener noreferrer">BCCI</a></td></tr><tr><td><a href="sports/snooker.html"><strong>Snooker</strong></a><br><span class="meta"></span></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Snooker/8" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.wst.tv/" target="_blank" rel="noopener noreferrer">World Snooker Tour</a> · <a href="https://wpbsa.com/" target="_blank" rel="noopener noreferrer">WPBSA</a></td></tr><tr><td><a href="sports/darts.html"><strong>Darts</strong></a><br><span class="meta"></span></td><td class="num">15</td><td class="num">2</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Darts/15" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.pdc.tv/" target="_blank" rel="noopener noreferrer">PDC</a> · <a href="https://www.wdfdarts.org/" target="_blank" rel="noopener noreferrer">Winmau / WDF</a></td></tr><tr><td><a href="sports/baseball.html"><strong>Baseball</strong></a><br><span class="meta"></span></td><td class="num">12</td><td class="num">1</td><td class="num">1</td><td class="num">1/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Baseball/12" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.mlb.com/" target="_blank" rel="noopener noreferrer">MLB</a> · <a href="https://www.mlb.com/standings" target="_blank" rel="noopener noreferrer">MLB standings</a> · <a href="https://npb.jp/" target="_blank" rel="noopener noreferrer">NPB</a></td></tr><tr><td><a href="sports/gaelic-sports.html"><strong>Gaelic Sports</strong></a><br><span class="meta">Coverage requires two OLBG categories; Gaelic football is the primary id.</span></td><td class="num">25</td><td class="num">4</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Gaelic_Football/25" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.gaa.ie/" target="_blank" rel="noopener noreferrer">GAA</a> · <a href="https://www.gaa.ie/fixtures-results/" target="_blank" rel="noopener noreferrer">GAA fixtures and results</a> · <a href="https://www.olbg.com/betting-tips/Hurling/26" target="_blank" rel="noopener noreferrer">Hurling hub (OLBG id 26)</a></td></tr><tr><td><a href="sports/greyhounds.html"><strong>Greyhounds</strong></a><br><span class="meta">Race events, not fixtures.</span></td><td class="num">28</td><td class="num">1</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Greyhounds/28" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.gbgb.org.uk/" target="_blank" rel="noopener noreferrer">Greyhound Board of Great Britain</a> · <a href="https://www.gbgb.org.uk/results" target="_blank" rel="noopener noreferrer">GBGB results</a></td></tr><tr><td><a href="sports/tennis.html"><strong>Tennis</strong></a><br><span class="meta"></span></td><td class="num">3</td><td class="num">14</td><td class="num">1</td><td class="num">1/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Tennis/3" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.atptour.com/" target="_blank" rel="noopener noreferrer">ATP Tour</a> · <a href="https://www.wtatennis.com/" target="_blank" rel="noopener noreferrer">WTA Tour</a> · <a href="https://www.itftennis.com/" target="_blank" rel="noopener noreferrer">ITF</a></td></tr><tr><td><a href="sports/motor-racing.html"><strong>Motor Racing</strong></a><br><span class="meta">Outright event markets, not fixtures.</span></td><td class="num">14</td><td class="num">1</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Motor_Racing/14" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Formula 1</a> · <a href="https://www.motogp.com/" target="_blank" rel="noopener noreferrer">MotoGP</a> · <a href="https://www.fia.com/" target="_blank" rel="noopener noreferrer">FIA</a></td></tr><tr><td><a href="sports/handball.html"><strong>Handball</strong></a><br><span class="meta"></span></td><td class="num">20</td><td class="num">15</td><td class="num">5</td><td class="num">5/5</td><td><span class="badge b-high">high</span></td><td><a href="https://www.olbg.com/betting-tips/Handball/20" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.ihf.info/" target="_blank" rel="noopener noreferrer">IHF</a> · <a href="https://ehfcl.eurohandball.com/" target="_blank" rel="noopener noreferrer">EHF Champions League</a> · <a href="https://www.eurohandball.com/" target="_blank" rel="noopener noreferrer">EHF</a></td></tr><tr><td><a href="sports/ice-hockey.html"><strong>Ice Hockey</strong></a><br><span class="meta"></span></td><td class="num">13</td><td class="num">15</td><td class="num">1</td><td class="num">1/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Ice_Hockey/13" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.nhl.com/" target="_blank" rel="noopener noreferrer">NHL</a> · <a href="https://www.nhl.com/standings" target="_blank" rel="noopener noreferrer">NHL standings</a> · <a href="https://www.iihf.com/" target="_blank" rel="noopener noreferrer">IIHF</a></td></tr><tr><td><a href="sports/basketball.html"><strong>Basketball</strong></a><br><span class="meta"></span></td><td class="num">4</td><td class="num">14</td><td class="num">9</td><td class="num">5/5</td><td><span class="badge b-high">high</span></td><td><a href="https://www.olbg.com/betting-tips/Basketball/4" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.nba.com/" target="_blank" rel="noopener noreferrer">NBA</a> · <a href="https://www.nba.com/standings" target="_blank" rel="noopener noreferrer">NBA standings</a> · <a href="https://www.euroleaguebasketball.net/" target="_blank" rel="noopener noreferrer">EuroLeague</a> · <a href="https://www.fiba.basketball/" target="_blank" rel="noopener noreferrer">FIBA</a></td></tr><tr><td><a href="sports/rugby-league.html"><strong>Rugby League</strong></a><br><span class="meta"></span></td><td class="num">10</td><td class="num">3</td><td class="num">0</td><td class="num">0/5</td><td><span class="badge b-mute">—</span></td><td><a href="https://www.olbg.com/betting-tips/Rugby_League/10" target="_blank" rel="noopener noreferrer">OLBG</a> · <a href="https://www.rugby-league.com/" target="_blank" rel="noopener noreferrer">RFL</a> · <a href="https://www.superleague.co.uk/" target="_blank" rel="noopener noreferrer">Super League</a> · <a href="https://www.nrl.com/" target="_blank" rel="noopener noreferrer">NRL</a></td></tr></tbody></table></div>
-
-<h2>How to read a pick</h2>
-<div class="card">
-<ul class="clean">
-<li><strong>Bet</strong> — the market and the side: match winner, handicap, total, set winner, race place, etc.</li>
-<li><strong>Our line</strong> — the American price this desk originates for that side, not a price quoted by any bookmaker.</li>
-<li><strong>Win chance</strong> — the probability behind the line, after the desk margin is removed from the raw estimate.</li>
-<li><strong>Sources</strong> — one link to the OLBG listing and at least one link to the official body used for the form facts.</li>
-</ul>
-</div>
-
-</main>
-<footer class="site"><div class="wrap">
-  <p><strong>Independent research desk.</strong> Listings, markets and tip counts come from OLBG.com pages
-  captured 2026-10-27T06:05:00Z. Lines, probabilities and written predictions are originated here and are
-  not OLBG or bookmaker prices. Check the linked official source and current market before acting.
-  Nothing here is a guarantee. 18+. Only bet where lawful.</p>
-</div></footer>
-</body>
-</html>
+<footer class="foot">
+  <div><strong>How to read this board.</strong> Every row carries an OLBG link for the listing and, where one was found,
+  an official link for the fact. A blank price or blank stat means the source did not state it, never that it was guessed.</div>
+  <nav class="sportsnav"><a href="sports/golf.html">Golf</a><a href="sports/volleyball.html">Volleyball</a><a href="sports/rugby-union.html">Rugby Union</a><a href="sports/cricket.html">Cricket</a><a href="sports/snooker.html">Snooker</a><a href="sports/darts.html">Darts</a><a href="sports/baseball.html">Baseball</a><a href="sports/gaelic-sports.html">Gaelic Sports</a><a href="sports/greyhounds.html">Greyhounds</a><a href="sports/tennis.html">Tennis</a><a href="sports/motor-racing.html">Motor Racing</a><a href="sports/handball.html">Handball</a><a href="sports/ice-hockey.html">Ice Hockey</a><a href="sports/basketball.html">Basketball</a><a href="sports/rugby-league.html">Rugby League</a></nav>
+  <div class="fine">This page is the desk. Other sessions' snapshots sit beside it and are not part of it: a second 48-pick board at
+  <a href="board/index.html">board/</a>, a collector's live capture at <a href="current/index.html">current/</a>, the
+  superseded desk payload in <code>price-engine/</code> and <code>data/desk-*.json</code>, and earlier audits in
+  <a href="evidence-lab/index.html">evidence-lab/</a> and <a href="research-desk/index.html">research-desk/</a>. They are
+  kept as audit trail; their prices differ from ours and are not published here. Static snapshot, not a live feed.</div>
+</footer>
+</body></html>
