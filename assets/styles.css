@@ -58,3 +58,7 @@ ol li, ul li {margin-bottom:4px;color:#374151}
 .chips {display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .chip {background:#eef2ff;color:#1e40af;border:1px solid #bfdbfe;border-radius:6px;padding:4px 10px;font-size:0.8rem}
 .empty {color:var(--muted);font-style:italic}
+
+/* v2 picks page — executive ranked list */
+.exec-list { margin: 10px 0 4px; padding-left: 22px; }
+.exec-list li { margin: 7px 0; line-height: 1.55; font-size: 14.5px; color: var(--ink-soft); }

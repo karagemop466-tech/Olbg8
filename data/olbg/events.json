@@ -1,0 +1,312 @@
+[
+  {
+    "hub_slug": "tennis",
+    "event_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
+    "retrieved_at": "2026-10-27T05:45:40.034504+00:00",
+    "http_code": "200",
+    "sha256": "11530568d19e35ef92c7f50383129547a63373a19fb1f0b9571552b3975b1e7f",
+    "bytes": 314185,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "tennis",
+    "event_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Stan_Wawrinka_vs_Jiri_Lehecka/3?event_id=902232",
+    "retrieved_at": "2026-10-27T05:45:41.761360+00:00",
+    "http_code": "200",
+    "sha256": "5c1a59dba82fc707a0a987737a14c7f89af1a56e340d09f7b20c2056d33b7ef8",
+    "bytes": 270017,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "tennis",
+    "event_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
+    "retrieved_at": "2026-10-27T05:45:43.276210+00:00",
+    "http_code": "200",
+    "sha256": "96209b46fc3bd5c76c2645792eaff12a6ad1ff57eba0a7556bcf10c1179f3490",
+    "bytes": 268590,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "tennis",
+    "event_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
+    "retrieved_at": "2026-10-27T05:45:44.776096+00:00",
+    "http_code": "200",
+    "sha256": "80edc6fa34e06a0d0085a1907e1af1a3dd5771f25843acd87c300a8c0bd46cd1",
+    "bytes": 274040,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "basketball",
+    "event_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Panathinaikos_vs_Milano/4?event_id=536177",
+    "retrieved_at": "2026-10-27T05:45:46.509383+00:00",
+    "http_code": "200",
+    "sha256": "ef46abb2578fbe53b38c4ecf8e9f3dc674b610aef55a20dda3be4e0ceac3a8bb",
+    "bytes": 221598,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "basketball",
+    "event_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/BC_Dubai_vs_Paris/4?event_id=536176",
+    "retrieved_at": "2026-10-27T05:45:48.007641+00:00",
+    "http_code": "200",
+    "sha256": "e8a40a03ff06ff6c107a370dbe5c73ff3c4844365a57abde53d7b1cce86d9f5d",
+    "bytes": 250155,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "basketball",
+    "event_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
+    "retrieved_at": "2026-10-27T05:45:49.367737+00:00",
+    "http_code": "200",
+    "sha256": "86eb470da52130cd32342a7b89612c1be55c3cb153f61b217ce933afde4995b1",
+    "bytes": 237954,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "basketball",
+    "event_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
+    "retrieved_at": "2026-10-27T05:45:50.857053+00:00",
+    "http_code": "200",
+    "sha256": "26a18a2054c4734569a8da412c8c51713134373f85127ef6b697a78332b876e3",
+    "bytes": 246911,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "cricket",
+    "event_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852",
+    "retrieved_at": "2026-10-27T05:45:52.667535+00:00",
+    "http_code": "200",
+    "sha256": "65065943aa640afd4389906d273b4b48a1a497cb79e0088879d45a1406d23ad4",
+    "bytes": 639065,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "cricket",
+    "event_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
+    "retrieved_at": "2026-10-27T05:45:54.181458+00:00",
+    "http_code": "200",
+    "sha256": "2797ffb0f0c378f4d4da032205fbff2c2c45c57df93cb535001d9a86717f3fe5",
+    "bytes": 412178,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "cricket",
+    "event_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
+    "retrieved_at": "2026-10-27T05:45:55.745806+00:00",
+    "http_code": "200",
+    "sha256": "da26ef1b4ac046bcf14512ebbdae7a7d4a2ac84fe121719fbecd25cecb35b8e5",
+    "bytes": 579427,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "cricket",
+    "event_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Afghanistan_vs_Zimbabwe_1st_T20_Match/7?event_id=188872",
+    "retrieved_at": "2026-10-27T05:45:57.512006+00:00",
+    "http_code": "200",
+    "sha256": "3e21fc1ce6f19796150726fdba283de1f10b50c75b857642c00e3b94c288ee3e",
+    "bytes": 464050,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "rugby-union",
+    "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605",
+    "retrieved_at": "2026-10-27T05:45:58.896644+00:00",
+    "http_code": "200",
+    "sha256": "82f35749b43c32779d32ece0455562bfafa14eefa74b2a73811a306443b0dd6b",
+    "bytes": 230513,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "rugby-union",
+    "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Montauban_v_Narbonne/9?event_id=609603",
+    "retrieved_at": "2026-10-27T05:46:00.278667+00:00",
+    "http_code": "200",
+    "sha256": "51af059e6b4fdcc9ea287b3584c5a64bdeabc2f12963b663c2dc2f97631c6ecb",
+    "bytes": 229949,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "rugby-union",
+    "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Oyonnax_v_Soyaux_Angouleme/9?event_id=609598",
+    "retrieved_at": "2026-10-27T05:46:01.650093+00:00",
+    "http_code": "200",
+    "sha256": "7596ab4050ad96e66c5f5554d6b6323a46402da67d2ca387ed461f0f473795bb",
+    "bytes": 219555,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "rugby-union",
+    "event_url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604",
+    "retrieved_at": "2026-10-27T05:46:03.026961+00:00",
+    "http_code": "200",
+    "sha256": "566a2c0aa70dfe779ea582c8833617d8cf1f3ab3814b62363fca2854ccf79c81",
+    "bytes": 201004,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "baseball",
+    "event_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+    "retrieved_at": "2026-10-27T05:46:04.750141+00:00",
+    "http_code": "200",
+    "sha256": "d17e847424e4ed68fab1b3c85a094f8b0e09ed01cec2fc4ae04b95f38e9b2eb1",
+    "bytes": 207957,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "ice-hockey",
+    "event_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
+    "retrieved_at": "2026-10-27T05:46:06.506950+00:00",
+    "http_code": "200",
+    "sha256": "4278aced68386554dde73e3eb7265fa98b4a05f6eefb060d87f50b535fb7b34c",
+    "bytes": 233152,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "ice-hockey",
+    "event_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
+    "retrieved_at": "2026-10-27T05:46:08.249250+00:00",
+    "http_code": "200",
+    "sha256": "98351c6a2f5da9bd2f9dc4ea9bb90745bec0d2763148ce456bb275f237a2d36f",
+    "bytes": 234818,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "ice-hockey",
+    "event_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/Frolunda_HC_vs_Rogle_BK/13?event_id=200083",
+    "retrieved_at": "2026-10-27T05:46:09.956547+00:00",
+    "http_code": "200",
+    "sha256": "be7d0d1ff8736da92838d961c6e7714c2ff3c44b54054bd2faba2681e2796ed6",
+    "bytes": 245371,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "ice-hockey",
+    "event_url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/CLB_Blue_Jackets_@_PHI_Flyers/13?event_id=200108",
+    "retrieved_at": "2026-10-27T05:46:11.681747+00:00",
+    "http_code": "200",
+    "sha256": "7952f14a121d4659b91d9cb0a736e077079b68a961e5d19473ec7a49324cc6f1",
+    "bytes": 246362,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "handball",
+    "event_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136",
+    "retrieved_at": "2026-10-27T05:46:13.049523+00:00",
+    "http_code": "200",
+    "sha256": "50b77513efcb4c1e3f78e2e8c8f484b03cfc9da6a5db8d0115f61041bb6ffd73",
+    "bytes": 211610,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "handball",
+    "event_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Fuchse_Berlin_vs_RK_Partizan/20?event_id=12128",
+    "retrieved_at": "2026-10-27T05:46:14.452354+00:00",
+    "http_code": "200",
+    "sha256": "d6e61ff6d84ca8962cd5bd784f6f539317e532e29fa10155bdfa77efc59948d5",
+    "bytes": 219747,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "handball",
+    "event_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
+    "retrieved_at": "2026-10-27T05:46:16.187018+00:00",
+    "http_code": "200",
+    "sha256": "9b1e1c19509fff7c4fc2d3758a6f50f22bbe4af57d94f454ecff54c0738e241f",
+    "bytes": 229993,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "handball",
+    "event_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
+    "retrieved_at": "2026-10-27T05:46:17.922137+00:00",
+    "http_code": "200",
+    "sha256": "9414ce5c131d7627eaf43328aeca0acb9c1297d6dc2d3c5bfc0b7b478f17c5ef",
+    "bytes": 211013,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "volleyball",
+    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
+    "retrieved_at": "2026-10-27T05:46:19.285340+00:00",
+    "http_code": "200",
+    "sha256": "e9fdb5feb3a6a9aedcc452bd24f265b26861e78a2691a9e87a01516317b9afdf",
+    "bytes": 233628,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "volleyball",
+    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
+    "retrieved_at": "2026-10-27T05:46:20.658979+00:00",
+    "http_code": "200",
+    "sha256": "cb669da1f8e18e868ed10f02f55cd7c71347674258047be5b15c688af60c698b",
+    "bytes": 234998,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "volleyball",
+    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
+    "retrieved_at": "2026-10-27T05:46:22.054958+00:00",
+    "http_code": "200",
+    "sha256": "8eae3ce615dad7c1be6b14cbe0ca346fc44834c358127265ad256f5359c5a188",
+    "bytes": 236770,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "volleyball",
+    "event_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
+    "retrieved_at": "2026-10-27T05:46:23.781712+00:00",
+    "http_code": "200",
+    "sha256": "a246bbfa52e08961a95293068bdad455feaa5bd16db8292b0a2919aa5973c382",
+    "bytes": 237888,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "gaelic-football",
+    "event_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
+    "retrieved_at": "2026-10-27T05:46:25.539202+00:00",
+    "http_code": "200",
+    "sha256": "1c705e04dc3f87e50bdba62e5be47bac4dd400297096ce63f850d8c31ea266ee",
+    "bytes": 247003,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  },
+  {
+    "hub_slug": "gaelic-football",
+    "event_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
+    "retrieved_at": "2026-10-27T05:46:27.056756+00:00",
+    "http_code": "200",
+    "sha256": "ff8256daf99a7eb205d1524232a5fc8d6d70782401bab52e7c25ddad9a7a760f",
+    "bytes": 247444,
+    "error": "decode: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "markets": []
+  }
+]
