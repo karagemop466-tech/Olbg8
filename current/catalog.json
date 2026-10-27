@@ -1,0 +1,17 @@
+[
+  {"key":"golf","name":"Golf","hubs":[["Golf",5]],"official":"https://www.pgatour.com/schedule","officialLabel":"PGA TOUR schedule"},
+  {"key":"volleyball","name":"Volleyball","hubs":[["Volleyball",21]],"official":"https://www.cev.eu/match-centres/","officialLabel":"CEV match centres"},
+  {"key":"rugby-union","name":"Rugby Union","hubs":[["Rugby_Union",9]],"official":"https://www.unitedrugby.com/","officialLabel":"United Rugby Championship"},
+  {"key":"cricket","name":"Cricket","hubs":[["Cricket",7]],"official":"https://www.icc-cricket.com/fixtures-results","officialLabel":"ICC fixtures"},
+  {"key":"snooker","name":"Snooker","hubs":[["Snooker",8]],"official":"https://www.wst.tv/calendar","officialLabel":"World Snooker Tour calendar"},
+  {"key":"darts","name":"Darts","hubs":[["Darts",15]],"official":"https://www.pdc.tv/tournaments","officialLabel":"PDC tournaments"},
+  {"key":"baseball","name":"Baseball","hubs":[["Baseball",12]],"official":"https://www.mlb.com/schedule","officialLabel":"MLB schedule"},
+  {"key":"gaelic-sports","name":"Gaelic Sports","hubs":[["Gaelic_Football",25],["Hurling",26]],"official":"https://www.gaa.ie/fixtures-results","officialLabel":"GAA fixtures"},
+  {"key":"greyhounds","name":"Greyhounds","hubs":[["Greyhounds",28]],"official":"https://www.gbgb.org.uk/racing/","officialLabel":"GBGB race cards"},
+  {"key":"tennis","name":"Tennis","hubs":[["Tennis",3]],"official":"https://www.atptour.com/en/scores/current","officialLabel":"ATP schedule"},
+  {"key":"motor-racing","name":"Motor Racing","hubs":[["Motor_Racing",14]],"official":"https://www.formula1.com/en/racing","officialLabel":"Formula 1 calendar"},
+  {"key":"handball","name":"Handball","hubs":[["Handball",20]],"official":"https://ehfcl.eurohandball.com/men/2026-27/matches/","officialLabel":"EHF match centre"},
+  {"key":"ice-hockey","name":"Ice Hockey","hubs":[["Ice_Hockey",13]],"official":"https://www.nhl.com/schedule","officialLabel":"NHL schedule"},
+  {"key":"basketball","name":"Basketball","hubs":[["Basketball",4]],"official":"https://www.euroleaguebasketball.net/en/euroleague/","officialLabel":"EuroLeague schedule"},
+  {"key":"rugby-league","name":"Rugby League","hubs":[["Rugby_League",10]],"official":"https://www.rugby-league.com/","officialLabel":"Rugby Football League"}
+]

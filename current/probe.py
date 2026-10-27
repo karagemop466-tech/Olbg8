@@ -78,6 +78,16 @@ def main():
     except Exception as exc:
         message.append(f'baseball detail: {type(exc).__name__}: {str(exc)[:100]}')
     try:
+        url = 'https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/SC_Magdeburg_vs_HC_Kriens_Luzern/20?event_id=12136'
+        if robot.can_fetch(AGENT, url):
+            status, final, body = get(url)
+            index = body.find('Points Total')
+            if index >= 0:
+                snippet = re.sub(r'\s+', ' ', body[max(0, index-1700):index+1800])
+                print('::notice file=current/probe.py,line=5::MARKET SECTION: ' + snippet.replace('%', '%25'))
+    except Exception as exc:
+        message.append(f'handball detail: {type(exc).__name__}: {str(exc)[:100]}')
+    try:
         status, final, text = get('https://api-web.nhle.com/v1/schedule/2026-10-27')
         message.append(f'NHL: HTTP {status}; host={urlsplit(final).hostname}; json-like={text.lstrip().startswith("{")}')
     except Exception as exc:
