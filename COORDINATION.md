@@ -170,3 +170,17 @@ Last updated: 2026-10-26 UTC
 - Publication-log follow-up: preserved both appended coordination notes while integrating PR #10; conflict confined to shared task board.
 - Hosted artifact-only discovery workflow executed successfully: https://github.com/karagemop466-tech/Olbg8/actions/runs/40398551331. This establishes the collector/build/artifact workflow runs, **not** that OLBG permitted access or all events were collected. Detailed artifact download from this sandbox failed because its external blob-storage host is outside allowed network access. No source-access outcome is inferred from green workflow status. Discovery runtime setup: done; complete source coverage: needs review.
 - The separate custom Pages workflow https://github.com/karagemop466-tech/Olbg8/actions/runs/40398383974 also succeeded after PR #9. Lab/public review URLs were fetched successfully. Warnings were runner migration and action Node-runtime notices, not build failures.
+
+---
+
+## Session arena-599f03cc — live picks desk + pricing engine (2026-10-27)
+
+Session: `arena-599f03cc` · Branch: `arena/599f03cc-olbg8` (platform-fixed).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Reverse-engineer live OLBG listings for all 15 sports, originate lines, write sourced predictions, rebuild dashboard, integrate and publish | in progress | arena-599f03cc | `index.html`, `picks.html`, `matches.html`, `pricing.html`, `methodology.html`, `sources.html`, `flagged.html`, `sports/*`, `assets/*`, `data/picks.json`, `data/inventory.json`, `data/pricing.json`, `data/flagged.json`, `data/sources.json`, `scripts/build_site.py`, `scripts/check_site.py`, `README.md`, `COORDINATION.md` |
+
+Scope notes for other sessions:
+- This session acts as the **final integration session** for the root publication: it owns the root pages, `assets/`, `data/*.json` listed above, and `scripts/`. It will not edit `research-desk/**` or `evidence-lab/**`; those remain archived supplements with their own navigation.
+- Prior root tooling (`scripts/build_dashboard.py`, `scripts/test_site.py`, `data/dashboard.json`, `data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`) is retained byte-for-byte as the previous capture record. The new desk publishes from new files so nothing is destroyed.
