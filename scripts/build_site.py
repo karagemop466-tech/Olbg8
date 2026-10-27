@@ -145,13 +145,14 @@ def page_index():
     <p class="lede">A live OLBG capture taken {e(AS_OF)}, our own originated line on every selection in it, and
     {len(picks)} written predictions across {len([1 for s in CAP['sports'].values() if s['events']])} sports.</p>
     <div class="wherebox">
-      <b>Where the picks are:</b>
+      <b>Three views — the same three sections open on every sport page:</b>
       <ol>
-        <li><a href="picks.html">Picks</a> — every written prediction, grouped by sport, with the selection, our line,
-        the confidence band and the source links.</li>
-        <li>The <b>strongest positions right now</b> are the table directly below this box.</li>
-        <li><a href="matches.html">Line board</a> — all {len(rows)} priced selections and every market we found.</li>
-        <li>Each sport page (footer list) shows that sport's picks and its full market table together.</li>
+        <li><a href="picks.html#origination"><b>1 · Line origination &amp; picks</b></a> — every selection this desk priced,
+        with the OLBG number it is measured against, our line, the chance and the confidence band.</li>
+        <li><a href="picks.html#written"><b>2 · Written predictions</b></a> — one written prediction per pick, with the
+        evidence note and the source links underneath it.</li>
+        <li><a href="matches.html"><b>3 · Upcoming matches</b></a> — all {len(rows)} priced selections, every market we
+        found, and the fixtures OLBG listed with nothing to price.</li>
       </ol>
     </div>
   </div>
@@ -232,13 +233,29 @@ def page_picks():
     groups = defaultdict(list)
     for p in sorted(PICKS["picks"], key=lambda x: (x["sport"], -x["pick_score"])):
         groups[p["sport"]].append(p)
+    orows = "".join(
+        f'<tr><td><a href="#{p["pick_id"]}">{e(p["selection"])}</a>'
+        f'<div class="sub">{e(p["market"])} · {e(p["event"])}</div></td>'
+        f'<td>{e(p["sport"])}</td><td class="mono">{ampn(p["fair_american"])}</td>'
+        f'<td class="mono">{ampn(p["our_american"])}</td><td class="mono">{pct(p["our_prob"])}</td>'
+        f'<td class="srcs">{src_chip("OLBG", p["olbg_url"])}</td><td>{band(p["confidence"])}</td></tr>'
+        for p in sorted(PICKS["picks"], key=lambda x: (-{"High": 2, "Medium": 1}.get(x["confidence"], 0), -x["pick_score"])))
     out = [f"""<section class="pagemast">
-    <h1>Written predictions</h1>
+    <h1>Line origination &amp; written predictions</h1>
     <p class="lede">{len(PICKS['picks'])} selections, each one priced by our own origination step and written with the sources
     underneath it. Confidence is printed on every card: <strong>High</strong> means an official source matched the fixture and the
     market carried real weight; <strong>Low</strong> means either a thin tip sample, an unconfirmed fixture, or a price we are
     telling you not to take. Where we disagree with the OLBG crowd, the card says so.</p>
-    </section>"""]
+    </section>
+    <section id="origination">
+    <h2>1 · Line origination &amp; picks <span class="cnt">{len(PICKS['picks'])} priced selections</span></h2>
+    <p class="fine">Each row is one published pick: the fair line this desk originated, that same line with the margin loaded,
+    the implied chance and the band. The selection links to its written prediction.</p>
+    <table class="grid lines"><thead><tr><th>Selection</th><th>Sport</th><th>Our fair line</th><th>After margin</th>
+    <th>Chance</th><th>Source</th><th>Band</th></tr></thead><tbody>{orows}</tbody></table>
+    </section>
+    <section id="written"><h2>2 · Written predictions <span class="cnt">{len(PICKS['picks'])} write-ups</span></h2>
+    <p class="fine">Grouped by sport. Every card carries the selection, both lines, the chance, the evidence note and its sources.</p></section>"""]
     for sport in sorted(groups, key=lambda s: -len(groups[s])):
         ps = groups[sport]
         cards = []
@@ -550,14 +567,29 @@ def page_sport(key, v):
 has no fixtures. No event, line or prediction has been invented to reach the five-a-sport target. Official home page kept below so the check is
 reproducible: {src_chip('OLBG category page', v['olbg_hub'])}</p></section>"""
     cnt = f"{len(picks)} written pick{'s' if len(picks) != 1 else ''}" if picks else "no written picks"
+    orows = "".join(
+        f'<tr><td><a href="#{p["pick_id"]}">{e(p["selection"])}</a>'
+        f'<div class="sub">{e(p["market"])} · {e(p["event"])}</div></td>'
+        f'<td class="mono">{ampn(p["fair_american"])}</td><td class="mono">{ampn(p["our_american"])}</td>'
+        f'<td class="mono">{pct(p["our_prob"])}</td><td class="srcs">{src_chip("OLBG", p["olbg_url"])}</td>'
+        f'<td>{band(p["confidence"])}</td></tr>'
+        for p in sorted(picks, key=lambda x: -x["pick_score"]))
     return shell("sport", f"{v['label']} · OLBG research desk", f"""
 <section class="pagemast"><h1>{e(v['label'])}</h1><p class="lede">{cnt} · {len(v['events'])} OLBG listings ·
 {len(rows)} priced selections across {sum(len(m['selections']) for ev in v['events'] for m in ev['markets'])} market outcomes.
 OLBG sport id {v['sport_id']}.</p>
 <p class="jump">{src_chip('OLBG category page', v['olbg_hub'])}</p></section>
 {note}
-{f'<section><h2>Predictions</h2>{pcards}</section>' if picks else ''}
-{f'<section><h2>Every market on the board</h2>{"".join(evb)}</section>' if evb else ''}""",
+<nav class="jump secnav" aria-label="Sections on this page">
+  <a href="#origination">1 · Line origination &amp; picks</a>
+  <a href="#written">2 · Written predictions</a>
+  <a href="#upcoming">3 · Upcoming matches</a>
+</nav>
+<section id="origination"><h2>1 · Line origination &amp; picks</h2>
+{f'<table class="grid lines"><thead><tr><th>Selection</th><th>Our fair line</th><th>After margin</th><th>Chance</th><th>Source</th><th>Band</th></tr></thead><tbody>{orows}</tbody></table>' if picks else '<p class="blank">No selection in this sport cleared the publication gate, so no line was originated. The gap is listed on the flagged page and the fixtures stay under section 3.</p>'}
+</section>
+<section id="written"><h2>2 · Written predictions</h2>{pcards if picks else '<p class="blank">No written prediction was published for this sport in this capture. Nothing was invented to fill the space.</p>'}</section>
+<section id="upcoming"><h2>3 · Upcoming matches</h2>{"".join(evb) if evb else '<p class="blank">OLBG listed no event to price in this category at capture time.</p>'}</section>""",
                  f"{v['label']} lines, predictions and sources from the OLBG capture.")
 
 
