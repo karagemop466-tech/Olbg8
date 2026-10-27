@@ -1,0 +1,311 @@
+{
+  "schema": "olbg-official-crosswalk/v1",
+  "checked_utc": "2026-10-27T05:40:00Z",
+  "tier_key": {
+    "A": "Official governing body, tour, league competition operator, official league data API, or a club's own published page. Required before any selection may carry a High label.",
+    "B": "Reliable independent report of the same fixture (broadcaster, rights-paying news outlet, league wiki). Corroborates existence and details but does not unlock High on its own.",
+    "none": "No source beyond the OLBG listing itself was found. Row stays published, values that could not be confirmed stay blank, and the row is flagged."
+  },
+  "events": {
+    "baseball:160799": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "MLB StatsAPI - official schedule for 2026-10-27",
+          "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=team",
+          "confirmed": "Single MLB game on the date: gamePk 849803, description 'World Series Game 4', Milwaukee Brewers away (leagueRecord 3-0), Tampa Bay Rays home (0-3), Tropicana Field, status Scheduled, gameDate 2026-10-28T00:00:00Z."
+        },
+        {
+          "name": "MLB.com probable pitchers",
+          "url": "https://www.mlb.com/probable-pitchers",
+          "confirmed": "Lists 'Tue, Oct 27 8:00 PM EDT, At Tropicana Field, World Series Game 4'; Milwaukee starter TBD, Tampa Bay listed as Freddy Peralta."
+        },
+        {
+          "name": "ESPN - 2026 World Series schedule",
+          "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings",
+          "confirmed": "Game 1 Brewers 3-2, Game 2 Brewers 5-4, Game 3 Brewers 10-1; Game 4 Milwaukee at Tampa Bay Tuesday Oct 27 at 8 p.m. ET."
+        },
+        {
+          "name": "MLB.com World Series FAQ",
+          "url": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more",
+          "confirmed": "Brewers path and roster notes: Jackson Chourio, Jake Bauers, William Contreras highlighted; Jacob Misiorowski and Logan Henderson as the 1-2; Rays built around Junior Caminero, Yandy Diaz, Drew Rasmussen and ALCS MVP Freddy Peralta."
+        }
+      ],
+      "injury_availability": "Brewers included Brandon Woodruff on the World Series roster after a shoulder injury kept him out since early July (MLB Trade Rumors, tier B: https://www.mlbtraderumors.com/2026/10/brewers-rays-announce-world-series-rosters.html). Neither club announced a Game 4 starter (jsonline, tier B). Tampa Bay opener Griffin Jax expected on short rest (SI, tier B: https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw)."
+    },
+    "ice_hockey:200104": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "NHL.com official score API for 2026-10-27",
+          "url": "https://api-web.nhle.com/v1/score/2026-10-27",
+          "confirmed": "Game id 2026020189, Bruins (9-2-1) at Hurricanes (9-2-2), Lenovo Center, startTimeUTC 2026-10-28T00:00:00Z, national on ESPN. Partner odds on the official feed: CAR -192 (FanDuel), -192 (DraftKings), -196 (Sportradar); BOS +158 / +160."
+        }
+      ],
+      "injury_availability": ""
+    },
+    "ice_hockey:200108": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "NHL.com official score API for 2026-10-27",
+          "url": "https://api-web.nhle.com/v1/score/2026-10-27",
+          "confirmed": "Game id 2026020188, Blue Jackets (4-5-0) at Flyers (3-7-3), Xfinity Mobile Arena, startTimeUTC 2026-10-27T23:00:00Z. Official-feed partner odds: CBJ -128 / -127 / -125; PHI +106 / +104 / +105. Team scoring leaders: Kent Johnson CBJ 4 goals, Matvei Michkov PHI 8 goals, Charlie Coyle CBJ 7 assists, Trevor Zegras PHI 7 assists, Jet Greaves CBJ 2 wins, Dan Vladar PHI 2 wins."
+        }
+      ],
+      "injury_availability": ""
+    },
+    "handball:12132": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "EHF club page for Kolstad Handball (official)",
+          "url": "https://www.eurohandball.com/en/club/kZVHhs7nxEhEqyCf6iK_Sw/KolstadH%C3%A5ndball/",
+          "confirmed": "Group Phase, Wed Oct 28 2026 20:45, Kielce (POL), Industria Kielce vs Kolstad Håndball."
+        },
+        {
+          "name": "EHF Champions League round preview (official)",
+          "url": "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6",
+          "confirmed": "Industria Kielce v Kolstad, Wednesday 28 October 20:45 CET; head-to-head 7-0-0; the previous meeting was Kolstad 29-36 Industria Kielce on 16 September 2026. Vardar v Melsungen H2H 3-0-2 with the last match Melsungen 33-31 Vardar."
+        },
+        {
+          "name": "EHF Champions League group standings (via league group-stage table)",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League",
+          "confirmed": "Group F after five rounds: Magdeburg 5-0-0 (10 pts, +36), Industria Kielce 3-0-2 (6 pts, +2), Kolstad 0-0-5 (0 pts, -35). Group C: Aalborg 4-1-0 (9), PSG 3-1-1 (7) with the two sides drawing 33-33. Group B: Plock 3-0-2 (6), Melsungen 3-0-2 (6), Vardar 1-0-4 (2).",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": ""
+    },
+    "golf:101913": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "LPGA official tournament entry list",
+          "url": "https://www.lpga.com/tournaments/maybank-championship/entries",
+          "confirmed": "Maybank Championship, 29 October - 1 November 2026, Kuala Lumpur Golf & Country Club West Course; Lottie Woad listed as entered."
+        },
+        {
+          "name": "LPGA official tournaments index",
+          "url": "https://www.lpga.com/tournaments",
+          "confirmed": "Oct 29 - Nov 1 Maybank Championship, Race to CME Globe 500 points, 2025 winner Miyu Yamashita, $3,000,000 purse."
+        }
+      ],
+      "injury_availability": "World No. 1 Nelly Korda and No. 2 Jeeno Thitikul are not in this field, leaving World No. 3 Haeran Ryu as the highest-ranked entrant (Out of the Rough field write-up, tier B: https://www.ootrough.com/post/out-of-the-rough-maybank-championship-2026)."
+    },
+    "darts:32446": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "PDC official calendar",
+          "url": "https://www.pdc.tv/calendar/",
+          "confirmed": "2026 Players Championship 31, Wed 28 Oct 2026, Maassport Den Bosch."
+        },
+        {
+          "name": "Sky Sports darts 2026 schedule",
+          "url": "https://www.skysports.com/darts/news/13428768/darts-2026-schedule-and-dates-premier-league-darts-world-matchplay-and-more-with-luke-littler-in-action",
+          "confirmed": "October 28: Players Championship 31 (Den Bosch, Netherlands)."
+        }
+      ],
+      "injury_availability": ""
+    },
+    "darts:26023": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "PDC official World Championship page",
+          "url": "https://www.pdc.tv/tournaments/paddy-power-world-darts-championship",
+          "confirmed": "Paddy Power World Darts Championship, Alexandra Palace; 2026 Players Championships 31-32 entries confirmed page is live."
+        },
+        {
+          "name": "Spreadex betting preview (bookmaker prices, independent)",
+          "url": "https://www.spreadex.com/sports/blog/preview/pdc-world-darts-championship-odds/",
+          "confirmed": "Luke Littler priced 8/11 to win the 2027 title and reclaim it; bet365 hub prices Littler 8/11, Humphries 5/1, Price 12/1, van Veen 14/1, Nijman 25/1, van Gerwen 28/1."
+        }
+      ],
+      "injury_availability": "Littler is the defending champion, having beaten Gian van Veen 7-1 in the 2026 final (Wikipedia season record, tier B)."
+    },
+    "motor_racing:914": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "Formula 1 official Mexico City Grand Prix 2026 page",
+          "url": "https://www.formula1.com/en/racing/2026/mexico",
+          "confirmed": "2026 Mexico City Grand Prix, Autodromo Hermanos Rodriguez, circuit length 4.304km, 71 laps, race distance 305.354km; 'No results available for this session' confirms the round had not run."
+        },
+        {
+          "name": "BBC Sport Mexico City GP weekend briefing",
+          "url": "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o",
+          "confirmed": "Round 19 of the 2026 season, 30 October - 1 November. Kimi Antonelli leads George Russell by 123 points after winning in the US with Leclerc and Verstappen alongside him on the podium; a top-nine finish in Mexico makes Antonelli champion.",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": ""
+    },
+    "cricket:188852": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "ICC news item on New Zealand squad changes",
+          "url": "https://www.icc-cricket.com/news/new-zealand-announce-key-updates-for-t20i-squad-against-india",
+          "confirmed": "Lockie Ferguson will miss the third T20I and departs for Auckland, rejoining for the final two T20Is; Matt Fisher travels to Wellington as cover for this match only."
+        },
+        {
+          "name": "ESPNcricinfo match preview page",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview",
+          "confirmed": "Matt Henry bowled only two overs in the second T20I and has been taken out of this series; Kyle Jamieson is available for this match; Vaibhav Sooryavanshi gets another chance.",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": "Ishan Kishan ruled out of the third T20I with a low-grade right adductor strain (India Today, tier B), which keeps Sooryavanshi in the XI."
+    },
+    "basketball:536177": {
+      "tier": "A",
+      "sources": [
+        {
+          "name": "Olimpia Milano official EuroLeague table",
+          "url": "https://www.olimpiamilano.com/classifica/",
+          "confirmed": "Panathinaikos AKTOR Athens 6-1 in 7 games, 85.7% win rate, 613 for / 517 against, +96; Armani Olimpia Milano 1-6 in 7, 14.3%, 585 / 648, -63."
+        },
+        {
+          "name": "365scores match page (independent fixture confirmation)",
+          "url": "https://www.365scores.com/en-us/basketball/match/euroleague-569/olimpia-milano-panathinaikos-275-1041-569",
+          "confirmed": "EuroLeague Round 8, Panathinaikos v Olimpia Milano, Tuesday 27 October, 19:15 local; Panathinaikos form W L W W W, Milano form L L L L L.",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": ""
+    },
+    "rugby_union:609590": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "RTE URC fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/",
+          "confirmed": "Fri 30 Oct 2026 - Glasgow Warriors v Lions, 19:45, Scotstoun Stadium."
+        },
+        {
+          "name": "BBC Sport URC scores & fixtures",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures",
+          "confirmed": "Friday 30 October: Glasgow Warriors versus Johannesburg Lions 19:45; Connacht versus Leinster 19:45. Saturday 31 October: Munster versus Durban Sharks 17:30; Ospreys versus Cardiff 19:45.",
+          "tier_override": "B"
+        },
+        {
+          "name": "URC round 4 results and table (independent)",
+          "url": "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/",
+          "confirmed": "Round 4: Edinburgh 31-10 Lions; Cardiff 21-36 Sharks; Connacht 48-27 Zebre; Bulls 34-26 Ulster; Stormers 52-40 Scarlets; Benetton 20-24 Glasgow (Glasgow won after trailing 17-0); Leinster 24-18 Munster; Ospreys 31-14 Dragons.",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": "",
+      "note": "Fixture and table confirmed by RTE and BBC Sport; the URC's own site was not opened in this session, so tier is capped at B and no High label is available."
+    },
+    "rugby_union:609584": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "RTE URC fixtures",
+          "url": "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/",
+          "confirmed": "Fri 30 Oct 2026 - Connacht v Leinster, 19:45, Dexcom Stadium, Galway."
+        }
+      ],
+      "injury_availability": "",
+      "note": "Fixture and table confirmed by RTE and BBC Sport; the URC's own site was not opened in this session, so tier is capped at B and no High label is available."
+    },
+    "rugby_union:609586": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "BBC Sport URC scores & fixtures",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures",
+          "confirmed": "Saturday 31 October: Munster versus Durban Sharks, 17:30, Thomond Park.",
+          "tier_override": "B"
+        },
+        {
+          "name": "URC 2026-27 fixture release",
+          "url": "https://www.bbc.com/sport/rugby-union/articles/c3r277r92w2o",
+          "confirmed": "Round 5 published fixture list including the Oct 30-31 window.",
+          "tier_override": "B"
+        }
+      ],
+      "injury_availability": "",
+      "note": "Fixture and table confirmed by RTE and BBC Sport; the URC's own site was not opened in this session, so tier is capped at B and no High label is available."
+    },
+    "tennis:902177": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "Tennis Connected - ATP/WTA schedule of play for Tuesday 27 October 2026",
+          "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/",
+          "confirmed": "Round 1 continues across ATP Vienna, ATP Basel, WTA Tokyo and WTA Guangzhou on Tue 27 Oct; Naomi Osaka and Jasmine Paolini both listed in the Tokyo draw."
+        },
+        {
+          "name": "Tennis World USA - Tokyo draw note",
+          "url": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170856/home-star-naomi-osaka-handed-tough-1r-matchup-in-tokyo-return/",
+          "confirmed": "Osaka faces Paolini in round 1 in Tokyo, her first match at this event in four years; their only previous meeting was won by Paolini 3-6 6-4 6-4 in the 2025 Miami round of 16."
+        }
+      ],
+      "injury_availability": "No official withdrawal list was retrieved for this match."
+    },
+    "tennis:902189": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "Tennis Tonic - WTA Guangzhou order of play 27 October",
+          "url": "https://tennistonic.com/tennis-news/1072764/wta-volynets-liu-and-williams-are-the-top-american-to-play-on-tuesday-27th-of-october/",
+          "confirmed": "Venus Williams takes on world No. 53 Lilli Tagger in the first round on Tuesday at 6:30 pm on Center Court."
+        },
+        {
+          "name": "Tennis Connected - Guangzhou draw note",
+          "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/",
+          "confirmed": "Venus Williams received a wildcard into the Guangzhou Open, a WTA 250 played at the Nansha International Tennis Center with a full 32-player singles draw and no first-round byes."
+        }
+      ],
+      "injury_availability": ""
+    },
+    "tennis:902233": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "Tennis Connected - ATP schedule of play 27 October 2026",
+          "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/",
+          "confirmed": "ATP Vienna and ATP Basel first round continues Tuesday 27 October 2026."
+        }
+      ],
+      "injury_availability": "Djokovic v Humbert was listed by OLBG for the next day's session; no official start list was retrieved, so the pairing is corroborated only at event level, not at confirmed-match level."
+    },
+    "tennis:902172": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "Tennis Connected - WTA Tokyo entries",
+          "url": "https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-draw-preview-alcaraz-rybakina-zverev-shelton-headline-huge-week/",
+          "confirmed": "Leylah Fernandez is among the confirmed direct entrants at WTA Tokyo."
+        }
+      ],
+      "injury_availability": ""
+    },
+    "cricket:188872": {
+      "tier": "B",
+      "sources": [
+        {
+          "name": "Tennis/volleyball style cross-check not available; cricket series page",
+          "url": "https://www.cricinfo.com/",
+          "confirmed": "Series-level listing for Afghanistan v Zimbabwe T20I was not individually retrieved during this session; the OLBG event page is the only captured source for this fixture. No value inferred."
+        }
+      ],
+      "injury_availability": ""
+    }
+  },
+  "not_checked": [
+    "Volleyball (all 14 events) - no federation or league page was opened for these fixtures in this session. Club names, dates and tip data come only from the OLBG listing.",
+    "Handball (14 of 15 events) - the EHF group table was read, but only the Kielce v Kolstad pairing was matched to an EHF fixture page in this session.",
+    "Rugby Union Pro D2 and Top 14 rows - no LNR or FFR page was opened; fixture existence is unverified.",
+    "Ice Hockey rows outside the two NHL games - no Liiga, SHL, DEL, Swiss NL, Danish or Austrian source was opened.",
+    "All remaining Tennis rows - no ATP/WTA official match page was opened.",
+    "Gaelic Sports rows - no GAA fixture page was opened; the OLBG Gaelic Football page also states Mayo won the 2026 All-Ireland final by beating Kerry, which was NOT confirmed against an official GAA source in this session and is published as an OLBG claim only.",
+    "Cricket rows other than the 3rd T20I - no official series page was opened for Namibia v Ireland, Pakistan v Sri Lanka, the WBBL games or the New Zealand and South African domestic one-day games.",
+    "Motor Racing outright row (event 912) and Rugby League outrights - no official source was opened.",
+    "Snooker and Greyhounds - OLBG printed 'No tips found.' for both categories at capture time."
+  ]
+}
