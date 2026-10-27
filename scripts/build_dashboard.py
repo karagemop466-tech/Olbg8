@@ -617,8 +617,7 @@ def main() -> None:
     capture = load_json(OLBG / "markets.json", {}).get("captured_utc") or load_json(OLBG / "latest.json", {}).get("captured_utc") or ""
 
     dashboard = {
-        "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "capture_utc": capture,
+        "generated_utc": capture,
         "counts": counts,
         "sports": sport_summary,
         "events": sorted(out_events, key=lambda e: (e["start_utc"], e["sport"])),
