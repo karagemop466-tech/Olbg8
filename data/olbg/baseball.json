@@ -1,0 +1,53 @@
+{
+ "sport": "Baseball",
+ "sport_id": 12,
+ "captured_utc": "2026-10-27T05:33:37Z",
+ "rows": [
+  {
+   "sport": "Baseball",
+   "sport_key": "baseball",
+   "sport_id": 12,
+   "event_id": "160795",
+   "event_name": "MIL Brewers @ TB Rays",
+   "competition": "MLB",
+   "market": "Money Line",
+   "selection": "TB Rays",
+   "decimal_odds": 1.87,
+   "american_odds": -115,
+   "fractional_odds": "20/23",
+   "start_utc": "2026-10-27T00:00:00Z",
+   "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795",
+   "experts_count": 1,
+   "win_tips": 29,
+   "win_tips_count": 36,
+   "confidence": 81,
+   "comments_count": 9,
+   "expired": true,
+   "venue": "",
+   "address": ""
+  },
+  {
+   "sport": "Baseball",
+   "sport_key": "baseball",
+   "sport_id": 12,
+   "event_id": "160799",
+   "event_name": "MIL Brewers @ TB Rays",
+   "competition": "MLB",
+   "market": "Money Line",
+   "selection": "MIL Brewers",
+   "decimal_odds": 1.77,
+   "american_odds": -130,
+   "fractional_odds": "10/13",
+   "start_utc": "2026-10-28T01:00:00Z",
+   "olbg_url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799",
+   "experts_count": 0,
+   "win_tips": 2,
+   "win_tips_count": 2,
+   "confidence": 100,
+   "comments_count": 0,
+   "expired": false,
+   "venue": "",
+   "address": ""
+  }
+ ]
+}

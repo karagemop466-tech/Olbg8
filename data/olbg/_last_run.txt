@@ -1,0 +1,2 @@
+exit=0
+captured 205 market rows across 16 categories

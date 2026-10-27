@@ -1,0 +1,584 @@
+{
+ "captured_utc": "2026-10-27T05:33:37Z",
+ "sports": {
+  "golf": {
+   "sport_id": 5,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 60484,
+     "error": "",
+     "tips": 3
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 13871,
+     "error": "",
+     "tips": 3
+    }
+   },
+   "api_urls": [
+    "/sports/Golf/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079014982%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Golf/All_Golf/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=3ab446fb89dd788aaac24fc815b2fd2d1793078981991%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 3,
+   "events": 3
+  },
+  "volleyball": {
+   "sport_id": 21,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 57076,
+     "error": "",
+     "tips": 22
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 28558,
+     "error": "",
+     "tips": 22
+    }
+   },
+   "api_urls": [
+    "/sports/Volleyball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079016068%3Aouk%3Asafari%3Aunknown%3A16.5.2&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Volleyball/All_Volleyball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=2e8d1ba7fe90c06fc16780c5caa9d7141793078670211%3Aouk%3Agoogle-chrome%3Aunknown%3A136.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 22,
+   "events": 22
+  },
+  "rugby-union": {
+   "sport_id": 9,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 55549,
+     "error": "",
+     "tips": 13
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 21461,
+     "error": "",
+     "tips": 13
+    }
+   },
+   "api_urls": [
+    "/sports/Rugby_Union/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015978%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Rugby_Union/All_Rugby_Union/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=85e31e9c0de9a52cdf8c19e121a496931793078871583%3Aouk%3Agoogle-chrome%3Aunknown%3A136.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 15,
+   "events": 13
+  },
+  "cricket": {
+   "sport_id": 7,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 65325,
+     "error": "",
+     "tips": 18
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 26097,
+     "error": "",
+     "tips": 18
+    }
+   },
+   "api_urls": [
+    "/sports/Cricket/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015072%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Cricket/All_Cricket/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079341379%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "https://tipsb.olbg.info/sports/Cricket/All_Cricket/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079341379:ouk:google-chrome:unknown:125.0.0.0&api_key=S6H8MM3KN52Q8KN8&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 22,
+   "events": 18
+  },
+  "snooker": {
+   "sport_id": 8,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 53086,
+     "error": "",
+     "tips": 0
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 8968,
+     "error": "",
+     "tips": 0
+    }
+   },
+   "api_urls": [
+    "/sports/Snooker/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079016057%3Aouk%3Agoogle-chrome%3Aunknown%3A113.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Snooker/All_Snooker/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=0aaa06306d4188308bfcd7953209f1f91793079096718%3Aouk%3Agoogle-chrome%3Aunknown%3A152.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 0,
+   "events": 0
+  },
+  "darts": {
+   "sport_id": 15,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 64932,
+     "error": "",
+     "tips": 2
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 13134,
+     "error": "",
+     "tips": 2
+    }
+   },
+   "api_urls": [
+    "/sports/Darts/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015248%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Darts/All_Darts/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079007537%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 2,
+   "events": 2
+  },
+  "baseball": {
+   "sport_id": 12,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 49421,
+     "error": "",
+     "tips": 2
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 12759,
+     "error": "",
+     "tips": 1
+    }
+   },
+   "api_urls": [
+    "/sports/Baseball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079014515%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Baseball/All_Baseball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079411618%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "https://tipsb.olbg.info/sports/Baseball/All_Baseball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079411618:ouk:google-chrome:unknown:125.0.0.0&api_key=S6H8MM3KN52Q8KN8&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 2,
+   "events": 2
+  },
+  "gaelic-football": {
+   "sport_id": 25,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 46562,
+     "error": "",
+     "tips": 0
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 14338,
+     "error": "",
+     "tips": 0
+    }
+   },
+   "api_urls": [
+    "/sports/Gaelic_Football/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015382%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Gaelic_Football/All_Gaelic_Football/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079010434%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 0,
+   "events": 0
+  },
+  "hurling": {
+   "sport_id": 26,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 41013,
+     "error": "",
+     "tips": 1
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 12437,
+     "error": "",
+     "tips": 1
+    }
+   },
+   "api_urls": [
+    "/sports/Hurling/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015647%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Hurling/All_Hurling/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079010096%3Aouk%3Asafari%3Aunknown%3A16.6&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 1,
+   "events": 1
+  },
+  "greyhounds": {
+   "sport_id": 28,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 62914,
+     "error": "",
+     "tips": 0
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 9009,
+     "error": "",
+     "tips": 0
+    }
+   },
+   "api_urls": [
+    "/sports/Greyhounds/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015416%3Aouk%3Amicrosoft-edge%3Aunknown%3A117.0.2045.41&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Greyhounds/All_Greyhounds/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=eca98e3afee257ddd0571a44e9bca9e11793079028303%3Aouk%3Asafari%3Aunknown%3A17.4&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 0,
+   "events": 0
+  },
+  "tennis": {
+   "sport_id": 3,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 96279,
+     "error": "",
+     "tips": 49
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 42021,
+     "error": "",
+     "tips": 40
+    }
+   },
+   "api_urls": [
+    "/sports/Tennis/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079014804%3Aouk%3Agoogle-chrome%3Aunknown%3A109.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Tennis/All_Tennis/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=848371da32fdb34b3e43b0911691763c1793079153378%3Aom%3Agoogle-chrome%3Aunknown%3A153.0.8010.52&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 49,
+   "events": 49
+  },
+  "motor-racing": {
+   "sport_id": 14,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 63911,
+     "error": "",
+     "tips": 2
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 13343,
+     "error": "",
+     "tips": 2
+    }
+   },
+   "api_urls": [
+    "/sports/Motor_Racing/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015750%3Aouk%3Amozilla-firefox%3Aunknown%3A109.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Motor_Racing/All_Motor_Racing/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=4b8e90139b432de55e442ac5dfbf40bc1793079007245%3Aouk%3Agoogle-chrome%3Aunknown%3A155.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 2,
+   "events": 2
+  },
+  "handball": {
+   "sport_id": 20,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 56525,
+     "error": "",
+     "tips": 19
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 25729,
+     "error": "",
+     "tips": 19
+    }
+   },
+   "api_urls": [
+    "/sports/Handball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015494%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Handball/All_Handball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1ecd489b5541c943e71864f07b3d85b31793079310652%3Aouk%3Agoogle-chrome%3Aunknown%3A142.0.0.0&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 21,
+   "events": 19
+  },
+  "ice-hockey": {
+   "sport_id": 13,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 67188,
+     "error": "",
+     "tips": 20
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 26374,
+     "error": "",
+     "tips": 18
+    }
+   },
+   "api_urls": [
+    "/sports/Ice_Hockey/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079015654%3Aouk%3Agoogle-chrome%3Aunknown%3A116.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Ice_Hockey/All_Ice_Hockey/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079566972%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "https://tipsb.olbg.info/sports/Ice_Hockey/All_Ice_Hockey/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079566972:ouk:google-chrome:unknown:125.0.0.0&api_key=S6H8MM3KN52Q8KN8&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 25,
+   "events": 20
+  },
+  "basketball": {
+   "sport_id": 4,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 93254,
+     "error": "",
+     "tips": 36
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 35244,
+     "error": "",
+     "tips": 30
+    }
+   },
+   "api_urls": [
+    "/sports/Basketball/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079014474%3Aouk%3Agoogle-chrome%3Aunknown%3A117.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Basketball/All_Basketball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079607969%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "https://tipsb.olbg.info/sports/Basketball/All_Basketball/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079607969:ouk:google-chrome:unknown:125.0.0.0&api_key=S6H8MM3KN52Q8KN8&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 38,
+   "events": 36
+  },
+  "rugby-league": {
+   "sport_id": 10,
+   "pages": {
+    "hub": {
+     "status": 200,
+     "bytes": 44587,
+     "error": "",
+     "tips": 3
+    },
+    "all_events": {
+     "status": 200,
+     "bytes": 14394,
+     "error": "",
+     "tips": 3
+    }
+   },
+   "api_urls": [
+    "/sports/Rugby_League/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=f6274e42de0439462b55fa51acbe00771793079615620%3Aouk%3Agoogle-chrome%3Aunknown%3A115.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "/sports/Rugby_League/All_Rugby_League/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079648578%3Aouk%3Agoogle-chrome%3Aunknown%3A125.0.0.0&bookie_name=_best_&client_type=desktop_website",
+    "https://tipsb.olbg.info/sports/Rugby_League/All_Rugby_League/All_Events/top_tips?source=&paginate=1-100&include_recommendations=1&include_expired=1&ti=1a2549c3c804e1148fd50251eb7938ec1793079648578:ouk:google-chrome:unknown:125.0.0.0&api_key=S6H8MM3KN52Q8KN8&bookie_name=_best_&client_type=desktop_website"
+   ],
+   "rows": 3,
+   "events": 3
+  }
+ },
+ "events": {
+  "golf:101913": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Maybank_Championship/5?event_id=101913"
+  },
+  "golf:101915": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"
+  },
+  "golf:101914": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914"
+  },
+  "volleyball:37124": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Istanbul_Genclik_Spor_vs_IBB_Spor/21?event_id=37124"
+  },
+  "volleyball:37126": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126"
+  },
+  "volleyball:37123": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Sultanbeyli_Bld_vs_Gebze_Genclik/21?event_id=37123"
+  },
+  "rugby-union:609605": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Dax_v_Provence/9?event_id=609605"
+  },
+  "rugby-union:609604": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"
+  },
+  "rugby-union:609599": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Beziers_v_Grenoble/9?event_id=609599"
+  },
+  "cricket:188852": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"
+  },
+  "cricket:188854": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
+  },
+  "cricket:188868": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"
+  },
+  "darts:32446": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/Players_Championship_31/15?event_id=32446"
+  },
+  "darts:26023": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Darts/All_Darts/All_Events/PDC_World_Championship_2027/15?event_id=26023"
+  },
+  "baseball:160795": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160795"
+  },
+  "baseball:160799": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Baseball/MLB/MLB/MIL_Brewers_@_TB_Rays/12?event_id=160799"
+  },
+  "hurling:675": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675"
+  },
+  "tennis:902309": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Maya_Joint_vs_Sorana_Cirstea/3?event_id=902309"
+  },
+  "tennis:902176": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Ann_Li_vs_Ekaterina_Alexandrova/3?event_id=902176"
+  },
+  "tennis:902301": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Anastasia_Zakharova_vs_Magda_Linette/3?event_id=902301"
+  },
+  "motor-racing:914": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Mexico_City_Grand_Prix/14?event_id=914"
+  },
+  "motor-racing:912": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912"
+  },
+  "handball:12196": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/OV_Helsingborg_HK_W_vs_Skovde_HF_W/20?event_id=12196"
+  },
+  "handball:12197": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/VasterasIrsta_HF_W_vs_Skuru_IK_W/20?event_id=12197"
+  },
+  "handball:12127": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/FC_Porto_vs_Veszprem/20?event_id=12127"
+  },
+  "ice-hockey:200103": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/TOR_Maple_Leafs_@_CGY_Flames/13?event_id=200103"
+  },
+  "ice-hockey:200102": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/NHL/NHL/DET_Red_Wings_@_EDM_Oilers/13?event_id=200102"
+  },
+  "ice-hockey:200081": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081"
+  },
+  "basketball:536153": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Basketball/WNBA/WNBA/ATL_Dream_@_GS_Valkyries/4?event_id=536153"
+  },
+  "basketball:536204": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/IND_Pacers_@_MIL_Bucks/4?event_id=536204"
+  },
+  "basketball:536205": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Basketball/NBA/NBA/PHX_Suns_@_OKC_Thunder/4?event_id=536205"
+  },
+  "rugby-league:2695857": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857"
+  },
+  "rugby-league:2801554": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554"
+  },
+  "rugby-league:2801600": {
+   "status": 0,
+   "bytes": 0,
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600"
+  }
+ }
+}
