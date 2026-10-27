@@ -1,0 +1,831 @@
+SOURCE: https://ehfcl.eurohandball.com/men/2026-27/standings/
+FETCHED_UTC: 2026-10-27T05:33:54Z
+
+EHF Champions League Men 2026/27 - Standings & Results 
+ Skip to content 
+ Skip to navigation 
+ Live Scores 
+ Competitions 
+ Matches 
+ News 
+ Clubs 
+ Standings 
+ Team Stats 
+ Player Stats 
+ EHF FINAL4 Men 2027 
+ History 
+ My Game 
+ This is Me 
+ TV Guide 
+ Calendar 
+ Matches 
+ Close the navigation 
+ News 
+ Close the navigation 
+ Clubs 
+ Close the navigation 
+ Group Phase 
+ Main Round 
+ Quarter-finals 
+ EHF FINAL4 Men 
+ Close the navigation 
+ Team Stats 
+ Close the navigation 
+ Player Stats 
+ Close the navigation 
+ About the Event 
+ General Information 
+ Trophy, MVPs and History 
+ Ticketing 
+ Ticket sale 2027 
+ Ticket Resale 
+ Official Travel & Ticketpartners 
+ VIP & Hospitality 
+ VIP Overview 
+ EHF Champions Club 
+ VIP Suite 
+ VIP Lounge 
+ FAQ 
+ Close the navigation 
+ EHF Champions League Men all-time statistics 
+ Season 2020/21 
+ Season 2021/22 
+ Season 2022/23 
+ Season 2023/24 
+ Season 2024/25 
+ Season 2025/26 
+ Close the navigation 
+ My Game 
+ Close the navigation 
+ This is Me 
+ Close the navigation 
+ Home of Handball 
+ EHF Champions League 
+ EHF EURO 
+ EHF European League 
+ EHF European Cup 
+ EHF Beach Handball 
+ EHF Champions League Men 
+ EHF Champions League Women 
+ 2026-27 
+ 2025-26 - EHF CL Men 
+ 2024-25 - EHF CL Men 
+ 2023-24 - EHF CL Men 
+ 2022-23 - EHF CL Men 
+ 2021-22 - EHF CL Men 
+ Standings 
+ EHF Champions League Men 2026/27 - Standings & Results 
+ Add to Calendar popover 
+ Add to Calendar 
+ Group Phase • 
+09.09.2026 - 29.10.2026 
+ Round Report 
+ Group Phase 
+ GROUP A 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ One Veszprém HC 
+ 5 
+ 5 
+ 0 
+ 0 
+ 185 : 146 
+ 39 
+ 10 
+ 2. 
+ Füchse Berlin 
+ 5 
+ 3 
+ 0 
+ 2 
+ 184 : 172 
+ 12 
+ 6 
+ 3. 
+ FC Porto 
+ 5 
+ 1 
+ 1 
+ 3 
+ 158 : 173 
+ -15 
+ 3 
+ 4. 
+ RK Partizan AdmiralBet 
+ 5 
+ 0 
+ 1 
+ 4 
+ 148 : 184 
+ -36 
+ 1 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP B 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ Orlen Wisla Plock 
+ 5 
+ 3 
+ 0 
+ 2 
+ 141 : 136 
+ 5 
+ 6 
+ 2. 
+ MT Melsungen 
+ 5 
+ 3 
+ 0 
+ 2 
+ 138 : 138 
+ 0 
+ 6 
+ 3. 
+ HBC Nantes 
+ 5 
+ 3 
+ 0 
+ 2 
+ 142 : 143 
+ -1 
+ 6 
+ 4. 
+ HC Vardar 1961 
+ 5 
+ 1 
+ 0 
+ 4 
+ 154 : 158 
+ -4 
+ 2 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP C 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ Aalborg Håndbold 
+ 5 
+ 4 
+ 1 
+ 0 
+ 170 : 145 
+ 25 
+ 9 
+ 2. 
+ Paris Saint-Germain 
+ 5 
+ 3 
+ 1 
+ 1 
+ 182 : 157 
+ 25 
+ 7 
+ 3. 
+ HC Zagreb 
+ 5 
+ 2 
+ 0 
+ 3 
+ 146 : 158 
+ -12 
+ 4 
+ 4. 
+ RK Celje Pivovarna Laško 
+ 5 
+ 0 
+ 0 
+ 5 
+ 150 : 188 
+ -38 
+ 0 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP D 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ Sporting Clube de Portugal 
+ 5 
+ 4 
+ 1 
+ 0 
+ 191 : 165 
+ 26 
+ 9 
+ 2. 
+ GOG 
+ 5 
+ 3 
+ 1 
+ 1 
+ 178 : 172 
+ 6 
+ 7 
+ 3. 
+ OTP Bank - PICK Szeged 
+ 5 
+ 1 
+ 2 
+ 2 
+ 172 : 169 
+ 3 
+ 4 
+ 4. 
+ IFK Kristianstad 
+ 5 
+ 0 
+ 0 
+ 5 
+ 162 : 197 
+ -35 
+ 0 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP E 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ Barça 
+ 5 
+ 5 
+ 0 
+ 0 
+ 177 : 138 
+ 39 
+ 10 
+ 2. 
+ SAH - Aarhus 
+ 5 
+ 2 
+ 1 
+ 2 
+ 150 : 163 
+ -13 
+ 5 
+ 3. 
+ Dinamo Bucuresti 
+ 5 
+ 1 
+ 1 
+ 3 
+ 134 : 145 
+ -11 
+ 3 
+ 4. 
+ Montpellier Handball 
+ 5 
+ 1 
+ 0 
+ 4 
+ 150 : 165 
+ -15 
+ 2 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP F 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ SC Magdeburg 
+ 5 
+ 5 
+ 0 
+ 0 
+ 176 : 140 
+ 36 
+ 10 
+ 2. 
+ Industria Kielce 
+ 5 
+ 3 
+ 0 
+ 2 
+ 155 : 153 
+ 2 
+ 6 
+ 3. 
+ HC Kriens-Luzern 
+ 5 
+ 2 
+ 0 
+ 3 
+ 158 : 161 
+ -3 
+ 4 
+ 4. 
+ Kolstad Håndball 
+ 5 
+ 0 
+ 0 
+ 5 
+ 143 : 178 
+ -35 
+ 0 
+ Matches 
+ Round: 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ All 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ Main Round • 
+18.11.2026 - 04.03.2027 
+ Round Report 
+ Main Round 
+ GROUP I 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ I-1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ I-2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ I-3 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ I-4 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ I-5 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ I-6 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ Matches 
+ Round: 
+ 0 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ GROUP II 
+ GP 
+ W 
+ D 
+ L 
+ Goals 
+ DIFF 
+ PTS 
+ 1. 
+ II-1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ II-2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ II-3 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ II-4 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ II-5 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ 1. 
+ II-6 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 : 0 
+ 0 
+ 0 
+ Matches 
+ Round: 
+ 0 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}}, {{match.venue.place.cityName}} ({{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}}) 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals}} 
+ {{match.comp.round.name}} 
+ {{match.comp.group.name}} 
+ Quarter-finals • 
+24.03.2027 - 01.04.2027 
+ Round Report 
+ Matches 
+ DATE • TIME (CET) 
+ 1st Match 
+ G1 
+ 2nd Match 
+ G2 
+ TOTAL 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ • 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ P01-A 
+ P01-B 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ 0 
+ 0 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ • 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ P02-A 
+ P02-B 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ 0 
+ 0 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ • 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ P03-A 
+ P03-B 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ 0 
+ 0 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ • 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ P04-A 
+ P04-B 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ Wed Mar 24 - Thu Apr 01, 2027 
+ TBC 
+ view game details 
+ 0 
+ 0 
+ EHF FINAL4 Men • 
+12.06.2027 - 13.06.2027 
+ Round Report 
+ Semi-finals 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ Sat Jun 12 - Sun Jun 13, 2027 
+ P01-A 
+ vs 
+ P01-B 
+ EHF FINAL4 Men 
+ Sat Jun 12 - Sun Jun 13, 2027 
+ P03-A 
+ vs 
+ P03-B 
+ EHF FINAL4 Men 
+ Finals 
+ Matches 
+ DATE • TIME (CET) 
+ RESULTS 
+ Round 
+ GROUP 
+ Sat Jun 12 - Sun Jun 13, 2027 
+ L.M01 
+ vs 
+ L.M02 
+ EHF FINAL4 Men 
+ Sat Jun 12 - Sun Jun 13, 2027 
+ W.M01 
+ vs 
+ W.M02 
+ EHF FINAL4 Men 
+ Calendar 
+ Home of Handball 
+ Quick Links 
+ {{item.name}} 
+ Men 
+ Women 
+ 0 || competitions.competitionsMixedClub.length > 0" id="tab-mixed" :class="['tab', competitions.isMixed ? 'is--active' : '']" v-on:click="showCompetitionTab(false,false,true)" data-tab="#tab_content_mixed" aria-controls="tab_content_mixed" role="tab" v-bind:aria-selected="(competitions.isMixed ? 'true' : 'false')" type="button"> 
+ Mixed 
+ Shop 
+ 0" v-bind:competitions="competitions.competitionsMenClub" :id="'acc-hoh-men-club'" :caption="'Club Competitions'" :active="competitions.competitionsMenClub.length > 0 ? true : false"> 
+ 0" v-bind:competitions="competitions.competitionsMenNational" :id="'acc-hoh-men-national'" :caption="'National Team Competitions'" :active="competitions.competitionsMenClub.length == 0 ? true : false"> 
+ 0" v-bind:competitions="competitions.competitionsWomenClub" :id="'acc-hoh-women-club'" :caption="'Club Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsWomenNational" :id="'acc-hoh-women-national'" :caption="'National Team Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsMixedClub" :id="'acc-hoh-mixed-club'" :caption="'Club Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsMixedNational" :id="'acc-hoh-mixed-national'" :caption="'National Team Competitions'"> 
+ Shop 
+ Men 
+ Women 
+ Please start typing to see results… 
+ 0"> 
+ National Teams 
+ {{item.name}} - {{item.ageClass}} 
+ 0"> 
+ Clubs 
+ {{item.name}} - {{item.ageClass}} 
+ Ticket Sales 
+ All-Tickets 
+ Shop 
+ Who We Are 
+ The EHF 
+ EHF Partners 
+ EHF Federations 
+ EHF Marketing GmbH 
+ What We Do 
+ Regulations 
+ Publications 
+ Services 
+ EHF TV 
+ EHF Family 
+ EHF TV Guide 
+ Home 
+ Competitions 
+ TV 
+ Teams 
+ Tickets 
+ More 
+ Close 
+ {{caption}} 
+ {{competition.name}} 
+ Home 
+ 2026-27 
+ Standings 
+ EHF - Home of Handball 
+ Facebook 
+ Instagram 
+ Youtube 
+ Twitter 
+ Linkedin 
+ Who We Are 
+ Who We Are 
+ Home 
+ The EHF 
+ EHF Marketing GmbH 
+ EHF Commissions 
+ EHF Federations 
+ What We Do 
+ What We Do 
+ Publications 
+ EHF Anti-Doping-Unit 
+ Activities 
+ Competitions 
+ Competitions 
+ Men 
+ Women 
+ Services 
+ Services 
+ EHFTV 
+ TV Guide 
+ EHF Family 
+ EHF Learning 
+ Contact 
+ Contact 
+ EHF Reporting Platform 
+ Privacy Policy 
+ Cookie Policy 
+ Terms and Conditions 
+ Privacy Preferences

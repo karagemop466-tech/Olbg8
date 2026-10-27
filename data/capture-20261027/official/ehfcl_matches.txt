@@ -1,0 +1,184 @@
+SOURCE: https://ehfcl.eurohandball.com/men/2026-27/matches/
+FETCHED_UTC: 2026-10-27T05:33:53Z
+
+Matches, Results & Schedule - EHF Champions League Men 
+ Skip to content 
+ Skip to navigation 
+ Live Scores 
+ Competitions 
+ Matches 
+ News 
+ Clubs 
+ Standings 
+ Team Stats 
+ Player Stats 
+ EHF FINAL4 Men 2027 
+ History 
+ My Game 
+ This is Me 
+ TV Guide 
+ Calendar 
+ Matches 
+ Close the navigation 
+ News 
+ Close the navigation 
+ Clubs 
+ Close the navigation 
+ Group Phase 
+ Main Round 
+ Quarter-finals 
+ EHF FINAL4 Men 
+ Close the navigation 
+ Team Stats 
+ Close the navigation 
+ Player Stats 
+ Close the navigation 
+ About the Event 
+ General Information 
+ Trophy, MVPs and History 
+ Ticketing 
+ Ticket sale 2027 
+ Ticket Resale 
+ Official Travel & Ticketpartners 
+ VIP & Hospitality 
+ VIP Overview 
+ EHF Champions Club 
+ VIP Suite 
+ VIP Lounge 
+ FAQ 
+ Close the navigation 
+ EHF Champions League Men all-time statistics 
+ Season 2020/21 
+ Season 2021/22 
+ Season 2022/23 
+ Season 2023/24 
+ Season 2024/25 
+ Season 2025/26 
+ Close the navigation 
+ My Game 
+ Close the navigation 
+ This is Me 
+ Close the navigation 
+ Home of Handball 
+ EHF Champions League 
+ EHF EURO 
+ EHF European League 
+ EHF European Cup 
+ EHF Beach Handball 
+ EHF Champions League Men 
+ EHF Champions League Women 
+ 2026-27 
+ 2025-26 - EHF CL Men 
+ 2024-25 - EHF CL Men 
+ 2023-24 - EHF CL Men 
+ 2022-23 - EHF CL Men 
+ 2021-22 - EHF CL Men 
+ Matches 
+ EHF Champions League Men 2026/27: Matches, Results & Schedule 
+ Matches 
+ DATE • TIME 
+ RESULTS 
+ ROUND 
+ GROUP | Phase 
+ Load Future Matches 
+ {{match.venue.formattedDateFull ? match.venue.formattedDateFull : 'TBC'}} 
+ {{match.venue.formattedTimeFull}} - {{match.venue.place.cityName}} 
+ {{match.venue.place.countryAbbreviation != null ? ' (' + match.venue.place.countryAbbreviation + ')' : null}} 
+ {{match.homeTeam.team.name}} 
+ {{match.homeTeam.score.goals ?? '0'}} 
+ vs 
+ {{match.guestTeam.team.name}} 
+ {{match.guestTeam.score.goals ?? '0'}} 
+ {{match.comp.round.shortName}} 
+ {{match.comp.phase.name}} 
+ Load Previous Matches 
+ This content is blocked 
+ You said no to using cookies or similar tools that help improve your experience. To see this content, you would need to update your Privacy Preferences . 
+ Update 
+ Calendar 
+ Home of Handball 
+ Quick Links 
+ {{item.name}} 
+ Men 
+ Women 
+ 0 || competitions.competitionsMixedClub.length > 0" id="tab-mixed" :class="['tab', competitions.isMixed ? 'is--active' : '']" v-on:click="showCompetitionTab(false,false,true)" data-tab="#tab_content_mixed" aria-controls="tab_content_mixed" role="tab" v-bind:aria-selected="(competitions.isMixed ? 'true' : 'false')" type="button"> 
+ Mixed 
+ Shop 
+ 0" v-bind:competitions="competitions.competitionsMenClub" :id="'acc-hoh-men-club'" :caption="'Club Competitions'" :active="competitions.competitionsMenClub.length > 0 ? true : false"> 
+ 0" v-bind:competitions="competitions.competitionsMenNational" :id="'acc-hoh-men-national'" :caption="'National Team Competitions'" :active="competitions.competitionsMenClub.length == 0 ? true : false"> 
+ 0" v-bind:competitions="competitions.competitionsWomenClub" :id="'acc-hoh-women-club'" :caption="'Club Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsWomenNational" :id="'acc-hoh-women-national'" :caption="'National Team Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsMixedClub" :id="'acc-hoh-mixed-club'" :caption="'Club Competitions'"> 
+ 0" v-bind:competitions="competitions.competitionsMixedNational" :id="'acc-hoh-mixed-national'" :caption="'National Team Competitions'"> 
+ Shop 
+ Men 
+ Women 
+ Please start typing to see results… 
+ 0"> 
+ National Teams 
+ {{item.name}} - {{item.ageClass}} 
+ 0"> 
+ Clubs 
+ {{item.name}} - {{item.ageClass}} 
+ Ticket Sales 
+ All-Tickets 
+ Shop 
+ Who We Are 
+ The EHF 
+ EHF Partners 
+ EHF Federations 
+ EHF Marketing GmbH 
+ What We Do 
+ Regulations 
+ Publications 
+ Services 
+ EHF TV 
+ EHF Family 
+ EHF TV Guide 
+ Home 
+ Competitions 
+ TV 
+ Teams 
+ Tickets 
+ More 
+ Close 
+ {{caption}} 
+ {{competition.name}} 
+ Home 
+ 2026-27 
+ Matches 
+ EHF - Home of Handball 
+ Facebook 
+ Instagram 
+ Youtube 
+ Twitter 
+ Linkedin 
+ Who We Are 
+ Who We Are 
+ Home 
+ The EHF 
+ EHF Marketing GmbH 
+ EHF Commissions 
+ EHF Federations 
+ What We Do 
+ What We Do 
+ Publications 
+ EHF Anti-Doping-Unit 
+ Activities 
+ Competitions 
+ Competitions 
+ Men 
+ Women 
+ Services 
+ Services 
+ EHFTV 
+ TV Guide 
+ EHF Family 
+ EHF Learning 
+ Contact 
+ Contact 
+ EHF Reporting Platform 
+ Privacy Policy 
+ Cookie Policy 
+ Terms and Conditions 
+ Privacy Preferences
