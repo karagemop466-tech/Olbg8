@@ -528,3 +528,8 @@ their prices differ from ours, because four unexplained desks on one host is the
 `f3d31c18`'s 48 rows and the earlier 35-row `data/predictions.json`, which `6bb9f412`'s audit already shows misattributing an ATP serve
 figure (297.4, Hurkacz's, printed as Ruud's "live race ranking"). Open decision for an integrator: consolidate onto one generator before
 another session writes root again.
+
+**Follow-up fix on the published overview (post-#25).** The Sources column could show an OLBG link twice — once as the listing, once as the
+corroboration — on any row without an official source, which reads as evidence we do not have. The builder now prints
+"listing only, no official source" there instead: 4 of the 10 overview rows and 94 of the 140 line-board rows state that plainly. Same rule
+applies on both pages so a reader cannot mistake one link for two.

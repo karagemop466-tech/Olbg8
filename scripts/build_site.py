@@ -46,6 +46,16 @@ def band(c):
     return f'<span class="band {cls}">{c}</span>'
 
 
+def official_chip(obj, rel=""):
+    """The first source that is not OLBG itself. Double-listing the hub as its own
+    corroboration would read as a source we do not have, so it says 'listing only'."""
+    for x in (obj.get("sources") or []):
+        if x.get("url") and "olbg.com" not in x["url"]:
+            tier = x.get("tier") or x.get("tier_override")
+            return src_chip(x["name"], x["url"], tier)
+    return '<span class="blank">listing only, no official source</span>'
+
+
 def src_chip(name, url, tier=None):
     t = f'<span class="tier t{tier.lower()}">{tier}</span>' if tier else ""
     return f'<a class="srclink" href="{e(url)}" target="_blank" rel="noopener">{e(name)}</a>{t}'
@@ -125,7 +135,7 @@ def page_index():
       <td>{e(p['sport'])}</td><td class="mono">{ampn(p['fair_american'])}</td>
       <td class="mono">{ampn(p['our_american'])}</td><td class="mono">{pct(p['our_prob'])}</td>
       <td>{band(p['confidence'])}</td>
-      <td class="srcs">{src_chip('OLBG', p['olbg_url'])}{('<br>' + src_chip(p['sources'][0]['name'], p['sources'][0]['url'])) if p['sources'] else '<span class="blank"> no official link</span>'}</td>
+      <td class="srcs">{src_chip('OLBG', p['olbg_url'])}<br>{official_chip(p)}</td>
     </tr>""" for p in top)
 
     return shell("index", "Overview · OLBG research desk", f"""
@@ -274,7 +284,7 @@ def page_matches():
 <td class="mono">{pct(r['our_prob'])}</td>
 <td class="mono">{'' if r['olbg_win_tips'] is None else r['olbg_win_tips']}/{'' if r['olbg_total_tips'] is None else r['olbg_total_tips']}</td>
 <td>{band(r['confidence'])}</td>
-<td class="srcs">{src_chip('OLBG', r['olbg_url'])}{('<br>' + src_chip(r['sources'][0]['name'], r['sources'][0]['url'])) if r.get('sources') else ''}</td>
+<td class="srcs">{src_chip('OLBG', r['olbg_url'])}<br>{official_chip(r)}</td>
 </tr>""" for r in sorted(rs, key=lambda x: -x["pick_score"]))
         body.append(f"""<section class="sportsec" id="{e(sport.lower().replace(' ', '-'))}">
 <h2>{e(sport)} <span class="cnt">{len(rs)} priced selections</span></h2>
