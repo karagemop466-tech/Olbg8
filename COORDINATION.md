@@ -330,3 +330,12 @@ fifteen registered sports, no page links to it, it pointed at `../../assets/styl
 only broken link the gate found after the merge), and its content — a note that OLBG lists Hurling under category 26
 but that it is out of scope — is already covered by the sport register and `methodology.html`. Nothing unique was
 lost.
+
+**CI repair (why this PR also touches the workflows).** `main` at `ce345a8` is red: `Site quality` and
+`Deploy OLBG research desk` both fail (runs 40457…  on that SHA), because PR #17 committed a `data/dashboard.json`
+with a different schema (`olbg-research-dashboard/v2`, 35 predictions) while `scripts/build_dashboard.py` still
+emits v1 and `scripts/test_site.py` still expects v1's `scope` key. The legacy rebuild-then-diff step therefore
+rewrites the file and fails the diff, and `pages.yml` fails the same validator before it can deploy. This PR removes
+the legacy dashboard rebuild from the gate, validates the desk that is actually published (`check_site.py` plus
+`py_compile` and `node --check`), and keeps the generated-file diff on the desk outputs. `data/dashboard.json` itself
+is left exactly as PR #17 committed it; `scripts/test_site.py` stays in the repo as the 26 October record.
