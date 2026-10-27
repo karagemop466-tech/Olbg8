@@ -4,6 +4,7 @@
  "parameters": {
   "margin": 0.04,
   "pseudo_count": 1.0,
+  "strength": 8.0,
   "window_american": [
    -250.0,
    10000.0
@@ -95,7 +96,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -130,7 +132,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -220,7 +223,8 @@
    ],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -298,7 +302,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -334,7 +339,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -674,7 +680,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -770,7 +777,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -990,7 +998,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1111,7 +1120,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1195,7 +1205,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1230,7 +1241,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1278,7 +1290,8 @@
    ],
    "injury_availability": "No official withdrawal list was retrieved for this match.",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1497,7 +1510,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1532,7 +1546,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1567,7 +1582,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1602,7 +1618,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1638,7 +1655,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1673,7 +1691,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1812,7 +1831,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1854,7 +1874,8 @@
    ],
    "injury_availability": "Djokovic v Humbert was listed by OLBG for the next day's session; no official start list was retrieved, so the pairing is corroborated only at event level, not at confirmed-match level.",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -1889,7 +1910,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2108,7 +2130,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2143,7 +2166,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2337,7 +2361,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2372,7 +2397,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2407,7 +2433,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2442,7 +2469,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2477,7 +2505,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2662,7 +2691,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2697,7 +2727,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2732,7 +2763,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2767,7 +2799,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2802,7 +2835,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2838,7 +2872,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2873,7 +2908,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -2909,6 +2945,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -2946,6 +2983,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -2983,6 +3021,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3020,6 +3059,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3057,6 +3097,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3094,6 +3135,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3131,6 +3173,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3168,6 +3211,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3205,6 +3249,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3242,6 +3287,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -3291,7 +3337,8 @@
    ],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3326,7 +3373,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3361,7 +3409,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3396,7 +3445,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3431,7 +3481,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3466,7 +3517,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3501,7 +3553,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3536,7 +3589,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3571,7 +3625,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3606,7 +3661,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3641,7 +3697,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3676,7 +3733,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3711,7 +3769,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3746,7 +3805,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3781,7 +3841,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3816,7 +3877,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3851,7 +3913,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3886,7 +3949,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3921,7 +3985,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3956,7 +4021,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -3991,7 +4057,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4027,6 +4094,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4064,6 +4132,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4120,6 +4189,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4164,6 +4234,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4201,6 +4272,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4238,6 +4310,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4288,6 +4361,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4325,6 +4399,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4362,6 +4437,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4399,6 +4475,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4436,6 +4513,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4473,6 +4551,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4510,6 +4589,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4547,6 +4627,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4584,6 +4665,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4621,6 +4703,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4658,6 +4741,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4695,6 +4779,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4732,6 +4817,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -4768,7 +4854,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4803,7 +4890,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4838,7 +4926,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4874,7 +4963,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4910,7 +5000,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4945,7 +5036,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -4982,6 +5074,7 @@
    "flags": [
     "field_not_split_only_selection_priced",
     "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -5020,6 +5113,7 @@
    "flags": [
     "field_not_split_only_selection_priced",
     "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -5056,7 +5150,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5092,7 +5187,8 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5127,7 +5223,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5162,7 +5259,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5197,7 +5295,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5233,6 +5332,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ]
@@ -5319,7 +5419,8 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ]
   },
   {
@@ -5362,6 +5463,7 @@
    "injury_availability": "",
    "flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "outside_-250_+10000_window"
    ]
   },
@@ -5422,7 +5524,7 @@
    ],
    "injury_availability": "Brewers included Brandon Woodruff on the World Series roster after a shoulder injury kept him out since early July (MLB Trade Rumors, tier B: https://www.mlbtraderumors.com/2026/10/brewers-rays-announce-world-series-rosters.html). Neither club announced a Game 4 starter (jsonline, tier B). Tampa Bay opener Griffin Jax expected on short rest (SI, tier B: https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw).",
    "flags": [
-    "no_tip_volume_unpriced",
+    "UNPRICED_MARKET",
     "capped_low_by_sample_size"
    ]
   },
@@ -5483,7 +5585,7 @@
    ],
    "injury_availability": "Brewers included Brandon Woodruff on the World Series roster after a shoulder injury kept him out since early July (MLB Trade Rumors, tier B: https://www.mlbtraderumors.com/2026/10/brewers-rays-announce-world-series-rosters.html). Neither club announced a Game 4 starter (jsonline, tier B). Tampa Bay opener Griffin Jax expected on short rest (SI, tier B: https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw).",
    "flags": [
-    "no_tip_volume_unpriced",
+    "UNPRICED_MARKET",
     "capped_low_by_sample_size"
    ]
   },
@@ -5538,7 +5640,7 @@
    ],
    "injury_availability": "",
    "flags": [
-    "no_tip_volume_unpriced",
+    "UNPRICED_MARKET",
     "capped_low_by_sample_size"
    ]
   },
@@ -5593,7 +5695,7 @@
    ],
    "injury_availability": "",
    "flags": [
-    "no_tip_volume_unpriced",
+    "UNPRICED_MARKET",
     "capped_low_by_sample_size"
    ]
   },
@@ -5629,8 +5731,9 @@
    "sources": [],
    "injury_availability": "",
    "flags": [
-    "no_tip_volume_unpriced",
+    "UNPRICED_MARKET",
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "capped_low_by_sample_size"
    ]
   }

@@ -43,25 +43,19 @@
    },
    "sources": [
     {
-     "name": "Series state 3-0 and Game 4 venue, date and time",
-     "url": [
-      "MLB StatsAPI (official)",
-      "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=team"
-     ]
+     "claim": "Series state 3-0 and Game 4 venue, date and time",
+     "name": "MLB StatsAPI (official)",
+     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-27&hydrate=team"
     },
     {
-     "name": "Game scores in Games 1-3",
-     "url": [
-      "ESPN - 2026 World Series schedule",
-      "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
-     ]
+     "claim": "Game scores in Games 1-3",
+     "name": "ESPN - 2026 World Series schedule",
+     "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
     },
     {
-     "name": "Neither club announced a Game 4 starter",
-     "url": [
-      "MLB.com probable pitchers",
-      "https://www.mlb.com/probable-pitchers"
-     ]
+     "claim": "Neither club announced a Game 4 starter",
+     "name": "MLB.com probable pitchers",
+     "url": "https://www.mlb.com/probable-pitchers"
     }
    ]
   },
@@ -105,25 +99,19 @@
    },
    "sources": [
     {
-     "name": "Rays roster construction, Caminero and Diaz",
-     "url": [
-      "MLB.com World Series FAQ",
-      "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
-     ]
+     "claim": "Rays roster construction, Caminero and Diaz",
+     "name": "MLB.com World Series FAQ",
+     "url": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
     },
     {
-     "name": "Brewers rotation depth, Chourio, Bauers, Contreras",
-     "url": [
-      "MLB.com World Series FAQ",
-      "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
-     ]
+     "claim": "Brewers rotation depth, Chourio, Bauers, Contreras",
+     "name": "MLB.com World Series FAQ",
+     "url": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
     },
     {
-     "name": "Game 3 scored 10-1",
-     "url": [
-      "ESPN - 2026 World Series schedule",
-      "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
-     ]
+     "claim": "Game 3 scored 10-1",
+     "name": "ESPN - 2026 World Series schedule",
+     "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
     }
    ]
   },
@@ -167,18 +155,14 @@
    },
    "sources": [
     {
-     "name": "Rays regular season 98-64 and postseason 7-4",
-     "url": [
-      "Sports Illustrated - Game 4 betting preview",
-      "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
-     ]
+     "claim": "Rays regular season 98-64 and postseason 7-4",
+     "name": "Sports Illustrated - Game 4 betting preview",
+     "url": "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
     },
     {
-     "name": "Games 1 and 2 decided by one run",
-     "url": [
-      "ESPN - 2026 World Series schedule",
-      "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
-     ]
+     "claim": "Games 1 and 2 decided by one run",
+     "name": "ESPN - 2026 World Series schedule",
+     "url": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings"
     }
    ]
   },
@@ -222,25 +206,19 @@
    },
    "sources": [
     {
-     "name": "Jax expected to start on short rest",
-     "url": [
-      "Sports Illustrated - Game 4 betting preview",
-      "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
-     ]
+     "claim": "Jax expected to start on short rest",
+     "name": "Sports Illustrated - Game 4 betting preview",
+     "url": "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
     },
     {
-     "name": "Peralta with the Rays and named on the club probable page",
-     "url": [
-      "MLB.com probable pitchers",
-      "https://www.mlb.com/probable-pitchers"
-     ]
+     "claim": "Peralta with the Rays and named on the club probable page",
+     "name": "MLB.com probable pitchers",
+     "url": "https://www.mlb.com/probable-pitchers"
     },
     {
-     "name": "Rays postseason record 7-4",
-     "url": [
-      "Sports Illustrated - Game 4 betting preview",
-      "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
-     ]
+     "claim": "Rays postseason record 7-4",
+     "name": "Sports Illustrated - Game 4 betting preview",
+     "url": "https://www.si.com/betting/brewers-vs-rays-prediction-odds-probable-pitchers-prop-bets-for-world-series-game-4-01m5xqcq32dw"
     }
    ]
   },
@@ -284,18 +262,14 @@
    },
    "sources": [
     {
-     "name": "Boston 9-2-1, Carolina 9-2-2, venue and national broadcast",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Boston 9-2-1, Carolina 9-2-2, venue and national broadcast",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     },
     {
-     "name": "Carolina listed -192/-196 by published partners",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Carolina listed -192/-196 by published partners",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     }
    ]
   },
@@ -338,18 +312,14 @@
    },
    "sources": [
     {
-     "name": "Records 4-5-0 and 3-7-3 plus goal leaders",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Records 4-5-0 and 3-7-3 plus goal leaders",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     },
     {
-     "name": "Partner money-line prices",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Partner money-line prices",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     }
    ]
   },
@@ -364,8 +334,8 @@
    "market": "Game Totals",
    "selection": "Over 6.50",
    "headline": "Over six and a half in the league's two hottest offences",
-   "note": "Two nine-win teams meeting on a national window usually produce hockey rather than a shutout grind, and the single tip on this total is for over rather than under. Jet Greaves has only two wins for Columbus and Dan Vladar two for Philadelphia on the league's own leader list, which says the goaltending numbers behind this league are not yet carrying teams, and the same wear applies to the netminders in this game. Our total is set at 6.50 with the over priced -125, so the play is six goals will not be enough.",
-   "word_count": 94,
+   "note": "Boston arrives at Carolina as the market favourite at -192 to -196 with a 9-2-1 start, and games like this one between two nine-win teams tend to produce hockey rather than a shutout grind. The single OLBG tip on this Game Totals market is on the over, and the league's own leader list says the goaltending behind the conference is not carrying teams yet, with Jet Greaves on two wins for Columbus and Dan Vladar on two for Philadelphia. Our number is 6.5 with the over priced at -125, so the play is that six goals will not be enough in Hurricanes Bruins.",
+   "word_count": 103,
    "confidence": "Low",
    "pick_score": 1203,
    "our_prob": 0.5556,
@@ -393,18 +363,14 @@
    },
    "sources": [
     {
-     "name": "Blue Jackets and Flyers goaltending wins as the league's own leader list",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Blue Jackets and Flyers goaltending wins as the league's own leader list",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     },
     {
-     "name": "Game time and venue",
-     "url": [
-      "NHL.com official score API",
-      "https://api-web.nhle.com/v1/score/2026-10-27"
-     ]
+     "claim": "Game time and venue",
+     "name": "NHL.com official score API",
+     "url": "https://api-web.nhle.com/v1/score/2026-10-27"
     }
    ]
   },
@@ -419,8 +385,8 @@
    "market": "Money Line",
    "selection": "Kalpa",
    "headline": "Kalpa to beat Sport in Liiga with a unanimous tip sheet behind it",
-   "note": "Five of the five tips posted on this market are on Kalpa, the largest agreement anywhere on tonight's ice hockey board outside the NHL, and the price that follows on our origination is -225. What we could not do in time is check a Liiga source for team news, so this entry is a market read rather than a football-briefing read: no injury list, no lines, no recent-score corroboration was found beyond OLBG's own listing. Take Kalpa to win the match at -225 with the caveat printed beside it, and skip it if you require confirmation of either roster.",
-   "word_count": 99,
+   "note": "An entire Finnish money-line market agreeing on one side is rare on this board, and Kalpa have it: all five tips posted on it are on Kalpa, none on Sport, which our origination prices at -225 What we could not do in time is check a Liiga source for team news, so this entry is a market read rather than a football-briefing read: no injury list, no lines, no recent-score corroboration was found beyond OLBG's own listing. Take Kalpa to win the match at -225 with the caveat printed beside it, and skip it if you require confirmation of either roster.",
+   "word_count": 101,
    "confidence": "Low",
    "pick_score": 1193,
    "our_prob": 0.6923,
@@ -437,7 +403,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No official Liiga source was checked; published as unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081",
@@ -447,11 +414,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Finland_SM_Liiga/Kalpa_vs_Sport/13?event_id=200081"
     }
    ]
   },
@@ -466,8 +431,8 @@
    "market": "Money Line",
    "selection": "IF Malmo Redhawks",
    "headline": "Malmo Redhawks at home in the Swedish Hockey League with three tips and no dissent",
-   "note": "Every one of the three tips on this market backs Malmo Redhawks against Linkoping, giving a 100 percent share, and our number prices that at -175 on a money line. Two of the OLBG members who posted here left comments, which at least means the pick was argued rather than reflexive, but the SHL side of the board was not cross-checked against a league source in this pass. If you want the pick, take Malmo to win the match at -175; if you want the evidence, wait for the league page and confirm lines before staking anything meaningful.",
-   "word_count": 98,
+   "note": "Malmo Redhawks host Linkoping with three tips on the market and all three behind the home side, a 100 percent share our origination prices at -175 Two of the OLBG members who posted here left comments, which at least means the pick was argued rather than reflexive, but the SHL side of the board was not cross-checked against a league source in this pass. If you want the pick, take Malmo to win the match at -175; if you want the evidence, wait for the league page and confirm lines before staking anything meaningful.",
+   "word_count": 94,
    "confidence": "Low",
    "pick_score": 1171,
    "our_prob": 0.6364,
@@ -484,7 +449,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No official SHL source was checked; published as unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082",
@@ -494,11 +460,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Ice_Hockey/Other/Swedish_Hockey_League/IF_Malmo_Redhawks_vs_Linkoping_HC/13?event_id=200082"
     }
    ]
   },
@@ -539,32 +503,24 @@
    },
    "sources": [
     {
-     "name": "Henry taken out of the series, Ferguson unavailable, Jamieson available",
-     "url": [
-      "ESPNcricinfo match preview",
-      "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview"
-     ]
+     "claim": "Henry taken out of the series, Ferguson unavailable, Jamieson available",
+     "name": "ESPNcricinfo match preview",
+     "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-t20i-1539434/match-preview"
     },
     {
-     "name": "Ferguson misses this match and Fisher joins as cover only",
-     "url": [
-      "ICC - New Zealand squad updates",
-      "https://www.icc-cricket.com/news/new-zealand-announce-key-updates-for-t20i-squad-against-india"
-     ]
+     "claim": "Ferguson misses this match and Fisher joins as cover only",
+     "name": "ICC - New Zealand squad updates",
+     "url": "https://www.icc-cricket.com/news/new-zealand-announce-key-updates-for-t20i-squad-against-india"
     },
     {
-     "name": "Kishan ruled out with adductor strain",
-     "url": [
-      "India Today - 3rd T20I preview",
-      "https://www.indiatoday.in/sports/cricket/story/ind-vs-nz-3rd-t20i-wellington-preview-head-to-head-weather-vaibhav-sooryavanshi-3025581-2026-10-27"
-     ]
+     "claim": "Kishan ruled out with adductor strain",
+     "name": "India Today - 3rd T20I preview",
+     "url": "https://www.indiatoday.in/sports/cricket/story/ind-vs-nz-3rd-t20i-wellington-preview-head-to-head-weather-vaibhav-sooryavanshi-3025581-2026-10-27"
     },
     {
-     "name": "India chased 226 and 181; 8pm local start at Hnry Stadium",
-     "url": [
-      "Yahoo Sports - where to watch and lineups",
-      "https://sports.yahoo.com/articles/where-watch-zealand-vs-india-190001817.html"
-     ]
+     "claim": "India chased 226 and 181; 8pm local start at Hnry Stadium",
+     "name": "Yahoo Sports - where to watch and lineups",
+     "url": "https://sports.yahoo.com/articles/where-watch-zealand-vs-india-190001817.html"
     }
    ]
   },
@@ -579,8 +535,8 @@
    "market": "Win Match",
    "selection": "Pakistan",
    "headline": "Pakistan to get the job done against Sri Lanka at home",
-   "note": "Twenty-two of the thirty-one tips on this one-dayer are on Pakistan, giving a 71 percent share and our line of -200, which is short but not unreasonable for a home side in this format against Sri Lanka. What we did not manage was a series-page check on team news or a reserve day, so the pick rests on the weight of tipping rather than on confirmed lineups. Back Pakistan to win the match at -200 if you are content to own the favourite without roster confirmation, and note that a wash-out here is a real risk worth pricing.",
-   "word_count": 98,
+   "note": "The listing puts Pakistan first and 22 of the 31 tips back them in this one-dayer, a 71 percent share our origination sets at -200, short but not unreasonable against Sri Lanka in this format What we did not manage was a series-page check on team news or a reserve day, so the pick rests on the weight of tipping rather than on confirmed lineups. Back Pakistan to win the match at -200 if you are content to own the favourite without roster confirmation, and note that a wash-out here is a real risk worth pricing.",
+   "word_count": 96,
    "confidence": "Medium",
    "pick_score": 2291,
    "our_prob": 0.6667,
@@ -597,7 +553,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No official series source checked for this fixture; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868",
@@ -607,11 +564,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Pakistan_vs_Sri_Lanka_One_Day_Match/7?event_id=188868"
     }
    ]
   },
@@ -644,7 +599,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No official series source checked for this fixture; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
@@ -654,11 +610,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
     }
    ]
   },
@@ -699,11 +653,9 @@
    },
    "sources": [
     {
-     "name": "Tipster reasoning quoted on the OLBG event page",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"
-     ]
+     "claim": "Tipster reasoning quoted on the OLBG event page",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/New_Zealand_vs_India_3rd_T20_Match/7?event_id=188852"
     }
    ]
   },
@@ -718,8 +670,8 @@
    "market": "Top Team1 Batsman",
    "selection": "MG Erasmus (Namibia)",
    "headline": "Erasmus to outscore his own team-mates against Ireland",
-   "note": "Ten of the eighteen tips in this first-batsman market belong to MG Erasmus, a 56 percent share that our pricing turns into -117. This is a team-relative market rather than a match-result market, which is exactly where a bowler-heavy Namibian side can still deliver a bet: whoever among them bats longest is a narrower question than who wins, and Erasmus carries more of that volume than any of his team-mates on the board. Take Erasmus to be Namibia's top scorer at -117, and note the four-tips-to-one gap between him and the rest of his own dressing room.",
-   "word_count": 97,
+   "note": "The top-batsman market for Namibia has MG Erasmus in front with ten of the eighteen tips, a 56 percent share our pricing turns into -117 This is a team-relative market rather than a match-result market, which is exactly where a bowler-heavy Namibian side can still deliver a bet: whoever among them bats longest is a narrower question than who wins, and Erasmus carries more of that volume than any of his team-mates on the board. Take Erasmus to be Namibia's top scorer at -117, and note the four-tips-to-one gap between him and the rest of his own dressing room.",
+   "word_count": 99,
    "confidence": "Low",
    "pick_score": 1207,
    "our_prob": 0.5385,
@@ -736,7 +688,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Team-relative market; no official scorecard statistics were available in time.",
    "olbg_url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854",
@@ -746,11 +699,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Cricket/All_Cricket/All_Events/Namibia_vs_Ireland_3rd_ODI/7?event_id=188854"
     }
    ]
   },
@@ -765,7 +716,7 @@
    "market": "Win Match",
    "selection": "Leylah Fernandez",
    "headline": "Fernandez to get through the Tokyo opener against Sakatsume",
-   "note": "Ten of the twelve tips on this first round in Tokyo are on Leylah Fernandez, and the WTA 500 field she is in confirms her among the direct entrants alongside Rybakina, Paolini and Osaka. Himeno Sakatsume has to come through qualifying-level tennis to be here at all, which is the gap the crowd is pricing rather than any specific recent result we could confirm. Fernandez to win the match at -233 is the selection; the one caution is that we could not open a WTA match page for this pairing, so nothing about either player's last two weeks is independently established here.",
+   "note": "Leylah Fernandez is the choice in Tokyo, holding ten of the twelve tips on this first round, and the WTA 500 entry list confirms her among the direct entrants alongside Rybakina, Paolini and Osaka Himeno Sakatsume has to come through qualifying-level tennis to be here at all, which is the gap the crowd is pricing rather than any specific recent result we could confirm. Fernandez to win the match at -233 is the selection; the one caution is that we could not open a WTA match page for this pairing, so nothing about either player's last two weeks is independently established here.",
    "word_count": 102,
    "confidence": "Medium",
    "pick_score": 2223,
@@ -783,7 +734,8 @@
    "official_tier": "B",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Event and draw confirmed by independent tour reporting; match sheet not confirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Leylah_Fernandez_vs_Himeno_Sakatsume/3?event_id=902172",
@@ -793,18 +745,14 @@
    },
    "sources": [
     {
-     "name": "Fernandez listed among confirmed direct entrants at WTA Tokyo",
-     "url": [
-      "Tennis Connected - draw preview",
-      "https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-draw-preview-alcaraz-rybakina-zverev-shelton-headline-huge-week/"
-     ]
+     "claim": "Fernandez listed among confirmed direct entrants at WTA Tokyo",
+     "name": "Tennis Connected - draw preview",
+     "url": "https://tennisconnected.com/atp-vienna-basel-wta-tokyo-guangzhou-2026-draw-preview-alcaraz-rybakina-zverev-shelton-headline-huge-week/"
     },
     {
-     "name": "Tokyo round one continues on 27 October",
-     "url": [
-      "Tennis Connected - 27 Oct schedule of play",
-      "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
-     ]
+     "claim": "Tokyo round one continues on 27 October",
+     "name": "Tennis Connected - 27 Oct schedule of play",
+     "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
     }
    ]
   },
@@ -837,7 +785,8 @@
    "official_tier": "B",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Match confirmed by tour reporting; not by an official WTA match page.",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Naomi_Osaka_vs_Jasmine_Paolini/3?event_id=902177",
@@ -847,18 +796,14 @@
    },
    "sources": [
     {
-     "name": "Only previous meeting won by Paolini in Miami 2025; first Tokyo match in four years",
-     "url": [
-      "Tennis World USA - Osaka's Tokyo draw",
-      "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170856/home-star-naomi-osaka-handed-tough-1r-matchup-in-tokyo-return/"
-     ]
+     "claim": "Only previous meeting won by Paolini in Miami 2025; first Tokyo match in four years",
+     "name": "Tennis World USA - Osaka's Tokyo draw",
+     "url": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170856/home-star-naomi-osaka-handed-tough-1r-matchup-in-tokyo-return/"
     },
     {
-     "name": "Osaka and Paolini both in the Tokyo draw",
-     "url": [
-      "Tennis Connected - 27 Oct schedule of play",
-      "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
-     ]
+     "claim": "Osaka and Paolini both in the Tokyo draw",
+     "name": "Tennis Connected - 27 Oct schedule of play",
+     "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
     }
    ]
   },
@@ -873,8 +818,8 @@
    "market": "Win Match",
    "selection": "Novak Djokovic",
    "headline": "Djokovic over Humbert in Basel, with a caveat on the match sheet",
-   "note": "Four of the five tips on this pairing are on Djokovic at our -160, and the fixture sits inside the ATP Vienna and Basel round-one programme for this week. The honest limitation is specific: we confirmed the tournaments and the day, not that this exact pairing is on the published order of play, and Humbert is a lefty whose serve travels well indoors. If the pairing is posted when you look, Djokovic to win the match at -160 is a play; if it is not on the sheet, discard the entry rather than reshaping it.",
-   "word_count": 95,
+   "note": "Djokovic is priced at our -160 on the strength of four of the five tips on this pairing, and the fixture sits inside the ATP Vienna and Basel round-one programme for this week The honest limitation is specific: we confirmed the tournaments and the day, not that this exact pairing is on the published order of play, and Humbert is a lefty whose serve travels well indoors. If the pairing is posted when you look, Djokovic to win the match at -160 is a play; if it is not on the sheet, discard the entry rather than reshaping it.",
+   "word_count": 99,
    "confidence": "Low",
    "pick_score": 1174,
    "our_prob": 0.6154,
@@ -891,7 +836,8 @@
    "official_tier": "B",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Event-level confirmation only; match-level pairing not confirmed against ATP's own page.",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Novak_Djokovic_vs_Ugo_Humbert/3?event_id=902233",
@@ -901,11 +847,9 @@
    },
    "sources": [
     {
-     "name": "Vienna and Basel first round running this week",
-     "url": [
-      "Tennis Connected - 27 Oct schedule of play",
-      "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
-     ]
+     "claim": "Vienna and Basel first round running this week",
+     "name": "Tennis Connected - 27 Oct schedule of play",
+     "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
     }
    ]
   },
@@ -938,7 +882,8 @@
    "official_tier": "B",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Order-of-play source is a tour news site; WTA page not opened.",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Lilli_Tagger_vs_Venus_Williams/3?event_id=902189",
@@ -948,18 +893,14 @@
    },
    "sources": [
     {
-     "name": "Tagger ranked 53 and playing the first round on Centre Court at 6:30pm",
-     "url": [
-      "Tennis Tonic - Guangzhou order of play",
-      "https://tennistonic.com/tennis-news/1072764/wta-volynets-liu-and-williams-are-the-top-american-to-play-on-tuesday-27th-of-october/"
-     ]
+     "claim": "Tagger ranked 53 and playing the first round on Centre Court at 6:30pm",
+     "name": "Tennis Tonic - Guangzhou order of play",
+     "url": "https://tennistonic.com/tennis-news/1072764/wta-volynets-liu-and-williams-are-the-top-american-to-play-on-tuesday-27th-of-october/"
     },
     {
-     "name": "Williams received a wildcard; 32-player draw, no byes",
-     "url": [
-      "Tennis Connected - 27 Oct schedule of play",
-      "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
-     ]
+     "claim": "Williams received a wildcard; 32-player draw, no byes",
+     "name": "Tennis Connected - 27 Oct schedule of play",
+     "url": "https://tennisconnected.com/atp-and-wta-2026-schedule-of-play-tuesday-october-27-for-basel-vienna-tokyo-and-guangzhou/"
     }
    ]
   },
@@ -974,8 +915,8 @@
    "market": "Win Match",
    "selection": "Rafael Jodar",
    "headline": "Jodar over Tabilo where the crowd has gone with the younger name",
-   "note": "Four of six tips on this first round back Rafael Jodar against Alejandro Tabilo, and our line prices that at -133. There is no injury news, no confirmed match sheet and no head-to-head we could open in this pass, so the entire case is the weight of tipping plus the fact that the market for this match is small enough that a two-tip gap moves the price by nearly forty cents. Jodar to win the match at -133 is a speculative entry on an ATP week; treat the stake accordingly rather than assuming the tour has confirmed a card we could not read.",
-   "word_count": 103,
+   "note": "Rafael Jodar is the selection against Alejandro Tabilo on four of six tips in this first round, and our line prices that at -133 There is no injury news, no confirmed match sheet and no head-to-head we could open in this pass, so the entire case is the weight of tipping plus the fact that the market for this match is small enough that a two-tip gap moves the price by nearly forty cents. Jodar to win the match at -133 is a speculative entry on an ATP week; treat the stake accordingly rather than assuming the tour has confirmed a card we could not read.",
+   "word_count": 106,
    "confidence": "Low",
    "pick_score": 1167,
    "our_prob": 0.5714,
@@ -992,7 +933,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No independent source located for this pairing; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238",
@@ -1002,11 +944,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Tennis/All_Tennis/All_Events/Alejandro_Tabilo_vs_Rafael_Jodar/3?event_id=902238"
     }
    ]
   },
@@ -1051,32 +991,24 @@
    },
    "sources": [
     {
-     "name": "Event dates, venue and purse, Woad entered",
-     "url": [
-      "LPGA official entry list",
-      "https://www.lpga.com/tournaments/maybank-championship/entries"
-     ]
+     "claim": "Event dates, venue and purse, Woad entered",
+     "name": "LPGA official entry list",
+     "url": "https://www.lpga.com/tournaments/maybank-championship/entries"
     },
     {
-     "name": "Defending champion and Race to CME points",
-     "url": [
-      "LPGA official tournament index",
-      "https://www.lpga.com/tournaments"
-     ]
+     "claim": "Defending champion and Race to CME points",
+     "name": "LPGA official tournament index",
+     "url": "https://www.lpga.com/tournaments"
     },
     {
-     "name": "Korda and Thitikul absent, Ryu highest-ranked entrant",
-     "url": [
-      "Out of the Rough - Maybank field notes",
-      "https://www.ootrough.com/post/out-of-the-rough-maybank-championship-2026"
-     ]
+     "claim": "Korda and Thitikul absent, Ryu highest-ranked entrant",
+     "name": "Out of the Rough - Maybank field notes",
+     "url": "https://www.ootrough.com/post/out-of-the-rough-maybank-championship-2026"
     },
     {
-     "name": "Woad's 2026 win at the Kroger Queen City",
-     "url": [
-      "ESPN - LPGA 2026 schedule",
-      "https://www.espn.com/golf/schedule/_/tour/lpga"
-     ]
+     "claim": "Woad's 2026 win at the Kroger Queen City",
+     "name": "ESPN - LPGA 2026 schedule",
+     "url": "https://www.espn.com/golf/schedule/_/tour/lpga"
     }
    ]
   },
@@ -1111,6 +1043,7 @@
    "line_flags": [
     "field_not_split_only_selection_priced",
     "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -1122,11 +1055,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Simmons_Bank_Championship/5?event_id=101914"
     }
    ]
   },
@@ -1141,8 +1072,8 @@
    "market": "Win Tournament",
    "selection": "Wyndham Clark",
    "headline": "Mexico Open outright market too empty to originate a line",
-   "note": "One of two tips on this outright is Wyndham Clark, and that is the whole of the evidence OLBG exposes for the event, which our origination returns as a flat +100 - again a symptom of a two-tip sample rather than an estimate of Clark's chances. We found nothing to anchor it: no field list, no course, no scoring average, no start time we could attribute to a PGA Tour page in this session. The entry is published as an empty market, not as a selection; if you want a golf position on the same weekend, the Maybank outright at least has an official field and confirmed dates behind it.",
-   "word_count": 110,
+   "note": "Wyndham Clark takes one of the two tips OLBG exposes on the Mexico Open outright, and that is the whole of the evidence for the event, which our origination returns as a flat +100 - a symptom of a two-tip sample rather than an estimate of Clark's chances We found nothing to anchor it: no field list, no course, no scoring average, no start time we could attribute to a PGA Tour page in this session. The entry is published as an empty market, not as a selection; if you want a golf position on the same weekend, the Maybank outright at least has an official field and confirmed dates behind it.",
+   "word_count": 112,
    "confidence": "Low",
    "pick_score": 1133,
    "our_prob": 0.5,
@@ -1161,6 +1092,7 @@
    "line_flags": [
     "field_not_split_only_selection_priced",
     "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -1172,11 +1104,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Golf/All_Golf/All_Events/Mexico_Open/5?event_id=101915"
     }
    ]
   },
@@ -1191,8 +1121,8 @@
    "market": "Win Tournament",
    "selection": "Luke Littler",
    "headline": "Littler to retain the world title at a price longer than the books",
-   "note": "Twenty-two of the thirty-six tips on the Alexandra Palace outright sit on Luke Littler, the reigning champion, who took the 2026 title 7-1 over Gian van Veen and who is world number one going into a 128-player field with the top thirty-two seeded. The book prices carried on betting sites have him around 8-11, so our -101 is deliberately the shorter of the two numbers, which is the honest consequence of treating tipping volume as probability rather than copying anyone's price. Littler to win the tournament at -101 is the selection; note that a single outright on a 128-name field cannot carry a top confidence label from thirty-six tips.",
-   "word_count": 109,
+   "note": "Luke Littler arrives at the Alexandra Palace as reigning champion and world number one, and 22 of the 36 tips on this outright sit with him ahead of a 128-player field in which the top thirty-two are seeded The book prices carried on betting sites have him around 8-11, so our -101 is deliberately the shorter of the two numbers, which is the honest consequence of treating tipping volume as probability rather than copying anyone's price. Littler to win the tournament at -101 is the selection; note that a single outright on a 128-name field cannot carry a top confidence label from thirty-six tips.",
+   "word_count": 104,
    "confidence": "Low",
    "pick_score": 1329,
    "our_prob": 0.5014,
@@ -1219,25 +1149,19 @@
    },
    "sources": [
     {
-     "name": "Littler the defending champion after a 7-1 final win over van Veen",
-     "url": [
-      "Season record of PDC titles",
-      "https://en.wikipedia.org/wiki/2026_in_PDC"
-     ]
+     "claim": "Littler the defending champion after a 7-1 final win over van Veen",
+     "name": "Season record of PDC titles",
+     "url": "https://en.wikipedia.org/wiki/2026_in_PDC"
     },
     {
-     "name": "Championship dates, venue, 128-player field and seeding",
-     "url": [
-      "PDC official World Championship page",
-      "https://www.pdc.tv/tournaments/paddy-power-world-darts-championship"
-     ]
+     "claim": "Championship dates, venue, 128-player field and seeding",
+     "name": "PDC official World Championship page",
+     "url": "https://www.pdc.tv/tournaments/paddy-power-world-darts-championship"
     },
     {
-     "name": "Outright prices of 8-11 with Humphries at 5-1",
-     "url": [
-      "Spreadex - 2027 World Darts Championship prices",
-      "https://www.spreadex.com/sports/blog/preview/pdc-world-darts-championship-odds/"
-     ]
+     "claim": "Outright prices of 8-11 with Humphries at 5-1",
+     "name": "Spreadex - 2027 World Darts Championship prices",
+     "url": "https://www.spreadex.com/sports/blog/preview/pdc-world-darts-championship-odds/"
     }
    ]
   },
@@ -1281,18 +1205,14 @@
    },
    "sources": [
     {
-     "name": "PC31 listed for 28 October at the Maaspoort, Den Bosch",
-     "url": [
-      "PDC official calendar",
-      "https://www.pdc.tv/calendar/"
-     ]
+     "claim": "PC31 listed for 28 October at the Maaspoort, Den Bosch",
+     "name": "PDC official calendar",
+     "url": "https://www.pdc.tv/calendar/"
     },
     {
-     "name": "Same date confirmed in the published 2026 darts calendar",
-     "url": [
-      "Sky Sports - 2026 darts calendar",
-      "https://www.skysports.com/darts/news/13428768/darts-2026-schedule-and-dates-premier-league-darts-world-matchplay-and-more-with-luke-littler-in-action"
-     ]
+     "claim": "Same date confirmed in the published 2026 darts calendar",
+     "name": "Sky Sports - 2026 darts calendar",
+     "url": "https://www.skysports.com/darts/news/13428768/darts-2026-schedule-and-dates-premier-league-darts-world-matchplay-and-more-with-luke-littler-in-action"
     }
    ]
   },
@@ -1337,18 +1257,14 @@
    },
    "sources": [
     {
-     "name": "Round, dates, circuit length, laps and race distance",
-     "url": [
-      "Formula 1 - official Mexico City GP page",
-      "https://www.formula1.com/en/racing/2026/mexico"
-     ]
+     "claim": "Round, dates, circuit length, laps and race distance",
+     "name": "Formula 1 - official Mexico City GP page",
+     "url": "https://www.formula1.com/en/racing/2026/mexico"
     },
     {
-     "name": "Antonelli 123 points clear; Austin podium had Leclerc and Verstappen with him",
-     "url": [
-      "BBC Sport - Mexico City GP briefing",
-      "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o"
-     ]
+     "claim": "Antonelli 123 points clear; Austin podium had Leclerc and Verstappen with him",
+     "name": "BBC Sport - Mexico City GP briefing",
+     "url": "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o"
     }
    ]
   },
@@ -1382,7 +1298,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Ante-post market with a removed favourite; flagged as not bettable as priced.",
    "olbg_url": "https://www.olbg.com/betting-tips/Motor_Racing/All_Motor_Racing/All_Events/Formula_1_Drivers_Championship_2026_Without_Kimi_Antonelli/14?event_id=912",
@@ -1392,18 +1309,14 @@
    },
    "sources": [
     {
-     "name": "Antonelli clinch scenario needs only ninth place",
-     "url": [
-      "BBC Sport - Mexico City GP briefing",
-      "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o"
-     ]
+     "claim": "Antonelli clinch scenario needs only ninth place",
+     "name": "BBC Sport - Mexico City GP briefing",
+     "url": "https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o"
     },
     {
-     "name": "Antonelli leads by 123 from Russell",
-     "url": [
-      "ESPN - Mexico City GP start time and preview",
-      "https://www.espn.com/f1/story/_/id/50250142/mexico-city-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
-     ]
+     "claim": "Antonelli leads by 123 from Russell",
+     "name": "ESPN - Mexico City GP start time and preview",
+     "url": "https://www.espn.com/f1/story/_/id/50250142/mexico-city-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
     }
    ]
   },
@@ -1446,18 +1359,14 @@
    },
    "sources": [
     {
-     "name": "Standings, win-loss and point differential for both sides",
-     "url": [
-      "Olimpia Milano official EuroLeague table",
-      "https://www.olimpiamilano.com/classifica/"
-     ]
+     "claim": "Standings, win-loss and point differential for both sides",
+     "name": "Olimpia Milano official EuroLeague table",
+     "url": "https://www.olimpiamilano.com/classifica/"
     },
     {
-     "name": "Form sequence and recent scores for both clubs",
-     "url": [
-      "DailySports - EuroLeague round 8 form table",
-      "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
-     ]
+     "claim": "Form sequence and recent scores for both clubs",
+     "name": "DailySports - EuroLeague round 8 form table",
+     "url": "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
     }
    ]
   },
@@ -1490,7 +1399,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Fixture from a statistics site; league match page not opened.",
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Valencia_vs_Fenerbahce/4?event_id=536179",
@@ -1500,18 +1410,14 @@
    },
    "sources": [
     {
-     "name": "Fenerbahce six wins from seven in the round eight standings view",
-     "url": [
-      "DailySports - EuroLeague round 8 form table",
-      "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
-     ]
+     "claim": "Fenerbahce six wins from seven in the round eight standings view",
+     "name": "DailySports - EuroLeague round 8 form table",
+     "url": "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
     },
     {
-     "name": "Round 8 pairings and times",
-     "url": [
-      "DailySports - EuroLeague round 8 form table",
-      "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
-     ]
+     "claim": "Round 8 pairings and times",
+     "name": "DailySports - EuroLeague round 8 form table",
+     "url": "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
     }
    ]
   },
@@ -1526,7 +1432,7 @@
    "market": "Money Line",
    "selection": "Seoul Knights",
    "headline": "Seoul Knights carry the strongest single block of support on the basketball board",
-   "note": "Four of the five tips on this Korean Basketball League money line are on the Seoul Knights, an 80 percent share that includes one of OLBG's flagged experts, and our origination prices that at -160. There is no KBL source in our official register, so we cannot confirm standings, imports, injuries or even whether a rotation player is resting, which matters more in a league with imported frontcourts than anywhere else on this board. Seoul Knights to win the match at -160 is the highest-support pick we can name today and also one of the least independently checked; that tension should decide your stake, not the confidence label.",
+   "note": "The Seoul Knights hold four of the five tips on this Korean Basketball League money line, one of them from a member OLBG flags as an expert, and our origination prices that share at -160 There is no KBL source in our official register, so we cannot confirm standings, imports, injuries or even whether a rotation player is resting, which matters more in a league with imported frontcourts than anywhere else on this board. Seoul Knights to win the match at -160 is the highest-support pick we can name today and also one of the least independently checked; that tension should decide your stake, not the confidence label.",
    "word_count": 108,
    "confidence": "Low",
    "pick_score": 1174,
@@ -1544,7 +1450,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No KBL source in the official register; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214",
@@ -1554,11 +1461,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing with expert marker and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214"
-     ]
+     "claim": "OLBG listing with expert marker and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/Other/Korea_KBL/Seoul_Knights_vs_KCC_Egis/4?event_id=536214"
     }
    ]
   },
@@ -1591,7 +1496,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Result line from a statistics site; no official lineup check.",
    "olbg_url": "https://www.olbg.com/betting-tips/Basketball/European/Euroleague/Bayern_Munich_vs_Barcelona/4?event_id=536174",
@@ -1601,11 +1507,9 @@
    },
    "sources": [
     {
-     "name": "Bayern's 84-86 home loss to Partizan in round seven",
-     "url": [
-      "DailySports - EuroLeague round 8 form table",
-      "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
-     ]
+     "claim": "Bayern's 84-86 home loss to Partizan in round seven",
+     "name": "DailySports - EuroLeague round 8 form table",
+     "url": "https://dailysports.net/stat/basketball/olimpia-milano-vs-panathinaikos-bc/"
     }
    ]
   },
@@ -1620,7 +1524,7 @@
    "market": "Pointspread",
    "selection": "Frankfurt Skyliners +1.50",
    "headline": "Skyliners plus a point and a half in the EuroCup",
-   "note": "Both tips on this spread are on Frankfurt plus 1.50 against BT Cluj Napoca, an evenly contested margin market where our line prices the home side at -150. Two comments were left behind those tips, so at least the position was argued, but we could not confirm the EuroCup standings, the four-quarter format or any rest disadvantage from a league source, and a pointspread on a mid-tier European game is exactly the market where one late rotation change decides it. Frankfurt plus 1.50 to cover at -150 is offered as a watch item; the two tips here are not enough to call it a bet.",
+   "note": "Frankfurt plus 1.50 is the whole of this spread market, both tips taking the home side against BT Cluj Napoca in a margin our line prices at -150 Two comments were left behind those tips, so at least the position was argued, but we could not confirm the EuroCup standings, the four-quarter format or any rest disadvantage from a league source, and a pointspread on a mid-tier European game is exactly the market where one late rotation change decides it. Frankfurt plus 1.50 to cover at -150 is offered as a watch item; the two tips here are not enough to call it a bet.",
    "word_count": 105,
    "confidence": "Low",
    "pick_score": 1158,
@@ -1639,6 +1543,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -1650,11 +1555,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Basketball/European/Euro_Cup/Frankfurt_Skyliners_vs_U_BT_Cluj_Napoca/4?event_id=536217"
     }
    ]
   },
@@ -1669,8 +1572,8 @@
    "market": "Money Line",
    "selection": "KS Kielce",
    "headline": "Against the consensus: Kielce to beat Kolstad when the crowd is on the draw",
-   "note": "Seven of the eleven tips on this money line are on a tie, with Kielce and Kolstad on two each, and that is the clearest mispricing on the whole board. Kolstad are winless after five group games with a minus-35 differential, Industria Kielce are 3-0-2, and the head-to-head between these clubs on the EHF's own record reads seven wins, no draws, no losses, the most recent a 36-29 Kielce victory in Norway. A draw price of -104 for a side that has never drawn this pair is a trap; the play is Kielce to win the match at +307, and the whole reason the price exists is that nobody in the tipster crowd looked at the head-to-head.",
-   "word_count": 117,
+   "note": "The crowd on this money line has turned it into a tie, seven of eleven tips on the draw with Kielce and Kolstad on two each, and that is the clearest mispricing on the whole board Kolstad are winless after five group games with a minus-35 differential, Industria Kielce are 3-0-2, and the head-to-head between these clubs on the EHF's own record reads seven wins, no draws, no losses, the most recent a 36-29 Kielce victory in Norway. A draw price of -104 for a side that has never drawn this pair is a trap; the play is Kielce to win the match at +307, and the whole reason the price exists is that nobody in the tipster crowd looked at the head-to-head.",
+   "word_count": 123,
    "confidence": "Low",
    "pick_score": 1165,
    "our_prob": 0.2456,
@@ -1695,25 +1598,19 @@
    },
    "sources": [
     {
-     "name": "Kielce v Kolstad scheduled 28 October 20:45 CET at Hala Legionow",
-     "url": [
-      "EHF official club fixture page",
-      "https://www.eurohandball.com/en/club/kZVHhs7nxEhEqyCf6iK_Sw/KolstadH%C3%A5ndball/"
-     ]
+     "claim": "Kielce v Kolstad scheduled 28 October 20:45 CET at Hala Legionow",
+     "name": "EHF official club fixture page",
+     "url": "https://www.eurohandball.com/en/club/kZVHhs7nxEhEqyCf6iK_Sw/KolstadH%C3%A5ndball/"
     },
     {
-     "name": "Head-to-head 7-0-0 with the previous meeting Kolstad 29-36 Kielce",
-     "url": [
-      "EHF official round 6 preview",
-      "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
-     ]
+     "claim": "Head-to-head 7-0-0 with the previous meeting Kolstad 29-36 Kielce",
+     "name": "EHF official round 6 preview",
+     "url": "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
     },
     {
-     "name": "Group F standings: Magdeburg 5-0-0, Kielce 3-0-2, Kolstad 0-0-5",
-     "url": [
-      "EHF group standings table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
-     ]
+     "claim": "Group F standings: Magdeburg 5-0-0, Kielce 3-0-2, Kolstad 0-0-5",
+     "name": "EHF group standings table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
     }
    ]
   },
@@ -1728,8 +1625,8 @@
    "market": "Match Handicap",
    "selection": "Kolstad +7.50",
    "headline": "Kolstad plus seven and a half, where the crowd and the number agree",
-   "note": "Both tips on this handicap are on Kolstad receiving seven points and a half, and the previous meeting ended 36-29 to Kielce in Kolstad's favour of the cover, a seven-goal margin that lands exactly on the boundary. Kielce have lost to Magdeburg in this group by five and are only plus-2 on differential across five games, which is not the profile of a side that covers a triple-digit handicap on a Wednesday night. The selection is Kolstad plus 7.50 at our -150; check the final scoreline convention your own book applies to a handball push before staking, because a seven-goal Kielce win is a live outcome on these numbers.",
-   "word_count": 109,
+   "note": "Kolstad plus 7.50 carries both tips in this handicap market, and the previous meeting ended 36-29 to Kielce, a seven-goal margin that lands exactly on the boundary of the number being laid Kielce have lost to Magdeburg in this group by five and are only plus-2 on differential across five games, which is thin cover for a seven-goal handicap on a Wednesday night. The selection is Kolstad plus 7.50 at our -150; check the final scoreline convention your own book applies to a handball push before staking, because a seven-goal Kielce win is a live outcome on these numbers.",
+   "word_count": 99,
    "confidence": "Low",
    "pick_score": 1218,
    "our_prob": 0.6,
@@ -1757,18 +1654,14 @@
    },
    "sources": [
     {
-     "name": "Previous meeting Kolstad 29-36 Industria Kielce",
-     "url": [
-      "EHF official round 6 preview",
-      "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
-     ]
+     "claim": "Previous meeting Kolstad 29-36 Industria Kielce",
+     "name": "EHF official round 6 preview",
+     "url": "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
     },
     {
-     "name": "Group F table with Kielce on a plus-2 differential",
-     "url": [
-      "EHF group standings table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
-     ]
+     "claim": "Group F table with Kielce on a plus-2 differential",
+     "name": "EHF group standings table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
     }
    ]
   },
@@ -1783,8 +1676,8 @@
    "market": "Money Line",
    "selection": "Tie",
    "headline": "Paris against Aalborg is the one tie on the board that the history supports",
-   "note": "Seven of nine tips on this money line are on a draw, priced by us at -132, and unlike most of the tie selections on tonight's handball board this one has a direct precedent: Aalborg and Paris have already met this group stage and finished 33-33, and Aalborg top the group unbeaten with four wins and a draw while Paris sit second on three wins, a draw and a loss. Two sides trading three-goal first-half scores is a genuine draw profile rather than a placeholder pick. Take the tie in PSG v Aalborg at -132, and be aware a two-point margin either way kills it.",
-   "word_count": 105,
+   "note": "Paris host Aalborg on a money line that seven of the nine tips have made a draw, priced by us at -132, and unlike most of the tie selections on tonight's handball board this one has a direct precedent: Aalborg and Paris have already met this group stage and finished 33-33, and Aalborg top the group Two sides trading three-goal first-half scores is a genuine draw profile rather than a placeholder pick. Take the tie in PSG v Aalborg at -132, and be aware a two-point margin either way kills it.",
+   "word_count": 91,
    "confidence": "Low",
    "pick_score": 1178,
    "our_prob": 0.5686,
@@ -1801,7 +1694,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Draw supported by the previous meeting scoreline in the same group.",
    "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/PSG_Handball_vs_Aalborg_Handbold/20?event_id=12134",
@@ -1811,18 +1705,14 @@
    },
    "sources": [
     {
-     "name": "Aalborg 4-1-0 top of Group C, PSG 3-1-1 second",
-     "url": [
-      "EHF group standings table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
-     ]
+     "claim": "Aalborg 4-1-0 top of Group C, PSG 3-1-1 second",
+     "name": "EHF group standings table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
     },
     {
-     "name": "Match scheduled for 28 October on the EHF fixture listing",
-     "url": [
-      "EHF official round 6 preview",
-      "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
-     ]
+     "claim": "Match scheduled for 28 October on the EHF fixture listing",
+     "name": "EHF official round 6 preview",
+     "url": "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
     }
    ]
   },
@@ -1855,7 +1745,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No head-to-head result located; do not stake on the tie alone.",
    "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138",
@@ -1865,18 +1756,14 @@
    },
    "sources": [
     {
-     "name": "Group B standings with Plock and Melsungen on six points",
-     "url": [
-      "EHF group standings table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
-     ]
+     "claim": "Group B standings with Plock and Melsungen on six points",
+     "name": "EHF group standings table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
     },
     {
-     "name": "OLBG tip distribution on this market",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138"
-     ]
+     "claim": "OLBG tip distribution on this market",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/Wisla_Plock_vs_Nantes/20?event_id=12138"
     }
    ]
   },
@@ -1909,7 +1796,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Published as a counter-consensus warning, not a recommendation to back.",
    "olbg_url": "https://www.olbg.com/betting-tips/Handball/All_Handball/All_Events/HC_Vardar_vs_MT_Melsungen/20?event_id=12130",
@@ -1919,18 +1807,14 @@
    },
    "sources": [
     {
-     "name": "Last meeting MT Melsungen 33-31 HC Vardar 1961",
-     "url": [
-      "EHF official round 6 preview",
-      "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
-     ]
+     "claim": "Last meeting MT Melsungen 33-31 HC Vardar 1961",
+     "name": "EHF official round 6 preview",
+     "url": "https://www.eurohandball.com/en/news/en/three-main-round-spots-still-open-before-final-round-6"
     },
     {
-     "name": "Group B table: Vardar on two points, Melsungen on six",
-     "url": [
-      "EHF group standings table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
-     ]
+     "claim": "Group B table: Vardar on two points, Melsungen on six",
+     "name": "EHF group standings table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EHF_Champions_League"
     }
    ]
   },
@@ -1945,7 +1829,7 @@
    "market": "Win Match",
    "selection": "Ziraat Bankasi",
    "headline": "Unanimous support on the Turkish board, with nothing independent behind it",
-   "note": "All four tips on this match are on Ziraat Bankasi to beat Gaziantep Genclik Spor, and two of the members posting carry expert status on the sport, which is the strongest expert weighting anywhere on today's volleyball list. That produces a 100 percent share and our -200 line. We could not open a Turkish federation source for standings, foreign-player availability or the previous meeting, so the read is that a heavily-backed home side is being trusted by people who tip this league well, not that we know anything about the roster. Ziraat Bankasi to win the match at -200.",
+   "note": "Ziraat Bankasi are unanimous against Gaziantep Genclik Spor, four tips on the home side and none elsewhere, and two of the members posting carry expert status in the sport, the strongest expert weighting anywhere on today's volleyball list That produces a 100 percent share and our -200 line. We could not open a Turkish federation source for standings, foreign-player availability or the previous meeting, so the read is that a heavily-backed home side is being trusted by people who tip this league well, not that we know anything about the roster. Ziraat Bankasi to win the match at -200.",
    "word_count": 99,
    "confidence": "Low",
    "pick_score": 1183,
@@ -1963,7 +1847,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No federation source checked; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121",
@@ -1973,11 +1858,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing with two experts and four of four tips",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121"
-     ]
+     "claim": "OLBG listing with two experts and four of four tips",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Ziraat_Bankasi_vs_Gaziantep_Genclik_Spor/21?event_id=37121"
     }
    ]
   },
@@ -1992,7 +1875,7 @@
    "market": "Win Match",
    "selection": "Bergamo W",
    "headline": "Bergamo away at Marignano with an expert behind the number",
-   "note": "Five of the seven tips in the Italian women's fixture at Marignano name Bergamo, a 71 percent share priced at -150 by our origination, and one of those tips comes from a member holding expert status in the sport. Bergamo are the stronger club name in Serie A1 women's volleyball, which is at least consistent with the direction of the crowd, but we did not confirm the table position, the current import roster or the last result for either side. Bergamo to win the match at -150 is the number to note, with the explicit warning that the league page was not opened for this round.",
+   "note": "Bergamo are named by five of the seven tips on the Italian women's fixture at Marignano, a 71 percent share our origination prices at -150, with one of those tips from a member holding expert status in the sport Bergamo are the stronger club name in Serie A1 women's volleyball, which is at least consistent with the direction of the crowd, but we did not confirm the table position, the current import roster or the last result for either side. Bergamo to win the match at -150 is the number to note, with the explicit warning that the league page was not opened for this round.",
    "word_count": 106,
    "confidence": "Low",
    "pick_score": 1178,
@@ -2010,7 +1893,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No league source checked; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075",
@@ -2020,11 +1904,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Marignano_W_vs_Bergamo_W/21?event_id=37075"
     }
    ]
   },
@@ -2039,8 +1921,8 @@
    "market": "Win Match",
    "selection": "Vallefoglia W",
    "headline": "Vallefoglia at reigning-strength Conegliano, and the crowd likes it",
-   "note": "Six of the ten tips on the biggest named match on the volleyball board back Vallefoglia to beat Conegliano, a 60 percent share we price at -125, and this is the deepest market of the fourteen volleyball listings captured today. That the crowd leans away from the more famous club is the interesting part, and it is exactly the sort of signal worth watching in a league where a single import can swing a series. Vallefoglia to win the match at -125 is the listed selection; no Italian federation page was opened, so there is no injury or rotation information inside this number.",
-   "word_count": 103,
+   "note": "Conegliano v Vallefoglia is the biggest named match on the volleyball board and the deepest market of the fourteen listings captured today, six of its ten tips behind Vallefoglia at a 60 percent share we price at -125 That the crowd leans away from the more famous club is the interesting part, and it is exactly the sort of signal worth watching in a league where a single import can swing a series. Vallefoglia to win the match at -125 is the listed selection; no Italian federation page was opened, so there is no injury or rotation information inside this number.",
+   "word_count": 101,
    "confidence": "Low",
    "pick_score": 1179,
    "our_prob": 0.5556,
@@ -2057,7 +1939,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Deepest volleyball market on the board; still unconfirmed by a league source.",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076",
@@ -2067,11 +1950,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Conegliano_W_vs_Vallefoglia_W/21?event_id=37076"
     }
    ]
   },
@@ -2086,8 +1967,8 @@
    "market": "Win Match",
    "selection": "Halkbank Ankara",
    "headline": "Halkbank in Turkey with a four-to-one tip margin",
-   "note": "Four of five tips here are on Halkbank Ankara against TFL Altekma, which our origination makes -160, and the single dissenting tip is the entire reason the price is not shorter. Early-season Turkish men's fixtures are a poor environment for laying a short price, because the rosters are still settling and a 100 percent share on a five-tip market is not the same thing as a 100 percent chance. Halkbank to win the match at -160 is a reasonable follow-the-crowd entry; it is also the sort of market where the crowd is thin enough that you should size it as a speculative bet rather than a banker.",
-   "word_count": 107,
+   "note": "Halkbank Ankara carry four of the five tips against TFL Altekma at our -160, and that single dissenting tip is the only reason the price is not shorter Early-season Turkish men's fixtures are a poor environment for laying a short price, because the rosters are still settling and a 100 percent share on a five-tip market is not the same thing as a 100 percent chance. Halkbank to win the match at -160 is a reasonable follow-the-crowd entry; it is also the sort of market where the crowd is thin enough that you should size it as a speculative bet rather than a banker.",
+   "word_count": 104,
    "confidence": "Low",
    "pick_score": 1174,
    "our_prob": 0.6154,
@@ -2104,7 +1985,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No federation source checked; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126",
@@ -2114,11 +1996,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/TFL_Altekma_vs_Halkbank_Ankara/21?event_id=37126"
     }
    ]
   },
@@ -2133,8 +2013,8 @@
    "market": "Win Match",
    "selection": "Uni Opole W",
    "headline": "Uni Opole over Palac Bydgoszcz in a shallow Polish market",
-   "note": "Four of six tips in the Polish women's fixture are on Uni Opole, a 67 percent share priced at -133, with one comment attached and no expert markers on either side of the market. Liga Siatkowki women's matches are a low-information market for anyone outside Poland, and the fact that OLBG exposes only six tips across both outcomes is the most important number in this row: the price is being set by a handful of people. Uni Opole to win the match at -133 goes on the board as a listed position with that limitation printed, and it would be better after a league page confirms both rosters.",
-   "word_count": 108,
+   "note": "Uni Opole are priced at -133 to beat Palac Bydgoszcz on four of the six tips in this Polish women's fixture, with one comment attached and no expert markers on either side of the market Liga Siatkowki women's volleyball is a low-information market outside Poland, and the most important number in this row is that OLBG exposes only six tips across both outcomes: the price is being set by a handful of people, and neither roster has been confirmed against the league's own site. Uni Opole to win at -133 therefore goes on the board as a listed position with that limitation printed on it rather than as a recommendation, Everything we can actually stand on for this row is OLBG's own tip distribution.",
+   "word_count": 124,
    "confidence": "Low",
    "pick_score": 1167,
    "our_prob": 0.5714,
@@ -2151,7 +2031,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No league source checked; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081",
@@ -2161,11 +2042,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Volleyball/All_Volleyball/All_Events/Uni_Opole_W_vs_Palac_Bydgoszcz_W/21?event_id=37081"
     }
    ]
   },
@@ -2199,6 +2078,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -2210,25 +2090,19 @@
    },
    "sources": [
     {
-     "name": "Fixture date, time and venue",
-     "url": [
-      "RTE - URC fixtures",
-      "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/"
-     ]
+     "claim": "Fixture date, time and venue",
+     "name": "RTE - URC fixtures",
+     "url": "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/"
     },
     {
-     "name": "Round 4 results including Edinburgh 31-10 Lions and Benetton 20-24 Glasgow",
-     "url": [
-      "ItsRugby - URC round 4 results and table",
-      "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
-     ]
+     "claim": "Round 4 results including Edinburgh 31-10 Lions and Benetton 20-24 Glasgow",
+     "name": "ItsRugby - URC round 4 results and table",
+     "url": "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
     },
     {
-     "name": "Glasgow second on 18 points; Lions eleventh on 9 with -46 differential",
-     "url": [
-      "URC 2026-27 league table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
-     ]
+     "claim": "Glasgow second on 18 points; Lions eleventh on 9 with -46 differential",
+     "name": "URC 2026-27 league table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
     }
    ]
   },
@@ -2262,6 +2136,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -2273,25 +2148,19 @@
    },
    "sources": [
     {
-     "name": "Fixture and kick-off confirmed in the published round five list",
-     "url": [
-      "RTE - URC fixtures",
-      "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/"
-     ]
+     "claim": "Fixture and kick-off confirmed in the published round five list",
+     "name": "RTE - URC fixtures",
+     "url": "https://www.rte.ie/sport/results/rugby/united-rugby-championship/34235/fixtures/"
     },
     {
-     "name": "Round 4: Connacht 48-27 Zebre; Leinster 24-18 Munster",
-     "url": [
-      "ItsRugby - URC round 4 results and table",
-      "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
-     ]
+     "claim": "Round 4: Connacht 48-27 Zebre; Leinster 24-18 Munster",
+     "name": "ItsRugby - URC round 4 results and table",
+     "url": "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
     },
     {
-     "name": "Table: Leinster sixth on 13, Connacht eighth on 10",
-     "url": [
-      "URC 2026-27 league table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
-     ]
+     "claim": "Table: Leinster sixth on 13, Connacht eighth on 10",
+     "name": "URC 2026-27 league table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
     }
    ]
   },
@@ -2325,6 +2194,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -2336,25 +2206,19 @@
    },
    "sources": [
     {
-     "name": "Fixture and kick-off time",
-     "url": [
-      "BBC Sport - URC scores and fixtures",
-      "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures"
-     ]
+     "claim": "Fixture and kick-off time",
+     "name": "BBC Sport - URC scores and fixtures",
+     "url": "https://www.bbc.co.uk/sport/rugby-union/pro-tournament/scores-fixtures"
     },
     {
-     "name": "Round 4: Cardiff 21-36 Sharks; Leinster 24-18 Munster",
-     "url": [
-      "ItsRugby - URC round 4 results and table",
-      "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
-     ]
+     "claim": "Round 4: Cardiff 21-36 Sharks; Leinster 24-18 Munster",
+     "name": "ItsRugby - URC round 4 results and table",
+     "url": "https://itsrugby.fr/urc-j4-2026-2027-resultats-classement/"
     },
     {
-     "name": "Table: Sharks fifth on 15, Munster ninth on 10",
-     "url": [
-      "URC 2026-27 league table",
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
-     ]
+     "claim": "Table: Sharks fifth on 15, Munster ninth on 10",
+     "name": "URC 2026-27 league table",
+     "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
     }
    ]
   },
@@ -2369,8 +2233,8 @@
    "market": "To Win",
    "selection": "Colomiers",
    "headline": "Colomiers over Agen in a Pro D2 round we could not confirm",
-   "note": "Two of two tips back Colomiers at home to Agen, which our pricing renders as -150 on a straight winner in the French second tier. Everything else is missing: no Liguede rugby professionnelle page was opened, so the table, the previous five results for each club, the travel and the squad rotation are all unknown to us, and Pro D2 is a league where home advantage and rotation genuinely move results because the schedule is so congested. Colomiers to win the match at -150 is published as a market-following entry only, and it should not be staked until the fixture is confirmed on an official page.",
-   "word_count": 106,
+   "note": "Colomiers are two for two in the tips on their home match with Agen, which our pricing renders as -150 on a straight winner in the French second tier Everything else is missing: no Liguede rugby professionnelle page was opened, so the table, the previous five results for each club, the travel and the squad rotation are all unknown to us, and Pro D2 is a league where home advantage and rotation genuinely move results because the schedule is so congested. Colomiers to win the match at -150 is published as a market-following entry only, and it should not be staked until the fixture is confirmed on an official page.",
+   "word_count": 110,
    "confidence": "Low",
    "pick_score": 1158,
    "our_prob": 0.6,
@@ -2388,6 +2252,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -2399,11 +2264,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Colomiers_v_Agen/9?event_id=609604"
     }
    ]
   },
@@ -2418,7 +2281,7 @@
    "market": "To Win",
    "selection": "Pau",
    "headline": "Pau to beat Toulouse is a contrarian price on a Top 14 round we cannot check",
-   "note": "One tip on a market of one makes Pau the selection against Toulouse at our -125, and that is the entire evidential base for it. Facing a club of Toulouse's resources, an unbackable-looking price of around even money is a strong hint either that the tipster has something we cannot see or that a single opinion has moved an empty market, and on the numbers available the second explanation is the safer assumption. Section list this as an anomaly rather than an opportunity: we would not stake on Pau to win the match without an official Top 14 sheet, injury list and table position first.",
+   "note": "Pau against Toulouse at our -125 rests on a single tip in a market of one, and that is the entire evidential base for it Facing a club of Toulouse's resources, an unbackable-looking price of around even money is a strong hint either that the tipster has something we cannot see or that a single opinion has moved an empty market, and on the numbers available the second explanation is the safer assumption. Section list this as an anomaly rather than an opportunity: we would not stake on Pau to win the match without an official Top 14 sheet, injury list and table position first.",
    "word_count": 105,
    "confidence": "Low",
    "pick_score": 1143,
@@ -2437,6 +2300,7 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK",
     "thin_sample_fewer_than_3_tips",
     "capped_low_by_sample_size"
    ],
@@ -2448,11 +2312,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_Union/All_Rugby_Union/All_Events/Pau_v_Toulouse/9?event_id=609611"
     }
    ]
   },
@@ -2467,8 +2329,8 @@
    "market": "Win Tournament",
    "selection": "New South Wales",
    "headline": "Origin ante-post is the only rugby league market OLBG is showing",
-   "note": "Nine of the thirteen tips on the 2027 State of Origin outright are on New South Wales, a 69 percent share our origination prices at -162, and this is the strongest single block anywhere on the rugby league board. What is not here matters just as much: there is not one club fixture listed, because Super League's season has finished and the NRL's is not carried as a match market, so there is no form line, no team list and no injury report to attach to this number. NSW to win the series at -162 is an ante-post opinion about a competition that has not started, and the price should be judged on that basis.",
-   "word_count": 115,
+   "note": "New South Wales are the strongest single block anywhere on the rugby league board, nine of the thirteen tips on the 2027 State of Origin outright behind them at a 69 percent share our origination prices at -162 What is not here matters just as much: there is not one club fixture listed, because Super League's season has finished and the NRL's is not carried as a match market, so there is no form line, no team list and no injury report to attach to this number. NSW to win the series at -162 is an ante-post opinion about a competition that has not started, and the price should be judged on that basis.",
+   "word_count": 114,
    "confidence": "Medium",
    "pick_score": 2207,
    "our_prob": 0.619,
@@ -2486,7 +2348,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Ante-post with no fixture list; no governing-body source applicable.",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857",
@@ -2496,11 +2359,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/State_of_Origin_2027/10?event_id=2695857"
     }
    ]
   },
@@ -2515,8 +2376,8 @@
    "market": "Grand Final Winner",
    "selection": "Wigan Warriors",
    "headline": "Wigan to win the 2027 Super League Grand Final at even money",
-   "note": "Two of four tips on the grand final winner name Wigan, and our number makes them +100 to lift the trophy in October 2027. For a club of Wigan's recent standing that is a price that says the market is empty rather than that the opinion is sharp, and an outright twelve months from now carries every coaching change, every departure and every injury that has not happened yet. If you want the position, Wigan to win the Grand Final at +100 is the quoted line, but treat it as the front end of a long window rather than as a bet with a form case behind it, because there is none available today.",
-   "word_count": 114,
+   "note": "Wigan take two of the four tips in the Super League grand final winner market, and our number makes them +100 to lift the trophy in October 2027 For a club of Wigan's recent standing that is a price that says the market is empty rather than that the opinion is sharp, and an outright twelve months from now carries every coaching change, every departure and every injury that has not happened yet. If you want the position, Wigan to win the Grand Final at +100 is the quoted line, but treat it as the front end of a long window rather than as a bet with a form case behind it, because there is none available today.",
+   "word_count": 118,
    "confidence": "Low",
    "pick_score": 1141,
    "our_prob": 0.5,
@@ -2534,7 +2395,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Only four tips across the whole outright market; no bet advised.",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554",
@@ -2544,11 +2406,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/Super_League_2027/10?event_id=2801554"
     }
    ]
   },
@@ -2582,7 +2442,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Empty outright; flagged as not bettable.",
    "olbg_url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600",
@@ -2592,11 +2453,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Rugby_League/All_Rugby_League/All_Events/NRL_2027/10?event_id=2801600"
     }
    ]
   },
@@ -2611,7 +2470,7 @@
    "market": "Win Tournament",
    "selection": "Kerry",
    "headline": "Kerry to win the 2027 All-Ireland football title at -167",
-   "note": "Six of the eight tips on the 2027 Sam Maguire outright are on Kerry, and the context OLBG prints on the same page is that the county lost the 2026 final, with Mayo recorded as ending a 75-year wait by beating them, so this price is a rebound number rather than a dominance one. We could not confirm that 2026 final result against an official GAA source in this session, and it is the single load-bearing fact in the row, so the entry is published with that gap printed on it. Kerry to win the championship at -167, with the caveat that the previous final result is an OLBG claim, not one we checked.",
+   "note": "Kerry hold six of the eight tips on the 2027 Sam Maguire outright, and the context OLBG prints on the same page is that the county lost the 2026 final, with Mayo recorded there as ending a 75-year wait by beating them, so this price is a rebound number rather than a dominance one We could not confirm that 2026 final result against an official GAA source in this session, and it is the single load-bearing fact in the row, so the entry is published with that gap printed on it. Kerry to win the championship at -167, with the caveat that the previous final result is an OLBG claim, not one we checked.",
    "word_count": 114,
    "confidence": "Medium",
    "pick_score": 2188,
@@ -2630,7 +2489,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "2026 All-Ireland final result not confirmed against a GAA source; flagged.",
    "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/All_Ireland_Football_Championship_2027/25?event_id=3327",
@@ -2640,18 +2500,14 @@
    },
    "sources": [
     {
-     "name": "OLBG outright listing and tip count",
-     "url": [
-      "OLBG category page",
-      "https://www.olbg.com/betting-tips/Gaelic_Football/25"
-     ]
+     "claim": "OLBG outright listing and tip count",
+     "name": "OLBG category page",
+     "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25"
     },
     {
-     "name": "OLBG's own note that Mayo won the 2026 final over Kerry",
-     "url": [
-      "OLBG category page",
-      "https://www.olbg.com/betting-tips/Gaelic_Football/25"
-     ]
+     "claim": "OLBG's own note that Mayo won the 2026 final over Kerry",
+     "name": "OLBG category page",
+     "url": "https://www.olbg.com/betting-tips/Gaelic_Football/25"
     }
    ]
   },
@@ -2666,8 +2522,8 @@
    "market": "Handicap",
    "selection": "Eire Og Cor +0.50",
    "headline": "Half a point in a Cork club championship game with six of six on it",
-   "note": "Every one of the six tips on this handicap backs Eire Og plus 0.50 against Kanturk, and the price that follows on our origination is -250, right on the boundary of the band we are allowed to work in. A half-point start in club hurling or football is essentially a double chance on the tie, which is why the share is so high and why the price is so short. Nothing here is corroborated: no GAA county board fixture page, no team list and no previous meeting was opened, so there is no way to check whether the half point is generous or thin. Eire Og plus 0.50 is listed at -250 and no more than that.",
-   "word_count": 117,
+   "note": "Eire Og plus 0.50 against Kanturk carries all six tips on this handicap, and the price that follows on our origination is -250, right on the boundary of the band we are allowed to work in A half-point start in club hurling or football is essentially a double chance on the tie, which is why the share is so high and why the price is so short. Nothing here is corroborated: no GAA county board fixture page, no team list and no previous meeting was opened, so there is no way to check whether the half point is generous or thin. Eire Og plus 0.50 is listed at -250 and no more than that.",
+   "word_count": 114,
    "confidence": "Low",
    "pick_score": 1203,
    "our_prob": 0.7143,
@@ -2684,7 +2540,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No GAA source checked; price sits on the -250 boundary.",
    "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531",
@@ -2694,11 +2551,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Kanturk_v_Eire_Og_Cor/25?event_id=3531"
     }
    ]
   },
@@ -2713,8 +2568,8 @@
    "market": "Handicap",
    "selection": "Kildimo Pallaskenry +3.50",
    "headline": "Three and a half points in a Limerick club game",
-   "note": "Five of the seven tips on this handicap are on Kildimo Pallaskenry receiving 3.50 against Fr Caseys, priced at -150 by our origination, and no expert flag sits on either side of the market. Club championship handicaps are the least transparent corner of this whole project, because the scoring context that makes three and a half points short or long is buried in county reports nobody indexes, and we did not open a single one for this game. Kildimo Pallaskenry plus 3.50 at -150 is a market-following entry with no independent support whatsoever, which is a reason to watch it rather than to bet it.",
-   "word_count": 105,
+   "note": "Kildimo Pallaskenry receive 3.50 against Fr Caseys on five of the seven tips in this handicap market, priced at -150 by our origination, with no expert flag on either side Club championship handicaps are the least transparent corner of this whole project, because the scoring context that makes three and a half points short or long is buried in county reports nobody indexes, and we did not open a single one for this game. Kildimo Pallaskenry plus 3.50 at -150 is a market-following entry with no independent support whatsoever, which is a reason to watch it rather than to bet it.",
+   "word_count": 101,
    "confidence": "Low",
    "pick_score": 1178,
    "our_prob": 0.6,
@@ -2731,7 +2586,8 @@
    "official_tier": "none",
    "in_window": true,
    "line_flags": [
-    "field_not_split_only_selection_priced"
+    "field_not_split_only_selection_priced",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "No GAA source checked; unconfirmed.",
    "olbg_url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537",
@@ -2741,11 +2597,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG event page",
-      "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG event page",
+     "url": "https://www.olbg.com/betting-tips/Gaelic_Football/All_Gaelic_Football/All_Events/Fr_Caseys_v_Kildimo_Pallaskenry/25?event_id=3537"
     }
    ]
   },
@@ -2760,8 +2614,8 @@
    "market": "Win Hurling",
    "selection": "Galway",
    "headline": "Galway top the hurling outright on a seventeen-tip market",
-   "note": "Seven of the eighteen tips on the 2027 All-Ireland hurling outright belong to Galway, a 39 percent share, and our pricing sets the Tribesmen at +136 for the Liam MacCarthy Cup. This is the only hurling listing anywhere on OLBG today, and the field is spread thin across the remaining tips, so +136 is a number driven as much by the absence of a dominant favourite as by support for Galway. Take it as an ante-post view eleven months out: no provincial championship, no league and no panel has been played yet, which means the price is close to meaningless and the direction is the only usable part.",
-   "word_count": 108,
+   "note": "Galway take seven of the eighteen tips on the 2027 All-Ireland hurling outright, a 39 percent share that our pricing sets at +136 for the Liam MacCarthy Cup This is the only hurling listing anywhere on OLBG today, and the field is spread thin across the remaining tips, so +136 is a number driven as much by the absence of a dominant favourite as by support for Galway. Take it as an ante-post view eleven months out: no provincial championship, no league and no panel has been played yet, which means the price is close to meaningless and the direction is the only usable part.",
+   "word_count": 105,
    "confidence": "Low",
    "pick_score": 1178,
    "our_prob": 0.4231,
@@ -2779,7 +2633,8 @@
    "in_window": true,
    "line_flags": [
     "field_not_split_only_selection_priced",
-    "field_size_unknown_outright_capped"
+    "field_size_unknown_outright_capped",
+    "NO_OFFICIAL_CROSSWALK"
    ],
    "evidence": "Sole hurling listing; ante-post with no season played.",
    "olbg_url": "https://www.olbg.com/betting-tips/Hurling/All_Hurling/All_Events/All_Ireland_Hurling_Championship_2027/26?event_id=675",
@@ -2789,11 +2644,9 @@
    },
    "sources": [
     {
-     "name": "OLBG listing and tip count",
-     "url": [
-      "OLBG category page",
-      "https://www.olbg.com/betting-tips/Hurling/26"
-     ]
+     "claim": "OLBG listing and tip count",
+     "name": "OLBG category page",
+     "url": "https://www.olbg.com/betting-tips/Hurling/26"
     }
    ]
   }

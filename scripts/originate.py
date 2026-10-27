@@ -132,12 +132,14 @@ def main():
                     rid = f"{skey}-{e['event_id']}-{m['market']}".replace(" ", "_").lower()
                     row_flags = []
                     if not tT:
-                        row_flags.append("no_tip_volume_unpriced")
+                        row_flags.append("UNPRICED_MARKET")
                     if m["basis"] == "hub_top":
                         row_flags.append("field_not_split_only_selection_priced")
                     in_window = fa is not None and WINDOW_MIN <= fa <= WINDOW_MAX
                     if not k_known:
                         row_flags.append("field_size_unknown_outright_capped")
+                    if tier != "A":
+                        row_flags.append("NO_OFFICIAL_CROSSWALK")
                     if oa is not None and not in_window:
                         row_flags.append("outside_-250_+10000_window")
                     # confidence, then the caps
@@ -197,9 +199,7 @@ def main():
                         "injury_availability": cwv.get("injury_availability", ""),
                         "flags": row_flags,
                     })
-                    if not corr:
-                        pass
-                    if row_flags and "no_tip_volume_unpriced" in row_flags:
+                    if row_flags and "UNPRICED_MARKET" in row_flags:
                         flags.append({"code": "UNPRICED_MARKET", "sport": label,
                                       "detail": f"{e['name']} / {m['market']}: OLBG printed 0 tips in this market, so no line was originated.",
                                       "source": e["olbg_url"]})
@@ -208,7 +208,7 @@ def main():
                                       "detail": f"{e['name']}: no official governing-body source was matched, so a High label is blocked; best available tier is {tier.upper()}.",
                                       "source": e["olbg_url"]})
     out = {"schema": "olbg-originated-lines/v2", "captured_utc": cap["captured_utc"],
-           "parameters": {"margin": MARGIN, "pseudo_count": PSEUDO,
+           "parameters": {"margin": MARGIN, "pseudo_count": PSEUDO, "strength": STRENGTH,
                           "window_american": [WINDOW_MIN, WINDOW_MAX],
                           "bands": {"High": f"official crosswalk AND p>={P_HIGH} AND market tips>={T_MIN_HIGH} AND in window",
                                     "Medium": f"(crosswalk AND p>={P_MED_CORR}) OR (p>={P_MED_THICK} AND tips>={T_MIN_THICK})",
