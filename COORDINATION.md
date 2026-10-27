@@ -224,3 +224,19 @@ OLBG label; Milwaukee's Game 4 starter was unposted; the three basketball handic
 covering 30-word minimums, banned reader-facing words, price window, implied-percentage arithmetic, confidence
 banding, per-pick OLBG and official sources, event ids present in the capture, ISO timestamps, flag sources, and
 internal links/anchors across all 22 pages. `python3 -m py_compile` passes for both scripts.
+
+## Release record
+
+- **PR #13** <https://github.com/karagemop466-tech/Olbg8/pull/13> — "Live OLBG desk: 115 listings, 9 sourced picks,
+  pricing playbook for 15 sports". Checks: `build` and `verify` both passed (runs 40456055297 / 40456055309).
+  **Merged to `main` as `1c6647d`** on 2026-10-27. Pages workflow "Deploy OLBG research desk" run 40456114996
+  completed successfully, and the live site was retrieved at <https://karagemop466-tech.github.io/Olbg8/> with the
+  executive summary, hero picks, 115-row inventory and all sport pages rendering.
+- **Follow-up PR** adds three more verified EuroLeague picks (BC Dubai −7.5, Barcelona −3.5, Partizan −3.5) so
+  basketball reaches nine of the ten-pick target with the same official table as its source. Totals after the
+  follow-up: 12 picks, 3 high / 6 medium / 3 low, 447 gate assertions.
+- **Parallel session notice.** While this session was merging, `arena/6bb9f412-olbg8` began pushing
+  "research: register official fixture crosswalks and sport hubs". No files owned by that session were touched here.
+  Its branch should be rebased on the new `main`; the root pages, `assets/desk.css`, `scripts/build_site.py`,
+  `scripts/check_site.py` and `data/desk-*.json` are owned by this session and are generated, so a rebase must not
+  hand-edit them — change the JSON and re-run `python3 scripts/build_site.py`.
