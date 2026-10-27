@@ -191,3 +191,81 @@ No other session holds an active claim (`7fbe3ee0`, `53f44a7c`, `arena-352da32b`
 1. **OLBG IS reachable from this environment** through the retrieval tool. Earlier logs record `SSL_ERROR_SYSCALL` from raw sandbox `curl`, which was an incorrect basis for concluding that no collection was possible; that conclusion blocked every prior session from publishing a single pick. Retested 2026-10-27 and category + event pages return normally.
 2. **`data/darts.json` is fabricated and must be quarantined.** Five "picks" (Humphries/van Gerwen, Littler/Price, Smith/Cross, Aspinall/Wright, Anderson/Clayton) under "European Championship 2026" carry `"verified": "True"` while the only source cited is a generic tournament directory URL, and the stat lines (e.g. "averaging a massive 105", "checkout percentage on the outer ring is flawless") have no supporting source anywhere in the repo. This is exactly the failure mode the brief forbids.
 3. Prior capture is stale: `data/dashboard.json` is stamped `2026-10-26T05:18:26Z`; the board's own "upcoming matches" are therefore already in the past.
+
+### Session `0d9bd3c1` — build and publication record, 2026-10-27
+
+**Published state.** 15 sports in scope, 112 OLBG listings captured, 140 priced selections originated, **53 written
+predictions** across 13 sports. Site rebuilt as a dashboard with an executive summary first.
+
+Pipeline (deterministic, reruns clean; `python3 -m py_compile scripts/*.py`, `node --check assets/app.js` and
+`scripts/build_dashboard.py` all pass alongside it):
+
+```
+scripts/build_capture.py -> data/live-capture.json     # verbatim OLBG rows from capture/raw-2026-10-27.json
+scripts/originate.py       -> data/lines.json          # + data/crosswalks.json for tier and sources
+scripts/build_picks.py     -> data/picks.json           # 53 picks, each must resolve to a priced row
+scripts/build_site.py       -> all HTML
+scripts/test_site.py                                     # 9 check groups, fails the build
+```
+
+**Origination method** (`scripts/originate.py` docstring is the spec). OLBG publishes no bookmaker price in readable
+markup, so the input is the printed tip share, which OLBG's own Value Rating definition calls "the theoretical
+probability based on the percentage of tips". Market is reduced to selection-vs-field blocks; `p = (n + 8/k) / (T + 8)`
+(Dirichlet, uniform prior over k outcomes); `k` = 2 head-to-head, 3 where a draw is priced (handball money line), the
+declared field size for outrights (78 at the Maybank, 128 at the World Darts Championship), else `max(n_sel, 2)` plus a
+`field_size_unknown_outright_capped` flag. Fair = 1/p in American; our line = fair x 0.96. The -250 to +10,000 window is
+applied to the **fair** price, not the margin-loaded one, so a 4% commission cannot push a -225 line out of band on a
+technicality. Confidence: High requires tier-A crosswalk AND p>=0.60 AND >=4 tips AND in window; outrights are capped below
+High; any market with T<3 is capped to Low. Latest run: `rows=140 high=1 medium=7 low=132 flags=109`.
+
+**Two engine corrections that changed the output materially**, both worth not re-litigating:
+1. Laplace smoothing toward 50% made outrights absurd (a 78-player pick priced at +100). Dirichlet shrinkage toward the
+   field-neutral base rate fixed it; Woad at the Maybank now prices +807.
+2. The window gate on the margin-loaded line disqualified legitimate heavy-but-legal favourites. Moving it to the fair
+   line left the intended failures in place (MIL money line at fair -300 is still rejected).
+
+**Deliberate caps kept:** `outright_capped_below_high`, `thin_sample_fewer_than_3_tips` + `capped_low_by_sample_size`,
+`field_size_unknown_outright_capped`, and `NO_OFFICIAL_CROSSWALK` now attached to **every** row of an uncorroborated
+event rather than one row per event, so a reader can audit any single row in isolation.
+
+**Crosswalk ledger** (`data/crosswalks.json`). Tier A = governing body, tour, league data feed or the club's own page
+opened and matched to the fixture; tier B = reliable independent reporting. Rugby Union rows were **downgraded A to B**
+because the sources opened were RTE/BBC match reports and urc.com was never reached; that removed three High candidates.
+`not_checked` lists what was left alone so it cannot be mistaken for clean.
+
+**Coverage outcome, stated honestly.** Snooker and Greyhounds published **zero** picks: OLBG printed "No tips found." for
+both categories at capture time, and nothing was invented to fill the gap. Golf 3, Darts 2, Motor Racing 2, Rugby League
+3, Baseball 4, Gaelic 4 — each shortfall has its reason printed in the Overview coverage ledger. Seven sports hit 5.
+
+**Analyst overrides recorded in prose, not silently corrected:** Kielce money line published at +307 against a 7-of-11
+crowd on the tie (EHF records the head-to-head 7-0-0 to Kielce, Kolstad 0-0-5 in Group F); Munster -6.50 and the
+Vardar/Melsungen tie published as ones to *avoid*; the Golf Mexico Open and Simmons Bank Championship rows and the NRL
+rows publish as empty-market warnings with no bet advised.
+
+**Irregularities raised for review** (full write-up on `flagged.html`):
+1. `data/darts.json` was **fabricated** — five rows stamped `"verified": "True"`, one tournament-directory URL as the only
+   source, PDC statistics that the PDC does not publish, and fixtures absent from every capture file in the repository.
+   Moved to `quarantine/FABRICATED-data-darts.json` with a point-by-point note. **Open decision:** delete outright, and
+   audit whether the same pattern produced anything else.
+2. OLBG's printed clock times are **US Eastern (UTC-4)**, not UK time: cricket 07:00Z shown as "03:00", NHL 23:00Z as
+   "19:07", handball 19:45Z as "15:45". MLB and F1 rows sit an hour further out, so raw labels are kept verbatim beside
+   the official UTC time and nothing derives a start time from OLBG's label alone.
+3. The prior "OLBG is blocked" conclusion was wrong and is what starved five sessions of any output. `fetch_page` on the
+   category and event pages returns full data; retrieval should never again be reported as blocked on the strength of one
+   sandbox `curl` TLS error.
+4. `data/dashboard.json` and its siblings are the superseded 2026-10-26 payload (still 116 rows, zero picks). Left in the
+   tree because other sessions own them, and `scripts/build_dashboard.py` still regenerates them unchanged, which is what
+   `quality.yml` asserts with `git diff --exit-code`. The new site does not read them.
+5. The words "model" and "verified" are banned from published prose and `scripts/test_site.py` fails the build on them.
+
+**Tests added this session** (`scripts/test_site.py`, 9 groups): picks must resolve to a priced row and agree with it field
+by field; notes >=30 words; every published fair line inside -250 to +10,000; every note must name its selection, its
+event or at least two facts its own sources state; no two notes may share a 9-word run; no opening phrase may repeat more
+than twice; no sport with a listing may have zero picks and no empty category may have any; unpriced rows must carry
+`UNPRICED_MARKET`; every relative link and `#anchor` on all 27 pages must resolve; the fabricated file must stay out of
+`data/`. Two real defects were caught by these checks before publication (a totals note that named neither team, and a
+volleyball note that named neither opponent) and fixed rather than relaxed.
+
+**Not done / next:** a second daily capture to prove the pipeline is repeatable rather than a one-day artefact; a decision
+on the quarantine; tier-A coverage for volleyball, Pro D2/Top 14 and non-NHL hockey, which currently publish as
+"listing only, not corroborated"; and an owner for retiring the legacy 2026-10-26 payload.
