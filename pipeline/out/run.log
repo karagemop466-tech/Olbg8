@@ -1,0 +1,12 @@
+ 200   301875 olbg_golf https://www.olbg.com/betting-tips/Golf/5
+ 200   343356 olbg_volleyball https://www.olbg.com/betting-tips/Volleyball/21
+ 200   321161 olbg_rugby-union https://www.olbg.com/betting-tips/Rugby_Union/9
+ 200   403318 olbg_hub https://www.olbg.com/betting-tips
+ 200    13431 mlb_sched https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=probablePitcher,linescore,team,venue&startDate=2026-10-27&endDate=2026-11-03
+ 200    91367 nhl_sched https://api-web.nhle.com/v1/schedule/now
+ 403      445 nba_today https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json
+ 200    14296 f1_races https://api.jolpi.ca/ergast/f1/current/races.json
+ 200      862 nrl_draw https://www.nrl.com/draw/data?competition=111&season=2026&round=27
+ 403     2235 atp https://www.atptour.com/en/scores/current
+ 403       48 sofascore_tennis https://api.sofascore.com/api/v1/sport/tennis/scheduled-events/2026-10-27
+done: 8/11 ok
