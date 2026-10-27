@@ -13,7 +13,7 @@ Last updated: 2026-10-27 UTC. This board records work across the repository and 
 | Line origination (moneyline/handicap/total), confidence, odds window -250 to +10000 | done | `dcc71481` | `data/predictions.json` — 35 originated lines, all inside −250…+10,000 |
 | Unique written predictions, 5-10 per sport, 30+ words each | done | `dcc71481` | `data/predictions.json` — 35 unique predictions (≥30 words, no "model"/"verified" words), 5 high / 26 medium / 4 low |
 | Clean dashboard site: landing page + category subpages, table format | done | `dcc71481` | `index.html`, `picks.html`, `matches.html`, `flagged.html`, `sources.html`, `methodology.html`, `sports/*.html`, `assets/styles.css`, `scripts/build_site.py` |
-| PR to main, GitHub Pages deploy confirmation | in progress | `dcc71481` | shared outputs |
+| PR to main, GitHub Pages deploy confirmation | done | `dcc71481` | PR #17 https://github.com/karagemop466-tech/Olbg8/pull/17 merged to main as ce345a8224009f34218f426f60350ade704965fc; Pages rebuilds on push to main per `.github/workflows/pages.yml`; live URL https://karagemop466-tech.github.io/Olbg8/ |
 
 ## Session log
 
@@ -21,7 +21,7 @@ Last updated: 2026-10-27 UTC. This board records work across the repository and 
 - 2026-10-27 — Discovery captured to `data/olbg-discovery.json` for all 15 sports (OLBG hubs probed: Tennis, Basketball, Golf, Cricket, Snooker, Rugby Union, Rugby League, Baseball, Ice Hockey, Motor Racing, Darts, Handball, Volleyball, Gaelic Football, Greyhounds); committed 9628eea. Official verification complete for NHL (CBJ @ PHI, BOS @ CAR), MLB WS Game 4 (MIL @ TB), EuroLeague Round 8, ATP profiles (Djokovic/Alcaraz; activity logs return no data), ICC fixtures, LNR Pro D2 J9, EHFCL Oct 28-29.
 - 2026-10-27 — `data/predictions.json`: 35 originated predictions across 9 sports with match-level OLBG listings (Tennis 5, Basketball 5, Cricket 5, Rugby Union 5, Handball 5, Volleyball 5, Ice Hockey 2, Baseball 1, Gaelic Sports 2); 5 high / 26 medium / 4 low confidence; all lines inside −250…+10,000 (fair prices shorter than −250 held at boundary and flagged); every prediction carries ≥30 words of unique prose, OLBG consensus, official source links, and flags where form/injuries are unconfirmed. No "model" or "verified" words in output text. Golf, Darts, Motor Racing, Rugby League have outright/ante-post only (no picks); Snooker and Greyhounds no tips; Hurling out of scope.
 - 2026-10-27 — Static dashboard rebuilt with `scripts/build_site.py`: `index.html` (executive summary, KPIs, highest-confidence picks table, 15-sport coverage), `picks.html` (all 35 written predictions with sources and flags), `matches.html` (all OLBG events with our lines where matched), `flagged.html` (30+ flagged items incl. time discrepancies, OLBG-only fixtures, no-listing sports), `sources.html` (official source register), `methodology.html` (pricing formula, confidence bands, publication gate, limitations), 16 `sports/*.html` category pages, `assets/styles.css`; zero broken internal links; every table row carries an official source link where the fixture was confirmable, blank otherwise. `data/dashboard.json` regenerated as derived payload.
-- 2026-10-27 — Push to `arena/dcc71481-olbg8`, open PR to main, merge without waiting, record PR link and merge result below.
+- 2026-10-27 — Pushed `arena/dcc71481-olbg8`; opened PR #17 (https://github.com/karagemop466-tech/Olbg8/pull/17); merged without waiting as ce345a8224009f34218f426f60350ade704965fc. Main now contains the executive summary, picks page (35 written predictions: 5 high / 26 medium / 4 low), matches table, flagged page, sources register, methodology, and 16 sport category pages. All session work committed and pushed to `arena/dcc71481-olbg8` only.
 
 - 2026-10-26 — Session `53f44a7c` started from commit `797e50d`, where only `README.md` existed, created a coordination claim, and pushed it immediately on the Arena-fixed branch `arena/53f44a7c-olbg8`.
 - 2026-10-26 — Session `arena-f68c2262` independently started from the same empty state and later merged PR #1 to `main`. Its probe established IDs: Tennis 3, Basketball 4, Golf 5, Cricket 7, Snooker 8, Rugby Union 9, Rugby League 10, Baseball 12, Ice Hockey 13, Motor Racing 14, Darts 15, Handball 20, Volleyball 21, Gaelic Football 25, Hurling 26, Greyhounds 28. OLBG has no standalone “Gaelic Sports” category; coverage requires Gaelic Football plus Hurling.
@@ -339,3 +339,29 @@ rewrites the file and fails the diff, and `pages.yml` fails the same validator b
 the legacy dashboard rebuild from the gate, validates the desk that is actually published (`check_site.py` plus
 `py_compile` and `node --check`), and keeps the generated-file diff on the desk outputs. `data/dashboard.json` itself
 is left exactly as PR #17 committed it; `scripts/test_site.py` stays in the repo as the 26 October record.
+
+**Consolidation decision (session `arena/65c1e02b-olbg8`, after merging PR #19).** `main` briefly carried two
+generators writing the same output paths: the desk generator (`data/desk-*.json` → 22 pages) and
+`scripts/build_site.py` as rewritten by `arena/dcc71481-olbg8` (`data/predictions.json` + `data/olbg-discovery.json`
+→ 23 pages, incl. `hurling.html`). The desk generator is published and the alternative is kept as
+`scripts/build_predictions_site.py` (not run in CI) so nothing is lost. Reasons, from reading the rendered output:
+
+1. **A wrong venue is published.** The rugby union prediction for `AS Beziers Herault vs FC Grenoble Rugby` reads
+   "FC Grenoble Rugby hosts AS Beziers Herault". Béziers are at home: the LNR PRO D2 table marks Béziers' next
+   fixture as *à domicile* and Grenoble's as *à l'extérieur*, and the OLBG row is `Beziers v Grenoble`.
+2. **A kickoff time that cannot be right.** The same prediction says "30 October at 19:30 CET"; the captured start is
+   2026-10-30T20:00Z, which is 21:00 CET. Two of the five desk rugby picks on those same fixtures were checked
+   against `prod2.lnr.fr/classement` and `ehfcl.eurohandball.com` line by line this session; the desk data matches.
+3. **Prose below the publication bar.** Predictions of the form "PSG is a multiple-time EHF Champions League
+   finalist and no official postponement or withdrawal is posted for the fixture" carry no match-specific form,
+   record or scoreline, which is the standard the desk gate enforces at 30 words plus cited facts.
+
+The predictive content that alternative carried is not discarded: `data/predictions.json` and
+`data/olbg-discovery.json` stay committed, and `flagged.html` continues to name every sport without a published
+pick. Anyone wanting to publish from `predictions.json` should first fix the two errors above and add per-fact
+sources, which `check_site.py` requires for every desk pick.
+
+**Path bug fixed.** The alternative generator emitted `../../assets/styles.css` on every page inside `sports/`,
+producing sixteen broken stylesheet links; that is the real origin of the `sports/hurling.html` breakage repaired
+earlier in this session. The archived generator now passes `css="assets/styles.css"` with `rel="../"`, so its pages
+resolve correctly if it is ever revived.
