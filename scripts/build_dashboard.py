@@ -56,6 +56,12 @@ SPORT_PAGE = {  # requested label -> page key (Gaelic Sports spans two OLBG cate
     "Motor Racing": "motor-racing", "Handball": "handball", "Ice Hockey": "ice-hockey",
     "Basketball": "basketball", "Rugby League": "rugby-league",
 }
+OLBG_IDS = {
+    "Golf": 5, "Volleyball": 21, "Rugby Union": 9, "Cricket": 7, "Snooker": 8, "Darts": 15,
+    "Baseball": 12, "Gaelic Football": 25, "Hurling": 26, "Greyhounds": 28, "Tennis": 3,
+    "Motor Racing": 14, "Handball": 20, "Ice Hockey": 13, "Basketball": 4, "Rugby League": 10,
+}
+OLBG_SEG = {k: k.replace(" ", "_") for k in OLBG_IDS}
 SPORT_TO_REQUESTED = {
     "Golf": "Golf", "Volleyball": "Volleyball", "Rugby Union": "Rugby Union",
     "Cricket": "Cricket", "Snooker": "Snooker", "Darts": "Darts", "Baseball": "Baseball",
@@ -575,13 +581,19 @@ def main() -> None:
     predictions.apply(kept, editorial)
 
     sport_summary = []
-    for label, key in SPORT_ORDER:
-        req = SPORT_TO_REQUESTED.get(label, label)
-        sport_events = [e for e in out_events if e["sport"] == label]
-        sport_picks = [p for p in kept if p["sport"] == label]
+    for req in REQUESTED:
+        labels = [k for k, v in SPORT_TO_REQUESTED.items() if v == req]
+        sport_events = [e for e in out_events if e["sport"] in labels]
+        sport_picks = [p for p in kept if p["requested_sport"] == req]
         sport_summary.append({
-            "key": key, "label": label, "requested": req,
-            "page": SPORT_PAGE.get(req, key),
+            "key": SPORT_PAGE[req],
+            "label": req,
+            "requested": req,
+            "page": SPORT_PAGE[req],
+            "olbg_labels": labels,
+            "sport_id": next((OLBG_IDS[lab] for lab in labels if lab in OLBG_IDS), None),
+            "olbg_hub": next((f"https://www.olbg.com/betting-tips/{OLBG_SEG[lab]}/{OLBG_IDS[lab]}"
+                              for lab in labels if lab in OLBG_IDS), ""),
             "events": len(sport_events),
             "markets": sum(len(e["markets"]) for e in sport_events),
             "selections": sum(len(m["selections"]) for e in sport_events for m in e["markets"]),

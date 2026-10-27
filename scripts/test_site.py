@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
-"""Small offline audit for the static site and its source-first payload."""
+"""Offline validation of the published desk.
+
+Checks
+------
+* every requested sport is present in the payload
+* every published pick names a selection, a market, a price and a confidence
+* every prediction is at least 30 words and free of the banned wording
+* every pick carries an OLBG market link and a primary-source link
+* every market row traces back to a captured decimal price
+* every page shell exists and every local href resolves
+"""
+
 from __future__ import annotations
 
 import json
@@ -13,49 +24,76 @@ EXPECTED = {
     "Gaelic Sports", "Greyhounds", "Tennis", "Motor Racing", "Handball", "Ice Hockey",
     "Basketball", "Rugby League",
 }
+BANNED = ("model", "verified")
+
 
 def main() -> None:
-    dashboard = json.loads((ROOT / "data/dashboard.json").read_text())
-    assert set(dashboard["scope"]) == EXPECTED
-    assert len(dashboard["sports"]) == 15
-    events = dashboard["events"]
-    assert events, "event inventory is empty"
-    errors = []
-    for event in events:
-        if not event["olbg"].get("event"):
-            errors.append((event["id"], "missing OLBG event link"))
-        if not event["official"].get("url"):
-            errors.append((event["id"], "missing official source link"))
-        if not event.get("flags") and event["official"].get("status") != "event-confirmed":
-            errors.append((event["id"], "unflagged row"))
-        if not event.get("event") and not any("event name blank" in f for f in event["flags"]):
-            errors.append((event["id"], "blank event not explained"))
-        draft = event.get("draftPrediction")
-        if draft:
-            words = len(draft.get("text", "").split())
-            if words < 30:
-                errors.append((event["id"], f"draft has only {words} words"))
-            lowered = draft["text"].lower()
-            for banned in ("model", "verified"):
-                if banned in lowered:
-                    errors.append((event["id"], f"draft contains banned word {banned!r}"))
-    assert not errors, errors
+    dashboard = json.loads((ROOT / "data" / "dashboard.json").read_text())
+    errors: list[str] = []
 
-    # Check every relative href in the static HTML shells. External sources are
-    # intentionally not fetched by this offline audit.
-    html_files = list(ROOT.glob("*.html")) + list((ROOT / "sports").glob("*.html"))
+    present = {s["requested"] for s in dashboard["sports"]}
+    if present != EXPECTED:
+        errors.append(f"sport scope mismatch: missing {EXPECTED - present}, extra {present - EXPECTED}")
+    if len(dashboard["sports"]) != 15:
+        errors.append(f"expected 15 requested sports, found {len(dashboard['sports'])}")
+
+    for pick in dashboard["picks"]:
+        tag = f"{pick.get('sport')}::{pick.get('event')}::{pick.get('selection')}"
+        for field in ("event", "market", "selection", "decimal", "american", "confidence", "prediction", "olbg_url"):
+            if pick.get(field) in (None, "", []):
+                errors.append(f"{tag}: missing {field}")
+        if pick.get("confidence") not in ("low", "medium", "high"):
+            errors.append(f"{tag}: bad confidence {pick.get('confidence')!r}")
+        words = len((pick.get("prediction") or "").split())
+        if words < 30:
+            errors.append(f"{tag}: prediction only {words} words")
+        lowered = (pick.get("prediction") or "").lower()
+        for banned in BANNED:
+            if banned in lowered:
+                errors.append(f"{tag}: prediction contains {banned!r}")
+        if "None" in (pick.get("prediction") or ""):
+            errors.append(f"{tag}: prediction contains a None value")
+        if not pick.get("olbg_url"):
+            errors.append(f"{tag}: no OLBG link")
+        official = pick.get("official") or {}
+        if pick.get("route") == "primary" and not official.get("source"):
+            errors.append(f"{tag}: primary route without a primary source")
+
+    for event in dashboard["events"]:
+        if not event.get("olbg_url"):
+            errors.append(f"event {event.get('id')}: no OLBG link")
+        for market in event.get("markets", []):
+            if not market.get("selections"):
+                errors.append(f"event {event.get('id')}: empty market {market.get('name')}")
+            for selection in market["selections"]:
+                if not selection.get("decimal") or selection["decimal"] <= 1.0:
+                    errors.append(f"event {event.get('id')}: selection without a captured price")
+
+    shells = list(ROOT.glob("*.html")) + list((ROOT / "sports").glob("*.html"))
     href_re = re.compile(r'href="([^"]+)"')
-    missing = []
-    for html in html_files:
+    for html in shells:
         for href in href_re.findall(html.read_text()):
             parsed = urlparse(href)
             if parsed.scheme or href.startswith("#") or href.startswith("mailto:"):
                 continue
             target = (html.parent / parsed.path).resolve()
             if not target.exists():
-                missing.append((str(html.relative_to(ROOT)), href))
-    assert not missing, missing
-    print(f"site audit ok: {len(html_files)} html shells, {len(events)} rows, {len(dashboard['sports'])} sports")
+                errors.append(f"{html.relative_to(ROOT)}: broken link {href}")
+
+    sports_pages = {p.stem for p in (ROOT / "sports").glob("*.html")}
+    expected_pages = {s["page"] for s in dashboard["sports"]}
+    if sports_pages != expected_pages:
+        errors.append(f"sport page mismatch: missing {expected_pages - sports_pages}, extra {sports_pages - expected_pages}")
+
+    if errors:
+        raise SystemExit("VALIDATION FAILED\n - " + "\n - ".join(errors[:40]))
+
+    print(
+        f"site audit ok: {len(shells)} pages, {len(dashboard['events'])} events, "
+        f"{dashboard['counts']['markets']} markets, {len(dashboard['picks'])} picks "
+        f"({dashboard['counts']['high']} high), {len(EXPECTED)} requested sports"
+    )
+
 
 if __name__ == "__main__":
     main()

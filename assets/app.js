@@ -340,7 +340,7 @@
         <h3>OLBG category pages (market capture)</h3>
         <div class="table-wrap"><table><thead><tr><th>Sport</th><th>OLBG category</th><th>Captured events</th></tr></thead><tbody>
         ${(data.sports || []).map((s) => `<tr><td>${esc(s.requested)}</td>
-          <td>${link(`https://www.olbg.com/betting-tips/${esc((s.label || "").replace(/ /g, "_"))}/${s.sport_id || ""}`, "OLBG category")}</td>
+          <td>${s.olbg_hub ? link(s.olbg_hub, "OLBG category") : "—"}</td>
           <td class="num">${s.events}</td></tr>`).join("")}
         </tbody></table></div>
       </section>`;
