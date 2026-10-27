@@ -31,6 +31,13 @@ jobs:
           python3 scripts/test_board.py
           python3 -m py_compile scripts/*.py price-engine/*.py
           node --check assets/app.js
+      - name: Validate line engine and the originated deep-analysis section
+        run: |
+          python3 scripts/test_line_engine.py
+          python3 scripts/build_originated.py
+          python3 scripts/render_originated.py
+          python3 scripts/test_originated.py
+          git diff --exit-code -- data/originated_lines.json originated
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
