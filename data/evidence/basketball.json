@@ -1,0 +1,218 @@
+{
+ "schema": "official-evidence/v1",
+ "sport": "Basketball",
+ "source_name": "OLBG basketball betting tips hub and NBA sub-page - five-season league statistics",
+ "source_urls": [
+  "https://www.olbg.com/betting-tips/Basketball/4",
+  "https://www.olbg.com/betting-tips/Basketball/NBA/4"
+ ],
+ "source_kind": "OLBG's own results database, stated as covering 2021-22 to 2025-26. OLBG is not the league; the NBA's official source is nba.com and the EuroLeague's is euroleaguebasketball.net. Used here only to calibrate dispersion and favourite base rates.",
+ "captured_utc": "2026-10-27T00:00:00Z",
+ "favourites_win_rate_by_league": [
+  {
+   "league": "Korean WKBL",
+   "games": 498,
+   "home_fav_pct": 75.29,
+   "away_fav_pct": 68.94,
+   "overall_fav_pct": 72.29
+  },
+  {
+   "league": "Basketball Champions League",
+   "games": 804,
+   "home_fav_pct": 70.25,
+   "away_fav_pct": 67.07,
+   "overall_fav_pct": 69.28
+  },
+  {
+   "league": "EuroCup",
+   "games": 970,
+   "home_fav_pct": 70.12,
+   "away_fav_pct": 65.99,
+   "overall_fav_pct": 68.87
+  },
+  {
+   "league": "German Basketball Bundesliga",
+   "games": 1636,
+   "home_fav_pct": 70.02,
+   "away_fav_pct": 63.65,
+   "overall_fav_pct": 67.91
+  },
+  {
+   "league": "NBA",
+   "games": 6582,
+   "home_fav_pct": 68.84,
+   "away_fav_pct": 66.27,
+   "overall_fav_pct": 67.87
+  },
+  {
+   "league": "EuroLeague",
+   "games": 1690,
+   "home_fav_pct": 70.2,
+   "away_fav_pct": 54.33,
+   "overall_fav_pct": 65.86
+  },
+  {
+   "league": "Korean KBL",
+   "games": 1451,
+   "home_fav_pct": 65.31,
+   "away_fav_pct": 62.19,
+   "overall_fav_pct": 64.09
+  }
+ ],
+ "average_total_points_by_league": [
+  {
+   "league": "NBA",
+   "games": 6584,
+   "avg_total": 226.8,
+   "home_avg": 114.4,
+   "away_avg": 112.3,
+   "middle_50pct": "213-240",
+   "derived_sd_total": 20.01,
+   "derived_iqr_centre": 226.5,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "German Basketball Bundesliga",
+   "games": 1636,
+   "avg_total": 167.8,
+   "home_avg": 85.2,
+   "away_avg": 82.6,
+   "middle_50pct": "156-179",
+   "derived_sd_total": 17.05,
+   "derived_iqr_centre": 167.5,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "Polish PLK",
+   "games": 1368,
+   "avg_total": 166.8,
+   "home_avg": 84.2,
+   "away_avg": 82.5,
+   "middle_50pct": "155-179",
+   "derived_sd_total": 17.79,
+   "derived_iqr_centre": 167.0,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "EuroCup",
+   "games": 970,
+   "avg_total": 166.5,
+   "home_avg": 84.8,
+   "away_avg": 81.7,
+   "middle_50pct": "154-179",
+   "derived_sd_total": 18.53,
+   "derived_iqr_centre": 166.5,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "EuroLeague",
+   "games": 1690,
+   "avg_total": 164.2,
+   "home_avg": 84.0,
+   "away_avg": 80.2,
+   "middle_50pct": "152-176",
+   "derived_sd_total": 17.79,
+   "derived_iqr_centre": 164.0,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "Basketball Champions League",
+   "games": 804,
+   "avg_total": 160.4,
+   "home_avg": 81.9,
+   "away_avg": 78.6,
+   "middle_50pct": "149-172",
+   "derived_sd_total": 17.05,
+   "derived_iqr_centre": 160.5,
+   "derivation": "sd = IQR / 1.349 for a normal distribution; IQR is OLBG's 'Middle 50% of games'."
+  },
+  {
+   "league": "Korean KBL",
+   "games": 1451,
+   "avg_total": 159.7,
+   "home_avg": 80.4,
+   "away_avg": 79.2,
+   "middle_50pct": null
+  }
+ ],
+ "margin_and_overtime_by_league": [
+  {
+   "league": "NBA",
+   "avg_winning_margin": 12.5,
+   "decided_by_5_or_fewer_pct": 25.08,
+   "decided_by_10_or_fewer_pct": 51.46,
+   "went_to_ot_pct": 5.03
+  },
+  {
+   "league": "German Basketball Bundesliga",
+   "avg_winning_margin": 12.4,
+   "decided_by_5_or_fewer_pct": 25.0,
+   "decided_by_10_or_fewer_pct": 51.71,
+   "went_to_ot_pct": 5.44
+  },
+  {
+   "league": "EuroCup",
+   "avg_winning_margin": 11.9,
+   "decided_by_5_or_fewer_pct": 27.32,
+   "decided_by_10_or_fewer_pct": 53.81,
+   "went_to_ot_pct": 4.95
+  },
+  {
+   "league": "Basketball Champions League",
+   "avg_winning_margin": 11.4,
+   "decided_by_5_or_fewer_pct": 28.61,
+   "decided_by_10_or_fewer_pct": 55.85,
+   "went_to_ot_pct": 5.6
+  },
+  {
+   "league": "Polish PLK",
+   "avg_winning_margin": 11.3,
+   "decided_by_5_or_fewer_pct": 27.92,
+   "decided_by_10_or_fewer_pct": 55.63,
+   "went_to_ot_pct": 5.7
+  },
+  {
+   "league": "Korean WKBL",
+   "avg_winning_margin": 10.8,
+   "decided_by_5_or_fewer_pct": 29.52,
+   "decided_by_10_or_fewer_pct": 56.02,
+   "went_to_ot_pct": 5.02
+  },
+  {
+   "league": "Korean KBL",
+   "avg_winning_margin": 10.5,
+   "decided_by_5_or_fewer_pct": 32.25,
+   "decided_by_10_or_fewer_pct": 60.03,
+   "went_to_ot_pct": 3.58
+  }
+ ],
+ "olbg_documented_markets": [
+  "Money Line",
+  "Pointspread",
+  "Game Totals"
+ ],
+ "olbg_market_definitions": "OLBG: Pointspread is 'similar to an Asian handicap. A team at -3 must win by at least 4 points to win the bet, while the opposing team at +3 wins the bet unless it loses by 4 or more. A 3-point win is a push, which returns your stake.' Game Totals: 'with a line of 216.5, the over needs at least 217 points in total to win.'",
+ "derived_margin_dispersion": {
+  "nba_avg_winning_margin": 12.5,
+  "olbg_reported": {
+   "p_win_by_5_or_fewer": 0.2508,
+   "p_win_by_10_or_fewer": 0.5146,
+   "went_to_ot_pct": 5.03
+  },
+  "sigma_from_mean_half_normal": 15.67,
+  "sigma_from_p_win_by_5_or_fewer": 15.64,
+  "sigma_from_p_win_by_10_or_fewer": 14.33,
+  "method": "Assume the winning margin W follows a half-normal with scale s, i.e. W = |N(0,s)|. Then E[W] = s*sqrt(2/pi) and P(W<=w) = 2*Phi(w/s)-1. Each of OLBG's three published figures is inverted separately for s.",
+  "cross_check": "All three of OLBG's independently published NBA figures imply a similar dispersion: the mean winning margin of 12.5 gives s=15.67, P(win by 5 or fewer)=25.08% gives s=15.64, and P(win by 10 or fewer)=51.46% gives s=14.33. Three separate columns of OLBG's table agreeing to within ~1.3 points is a genuine consistency check on the transcription.",
+  "interpretation": "This s is the dispersion of the RAW margin across all NBA games, where part of the spread is simply the favourite/underdog gap. The engine needs the dispersion of the margin ABOUT a side's expected margin, which is smaller. It therefore uses 12.0 for the NBA, the conservative end of the range, and records that the sourced raw-margin figure is ~15.6.",
+  "engine_value_used": 12.0,
+  "raw_margin_dispersion_sourced": 15.21
+ },
+ "irregularity": {
+  "severity": "medium",
+  "summary": "Two OLBG pages give different NBA favourite win rates for the same five-season window.",
+  "detail": "The basketball hub states NBA favourites won 67.87% overall (68.84% home, 66.27% away) across 6,582 games for 2021-22 to 2025-26. The NBA sub-page states 68.61% overall (69.64% home, 66.99% away) 'over the past five seasons' and gives the underdog rate as 31.39%. The two sets differ by roughly 0.7 percentage points throughout.",
+  "action_taken": "Neither figure is adopted as authoritative. Both are recorded. The engine uses the hub figure because it states an explicit game count and season window, and the difference is immaterial to any line produced.",
+  "status": "needs review"
+ }
+}
