@@ -1,4 +1,4 @@
 SOURCE: https://www.nrl.com/draw/
-FETCHED_UTC: 2026-10-27T05:41:09Z
+FETCHED_UTC: 2026-10-27T06:17:49Z
 
 Submit This Form

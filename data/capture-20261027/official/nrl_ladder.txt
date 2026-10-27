@@ -1,4 +1,4 @@
 SOURCE: https://www.nrl.com/ladder/
-FETCHED_UTC: 2026-10-27T05:41:13Z
+FETCHED_UTC: 2026-10-27T06:17:53Z
 
 Submit This Form
