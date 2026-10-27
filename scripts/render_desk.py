@@ -177,6 +177,18 @@ def pick_card(p: dict) -> str:
 def line_rows(subset) -> str:
     out = []
     for l in subset:
+        if not l["selections"]:
+            # An OLBG market with no displayed price is still a row: blank cells
+            # are intentional and the absence is flagged for review.
+            out.append(f'''<tr data-sport="{esc(l['sport_slug'])}" data-family="{esc(l['family'])}" data-unpriced="1" data-search="{esc((l['event'] + ' ' + l['market'] + ' ' + l['sport'] + ' unpriced').lower())}">
+<td>{esc(l['sport'])}</td>
+<td><strong>{esc(l['event'])}</strong><br><span class="muted">{when(l['start_utc'])} · {esc(l['competition'])}</span></td>
+<td>{esc(l['market'])}<br><span class="muted">{esc(l['family'])}</span></td>
+<td><em>No priced selection published</em></td>
+<td class="mono">—</td><td class="mono">—</td><td class="mono">—</td><td class="mono">—</td>
+<td>{source_cell([dict(name=l['official_name'], url=l['official_url'])], l['olbg_url'])}</td>
+</tr>''')
+            continue
         for sel in l["selections"]:
             out.append(f'''<tr data-sport="{esc(l['sport_slug'])}" data-family="{esc(l['family'])}" data-search="{esc((l['event'] + ' ' + l['market'] + ' ' + sel['selection'] + ' ' + l['sport']).lower())}">
 <td>{esc(l['sport'])}</td>

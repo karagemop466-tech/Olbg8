@@ -453,6 +453,8 @@ def official_for_event(sport: dict, ev: dict) -> dict:
             official_gaelic(out, ev, comps)
         elif key == "darts":
             official_darts(out, ev)
+        elif key == "greyhounds":
+            official_greyhounds(out, ev)
         elif key == "rugby-league":
             official_rugby_league(out, ev)
         else:
@@ -564,8 +566,11 @@ def official_tennis(out, ev, comps):
             out["flags"].append("Only one player from this OLBG match was found in the official draw text.")
         else:
             out["level"] = "competition" if ok else "directory"
-            out["facts"].append(f"The {label} page is the official tournament-level source for this event.")
-            out["flags"].append("Neither player name was matched inside the captured official draw text, so the official link is tournament-level rather than match-level.")
+            if ok:
+                out["facts"].append(f"The {label} page is the official tournament-level source for this event.")
+                out["flags"].append("Neither player name was matched inside the captured official draw text, so the official link is tournament-level rather than match-level.")
+            else:
+                out["flags"].append("Neither player name could be checked because the official draw capture failed; the official link is supplied for manual review only.")
     # WTA official rankings are the captured official source for ranked players.
     ranks = []
     for player in comps:
@@ -715,6 +720,21 @@ def official_darts(out, ev):
     else:
         out["flags"].append("PDC's captured tournament page did not expose an event-specific card for this Players Championship / outright row.")
     out["urls"][0]["url"] = official_url("pdc_tournaments")
+
+
+def official_greyhounds(out, ev):
+    out["url"] = official_url("gbgb_racing")
+    out["urls"][0]["url"] = out["url"]
+    out["urls"].append(dict(name="GBGB official results", url=official_url("gbgb_results")))
+    track = next((t for t in ("Sheffield", "Newcastle", "Towcester", "Romford", "Hove",
+                              "Nottingham", "Monmore", "Sunderland", "Doncaster")
+                  if OFFICIAL.text_has("gbgb_racing", t) and t.lower() in ev["name"].lower()), "")
+    if track:
+        out["level"] = "competition"
+        out["facts"].append(f"GBGB's official racing directory lists {track} among its licensed tracks.")
+    else:
+        out["flags"].append("No official GBGB racecard was matched to this OLBG race.")
+    out["flags"].append("OLBG published a race row but no displayed price for any runner, so no line or pick can be originated.")
 
 
 def official_rugby_league(out, ev):
@@ -1112,8 +1132,10 @@ def build_flags(events, official_by_id, lines, picks, sport_stats) -> list[dict]
             add("low", ev["sport"], f"Already started / expired: {ev['name']}",
                 "The OLBG timestamp is at or before the capture time. It is retained in the inventory but is not eligible for a pick.", srcs)
     for line in lines:
-        if line["flags"] and line["priced"]:
-            add("low", line["sport"], f"Market caveat: {line['event']} — {line['market']}",
+        if line["flags"]:
+            unpriced = not line["priced"]
+            add("high" if unpriced else "low", line["sport"],
+                f"{'Market has no priced selections' if unpriced else 'Market caveat'}: {line['event']} — {line['market']}",
                 "; ".join(line["flags"]),
                 [dict(name="OLBG event", url=line["olbg_url"]),
                  dict(name=line["official_name"], url=line["official_url"])])

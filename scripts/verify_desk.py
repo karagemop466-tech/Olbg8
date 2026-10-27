@@ -167,6 +167,15 @@ for path in html_files:
         check(any(is_official(u, official_hosts) for u in external),
               f"{rel}: table row without an official source link: {re.sub('<[^>]+>', ' ', row)[:110]}")
 
+# Unpriced OLBG markets must still be published as blank rows and flagged.
+lines_html = (ROOT / "lines.html").read_text(encoding="utf-8")
+unpriced = [l for l in DATA["lines"] if not l["priced"]]
+check(lines_html.count('data-unpriced="1"') == len(unpriced),
+      "unpriced market rows are missing from lines.html")
+for l in unpriced:
+    check(any(f["sport"] == l["sport"] and "no priced selections" in f["subject"].lower()
+              for f in DATA["flags"]), f"unpriced market {l['event']}/{l['market']} is not flagged")
+
 # Predictions must be visible on the picks page and the sport page.
 picks_html = (ROOT / "picks.html").read_text(encoding="utf-8")
 for p in DATA["picks"]:

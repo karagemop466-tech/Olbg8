@@ -16,11 +16,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild primary dashboard
-        run: python scripts/build_dashboard.py
-      - name: Validate data and local links
-        run: python scripts/test_site.py
+      - name: Rebuild legacy audit dashboard
+        run: python3 scripts/build_dashboard.py
+      - name: Rebuild desk dataset from committed capture
+        run: python3 scripts/desk_data.py
+      - name: Rebuild desk pages
+        run: python3 scripts/render_desk.py
+      - name: Validate legacy data and local links
+        run: python3 scripts/test_site.py
+      - name: Validate desk dataset, source links, predictions and pages
+        run: python3 scripts/verify_desk.py
       - name: Check JavaScript syntax
-        run: node --check assets/app.js
+        run: |
+          node --check assets/app.js
+          node --check assets/desk.js
       - name: Confirm generated files are committed
-        run: git diff --exit-code -- data/dashboard.json data/sources.json
+        run: |
+          git diff --exit-code -- data/dashboard.json data/sources.json \
+            data/desk-20261027.json index.html picks.html lines.html matches.html \
+            sources.html methodology.html flagged.html sports assets/desk.css assets/desk.js

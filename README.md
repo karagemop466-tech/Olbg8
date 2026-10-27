@@ -1,68 +1,75 @@
-# OLBG Research Desk
+# OLBG desk — 27 October 2026
 
-A clean, source-first static GitHub Pages dashboard for the requested OLBG sports:
+A clean, source-first static GitHub Pages dashboard that reverse-engineers OLBG's event feeds, originates an independent line for every priced market, and publishes fully written picks for exactly these 15 sports:
 
-- Golf
-- Volleyball
-- Rugby Union
-- Cricket
-- Snooker
-- Darts
-- Baseball
-- Gaelic Sports
-- Greyhounds
-- Tennis
-- Motor Racing
-- Handball
-- Ice Hockey
-- Basketball
-- Rugby League
+Golf · Volleyball · Rugby Union · Cricket · Snooker · Darts · Baseball · Gaelic Sports · Greyhounds · Tennis · Motor Racing · Handball · Ice Hockey · Basketball · Rugby League
 
-## What is in the primary site
+Live site: <https://karagemop466-tech.github.io/Olbg8/> (Pages builds from `main` at the repository root).
 
-- **Overview** — executive summary, publication status, sport coverage ledger, and the next captured listings.
-- **Matches** — searchable table of every in-scope OLBG listing in the capture, with the OLBG selection, displayed price, our research line where one was supportable, confidence, and both source paths.
-- **Picks** — the only recommendation page. It currently publishes zero actionable picks. Four full prose research briefs are retained as explicitly withheld notes because the capture did not clear every publication gate.
-- **One page per sport** — a clean category view for all 15 requested sports, including categories with no OLBG listing in this capture.
-- **Flagged for Review** — source gaps, missing event crosswalks, incomplete injury/availability checks, scope interpretation, and every flagged row.
-- **Sources** — official-source register and OLBG hub links.
-- **Methodology & markets** — OLBG reverse-engineering notes, market definitions, line calculation, confidence bands, and publication gates.
+## What is on the site
 
-## Snapshot
+| Page | Contents |
+| --- | --- |
+| [Overview](index.html) | Executive summary, the highest-confidence selections, a coverage ledger for all 15 sports, and the next upcoming OLBG events. An obvious link leads to the picks. |
+| [Today's picks](picks.html) | The recommendation page. Every pick names its selection and market, shows the OLBG price next to our fair line, carries a low / medium / high confidence badge, and has a unique 100+ word prediction with official facts and links. |
+| [Our lines](lines.html) | Every priced selection in every captured OLBG market — 2,393 originated lines in this snapshot — plus blank rows for markets OLBG published without prices. |
+| [Matches](matches.html) | The full OLBG event inventory with start times, market counts, official crosswalk level, independent totals where official scoring feeds allowed them, and source links. |
+| [One page per sport](sports/tennis.html) | 15 category pages that repeat the picks, lines, matches, official sources and flags for that sport. |
+| [Sources](sources.html) | The official / discovery / supplemental source register, each with its capture status, byte count, and link. |
+| [Methodology](methodology.html) | The OLBG `__data.json` reverse-engineering, the de-vig + consensus + official-strength pricing formula, confidence rules, market coverage and verification steps. |
+| [Flagged for review](flagged.html) | Every irregularity, missing official value, blocked endpoint, time discrepancy, short-priced exclusion and coverage gap, each with source links. |
 
-The included capture was taken **2026-10-26 05:18:26 UTC**. It contains **116 in-scope OLBG listings** after excluding one Hurling listing because Hurling was not requested. Four rows were identity-matched to an official event source and 17 rows have a research line from captured official inputs. No actionable pick is published.
+## Snapshot at a glance
 
-Those zeroes are deliberate. OLBG's sport pages expose events with tipster activity, not a complete fixture database. An official calendar or standings page is not treated as proof of an exact match, lineup, injury status, or available market. Blank values remain blank and are flagged instead of being inferred.
+- Captured **2026-10-27 06:17:39 UTC** by [the hosted collector](.github/workflows/collect-20261027.yml): 16 OLBG sport hubs, 16 “All Events” pages, **201** individual event payloads and **65** official source endpoints (47 returned HTTP 200; the rest are published with their failure status).
+- **596** event markets decoded; **592** had displayed prices, producing **2,393** originated lines. Four Greyhounds race rows had no displayed prices at all — they are published as blank, flagged rows rather than guessed.
+- **180** upcoming events; **92** start on the capture date (UTC).
+- **63** unique written picks across **13** sports: 11 high confidence, 49 medium, 3 low. All sit inside the requested **−250 to +10000** band. Twelve sports reached the five-pick target; Baseball has three (only one upcoming MLB game with three markets), Motor Racing has five across two outright/qualifying events, and Snooker and Greyhounds have none because OLBG published no tipped Snooker event and no priced Greyhounds selection.
+- **652** flagged items are published on the review page. Nothing unverified was silently filled in.
 
-## Run locally
+## How OLBG was reverse-engineered
 
-The primary site is static and has no build dependency:
+OLBG sport hubs and event pages are SvelteKit routes. Appending `/__data.json` to a hub URL (e.g. `https://www.olbg.com/betting-tips/Tennis/3/__data.json`) returns the flattened server payload; the same endpoint on an event URL returns the full `event` object, `eventSchema` JSON-LD, every market, every selection, decimal/American/fractional prices, tip counts, confidence values and start time. The collector decodes those flattened arrays and writes the exact bytes to `data/capture-20261027/`, so the derived dataset is reproducible from committed raw files.
 
-```bash
-python3 scripts/build_dashboard.py
-python3 scripts/test_site.py
-python3 -m http.server 8000 --bind 0.0.0.0
-```
+## Where the facts come from
 
-Open `http://localhost:8000/` locally. The browser must load the JSON over HTTP; opening the HTML directly as a `file://` URL will block the data fetch in most browsers.
+- **Market facts** (event names, start times, market names, selections, displayed prices, tip counts) — the captured OLBG `__data.json` payloads. Every row links to its OLBG event page.
+- **Official facts** (fixture identity, standings, rankings, results, calendars, tournament details) — official governing-body / league endpoints captured at the same time: NHL, MLB StatsAPI, WTA (rankings, tournaments and 2026 draw pages), ATP (link only; HTTP 403 at capture), ICC, Cricket Australia, CEV, EHF Champions League, EPCR, LNR Pro D2, GAA, GBGB, PDC, WST, PGA TOUR, LPGA, Formula 1, NBA, EuroLeague (HTTP 429/403 link only), NRL, Super League. Event-specific NHL game centres and MLB gameday pages are linked directly.
+- **Our calculations** (fair prices, edges, confidence, independent totals) — transparent formulas in [methodology.html](methodology.html), computed from the two source groups above. They are research lines, not bookmaker offers.
 
-The data transform is deterministic and uses these committed capture files:
-
-- `data/olbg-capture.json` — OLBG event feed and displayed selection/price snapshot.
-- `data/line-research.json` — research lines and official-source checks.
-- `data/official-evidence.json` — captured official evidence payload.
-- `data/publication-gate.json` — publication decision record.
-- `data/dashboard.json` — derived payload consumed by the site.
-- `data/sources.json` — official-source register.
+OLBG is discovery / market context only. An official calendar or standings page is **not** treated as proof of an exact match, lineup, injury status or price. Where an official event-level crosswalk, an injury sheet or a displayed price is missing, the field is blank and the gap appears on [Flagged for review](flagged.html).
 
 ## Verification standard
 
-A row must have an OLBG event link and an official source reference. An exact event crosswalk, current relevant statistics, a material availability/injury check, a defensible in-range line, and unique written reasoning are all required before a recommendation can appear on **Picks**. High-confidence prose must be unique, natural, at least 30 words, and must not claim facts that lack an official source. The repository's `COORDINATION.md` records source checks, irregularities, integration, and release status.
+`scripts/verify_desk.py` fails the build unless:
 
-This is independent research, not OLBG advice and not a guarantee. Check the linked source and current market before relying on any information. Only bet where lawful and only what you can afford to lose.
+1. Every event, market, selection, pick and flag has an official-source link and an OLBG link; **every generated table row** carries an official link.
+2. Every priced market's fair probabilities sum to 100% and every selection has an originated American price.
+3. Every prediction is unique, at least 30 words, names its selection, states its confidence, avoids the words “model” and “verified”, and sits inside −250..+10000.
+4. Every pick's prose appears on both the picks page and its sport page; every shortfall and empty sport is flagged.
+5. Every internal link resolves, the executive summary and flagged page exist, unpriced markets are published as blank rows, and the dataset is a deterministic function of the committed snapshot.
 
-## GitHub Pages
+Additional legacy checks (`scripts/test_site.py`) still validate the older source-first audit payload retained under `data/dashboard.json`.
 
-The repository is configured for Pages from `main` at <https://karagemop466-tech.github.io/Olbg8/>. The workflow validates the committed primary site and deploys the repository root after changes reach `main`.
+## Run locally
 
-The older `research-desk/` directory is retained as a supplementary audit artifact from earlier repository work. It is not the primary navigation or publication payload.
+```bash
+python3 scripts/desk_data.py      # rebuild data/desk-20261027.json from the committed capture
+python3 scripts/render_desk.py    # rebuild all root pages, sport pages, CSS and JS
+python3 scripts/verify_desk.py    # fail-closed verification
+python3 -m http.server 8000 --bind 0.0.0.0
+```
+
+The site is plain HTML; JavaScript only adds table filtering. No runtime data fetch is required. Opening `index.html` directly also works.
+
+## Repository layout
+
+- `data/capture-20261027/` — committed raw OLBG hub / all-events / event `__data.json` payloads, official JSON and text snapshots, and `manifest.json` with capture times and HTTP statuses.
+- `data/desk-20261027.json` — the derived dataset (events, lines, picks, flags, sources, methodology).
+- `scripts/collect_20261027.py`, `.github/workflows/collect-20261027.yml` — hosted bulk collector.
+- `scripts/desk_data.py`, `scripts/render_desk.py`, `scripts/verify_desk.py` — deterministic build and verification.
+- `data/dashboard.json`, `data/olbg-capture.json`, `data/line-research.json`, `data/official-evidence.json`, `data/publication-gate.json`, `data/sources.json` — legacy 2026-10-26 audit artifacts, retained unchanged.
+- `research-desk/`, `evidence-lab/` — supplementary audit artifacts from earlier sessions, linked from the footer but not part of primary navigation.
+- `COORDINATION.md` — shared task claims, source checks, irregularities, and PR / merge / deployment record.
+
+This is independent research, not OLBG advice and not a guarantee. Check the linked official source and the live market before relying on any information. Only bet where lawful and only what you can afford to lose.
