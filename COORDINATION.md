@@ -552,3 +552,10 @@ lines from OLBG's tip volume), and the rows are labelled by band rather than rem
 - PR [#26](https://github.com/karagemop466-tech/Olbg8/pull/26) merged at 06:03 UTC on 2026-10-27 as `5d13d3846ffccc37f3e15970d5ffa55f4fde9bbd`. The final [refresh/deploy run 40458870259](https://github.com/karagemop466-tech/Olbg8/actions/runs/40458870259) succeeded, and a live re-read of <https://karagemop466-tech.github.io/Olbg8/current/> and its JSON showed capture `2026-10-27T06:03:58Z`, 143 upcoming first-page observations, 39 event-specific links, six uncalibrated references and zero cleared picks. All 18 offline current tests and hosted source capture checks passed. Hourly scheduling is configured; future availability and completeness remain conditional on sources and Actions.
 - Status for this session: additive dashboard, bounded collection, review queue, and Pages publication **done**. Exhaustive event/market inventory, calibrated independent prices and the requested five high-confidence picks per sport per day remain **needs review**. Other sessions' published selections are not endorsed by this session; source, probability and time discrepancies are linked on the review page.
 
+
+**Presentation pass after #28**, found by reading my own live pages rather than the source: pick cards listed the same source twice when two
+claims shared it (now grouped, one link per source with its claims joined); a sport page labelled every attached link as the tier-defining
+source, which wrongly promoted ESPN and a FAQ to tier A alongside the official feed (the badge now sits on the source that matched the event
+and the block says "Event matched to a tier A source"); markets with zero tips rendered a "Low" band, implying a price existed (they now say
+"unpriced"); and the Tampa Bay note ended on a stale "wait for the announcement" line after the feed check (rewritten). No data changed; all
+four gates and a byte-identical rebuild pass.

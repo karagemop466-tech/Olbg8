@@ -236,9 +236,12 @@ def page_picks():
         ps = groups[sport]
         cards = []
         for p in ps:
-            srcs = "".join(f'<li><span class="claim">{e(s["claim"]) if s["claim"] else "Supports this entry."}</span> '
-                           f'{src_chip(s["name"], s["url"], s.get("tier"))}</li>'
-                           for s in p["sources"]) or '<li class="blank">No independent source located for this row.</li>'
+            grouped = {}
+            for sx in p["sources"]:
+                grouped.setdefault((sx["name"], sx["url"]), []).append(sx["claim"])
+            srcs = "".join(
+                f'<li><span class="claim">{e("; ".join(c for c in claims if c))}</span> {src_chip(name, url)}</li>'
+                for (name, url), claims in grouped.items()) or '<li class="blank">No independent source located for this row.</li>'
             facts = f'<p class="evidence"><b>Evidence note.</b> {e(p["evidence"])}</p>' if p["evidence"] else ""
             flags = "".join(f'<span class="mini">{e(f.replace("_", " "))}</span>' for f in p["line_flags"])
             cards.append(f"""<article class="pick" id="{p['pick_id']}">
@@ -283,7 +286,7 @@ def page_matches():
 <td>{e(r['market'])}</td><td class="mono">{ampn(r['fair_american'])}</td><td class="mono">{ampn(r['our_american'])}</td>
 <td class="mono">{pct(r['our_prob'])}</td>
 <td class="mono">{'' if r['olbg_win_tips'] is None else r['olbg_win_tips']}/{'' if r['olbg_total_tips'] is None else r['olbg_total_tips']}</td>
-<td>{band(r['confidence'])}</td>
+<td>{band(r['confidence']) if r['fair_american'] is not None else '<span class="mini">unpriced</span>'}</td>
 <td class="srcs">{src_chip('OLBG', r['olbg_url'])}<br>{official_chip(r)}</td>
 </tr>""" for r in sorted(rs, key=lambda x: -x["pick_score"]))
         body.append(f"""<section class="sportsec" id="{e(sport.lower().replace(' ', '-'))}">
@@ -517,15 +520,16 @@ def page_sport(key, v):
 <td class="mono">{ampn(next((r['our_american'] for r in rows if r['event_id'] == ev['event_id'] and r['market'] == m['market'] and r['selection'] == s['label']), None))}</td>
 <td class="mono">{pct(next((r['our_prob'] for r in rows if r['event_id'] == ev['event_id'] and r['market'] == m['market'] and r['selection'] == s['label']), None))}</td>
 <td class="mono">{'' if s['win_tips'] is None else s['win_tips']}/{'' if s['total_tips'] is None else s['total_tips']}</td>
-<td>{next((band(r['confidence']) for r in rows if r['event_id'] == ev['event_id'] and r['market'] == m['market'] and r['selection'] == s['label']), '')}</td>
+<td>{next((band(r['confidence']) if r['fair_american'] is not None else '<span class="mini">unpriced</span>' for r in rows if r['event_id'] == ev['event_id'] and r['market'] == m['market'] and r['selection'] == s['label']), '')}</td>
 <td class="srcs">{src_chip('OLBG', ev['olbg_url'])}</td></tr>"""
                         for m in ev["markets"] for s in m["selections"])
         off = ""
         cwkey = f"{key}:{ev['event_id']}"
         if cwkey in CW["events"]:
             c = CW["events"][cwkey]
-            off = f'<p class="offb"><b>{e("Tier " + c["tier"].upper() + " source")}</b> ' + \
-                  " ".join(src_chip(s["name"], s["url"], s.get("tier_override", c["tier"])) for s in c["sources"]) + \
+            off = f'<p class="offb"><b>{e("Event matched to a tier " + c["tier"].upper() + " source")}</b> ' + \
+                  " ".join(src_chip(x["name"], x["url"], x.get("tier_override") if i == 0 else None)
+                           for i, x in enumerate(c["sources"])) + \
                   f'<br><span class="fine">{e(c["sources"][0]["confirmed"])}</span></p>' 
         evb.append(f"""<div class="evblock"><h3><a href="{e(ev['olbg_url'])}" target="_blank" rel="noopener">{e(ev['name'])}</a></h3>
 <p class="meta">{e(ev['competition'])} · OLBG prints “{e(ev['time_label'])}” · {len(ev['markets'])} market(s) found</p>

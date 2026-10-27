@@ -99,7 +99,7 @@ PICKS = [
      "Zero OLBG tips sit on this side; the price is our floor estimate, not consensus."),
     ("baseball", "160799", "Money Line", "TB Rays",
      "Small exposure to Tampa Bay to avoid a sweep",
-     "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The price is what it is because Tampa Bay's listed starter, Griffin Jax according to the league's own feed, is a reliever being asked to open a World Series game, and the Sports Illustrated preview has him going on short rest. Bet Tampa Bay to win the match at +150 in a small unit, and treat the announcement as the trigger rather than the thesis.",
+     "Tampa Bay at +150 to win Game 4 is not a series prediction. It is a one-game price on a team that has kept two of three close in this World Series and gone 7-4 since the post-season started, which is not the profile of a side being walked over. The price is what it is because Tampa Bay's listed starter, Griffin Jax according to the league's own feed, is a reliever being asked to open a World Series game, and the Sports Illustrated preview has him going on short rest. Bet Tampa Bay to win the match at +150 in a small unit, and treat Milwaukee's still-blank probable slot as the lever this price depends on rather than the series state.",
      [("Jax listed as Tampa Bay's probable pitcher for Game 4", MLB_PP),
       ("Jax asked to open on short rest", SI_BET),
       ("Rays postseason record 7-4", SI_BET)],
