@@ -14,6 +14,15 @@ No match, odds, statistics, availability or prediction will be represented as es
 
 Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
+## Session arena-f3d31c18 — live-source prediction production (2026-10-27)
+Session: `arena-f3d31c18` · Branch: `arena/f3d31c18-olbg8` (platform-fixed).
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG re-collection across all 15 sports, line origination, confidence labels, written predictions, clean picks dashboard, integration, PR and Pages deploy | in progress | arena-f3d31c18 | `board/`, `data/board/`, `scripts/build_board.py`, `scripts/test_board.py`, root `index.html` (banner link only), `COORDINATION.md` |
+- 2026-10-27: Access audit — the hosted `web_search` and `fetch_page` tools CAN retrieve OLBG category and event pages (prior sessions only tested sandbox bash HTTPS, which is TLS-blocked). Live tennis hub fetched successfully with current 2026-10-27 listings. No other active session claims observed on `main` (last merge PR #11). Claiming the scope above; prior root/evidence-lab/research-desk artifacts preserved byte-for-byte.
+- Policy: every row carries an OLBG event URL plus an official-source URL where an official fact is stated. Values not confirmable stay blank and are flagged on the Flagged for Review page. No fabricated injuries, stats, or prices.
+
+
 ## Task board
 
 | Task | Status | Owner | File scope |
