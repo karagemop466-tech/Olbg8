@@ -14,6 +14,24 @@ No match, odds, statistics, availability or prediction will be represented as es
 
 Last updated: 2026-10-27 UTC. This board records work across the repository and the source-first primary site. Active session: `dcc71481` (branch `arena/dcc71481-olbg8`).
 
+## Session arena-f3d31c18 — live-source prediction production (2026-10-27)
+Session: `arena-f3d31c18` · Branch: `arena/f3d31c18-olbg8` (platform-fixed).
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Live OLBG re-collection across all 15 sports, line origination, confidence labels, written predictions, clean picks dashboard, integration, PR and Pages deploy | in progress | arena-f3d31c18 | `board/`, `data/board/`, `scripts/build_board.py`, `scripts/test_board.py`, root `index.html` (banner link only), `COORDINATION.md` |
+- 2026-10-27: Access audit — the hosted `web_search` and `fetch_page` tools CAN retrieve OLBG category and event pages (prior sessions only tested sandbox bash HTTPS, which is TLS-blocked). Live tennis hub fetched successfully with current 2026-10-27 listings. No other active session claims observed on `main` (last merge PR #11). Claiming the scope above; prior root/evidence-lab/research-desk artifacts preserved byte-for-byte.
+- Policy: every row carries an OLBG event URL plus an official-source URL where an official fact is stated. Values not confirmable stay blank and are flagged on the Flagged for Review page. No fabricated injuries, stats, or prices.
+
+
+### Completion record — arena-f3d31c18 (2026-10-27)
+
+- **Access breakthrough:** the hosted fetch/search tools retrieve live OLBG hubs and event pages (prior sessions only tested sandbox bash HTTPS, which remains TLS-blocked). All 16 hubs (15 sports, Gaelic Football + Hurling) were fetched live on 2026-10-27.
+- **Scope shipped:** new self-contained static dashboard in `board/` (20 pages) built by `scripts/build_board.py` from curated JSON in `data/board/board-data-1..5.json`; validated by `scripts/test_board.py` (15 sports, 119 market rows, 48 written predictions, all local links resolve, banned-word and 30-word gates, source-link requirement on every row). Wired into `quality.yml` and `pages.yml`. Root `index.html` and every desk page gain a `Picks Board` nav entry and summary link through the parallel session's `scripts/build_site.py` generator (regenerated, so their diff gate stays green); their desk artifacts are preserved and `scripts/check_site.py` still passes.
+- **Official cross-checks performed (fetched directly):** NBA.com games/records, NHL.com schedule/GameCenter, MLB.com schedule/Gameday (World Series MIL@TB, G1 10-1), ATP Tour scores (Basel/Vienna), ICC fixtures (six event-level match URLs), LNR Pro D2 J9 calendar with table positions, EHF Champions League match list (12 detail URLs), EuroLeague standings, Formula1.com 2026 calendar, LPGA/PGA tournament registers, PDC.tv entries news, WST match status (no tournament), GAA.ie fixtures, GBGB racing database, NRL.com RLWC2026 draw.
+- **Line origination:** OLBG consensus shrunk toward 50% with prior strength 4 (w = n/(n+4)); independently sourced hosted-market probabilities take precedence where recorded and linked; American/decimal prices and high/medium/low confidence derived deterministically; -250..+10000 target-band flag per row. 9 high-confidence lines resulted; only two fall inside the target band, disclosed rather than forced.
+- **Irregularities published on board/flagged.html:** (1) OLBG handball markets dominated by anomalous Tie selections — independent match-winner lines originated and flagged; (2) OLBG has no Snooker tips (WST confirms no tournament today) and no Greyhound tips (GBGB database JS-rendered); (3) RLWC2026 fixtures confirmed on NRL.com but absent from OLBG — published as unpriced official fixtures; (4) third-party World Series odds articles conflict with MLB.com venue/sequence — MLB.com treated as authoritative; (5) CEV live match centres and GBGB race cards not extractable — register links only; (6) media golf/darts outright prices are dated snapshots, linked per row; (7) sparse sports (Golf 3, Darts 2, Motor 2, Gaelic 4, Baseball 3 rows) cannot reach five picks without fabrication — shortfalls shown honestly.
+- **Injury discipline:** no injury, lineup or statistic is asserted without a linked source; rows without an official bulletin simply make no injury claim and are flagged where the source is register-level.
+- Status: done, pending PR and Pages confirmation (recorded below after merge).
 ## Task board
 
 | Task | Status | Owner | File scope |

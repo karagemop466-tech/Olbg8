@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · OLBG Picks Board</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">OLBG Picks Board <span>27 Oct 2026</span></a>
+    <nav>
+      <a href="index.html">Executive summary</a>
+      <a href="matches.html">All matches &amp; lines</a>
+      <a href="flagged.html">Flagged for review</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<h1>Methodology and markets</h1>
+<h2>Collection</h2>
+<p>Each OLBG sport hub was fetched directly on 27 Oct 2026 and every visible event recorded with its event URL, competition, OLBG time label, market, selection and tip count. Fixture identity was then cross-checked against the official source registered per sport (NBA.com, NHL.com, MLB.com, ATP Tour, ICC, LNR, EHF, EuroLeague, Formula1.com, PGA/LPGA, PDC, WST, GAA, GBGB and NRL.com). A row whose fixture only appears on OLBG is marked with an official-register (not event) link and a flag.</p>
+<h2>Line origination</h2>
+<p>OLBG displays a tip consensus but no price in the captured markup. We originate our own price from that consensus with a shrinkage rule that regresses small samples toward a coin flip, so a two-tip unanimous market is never treated as a certainty:</p>
+<ul class='flags'>
+<li>consensus c = tips_for / tips_total</li>
+<li>sample weight w = n / (n + 4), where n is the total number of tips (a two-outcome prior of two tips each side)</li>
+<li>consensus-only fair probability p = 0.5 + w &times; (c &minus; 0.5)</li>
+<li>where an independent hosted market probability was recorded and linked on the row, that sourced probability is used as the fair probability and the OLBG consensus is retained as a confirmation signal</li>
+<li>American price: p &ge; 0.5 gives &minus;100p/(1&minus;p), otherwise +100(1&minus;p)/p; decimal price = 1/p</li>
+</ul>
+<h2>Confidence and target band</h2>
+<ul class='flags'>
+<li><b>high</b>: fair probability at or above 70%</li>
+<li><b>medium</b>: 55% to 69.9%</li>
+<li><b>low</b>: below 55%</li>
+<li>The requested focus band is American prices from &minus;250 to +10000. Rows shorter than &minus;250 keep their high label but are marked 'outside target band'.</li>
+</ul>
+<h2>Independent overrides</h2>
+<p>Where OLBG's single-tip or small-sample selection contradicts official standings (for example Detroit 3-0 being tipped against while visiting winless New York, or 10th-placed Dax being favoured over 2nd-placed Provence), the originated line follows the official data instead. These rows carry an 'independent of OLBG consensus' badge and explain the disagreement in the written prediction.</p>
+<h2>Markets investigated</h2>
+<p>Money line / match winner markets are priced for every event with tips. Handicap, puck line, run line, point spread, frame/set betting, totals and outright tournament markets appear where OLBG lists them; totals markets with zero tips are deliberately left unpriced rather than guessed.</p>
+<h2>Publication gate and injury information</h2>
+<p>Every written prediction is at least 30 words, states the betting selection explicitly, and cites only facts traceable to the linked OLBG event page or official source. No injury, lineup or statistic is asserted without a source; where no official injury bulletin was reviewed, the row simply makes no injury claim instead of inventing one. Unconfirmable values stay blank and appear on the Flagged for Review page.</p>
+<h2>Known structural limitations</h2>
+<ul class='flags'>
+<li>OLBG times are displayed exactly as labelled on the hub and were not timezone-normalised.</li>
+<li>The CEV live match-centre index and the GBGB race database are JavaScript-rendered; register links are provided and the affected rows flagged.</li>
+<li>Media odds pages used as secondary market inputs are dated and linked per row; conflicting World Series articles are flagged in favour of MLB.com.</li>
+<li>This is a point-in-time snapshot. Tip counts and prices move; re-run the collection before staking.</li>
+</ul>
+</main>
+<footer class="wrap footer">
+  <p>Research dashboard generated 2026-10-27 from live OLBG listings and official sources listed per row. Tips are opinions for adults 18+. Every originated line is derived from the documented rule on the Methodology page; blank values could not be confirmed and are flagged rather than inferred.</p>
+</footer>
+</body>
+</html>

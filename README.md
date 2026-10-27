@@ -4,6 +4,17 @@ A static dashboard for the fifteen OLBG sports in scope. Every page is generated
 `scripts/build_site.py` and gated by `scripts/check_site.py`, so the published site can be rebuilt and audited
 line by line.
 
+## Companion 2026-10-27 picks board
+
+The **[Picks Board](board/index.html)** is the current working dashboard, built from a live re-collection of OLBG on 27 Oct 2026:
+
+- Executive summary with all high-confidence picks, 15 sport subpages and a full 119-row market table with originated lines ([board/matches.html](board/matches.html)).
+- 48 unique written predictions (30+ words each, explicit selections, no robotic templates), 9 high-confidence lines, every row linked to its OLBG event page and an official source.
+- Deterministic line origination from OLBG consensus with Bayesian shrinkage and independently sourced market prices; see [board/methodology.html](board/methodology.html).
+- Every gap, conflict and unconfirmed value is published on [board/flagged.html](board/flagged.html).
+- Rebuild and validate with `python3 scripts/test_board.py` (also enforced in GitHub Actions).
+
+The legacy source-first desk below, the research-desk and evidence-lab directories are retained as audit history.
 **Live site:** <https://karagemop466-tech.github.io/Olbg8/>
 
 ## What is on the site

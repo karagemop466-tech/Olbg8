@@ -91,6 +91,7 @@ NAV = [
     ("sources", "Sources", "sources.html"),
     ("flagged", "Flagged", "flagged.html"),
     ("method", "Method", "methodology.html"),
+    ("board", "Picks Board", "board/index.html"),
 ]
 
 
@@ -337,6 +338,10 @@ official source.</p>
 
 <h2>Executive summary</h2>
 <div class="card">
+<p><strong>Extended 2026-10-27 re-collection:</strong> the companion <a href="board/index.html">Picks Board</a>
+covers 119 priced markets across all 15 sports with 48 written predictions, its own deterministic line-origination
+rule, per-row official source links and a dedicated <a href="board/flagged.html">review queue</a>. Snooker and
+greyhounds are reported as empty rather than padded, and sparse outright sports show their shortfalls honestly.</p>
 <p><strong>Where the picks are:</strong> <a href="picks.html">Picks</a> lists every selection with its price,
 win chance and confidence, followed by the full written reasoning. Each sport page repeats its own picks at the
 top, above that sport's OLBG listing table. <a href="matches.html">Matches</a> is the complete inventory.</p>
