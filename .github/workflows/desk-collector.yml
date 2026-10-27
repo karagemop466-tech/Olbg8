@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "desk-collector-51373243"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw collect collect-ping || true
+          git add data/olbg data/raw collect collect-ping || true
           git diff --cached --quiet || git commit -m "collect: OLBG snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash origin arena/51373243-olbg8 || true
           git push origin HEAD:arena/51373243-olbg8 || echo "PUSH FAILED: snapshots remain in run log"
