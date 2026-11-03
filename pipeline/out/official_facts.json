@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-11-02T16:08:34Z",
+ "built_utc": "2026-11-03T14:29:34Z",
  "sources": {
   "baseball": [
    {
@@ -13,7 +13,7 @@
     "capture": "official_baseball_1",
     "label": "MLB.com StatsAPI recent results",
     "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=linescore,team",
-    "chars": 31596,
+    "chars": 27661,
     "ok": true
    },
    {
@@ -36,14 +36,14 @@
     "capture": "official_ice_hockey_0",
     "label": "NHL.com schedule API",
     "url": "https://api-web.nhle.com/v1/schedule/now",
-    "chars": 98271,
+    "chars": 99452,
     "ok": true
    },
    {
     "capture": "official_ice_hockey_1",
     "label": "NHL.com standings API",
     "url": "https://api-web.nhle.com/v1/standings/now",
-    "chars": 58248,
+    "chars": 58246,
     "ok": true
    }
   ],
@@ -89,14 +89,14 @@
     "capture": "official_tennis_0",
     "label": "WTA Tour scores",
     "url": "https://www.wtatennis.com/scores",
-    "chars": 211610,
+    "chars": 214444,
     "ok": true
    },
    {
     "capture": "official_tennis_1",
     "label": "WTA Tour singles rankings",
     "url": "https://www.wtatennis.com/rankings/singles",
-    "chars": 1178086,
+    "chars": 1177652,
     "ok": true
    }
   ],
@@ -105,21 +105,21 @@
     "capture": "official_golf_0",
     "label": "PGA TOUR schedule",
     "url": "https://www.pgatour.com/schedule",
-    "chars": 535815,
+    "chars": 535791,
     "ok": true
    },
    {
     "capture": "official_golf_1",
     "label": "LPGA tournament schedule",
     "url": "https://www.lpga.com/tournaments",
-    "chars": 540804,
+    "chars": 539376,
     "ok": true
    },
    {
     "capture": "official_golf_2",
     "label": "PGA TOUR leaderboard",
     "url": "https://www.pgatour.com/leaderboard",
-    "chars": 1015129,
+    "chars": 1015138,
     "ok": true
    }
   ],
@@ -128,14 +128,14 @@
     "capture": "official_cricket_0",
     "label": "ICC fixtures and results",
     "url": "https://www.icc-cricket.com/fixtures-results",
-    "chars": 369998,
+    "chars": 370066,
     "ok": true
    },
    {
     "capture": "official_cricket_1",
     "label": "ICC men's ODI team rankings",
     "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
-    "chars": 457145,
+    "chars": 457213,
     "ok": true
    }
   ],
@@ -144,28 +144,28 @@
     "capture": "official_rugby_union_0",
     "label": "EPCR (Champions Cup) fixtures page",
     "url": "https://www.epcrugby.com/",
-    "chars": 724995,
+    "chars": 728177,
     "ok": true
    },
    {
     "capture": "official_rugby_union_2",
     "label": "United Rugby Championship fixtures",
     "url": "https://www.unitedrugby.com/",
-    "chars": 600731,
+    "chars": 592262,
     "ok": true
    },
    {
     "capture": "official_rugby_union_3",
     "label": "LNR Pro D2 calendar and results",
     "url": "https://prod2.lnr.fr/calendrier-et-resultats",
-    "chars": 161644,
+    "chars": 167366,
     "ok": true
    },
    {
     "capture": "official_rugby_union_4",
     "label": "LNR Top 14 calendar and results",
     "url": "https://top14.lnr.fr/calendrier-et-resultats",
-    "chars": 158865,
+    "chars": 161037,
     "ok": true
    }
   ],
@@ -190,7 +190,7 @@
     "capture": "official_handball_1",
     "label": "EHF (eurohandball.com) matches",
     "url": "https://www.eurohandball.com/en/",
-    "chars": 161465,
+    "chars": 161253,
     "ok": true
    }
   ],
@@ -199,7 +199,7 @@
     "capture": "official_gaelic_sports_0",
     "label": "GAA fixtures and results",
     "url": "https://www.gaa.ie/fixtures-results/",
-    "chars": 1325397,
+    "chars": 1325201,
     "ok": true
    }
   ],
@@ -215,7 +215,7 @@
     "capture": "official_greyhounds_2",
     "label": "GBGB race cards",
     "url": "https://www.gbgb.org.uk/race-cards/",
-    "chars": 96175,
+    "chars": 96162,
     "ok": true
    }
   ],
@@ -233,7 +233,7 @@
     "capture": "official_snooker_0",
     "label": "World Snooker Tour matches",
     "url": "https://www.wst.tv/matches",
-    "chars": 6169,
+    "chars": 181111,
     "ok": true
    },
    {
@@ -249,7 +249,7 @@
     "capture": "official_basketball_3",
     "label": "NBA.com games",
     "url": "https://www.nba.com/games",
-    "chars": 586531,
+    "chars": 727283,
     "ok": true
    }
   ],
@@ -259,26 +259,6 @@
   "baseball": {
    "fixtures": [],
    "results": [
-    {
-     "sport": "baseball",
-     "competition": "MLB",
-     "game_id": 849805,
-     "start_utc": "2026-10-24T00:00:00Z",
-     "official_date": "2026-10-23",
-     "status": "Final",
-     "home": "Milwaukee Brewers",
-     "away": "Tampa Bay Rays",
-     "home_id": 158,
-     "away_id": 139,
-     "venue": "American Family Field",
-     "probable_home": null,
-     "probable_away": null,
-     "home_score": 3,
-     "away_score": 2,
-     "source": "MLB.com StatsAPI",
-     "source_url": "https://www.mlb.com/gameday/849805",
-     "feed_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&gamePk=849805"
-    },
     {
      "sport": "baseball",
      "competition": "MLB",
@@ -1208,74 +1188,6 @@
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020232,
-     "start_utc": "2026-11-03T00:00:00Z",
-     "status": "FUT",
-     "home": "Boston Bruins",
-     "away": "Vegas Golden Knights",
-     "home_abbrev": "BOS",
-     "away_abbrev": "VGK",
-     "venue": "TD Garden",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020232",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020233,
-     "start_utc": "2026-11-03T00:00:00Z",
-     "status": "FUT",
-     "home": "Florida Panthers",
-     "away": "Detroit Red Wings",
-     "home_abbrev": "FLA",
-     "away_abbrev": "DET",
-     "venue": "Amerant Bank Arena",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020233",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020234,
-     "start_utc": "2026-11-03T01:00:00Z",
-     "status": "FUT",
-     "home": "Chicago Blackhawks",
-     "away": "Colorado Avalanche",
-     "home_abbrev": "CHI",
-     "away_abbrev": "COL",
-     "venue": "United Center",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020234",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020235,
-     "start_utc": "2026-11-03T02:00:00Z",
-     "status": "FUT",
-     "home": "San Jose Sharks",
-     "away": "Calgary Flames",
-     "home_abbrev": "SJS",
-     "away_abbrev": "CGY",
-     "venue": "SAP Center at San Jose",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020235",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
      "game_id": 2026020236,
      "start_utc": "2026-11-04T00:00:00Z",
      "status": "FUT",
@@ -1969,92 +1881,177 @@
      "source": "NHL.com schedule API",
      "source_url": "https://www.nhl.com/gamecenter/2026020276",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020277,
+     "start_utc": "2026-11-08T18:00:00Z",
+     "status": "FUT",
+     "home": "Boston Bruins",
+     "away": "Florida Panthers",
+     "home_abbrev": "BOS",
+     "away_abbrev": "FLA",
+     "venue": "TD Garden",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020277",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020278,
+     "start_utc": "2026-11-08T20:30:00Z",
+     "status": "FUT",
+     "home": "Buffalo Sabres",
+     "away": "Vegas Golden Knights",
+     "home_abbrev": "BUF",
+     "away_abbrev": "VGK",
+     "venue": "KeyBank Center",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020278",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020280,
+     "start_utc": "2026-11-08T23:00:00Z",
+     "status": "FUT",
+     "home": "Winnipeg Jets",
+     "away": "Tampa Bay Lightning",
+     "home_abbrev": "WPG",
+     "away_abbrev": "TBL",
+     "venue": "Canada Life Centre",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020280",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020279,
+     "start_utc": "2026-11-09T00:00:00Z",
+     "status": "FUT",
+     "home": "Toronto Maple Leafs",
+     "away": "New Jersey Devils",
+     "home_abbrev": "TOR",
+     "away_abbrev": "NJD",
+     "venue": "Scotiabank Arena",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020279",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020281,
+     "start_utc": "2026-11-09T00:00:00Z",
+     "status": "FUT",
+     "home": "Calgary Flames",
+     "away": "Philadelphia Flyers",
+     "home_abbrev": "CGY",
+     "away_abbrev": "PHI",
+     "venue": "Scotiabank Saddledome",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020281",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020282,
+     "start_utc": "2026-11-09T01:00:00Z",
+     "status": "FUT",
+     "home": "Anaheim Ducks",
+     "away": "Pittsburgh Penguins",
+     "home_abbrev": "ANA",
+     "away_abbrev": "PIT",
+     "venue": "Honda Center",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020282",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     }
    ],
    "results": [
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020227,
-     "start_utc": "2026-11-01T18:00:00Z",
+     "game_id": 2026020232,
+     "start_utc": "2026-11-03T00:00:00Z",
      "status": "OFF",
-     "home": "Carolina Hurricanes",
-     "away": "Winnipeg Jets",
-     "home_abbrev": "CAR",
-     "away_abbrev": "WPG",
-     "venue": "Lenovo Center",
-     "home_score": 7,
-     "away_score": 0,
+     "home": "Boston Bruins",
+     "away": "Vegas Golden Knights",
+     "home_abbrev": "BOS",
+     "away_abbrev": "VGK",
+     "venue": "TD Garden",
+     "home_score": 3,
+     "away_score": 2,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020227",
+     "source_url": "https://www.nhl.com/gamecenter/2026020232",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     },
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020228,
-     "start_utc": "2026-11-01T20:30:00Z",
+     "game_id": 2026020233,
+     "start_utc": "2026-11-03T00:00:00Z",
      "status": "OFF",
-     "home": "Washington Capitals",
-     "away": "Minnesota Wild",
-     "home_abbrev": "WSH",
-     "away_abbrev": "MIN",
-     "venue": "Capital One Arena",
-     "home_score": 1,
+     "home": "Florida Panthers",
+     "away": "Detroit Red Wings",
+     "home_abbrev": "FLA",
+     "away_abbrev": "DET",
+     "venue": "Amerant Bank Arena",
+     "home_score": 3,
      "away_score": 5,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020228",
+     "source_url": "https://www.nhl.com/gamecenter/2026020233",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     },
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020229,
-     "start_utc": "2026-11-01T21:00:00Z",
+     "game_id": 2026020234,
+     "start_utc": "2026-11-03T01:00:00Z",
      "status": "OFF",
-     "home": "Philadelphia Flyers",
-     "away": "Utah Mammoth",
-     "home_abbrev": "PHI",
-     "away_abbrev": "UTA",
-     "venue": "Xfinity Mobile Arena",
-     "home_score": 6,
-     "away_score": 3,
+     "home": "Chicago Blackhawks",
+     "away": "Colorado Avalanche",
+     "home_abbrev": "CHI",
+     "away_abbrev": "COL",
+     "venue": "United Center",
+     "home_score": 2,
+     "away_score": 5,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020229",
+     "source_url": "https://www.nhl.com/gamecenter/2026020234",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     },
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020230,
-     "start_utc": "2026-11-01T23:00:00Z",
+     "game_id": 2026020235,
+     "start_utc": "2026-11-03T02:00:00Z",
      "status": "OFF",
-     "home": "New York Rangers",
-     "away": "Edmonton Oilers",
-     "home_abbrev": "NYR",
-     "away_abbrev": "EDM",
-     "venue": "Madison Square Garden",
+     "home": "San Jose Sharks",
+     "away": "Calgary Flames",
+     "home_abbrev": "SJS",
+     "away_abbrev": "CGY",
+     "venue": "SAP Center at San Jose",
      "home_score": 1,
-     "away_score": 4,
+     "away_score": 2,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020230",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020231,
-     "start_utc": "2026-11-02T01:00:00Z",
-     "status": "OFF",
-     "home": "Anaheim Ducks",
-     "away": "Ottawa Senators",
-     "home_abbrev": "ANA",
-     "away_abbrev": "OTT",
-     "venue": "Honda Center",
-     "home_score": 6,
-     "away_score": 3,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020231",
+     "source_url": "https://www.nhl.com/gamecenter/2026020235",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     }
    ],
@@ -2152,21 +2149,21 @@
     "BOS": {
      "name": "Boston",
      "abbrev": "BOS",
-     "points": 21,
-     "games_played": 15,
-     "wins": 10,
+     "points": 23,
+     "games_played": 16,
+     "wins": 11,
      "losses": 4,
      "ot_losses": 1,
-     "goal_for": 55,
-     "goal_against": 36,
-     "goal_diff": 19,
-     "point_pct": 0.7,
+     "goal_for": 58,
+     "goal_against": 38,
+     "goal_diff": 20,
+     "point_pct": 0.71875,
      "l10_wins": 7,
      "l10_losses": 2,
      "l10_ot_losses": 1,
      "l10_points": 15,
      "home": {
-      "w": 6,
+      "w": 7,
       "l": 1,
       "otl": 0
      },
@@ -2212,19 +2209,19 @@
     "VGK": {
      "name": "Vegas",
      "abbrev": "VGK",
-     "points": 19,
-     "games_played": 15,
+     "points": 20,
+     "games_played": 16,
      "wins": 9,
      "losses": 5,
-     "ot_losses": 1,
-     "goal_for": 53,
-     "goal_against": 44,
-     "goal_diff": 9,
-     "point_pct": 0.633333,
-     "l10_wins": 5,
+     "ot_losses": 2,
+     "goal_for": 55,
+     "goal_against": 47,
+     "goal_diff": 8,
+     "point_pct": 0.625,
+     "l10_wins": 4,
      "l10_losses": 4,
-     "l10_ot_losses": 1,
-     "l10_points": 11,
+     "l10_ot_losses": 2,
+     "l10_points": 10,
      "home": {
       "w": 6,
       "l": 3,
@@ -2233,11 +2230,41 @@
      "road": {
       "w": 3,
       "l": 2,
-      "otl": 1
+      "otl": 2
      },
-     "streak": "L",
+     "streak": "OT",
      "conference": "Western",
      "division": "Pacific"
+    },
+    "COL": {
+     "name": "Colorado",
+     "abbrev": "COL",
+     "points": 19,
+     "games_played": 15,
+     "wins": 9,
+     "losses": 5,
+     "ot_losses": 1,
+     "goal_for": 64,
+     "goal_against": 46,
+     "goal_diff": 18,
+     "point_pct": 0.633333,
+     "l10_wins": 6,
+     "l10_losses": 3,
+     "l10_ot_losses": 1,
+     "l10_points": 13,
+     "home": {
+      "w": 6,
+      "l": 1,
+      "otl": 1
+     },
+     "road": {
+      "w": 3,
+      "l": 4,
+      "otl": 0
+     },
+     "streak": "W",
+     "conference": "Western",
+     "division": "Central"
     },
     "OTT": {
      "name": "Ottawa",
@@ -2329,36 +2356,6 @@
      "conference": "Eastern",
      "division": "Metropolitan"
     },
-    "FLA": {
-     "name": "Florida",
-     "abbrev": "FLA",
-     "points": 18,
-     "games_played": 14,
-     "wins": 8,
-     "losses": 4,
-     "ot_losses": 2,
-     "goal_for": 44,
-     "goal_against": 39,
-     "goal_diff": 5,
-     "point_pct": 0.642857,
-     "l10_wins": 6,
-     "l10_losses": 4,
-     "l10_ot_losses": 0,
-     "l10_points": 12,
-     "home": {
-      "w": 3,
-      "l": 1,
-      "otl": 0
-     },
-     "road": {
-      "w": 5,
-      "l": 3,
-      "otl": 2
-     },
-     "streak": "W",
-     "conference": "Eastern",
-     "division": "Atlantic"
-    },
     "UTA": {
      "name": "Utah",
      "abbrev": "UTA",
@@ -2389,6 +2386,36 @@
      "conference": "Western",
      "division": "Central"
     },
+    "FLA": {
+     "name": "Florida",
+     "abbrev": "FLA",
+     "points": 18,
+     "games_played": 15,
+     "wins": 8,
+     "losses": 5,
+     "ot_losses": 2,
+     "goal_for": 47,
+     "goal_against": 44,
+     "goal_diff": 3,
+     "point_pct": 0.6,
+     "l10_wins": 6,
+     "l10_losses": 4,
+     "l10_ot_losses": 0,
+     "l10_points": 12,
+     "home": {
+      "w": 3,
+      "l": 2,
+      "otl": 0
+     },
+     "road": {
+      "w": 5,
+      "l": 3,
+      "otl": 2
+     },
+     "streak": "L",
+     "conference": "Eastern",
+     "division": "Atlantic"
+    },
     "TOR": {
      "name": "Toronto",
      "abbrev": "TOR",
@@ -2418,36 +2445,6 @@
      "streak": "W",
      "conference": "Eastern",
      "division": "Atlantic"
-    },
-    "COL": {
-     "name": "Colorado",
-     "abbrev": "COL",
-     "points": 17,
-     "games_played": 14,
-     "wins": 8,
-     "losses": 5,
-     "ot_losses": 1,
-     "goal_for": 59,
-     "goal_against": 44,
-     "goal_diff": 15,
-     "point_pct": 0.607143,
-     "l10_wins": 5,
-     "l10_losses": 4,
-     "l10_ot_losses": 1,
-     "l10_points": 11,
-     "home": {
-      "w": 6,
-      "l": 1,
-      "otl": 1
-     },
-     "road": {
-      "w": 2,
-      "l": 4,
-      "otl": 0
-     },
-     "streak": "W",
-     "conference": "Western",
-     "division": "Central"
     },
     "SEA": {
      "name": "Seattle",
@@ -2534,6 +2531,36 @@
       "w": 4,
       "l": 1,
       "otl": 3
+     },
+     "streak": "W",
+     "conference": "Eastern",
+     "division": "Atlantic"
+    },
+    "DET": {
+     "name": "Detroit",
+     "abbrev": "DET",
+     "points": 17,
+     "games_played": 15,
+     "wins": 7,
+     "losses": 5,
+     "ot_losses": 3,
+     "goal_for": 46,
+     "goal_against": 46,
+     "goal_diff": 0,
+     "point_pct": 0.566667,
+     "l10_wins": 6,
+     "l10_losses": 2,
+     "l10_ot_losses": 2,
+     "l10_points": 14,
+     "home": {
+      "w": 4,
+      "l": 4,
+      "otl": 1
+     },
+     "road": {
+      "w": 3,
+      "l": 1,
+      "otl": 2
      },
      "streak": "W",
      "conference": "Eastern",
@@ -2629,36 +2656,6 @@
      "conference": "Western",
      "division": "Central"
     },
-    "DET": {
-     "name": "Detroit",
-     "abbrev": "DET",
-     "points": 15,
-     "games_played": 14,
-     "wins": 6,
-     "losses": 5,
-     "ot_losses": 3,
-     "goal_for": 41,
-     "goal_against": 43,
-     "goal_diff": -2,
-     "point_pct": 0.535714,
-     "l10_wins": 5,
-     "l10_losses": 2,
-     "l10_ot_losses": 3,
-     "l10_points": 13,
-     "home": {
-      "w": 4,
-      "l": 4,
-      "otl": 1
-     },
-     "road": {
-      "w": 2,
-      "l": 1,
-      "otl": 2
-     },
-     "streak": "L",
-     "conference": "Eastern",
-     "division": "Atlantic"
-    },
     "NSH": {
      "name": "Nashville",
      "abbrev": "NSH",
@@ -2723,21 +2720,21 @@
      "name": "San Jose",
      "abbrev": "SJS",
      "points": 15,
-     "games_played": 15,
+     "games_played": 16,
      "wins": 7,
-     "losses": 7,
+     "losses": 8,
      "ot_losses": 1,
-     "goal_for": 41,
-     "goal_against": 52,
-     "goal_diff": -11,
-     "point_pct": 0.5,
+     "goal_for": 42,
+     "goal_against": 54,
+     "goal_diff": -12,
+     "point_pct": 0.46875,
      "l10_wins": 4,
      "l10_losses": 5,
      "l10_ot_losses": 1,
      "l10_points": 9,
      "home": {
       "w": 3,
-      "l": 4,
+      "l": 5,
       "otl": 0
      },
      "road": {
@@ -2746,6 +2743,36 @@
       "otl": 1
      },
      "streak": "L",
+     "conference": "Western",
+     "division": "Pacific"
+    },
+    "CGY": {
+     "name": "Calgary",
+     "abbrev": "CGY",
+     "points": 14,
+     "games_played": 15,
+     "wins": 7,
+     "losses": 8,
+     "ot_losses": 0,
+     "goal_for": 38,
+     "goal_against": 53,
+     "goal_diff": -15,
+     "point_pct": 0.466667,
+     "l10_wins": 7,
+     "l10_losses": 3,
+     "l10_ot_losses": 0,
+     "l10_points": 14,
+     "home": {
+      "w": 5,
+      "l": 3,
+      "otl": 0
+     },
+     "road": {
+      "w": 2,
+      "l": 5,
+      "otl": 0
+     },
+     "streak": "W",
      "conference": "Western",
      "division": "Pacific"
     },
@@ -2776,36 +2803,6 @@
       "otl": 0
      },
      "streak": "W",
-     "conference": "Western",
-     "division": "Pacific"
-    },
-    "CGY": {
-     "name": "Calgary",
-     "abbrev": "CGY",
-     "points": 12,
-     "games_played": 14,
-     "wins": 6,
-     "losses": 8,
-     "ot_losses": 0,
-     "goal_for": 36,
-     "goal_against": 52,
-     "goal_diff": -16,
-     "point_pct": 0.428571,
-     "l10_wins": 6,
-     "l10_losses": 4,
-     "l10_ot_losses": 0,
-     "l10_points": 12,
-     "home": {
-      "w": 5,
-      "l": 3,
-      "otl": 0
-     },
-     "road": {
-      "w": 1,
-      "l": 5,
-      "otl": 0
-     },
-     "streak": "L",
      "conference": "Western",
      "division": "Pacific"
     },
@@ -2963,21 +2960,21 @@
      "name": "Chicago",
      "abbrev": "CHI",
      "points": 9,
-     "games_played": 14,
+     "games_played": 15,
      "wins": 4,
-     "losses": 9,
+     "losses": 10,
      "ot_losses": 1,
-     "goal_for": 31,
-     "goal_against": 53,
-     "goal_diff": -22,
-     "point_pct": 0.321429,
+     "goal_for": 33,
+     "goal_against": 58,
+     "goal_diff": -25,
+     "point_pct": 0.3,
      "l10_wins": 3,
      "l10_losses": 6,
      "l10_ot_losses": 1,
      "l10_points": 7,
      "home": {
       "w": 4,
-      "l": 4,
+      "l": 5,
       "otl": 0
      },
      "road": {
@@ -2985,7 +2982,7 @@
       "l": 5,
       "otl": 1
      },
-     "streak": "OT",
+     "streak": "L",
      "conference": "Western",
      "division": "Central"
     },
@@ -3397,7 +3394,7 @@
     },
     {
      "position": "7",
-     "points": "150",
+     "points": "144",
      "wins": "0",
      "driver": "Piastri",
      "given": "Oscar",
@@ -3407,7 +3404,7 @@
     },
     {
      "position": "8",
-     "points": "105",
+     "points": "107",
      "wins": "0",
      "driver": "Hadjar",
      "given": "Isack",
@@ -3417,7 +3414,7 @@
     },
     {
      "position": "9",
-     "points": "79",
+     "points": "83",
      "wins": "0",
      "driver": "Lawson",
      "given": "Liam",
@@ -3427,7 +3424,7 @@
     },
     {
      "position": "10",
-     "points": "43",
+     "points": "42",
      "wins": "0",
      "driver": "Gasly",
      "given": "Pierre",
@@ -3447,7 +3444,7 @@
     },
     {
      "position": "12",
-     "points": "31",
+     "points": "27",
      "wins": "0",
      "driver": "Colapinto",
      "given": "Franco",
@@ -3467,22 +3464,22 @@
     },
     {
      "position": "14",
+     "points": "14",
+     "wins": "0",
+     "driver": "Bortoleto",
+     "given": "Gabriel",
+     "code": "BOR",
+     "nationality": "Brazilian",
+     "constructor": "Audi"
+    },
+    {
+     "position": "15",
      "points": "13",
      "wins": "0",
      "driver": "H\u00fclkenberg",
      "given": "Nico",
      "code": "HUL",
      "nationality": "German",
-     "constructor": "Audi"
-    },
-    {
-     "position": "15",
-     "points": "10",
-     "wins": "0",
-     "driver": "Bortoleto",
-     "given": "Gabriel",
-     "code": "BOR",
-     "nationality": "Brazilian",
      "constructor": "Audi"
     },
     {
@@ -3537,6 +3534,16 @@
     },
     {
      "position": "21",
+     "points": "1",
+     "wins": "0",
+     "driver": "Hirakawa",
+     "given": "Ryo",
+     "code": "HIR",
+     "nationality": "Japanese",
+     "constructor": "Haas F1 Team"
+    },
+    {
+     "position": "22",
      "points": "0",
      "wins": "0",
      "driver": "Stroll",
@@ -3546,7 +3553,7 @@
      "constructor": "Aston Martin"
     },
     {
-     "position": "22",
+     "position": "23",
      "points": "0",
      "wins": "0",
      "driver": "Bottas",
@@ -3554,16 +3561,6 @@
      "code": "BOT",
      "nationality": "Finnish",
      "constructor": "Cadillac F1 Team"
-    },
-    {
-     "position": "23",
-     "points": "0",
-     "wins": "0",
-     "driver": "Hirakawa",
-     "given": "Ryo",
-     "code": "HIR",
-     "nationality": "Japanese",
-     "constructor": "Haas F1 Team"
     },
     {
      "position": "24",
@@ -3591,37 +3588,37 @@
     },
     {
      "position": "3",
-     "points": "380",
+     "points": "382",
      "wins": "3",
      "constructor": "Red Bull"
     },
     {
      "position": "4",
-     "points": "371",
+     "points": "365",
      "wins": "2",
      "constructor": "McLaren"
     },
     {
      "position": "5",
-     "points": "104",
+     "points": "108",
      "wins": "0",
      "constructor": "RB F1 Team"
     },
     {
      "position": "6",
-     "points": "74",
+     "points": "69",
      "wins": "0",
      "constructor": "Alpine F1 Team"
     },
     {
      "position": "7",
-     "points": "30",
+     "points": "31",
      "wins": "0",
      "constructor": "Haas F1 Team"
     },
     {
      "position": "8",
-     "points": "23",
+     "points": "27",
      "wins": "0",
      "constructor": "Audi"
     },
