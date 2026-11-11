@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-11-10T15:05:16Z",
+ "built_utc": "2026-11-11T14:34:51Z",
  "sources": {
   "baseball": [
    {
@@ -36,14 +36,14 @@
     "capture": "official_ice_hockey_0",
     "label": "NHL.com schedule API",
     "url": "https://api-web.nhle.com/v1/schedule/now",
-    "chars": 92946,
+    "chars": 90828,
     "ok": true
    },
    {
     "capture": "official_ice_hockey_1",
     "label": "NHL.com standings API",
     "url": "https://api-web.nhle.com/v1/standings/now",
-    "chars": 58307,
+    "chars": 58323,
     "ok": true
    }
   ],
@@ -105,21 +105,21 @@
     "capture": "official_golf_0",
     "label": "PGA TOUR schedule",
     "url": "https://www.pgatour.com/schedule",
-    "chars": 536264,
+    "chars": 535186,
     "ok": true
    },
    {
     "capture": "official_golf_1",
     "label": "LPGA tournament schedule",
     "url": "https://www.lpga.com/tournaments",
-    "chars": 505376,
+    "chars": 514965,
     "ok": true
    },
    {
     "capture": "official_golf_2",
     "label": "PGA TOUR leaderboard",
     "url": "https://www.pgatour.com/leaderboard",
-    "chars": 1016986,
+    "chars": 969494,
     "ok": true
    }
   ],
@@ -128,14 +128,14 @@
     "capture": "official_cricket_0",
     "label": "ICC fixtures and results",
     "url": "https://www.icc-cricket.com/fixtures-results",
-    "chars": 372682,
+    "chars": 400536,
     "ok": true
    },
    {
     "capture": "official_cricket_1",
     "label": "ICC men's ODI team rankings",
     "url": "https://www.icc-cricket.com/rankings/mens/team-rankings/odi",
-    "chars": 459787,
+    "chars": 509455,
     "ok": true
    }
   ],
@@ -144,7 +144,7 @@
     "capture": "official_rugby_union_0",
     "label": "EPCR (Champions Cup) fixtures page",
     "url": "https://www.epcrugby.com/",
-    "chars": 616595,
+    "chars": 590469,
     "ok": true
    },
    {
@@ -158,14 +158,14 @@
     "capture": "official_rugby_union_3",
     "label": "LNR Pro D2 calendar and results",
     "url": "https://prod2.lnr.fr/calendrier-et-resultats",
-    "chars": 167345,
+    "chars": 166904,
     "ok": true
    },
    {
     "capture": "official_rugby_union_4",
     "label": "LNR Top 14 calendar and results",
     "url": "https://top14.lnr.fr/calendrier-et-resultats",
-    "chars": 161522,
+    "chars": 167856,
     "ok": true
    }
   ],
@@ -181,7 +181,7 @@
     "capture": "official_volleyball_2",
     "label": "CEV match centres",
     "url": "https://www.cev.eu/match-centres/",
-    "chars": 488123,
+    "chars": 487806,
     "ok": true
    }
   ],
@@ -190,7 +190,7 @@
     "capture": "official_handball_1",
     "label": "EHF (eurohandball.com) matches",
     "url": "https://www.eurohandball.com/en/",
-    "chars": 160752,
+    "chars": 161252,
     "ok": true
    }
   ],
@@ -199,7 +199,7 @@
     "capture": "official_gaelic_sports_0",
     "label": "GAA fixtures and results",
     "url": "https://www.gaa.ie/fixtures-results/",
-    "chars": 1338676,
+    "chars": 1338114,
     "ok": true
    }
   ],
@@ -215,7 +215,7 @@
     "capture": "official_greyhounds_2",
     "label": "GBGB race cards",
     "url": "https://www.gbgb.org.uk/race-cards/",
-    "chars": 96163,
+    "chars": 96175,
     "ok": true
    }
   ],
@@ -224,7 +224,7 @@
     "capture": "official_darts_0",
     "label": "PDC (pdc.tv) tournaments",
     "url": "https://www.pdc.tv/tournaments",
-    "chars": 763148,
+    "chars": 763134,
     "ok": true
    }
   ],
@@ -233,7 +233,7 @@
     "capture": "official_snooker_0",
     "label": "World Snooker Tour matches",
     "url": "https://www.wst.tv/matches",
-    "chars": 181111,
+    "chars": 6169,
     "ok": true
    },
    {
@@ -249,7 +249,7 @@
     "capture": "official_basketball_3",
     "label": "NBA.com games",
     "url": "https://www.nba.com/games",
-    "chars": 523626,
+    "chars": 462394,
     "ok": true
    }
   ],
@@ -1107,125 +1107,6 @@
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020286,
-     "start_utc": "2026-11-11T00:00:00Z",
-     "status": "FUT",
-     "home": "Toronto Maple Leafs",
-     "away": "Colorado Avalanche",
-     "home_abbrev": "TOR",
-     "away_abbrev": "COL",
-     "venue": "Scotiabank Arena",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020286",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020287,
-     "start_utc": "2026-11-11T00:00:00Z",
-     "status": "FUT",
-     "home": "Montr\u00e9al Canadiens",
-     "away": "Minnesota Wild",
-     "home_abbrev": "MTL",
-     "away_abbrev": "MIN",
-     "venue": "Centre Bell",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020287",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020288,
-     "start_utc": "2026-11-11T00:00:00Z",
-     "status": "FUT",
-     "home": "Ottawa Senators",
-     "away": "Washington Capitals",
-     "home_abbrev": "OTT",
-     "away_abbrev": "WSH",
-     "venue": "Canadian Tire Centre",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020288",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020291,
-     "start_utc": "2026-11-11T00:00:00Z",
-     "status": "FUT",
-     "home": "Winnipeg Jets",
-     "away": "New Jersey Devils",
-     "home_abbrev": "WPG",
-     "away_abbrev": "NJD",
-     "venue": "Canada Life Centre",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020291",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020289,
-     "start_utc": "2026-11-11T00:30:00Z",
-     "status": "FUT",
-     "home": "Columbus Blue Jackets",
-     "away": "Florida Panthers",
-     "home_abbrev": "CBJ",
-     "away_abbrev": "FLA",
-     "venue": "Nationwide Arena",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020289",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020290,
-     "start_utc": "2026-11-11T01:00:00Z",
-     "status": "FUT",
-     "home": "St. Louis Blues",
-     "away": "Detroit Red Wings",
-     "home_abbrev": "STL",
-     "away_abbrev": "DET",
-     "venue": "Enterprise Center",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020290",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
-     "game_id": 2026020292,
-     "start_utc": "2026-11-11T03:00:00Z",
-     "status": "FUT",
-     "home": "Los Angeles Kings",
-     "away": "Nashville Predators",
-     "home_abbrev": "LAK",
-     "away_abbrev": "NSH",
-     "venue": "Crypto.com Arena",
-     "home_score": null,
-     "away_score": null,
-     "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020292",
-     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
-    },
-    {
-     "sport": "ice-hockey",
-     "competition": "NHL",
      "game_id": 2026020293,
      "start_utc": "2026-11-12T00:00:00Z",
      "status": "FUT",
@@ -1868,58 +1749,160 @@
      "source": "NHL.com schedule API",
      "source_url": "https://www.nhl.com/gamecenter/2026020330",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020331,
+     "start_utc": "2026-11-17T00:30:00Z",
+     "status": "FUT",
+     "home": "New York Rangers",
+     "away": "Montr\u00e9al Canadiens",
+     "home_abbrev": "NYR",
+     "away_abbrev": "MTL",
+     "venue": "Madison Square Garden",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020331",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020332,
+     "start_utc": "2026-11-17T02:30:00Z",
+     "status": "FUT",
+     "home": "Utah Mammoth",
+     "away": "Vancouver Canucks",
+     "home_abbrev": "UTA",
+     "away_abbrev": "VAN",
+     "venue": "Delta Center",
+     "home_score": null,
+     "away_score": null,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020332",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     }
    ],
    "results": [
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020283,
-     "start_utc": "2026-11-10T01:00:00Z",
+     "game_id": 2026020286,
+     "start_utc": "2026-11-11T00:00:00Z",
      "status": "OFF",
-     "home": "Edmonton Oilers",
-     "away": "New York Rangers",
-     "home_abbrev": "EDM",
-     "away_abbrev": "NYR",
-     "venue": "Rogers Place",
+     "home": "Toronto Maple Leafs",
+     "away": "Colorado Avalanche",
+     "home_abbrev": "TOR",
+     "away_abbrev": "COL",
+     "venue": "Scotiabank Arena",
      "home_score": 3,
-     "away_score": 1,
+     "away_score": 6,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020283",
+     "source_url": "https://www.nhl.com/gamecenter/2026020286",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     },
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020284,
-     "start_utc": "2026-11-10T02:30:00Z",
+     "game_id": 2026020287,
+     "start_utc": "2026-11-11T00:00:00Z",
      "status": "OFF",
-     "home": "Vancouver Canucks",
-     "away": "Philadelphia Flyers",
-     "home_abbrev": "VAN",
-     "away_abbrev": "PHI",
-     "venue": "Rogers Arena",
+     "home": "Montr\u00e9al Canadiens",
+     "away": "Minnesota Wild",
+     "home_abbrev": "MTL",
+     "away_abbrev": "MIN",
+     "venue": "Centre Bell",
      "home_score": 1,
+     "away_score": 2,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020287",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020288,
+     "start_utc": "2026-11-11T00:00:00Z",
+     "status": "OFF",
+     "home": "Ottawa Senators",
+     "away": "Washington Capitals",
+     "home_abbrev": "OTT",
+     "away_abbrev": "WSH",
+     "venue": "Canadian Tire Centre",
+     "home_score": 2,
      "away_score": 3,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020284",
+     "source_url": "https://www.nhl.com/gamecenter/2026020288",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     },
     {
      "sport": "ice-hockey",
      "competition": "NHL",
-     "game_id": 2026020285,
-     "start_utc": "2026-11-10T03:00:00Z",
+     "game_id": 2026020291,
+     "start_utc": "2026-11-11T00:00:00Z",
      "status": "OFF",
-     "home": "San Jose Sharks",
-     "away": "New York Islanders",
-     "home_abbrev": "SJS",
-     "away_abbrev": "NYI",
-     "venue": "SAP Center at San Jose",
+     "home": "Winnipeg Jets",
+     "away": "New Jersey Devils",
+     "home_abbrev": "WPG",
+     "away_abbrev": "NJD",
+     "venue": "Canada Life Centre",
+     "home_score": 4,
+     "away_score": 2,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020291",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020289,
+     "start_utc": "2026-11-11T00:30:00Z",
+     "status": "OFF",
+     "home": "Columbus Blue Jackets",
+     "away": "Florida Panthers",
+     "home_abbrev": "CBJ",
+     "away_abbrev": "FLA",
+     "venue": "Nationwide Arena",
+     "home_score": 1,
+     "away_score": 4,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020289",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020290,
+     "start_utc": "2026-11-11T01:00:00Z",
+     "status": "OFF",
+     "home": "St. Louis Blues",
+     "away": "Detroit Red Wings",
+     "home_abbrev": "STL",
+     "away_abbrev": "DET",
+     "venue": "Enterprise Center",
      "home_score": 3,
      "away_score": 2,
      "source": "NHL.com schedule API",
-     "source_url": "https://www.nhl.com/gamecenter/2026020285",
+     "source_url": "https://www.nhl.com/gamecenter/2026020290",
+     "feed_url": "https://api-web.nhle.com/v1/schedule/now"
+    },
+    {
+     "sport": "ice-hockey",
+     "competition": "NHL",
+     "game_id": 2026020292,
+     "start_utc": "2026-11-11T03:00:00Z",
+     "status": "OFF",
+     "home": "Los Angeles Kings",
+     "away": "Nashville Predators",
+     "home_abbrev": "LAK",
+     "away_abbrev": "NSH",
+     "venue": "Crypto.com Arena",
+     "home_score": 0,
+     "away_score": 3,
+     "source": "NHL.com schedule API",
+     "source_url": "https://www.nhl.com/gamecenter/2026020292",
      "feed_url": "https://api-web.nhle.com/v1/schedule/now"
     }
    ],
@@ -1954,6 +1937,36 @@
      "conference": "Eastern",
      "division": "Metropolitan"
     },
+    "MIN": {
+     "name": "Minnesota",
+     "abbrev": "MIN",
+     "points": 30,
+     "games_played": 20,
+     "wins": 13,
+     "losses": 3,
+     "ot_losses": 4,
+     "goal_for": 65,
+     "goal_against": 44,
+     "goal_diff": 21,
+     "point_pct": 0.75,
+     "l10_wins": 7,
+     "l10_losses": 1,
+     "l10_ot_losses": 2,
+     "l10_points": 16,
+     "home": {
+      "w": 5,
+      "l": 0,
+      "otl": 2
+     },
+     "road": {
+      "w": 8,
+      "l": 3,
+      "otl": 2
+     },
+     "streak": "W",
+     "conference": "Western",
+     "division": "Central"
+    },
     "EDM": {
      "name": "Edmonton",
      "abbrev": "EDM",
@@ -1983,36 +1996,6 @@
      "streak": "W",
      "conference": "Western",
      "division": "Pacific"
-    },
-    "MIN": {
-     "name": "Minnesota",
-     "abbrev": "MIN",
-     "points": 28,
-     "games_played": 19,
-     "wins": 12,
-     "losses": 3,
-     "ot_losses": 4,
-     "goal_for": 63,
-     "goal_against": 43,
-     "goal_diff": 20,
-     "point_pct": 0.736842,
-     "l10_wins": 6,
-     "l10_losses": 1,
-     "l10_ot_losses": 3,
-     "l10_points": 15,
-     "home": {
-      "w": 5,
-      "l": 0,
-      "otl": 2
-     },
-     "road": {
-      "w": 7,
-      "l": 3,
-      "otl": 2
-     },
-     "streak": "OT",
-     "conference": "Western",
-     "division": "Central"
     },
     "BOS": {
      "name": "Boston",
@@ -2044,35 +2027,35 @@
      "conference": "Eastern",
      "division": "Atlantic"
     },
-    "NJD": {
-     "name": "New Jersey",
-     "abbrev": "NJD",
+    "MTL": {
+     "name": "Montr\u00e9al",
+     "abbrev": "MTL",
      "points": 26,
      "games_played": 18,
-     "wins": 13,
-     "losses": 5,
-     "ot_losses": 0,
-     "goal_for": 66,
-     "goal_against": 51,
-     "goal_diff": 15,
+     "wins": 11,
+     "losses": 3,
+     "ot_losses": 4,
+     "goal_for": 62,
+     "goal_against": 55,
+     "goal_diff": 7,
      "point_pct": 0.722222,
-     "l10_wins": 9,
-     "l10_losses": 1,
-     "l10_ot_losses": 0,
-     "l10_points": 18,
+     "l10_wins": 7,
+     "l10_losses": 0,
+     "l10_ot_losses": 3,
+     "l10_points": 17,
      "home": {
-      "w": 8,
+      "w": 5,
       "l": 2,
-      "otl": 0
+      "otl": 3
      },
      "road": {
-      "w": 5,
-      "l": 3,
-      "otl": 0
+      "w": 6,
+      "l": 1,
+      "otl": 1
      },
-     "streak": "W",
+     "streak": "OT",
      "conference": "Eastern",
-     "division": "Metropolitan"
+     "division": "Atlantic"
     },
     "VGK": {
      "name": "Vegas",
@@ -2104,35 +2087,35 @@
      "conference": "Western",
      "division": "Pacific"
     },
-    "MTL": {
-     "name": "Montr\u00e9al",
-     "abbrev": "MTL",
-     "points": 25,
-     "games_played": 17,
-     "wins": 11,
-     "losses": 3,
-     "ot_losses": 3,
-     "goal_for": 61,
-     "goal_against": 53,
-     "goal_diff": 8,
-     "point_pct": 0.735294,
+    "NJD": {
+     "name": "New Jersey",
+     "abbrev": "NJD",
+     "points": 26,
+     "games_played": 19,
+     "wins": 13,
+     "losses": 6,
+     "ot_losses": 0,
+     "goal_for": 68,
+     "goal_against": 55,
+     "goal_diff": 13,
+     "point_pct": 0.684211,
      "l10_wins": 8,
-     "l10_losses": 0,
-     "l10_ot_losses": 2,
-     "l10_points": 18,
+     "l10_losses": 2,
+     "l10_ot_losses": 0,
+     "l10_points": 16,
      "home": {
-      "w": 5,
+      "w": 8,
       "l": 2,
-      "otl": 2
+      "otl": 0
      },
      "road": {
-      "w": 6,
-      "l": 1,
-      "otl": 1
+      "w": 5,
+      "l": 4,
+      "otl": 0
      },
-     "streak": "W",
+     "streak": "L",
      "conference": "Eastern",
-     "division": "Atlantic"
+     "division": "Metropolitan"
     },
     "TBL": {
      "name": "Tampa Bay",
@@ -2164,35 +2147,95 @@
      "conference": "Eastern",
      "division": "Atlantic"
     },
+    "COL": {
+     "name": "Colorado",
+     "abbrev": "COL",
+     "points": 24,
+     "games_played": 19,
+     "wins": 11,
+     "losses": 6,
+     "ot_losses": 2,
+     "goal_for": 78,
+     "goal_against": 59,
+     "goal_diff": 19,
+     "point_pct": 0.631579,
+     "l10_wins": 6,
+     "l10_losses": 3,
+     "l10_ot_losses": 1,
+     "l10_points": 13,
+     "home": {
+      "w": 7,
+      "l": 1,
+      "otl": 2
+     },
+     "road": {
+      "w": 4,
+      "l": 5,
+      "otl": 0
+     },
+     "streak": "W",
+     "conference": "Western",
+     "division": "Central"
+    },
     "OTT": {
      "name": "Ottawa",
      "abbrev": "OTT",
-     "points": 23,
-     "games_played": 18,
+     "points": 24,
+     "games_played": 19,
      "wins": 11,
      "losses": 6,
-     "ot_losses": 1,
-     "goal_for": 58,
-     "goal_against": 54,
-     "goal_diff": 4,
-     "point_pct": 0.638889,
+     "ot_losses": 2,
+     "goal_for": 60,
+     "goal_against": 57,
+     "goal_diff": 3,
+     "point_pct": 0.631579,
      "l10_wins": 5,
-     "l10_losses": 4,
-     "l10_ot_losses": 1,
-     "l10_points": 11,
+     "l10_losses": 3,
+     "l10_ot_losses": 2,
+     "l10_points": 12,
      "home": {
       "w": 6,
       "l": 2,
-      "otl": 0
+      "otl": 1
      },
      "road": {
       "w": 5,
       "l": 4,
       "otl": 1
      },
-     "streak": "W",
+     "streak": "OT",
      "conference": "Eastern",
      "division": "Atlantic"
+    },
+    "NSH": {
+     "name": "Nashville",
+     "abbrev": "NSH",
+     "points": 23,
+     "games_played": 18,
+     "wins": 9,
+     "losses": 4,
+     "ot_losses": 5,
+     "goal_for": 55,
+     "goal_against": 51,
+     "goal_diff": 4,
+     "point_pct": 0.638889,
+     "l10_wins": 6,
+     "l10_losses": 2,
+     "l10_ot_losses": 2,
+     "l10_points": 14,
+     "home": {
+      "w": 6,
+      "l": 3,
+      "otl": 2
+     },
+     "road": {
+      "w": 3,
+      "l": 1,
+      "otl": 3
+     },
+     "streak": "W",
+     "conference": "Western",
+     "division": "Central"
     },
     "DAL": {
      "name": "Dallas",
@@ -2224,65 +2267,35 @@
      "conference": "Western",
      "division": "Central"
     },
-    "COL": {
-     "name": "Colorado",
-     "abbrev": "COL",
+    "FLA": {
+     "name": "Florida",
+     "abbrev": "FLA",
      "points": 22,
-     "games_played": 18,
+     "games_played": 19,
      "wins": 10,
-     "losses": 6,
+     "losses": 7,
      "ot_losses": 2,
-     "goal_for": 72,
+     "goal_for": 60,
      "goal_against": 56,
-     "goal_diff": 16,
-     "point_pct": 0.611111,
+     "goal_diff": 4,
+     "point_pct": 0.578947,
      "l10_wins": 5,
-     "l10_losses": 4,
-     "l10_ot_losses": 1,
-     "l10_points": 11,
+     "l10_losses": 5,
+     "l10_ot_losses": 0,
+     "l10_points": 10,
      "home": {
-      "w": 7,
-      "l": 1,
-      "otl": 2
-     },
-     "road": {
-      "w": 3,
-      "l": 5,
+      "w": 4,
+      "l": 2,
       "otl": 0
      },
-     "streak": "W",
-     "conference": "Western",
-     "division": "Central"
-    },
-    "NSH": {
-     "name": "Nashville",
-     "abbrev": "NSH",
-     "points": 21,
-     "games_played": 17,
-     "wins": 8,
-     "losses": 4,
-     "ot_losses": 5,
-     "goal_for": 52,
-     "goal_against": 51,
-     "goal_diff": 1,
-     "point_pct": 0.617647,
-     "l10_wins": 6,
-     "l10_losses": 2,
-     "l10_ot_losses": 2,
-     "l10_points": 14,
-     "home": {
+     "road": {
       "w": 6,
-      "l": 3,
+      "l": 5,
       "otl": 2
      },
-     "road": {
-      "w": 2,
-      "l": 1,
-      "otl": 3
-     },
      "streak": "W",
-     "conference": "Western",
-     "division": "Central"
+     "conference": "Eastern",
+     "division": "Atlantic"
     },
     "ANA": {
      "name": "Anaheim",
@@ -2374,35 +2387,35 @@
      "conference": "Eastern",
      "division": "Metropolitan"
     },
-    "FLA": {
-     "name": "Florida",
-     "abbrev": "FLA",
+    "WSH": {
+     "name": "Washington",
+     "abbrev": "WSH",
      "points": 20,
-     "games_played": 18,
-     "wins": 9,
-     "losses": 7,
-     "ot_losses": 2,
+     "games_played": 16,
+     "wins": 10,
+     "losses": 6,
+     "ot_losses": 0,
      "goal_for": 56,
-     "goal_against": 55,
-     "goal_diff": 1,
-     "point_pct": 0.555556,
-     "l10_wins": 5,
-     "l10_losses": 5,
+     "goal_against": 53,
+     "goal_diff": 3,
+     "point_pct": 0.625,
+     "l10_wins": 7,
+     "l10_losses": 3,
      "l10_ot_losses": 0,
-     "l10_points": 10,
+     "l10_points": 14,
      "home": {
-      "w": 4,
-      "l": 2,
+      "w": 7,
+      "l": 4,
       "otl": 0
      },
      "road": {
-      "w": 5,
-      "l": 5,
-      "otl": 2
+      "w": 3,
+      "l": 2,
+      "otl": 0
      },
-     "streak": "L",
+     "streak": "W",
      "conference": "Eastern",
-     "division": "Atlantic"
+     "division": "Metropolitan"
     },
     "SEA": {
      "name": "Seattle",
@@ -2464,35 +2477,35 @@
      "conference": "Eastern",
      "division": "Atlantic"
     },
-    "WSH": {
-     "name": "Washington",
-     "abbrev": "WSH",
-     "points": 18,
-     "games_played": 15,
-     "wins": 9,
-     "losses": 6,
-     "ot_losses": 0,
+    "WPG": {
+     "name": "Winnipeg",
+     "abbrev": "WPG",
+     "points": 19,
+     "games_played": 19,
+     "wins": 8,
+     "losses": 8,
+     "ot_losses": 3,
      "goal_for": 53,
-     "goal_against": 51,
-     "goal_diff": 2,
-     "point_pct": 0.6,
-     "l10_wins": 6,
-     "l10_losses": 4,
-     "l10_ot_losses": 0,
-     "l10_points": 12,
+     "goal_against": 65,
+     "goal_diff": -12,
+     "point_pct": 0.5,
+     "l10_wins": 4,
+     "l10_losses": 5,
+     "l10_ot_losses": 1,
+     "l10_points": 9,
      "home": {
-      "w": 7,
+      "w": 5,
       "l": 4,
-      "otl": 0
+      "otl": 1
      },
      "road": {
-      "w": 2,
-      "l": 2,
-      "otl": 0
+      "w": 3,
+      "l": 4,
+      "otl": 2
      },
      "streak": "W",
-     "conference": "Eastern",
-     "division": "Metropolitan"
+     "conference": "Western",
+     "division": "Central"
     },
     "NYI": {
      "name": "NY Islanders",
@@ -2524,25 +2537,55 @@
      "conference": "Eastern",
      "division": "Metropolitan"
     },
+    "STL": {
+     "name": "St. Louis",
+     "abbrev": "STL",
+     "points": 18,
+     "games_played": 18,
+     "wins": 8,
+     "losses": 8,
+     "ot_losses": 2,
+     "goal_for": 53,
+     "goal_against": 55,
+     "goal_diff": -2,
+     "point_pct": 0.5,
+     "l10_wins": 5,
+     "l10_losses": 4,
+     "l10_ot_losses": 1,
+     "l10_points": 11,
+     "home": {
+      "w": 5,
+      "l": 2,
+      "otl": 1
+     },
+     "road": {
+      "w": 3,
+      "l": 6,
+      "otl": 1
+     },
+     "streak": "W",
+     "conference": "Western",
+     "division": "Central"
+    },
     "TOR": {
      "name": "Toronto",
      "abbrev": "TOR",
      "points": 18,
-     "games_played": 19,
+     "games_played": 20,
      "wins": 8,
-     "losses": 9,
+     "losses": 10,
      "ot_losses": 2,
-     "goal_for": 64,
-     "goal_against": 64,
-     "goal_diff": 0,
-     "point_pct": 0.473684,
-     "l10_wins": 5,
-     "l10_losses": 5,
+     "goal_for": 67,
+     "goal_against": 70,
+     "goal_diff": -3,
+     "point_pct": 0.45,
+     "l10_wins": 4,
+     "l10_losses": 6,
      "l10_ot_losses": 0,
-     "l10_points": 10,
+     "l10_points": 8,
      "home": {
       "w": 4,
-      "l": 6,
+      "l": 7,
       "otl": 1
      },
      "road": {
@@ -2584,52 +2627,22 @@
      "conference": "Western",
      "division": "Pacific"
     },
-    "WPG": {
-     "name": "Winnipeg",
-     "abbrev": "WPG",
-     "points": 17,
-     "games_played": 18,
-     "wins": 7,
-     "losses": 8,
-     "ot_losses": 3,
-     "goal_for": 49,
-     "goal_against": 63,
-     "goal_diff": -14,
-     "point_pct": 0.472222,
-     "l10_wins": 3,
-     "l10_losses": 6,
-     "l10_ot_losses": 1,
-     "l10_points": 7,
-     "home": {
-      "w": 4,
-      "l": 4,
-      "otl": 1
-     },
-     "road": {
-      "w": 3,
-      "l": 4,
-      "otl": 2
-     },
-     "streak": "W",
-     "conference": "Western",
-     "division": "Central"
-    },
     "DET": {
      "name": "Detroit",
      "abbrev": "DET",
      "points": 17,
-     "games_played": 18,
+     "games_played": 19,
      "wins": 7,
-     "losses": 8,
+     "losses": 9,
      "ot_losses": 3,
-     "goal_for": 49,
-     "goal_against": 56,
-     "goal_diff": -7,
-     "point_pct": 0.472222,
+     "goal_for": 51,
+     "goal_against": 59,
+     "goal_diff": -8,
+     "point_pct": 0.447368,
      "l10_wins": 4,
-     "l10_losses": 5,
-     "l10_ot_losses": 1,
-     "l10_points": 9,
+     "l10_losses": 6,
+     "l10_ot_losses": 0,
+     "l10_points": 8,
      "home": {
       "w": 4,
       "l": 5,
@@ -2637,7 +2650,7 @@
      },
      "road": {
       "w": 3,
-      "l": 3,
+      "l": 4,
       "otl": 2
      },
      "streak": "L",
@@ -2674,36 +2687,6 @@
      "conference": "Western",
      "division": "Pacific"
     },
-    "STL": {
-     "name": "St. Louis",
-     "abbrev": "STL",
-     "points": 16,
-     "games_played": 17,
-     "wins": 7,
-     "losses": 8,
-     "ot_losses": 2,
-     "goal_for": 50,
-     "goal_against": 53,
-     "goal_diff": -3,
-     "point_pct": 0.470588,
-     "l10_wins": 4,
-     "l10_losses": 5,
-     "l10_ot_losses": 1,
-     "l10_points": 9,
-     "home": {
-      "w": 4,
-      "l": 2,
-      "otl": 1
-     },
-     "road": {
-      "w": 3,
-      "l": 6,
-      "otl": 1
-     },
-     "streak": "L",
-     "conference": "Western",
-     "division": "Central"
-    },
     "PHI": {
      "name": "Philadelphia",
      "abbrev": "PHI",
@@ -2738,21 +2721,21 @@
      "name": "Columbus",
      "abbrev": "CBJ",
      "points": 14,
-     "games_played": 15,
+     "games_played": 16,
      "wins": 7,
-     "losses": 8,
+     "losses": 9,
      "ot_losses": 0,
-     "goal_for": 40,
-     "goal_against": 47,
-     "goal_diff": -7,
-     "point_pct": 0.466667,
-     "l10_wins": 5,
-     "l10_losses": 5,
+     "goal_for": 41,
+     "goal_against": 51,
+     "goal_diff": -10,
+     "point_pct": 0.4375,
+     "l10_wins": 4,
+     "l10_losses": 6,
      "l10_ot_losses": 0,
-     "l10_points": 10,
+     "l10_points": 8,
      "home": {
       "w": 6,
-      "l": 3,
+      "l": 4,
       "otl": 0
      },
      "road": {
@@ -2798,21 +2781,21 @@
      "name": "Los Angeles",
      "abbrev": "LAK",
      "points": 12,
-     "games_played": 15,
+     "games_played": 16,
      "wins": 5,
-     "losses": 8,
+     "losses": 9,
      "ot_losses": 2,
      "goal_for": 45,
-     "goal_against": 52,
-     "goal_diff": -7,
-     "point_pct": 0.4,
+     "goal_against": 55,
+     "goal_diff": -10,
+     "point_pct": 0.375,
      "l10_wins": 5,
      "l10_losses": 5,
      "l10_ot_losses": 0,
      "l10_points": 10,
      "home": {
       "w": 2,
-      "l": 5,
+      "l": 6,
       "otl": 0
      },
      "road": {
